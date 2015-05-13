@@ -1,0 +1,28 @@
+<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About the newsletter</h4>
+    <p>
+Informing the community of news across the HSF activity areas. <br>
+<a href="/about.html">Learn more here</a>.
+</p><p>
+For more information on the HEP Software Foundation see the <a href="http://hepsoftwarefoundation.org">HSF website</a> or
+contact the <a href="mailto:hep-sf-startup-team@googlegroups.com">startup team</a>.
+    </p>
+  </div>
+  <div class="sidebar-module">
+    <h4>Recent posts</h4>
+    <ol class="list-unstyled">
+    {% for post in site.posts %}
+      <li><a href="#">{{ post.title }}</a></li>
+    {% endfor %}
+    </ol>
+  </div>
+  <div class="sidebar-module">
+    <h4>Links</h4>
+    <ol class="list-unstyled">
+      <li><a href="http://feeds.feedburner.com/HepSoftwareFoundationNewsletter">RSS feed</a></li>
+      <li><a href="https://github.com/HEP-SF/hep-sf.github.io/tree/master/_posts">News post repository</a></li>
+      <li><a class="blog-nav-item" href="http://hepsoftwarefoundation.org">HSF website</a></li>
+    </ol>
+  </div>
+</div><!-- /.blog-sidebar -->

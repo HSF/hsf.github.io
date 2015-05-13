@@ -6,33 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
     <title>{{ page.title }}</title>
 
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
     <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
 
 </head>
 <body>
 
-<div class="site">
+<div class="blog-masthead">
+  <div class="container">
+    <nav class="blog-nav">
+      <a class="blog-nav-item" href="/">Home</a>
+      <a class="blog-nav-item" href="/about.html">About</a>
+    </nav>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="blog-header">
+    <h1 class="blog-title">The HSF Newsletter</h1>
+    <p class="lead blog-description">What's new at the HEP Software Foundation</p>
+  </div>
+
   
   {{ content }}
   
-  <div class="footer">
-    <div class="contact">
-      <p>
-        HEP Software Foundation startup team<br />
-        hep-sf-startup-team@googlegroups.com
-      </p>
-    </div>
-    <div class="rss">
-      <a href="http://feeds.feedburner.com/hep-software-foundation">
-        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-      </a>
-    </div>
-  </div>
+<br><br>
+<hr>
+<div class="footer">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>
 </div>
+
+</div> <!-- container -->
+
 
 <!-- Google Analytics -->
 
 <!-- Google Analytics end -->
 
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -3,18 +3,11 @@ title: "HEP Software Foundation News"
 author: "Torre Wenaus"
 layout: default
 ---
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
-</head>
-<body>
-"{{ site.github.project_title }}" says Hello World
+
+"{{ site.github.project_title }}" says Hello World (only works on github site)
 
 <p>
-Sites:
+Sites: (only works on github site)
 <ul>
 {% for repository in site.github.public_repositories %}
   <li> <a href="{{ repository.html_url }}">{{ repository.name }}</a> </li>
@@ -30,7 +23,3 @@ Posts:
   {% endfor %}
 </ul>
 </p>
-
-<script src="/js/vendor/jquery.js"></script>
-</body>
-</html>
