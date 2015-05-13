@@ -1,0 +1,5 @@
+timezone: Switzerland/Geneva
+highlighter: pygments
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
