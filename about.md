@@ -60,6 +60,7 @@ The file must be added to the [_posts directory](https://github.com/HEP-SF/hep-s
         (you get the idea). You can include a link [here](http://path), use
 
         * bulleted
+            * nested
         * lists
 
         and refer to `inline code` and
