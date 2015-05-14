@@ -16,6 +16,8 @@ This HSF newsletter website is implemented using [github's Pages service](https:
 
 To create a post you add a file in the [github repository of posting sources](https://github.com/HEP-SF/hep-sf.github.io/tree/master/_posts), so you need to be an [HSF github repository](https://github.com/HEP-SF) user. Talk to any member of the startup team.
 
+If you wish (and it is recommended) you can easily set up a local instance of the newsletter site in order to preview submissions. See the [documentation on installing and running Jekyll](https://help.github.com/articles/using-jekyll-with-pages/). The newsletter uses user pages, ie use the master branch.
+
 ## What to post
 
 Here's a template. This snippet covers the entire content of what should be in the post file. Note that the first lines enclosed by three dashes must be the first lines in the file. The format is markdown, see references below.
