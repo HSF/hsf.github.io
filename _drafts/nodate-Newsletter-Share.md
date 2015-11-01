@@ -21,8 +21,8 @@ One of the complex, and always postponed questions is - what license should I us
 Unfortunately it is not as easy as just saying - "well, it's open source!". 
 There are many considerations when choosing a license, but the two main questions are:
 
-  o what do you want others do to or not to do with it?
-  o what other software do I want to take advantage of while developing it?
+  * what do you want others do to or not to do with it?
+  * what other software do I want to take advantage of while developing it?
 
 One technical note discusses this in detail and should help you finding the right open source
 license for your project. **TODO**: add reference
