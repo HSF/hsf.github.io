@@ -1,10 +1,11 @@
 ---
-title: HSF News and the HSF Knowledge Base
+title: HSF Newsletter
 author: Benedikt Hegner
 layout: post
 ---
 
-Dear all,
+## Today's topic: Knowledge Base
+
 
 after some time of apparent silence from our side we would like to update 
 you a little bit on the activities in the HSF during this period.
@@ -24,12 +25,16 @@ But before we come to that, a little reminder of our
 [HSF website](http://hepsoftwarefoundation.org/), where you will find this and 
 much more information about our activities.
 
-Best,
+## News of the Week
+- New version of ROOT released [link](http://)
 
-Your HSF startup team
+## Forthcoming Events
+- ML workshop
+- ATLAS meeting in LBNL
+
+## Job openings
+- DIANA job 1
+- DIANA job 2
 
 ---
 
-## The HSF Software and Computing Knowledge Base
-
-...a shorter version of the about page...
