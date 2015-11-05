@@ -1,23 +1,26 @@
 ---
 layout: default
 ---
-<div class="col-sm-8 blog-main">
+
+<div class="blog-header">
+  <h1 class="blog-title">{{ page.title }}</h1>
+  <p class="lead blog-description">{{ page.date | date_to_string }}</p>
+</div>
+
+<div class="col-sm-12 blog-main">
 <div class="row">
 
   <div class="blog-post">
-    <h2 class="blog-post-title">{{ page.title }}</h2>
-    <p class="blog-post-meta">{{ page.date | date_to_string }} by <a href="#">{{ page.author }}</a></p>
 
 
   {{ content }}
 
-  </div>
-
 </div>
 
+
+</div>
 </div>
 
-{% include sidebar.ext %}
 
 <!--  not interesting yet
 <div id="related">

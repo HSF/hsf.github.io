@@ -1,0 +1,20 @@
+---
+title: "Events"
+layout:  default
+---
+
+<div class="row">
+
+{% for post in site.categories.events %}
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<p class="blog-post-meta">{{ post.date | date_to_string }} by <a href="#">{{ post.author }}</a></p>
+
+{{ post.excerpt }}
+
+</div>
+
+{% endfor %}
+
+</div>

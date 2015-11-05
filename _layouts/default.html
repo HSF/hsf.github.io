@@ -7,7 +7,7 @@
     <title>{{ page.title }}</title>
 
     <!-- bootstrap framework -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/lumen/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
 
     <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
@@ -15,14 +15,44 @@
 </head>
 <body>
 
-<div class="blog-masthead">
-  <div class="container">
-    <nav class="blog-nav">
-      <a class="blog-nav-item" href="/">Home</a>
-      <a class="blog-nav-item" href="/about.html">About</a>
-    </nav>
-  </div>
-</div>
+<div class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand">HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="workinggroups">Working Groups<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="workinggroups">
+                {% for post in site.categories.workinggroups %}
+                  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li>
+              <a href="/events.html">Events</a>
+            </li>
+            <li>
+              <a href="/projects.html">Projects</a>
+            </li>
+            <li>
+              <a href="/get_involved.html">Get involved</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/about.html" target="_blank">About</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
 
 <div class="container">
 

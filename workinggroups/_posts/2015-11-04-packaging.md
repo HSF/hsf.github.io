@@ -1,0 +1,47 @@
+---
+title: Packaging
+layout: plain
+---
+
+The software packaging and distribution activity and working group is getting underway to address common issues, tools and, and approaches, convened by Liz Sexton-Kennedy (FNAL) and Benedikt Hegner (CERN). The activity was launched with a [meeting on Feb 25 2015](http://hepsoftwarefoundation.org/content/packaging-and-build-tools). All are welcome to join the forum and participate:
+
+[Software Packaging Tools Discussion Forum](https://groups.google.com/forum/#!forum/hep-sf-packaging-wg)
+
+# Goals
+The aim of this working group is to foster communication and exchange among the experiments' librarians. We identified various topics to work on. Some of them are:
+
+  1. Common build recipes and tools
+  2. How to take most advantage of technologies like dockers
+  3. Exchange of experience with the CMake eco-system 
+
+We started by tackling the first item.
+
+## Common Build Recipes and Tools
+Software development in high energy physics follows the paradigm of open-source software (OSS). Experiments as well as the theory community heavily rely on software being developed outside of the field. Creating a consistent and working stack out of 100s of packages, on a variety of platforms is a non-trivial task. Within the field multiple technical solutions exist to configure and build those stacks. None of this work is experiment specific and our working group agrees that this effort is being duplicated. 
+
+We held various meetings to look at the existing build and packaging solutions
+
+  * [25.2.2015](https://indico.cern.ch/event/373973/)
+  * [2.6.2015](https://indico.cern.ch/event/398344/)
+  * [9.6.2015](https://indico.cern.ch/event/400272)
+  * [16.6.2015](https://indico.cern.ch/event/402229/)
+  * [23.6.2015](https://indico.cern.ch/event/403790/)
+
+During these meetings we looked at
+
+  * [Worch](https://github.com/brettviren/worch)
+  * [LCGCMake](http://ph-dep-sft.web.cern.ch/document/using-lcgcmake)
+  * [cmsBuild](https://github.com/cmsbuild/cmsdist)
+  * [homebrew](http://brew.sh/)
+  * [Nix](https://nixos.org/nix/)
+  * Contractor
+  * SciSoft
+
+and currently prepare a document summarizing our analysis. 
+
+# Other resources
+
+  * [HSF Organization on GitHub](https://github.com/HEP-SF)
+  * [HSF cmaketools package ](https://github.com/HEP-SF/cmaketools)
+  * Technical Note on Build Tools (in preparation)
+  * [Draft Technical Note on Platform Naming Conventions](http://hepsoftwarefoundation.org/content/technical-notes)
