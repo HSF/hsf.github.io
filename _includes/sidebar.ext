@@ -9,15 +9,31 @@ For more information on the HEP Software Foundation see the <a href="http://heps
 contact the <a href="mailto:hep-sf-startup-team@googlegroups.com">startup team</a>.
     </p>
   </div>
-  <div class="sidebar-module">
-    <h4>Recent posts</h4>
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>Upcoming Events</h4>
     <ol class="list-unstyled">
-    {% for post in site.posts %}
-      <li><a href="#">{{ post.title }}</a></li>
+    {% assign pagedate = site.time | date: "%m-%d-%Y"   %}
+    {% for post in site.categories.events %}
+      {% assign startdate = post.startdate | string_to_date | date: "%m-%d-%Y" %}
+      {% if startdate > pagedate %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
     {% endfor %}
     </ol>
   </div>
-  <div class="sidebar-module">
+
+  <div class="sidebar-module sidebar-module-inset">
+    <h4><a href="/jobs.html">Current Job Openings</a></h4>
+    <ol class="list-unstyled">
+    {% for post in site.categories.jobs %}
+      {% if post.open == true %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ol>
+  </div>
+
+  <div class="sidebar-module sidebar-module-inset">
     <h4>Links</h4>
     <ol class="list-unstyled">
       <li><a href="http://feeds.feedburner.com/HepSoftwareFoundationNewsletter">RSS feed</a></li>
