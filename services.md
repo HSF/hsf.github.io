@@ -4,26 +4,29 @@ author: "Benedikt Hegner"
 layout: default
 ---
 
-# Machine Learning Forum
+# Development Services
 
-The Inter-Experimental LHC Machine Learning Working Group [IML](http://iml.cern.ch) has been launched recently. The group is focused on the development of modern state-of-the art machine learning methods, techniques and practices for high-energy physics problems. The group provides solutions, software and training beneficial for all LHC experiments as well as a forum where on-going work and relevant issues are discussed by the community.
+Both CERN and Fermilab have expressed willingness to support some development tools and services for the HSF community, once technical issues are worked out. For example, access to [TechLab](https://twiki.cern.ch/twiki/bin/viewauth/IT/TechLab) resources at CERN. In other areas the HSF may provide guidance,&nbsp;recommendations, templates etc. for the use of open source tools. This working group will plan and coordinate activities and service offerings in this area.
 
-##Goals
-- Develop & sustain MML4HEP expertise – it is not just about software, but need ML know-how & insights, e.g.
-  - which algorithms to use for which problem
-  - how to tune hyperparameters
-  - how to deal with non-continuous or missing variables
-  - Troubleshooting, novel applications, data vs. MC,...
--  Series of dedicated LHC ML challenges to further strengthen & grow MML-HEP interaction, so we can more effectively collaborate
+## TechLab
 
-## Website
-- [IML](http://iml.cern.ch/tiki-index.php)
+Message sent to the HSF forum on March 26 2015
 
-## Mailing List
-- [lhc-machinelearning-wg@cern.ch](mailto:lhc-machinelearning-wg@cern.ch)
+<div class="rteindent1" style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;">CERN TechLab has been very responsive in taking up with the HSF startup team an examination of how we can secure access for HSF participants to TechLab resources, as agreed at the SLAC workshop. Probably the trickiest part is to establish a process to authenticate non-CERN people on the hosts. TechLab is prepared to work with us and early-adopter project(s) to work through the issues. They suggest an initial focus be on leveraging TechLab for performance measurements and/or energy consumption studies.&nbsp;</div>
 
-## Meetings
--  [Working group meetings](http://iml.cern.ch/tiki-index.php?page=Indico)
+<div class="rteindent1" style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;">&nbsp;</div>
 
-## Workshops
-- [Data Science @ LHC 2015 Workshop](http://indico.cern.ch/event/395374), 9-13 November 2015 at CERN
+<div class="rteindent1" style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;">We invite people to get in touch with us who are interested to have their projects participate as an early adopter and guinea pig. Contact the startup team at&nbsp;<a href="mailto:hep-sf-startup-team@googlegroups.com" style="color: rgb(17, 85, 204);" target="_blank">hep-sf-startup-team@googlegroups.com</a>.&nbsp;</div>
+
+## TechForum interest list
+
+Responders to the call for TechForum early adopters:
+
+  * Tapas Samanta, Variable Energy Cyclotron Centre, Kolkata
+
+
+## Resources
+
+  * [US HEP-FCE Working Group Report on Libraries and Tools](http://hepsoftwarefoundation.org/sites/default/files/fce-tools-wg-report.pdf)
+  * [CERN TechLab OpenPower8 and AArch64 Resources](http://lvalsan.web.cern.ch/lvalsan/processor_benchmarking/presentation/)
+  
