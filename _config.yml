@@ -7,3 +7,4 @@ highlighter: pygments
 gems:
   - jekyll-mentions
   - jekyll-sitemap
+permalink: none
