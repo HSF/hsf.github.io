@@ -12,6 +12,7 @@ We have been compiling a set of [project guidelines](project-guidelines) that al
 
 ## Initial set of Projects under the umbrella of HSF
 
+{:.table .table-hover .table-condensed}
 | Name  | Description | License | Contact |
 | --------| ------------- |----------|-----------|
 | [DD4hep](http://hepsoftware.org/e/dd4hep)   | Generic Detector Description toolkit for HEP  | GPL v3 | [Markus Frank](mailto:marks.frank@cern.ch) |

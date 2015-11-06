@@ -148,3 +148,8 @@
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+
+tr:nth-child(even) {
+    background: #ddd;
+}
