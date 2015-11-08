@@ -1,10 +1,10 @@
 ---
-title: About the HSF 
+title: Goals of the HSF
 author: Benedikt Hegner
 layout: default
 ---
 
-## The HEP Software Foundation
+## Goals of the HEP Software Foundation
 
 The HEP Software Foundation (HSF) has been established to facilitate coordination and common efforts in high energy physics (HEP) software and computing internationally.
 
