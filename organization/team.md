@@ -23,3 +23,11 @@ Currently the activities within the HSF are organized by the *HSF startup team*.
  * [Torre Wenaus](wenaus@gmail.com) (BNL, co-lead)
 
 The entire team can be contacted via [hep-sf-startup-team@googlegroups.com](hep-sf-startup-team@googlegroups.com).
+
+## Meeting Minutes
+
+The startup team meets regularly. The minutes of these meetings are public:
+
+{% for post in site.categories.organization %}
+  * [ {{ post.title }} ]( {{ post.url }} ) ( {{ post.date | date: "%m-%d-%Y" }} )
+{% endfor %}
