@@ -28,6 +28,8 @@ The entire team can be contacted via [hep-sf-startup-team@googlegroups.com](hep-
 
 The startup team meets regularly. The minutes of these meetings are public:
 
-{% for post in site.categories.organization %}
-  * [ {{ post.title }} ]( {{ post.url }} ) ( {{ post.date | date: "%m-%d-%Y" }} )
+{:.table .table-hover .table-condensed .table-striped}
+| Date   | Title      |
+| ------ | ---------- |
+{% for post in site.categories.organization %} | {{ post.date | date: "%m-%d-%Y" }} | [ {{ post.title }} ]( {{ post.url }} ) |
 {% endfor %}

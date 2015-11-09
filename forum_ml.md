@@ -8,7 +8,7 @@ layout: default
 
 The Inter-Experimental LHC Machine Learning Working Group [IML](http://iml.cern.ch) has been launched recently. The group is focused on the development of modern state-of-the art machine learning methods, techniques and practices for high-energy physics problems. The group provides solutions, software and training beneficial for all LHC experiments as well as a forum where on-going work and relevant issues are discussed by the community.
 
-##Goals
+## Goals
 - Develop & sustain MML4HEP expertise – it is not just about software, but need ML know-how & insights, e.g.
   - which algorithms to use for which problem
   - how to tune hyperparameters
