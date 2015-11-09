@@ -21,11 +21,15 @@ Software development in high energy physics follows the paradigm of open-source 
 
 We held various meetings to look at the existing build and packaging solutions
 
-  * [25.2.2015](https://indico.cern.ch/event/373973/)
-  * [2.6.2015](https://indico.cern.ch/event/398344/)
-  * [9.6.2015](https://indico.cern.ch/event/400272)
-  * [16.6.2015](https://indico.cern.ch/event/402229/)
-  * [23.6.2015](https://indico.cern.ch/event/403790/)
+{:.table .table-hover .table-condensed .table-striped}
+| Date                                              | Main topic            |
+| ------------------------------------------------- | --------------------- |
+| [25.2.2015](https://indico.cern.ch/event/373973/) | Brainstorming session |
+| [2.6.2015](https://indico.cern.ch/event/398344/)  | DUNE approach         |
+| [9.6.2015](https://indico.cern.ch/event/400272)   | LCGCMake              |
+| [16.6.2015](https://indico.cern.ch/event/402229/) | cmsBuild              |
+| [23.6.2015](https://indico.cern.ch/event/403790/) | SciSoft, Contractor   |
+| [4.11.2015](https://indico.cern.ch/event/457365/) | AliBuild              |
 
 During these meetings we looked at
 
