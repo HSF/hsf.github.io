@@ -7,7 +7,4 @@ Providing recommendations and standards for software licensing has been identifi
 
 # Resources
 
-  Report from the Task Force on Open Source Software Licence at CERN - [Main report](http://hepsoftwarefoundation.org/sites/default/files/OSL-TF_Final_Report-Main_Volume.pdf) and [Annexes](http://hepsoftwarefoundation.org/sites/default/files/OSL-TF_Final_Report-Volume_of_Annexes.pdf)
-
-
-
+  Report from the Task Force on Open Source Software Licence at CERN - [Main report](/assets/OSL-TF_Final_Report-Main_Volume.pdf) and [Annexes](/assets/OSL-TF_Final_Report-Volume_of_Annexes.pdf)

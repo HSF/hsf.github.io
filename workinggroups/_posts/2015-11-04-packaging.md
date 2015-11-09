@@ -3,7 +3,7 @@ title: Packaging
 layout: plain
 ---
 
-The software packaging and distribution activity and working group is getting underway to address common issues, tools, and approaches, convened by Liz Sexton-Kennedy (FNAL) and Benedikt Hegner (CERN). The activity was launched with a [meeting on Feb 25 2015](http://hepsoftwarefoundation.org/content/packaging-and-build-tools). All are welcome to join the forum and participate:
+The software packaging and distribution activity and working group is getting underway to address common issues, tools, and approaches, convened by Liz Sexton-Kennedy (FNAL) and Benedikt Hegner (CERN). The activity was launched with a meeting on Feb 25 2015. All are welcome to join the forum and participate:
 
 [Software Packaging Tools Discussion Forum](https://groups.google.com/forum/#!forum/hep-sf-packaging-wg)
 
@@ -43,5 +43,5 @@ and currently prepare a document summarizing our analysis.
 
   * [HSF Organization on GitHub](https://github.com/HEP-SF)
   * [HSF cmaketools package ](https://github.com/HEP-SF/cmaketools)
-  * Technical Note on Build Tools (in preparation)
-  * [Draft Technical Note on Platform Naming Conventions](http://hepsoftwarefoundation.org/content/technical-notes)
+  * [Draft Technical Note on Build Tools](/notes.html)
+  * [Draft Technical Note on Platform Naming Conventions](/notes.html)
