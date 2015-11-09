@@ -7,23 +7,8 @@ layout: default
   <p class="blog-post-meta">{{ page.date | date_to_string }} by <a href="#">{{ page.author }}</a></p>
 </div>
 
-<div class="col-sm-12 blog-main">
-  <div class="row">
-
-    <div class="blog-post">
+<div class="row">
+  <div class="col-sm-12 blog-main">
       {{ content }}
-    </div>
   </div>
 </div>
-
-
-<!--  not interesting yet
-<div id="related">
-  <h3>Related Posts</h3>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
--->

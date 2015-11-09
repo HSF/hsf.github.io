@@ -2,35 +2,15 @@
 layout: default
 ---
 <div class="blog-header">
-  <h1 class="blog-title">The HSF Job List</h1>
-<p class="lead blog-description">Where to find your next job</p>
+  <h1 class="blog-title">{{ page.title }}</h1>
+  <p class="lead blog-description">{{ page.date | date_to_string }}</p>
 </div>
 
-<div class="col-sm-8 blog-main">
+<div class="col-sm-12 blog-main">
 <div class="row">
-
-  <div class="blog-post">
-    <h2 class="blog-post-title">{{ page.title }}</h2>
-    <p class="blog-post-meta">{{ page.date | date_to_string }} by <a href="#">{{ page.author }}</a></p>
-
 
   {{ content }}
 
- </div>
-
 </div>
 
 </div>
-
-{% include sidebar.ext %}
-
-<!--  not interesting yet
-<div id="related">
-  <h3>Related Posts</h3>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
--->
