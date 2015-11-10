@@ -28,7 +28,9 @@ initiated, and the first priority of synthesizing the white papers was begun.
  * Nov 11 2014: [White Paper Analysis and Proposed Startup Plan](/assets/HSFwhitepaperanalysisandstartupplanV1.1.pdf) released,
 followed by discussions and contact meetings with many parts of the community
 prior to the SLAC workshop.
- * Jan 20-22 2015: [SLAC HSF workshop](/organization/2014/10/22/ifb.html) established concrete activities (see this website) and next steps for the HSF.
+ * Jan 20-22 2015: [SLAC HSF workshop](/organization/2014/10/22/ifb.html) established concrete activities and next steps for the HSF.
+   * [Minutes](https://docs.google.com/document/d/1R6CnNTx4aEQAKxAVYGt1FZYeru0wOpQtcynJKC4iiIw)
+   * [Next Steps discussion](https://docs.google.com/document/d/1kumAbqzZdLS9IgN6J0HswLne9Ny1otXO-xQXSQ1TwTU)
  * Mar 3 2015: Working groups, services, activities emerging from the workshop established.
  * Apr 17, 2015: [HSF meeting at CHEP 2015, Okinawa](/events/2015/04/17/chep.html)
 to present progress, assess opportunities emerging from CHEP, and discuss next steps.
@@ -39,10 +41,6 @@ The startup team produced a document analyzing the white papers (below) and
 proposing a startup plan. A [version 1.0 draft](/assets/HSFwhitepaperanalysisandstartupplanV1.0.pdf)
 was released on Nov 11 2014. An updated [version 1.1](/assets/HSFwhitepaperanalysisandstartupplanV1.1.pdf)
 was released on Jan 7 2015. Both revisions are attached to this page.
-
-## Presentations
-
-**TODO** See the attached documents below for HSF presentation slides.
 
 ## White papers
 
