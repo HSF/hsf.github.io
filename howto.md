@@ -6,21 +6,21 @@ layout: default
 
 ## About the HSF website
 
-This site is maintained by the [HSF github repository people](https://github.com/orgs/HEP-SF/people). If you're interested to become one contact the HSF startup team or any team member. It was set up by Torre Wenaus and Benedikt Hegner.
+This site is maintained by the [HSF GitHub repository people](https://github.com/orgs/HEP-SF/people). If you're interested to become one contact the HSF startup team or any team member. It was set up by Torre Wenaus and Benedikt Hegner.
 
 ## Implementation
 
-This website is implemented using [github's Pages service](https://pages.github.com/) which makes it easy to create a website associated with a github account or project. [Pages uses Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in github). It supports structured sites like blogs in a simple but powerful way. We all like to work in code editors; this lets you write content in a friendly editor using the easy [markdown syntax](http://daringfireball.net/projects/markdown/syntax) (which is used by github itself).
+This website is implemented using [GitHub's Pages service](https://pages.github.com/) which makes it easy to create a website associated with a GitHub account or project. [Pages uses Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in GitHub). It supports structured sites like blogs in a simple but powerful way. We all like to work in code editors; this lets you write content in a friendly editor using the easy [markdown syntax](http://daringfireball.net/projects/markdown/syntax) (which is used by GitHub itself).
 
 ## How to add and edit information
 
 For adding information to this page or improving it, we follow the *[pull request](https://help.github.com/articles/using-pull-requests/)* workflow in GitHub.
 
 Just fork our [HSF website repository](https://github.com/HEP-SF/hep-sf.github.io), edit the
-files you want to edit and open a pull request.
+files you want to edit, push them to your fork, and open a pull request.
 
-If you wish (and it is recommended) you can easily set up a local instance of the newsletter site in order to preview your submissions. See the [documentation on installing and running Jekyll](https://help.github.com/articles/using-jekyll-with-pages/). The website uses user pages, ie use the master branch.
-
+If you wish (and it is recommended) you can easily set up a local instance of the newsletter site in order to preview your submissions. See the [documentation on installing and running Jekyll](https://help.github.com/articles/using-jekyll-with-pages/).
+The website uses the master branch of the hep-sf.github.io repository.
 If you only do simple operations like the ones mentioned below, the GitHub
 interface itself gives you all options to add and edit such files in the browser.
 So no local checkout is required.

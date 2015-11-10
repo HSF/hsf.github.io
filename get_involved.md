@@ -8,11 +8,12 @@ layout: default
 
 Our goal is to make every effort going on as transparent and open as possible.
 Our official communication channel is the hep-sf-forum. Simply send a mail with
-‘subscribe’ as the subject (not content) to
+‘subscribe’ as the subject (no content) to
 hep-sf-forum+subscribe@googlegroups.com
 
 In addition, there is a HEP S&C community mailing list for occasional HEP
-software and computing community mailings. Everyone involved or interested in
+software and computing community mailings. It is not strictly related to HSF:
+Everyone involved or interested in
 HEP S&C is encouraged to sign up to this list. It will be used for occasional
 mailings of community wide interest, such as announcements of HEP S&C
 conferences, workshops and schools.
@@ -32,16 +33,18 @@ by joining the HSF with your software project:
 ## Meetings
 
 See the Events listing on this site for information on HSF meetings, workshops,
-etc. Meetings use CERN indico for agenda pages. The pages are open to the world,
+etc. Meetings use CERN Indico for agenda pages. The pages are open to the world,
 no CERN account needed. So is Vidyo, the conference system we use. Connection
-info is on the indico pages. However should you need to upload material to the
+info is on the Indico pages. However should you need to upload material to the
 agenda, a CERN account is needed. CERN provides lightweight accounts to non CERN
 affiliated people when needed. See https://account.cern.ch/account/Externals/
 
 ## Giving input to the HSF Startup Team
 
-If the existing [fora](/forums.html) do not seem to be the right place to ask
-questions or make proposals, feel free to contact the [HSF startup team](hep-sf-startup-team@googlegroups.com.) directly.
+If you are not comfortable with raising an issue in the
+[forums](/forums.html] or if you are afraid that this is not the
+right place for it, feel free to contact the
+[HSF startup team](hep-sf-startup-team@googlegroups.com.) directly.
 
 ## Contributing to this website
 
