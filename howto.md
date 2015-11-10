@@ -14,11 +14,16 @@ This website is implemented using [github's Pages service](https://pages.github.
 
 ## How to add and edit information
 
-To create or edit files you have to use the [github repository of the HSF website](https://github.com/HEP-SF/hep-sf.github.io/), so you need to be an [HSF github repository](https://github.com/HEP-SF) user. Talk to any member of the startup team.
+For adding information to this page or improving it, we follow the *[pull request](https://help.github.com/articles/using-pull-requests/)* workflow in GitHub.
 
-If you wish (and it is recommended) you can easily set up a local instance of the newsletter site in order to preview submissions. See the [documentation on installing and running Jekyll](https://help.github.com/articles/using-jekyll-with-pages/). The website uses user pages, ie use the master branch.
+Just fork our [HSF website repository](https://github.com/HEP-SF/hep-sf.github.io), edit the
+files you want to edit and open a pull request.
 
-If you only do simple operations like the ones mentioned below, the GitHub interface itself gives you all options to add and edit such files in the browser.
+If you wish (and it is recommended) you can easily set up a local instance of the newsletter site in order to preview your submissions. See the [documentation on installing and running Jekyll](https://help.github.com/articles/using-jekyll-with-pages/). The website uses user pages, ie use the master branch.
+
+If you only do simple operations like the ones mentioned below, the GitHub
+interface itself gives you all options to add and edit such files in the browser.
+So no local checkout is required.
 
 ### Adding to the newsletter
 
@@ -42,23 +47,17 @@ Add a new file in `jobs/_posts` and follow the front-matter of the other files
 in there. It is important to fill the field `open: true`. This field allows to
 only show positions that aren't filled yet.
 
-
-### Sharing and testing drafts
-You can either use the github approach of forking a repository, do your changes there and make a pull request. Or if you want to store the draft into the main repository directly, you can put it into the `_drafts/` folder. Adding `--drafts` to the command line of jekyll allows you to render them locally. Once happy, `git mv` it into the `_posts/` directory and publish to the official repository.
-
 ## Technical details
 
 ### Page templates
 
-As of writing, this website contains the following page templates:
+As of writing, this website contains the following page templates for wider usage:
 
  * default - every page inherits from this
- * event
- * job_summary
- * job
- * newsletter
- * page
- * plain
+ * event - to be used for events
+ * job - to be used for job postings
+ * newsletter - to be used for news items
+ * plain - to be used for standard contents
 
 ### Menu bar and automatization
 The menu bar is defined in `default.html`, from which all page layouts inherit.
