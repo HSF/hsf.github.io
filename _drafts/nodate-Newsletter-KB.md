@@ -6,11 +6,10 @@ layout: post
 
 ## Today's topic: Knowledge Base
 
-
-after some time of apparent silence from our side we would like to update 
+After some time of apparent silence from our side we would like to update
 you a little bit on the activities in the HSF during this period.
 
-We have many efforts going on in parallel. Not quite at the speed we were 
+We have many efforts going on in parallel. Not quite at the speed we were
 hoping fore when we started, but nevertheless there is tangible progress. <!--more-->
 In the next few newsletters we would like to update you on the following topics:
 
@@ -20,21 +19,36 @@ In the next few newsletters we would like to update you on the following topics:
    * Starting your own SW project - hands-on support by the community
    * Sharing ideas and code - technical notes and SW licenses
 
-Today's newsletter will be dedicated to the new HSF Knowledge Base. 
-But before we come to that, a little reminder of our 
-[HSF website](http://hepsoftwarefoundation.org/), where you will find this and 
+Today's newsletter will be dedicated to the new HSF Knowledge Base.
+But before we come to that, a little reminder of our
+[HSF website](http://hepsoftwarefoundation.org/), where you will find this and
 much more information about our activities.
 
-## News of the Week
-- New version of ROOT released [link](http://)
+## The HEP Software & Computing Knowledge Base
 
-## Forthcoming Events
-- ML workshop
-- ATLAS meeting in LBNL
+The High Energy Physics (HEP) Software & Computing [Knowledge Base](https://en.wikipedia.org/wiki/Knowledge_base) (KB) at [hepsoftware.org](http://hepsoftware.org) is a collection point for HEP related software projects and information on HEP software and computing. You can use it to look for existing software, to make your own project known to the community, and to inform the community what software you and your experiment use.
 
-## Job openings
-- DIANA job 1
-- DIANA job 2
+## What kind of information is stored
 
----
+To take a concrete example, let's have a look at the information stored for the
+*[ROOT](http://hepsoftware.org/e/root)* package. It contains a short description
+of the project, pointers to support lists, repository, and other sources of
+information. In addition it links to the various users of ROOT within the knowledge
+base. All information, most of you probably know.
+However, finding that out for less well known packages is much harder. The KB provides a central collection point for such information.
 
+In addition to software projects, the KB as well can contain information about
+summer schools, efforts or organizations. Of course the [HSF](http://hepsoftware.org/e/hsf)
+is represented there as well. 
+
+## How to add new information
+
+Please feel encouraged to extend, or update the information presented in the knowledge base. Its usefulness depends on developing rich informative content. Instead of requiring user registration, you can re-use your account of either GitHub, Google, Dropbox, Amazon, or Facebook. One click of confirmation and you can immediately start adding new information.
+
+Editing itself works via clicking on the *pen icon*, typing your text in Markdown, and hitting the green save button in the header. A more detailed introduction into all the editing capabilities is given [here](http://hepsoftware.org/e/hepsoftwareorg).
+
+
+
+## Feedback
+
+Feedback is encouraged! Send it to hepsoftware@gmail.com or to the author, Torre Wenaus wenaus@gmail.com.
