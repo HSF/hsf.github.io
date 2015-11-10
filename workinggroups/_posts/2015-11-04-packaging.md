@@ -47,5 +47,5 @@ and currently prepare a document summarizing our analysis.
 
   * [HSF Organization on GitHub](https://github.com/HEP-SF)
   * [HSF cmaketools package ](https://github.com/HEP-SF/cmaketools)
-  * [Draft Technical Note on Build Tools](/notes.html)
-  * [Draft Technical Note on Platform Naming Conventions](/notes.html)
+  * [Draft Technical Note on Build Tools](/technical_notes.html)
+  * [Draft Technical Note on Platform Naming Conventions](/technical_notes.html)
