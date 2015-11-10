@@ -76,7 +76,7 @@ down menu `Working Groups`.
 
 ### Side bar and automatization
 The side bar contains two dynamic blocks - *upcoming events* and *current job
-openings*. Both are filled with *Liquid* snippets defined in `_includes`.
+openings*. Both are filled with *[Liquid](https://github.com/Shopify/liquid/wiki)* snippets defined in `_includes`.
 
 
 
