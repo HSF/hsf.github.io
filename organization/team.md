@@ -37,6 +37,6 @@ The startup team meets regularly. The minutes of these meetings are public:
 ## Presentations given by Startup Team Members
 
  * [HSF introduction presented to the intensity frontier community, Jan 8 2015](/assets/HSF-intro-intensity-20150108.pdf)
- * [Workshop summary presented to the LCG Grid Deployment Board, Michel Jouvin](/assets/HSF-SLAC-workshop-summary-GDB-Feb.pdf)
+ * [Workshop summary presented to the WLCG GDB, Michel Jouvin](/assets/HSF-SLAC-workshop-summary-GDB-Feb.pdf)
  * [Workshop summary presented to ATLAS S&C Week, Vakho Tsulaia](/assets/HSF-Summary-Vakho-Tsulaia-ATLAS.pdf)
  * [Workshop summary presented to CERN PH-SFT, Benedikt Hegner](/assets/Benedikt%20Hegner%20HSFSummary.pdf)
