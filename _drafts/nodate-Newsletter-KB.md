@@ -35,11 +35,11 @@ To take a concrete example, let's have a look at the information stored for the
 of the project, pointers to support lists, repository, and other sources of
 information. In addition it links to the various users of ROOT within the knowledge
 base. All information, most of you probably know.
-However, finding that out for less well known packages is much harder. The KB provides a central collection point for such information.
+However, finding that out for less well known packages is much harder. The KB provides a central collection point for such information. It also provides a way to describe relationships like who uses what.
 
 In addition to software projects, the KB as well can contain information about
 summer schools, efforts or organizations. Of course the [HSF](http://hepsoftware.org/e/hsf)
-is represented there as well. 
+is represented there as well.
 
 ## How to add new information
 
