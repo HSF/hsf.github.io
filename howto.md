@@ -10,14 +10,14 @@ This site is maintained by the HSF GitHub [contributors](https://github.com/orgs
 
 ## Implementation
 
-This website is implemented using [GitHub's Pages service](https://pages.github.com/) which makes it easy to create a website associated with a GitHub account or project. [Pages uses Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in GitHub). It supports structured sites like blogs in a simple but powerful way.
+This website is implemented using [GitHub's Pages](https://pages.github.com/) service which makes it easy to create a website associated with a GitHub account or project. Pages uses [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in GitHub). It supports structured sites like blogs in a simple but powerful way.
 The site content is written using the easy [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) (which is used by GitHub itself).
 
 ## How to add and edit information
 
 For adding information to this page or improving it, we follow the *[pull request](https://help.github.com/articles/using-pull-requests/)* workflow in GitHub.
 
-Just fork our [HSF website repository](https://github.com/HEP-SF/hep-sf.github.io), edit the
+Just fork our HSF [website repository](https://github.com/HEP-SF/hep-sf.github.io), edit the
 files you want to edit, push them to your fork, and open a pull request.
 
 If you wish (and it is recommended) you can easily set up a local instance of the newsletter site in order to preview your submissions. See the [documentation](https://help.github.com/articles/using-jekyll-with-pages/)
@@ -32,7 +32,7 @@ local check-out of your personal fork on GitHub.
 ### General structure of website content files
 All Markdown files of this site start with a section surrounded by `---`. This
 so-called *front-matter* contains metadata about the content. Such metadata are
-e.g. the author of the document or the title of the document. 
+e.g. the author of the document or the title of the document.
 
 ### Adding to the newsletter
 
@@ -76,12 +76,12 @@ down menu `Working Groups`.
 
 ### Side bar and automatization
 The side bar contains two dynamic blocks - *upcoming events* and *current job
-openings*. Both are filled with *liquid* snippets defined in `_includes`.
+openings*. Both are filled with *Liquid* snippets defined in `_includes`.
 
 
 
 ## Useful references
 
 - [Jekyll](http://jekyllrb.com/) to build websites from plain text
-- [The liquid template engine used by Jekyll](https://github.com/Shopify/liquid/wiki)
-- [markdown syntax](http://daringfireball.net/projects/markdown/syntax)
+- The [Liquid](https://github.com/Shopify/liquid/wiki) template engine used by Jekyll
+- [Markdown](http://daringfireball.net/projects/markdown/syntax) syntax
