@@ -16,7 +16,7 @@ Currently the activities within the HSF are organized by the *HSF startup team*.
  * Pere Mato [CERN](http://cern.ch), co-lead
  * Dario Menasce [INFN](http://www.mi.infn.it)
  * Elizabeth Sexton-Kennedy [FNAL](http://www.fnal.gov)
- * Graeme Steward [Glasgow](http://www.gla.ac.uk/schools/physics/research/groups/particlephysicsexperiment/)
+ * Graeme Stewart [Glasgow](http://www.gla.ac.uk/schools/physics/research/groups/particlephysicsexperiment/)
  * Craig Tull [LBNL](http://www.lbl.gov)
  * Andrea Valassi [CERN](http://cern.ch)
  * Brett Viren [BNL](https://www.bnl.gov)
