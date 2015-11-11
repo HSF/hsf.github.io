@@ -1,7 +1,6 @@
 <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
   <div class="sidebar-module sidebar-module-inset">
     <h4>About the HSF</h4>
-    <a class="btn btn-info" href="/logo_contest.html">Join the logo contest!</a>
     <p>
 For more information on the HEP Software Foundation see the <a href="/organization/about.html">about</a> page or
 contact the <a href="mailto:hep-sf-startup-team@googlegroups.com">startup team</a>.
