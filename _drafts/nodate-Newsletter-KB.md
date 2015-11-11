@@ -10,7 +10,7 @@ After some time of apparent silence from our side we would like to update
 you a little bit on the activities in the HSF during this period.
 
 We have many efforts going on in parallel. Not quite at the speed we were
-hoping fore when we started, but nevertheless there is tangible progress. <!--more-->
+hoping for when we started, but nevertheless there is tangible progress. <!--more-->
 In the next few newsletters we would like to update you on the following topics:
 
    * Finding and advertising existing SW - the HSF knowledge base
