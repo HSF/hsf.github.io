@@ -49,7 +49,7 @@ right place for it, feel free to contact the
 ## Contributing to this website
 
 You are very welcome to extend this website and add information to it. You can
-find instructions on how to do it [here](/howto.html).
+find instructions on how to do it [here](/howto-website.html).
 
 ## Contributing to the HSF Knowledge Base
 
