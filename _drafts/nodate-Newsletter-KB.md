@@ -37,15 +37,15 @@ information. In addition it links to the various users of ROOT within the knowle
 base. All information, most of you probably know.
 However, finding that out for less well known packages is much harder. The KB provides a central collection point for such information. It also provides a way to describe relationships like who uses what.
 
-In addition to software projects, the KB as well can contain information about
-summer schools, efforts or organizations. Of course the [HSF](http://hepsoftware.org/e/hsf)
+In addition to software projects, the KB contains information about
+summer schools, various events or resources related to HEP software and computing or organizations. Of course the [HSF](http://hepsoftware.org/e/hsf)
 is represented there as well.
 
 ## How to add new information
 
 Please feel encouraged to extend, or update the information presented in the knowledge base. Its usefulness depends on developing rich informative content. Instead of requiring user registration, you can re-use your account of either GitHub, Google, Dropbox, Amazon, or Facebook. One click of confirmation and you can immediately start adding new information.
 
-Editing itself works via clicking on the *pen icon*, typing your text in Markdown, and hitting the green save button in the header. A more detailed introduction into all the editing capabilities is given [here](http://hepsoftware.org/e/hepsoftwareorg).
+Editing itself works via clicking on the *pen icon*, typing your text in [Markdown](https://help.github.com/articles/markdown-basics/), and hitting the green save button in the header. A more detailed introduction into all the editing capabilities is given [here](http://hepsoftware.org/e/hepsoftwareorg).
 
 
 
