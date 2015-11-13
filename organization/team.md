@@ -36,7 +36,9 @@ The startup team meets regularly. The minutes of these meetings are public:
 
 ## Presentations given by Startup Team Members
 
- * [HSF introduction presented to the intensity frontier community, Jan 8 2015](/assets/HSF-intro-intensity-20150108.pdf)
- * [Workshop summary presented to the WLCG GDB, Michel Jouvin](/assets/HSF-SLAC-workshop-summary-GDB-Feb.pdf)
- * [Workshop summary presented to ATLAS S&C Week, Vakho Tsulaia](/assets/HSF-Summary-Vakho-Tsulaia-ATLAS.pdf)
- * [Workshop summary presented to CERN PH-SFT, Benedikt Hegner](/assets/Benedikt%20Hegner%20HSFSummary.pdf)
+ * [HSF summary](https://indico.cern.ch/event/395887/session/5/contribution/12/attachments/1185905/1719290/HSF_111115.pdf) at [ATLAS Software Technical Meeting](https://indico.cern.ch/event/395887/other-view?view=standard), Nov 11 2015, Benedikt Hegner
+ * [HSF initiatives](https://indico.cern.ch/event/454984/contribution/3/attachments/1171114/1690747/HEP_Software_Foundation_HSF__CMS_Meeting_20151015.pdf) at [CMS Offline and Computing Week](https://indico.cern.ch/event/454984/), Oct 15 2015, Pere Mato
+ * [Workshop summary](/assets/Benedikt%20Hegner%20HSFSummary.pdf) presented to CERN PH-SFT, Feb 2015, Benedikt Hegner
+ * [Workshop summary](/assets/HSF-Summary-Vakho-Tsulaia-ATLAS.pdf) presented to ATLAS S&C Week, Feb 2015, Vakho Tsulaia
+ * [Workshop summary](/assets/HSF-SLAC-workshop-summary-GDB-Feb.pdf) presented to the WLCG GDB, Feb 2015, Michel Jouvin
+ * [HSF introduction](/assets/HSF-intro-intensity-20150108.pdf) presented to the intensity frontier community, Jan 8 2015, Torre Wenaus
