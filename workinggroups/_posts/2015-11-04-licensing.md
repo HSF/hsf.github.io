@@ -11,7 +11,7 @@ Despite the HSF is only about open-source software, there are several licensing 
 
 In Spring 2015, A working group has been formed with people from the community who had already some experiences with licensing issues. This working group, as any in the HSF, is open to new participants and contributions. All the discussions so far took place either in the HSF Startup Team (<hep-sf-startup-team@googlegroups.com>) or in the HSF Technical Forum (<hep-sf-forum@googlegroups.com>) for wider discussions.
 
-The first outcome of this working group is expected by the end of 2015 as a HSF [Technical Note](http://news.hepsoftwarefoundation.org/technical_notes.html) discussing the main issues related to open-source software licensing and proposing some licensing recommendations for HSF projects which don't have already a well established license. 
+The first outcome of this working group is expected by the end of 2015 as a HSF [Technical Note](http://www.hepsoftwarefoundation.org/technical_notes.html) discussing the main issues related to open-source software licensing and proposing some licensing recommendations for HSF projects which don't have already a well established license. 
 
 # Resources
 
