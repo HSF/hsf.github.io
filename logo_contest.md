@@ -6,7 +6,7 @@ layout: default
 
 # Logo contest
 
-It's time the HSF had a logo, so we're holding a contest. Put your creativity to work and upload your contribution to [http://it.wikitolearn.org/Main_HSF_Page/Some_proposals_for_the_HSF_logo](http://it.wikitolearn.org/Main_HSF_Page/Some_proposals_for_the_HSF_logo) and send an email to the [HSF startup team](hep-sf-startup-team@googlegroups.com).
+It's time the HSF had a logo, so we're holding a contest. Put your creativity to work and upload your contribution to [http://it.wikitolearn.org/Main_HSF_Page/Some_proposals_for_the_HSF_logo](http://it.wikitolearn.org/Main_HSF_Page/Some_proposals_for_the_HSF_logo) and send an email to the [HSF startup team](hep-sf-startup-team@googlegroups.com). Do not hesitate to contact us in case of problems.
 The deadline is Janurary 10th next year. So you have the entire Christmas break for forming ideas and preparing contributions.  
 
 After the deadline there will be a community-wide vote on selecting the best logo.
