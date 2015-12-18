@@ -30,6 +30,7 @@ We held various meetings to look at the existing build and packaging solutions
 | [16.6.2015](https://indico.cern.ch/event/402229/) | cmsBuild              |
 | [23.6.2015](https://indico.cern.ch/event/403790/) | SciSoft, Contractor   |
 | [4.11.2015](https://indico.cern.ch/event/457365/) | AliBuild              |
+| [18.11.2015](https://indico.cern.ch/event/462334/) | Conda                 |
 
 During these meetings we looked at
 
@@ -40,6 +41,7 @@ During these meetings we looked at
   * [Nix](https://nixos.org/nix/)
   * Contractor
   * SciSoft
+  * [Conda](http://conda.pydata.org/docs/)
 
 and currently prepare a document summarizing our analysis.
 
