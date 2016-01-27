@@ -31,7 +31,7 @@ The startup team meets regularly. The minutes of these meetings are public:
 {:.table .table-hover .table-condensed .table-striped}
 | Date   | Title      |
 | ------ | ---------- |
-{% for post in site.categories.organization %} | {{ post.date | date: "%m-%d-%Y" }} | [ {{ post.title }} ]( {{ post.url }} ) |
+{% for post in site.categories.organization %} | {{ post.date | date: "%d-%m-%Y" }} | [ {{ post.title }} ]( {{ post.url }} ) |
 {% endfor %}
 
 ## Presentations given by Startup Team Members
