@@ -18,7 +18,18 @@ contact the <a href="mailto:hep-sf-startup-team@googlegroups.com">startup team</
     {% endfor %}
     </ol>
   </div>
-
+  
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>HSF Meetings</h4>
+    <ol class="list-unstyled">
+    {% assign pagedate = site.time | date: "%Y-%m-%d"   %}
+    {% for post in site.categories.organization limit: 3 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ol>
+    <a href="/organization/team.html">more...</a>
+  </div>
+  
   <div class="sidebar-module sidebar-module-inset">
     <h4><a href="/jobs.html">Current Job Openings</a></h4>
     <ol class="list-unstyled">
