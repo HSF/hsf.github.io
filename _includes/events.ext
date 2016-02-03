@@ -11,4 +11,4 @@
   {% endfor %}
   </ol>
 
-See also [HEP S&amp;C community events](https://hepsoftware.org/?popupmode=Events&popupstate=events)
+See also <a href='https://hepsoftware.org/?popupmode=Events&popupstate=events'>HEP S&amp;C community events</a>
