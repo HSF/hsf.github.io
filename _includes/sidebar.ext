@@ -9,9 +9,9 @@ contact the <a href="mailto:hep-sf-startup-team@googlegroups.com">startup team</
   <div class="sidebar-module sidebar-module-inset">
     <h4>Upcoming Events</h4>
     <ol class="list-unstyled">
-    {% assign pagedate = site.time | date: "%m-%d-%Y"   %}
+    {% assign pagedate = site.time | date: "%Y-%m-%d"   %}
     {% for post in site.categories.events %}
-      {% assign startdate = post.startdate | string_to_date | date: "%m-%d-%Y" %}
+      {% assign startdate = post.startdate | string_to_date | date: "%Y-%m-%d" %}
       {% if startdate > pagedate %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
