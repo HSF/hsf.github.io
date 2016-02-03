@@ -4,6 +4,7 @@ url: http://news.hepsoftwarefoundation.org
 excerpt_separator: <!--more-->
 timezone: Switzerland/Geneva
 highlighter: rouge
+future: true
 gems:
   - jekyll-mentions
   - jekyll-sitemap
