@@ -26,7 +26,7 @@ The entire team can be contacted via <hep-sf-startup-team@googlegroups.com>.
 
 ## Meeting Minutes
 
-The startup team meets regularly. The minutes of these meetings are public:
+The startup team runs a regular HSF meeting (nominally, and usually, weekly) which is open to all. Meeting announcements and minutes are posted to the HSF open forum google group.
 
 {:.table .table-hover .table-condensed .table-striped}
 | Date   | Title      |
