@@ -21,6 +21,7 @@ The Technical Notes policy is set out in the first technical note. Finalized not
 | Draft TN Reference  | Title           | Authors     | Ends    | Download    |
 | ------------- | ------------- | ------------ |---------|---------------|
 | HSF-TN-2016-LIC  | (Draft) Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al.| 28 Jan 2016 | [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-01) |
+| HSF-TN-2016-MJF  | (Draft) Machine/Job Features  | M. Alef et al.| 19 Feb 2016 | [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/draft-2016-MJF) |
 
 ## Drafts in earlier stages of the acceptance process:
 
