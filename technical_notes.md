@@ -6,7 +6,7 @@ layout: default
 
 # Technical Notes
 
-The HEP Software Foundation technical note series was created to provide a curated, archival home for documents arising from or relevant to the activities of the HSF. All suggestions for including documents in the series are welcome.
+The HEP Software Foundation technical note series was created to provide a curated, archival home for documents arising from or relevant to the activities of the HSF and related projects. All suggestions for including documents in the series are welcome.
 
 The Technical Notes policy is set out in the first technical note. Finalized notes and some of the later stages of the acceptance process are stored in the HSF GitHub repository.
 
