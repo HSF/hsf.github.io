@@ -6,7 +6,7 @@ layout: default
 
 # Technical Notes
 
-The HEP Software Foundation technical note series was created to provide a curated, archival home for documents arising from or relevant to the activities of the HSF and related projects. All suggestions for including documents in the series are welcome.
+The HEP Software Foundation technical note series was created to provide a curated, archival home for documents arising from or relevant to the activities of the HSF and related projects. All suggestions for including documents in the series are welcome. Please contact the current technical notes series editor (Andrew McNab) for help in submitting notes or to discuss whether they are within the scope of the series.
 
 The Technical Notes policy is set out in the first technical note. Finalized notes and some of the later stages of the acceptance process are stored in the HSF GitHub repository.
 
@@ -17,7 +17,7 @@ The Technical Notes policy is set out in the first technical note. Finalized not
 
 ## Drafts in the consultation stage
 
-Before being assigned an HSF reference and being archived in their final form, final drafts are published on the [hep-sf-forum](http://groups.google.com/d/forum/hep-sf-forum) mailing list. In most cases, this consultation stage is intended to cover the formatting and language quality of the notes, rather than the substantive content which has been already decided by the relevant HSF activity or external project.
+Before being assigned an HSF reference and being archived in their final form, final drafts are published on the [hep-sf-forum](http://groups.google.com/d/forum/hep-sf-forum) mailing list. In most cases, this consultation stage is intended to cover the formatting and language quality of the notes, rather than the substantive content which has already been decided by the relevant HSF activity or external project.
 
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Ends    | Download    |
