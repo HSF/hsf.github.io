@@ -17,6 +17,8 @@ The Technical Notes policy is set out in the first technical note. Finalized not
 
 ## Drafts in the consultation stage
 
+Before being assigned an HSF reference and being archived in their final form, final drafts are published on the [hep-sf-forum](http://groups.google.com/d/forum/hep-sf-forum) mailing list. In most cases, this consultation stage is intended to cover the formatting and language quality of the notes, rather than the substantive content which has been already decided by the relevant HSF activity or external project.
+
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Ends    | Download    |
 | ------------- | ------------- | ------------ |---------|---------------|
