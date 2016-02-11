@@ -13,7 +13,6 @@ The Technical Notes policy is set out in the first technical note. Finalized not
 {:.table .table-hover .table-condensed .table-striped}
 | TN Number  | Title           | Authors     | Download    |
 | ------------- | ------------- | ------------ |---------------|
-
 | HSF-TN-2015-01  | HSF Technical Notes policy  | A. McNab | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2015-01/HSF-TN-2015-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2015-01) |
 
 ## Drafts in the consultation stage
