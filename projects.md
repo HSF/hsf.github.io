@@ -21,5 +21,7 @@ We have been compiling a set of [project guidelines](project_guidelines.html) th
 | [fads](http://hepsoftware.org/e/fads)          | FAst Detector Simulation  | BSD-3 | [Sebastien Binet](mailto:binet@cern.ch) |  
 | [Gaudi](http://hepsoftware.org/e/gaudi)          | Event data processing framework | Unk | [Marco Clemencic](mailto:marco.clemencic@cern.ch) |  
 | [HepMC3](http://hepsoftware.org/e/hepmc3) | C++ Event Record for Monte Carlo Generators | Unk | [Witek Pokorski](mailto:witold.pokorski@cern.ch) |
+| [podio](https://github.com/hegner/podio) | Event Data Model Library based on plain-old-data | GPL v3 | [Benedikt Hegner](mailto:benedikt.hegner@cern.ch) |
+| [PM4hep](https://github.com/hegner/PM4hep) | Minimal Plugin Manager | GPL v3 | [Benedikt Hegner](mailto:benedikt.hegner@cern.ch) |
 | [ROOT](http://hepsoftware.org/e/root)            | Data Analysis Framework | LGPL v2 | [Pere Mato](mailto:pere.mato@cern.ch) |
 | [XRootD](http://hepsoftware.org/e/xrootd)     | High performance, scalable fault tolerant access to data  | LGPL v3 | [Andrew Hanushevsky](mailto:abh@stanford.edu)|
