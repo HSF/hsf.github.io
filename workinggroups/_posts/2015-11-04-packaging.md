@@ -30,7 +30,8 @@ We held various meetings to look at the existing build and packaging solutions
 | [16.6.2015](https://indico.cern.ch/event/402229/) | cmsBuild              |
 | [23.6.2015](https://indico.cern.ch/event/403790/) | SciSoft, Contractor   |
 | [4.11.2015](https://indico.cern.ch/event/457365/) | AliBuild              |
-| [18.11.2015](https://indico.cern.ch/event/462334/) | Conda                 |
+| [18.11.2015](https://indico.cern.ch/event/462334/) | Conda                |
+| [10.02.2016](https://indico.cern.ch/event/484006/) | Spack                |
 
 During these meetings we looked at
 
@@ -42,6 +43,7 @@ During these meetings we looked at
   * Contractor
   * SciSoft
   * [Conda](http://conda.pydata.org/docs/)
+  * [Spack](https://github.com/LLNL/spack) 
 
 and currently prepare a document summarizing our analysis.
 
