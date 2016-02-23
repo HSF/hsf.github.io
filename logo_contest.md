@@ -6,13 +6,13 @@ layout: default
 
 # Logo contest
 
-It's time the HSF had a logo, so we're holding a contest. Put your creativity to work and send your proposals to the [HSF startup team](hep-sf-startup-team@googlegroups.com). 
+It's time the HSF had a logo, so we're holding a contest. Put your creativity to work and send your proposals to the HSF startup team. 
 
 ## How to submit
 
 To facilitate things, we offer two possibilities:
 
-* you upload your proposed logo to [HSF startup team](hep-sf-startup-team@googlegroups.com)
+* you upload your proposed logo to [http://it.wikitolearn.org/Main_HSF_Page/Some_proposals_for_the_HSF_logo](http://it.wikitolearn.org/Main_HSF_Page/Some_proposals_for_the_HSF_logo)
 * you can submit your proposal by e-mail to:
   * dario.menasce@cern.ch
   * riccardo@kde.org
