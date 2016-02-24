@@ -31,7 +31,7 @@ Any vote cast outside this allowed time interval will be discarded.
 
 ## Our wish list for valid submissions
 
-Apart from your idea for the greatly looking logo, there are a few technical conditions to make a contribution useful for the community:
+In addition to your idea for a great looking logo, there are a few technical conditions we suggest to make your contribution useful to the community:
 
   * The logo has to be in a scalable, non-raster, vectorform (PDF/SVG/EPS),
   * The logo should work both in coloured and monochrome representations,
