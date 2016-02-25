@@ -24,10 +24,7 @@ If you wish (and it is recommended) you can easily set up a local instance of th
 on installing and running Jekyll.
 The website uses the master branch of the hep-sf.github.io repository.
 
-Despite this is not the recommended option, if you are not comfortable with Git
-and you only want to do simple changes, the GitHub web interface allows you to
-add and edit the files in your browser. In this case, you don't need to have a
-local check-out of your personal fork on GitHub.
+If you are not familiar with GitHub and Git, you can read our [survival kit](/github-beginners.html)!
 
 ### General structure of website content files
 All Markdown files of this site start with a section surrounded by `---`. This
