@@ -14,7 +14,7 @@ The Technical Notes policy is set out in the first technical note. Finalized not
 | TN Number  | Title           | Authors     | Download    |
 | ------------- | ------------- | ------------ |---------------|
 | HSF-TN-2016-02  | Machine/Job Features  | M. Alef et al.| [PDF](https://github.com/HEP-SF/documents/blob/master/HSF-TN/2016-02/HSF-TN-2016-02.pdf) [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-02) |
-| HSF-TN-2016-01  | Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al. | - | [PDF](https://github.com/HEP-SF/documents/blob/master/HSF-TN/2016-01/HSF-TN-2016-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-01) |
+| HSF-TN-2016-01  | Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al. | [PDF](https://github.com/HEP-SF/documents/blob/master/HSF-TN/2016-01/HSF-TN-2016-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-01) |
 | HSF-TN-2015-01  | HSF Technical Notes policy | A. McNab | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2015-01/HSF-TN-2015-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2015-01) |
 
 ## Drafts in the consultation stage
