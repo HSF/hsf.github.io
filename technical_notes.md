@@ -23,7 +23,7 @@ Before being assigned an HSF reference and being archived in their final form, f
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Ends    | Download    |
 | ------------- | ------------- | ------------ |---------|---------------|
-| HSF-TN-2016-01  | Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al. | - | [PDF](https://github.com/HEP-SF/documents/blob/master/HSF-TN/2016-01/HSF-TN-2016-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-01) |
+| HSF-TN-2016-LIC  | Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al. | - | [PDF](https://github.com/HEP-SF/documents/blob/master/HSF-TN/2016-01/HSF-TN-2016-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-01) |
 
 ## Drafts in earlier stages of the acceptance process:
 
