@@ -14,6 +14,7 @@ Currently the activities within the HSF are organized by the *HSF startup team*.
  * Benedikt Hegner [CERN](http://cern.ch)
  * Michel Jouvin [LAL,IN2P3](http://www.lal.in2p3.fr)
  * Pere Mato [CERN](http://cern.ch), co-lead
+ * Andrew McNab [Manchester](http://www.hep.manchester.ac.uk)
  * Dario Menasce [INFN](http://www.mi.infn.it)
  * Elizabeth Sexton-Kennedy [FNAL](http://www.fnal.gov)
  * Graeme Stewart [Glasgow](http://www.gla.ac.uk/schools/physics/research/groups/particlephysicsexperiment/)
