@@ -24,7 +24,7 @@ There are plenty of opportunities for you to contribute to the HSF, be it by
 participation in technical discussions, by joining one of our working groups, or
 by joining the HSF with your software project:
 
-  *  Participation in HSF activities and fora. See the Activities page.
+  *  Participation in HSF activities and forums. See the Activities page.
   *  Participation in HSF events and meetings.
   *  Contributing to the [HEP S&C Knowledge Base](http://hepsoftware.org)
   *  Taking advantage for your project from the HSF (to be created)
