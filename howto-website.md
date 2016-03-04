@@ -43,9 +43,11 @@ other files in there. The navigation bar will be updated automatically.
 
 ### Adding an event
 
-Add a new file in `events/_posts` and follow the front-matter of the other files
-in there. The events page will be updated automatically. Please don't forget
-adding a startdate. Only this allows a proper ordering
+Add a new file in `events/_posts` and follow the *front-matter* (see above) of the other files
+in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and the ``Upcoming Events`` sidebar will be updated automatically. 
+
+Please don't forget adding an event ``startdate`` in the *front-matter*: this is used for ordering events **and** as the end date
+for adding the event in the ``Upcoming Events`` sidebar.
 
 ### Adding a job opening
 
