@@ -4,7 +4,7 @@ author: "Benedikt Hegner"
 layout: default
 ---
 
-# Discussion Fora
+# Discussion Forums
 
 ## Concurrency Forum
 
