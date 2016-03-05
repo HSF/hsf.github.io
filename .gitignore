@@ -1,3 +1,10 @@
 .jekyll-metadata
 _site
 Gemfile.lock
+
+# Eclipse
+.project
+
+# PyCharm
+.idea/
+
