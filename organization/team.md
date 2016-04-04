@@ -41,6 +41,7 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
  * [HSF initiatives](https://kds.kek.jp/indico/event/20387/session/31/contribution/175/material/slides/0.pdf) at [Belle II General Meeting](https://kds.kek.jp/indico/event/20387/), Feb 3 2016, Pere Mato
  * [HSF summary](https://indico.cern.ch/event/395887/session/5/contribution/12/attachments/1185905/1719290/HSF_111115.pdf) at [ATLAS Software Technical Meeting](https://indico.cern.ch/event/395887/other-view?view=standard), Nov 11 2015, Benedikt Hegner
  * [HSF initiatives](https://indico.cern.ch/event/454984/contribution/3/attachments/1171114/1690747/HEP_Software_Foundation_HSF__CMS_Meeting_20151015.pdf) at [CMS Offline and Computing Week](https://indico.cern.ch/event/454984/), Oct 15 2015, Pere Mato
+ * [Software Evolution - HSF](https://indico.cern.ch/event/345619/session/1/contribution/13/attachments/681171/935779/WLCG_HSF.pdf) at [2015 WLCG Workshop](https://indico.cern.ch/event/345619/), Apr 12 2015, Elizabeth Sexton-Kennedy
  * [Workshop summary](/assets/Benedikt%20Hegner%20HSFSummary.pdf) presented to CERN PH-SFT, Feb 2015, Benedikt Hegner
  * [Workshop summary](/assets/HSF-Summary-Vakho-Tsulaia-ATLAS.pdf) presented to ATLAS S&C Week, Feb 2015, Vakho Tsulaia
  * [Workshop summary](/assets/HSF-SLAC-workshop-summary-GDB-Feb.pdf) presented to the WLCG GDB, Feb 2015, Michel Jouvin
