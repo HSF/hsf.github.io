@@ -15,6 +15,7 @@ The Technical Notes policy is set out in the first technical note. Finalized not
 {:.table .table-hover .table-condensed .table-striped}
 | TN Number  | Title           | Authors     | Download    |
 | ------------- | ------------- | ------------ |---------------|
+| HSF-TN-2016-03  | HSF Packaging Working Group Report  | B. Hegner, L. Sexton-Kennedy | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-03/HSF-TN-2016-03.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-03) |
 | HSF-TN-2016-02  | Machine/Job Features  | M. Alef et al.| [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-02/HSF-TN-2016-02.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-02) |
 | HSF-TN-2016-01  | Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al. | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-01/HSF-TN-2016-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-01) |
 | HSF-TN-2015-01  | HSF Technical Notes policy | A. McNab | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2015-01/HSF-TN-2015-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2015-01) |
@@ -26,7 +27,7 @@ Before being assigned an HSF reference and being archived in their final form, f
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Ends    | Download    |
 | ------------- | ------------- | ------------ |---------|---------------|
-| HSF-TN-2016-PKG  | (Draft) HSF Packaging Working Group Report  | B. Hegner, L. Sexton-Kennedy | 11 Mar 2016 | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/draft-2016-PKG/draft-HSF-TN-2016-PKG.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/draft-2016-PKG) |
+| -  | - | - | - | - |
 
 ## Drafts in earlier stages of the acceptance process:
 
