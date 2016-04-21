@@ -19,7 +19,7 @@ contact the <a href="mailto:hep-sf-startup-team@googlegroups.com">startup team</
     </ol>
 See also <a href='https://hepsoftware.org/?popupmode=Events&popupstate=events'>HEP S&amp;C community events</a>
   </div>
-  
+
   <div class="sidebar-module sidebar-module-inset">
     <h4>HSF Meetings</h4>
     <ol class="list-unstyled">
@@ -30,15 +30,16 @@ See also <a href='https://hepsoftware.org/?popupmode=Events&popupstate=events'>H
     </ol>
     <a href="/organization/team.html">more...</a>
   </div>
-  
+
   <div class="sidebar-module sidebar-module-inset">
-    <h4><a href="/jobs.html">Current Job Openings</a></h4>
+    <h4>Current Job Openings</h4>
     <ol class="list-unstyled">
     {% for post in site.categories.jobs %}
       {% if post.open == true %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
+    <a href="/jobs.html">more...</a>
     </ol>
   </div>
 
