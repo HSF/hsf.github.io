@@ -25,27 +25,33 @@ The [hep-sf-tech-forum](https://groups.google.com/forum/#%21forum/hep-sf-tech-fo
 This is not strictly an HSF mailing list. The [HEP S&C community mailing list](http://groups.google.com/d/forum/hep-sw-comp) is intended for occasional HEP software and computing community mailings. Everyone involved or interested in HEP S&C is encouraged to sign up to this list. It will be used for occasional mailings of community wide interest, such as announcements of HEP S&C conferences, workshops and schools not strictly related to the HSF.
 
 
-## Topical Forums
+## Topical Fora
 
 Some of these forums are pre-existing the HSF or have not been initiated directly by the HSF but are strongly related to the HSF activities and run in coordination with it.
 
-## Concurrency Forum
 
-[Concurrency Forum](https://concurrency.web.cern.ch/node)
+### Software Technology Forum
 
-## Reconstruction Algorithms Forum
+This forum replaces the [Concurrency Forum](https://concurrency.web.cern.ch/node) and widens its scope and focus to cover other aspects besides concurrency. This is therefore a forum to a general software
+R&D series of presentations and discussions. The goal is to probe the lesser known, to give visibility for studies and hear what they find. The plan is to schedule one meeting per month.
+
+- The Forum agendas are in the [Software Technology Forum indico category](https://indico.cern.ch/category/7857/) 
+- The new mailing list is **rd-software@cern.ch**, which has been populated with the members of the 
+  rd-multicore@cern.ch mailing list. People are encouraged to [subscribe](https://e-groups.cern.ch/e-groups/EgroupsSubscription.do?egroupName=rd-software).
+
+### Reconstruction Algorithms Forum
 
 The reconstruction algorithms discussion forum is an open forum to discuss all matters of event reconstruction and pattern recognition in high energy physics and similar domains. All are welcome to join the forum and participate.
 
 [Reconstruction Algorithms Forum ](https://groups.google.com/forum/#!forum/hep-sf-reconstruction)
 
-## Machine Learning Forum
+### Machine Learning Forum
 
 [Machine Learning Forum](forum_ml.html)
 
-## HSF Training Activities: hep-sf-training-wg
+### HSF Training Activities: hep-sf-training-wg
 The [hep-sf-training-wg](https://groups.google.com/forum/#%21forum/hep-sf-training-wg) is the discussion forum for the training working group.
 
-## HSF Packaging WG: hep-sf-packaging-wg
+### HSF Packaging WG: hep-sf-packaging-wg
 The [hep-sf-packaging-wg](https://groups.google.com/forum/#%21forum/hep-sf-packaging-wg) is the discussion forum for the packaging working group.
 
