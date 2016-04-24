@@ -49,12 +49,6 @@ in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and th
 Please don't forget adding an event ``startdate`` in the *front-matter*: this is used for ordering events **and** as the end date
 for adding the event in the ``Upcoming Events`` sidebar.
 
-### Adding a job opening
-
-Add a new file in `jobs/_posts` and follow the front-matter of the other files
-in there. It is important to fill the field `open: true`. This field allows to
-only show positions that aren't filled yet.
-
 ## Technical details
 
 ### Page templates
