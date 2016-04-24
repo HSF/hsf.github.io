@@ -1,0 +1,71 @@
+---
+layout: default_test
+---
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class=row>
+          <div class="col-md-4">
+            <img src="/assets/hsf_logo_angled.png" width="100%">
+          </div>
+          <div class="col-md-8">
+            <p>
+The HEP Software Foundation (HSF) has been established to facilitate coordination and common efforts in high energy physics (HEP) software and computing internationally.
+           </p>
+
+        <p><a class="btn btn-primary btn-lg" href="organization/goals.html" role="button">Learn more &raquo;</a></p>
+      </div>
+      </div>
+      </div>
+    </div>
+
+
+<div class="row alert alert-warning">
+  <p class="lead">
+<span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> HSF Workshop - 2.-4. May at LAL, Paris: <a href="https://indico.cern.ch/event/496146/">more info</a>
+</p>
+</div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-4">
+
+          <h2>Meetings</h2>
+          <p>All our activities and ideas are discussed weekly in our HSF meeting. Feel free to participate!</p>
+<ul class="list">
+{% assign pagedate = site.time | date: "%Y-%m-%d"   %}
+{% for post in site.categories.organization limit: 3 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+          <p><a class="btn btn-primary" href="/organization/team.html" role="button">Learn More &raquo;</a></p>
+
+        </div>
+        <div class="col-lg-4">
+          <h2>Newsletter</h2>
+          <p>If you would like to stay updated, please subscribe to our newsletter:</p>
+<ul class="list">
+{% assign pagedate = site.time | date: "%Y-%m-%d"   %}
+{% for post in site.categories.newsletter limit: 3 %}
+    <li> <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+          <p><a class="btn btn-primary" href="/newsletter.html" role="button">Learn More &raquo;</a></p>
+       </div>
+        <div class="col-lg-4">
+          <h2>Activities</h2>
+          <p>Our plenty of activities span from our working groups, to supporting projects as HSF projects, and channeling communication within the community.
+          </p>
+          <p><a class="btn btn-primary" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+      </div>
+
+  {{ content }}
+
+  </div>
+</div>

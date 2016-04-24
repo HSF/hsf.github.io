@@ -151,5 +151,32 @@
 
 .navbar {
   font-weight: 500;
+  background-color: #555555;
 
+}
+
+a {
+  color: #bb0000;
+}
+
+body {
+  color: #333333;
+
+}
+
+.btn-primary {
+  background-color: #555555;
+  border-color: #555555;
+}
+
+.announcement {
+    background-color: #f39c12;
+    border-color: #f39c12;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 21px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: -15px;
+    margin-right: -15px;
 }

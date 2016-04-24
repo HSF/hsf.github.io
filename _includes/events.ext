@@ -1,12 +1,12 @@
 <hr>
-  <h4><a href="/events.html">Upcoming Events</a></h4>
+  <h4><a href="{{site.baseurl}}/events.html">Upcoming Events</a></h4>
   <ol class="list-unstyled">
 
   {% assign pagedate =page.date | date: "%m-%d-%Y"   %}
   {% for post in site.categories.events %}
     {% assign startdate = post.startdate | string_to_date | date: "%m-%d-%Y" %}
     {% if startdate > pagedate %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> ( starting on {{ post.startdate | date: "%m-%d-%Y" }} ) </li>
+      <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a> ( starting on {{ post.startdate | date: "%m-%d-%Y" }} ) </li>
     {% endif %}
   {% endfor %}
   </ol>
