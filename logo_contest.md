@@ -26,8 +26,9 @@ specifically setup for this purpose, whose URL will be circulated at the end of 
 
 ## Voting period
 
-The voting site will be open between April 19th, 2016 and May 6th, 2016.
-Any vote cast outside this allowed time interval will be discarded.
+The voting site will be open between April 19th, 2016 and May 6th, 2016:
+[vote here](https://docs.google.com/forms/d/1g8o4m-ZUbr9NouvKouOioXoNpW7SXb14Jbq8fOUX8r0/edit?usp=forms_home&ths=true)!
+
 
 ## Our wish list for valid submissions
 
