@@ -42,13 +42,13 @@ The HEP Software Foundation (HSF) has been established to facilitate coordinatio
     <p>
       All our activities and ideas are discussed weekly in our HSF meeting. Feel free to participate!
     </p>
-    <ul class="list">
+    <ul class="list list-simple">
 {% assign pagedate = site.time | date: "%Y-%m-%d"   %}
 {% for post in site.categories.organization limit: 3 %}
     <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
     </ul>
-    <p><a class="btn btn-primary" href="{{site.baseurl}}/organization/team.html" role="button">Learn More &raquo;</a></p>
+    <p><a  href="{{site.baseurl}}/organization/team.html" role="button">Full list of meetings &raquo;</a></p>
   </div>
 
 
@@ -57,22 +57,22 @@ The HEP Software Foundation (HSF) has been established to facilitate coordinatio
     <p>
       If you would like to stay updated, please subscribe to our newsletter:
     </p>
-    <ul class="list">
+    <ul class="list list-simple">
 {% assign pagedate = site.time | date: "%Y-%m-%d"   %}
 {% for post in site.categories.newsletter limit: 3 %}
     <li> <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
    </ul>
-   <p><a class="btn btn-primary" href="{{site.baseurl}}/newsletter.html" role="button">Learn More &raquo;</a></p>
+   <p><a href="{{site.baseurl}}/newsletter.html" role="button">Older newsletters &raquo;</a></p>
  </div>
  
  
  <div class="col-lg-4">
           <h2>Activities</h2>
-          <p>Our plenty of activities span from our working groups, to supporting projects as HSF projects, and channeling communication within the community.
+          <p>Our plenty of activities span from our <a href="{{site.baseurl}}/what_are_WGs.html">working groups</a>, organizing <a href="{{site.baseurl}}/events.html">events</a> to supporting projects as <a href="{{site.baseurl}}/projects.html">HSF projects</a>, and channeling communication within the community with  <a href="{{site.baseurl}}/forums.html">discussion forums</a>,  <a href="{{site.baseurl}}/technical_notes.html">technical notes</a> and a <a href="http://www.hepsoftware.org/">knowledge base</a>.
           </p>
-          <p><a class="btn btn-primary" href="#" role="button">Learn more &raquo;</a></p>
-        </div>
+   <p><a href="{{site.baseurl}}/get_involved.html" role="button">How to get involved &raquo;</a></p>
+       </div>
       </div>
 
   {{ content }}
