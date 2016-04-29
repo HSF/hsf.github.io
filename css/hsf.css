@@ -31,7 +31,7 @@
   display: inline-block;
   padding: 10px;
   font-weight: 500;
-  color: #cdddeb;
+  color: #fff;
 }
 .blog-nav-item:hover,
 .blog-nav-item:focus {
@@ -149,7 +149,80 @@
   margin-bottom: 0;
 }
 
+.navbar-nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .navbar {
   font-weight: 500;
+  background-color: #555555;
+  min-height: 40px;
+}
 
+.navbar-brand {
+ height: 40px;
+ padding: 12.5px 15px;
+ font-size: 15px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:hover{
+  color: #f39c12;
+}
+
+.navbar-nav>li>a {
+		padding-top: 9.5px;
+		padding-bottom: 9.5px
+}
+
+a {
+  color: #bb0000;
+}
+
+a:hover {
+  color: #f39c12;
+}
+
+body {
+  color: #333333;
+}
+
+.btn-primary {
+  background-color: #555555;
+  border-color: #555555;
+}
+
+.announcement {
+    background-color: #f39c12;
+    border-color: #f39c12;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 21px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.alert {
+  padding: 8px;
+}
+
+.list-simple {
+  padding-left: 15px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #555555;
+}
+
+[role="button"] {
+    font-size: 17px;
 }

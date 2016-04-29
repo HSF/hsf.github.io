@@ -1,8 +1,0 @@
-<hr>
-  <h4><a href="/jobs.html">New Job Openings</a></h4>
-  <ol class="list-unstyled">
-
-  {% for post in site.categories.jobs %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> ( added on {{ post.date | date: "%m-%d-%Y" }} ) </li>
-  {% endfor %}
-  </ol>
