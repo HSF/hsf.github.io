@@ -49,6 +49,7 @@ The summary of our analysis has been summarized in a [Technical note on Build To
 
 ## Existing build recipes
 
+  * [cet-is](https://cdcvs.fnal.gov/redmine/projects/build-framework/repository)
   * [cmsdist recipes](https://github.com/cmsbuild/cmsdist)
   * [HEP-SPACK recipes](https://github.com/HEP-SF/hep-spack)
   * [conda recipes](https://github.com/remenska/root-conda-recipes)
