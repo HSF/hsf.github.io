@@ -45,11 +45,19 @@ During these meetings we looked at
   * [Conda](http://conda.pydata.org/docs/)
   * [Spack](https://github.com/LLNL/spack) 
 
-and currently prepare a document summarizing our analysis.
+The summary of our analysis has been summarized in a [Technical note on Build Tools](/technical_notes.html)
+
+## Existing build recipes
+
+  * [cmsdist recipes](https://github.com/cmsbuild/cmsdist)
+  * [HEP-SPACK recipes](https://github.com/HEP-SF/hep-spack)
+  * [conda recipes](https://github.com/remenska/root-conda-recipes)
+  * [aliDist recipes](https://github.com/alisw/alidist)
+  * [LCGCMake recipes](https://gitlab.cern.ch/sft/lcgcmake)
+
 
 # Other resources
 
   * [HSF Organization on GitHub](https://github.com/HEP-SF)
   * [HSF cmaketools package ](https://github.com/HEP-SF/cmaketools)
-  * [Draft Technical Note on Build Tools](/technical_notes.html)
   * [Draft Technical Note on Platform Naming Conventions](/technical_notes.html)
