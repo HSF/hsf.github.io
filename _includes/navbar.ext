@@ -17,7 +17,7 @@
                  <li><a href="{{site.baseurl}}/events.html">Events &amp; Workshops</a></li>
                  <li class="divider"></li>
                  {% for post in site.categories.workinggroups %}
-                   <li><a href="/{{ post.url }}">{{ post.title }}</a></li>
+                   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                  {% endfor %}
                  <li class="divider"></li>
                  <li><a href="{{site.baseurl}}/what_are_WGs.html">What are HSF working groups?</a></li>
