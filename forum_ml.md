@@ -22,8 +22,14 @@ The Inter-Experimental LHC Machine Learning Working Group [IML](http://iml.cern.
 ## Mailing List
 - [lhc-machinelearning-wg@cern.ch](mailto:lhc-machinelearning-wg@cern.ch)
 
-## Meetings
+## Meetings and IML Events
 -  [Working group meetings](http://iml.cern.ch/tiki-index.php?page=Indico)
 
-## Workshops
+## Related Events in HEP
+- [Second Machine Learning High Energy Physics Summer School 2016](https://indico.cern.ch/event/497368/), 20-26 June 2016 at Lund University
+- [CERN openlab Machine Learning and Data Analytics workshop](https://indico.cern.ch/event/514434), 29 April 2016 at CERN
+- [Heavy Flavour Data Mining workshop](https://indico.cern.ch/event/433556/), 18-20 February 2016 at the Unveristy of Zurich
+- [Applying Learning to Experimental Physics at NIPS](http://yandexdataschool.github.io/aleph2015/), 11 December 2015 at Montreal
 - [Data Science @ LHC 2015 Workshop](http://indico.cern.ch/event/395374), 9-13 November 2015 at CERN
+- [Summer school on Machine Learning in High Energy Physics](https://www.hse.ru/mlhep2015/), 27-30 August 2015 at St Petersburg
+
