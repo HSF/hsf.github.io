@@ -6,7 +6,7 @@ layout: default
 
 ## Goals of the HEP Software Foundation
 
-The HEP Software Foundation (HSF) has been established to facilitate coordination and common efforts in high energy physics (HEP) software and computing internationally.
+The HEP Software Foundation (HSF) facilitates coordination and common efforts in high energy physics (HEP) software and computing internationally.
 
 Current HEP software is the result of 20 years of development, and now must evolve to meet the challenges posed by new experimental programmes. In addition, the computing landscape is evolving rapidly and we need to exploit all the expertise available in our community, and in other scientific disciplines, in order to meet the technical challenges we are facing.
 
