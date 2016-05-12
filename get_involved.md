@@ -6,7 +6,7 @@ layout: default
 
 # How to get involved
 
-Our goal is to make every effort going on as transparent and open as possible. Our official communication channel is the hep-sf-forum. Simply send a mail with ‘subscribe’ as the subject (not content) to hep-sf-forum+subscribe@googlegroups.com
+Our goal is to make every effort going on as transparent and open as possible. Our official communication channel is the [hep-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum). Simply send a mail with ‘subscribe’ as the subject (not content) to hep-sf-forum+subscribe@googlegroups.com or register directly at [https://groups.google.com/forum/#!forum/hep-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum).
 
 In addition, there is a HEP S&C community mailing list for occasional HEP software and computing community mailings. Everyone involved or interested in HEP S&C is encouraged to sign up to this list. It will be used for occasional mailings of community wide interest, such as announcements of HEP S&C conferences, workshops and schools.
 
@@ -26,7 +26,7 @@ See the Events listing on this site for information on HSF meetings, workshops, 
 
 # Giving input to the HSF
 
-In this document we provide background information, guidelines and a questionnaire for giving input to the HSF, and as background to discussions with the HSF startup team. We'd love to hear from you. If you'd like to arrange a discussion, contact any member of the startup team or email the startup team at hep-sf-startup-team@googlegroups.com.
+In this document we provide background information, guidelines and a questionnaire for giving input to the HSF, and as background to discussions with the HSF startup team. We'd love to hear from you. If you'd like to arrange a discussion, contact any member of the startup team or email the startup team at [hep-sf-startup-team@googlegroups.com](mailto:hep-sf-startup-team@googlegroups.com).
 
 This page provides information on adding material to the site. It is visible to those with an editor role, which is pretty much everybody with an approved account. Information on adding content is below. To modify existing content, use the 'edit' tab you find on each content page. Questions are welcome, direct them to Torre Wenaus, wenaus@gmail.com.
 
