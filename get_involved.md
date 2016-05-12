@@ -7,9 +7,10 @@ layout: default
 # How to get involved
 
 Our goal is to make every effort going on as transparent and open as possible.
-Our official communication channel is the hep-sf-forum. Simply send a mail with
-‘subscribe’ as the subject (no content) to
-`hep-sf-forum+subscribe@googlegroups.com`.
+Our official communication channel is the [hep-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum). 
+Simply send a mail with ‘subscribe’ as the subject (no content) to
+`hep-sf-forum+subscribe@googlegroups.com` or register directly at 
+[https://groups.google.com/forum/#!forum/hep-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum)..
 
 In addition, there is a HEP S&C community mailing list for occasional HEP
 software and computing community mailings. It is not strictly related to HSF:
