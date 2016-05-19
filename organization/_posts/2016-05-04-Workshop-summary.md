@@ -1,106 +1,21 @@
-Contents
+---
+title: "Third HSF Workshop Summary (May 2-4 2016, LAL)"
+layout: default
+---
 
-> [*Timetable*](#timetable)
->
-> [*Project support in HSF (Mon am)*](#project-support-in-hsf-mon-am)
->
-> [*HSF status (Mon pm)*](#hsf-status-mon-pm)
->
-> [*Community white paper - Peter Elmer*](#community-white-paper---peter-elmer)
->
-> [*News from projects (Mon pm)*](#news-from-projects-mon-pm)
->
-> [*Future conditions DB - Andrea Formica*](#future-conditions-db---andrea-formica)
->
-> [*AIDA2020 WP3 - F. Gaede*](#aida2020-wp3---f.-gaede)
->
-> [*DIANA-HEP - P. Elmer*](#diana-hep---p.-elmer)
->
-> [*SW&C Knowledge Base - T. Wenaus*](#swc-knowledge-base---t.-wenaus)
->
-> [*WikiToLearn - R. Iaconelli*](#wikitolearn---r.-iaconelli)
->
-> [*Learning from other communities (Mon pm)*](#learning-from-other-communities-mon-pm)
->
-> [*Bioconductor - W. Huber*](#bioconductor---w.-huber)
->
-> [*Netherlands eScience Center*](#netherlands-escience-center)
->
-> [*Depsy - J. Priem*](#depsy---j.-priem)
->
-> [*Machine learning (Tue am)*](#machine-learning-tue-am)
->
-> [*Impact of Deep Learning for HEP SW&C - A. Farbin*](#impact-of-deep-learning-for-hep-swc---a.-farbin)
->
-> [*OpenLab ML and Data Analytics Workshop - M. Girone*](#openlab-ml-and-data-analytics-workshop---m.-girone)
->
-> [*Recent Developments in ROOT/TMVA - L. Moneta*](#recent-developments-in-roottmva---l.-moneta)
->
-> [*Data Analysis and Reproducibility Tools for HEP - A. Ustyuzhanin*](#data-analysis-and-reproducibility-tools-for-hep---a.-ustyuzhanin)
->
-> [*Keras/Theano - M. Paganini*](#keras-theano-tensorflow---m.-paganini)
->
-> [*OpenData in CMS - K. Lassila-Perini*](#opendata-in-cms---k.-lassila-perini)
->
-> [*A Common Tracking Software - A. Salzburger*](#a-common-tracking-software---a.-salzburger)
->
-> [*Inter-experiment ML Group and HSF - S. Gleyzer*](#inter-experiment-ml-group-and-hsf---s.-gleyzer)
->
-> [*RAMP: ML Hackathon on Anomaly Detection (Tue pm)*](#ramp-ml-hackathon-on-anomaly-detection-tue-pm)
->
-> [*Packaging (Tue pm)*](#packaging-tue-pm)
->
-> [*Spack Presentation by Patrick Gartung. &gt; 30 participants*](#spack-presentation-by-patrick-gartung.-30-participants)
->
-> [*Geant4 technical form (Tue pm)*](#geant4-technical-form-tue-pm)
->
-> [*Software performance (Wed am)*](#software-performance-wed-am)
->
-> [*SW Performance @ALICE - D. Rohr*](#sw-performance-alice---d.-rohr)
->
-> [*ATLAS Observations - G. Stewart*](#atlas-observations---g.-stewart)
->
-> [*CMS - D. Lange*](#cms---d.-lange)
->
-> [*Astrophysics Experience - O. Iffrig*](#astrophysics-experience---o.-iffrig)
->
-> [*ROOT Experience and Challenges - P. Mato*](#root-experience-and-challenges---p.-mato)
->
-> [*Art/LArSoft - M. Paterno*](#artlarsoft---m.-paterno)
->
-> [*GeantV - J. Apostolakis*](#geantv---j.-apostolakis)
->
-> [*Discussion panel*](#discussion-panel)
->
-> [*Next steps & wrap-up (Wed pm)*](#next-steps-wrap-up-wed-pm)
->
-> [*Logo*](#logo)
->
-> [*Meeting notes*](#meeting-notes)
->
-> [*GeantV review*](#geantv-review)
->
-> [*Journal proposal “Computing and Software for Data-intensive Physics”*](#journal-proposal-computing-and-software-for-data-intensive-physics)
->
-> [*HSF in StackExchange?*](#hsf-in-stackexchange)
->
-> [*HSF as legal entity*](#hsf-as-legal-entity)
->
-> [*HSF governance*](#hsf-governance)
->
-> [*HSF Center*](#hsf-center)
->
-> [*HSF (Human) resources*](#hsf-human-resources)
->
-> [*HSF communication*](#hsf-communication)
->
-> [*Community white paper & road map*](#community-white-paper-road-map)
->
-> [*Outcomes, conclusions, next steps*](#outcomes-conclusions-next-steps)
->
-> [*Actions out of the workshop*](#actions-out-of-the-workshop)
+# Third HSF Workshop Summary (May 2-4, 2016)
+{:.no_toc}
 
-## [*Timetable*](https://indico.cern.ch/event/496146/other-view?view=standard)
+![Workshop Group Photo](/images/lal_workshop.jpg){:height="400px" width="600px"}
+
+### Contents
+{:.no_toc}
+
+* auto-gen TOC:
+{:toc}
+
+
+[*Timetable*](https://indico.cern.ch/event/496146/other-view?view=standard)
 
 ## Project support in HSF (Mon am)
 
