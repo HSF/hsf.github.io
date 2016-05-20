@@ -1,10 +1,10 @@
 ---
-title: Second HSF Workshop
+title: Third HSF Workshop
 author: Michel Jouvin
 layout: newsletter
 ---
 
-# Second HSF Workshop (May 2-4, 2016)
+# Third HSF Workshop (May 2-4, 2016)
 
 The HSF had its third workshop at LAL (Orsay, France) on May 2-4, 2016. It 
 was well attended (70 people) representing many different laboratories, 
@@ -13,8 +13,9 @@ involved in different experiments (LHC, BELLE II, Intensity Frontier...).
 We were happy to see a lot of new faces!
 The [Agenda](https://indico.cern.ch/event/496146/timetable/) was a mix 
 of (lively!) general discussions and topical/hands-on sessions. Live 
-notes of these discussions are [available](????). This newsletter 
-summarizes them.
+notes of these discussions are 
+[available](/organization/2016/05/04/Workshop-summary.html). 
+This newsletter summarizes them.
 
 One of the breaking news is that the HSF now has a logo! Thanks to 
 J. Lingemann, the winner of the logo contest, and to all of you who took the
@@ -53,7 +54,7 @@ envision all the projects adopting the same tools, the effort has concentrated
  texts in the last months and the workshop has been the occasion of an in-depth 
  dicussion about Spark potential and limits and how to move forward.
 
-See the [Packaging WG](http://hepsoftwarefoundation.org/workinggroups/2015/11/04/packaging.html) section on the web site for more details.
+See the [Packaging WG](/workinggroups/2015/11/04/packaging.html) section on the web site for more details.
 
 
 ## Learning from Others
