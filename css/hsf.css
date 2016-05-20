@@ -16,6 +16,16 @@
 
 
 /*
+ * Centered image
+ */
+
+.centered-image {
+  margin: 0 auto;
+  display: block;
+}
+
+
+/*
  * Masthead for nav
  */
 
