@@ -79,6 +79,25 @@ pandoc -t markdown_github --base-header-level=2 --atx-headers -o organization/_p
 This method can be used to convert a GoogleDoc document to markdown. To do it, use the GoogleDoc menu `File->Download as` and expoert the GoogleDoc document as a `docx` file. Then use the command above to convert to markdown.
 
 
+### Inserting images
+
+To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Thenn in the page where you want to insert
+it, add the following line:
+
+```
+![Replacement text](/images/file){:height="400px" width="600px" .centered-image}
+```
+
+where:
+
+* `Replacement text` is the text displayed when the cursor is on the image and the image cannot be displayed.
+* `/images/file` is the path to the image file, relative to the top directory of the web site. Images are typically in
+`/images` directory.
+* `{...}` are optional rendering instructions, using CSS attributes. `height` and `width` are used to define the size of the
+rendered image (whatever is its orignal size), `px` meaning the unit is pixel. `.centered-image` is a CSS class that
+allows to center horizontally the image (everything starting with a `.` is interpreted as a CSS class, typically defined
+into `css/hsf.css`).
+
 ## Checking the Results of Your Contribution
 
 It is often desirable to assess the result of changes before publishing them. There is no services at GitHub to do that: 
