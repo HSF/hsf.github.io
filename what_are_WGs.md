@@ -14,7 +14,7 @@ Currently the following working groups are active within the HSF:
 
 <ul class="list">
 {% for post in site.categories.workinggroups %}
-  <li> <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+  <li> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
 	   
