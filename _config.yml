@@ -5,6 +5,7 @@ excerpt_separator: <!--more-->
 timezone: Switzerland/Geneva
 highlighter: rouge
 future: true
+exclude: [vendor]
 gems:
   - jekyll-mentions
   - jekyll-sitemap
