@@ -9,7 +9,7 @@ layout: page
 
 <div class="blog-post">
 <h2 class="blog-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<p class="blog-post-meta">{{ post.date | date_to_string }} by <a href="#">{{ post.author }}</a></p>
+<p class="blog-post-meta">{{ post.date | date_to_string }} by <a href="{{ post.url ]]">{{ post.author }}</a></p>
 
 {{ post.content }}
 
