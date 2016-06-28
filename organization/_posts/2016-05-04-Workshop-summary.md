@@ -841,7 +841,7 @@ Dario: importance of trainings to meet the challenge by increasing existing peop
 
 -   Thanks particularly and congratulations to Joschka Lingemann, CERN Fellow working with EP-SFT, who produced the winner preferred by a strong plurality (17 votes in 37 responses). A bottle of wine will be forthcoming for Joschka :-)
 
-<img src="media/image01.png" width="300" height="230" />
+<img src="/images/hsf_logo_angled.png" alt="HSF logo" width="300" height="230" />
 
 ### Meeting notes
 
@@ -909,7 +909,7 @@ Open questions
 
 -   Proposal from Elizabeth Sexton-Kennedy and Fons Rademakers to seed HSF as a legal entity with an anchor project -- much as Apache Software Foundation did with httpd -- namely ROOT
 
-    -   [*Slides from Liz*](https://indico.cern.ch/event/496146/contributions/1174794/attachments/1267586/1878283/HSF_Legal_Foundation.pdf)
+    -   [*Slides from Liz*](https://indico.cern.ch/event/496146/contributions/1174794/attachments/1267586/1878295/HSF_workshop_Legal.pdf)
 
 -   Do this in parallel with -- and without interference with -- HSF’s ongoing activities
 
