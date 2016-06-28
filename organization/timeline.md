@@ -32,7 +32,7 @@ prior to the SLAC workshop.
    * [Minutes](https://docs.google.com/document/d/1R6CnNTx4aEQAKxAVYGt1FZYeru0wOpQtcynJKC4iiIw)
    * [Next Steps discussion](https://docs.google.com/document/d/1kumAbqzZdLS9IgN6J0HswLne9Ny1otXO-xQXSQ1TwTU)
  * Mar 3 2015: Working groups, services, activities emerging from the workshop established.
- * Apr 17, 2015: [HSF meeting at CHEP 2015, Okinawa](/events/2015/04/17/chep.html)
+ * Apr 17, 2015: [HSF meeting at CHEP 2015, Okinawa](/events/2015/04/17/CHEP.html)
 to present progress, assess opportunities emerging from CHEP, and discuss next steps.
 
 ## White Paper Analysis and Proposed Startup Plan
