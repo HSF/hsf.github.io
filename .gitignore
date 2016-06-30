@@ -11,3 +11,6 @@ Gemfile.lock
 # Visual Studio Code
 .vscode/*
 
+# Ruby bundle
+.bundle/
+vendor/
