@@ -8,3 +8,6 @@ Gemfile.lock
 # PyCharm
 .idea/
 
+# Ruby bundle
+.bundle/
+vendor/
