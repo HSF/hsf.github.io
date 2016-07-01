@@ -7,9 +7,11 @@ layout: default
 # How to get involved
 
 Our goal is to make every effort going on as transparent and open as possible.
-Our official communication channel is the [hep-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum). 
+Our official communication channel is the 
+[hep-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum). 
 
-See the [dedicated page](/forums.html) about HSF discussions forums for information about how to register and the
+See the [dedicated page](/forums.html) about HSF discussions forums for 
+information about how to register and the
 other existing discussion forums.
 
 ## Areas for contribution
@@ -39,7 +41,7 @@ affiliated people when needed. See <https://account.cern.ch/account/Externals/>
 If you are not comfortable with raising an issue in the
 [forums](/forums.html] or if you are afraid that this is not the
 right place for it, feel free to contact the
-[HSF startup team](hep-sf-startup-team@googlegroups.com.) directly.
+[HSF startup team](mailto:hep-sf-startup-team@googlegroups.com) directly.
 
 ## Contributing to this website
 
@@ -48,4 +50,9 @@ find instructions on how to do it [here](/howto-website.html).
 
 ## Contributing to the HSF S&C Knowledge Base
 
-The HSF provides a S&C knowledge base at [hepsoftware.org](http://hepsoftware.org) cataloging software in use by the community, who uses it, etc. The knowledge base relies on community input if it is to become comprehensive and useful. Please add, update, elaborate, correct entries for your favorite software packages, experiments, etc. All are welcome and encouraged to add and edit material.
+The HSF provides a S&C knowledge base at 
+[hepsoftware.org](http://hepsoftware.org) cataloging software in use by the 
+community, who uses it, etc. The knowledge base relies on community input if it 
+is to become comprehensive and useful. Please add, update, elaborate, correct 
+entries for your favorite software packages, experiments, etc. All are welcome 
+and encouraged to add and edit material.

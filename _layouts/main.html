@@ -8,7 +8,7 @@ layout: default_test
 <hr>
         <div class=row>
           <div class="col-md-4">
-            <img src="{{site.baseurl}}/images/hsf_logo_angled.png" width="70%">
+            <img src="/images/hsf_logo_angled.png" alt="HSF Logo" width="70%">
           </div>
           <div class="col-md-8">
             <p class="lead">
@@ -45,10 +45,10 @@ The HEP Software Foundation (HSF) facilitates coordination and common efforts in
     <ul class="list list-simple">
 {% assign pagedate = site.time | date: "%Y-%m-%d"   %}
 {% for post in site.categories.organization limit: 3 %}
-    <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
     </ul>
-    <p><a  href="{{site.baseurl}}/organization/team.html" role="button">Full list of meetings &raquo;</a></p>
+    <p><a  href="/organization/team.html" role="button">Full list of meetings &raquo;</a></p>
   </div>
 
 
@@ -60,18 +60,18 @@ The HEP Software Foundation (HSF) facilitates coordination and common efforts in
     <ul class="list list-simple">
 {% assign pagedate = site.time | date: "%Y-%m-%d"   %}
 {% for post in site.categories.newsletter limit: 3 %}
-    <li> <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+    <li> <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
    </ul>
-   <p><a href="{{site.baseurl}}/newsletter.html" role="button">Older newsletters &raquo;</a></p>
+   <p><a href="/newsletter.html" role="button">Older newsletters &raquo;</a></p>
  </div>
  
  
  <div class="col-lg-4">
           <h2>Activities</h2>
-          <p>Our plenty of activities span from our <a href="{{site.baseurl}}/what_are_WGs.html">working groups</a>, organizing <a href="{{site.baseurl}}/events.html">events</a> to supporting projects as <a href="{{site.baseurl}}/projects.html">HSF projects</a>, and channeling communication within the community with  <a href="{{site.baseurl}}/forums.html">discussion forums</a>,  <a href="{{site.baseurl}}/technical_notes.html">technical notes</a> and a <a href="http://www.hepsoftware.org/">knowledge base</a>.
+          <p>Our plenty of activities span from our <a href="/what_are_WGs.html">working groups</a>, organizing <a href="/events.html">events</a> to supporting projects as <a href="/projects.html">HSF projects</a>, and channeling communication within the community with  <a href="/forums.html">discussion forums</a>,  <a href="/technical_notes.html">technical notes</a> and a <a href="http://www.hepsoftware.org/">knowledge base</a>.
           </p>
-   <p><a href="{{site.baseurl}}/get_involved.html" role="button">How to get involved &raquo;</a></p>
+   <p><a href="/get_involved.html" role="button">How to get involved &raquo;</a></p>
        </div>
       </div>
 
