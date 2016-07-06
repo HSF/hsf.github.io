@@ -1,6 +1,6 @@
 ---
-title:  Starting the process for producing a Community White Paper (CWP) to define 
-        the roadmap and strategy for the Software and Computing in HEP.
+title:  Starting the process for a Community White Paper (CWP) to define 
+        the roadmap and strategy for the Software and Computing in HEP. The charge is now available.
 author: Pere Mato
 layout: newsletter
 symbol: glyphicon-pencil
