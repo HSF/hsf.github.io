@@ -33,6 +33,14 @@ All Markdown files of this site start with a section surrounded by `---`. This
 so-called *front-matter* contains metadata about the content. Such metadata are
 e.g. the author of the document or the title of the document.
 
+### Adding contents from GoogleDoc
+
+It is sometimes handy to use GoogleDoc to produce some contents for the web site. For example, if taking minutes
+during a meeting, it allows several people to contribute to the effort of note taking and other persons who attended the
+meeting to validate/update them. It is then easy to convert a properly formatted GoogleDoc (using standard heading
+levels) to Markdown for inserting it into the website. Look at our [documentation](/github-beginners.html) on how to
+do it.
+
 ### Adding to the newsletter
 
 Add a new file in `newsletter/_posts` and follow the front-matter of the
