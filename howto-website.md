@@ -38,7 +38,7 @@ e.g. the author of the document or the title of the document.
 It is sometimes handy to use GoogleDoc to produce some contents for the web site. For example, if taking minutes
 during a meeting, it allows several people to contribute to the effort of note taking and other persons who attended the
 meeting to validate/update them. It is then easy to convert a properly formatted GoogleDoc (using standard heading
-levels) to Markdown for inserting it into the website. Look at our [documentation](/github-beginners.html) on how to
+levels) to Markdown for inserting it into the website. Look at our [documentation](/jekyll-beginners.html) on how to
 do it.
 
 ### Adding to the newsletter
