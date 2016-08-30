@@ -37,7 +37,7 @@ affiliated people when needed. See <https://account.cern.ch/account/Externals/>
 ## Giving input to the HSF Startup Team
 
 If you are not comfortable with raising an issue in the
-[forums](/forums.html] or if you are afraid that this is not the
+[forums](/forums.html) or if you are afraid that this is not the
 right place for it, feel free to contact the
 [HSF startup team](hep-sf-startup-team@googlegroups.com.) directly.
 
