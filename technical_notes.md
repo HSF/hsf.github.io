@@ -27,7 +27,7 @@ Before being assigned an HSF reference and being archived in their final form, f
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Ends    | Download    |
 | ------------- | ------------- | ------------ |---------|---------------|
-| . | . | . | . | . |
+| HSF-TN-2016-VACPLAT | (Draft) The Vacuum Platform | A. McNab | 11 Oct | [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/draft-2016-VACPLAT) |
 
 ## Drafts in earlier stages of the acceptance process:
 
