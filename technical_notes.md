@@ -15,6 +15,7 @@ The Technical Notes policy is set out in the first technical note. Finalized not
 {:.table .table-hover .table-condensed .table-striped}
 | TN Number  | Title           | Authors     | Download    |
 | ------------- | ------------- | ------------ |---------------|
+| HSF-TN-2016-04 | Vacuum Platform | A. McNab | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-04/HSF-TN-2016-04.pdf) [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-04) |
 | HSF-TN-2016-03  | HSF Packaging Working Group Report  | B. Hegner, L. Sexton-Kennedy | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-03/HSF-TN-2016-03.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-03) |
 | HSF-TN-2016-02  | Machine/Job Features  | M. Alef et al.| [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-02/HSF-TN-2016-02.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-02) |
 | HSF-TN-2016-01  | Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al. | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-01/HSF-TN-2016-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-01) |
