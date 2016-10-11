@@ -28,7 +28,7 @@ Before being assigned an HSF reference and being archived in their final form, f
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Ends    | Download    |
 | ------------- | ------------- | ------------ |---------|---------------|
-| - | - | - | - | - |
+| . | . | . | . | . |
 
 ## Drafts in earlier stages of the acceptance process:
 
