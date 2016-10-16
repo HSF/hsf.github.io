@@ -1,6 +1,6 @@
 ---
 title: "Technical Notes"
-author: "Benedikt Hegner"
+author: "Andrew McNab"
 layout: default
 ---
 
@@ -10,16 +10,16 @@ The HEP Software Foundation technical note series was created to provide a curat
 
 Notes should be referenced in other publications as _Author(s), HSF-TN-YYYY-NN "The Title" (HEP Software Foundation)_ rather than with a URL.
 
-The Technical Notes policy is set out in the first technical note. Finalized notes and some of the later stages of the acceptance process are stored in the HSF GitHub repository.
+The Technical Notes policy is set out in the first technical note. Finalized notes and some of the later stages of the acceptance process are stored in the HSF GitHub repository. Final PDF files are copied to the main hepsoftwarefoundation.org website.
 
 {:.table .table-hover .table-condensed .table-striped}
 | TN Number  | Title           | Authors     | Download    |
 | ------------- | ------------- | ------------ |---------------|
-| HSF-TN-2016-04 | Vacuum Platform | A. McNab | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-04/HSF-TN-2016-04.pdf) [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-04) |
-| HSF-TN-2016-03  | HSF Packaging Working Group Report  | B. Hegner, L. Sexton-Kennedy | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-03/HSF-TN-2016-03.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-03) |
-| HSF-TN-2016-02  | Machine/Job Features  | M. Alef et al.| [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-02/HSF-TN-2016-02.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-02) |
-| HSF-TN-2016-01  | Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al. | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2016-01/HSF-TN-2016-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-01) |
-| HSF-TN-2015-01  | HSF Technical Notes policy | A. McNab | [PDF](https://github.com/HEP-SF/documents/raw/master/HSF-TN/2015-01/HSF-TN-2015-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2015-01) |
+| HSF-TN-2016-04 | Vacuum Platform | A. McNab | [PDF](/notes/HSF-TN-2016-04.pdf) [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-04) |
+| HSF-TN-2016-03  | HSF Packaging Working Group Report  | B. Hegner, L. Sexton-Kennedy | [PDF](/notes/HSF-TN-2016-03.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-03) |
+| HSF-TN-2016-02  | Machine/Job Features  | M. Alef et al.| [PDF](/notes/HSF-TN-2016-02.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-02) |
+| HSF-TN-2016-01  | Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al. | [PDF](/notes/HSF-TN-2016-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2016-01) |
+| HSF-TN-2015-01  | HSF Technical Notes policy | A. McNab | [PDF](/notes/HSF-TN-2015-01.pdf)  [GitHub](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2015-01) |
 
 ## Drafts in the consultation stage
 
