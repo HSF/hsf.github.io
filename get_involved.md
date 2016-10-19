@@ -25,7 +25,7 @@ by joining the HSF with your software project:
   *  Giving input to the HSF startup team
   *  Contributing to this website
 
-## Meetings
+## Meetings (Agendas and video-conferences)
 
 See the Events listing on this site for information on HSF meetings, workshops,
 etc. Meetings use the [CERN Indico system](http://indico.cern.ch/category/5816/) for agenda pages. The agenda pages are open to the world, and no CERN account needed. The Vidyo video conferencing system is used for all HSF meetings and anyone can participate in the meetings from any internet-connected location. 
