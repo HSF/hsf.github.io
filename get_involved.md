@@ -28,9 +28,8 @@ by joining the HSF with your software project:
 ## Meetings
 
 See the Events listing on this site for information on HSF meetings, workshops,
-etc. Meetings use CERN Indico for agenda pages. The pages are open to the world,
-no CERN account needed. So is Vidyo, the conference system we use. Connection
-info is on the Indico pages. However should you need to upload material to the
+etc. Meetings use the [CERN Indico system](http://indico.cern.ch/category/5816/) for agenda pages. The agenda pages are open to the world, and no CERN account needed. The Vidyo video conferencing system is used for all HSF meetings and anyone can participate in the meetings from any internet-connected location. 
+Connection information for each specific Vidyo meeting is on the corresponding Indico meeting agenda page.  Vidyo has a web-browser interface, or alternatively one can [download the Vidyo desktop client (standalone application)](http://information-technology.web.cern.ch/services/fe/howto/users-install-vidyo-desktop-client).  However should you need to upload material to the
 agenda, a CERN account is needed. CERN provides lightweight accounts to non CERN
 affiliated people when needed. See <https://account.cern.ch/account/Externals/>
 
