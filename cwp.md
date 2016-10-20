@@ -29,15 +29,12 @@ Workflow and Resource Management   | [Google Doc](https://docs.google.com/docume
 Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
 Data Analysis and Interpretation           | [Google Doc](https://docs.google.com/document/d/1QaX20F6WQlwQTlx-5bRK0J2tybFqC_NPn6CF7g3yzqk/edit)        |
 Data and Software Preservation |           [Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)     |   |
-
 Software Development, Deployment | | |
 and Validation/Verification  | [Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| | 
-
 Computing Models, Facilities, Networking, | | | 
 Distributed Computing and Various | | |
 Aspects of Technical Evolution | | |
 (Software Tools, Hardware) | [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit)| |
-
 Security and Access Control | [Google Doc](https://docs.google.com/document/d/17xVZv8GJIRqCdFQeH2Ec7J8AmC7HokuRbyNR2K3SryY/edit)| | 
 Careers, Staffing and Training | [Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit)| | 
 Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)| |
