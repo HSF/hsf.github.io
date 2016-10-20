@@ -7,7 +7,8 @@ layout: default
 # Community White Paper (CWP) - A Roadmap for HEP Software and Computing
 
 The HEP community has started the process of producing a Community White Paper (CWP) with a roadmap and strategy for software and computing in HEP in the 2020s.
-This activity is organised under the umbrella of the HSF. After the preparatory phase during Fall 2016, the CWP process will be launched in January 2017 at UCSD (January 23-27). 
+This activity is organised under the umbrella of the HSF. After the preparatory phase during Fall 2016, the CWP process will be launched in January 2017 at an
+[HSF workshop at UCSD (January 23-27)](http://indico.cern.ch/event/570249/). 
 
 
 - [CWP presentation @CHEP2016](https://indico.cern.ch/event/505613/contributions/2323238/attachments/1352966/2043354/20161011-chep-cwp-plenary.pdf)
@@ -15,7 +16,7 @@ This activity is organised under the umbrella of the HSF. After the preparatory 
 - [Charge from WLCG project](/assets/CWP-Charge-HSF.pdf)
 
 
-To join the CWP process and get information about its progress, the join [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group (no Google account is required, you can register by sending an email to [hsf-community-white-paper+subscribe@googlegroups.com](mailto:hsf-community-white-paper+subscribe@googlegroups.com)). Subscribing to this group with a Google account is required if you want to be able to contribute to CWP documents hosted in Google Docs.
+To join the CWP process and get information about its progress, please join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group (no Google account is required, you can register by sending an email to [hsf-community-white-paper+subscribe@googlegroups.com](mailto:hsf-community-white-paper+subscribe@googlegroups.com)). Subscribing to this group with a Google account is required if you want to be able to contribute to CWP documents hosted in Google Docs.
 
 # CWP Working Groups
 
@@ -46,10 +47,13 @@ Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-L
 Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| |
 Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| |
 
-If you would like organize an additional working group, please post to
-the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group.
+
+The working group charges should be world-visible for reading. If you would
+like to edit them, you will need to join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group and
+login as your google user. If you would like organize an additional working group, please post to the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group.
 
 
+# Related links
 
  
 
