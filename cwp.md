@@ -5,6 +5,7 @@ layout: default
 ---
 
 # Community White Paper (CWP) 
+
 ## A Roadmap for HEP Software and Computing
 
 The HEP community has started the process of producing a Community White Paper (CWP) with a roadmap and strategy for software and computing in HEP in the 2020s.
@@ -23,7 +24,7 @@ To join the CWP process and get information about its progress, please join the 
   The current working groups are:
 
 | Working Group |    Charge     | Notes   |
-:-------------- | :-----------: | :------ |
+:-------------- | :-----------: | :------: |
 Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp;        |
 Triggering          | [Google Doc](https://docs.google.com/document/d/13b3aK32R7ZfF9_0Q_CgTb_GiMxMAFRk93hASpAjSXRM/edit)          |         |
 Event Reconstruction| [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          |         |
