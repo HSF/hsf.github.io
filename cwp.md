@@ -4,7 +4,8 @@ author: "Peter Elmer"
 layout: default
 ---
 
-# Community White Paper (CWP) - A Roadmap for HEP Software and Computing
+# Community White Paper (CWP) 
+## A Roadmap for HEP Software and Computing
 
 The HEP community has started the process of producing a Community White Paper (CWP) with a roadmap and strategy for software and computing in HEP in the 2020s.
 This activity is organised under the umbrella of the HSF. After the preparatory phase during Fall 2016, the CWP process will be launched at an [HSF workshop at SDSC/UCSD](http://indico.cern.ch/event/570249/) on January 23-27, 2017
