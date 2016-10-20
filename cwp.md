@@ -6,10 +6,17 @@ layout: default
 
 # Community White Paper (CWP) 
 
-## A Roadmap for HEP Software and Computing
+## A Roadmap for HEP Software and Computing in the 2020s
 
-The HEP community has started the process of producing a Community White Paper (CWP) with a roadmap and strategy for software and computing in HEP in the 2020s.
-This activity is organised under the umbrella of the HSF. After the preparatory phase during Fall 2016, the CWP process will be launched at an [HSF workshop at SDSC/UCSD](http://indico.cern.ch/event/570249/) on January 23-27, 2017
+The HEP community faces a number of challenges for software and
+computing over the next 10 years. To address these challenges we are
+now beginning a process to produce a Community White Paper (CWP)
+which will describe a consensus roadmap and strategy for software
+and computing in HEP in the 2020s.  This activity is organised under
+the umbrella of the HSF. After the preparatory phase during Fall
+2016, the CWP process will be launched at an [HSF workshop at
+SDSC/UCSD](http://indico.cern.ch/event/570249/) on January 23-27,
+2017. The aim is to produce a consensus document by summer, 2017.
 
 - [CWP presentation @CHEP2016](https://indico.cern.ch/event/505613/contributions/2323238/attachments/1352966/2043354/20161011-chep-cwp-plenary.pdf)
 - [Charge from WLCG project](/assets/CWP-Charge-HSF.pdf)
@@ -28,7 +35,7 @@ To join the CWP process and get information about its progress, please join the 
 Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp;        |
 Triggering          | [Google Doc](https://docs.google.com/document/d/13b3aK32R7ZfF9_0Q_CgTb_GiMxMAFRk93hASpAjSXRM/edit)          |         |
 Event Reconstruction| [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          |         |
-Visualization       | [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          | &nbsp; &nbsp; &nbsp; [hsf-cwp-visualization@googlegroups.com Google Group](https://groups.google.com/forum/#!forum/hsf-cwp-visualization)        |
+Visualization       | [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          | &nbsp; &nbsp; &nbsp; [Google Group: hsf-cwp-visualization@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-visualization)        |
 Data Access and Management | [Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   |         |
 Workflow and Resource Management   | [Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit) |         |
 Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
