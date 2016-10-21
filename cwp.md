@@ -20,10 +20,7 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Timeline
 
-After the preparatory phase during Fall
-2016, the CWP process will be launched at an [HSF workshop at
-SDSC/UCSD](http://indico.cern.ch/event/570249/) on January 23-27,
-2017. The aim is to produce a consensus document by summer, 2017.
+After the preparatory phase during Fall 2016, the CWP process will be launched at an [HSF workshop at SDSC/UCSD](http://indico.cern.ch/event/570249/) on January 23-27, 2017. The aim is to produce a consensus document by summer, 2017.
 
 ## Communication
 
@@ -57,7 +54,6 @@ Careers, Staffing and Training | [Google Doc](https://docs.google.com/document/d
 Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)| |
 Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| |
 Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| |
-
 
 The working group charges should be world-visible for reading. If you would
 like to edit them, you will need to join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group and
