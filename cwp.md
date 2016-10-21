@@ -10,7 +10,8 @@ layout: default
 
 The HEP community faces a number of challenges for software and
 computing over the next 10 years. As a step towards addressing these
-challenges we are now beginning a process to produce a Community White Paper 
+challenges we are now beginning a community planning process. The aim
+is to produce a Community White Paper 
 (CWP) which will describe the community strategy as well as a roadmap for 
 software and computing in HEP in the 2020s. This activity is organised under
 the umbrella of the HSF. The LHC experiments and HSF have been 
@@ -63,6 +64,13 @@ like to edit them, you will need to join the [hsf-community-white-paper](https:/
 login as your google user. If you would like organize an additional working group, please post to the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group.
 
 ## CWP Process
+
+Coming soon....
+
+## Other notes
+
+The timeline for producing a CWP by summer, 2017, corresponds roughly to
+the plan for [CERN openlab](http://openlab.cern/) to produce a similar white paper describing the plans for their next phase beginning in January, 2018. We expect that the CWP process and CERN openlab planning processes will be synergistic.
 
 ## Related links
 
