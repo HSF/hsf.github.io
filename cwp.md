@@ -12,7 +12,7 @@ The HEP community faces a number of challenges for software and
 computing over the next 10 years. As a step towards addressing these
 challenges we are now beginning a community planning process. The aim
 is to produce a Community White Paper 
-(CWP) which will describe the community strategy as well as a roadmap for 
+(CWP) which will describe the community strategy and a roadmap for 
 software and computing in HEP in the 2020s. This activity is organised under
 the umbrella of the HSF. The LHC experiments and HSF have been 
 specifically [charged by the WLCG project](/assets/CWP-Charge-HSF.pdf) and
@@ -57,6 +57,7 @@ Careers, Staffing and Training | [Google Doc](https://docs.google.com/document/d
 Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)| |
 Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| |
 Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| |
+Math libaries | [Google Doc](://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit)| |
 
 
 The working group charges should be world-visible for reading. If you would
