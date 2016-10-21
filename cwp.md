@@ -6,14 +6,19 @@ layout: default
 
 # Community White Paper (CWP) 
 
-## A Roadmap for HEP Software and Computing in the 2020s
+## A Roadmap for HEP Software and Computing R&D for the 2020s
 
-The HEP community faces a number of challenges for software and
-computing over the next 10 years. As a step towards addressing these
-challenges we are now beginning a community planning process. The aim
+Realizing the physics programs of the planned and/or upgraded HEP experiments 
+over the next 10 years will require the HEP community to address a number of 
+challenges in the area of software and computing. It is expected that
+the computing models will need to evolve and a significant "software 
+upgrade" is required to prepare.
+In order to identify and prioritize the software research and development 
+investments required, we are now beginning a community planning process. The 
+aim
 is to produce a Community White Paper 
 (CWP) which will describe the community strategy and a roadmap for 
-software and computing in HEP in the 2020s. This activity is organised under
+software and computing R&D in HEP for the 2020s. This activity is organised under
 the umbrella of the HSF. The LHC experiments and HSF have been 
 specifically [charged by the WLCG project](/assets/CWP-Charge-HSF.pdf) and
 we are reaching out to other HEP experiments around the world to participate.
