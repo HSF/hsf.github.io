@@ -62,7 +62,7 @@ login as your google user. If you would like organize an additional working grou
 
 ## CWP Process
 
-Additional information about the process coming soon....
+Additional information will be coming soon....
 
 ## Other notes
 
