@@ -78,6 +78,6 @@ the plan for [CERN openlab](http://openlab.cern/) to produce a similar white pap
 
 - [CWP presentation @CHEP2016](https://indico.cern.ch/event/505613/contributions/2323238/attachments/1352966/2043354/20161011-chep-cwp-plenary.pdf)
 - [Initial HSF CWP Google Doc](https://docs.google.com/document/d/140HEAxD0u_XAUKYrCR3SahxyHxFfJ_YOFJpsNubMiC8/edit) - this document is now deprecated and we are moving the contents to this HSF webpage 
-
+- [US NSF S2I2 Conceptualization Project](http://s2i2-hep.org/) and [Google Group](https://groups.google.com/forum/#!forum/s2i2-hep)
 
  
