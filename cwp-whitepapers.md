@@ -6,43 +6,46 @@ layout: default
 
 # Community White Paper (CWP) Whitepapers
 
+The following is a list of whitepapers contributed as part of the CWP 
+process. A few related documents from recent years have also been 
+included.
 
-## Detector Simulation 
+### Detector Simulation 
 
-## Triggering         
+### Triggering         
 
-## Event Reconstruction
+### Event Reconstruction
 
-## Visualization
+### Visualization
 
-## Data Access and Management 
+### Data Access and Management 
 
-## Workflow and Resource Management   
+### Workflow and Resource Management   
 
-## Physics Generators  
+### Physics Generators  
 
-## Data Analysis and Interpretation           
+### Data Analysis and Interpretation           
 
-## Data and Software Preservation 
+### Data and Software Preservation 
 
-## Software Development, Deployment and Validation/Verification  
+### Software Development, Deployment and Validation/Verification  
 
-## Computing Models, Facilities and Distributed Computing 
+### Computing Models, Facilities and Distributed Computing 
 
-## Security and Access Control 
+### Security and Access Control 
 
-## Careers, Staffing and Training 
+### Careers, Staffing and Training 
 
-## Machine Learning 
+### Machine Learning 
 
-## Conditions Database 
+### Conditions Database 
 
-## Event Processing Frameworks 
+### Event Processing Frameworks 
 
-## Monitoring 
+### Monitoring 
 
-## Math Libraries 
+### Math Libraries 
 
-## Various Aspects of Technical Evolution (Software Tools, Hardware, Networking) 
+### Various Aspects of Technical Evolution (Software Tools, Hardware, Networking) 
 
 

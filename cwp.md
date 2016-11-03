@@ -71,6 +71,9 @@ login as your google user. If you would like organize an additional working grou
 
 Additional information will be coming soon....
 
+We maintain a [list of contributed CWP whitepapers](http://hepsoftwarefoundation.org/cwp-whitepapers.html).
+
+
 ## Other notes
 
 The timeline for producing a CWP by summer, 2017, corresponds roughly to
