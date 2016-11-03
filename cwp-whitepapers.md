@@ -48,4 +48,19 @@ included.
 
 ### Various Aspects of Technical Evolution (Software Tools, Hardware, Networking) 
 
+### Other Topics
+
+### Previous Related Community Documents
+
+  * DOE - [High Energy Physics Forum for Computational Excellence: Working Group Reports (I. Applications Software II. Software Libraries and Tools III. Systems)](http://arxiv.org/abs/1510.08545)
+
+<!---  * [HEP-FCE Working Group on Libraries and Tools](http://arxiv.org/abs/1506.01309) --->
+
+  * US Particle Physics Project Prioritization Panel (P5) report: [Building for Discovery: Strategic Plan for U.S. Particle Physics in the Global Context](http://science.energy.gov/~/media/hep/hepap/pdf/May-2014/FINAL_P5_Report_Interactive_060214.pdf)
+
+  * US Snowmass process:
+
+    * [Planning the Future of U.S. Particle Physics (Snowmass 2013): Chapter 9: Computing](http://arxiv.org/abs/1401.6117)
+
+    * [Snowmass Computing Frontier: Software Development, Staffing and Training](http://arxiv.org/abs/1311.2567)
 
