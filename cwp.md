@@ -57,6 +57,7 @@ Careers, Staffing and Training | [Google Doc](https://docs.google.com/document/d
 Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)| |
 Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| |
 Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| |
+Monitoring | [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByMkJyUXzUy28bUbs9VLI1w/edit)| |
 Math Libraries | [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) | |
 Various Aspects of Technical Evolution | | |
 (Software Tools, Hardware, Networking) | [Google Doc](https://docs.google.com/document/d/1bOv5kDzmcg0eLSy7PZjjzE5OYSxaLAfaAxAI-IgKaac/edit)| |
