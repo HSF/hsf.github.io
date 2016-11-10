@@ -35,6 +35,10 @@ To join the CWP process and get information about its progress, please join the 
 
   During October, 2016, the process of forming CWP working groups has begun. We are letting the working groups self-organize with a bit of help from the HEP experiment software/computing coordinators and the HSF startup team. The first step for each working group is to formulate a charge to describe the challenges in that area and questions which need to be answered to produce a roadmap for the CWP. 
 
+  The working group charges should be world-visible for reading. If you would
+like to edit them, you will need to join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group and
+login as your google user. If you would like organize an additional working group, please post to the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group.
+
   The current active working groups are:
 
 | Working Group |    Charge     |  Notes   |
@@ -50,10 +54,6 @@ Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-L
 Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| |
 Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| |
 Monitoring | [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByMkJyUXzUy28bUbs9VLI1w/edit)| |
-
-The working group charges should be world-visible for reading. If you would
-like to edit them, you will need to join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group and
-login as your google user. If you would like organize an additional working group, please post to the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group.
 
   The planned/expected working groups (not yet active) are:
 
