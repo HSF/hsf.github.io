@@ -10,6 +10,9 @@ The following is a list of whitepapers contributed as part of the CWP
 process. A few related documents from recent years have also been 
 included.
 
+
+If you have a white paper which you would like to contribute to the CWP process, please submit it (in pdf or link form, e.g. in the arXiv) to hsf-cwp-white-paper-submission@googlegroups.com and it will add be added on this page.
+
 ### Detector Simulation 
 
 ### Triggering         
