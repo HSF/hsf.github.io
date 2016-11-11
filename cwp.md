@@ -77,9 +77,11 @@ Hardware, Networking) | [Google Doc](https://docs.google.com/document/d/1bOv5kDz
 
 ## CWP Process
 
-Additional information will be coming soon....
+The CWP process will involve a number of workshops between January and Summer 2017. As part of the process members of the community are encouraged to write white papers to describe their ideas on the various topics. White papers can be submitted by anyone: individuals, groups of individuals, experiments, institutions, etc.
 
 We maintain a [list of contributed CWP whitepapers](http://hepsoftwarefoundation.org/cwp-whitepapers.html).
+
+If you have a white paper which you would like to contribute to the CWP process, please submit it (in pdf or link form, e.g. in the arXiv) to hsf-cwp-white-paper-submission@googlegroups.com and it will add be added this list.
 
 
 ## Other notes
