@@ -7,21 +7,21 @@ layout: default
 
 Currently the activities within the HSF are organized by the *HSF startup team*. Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the startup team:
 
- * [Amber Boehnlein](https://www.jlab.org/div_dept/directorate/directors/ABoehnlein.html) [Jefferson Lab](https://www.jlab.org/)
- * [Peter Elmer](http://www.princeton.edu/physics/people/display_person.xml?netid=gelmer) [Princeton](https://www.princeton.edu/physics/)
- * Daniel Elvira [FNAL](http://www.fnal.gov)
- * Frank Gaede [DESY](http://www.desy.de)
- * Benedikt Hegner [CERN](http://cern.ch)
- * Michel Jouvin [LAL,IN2P3](http://www.lal.in2p3.fr)
- * Pere Mato [CERN](http://cern.ch), co-lead
- * Andrew McNab [Manchester](http://www.hep.manchester.ac.uk)
- * Dario Menasce [INFN](http://www.mi.infn.it)
- * Elizabeth Sexton-Kennedy [FNAL](http://www.fnal.gov)
- * Graeme Stewart [Glasgow](http://www.gla.ac.uk/schools/physics/research/groups/particlephysicsexperiment/)
- * Craig Tull [LBNL](http://www.lbl.gov)
- * Andrea Valassi [CERN](http://cern.ch)
- * Brett Viren [BNL](https://www.bnl.gov)
- * Torre Wenaus [BNL](https://www.bnl.gov), co-lead
+ * [Amber Boehnlein](https://www.jlab.org/div_dept/directorate/directors/ABoehnlein.html) - [Jefferson Lab](https://www.jlab.org/)
+ * [Peter Elmer](http://www.princeton.edu/physics/people/display_person.xml?netid=gelmer) - [Princeton](https://www.princeton.edu/physics/)
+ * Daniel Elvira - [FNAL](http://www.fnal.gov)
+ * Frank Gaede - [DESY](http://www.desy.de)
+ * Benedikt Hegner - [CERN](http://cern.ch)
+ * Michel Jouvin - [LAL,IN2P3](http://www.lal.in2p3.fr)
+ * Pere Mato - [CERN](http://cern.ch), co-lead
+ * Andrew McNab - [Manchester](http://www.hep.manchester.ac.uk)
+ * Dario Menasce - [INFN](http://www.mi.infn.it)
+ * Elizabeth Sexton-Kennedy - [FNAL](http://www.fnal.gov)
+ * Graeme Stewart - [Glasgow](http://www.gla.ac.uk/schools/physics/research/groups/particlephysicsexperiment/)
+ * Craig Tull - [LBNL](http://www.lbl.gov)
+ * Andrea Valassi - [CERN](http://cern.ch)
+ * Brett Viren - [BNL](https://www.bnl.gov)
+ * Torre Wenaus - [BNL](https://www.bnl.gov), co-lead
 
 The entire team can be contacted via <hep-sf-startup-team@googlegroups.com>.
 
