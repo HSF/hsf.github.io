@@ -37,6 +37,8 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
 
 ## Presentations given by Startup Team Members
 
+ * [Developing the Roadmap for HL-LHC Software](https://indico.cern.ch/event/524795/contributions/2236597/attachments/1347925/2033396/LHC-Software-Roadmap.pdf) 
+   at the [ECFA HL-LHC Experiments Workshop](https://indico.cern.ch/event/524795/timetable/), 3-6 Oct 2016, Pere Mato
  * [Preparing SW for the Future](https://indico.cern.ch/event/433164/contribution/21/attachments/1221971/1786949/WLCGworkshop2016SW2.pdf) at the [2016 WLCG Workshop](https://indico.cern.ch/event/433164/), Feb 3 2016, Benedikt Hegner
  * [HSF initiatives](https://kds.kek.jp/indico/event/20387/session/31/contribution/175/material/slides/0.pdf) at [Belle II General Meeting](https://kds.kek.jp/indico/event/20387/), Feb 3 2016, Pere Mato
  * [HSF summary](https://indico.cern.ch/event/395887/session/5/contribution/12/attachments/1185905/1719290/HSF_111115.pdf) at [ATLAS Software Technical Meeting](https://indico.cern.ch/event/395887/other-view?view=standard), Nov 11 2015, Benedikt Hegner
