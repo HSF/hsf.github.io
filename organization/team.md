@@ -32,7 +32,7 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
 {:.table .table-hover .table-condensed .table-striped}
 | Date   | Title      |
 | ------ | ---------- |
-{% for post in site.categories.organization %} | {{ post.date | date: "%d-%m-%Y" }} | [ {{ post.title }} ]( {{ post.url }} ) |
+{% for post in site.categories.organization[-10:] %} | {{ post.date | date: "%d-%m-%Y" }} | [ {{ post.title }} ]( {{ post.url }} ) |
 {% endfor %}
 
 ## Presentations given by Startup Team Members
