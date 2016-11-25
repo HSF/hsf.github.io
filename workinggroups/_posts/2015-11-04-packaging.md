@@ -32,17 +32,23 @@ We held various meetings to look at the existing build and packaging solutions
 | [4.11.2015](https://indico.cern.ch/event/457365/) | AliBuild              |
 | [18.11.2015](https://indico.cern.ch/event/462334/) | Conda                |
 | [10.02.2016](https://indico.cern.ch/event/484006/) | Spack                |
+| [02.11.2017](https://indico.cern.ch/event/581338/) | Gentoo's Portage     |
 
-During these meetings we looked at
+During these meetings we looked at the following community-driven projects
 
-  * [Worch](https://github.com/brettviren/worch)
-  * [LCGCMake](http://ph-dep-sft.web.cern.ch/document/using-lcgcmake)
+  * [aliBuild](http://alisw.github.io/alibuild/)
   * [cmsBuild](https://github.com/cmsbuild/cmsdist)
+  * [LCGCMake](https://gitlab.cern.ch/sft/lcgcmake/)
+  * [Worch](https://github.com/brettviren/worch)
+  * Contractor (no public documentation)
+  * SciSoft (no public documentation)
+
+and the following open-source projects
+
+  * [Conda](http://conda.pydata.org/docs/)
   * [homebrew](http://brew.sh/)
   * [Nix](https://nixos.org/nix/)
-  * Contractor
-  * SciSoft
-  * [Conda](http://conda.pydata.org/docs/)
+  * [Portage](https://wiki.gentoo.org/wiki/Project:Portage)
   * [Spack](https://github.com/LLNL/spack) 
 
 The summary of our analysis has been summarized in a [Technical note on Build Tools](/technical_notes.html)
