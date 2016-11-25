@@ -37,6 +37,7 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
 
 ## Presentations given by Startup Team Members
  * [Hep Software Foundation and Community White Paper](https://indico.desy.de/getFile.py/access?contribId=17&sessionId=7&resId=0&materialId=slides&confId=15730), at the [10th Annual Meeting of the Helmholtz Alliance](https://indico.desy.de/conferenceOtherViews.py?view=standard&confId=15730), Nov 22-23, 2016, Frank Gaede
+ * [Challenges in the HEP SW Landscape](https://indico.desy.de/getFile.py/access?contribId=10&resId=0&materialId=1&confId=16073) at the [2016 KET-Meeting](https://indico.desy.de/conferenceDisplay.py?confId=16073), 18 Nov 2016, Benedikt Hegner
  * [Community White Paper: A Roadmap for HEP Software and Computing - Status and Plans](https://indico.cern.ch/event/505613/contributions/2323238/attachments/1352966/2043354/20161011-chep-cwp-plenary.pdf) at [CHEP 2016](http://chep2016.org), 11 Oct 2016, Peter Elmer
  * [Community White Paper: A Roadmap for HEP Software and Computing - Status and Plans](https://indico.cern.ch/event/555063/contributions/2330979/attachments/1350889/2039355/20161009-wlcg-pre-chep-cwp.pdf) at [WLCG Workshop 2016](https://indico.cern.ch/event/555063/), 9 Oct 2016, Peter Elmer
  * [Developing the Roadmap for HL-LHC Software](https://indico.cern.ch/event/524795/contributions/2236597/attachments/1347925/2033396/LHC-Software-Roadmap.pdf) 
