@@ -58,7 +58,7 @@ in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and th
 
 ### Adding breaking news
 
-Add a new file in `news/_posts` and follow the front matter of the other files in there. The front page will
+Add a new file in `announcements/_posts` and follow the front matter of the other files in there. The front page will
 get a new box with all information.
 
 Please don't forget adding an event ``startdate`` in the *front-matter*: this is used for ordering events **and** as the end date
@@ -85,7 +85,7 @@ down menu `Working Groups`.
 ### Main page automatization
 The main page contains three dynamic blocks:
 
- * breaking news, triggered by writing an item in `news/_posts`
+ * breaking news, triggered by writing an item in `announcements/_posts`
  * a list of minutes
  * a list of newsletters
  
