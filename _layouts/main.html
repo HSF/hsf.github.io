@@ -24,9 +24,9 @@ The HEP Software Foundation (HSF) facilitates coordination and common efforts in
 The HSF is now beginning community process to develop a consensus roadmap for HEP Software and Computing R&D for the 2020s. More infomation about this can be found on the <a href="{{site.baseurl}}/cwp.html">Community White Paper (CWP)</a> page on the HSF site.
 </div>
 <hr>
-  {% assign sitedate = site.time | date: "%m-%d-%Y"   %}
+  {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
   {% for post in site.categories.announcements %}
-    {% assign stopdate = post.until | string_to_date | date: "%m-%d-%Y" %}
+    {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
     {% if stopdate > sitedate %}
 <div class="row alert alert-warning">
   <p class="lead">
