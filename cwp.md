@@ -51,7 +51,7 @@ Visualization       | [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj
 Data Access and Management | [Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   |         |
 Security and Access Control | [Google Doc](https://docs.google.com/document/d/17xVZv8GJIRqCdFQeH2Ec7J8AmC7HokuRbyNR2K3SryY/edit)| | 
 Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)| |
-Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| |
+Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| &nbsp; &nbsp; &nbsp; [Google Group: hsf-cwp-conditionsdb@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-conditionsdb) |
 Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| |
 Monitoring | [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByMkJyUXzUy28bUbs9VLI1w/edit)| |
 
