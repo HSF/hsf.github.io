@@ -18,8 +18,7 @@ investments required, we are now beginning a community planning process. The
 aim
 is to produce a Community White Paper 
 (CWP) which will describe the community strategy and a roadmap for 
-software and computing R&D in HEP for the 2020s. This activity is organised under
-the umbrella of the HSF. The LHC experiments and HSF have been 
+software and computing R&D in HEP for the 2020s. This activity is organised under the umbrella of the HSF. The LHC experiments and HSF have been 
 specifically [charged by the WLCG project](/assets/CWP-Charge-HSF.pdf) and
 we are reaching out to other HEP experiments around the world to participate.
 
