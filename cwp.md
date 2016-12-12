@@ -53,6 +53,7 @@ Security and Access Control | [Google Doc](https://docs.google.com/document/d/17
 Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)| |
 Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| &nbsp; &nbsp; &nbsp; [Google Group: hsf-cwp-conditionsdb@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-conditionsdb) |
 Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| |
+Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
 Monitoring | [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByMkJyUXzUy28bUbs9VLI1w/edit)| |
 
 
@@ -63,7 +64,6 @@ Monitoring | [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2szt
 :-------------- | :-----------: | :------: |
 Triggering          | [Google Doc](https://docs.google.com/document/d/13b3aK32R7ZfF9_0Q_CgTb_GiMxMAFRk93hASpAjSXRM/edit)          |         |
 Workflow and Resource Management   | [Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit) |         |
-Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
 Data Analysis and Interpretation           | [Google Doc](https://docs.google.com/document/d/1QaX20F6WQlwQTlx-5bRK0J2tybFqC_NPn6CF7g3yzqk/edit)        |
 Data and Software Preservation |           [Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)     |   |
 Software Development, Deployment | | |
