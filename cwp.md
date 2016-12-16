@@ -45,7 +45,7 @@ login as your google user. If you would like organize an additional working grou
 Computing Models, Facilities, | | | 
 and Distributed Computing | [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit)| |
 Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp;        |
-Event Reconstruction| [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          |   [Google Group: hsf-cwp-eventreconstruction@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-eventreconstruction)      |
+Event Reconstruction| [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          | &nbsp; &nbsp; &nbsp; [Google Group: hsf-cwp-eventreconstruction@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-eventreconstruction)      |
 Visualization       | [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          | &nbsp; &nbsp; &nbsp; [Google Group: hsf-cwp-visualization@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-visualization)        |
 Data Access and Management | [Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   |         |
 Security and Access Control | [Google Doc](https://docs.google.com/document/d/17xVZv8GJIRqCdFQeH2Ec7J8AmC7HokuRbyNR2K3SryY/edit)| | 
