@@ -25,7 +25,7 @@ The HSF is now beginning community process to develop a consensus roadmap for HE
 </div>
 <hr>
   {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
-  {% for post in site.categories.announcements %}
+  {% for post in site.categories.announcements reversed %}
     {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
     {% if stopdate > sitedate %}
 <div class="row alert alert-warning">
