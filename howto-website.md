@@ -61,7 +61,7 @@ in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and th
 Add a new file in `announcements/_posts` and follow the front matter of the other files in there. The front page will
 get a new box with all information.
 
-Please don't forget adding an event ``startdate`` in the *front-matter*: this is used for ordering events **and** as the end date
+Please don't forget adding an event ``until`` in the *front-matter*: this is used for ordering events **and** as the end date
 for adding the event in the ``Upcoming Events`` sidebar.
 
 ## Technical details
