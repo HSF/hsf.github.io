@@ -54,10 +54,10 @@ Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUn
 Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| |
 Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
 Monitoring | [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByMkJyUXzUy28bUbs9VLI1w/edit)| |
+Math Libraries | [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) | |
 
 
-
-  The planned/expected working groups (not yet active) are:
+  The planned/expected working groups (not yet active or just starting) are:
 
 | Working Group |    Charge     |  Notes   |
 :-------------- | :-----------: | :------: |
@@ -68,7 +68,6 @@ Data and Software Preservation |           [Google Doc](https://docs.google.com/
 Software Development, Deployment | | |
 and Validation/Verification  | [Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| | 
 Careers, Staffing and Training | [Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit)| | 
-Math Libraries | [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) | |
 Various Aspects of Technical | | |
 Evolution (Software Tools, | | |
 Hardware, Networking) | [Google Doc](https://docs.google.com/document/d/1bOv5kDzmcg0eLSy7PZjjzE5OYSxaLAfaAxAI-IgKaac/edit)| |
