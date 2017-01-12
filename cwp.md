@@ -61,6 +61,7 @@ Math Libraries | [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olums
 
 | Working Group |    Charge     |  Notes   |
 :-------------- | :-----------: | :------: |
+Data Acquisition Software | [Google Doc](https://docs.google.com/document/d/1BYeWbDLyxG-CUV70aKR-UJubwBdChVrb9lxI1Rk43sY/edit)          |         |
 Triggering          | [Google Doc](https://docs.google.com/document/d/13b3aK32R7ZfF9_0Q_CgTb_GiMxMAFRk93hASpAjSXRM/edit)          |         |
 Workflow and Resource Management   | [Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit) |         |
 Data Analysis and Interpretation           | [Google Doc](https://docs.google.com/document/d/1QaX20F6WQlwQTlx-5bRK0J2tybFqC_NPn6CF7g3yzqk/edit)        |
