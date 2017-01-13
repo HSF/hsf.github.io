@@ -41,16 +41,16 @@ login as your google user. If you would like organize an additional working grou
   The current active working groups are:
 
 | Working Group |    Charge     |  Google Group |
-:-------------- | :-----------: | :------: |
+:-------------- | :-----------: | :------ |
 Computing Models, Facilities, | | | 
 and Distributed Computing | [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit)| |
-Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp; [Google Group: hsf-cwp-simulation@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       |
-Event Reconstruction| [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          | &nbsp; &nbsp; &nbsp; [Google Group: hsf-cwp-eventreconstruction@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-eventreconstruction)      |
-Visualization       | [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          | &nbsp; &nbsp; &nbsp; [Google Group: hsf-cwp-visualization@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-visualization)        |
+Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp; hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       |
+Event Reconstruction| [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          | &nbsp; &nbsp; &nbsp; hsf-cwp-eventreconstruction@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-eventreconstruction)      |
+Visualization       | [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          | &nbsp; &nbsp; &nbsp; hsf-cwp-visualization@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-visualization)        |
 Data Access and Management | [Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   |         |
 Security and Access Control | [Google Doc](https://docs.google.com/document/d/17xVZv8GJIRqCdFQeH2Ec7J8AmC7HokuRbyNR2K3SryY/edit)| | 
 Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-machine-learning@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-machine-learning) |
-Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| &nbsp; &nbsp; &nbsp; [Google Group: hsf-cwp-conditionsdb@googlegroups.com](https://groups.google.com/forum/#!forum/hsf-cwp-conditionsdb) |
+Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-conditionsdb@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-conditionsdb) |
 Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| |
 Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
 Monitoring | [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByMkJyUXzUy28bUbs9VLI1w/edit)| |
