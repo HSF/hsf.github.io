@@ -59,7 +59,9 @@ Triggering          | [Google Doc](https://docs.google.com/document/d/13b3aK32R7
 Software Development, Deployment | | |
 and Validation/Verification  | [Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-software-development@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-software-development) | 
 
-  The planned/expected working groups (not yet active or just starting) are:
+
+
+The planned/expected working groups (not yet active or just starting) are:
 
 | Working Group |    Charge     |  Notes   |
 :-------------- | :-----------: | :------: |
