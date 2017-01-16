@@ -13,9 +13,8 @@ included.
 If you have a white paper which you would like to contribute to the CWP process, please submit it (in pdf or link form, e.g. in the arXiv) to hsf-cwp-white-paper-submission@googlegroups.com and it will add be added on this page.
 
 
-Exploiting HPC for HEP towards Exascale
-Wahid Bhimji (LBNL), Taylor Childers (ANL), Lisa Gerhardt (LBNL), Jeff Porter (LBNL)
-[(link to pdf)](cwp/hsf-cwp-001-ExploitingHPC-CWPWhitepaper.pdf)
+  * *Exploiting HPC for HEP towards Exascale* [(link to pdf)](cwp/hsf-cwp-001-ExploitingHPC-CWPWhitepaper.pdf)
+    * Wahid Bhimji (LBNL), Taylor Childers (ANL), Lisa Gerhardt (LBNL), Jeff Porter (LBNL)
 
 ### Detector Simulation 
 
