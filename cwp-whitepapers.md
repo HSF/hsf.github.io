@@ -12,49 +12,11 @@ included.
 
 If you have a white paper which you would like to contribute to the CWP process, please submit it (in pdf or link form, e.g. in the arXiv) to hsf-cwp-white-paper-submission@googlegroups.com and it will add be added on this page.
 
+### Contributed White Papers
 
   * *Exploiting HPC for HEP towards Exascale* [(link to pdf)](cwp/hsf-cwp-001-ExploitingHPC-CWPWhitepaper.pdf)
-    * Wahid Bhimji (LBNL), Taylor Childers (ANL), Lisa Gerhardt (LBNL), Jeff Porter (LBNL)
-
-### Detector Simulation 
-
-### Triggering         
-
-### Event Reconstruction
-
-### Visualization
-
-### Data Access and Management 
-
-### Workflow and Resource Management   
-
-### Physics Generators  
-
-### Data Analysis and Interpretation           
-
-### Data and Software Preservation 
-
-### Software Development, Deployment and Validation/Verification  
-
-### Computing Models, Facilities and Distributed Computing 
-
-### Security and Access Control 
-
-### Careers, Staffing and Training 
-
-### Machine Learning 
-
-### Conditions Database 
-
-### Event Processing Frameworks 
-
-### Monitoring 
-
-### Math Libraries 
-
-### Various Aspects of Technical Evolution (Software Tools, Hardware, Networking) 
-
-### Other Topics
+    * Authors: Wahid Bhimji (LBNL), Taylor Childers (ANL), Lisa Gerhardt (LBNL), Jeff Porter (LBNL)
+    * Keywords:
 
 ### Previous Related Community Documents
 
