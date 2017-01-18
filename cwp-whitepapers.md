@@ -18,6 +18,15 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Authors: Wahid Bhimji (LBNL), Taylor Childers (ANL), Lisa Gerhardt (LBNL), Jeff Porter (LBNL)
     * Keywords:
 
+  * *SDN Next Generation Integrated Architecture (SDN-NGenIA) For HEP and Global Scale Science* [(link to pdf)](cwp/hsf-cwp-002-SDNNGenIAAbstract_hbn100215.pdf)
+    * Harvey Newman (Caltech)
+    * Keywords:
+
+  * *Next Generation Exascale Network Integrated Architecture for HEP and Global Science* [(link to pdf)](cwp/hsf-cwp-003-JOCN-Newman_v8.pdf)
+    * Harvey Newman (Caltech), M. Spiropulu (Caltech), J. Balcas (Caltech), D. Kcira (Caltech), I. Legrand (Caltech), A. Mughal (Caltech), J. R. Vlimant (Caltech), R. Voicu (Caltech)
+    * Keywords:
+
+
 ### Previous Related Community Documents
 
   * DOE - [High Energy Physics Forum for Computational Excellence: Working Group Reports (I. Applications Software II. Software Libraries and Tools III. Systems)](http://arxiv.org/abs/1510.08545)
