@@ -26,6 +26,11 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Harvey Newman (Caltech), M. Spiropulu (Caltech), J. Balcas (Caltech), D. Kcira (Caltech), I. Legrand (Caltech), A. Mughal (Caltech), J. R. Vlimant (Caltech), R. Voicu (Caltech)
     * Keywords:
 
+  * *Thoughts about HL-LHC Computing Models* [(link to pdf)](cwp/hsf-cwp-004-170118-Girone-Fisk-Gutsche-Thoughts-about-HL-LHC-Computing-Models.pdf)
+    * Maria Girone (CERN), Ian Fisk (Simons Foundation), Oliver Gutsche (FNAL)
+    * Keywords:
+
+
 
 ### Previous Related Community Documents
 
