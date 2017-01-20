@@ -35,6 +35,8 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
 {% for post in site.categories.organization limit: 10 %} | {{ post.date | date: "%d-%m-%Y" }} | [ {{ post.title }} ]( {{ post.url }} ) |
 {% endfor %}
 
+[Full list of past minutes](/organization/minutes.html).
+
 ## Presentations given by Startup Team Members
  * [Hep Software Foundation and Community White Paper](https://indico.desy.de/getFile.py/access?contribId=17&sessionId=7&resId=0&materialId=slides&confId=15730), at the [10th Annual Meeting of the Helmholtz Alliance](https://indico.desy.de/conferenceOtherViews.py?view=standard&confId=15730), Nov 22-23, 2016, Frank Gaede
  * [Challenges in the HEP SW Landscape](https://indico.desy.de/getFile.py/access?contribId=10&resId=0&materialId=1&confId=16073) at the [2016 KET-Meeting](https://indico.desy.de/conferenceDisplay.py?confId=16073), 18 Nov 2016, Benedikt Hegner
