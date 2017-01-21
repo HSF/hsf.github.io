@@ -30,6 +30,9 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Maria Girone (CERN), Ian Fisk (Simons Foundation), Oliver Gutsche (FNAL)
     * Keywords:
 
+  * *Fundamentals of an HL-LHC Computing Model* [(link to pdf)](cwp/hsf-cwp-005-HSFWhitePaper.pdf)
+    * Frank Wuerthwein (UCSD)
+    * Keywords:
 
 
 ### Previous Related Community Documents
