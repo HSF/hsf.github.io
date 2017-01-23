@@ -34,6 +34,9 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Frank Wuerthwein (UCSD)
     * Keywords:
 
+  * *Evolution to a HL-LHC Computing Data Model* [(link to pdf)](cwp/hsf-cwp-006-LSK-EvolutionHL-LHCcomputingData.pdf)
+    * Elizabeth Sexton-Kennedy (FNAL)
+    * Keywords:
 
 ### Previous Related Community Documents
 
