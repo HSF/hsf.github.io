@@ -50,6 +50,9 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Ian Bird (CERN)
     * Keywords:
 
+  * *Detector Simulation Challenges in Fermilab IF Experiments* [(link to pdf)](cwp/hsf-cwp-010-FNAL-IF_Simu-WhitePaper-2017012311.pdf)
+    * V.D. Elvira (FNAL), L.J. Fields (FNAL), K.L. Genser (FNAL), R.W. Hatcher (FNAL), T.Junk (FNAL), R. Kutschke (FNAL), P. Lebrun (FNAL), M. Mooney (BNL), B. Viren (BNL), ...
+    * Keywords:
 
 ### Previous Related Community Documents
 
