@@ -46,6 +46,9 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Noah Watkins (UCSC), Michael Sevilla (UCSC), Ivo Jimenez (UCSC), Carlos Maltzahn (UCSC) 
     * Keywords:
 
+  * *Evolution of HEP Computing* [(link to pdf)](cwp/hsf-cwp-009-HEP-Computing-SanDiego.pdf)
+    * Ian Bird (CERN)
+    * Keywords:
 
 
 ### Previous Related Community Documents
