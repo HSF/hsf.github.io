@@ -42,7 +42,7 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Ivo Jimenez (UCSC), Michael Sevilla (UCSC), Noah Watkins (UCSC), Carlos Maltzahn (UCSC) 
     * Keywords:
 
-  * *Ceph: An Open-Source Software-Defined Storage Stack* [(link to pdf)](hsf-cwp-008-watkins-ucsc17.pdf)
+  * *Ceph: An Open-Source Software-Defined Storage Stack* [(link to pdf)](cwp/hsf-cwp-008-watkins-ucsc17.pdf)
     * Noah Watkins (UCSC), Michael Sevilla (UCSC), Ivo Jimenez (UCSC), Carlos Maltzahn (UCSC) 
     * Keywords:
 
