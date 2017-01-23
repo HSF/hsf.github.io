@@ -38,6 +38,16 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Elizabeth Sexton-Kennedy (FNAL)
     * Keywords:
 
+  * *Practical Reproducible Evaluation of Systems with Popper* [(link to pdf)](cwp/hsf-cwp-007-jimenez-ucsc17.pdf)
+    * Ivo Jimenez (UCSC), Michael Sevilla (UCSC), Noah Watkins (UCSC), Carlos Maltzahn (UCSC) 
+    * Keywords:
+
+  * *Ceph: An Open-Source Software-Defined Storage Stack* [(link to pdf)](hsf-cwp-008-watkins-ucsc17.pdf)
+    * Noah Watkins (UCSC), Michael Sevilla (UCSC), Ivo Jimenez (UCSC), Carlos Maltzahn (UCSC) 
+    * Keywords:
+
+
+
 ### Previous Related Community Documents
 
   * DOE - [High Energy Physics Forum for Computational Excellence: Working Group Reports (I. Applications Software II. Software Libraries and Tools III. Systems)](http://arxiv.org/abs/1510.08545)
