@@ -4,7 +4,7 @@ author: "Peter Elmer"
 layout: default
 ---
 
-# CWP Working Group Guidance - HSF Workshop at SDSC
+# CWP Working Group Guidance and Practical Suggestions
 
 ## Goals for the HSF Workshop at SDSC
 
