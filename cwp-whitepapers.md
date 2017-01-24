@@ -54,6 +54,11 @@ If you have a white paper which you would like to contribute to the CWP process,
     * V.D. Elvira (FNAL), L.J. Fields (FNAL), K.L. Genser (FNAL), R.W. Hatcher (FNAL), T.Junk (FNAL), R. Kutschke (FNAL), P. Lebrun (FNAL), M. Mooney (BNL), B. Viren (BNL), ...
     * Keywords:
 
+  * *CMS Simulation in the HL-LHC Era* [(link to pdf)](cwp/hsf-cwp-011-CMS-Simu-CWP-SDiego.pdf)
+    * S. Banerjee (FNAL), D. Elvira (FNAL), M. Hildreth (FNAL), V. Ivantchenko (Russian Academy of Sciences), K. Pedro (FNAL), I. Osborne (FNAL), S. Sekmen (Kyungpook National University), L. Sexton-Kennedy (FNAL)
+    * Keywords:
+
+
 ### Previous Related Community Documents
 
   * DOE - [High Energy Physics Forum for Computational Excellence: Working Group Reports (I. Applications Software II. Software Libraries and Tools III. Systems)](http://arxiv.org/abs/1510.08545)
