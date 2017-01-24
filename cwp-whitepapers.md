@@ -58,6 +58,9 @@ If you have a white paper which you would like to contribute to the CWP process,
     * S. Banerjee (FNAL), D. Elvira (FNAL), M. Hildreth (FNAL), V. Ivantchenko (Russian Academy of Sciences), K. Pedro (FNAL), I. Osborne (FNAL), S. Sekmen (Kyungpook National University), L. Sexton-Kennedy (FNAL)
     * Keywords:
 
+  * *ATLAS computing model notes (snapshot 23 Jan 2017)* [(link to pdf)](cwp/hsf-cwp-012-ATLAScomputingmodelnotes.pdf)
+    * S. Campana (CERN), A. Klimentov (BNL), E. Lancon (BNL), T. Wenaus (BNL)
+    * Keywords:
 
 ### Previous Related Community Documents
 
