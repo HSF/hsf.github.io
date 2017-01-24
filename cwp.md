@@ -83,6 +83,9 @@ We maintain a [list of contributed CWP whitepapers](http://hepsoftwarefoundation
 
 If you have a white paper which you would like to contribute to the CWP process, please submit it (in pdf or link form, e.g. in the arXiv) to hsf-cwp-white-paper-submission@googlegroups.com and it will add be added to this list.
 
+Some guidance and suggestions for WGs can be found here:
+
+  * [Guidance for WGs at HSF workshop at SDSC](http://hepsoftwarefoundation.org/cwp/cwp-wg-guidance-sdsc.html)
 
 ## Other notes
 
