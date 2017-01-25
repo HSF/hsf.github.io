@@ -1,5 +1,7 @@
 ---
 title: Community White Paper
+redirect_to:
+  - /cwp.html
 layout: plain
 ---
 
