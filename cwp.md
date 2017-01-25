@@ -75,6 +75,8 @@ Evolution (Software Tools, | | |
 Hardware, Networking) | [Google Doc](https://docs.google.com/document/d/1bOv5kDzmcg0eLSy7PZjjzE5OYSxaLAfaAxAI-IgKaac/edit)| |
 
 
+**Note: it is possible to register to all the Google groups without a Google account. In this case, send an empty email (subject and contents ignored) to the group email, adding `+subscribe` after the group name. (e.g. hsf-cwp-software-development+subscribe@googlegroups.com).**
+
 ## CWP Process
 
 The CWP process will involve a number of workshops between January and Summer 2017. As part of the process members of the community are encouraged to write white papers to describe their ideas on the various topics. White papers can be submitted by anyone: individuals, groups of individuals, experiments, institutions, etc.
