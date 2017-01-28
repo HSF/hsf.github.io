@@ -1,6 +1,7 @@
 ---
 title: Training
 layout: plain
+redirect_from: /workinggroups/2015/11/04/training.html
 ---
 
 The HSF Training & Tutoring initiative is aimed at helping the research community (in various disciplines) to bridge the gap in computing skills existing nowadays between University level courses and what is required by scientist to produce high quality, sustainable software. 

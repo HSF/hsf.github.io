@@ -48,8 +48,8 @@ other files in there. The list of news will be updated automatically.
 
 ### Adding a working group
 
-Add a new file in `workinggroups/_posts` and follow the front-matter of the
-other files in there. The navigation bar will be updated automatically.
+Add a new file in `workinggroups/` directory and follow the front-matter of the
+other files in there. `Activity` menu in the navigation bar will be updated automatically: the menu entry text is the `title` attribute in the *front-matter* section.
 
 ### Adding an event
 

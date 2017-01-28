@@ -1,7 +1,8 @@
 ---
-title: "Google Summer of Code"
+title: "Google Summer of Code 2017"
 author: "Benedikt Hegner"
 layout: default
+redirect_from: /gsoc/gsoc2017.html
 ---
 
 # Google Summer of Code 2017

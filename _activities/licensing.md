@@ -1,6 +1,7 @@
 ---
 title: Licensing
 layout: plain
+redirect_from: /workinggroups/2015/11/04/licensing.html
 ---
 
 Many of the projects interested in participating to the HSF mentioned licensing as in important topic where the HSF could help. Many projects in our community don't have an explicit license, some have started with one license but are facing problems as the project is growing and incorporating new partners.
