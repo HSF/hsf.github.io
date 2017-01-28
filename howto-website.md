@@ -33,6 +33,8 @@ All Markdown files of this site start with a section surrounded by `---`. This
 so-called *front-matter* contains metadata about the content. Such metadata are
 e.g. the author of the document or the title of the document.
 
+In the *front-matter* (but not in the text itself), you need to replace any `&` characters (which has a special meaning in HTML) by `&amp;`. This is particularly important for the `title` attribute.
+
 ### Adding contents from GoogleDoc
 
 It is sometimes handy to use GoogleDoc to produce some contents for the web site. For example, if taking minutes
