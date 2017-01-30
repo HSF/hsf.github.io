@@ -8,4 +8,4 @@ layout: plain
 {:.table .table-hover .table-striped}
 | Project | Title      |
 | ------  | ---------- |
-{% for post in site.categories.gsoc %}{% if post.project == "ROOT" %} | {{ post.date | date: "%d-%m-%Y" }} | [ {{ post.title }} ]( {{ post.url }} ) | {% endif %} {% endfor %}
+{% for post in site.categories.gsoc %}{% if post.project == "ROOT" %} | {{ post.date | date: "%d-%m-%Y" }} | [ {{ post.title }} ](  {{site.baseurl}}/{{ post.url }} ) | {% endif %} {% endfor %}
