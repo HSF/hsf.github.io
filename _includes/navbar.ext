@@ -14,6 +14,7 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="activities">Activities<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities">
+                 <li><a href="{{site.baseurl}}/gsoc/gsoc2017.html">Google Summer of Code 2017</a></li>
                  <li><a href="{{site.baseurl}}/events.html">Events &amp; Workshops</a></li>
                  <li><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam">Community Calendar</a></li>
                  <li class="divider"></li>
