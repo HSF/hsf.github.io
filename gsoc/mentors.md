@@ -8,8 +8,8 @@ layout: default
 * Option A: email GSoC administrators: Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a>
 * Option B (via git): 
  * fork git repository 
- * add yourproject.md (for example project_ROOT.md)
- * add your proposal_yourproposal.md (for example proposal_rootspark.md)
+ * add project_yourproject.md (for example project_ROOT.md)
+ * add proposal_yourproposal.md (for example proposal_rootspark.md)
  * make a pull request
 
 
