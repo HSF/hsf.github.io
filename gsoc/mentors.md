@@ -6,7 +6,10 @@ layout: default
 
 # Instructions for adding a new project
 * Option A: email GSoC administrators: Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a>
-* Option B (via git): fork repository, modify project.md files, make a pull request
+* Option B (via git): 
+ * fork git repository 
+ * add yourproject.md (for example project_ROOT.md) and your proposal idea (for example proposal_rootmpi.md),
+ * make a pull request
 
 
 # HSF GSoC Mentor Guideline 2017
