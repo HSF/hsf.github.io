@@ -4,7 +4,10 @@ author: "Benedikt Hegner"
 layout: default
 ---
 
+# Instructions for adding a new project
 
+* Option A: email GSoC Administrators
+* Option B (via git): fork repository, modify project.md files, make a pull request
 
 
 # HSF GSoC Mentor Guideline 2017
