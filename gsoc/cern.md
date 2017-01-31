@@ -8,5 +8,5 @@ layout: default
 ## Project Proposals
 
 {:.table .table-hover .table-striped}
-{% for post in site.categories.gsoc %}{% if post.organization == "CERN" %} | [ {{ post.title }} ]( {{site.baseurl}}/{{ post.url }} ) | {% endif %} 
+{% for post in site.categories.gsoc %}{% if post.organization == "CERN" %} | [ {{ post.title }} ]( {{ post.url }} ) | {% endif %} 
 {% endfor %}
