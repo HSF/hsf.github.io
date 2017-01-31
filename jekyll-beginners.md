@@ -106,20 +106,31 @@ Jekyll on your local machine. Detailed instructions can be found on Jekyll [web 
 but the short story is:
 
 * Install [Ruby](https://www.ruby-lang.org/en/downloads/) and [RubyGems](https://rubygems.org/pages/download)
-* Install Jekyll with:
+* Install Bundler (a Ruby package manager):
 
-    ```bash
-    gem install jekyll
-    ```
+  ```bash
+  gem install bundler
+  ```
 
-* Create a directory where the web site files will be generated: in this documentation we assume that it is 
-`$HOME/hep-sf.github.io`
+* If you don't have one yet, create a clone of the GitHub HSF web site repository and move to the directory created (by default `hep-sf.githb.io`):
 
-Assuming that you have a clone of GitHub HSF repository `hep-sf.github.io` in `$HOME/git/hep-sf.github.io`, launch Jekyll with:
+  ```bash
+  git clone https://github.com/HEP-SF/hep-sf.github.io.git
+  cd hep-sf.github.io
+  ```
 
-```bash
-jekyll serve --base '' --source $HOME/git/hep-sf.github.io -d $HOME/hep-sf.github.io
-```
+* Install/update your Jekyll installation (must be done regularly):
+
+  ```bash
+  bundler update
+  ```
+
+* Run Jekyll installation:
+
+  ```bash
+  bundler exec jekyll serve
+  ```
+
 
 Once Jekyll has been started you can view the web site by connecting to `localhost:4000`.
 

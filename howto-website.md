@@ -13,7 +13,7 @@ This site is maintained by the HSF GitHub [contributors](https://github.com/orgs
 This website is implemented using [GitHub's Pages](https://pages.github.com/) service which makes it easy to create a website associated with a GitHub account or project. Pages uses [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in GitHub). It supports structured sites like blogs in a simple but powerful way.
 The site content is written using the easy [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) (which is used by GitHub itself).
 
-A [documentation](/jekyll-beginners.html) provides some useful hints to make using Jekyll in the HSF context easier.
+A [HSF documentation](/jekyll-beginners.html) provides some useful hints to make using Jekyll in the HSF context easier.
 
 ## How to add and edit information
 
