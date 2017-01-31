@@ -4,8 +4,11 @@ author: "Benedikt Hegner"
 layout: default
 ---
 
+
+
+
 # HSF GSoC Mentor Guideline 2017
-Date: 01/23/2016
+Date: 01/23/2017
  
 ## Introduction
 Google Summer of Code (GSoC) is a program that allows students
