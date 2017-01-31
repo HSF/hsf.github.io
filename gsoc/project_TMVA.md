@@ -8,6 +8,5 @@ layout: plain
 {:.table .table-hover .table-condensed .table-striped}
 | Project   | Title      |
 | ------ | ---------- |
-{% for post in site.categories.gsoc %} {% if post.project == "TMVA" %} | {{ post.date | date: "%d-%m-%Y" }} | [ {{ post.title }} ](  {{site.baseurl}}/{{ post.url }} ) |
-{% endif %}
+{% for post in site.categories.gsoc %} {% if post.project == "TMVA" %} | {{ post.date | date: "%d-%m-%Y" }} | [ {{ post.title }} ](  {{site.baseurl}}/{{ post.url }} ) |{% endif %}
 {% endfor %}
