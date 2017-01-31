@@ -9,7 +9,7 @@ layout: default
 * Option B (via git): 
  * fork git repository 
  * add yourproject.md (for example project_ROOT.md)
- * add your proposal idea (for example proposal_rootmpi.md),
+ * add your proposal_yourproposal.md (for example proposal_rootspark.md)
  * make a pull request
 
 
