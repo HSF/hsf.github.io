@@ -16,13 +16,7 @@ took place at the San Diego Supercomputing Center (SDSC). There were 118 registe
 wide range of labs and universities based in the USA and in Europe. In addition there were a number of people representing industrial 
 partners, such as Intel, Google and Altair. 
 
-In his welcome address Peter Elmer (Princeton) reminded delegates of the plans and timeline for
-upgrading the LHC machine and experiments with the aim of running at 5-7 x nominal luminosity (HL-LHC). The HL-LHC will integrate 100 times 
-the current data, with significantly increased data (pileup) and detector complexity. The resulting computing needs will outpace the expected 
-improvements in computer performance (Moore's Law) by factors of between 3 and 30. Technology change will also make it challenging to 
-exploit Moore’s Law without software evolution and in addition there are software sustainability challenges associated with the 
-further development and maintenance of softwre that is altrady 15-20 years old. The CWP will identify and prioritise the software 
-research and development investments required:
+In his welcome address Peter Elmer (Princeton) reminded delegates of the plans and timeline for upgrading the LHC machine and experiments with the aim of running at 5-7 x nominal luminosity (HL-LHC). The HL-LHC will integrate 100 times the current data, with significantly increased data (pileup) and detector complexity. The resulting computing needs will outpace the expected improvements in computer performance (Moore's Law) by factors of between 3 and 30. Technology change will also make it challenging to exploit Moore’s Law without software evolution and in addition there are software sustainability challenges associated with the further development and maintenance of softwre that is altrady 15-20 years old. The CWP will identify and prioritise the software research and development investments required:
  * to achieve improvements in software efficiency, scalability and performance and to make use of the advances in CPU, storage and 
  network technologies
  * to enable new approaches to computing and software that could radically extend the physics reach of the detectors
