@@ -9,7 +9,7 @@ gems:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-redirect-from
-
+categories: [gsocproposal]
 collections:
   activities:
     output: true
