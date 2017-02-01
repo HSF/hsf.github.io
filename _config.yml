@@ -1,6 +1,6 @@
 name: HEP Software Foundation Newsletter
 description: News from the HEP Software Foundation
-url: http://news.hepsoftwarefoundation.org
+url: http://www.hepsoftwarefoundation.org
 excerpt_separator: <!--more-->
 timezone: Switzerland/Geneva
 highlighter: rouge
@@ -9,3 +9,10 @@ gems:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-redirect-from
+
+collections:
+  activities:
+    output: true
+    permalink: /activities/:title.html
+
+

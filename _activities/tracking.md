@@ -1,6 +1,7 @@
 ---
 title: Common Tracking Software Forum
 layout: plain
+redirect_from: /workinggroups/2016/02/02/tracking.html
 ---
 
 The Common Track Reconstruction Software Forum aims at increasing the exchange of 
