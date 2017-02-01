@@ -8,5 +8,5 @@ layout: default
 ## Project Proposals
 
 {:.table .table-hover .table-striped}
-{% for post in site.categories.gsoc %}{% if post.organization == "SLAC" %} | [ {{ post.title }} ]( {{site.baseurl}}/{{ post.url }} ) | {% endif %} 
+{% for page in site.gsocproposals %}{% if post.organization == "SLAC" %} | [ {{ page.title }} ]( {{site.baseurl}}/{{ page.url }} ) | {% endif %}
 {% endfor %}

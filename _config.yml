@@ -9,10 +9,10 @@ gems:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-redirect-from
-
 collections:
   activities:
     output: true
     permalink: /activities/:title.html
-
-
+  gsocproposals:
+    output: true
+    permalink: /gsoc/:title.html

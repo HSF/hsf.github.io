@@ -10,8 +10,8 @@ layout: default
  * Option B (via git): 
    * fork git repository 
    * add project_YOURPROJECT.md (for example project_ROOT.md)
-   * add _posts/YYYY-MM-DD-YOURPROJECTyourproposal.md (for example proposal_ROOTspark.md)
-   * add a front matter as given in this [example](https://github.com/hegner/hep-sf.github.io/blob/master/gsoc/_posts/2017-01-31-ROOTspark.md)
+   * add gsoc/proposals/proposal_YOURPROJECTyourproposal.md (for example proposal_ROOTspark.md)
+   * add a front matter as given in this [example](https://github.com/hegner/hep-sf.github.io/blob/master/gsoc/proposals/proposal_ROOTspark.md)
    * make a pull request
 
 

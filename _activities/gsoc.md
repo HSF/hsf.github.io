@@ -21,14 +21,14 @@ Instructions for participating projects and mentors can be found [here]({{site.b
 ## <a name="Projects"> Projects  </a>
 
 {:.table .table-hover  .table-striped}
-| <img src="{{site.baseurl}}/images/rootlogo.png" width="100"> | A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R. [List of proposals]({{site.baseurl}}/gsoc/project_ROOT.html)|
-| <img src="{{site.baseurl}}/images/tmva_logo.gif" width="100"> | TMVA is a ROOT-integrated toolkit for multivariate classification and regression analysis. TMVA performs the training, testing and performance evaluation of a large variety of multivariate methods. [List of proposals]({{site.baseurl}}/gsoc/project_TMVA.html)|
-| <img src="{{site.baseurl}}/images/geanttiny.gif" width="100"> | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals]({{site.baseurl}}/gsoc/project_Geant4.html)|
+| <img src="{{site.baseurl}}/images/rootlogo.png" width="100" alt="ROOT"> | A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R. [List of proposals]({{site.baseurl}}/gsoc/project_ROOT.html)|
+| <img src="{{site.baseurl}}/images/tmva_logo.gif" width="100" alt="TMVA"> | TMVA is a ROOT-integrated toolkit for multivariate classification and regression analysis. TMVA performs the training, testing and performance evaluation of a large variety of multivariate methods. [List of proposals]({{site.baseurl}}/gsoc/project_TMVA.html)|
+| <img src="{{site.baseurl}}/images/geanttiny.gif" width="100" alt="Geant4"> | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals]({{site.baseurl}}/gsoc/project_Geant4.html)|
 
 ## Participating Organizations
 
 {:.table .table-hover  .table-striped}
-| <img src="{{site.baseurl}}/images/CERN-logo.jpg" width="100"> | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
+| <img src="{{site.baseurl}}/images/CERN-logo.jpg" width="100" alt="CERN"> | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
 
 
 

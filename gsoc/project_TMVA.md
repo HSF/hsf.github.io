@@ -1,10 +1,10 @@
 ---
-title: GSoC 2017 in ROOT
+title: GSoC 2017 in TMVA
 layout: plain
 ---
 
 ## Project Proposals
 
-{:.table .table-hover .table-condensed .table-striped}
-{% for post in site.categories.gsoc %} {% if post.project == "TMVA" %} | [ {{ post.title }} ]( {{ post.url }} ) |{% endif %}
+{:.table .table-hover .table-striped}
+{% for page in site.gsocproposals %}{% if page.project == "TMVA" %} |[ {{ page.title }} ]( {{ page.url }} ) | {% endif %}
 {% endfor %}

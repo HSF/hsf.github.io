@@ -6,5 +6,5 @@ layout: plain
 ## Project Proposals
 
 {:.table .table-hover .table-striped}
-{% for post in site.categories.gsoc %}{% if post.project == "ROOT" %} | [ {{ post.title }} ]( {{ post.url }} ) | {% endif %} 
+{% for page in site.gsocproposals %}{% if page.project == "ROOT" %} |[ {{ page.title }} ]( {{ page.url }} ) | {% endif %}
 {% endfor %}
