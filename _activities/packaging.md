@@ -1,6 +1,7 @@
 ---
 title: Packaging
 layout: plain
+redirect_from: /workinggroups/2015/11/04/packaging.html
 ---
 
 The software packaging and distribution activity and working group is getting underway to address common issues, tools, and approaches, convened by Liz Sexton-Kennedy (FNAL) and Benedikt Hegner (CERN). The activity was launched with a meeting on Feb 25 2015. All are welcome to join the forum and participate:

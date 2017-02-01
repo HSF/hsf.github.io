@@ -2,6 +2,9 @@
 title: "Community White Paper"
 author: "Peter Elmer"
 layout: default
+redirect_from:
+  - /cwp.html
+  - /workinggroups/2016/07/06/communitywhitepaper.html
 ---
 
 # Community White Paper (CWP) 
