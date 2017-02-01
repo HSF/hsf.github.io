@@ -24,7 +24,7 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Timeline
 
-After the preparatory phase during Fall 2016, the CWP process will be launched at an [HSF workshop at SDSC/UCSD](http://indico.cern.ch/event/570249/) on January 23-27, 2017. The aim is to produce a consensus document by summer, 2017.
+After a preparatory phase during Fall 2016, the CWP process was launched at an [HSF workshop at SDSC/UCSD](http://indico.cern.ch/event/570249/) on January 23-27, 2017. The aim is to produce a consensus document by summer, 2017.
 
 ## Communication
 
