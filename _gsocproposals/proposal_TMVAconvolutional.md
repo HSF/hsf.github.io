@@ -3,7 +3,6 @@ title: Machine Learning Project - Convolutional Deep Neural Networks on GPUs for
 layout: plain
 project: TMVA
 organization: CERN
-categories: [gsocproposal]
 ---
 
 ## Project Description 

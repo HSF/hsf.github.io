@@ -3,7 +3,6 @@ title: Machine Learning Project - Multi-target Regression for Particle Physics
 layout: plain
 project: TMVA
 organization: CERN
-categories: [gsocproposal]
 ---
 
 ## Project Description

@@ -8,5 +8,5 @@ layout: default
 ## Project Proposals
 
 {:.table .table-hover .table-striped}
-{% for page in site.pages %}{% if page.categories contains 'gsocproposal' and page.organization == "CERN" %} | [ {{ page.title }} ]( {{ page.url }} ) | {% endif %} 
+{% for page in site.gsocproposals %}{% if page.organization == "CERN" %} | [ {{ page.title }} ]( {{ page.url }} ) | {% endif %}
 {% endfor %}
