@@ -14,6 +14,7 @@ In his welcome address Peter Elmer (Princeton) reminded delegates of the plans a
  network technologies
  * to enable new approaches to computing and software that could radically extend the physics reach of the detectors
  * to ensure the long term sustainability of the software through the lifetime of the HL-LHC
+
 The HSF is engaging the HEP community to produce the CWP via a “community process”:
  * Initiated as an HL-LHC planning process
  * Aiming for a broader participation (LHC, neutrino program, Belle II, linear collider so far)
