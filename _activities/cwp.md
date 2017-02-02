@@ -48,6 +48,7 @@ login as your google user. If you would like organize an additional working grou
 Computing Models, Facilities, | | | 
 and Distributed Computing | [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit)| |
 Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp; hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       |
+Software Trigger and | | |
 Event Reconstruction| [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          | &nbsp; &nbsp; &nbsp; hsf-cwp-eventreconstruction@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-eventreconstruction)      |
 Visualization       | [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          | &nbsp; &nbsp; &nbsp; hsf-cwp-visualization@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-visualization)        |
 Data Access and Management | [Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   | &nbsp; &nbsp; &nbsp; hsf-cwp-data-management@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-data-management)        |
@@ -58,7 +59,6 @@ Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1p
 Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
 Monitoring | [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByMkJyUXzUy28bUbs9VLI1w/edit)| |
 Math Libraries | [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) | |
-Triggering          | [Google Doc](https://docs.google.com/document/d/13b3aK32R7ZfF9_0Q_CgTb_GiMxMAFRk93hASpAjSXRM/edit)  | &nbsp; &nbsp; &nbsp; hsf-cwp-triggering@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-triggering) |
 Software Development, Deployment | | |
 and Validation/Verification  | [Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-software-development@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-software-development) | 
 
