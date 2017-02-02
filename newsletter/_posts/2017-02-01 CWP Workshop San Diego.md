@@ -18,6 +18,7 @@ The first day of the meeting was devoted to plenary talks that summarised the ch
  * to enable new approaches to computing and software that could radically extend the physics reach of the detectors
  * to ensure the long term sustainability of the software through the lifetime of the HL-LHC
 
+Mark Neubauer (illinois) stressed that the primary motivation for each of the LHC upgrades is to maximize physics performance and emphasised the need to address the full mix of physics activities in the planning (higher luminosity, energy increase etc.). He also re-iterated the need to develop synergies between LHC experiments as much as possible.
 
 
 
