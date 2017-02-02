@@ -17,11 +17,11 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 Strong C++ skills, good understanding of machine learning algorithms
 
 ## Mentors
- <a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Sergei Gleyzer</a>​, 
- <a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Lorenzo Moneta</a>​, 
- <a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Omar Zapata</a>​, 
- <a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Stefan Wunsch</a>​, 
- <a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Enrico Guiraud</a><br />
+ <a href="mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Sergei Gleyzer</a>​, 
+ <a href="mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Lorenzo Moneta</a>​, 
+ <a href="mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Omar Zapata</a>​, 
+ <a href="mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Stefan Wunsch</a>​, 
+ <a href="mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA">Enrico Guiraud</a><br />
 
 ## Links
 
