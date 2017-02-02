@@ -4,7 +4,9 @@ url: http://www.hepsoftwarefoundation.org
 excerpt_separator: <!--more-->
 timezone: Switzerland/Geneva
 highlighter: rouge
+markdown: kramdown
 future: true
+exclude: [vendor]
 gems:
   - jekyll-mentions
   - jekyll-sitemap
