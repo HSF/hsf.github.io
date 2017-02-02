@@ -80,6 +80,7 @@ Workflow and Resource Management   | [Google Doc](https://docs.google.com/docume
 Data and Software Preservation |           [Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)     |   |
 &nbsp; &nbsp; &nbsp; | | |
 Careers, Staffing and Training | [Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit)| &nbsp; &nbsp; &nbsp; hep-sf-training-wg@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hep-sf-training-wg)|
+&nbsp; &nbsp; &nbsp; | | |
 
 
 
