@@ -16,54 +16,67 @@ If you have a white paper which you would like to contribute to the CWP process,
 
   * *Exploiting HPC for HEP towards Exascale* [(link to pdf)](cwp/hsf-cwp-001-ExploitingHPC-CWPWhitepaper.pdf)
     * Authors: Wahid Bhimji (LBNL), Taylor Childers (ANL), Lisa Gerhardt (LBNL), Jeff Porter (LBNL)
+    * Added: 16 Jan 2017
     * Keywords:
 
   * *SDN Next Generation Integrated Architecture (SDN-NGenIA) For HEP and Global Scale Science* [(link to pdf)](cwp/hsf-cwp-002-SDNNGenIAAbstract_hbn100215.pdf)
     * Harvey Newman (Caltech)
+    * Added: 19 Jan 2017
     * Keywords:
 
   * *Next Generation Exascale Network Integrated Architecture for HEP and Global Science* [(link to pdf)](cwp/hsf-cwp-003-JOCN-Newman_v8.pdf)
     * Harvey Newman (Caltech), M. Spiropulu (Caltech), J. Balcas (Caltech), D. Kcira (Caltech), I. Legrand (Caltech), A. Mughal (Caltech), J. R. Vlimant (Caltech), R. Voicu (Caltech)
+    * Added: 19 Jan 2017
     * Keywords:
 
   * *Thoughts about HL-LHC Computing Models* [(link to pdf)](cwp/hsf-cwp-004-170118-Girone-Fisk-Gutsche-Thoughts-about-HL-LHC-Computing-Models.pdf)
     * Maria Girone (CERN), Ian Fisk (Simons Foundation), Oliver Gutsche (FNAL)
+    * Added: 19 Jan 2017
     * Keywords:
 
   * *Fundamentals of an HL-LHC Computing Model* [(link to pdf)](cwp/hsf-cwp-005-HSFWhitePaper.pdf)
     * Frank Wuerthwein (UCSD)
+    * Added: 23 Jan 2017
     * Keywords:
 
   * *Evolution to a HL-LHC Computing Data Model* [(link to pdf)](cwp/hsf-cwp-006-LSK-EvolutionHL-LHCcomputingData.pdf)
     * Elizabeth Sexton-Kennedy (FNAL)
+    * Added: 23 Jan 2017
     * Keywords:
 
   * *Practical Reproducible Evaluation of Systems with Popper* [(link to pdf)](cwp/hsf-cwp-007-jimenez-ucsc17.pdf)
     * Ivo Jimenez (UCSC), Michael Sevilla (UCSC), Noah Watkins (UCSC), Carlos Maltzahn (UCSC) 
+    * Added: 23 Jan 2017
     * Keywords:
 
   * *Ceph: An Open-Source Software-Defined Storage Stack* [(link to pdf)](cwp/hsf-cwp-008-watkins-ucsc17.pdf)
     * Noah Watkins (UCSC), Michael Sevilla (UCSC), Ivo Jimenez (UCSC), Carlos Maltzahn (UCSC) 
+    * Added: 23 Jan 2017
     * Keywords:
 
   * *Evolution of HEP Computing* [(link to pdf)](cwp/hsf-cwp-009-HEP-Computing-SanDiego.pdf)
     * Ian Bird (CERN)
+    * Added: 23 Jan 2017
     * Keywords:
 
   * *Detector Simulation Challenges in Fermilab IF Experiments* [(link to pdf)](cwp/hsf-cwp-010-FNAL-IF_Simu-WhitePaper-2017012311.pdf)
     * V.D. Elvira (FNAL), L.J. Fields (FNAL), K.L. Genser (FNAL), R.W. Hatcher (FNAL), T.Junk (FNAL), R. Kutschke (FNAL), P. Lebrun (FNAL), M. Mooney (BNL), B. Viren (BNL), ...
+    * Added: 23 Jan 2017
     * Keywords:
 
   * *CMS Simulation in the HL-LHC Era* [(link to pdf)](cwp/hsf-cwp-011-CMS-Simu-CWP-SDiego.pdf)
     * S. Banerjee (FNAL), D. Elvira (FNAL), M. Hildreth (FNAL), V. Ivantchenko (Russian Academy of Sciences), K. Pedro (FNAL), I. Osborne (FNAL), S. Sekmen (Kyungpook National University), L. Sexton-Kennedy (FNAL)
+    * Added: 24 Jan 2017
     * Keywords:
 
   * *ATLAS computing model notes (snapshot 23 Jan 2017)* [(link to pdf)](cwp/hsf-cwp-012-ATLAScomputingmodelnotes.pdf)
     * S. Campana (CERN), A. Klimentov (BNL), E. Lancon (BNL), T. Wenaus (BNL)
+    * Added: 24 Jan 2017
     * Keywords:
 
   * *Virtual Data* [(link to pdf)](cwp/hsf-cwp-013-RMount-Virtual-Data.pdf)
     * Richard Mount (SLAC)
+    * Added: 2 Feb 2017
     * Keywords:
 
 
