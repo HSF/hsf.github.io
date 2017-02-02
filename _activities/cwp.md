@@ -45,9 +45,10 @@ login as your google user. If you would like organize an additional working grou
 
 | Working Group |    Charge     |  Google Group |
 :-------------- | :-----------: | :------ |
+&nbsp; &nbsp; &nbsp; | | |
 Computing Models, Facilities, | | | 
 and Distributed Computing | [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit)| |
-
+&nbsp; &nbsp; &nbsp; | | |
 Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp; hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       |
 &nbsp; &nbsp; &nbsp; | | |
 Software Trigger and | | |
@@ -74,6 +75,11 @@ and Validation/Verification  | [Google Doc](https://docs.google.com/document/d/1
 &nbsp; &nbsp; &nbsp; | | |
 Data Analysis and Interpretation           | [Google Doc](https://docs.google.com/document/d/1QaX20F6WQlwQTlx-5bRK0J2tybFqC_NPn6CF7g3yzqk/edit)        | &nbsp; &nbsp; &nbsp; hsf-cwp-analysis@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-analysis) |
 &nbsp; &nbsp; &nbsp; | | |
+Workflow and Resource Management   | [Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit) |         |
+&nbsp; &nbsp; &nbsp; | | |
+Data and Software Preservation |           [Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)     |   |
+&nbsp; &nbsp; &nbsp; | | |
+Careers, Staffing and Training | [Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit)| &nbsp; &nbsp; &nbsp; hep-sf-training-wg@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hep-sf-training-wg)|
 
 
 
@@ -82,9 +88,6 @@ The planned/expected working groups (not yet active or just starting) are:
 | Working Group |    Charge     |  Notes   |
 :-------------- | :-----------: | :------: |
 Data Acquisition Software | [Google Doc](https://docs.google.com/document/d/1BYeWbDLyxG-CUV70aKR-UJubwBdChVrb9lxI1Rk43sY/edit)          |         |
-Workflow and Resource Management   | [Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit) |         |
-Data and Software Preservation |           [Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)     |   |
-Careers, Staffing and Training | [Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit)| | 
 Various Aspects of Technical | | |
 Evolution (Software Tools, | | |
 Hardware, Networking) | [Google Doc](https://docs.google.com/document/d/1bOv5kDzmcg0eLSy7PZjjzE5OYSxaLAfaAxAI-IgKaac/edit)| |
