@@ -62,6 +62,11 @@ If you have a white paper which you would like to contribute to the CWP process,
     * S. Campana (CERN), A. Klimentov (BNL), E. Lancon (BNL), T. Wenaus (BNL)
     * Keywords:
 
+  * *Virtual Data* [(link to pdf)](cwp/hsf-cwp-013-RMount-Virtual-Data.pdf)
+    * Richard Mount (SLAC)
+    * Keywords:
+
+
 ### Previous Related Community Documents
 
   * DOE - [High Energy Physics Forum for Computational Excellence: Working Group Reports (I. Applications Software II. Software Libraries and Tools III. Systems)](http://arxiv.org/abs/1510.08545)
