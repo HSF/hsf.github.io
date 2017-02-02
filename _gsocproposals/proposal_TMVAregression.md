@@ -17,9 +17,10 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 Strong C++ skills, understanding of machine learning and in particular, its application to function estimation/regression</span></p>
 
 ## Mentors
-<a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Multi-Target%2FObjective%20Regression%20using%20Machine%20Learning%20for%20Particle%20Physics">Sergei Gleyzer</a>​, 
-<a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Multi-Target%2FObjective%20Regression%20using%20Machine%20Learning%20for%20Particle%20Physics">Lorenzo Moneta</a>
-<a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Multi-Target%2FObjective%20Regression%20using%20Machine%20Learning%20for%20Particle%20Physics">Omar Zapata</a>
+
+* [Sergei Gleyzer](mailto:sft-gsoc-AT-cern-dot-ch?subject=Multi-Target%2FObjective%20Regression%20using%20Machine%20Learning%20for%20Particle%20Physics)
+* [Lorenzo Moneta](mailto:sft-gsoc-AT-cern-dot-ch?subject=Multi-Target%2FObjective%20Regression%20using%20Machine%20Learning%20for%20Particle%20Physics)
+* [Omar Zapata](mailto:sft-gsoc-AT-cern-dot-ch?subject=Multi-Target%2FObjective%20Regression%20using%20Machine%20Learning%20for%20Particle%20Physics)
 
 # Links
 
