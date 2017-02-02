@@ -48,6 +48,7 @@ login as your google user. If you would like organize an additional working grou
 Computing Models, Facilities, | | | 
 and Distributed Computing | [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit)| |
 Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp; hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       |
+&nbsp; &nbsp; &nbsp; | | |
 Software Trigger and | | |
 Event Reconstruction| [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          | &nbsp; &nbsp; &nbsp; hsf-cwp-swtrig-evtreco@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-swtrig-evtreco)      |
 Visualization       | [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          | &nbsp; &nbsp; &nbsp; hsf-cwp-visualization@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-visualization)        |
