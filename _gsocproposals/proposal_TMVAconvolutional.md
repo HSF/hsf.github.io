@@ -20,8 +20,8 @@ Strong C++ skills, solid knowledge of deep learning, understanding of convolutio
 
 ## Mentors
 
-* [Sergei Gleyzer](mailto:sft-gsoc-AT-cern-dot-ch?subject=Convolutional%20Deep%20Neural%20Networks%20on%20GPUs%20for%20Particle%20Physics)
-* [Lorenzo Moneta](mailto:sft-gsoc-AT-cern-dot-ch?subject=Convolutional%20Deep%20Neural%20Networks%20on%20GPUs%20for%20Particle%20Physics)
+* [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=Convolutional%20Deep%20Neural%20Networks%20on%20GPUs%20for%20Particle%20Physics)
+* [Lorenzo Moneta](mailto:sft-gsoc@cern.ch?subject=Convolutional%20Deep%20Neural%20Networks%20on%20GPUs%20for%20Particle%20Physics)
 
 ## Links
 
