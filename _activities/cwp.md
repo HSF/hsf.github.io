@@ -64,7 +64,7 @@ Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-L
 &nbsp; &nbsp; &nbsp; | | |
 Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-conditionsdb@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-conditionsdb) |
 &nbsp; &nbsp; &nbsp; | | |
-Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| &nbsp; &nbsp; &nbsp;f-cwp-event-processing-frameworks@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-event-processing-frameworks) |
+Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-event-processing-frameworks@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-event-processing-frameworks) |
 &nbsp; &nbsp; &nbsp; | | |
 Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
 &nbsp; &nbsp; &nbsp; | | |
