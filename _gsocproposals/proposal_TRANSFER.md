@@ -2,7 +2,7 @@
 title: Next generation of CMS data replication system
 layout: plain
 project: TRANSFER
-organization: CERN
+organization: Cornell, Univ. of Bolognia
 ---
 
 # Description
