@@ -19,7 +19,7 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 Strong C++ skills, solid knowledge of deep learning, understanding of convolutional networks, familiarity with GPU interfaces a plus
 
 ## Mentors
-<a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Convolutional%20Deep%20Neural%20Networks%20on%20GPUs%20for%20Particle%20Physics">Sergei Gleyzer</a>​ and <a href="mailto:sft-gsoc-AT-cern-dot-ch?subject=Convolutional%20Deep%20Neural%20Networks%20on%20GPUs%20for%20Particle%20Physics">Lorenzo Moneta</a>
+<a href="mailto:sft-gsoc@cern.ch?subject=Convolutional%20Deep%20Neural%20Networks%20on%20GPUs%20for%20Particle%20Physics">Sergei Gleyzer</a>​ and <a href="mailto:sft-gsoc@cern.ch?subject=Convolutional%20Deep%20Neural%20Networks%20on%20GPUs%20for%20Particle%20Physics">Lorenzo Moneta</a>
 
 ## Links
 
