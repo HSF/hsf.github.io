@@ -11,7 +11,7 @@ layout: default
    * fork git repository 
    * add project_YOURPROJECT.md (for example project_ROOT.md)
    * add _gsocproposals/proposal_YOURPROJECTyourproposal.md (for example proposal_ROOTspark.md)
-   * add a front matter as given in this [example](https://github.com/HEP-SF/hep-sf.github.io/master/_gsocproposals/proposal_ROOTspark.md)
+   * add a front matter as given in this [example](https://raw.githubusercontent.com/HEP-SF/hep-sf.github.io/master/_gsocproposals/proposal_ROOTspark.md)
    * make a pull request
 
 
