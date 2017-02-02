@@ -17,11 +17,11 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 Strong C++ skills, good understanding of machine learning algorithms
 
 ## Mentors
-* [Sergei Gleyzer](mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA) 
-* [Lorenzo Moneta](mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA) 
-* [Omar Zapata](mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
-* [Stefan Wunsch](mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
-* [Enrico Guiraud](mailto:sft-gsoc-AT-cern-dot-ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
+* [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA) 
+* [Lorenzo Moneta](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA) 
+* [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
+* [Stefan Wunsch](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
+* [Enrico Guiraud](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
 
 ## Links
 
