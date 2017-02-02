@@ -24,4 +24,4 @@ it's interactive C++ interpreter cling.
 Intermediate level of C++, some experience with Clang
 
 ## Mentors
-[Vassil Vassilev](sft-gsoc@cern.ch)
+[Vassil Vassilev](mailto:sft-gsoc@cern.ch)
