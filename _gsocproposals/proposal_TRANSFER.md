@@ -1,8 +1,8 @@
 ---
 title: Next generation of CMS data replication system
 layout: plain
-project: TRANSFER
-organization: CMS
+project: CMS
+organization: CERN
 ---
 
 # Description
