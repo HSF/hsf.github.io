@@ -61,11 +61,11 @@ and translate it into Go), some knowledge of databases (Sqlite, MySQL, ORACLE), 
 
 **Mentors**: 
 
-  * V. Kuznetsov (vkuznet@gmail.com)
-  * D. Bonacorsi (bonacorsi@bo.infn.it)
-  * Paul Rossman (paulrossman@google.com)
+  * [V. Kuznetsov](mailto:vkuznet@gmail.com)
+  * [D. Bonacorsi](mailto:bonacorsi@bo.infn.it)
+  * [Paul Rossman](mailto:paulrossman@google.com)
 
 **Links**:
 
-  * https://github.com/vkuznet/transfer2go
-  * https://www.researchgate.net/publication/228732867_Data_transfer_infrastructure_for_CMS_data_taking
+  * [https://github.com/vkuznet/transfer2go](https://github.com/vkuznet/transfer2go)
+  * [https://www.researchgate.net/publication/228732867_Data_transfer_infrastructure_for_CMS_data_taking](https://www.researchgate.net/publication/228732867_Data_transfer_infrastructure_for_CMS_data_taking)
