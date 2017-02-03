@@ -5,4 +5,4 @@ layout: default
 organization: LPC-Clermont
 ---
 
-{% include proposal.ext %}
+{% include gsoc_proposal.ext %}
