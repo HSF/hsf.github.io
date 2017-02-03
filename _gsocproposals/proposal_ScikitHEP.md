@@ -21,9 +21,9 @@ The GSoC participant will develop the Python interface to Hydra, to make it a pa
 
 ## Task ideas
 The main tasks necessary to achieve the project goals are the following:
-- Use Boost.Python, pybind11 and PyBindGen to prepare the core code to expose the Hydra classes to Python.
-- Set up a series of simple examples on how to use the Python package for well-defined tasks such as the generation of large samples of phase-space decays.
-- Prepare an adequate documentation and test suite for the Python package.
+* Use Boost.Python, pybind11 and PyBindGen to prepare the core code to expose the Hydra classes to Python.
+* Set up a series of simple examples on how to use the Python package for well-defined tasks such as the generation of large samples of phase-space decays.
+* Prepare an adequate documentation and test suite for the Python package.
 
 ## Expected results
 First release of a Python interface for Hydra, with set of basic examples of use case.
@@ -34,13 +34,13 @@ First release of a Python interface for Hydra, with set of basic examples of use
 * Working experience developing Python bindings is a big plus.
 
 ## Mentors
-  * [Antonio Augusto Alves Jr: Author of Hydra project and its main developer](mailto:aalvesju@cern.ch)
-  * [Eduardo Rodrigues: Scikit-HEP core team member](mailto:eduardo.rodrigues@cern.ch)
+  * [Antonio Augusto Alves Jr](mailto:aalvesju@cern.ch): Author of Hydra project and its main developer
+  * [Eduardo Rodrigues](mailto:eduardo.rodrigues@cern.ch): Scikit-HEP core team member
 
 ## Links
   * [Hydra](https://github.com/MultithreadCorner/Hydra)
   * [Scikit-HEP GitHub repository](https://github.com/scikit-hep/scikit-hep)
-  * [Scikit-HEP homepage (under development)](http://scikit-hep.org/)
-  * [Boost.Python: exposes C++ classes functions and objects to Python, and vice-versa, using just C++ compiler](https://wiki.python.org/moin/boost.python)
-  * [pybind11: similar to Boost.Python, but with a clean header-only implementation for C++11-capable compilers](https://github.com/wjakob/pybind11)
-  * [PyBindGen: Python bindings code generator for pure C or C++ APIs. The generator is written in Python and has low complexity. The generated code is clean, efficient, and highly readable](http://code.google.com/p/pybindgen)
+  * [Scikit-HEP homepage](http://scikit-hep.org/) (under development)
+  * [Boost.Python](https://wiki.python.org/moin/boost.python): exposes C++ classes functions and objects to Python, and vice-versa, using just C++ compiler
+  * [pybind11](https://github.com/wjakob/pybind11): similar to Boost.Python, but with a clean header-only implementation for C++11-capable compilers
+  * [PyBindGen](http://code.google.com/p/pybindgen): Python bindings code generator for pure C or C++ APIs. The generator is written in Python and has low complexity. The generated code is clean, efficient, and highly readable
