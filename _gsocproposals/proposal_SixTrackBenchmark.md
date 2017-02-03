@@ -17,7 +17,7 @@ of bottlenecks in the source code, assessment on impact of branches.
 ## Mentors
 
   * [Riccardo De Maria](mailto:Riccardo.De.Maria@cern.ch)
-  * [Kyrre Sobjak](mailto:kyrre.ness.sjoebaek@cern.ch)
+  * [Kyrre Sjobak](mailto:kyrre.ness.sjoebaek@cern.ch)
 
 ## Requirements
 Fortran, calculus, accelerator physics.
