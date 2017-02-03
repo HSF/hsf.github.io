@@ -10,7 +10,7 @@ layout: default
 
  * Option A: email GSoC administrators: Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a>
  * Option B (via git): 
-   * fork git repository 
+   * fork [git repository](https://github.com/HEP-SF/hep-sf.github.io) 
    * add project_YOURPROJECT.md (for example project_ROOT.md)
    * add _gsocproposals/proposal_YOURPROJECTyourproposal.md (for example proposal_ROOTspark.md)
    * add a front matter as given in this [example](https://raw.githubusercontent.com/HEP-SF/hep-sf.github.io/master/_gsocproposals/proposal_ROOTspark.md)
