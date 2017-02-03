@@ -3,7 +3,7 @@ title: "University of Antioquia in GSoC"
 author: "Omar Zapata"
 layout: default
 ---
-# Project Proposals at UdeA
+# Project Proposals by  University of Antioquia
 
 ## Project Proposals
 

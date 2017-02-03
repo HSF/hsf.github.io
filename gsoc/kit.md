@@ -3,7 +3,7 @@ title: "Karlsruhe Institute of Technology in GSoC"
 author: "Omar Zapata"
 layout: default
 ---
-# Project Proposals at KIT
+# Project Proposals by Karlsruhe Institute of Technology
 
 ## Project Proposals
 

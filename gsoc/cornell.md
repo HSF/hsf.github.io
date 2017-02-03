@@ -3,7 +3,7 @@ title: "Cornell University in GSoC"
 author: "Omar Zapata"
 layout: default
 ---
-# Project Proposals at Cornell University
+# Project Proposals by Cornell University
 
 ## Project Proposals
 

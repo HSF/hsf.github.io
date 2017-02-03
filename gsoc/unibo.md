@@ -3,7 +3,7 @@ title: "University of Bologna in GSoC"
 author: "Omar Zapata"
 layout: default
 ---
-# Project Proposals at UNIBO
+# Project Proposals by University of Bologna
 
 ## Project Proposals
 

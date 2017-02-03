@@ -3,7 +3,7 @@ title: "University of Florida in GSoC"
 author: "Omar Zapata"
 layout: default
 ---
-# Project Proposals at UFL
+# Project Proposals by University of Florida
 
 ## Project Proposals
 
