@@ -14,9 +14,11 @@ The GSoC participant will develop the Python interface to Hydra, to make it a pa
 
 ## Description
 The Hydra project consists of a header-only C++ template library designed for data-intensive analysis in massively multi-threaded environments, with a focus on performance and precision. Hydra is coded on top of Thrust and STL, and exploits heavily static polymorphism in order to execute the same source code deploying on OpenMP, TBB and CUDA enabled devices.
-Currently, Hydra implements functionality to generate large samples of  weighted and unweighted phase-space Monte Carlo, to perform multidimensional numerical integration and likelihood fits, and to evaluate functions in parallel over large data sets. The typical speed up compared to traditional tools ranges from 10x to 10000x faster depending on the use case. 
+Currently, Hydra implements functionality to generate large samples of  weighted and unweighted phase-space Monte Carlo, to perform multidimensional numerical integration and likelihood fits, and to evaluate functions in parallel over large data sets. The typical speed up compared to traditional tools ranges from 10x to 10000x faster depending on the use case.
+
 The Scikit-HEP project is a community-driven and community-oriented project with the aim of providing Particle Physics at large with a Python package containing core and common tools; it's goal is similar to that of Astropy in Astronomy.
 The project initiated in Autumn 2016 and is presently under consolidation.
+
 The GSoC participant will develop the Python interface to Hydra, to make it a package affiliated with Scikit-HEP, i.e. a package that is not part of the core tools but builds on the ideas of Scikit-HEP, conforms to a series of rules on usage, documentation, etc., and exposes extra functionality for specific purposes.
 
 ## Task ideas
