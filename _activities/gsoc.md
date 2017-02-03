@@ -31,6 +31,7 @@ Instructions for participating projects and mentors can be found [here]({{site.b
 
 {:.table .table-hover  .table-striped}
 | <img src="{{site.baseurl}}/images/CERN-logo.jpg" width="100" alt="CERN"> | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
+| <img src="{{site.baseurl}}/images/udea-logo.png" width="100" alt="UdeA"> | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. Its mission is to generate, develop and disseminate knowledge in a wide range of disciplines including humanities, science, arts, philosophy, technics and technology through research, teaching and extension activities. Universidad de Antioquia offers nationally accredited undergraduate and graduate degrees and post-baccalaureate programs that are delivered through both face-to-face and distance learning methods. [List of proposals]({{site.baseurl}}/gsoc/udea.html)|
 
 
 
