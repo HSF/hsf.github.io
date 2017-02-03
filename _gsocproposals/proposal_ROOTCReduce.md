@@ -4,7 +4,6 @@ layout: plain
 project: ROOT
 organization:
  - Princeton
- - CERN
 ---
 
 ## Project Description
