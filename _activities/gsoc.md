@@ -15,18 +15,18 @@ Students interested in participating in the GSoC can find project proposals [her
 
 HSF GSoC Administrators: Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a>
 
-Instructions for participating projects and mentors can be found [here]({{site.baseurl}}/gsoc/guideline.html).
+Instructions for participating projects and mentors can be found [here](/gsoc/guideline.html).
 
 
 ## Projects
 
 {:.table .table-hover  .table-striped}
-| <img src="{{site.baseurl}}/images/rootlogo.png" width="100" alt="ROOT"> | A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R. [List of proposals](/gsoc/project_ROOT.html)|
-| <img src="{{site.baseurl}}/images/tmva_logo.gif" width="100" alt="TMVA"> | TMVA is a ROOT-integrated toolkit for multivariate classification and regression analysis. TMVA performs the training, testing and performance evaluation of a large variety of multivariate methods. [List of proposals]({{site.baseurl}}/gsoc/project_TMVA.html)|
-| <img src="{{site.baseurl}}/images/geanttiny.gif" width="100" alt="Geant4"> | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals](/gsoc/project_Geant4.html)|
-| <img src="{{site.baseurl}}/images/CMS-Color.gif" width="100" alt="CMS"> | [CMS](http://cms.web.cern.ch/) (Compact Muon Solenoid) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/project_CMS.html)|
-| <img src="{{site.baseurl}}/images/sixtrack_logo.png" width="100" alt="SixTrack">  | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals](/gsoc/project_SixTrack.html) |
-| <img src="{{site.baseurl}}/images/geantv_logo.png" width="100" alt="GeantV"> | The GeantV project aims at developing a high performance detector simulation system integrating fastand fullsimulation that  can  be  ported  on  different  computing  architectures,  including CPU accelerators. [List of proposals](/gsoc/project_GeantV.html)|
+| ![ROOT](/images/rootlogo.png){:width="100px"} | A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R. [List of proposals](/gsoc/project_ROOT.html)|
+| ![TMVA](/images/tmva_logo.gif){:width="100px"} | TMVA is a ROOT-integrated toolkit for multivariate classification and regression analysis. TMVA performs the training, testing and performance evaluation of a large variety of multivariate methods. [List of proposals]({{site.baseurl}}/gsoc/project_TMVA.html)|
+| ![Geant4](/images/geanttiny.gif){:width="100px"} | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals](/gsoc/project_Geant4.html)|
+| ![CMS](/images/CMS-Color.gif){:width="100px"} | [CMS](http://cms.web.cern.ch/) (Compact Muon Solenoid) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/project_CMS.html)|
+| ![SixTrack](/images/sixtrack_logo.png){:width="100px"} | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals](/gsoc/project_SixTrack.html) |
+| ![GeantV](/images/geantv_logo.png){:width="100px"} | The GeantV project aims at developing a high performance detector simulation system integrating fastand fullsimulation that  can  be  ported  on  different  computing  architectures,  including CPU accelerators. [List of proposals](/gsoc/project_GeantV.html)|
 
 
 
@@ -34,11 +34,11 @@ Instructions for participating projects and mentors can be found [here]({{site.b
 ## Participating Organizations
 
 {:.table .table-hover  .table-striped}
-| <img src="{{site.baseurl}}/images/CERN-logo.jpg" width="100" alt="CERN"> | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
-| <img src="{{site.baseurl}}/images/udea_logo.png" width="100" alt="Universidad de Antioquia"> | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. [List of proposals](/gsoc/udea.html)|
-| <img src="{{site.baseurl}}/images/cornell_logo.gif" width="100" alt="Cornell University"> | Founded in 1865, Cornell is a leading private institution of higher learning located in Ithaca, New York. [List of proposals](/gsoc/cornell.html)|
-| <img src="{{site.baseurl}}/images/princeton-logo.png" width="100" alt="Princeton University"> | Princeton University is a private Ivy League research university in Princeton, New Jersey. [List of proposals](/gsoc/princeton.html)|
-| <img src="{{site.baseurl}}/images/unibo_logo.jpg" width="100" alt="University of Bologna"> | University of Bologna, one of the oldest and most famous universities in Europe. [List of proposals](/gsoc/unibo.html)|
-| <img src="{{site.baseurl}}/images/kit_logo.png" width="100" alt="Karlsruhe Institute of Technology"> | The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. [List of proposals](/gsoc/kit.html)|
-| <img src="{{site.baseurl}}/images/ufl_logo.jpg" width="100" alt="University of Florida"> | University of Florida is a public institution that was founded in 1853. [List of proposals](/gsoc/ufl.html)|
+| ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
+| ![Universidad de Antioquia](/images/udea_logo.png){:width="100px"} | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. [List of proposals](/gsoc/udea.html)|
+| ![Cornell University](/images/cornell_logo.gif){:width="100px"} | Founded in 1865, Cornell is a leading private institution of higher learning located in Ithaca, New York. [List of proposals](/gsoc/cornell.html)|
+| ![Princeton University](/images/princeton-logo.png){:width="100px"} | Princeton University is a private Ivy League research university in Princeton, New Jersey. [List of proposals](/gsoc/princeton.html)|
+| ![University of Bologna ](/images/unibo_logo.jpg){:width="100px"} | University of Bologna, one of the oldest and most famous universities in Europe. [List of proposals](/gsoc/unibo.html)|
+| ![Karlsruhe Institute of Technology](/images/kit_logo.png){:width="100px"} | The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. [List of proposals](/gsoc/kit.html)|
+| ![University of Florida](/images/ufl_logo.jpg){:width="100px"} | University of Florida is a public institution that was founded in 1853. [List of proposals](/gsoc/ufl.html)|
 
