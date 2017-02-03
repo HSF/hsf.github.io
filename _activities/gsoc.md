@@ -42,8 +42,5 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![University of Florida](/images/ufl_logo.jpg){:width="100px"} | University of Florida is a public institution that was founded in 1853. [List of proposals](/gsoc/ufl.html)|
 | ![LPC-Clermont](/images/lpc-logo.png){:width="100px"} | Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. [List of proposals](/gsoc/lpc-clermont.html)|
 
-## Full List of Proposals
 
-{:.table .table-hover .table-striped}
-{% for proposal in site.gsocproposals %}{% capture u_proposal_org %}{{ organization | upcase }}{% endcapture %}[ {{ proposal.title }} ]( {{ proposal.url }} ) |
-{% endfor %}
+[Full List of Proposals and Supervisors](/gsoc/summary.html)
