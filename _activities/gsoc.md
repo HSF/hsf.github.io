@@ -25,7 +25,11 @@ Instructions for participating projects and mentors can be found [here]({{site.b
 | <img src="{{site.baseurl}}/images/tmva_logo.gif" width="100" alt="TMVA"> | TMVA is a ROOT-integrated toolkit for multivariate classification and regression analysis. TMVA performs the training, testing and performance evaluation of a large variety of multivariate methods. [List of proposals]({{site.baseurl}}/gsoc/project_TMVA.html)|
 | <img src="{{site.baseurl}}/images/geanttiny.gif" width="100" alt="Geant4"> | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals]({{site.baseurl}}/gsoc/project_Geant4.html)|
 | <img src="{{site.baseurl}}/images/CMS-Color.gif" width="100" alt="CMS"> | [CMS](http://cms.web.cern.ch/) (Compact Muon Solenoid) is a high-energy physics experiment at the LHC. [List of proposals]({{site.baseurl}}/gsoc/project_CMS.html)|
-| **SixTrack** | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals]({{site.baseurl}}/gsoc/project_SixTrack.html) |
+| <img src="{{site.baseurl}}/images/sixtrack_logo.png" width="100" alt="SixTrack">  | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals]({{site.baseurl}}/gsoc/project_SixTrack.html) |
+| <img src="{{site.baseurl}}/images/geantv_logo.png" width="100" alt="GeantV"> | The GeantV project aims at developing a high performance detector simulation system integrating fastand fullsimulation that  can  be  ported  on  different  computing  architectures,  including CPU accelerators. [List of proposals]({{site.baseurl}}/gsoc/project_GeantV.html)|
+
+
+
 
 ## Participating Organizations
 
