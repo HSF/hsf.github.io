@@ -1,7 +1,7 @@
 ---
 title: Launching Wagon, a WebAssembly interpreter in Go
 layout: plain
-project: Go-HEP
+project: GoHEP
 organization: LPC-Clermont
 ---
 
