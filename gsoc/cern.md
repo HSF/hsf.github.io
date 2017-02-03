@@ -1,12 +1,8 @@
 ---
-title: "CERN in GSoC"
+title: "CERN"
 author: "Benedikt Hegner"
 layout: default
+organization: CERN
 ---
-# Project Proposals at CERN
 
-## Project Proposals
-
-{:.table .table-hover .table-striped}
-{% for page in site.gsocproposals %}{% if page.organization == "CERN" %} | [ {{ page.title }} ]( {{ page.url }} ) | {% endif %}
-{% endfor %}
+{% include proposal.ext %}

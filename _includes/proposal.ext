@@ -1,0 +1,19 @@
+{% comment %}
+Liquid template to display GSoC proposals for a given organization. To be included in a Markdown page.
+Organization is defined by 'organization' attribute in front matter of the parent page (that includes this template).
+Organization title is defined by 'title' attribute in front matter of the parent page. It defines the proposal
+grouping by organization and is case insensitive.
+{% endcomment %}
+
+{:.table .table-hover .table-striped}
+
+# Project Proposals by {{ page.title }}
+
+{% for proposal in site.gsocproposals %}
+{% for organization in proposal.organization %}
+{% capture u_proposal_org %}{{ organization | upcase }}{% endcapture %}
+{% capture u_org %}{{ page.organization | upcase }}{% endcapture %}
+{% if u_proposal_org == u_org %} | [ {{ proposal.title }} ]( {{ proposal.url }} ) | {% endif %}
+{% endfor %}
+{% endfor %}
+

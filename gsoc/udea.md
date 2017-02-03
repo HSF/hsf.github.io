@@ -1,12 +1,8 @@
 ---
-title: "University of Antioquia in GSoC"
+title: "University of Antioquia"
 author: "Omar Zapata"
 layout: default
+organization: UdeA
 ---
-# Project Proposals by  University of Antioquia
 
-## Project Proposals
-
-{:.table .table-hover .table-striped}
-{% for page in site.gsocproposals %}{% if page.organization == "UdeA" %} | [ {{ page.title }} ]( {{ page.url }} ) | {% endif %}
-{% endfor %}
+{% include proposal.ext %}

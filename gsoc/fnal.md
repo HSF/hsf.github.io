@@ -1,12 +1,8 @@
 ---
-title: "Fermilab in GSoC"
+title: "Fermilab"
 author: "Benedikt Hegner"
 layout: default
+organization: Fermilab
 ---
-# Project Proposals at Fermilab
 
-## Project Proposals
-
-{:.table .table-hover .table-striped}
-{% for page in site.gsocproposals %}{% if page.organization == "Fermilab" %} | [ {{ page.title }} ]( {{ page.url }} ) | {% endif %}
-{% endfor %}
+{% include proposal.ext %}
