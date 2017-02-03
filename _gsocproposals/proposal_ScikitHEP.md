@@ -1,5 +1,5 @@
 ---
-title: Efficient Python routines for analysis on massively multi-threaded platforms: Python bindings for the Hydra C++ library
+title: Efficient Python routines for analysis on massively multi-threaded platforms - Python bindings for the Hydra C++ library
 layout: plain
 project: Scikit-HEP
 organization:
