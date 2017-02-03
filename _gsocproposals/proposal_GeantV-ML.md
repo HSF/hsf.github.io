@@ -30,3 +30,9 @@ HPC, linear algebra, machine learning algorithms
   
 ## Links
   * [Geant](http://geant.web.cern.ch)
+
+## References
+    1. Apostolakis, J and Bandieramonte, M and Bitzes, G and Brun, R and Canal, P and Carminati, F and Licht, JC De Fine and Duhem, L and Elvira, VD and Gheata, A and others, Adaptive track scheduling to optimize concurrency and vectorization in GeantV, Journal of Physics: Conference Series, 608, 1, 012003, 2015, IOP Publishing
+    2. Mikko Kivelä, Alex Arenas, Marc Barthelemy, James P. Gleeson, Yamir Moreno, Mason A. Porter; Multilayer networks. J Complex Netw 2014; 2 (3): 203-271. doi: 10.1093/comnet/cnu016
+    3. Andrew Y. Ng, Michael I. Jordan, and Yair Weiss. 2001. On spectral clustering: analysis and an algorithm. In Proceedings of the 14th International Conference on Neural Information Processing Systems: Natural and Synthetic (NIPS'01), T. G. Dietterich, S. Becker, and Z. Ghahramani (Eds.). MIT Press, Cambridge, MA, USA, 849-856. 
+    4. Xiaowen Dong and Pascal Frossard and Pierre Vandergheynst and Nikolai Nefedov, Clustering with Multi-Layer Graphs: A Spectral Perspective, CoRR, abs/1106.2233, 2011, http://arxiv.org/abs/1106.2233 (link is external)
