@@ -2,7 +2,7 @@
 title: Next generation of CMS data replication system
 layout: plain
 project: CMS
-organization: CERN
+organization: Cornell
 ---
 
 # Description

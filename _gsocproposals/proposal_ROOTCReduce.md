@@ -2,7 +2,7 @@
 title: Enhance C-Reduce to work with ROOT
 layout: plain
 project: ROOT
-organization: CERN
+organization: Princeton
 ---
 
 ## Project Description
