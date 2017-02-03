@@ -1,12 +1,8 @@
 ---
-title: "Cornell University in GSoC"
+title: "Cornell University"
 author: "Omar Zapata"
 layout: default
+organization: Cornell
 ---
-# Project Proposals by Cornell University
 
-## Project Proposals
-
-{:.table .table-hover .table-striped}
-{% for page in site.gsocproposals %}{% if page.organization == "Cornell" %} | [ {{ page.title }} ]( {{ page.url }} ) | {% endif %}
-{% endfor %}
+{% include proposal.ext %}
