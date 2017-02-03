@@ -5,4 +5,4 @@ layout: default
 organization: NTUUKPI
 ---
 
-{% include proposal.ext %}
+{% include gsoc_proposal.ext %}
