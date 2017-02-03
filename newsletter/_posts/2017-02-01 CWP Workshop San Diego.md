@@ -30,9 +30,7 @@ The views of CERN and Fermilab on the expansion of compute capacity were given b
 
 The plenary session finished with several presentations on specific topics. These included a nice update on technology tracking by __Ian Bird__ and an overview on managing Copyright and licensing issues in open-source projects by __Aaron Sauers__ (FNAL). __Dan Katz__ (NCSA) described the principles that motivate the provision of tools for managing the citation of software in order to put it on the same basis as other scientific works such as scientific papers and books. Anyone interested in contributing to the ongoing work is invited to join the Software Citation Implementation Group [here] (https://www.force11.org/group/software-citation-working-group). 
 
-## Projects and Project Support
-{:height="400px" width="600px" .centered-image}
-## Software Packaging
+## The CWP Working Groups
 
 
 ### Software
