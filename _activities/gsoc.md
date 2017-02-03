@@ -27,8 +27,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![CMS](/images/CMS-Color.gif){:width="100px"} | [CMS](http://cms.web.cern.ch/) (Compact Muon Solenoid) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/project_CMS.html)|
 | ![SixTrack](/images/sixtrack_logo.png){:width="100px"} | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals](/gsoc/project_SixTrack.html) |
 | ![GeantV](/images/geantv_logo.png){:width="100px"} | The GeantV project aims at developing a high performance detector simulation system integrating fastand fullsimulation that  can  be  ported  on  different  computing  architectures,  including CPU accelerators. [List of proposals](/gsoc/project_GeantV.html)|
-
-
+| ![GoHEP](/images/go-hep-logo.png){:width="100px"} | The GoHEP project aims at developing robust and concurrency friendly libraries for HEP, astrophysics and cosmology. [List of proposals](/gsoc/project_GoHEP.html)|
 
 
 ## Participating Organizations
@@ -41,4 +40,4 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![University of Bologna ](/images/unibo_logo.jpg){:width="100px"} | University of Bologna, one of the oldest and most famous universities in Europe. [List of proposals](/gsoc/unibo.html)|
 | ![Karlsruhe Institute of Technology](/images/kit_logo.png){:width="100px"} | The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. [List of proposals](/gsoc/kit.html)|
 | ![University of Florida](/images/ufl_logo.jpg){:width="100px"} | University of Florida is a public institution that was founded in 1853. [List of proposals](/gsoc/ufl.html)|
-
+| ![LPC-Clermont](/images/lpc-logo.png){:width="100px"} | Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. [List of proposals](/gsoc/lpc-clermont.html)|
