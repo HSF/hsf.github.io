@@ -26,15 +26,15 @@ organization:
  
 **Mentors**: 
 
-  * Harrison Prosper harry@hep.fsu.edu
-  * Sergei Gleyzer Sergei.Gleyzer@cern.ch
-  * Omar Zapata  Omar.Zapata@cern.ch
+  * [Harrison Prosper](mailto:harry@hep.fsu.edu)
+  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch)
+  * [Omar Zapata](mailto:Omar.Zapata@cern.ch)
 
 
 **Links**:
 
-  * http://root.cern 
-  * https://cp3.irmp.ucl.ac.be/projects/delphes
+  * [http://root.cern](http://root.cern)
+  * [https://cp3.irmp.ucl.ac.be/projects/delphes]([https://cp3.irmp.ucl.ac.be/projects/delphes)
 
 
 
