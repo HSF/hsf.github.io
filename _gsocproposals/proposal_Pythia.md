@@ -23,9 +23,9 @@ Working implementation of electron-ion collisions in Pythia 8.
 
 **Mentors**:
 
-  * Mike Williams  mwill@mit.edu
-  * Phil Ilten  philten@cern.ch
+  * [Mike Williams](mailto:mwill@mit.edu)
+  * [Phil Ilten](mailto:philten@cern.ch)
 
 **Links**:
 
-  * http://home.thep.lu.se/Pythia/
+  * [http://home.thep.lu.se/Pythia/](http://home.thep.lu.se/Pythia/)
