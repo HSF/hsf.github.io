@@ -29,7 +29,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![GeantV](/images/geantv_logo.png){:width="100px"} | The GeantV project aims at developing a high performance detector simulation system integrating fastand fullsimulation that  can  be  ported  on  different  computing  architectures,  including CPU accelerators. [List of proposals](/gsoc/project_GeantV.html)|
 | <img src="{{site.baseurl}}/images/geanttiny.gif" width="100" alt="Geant4"> | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals]({{site.baseurl}}/gsoc/project_Geant4.html)|
 | ![GoHEP](/images/go-hep-logo.png){:width="100px"} | The GoHEP project aims at developing robust and concurrency friendly libraries for HEP, astrophysics and cosmology. [List of proposals](/gsoc/project_GoHEP.html)|
-| ![FALCON](/images/falcon_logo.png){:width="100px"} | [Falcon](http://inspirehep.net/record/1456803) is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments. [List of proposals](/gsoc/project_FALCON.html)|
+| ![FALCON](/images/falcon_logo.png){:width="100px"} | Falcon is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments. [List of proposals](/gsoc/project_FALCON.html)|
 
 
 ## Participating Organizations
