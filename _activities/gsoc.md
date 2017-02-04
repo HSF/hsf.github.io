@@ -27,7 +27,9 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![SixTrack](/images/sixtrack_logo.png){:width="100px"} | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals](/gsoc/project_SixTrack.html) |
 | **SciKit-HEP** | The [Scikit-HEP project](http://scikit-hep.org/) is a community-driven and community-oriented project with the aim of providing Particle Physics at large with a Python package containing core and common tools. [List of proposals](/gsoc/project_SciKit-HEP.html)|
 | ![GeantV](/images/geantv_logo.png){:width="100px"} | The GeantV project aims at developing a high performance detector simulation system integrating fastand fullsimulation that  can  be  ported  on  different  computing  architectures,  including CPU accelerators. [List of proposals](/gsoc/project_GeantV.html)|
+| <img src="{{site.baseurl}}/images/geanttiny.gif" width="100" alt="Geant4"> | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals]({{site.baseurl}}/gsoc/project_Geant4.html)|
 | ![GoHEP](/images/go-hep-logo.png){:width="100px"} | The GoHEP project aims at developing robust and concurrency friendly libraries for HEP, astrophysics and cosmology. [List of proposals](/gsoc/project_GoHEP.html)|
+| ![FALCON](/images/falcon_logo.png){:width="100px"} | [Falcon](http://inspirehep.net/record/1456803) is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments. [List of proposals](/gsoc/project_FALCON.html)|
 
 
 ## Participating Organizations
@@ -44,6 +46,9 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Karlsruhe Institute of Technology](/images/kit_logo.png){:width="100px"} | The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. [List of proposals](/gsoc/kit.html)|
 | ![University of Florida](/images/ufl_logo.jpg){:width="100px"} | University of Florida is a public institution that was founded in 1853. [List of proposals](/gsoc/ufl.html)|
 | ![LPC-Clermont](/images/lpc-logo.png){:width="100px"} | Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. [List of proposals](/gsoc/lpc-clermont.html)|
+| ![National Technical University of Ukraine](/images/NTUU_KPI_logo.png){:width="100px"} | The National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute" is a major university in Kiev, Ukraine. [List of proposals](/gsoc/ntuukpi.html)|
+| ![University of Montreal](/images/umontreal_logo.png){:width="100px"} | The Université de Montréal is a public research university in Montreal, Quebec, Canada. [List of proposals](/gsoc/umontreal.html)|
+| ![Florida State University](/images/fsu_logo.jpg){:width="100px"} | Florida State University is a public institution that was founded in 1851. [List of proposals](/gsoc/fsu.html)|
 
 
 [Full List of Proposals and Supervisors](/gsoc/summary.html)

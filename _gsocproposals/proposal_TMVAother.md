@@ -2,7 +2,7 @@
 title: Additional Machine Learning Project Ideas and Areas of Interest
 layout: plain
 project: TMVA
-organization: CERN
+organization: KIT
 ---
 
 ## Project Description

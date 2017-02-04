@@ -2,7 +2,9 @@
 title: Message Passing Interface for ROOT (ROOTMpi)
 layout: plain
 project: ROOT
-organization: UdeA
+organization:
+  - UdeA
+  - CERN
 ---
 
 # Description

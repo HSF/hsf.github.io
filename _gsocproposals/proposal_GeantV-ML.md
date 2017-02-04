@@ -2,7 +2,9 @@
 title: Optimisation of GeantV HPC workload balancing by use of unsupervised machine learning
 layout: plain
 project: GeantV
-organization: CERN
+organization: 
+  - CERN
+  - NTUUKPI
 ---
 
 ## Description
