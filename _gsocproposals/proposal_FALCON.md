@@ -34,7 +34,7 @@ organization:
 **Links**:
 
   * [http://root.cern](http://root.cern)
-  * [https://cp3.irmp.ucl.ac.be/projects/delphes]([https://cp3.irmp.ucl.ac.be/projects/delphes)
+  * [https://cp3.irmp.ucl.ac.be/projects/delphes](https://cp3.irmp.ucl.ac.be/projects/delphes)
 
 
 
