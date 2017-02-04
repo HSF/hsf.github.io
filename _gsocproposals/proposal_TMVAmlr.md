@@ -25,13 +25,13 @@ organization:
 **Requirements**: Advanced skills in C/C++, experience with R and machine learning.
 
 **Mentors**: 
-  * Omar Zapata  Omar.Zapata@cern.ch
-  * Lorenzo Moneta Lorenzo.Moneta@cern.ch
-  * Diego Restrepo alejandro.restrepo@udea.edu.co
+  * [Omar Zapata](mailto:Omar.Zapata@cern.ch)
+  * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
+  * [Diego Restrepo](mailto:alejandro.restrepo@udea.edu.co)
 
 **Links**:
 
-  * http://root.cern 
-  * http://mlr-org.github.io
-  * http://oproject.org/RMVA
-  * http://oproject.org/ROOT+R
+  * [http://root.cern](http://root.cern)
+  * [http://mlr-org.github.io](http://mlr-org.github.io)
+  * [http://oproject.org/RMVA](http://oproject.org/RMVA)
+  * [http://oproject.org/ROOT+R](http://oproject.org/ROOT+R)
