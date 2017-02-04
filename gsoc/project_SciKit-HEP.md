@@ -1,5 +1,5 @@
 ---
-title: SciKit-HEP in Geant4
+title: GSoc 2017 in SciKit-HEP
 layout: plain
 ---
 
