@@ -54,5 +54,6 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 
 
 [Full List of Proposals and Supervisors](/gsoc/summary.html)
+
 [Full Mentor List (Name, Email, Org)](/gsoc/mentors.html)
 
