@@ -7,6 +7,7 @@ organization:
  - UdeA
  - UFlorida 
  - QueenMary 
+ - KIT
 ---
 
 ## Project Description
