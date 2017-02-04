@@ -21,7 +21,12 @@ Geant4 and GeantV use Runge-Kutta methods to integrate the motion of charged par
 
 **Requirements**: This project requires prior exposure to Numerical Analysis and familiarity with either C++, C or Java programming.  Exposure to either numerical methods for solving Ordinary Differential equations (ODEs) or tools for analysing data such as ROOT or R will be valuable. Both programming skill and knowledge of numerical methods for ODEs will be improved by undertaking this project.
 
-**Mentor**: John Apostolakis​ sft-gsoc@cern.ch
-**Web site**: http://cern.ch/geant4
-**Source code**: https://github.com/jonapost/field_propagation
+**Mentor**: 
+[John Apostolakis](mailto:sft-gsoc@cern.ch)
+
+**Web site**: 
+[http://cern.ch/geant4](http://cern.ch/geant4)
+
+**Source code**: 
+[https://github.com/jonapost/field_propagation](https://github.com/jonapost/field_propagation)
 
