@@ -23,8 +23,12 @@ Each LHC experiments generates 5-10 Billion sampled physics events a year using 
 Knowledge gained: use of Pseudo-Random Number Generators and state of the art of PRNGs.
 
 **Mentor**: 
-* John Apostolakis​ sft-gsoc@cern.ch
-* Sandro Wenzel    sft-gsoc@cern.ch
-**Web site**: http://cern.ch/geant4
-**Source code**: https://github.com/Geant4/geant4
+* [John Apostolakis] (mailto:sft-gsoc@cern.ch)
+* [Sandro Wenzel](mailto:sft-gsoc@cern.ch)
+
+**Web site**: 
+[http://cern.ch/geant4](http://cern.ch/geant4)
+
+**Source code**: 
+[https://github.com/Geant4/geant4](https://github.com/Geant4/geant4)
 
