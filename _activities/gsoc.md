@@ -39,7 +39,6 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Universidad de Antioquia](/images/udea_logo.png){:width="100px"} | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. [List of proposals](/gsoc/udea.html)|
 | ![Cornell University](/images/cornell_logo.gif){:width="100px"} | Founded in 1865, Cornell is a leading private institution of higher learning located in Ithaca, New York. [List of proposals](/gsoc/cornell.html)|
 | ![DianaHep](/images/dianahep.png){:width="100px"} | The primary goal of [DIANA/HEP](http://diana-hep.org/) is to develop state-of-the-art tools for experiments which acquire, reduce, and analyze petabytes of data. [List of proposals](/gsoc/DianaHEP.html)|
-
 | ![Princeton University](/images/princeton-logo.png){:width="100px"} | Princeton University is a private Ivy League research university in Princeton, New Jersey. [List of proposals](/gsoc/princeton.html)|
 | ![University of Bologna ](/images/unibo_logo.jpg){:width="100px"} | University of Bologna, one of the oldest and most famous universities in Europe. [List of proposals](/gsoc/unibo.html)|
 | ![University of Cincinnati ](/images/Uc-seal.png){:width="100px"} | University of Cincinnati [List of proposals](/gsoc/cincinnati.html)|
