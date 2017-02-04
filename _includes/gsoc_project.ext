@@ -1,0 +1,30 @@
+{% comment %}
+Liquid template to display GSoC proposals for a given project. To be included in a Markdown page.
+Project used for proposal filtering must be defined in the 'project' attribute of the page which includes this template.
+Each proposal much have an attribute 'project' in its front-matter than can be a single value or a list.
+Project names are not case sensitive.
+{% endcomment %}
+
+{:.table .table-hover .table-striped}
+
+{% comment %}
+Use the project name as the page title if none has been specified (they are typically identical)
+{% endcomment %}
+{% capture current_title %}{% if page.title == blank %}{{ page.project }}{% else %}{{ page.title }}{% endif %}{% endcapture %}
+
+# GSoC 2017 Projects Related To {{ current_title }}
+
+{{ page.description }}
+
+## Project Proposals
+
+{% for proposal in site.gsocproposals %}
+{% for project in proposal.project %}
+{% capture u_proposal_project %}{{ project | upcase }}{% endcapture %}
+{% capture u_project %}{{ page.project | upcase }}{% endcapture %}
+{% if u_proposal_project == u_project %}
+| [ {{ proposal.title }} ]( {{ proposal.url }} ) |
+{% endif %}
+{% endfor %}
+{% endfor %}
+

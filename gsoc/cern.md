@@ -5,4 +5,4 @@ layout: default
 organization: CERN
 ---
 
-{% include proposal.ext %}
+{% include gsoc_proposal.ext %}
