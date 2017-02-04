@@ -2,7 +2,9 @@
 title: Machine Learning Project - Convolutional Deep Neural Networks on GPUs for Particle Physics Applications
 layout: plain
 project: TMVA
-organization: CERN
+organization:
+  - CERN   
+  - UFlorida
 ---
 
 ## Project Description 
