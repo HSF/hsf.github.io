@@ -22,8 +22,11 @@ The TestU01 suite is an established suite of empirical tests for pseudorandom nu
 generators. ACM Transactions on Mathematical Software, 33(4):Article 22,  August 2007. 
 
 **Mentors**: 
- * John Apostolakis sft-gsoc@cern.ch
- * Pierre L'Ecuyer sft-gsoc@cern.ch
+ * [John Apostolakis](mailto:sft-gsoc@cern.ch)
+ * [Pierre L'Ecuyer](mailto:sft-gsoc@cern.ch)
  
-**Web page**: http://simul.iro.umontreal.ca/testu01/tu01.html 
-**Source code:**  http://simul.iro.umontreal.ca/testu01/tu01.html
+**Web page**: 
+[http://simul.iro.umontreal.ca/testu01/tu01.html](http://simul.iro.umontreal.ca/testu01/tu01.html)
+
+**Source code:** 
+[http://simul.iro.umontreal.ca/testu01/tu01.html](http://simul.iro.umontreal.ca/testu01/tu01.html)
