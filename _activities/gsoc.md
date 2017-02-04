@@ -30,7 +30,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Geant4](/images/geanttiny.gif){:width="100px"} | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals]({{site.baseurl}}/gsoc/project_Geant4.html)|
 | ![GoHEP](/images/go-hep-logo.png){:width="100px"} | The GoHEP project aims at developing robust and concurrency friendly libraries for HEP, astrophysics and cosmology. [List of proposals](/gsoc/project_GoHEP.html)|
 | ![FALCON](/images/falcon_logo.png){:width="100px"} | Falcon is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments. [List of proposals](/gsoc/project_FALCON.html)|
-| ![Pythia](/images/pythia99.gif){:width="100px"} | [Pythia](http://home.thep.lu.se/Pythia/) is the most widely used Monte Carlo event generator in particle physics.| [List of proposals](/gsoc/project_Pythia.html)|
+| ![Pythia](/images/pythia99.gif){:width="100px"} | [Pythia](http://home.thep.lu.se/Pythia/) is the most widely used Monte Carlo event generator in particle physics. [List of proposals](/gsoc/project_Pythia.html)|
 
 
 ## Participating Organizations
