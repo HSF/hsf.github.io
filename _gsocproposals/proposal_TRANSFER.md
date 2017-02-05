@@ -7,7 +7,7 @@ organization:
   - UBologna
 ---
 
-# Description
+## Description
 
 The CMS experiment at the LHC proton-proton collider developed PhEDEx as a
 reliable and scalable dataset replication system. Designed in 2004, and written
@@ -55,19 +55,18 @@ We propose the following steps:
   * simulate broadcast of requests and possible failures in a system
   * integrate new Go-based agent(s) within existing PhEDEx infrastructure and assign a transfer requests to it
 
-**Expected results**: working implementation of the system and fully tested in distributed
-environment.
+## Expected results
+Working implementation of the system and fully tested in distributed environment.
 
-**Requirements**: Solid knowledge of Go-langauge, some knowledge of perl (be able to read legacy code
+## Requirements
+Solid knowledge of Go-langauge, some knowledge of perl (be able to read legacy code
 and translate it into Go), some knowledge of databases (Sqlite, MySQL, ORACLE), git
 
-**Mentors**: 
-
+## Mentors 
   * [V. Kuznetsov](mailto:vkuznet@gmail.com)
   * [D. Bonacorsi](mailto:bonacorsi@bo.infn.it)
   * [Paul Rossman](mailto:paulrossman@google.com)
 
-**Links**:
-
+## Links
   * [https://github.com/vkuznet/transfer2go](https://github.com/vkuznet/transfer2go)
   * [https://www.researchgate.net/publication/228732867_Data_transfer_infrastructure_for_CMS_data_taking](https://www.researchgate.net/publication/228732867_Data_transfer_infrastructure_for_CMS_data_taking)
