@@ -23,6 +23,7 @@ The GSoC participant will develop the Python interface to Hydra, to make it a pa
 
 ## Task ideas
 The main tasks necessary to achieve the project goals are the following:
+
 * Use Boost.Python, pybind11 and PyBindGen to prepare the core code to expose the Hydra classes to Python.
 * Set up a series of simple examples on how to use the Python package for well-defined tasks such as the generation of large samples of phase-space decays.
 * Prepare an adequate documentation and test suite for the Python package.
