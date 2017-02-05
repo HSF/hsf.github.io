@@ -50,6 +50,10 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![National Technical University of Ukraine](/images/NTUU_KPI_logo.png){:width="100px"} | The National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute" is a major university in Kiev, Ukraine. [List of proposals](/gsoc/ntuukpi.html)|
 | ![University of Montreal](/images/umontreal_logo.png){:width="100px"} | The Université de Montréal is a public research university in Montreal, Quebec, Canada. [List of proposals](/gsoc/umontreal.html)|
 | ![Florida State University](/images/fsu_logo.jpg){:width="100px"} | Florida State University is a public institution that was founded in 1851. [List of proposals](/gsoc/fsu.html)|
+| ![Queen Mary University of London](/images/queen-mary-logo.jpg){:width="100px"} | Queen Mary University of London is a public research university in London that was founded in 1785. [List of proposals](/gsoc/queenmary.html)|
 
 
 [Full List of Proposals and Supervisors](/gsoc/summary.html)
+
+[Full Mentor List (Name, Email, Org)](/gsoc/mentors.html)
+
