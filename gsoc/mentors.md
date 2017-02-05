@@ -11,7 +11,7 @@ layout: plain
 * Daniele Bonacorsi [bonacorsi@bo.infn.it](mailto:bonacorsi@bo.infn.it) University of Bologna
 * Emmanuel Busato [emmanuel.busato@clermont.in2p3.fr](mailto:emmanuel.busato@clermont.in2p3.fr) LPC
 * Alexandre Claude [alexandre.claude@clermont.in2p3.fr](mailto:alexandre.claude@clermont.in2p3.fr) LPC
-* Riccardo De Maria [riccardo.de.maric@cern.ch](mailto:riccardo.de.maric@cern.ch) CERN
+* Riccardo De Maria [riccardo.maric@cern.ch](mailto:riccardo.maric@cern.ch) CERN
 * Andrei Gheata CERN [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Sergei Gleyzer [sergei.gleyzer@cern.ch](mailto:sergei.gleyzer@cern.ch) University of Florida
 * Enrico Guiraud [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
