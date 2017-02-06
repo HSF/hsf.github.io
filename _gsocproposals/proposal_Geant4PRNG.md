@@ -20,7 +20,7 @@ Each LHC experiments generates 5-10 Billion sampled physics events a year using 
 Programming in C/C++ or Java at least for class projects is required. Use of Linux/Unix, cmake and/or a coding IDE (Eclipse, Xcode) will be assets.
 Knowledge gained: use of Pseudo-Random Number Generators and state of the art of PRNGs.
 
-## Mentor 
+## Mentors 
 * [John Apostolakis] (mailto:sft-gsoc@cern.ch)
 * [Sandro Wenzel](mailto:sft-gsoc@cern.ch)
 
