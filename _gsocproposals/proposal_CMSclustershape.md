@@ -18,15 +18,17 @@ Start of many track finding algorithms is the building of track seeds: groups of
 that are compatible with each other and  with a crude track hypothesis. 
 Compatibility between two hits can be also based on the hit shape. It can be imagined like the a footprint.
 The shape of a hit depends on the energy released in the layer, on the crossing angle of the hit of the detector and on the type of particle.
+Machine learning techniques applied on images can come in aid to reduce the combinatorics and find more stringent compatibility requirements for mitigating the combinatorial explosion. However, the integration of trained networks in the CMS software, while achieving optimal computing performance is very challenging.  
+A C++ code generator for integrating an externally trained network with a fixed number of nodes for inference in the CMS event reconstruction software, would enable high-performance cluster shape recognition.
 
-Machine learning techniques applied on images can come in aid to reduce the combinatorics and find more stringent compatibility requirements for mitigating the combinatorial explosion.
 
 
 ## Task ideas
+ Development of a C++ code generator from a fixed size NN. Test the inference generator on the cluster shape filter by:
  * Extracting shape information from simulated CMS events
- * Use Tensorflow to train a DNN based on the shape of the hits, detector information and Montecarlo Truth
- * Measure efficiency and fake rejection
- * Integrate in the CMS software trained network
+ * Using Tensorflow to train a DNN based on the shape of the hits, detector information and Montecarlo Truth
+ * Measuring efficiency and fake rejection
+ * Integrate in the CMS software the trained network
  
 ## Expected results
 Reduction of the combinatorics with improvements in timing. Possibly, improvement in physics performance.
