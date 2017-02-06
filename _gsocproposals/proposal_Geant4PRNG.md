@@ -21,7 +21,7 @@ Programming in C/C++ or Java at least for class projects is required. Use of Lin
 Knowledge gained: use of Pseudo-Random Number Generators and state of the art of PRNGs.
 
 ## Mentors 
-* [John Apostolakis] (mailto:sft-gsoc@cern.ch)
+* [John Apostolakis](mailto:sft-gsoc@cern.ch)
 * [Sandro Wenzel](mailto:sft-gsoc@cern.ch)
 
 ## Web site 
