@@ -13,7 +13,7 @@ organization:
 
 ## Task ideas
 * Design new Build/Simulator classes integrated with ROOT for training and testing
-* Create a plugin for simpler event input from [Delphes](https://cp3.irmp.ucl.ac.be/projects/delphes)
+* Create a plugin for simpler event input from Delphes
 * Create a purely C++ implementation (currently Falcon is written in python and c++)
 * Parallelization and timing studies with the purely C++ implementation
 
@@ -34,7 +34,6 @@ organization:
 **Links**:
 
   * [http://root.cern](http://root.cern)
-  * [https://cp3.irmp.ucl.ac.be/projects/delphes](https://cp3.irmp.ucl.ac.be/projects/delphes)
 
 
 

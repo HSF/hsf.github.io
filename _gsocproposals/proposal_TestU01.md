@@ -1,7 +1,7 @@
 ---
 title: Improvement of the TestU01 Suite for PseudoRandom Number Generation
 layout: plain
-project: Geant4
+project: TestU01
 organization:
   - CERN
   - UMONTREAL
