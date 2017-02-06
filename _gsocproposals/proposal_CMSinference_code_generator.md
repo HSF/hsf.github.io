@@ -1,5 +1,5 @@
 ---
-title: Cluster Shape with ML
+title: Automatic code generation for fast inference in the CMS tracking software
 layout: plain
 project: CMS
 organization: CERN
