@@ -9,7 +9,9 @@ redirect_from: /gsoc/gsoc2017.html
 
 ## Introduction
 
-[Google Summer of Code 2017](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations. Particle physics is an exciting field where large collaborations of scientists collect and analyze the data from high-energy physics experiments, such as the Large Hadron Collider, hosted by the CERN laboratory in Geneva, Switzerland. The questions that we collectively ask are: what are the fundamental blocks that make up our Universe? What is the nature of dark matter and dark energy?  What is the nature of the asymmetry between matter and antimatter? What was early Universe like? To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
+[Google Summer of Code 2017](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations. 
+
+Particle physics is an exciting field where large collaborations of scientists collect and analyze the data from high-energy physics experiments, such as the Large Hadron Collider, hosted by the CERN laboratory in Geneva, Switzerland. The questions that we collectively ask are: what are the fundamental blocks that make up our Universe? What is the nature of dark matter and dark energy?  What is the nature of the asymmetry between matter and antimatter? What was early Universe like? To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
 
 The CERN software for experiments (CERN-SFT) group has participated in the GSoC since 2011. This year the program expands to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
 
