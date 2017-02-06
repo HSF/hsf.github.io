@@ -2,7 +2,9 @@
 title: Visualization tools for Scikit-HEP project
 layout: plain
 project: SciKit-HEP
-organization: Princeton
+organization: 
+ - Princeton
+ - DianaHEP
 ---
 
 ## Description

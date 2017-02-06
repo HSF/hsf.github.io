@@ -9,7 +9,9 @@ redirect_from: /gsoc/gsoc2017.html
 
 ## Introduction
 
-[Google Summer of Code 2017](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations. CERN-SFT participates in GSoC since 2011. This year the program has been expanded to involve the wider high-energy physics community via the HEP Software Foundation.  
+[Google Summer of Code 2017](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations. Particle physics is an exciting field where large collaborations of scientists collect and analyze the data from high-energy physics experiments, such as the Large Hadron Collider, hosted by the CERN laboratory in Geneva, Switzerland. The questions that we collectively ask are: what are the fundamental blocks that make up our Universe? What is the nature of dark matter and dark energy?  What is the nature of the asymmetry between matter and antimatter? What was early Universe like? To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
+
+The CERN software for experiments (CERN-SFT) group has participated in the GSoC since 2011. This year the program expands to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
 
 Students interested in participating in the GSoC can find project proposals [here](#Projects).
 
@@ -31,6 +33,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![GoHEP](/images/go-hep-logo.png){:width="100px"} | The GoHEP project aims at developing robust and concurrency friendly libraries for HEP, astrophysics and cosmology. [List of proposals](/gsoc/project_GoHEP.html)|
 | ![FALCON](/images/falcon_logo.png){:width="100px"} | Falcon is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments. [List of proposals](/gsoc/project_FALCON.html)|
 | ![Pythia](/images/pythia99.gif){:width="100px"} | [Pythia](http://home.thep.lu.se/Pythia/) is the most widely used Monte Carlo event generator in particle physics. [List of proposals](/gsoc/project_Pythia.html)|
+| **TestU01** | TestU01 is a software library, implemented in the ANSI C language, and offering a collection of utilities for the empirical statistical testing of uniform random number generators. [List of proposals](/gsoc/project_TestU01.html)|
 
 
 ## Participating Organizations
@@ -53,7 +56,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Queen Mary University of London](/images/queen-mary-logo.jpg){:width="100px"} | Queen Mary University of London is a public research university in London that was founded in 1785. [List of proposals](/gsoc/queenmary.html)|
 
 
-[Full List of Proposals and Supervisors](/gsoc/summary.html)
+[Full list of Proposal Ideas](/gsoc/summary.html)
 
-[Full Mentor List (Name, Email, Org)](/gsoc/mentors.html)
+[Full list of Mentors](/gsoc/mentors.html)
 
