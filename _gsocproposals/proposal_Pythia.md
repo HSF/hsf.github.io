@@ -5,8 +5,7 @@ project: Pythia
 organization: MIT
 ---
 
-# Description
-
+## Description
 The Pythia 8 Monte Carlo event generator is the most popular one used in particle physics today; however, it does not support electron-ion collisions. It's predecessor did, and porting that functionality to the modern Pythia would be of great use. This is especially true, since building an electron-ion collider is the main focus of the US nuclear physics community for the coming decades, and having access to the best possible Monte Carlo is critical for designing the detectors that will one day record data from its collisions.
 
 ## Task ideas
@@ -15,17 +14,15 @@ The Pythia 8 Monte Carlo event generator is the most popular one used in particl
  * Tune the physics parameters using existing data, e.g. from HERA. This will involve comparing the output of the generator to measured observable distributions (potentially using Bayesian optimization as in arxiv:1610.08328).
  * Compare the results to competing electron-ion event generators. Are there any major differences? Do any of these impact the design of future electron-ion-collider experiments?
 
-**Expected results**:
-
+## Expected results
 Working implementation of electron-ion collisions in Pythia 8.
 
-**Requirements**: C++
+## Requirements
+C++
 
-**Mentors**:
-
+## Mentors
   * [Mike Williams](mailto:mwill@mit.edu)
   * [Phil Ilten](mailto:philten@cern.ch)
 
-**Links**:
-
+## Links
   * [http://home.thep.lu.se/Pythia/](http://home.thep.lu.se/Pythia/)
