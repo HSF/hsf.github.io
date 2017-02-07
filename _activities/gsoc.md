@@ -62,3 +62,4 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 
 [Full list of Mentors](/gsoc/mentors.html)
 
+HSF GSoC mailing list:[hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)  no subscription needed
