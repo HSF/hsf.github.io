@@ -39,6 +39,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Pythia](/images/pythia99.gif){:width="100px"} | [Pythia](http://home.thep.lu.se/Pythia/) is the most widely used Monte Carlo event generator in particle physics. [List of proposals](/gsoc/project_Pythia.html)|
 | **TestU01** | TestU01 is a software library, implemented in the ANSI C language, and offering a collection of utilities for the empirical statistical testing of uniform random number generators. [List of proposals](/gsoc/project_TestU01.html)|
 | **GoPython** | `GoPython` is a set of tools to easily integrate `Go` and `Python`. [List of proposals](/gsoc/project_GoPython.html)|
+| ![PSPA](/images/pspa.png){:width="100px"} | [PSPA](https://groups.lal.in2p3.fr/pspa/) is a work-in-progress initiative to build an innovative platform to integrate existing accelerator simulation tools and connect them to the various parts of an accelerator structure. [List of proposals](/gsoc/project_PSPA.html)|
 
 
 ## Participating Organizations
@@ -54,7 +55,8 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Karlsruhe Institute of Technology](/images/kit_logo.png){:width="100px"} | The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. [List of proposals](/gsoc/kit.html)|
 | ![Massachusetts Institute of Technology](/images/MIT_logo.png){:width="100px"} | The [Massachusetts Institute of Technology](http://web.mit.edu/) is a private university in Cambridge, Massachusetts. [List of proposals](/gsoc/mit.html)|
 | ![University of Florida](/images/ufl_logo.jpg){:width="100px"} | University of Florida is a public institution that was founded in 1853. [List of proposals](/gsoc/ufl.html)|
-| ![LPC-Clermont](/images/lpc-logo.png){:width="100px"} | Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. [List of proposals](/gsoc/lpc-clermont.html)|
+| ![LAL](/images/logo_LAL.jpg){:width="100px"} | [LAL](http://www.lal.in2p3.fr) is a French research laboratory belonging to CNRS/IN2P3 and located at Université Paris Sud. The main topics of the research done at LAL are high energy physics, cosmology and accelerators. [List of proposals](/gsoc/lal.html)|| !
+[LPC](/images/lpc-logo.png){:width="100px"} | Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. [List of proposals](/gsoc/lpc-clermont.html)|
 | ![National Technical University of Ukraine](/images/NTUU_KPI_logo.png){:width="100px"} | The National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute" is a major university in Kiev, Ukraine. [List of proposals](/gsoc/ntuukpi.html)|
 | ![University of Montreal](/images/umontreal_logo.png){:width="100px"} | The Université de Montréal is a public research university in Montreal, Quebec, Canada. [List of proposals](/gsoc/umontreal.html)|
 | ![Florida State University](/images/fsu_logo.jpg){:width="100px"} | Florida State University is a public institution that was founded in 1851. [List of proposals](/gsoc/fsu.html)|
