@@ -7,6 +7,7 @@ layout: plain
 
 * Antonio Augusto Alves Jr. [aalvesju@cern.ch](mailto:aalvesju@cern.ch) University of Cincinnati
 * John Apostolakis [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
+* Thomas Bellembois [thomas.bellembois@clermont.in2p3.fr](mailto:thomas.bellembois@clermont.in2p3.fr) LPC
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC
 * Daniele Bonacorsi [bonacorsi@bo.infn.it](mailto:bonacorsi@bo.infn.it) University of Bologna
 * Andrea Bocci [andrea.bocci@cern.ch](mailto:andrea.bocci@cern.ch) CERN
