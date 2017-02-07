@@ -5,7 +5,7 @@ layout: default
 redirect_from: /gsoc/gsoc2017.html
 ---
 
-# Google Summer of Code 2017
+# ![CERN](/images/CERN-logo.jpg){:height="100px"} ![HSF](/images/hsf_logo_angled.png){:height="100px"} Google Summer of Code 2017
 
 ## Introduction
 
@@ -27,6 +27,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 {:.table .table-hover  .table-striped}
 | ![ROOT](/images/rootlogo.png){:width="100px"} | A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R. [List of proposals](/gsoc/project_ROOT.html)|
 | ![TMVA](/images/tmva_logo.gif){:width="100px"} | TMVA is a ROOT-integrated toolkit for multivariate classification and regression analysis. TMVA performs the training, testing and performance evaluation of a large variety of multivariate methods. [List of proposals]({{site.baseurl}}/gsoc/project_TMVA.html)|
+| ![HSF](/images/hsf_logo_angled.png){:width="100px"} | The HEP Software Foundation (HSF) facilitates coordination and common efforts in high energy physics (HEP) software and computing internationally. [List of proposals](/gsoc/project_HSF.html)|
 | ![ATLAS](/images/ATLAS-Logo-Ref-RGB.png){:width="100px"} | [ATLAS](https://atlas.web.cern.ch/Atlas/Collaboration/) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/project_ATLAS.html)|
 | ![CMS](/images/CMS-Color.gif){:width="100px"} | [CMS](http://cms.web.cern.ch/) (Compact Muon Solenoid) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/project_CMS.html)|
 | ![SixTrack](/images/sixtrack_logo.png){:width="100px"} | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals](/gsoc/project_SixTrack.html) |
@@ -45,7 +46,6 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 ## Participating Organizations
 
 {:.table .table-hover  .table-striped}
-| ![BNL](/images/BNL_logo.jpg){:width="100px"} | Brookhaven National Laboratory [List of proposals](/gsoc/bnl.html)|
 | ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
 | ![Universidad de Antioquia](/images/udea_logo.png){:width="100px"} | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. [List of proposals](/gsoc/udea.html)|
 | ![Cornell University](/images/cornell_logo.gif){:width="100px"} | Founded in 1865, Cornell is a leading private institution of higher learning located in Ithaca, New York. [List of proposals](/gsoc/cornell.html)|
@@ -61,6 +61,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![University of Montreal](/images/umontreal_logo.png){:width="100px"} | The Université de Montréal is a public research university in Montreal, Quebec, Canada. [List of proposals](/gsoc/umontreal.html)|
 | ![Florida State University](/images/fsu_logo.jpg){:width="100px"} | Florida State University is a public institution that was founded in 1851. [List of proposals](/gsoc/fsu.html)|
 | ![Queen Mary University of London](/images/queen-mary-logo.jpg){:width="100px"} | Queen Mary University of London is a public research university in London that was founded in 1785. [List of proposals](/gsoc/queenmary.html)|
+| ![BNL](/images/BNL_logo.jpg){:width="100px"} | Brookhaven National Laboratory [List of proposals](/gsoc/bnl.html)|
 
 
 [Full list of Proposal Ideas](/gsoc/summary.html)
