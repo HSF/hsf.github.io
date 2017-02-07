@@ -39,6 +39,6 @@ The following 2 days were devoted to holding meetings of the various Working Gro
 The work to deliver the CWP should happen over the next 5 months after which it is planned to have a final workshop early in the summer. Current thinking is focusing on holding this workshop during the last week of June at a location close to, but not at, CERN. Each WG is requested to deliver its contribution at this time. A number of community events will take place during the interim period and will give  opportunities for WGs to co-locate their meetings so as to meet face-to-face. These include:
   * Connecting the Dots (Orsay, March 6-9)
   * IML(CERN, March 20-22)
-  * HSF Analysis Ecosystem Workshop (a Doodle is open to fix date) 
+  * HSF Analysis Ecosystem Workshop (a [Doodle](http://doodle.com/poll/wunez2afnmycg8tu) is open to fix dates) 
   * Data Science@HEP (FNAL, May)
 Finally, please be sure to register to the [HSF forum](hep-sf-forum@googlegroups.com) if you have not already done so.
