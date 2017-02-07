@@ -39,9 +39,9 @@ The following 2 days were devoted to holding meetings of the various Working Gro
 ## Next steps
 
 The work to deliver the CWP should happen over the next 5 months after which it is planned to have a final workshop early in the summer. Current thinking is focusing on holding this workshop during the last week of June at a location close to, but not at, CERN. Each WG is requested to deliver its contribution at this time. A number of community events will take place during the interim period and will give  opportunities for WGs to co-locate their meetings so as to meet face-to-face. These include:
-  * Connecting the Dots (Orsay, March 6-9)
-  * IML(CERN, March 20-22)
+  * [Connecting The Dots / Intelligent Trackers 2017](https://indico.cern.ch/event/577003/) (Orsay, March 6-9, perhaps extra CWP day on 10 March)
+  * [IML Topical Machine Learning Workshop](https://indico.cern.ch/event/595059/) (CERN, March 20-22)
   * HSF Analysis Ecosystem Workshop (a [Doodle](http://doodle.com/poll/wunez2afnmycg8tu) is open to fix dates) 
-  * Data Science@HEP (FNAL, May)
+  * [DSHEP@FNAL](https://indico.fnal.gov/conferenceDisplay.py?confId=13497) (FNAL, May)
 
 Finally, please be sure to register to the [Community White Paper google group](https://groups.google.com/forum/#!forum/hsf-community-white-paper) and the general [HSF forum](hep-sf-forum@googlegroups.com) if you have not already done so.
