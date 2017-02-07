@@ -36,6 +36,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![FALCON](/images/falcon_logo.png){:width="100px"} | Falcon is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments. [List of proposals](/gsoc/project_FALCON.html)|
 | ![Pythia](/images/pythia99.gif){:width="100px"} | [Pythia](http://home.thep.lu.se/Pythia/) is the most widely used Monte Carlo event generator in particle physics. [List of proposals](/gsoc/project_Pythia.html)|
 | **TestU01** | TestU01 is a software library, implemented in the ANSI C language, and offering a collection of utilities for the empirical statistical testing of uniform random number generators. [List of proposals](/gsoc/project_TestU01.html)|
+| **GoPython** | `GoPython` is a set of tools to easily integrate `Go` and `Python`. [List of proposals](/gsoc/project_GoPython.html)|
 
 
 ## Participating Organizations
