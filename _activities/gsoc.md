@@ -45,6 +45,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 ## Participating Organizations
 
 {:.table .table-hover  .table-striped}
+| ![BNL](/images/BNL_logo.jpg){:width="100px"} | Brookhaven National Laboratory [List of proposals](/gsoc/bnl.html)|
 | ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
 | ![Universidad de Antioquia](/images/udea_logo.png){:width="100px"} | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. [List of proposals](/gsoc/udea.html)|
 | ![Cornell University](/images/cornell_logo.gif){:width="100px"} | Founded in 1865, Cornell is a leading private institution of higher learning located in Ithaca, New York. [List of proposals](/gsoc/cornell.html)|

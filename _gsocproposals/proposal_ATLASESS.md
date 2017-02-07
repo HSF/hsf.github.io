@@ -3,7 +3,7 @@ title:  Event Streaming Service - A new approach to event processing
 layout: plain
 project: ATLAS
 organization:
-  - CERN
+  - BNL
 ---
 
 ## Description
