@@ -24,14 +24,14 @@ layout: plain
 * Prasanth Kothuri [prasanth.kothuri@cern.ch](mailto:prasanth.kothuri@cern.ch) CERN
 * Valentin Kouznetsov [vkuznet@gmail.com](mailto:vkuznet@gmail.com) Cornell University
 * Pierre L’Ecuyer [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) University of Montreal
-* David Lange [david.lange@cern.ch] Princeton University
+* David Lange [david.lange@cern.ch] Diana-HEP
 * Pere Mato [pere.mato@cern.ch](mailto:pere.mato@cern.ch) CERN
 * Lorenzo Moneta [lorenzo.moneta@cern.ch](mailto:lorenzo.moneta@cern.ch) CERN
 * Marc Nicolas [nicolas@lal.in2p3.fr](mailto:nicolas@lal.in2p3.fr) LAL
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Antoine Perus [perus@lal.in2p3.fr](mailto:perus@lal.in2p3.fr) LAL
 * Danilo Piparo [danilo.piparo@cern.ch](mailto:danilo.piparo@cern.ch) CERN
-* Jim Pivarski [pivarski@fnal.gov](mailto:pivarski@fnal.gov) Princeton University
+* Jim Pivarski [pivarski@fnal.gov](mailto:pivarski@fnal.gov) Diana-HEP
 * Harrison Prosper [harry@hep.fsu.edu](mailto:harry@hep.fsu.edu) Florida State University 
 * Paul Rossman [paul.rossman@google.com](mailto:paul.rossman@google.com) Google 
 * Diego Restrepo [alejandro.restrepo@udea.edu.co](mailto:alejandro.restrepo@udea.edu.co) University of Antioquia
