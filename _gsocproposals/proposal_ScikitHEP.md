@@ -4,7 +4,6 @@ layout: plain
 project: SciKit-HEP
 organization:
  - Cincinnati
- - DianaHEP
 ---
 
 ## Description

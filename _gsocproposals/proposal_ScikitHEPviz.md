@@ -4,7 +4,6 @@ layout: plain
 project: SciKit-HEP
 organization: 
  - Princeton
- - DianaHEP
 ---
 
 ## Description
