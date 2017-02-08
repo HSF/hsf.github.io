@@ -1,9 +1,8 @@
 ---
-title: Community White Paper Workshop at SDSC
+title: Community White Paper (CWP) Workshop, San Diego,  23-26 January 2017
 author: John Harvey
 layout: newsletter
 ---
-# Community White Paper (CWP) Workshop, San Diego,  23-26 January 2017 
 
 Realizing the physics programs of the planned and/or upgraded HEP experiments over the next 10 years will require the HEP community  to address a number of challenges in the area of software and computing. It is expected that the computing models will need to evolve and a significant “software upgrade” will also be needed. An initiative has been launched in order to identify and prioritize the software R&D investments that will be required to meet these challenges. The aim is to produce a Community White paper (CWP) describing the community strategy that includes a roadmap for software and computing R&D in HEP for the 2020s. 
  
