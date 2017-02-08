@@ -14,14 +14,16 @@ The HSF is engaging the HEP community to produce the CWP via a “community plan
 **Group photo of workshop participants on steps of San Diego Supercomputing Centre**
 
 The first day of the meeting was devoted to plenary talks that summarised the challenges from the perspective of representatives of the different experimental programmes and several funding agencies. In his welcome address __Peter Elmer__ (Princeton) reminded delegates of the plans and timeline for upgrading the LHC machine and experiments with the aim of running at 5-7 x nominal luminosity (HL-LHC). The HL-LHC will integrate 100 times the current data, with significantly increased data (pileup) and detector complexity. The resulting computing needs will outpace the expected improvements in computer performance (Moore's Law) by factors of between 3 and 30. Technology change will also make it challenging to exploit Moore’s Law without software evolution. In addition, there are software sustainability challenges associated with the further development and maintenance of software that is already 15-20 years old. The CWP will identify and prioritise the software research and development investments required:
- * to achieve improvements in software efficiency, scalability and performance and to make use of the advances in CPU, storage and 
+
+* to achieve improvements in software efficiency, scalability and performance and to make use of the advances in CPU, storage and 
  network technologies
- * to enable new approaches to computing and software that could radically extend the physics reach of the detectors
- * to ensure the long term sustainability of the software through the lifetime of the HL-LHC
+* to enable new approaches to computing and software that could radically extend the physics reach of the detectors
+* to ensure the long term sustainability of the software through the lifetime of the HL-LHC
 
 __Mark Neubauer__ (Illinois) stressed that the primary motivation for each of the LHC upgrades is to maximize physics performance and emphasised the need to address the full mix of physics activities in the planning (higher luminosity, energy increase etc.). He also re-iterated the need to develop synergies between LHC experiments as much as possible. __Ian Bird__ (CERN) provided the latest estimates of resource needs for the coming years, concluding that Run 2 and Run 3 can probably be managed with an evolutionary approach, but that HL-LHC will require more revolutionary thinking. Computing requirements will be at least a factor 10 higher than what can be realistically expected from technology evolution assuming a constant budget. There are many different challenges that need to be addressed, technical, sociological as well as funding. A wide range of topics must be studied, including improvement of software performance, re-thinking of computing models to include integration af all available resources (HPC, Cloud, opportunistic, traditional), exploring the boundary conditions for funding the national infrastructures etc. The LHCC (LHC Scientific review), SPC (CERN Science Policy Committee), and RRB (funding agencies) are all wanting to see progress towards understanding the costs of computing for HL-LHC. The hope is that the CWP will provide essential input for the documents that have to be submitted to the LHCC, namely:
-  * in 2020, a Technical Design Report (TDR) for HL-LHC software and computing and
-  * in 2017, a Conceptual Design Report (CDR) that describes a roadmap for producing the TDR. 
+
+* in 2020, a Technical Design Report (TDR) for HL-LHC software and computing and
+* in 2017, a Conceptual Design Report (CDR) that describes a roadmap for producing the TDR. 
 
 The challenges for the Fermilab Neutrino and Muon Programs were described by __Rob Kutschke__ (FNAL). The Fermilab neutrino and muon programs have successfully used common infrastructure and tools and he fully expects that future challenges will be met by adding value through collaboration e.g. by increasing the quality and effectiveness of algorithm code, by providing clean integration between products, by supporting new initiatives that build on existing capabilities thereby realising reductions in total effort across experiments. __Frank Gaede__ (DESY) also explained how the ILC community have focused on developing generic software tools that can be used by any HEP experiment, in particular through their contribution to the EU AIDA projects. He showed examples in several software domains, including event data (EDM), geometry (DD4HEP), as well as in the development of advanced tracking tools and particle flow algorithms. __Wenjing Wu__ (IHEP) made a survey of software and computing activities in support of the HEP experimental programme in China. A good support infrastructure exits for development of software frameworks and tools and the chinese community is keen to collaborate with other HEP teams on the parallelisation and optimisation of frameworks and algorithms. Plans are also advanced for building the next generation circular electron positron collider (Higgs/Z factory), which is currently in the R&D and engineering design phase (2016-2020). Construction is planned for 2021-2027 with data-taking starting in 2028. 
 
@@ -38,9 +40,10 @@ The following 2 days were devoted to holding meetings of the various Working Gro
 ## Next steps
 
 The work to deliver the CWP should happen over the next 5 months after which it is planned to have a final workshop early in the summer. Current thinking is focusing on holding this workshop during the last week of June at a location close to, but not at, CERN. Each WG is requested to deliver its contribution at this time. A number of community events will take place during the interim period and will give  opportunities for WGs to co-locate their meetings so as to meet face-to-face. These include:
-  * [Connecting The Dots / Intelligent Trackers 2017](https://indico.cern.ch/event/577003/) (Orsay, March 6-9, perhaps extra CWP day on 10 March)
-  * [IML Topical Machine Learning Workshop](https://indico.cern.ch/event/595059/) (CERN, March 20-22)
-  * HSF Analysis Ecosystem Workshop (a [Doodle](http://doodle.com/poll/wunez2afnmycg8tu) is open to fix dates) 
-  * [DSHEP@FNAL](https://indico.fnal.gov/conferenceDisplay.py?confId=13497) (FNAL, May)
+
+* [Connecting The Dots / Intelligent Trackers 2017](https://indico.cern.ch/event/577003/) (Orsay, March 6-9, perhaps extra CWP day on 10 March)
+* [IML Topical Machine Learning Workshop](https://indico.cern.ch/event/595059/) (CERN, March 20-22)
+* HSF Analysis Ecosystem Workshop (a [Doodle](http://doodle.com/poll/wunez2afnmycg8tu) is open to fix dates) 
+* [DSHEP@FNAL](https://indico.fnal.gov/conferenceDisplay.py?confId=13497) (FNAL, May)
 
 Finally, please be sure to register to the [Community White Paper google group](https://groups.google.com/forum/#!forum/hsf-community-white-paper) and the general [HSF forum](hep-sf-forum@googlegroups.com) if you have not already done so.
