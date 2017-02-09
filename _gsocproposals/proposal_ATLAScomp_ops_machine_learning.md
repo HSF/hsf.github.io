@@ -57,7 +57,7 @@ The ATLAS Data Management system (Rucio) will serve as the experimental platform
 - [Alessandro Di Girolamo](mailto:Alessandro.Di.Girolamo@cern.ch)
 
 ## Links
-- [ElasticSearch](www.elastic.co/)
+- [ElasticSearch](https://www.elastic.co/)
 - [TensorFlow](https://www.tensorflow.org/)
 - [Keras](https://keras.io/)
 - [Jupyter](https://jupyter.org/)
