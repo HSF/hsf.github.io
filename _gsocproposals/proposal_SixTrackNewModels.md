@@ -1,6 +1,6 @@
 ---
 title: New physics models in SixTrack
-layout: plain
+layout: gsoc_proposal
 project: SixTrack
 organization: CERN
 ---

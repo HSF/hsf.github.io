@@ -1,6 +1,6 @@
 ---
 title: Message Passing Interface for ROOT (ROOTMpi)
-layout: plain
+layout: gsoc_proposal
 project: ROOT
 organization:
   - UdeA

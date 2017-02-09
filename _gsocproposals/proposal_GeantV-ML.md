@@ -1,6 +1,6 @@
 ---
 title: Optimisation of GeantV HPC workload balancing by use of unsupervised machine learning
-layout: plain
+layout: gsoc_proposal
 project: GeantV
 organization: 
   - CERN

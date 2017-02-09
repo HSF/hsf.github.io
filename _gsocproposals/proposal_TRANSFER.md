@@ -1,6 +1,6 @@
 ---
 title: Next generation of CMS data replication system
-layout: plain
+layout: gsoc_proposal
 project: CMS
 organization: 
   - Cornell

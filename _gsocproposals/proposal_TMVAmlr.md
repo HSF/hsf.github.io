@@ -1,6 +1,6 @@
 ---
 title: Interface mlr package with RMVA
-layout: plain
+layout: gsoc_proposal
 project: TMVA
 organization: 
  - UdeA

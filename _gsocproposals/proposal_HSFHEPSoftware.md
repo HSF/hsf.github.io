@@ -1,6 +1,6 @@
 ---
 title:   hepsoftware.org - The HEP Software and Computing Knowledge Base
-layout: plain
+layout: gsoc_proposal
 project: HSF
 organization:
   - BNL

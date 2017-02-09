@@ -1,6 +1,6 @@
 ---
 title: Automatic code generation for fast inference in the CMS tracking software
-layout: plain
+layout: gsoc_proposal
 project: CMS
 organization: CERN
 ---

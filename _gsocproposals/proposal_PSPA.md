@@ -1,6 +1,6 @@
 ---
 title: State-of-The-Art Web Interface for Describing Accelerator and Associated Simulation
-layout: plain
+layout: gsoc_proposal
 project: PSPA
 organization: LAL
 ---

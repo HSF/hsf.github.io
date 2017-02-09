@@ -1,6 +1,6 @@
 ---
 title: Code Benchmark and Consolidation in SixTrack
-layout: plain
+layout: gsoc_proposal
 project: SixTrack
 organization: CERN
 ---

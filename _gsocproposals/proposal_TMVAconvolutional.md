@@ -1,6 +1,6 @@
 ---
 title: Machine Learning Project - Convolutional Deep Neural Networks on GPUs for Particle Physics Applications
-layout: plain
+layout: gsoc_proposal
 project: TMVA
 organization:
   - CERN   

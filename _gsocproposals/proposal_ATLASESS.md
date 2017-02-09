@@ -1,6 +1,6 @@
 ---
 title:  Event Streaming Service - A new approach to event processing
-layout: plain
+layout: gsoc_proposal
 project: ATLAS
 organization:
   - BNL

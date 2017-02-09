@@ -1,6 +1,6 @@
 ---
 title: Additional Machine Learning Project Ideas and Areas of Interest
-layout: plain
+layout: gsoc_proposal
 project: TMVA
 organization: 
  - CERN

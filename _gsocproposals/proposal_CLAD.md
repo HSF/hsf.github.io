@@ -1,6 +1,6 @@
 ---
 title: Extend clad - The Automatic Differentiation
-layout: plain
+layout: gsoc_proposal
 project: ROOT
 organization: Princeton
 ---

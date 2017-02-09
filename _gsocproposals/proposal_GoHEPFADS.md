@@ -1,6 +1,6 @@
 ---
 title: Jet clustering optimizations in fads
-layout: plain
+layout: gsoc_proposal
 project: GoHEP
 organization: LPC-Clermont
 ---
