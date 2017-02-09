@@ -38,6 +38,7 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
 [Full list of past minutes](/organization/minutes.html).
 
 ## Presentations given by Startup Team Members
+ * [HSF and the Community White Paper - Report on the San Diego Workshop](https://indico.cern.ch/event/609308/contributions/2456640/attachments/1407318/2150983/HSF_workshopSanDiego.pdf) presented to CERN EP/SFT, 6 Feb 2017, Benedikt Hegner, Lorenzo Moneta
  * [Hep Software Foundation and Community White Paper](https://indico.desy.de/getFile.py/access?contribId=17&sessionId=7&resId=0&materialId=slides&confId=15730), at the [10th Annual Meeting of the Helmholtz Alliance](https://indico.desy.de/conferenceOtherViews.py?view=standard&confId=15730), Nov 22-23, 2016, Frank Gaede
  * [Challenges in the HEP SW Landscape](https://indico.desy.de/getFile.py/access?contribId=10&resId=0&materialId=1&confId=16073) at the [2016 KET-Meeting](https://indico.desy.de/conferenceDisplay.py?confId=16073), 18 Nov 2016, Benedikt Hegner
  * [Community White Paper: A Roadmap for HEP Software and Computing - Status and Plans](https://indico.cern.ch/event/505613/contributions/2323238/attachments/1352966/2043354/20161011-chep-cwp-plenary.pdf) at [CHEP 2016](http://chep2016.org), 11 Oct 2016, Peter Elmer
