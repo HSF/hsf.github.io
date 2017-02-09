@@ -14,7 +14,7 @@ To receive it, please subscribe to the <a href="http://groups.google.com/d/forum
 <h2 class="blog-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <p class="blog-post-meta">{{ post.date | date_to_string }} by <a href="{{ post.url }}">{{ post.author }}</a></p>
 
-{{ post.excerpt }}
+{{ post.content | strip_html | truncatewords: 40 }}
 
 </div>
 
