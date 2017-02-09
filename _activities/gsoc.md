@@ -63,6 +63,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Florida State University](/images/fsu_logo.jpg){:width="100px"} | Florida State University is a public institution that was founded in 1851. [List of proposals](/gsoc/fsu.html)|
 | ![Queen Mary University of London](/images/queen-mary-logo.jpg){:width="100px"} | Queen Mary University of London is a public research university in London that was founded in 1785. [List of proposals](/gsoc/queenmary.html)|
 | ![BNL](/images/BNL_logo.jpg){:width="100px"} | Celebrating its 70th birthday in 2017, BNL on Long Island, New York hosts major facilities including RHIC and the new NSLS-II light source, and participates in international science including ATLAS at the LHC. [List of proposals](/gsoc/bnl.html)|
+| ![University of Oslo](/images/UOslo.png){:width="100px"} | University of Oslo [List of proposals](/gsoc/uoslo.html)|
 
 
 [Full list of Proposal Ideas](/gsoc/summary.html)

@@ -3,7 +3,7 @@ title: Rucio - The ATLAS Distributed Data Management System
 layout: gsoc_proposal
 project: ATLAS
 organization:
- - University of Oslo
+ - UOslo
  - CERN
 ---
 
