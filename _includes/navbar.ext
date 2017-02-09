@@ -12,7 +12,7 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" id="activities_menu">Activities<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">Activities<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
                  <li><a href="/events.html">Events &amp; Workshops</a></li>
                  <li><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam">Community Calendar</a></li>
@@ -25,7 +25,7 @@
                </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" id="communication_menu">Communication<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu">Communication<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
                   <li><a href="/forums.html">Discussion Forums</a></li>
                   <li><a href="/technical_notes.html">Technical Notes</a></li>
@@ -52,7 +52,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" id="about_menu">About<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu">About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="about_menu">
                 <li><a href="/organization/goals.html">Goals of the HSF</a></li>
                 <li><a href="/organization/team.html">The Startup Team</a></li>
