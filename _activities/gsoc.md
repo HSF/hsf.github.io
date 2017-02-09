@@ -41,6 +41,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | **TestU01** | TestU01 is a software library, implemented in the ANSI C language, and offering a collection of utilities for the empirical statistical testing of uniform random number generators. [List of proposals](/gsoc/project_TestU01.html)|
 | **GoPython** | `GoPython` is a set of tools to easily integrate `Go` and `Python`. [List of proposals](/gsoc/project_GoPython.html)|
 | ![PSPA](/images/pspa.png){:width="100px"} | [PSPA](https://groups.lal.in2p3.fr/pspa/) is a work-in-progress initiative to build an innovative platform to integrate existing accelerator simulation tools and connect them to the various parts of an accelerator structure. [List of proposals](/gsoc/project_PSPA.html)|
+| ![HSF](/images/kubernetes.png){:width="100px"} | [Kubernetes](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications. [List of proposals](/gsoc/project_Kubernetes.html)|
 
 
 ## Participating Organizations
