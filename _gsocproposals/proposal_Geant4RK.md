@@ -1,6 +1,6 @@
 ---
 title: New error control methods for integration of trajectories
-layout: plain
+layout: gsoc_proposal
 project: Geant4
 organization:
   - CERN

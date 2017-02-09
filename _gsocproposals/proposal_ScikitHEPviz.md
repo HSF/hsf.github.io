@@ -1,6 +1,6 @@
 ---
 title: Visualization tools for Scikit-HEP project
-layout: plain
+layout: gsoc_proposal
 project: SciKit-HEP
 organization: 
  - Princeton

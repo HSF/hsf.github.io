@@ -1,6 +1,6 @@
 ---
 title: Machine Learning Project - Multi-target Regression for Particle Physics
-layout: plain
+layout: gsoc_proposal
 project: TMVA
 organization: 
   - UFlorida

@@ -1,6 +1,6 @@
 ---
 title: Big Data Tools for Physics Analysis
-layout: plain
+layout: gsoc_proposal
 project: ROOT
 organization: CERN
 ---

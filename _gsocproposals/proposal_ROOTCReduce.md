@@ -1,6 +1,6 @@
 ---
 title: Enhance C-Reduce to work with ROOT
-layout: plain
+layout: gsoc_proposal
 project: ROOT
 organization:
  - Princeton

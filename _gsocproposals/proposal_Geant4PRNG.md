@@ -1,6 +1,6 @@
 ---
 title: Using Pseudo-random numbers repeateably in a fine-grain multithreaded simulation
-layout: plain
+layout: gsoc_proposal
 project: Geant4
 organization:
   - CERN

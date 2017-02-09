@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="blog-header">
+  <h1 class="blog-title">{{ page.title }}</h1>
+</div>
+
+  {{ content }}
+
+<h2>Corresponding Project</h2>
+  <a href="/gsoc/project_{{ page.project }}.html">{{ page.project }}</a>  
+ 
+ <h2>Participating Organizations</h2>
+  <ul>
+  {% for item in page.organization %}
+<li><a href="/gsoc/{{ item| downcase}}.html">{{ item }}</a> </li>
+  {% endfor %}
+  </ul>
