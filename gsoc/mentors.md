@@ -35,6 +35,7 @@ layout: plain
 * Harrison Prosper [harry@hep.fsu.edu](mailto:harry@hep.fsu.edu) Florida State University 
 * Paul Rossman [paul.rossman@google.com](mailto:paul.rossman@google.com) Google 
 * Diego Restrepo [alejandro.restrepo@udea.edu.co](mailto:alejandro.restrepo@udea.edu.co) University of Antioquia
+* Ricardo Rocha [ricardo.rocha@cern.ch](mailto:ricardo.rocha@cern.ch) CERN
 * Eduardo Rodrigues [eduardo.rogrigues@cern.ch](mailto:eduardo.rogrigues@cern.ch) University of Cincinnati
 * Marco Rovere [marco.rovere@cern.ch](mailto:marco.rovere@cern.ch) CERN
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
@@ -43,6 +44,7 @@ layout: plain
 * Thomas Stevenson [t.j.stevenson@qmul.ac.uk](mailto:t.j.stevenson@qmul.ac.uk) Queen Mary University of London
 * Kacper Surdy [kacper.surdy@cern.ch](mailto:kacper.surdy@cern.ch) CERN
 * Francois Touze [touze@lal.in2p3.fr](mailto:touze@lal.in2p3.fr) LAL
+* Spyridon Trigazis [spyridon.trigazis@cern.ch](mailto:spyridon.trigazis@cern.ch) CERN
 * Vakho Tsulaia [tsulaia@cern.ch](mailto:tsulaia@cern.ch) LBNL
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Xavier Vals [xavier.vals.pla@cern.ch](mailto:xavier.vals.pla@cern.ch) CERN

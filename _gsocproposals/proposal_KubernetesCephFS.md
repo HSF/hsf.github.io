@@ -1,6 +1,6 @@
 ---
 title: Kubernetes CephFS driver using FUSE
-layout: plain
+layout: gsoc_proposal
 project: Kubernetes
 organization: CERN
 ---
