@@ -6,5 +6,6 @@ layout: plain
 ## Full List of Proposals
 
 {:.table .table-hover .table-striped}
-{% for proposal in site.gsocproposals %}{% capture u_proposal_org %}{{ organization | upcase }}{% endcapture %}[ {{ proposal.title }} ]( {{ proposal.url }} ) |
+{% assign sorted_proposals = site.gsocproposals | sort: 'title' %}
+{% for proposal in sorted_proposals %}{% capture u_proposal_org %}{{ organization | upcase }}{% endcapture %}[ {{ proposal.title }} ]( {{ proposal.url }} ) |
 {% endfor %}
