@@ -7,6 +7,7 @@ layout: plain
 
 * Antonio Augusto Alves Jr. [aalvesju@cern.ch](mailto:aalvesju@cern.ch) University of Cincinnati
 * John Apostolakis [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
+* Martin Barisits [Martin.Barisits@cern.ch](mailto:Martin.Barisits@cern.ch) CERN
 * Thomas Bellembois [thomas.bellembois@clermont.in2p3.fr](mailto:thomas.bellembois@clermont.in2p3.fr) LPC
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC
 * Daniele Bonacorsi [bonacorsi@bo.infn.it](mailto:bonacorsi@bo.infn.it) University of Bologna
@@ -14,7 +15,9 @@ layout: plain
 * Emmanuel Busato [emmanuel.busato@clermont.in2p3.fr](mailto:emmanuel.busato@clermont.in2p3.fr) LPC
 * Alexandre Claude [alexandre.claude@clermont.in2p3.fr](mailto:alexandre.claude@clermont.in2p3.fr) LPC
 * Riccardo De Maria [riccardo.maric@cern.ch](mailto:riccardo.maric@cern.ch) CERN
+* Vincent Garonne [Vincent.Garonne@cern.ch](mailto:Vincent.Garonne@cern.ch) University of Oslo
 * Andrei Gheata CERN [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
+* Alessandro Di Girolamo [Alessandro.Di.Girolamo@cern.ch](mailto:Alessandro.Di.Girolamo@cern.ch) CERN
 * Sergei Gleyzer [sergei.gleyzer@cern.ch](mailto:sergei.gleyzer@cern.ch) University of Florida
 * Enrico Guiraud [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
@@ -24,7 +27,8 @@ layout: plain
 * Prasanth Kothuri [prasanth.kothuri@cern.ch](mailto:prasanth.kothuri@cern.ch) CERN
 * Valentin Kouznetsov [vkuznet@gmail.com](mailto:vkuznet@gmail.com) Cornell University
 * Pierre L’Ecuyer [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) University of Montreal
-* David Lange [david.lange@cern.ch] Diana-HEP
+* David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Diana-HEP
+* Mario Lassnig [Mario.Lassnig@cern.ch](mailto: Mario.Lassnig@cern.ch) CERN
 * Pere Mato [pere.mato@cern.ch](mailto:pere.mato@cern.ch) CERN
 * Lorenzo Moneta [lorenzo.moneta@cern.ch](mailto:lorenzo.moneta@cern.ch) CERN
 * Marc Nicolas [nicolas@lal.in2p3.fr](mailto:nicolas@lal.in2p3.fr) LAL
@@ -39,6 +43,7 @@ layout: plain
 * Eduardo Rodrigues [eduardo.rogrigues@cern.ch](mailto:eduardo.rogrigues@cern.ch) University of Cincinnati
 * Marco Rovere [marco.rovere@cern.ch](mailto:marco.rovere@cern.ch) CERN
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
+* Cedric Serfon [Cedric.Serfon@cern.ch](mailto:Cedric.Serfon@cern.ch) University of Oslo
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) National Technical University of Ukraine
 * Kyrre Sjobak [kyrre.ness.sjoebaek@cern.ch](mailto:kyrre.ness.sjoebaek@cern.ch) CERN
 * Thomas Stevenson [t.j.stevenson@qmul.ac.uk](mailto:t.j.stevenson@qmul.ac.uk) Queen Mary University of London
