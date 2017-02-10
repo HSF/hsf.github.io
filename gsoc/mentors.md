@@ -7,6 +7,7 @@ layout: plain
 
 * Antonio Augusto Alves Jr. [aalvesju@cern.ch](mailto:aalvesju@cern.ch) University of Cincinnati
 * John Apostolakis [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
+* Cesar Arias [cesararias@itm.edu.co](mailto:cesararias@itm.edu.co) Metropolitan Institute of Technology
 * Martin Barisits [Martin.Barisits@cern.ch](mailto:Martin.Barisits@cern.ch) CERN
 * Thomas Bellembois [thomas.bellembois@clermont.in2p3.fr](mailto:thomas.bellembois@clermont.in2p3.fr) LPC
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC
@@ -20,6 +21,7 @@ layout: plain
 * Alessandro Di Girolamo [Alessandro.Di.Girolamo@cern.ch](mailto:Alessandro.Di.Girolamo@cern.ch) CERN
 * Sergei Gleyzer [sergei.gleyzer@cern.ch](mailto:sergei.gleyzer@cern.ch) University of Florida
 * Enrico Guiraud [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
+* Diego Gutierrez [diegogutierrez@itm.edu.co](mailto:diegogutierrez@itm.edu.co) Metropolitan Institute of Technology
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Giovanni Iadarola [giovanni.iadarola@cern.ch](mailto:giovanni.iadarola@cern.ch) CERN
 * Phil Ilten [philten@cern.ch](mailto:philten@cern.ch) Massachusetts Institute of Technology
@@ -57,4 +59,4 @@ layout: plain
 * Torre Wenaus [wenaus@gmail.com](mailto:wenaus@gmail.com) BNL
 * Mike Williams [mwill@mit.edu](mailto:mwill@mit.edu) Massachusetts Institute of Technology
 * Stefan Wunsch [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) Karlsruhe Institute of Technology
-* Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) Universidad de Antioquia
+* Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) ITM and UdeA
