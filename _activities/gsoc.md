@@ -64,6 +64,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Queen Mary University of London](/images/queen-mary-logo.jpg){:width="100px"} | Queen Mary University of London is a public research university in London that was founded in 1785. [List of proposals](/gsoc/queenmary.html)|
 | ![BNL](/images/BNL_logo.jpg){:width="100px"} | Celebrating its 70th birthday in 2017, BNL on Long Island, New York hosts major facilities including RHIC and the new NSLS-II light source, and participates in international science including ATLAS at the LHC. [List of proposals](/gsoc/bnl.html)|
 | ![University of Oslo](/images/UOslo.png){:width="100px"} | University of Oslo [List of proposals](/gsoc/uoslo.html)|
+| ![Metropolitan Institute of Technology](/images/logo_itm.png){:width="100px"} |  The ITM is a public University Institution accredited in high quality, that was founded in 1944. [List of proposals](/gsoc/itm.html)|
 
 
 [Full list of Proposal Ideas](/gsoc/summary.html)
