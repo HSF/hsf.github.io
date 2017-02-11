@@ -25,7 +25,7 @@ organization:
 
 **Mentors**: 
   * [Omar Zapata](mailto:Omar.Zapata@cern.ch)
-  * [Lorenzo Moneta](mailto:Lorenzo.Moneta.ch)
+  * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
   * [Cesar Arias](mailto:cesararias@itm.edu.co)
   * [Diego Gutierrez](mailto:diegogutierez@itm.edu.co)
 
