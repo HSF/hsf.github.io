@@ -47,7 +47,7 @@ login as your google user. If you would like organize an additional working grou
 :-------------- | :-----------: | :------ |
 &nbsp; &nbsp; &nbsp; | | |
 Computing Models, Facilities, | | | 
-and Distributed Computing | [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit)| |
+and Distributed Computing | [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-models-facilities@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-models-facilities) |
 &nbsp; &nbsp; &nbsp; | | |
 Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp; hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       |
 &nbsp; &nbsp; &nbsp; | | |
