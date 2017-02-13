@@ -68,7 +68,7 @@ Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1p
 &nbsp; &nbsp; &nbsp; | | |
 Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
 &nbsp; &nbsp; &nbsp; | | |
-Math Libraries | [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) | |
+Math Libraries | [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) | &nbsp; &nbsp; &nbsp; hsf-cwp-math-libaries@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-math-libaries) |
 &nbsp; &nbsp; &nbsp; | | |
 Software Development, Deployment | | |
 and Validation/Verification  | [Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-software-development@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-software-development) | 
