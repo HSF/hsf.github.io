@@ -36,7 +36,7 @@ To join the CWP process and get information about its progress, please join the 
 ## Working Groups
 
 
-  The list of CWP working groups, their charges and status is maintained on a de[dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
+  The list of CWP working groups, their charges and status is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
 
 ## CWP Process
 
