@@ -12,6 +12,10 @@ layout: default
 like to edit them, you will need to join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group and
 login as your google user. If you would like organize an additional working group, please post to the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group.
 
+### Computing Models, Facilities, and Distributed Computing WG ###
+
+### Detector Simulation WG ###
+
   The current active working groups are:
 
 | Working Group |    Charge     |  Google Group |
