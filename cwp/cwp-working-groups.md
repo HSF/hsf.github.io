@@ -24,60 +24,74 @@ Google group: hsf-cwp-models-facilities@googlegroups.com [(link to subscribe)](h
 Google group: hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       
 
 ### Software Trigger and Event Reconstruction WG ###
-Software Trigger and | | |
-Event Reconstruction| [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          | &nbsp; &nbsp; &nbsp; hsf-cwp-swtrig-evtreco@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-swtrig-evtreco)      |
+[Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          
+
+Google group: hsf-cwp-swtrig-evtreco@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-swtrig-evtreco)     
 
 ### Visualization WG ###
+[Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          
 
-Visualization       | [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          | &nbsp; &nbsp; &nbsp; hsf-cwp-visualization@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-visualization)        |
+Google group: hsf-cwp-visualization@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-visualization) 
 
 ### Data Access and Management WG ###
+[Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   
 
-Data Access and Management | [Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   | &nbsp; &nbsp; &nbsp; hsf-cwp-data-management@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-data-management)        |
+Google group: hsf-cwp-data-management@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-data-management)
 
 ### Security and Access Control WG ###
-Security and Access Control | [Google Doc](https://docs.google.com/document/d/17xVZv8GJIRqCdFQeH2Ec7J8AmC7HokuRbyNR2K3SryY/edit)| | 
+[Google Doc](https://docs.google.com/document/d/17xVZv8GJIRqCdFQeH2Ec7J8AmC7HokuRbyNR2K3SryY/edit)
+
+Google group: None yet
 
 ### Machine Learning WG ###
-
-Machine Learning | [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-machine-learning@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-machine-learning) |
+[Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)
+ 
+Google group: hsf-cwp-machine-learning@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-machine-learning)
 
 ### Conditions Database WG ###
+[Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)
 
-Conditions Database | [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-conditionsdb@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-conditionsdb) |
+Google group: hsf-cwp-conditionsdb@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-conditionsdb) 
 
 ### Event Processing Frameworks WG ###
+[Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)
 
-Event Processing Frameworks | [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-event-processing-frameworks@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-event-processing-frameworks) |
+Google group: hsf-cwp-event-processing-frameworks@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-event-processing-frameworks)
 
 ### Physics Generators WG ###
+[Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)
 
-Physics Generators  | [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)          |         |
+Google group: none yet 
 
 ### Math Libraries WG ###
+[Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) 
 
-Math Libraries | [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) | &nbsp; &nbsp; &nbsp; hsf-cwp-math-libaries@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-math-libaries) |
+Google group: hsf-cwp-math-libaries@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-math-libaries) 
 
 ### Software Development, Deployment and Validation/Verification WG ###
+[Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| 
 
-Software Development, Deployment | | |
-and Validation/Verification  | [Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-software-development@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-software-development) | 
+Google group: hsf-cwp-software-development@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-software-development) 
 
 ### Data Analysis and Interpretation WG ###
+[Google Doc](https://docs.google.com/document/d/1QaX20F6WQlwQTlx-5bRK0J2tybFqC_NPn6CF7g3yzqk/edit)
 
-Data Analysis and Interpretation           | [Google Doc](https://docs.google.com/document/d/1QaX20F6WQlwQTlx-5bRK0J2tybFqC_NPn6CF7g3yzqk/edit)        | &nbsp; &nbsp; &nbsp; hsf-cwp-analysis@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-analysis) |
+Google group: hsf-cwp-analysis@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-analysis)
 
 ### Workflow and Resource Management WG ###
+[Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit)
 
-Workflow and Resource Management   | [Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit) |         |
+Google group: none yet 
 
 ### Data and Software Preservation WG ###
+[Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)
 
-Data and Software Preservation |           [Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)     |   |
+Google group: none yet 
 
 ### Careers, Staffing and Training WG ###
+[Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit) 
 
-Careers, Staffing and Training | [Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit)| &nbsp; &nbsp; &nbsp; hep-sf-training-wg@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hep-sf-training-wg)|
+Google group: hep-sf-training-wg@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hep-sf-training-wg)
 
 
 
