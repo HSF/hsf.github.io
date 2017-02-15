@@ -13,12 +13,15 @@ like to edit them, you will need to join the [hsf-community-white-paper](https:/
 login as your google user. If you would like organize an additional working group, please post to the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group.
 
 ### Computing Models, Facilities, and Distributed Computing WG ###
-Computing Models, Facilities, | | | 
-and Distributed Computing | [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit)| &nbsp; &nbsp; &nbsp; hsf-cwp-models-facilities@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-models-facilities) |
+[Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit) 
+
+Google group: hsf-cwp-models-facilities@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-models-facilities) 
 
 
 ### Detector Simulation WG ###
-Detector Simulation | [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit)    | &nbsp; &nbsp; &nbsp; hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       |
+[Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit) 
+
+Google group: hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       
 
 ### Software Trigger and Event Reconstruction WG ###
 Software Trigger and | | |
