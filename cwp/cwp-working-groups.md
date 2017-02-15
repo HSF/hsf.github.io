@@ -50,6 +50,10 @@ Google group: None yet
  
 Google group: hsf-cwp-machine-learning@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-machine-learning)
 
+Plans: The WG has 2 workshops planned
+  * a CWP session during the [IML topical workshop](https://indico.cern.ch/event/595059) at CERN, March 20 - 22, 2017
+  * a CWP session (TBC) during [DS@HEP 2017](https://indico.fnal.gov/conferenceDisplay.py?confId=13497), FNAL May 8 - 12, 2017
+
 ### Conditions Database WG ###
 [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)
 
