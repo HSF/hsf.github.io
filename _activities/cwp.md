@@ -29,9 +29,13 @@ we are reaching out to other HEP experiments around the world to participate.
 
 After a preparatory phase during Fall 2016, the CWP process was launched at an [HSF workshop at SDSC/UCSD](http://indico.cern.ch/event/570249/) on January 23-27, 2017. The aim is to produce a consensus document by summer, 2017.
 
-Planned workshops:
+Planned workshops/events:
 
-  * 20-22 Mar, 2017 - IML Topical Machine Learning Workshop (includes CWP session)
+  * 9 Mar, 2017 - Software Triggers and Event Reconstruction WG meeting
+    * A CWP session at the [Connecting The Dots workshop](https://ctdwit2017.lal.in2p3.fr)
+    * [Indico page](https://indico.cern.ch/event/614111/)
+  * 20-22 Mar, 2017 - IML Topical Machine Learning Workshop 
+    * The workshop includes a CWP session on Machine Learning
     * *CERN* (plus possible Vidyo videconference)
     * [Indico page](https://indico.cern.ch/event/595059)
   * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
