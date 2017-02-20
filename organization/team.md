@@ -16,6 +16,7 @@ Currently the activities within the HSF are organized by the *HSF startup team*.
  * Pere Mato - [CERN](http://cern.ch), co-lead
  * Andrew McNab - [Manchester](http://www.hep.manchester.ac.uk)
  * Dario Menasce - [INFN](http://www.mi.infn.it)
+ * [Mark Neubauer](http://physics.illinois.edu/people/directory/profile/msn) - University of Illinois at Urbana-Champaign
  * Elizabeth Sexton-Kennedy - [FNAL](http://www.fnal.gov)
  * Graeme Stewart - [Glasgow](http://www.gla.ac.uk/schools/physics/research/groups/particlephysicsexperiment/)
  * Craig Tull - [LBNL](http://www.lbl.gov)
