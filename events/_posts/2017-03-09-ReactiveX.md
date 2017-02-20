@@ -1,5 +1,5 @@
 ---
-title: Software Technology R&D Forum - ReactiveX
+title: Software Technology R&amp;D Forum - ReactiveX
 layout: event
 author: Axel Naumann
 startdate: 2017-03-09
