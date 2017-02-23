@@ -38,6 +38,8 @@ Planned workshops/events:
     * *CERN*
     * The workshop includes a CWP session on Machine Learning
     * [Indico page](https://indico.cern.ch/event/595059)
+  * 28-30 Mar, 2017 - CWP Visualization Workshop
+    * *CERN (and Vidyo)*
   * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
     * *Location TBD*
     * [Indico page](http://indico.cern.ch/event/613842/)
