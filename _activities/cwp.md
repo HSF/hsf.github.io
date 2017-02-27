@@ -54,7 +54,8 @@ Planned workshops/events:
 
 ## Communication
 
-To join the CWP process and get information about its progress, please join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group (no Google account is required, you can register by sending an email to [hsf-community-white-paper+subscribe@googlegroups.com](mailto:hsf-community-white-paper+subscribe@googlegroups.com)). Subscribing to this group with a Google account is required if you want to be able to contribute to CWP documents hosted in Google Docs.
+To join the CWP process and get information about its progress, please join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group (no Google account is required, you can register by sending an email to [hsf-community-white-paper+subscribe@googlegroups.com](mailto:hsf-community-white-paper+subscribe@googlegroups.com)). Subscribing to this group with a Google account is required if you want to be able to contribute to CWP documents hosted in Google Docs. Individual working groups may also have their own
+list or google group (see below).
 
 ## Working Groups
 
