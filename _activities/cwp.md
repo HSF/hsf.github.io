@@ -40,6 +40,7 @@ Planned workshops/events:
     * [Indico page](https://indico.cern.ch/event/595059)
   * 28-30 Mar, 2017 - CWP Visualization Workshop
     * *CERN (and Vidyo)*
+    * [Indico page](https://indico.cern.ch/event/617054/)
   * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
     * *Location TBD*
     * [Indico page](http://indico.cern.ch/event/613842/)
