@@ -42,7 +42,7 @@ Planned workshops/events:
     * *CERN (and Vidyo)*
     * [Indico page](https://indico.cern.ch/event/617054/)
   * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
-    * *Location TBD*
+    * *Amsterdam (TBC)*
     * [Indico page](http://indico.cern.ch/event/613842/)
     * [Workshop proposal](https://docs.google.com/document/d/1aAGCj_y9in_I-c9yYJ-XX3Qurf0PXH4tFoYmvuCY5tk/edit#heading=h.9h0v0hyue6zf)
   * 5-6 Jun, 2017 (TBC) - CWP Event Processing Frameworks Workshop (TBC)
