@@ -32,7 +32,11 @@ Plans:
 
 Google group: hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       
 
-Plans:
+Plans: The WG plans to hold a series of meetings, every month or so. The first
+of these is:
+
+  * 27 Feb 2017 - [Indico](https://indico.cern.ch/event/615703/), [Announcement](https://groups.google.com/d/msgid/hsf-cwp-simulation/dae18128-607c-4019-96dd-093116c49c5e%40googlegroups.com)
+
 
 <!-- ======================================================= -->
 
@@ -47,6 +51,10 @@ Google group: hsf-cwp-swtrig-evtreco@googlegroups.com [(link to subscribe)](http
 [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          
 
 Google group: hsf-cwp-visualization@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-visualization) 
+
+Plans: the visualization WG plans to hold a couple of workshops. The first (at CERN and in Vidyo) is planned:
+
+  * 28-30 Mar, 2017 - [Indico](https://indico.cern.ch/event/617054/)
 
 <!-- ======================================================= -->
 
