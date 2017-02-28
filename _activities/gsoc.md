@@ -65,6 +65,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![BNL](/images/BNL_logo.jpg){:width="100px"} | Celebrating its 70th birthday in 2017, BNL on Long Island, New York hosts major facilities including RHIC and the new NSLS-II light source, and participates in international science including ATLAS at the LHC. [List of proposals](/gsoc/bnl.html)|
 | ![University of Oslo](/images/UOslo.png){:width="100px"} | University of Oslo [List of proposals](/gsoc/uoslo.html)|
 | ![Metropolitan Institute of Technology](/images/logo_itm.png){:width="100px"} | ITM is an accredited public University, founded in 1944, in Medellin Colombia. [List of proposals](/gsoc/itm.html)|
+| ![Universitat Jaume I](/images/uji_logo.jpg){:width="100px"} |The Universitat Jaume I is a public university in Castelló de la Plana, Spain. [List of proposals](/gsoc/UJI.html)|
 
 
 [Full list of Proposal Ideas](/gsoc/summary.html)
