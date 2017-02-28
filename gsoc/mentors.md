@@ -54,7 +54,7 @@ layout: plain
 * Spyridon Trigazis [spyridon.trigazis@cern.ch](mailto:spyridon.trigazis@cern.ch) CERN
 * Vakho Tsulaia [tsulaia@cern.ch](mailto:tsulaia@cern.ch) LBNL
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
-* Xavier Vals [xavier.vals.pla@cern.ch](mailto:xavier.vals.pla@cern.ch) CERN
+* Xavier Valls [xavier.valls.pla@cern.ch](mailto:xavier.valls.pla@cern.ch) Universitat Jaume I
 * Sandro Wenzel [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
 * Torre Wenaus [wenaus@gmail.com](mailto:wenaus@gmail.com) BNL
 * Mike Williams [mwill@mit.edu](mailto:mwill@mit.edu) Massachusetts Institute of Technology
