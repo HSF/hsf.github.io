@@ -2,7 +2,9 @@
 title: Improvements in vectorization and parallelization of ROOT Math libraries
 layout: gsoc_proposal
 project: ROOT
-organization: CERN
+organization: 
+ - CERN
+ - UJI
 ---
 
 ## Project Description
