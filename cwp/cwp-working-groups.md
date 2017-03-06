@@ -45,6 +45,10 @@ of these is:
 
 Google group: hsf-cwp-swtrig-evtreco@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-swtrig-evtreco)     
 
+Plans: The software trigger / event reconstruction WG plans to hold a couple of workshops. The first will be held at Orsay (and on vidyo) is planned:
+
+  * 9 Mar 2017 - [Indico](https://indico.cern.ch/event/614111/), [Announcement](https://groups.google.com/d/msgid/hsf-cwp-swtrig-evtreco/01a8b1b5-e5a7-4459-85ba-0b24437bb850%40googlegroups.com)
+
 <!-- ======================================================= -->
 
 ### Visualization WG ###
