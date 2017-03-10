@@ -79,6 +79,10 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Added: 2 Feb 2017
     * Keywords:
 
+  * *Some notes on Computing Model evolution/tests/expectations for HL-LHC* [(link to pdf)](cwp/hsf-cwp-014-Boccali-CompModel-Notes.pdf)
+    * Tommaso Boccali (INFN-Pisa)
+    * Added: 7 Mar 2017
+    * Keywords:
 
 ### Previous Related Community Documents
 
