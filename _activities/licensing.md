@@ -22,20 +22,27 @@ computing needs of our community.
 
 In Spring 2015, A working group has been formed with people from the community 
 who had already some experiences with licensing issues. This working group, as 
-any in the HSF, is open to new participants and contributions. All the 
-discussions so far took place either in the HSF Startup Team 
-(<hep-sf-startup-team@googlegroups.com>) or in the HSF Technical Forum
-(<hep-sf-forum@googlegroups.com>) for wider discussions.
+any in the HSF, is open to new participants and contributions. Most 
+discussions so far took place in the HSF Technical Forum
+(<hep-sf-forum@googlegroups.com>).
 
-The first outcome of this working group is expected by the end of 2015 as a HSF 
-[Technical Note](http://www.hepsoftwarefoundation.org/technical_notes.html) 
+A first [Technical Note](/notes/HSF-TN-2016-01.pdf) 
+was released in February 2016, 
 discussing the main issues related to open-source software licensing and 
 proposing some licensing recommendations for HSF projects which don't have 
-already a well established license. 
+already a well established license. This Technical Note reflects the consensus at the 
+date when it was published and is a basis for further discussions. A new version will
+be released later if needed.
+
+# Meetings
+
+* [February 2017](/organization/2017/02/21/licensing.html)
 
 # Resources
 
-  Report from the Task Force on Open Source Software Licence at CERN - [Main 
+* Software License Agreements: HSF Policy Guidelines - [Technical Note](http://hepsoftwarefoundation.org/notes/HSF-TN-2016-01.pdf), 
+  February 2016
+* Report from the Task Force on Open Source Software Licence at CERN - [Main 
 report](/assets/OSL-TF_Final_Report-Main_Volume.pdf) and 
 [Annexes](/assets/OSL-TF_Final_Report-Volume_of_Annexes.pdf)
 
