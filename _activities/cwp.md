@@ -31,10 +31,6 @@ After a preparatory phase during Fall 2016, the CWP process was launched at an [
 
 Planned workshops/events:
 
-  * 20-22 Mar, 2017 - IML Topical Machine Learning Workshop
-    * *CERN*
-    * The workshop includes a CWP session on Machine Learning
-    * [Indico page](https://indico.cern.ch/event/595059)
   * 28-30 Mar, 2017 - CWP Visualization Workshop
     * *CERN (and Vidyo)*
     * [Indico page](https://indico.cern.ch/event/617054/)
@@ -51,6 +47,10 @@ Planned workshops/events:
 
 Past workshops/events:
 
+  * 20-22 Mar, 2017 - IML Topical Machine Learning Workshop
+    * *CERN*
+    * The workshop includes a CWP session on Machine Learning
+    * [Indico page](https://indico.cern.ch/event/595059)
   * 9 Mar, 2017 - Software Triggers and Event Reconstruction WG meeting
     * A CWP session at the [Connecting The Dots workshop](https://ctdwit2017.lal.in2p3.fr)
     * [Indico page](https://indico.cern.ch/event/614111/)
