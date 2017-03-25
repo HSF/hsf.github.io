@@ -851,7 +851,7 @@ Dario: importance of trainings to meet the challenge by increasing existing peop
 
 ### GeantV review
 
--   Clear message from the [*doodle*](http://doodle.com/poll/dhrtyfpbv4miwwup) is preferred date is week of Oct 24-28, probably early that week. Location not yet firmly decided, probably CERN.
+-   Clear message from the Doodle poll that the preferred date is week of Oct 24-28, probably early that week. Location not yet firmly decided, probably CERN.
 
 -   If this doesn’t work for you, and you very much want to attend, let us know
 

@@ -8,7 +8,7 @@ description: |
   High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade.
   Sixtrack has been adapted to take advantage of large scale volunteer computing
   resources provided by the
-  [LHC@Home](http://sixtrack.web.cern.ch/SixTrack/www/cern.ch/lhcathome) project.
+  [LHC@Home](http://lhcathome.web.cern.ch) project.
   It has been engineered to give the exact same results after millions of
   operations on several, very different computer platforms. The source code is
   written in Fortran, and is pre-processed by two programs that assemble the code

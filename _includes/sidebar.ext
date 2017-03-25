@@ -17,7 +17,7 @@ contact the <a href="mailto:hep-sf-startup-team@googlegroups.com">startup team</
       {% endif %}
     {% endfor %}
     </ol>
-See also <a href='https://hepsoftware.org/?popupmode=Events&popupstate=events'>HEP S&amp;C community events</a>
+See also <a href='http://hepsoftware.org/?popupmode=Events&popupstate=events'>HEP S&amp;C community events</a>
   </div>
 
   <div class="sidebar-module sidebar-module-inset">

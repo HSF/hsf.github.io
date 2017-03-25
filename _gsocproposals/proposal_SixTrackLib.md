@@ -25,7 +25,7 @@ bit-level identical results.
 Experience with Fortran, C, OpenCL, CUDA, vectorization techniques.
 
 ## Web Page
-[cern.ch/sixtrack](http://cern/sixtrack)
+[cern.ch/sixtrack](http://cern.ch/sixtrack)
 
 ## Source Code 
 [github.com/SixTrack/SixTrack](http://github.com/SixTrack/SixTrack)
