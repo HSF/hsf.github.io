@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+usage () {
+    echo "usage: $(basename $0) [--debug]"
+    exit 2
+}
+
+debug_option=
+
+if [ "$1" == "--debug" ]
+then
+    debug_option="--log-level debug"
+elif [ -n "$1" ]
+then
+    echo "Unsupported option ($1)"
+    usage
+fi
+
+url_ignore_file=$(dirname $0)/url-ignore
+if [ ! -f ${url_ignore_file} ]
+then
+    echo "List of URL to ignore must exist (${url_ignore_file}), even if empty"
+    exit 1
+fi
+
+url_ignore_patterns=
+url_ignore_option=
+# The following construct ensure that the end line is processed if not ending by \n
+while IFS='' read -r url || [[ -n "$url" ]]; do
+    url=$(echo ${url} | sed -e 's/\s*#.*$//')
+    if [ -n "${url}" ]
+    then
+        url=$(echo ${url} | sed -e 's%/%\\/%g' -e 's/\./\\./g' -e 's/\?/\\?/')
+        url_ignore_patterns="${url_ignore_patterns},/${url}/"
+    fi
+done < "${url_ignore_file}"
+url_ignore_patterns=$(echo "${url_ignore_patterns}" | sed -e 's/^,//')
+if [ -n "${url_ignore_patterns}" ]
+then
+    url_ignore_option="--url-ignore ${url_ignore_patterns}"
+fi
+echo "html-proofer url-ignore option: ${url_ignore_option}"
+
+bundle exec jekyll build
+set +e # do not halt script on error
+bundle exec htmlproofer ${url_ignore_option} ${debug_option} --check-html ./_site
+status=$?
+if [ ${status} -ne 0 -a -z "${debug_option}" ]
+then
+    echo ""
+    echo "htmlproofer failed to validate site contents: use --debug for more information"
+fi
+
+exit ${status}

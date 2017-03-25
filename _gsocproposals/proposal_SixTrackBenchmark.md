@@ -23,7 +23,7 @@ of bottlenecks in the source code, assessment on impact of branches.
 Fortran, calculus, accelerator physics.
 
 ## Web Page
-[cern.ch/sixtrack](http://cern/sixtrack)
+[cern.ch/sixtrack](http://cern.ch/sixtrack)
 
 ## Source Code 
 [github.com/SixTrack/SixTrack](http://github.com/SixTrack/SixTrack)
