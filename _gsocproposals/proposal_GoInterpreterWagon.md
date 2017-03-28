@@ -11,7 +11,7 @@ organization: LPC-Clermont
 It is now the building block of many cloud-based companies and is considered as the "language for the cloud". (_e.g:_ [Docker](https://www.docker.com), [Kubernetes](https://kubernetes.io), ...)
 Go was explicitly designed to address software engineering at scale, and is thus a natural fit for many HEP use cases.
 Indeed, Go has already great numerical and scientific libraries (for matrix operations, plotting, statistical analyses, graphs traversal, etc...) regrouped under the [Gonum](https://github.com/gonum) organization.
-Go can also be used from [Jupyter](http://jupyter.org) thanks to the [gophernotes](https://github.com/gopherds/gophernotes) kernel developed by the [gopherds](https://github.com/gopherds) data science community.
+Go can also be used from [Jupyter](http://jupyter.org) thanks to the [gophernotes](https://github.com/gopherdata/gophernotes) kernel developed by the [gopherdata](https://github.com/gopherdata) data science community.
 
 However, the interpreter used by gophernotes to turn Go into a great data exploration environment is not a real `read-eval-print-loop` (REPL): it just recompiles snippets of Go code on the fly.
 While this workaround is very serviceable, it carries its own set of issues, mainly with code that has side-effects.
