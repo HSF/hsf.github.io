@@ -13,7 +13,7 @@ This pages is a GitHub and Git survival kit for people not familiar with these t
 
 ## GitHUb Workflow
 
-At a first glance, GitHub (and Git) may look complex with their "workflows". But they are not so much in fact. What makes these tools great is that hey allow a clear separation between your personal work and what you decide to show or export. Your personal work, unlike with tools like SVN, can be versionned and you can work on different things in parallel (branches) very easily.
+At a first glance, GitHub (and Git) may look complex with their "workflows". But they are not so much in fact. What makes these tools great is that they allow a clear separation between your personal work and what you decide to show or export. Your personal work, unlike with tools like SVN, can be versionned and you can work on different things in parallel (branches) very easily.
 
 In the HSF web site context, what is shared is what is in the project repository called, [hep-sf.github.io](https://github.com/HEP-SF/hep-sf.github.io). Your personal environment is made of 2 parts:
 
@@ -36,7 +36,7 @@ git help command
 
 To contribute, you definitely need to have a GitHub account: connect to [gitHub](http://github.com) and follow the instructions.
 
-Once you have an account, if you want to use the full workflow with a clone of the GitHub repository on your local computer, it is recommended to configure your SSK keys that will be used for the authentication: follow the GitHub [documentation(https://help.github.com/articles/generating-ssh-keys/). Using SSH keys is not a requirement but is recommended: the alternative if you want to contribute is to use `https` but in this case any interaction with GiHb through the `git` command will require that you enter your password...
+Once you have an account, if you want to use the full workflow with a clone of the GitHub repository on your local computer, it is recommended to configure your SSK keys that will be used for the authentication: follow the GitHub [documentation](https://help.github.com/articles/generating-ssh-keys/). Using SSH keys is not a requirement but is recommended: the alternative if you want to contribute is to use `https` but in this case any interaction with GiHb through the `git` command will require that you enter your password...
 
 
 ## Creating your Personal Environment
@@ -54,7 +54,7 @@ As explained in the introduction, this involves 2 steps:
   cd hep-sf.github.io
   ```
 
-* Connect your local clone to the project repository: as it will be explained in other sectinos, there are several occasions where you will want to import changes that happened in the project repository into your local clone that you use to develop your contributions. In Git, this involves creating a *remote* and is done with:
+* Connect your local clone to the project repository: as it will be explained in other sections, there are several occasions where you will want to import changes that happened in the project repository into your local clone that you use to develop your contributions. In Git, this involves creating a *remote* and is done with:
 
   ```bash
   # Later to refer to the project repository, we'll use the remote called upstream
@@ -83,7 +83,7 @@ This step is about making your changes in your local clone: nothing will be visi
 
 * Make your changes: create new files, modify new ones with your preferred editor.
 
-* Commit your changes. Git is quite powerful to select what you are the changes you want to make part of a commit: this allows to commit separately several set of changes made at the same time. For this reason, there is a command `git add` than can be used before the commit itself (`git commit`). Here we describe the simplest form that you can use if you want all your changes to be part of a single commit (the proposed commands given here are working with Git v1 and v2). When you enter the commit, you'll be asked for a message: it is important to say in a few words the reason for the change.
+* Commit your changes. Git is quite powerful to select what changes you want to make part of a commit: this allows to commit separately several set of changes made at the same time. For this reason, there is a command `git add` than can be used before the commit itself (`git commit`). Here we describe the simplest form that you can use if you want all your changes to be part of a single commit (the proposed commands given here are working with Git v1 and v2). When you enter the commit, you'll be asked for a message: it is important to say in a few words the reason for the change.
 
   ```bash
   # Add all your changes to the next commit
@@ -114,6 +114,6 @@ Publishing changes involves 2 steps (again!):
 
 After the pull request has been created, all the persons interested in the project repository changes will be notified by email. Everybody can subscribe the repository [notifications](https://help.github.com/articles/about-notifications/). At this point, your contribution is open for review: people can comment, suggest changes... At some point, when there is an agreement that the contribution is in good shape, somebody with the appropriate permission will *merge* it in the poject repository (this is a one-click operation).
 
-Note that as soon as a pull request is open, every change that you make to the personal branch that you published (whic is the source of the pull request) is published immediately (until the pull request is closed/merged). You cannot create several pull requests with the same source branch.
+Note that as soon as a pull request is open, every change that you make to the personal branch that you published (which is the source of the pull request) is published immediately (until the pull request is closed/merged). You cannot create several pull requests with the same source branch.
  
 When the pull request is merged, you can decide to delete your personal branch that was used to make your contribution but there is no real need to do it... It's a matter of personal taste!
