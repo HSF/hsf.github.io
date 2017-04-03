@@ -156,7 +156,7 @@ Plans:
 ### Data and Software Preservation WG ###
 [Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)
 
-Google group: none yet 
+Google group: hsf-cwp-data-preservation@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-data-preservation)
 
 Plans:
 
