@@ -1,0 +1,38 @@
+Title: Updating gopy to support python3 and PyPy
+layout: gsoc_proposal
+project: ROOT
+organization: CERN
+##Description
+Go is an open-source language with builtin primitives to easily handle concurrency. Python is the de facto glue language in science. More and more analyses are written in Python with performance hotspots being rewritten in C/C++ or Cython.
+
+What if we could leverage the concurrency features of Go from Python?
+
+This is the goal of the gopy tool. gopy takes a Go package, inspects it and generates C code to wrap it with the CPython-2 API. This is a process that is made relatively straightforward thanks to the high level constructs of Go and its standard libraries to inspect Go code (mainly go/buildand go/types.)
+
+However, gopy only generates wrappers for CPython-2. The science ecosystem is finally migrating to Python-3: gopy needs to support this migration.
+
+This project intends to modify the code generation mechanism to generate (pure Python) cffi code so that Go packages can be used from CPython (2 and 3), PyPy and IronPython.
+
+##Task ideas
+
+Design and implement a mechanism to share values and types between Go (>=1.6) and a Python VM
+Migrate the current gopy unit tests to this new mechanism
+Implement wrapping of functions with builtin arguments
+Implement wrapping of functions with slices/arrays of builtin arguments
+Implement wrapping of functions with user types
+Detect functions returning a Go error and make them pythonic (raising an Exception)
+Implement wrapping of user types
+Implement wrapping of Go maps
+Implement wrapping of Go interfaces
+##Expected results
+
+A new gopy command that can generate wrapping code (using cffi) for the current set of unit tests of gopy, with Go >= 1.5.
+
+##Requirements
+
+Go language, Python language, git.
+
+##Mentors
+
+Sebastien Binet
+Thomas Bellembois
