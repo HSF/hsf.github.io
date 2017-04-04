@@ -31,9 +31,6 @@ After a preparatory phase during Fall 2016, the CWP process was launched at an [
 
 Planned workshops/events:
 
-  * 28-30 Mar, 2017 - CWP Visualization Workshop
-    * *CERN (and Vidyo)*
-    * [Indico page](https://indico.cern.ch/event/617054/)
   * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
     * *Amsterdam
     * [Indico page](http://indico.cern.ch/event/613842/)
@@ -41,12 +38,16 @@ Planned workshops/events:
   * 5-6 Jun, 2017 - CWP Event Processing Frameworks Workshop
     * *FNAL*
     * The workshop is just prior to the FNAL 50th Anniversary and User Meeting
+    * [Indico page](https://indico.fnal.gov/conferenceDisplay.py?confId=14186)
   * 26-30 Jun, 2017 - HEP Software Foundation Workshop
     * *LAPP (Annecy)*
     * [Indico page](https://indico.cern.ch/event/613093/)
 
 Past workshops/events:
 
+  * 28-30 Mar, 2017 - CWP Visualization Workshop
+    * *CERN (and Vidyo)*
+    * [Indico page](https://indico.cern.ch/event/617054/)
   * 20-22 Mar, 2017 - IML Topical Machine Learning Workshop
     * *CERN*
     * The workshop includes a CWP session on Machine Learning
