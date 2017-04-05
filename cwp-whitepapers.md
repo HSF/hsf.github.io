@@ -14,22 +14,22 @@ If you have a white paper which you would like to contribute to the CWP process,
 
 ### Contributed White Papers
 
-  * *[HSF-CWP-001] Exploiting HPC for HEP towards Exascale* [(link to pdf)](cwp/hsf-cwp-001-ExploitingHPC-CWPWhitepaper.pdf)
+  * **HSF-CWP-001** *Exploiting HPC for HEP towards Exascale* [(link to pdf)](cwp/hsf-cwp-001-ExploitingHPC-CWPWhitepaper.pdf)
     * Authors: Wahid Bhimji (LBNL), Taylor Childers (ANL), Lisa Gerhardt (LBNL), Jeff Porter (LBNL)
     * Added: 16 Jan 2017
     * Keywords:
 
-  * *[HSF-CWP-002] SDN Next Generation Integrated Architecture (SDN-NGenIA) For HEP and Global Scale Science* [(link to pdf)](cwp/hsf-cwp-002-SDNNGenIAAbstract_hbn100215.pdf)
+  * **HSF-CWP-002** *SDN Next Generation Integrated Architecture (SDN-NGenIA) For HEP and Global Scale Science* [(link to pdf)](cwp/hsf-cwp-002-SDNNGenIAAbstract_hbn100215.pdf)
     * Harvey Newman (Caltech)
     * Added: 19 Jan 2017
     * Keywords:
 
-  * *[HSF-CWP-003] Next Generation Exascale Network Integrated Architecture for HEP and Global Science* [(link to pdf)](cwp/hsf-cwp-003-JOCN-Newman_v8.pdf)
+  * **HSF-CWP-003** *Next Generation Exascale Network Integrated Architecture for HEP and Global Science* [(link to pdf)](cwp/hsf-cwp-003-JOCN-Newman_v8.pdf)
     * Harvey Newman (Caltech), M. Spiropulu (Caltech), J. Balcas (Caltech), D. Kcira (Caltech), I. Legrand (Caltech), A. Mughal (Caltech), J. R. Vlimant (Caltech), R. Voicu (Caltech)
     * Added: 19 Jan 2017
     * Keywords:
 
-  * *[HSF-CWP-001] Thoughts about HL-LHC Computing Models* [(link to pdf)](cwp/hsf-cwp-004-170118-Girone-Fisk-Gutsche-Thoughts-about-HL-LHC-Computing-Models.pdf)
+  * **HSF-CWP-004** *Thoughts about HL-LHC Computing Models* [(link to pdf)](cwp/hsf-cwp-004-170118-Girone-Fisk-Gutsche-Thoughts-about-HL-LHC-Computing-Models.pdf)
     * Maria Girone (CERN), Ian Fisk (Simons Foundation), Oliver Gutsche (FNAL)
     * Added: 19 Jan 2017
     * Keywords:
