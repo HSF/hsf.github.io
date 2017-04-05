@@ -84,6 +84,12 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Added: 7 Mar 2017
     * Keywords:
 
+  * **HSF-CWP-015** - *Deep learning and neutrino physics* [(link to pdf)](cwp/hsf-cwp-015-CWP_ML_neutrinos.pdf)
+    * G. N. Perdue (FNAL), T. Golan (University of Wroclaw), A. Himmel (FNAL), E. Niner (FNAL), F. Psihas (Indiana University), and A. Radovic (College of William & Mary)
+    * Added: 5 Apr 2017
+    * Keywords:
+
+
 ### Previous Related Community Documents
 
   * DOE - [High Energy Physics Forum for Computational Excellence: Working Group Reports (I. Applications Software II. Software Libraries and Tools III. Systems)](http://arxiv.org/abs/1510.08545)
