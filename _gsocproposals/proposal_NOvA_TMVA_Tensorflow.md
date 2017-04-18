@@ -5,16 +5,17 @@ project: NOvA
 organization:
  - NOvA
  - Fermilab
+ - CERN
+ - UFlorida
 ---
 
 # Description
 [NOvA](https://www-nova.fnal.gov) is a neutrino oscillations experiment whose measurement of this particle's properties relies on efficient identification and robust reconstruction of events. NOvA has already shown the first use of CNNs (convolutional neural networks) for [event classification] (http://inspirehep.net/record/1444342) in a HEP result. Now we are expanding the program of machine learning applications on NOvA events for their use in full event reconstruction and eventually event simulation applications.
 
-[Tensorflow] (https://www.tensorflow.org/) is Google's open source machine learning library which enables collaboration between developers using machine learning algorithms for different applications.
 
-GANs are sets of generator networks, which produce simulated samples based of a training set, and classification networks, which discriminate events in a sample as real or simulated. <They are cool to simulate events and such>
+The use of Generative Adversarial Networks (GANs) is of particular interest for potential applications for neutrino events and beyond. GANs are sets of generator networks, which produce simulated samples based of a training set, and classification networks, which discriminate events in a sample as real or simulated.
 
-<TMVA and tensorflow and why we care>
+Because the data structures of many particle physics experiments are compatible with the ROOT scientific software framework, any interface with uses ROOT compatible analysis tools can be extended for multiple applications across experiments. The focus of this project will be to integrate the applications of GANs in [Tensorflow] (https://www.tensorflow.org/), Google's open source machine learning library in an inteface compatible with TMVA, the ROOT compatible Toolkit for Multivariate Analysis.
 
 
 
@@ -39,7 +40,7 @@ Experience with the ART framework is preferable but not indispensable.
   * [Fernanda Psihas](mailto:psihas@fnal.gov)
   * [Sergei Gleyzer](mailto:sergei@cern.ch)
   * [Paul Rossman](mailto:paulrossman@google.com)
-  * [Stefan Wunsch](mailto:)
+  * [Stefan Wunsch](mailto:stefan.wunsch@student.kit.edu)
 
 
 **Links**:
