@@ -68,7 +68,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![University of Oslo](/images/UOslo.png){:width="100px"} | University of Oslo [List of proposals](/gsoc/uoslo.html)|
 | ![Metropolitan Institute of Technology](/images/logo_itm.png){:width="100px"} | ITM is an accredited public University, founded in 1944, in Medellin Colombia. [List of proposals](/gsoc/itm.html)|
 | ![Universitat Jaume I](/images/uji_logo.jpg){:width="100px"} |The Universitat Jaume I is a public university in Castelló de la Plana, Spain. [List of proposals](/gsoc/uji.html)|
-| ![Indiana University](/images/iu_logo.jpg){:width="100px"} | [Indiana University] (https://www.indiana.edu/), Bloomington. [List of proposals](/gsoc/iu.html)|
+| ![Indiana University](/images/iu_logo.png){:width="100px"} | [Indiana University] (https://www.indiana.edu/), Bloomington. [List of proposals](/gsoc/iu.html)|
 
 
 [Full list of Proposal Ideas](/gsoc/summary.html)
