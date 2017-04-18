@@ -7,22 +7,27 @@ organization:
  - Fermilab
  - CERN
  - UFlorida
+ - Google
+ - KIT
 ---
 
 # Description
-[NOvA](https://www-nova.fnal.gov) is a neutrino oscillations experiment whose measurement of this particle's properties relies on efficient identification and robust reconstruction of events. NOvA has already shown the first use of CNNs (convolutional neural networks) for [event classification] (http://inspirehep.net/record/1444342) in a HEP result. Now we are expanding the program of machine learning applications on NOvA events for their use in full event reconstruction and eventually event simulation applications.
-
+[NOvA](https://www-nova.fnal.gov) is a neutrino oscillation experiment that measures the properties of neutrinos. These measurements rely on efficient identification and robust reconstruction of neutrino events. NOvA has already shown the [first use of CNNs] (http://inspirehep.net/record/1444342) in a HEP analysis. Now we are expanding the program of machine learning applications on NOvA events for their use in full event reconstruction and eventually event simulation applications.
 
 The use of Generative Adversarial Networks (GANs) is of particular interest for potential applications for neutrino events and beyond. GANs are sets of generator networks, which produce simulated samples based of a training set, and classification networks, which discriminate events in a sample as real or simulated.
 
-Because the data structures of many particle physics experiments are compatible with the ROOT scientific software framework, any interface with uses ROOT compatible analysis tools can be extended for multiple applications across experiments. The focus of this project will be to integrate the applications of GANs in [Tensorflow] (https://www.tensorflow.org/), Google's open source machine learning library in an inteface compatible with TMVA, the ROOT compatible Toolkit for Multivariate Analysis.
+Generative Adversarial Networks (GANs) are sets of generator networks that produce simulated samples based of a training set, competing with classification networks that attempt to classify events as real or simulated. The use of GANs is of particular interest for potential applications focused on fast and accurate neutrino event simulation.
 
+Because the data structures of many particle physics experiments are compatible with the ROOT scientific software framework, an interface that uses ROOT compatible analysis tools can be extended for multiple applications across experiments.
+
+The focus of this project will be to integrate GANs in [Tensorflow] (https://www.tensorflow.org/), Google's open source machine learning library, with the ROOT-integrated Toolkit for Multivariate Analysis (TMVA). This will enable particle physicists easy access to deep learning algorithms, such as GANs, in Tensorflow for direct 
+applications in HEP.
 
 
 ## Task ideas
  * Reproduce NOvA's existing classification applications of CNNs with an implementation on Tensorflow
- * Apply GANs in Tensorflow to neutrino Events.
  * Write an open-source interface between Tensorflow and TMVA, specifically for simulations with GAN.
+ * Apply GANs in Tensorflow to neutrino events.
 
 
 **Expected results**:
@@ -44,6 +49,6 @@ Experience with the ART framework is preferable but not indispensable.
 
 
 **Links**:
-  * [https://www.tensorflow.org/](https://www.tensorflow.org/)
-  * [https://www-nova.fnal.gov](https://www-nova.fnal.gov)
-  * [https://arxiv.org/pdf/1406.2661v1.pdf] (https://arxiv.org/pdf/1406.2661v1.pdf)
+  * [Tensorflow](https://www.tensorflow.org/)
+  * [NOvA](https://www-nova.fnal.gov)
+  * [CNNs and NOvA Events] (https://arxiv.org/pdf/1406.2661v1.pdf)
