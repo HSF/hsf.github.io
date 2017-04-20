@@ -9,7 +9,7 @@ redirect_from: /gsoc/gsoc2017.html
 
 ## Introduction
 
-[Google Summer of Code 2017](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations. 
+[Google Summer of Code 2017](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations.
 
 Particle physics is an exciting field where large collaborations of scientists collect and analyze the data from high-energy physics experiments, such as the Large Hadron Collider, hosted by the CERN laboratory in Geneva, Switzerland. The questions that we collectively ask are: what are the fundamental blocks that make up our Universe? What is the nature of dark matter and dark energy?  What is the nature of the asymmetry between matter and antimatter? What was early Universe like? To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
 
@@ -30,6 +30,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![HSF](/images/hsf_logo_angled.png){:width="100px"} | The HEP Software Foundation (HSF) facilitates coordination and common efforts in high energy physics (HEP) software and computing internationally. [List of proposals](/gsoc/project_HSF.html)|
 | ![ATLAS](/images/ATLAS-Logo-Ref-RGB.png){:width="100px"} | [ATLAS](https://atlas.web.cern.ch/Atlas/Collaboration/) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/project_ATLAS.html)|
 | ![CMS](/images/CMS-Color.gif){:width="100px"} | [CMS](http://cms.web.cern.ch/) (Compact Muon Solenoid) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/project_CMS.html)|
+| ![NOvA](/images/NOvA_logo.png){:width="100px"} | [NOvA](https://www-nova.fnal.gov)(NOvA Off-Axis Electron Neutrino Appearance) is a Neutrino Oscillation experiment at Fermilab. [List of proposals](/gsoc/project_NOvA.html)|
 | ![SixTrack](/images/sixtrack_logo.png){:width="100px"} | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals](/gsoc/project_SixTrack.html) |
 | **SciKit-HEP** | The [Scikit-HEP project](http://scikit-hep.org/) is a community-driven and community-oriented project with the aim of providing Particle Physics at large with a Python package containing core and common tools. [List of proposals](/gsoc/project_SciKit-HEP.html)|
 | ![GeantV](/images/geantv_logo.png){:width="100px"} | The GeantV project aims at developing a high performance detector simulation system integrating fastand fullsimulation that  can  be  ported  on  different  computing  architectures,  including CPU accelerators. [List of proposals](/gsoc/project_GeantV.html)|
@@ -48,6 +49,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 
 {:.table .table-hover  .table-striped}
 | ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
+| ![Fermilab](/images/FNAL-Logo-NAL-Blue.jpg){:width="100px"} | [Fermi National Accelerator Laboratory](http://www.fnal.gov/) (FNAL) is a Department of Energy national laboratory dedicated to particle physics research. Fermilab supports work by scientists, from across the country and the globe, who seek to further our understanding of matter, energy, space and time. [List of proposals]({{site.baseurl}}/gsoc/fnal.html)|
 | ![Universidad de Antioquia](/images/udea_logo.png){:width="100px"} | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. [List of proposals](/gsoc/udea.html)|
 | ![Cornell University](/images/cornell_logo.gif){:width="100px"} | Founded in 1865, Cornell is a leading private institution of higher learning located in Ithaca, New York. [List of proposals](/gsoc/cornell.html)|
 | ![Princeton University](/images/princeton-logo.png){:width="100px"} | Princeton University is a private Ivy League research university in Princeton, New Jersey. [List of proposals](/gsoc/princeton.html)|
@@ -66,6 +68,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![University of Oslo](/images/UOslo.png){:width="100px"} | University of Oslo [List of proposals](/gsoc/uoslo.html)|
 | ![Metropolitan Institute of Technology](/images/logo_itm.png){:width="100px"} | ITM is an accredited public University, founded in 1944, in Medellin Colombia. [List of proposals](/gsoc/itm.html)|
 | ![Universitat Jaume I](/images/uji_logo.jpg){:width="100px"} |The Universitat Jaume I is a public university in Castelló de la Plana, Spain. [List of proposals](/gsoc/uji.html)|
+| ![Indiana University](/images/iu_logo.png){:width="100px"} | [Indiana University] (https://www.indiana.edu/), Bloomington. [List of proposals](/gsoc/iu.html)|
 
 
 [Full list of Proposal Ideas](/gsoc/summary.html)
@@ -75,6 +78,3 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 ## Contact information (for students)
 Please do not hesitate to contact us if you are planning to apply for any of the above projects:
 HSF GSoC mailing list:[hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)  no subscription needed
-
-
-
