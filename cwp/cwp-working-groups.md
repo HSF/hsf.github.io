@@ -147,7 +147,7 @@ Plans:
 ### Workflow and Resource Management WG ###
 [Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit)
 
-Google group: none yet 
+Google group: hsf-cwp-workflow-management@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-workflow-management)
 
 Plans:
 
