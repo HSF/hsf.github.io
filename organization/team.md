@@ -39,6 +39,7 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
 [Full list of past minutes](/organization/minutes.html).
 
 ## Presentations given by Startup Team Members
+ * [HSF and the Community Whitte Paper](https://indico.lal.in2p3.fr/event/3473/session/1/contribution/2/material/slides/0.pdf), [Workshop](https://indico.lal.in2p3.fr/event/3473/timetable/#20170515.detailed) on Algorithms and Numerical Tools for QCD, Orsay/France, 15 May 2017, Michel Jouvin
  * [HSF and the Community White Paper - Report on the San Diego Workshop](https://indico.cern.ch/event/609308/contributions/2456640/attachments/1407318/2150983/HSF_workshopSanDiego.pdf) presented to CERN EP/SFT, 6 Feb 2017, Benedikt Hegner, Lorenzo Moneta
  * [HSF and San Diego Workshop Summary - IN2P3 (France)](https://indico.in2p3.fr/event/14075/session/4/contribution/20/material/slides/0.pdf), Meeting of IN2P3 Computing Division Heads, Lyon, 31 January 2017, Michel Jouvin
  * [Hep Software Foundation and Community White Paper](https://indico.desy.de/getFile.py/access?contribId=17&sessionId=7&resId=0&materialId=slides&confId=15730), at the [10th Annual Meeting of the Helmholtz Alliance](https://indico.desy.de/conferenceOtherViews.py?view=standard&confId=15730), Nov 22-23, 2016, Frank Gaede
