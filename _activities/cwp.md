@@ -45,6 +45,9 @@ Planned workshops/events:
 
 Past workshops/events:
 
+  * 8-12 May, 2017 - DS@HEP 2017 (Data Science in High Energy Physics)
+    * *FNAL*
+    * [Indico page](https://indico.fnal.gov/conferenceDisplay.py?confId=13497)
   * 28-30 Mar, 2017 - CWP Visualization Workshop
     * *CERN (and Vidyo)*
     * [Indico page](https://indico.cern.ch/event/617054/)
