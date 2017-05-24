@@ -31,10 +31,6 @@ After a preparatory phase during Fall 2016, the CWP process was launched at an [
 
 Planned workshops/events:
 
-  * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
-    * *Amsterdam
-    * [Indico page](http://indico.cern.ch/event/613842/)
-    * [Workshop proposal](https://docs.google.com/document/d/1aAGCj_y9in_I-c9yYJ-XX3Qurf0PXH4tFoYmvuCY5tk/edit#heading=h.9h0v0hyue6zf)
   * 5-6 Jun, 2017 - CWP Event Processing Frameworks Workshop
     * *FNAL*
     * The workshop is just prior to the FNAL 50th Anniversary and User Meeting
@@ -45,6 +41,10 @@ Planned workshops/events:
 
 Past workshops/events:
 
+  * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
+    * *Amsterdam
+    * [Indico page](http://indico.cern.ch/event/613842/)
+    * [Workshop proposal](https://docs.google.com/document/d/1aAGCj_y9in_I-c9yYJ-XX3Qurf0PXH4tFoYmvuCY5tk/edit#heading=h.9h0v0hyue6zf)
   * 8-12 May, 2017 - DS@HEP 2017 (Data Science in High Energy Physics)
     * *FNAL*
     * [Indico page](https://indico.fnal.gov/conferenceDisplay.py?confId=13497)
