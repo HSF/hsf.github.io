@@ -6,13 +6,15 @@ layout: default
 
 # Visualization
 
-The Visualization Working Group (WG) gathers experts, develeopers, users and all people from the HEP community interested in interactive data visualization and event displays. The WG has been started in October 2016 and it is convened by Riccardo Maria Bianchi (*University of Pittsburgh*). 
+The Visualization Working Group (WG) gathers experts, develeopers, users and all people from the HEP community interested in interactive data visualization and event displays. 
+
+The WG has been started in October 2016 and it is convened by Riccardo Maria Bianchi (*University of Pittsburgh*). 
 
 All are welcome to join the WG and participate!
 
 ## Goal
 
-The goal of the WG is to discover common approaches, foster collaboration among HEP experiments and groups, plan future software development and draft the guidelines for the future HEP visualization tools, with a view of 5-10 years.
+The goal of the WG is to discover common approaches, foster collaboration among HEP experiments and groups, plan future software development and developing common tools. 
 
 ----
 
@@ -20,19 +22,20 @@ The goal of the WG is to discover common approaches, foster collaboration among 
 
 Here follows the description of the WG, its challenges and the questions which it should address, as defined by the WG itself during the Visualization session in the HSF Workshop in San Diego (see link in the meetings' list below).
 
-The first task of the WG is the planning and the writing of the [CWP](http://hepsoftwarefoundation.org/activities/cwp.html) chapter on Visualization.
+The first task of the WG is the planning and the writing of the [CWP](http://hepsoftwarefoundation.org/activities/cwp.html) chapter on Visualization, to draft the guidelines for the future HEP visualization tools, with a view of 5-10 years.
 
-### Scope
+### Scope of the WG activities
 
 Visual representation of event data overlaid with detector geometry for the purpose of  HEP research, education and outreach. This representation can be static (event displays) or time-dependent (animations).
 
-### Out of scope
+#### Out of scope
 
 Visualization of detector infrastructure and systems (eg. slow control)
 Visualization for statistical data analysis (histograms, etc…)
 
-### Challenges
+### WG Challenges
 
+* Find common approaches, promoting common tools
 * Improve support for the following use cases:
     * detector design (geometry browser)
     * simulation and reconstruction development
@@ -40,10 +43,10 @@ Visualization for statistical data analysis (histograms, etc…)
     * outreach & education
 * Improve support for required platforms and devices 
 * Ensure sustainability for key software packages
-* Improve low latency access to data, low entrance cost
+* Improve low latency access to data, low entrance cost, from a visualization point of view
 * Improve rendering performance
 
-### Questions to address
+### Some open question to shape the WG activities
 
 * Can we develop a common framework such that experiments can plug in geometry and event data in their own formats/data?
 * Can the data delivery be web-based?
@@ -62,7 +65,7 @@ Topics for which we will have to interact with other WGs:
 
 ## Documents 
 
-* Working Group's [charge document](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit), as defined by the WG in the San Diego Workshop
+* Working Group's [charge document](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit), as defined by the WG in the January 2017 San Diego Workshop
 
 ----
 
