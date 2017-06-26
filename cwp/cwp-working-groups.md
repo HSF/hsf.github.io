@@ -25,6 +25,8 @@ Google group: hsf-cwp-models-facilities@googlegroups.com [(link to subscribe)](h
 
 Plans:
 
+Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit)
+
 <!-- ======================================================= -->
 
 ### Detector Simulation WG ###
@@ -97,6 +99,8 @@ Google group: hsf-cwp-conditionsdb@googlegroups.com [(link to subscribe)](https:
 
 Plans:
 
+Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit)
+
 <!-- ======================================================= -->
 
 ### Event Processing Frameworks WG ###
@@ -141,6 +145,8 @@ Plans:
 Google group: hsf-cwp-analysis@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-analysis)
 
 Plans:
+
+Draft WG white paper: [google doc](http://tinyurl.com/y9xrhphx)
 
 <!-- ======================================================= -->
 
