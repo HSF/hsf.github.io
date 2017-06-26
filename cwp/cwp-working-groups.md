@@ -51,6 +51,9 @@ Plans: The software trigger / event reconstruction WG plans to hold a couple of 
 
   * 9 Mar 2017 - [Indico](https://indico.cern.ch/event/614111/), [Announcement](https://groups.google.com/d/msgid/hsf-cwp-swtrig-evtreco/01a8b1b5-e5a7-4459-85ba-0b24437bb850%40googlegroups.com)
 
+Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#)
+
+
 <!-- ======================================================= -->
 
 ### Visualization WG ###
@@ -89,6 +92,9 @@ Plans: The WG has 2 planned workshops in the coming months.
 
   * a CWP session during the [IML topical workshop](https://indico.cern.ch/event/595059) at CERN, March 20 - 22, 2017
   * a CWP session (TBC) during [DS@HEP 2017](https://indico.fnal.gov/conferenceDisplay.py?confId=13497), FNAL May 8 - 12, 2017
+
+Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/593a919f0f690d906afbfc76)
+
 
 <!-- ======================================================= -->
 
