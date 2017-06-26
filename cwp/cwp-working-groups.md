@@ -19,7 +19,7 @@ login as your google user. If you would like organize an additional working grou
 <!-- ======================================================= -->
 
 ### Computing Models, Facilities, and Distributed Computing WG ###
-[Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit) 
+Charge: [Google Doc](https://docs.google.com/document/d/11C9iCn3FPbvKBJpN0Lwv7tpjFELKPj14_dlkwuTGJqg/edit) 
 
 Google group: hsf-cwp-models-facilities@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-models-facilities) 
 
@@ -30,7 +30,7 @@ Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lz
 <!-- ======================================================= -->
 
 ### Detector Simulation WG ###
-[Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit) 
+Charge: [Google Doc](https://docs.google.com/document/d/1-wr-Og38KJYf-U2DceBbe1OU1h05y8LCrgeH3tR8yRA/edit) 
 
 Google group: hsf-cwp-simulation@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-simulation)       
 
@@ -43,7 +43,7 @@ of these is:
 <!-- ======================================================= -->
 
 ### Software Trigger and Event Reconstruction WG ###
-[Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          
+Charge: [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          
 
 Google group: hsf-cwp-swtrig-evtreco@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-swtrig-evtreco)     
 
@@ -57,7 +57,7 @@ Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488
 <!-- ======================================================= -->
 
 ### Visualization WG ###
-[Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          
+Charge: [Google Doc](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit)          
 
 Google group: hsf-cwp-visualization@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-visualization) 
 
@@ -68,7 +68,7 @@ Plans: the visualization WG plans to hold a couple of workshops. The first (at C
 <!-- ======================================================= -->
 
 ### Data Access and Management WG ###
-[Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   
+Charge: [Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   
 
 Google group: hsf-cwp-data-management@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-data-management)
 
@@ -84,7 +84,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Machine Learning WG ###
-[Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)
  
 Google group: hsf-cwp-machine-learning@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-machine-learning)
 
@@ -99,7 +99,7 @@ Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/593a919f0f
 <!-- ======================================================= -->
 
 ### Conditions Database WG ###
-[Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/1qrTqsLwUnK0SidoPpSFolUrgstt-r8Mo5-acaGjfyHg/edit)
 
 Google group: hsf-cwp-conditionsdb@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-conditionsdb) 
 
@@ -110,7 +110,7 @@ Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc
 <!-- ======================================================= -->
 
 ### Event Processing Frameworks WG ###
-[Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/1pMWia3IXX6w5075PGs_IeEPnWZhkwQgoDQnHGqbPG-c/edit)
 
 Google group: hsf-cwp-event-processing-frameworks@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-event-processing-frameworks)
 
@@ -119,7 +119,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Physics Generators WG ###
-[Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)
 
 Google group: none yet 
 
@@ -128,7 +128,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Math Libraries WG ###
-[Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) 
+Charge: [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) 
 
 Google group: hsf-cwp-math-libaries@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-math-libaries) 
 
@@ -137,7 +137,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Software Development, Deployment and Validation/Verification WG ###
-[Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| 
+Charge: [Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| 
 
 Google group: hsf-cwp-software-development@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-software-development) 
 
@@ -146,7 +146,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Data Analysis and Interpretation WG ###
-[Google Doc](https://docs.google.com/document/d/1QaX20F6WQlwQTlx-5bRK0J2tybFqC_NPn6CF7g3yzqk/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/1QaX20F6WQlwQTlx-5bRK0J2tybFqC_NPn6CF7g3yzqk/edit)
 
 Google group: hsf-cwp-analysis@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-analysis)
 
@@ -157,7 +157,7 @@ Draft WG white paper: [google doc](http://tinyurl.com/y9xrhphx)
 <!-- ======================================================= -->
 
 ### Workflow and Resource Management WG ###
-[Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/1GmcErvxdQR6TksmM96zg_yXGXURZ8vNDk_DyX0zucUQ/edit)
 
 Google group: hsf-cwp-workflow-management@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-workflow-management)
 
@@ -166,7 +166,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Data and Software Preservation WG ###
-[Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8vXO4g43hXGRvhDEu33ow/edit)
 
 Google group: hsf-cwp-data-preservation@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-data-preservation)
 
@@ -175,7 +175,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Careers, Staffing and Training WG ###
-[Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit) 
+Charge: [Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit) 
 
 Google group: hep-sf-training-wg@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hep-sf-training-wg)
 
@@ -184,7 +184,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Data Acquisition Software WG ###
-[Google Doc](https://docs.google.com/document/d/1BYeWbDLyxG-CUV70aKR-UJubwBdChVrb9lxI1Rk43sY/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/1BYeWbDLyxG-CUV70aKR-UJubwBdChVrb9lxI1Rk43sY/edit)
  
 Status: not yet active
 
@@ -195,7 +195,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Various Aspects of Technical Evolution (Software Tools, Hardware, Networking) WG ###
-[Google Doc](https://docs.google.com/document/d/1bOv5kDzmcg0eLSy7PZjjzE5OYSxaLAfaAxAI-IgKaac/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/1bOv5kDzmcg0eLSy7PZjjzE5OYSxaLAfaAxAI-IgKaac/edit)
 
 Status: not yet active
 
@@ -206,7 +206,7 @@ Plans:
 <!-- ======================================================= -->
 
 ### Monitoring WG ###
-[Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByMkJyUXzUy28bUbs9VLI1w/edit)
+Charge: [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByMkJyUXzUy28bUbs9VLI1w/edit)
 
 Status: not yet active
 
