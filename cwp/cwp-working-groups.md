@@ -116,6 +116,9 @@ Google group: hsf-cwp-event-processing-frameworks@googlegroups.com [(link to sub
 
 Plans:
 
+Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7)
+
+
 <!-- ======================================================= -->
 
 ### Physics Generators WG ###
