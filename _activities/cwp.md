@@ -31,12 +31,13 @@ After a preparatory phase during Fall 2016, the CWP process was launched at an [
 
 Planned workshops/events:
 
-  * 26-30 Jun, 2017 - HEP Software Foundation Workshop
-    * *LAPP (Annecy)*
-    * [Indico page](https://indico.cern.ch/event/613093/)
+  * (None planned at the moment)
 
 Past workshops/events:
 
+  * 26-30 Jun, 2017 - HEP Software Foundation Workshop
+    * *LAPP (Annecy)*
+    * [Indico page](https://indico.cern.ch/event/613093/)
   * 5-6 Jun, 2017 - CWP Event Processing Frameworks Workshop
     * *FNAL*
     * The workshop is just prior to the FNAL 50th Anniversary and User Meeting
