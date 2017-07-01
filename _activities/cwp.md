@@ -43,7 +43,7 @@ Past workshops/events:
     * The workshop is just prior to the FNAL 50th Anniversary and User Meeting
     * [Indico page](https://indico.fnal.gov/conferenceDisplay.py?confId=14186)
   * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
-    * *Amsterdam
+    * *Amsterdam*
     * [Indico page](http://indico.cern.ch/event/613842/)
     * [Workshop proposal](https://docs.google.com/document/d/1aAGCj_y9in_I-c9yYJ-XX3Qurf0PXH4tFoYmvuCY5tk/edit#heading=h.9h0v0hyue6zf)
   * 8-12 May, 2017 - DS@HEP 2017 (Data Science in High Energy Physics)
