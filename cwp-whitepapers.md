@@ -89,6 +89,12 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Added: 5 Apr 2017
     * Keywords:
 
+  * **HSF-CWP-016** - *U.S. CMS Response to NSF Dear Colleague Letter: Request for Information on Future Needs for Advanced Cyberinfrastructure to Support Science and Engineering Research (NSF CI 2030)* [(link to pdf)](cwp/hsf-cwp-016-U.S.CMScontributiontoNSFDearColleagueLetteraboutAdvancedCyberinfrastructure.pdf)
+    * Kenneth Bloom (University of Nebraska-Lincoln), Lothar Bauerdick (Fermilab), Brian Bockelman (University of Nebraska-Lincoln), Barry Blumenfeld (The Johns Hopkins University), John Cumulat (University of Colorado), Sridhara Dasu (University of Wisconsin-Madison), Peter Elmer (Princeton University), Oliver Gutsche (Fermilab), Burt Holzman (Fermilab), James Letts (University of California San Diego), Kevin Lannon (University of Notre Dame), Daniel Marlow (Princeton University), David Mason (Fermilab), Norbert Neumeister (Purdue University), Harvey Newman (California Institute of Technology), Elizabeth Sexton-Kennedy (Fermilab), Paul Sheldon (Vanderbilt University), Eric Vaandering (Fermilab), Peter Wittich (Cornell University), Frank Wuerthwein (University of California San Diego), Avi Yagil (University of California San Diego)
+    * Added: 12 Apr 2017
+    * Keywords:
+
+
 
 ### Previous Related Community Documents
 
