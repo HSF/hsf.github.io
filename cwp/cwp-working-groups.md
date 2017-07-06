@@ -175,6 +175,8 @@ Google group: none yet
 
 Plans:
 
+Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
+
 <!-- ======================================================= -->
 
 ### Math Libraries WG ###
