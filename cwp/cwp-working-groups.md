@@ -39,6 +39,7 @@ of these is:
 
   * 27 Feb 2017 - [Indico](https://indico.cern.ch/event/615703/), [Announcement](https://groups.google.com/d/msgid/hsf-cwp-simulation/dae18128-607c-4019-96dd-093116c49c5e%40googlegroups.com)
 
+Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=58e3 43c1#heading=h.6w9orc8rysri)
 
 <!-- ======================================================= -->
 
@@ -65,21 +66,16 @@ Plans: the visualization WG plans to hold a couple of workshops. The first (at C
 
   * 28-30 Mar, 2017 - [Indico](https://indico.cern.ch/event/617054/)
 
+Draft WG white paper: [google doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit#heading=h.aywciqdbmlzq)
+
 <!-- ======================================================= -->
 
-### Data Access and Management WG ###
+### Data Access, Organization and Management WG ###
 Charge: [Google Doc](https://docs.google.com/document/d/1wEsX2BegSBEZe3EXwdNR9VWNPrNEOVVTLhu-NtH-77E/edit)   
 
 Google group: hsf-cwp-data-management@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-data-management)
 
-<!-- ======================================================= -->
-
-### Security and Access Control WG ###
-[Google Doc](https://docs.google.com/document/d/17xVZv8GJIRqCdFQeH2Ec7J8AmC7HokuRbyNR2K3SryY/edit)
-
-Google group: None yet
-
-Plans:
+Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit)
 
 <!-- ======================================================= -->
 
@@ -121,30 +117,14 @@ Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIK
 
 <!-- ======================================================= -->
 
-### Physics Generators WG ###
-Charge: [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)
-
-Google group: none yet 
-
-Plans:
-
-<!-- ======================================================= -->
-
-### Math Libraries WG ###
-Charge: [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) 
-
-Google group: hsf-cwp-math-libaries@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-math-libaries) 
-
-Plans:
-
-<!-- ======================================================= -->
-
 ### Software Development, Deployment and Validation/Verification WG ###
 Charge: [Google Doc](https://docs.google.com/document/d/1bfCQP-p55Xu3IafmwbwpsOmorYiuEGCIh3uA0NV-DdM/edit)| 
 
 Google group: hsf-cwp-software-development@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-software-development) 
 
 Plans:
+
+Draft WG white paper: [google doc](https://indico.cern.ch/event/613093/contributions/2615326/attachments/1482758/2300163/go)
 
 <!-- ======================================================= -->
 
@@ -186,6 +166,24 @@ Plans:
 
 <!-- ======================================================= -->
 
+### Physics Generators WG ###
+Charge: [Google Doc](https://docs.google.com/document/d/1_-YzxFmwehLbjVRFzkKtJ3Nb4T0fN15VKYJIwRpKdVA/edit)
+
+Google group: none yet 
+
+Plans:
+
+<!-- ======================================================= -->
+
+### Math Libraries WG ###
+Charge: [Google Doc](https://docs.google.com/document/d/1cYs5f21d1olumslSfjOH0XjYR7aeM6QZMrFVHFHDQEk/edit) 
+
+Google group: hsf-cwp-math-libaries@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-math-libaries) 
+
+Plans:
+
+<!-- ======================================================= -->
+
 ### Data Acquisition Software WG ###
 Charge: [Google Doc](https://docs.google.com/document/d/1BYeWbDLyxG-CUV70aKR-UJubwBdChVrb9lxI1Rk43sY/edit)
  
@@ -214,6 +212,15 @@ Charge: [Google Doc](https://docs.google.com/document/d/1sgTrDSwiYthpnE2sztaaByM
 Status: not yet active
 
 Google group: none yet
+
+Plans:
+
+<!-- ======================================================= -->
+
+### Security and Access Control WG ###
+[Google Doc](https://docs.google.com/document/d/17xVZv8GJIRqCdFQeH2Ec7J8AmC7HokuRbyNR2K3SryY/edit)
+
+Google group: None yet
 
 Plans:
 
