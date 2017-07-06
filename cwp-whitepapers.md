@@ -94,7 +94,7 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Added: 12 Apr 2017
     * Keywords:
 
-  * **HSF-CWP-017** - *Deep learning and neutrino physics* [(link to pdf)](cwp/hsf-cwp-017-CWP_neutrino_event_generators.pdf)
+  * **HSF-CWP-017** - *Neutrino event generators* [(link to pdf)](cwp/hsf-cwp-017-CWP_neutrino_event_generators.pdf)
     * G. N. Perdue (FNAL), S. Dennis (University of Liverpool), S. Dytman (University of Pittsburgh), H. R. Gallagher (Tufts University), T. Golan (University of Wroclaw), and J. Wolcott (Tufts University)
     * Added: 12 Apr 2017
     * Keywords:
