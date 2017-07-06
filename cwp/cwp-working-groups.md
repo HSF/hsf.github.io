@@ -164,6 +164,8 @@ Google group: hep-sf-training-wg@googlegroups.com [(link to subscribe)](https://
 
 Plans:
 
+Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9)
+
 <!-- ======================================================= -->
 
 ### Physics Generators WG ###
