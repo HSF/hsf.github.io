@@ -27,6 +27,8 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Editorial Team
 
+  (Coming soon...)
+
 ## Working Groups
 
   The list of CWP working groups, their charges and status is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
