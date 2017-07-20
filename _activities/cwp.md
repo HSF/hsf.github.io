@@ -65,19 +65,18 @@ Each of the CWP WGs is finalizing a dedicated WG white paper by the end
 of July, 2017. From these shorter summaries are being extracted to produce 
 the single, final Community White Paper document and roadmap by 1 Sep, 2017.
 
-## Communication
-
-To join the CWP process and get information about its progress, please join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group (no Google account is required, you can register by sending an email to [hsf-community-white-paper+subscribe@googlegroups.com](mailto:hsf-community-white-paper+subscribe@googlegroups.com)). Subscribing to this group with a Google account is required if you want to be able to contribute to CWP documents hosted in Google Docs. Individual working groups may also have their own
-list or google group (see below).
-
 ## Working Groups
 
 
   The list of CWP working groups, their charges and status is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
 
+## Communication
+
+To join the CWP process and get information about its progress, please join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group (no Google account is required, you can register by sending an email to [hsf-community-white-paper+subscribe@googlegroups.com](mailto:hsf-community-white-paper+subscribe@googlegroups.com)). Subscribing to this group with a Google account is required if you want to be able to contribute to CWP documents hosted in Google Docs. Individual working groups may also have their own list or google group (see below).
+
 ## CWP Process
 
-The CWP process will involve a number of workshops between January and Summer 2017. As part of the process members of the community are encouraged to write white papers to describe their ideas on the various topics. White papers can be submitted by anyone: individuals, groups of individuals, experiments, institutions, etc.
+The CWP process has involved a number of workshops between January and Summer 2017. As part of the process members of the community have been encouraged to write white papers to describe their ideas on the various topics. White papers can be submitted by anyone: individuals, groups of individuals, experiments, institutions, etc.
 
 We maintain a [list of contributed CWP whitepapers](http://hepsoftwarefoundation.org/cwp-whitepapers.html).
 
