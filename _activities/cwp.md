@@ -25,57 +25,59 @@ software and computing R&D in HEP for the 2020s. This activity is organised unde
 specifically [charged by the WLCG project](/assets/CWP-Charge-HSF.pdf) and
 we are reaching out to other HEP experiments around the world to participate.
 
+## Editorial Team
+
+  (Coming soon...)
+
+## Working Groups
+
+  The list of CWP working groups, their charges and status is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
+
 ## Timeline
 
-After a preparatory phase during Fall 2016, the CWP process was launched at an [HSF workshop at SDSC/UCSD](http://indico.cern.ch/event/570249/) on January 23-27, 2017. The aim is to produce a consensus document by summer, 2017.
+After a preparatory phase during Fall 2016, the CWP process was launched in January, 2017. The aim is to produce a consensus document by 1 Sep, 2017.
 
-Planned workshops/events:
+A series of workshops/events have taken place:
 
-  * (None planned at the moment)
-
-Past workshops/events:
-
-  * 26-30 Jun, 2017 - HEP Software Foundation Workshop
-    * *LAPP (Annecy)*
-    * [Indico page](https://indico.cern.ch/event/613093/)
-  * 5-6 Jun, 2017 - CWP Event Processing Frameworks Workshop
-    * *FNAL*
-    * The workshop is just prior to the FNAL 50th Anniversary and User Meeting
-    * [Indico page](https://indico.fnal.gov/conferenceDisplay.py?confId=14186)
-  * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
-    * *Amsterdam*
-    * [Indico page](http://indico.cern.ch/event/613842/)
-    * [Workshop proposal](https://docs.google.com/document/d/1aAGCj_y9in_I-c9yYJ-XX3Qurf0PXH4tFoYmvuCY5tk/edit#heading=h.9h0v0hyue6zf)
-  * 8-12 May, 2017 - DS@HEP 2017 (Data Science in High Energy Physics)
-    * *FNAL*
-    * [Indico page](https://indico.fnal.gov/conferenceDisplay.py?confId=13497)
-  * 28-30 Mar, 2017 - CWP Visualization Workshop
-    * *CERN (and Vidyo)*
-    * [Indico page](https://indico.cern.ch/event/617054/)
+  * 23-27 Jan, 2017 - HSF CWP workshop at SDSC/UCSD
+    * [Indico page](http://indico.cern.ch/event/570249/)
+  * 9 Mar, 2017 - Software Triggers and Event Reconstruction WG meeting
+    * A CWP session at the [Connecting The Dots workshop](https://ctdwit2017.lal.in2p3.fr)
+    * [Indico page](https://indico.cern.ch/event/614111/)
   * 20-22 Mar, 2017 - IML Topical Machine Learning Workshop
     * *CERN*
     * The workshop includes a CWP session on Machine Learning
     * [Indico page](https://indico.cern.ch/event/595059)
-  * 9 Mar, 2017 - Software Triggers and Event Reconstruction WG meeting
-    * A CWP session at the [Connecting The Dots workshop](https://ctdwit2017.lal.in2p3.fr)
-    * [Indico page](https://indico.cern.ch/event/614111/)
-  * 23-27 Jan, 2017 - HSF CWP workshop at SDSC/UCSD
-    * [Indico page](http://indico.cern.ch/event/570249/)
+  * 28-30 Mar, 2017 - CWP Visualization Workshop
+    * *CERN (and Vidyo)*
+    * [Indico page](https://indico.cern.ch/event/617054/)
+  * 8-12 May, 2017 - DS@HEP 2017 (Data Science in High Energy Physics)
+    * *FNAL*
+    * [Indico page](https://indico.fnal.gov/conferenceDisplay.py?confId=13497)
+  * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
+    * *Amsterdam*
+    * [Indico page](http://indico.cern.ch/event/613842/)
+    * [Workshop proposal](https://docs.google.com/document/d/1aAGCj_y9in_I-c9yYJ-XX3Qurf0PXH4tFoYmvuCY5tk/edit#heading=h.9h0v0hyue6zf)
+  * 5-6 Jun, 2017 - CWP Event Processing Frameworks Workshop
+    * *FNAL*
+    * The workshop is just prior to the FNAL 50th Anniversary and User Meeting
+    * [Indico page](https://indico.fnal.gov/conferenceDisplay.py?confId=14186)
+  * 26-30 Jun, 2017 - HEP Software Foundation Workshop
+    * *LAPP (Annecy)*
+    * [Indico page](https://indico.cern.ch/event/613093/)
 
+In the Annecy HSF workshop, the endgame timeline was discussed for the CWP.
+Each of the CWP WGs is finalizing a dedicated WG white paper by the end
+of July, 2017. From these shorter summaries are being extracted to produce 
+the single, final Community White Paper document and roadmap by 1 Sep, 2017.
 
 ## Communication
 
-To join the CWP process and get information about its progress, please join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group (no Google account is required, you can register by sending an email to [hsf-community-white-paper+subscribe@googlegroups.com](mailto:hsf-community-white-paper+subscribe@googlegroups.com)). Subscribing to this group with a Google account is required if you want to be able to contribute to CWP documents hosted in Google Docs. Individual working groups may also have their own
-list or google group (see below).
-
-## Working Groups
-
-
-  The list of CWP working groups, their charges and status is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
+To join the CWP process and get information about its progress, please join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group (no Google account is required, you can register by sending an email to [hsf-community-white-paper+subscribe@googlegroups.com](mailto:hsf-community-white-paper+subscribe@googlegroups.com)). Subscribing to this group with a Google account is required if you want to be able to contribute to CWP documents hosted in Google Docs. Individual working groups may also have their own list or google group (see below).
 
 ## CWP Process
 
-The CWP process will involve a number of workshops between January and Summer 2017. As part of the process members of the community are encouraged to write white papers to describe their ideas on the various topics. White papers can be submitted by anyone: individuals, groups of individuals, experiments, institutions, etc.
+The CWP process has involved a number of workshops between January and Summer 2017. As part of the process members of the community have been encouraged to write white papers to describe their ideas on the various topics. White papers can be submitted by anyone: individuals, groups of individuals, experiments, institutions, etc.
 
 We maintain a [list of contributed CWP whitepapers](http://hepsoftwarefoundation.org/cwp-whitepapers.html).
 
