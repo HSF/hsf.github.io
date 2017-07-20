@@ -39,6 +39,7 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
 [Full list of past minutes](/organization/minutes.html).
 
 ## Presentations given by Startup Team Members
+ * [Summary of the HSF CWP Workshop in Annecy](https://indico.cern.ch/event/651834/contributions/2652777/attachments/1493614/2322911/HSF2017AnnecySummary.pdf) presented to CERN EP/SFT, 17 Jul 2017, Benedikt Hegner
  * [Parallel Processing in HEP](https://indico.cern.ch/event/466934/contributions/2524830/attachments/1490098/2315783/hep-parallel-v3.pdf), ECFA Plenary meeting on *Particle Physics and Society Extending our Vision and Reach*, EPS-HEP Venice, 8 July 2017, Graeme Stewart
  * [HSF and the Community White Paper](https://indico.lal.in2p3.fr/event/3473/session/1/contribution/2/material/slides/0.pdf), [Workshop](https://indico.lal.in2p3.fr/event/3473/timetable/#20170515.detailed) on Algorithms and Numerical Tools for QCD, Orsay/France, 15 May 2017, Michel Jouvin
  * [HSF and the Community White Paper - Report on the San Diego Workshop](https://indico.cern.ch/event/609308/contributions/2456640/attachments/1407318/2150983/HSF_workshopSanDiego.pdf) presented to CERN EP/SFT, 6 Feb 2017, Benedikt Hegner, Lorenzo Moneta
