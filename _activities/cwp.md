@@ -27,6 +27,10 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Editorial Team
 
+## Working Groups
+
+  The list of CWP working groups, their charges and status is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
+
 ## Timeline
 
 After a preparatory phase during Fall 2016, the CWP process was launched in January, 2017. The aim is to produce a consensus document by 1 Sep, 2017.
@@ -64,11 +68,6 @@ In the Annecy HSF workshop, the endgame timeline was discussed for the CWP.
 Each of the CWP WGs is finalizing a dedicated WG white paper by the end
 of July, 2017. From these shorter summaries are being extracted to produce 
 the single, final Community White Paper document and roadmap by 1 Sep, 2017.
-
-## Working Groups
-
-
-  The list of CWP working groups, their charges and status is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
 
 ## Communication
 
