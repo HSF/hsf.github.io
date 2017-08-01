@@ -32,29 +32,29 @@ we are reaching out to other HEP experiments around the world to participate.
 ## Draft WG white papers and status
 
   * Computing Models, Facilities, and Distributed Computing WG 
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit)
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit) - still writing
   * Detector Simulation WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=58e3 43c1#heading=h.6w9orc8rysri) 
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=58e3 43c1#heading=h.6w9orc8rysri) - still writing
   * Software Trigger and Event Reconstruction WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#)
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#) - still writing
   * Visualization WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit#heading=h.aywciqdbmlzq)
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit#heading=h.aywciqdbmlzq) - still writing
   * Data Access, Organization and Management WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit)
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit) - still writing
   * Machine Learning WG
-    * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/593a919f0f690d906afbfc76)
+    * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/593a919f0f690d906afbfc76) - still writing
   * Conditions Database WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit)
-  * Event Processing Frameworks WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7)
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit) - still writing
+  * Event Processing Frameworks WG 
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7) - still writing
   * Software Development, Deployment and Validation/Verification WG
-    * Draft WG white paper: [google doc](https://indico.cern.ch/event/613093/contributions/2615326/attachments/1482758/2300163/go)  
+    * Draft WG white paper: [google doc](https://indico.cern.ch/event/613093/contributions/2615326/attachments/1482758/2300163/go) - still writing
   * Data Analysis and Interpretation WG
-    * Draft WG white paper: [google doc](http://tinyurl.com/y9xrhphx)
+    * Draft WG white paper: [google doc](http://tinyurl.com/y9xrhphx) - still writing
   * Careers, Staffing and Training WG
-    * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9)
+    * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9) - still writing
   * Physics Generators WG
-    * Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
+    * Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn) - still writing
   
 
 ## Working Groups
