@@ -29,9 +29,17 @@ we are reaching out to other HEP experiments around the world to participate.
 
   (Coming soon...)
 
+## Draft WG white papers and status
+
+  * Computing Models, Facilities, and Distributed Computing WG 
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit)
+  * Detector Simulation WG
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=58e3 43c1#heading=h.6w9orc8rysri) 
+
+
 ## Working Groups
 
-  The list of CWP working groups, their charges and status is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
+  The list of CWP working groups, their charges and working documents is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
 
 ## Timeline
 
