@@ -44,7 +44,7 @@ we are reaching out to other HEP experiments around the world to participate.
   * Machine Learning WG
     * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/593a919f0f690d906afbfc76) - still writing
   * Conditions Database WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit) - still writing
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit) - ready for review
   * Event Processing Frameworks WG 
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7) - still writing
   * Software Development, Deployment and Validation/Verification WG
