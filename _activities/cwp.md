@@ -36,7 +36,7 @@ we are reaching out to other HEP experiments around the world to participate.
   * Detector Simulation WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=58e3 43c1#heading=h.6w9orc8rysri) - still writing
   * Software Trigger and Event Reconstruction WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#) - still writing
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#) - ready for review (Frozen version: [pdf](https://drive.google.com/open?id=0B8p0qzoMmbwbRFF4RmFtamlCaWs)
   * Visualization WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit#heading=h.aywciqdbmlzq) - still writing
   * Data Access, Organization and Management WG
