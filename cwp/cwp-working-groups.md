@@ -80,15 +80,15 @@ Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waB
 <!-- ======================================================= -->
 
 ### Machine Learning WG ###
-Charge: [Google Doc](https://docs.google.com/document/d/1o9S0XE4ly4-LZh9y96DG-U7HH61m2cHboV6xSt1tI0g/edit)
  
 Google group: hsf-cwp-machine-learning@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-machine-learning)
 
-Plans: The WG has 2 planned workshops in the coming months.
+The WG had 2 workshops in 2017.
 
   * a CWP session during the [IML topical workshop](https://indico.cern.ch/event/595059) at CERN, March 20 - 22, 2017
   * a CWP session (TBC) during [DS@HEP 2017](https://indico.fnal.gov/conferenceDisplay.py?confId=13497), FNAL May 8 - 12, 2017
 
+Review: [Hypothes.is](https://hypothes.is/groups/j9RW8j3i/hep-software-foundation)
 Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/593a919f0f690d906afbfc76)
 
 

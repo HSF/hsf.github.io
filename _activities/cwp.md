@@ -42,7 +42,7 @@ we are reaching out to other HEP experiments around the world to participate.
   * Data Access, Organization and Management WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit) - still writing
   * Machine Learning WG
-    * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/593a919f0f690d906afbfc76) - still writing
+    * Draft WG white paper: [Hypothes.is](https://hypothes.is/groups/j9RW8j3i/hep-software-foundation) - group internal review
   * Conditions Database WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit) - ready for review
   * Event Processing Frameworks WG 
@@ -93,6 +93,9 @@ A series of workshops/events have taken place:
   * 26-30 Jun, 2017 - HEP Software Foundation Workshop
     * *LAPP (Annecy)*
     * [Indico page](https://indico.cern.ch/event/613093/)
+  * 21-25 Aug, 2017 - ACAT 2017 (International Workshop on Advanced Computing and Analysis Techniques in Physics Research)
+    * *University of Washington (Seattle)*
+    * [Indico page](https://indico.cern.ch/event/567550/)
 
 In the Annecy HSF workshop, the endgame timeline was discussed for the CWP.
 Each of the CWP WGs is finalizing a dedicated WG white paper by the end
