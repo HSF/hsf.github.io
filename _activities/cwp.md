@@ -32,9 +32,10 @@ we are reaching out to other HEP experiments around the world to participate.
 ## Draft WG white papers and status
 
   * Computing Models, Facilities, and Distributed Computing WG 
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit) - still writing
+	* Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit?usp=sharing) - available for review
   * Detector Simulation WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=58e3 43c1#heading=h.6w9orc8rysri) - still writing
+	* Executive summary [paper available](https://docs.google.com/document/d/15dyg1H5FMkbAWJf8WC6cXa6X62L1Q9AXLJuRGD-FR00/edit?usp=sharing)
+	* Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit) - only a few open points
   * Software Trigger and Event Reconstruction WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#) - ready for review (Frozen version: [pdf](https://drive.google.com/open?id=0B8p0qzoMmbwbRFF4RmFtamlCaWs))
   * Visualization WG
@@ -42,13 +43,13 @@ we are reaching out to other HEP experiments around the world to participate.
   * Data Access, Organization and Management WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit) - still writing
   * Machine Learning WG
-    * Draft WG white paper: [Hypothes.is](https://hypothes.is/groups/j9RW8j3i/hep-software-foundation) - group internal review
+    * Draft WG white paper: [Hypothes.is](https://hypothes.is/groups/j9RW8j3i/hep-software-foundation) - submitted for wider community review
   * Conditions Database WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit) - ready for review
   * Event Processing Frameworks WG 
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7) - still writing
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7) - fairly complete, needs comment resolution
   * Software Development, Deployment and Validation/Verification WG
-    * Draft WG white paper: [google doc](https://indico.cern.ch/event/613093/contributions/2615326/attachments/1482758/2300163/go) - still writing
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1EtvAda2bZw5AHjhcqK-2T7bDlvznypZIWL-Bw3X6BWQ/edit?usp=sharing) - finshed, ready for review
   * Data Analysis and Interpretation WG
     * Draft WG white paper: [google doc](http://tinyurl.com/y9xrhphx) - still writing
   * Careers, Staffing and Training WG
@@ -59,7 +60,7 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Working Groups
 
-  The list of CWP working groups, their charges and working documents is maintained on a [dedicated working group page](http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html).
+  The list of CWP working groups, their charges and working documents is maintained on a [dedicated working group page](/cwp/cwp-working-groups.html).
 
 ## Timeline
 
