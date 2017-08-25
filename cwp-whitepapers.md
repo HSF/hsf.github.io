@@ -99,6 +99,11 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Added: 12 Apr 2017
     * Keywords:
 
+  * **HSF-CWP-018** - *Sustainable Matrix Element Method through Deep Learning* [(link to pdf)](cwp/hsf-cwp-018-CWP_sustainable_matrix_element_method.pdf)
+    * M. S. Neubauer (University of Illinois at Urbana-Champaign)
+    * Added: 24 Apr 2017
+    * Keywords:
+
 
 ### Previous Related Community Documents
 
