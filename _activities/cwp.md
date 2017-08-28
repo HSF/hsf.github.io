@@ -41,7 +41,7 @@ we are reaching out to other HEP experiments around the world to participate.
   * Visualization WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit#heading=h.aywciqdbmlzq) - still writing
   * Data Access, Organization and Management WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit) - still writing
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit) - available for review
   * Machine Learning WG
     * Draft WG white paper: [Hypothes.is](https://hypothes.is/groups/j9RW8j3i/hep-software-foundation) - submitted for wider community review
   * Conditions Database WG
