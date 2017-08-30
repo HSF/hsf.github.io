@@ -44,15 +44,12 @@ Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti
 <!-- ======================================================= -->
 
 ### Software Trigger and Event Reconstruction WG ###
-Charge: [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          
+Charge and meeting notes: [Google Doc](https://docs.google.com/document/d/1Mm6aqi2SwVyvQFkmEjDEVSALem_8a7gTORldojaYRs4/edit)          
 
 Google group: hsf-cwp-swtrig-evtreco@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-swtrig-evtreco)     
 
-Plans: The software trigger / event reconstruction WG plans to hold a couple of workshops. The first will be held at Orsay (and on vidyo) is planned:
-
-  * 9 Mar 2017 - [Indico](https://indico.cern.ch/event/614111/), [Announcement](https://groups.google.com/d/msgid/hsf-cwp-swtrig-evtreco/01a8b1b5-e5a7-4459-85ba-0b24437bb850%40googlegroups.com)
-
-Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#)
+Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0)
+Draft WG executive summary: [google doc](https://docs.google.com/document/d/1f1rOFwqRh7FhSB2VXf5hM14r5wHdkIXo3AdBcYkC1qk)
 
 
 <!-- ======================================================= -->
