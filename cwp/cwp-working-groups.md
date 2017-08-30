@@ -49,6 +49,7 @@ Charge and meeting notes: [Google Doc](https://docs.google.com/document/d/1Mm6aq
 Google group: hsf-cwp-swtrig-evtreco@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-cwp-swtrig-evtreco)     
 
 Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0)
+
 Draft WG executive summary: [google doc](https://docs.google.com/document/d/1f1rOFwqRh7FhSB2VXf5hM14r5wHdkIXo3AdBcYkC1qk)
 
 
