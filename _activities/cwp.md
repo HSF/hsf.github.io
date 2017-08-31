@@ -32,7 +32,7 @@ we are reaching out to other HEP experiments around the world to participate.
 ## Draft WG white papers and status
 
   * Computing Models, Facilities, and Distributed Computing WG 
-	* Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit?usp=sharing) - available for review
+	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing) - available for review
   * Detector Simulation WG
 	* Executive summary [paper available](https://docs.google.com/document/d/15dyg1H5FMkbAWJf8WC6cXa6X62L1Q9AXLJuRGD-FR00/edit?usp=sharing)
 	* Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit) - only a few open points
