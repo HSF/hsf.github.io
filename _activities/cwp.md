@@ -35,7 +35,7 @@ we are reaching out to other HEP experiments around the world to participate.
 	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing) - available for review
   * Detector Simulation WG
 	* Executive summary [paper available](https://docs.google.com/document/d/15dyg1H5FMkbAWJf8WC6cXa6X62L1Q9AXLJuRGD-FR00/edit?usp=sharing)
-	* Draft WG white paper: [google doc](https://docs.google.com/document/d/164SMNC3lzZGlXfqWvY7slxVbTro2Z7rZY_3DUVQT1JM/edit) - only a few open points
+	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=5977c5fc) - only a few open points
   * Software Trigger and Event Reconstruction WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#) - ready for review (Frozen version: [pdf](https://drive.google.com/open?id=0B8p0qzoMmbwbRFF4RmFtamlCaWs))
     * Draft WG executive summary: [google doc](https://docs.google.com/document/d/1f1rOFwqRh7FhSB2VXf5hM14r5wHdkIXo3AdBcYkC1qk) - ready for review (Frozen version: [pdf](https://drive.google.com/file/d/0B8p0qzoMmbwbdGRZV0lTUDZHZ3c/view?usp=sharing))   
