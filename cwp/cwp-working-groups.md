@@ -6,14 +6,19 @@ layout: default
 
 ## Community White Paper (CWP) Working Groups
 
-  During October, 2016, the process of forming CWP working groups has begun. We are letting the working groups self-organize with a bit of help from the HEP experiment software/computing coordinators and the HSF startup team. The first step for each working group is to formulate a charge to describe the challenges in that area and questions which need to be answered to produce a roadmap for the CWP. 
+In October, 2016, the process of forming CWP working groups began. Working groups self-organized with some help from the HEP experiment software/computing coordinators and the HSF startup team. Charges were formulated to describe the challenges in that area and questions which need to be answered to produce a roadmap for the CWP. 
 
-  The working group charges should be world-visible for reading. If you would
-like to edit them, you will need to join the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group and
-login as your google user. If you would like organize an additional working group, please post to the [hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper) Google group.
+The working group charges and working group document should be world-visible for reading. Please
+join the 
+[hsf-community-white-paper](https://groups.google.com/forum/#!forum/hsf-community-white-paper)
+Google group if you would like to edit or comment. For those groups that chose not to use
+Google Docs, please contact the group for the best way to comment or contribute.
 
 **Note: it is possible to register to all the Google groups without a Google account. In this case, send an empty email (subject and contents ignored) to the group email, adding `+subscribe` after the group name. (e.g. hsf-cwp-software-development+subscribe@googlegroups.com).**
 
+As the CWP process is now concluding, this page is mostly for information and
+to capture some history now. Please see the [CWP status page](../activities/cwp.html) for the latest
+status of working group papers.
 
 
 <!-- ======================================================= -->
@@ -122,7 +127,7 @@ Google group: hsf-cwp-software-development@googlegroups.com [(link to subscribe)
 
 Plans:
 
-Draft WG white paper: [google doc](https://indico.cern.ch/event/613093/contributions/2615326/attachments/1482758/2300163/go)
+Draft WG white paper: [google doc](https://docs.google.com/document/d/1EtvAda2bZw5AHjhcqK-2T7bDlvznypZIWL-Bw3X6BWQ/edit?usp=sharing); original [dropbox paper](https://paper.dropbox.com/doc/CWP-WG-Software-development-Deployment-and-ValidationVerification-3fHuGjHGETMIHv4pKQrPR) has been archived (it has some interesting comment threads)
 
 <!-- ======================================================= -->
 
@@ -152,6 +157,8 @@ Charge: [Google Doc](https://docs.google.com/document/d/15trJhLKqb9OcN55WIPfmdH8
 Google group: hsf-cwp-data-preservation@googlegroups.com [(link to subscribe)](https://groups.google.com/d/forum/hsf-cwp-data-preservation)
 
 Plans:
+
+Draft WG notes: [google doc](https://docs.google.com/document/d/1IGKQStDZm97PFZJX_N0OuN5cCZ26WOH1Qiiixnq8M-M/edit?usp=sharing)
 
 <!-- ======================================================= -->
 
