@@ -28,7 +28,14 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Editorial Team
 
-  (Coming soon...)
+  * Predrag Buncic (CERN, - Alice contact
+  * Simone Campana (CERN) - Atlas contact
+  * Peter Elmer (Princeton)
+  * Mark Neubauer (U.Illinois Urbana-Champaign)
+  * Liz Sexton-Kennedy (FNAL) - CMS contact
+  * Mike Sokoloff (U.Cincinnati)
+  * Graeme Stewart (CERN, HSF)
+  * Jean-Roch Vlimant (Caltech)
 
 ## Draft WG white papers and status
 
