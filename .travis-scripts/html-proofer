@@ -44,7 +44,7 @@ echo "html-proofer url-ignore option: ${url_ignore_option}"
 
 bundle exec jekyll build
 set +e # do not halt script on error
-bundle exec htmlproofer ${url_ignore_option} ${debug_option} --check-html ./_site
+bundle exec $(dirname $0)/htmlproofer-hsf.rb ${url_ignore_option} ${debug_option} --https-ca-ignore --check-html ./_site
 status=$?
 if [ ${status} -ne 0 -a -z "${debug_option}" ]
 then
