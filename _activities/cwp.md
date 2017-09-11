@@ -31,6 +31,9 @@ we are reaching out to other HEP experiments around the world to participate.
   * Predrag Buncic (CERN, - Alice contact
   * Simone Campana (CERN) - Atlas contact
   * Peter Elmer (Princeton)
+  * John Harvey (CERN)
+  * Maria Girone (CERN Openlab)
+  * Michel Jouvin (LAL Orsay)
   * Mark Neubauer (U.Illinois Urbana-Champaign)
   * Liz Sexton-Kennedy (FNAL) - CMS contact
   * Mike Sokoloff (U.Cincinnati)
