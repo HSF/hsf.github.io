@@ -25,9 +25,11 @@ We have two mailing lists for exchange of information and technical discussions
 {:.table .table-hover .table-condensed .table-striped}
 | Date                                                                               | Main topic                          |
 | ---------------------------------------------------------------------------------- | ----------------------------------- |
-| [24.2.2016](https://indico.hephy.oeaw.ac.at/event/86/session/5/?slotId=0#20160224) | Session at Connecting the Dots 2016 |
+| [24.2.2016](https://indico.hephy.oeaw.ac.at/event/86/session/5/?slotId=0#20160224){:data-proofer-ignore} | Session at Connecting the Dots 2016 |
 | [29.1.2016](https://indico.cern.ch/event/486488/)                                  | Vidyo Meeting                       |
 | [3.12.2015](https://indico.cern.ch/event/459865/)                                  | Kickoff Meeting at CERN             |
+
+<!-- Note that the CTD link works, but it's very slow and often times out when being checked -->
 
 ## Participating Projects and Groups
 

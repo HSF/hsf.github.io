@@ -102,7 +102,7 @@ into `css/hsf.css`).
 
 It is often desirable to assess the result of changes before publishing them. There is no services at GitHub to do that: 
 you can only render the markdown contents, without all the CSS and other things. To achieve this, you need to install 
-Jekyll on your local machine. Detailed instructions can be found on Jekyll [web site](https://jekyllrb.com/docs/installation/) 
+Jekyll on your local machine. Detailed instructions can be found on Jekyll [web site](http://jekyllrb.com/docs/installation/) 
 but the short story is:
 
 * Install [Ruby](https://www.ruby-lang.org/en/downloads/) and [RubyGems](https://rubygems.org/pages/download)

@@ -33,5 +33,8 @@ organization:
 
   * [http://root.cern](http://root.cern)
   * [http://mlr-org.github.io](http://mlr-org.github.io)
-  * [http://oproject.org/RMVA](http://oproject.org/RMVA)
-  * [http://oproject.org/ROOT+R](http://oproject.org/ROOT+R)
+  * [http://oproject.org/RMVA](http://oproject.org/RMVA){:data-proofer-ignore}
+  * [http://oproject.org/ROOT+R](http://oproject.org/ROOT+R){:data-proofer-ignore}
+  
+  <!-- Note that the oproject links work, but they are very slow and often time out when being checked -->
+  

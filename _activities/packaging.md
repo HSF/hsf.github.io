@@ -46,7 +46,7 @@ During these meetings we looked at the following community-driven projects
 
 and the following open-source projects
 
-  * [Conda](http://conda.pydata.org/docs/)
+  * [Conda](https://conda.io/docs/)
   * [homebrew](http://brew.sh/)
   * [Nix](https://nixos.org/nix/)
   * [Portage](https://wiki.gentoo.org/wiki/Project:Portage)
