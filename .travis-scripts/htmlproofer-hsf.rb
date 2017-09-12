@@ -32,12 +32,13 @@ Mercenary.program(:htmlproofer) do |p|
   p.option 'check_img_http', '--check-img-http', 'Fails an image if it\'s marked as `http` (default: `false`).'
   p.option 'check_opengraph', '--check-opengraph', 'Enables the Open Graph checker (default: `false`).'
   p.option 'check_sri', '--check-sri', 'Check that `<link>` and `<script>` external resources do use SRI (default: `false`).'
+  p.option 'connect_timeout', '--connect-timeout <seconds>', String, 'Connection timeout for typhoeus. (default: 10)'
   p.option 'directory_index_file', '--directory-index-file', String, 'Sets the file to look for when a link refers to a directory. (default: `index.html`)'
   p.option 'disable_external', '--disable-external', 'If `true`, does not run the external link checker, which can take a lot of time (default: `false`)'
   p.option 'empty_alt_ignore', '--empty-alt-ignore', 'If `true`, ignores images with empty alt tags'
   p.option 'error_sort', '--error-sort SORT', 'Defines the sort order for error output. Can be `:path`, `:desc`, or `:status` (default: `:path`).'
   p.option 'enforce_https', '--enforce-https', 'Fails a link if it\'s not marked as `https` (default: `false`).'
-  p.option 'extension', '--extension EXT', String, 'The extension of your HTML files including the dot. (default: `.html`)'
+  p.option 'extension', '--extension EXT', 'The extension of your HTML files including the dot. (default: `.html`)'
   p.option 'external_only', '--external_only', 'Only checks problems with external references'
   p.option 'file_ignore', '--file-ignore file1,[file2,...]', Array, 'A comma-separated list of Strings or RegExps containing file paths that are safe to ignore'
   p.option 'http_status_ignore', '--http-status-ignore 123,[xxx, ...]', Array, 'A comma-separated list of numbers representing status codes to ignore.'
@@ -48,6 +49,7 @@ Mercenary.program(:htmlproofer) do |p|
   p.option 'log_level', '--log-level <level>', String, 'Sets the logging level, as determined by Yell. One of `:debug`, `:info`, `:warn`, `:error`, or `:fatal`. (default: `:info`)'
   p.option 'only_4xx', '--only-4xx', 'Only reports errors for links that fall within the 4xx status code range'
   p.option 'timeframe', '--timeframe <time>', String, 'A string representing the caching timeframe.'
+  p.option 'timeout', '--timeout <seconds>', String, 'Timeout for typhoeus. (default: 30)'
   p.option 'url_ignore', '--url-ignore link1,[link2,...]', Array, 'A comma-separated list of Strings or RegExps containing URLs that are safe to ignore. It affects all HTML attributes. Note that non-HTTP(S) URIs are always ignored'
   p.option 'url_swap', '--url-swap re:string,[re:string,...]', Array, 'A comma-separated list containing key-value pairs of `RegExp => String`. It transforms URLs that match `RegExp` into `String` via `gsub`. The escape sequences `\\:` should be used to produce literal `:`s.'
   p.option 'internal_domains', '--internal-domains domain1,[domain2,...]', Array, 'A comma-separated list of Strings containing domains that will be treated as internal urls.'
@@ -94,10 +96,17 @@ Mercenary.program(:htmlproofer) do |p|
 
     options[:http_status_ignore] = Array(options[:http_status_ignore]).map(&:to_i)
 
-    if options[:https_ca_ignore]
-      options[:typhoeus] = {:ssl_verifypeer => false}
+    options[:typhoeus] = Hash.new
+    if options.has_key?(:https_ca_ignore)
+      options[:typhoeus][:ssl_verifypeer] = false
     end
-
+    if options.has_key?(:connect_timeout)
+      options[:typhoeus][:connecttimeout] = options[:connect_timeout].to_i
+    end
+    if options[:timeout]
+      options[:typhoeus][:timeout] = options[:timeout].to_i
+    end
+    
     paths = path.split(',')
     if opts['as_links']
       links = path.delete(' ').split(',')
