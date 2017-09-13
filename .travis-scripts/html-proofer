@@ -17,7 +17,8 @@ then
 fi
 
 bundle exec jekyll build
-bundle exec $(dirname $0)/htmlproofer-hsf.rb ${url_ignore_option} ${debug_option} --https-ca-ignore --timeout 60 --connect-timeout 60 --check-html ./_site
+bundle exec $(dirname $0)/htmlproofer-hsf.rb ${url_ignore_option} ${debug_option} \
+  --https-ca-ignore --timeout 600 --connect-timeout 600  --max-connections 5 --check-html ./_site
 status=$?
 if [ ${status} -ne 0 -a -z "${debug_option}" ]
 then

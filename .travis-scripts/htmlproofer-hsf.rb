@@ -43,6 +43,7 @@ Mercenary.program(:htmlproofer) do |p|
   p.option 'file_ignore', '--file-ignore file1,[file2,...]', Array, 'A comma-separated list of Strings or RegExps containing file paths that are safe to ignore'
   p.option 'http_status_ignore', '--http-status-ignore 123,[xxx, ...]', Array, 'A comma-separated list of numbers representing status codes to ignore.'
   p.option 'https_ca_ignore', '--https-ca-ignore', 'Ignore problems related to host certificate verification.'
+  p.option 'max_connections', '--max-connections <connetions>', String, 'Number of parallel connections. (default: 50)'
   p.option 'report_invalid_tags', '--report-invalid-tags', 'Ignore `check_html` errors associated with unknown markup (default: `false`)'
   p.option 'report_missing_names', '--report-missing-names', 'Ignore `check_html` errors associated with missing entities (default: `false`)'
   p.option 'report_script_embeds', '--report-script-embeds', 'Ignore `check_html` errors associated with `script`s (default: `false`)'
@@ -103,10 +104,14 @@ Mercenary.program(:htmlproofer) do |p|
     if options.has_key?(:connect_timeout)
       options[:typhoeus][:connecttimeout] = options[:connect_timeout].to_i
     end
-    if options[:timeout]
+    if options.has_key?(:timeout)
       options[:typhoeus][:timeout] = options[:timeout].to_i
     end
     
+    if options.has_key?(:max_connections)
+      options[:hydra] = { max_concurrency: options[:max_connections].to_i }
+    end
+
     paths = path.split(',')
     if opts['as_links']
       links = path.delete(' ').split(',')
