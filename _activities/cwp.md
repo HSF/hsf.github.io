@@ -34,6 +34,7 @@ we are reaching out to other HEP experiments around the world to participate.
   * John Harvey (CERN)
   * Maria Girone (CERN Openlab)
   * Michel Jouvin (LAL Orsay)
+  * Dario Menasce (INFN-Milano) - INFN contact
   * Mark Neubauer (U.Illinois Urbana-Champaign)
   * Stefan Roiser (CERN) - LHCb contact
   * Liz Sexton-Kennedy (FNAL) - CMS contact
