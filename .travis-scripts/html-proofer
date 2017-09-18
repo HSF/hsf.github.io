@@ -16,6 +16,8 @@ then
     usage
 fi
 
+export LD_LIBRARY_PATH=$(pwd)/.travis-scripts/lib:$LD_LIBRARY_PATH
+
 bundle exec jekyll build
 bundle exec htmlproofer ${url_ignore_option} ${debug_option} --check-html ./_site
 status=$?
