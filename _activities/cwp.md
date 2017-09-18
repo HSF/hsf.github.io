@@ -50,7 +50,7 @@ we are reaching out to other HEP experiments around the world to participate.
 	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing) - **available for review**
   * Conditions Database WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit) - **available for review**
-  * Data Access, Organization and Management WG
+  * Data Organization, Management and Access WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit) - **available for review**
   * Data Analysis and Interpretation WG
     * Draft WG white paper: [google doc](http://tinyurl.com/y9xrhphx) - still writing
