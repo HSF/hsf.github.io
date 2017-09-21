@@ -8,7 +8,7 @@ layout: default
 Currently the activities within the HSF are organized by the *HSF startup team*. Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the startup team:
 
  * [Amber Boehnlein](https://www.jlab.org/div_dept/directorate/directors/ABoehnlein.html) - Jefferson Lab
- * [Peter Elmer](http://www.princeton.edu/physics/people/display_person.xml?netid=gelmer) - Princeton University
+ * [Peter Elmer](https://phy.princeton.edu/people/g-j-peter-elmer) - Princeton University
  * Daniel Elvira - [FNAL](http://www.fnal.gov)
  * Frank Gaede - [DESY](http://www.desy.de)
  * Benedikt Hegner - [CERN](http://cern.ch)
