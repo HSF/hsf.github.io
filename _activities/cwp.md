@@ -32,8 +32,10 @@ we are reaching out to other HEP experiments around the world to participate.
   * Simone Campana (CERN) - Atlas contact
   * Peter Elmer (Princeton)
   * John Harvey (CERN)
+  * Frank Gaede (DESY) - Linear Collider contact
   * Maria Girone (CERN Openlab)
   * Michel Jouvin (LAL Orsay)
+  * Rob Kutschke (FNAL) - FNAL experiments contact
   * Dario Menasce (INFN-Milano) - INFN contact
   * Mark Neubauer (U.Illinois Urbana-Champaign)
   * Stefan Roiser (CERN) - LHCb contact
