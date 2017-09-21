@@ -34,6 +34,7 @@ we are reaching out to other HEP experiments around the world to participate.
   * John Harvey (CERN)
   * Frank Gaede (DESY) - Linear Collider contact
   * Maria Girone (CERN Openlab)
+  * Roger Jones (Univ. of Lancaster) - UK contact
   * Michel Jouvin (LAL Orsay)
   * Rob Kutschke (FNAL) - FNAL experiments contact
   * Dario Menasce (INFN-Milano) - INFN contact
