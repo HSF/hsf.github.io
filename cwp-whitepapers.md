@@ -100,7 +100,7 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Keywords:
 
   * **HSF-CWP-018** - *Sustainable Matrix Element Method through Deep Learning* [(link to pdf)](cwp/hsf-cwp-018-CWP_sustainable_matrix_element_method.pdf)
-    * M. S. Neubauer (University of Illinois at Urbana-Champaign)
+    * P. Chang (University of California at San Diego), S. Gleyzer (University of Florida), M. S. Neubauer (University of Illinois at Urbana-Champaign), D. Zhong (University of Illinois at Urbana-Champaign)
     * Added: 24 Apr 2017
     * Keywords:
 
@@ -108,12 +108,6 @@ If you have a white paper which you would like to contribute to the CWP process,
     * J. Pivarski (Princeton University), T. Malik (DePaul University), M. S. Neubauer (University of Illinois at Urbana-Champaign), P. Elmer (Princeton University)
     * Added: 20 Sep 2017
     * Keywords:
-
-###  * **HSF-CWP-020** - *A Query-based Analysis System for HEP* [(link to pdf)](cwp/hsf-cwp-020-CWP_rolup.pdf)
-###    * L. Bauerdick (Fermilab), J. Pivarski (Princeton University), M. S. Neubauer (University of Illinois at Urbana-Champaign), F. Wuerthwein (University of California at San Diego)
-###    * Added: 26 Apr 2017
-###    * Keywords:
-
 
 ### Previous Related Community Documents
 
