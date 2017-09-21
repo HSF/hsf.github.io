@@ -105,14 +105,14 @@ If you have a white paper which you would like to contribute to the CWP process,
     * Keywords:
 
   * **HSF-CWP-019** - *Hierarchical Data Rolled Up in Columnar Arrays* [(link to pdf)](cwp/hsf-cwp-019-CWP_rolup.pdf)
-    * J. Pivarski (Princeton University), T. Malik (DePaul University), M. S. Neubauer (University of Illinois at Urbana-Champaign), G. Watts (University of Washington)
-    * Added: 26 Apr 2017
+    * J. Pivarski (Princeton University), T. Malik (DePaul University), M. S. Neubauer (University of Illinois at Urbana-Champaign), P. Elmer (Princeton University)
+    * Added: 20 Sep 2017
     * Keywords:
 
-  * **HSF-CWP-020** - *A Query-based Analysis System for HEP* [(link to pdf)](cwp/hsf-cwp-020-CWP_rolup.pdf)
-    * L. Bauerdick (Fermilab), J. Pivarski (Princeton University), M. S. Neubauer (University of Illinois at Urbana-Champaign), F. Wuerthwein (University of California at San Diego)
-    * Added: 26 Apr 2017
-    * Keywords:
+###  * **HSF-CWP-020** - *A Query-based Analysis System for HEP* [(link to pdf)](cwp/hsf-cwp-020-CWP_rolup.pdf)
+###    * L. Bauerdick (Fermilab), J. Pivarski (Princeton University), M. S. Neubauer (University of Illinois at Urbana-Champaign), F. Wuerthwein (University of California at San Diego)
+###    * Added: 26 Apr 2017
+###    * Keywords:
 
 
 ### Previous Related Community Documents
