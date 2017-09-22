@@ -11,11 +11,11 @@ layout: default
 {:toc}
 
 The HSF web site is hosted by [GitHub Pages](https://pages.github.com) which relies on a framework called 
-[Jekyll](https://jekyllrb.com). This page documents a few useful hints that help contributing to the web site 
+[Jekyll](https://jekyllrb.com){:data-proofer-ignore}. This page documents a few useful hints that help contributing to the web site 
 and assessing the result of your contributions. Refer to the linked documentations for details about [
-GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
+GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com){:data-proofer-ignore}.
 
-
+<!-- Unknown error from Travis HTML proofing on jekyllrb.com -->
 
 ## Content Format
 

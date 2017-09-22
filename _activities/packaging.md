@@ -46,7 +46,7 @@ During these meetings we looked at the following community-driven projects
 
 and the following open-source projects
 
-  * [Conda](https://conda.io/docs/)
+  * [Conda](https://conda.io/docs/){:data-proofer-ignore} <!-- Unknown error from Travis HTML proofing -->
   * [homebrew](http://brew.sh/)
   * [Nix](https://nixos.org/nix/)
   * [Portage](https://wiki.gentoo.org/wiki/Project:Portage)

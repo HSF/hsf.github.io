@@ -17,7 +17,7 @@ Currently the activities within the HSF are organized by the *HSF startup team*.
  * Andrew McNab - [Manchester](http://www.hep.manchester.ac.uk)
  * Dario Menasce - [INFN](http://www.mi.infn.it)
  * Mark Neubauer - University of Illinois at Urbana-Champaign
- * [Mark Neubauer](https://physics.illinois.edu/people/directory/profile/msn) - University of Illinois at Urbana-Champaign
+ * [Mark Neubauer](https://physics.illinois.edu/people/directory/profile/msn){:data-proofer-ignore} - University of Illinois at Urbana-Champaign <!-- Unknown error from Travis HTML proofing on this URL -->
  * Elizabeth Sexton-Kennedy - [FNAL](http://www.fnal.gov)
  * Graeme Stewart - [CERN](https://phonebook.cern.ch/phonebook/#personDetails/?id=660400)
  * Craig Tull - [LBNL](http://www.lbl.gov)

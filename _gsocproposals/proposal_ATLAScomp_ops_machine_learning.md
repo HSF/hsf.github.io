@@ -60,4 +60,4 @@ The ATLAS Data Management system (Rucio) will serve as the experimental platform
 - [ElasticSearch](https://www.elastic.co/)
 - [TensorFlow](https://www.tensorflow.org/)
 - [Keras](https://keras.io/)
-- [Jupyter](https://jupyter.org/)
+- [Jupyter](https://jupyter.org/){:data-proofer-ignore} <!-- Unknown error from Travis HTML proofing -->
