@@ -16,6 +16,9 @@ then
     usage
 fi
 
+# Update certificates
+sudo -u root $(dirname $0)/install-certs.sh
+
 export LD_LIBRARY_PATH=$(pwd)/.travis-scripts/lib:$LD_LIBRARY_PATH
 
 bundle exec jekyll build
