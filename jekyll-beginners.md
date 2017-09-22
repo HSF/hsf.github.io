@@ -11,11 +11,11 @@ layout: default
 {:toc}
 
 The HSF web site is hosted by [GitHub Pages](https://pages.github.com) which relies on a framework called 
-[Jekyll](https://jekyllrb.com). This page documents a few useful hints that help contributing to the web site 
+[Jekyll](https://jekyllrb.com){:data-proofer-ignore}. This page documents a few useful hints that help contributing to the web site 
 and assessing the result of your contributions. Refer to the linked documentations for details about [
-GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
+GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com){:data-proofer-ignore}.
 
-
+<!-- Unknown error from Travis HTML proofing on jekyllrb.com -->
 
 ## Content Format
 
@@ -102,7 +102,7 @@ into `css/hsf.css`).
 
 It is often desirable to assess the result of changes before publishing them. There is no services at GitHub to do that: 
 you can only render the markdown contents, without all the CSS and other things. To achieve this, you need to install 
-Jekyll on your local machine. Detailed instructions can be found on Jekyll [web site](https://jekyllrb.com/docs/installation/) 
+Jekyll on your local machine. Detailed instructions can be found on Jekyll [web site](http://jekyllrb.com/docs/installation/) 
 but the short story is:
 
 * Install [Ruby](https://www.ruby-lang.org/en/downloads/) and [RubyGems](https://rubygems.org/pages/download)

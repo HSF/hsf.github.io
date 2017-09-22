@@ -119,7 +119,7 @@ If you have a white paper which you would like to contribute to the CWP process,
 
   * US Snowmass process:
 
-    * [Planning the Future of U.S. Particle Physics (Snowmass 2013): Chapter 9: Computing](http://arxiv.org/abs/1401.6117)
+    * [Planning the Future of U.S. Particle Physics (Snowmass 2013): Chapter 9: Computing](https://arxiv.org/abs/1401.6117)
 
-    * [Snowmass Computing Frontier: Software Development, Staffing and Training](http://arxiv.org/abs/1311.2567)
+    * [Snowmass Computing Frontier: Software Development, Staffing and Training](https://arxiv.org/abs/1311.2567)
 

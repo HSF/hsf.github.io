@@ -7,7 +7,7 @@ organization: CERN
 
 ## Description
 
-[Spark](http://spark.apache.org)  is an open-source software framework for large-scale big data processing on clusters. While it has become mainstream in industry, its adoption in the field of physics is still in its infancy. This project intends to explore the use of Spark for physics analysis at CERN, and in particular its interplay with two technologies: (i) [ROOT](http://root.cern.ch), a software toolkit widely used for high-energy physics analysis, and (ii) the [Jupyter](http://jupyter.org) notebooks, a well-known interface for interactive analysis.
+[Spark](http://spark.apache.org/)  is an open-source software framework for large-scale big data processing on clusters. While it has become mainstream in industry, its adoption in the field of physics is still in its infancy. This project intends to explore the use of Spark for physics analysis at CERN, and in particular its interplay with two technologies: (i) [ROOT](http://root.cern.ch/), a software toolkit widely used for high-energy physics analysis, and (ii) the [Jupyter](http://jupyter.org/) notebooks, a well-known interface for interactive analysis.
 The main development of this project will focus on making it easier to manage Spark computations from a Jupyter notebook. A plugin will be developed so that notebook users can monitor the status of a Spark job submitted from a notebook cell, and even cancel it if necessary. The main use case of the plugin will be a parallel physics analysis with ROOT and Spark, with a possible second use case in distributed machine learning. The plugin can then be integrated into the [SWAN](http://swan.web.cern.ch/) notebook pilot service at CERN.
 
 ## Task ideas
