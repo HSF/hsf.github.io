@@ -60,7 +60,7 @@ beneficial for all LHC experiments as well as a forum where on-going work and re
 are discussed by the community.
 
 - The mailing list is **lhc-machinelearning-wg@cern.ch**
-- Working [group meetings](http://iml.cern.ch/tiki-index.php?page=Indico)
+- [Working group meetings](http://iml.web.cern.ch/meetings)
 
 ---
 
