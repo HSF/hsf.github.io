@@ -13,11 +13,11 @@ description: |
   operations on several, very different computer platforms. The source code is
   written in Fortran, and is pre-processed by two programs that assemble the code
   blocks and provide automatic differentiation of the equation of motions. The
-  code relies on the [crlibm](http://lipforge.ens-lyon.fr/www/crlibm/) library,
+  code relies on the `crlibm` library,
   careful arrangement of parenthesis, dedicated input/output and selected
   compilation flags for the most common compilers to provide identical results on
   different platforms and operating systems. An option enables the use of the
-  [Boinc](http://lipforge.ens-lyon.fr/www/crlibm/) library for volunteer
+  Boinc library for volunteer
   computing. A running environment SixDesk is used to generate input files, split
   simulations for LHC@Home (link sends e-mail) or CERN cluster and collect the
   results for the user. SixTrack is licensed under LGPLv2.1.
