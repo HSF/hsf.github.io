@@ -79,7 +79,7 @@ Nick says license is defined by the copyright owner, not the author. So it depen
 
 - the analysis and the conclusions are in line with the (much more thorough) work produced by the Open Source Task Force established at CERN
 
-- INFN is leaning towards the adoption of the [*European Union Public License*](https://joinup.ec.europa.eu/community/eupl/topic/public-consultation-draft-eupl-v12) (EUPL) 1.2, which is a copyleft license created on the initiative of the European Commission, compatible with the legislation of the EU and all the EU Countries and officially available in all the EU languages
+- INFN is leaning towards the adoption of the [*European Union Public License*](https://joinup.ec.europa.eu/page/eupl) (EUPL) 1.2, which is a copyleft license created on the initiative of the European Commission, compatible with the legislation of the EU and all the EU Countries and officially available in all the EU languages
 - the choice of a copyleft license instead of a permissive one helps when dealing with Technology/Knowledge Transfer matters, because it protects better against third-party appropriation
 - the EUPL is the **\*default\*** license, in case there are no other constraints or obligations, for example because one is part of CMS or ATLAS
 
