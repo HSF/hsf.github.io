@@ -47,6 +47,11 @@ right place for it, feel free to contact the
 You are very welcome to extend this website and add information to it. You can
 find instructions on how to do it [here](/howto-website.html).
 
+## Add events to the community calendar
+
+See [this short guide](/calendar.html) for how to add next events to the calendar.
+
+
 ## Contributing to the HSF S&C Knowledge Base
 
 The HSF provides a S&C knowledge base at 
