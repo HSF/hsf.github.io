@@ -56,7 +56,7 @@ we are reaching out to other HEP experiments around the world to participate.
   * Data Organization, Management and Access WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit) - **available for review**
   * Data Analysis and Interpretation WG
-    * Draft WG white paper: [google doc](http://tinyurl.com/y9xrhphx) - still writing
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/17309oyniwK01qvJgDPrBsLw_-jqRgvkvWZi5lLmQISI/edit?usp=sharing) - **available for review**
   * Data and Software Preservation WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1IGKQStDZm97PFZJX_N0OuN5cCZ26WOH1Qiiixnq8M-M/edit?usp=sharing)
   * Detector Simulation WG
