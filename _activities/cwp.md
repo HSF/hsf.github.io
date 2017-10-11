@@ -65,7 +65,7 @@ we are reaching out to other HEP experiments around the world to participate.
   * Event Processing Frameworks WG 
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7) - fairly complete, needs executive summary
   * Machine Learning WG
-    * Draft WG white paper: [Hypothes.is](https://hypothes.is/groups/j9RW8j3i/hep-software-foundation) - submitted for wider community review
+    * Draft WG white paper: [sharelatex](https://www.sharelatex.com/project/593a919f0f690d906afbfc76) - submitted for wider community review
   * Physics Generators WG
     * Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn) - still writing  
   * Software Development, Deployment and Validation/Verification WG
