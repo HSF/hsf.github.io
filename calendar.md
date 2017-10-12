@@ -6,7 +6,7 @@ layout: default
 
 The HSF [Community Calendar](https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com){:target="_hsf_calendar"}
 can be edited by people in the [HSF Startup Team](https://groups.google.com/forum/#!forum/hep-sf-startup-team)
-Google Group **TBD** an additional group **TBD**.
+or in the [HSF Calendar Editors Group](https://groups.google.com/forum/#!forum/hep-sf-calendar-editors) Google Groups.
 
 The most straight forward way to do this is to 
 
@@ -21,5 +21,5 @@ https://calendar.google.com/calendar/ical/e4v33e1a1drbncdle1n03ahpcs%40group.cal
 Then you will have the ability to view events in the community 
 calendar and, if you are in an editing group, add them. 
 
-Please ask to join one of the editing groups if you would like to add events. 
- 
+Please ask to join one of the editing groups if you would like to add events
+for your experiment or community.
