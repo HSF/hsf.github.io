@@ -48,7 +48,7 @@ we are reaching out to other HEP experiments around the world to participate.
 ## Draft WG white papers and status
 
   * Careers, Staffing and Training WG
-    * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9) - still writing
+    * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9) - **available for review**
   * Computing Models, Facilities, and Distributed Computing WG 
 	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing) - **available for review**
   * Conditions Database WG
@@ -58,16 +58,16 @@ we are reaching out to other HEP experiments around the world to participate.
   * Data Analysis and Interpretation WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/13ediEyaP1QGF-esZOXUH3SNShJFsqa2f6hVmEukJv_c/edit) - **available for review**
   * Data and Software Preservation WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1IGKQStDZm97PFZJX_N0OuN5cCZ26WOH1Qiiixnq8M-M/edit?usp=sharing)
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1IGKQStDZm97PFZJX_N0OuN5cCZ26WOH1Qiiixnq8M-M/edit?usp=sharing) - **available for review**
   * Detector Simulation WG
 	* Executive summary [paper available](https://docs.google.com/document/d/15dyg1H5FMkbAWJf8WC6cXa6X62L1Q9AXLJuRGD-FR00/edit?usp=sharing) - **available for review**
-	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=5977c5fc) - only a few open points, **available for review**
+	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=5977c5fc) - **available for review**
   * Event Processing Frameworks WG 
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7) - fairly complete, needs executive summary
   * Machine Learning WG
     * Draft WG white paper: [sharelatex](https://www.sharelatex.com/project/593a919f0f690d906afbfc76) - submitted for wider community review
   * Physics Generators WG
-    * Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn) - still writing  
+    * Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn) - **available for review**  
   * Software Development, Deployment and Validation/Verification WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1EtvAda2bZw5AHjhcqK-2T7bDlvznypZIWL-Bw3X6BWQ/edit?usp=sharing) - finshed, **available for review**
   * Software Trigger and Event Reconstruction WG
