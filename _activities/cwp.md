@@ -58,7 +58,7 @@ we are reaching out to other HEP experiments around the world to participate.
   * Data Analysis and Interpretation WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/13ediEyaP1QGF-esZOXUH3SNShJFsqa2f6hVmEukJv_c/edit){:target="_cwp_dai"} - **available for review**
   * Data and Software Preservation WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1IGKQStDZm97PFZJX_N0OuN5cCZ26WOH1Qiiixnq8M-M/edit?usp=sharing){:target="_cwp_dsp"} - **available for review**
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/17309oyniwK01qvJgDPrBsLw_-jqRgvkvWZi5lLmQISI/edit){:target="_cwp_dsp"} - **available for review**
   * Detector Simulation WG
 	* Executive summary [paper available](https://docs.google.com/document/d/15dyg1H5FMkbAWJf8WC6cXa6X62L1Q9AXLJuRGD-FR00/edit?usp=sharing){:target="_cwp_simsum"} - **available for review**
 	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=5977c5fc){:target="_cwp_sim"} - **available for review**
