@@ -48,33 +48,33 @@ we are reaching out to other HEP experiments around the world to participate.
 ## Draft WG white papers and status
 
   * Careers, Staffing and Training WG
-    * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9) - **available for review**
+    * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9){:target="_cwp_cst"} - **available for review**
   * Computing Models, Facilities, and Distributed Computing WG 
-	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing) - **available for review**
+	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing){:target="_cwp_fdc"} - **available for review**
   * Conditions Database WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit) - **available for review**
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit){:target="_cwp_cdb"} - **available for review**
   * Data Organization, Management and Access WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit) - **available for review**
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit){:target="_cwp_doma"} - **available for review**
   * Data Analysis and Interpretation WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/13ediEyaP1QGF-esZOXUH3SNShJFsqa2f6hVmEukJv_c/edit) - **available for review**
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/13ediEyaP1QGF-esZOXUH3SNShJFsqa2f6hVmEukJv_c/edit){:target="_cwp_dai"} - **available for review**
   * Data and Software Preservation WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1IGKQStDZm97PFZJX_N0OuN5cCZ26WOH1Qiiixnq8M-M/edit?usp=sharing) - **available for review**
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1IGKQStDZm97PFZJX_N0OuN5cCZ26WOH1Qiiixnq8M-M/edit?usp=sharing){:target="_cwp_dsp"} - **available for review**
   * Detector Simulation WG
-	* Executive summary [paper available](https://docs.google.com/document/d/15dyg1H5FMkbAWJf8WC6cXa6X62L1Q9AXLJuRGD-FR00/edit?usp=sharing) - **available for review**
-	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=5977c5fc) - **available for review**
+	* Executive summary [paper available](https://docs.google.com/document/d/15dyg1H5FMkbAWJf8WC6cXa6X62L1Q9AXLJuRGD-FR00/edit?usp=sharing){:target="_cwp_simsum"} - **available for review**
+	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=5977c5fc){:target="_cwp_sim"} - **available for review**
   * Event Processing Frameworks WG 
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7) - fairly complete, needs executive summary
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7){:target="_cwp_epf"} - fairly complete, needs executive summary
   * Machine Learning WG
-    * Draft WG white paper: [sharelatex](https://www.sharelatex.com/project/593a919f0f690d906afbfc76) - submitted for wider community review
+    * Draft WG white paper: [sharelatex](https://www.sharelatex.com/project/593a919f0f690d906afbfc76){:target="_cwp_ml"} - submitted for wider community review
   * Physics Generators WG
-    * Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn) - **available for review**  
+    * Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn){:target="_cwp_ph"} - **available for review**  
   * Software Development, Deployment and Validation/Verification WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1EtvAda2bZw5AHjhcqK-2T7bDlvznypZIWL-Bw3X6BWQ/edit?usp=sharing) - finshed, **available for review**
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1EtvAda2bZw5AHjhcqK-2T7bDlvznypZIWL-Bw3X6BWQ/edit?usp=sharing){:target="_cwp_sddp"} - finshed, **available for review**
   * Software Trigger and Event Reconstruction WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#) - **available for review** (Frozen version: [pdf](https://drive.google.com/open?id=0B8p0qzoMmbwbRFF4RmFtamlCaWs))
-    * Draft WG executive summary: [google doc](https://docs.google.com/document/d/1f1rOFwqRh7FhSB2VXf5hM14r5wHdkIXo3AdBcYkC1qk) - **available for review** (Frozen version: [pdf](https://drive.google.com/file/d/0B8p0qzoMmbwbdGRZV0lTUDZHZ3c/view?usp=sharing))   
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#){:target="_cwp_ster"} - **available for review** (Frozen version: [pdf](https://drive.google.com/open?id=0B8p0qzoMmbwbRFF4RmFtamlCaWs))
+    * Draft WG executive summary: [google doc](https://docs.google.com/document/d/1f1rOFwqRh7FhSB2VXf5hM14r5wHdkIXo3AdBcYkC1qk){:target="_cwp_stersum"} - **available for review** (Frozen version: [pdf](https://drive.google.com/file/d/0B8p0qzoMmbwbdGRZV0lTUDZHZ3c/view?usp=sharing))   
   * Visualization WG
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit#heading=h.aywciqdbmlzq) - still writing
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit#heading=h.aywciqdbmlzq){:target="_cwp_visu"} - still writing
 
 ## Working Groups
 
