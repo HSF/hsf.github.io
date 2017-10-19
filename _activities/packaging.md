@@ -4,9 +4,15 @@ layout: plain
 redirect_from: /workinggroups/2015/11/04/packaging.html
 ---
 
-The software packaging and distribution activity and working group is getting underway to address common issues, tools, and approaches, convened by Liz Sexton-Kennedy (FNAL) and Benedikt Hegner (CERN). The activity was launched with a meeting on Feb 25 2015. All are welcome to join the forum and participate:
+The software packaging and distribution activity and working group addresses common issues, tools, and approaches to building and distributing the software stacks used by HEP experiments.
 
-[Software Packaging Tools Discussion Forum](https://groups.google.com/forum/#!forum/hep-sf-packaging-wg)
+The group is currently convened by Graeme Stewart (CERN), who took over from Liz Sexton-Kennedy (FNAL) and Benedikt Hegner (CERN) in October 2017.
+
+Everyone is welcome to join the forum and participate:
+
+[Software Packaging Tools Discussion Forum](https://groups.google.com/forum/#!forum/hep-sf-packaging-wg){:target="_hsf_packaging_forum}
+
+[Packaging Group Indico](https://indico.cern.ch/category/7975/){:target="_hsf_packaging_indico"}
 
 # Goals
 The aim of this working group is to foster communication and exchange among the experiments' librarians. We identified various topics to work on. Some of them are:
@@ -14,8 +20,6 @@ The aim of this working group is to foster communication and exchange among the 
   1. Common build recipes and tools
   2. How to take most advantage of technologies like dockers
   3. Exchange of experience with the CMake eco-system
-
-We started by tackling the first item.
 
 ## Common Build Recipes and Tools
 Software development in high energy physics follows the paradigm of open-source software (OSS). Experiments as well as the theory community heavily rely on software being developed outside of the field. Creating a consistent and working stack out of 100s of packages, on a variety of platforms is a non-trivial task. Within the field multiple technical solutions exist to configure and build those stacks. None of this work is experiment specific and our working group agrees that this effort is being duplicated.
@@ -34,6 +38,7 @@ We held various meetings to look at the existing build and packaging solutions
 | [18.11.2015](https://indico.cern.ch/event/462334/) | Conda                |
 | [10.02.2016](https://indico.cern.ch/event/484006/) | Spack                |
 | [02.11.2017](https://indico.cern.ch/event/581338/) | Gentoo's Portage     |
+| [18.10.2017](https://indico.cern.ch/event/672745/) - [minutes](/organization/2017/10/18/packaging.html)| Next Steps |
 
 During these meetings we looked at the following community-driven projects
 
@@ -52,7 +57,7 @@ and the following open-source projects
   * [Portage](https://wiki.gentoo.org/wiki/Project:Portage)
   * [Spack](https://github.com/LLNL/spack) 
 
-The summary of our analysis has been summarized in a [Technical note on Build Tools](/technical_notes.html)
+The summary of our initial findings is found in the [Technical note on Build Tools](/technical_notes.html).
 
 ## Existing build recipes
 
