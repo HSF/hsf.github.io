@@ -26,10 +26,19 @@ the umbrella of the HSF. The LHC experiments and HSF have been
 specifically [charged by the WLCG project](/assets/CWP-Charge-HSF.pdf) and
 we are reaching out to other HEP experiments around the world to participate.
 
+## Final Roadmap Paper
+
+The first draft of the [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
+report has been released to the community for comment (archived [pdf](/assets/HSF-Community-White-Paper-v0.1.pdf)).
+
+Comments are welcome directly on the Google Doc* or by email to [hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com).
+
+\*Please login with an account known to the [hsf-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum){:target="_forum_googlegroup"} group to comment directly, so that avoid anonymous comments are avoided.
+
 ## Editorial Team
 
   * Predrag Buncic (CERN) - Alice contact
-  * Simone Campana (CERN) - Atlas contact
+  * Simone Campana (CERN) - ATLAS contact
   * Peter Elmer (Princeton)
   * John Harvey (CERN)
   * Frank Gaede (DESY) - Linear Collider contact
