@@ -29,7 +29,7 @@ we are reaching out to other HEP experiments around the world to participate.
 ## Final Roadmap Paper
 
 The first draft of the [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
-report has been released to the community for comment (archived [pdf](/assets/HSF-Community-White-Paper-v0.1.pdf)).
+report has been released to the community for comment (archived [pdf](/assets/HSF-Community-White-Paper-v0.1.pdf), also available with [line numbers](/assets/HSF-Community-White-Paper-v0.1-linenumbers.pdf)).
 
 Comments are welcome directly on the Google Doc* or by email to [hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com).
 
