@@ -28,7 +28,7 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Final Roadmap Paper
 
-The aim is to produced the final CWP by December 15, 2017.
+The aim is to finish the CWP by December 15, 2017.
 The first draft of the CWP, the [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
 report, has been released to the community for comment (also available in [pdf](/assets/HSF-Community-White-Paper-v0.1.pdf), also available with [line numbers](/assets/HSF-Community-White-Paper-v0.1-linenumbers.pdf)).
 
@@ -37,7 +37,7 @@ To comment on the Google Doc, please **login with an account known to the
 [hsf-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum){:target="_forum_googlegroup"} group**, so that anonymous comments are avoided.
 
 We also started to collect signatures for the CWP with the aim of having it signed by every person in the community who gives it their broad support.
-If, based on the current draft, you are willing to be one of the signatory, please add your name to the dedicated 
+If, based on the current draft, you are willing to be one of the signatories, please add your name to the dedicated 
 [Google Doc](https://docs.google.com/document/d/1tBXwlNnQsxxZA3gVS1_KSpa8wRXGyk250EIsJwJ2T34/edit#){:target="_cwp_signatories"} (or contact the 
 [CWP Editorial Board](mailto:hsf-cwp-ed-board@googlegroups.com)).
 
@@ -134,7 +134,7 @@ A series of workshops or events related to the CWP have taken place:
   * 26-30 Jun, 2017 - HEP Software Foundation Workshop
     * *LAPP (Annecy)*
     * [Indico page](https://indico.cern.ch/event/613093/)
-    * Every WG agreed to start the finalization phase of their WG documents
+    * Every WG agreed to start the process of finalising their WG documents
   * 21-25 Aug, 2017 - ACAT 2017 (International Workshop on Advanced Computing and Analysis Techniques in Physics Research)
     * *University of Washington (Seattle)*
     * [Indico page](https://indico.cern.ch/event/567550/)
