@@ -28,12 +28,26 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Final Roadmap Paper
 
-The first draft of the [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
-report has been released to the community for comment (archived [pdf](/assets/HSF-Community-White-Paper-v0.1.pdf), also available with [line numbers](/assets/HSF-Community-White-Paper-v0.1-linenumbers.pdf)).
+The aim is to finish the CWP by December 15, 2017.
+The first draft of the CWP, the [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
+report, has been released to the community for comment (also available in [pdf](/assets/HSF-Community-White-Paper-v0.1.pdf), also available with [line numbers](/assets/HSF-Community-White-Paper-v0.1-linenumbers.pdf)).
 
-Comments are welcome directly on the Google Doc* or by email to [hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com).
+**Comments are welcome directly on the Google Doc** or by email to [hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com).
+To comment on the Google Doc, please **login with an account known to the 
+[hsf-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum){:target="_forum_googlegroup"} group**, so that anonymous comments are avoided.
 
-\*Please login with an account known to the [hsf-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum){:target="_forum_googlegroup"} group to comment directly, so that avoid anonymous comments are avoided.
+We also started to collect signatures for the CWP with the aim of having it signed by every person in the community who gives it their broad support.
+If, based on the current draft, you are willing to be one of the signatories, please add your name to the dedicated 
+[Google Doc](https://docs.google.com/document/d/1tBXwlNnQsxxZA3gVS1_KSpa8wRXGyk250EIsJwJ2T34/edit#){:target="_cwp_signatories"} (or contact the 
+[CWP Editorial Board](mailto:hsf-cwp-ed-board@googlegroups.com)).
+
+The planned timeline to the final CWP is:
+
+* November 10: first draft closed for comments
+* November 17: release of the CWP second draft for comments
+* December 1: second draft closed for comments
+* December 13: deadline for the initial list of signatories
+* December 15: release of the final CWP
 
 ## Editorial Team
 
@@ -89,11 +103,10 @@ Comments are welcome directly on the Google Doc* or by email to [hsf-cwp-ed-boar
 
   The list of CWP working groups, their charges and working documents is maintained on a [dedicated working group page](/cwp/cwp-working-groups.html).
 
-## Timeline
+## Main CWP Events
 
-After a preparatory phase during Fall 2016, the CWP process was launched in January, 2017. The aim is to produce a consensus document by 1 Sep, 2017.
-
-A series of workshops/events have taken place:
+After a preparatory phase during Fall 2016, the CWP process was launched in January, 2017.
+A series of workshops or events related to the CWP have taken place:
 
   * 23-27 Jan, 2017 - HSF CWP workshop at SDSC/UCSD
     * [Indico page](http://indico.cern.ch/event/570249/)
@@ -121,14 +134,10 @@ A series of workshops/events have taken place:
   * 26-30 Jun, 2017 - HEP Software Foundation Workshop
     * *LAPP (Annecy)*
     * [Indico page](https://indico.cern.ch/event/613093/)
+    * Every WG agreed to start the process of finalising their WG documents
   * 21-25 Aug, 2017 - ACAT 2017 (International Workshop on Advanced Computing and Analysis Techniques in Physics Research)
     * *University of Washington (Seattle)*
     * [Indico page](https://indico.cern.ch/event/567550/)
-
-In the Annecy HSF workshop, the endgame timeline was discussed for the CWP.
-Each of the CWP WGs is finalizing a dedicated WG white paper by the end
-of July, 2017. From these shorter summaries are being extracted to produce 
-the single, final Community White Paper document and roadmap by 1 Sep, 2017.
 
 ## Communication
 
