@@ -56,7 +56,7 @@ and the following open-source projects
   * [homebrew](http://brew.sh/)
   * [Nix](https://nixos.org/nix/)
   * [Portage](https://wiki.gentoo.org/wiki/Project:Portage)
-  * [Spack](https://github.com/LLNL/spack) 
+  * [Spack](https://github.com/spack/spack) 
 
 The summary of our initial findings is found in the [Technical note on Build Tools](/technical_notes.html).
 
