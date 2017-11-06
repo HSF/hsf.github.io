@@ -54,7 +54,7 @@ packaging are a key piece of software interoperability. As we cannot
 envision all of the projects adopting the same tools, the effort has concentrated 
 on a review of the existing tools, and an attempt to identify a tool with the 
  greatest potential as an integrating layer. One tool from the HPC world, 
- [Spack](http://spack.io/), generated a lot of interest. Some people tried to experiment with it in various 
+ [Spack](https://spack.io/), generated a lot of interest. Some people tried to experiment with it in various 
  contexts in the past few months.  The workshop session facilitated an in-depth 
  dicussion about Spack's potential and it's limits. We reached consensus about how to move forward.  We will continue to collaborate with the Spack developer community.  When the features identified by the working group and documented in our technical note are available we'll start to recommend it to new projects and facilitate adoption by older projects.
 
