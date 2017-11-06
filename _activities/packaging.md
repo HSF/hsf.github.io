@@ -6,7 +6,7 @@ redirect_from: /workinggroups/2015/11/04/packaging.html
 
 The software packaging and distribution activity and working group addresses common issues, tools, and approaches to building and distributing the software stacks used by HEP experiments.
 
-The group is currently convened by Graeme Stewart (CERN), who took over from Liz Sexton-Kennedy (FNAL) and Benedikt Hegner (CERN) in October 2017.
+The group is currently convened by Ben Morgan (Warwick) and Graeme Stewart (CERN), who took over from Liz Sexton-Kennedy (FNAL) and Benedikt Hegner (CERN) in October 2017.
 
 Everyone is welcome to join the forum and participate:
 
@@ -39,6 +39,7 @@ We held various meetings to look at the existing build and packaging solutions
 | [10.02.2016](https://indico.cern.ch/event/484006/) | Spack                |
 | [02.11.2017](https://indico.cern.ch/event/581338/) | Gentoo's Portage     |
 | [18.10.2017](https://indico.cern.ch/event/672745/) - [minutes](/organization/2017/10/18/packaging.html)| Next Steps |
+| [01.11.2017](https://indico.cern.ch/event/674780/) - [minutes](/organization/2017/11/01/packaging.html)| Test Stack, Spack, SuperNEMO use case |
 
 During these meetings we looked at the following community-driven projects
 
