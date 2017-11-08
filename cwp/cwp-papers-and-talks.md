@@ -28,4 +28,4 @@ once they reach the state of being ready for review by the wider community.
 | Data and Software Preservation | [PDF](papers/2017-11/Data-and-Software-Preservation-WG-CWP-Chapter.pdf) |
 | Detector Simulation | [Summary PDF](papers/2017-11/Detector-Simulation-WP-Executive-Summary.pdf); [Full Paper PDF](papers/2017-11/Detector-Simulation-White-Paper.pdf) |
 | Software Development, Deployment and Validation/Verification | [PDF](papers/2017-11/CWP-WG-Software-development-Deployment-and-ValidationVerification.pdf) |
-| Software Trigger and Event Reconstruction | [Summary PDF](papers/2017-11/papers/2017-11/Executive-summary-Software-trigger-and-event-reconstruction-CWP.pdf); [Full Paper PDF](papers/2017-11/papers/2017-11/Software-trigger-and-event-reconstruction-CWP.pdf) |
+| Software Trigger and Event Reconstruction | [Summary PDF](papers/2017-11/Executive-summary-Software-trigger-and-event-reconstruction-CWP.pdf); [Full Paper PDF](papers/2017-11/Software-trigger-and-event-reconstruction-CWP.pdf) |
