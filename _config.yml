@@ -18,3 +18,7 @@ collections:
   gsocproposals:
     output: true
     permalink: /gsoc/:title.html
+
+docs:
+  url: https://github.com/HEP-SF/documents/blob/master
+  cwp201711: https://github.com/HEP-SF/documents/blob/master/CWP/papers/2017-11

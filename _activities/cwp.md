@@ -30,7 +30,7 @@ we are reaching out to other HEP experiments around the world to participate.
 
 The aim is to finish the CWP by December 15, 2017.
 The first draft of the CWP, the [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
-report, has been released to the community for comment (also available in [pdf](/assets/HSF-Community-White-Paper-v0.1.pdf), also available with [line numbers](/assets/HSF-Community-White-Paper-v0.1-linenumbers.pdf)).
+report, has been released to the community for comment (also available in [pdf]({{site.data.hsf.docs}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1.pdf), also available with [line numbers]({{site.data.hsf.docs}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1-linenumbers.pdf)).
 
 **Comments are welcome directly on the Google Doc** or by email to [hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com).
 To comment on the Google Doc, please **login with an account known to the 
@@ -48,6 +48,14 @@ The planned timeline to the final CWP is:
 * December 1: second draft closed for comments
 * December 13: deadline for the initial list of signatories
 * December 15: release of the final CWP
+
+### Talks
+
+This is a list of recent talks about the CWP which were given by various HSF members:
+
+* 2017-10-29 [Presentation](https://indico.cern.ch/event/663273/contributions/2708178/attachments/1545100/2431717/HSF-CWP-Roadmap.pdf) on the CWP Roadmap at 
+  the [3rd Scientific Computing Forum](https://indico.cern.ch/event/663273/) by Graeme Stewart.
+* 2017-11-04 [Talk](https://indico.cern.ch/event/658716/contributions/2685752/attachments/1552099/2439248/20171103-ITTF-HSFCWP-AV.pdf) to the [CERN IT Technical Forum](https://indico.cern.ch/event/658716/) by Andrea Valassi.
 
 ## Editorial Team
 
@@ -72,8 +80,6 @@ The planned timeline to the final CWP is:
 
   * Careers, Staffing and Training WG
     * Draft WG white paper: [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9){:target="_cwp_cst"} - **available for review**
-  * Computing Models, Facilities, and Distributed Computing WG 
-	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing){:target="_cwp_fdc"} - **available for review**
   * Conditions Database WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit){:target="_cwp_cdb"} - **available for review**
   * Data Organization, Management and Access WG
@@ -85,8 +91,10 @@ The planned timeline to the final CWP is:
   * Detector Simulation WG
 	* Executive summary [paper available](https://docs.google.com/document/d/15dyg1H5FMkbAWJf8WC6cXa6X62L1Q9AXLJuRGD-FR00/edit?usp=sharing){:target="_cwp_simsum"} - **available for review**
 	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=5977c5fc){:target="_cwp_sim"} - **available for review**
-  * Event Processing Frameworks WG 
-    * Draft WG white paper: [google doc](https://docs.google.com/document/d/14NMDpzlIKaR_L3dhdRKh3mswA008ahuNxwTs7hiNlBc/edit#heading=h.4mvar3ml92e7){:target="_cwp_epf"} - fairly complete, needs executive summary
+  * Event/Data Processing Frameworks WG 
+    * Draft WG white paper: [google doc](https://docs.google.com/document/d/1DYEHGgB3fanhpYRDJblE9NicX0OK7BNsjTCrq7gY-sU/edit?usp=sharing){:target="_cwp_epf"} - fairly complete, needs executive summary
+  * Facilities, and Distributed Computing WG 
+	* Draft WG white paper: [google doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing){:target="_cwp_fdc"} - **available for review**
   * Machine Learning WG
     * Draft WG white paper: [sharelatex](https://www.sharelatex.com/project/593a919f0f690d906afbfc76){:target="_cwp_ml"} - submitted for wider community review
   * Physics Generators WG
@@ -98,6 +106,11 @@ The planned timeline to the final CWP is:
     * Draft WG executive summary: [google doc](https://docs.google.com/document/d/1f1rOFwqRh7FhSB2VXf5hM14r5wHdkIXo3AdBcYkC1qk){:target="_cwp_stersum"} - **available for review** (Frozen version: [pdf](https://drive.google.com/file/d/0B8p0qzoMmbwbdGRZV0lTUDZHZ3c/view?usp=sharing))   
   * Visualization WG
     * Draft WG white paper: [google doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit#heading=h.aywciqdbmlzq){:target="_cwp_visu"} - still writing
+    
+### Archive
+
+We keep some [snapshots](/cwp/cwp-papers.html) of Working Group Papers that are useful
+for reference or if Google Docs are not available.
 
 ## Working Groups
 
