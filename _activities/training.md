@@ -22,7 +22,7 @@ Many ideas are being discussed and are tracked down in the HSF training and educ
 
 Other actions in progress include:
 
-* A [Training section](http://hepsoftware.org/e/training) in the HSF knowledge base] intended to collect training related events, organizations, software packages... **Please contribute to the knowledge base to help enriching the content**
+* A [Training section](http://hepsoftware.org/e/training) in the HSF knowledge base intended to collect training related events, organizations, software packages... **Please contribute to the knowledge base to help enriching the content**
 
 ## How to participate ?
 
