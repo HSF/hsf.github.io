@@ -30,7 +30,7 @@ we are reaching out to other HEP experiments around the world to participate.
 
 The aim is to finish the CWP by December 15, 2017.
 The first draft of the CWP, the [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
-report, has been released to the community for comment (also available in [pdf]({{site.data.hsf.docs}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1.pdf), also available with [line numbers]({{site.data.hsf.docs}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1-linenumbers.pdf)).
+report, has been released to the community for comment (also available in [pdf]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1.pdf), also available with [line numbers]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1-linenumbers.pdf)).
 
 **Comments are welcome directly on the Google Doc** or by email to [hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com).
 To comment on the Google Doc, please **login with an account known to the 
