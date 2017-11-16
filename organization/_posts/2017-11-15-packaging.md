@@ -5,7 +5,7 @@ layout: default
 
 # HSF Packaging Group Meeting #14, November 15, 2017
 
-#### *Present*: Ben Morgan, Chris Green, Dario Menasce, Graeme Stewart, Patrick Gartung, Martin Ritter, Emil Obreshkov, Javier, Rafal, Guilherme
+#### *Present*: Ben Morgan, Chris Green, Dario Menasce, Graeme Stewart, Patrick Gartung, Martin Ritter, Emil Obreshkov, Javier Cervantes Villanueva, Raphal Pacholek, Guilherme Amadio
 
 #### [Indico Agenda and Presentations](https://indico.cern.ch/event/678307/){:target="_hsf_packaging_14"}
 
