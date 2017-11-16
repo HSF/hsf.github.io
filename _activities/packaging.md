@@ -40,6 +40,7 @@ We held various meetings to look at the existing build and packaging solutions
 | [02.11.2017](https://indico.cern.ch/event/581338/) | Gentoo's Portage     |
 | [18.10.2017](https://indico.cern.ch/event/672745/) - [minutes](/organization/2017/10/18/packaging.html)| Next Steps |
 | [01.11.2017](https://indico.cern.ch/event/674780/) - [minutes](/organization/2017/11/01/packaging.html)| Test Stack, Spack, SuperNEMO use case |
+| [15.11.2017](https://indico.cern.ch/event/678307/) - [minutes](/organization/2017/11/15/packaging.html)| Test Stack, Packaging Use Cases |
 
 During these meetings we looked at the following community-driven projects
 
@@ -56,7 +57,7 @@ and the following open-source projects
   * [homebrew](http://brew.sh/)
   * [Nix](https://nixos.org/nix/)
   * [Portage](https://wiki.gentoo.org/wiki/Project:Portage)
-  * [Spack](https://github.com/spack/spack) 
+  * [Spack](https://github.com/spack/spack)
 
 The summary of our initial findings is found in the [Technical note on Build Tools](/technical_notes.html).
 
