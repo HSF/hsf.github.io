@@ -12,7 +12,7 @@ layout: default
 ## Introduction
 
 * Next meeting on the 29th November
-  * Graeme has booked a room at CERN.
+  * Graeme has booked room 40-R-D10 at CERN.
 * Call for volunteers to give talks on their projects/experiment needs.
   * Specifically on Use Cases and on the contents of the Test Stack.
 * Offer to get external speaker on Portage. Maybe not next meeting but beyond.
@@ -60,7 +60,7 @@ layout: default
   * Call for input and comments on [Google Doc](https://docs.google.com/document/d/1h-r3XPIXXxmr5tThIh6gu6VcXXRhBXtUuOv14ju3oTI)
 
 ## AOB
-* [Next meeting](https://indico.cern.ch/event/) in 2 weeks, 29th November.
+* [Next meeting](https://indico.cern.ch/event/681894) in 2 weeks, 29th November.
 * Guilherme - could give live demo of how portage could handle topics discussed today.
 * Link to paper on use of [Gentoo Linux and Portage in Neuroscience](https://zenodo.org/record/269626)
 
