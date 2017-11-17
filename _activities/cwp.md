@@ -62,9 +62,9 @@ or as a [PDF]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.
 
 This is a list of recent talks about the CWP which were given by various HSF members:
 
+* 2017-11-04 [Talk](https://indico.cern.ch/event/658716/contributions/2685752/attachments/1552099/2454959/20171103-ITTF-HSFCWP-AV.pdf) to the [CERN IT Technical Forum](https://indico.cern.ch/event/658716/) by Andrea Valassi.
 * 2017-10-29 [Presentation](https://indico.cern.ch/event/663273/contributions/2708178/attachments/1545100/2431717/HSF-CWP-Roadmap.pdf) on the CWP Roadmap at 
   the [3rd Scientific Computing Forum](https://indico.cern.ch/event/663273/) by Graeme Stewart.
-* 2017-11-04 [Talk](https://indico.cern.ch/event/658716/contributions/2685752/attachments/1552099/2439248/20171103-ITTF-HSFCWP-AV.pdf) to the [CERN IT Technical Forum](https://indico.cern.ch/event/658716/) by Andrea Valassi.
 
 ## Editorial Team
 
