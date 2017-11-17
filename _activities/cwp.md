@@ -28,21 +28,20 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Final Roadmap Paper
 
-The aim is to finish the CWP by **December 15, 2017**.
 The second draft of the CWP, the 
 [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1mXJ51Xi1FEcQKzf6jJknmkC3MGeZqjPjgtoj3pVD6rk){:target="_cwp_roadmap"} 
-report, has been released to the community for comment (also available in 
-[pdf](https://github.com/HEP-SF/documents/blob/master/CWP/papers/roadmap/HSF-Community-White-Paper-v0.2.pdf)). You are **encouraged to read it** and
+report, has been released to the community for comment (also available as a 
+[pdf]({{site.docs.url}}/blob/master/CWP/papers/roadmap/HSF-Community-White-Paper-v0.2.pdf)). You are **encouraged to read it** and
 **provide feedback**. The document will remain open for comments **until December 1**.
 
 You are **strongly encouraged to comment directly on the Google Doc**, with suggested updates 
-to the text prefered over standalone comments. 
-However, if you are unable to do that, you may also send plain text comments to
-[hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com) (avoid comments in the PDF).
+to the text preferred over standalone comments. 
+Plain text comments can also be made to
+[hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com), but please avoid PDF comments.
 To comment on the Google Doc, please **login with an account known to the 
 [hsf-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum){:target="_forum_googlegroup"} group** (see [instructions](/forums.html) on how to join), so that anonymous comments are avoided.
 
-We also started to **collect signatures for the CWP** with the aim of having it signed by every person in the HEP community who gives it their broad support.
+We have also started to **collect signatures for the CWP** with the aim of having it signed by everyone in the HEP community who gives it their broad support.
 If, based on the second draft (which is expected to be very close to the final one), you are 
 **willing to be one of the signatories**, please add your name to the dedicated 
 [Google Doc](https://docs.google.com/document/d/1tBXwlNnQsxxZA3gVS1_KSpa8wRXGyk250EIsJwJ2T34/edit#){:target="_cwp_signatories"} (or contact the 
