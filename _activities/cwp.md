@@ -28,26 +28,35 @@ we are reaching out to other HEP experiments around the world to participate.
 
 ## Final Roadmap Paper
 
-The aim is to finish the CWP by December 15, 2017.
-The first draft of the CWP, the [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
-report, has been released to the community for comment (also available in [pdf]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1.pdf), also available with [line numbers]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1-linenumbers.pdf)).
+The aim is to finish the CWP by **December 15, 2017**.
+The second draft of the CWP, the 
+[Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1mXJ51Xi1FEcQKzf6jJknmkC3MGeZqjPjgtoj3pVD6rk){:target="_cwp_roadmap"} 
+report, has been released to the community for comment (also available in 
+[pdf](https://github.com/HEP-SF/documents/blob/master/CWP/papers/roadmap/HSF-Community-White-Paper-v0.2.pdf)). You are **encouraged to read it** and
+**provide feedback**. The document will remain open for comments **until December 1**.
 
-**Comments are welcome directly on the Google Doc** or by email to [hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com).
+You are **strongly encouraged to comment directly on the Google Doc**, with suggested updates 
+to the text prefered over standalone comments. 
+However, if you are unable to do that, you may also send plain text comments to
+[hsf-cwp-ed-board@googlegroups.com](mailto:hsf-cwp-ed-board@googlegroups.com) (avoid comments in the PDF).
 To comment on the Google Doc, please **login with an account known to the 
-[hsf-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum){:target="_forum_googlegroup"} group**, so that anonymous comments are avoided.
+[hsf-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum){:target="_forum_googlegroup"} group** (see [instructions](/forums.html) on how to join), so that anonymous comments are avoided.
 
-We also started to collect signatures for the CWP with the aim of having it signed by every person in the community who gives it their broad support.
-If, based on the current draft, you are willing to be one of the signatories, please add your name to the dedicated 
+We also started to **collect signatures for the CWP** with the aim of having it signed by every person in the HEP community who gives it their broad support.
+If, based on the second draft (which is expected to be very close to the final one), you are 
+**willing to be one of the signatories**, please add your name to the dedicated 
 [Google Doc](https://docs.google.com/document/d/1tBXwlNnQsxxZA3gVS1_KSpa8wRXGyk250EIsJwJ2T34/edit#){:target="_cwp_signatories"} (or contact the 
 [CWP Editorial Board](mailto:hsf-cwp-ed-board@googlegroups.com)).
 
 The planned timeline to the final CWP is:
 
-* November 10: first draft closed for comments
-* November 17: release of the CWP second draft for comments
 * December 1: second draft closed for comments
 * December 13: deadline for the initial list of signatories
 * December 15: release of the final CWP
+
+*Note: if you need to look at the first draft, released on October 20, it is still available as a
+[Google Docs](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
+or as a [PDF]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1-linenumbers.pdf).*
 
 ### Talks
 
