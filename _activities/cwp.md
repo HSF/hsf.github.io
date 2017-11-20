@@ -75,6 +75,7 @@ This is a list of recent talks about the CWP which were given by various HSF mem
   * Maria Girone (CERN Openlab)
   * Roger Jones (Univ. of Lancaster) - UK contact
   * Michel Jouvin (LAL Orsay)
+  * Thomas Kuhr (LMU) - Belle II contact
   * Rob Kutschke (FNAL) - FNAL experiments contact
   * Dario Menasce (INFN-Milano) - INFN contact
   * Mark Neubauer (U.Illinois Urbana-Champaign)
