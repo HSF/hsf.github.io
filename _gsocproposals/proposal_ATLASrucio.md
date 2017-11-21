@@ -32,7 +32,7 @@ A working implementation of the desired new functionalities and fully tested at 
 
 - Python
 - Git
-- Shell cripting
+- Shell scripting
 - Linux
 - Experience with relational and non-relational databases preferred (Sqlite, MySQL, ORACLE, Hadoop-based)
 - Experience with distributed or concurrent software
@@ -48,5 +48,5 @@ A working implementation of the desired new functionalities and fully tested at 
 ## Links
 
 - [Rucio Public Github Mirror](https://github.com/rucio01/rucio)
-- [Rucio Website](http://rucio.cern.ch)
+- [Rucio Website](http://rucio.cern.ch){:data-proofer-ignore}
 - [Google Cloud Services](https://cloud.google.com/)
