@@ -73,7 +73,7 @@ This is a list of recent talks about the CWP which were given by various HSF mem
   * John Harvey (CERN)
   * Frank Gaede (DESY) - Linear Collider contact
   * Maria Girone (CERN Openlab)
-  * Roger Jones (Univ. of Lancaster) - UK contact
+  * Roger Jones (Lancaster University) - UK contact
   * Michel Jouvin (LAL Orsay)
   * Thomas Kuhr (LMU) - Belle II contact
   * Rob Kutschke (FNAL) - FNAL experiments contact
