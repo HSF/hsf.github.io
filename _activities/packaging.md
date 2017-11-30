@@ -8,41 +8,25 @@ The software packaging and distribution activity and working group addresses com
 
 The group is currently convened by Ben Morgan (Warwick) and Graeme Stewart (CERN), who took over from Liz Sexton-Kennedy (FNAL) and Benedikt Hegner (CERN) in October 2017.
 
-Everyone is welcome to join the forum and participate:
+# Getting Involved
 
-[Software Packaging Tools Discussion Forum](https://groups.google.com/forum/#!forum/hep-sf-packaging-wg){:target="_hsf_packaging_forum}
+Everyone is welcome to participate and contribute on the forum and to the ongoing meetings:
 
-[Packaging Group Indico](https://indico.cern.ch/category/7975/){:target="_hsf_packaging_indico"}
+[Packaging Group Discussion Forum](https://groups.google.com/forum/#!forum/hep-sf-packaging-wg){:target="_hsf_packaging_forum}
+
+[Packaging Group Meetings Indico](https://indico.cern.ch/category/7975/){:target="_hsf_packaging_indico"}
 
 # Goals
-The aim of this working group is to foster communication and exchange among the experiments' librarians. We identified various topics to work on. Some of them are:
+The aim of this working group is to foster communication and exchange among the experiments' librarians. We identified various topics to work on, including
 
   1. Common build recipes and tools
-  2. How to take most advantage of technologies like dockers
+  2. How to take most advantage of technologies like containers
   3. Exchange of experience with the CMake eco-system
 
 ## Common Build Recipes and Tools
 Software development in high energy physics follows the paradigm of open-source software (OSS). Experiments as well as the theory community heavily rely on software being developed outside of the field. Creating a consistent and working stack out of 100s of packages, on a variety of platforms is a non-trivial task. Within the field multiple technical solutions exist to configure and build those stacks. None of this work is experiment specific and our working group agrees that this effort is being duplicated.
 
-We held various meetings to look at the existing build and packaging solutions
-
-{:.table .table-hover .table-condensed .table-striped}
-| Date                                              | Main topic            |
-| ------------------------------------------------- | --------------------- |
-| [25.2.2015](https://indico.cern.ch/event/373973/) | Brainstorming session |
-| [2.6.2015](https://indico.cern.ch/event/398344/)  | DUNE approach         |
-| [9.6.2015](https://indico.cern.ch/event/400272)   | LCGCMake              |
-| [16.6.2015](https://indico.cern.ch/event/402229/) | cmsBuild              |
-| [23.6.2015](https://indico.cern.ch/event/403790/) | SciSoft, Contractor   |
-| [4.11.2015](https://indico.cern.ch/event/457365/) | AliBuild              |
-| [18.11.2015](https://indico.cern.ch/event/462334/) | Conda                |
-| [10.02.2016](https://indico.cern.ch/event/484006/) | Spack                |
-| [02.11.2017](https://indico.cern.ch/event/581338/) | Gentoo's Portage     |
-| [18.10.2017](https://indico.cern.ch/event/672745/) - [minutes](/organization/2017/10/18/packaging.html)| Next Steps |
-| [01.11.2017](https://indico.cern.ch/event/674780/) - [minutes](/organization/2017/11/01/packaging.html)| Test Stack, Spack, SuperNEMO use case |
-| [15.11.2017](https://indico.cern.ch/event/678307/) - [minutes](/organization/2017/11/15/packaging.html)| Test Stack, Packaging Use Cases |
-
-During these meetings we looked at the following community-driven projects
+We held [an initial series of meetings](https://indico.cern.ch/category/7975/) to look at the existing build and packaging solutions, including the community-driven projects
 
   * [aliBuild](http://alisw.github.io/alibuild/)
   * [cmsBuild](https://github.com/cmsbuild/cmsdist)
@@ -51,7 +35,7 @@ During these meetings we looked at the following community-driven projects
   * Contractor (no public documentation)
   * SciSoft (no public documentation)
 
-and the following open-source projects
+and the general open-source projects
 
   * [Conda](http://conda.pydata.org/docs/)
   * [homebrew](http://brew.sh/)
@@ -70,7 +54,6 @@ The summary of our initial findings is found in the [Technical note on Build Too
   * [conda recipes by Brett Viren](https://github.com/brettviren/lbne-conda) (deprecated)
   * [aliDist recipes](https://github.com/alisw/alidist)
   * [LCGCMake recipes](https://gitlab.cern.ch/sft/lcgcmake)
-
 
 # Other resources
 
