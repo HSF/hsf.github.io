@@ -46,7 +46,7 @@ layout: default
 * Future: looking at ways to save AtlasExternals binary artifacts. Reuse? Looking at Nexus, git LSF. Breaking up large rpms. Include build of LCG
 
 ### Discussion
-* Microsoft has released source code for their Git vistual filesystem (GVFS). There is a project on GitHub to port this to Mac and then Linux. Will be a talk on this at CVMFS Workshop in January. Background: Windows source code is very large, so using a Virtual File System to only checkout files when touched.
+* Microsoft has released [source code](https://github.com/Microsoft/GVFS) for their Git virtual filesystem (GVFS). There is a [project with GitHub to port this to Mac and then Linux](https://arstechnica.com/gadgets/2017/11/microsoft-and-github-team-up-to-take-git-virtual-file-system-to-macos-linux/). Will be a talk on this at CVMFS Workshop in January. Background: Windows source code is very large, so using a Virtual File System to only checkout files when touched.
 * In ATLAS, nightlies always built from scratch both for security and to work around some issues with incremental builds seen in continuous integration. But now in a position to seriously consider incremental nightlies as well.
 * Discussion on installing directly on CVMFS: Is an issue with relocatability, need to have consistent mount points, and of course a writable CVMFS repository. Currently binaries local to build machine, packaged, then uploaded to EOS.
 * Nexus: can store binary artifacts, then can check existence of required binary when/if needed later. Tool to be investigated.
@@ -58,7 +58,7 @@ layout: default
   low level ABIs.
 * Containers main unit of distribution is an filesystem, image of which is sequence
   of package manager and other operations. Containers interface with each other via
-  abstract file/REST/data server/message queuese
+  abstract file/REST/data server/message queues.
 * Good fit in HEP: global distribution of a complex stack that uses significant OS component to a wide range of systems that we don’t manage like the Grid, HPC user laptops.
 * User developed analysis software has different requirements - often a mix between stages inside release, own code that might require specific directory structure.
   Physics reproducibility is important.
@@ -66,7 +66,7 @@ layout: default
   * "Fat": Completely self-contained, local on disk, no network or local cvmfs install needed. But large (10GB+).
   * "Thin": Only provide OS, domain software from host install of CVMFS - needs network, and no immediate knowledge of what bits in CVMFS are used.
 * Build both as part of nightlies for offline and analysis releases, distributed via Docker Hub.
-* Work on CVMFS Graph Driver - “Fat” Image, can be used directly, but also deployed over CVMFS. Docker can then just pull the bits its needs.
+* Work on CVMFS Graph Driver - “Fat” Image, can be used directly, but also deployed over CVMFS. Docker can then just pull the bits it needs.
 * In use for local development, especially on non-supported platforms.
 * In use for CI - easy integration on common platforms
 * Also for grid deployment - using Singularity as container runtime. HPC may lack networked filesystems like CVMFS, but can support containers
