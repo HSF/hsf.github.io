@@ -61,7 +61,8 @@ or as a [PDF]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.
 
 This is a list of recent talks about the CWP which were given by various HSF members:
 
-* 2017-11-04 [Talk](https://indico.cern.ch/event/658716/contributions/2685752/attachments/1552099/2454959/20171103-ITTF-HSFCWP-AV.pdf) to the [CERN IT Technical Forum](https://indico.cern.ch/event/658716/) by Andrea Valassi.
+* 2017-11-28 [Presentation](https://indico.desy.de/indico/event/18681/session/8/contribution/114/material/slides/0.pdf) at the [11th Terascale Alliance Workshop](https://indico.desy.de/indico/event/18681/) by Benedikt Hegner.
+* 2017-11-04 [Presentation](https://indico.cern.ch/event/658716/contributions/2685752/attachments/1552099/2454959/20171103-ITTF-HSFCWP-AV.pdf) to the [CERN IT Technical Forum](https://indico.cern.ch/event/658716/) by Andrea Valassi.
 * 2017-10-29 [Presentation](https://indico.cern.ch/event/663273/contributions/2708178/attachments/1545100/2431717/HSF-CWP-Roadmap.pdf) on the CWP Roadmap at 
   the [3rd Scientific Computing Forum](https://indico.cern.ch/event/663273/) by Graeme Stewart.
 
@@ -71,14 +72,17 @@ This is a list of recent talks about the CWP which were given by various HSF mem
   * Simone Campana (CERN) - ATLAS contact
   * Peter Elmer (Princeton)
   * John Harvey (CERN)
+  * Benedikt Hegner (CERN)
   * Frank Gaede (DESY) - Linear Collider contact
   * Maria Girone (CERN Openlab)
   * Roger Jones (Lancaster University) - UK contact
   * Michel Jouvin (LAL Orsay)
   * Thomas Kuhr (LMU) - Belle II contact
+  * David Lange (Princeton University)
   * Rob Kutschke (FNAL) - FNAL experiments contact
   * Dario Menasce (INFN-Milano) - INFN contact
   * Mark Neubauer (U.Illinois Urbana-Champaign)
+  * Eduardo Rodrigues (U.Cincinnati)
   * Stefan Roiser (CERN) - LHCb contact
   * Liz Sexton-Kennedy (FNAL) - CMS contact
   * Mike Sokoloff (U.Cincinnati)
