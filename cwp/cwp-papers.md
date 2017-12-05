@@ -9,8 +9,8 @@ layout: default
 {:.table .table-hover .table-condensed .table-striped}
 | Version         | Released    | Links |
 |-----------------|-------------|-------|
-| Draft 2         | 2017-11-17  | [PDF]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.2.pdf); [Google Doc](https://docs.google.com/document/d/1mXJ51Xi1FEcQKzf6jJknmkC3MGeZqjPjgtoj3pVD6rk/edit?usp=sharing) |
-| Draft 1         | 2017-10-20  | [PDF]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1-linenumbers.pdf); [Google Doc](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing) |
+| Draft 2         | 2017-11-17  | [PDF]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.2.pdf){:target="_cwp_roadmap_pdf"}; [Google Doc](https://docs.google.com/document/d/1RIcnj7DBNOoQ1DT45WCGFboS0tCDeJcvAi2xjPv_UVQ){:target="_cwp_roadmap"} |
+| Draft 1         | 2017-10-20  | [PDF]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1-linenumbers.pdf){:target="_cwp_roadmap_pdf"}; [Google Doc](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} |
 
 
 # Snapshots of CWP Chapters
