@@ -40,7 +40,6 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
 
 ## Presentations given by Startup Team Members
  * [The HSF CWP](https://indico.desy.de/indico/event/18681/session/8/contribution/114/material/slides/0.pdf), [11th Terascale Alliance Workshop](https://indico.desy.de/indico/event/18681/), 28 Nov 2017, Benedikt Hegner
- * [The HSF CWP](https://indico.cern.ch/event/658716/contributions/2685752/attachments/1552099/2454959/20171103-ITTF-HSFCWP-AV.pdf), [CERN IT Technical Forum](https://indico.cern.ch/event/658716/), 4 Nov 2017, Andrea Valassi
  * [The HSF CWP](https://indico.cern.ch/event/663273/contributions/2708178/attachments/1545100/2431717/HSF-CWP-Roadmap.pdf), [3rd Scientific Computing Forum](https://indico.cern.ch/event/663273/), 29 Oct 2017, Graeme Stewart
  * [HSF CWP Status](https://indico.cern.ch/event/578990/contributions/2720743/attachments/1522280/2381911/CWP_Status_-_GDB_20170913.pdf), WLCG GDBn, CERN, 13 Sep 2017, Michel Jouvin
  * [Summary of the HSF CWP Workshop in Annecy](https://indico.cern.ch/event/651834/contributions/2652777/attachments/1493614/2322911/HSF2017AnnecySummary.pdf) presented to CERN EP/SFT, 17 Jul 2017, Benedikt Hegner
