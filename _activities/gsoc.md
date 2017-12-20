@@ -69,6 +69,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Metropolitan Institute of Technology](/images/logo_itm.png){:width="100px"} | ITM is an accredited public University, founded in 1944, in Medellin Colombia. [List of proposals](/gsoc/itm.html)|
 | ![Universitat Jaume I](/images/uji_logo.jpg){:width="100px"} |The Universitat Jaume I is a public university in Castelló de la Plana, Spain. [List of proposals](/gsoc/uji.html)|
 | ![Indiana University](/images/iu_logo.png){:width="100px"} | [Indiana University] (https://www.indiana.edu/), Bloomington. [List of proposals](/gsoc/iu.html)|
+| ![RAL](/images/logo_RAL.png){:width="100px"} | STFC Rutherford Appleton Laboratory in Oxfordshire, United Kingdom is home to national facilities including the Diamond synchroton and ISIS neutron spallation source. The Particle Physics Department contributes to experiments including ATLAS, CMS and T2K. [List of proposals](/gsoc/ral.html)|
 
 
 [Full list of Proposal Ideas](/gsoc/summary.html)
