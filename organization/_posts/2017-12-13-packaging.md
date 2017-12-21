@@ -5,7 +5,7 @@ layout: default
 
 # HSF Packaging Group Meeting #16, December 13, 2017
 
-#### *Present*: Graeme Stewart, Ben Morgan, Jakob Blomer, Guilherme Amadio, Patrick Gartung, Javier Cervantes Villanueva, Rafal Pacholek, Chris Green, Pere Mato, Geri Ganis, Rafal, Xavi?, Oana Boeriu
+#### *Present*: Graeme Stewart, Ben Morgan, Jakob Blomer, Guilherme Amadio, Patrick Gartung, Javier Cervantes Villanueva, Rafal Pacholek, Chris Green, Pere Mato, Geri Ganis, Xavi (vidyo), Oana Boeriu
 #### [Indico Agenda and Presentations](https://indico.cern.ch/event/684972/){:target="_hsf_packaging_16"}
 
 ## Introduction
@@ -16,7 +16,7 @@ layout: default
 * Overview of Portage, including links to docs
 * Distribution models in HEP
   * Base Image via binaries, images (automated with Catalyst)
-  * Gentoo Prefix environments - non-root installs, can support macOs
+  * Gentoo Prefix environments - non-root installs, can support macOS
 * Portage for LCG
   * No setup (inc `LD_LIBRARY_PATH`)
   * Only dependendency is kernel, single install for all Linux, multiple compilers
