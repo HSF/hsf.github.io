@@ -1,5 +1,5 @@
 ---
-title: PyHEP - "Python in HEP" Series of Workshops
+title: PyHEP Workshops
 author: "Eduardo Rodrigues"
 layout: default
 ---
