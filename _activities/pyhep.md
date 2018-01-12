@@ -40,6 +40,6 @@ Jeff Templon - Nikhef (Co-chair)
 ## Workshops
 
 {:.table .table-hover .table-condensed .table-striped}
-| *Workshop* | *Location*          | *Date*               | *Agenda link* |
-| ---------- | ------------------- | ---------------------| ------------- |
-| PyHEP 2018 | Sofia, Bulgaria     | July 7-8, 2018       | |
+| *Workshop* | *Location*          | *Date*               | *Agenda link*                                                                 |
+| ---------- | ------------------- | ---------------------| ----------------------------------------------------------------------------- |
+| PyHEP 2018 | Sofia, Bulgaria     | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
