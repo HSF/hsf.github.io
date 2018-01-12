@@ -7,5 +7,5 @@
 # kramdown extension that adds tags to URLs, e.g.
 # [link text](http://valid.but.unferifiable.com/){:data-proofer-ignore=""}
 #
-# N.B. Jeykll's kramdown generator changed to ignore plain attributes attached
-# to links, but an using an empty value works just fine. 
+# N.B. Jekyll's kramdown generator changed to ignore plain attributes attached
+# to links, but using an empty value works just fine. 
