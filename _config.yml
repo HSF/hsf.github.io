@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 future: true
 exclude: [vendor]
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-redirect-from
