@@ -19,7 +19,7 @@ Currently the activities within the HSF are organized by the *HSF startup team*.
  * Mark Neubauer - University of Illinois at Urbana-Champaign
  * Eduardo Rodrigues - University of Cincinnati
  * Elizabeth Sexton-Kennedy - [FNAL](http://www.fnal.gov)
- * Graeme Stewart - [Glasgow](http://www.gla.ac.uk/schools/physics/research/groups/particlephysicsexperiment/)
+ * Graeme Stewart - [CERN](https://cern.ch)
  * Craig Tull - [LBNL](http://www.lbl.gov)
  * Andrea Valassi - [CERN](http://cern.ch)
  * Brett Viren - [BNL](https://www.bnl.gov)
