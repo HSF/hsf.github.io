@@ -1,8 +1,11 @@
 # Do not use this file to suppress checks against URLs any more.
-# Instead please add the tag "data-proofer-ignore" to your link,
+# Instead please add the attribute tag "data-proofer-ignore" to your link,
 # see 
 # https://github.com/gjtorikian/html-proofer#ignoring-content
 #
 # To use this technique with a markdown URL, you can use the
 # kramdown extension that adds tags to URLs, e.g.
-# [link text](http://valid.but.unferifiable.com/){:data-proofer-ignore}
+# [link text](http://valid.but.unferifiable.com/){:data-proofer-ignore=""}
+#
+# N.B. Jeykll's kramdown generator changed to ignore plain attributes attached
+# to links, but an using an empty value works just fine. 

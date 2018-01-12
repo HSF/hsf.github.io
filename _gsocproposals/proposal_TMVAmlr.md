@@ -8,7 +8,7 @@ organization:
 ---
 
 # Description
-[mlr](https://mlr-org.github.io/) is an [R](https://cran.r-project.org/) package that integrates almost all machine learning packages in R. [RMVA](http://oproject.org/RMVA){:data-proofer-ignore} is a set of plugins for TMVA based on [ROOTR](http://oproject.org/ROOT+R){:data-proofer-ignore} that allows the use of R in TMVA. The idea is to update the library RMVA to use mlr.
+[mlr](https://mlr-org.github.io/) is an [R](https://cran.r-project.org/) package that integrates almost all machine learning packages in R. [RMVA](http://oproject.org/RMVA){:data-proofer-ignore=""} is a set of plugins for TMVA based on [ROOTR](http://oproject.org/ROOT+R){:data-proofer-ignore=""} that allows the use of R in TMVA. The idea is to update the library RMVA to use mlr.
 
 <!-- oproject is very slow and times out on html-proofer --> 
 
@@ -35,5 +35,5 @@ organization:
 
   * [http://root.cern](http://root.cern)
   * [http://mlr-org.github.io](http://mlr-org.github.io)
-  * [http://oproject.org/RMVA](http://oproject.org/RMVA)
-  * [http://oproject.org/ROOT+R](http://oproject.org/ROOT+R)
+  * [http://oproject.org/RMVA](http://oproject.org/RMVA){:data-proofer-ignore=""}
+  * [http://oproject.org/ROOT+R](http://oproject.org/ROOT+R){:data-proofer-ignore=""}

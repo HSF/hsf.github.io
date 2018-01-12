@@ -48,5 +48,7 @@ A working implementation of the desired new functionalities and fully tested at 
 ## Links
 
 - [Rucio Public Github Mirror](https://github.com/rucio01/rucio)
-- [Rucio Website](http://rucio.cern.ch){:data-proofer-ignore}
+- [Rucio Website](http://rucio.cern.ch){:data-proofer-ignore=""}
 - [Google Cloud Services](https://cloud.google.com/)
+
+<!-- rucio.cern.ch has a broken CA right now --> 
