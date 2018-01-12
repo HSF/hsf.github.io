@@ -17,6 +17,7 @@ Currently the activities within the HSF are organized by the *HSF startup team*.
  * Andrew McNab - [Manchester](http://www.hep.manchester.ac.uk)
  * Dario Menasce - [INFN](http://www.mi.infn.it)
  * Mark Neubauer - University of Illinois at Urbana-Champaign
+ * Eduardo Rodrigues - University of Cincinnati
  * Elizabeth Sexton-Kennedy - [FNAL](http://www.fnal.gov)
  * Graeme Stewart - [CERN](https://cern.ch)
  * Craig Tull - [LBNL](http://www.lbl.gov)
@@ -51,7 +52,7 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
  * [Challenges in the HEP SW Landscape](https://indico.desy.de/getFile.py/access?contribId=10&resId=0&materialId=1&confId=16073) at the [2016 KET-Meeting](https://indico.desy.de/conferenceDisplay.py?confId=16073), 18 Nov 2016, Benedikt Hegner
  * [Community White Paper: A Roadmap for HEP Software and Computing - Status and Plans](https://indico.cern.ch/event/505613/contributions/2323238/attachments/1352966/2043354/20161011-chep-cwp-plenary.pdf) at [CHEP 2016](http://chep2016.org), 11 Oct 2016, Peter Elmer
  * [Community White Paper: A Roadmap for HEP Software and Computing - Status and Plans](https://indico.cern.ch/event/555063/contributions/2330979/attachments/1350889/2039355/20161009-wlcg-pre-chep-cwp.pdf) at [WLCG Workshop 2016](https://indico.cern.ch/event/555063/), 9 Oct 2016, Peter Elmer
- * [Developing the Roadmap for HL-LHC Software](https://indico.cern.ch/event/524795/contributions/2236597/attachments/1347925/2033396/LHC-Software-Roadmap.pdf) 
+ * [Developing the Roadmap for HL-LHC Software](https://indico.cern.ch/event/524795/contributions/2236597/attachments/1347925/2033396/LHC-Software-Roadmap.pdf)
    at the [ECFA HL-LHC Experiments Workshop](https://indico.cern.ch/event/524795/timetable/), 3-6 Oct 2016, Pere Mato
  * [Community White Paper on HEP software and computing](https://indico.cern.ch/event/536788/contributions/2181213/attachments/1295815/1932438/20160621-wlcg-mb-s2i2-hsf-cwp.pdf) at [WLCG Management Board](https://indico.cern.ch/event/536788/), 21 Jun 2016, Peter Elmer
  * [Community White Paper: a roadmap for the HSF?](https://indico.cern.ch/event/468475/contributions/2176639/attachments/1284555/1909827/20160603-hsf-community-whitepaper-gdb-overview-board.pdf) at [WLCG Overview Board](https://indico.cern.ch/event/468475/), 3 Jun 2016, Peter Elmer
