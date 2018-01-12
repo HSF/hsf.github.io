@@ -50,7 +50,8 @@ Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-pa
 This is a list of talks about the CWP Roadmap that were given by various HSF members:
 
 * 2018-01-10 [Presentation](https://indico.cern.ch/event/651349/contributions/2830237/attachments/1580497/2497360/cwp-gdb-january-2018.pdf) at the [January 2018 GDB](https://indico.cern.ch/event/651349/) by Graeme Stewart.
-* 2017-01-05 [Presentation](https://indico.cern.ch/event/666278/contributions/2830239/attachments/1579352/2495271/Advances_in_software_and_computing_for_HEP.pdf) at the [2018 Sp&aring;tlid Nordic Particle Physics Meeting](https://indico.cern.ch/event/666278/overview) by Graeme Stewart.
+* 2017-01-05 [Talk](https://indico.cern.ch/event/666278/contributions/2830239/attachments/1579352/2495271/Advances_in_software_and_computing_for_HEP.pdf) at the [2018 Sp&aring;tlid Nordic Particle Physics Meeting](https://indico.cern.ch/event/666278/overview) in Skeikampen, Norway by Graeme Stewart (covers HEP software and computing
+challenges in general, as well as the CWP).
 * 2017-11-28 [Presentation](https://indico.desy.de/indico/event/18681/session/8/contribution/114/material/slides/0.pdf) at the [11th Terascale Alliance Workshop](https://indico.desy.de/indico/event/18681/) by Benedikt Hegner.
 * 2017-10-29 [Presentation](https://indico.cern.ch/event/663273/contributions/2708178/attachments/1545100/2431717/HSF-CWP-Roadmap.pdf) on the CWP Roadmap at
   the [3rd Scientific Computing Forum](https://indico.cern.ch/event/663273/) by Graeme Stewart.

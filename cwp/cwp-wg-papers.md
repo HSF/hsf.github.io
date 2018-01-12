@@ -37,14 +37,16 @@ recommended.
   [https://github.com/HEP-SF/documents](https://github.com/HEP-SF/documents), following the
   usual pull request workflow. You can ask `hegner`, `eduardo-rodrigues`, `graeme-a-stewart`
   or `jouvin` for a review (best to pick at least two).
-    -  You paper should go into 
+    -  Your paper should go into 
        `CWP/papers/HSF-CWP-2017-XX_short-wg-name/latex` (the first part for correct ordering,
        the second for allowing people to know which paper is which at a glance).
 1. You can now take advantage of the [large bibtex](https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp.bib) file that
   was used for the roadmap for your references.
   - There is also a common file for references to [WG papers](https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp-chapters.bib) themselves.
 1. Upload to arXiv, use "Computational Physics (physics.comp-ph)" as the primary 
-  subject, with "High Energy Physics - Experiment (hep-ex)" as a secondary.
+   subject, with "High Energy Physics - Experiment (hep-ex)" as a secondary.
+    - Note that when uploading files to arXiv, it is the `.bbl` file of resolved and formatted 
+      references that is required, not the source `.bib` files.
 1. You can now finalise your own paper's reference in
   [CWP/papers/HSF-CWP-2017-01\_roadmap/latex/cwp-chapters.bib](https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp-chapters.bib).
   - Make a final commit to github with this last piece of information so that all regenerated 
