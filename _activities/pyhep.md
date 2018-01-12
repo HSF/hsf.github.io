@@ -15,7 +15,7 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 The first workshop, **PyHEP 2018**, will be held as a pre-CHEP event in Sofia, Bulgaria, on 7-8 July 2018, just before the start of the [CHEP 2018 conference](http://chep2018.org/). It will focus on a review of where and how Python is used in our community, and what the future will hold.
 The workshop will be a forum for the participants, representatives of the community, to discuss topics around the areas of work identified in the HSF [Community White Paper](/activities/cwp.html). There will be ample time for discussion.
 
-The agenda will be composed of plenary sessions dedicated to the following topics:
+The [agenda](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"} will be composed of plenary sessions dedicated to the following topics:
 
 1. Historical perspective and overview
 2. PyROOT and Python bindings
