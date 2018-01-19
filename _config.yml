@@ -17,7 +17,7 @@ collections:
     permalink: /activities/:title.html
   gsocproposals:
     output: true
-    permalink: /gsoc/:title.html
+    permalink: /gsoc/:path.html
 
 docs:
   url: https://github.com/HEP-SF/documents/blob/master
