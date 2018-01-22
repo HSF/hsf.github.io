@@ -10,17 +10,20 @@ redirect_from: /gsoc/gsoc2017.html
 
 ## Introduction
 
-[Google Summer of Code 2017](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations.
+[Google Summer of Code](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations.
 
 Particle physics is an exciting field where large collaborations of scientists collect and analyze the data from high-energy physics experiments, such as the Large Hadron Collider, hosted by the CERN laboratory in Geneva, Switzerland. The questions that we collectively ask are: what are the fundamental blocks that make up our Universe? What is the nature of dark matter and dark energy?  What is the nature of the asymmetry between matter and antimatter? What was early Universe like? To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
 
-The CERN software for experiments (CERN-SFT) group has participated in the GSoC since 2011. This year the program expands to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
+The CERN software for experiments (CERN-SFT) group has participated in the GSoC since 2011. In 2017 the program expanded to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
 
-Students interested in participating in the GSoC can find project proposals [here](#Projects).
+Students interested in participating in the GSoC for 2017 were able to chose from various project proposals [here](#Projects).
 
 HSF GSoC Administrators: Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a>
 
 Instructions for participating projects and mentors can be found [here](/gsoc/guideline.html).
+
+*N.B.* This page **archives** the proposals from the 2017 Google Summer of Code. For information on the latest
+GSoC please see [here](/activities/gsoc.html).
 
 
 ## Projects
@@ -78,5 +81,6 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 [Full list of Mentors](/gsoc/mentors.html)
 
 ## Contact information (for students)
-Please do not hesitate to contact us if you are planning to apply for any of the above projects:
-HSF GSoC mailing list:[hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)  no subscription needed
+Although GSoC 2017 has finished, please do not hesitate to contact us if you are 
+interested in the latest GSoC program using the HSF GSoC mailing list: [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
+
