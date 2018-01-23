@@ -29,6 +29,8 @@ Information from last year's GSoC can be found [here](/gsoc/2017/index.html). Fo
 HSF is again applying for participation in the program. If you are 
 interested in the GSoC program contact us using the HSF GSoC mailing list: [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
 
+Instructions for participating projects and mentors can be found [here](/gsoc/guideline.html).
+
 ---
 
 *HSF GSoC Administrators*: [Sergei Gleyzer](mailto:sergei@cern.ch), [Enric Tejedor Saavedra](mailto:etejedor@cern.ch) and [Antoine Perus](mailto:perus@lal.in2p3.fr).
