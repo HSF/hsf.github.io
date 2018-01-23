@@ -2,6 +2,7 @@
 title: Message Passing Interface for ROOT (ROOTMpi)
 layout: gsoc_proposal
 project: ROOT
+year: 2017
 organization:
   - UdeA
   - CERN

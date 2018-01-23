@@ -2,6 +2,7 @@
 title: Optimizing Computing Operations with Machine Learning algorithms
 layout: gsoc_proposal
 project: ATLAS
+year: 2017
 organization: CERN
 ---
 

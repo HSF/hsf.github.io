@@ -2,6 +2,7 @@
 title: Next generation of CMS data replication system
 layout: gsoc_proposal
 project: CMS
+year: 2017
 organization: 
   - Cornell
   - UBologna

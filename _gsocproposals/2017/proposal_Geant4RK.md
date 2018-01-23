@@ -2,6 +2,7 @@
 title: New error control methods for integration of trajectories
 layout: gsoc_proposal
 project: Geant4
+year: 2017
 organization:
   - CERN
 ---

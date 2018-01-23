@@ -2,6 +2,7 @@
 title:   hepsoftware.org - The HEP Software and Computing Knowledge Base
 layout: gsoc_proposal
 project: HSF
+year: 2017
 organization:
   - BNL
   - CERN

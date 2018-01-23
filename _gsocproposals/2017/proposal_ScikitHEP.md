@@ -2,6 +2,7 @@
 title: Efficient Python routines for analysis on massively multi-threaded platforms - Python bindings for the Hydra C++ library
 layout: gsoc_proposal
 project: SciKit-HEP
+year: 2017
 organization:
  - Cincinnati
 ---

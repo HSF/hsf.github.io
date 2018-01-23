@@ -2,6 +2,7 @@
 title: Parallelization and C++ implementation of ultra-fast detector simulation package, FALCON 
 layout: gsoc_proposal
 project: FALCON
+year: 2017
 organization: 
  - FSU
  - UFlorida

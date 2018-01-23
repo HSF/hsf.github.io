@@ -2,6 +2,7 @@
 title: Extend clad - The Automatic Differentiation
 layout: gsoc_proposal
 project: ROOT
+year: 2017
 organization: Princeton
 ---
 

@@ -2,6 +2,7 @@
 title: SixTrack continuous integration and test coverage with CDash and coverity
 layout: gsoc_proposal
 project: SixTrack
+year: 2017
 organization: CERN
 ---
 

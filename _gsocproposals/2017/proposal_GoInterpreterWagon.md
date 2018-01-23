@@ -2,6 +2,7 @@
 title: Launching Wagon, a WebAssembly interpreter in Go
 layout: gsoc_proposal
 project: GoInterpreter
+year: 2017
 organization: LPC-Clermont
 ---
 

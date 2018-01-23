@@ -2,6 +2,7 @@
 title: Tensorflow-TMVA GAN Interface Applied to NOvA Neutrino Events.
 layout: gsoc_proposal
 project: NOvA
+year: 2017
 organization:
  - FNAL
  - CERN

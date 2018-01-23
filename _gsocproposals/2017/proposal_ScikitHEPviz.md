@@ -2,6 +2,7 @@
 title: Visualization tools for Scikit-HEP project
 layout: gsoc_proposal
 project: SciKit-HEP
+year: 2017
 organization: 
  - Princeton
 ---

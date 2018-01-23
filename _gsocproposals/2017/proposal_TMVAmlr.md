@@ -2,6 +2,7 @@
 title: Interface mlr package with RMVA
 layout: gsoc_proposal
 project: TMVA
+year: 2017
 organization: 
  - UdeA
  - CERN

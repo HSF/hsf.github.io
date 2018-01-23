@@ -2,6 +2,7 @@
 title: Kubernetes CephFS driver using FUSE
 layout: gsoc_proposal
 project: Kubernetes
+year: 2017
 organization: CERN
 ---
 

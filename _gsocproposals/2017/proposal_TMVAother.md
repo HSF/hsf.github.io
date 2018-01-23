@@ -2,6 +2,7 @@
 title: Additional Machine Learning Project Ideas and Areas of Interest
 layout: gsoc_proposal
 project: TMVA
+year: 2017
 organization: 
  - CERN
  - UdeA

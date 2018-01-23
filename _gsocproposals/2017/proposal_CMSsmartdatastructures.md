@@ -2,6 +2,7 @@
 title: Smart data structures in CUDA
 layout: gsoc_proposal
 project: CMS
+year: 2017
 organization: CERN
 ---
 

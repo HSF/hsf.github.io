@@ -2,6 +2,7 @@
 title: Jet clustering optimizations in fads
 layout: gsoc_proposal
 project: GoHEP
+year: 2017
 organization: LPC-Clermont
 ---
 

@@ -2,6 +2,7 @@
 title: Enhance C-Reduce to work with ROOT
 layout: gsoc_proposal
 project: ROOT
+year: 2017
 organization:
  - Princeton
 ---

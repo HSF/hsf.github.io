@@ -2,6 +2,7 @@
 title: New physics models in SixTrack
 layout: gsoc_proposal
 project: SixTrack
+year: 2017
 organization: CERN
 ---
 

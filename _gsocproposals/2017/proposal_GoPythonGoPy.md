@@ -2,6 +2,7 @@
 title: Updating gopy to support Python3 and PyPy
 layout: gsoc_proposal
 project: GoPython
+year: 2017
 organization: LPC-Clermont
 ---
 

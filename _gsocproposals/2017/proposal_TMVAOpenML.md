@@ -2,6 +2,7 @@
 title: Integration of TMVA and OpenML platform
 layout: gsoc_proposal
 project: TMVA
+year: 2017
 organization: 
  - ITM
  - CERN

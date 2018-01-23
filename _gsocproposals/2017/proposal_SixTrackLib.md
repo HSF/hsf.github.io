@@ -2,6 +2,7 @@
 title: Optimize and Integrate Standalone Tracking Library (SixTrackLib)
 layout: gsoc_proposal
 project: SixTrack
+year: 2017
 organization: CERN
 ---
 

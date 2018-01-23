@@ -2,6 +2,7 @@
 title: Machine Learning Project - Convolutional Deep Neural Networks on GPUs for Particle Physics Applications
 layout: gsoc_proposal
 project: TMVA
+year: 2017
 organization:
   - CERN   
   - UFlorida

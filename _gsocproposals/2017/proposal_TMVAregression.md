@@ -2,6 +2,7 @@
 title: Machine Learning Project - Multi-target Regression for Particle Physics
 layout: gsoc_proposal
 project: TMVA
+year: 2017
 organization: 
   - UFlorida
   - CERN

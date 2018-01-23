@@ -2,6 +2,7 @@
 title: Integration of Apache Parquet reading capabilities in ROOT data analyses
 layout: gsoc_proposal
 project: ROOT
+year: 2017
 organization: CERN
 ---
 

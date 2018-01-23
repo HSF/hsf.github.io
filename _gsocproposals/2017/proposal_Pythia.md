@@ -2,6 +2,7 @@
 title: Electron-ion collisions in Pythia 8
 layout: gsoc_proposal
 project: Pythia
+year: 2017
 organization: MIT
 ---
 
