@@ -76,9 +76,9 @@ GSoC please see [here](/activities/gsoc.html).
 | ![RAL](/images/logo_RAL.jpg){:width="100px"} | STFC Rutherford Appleton Laboratory in Oxfordshire, United Kingdom is home to national facilities including the Diamond synchroton and ISIS neutron spallation source. The Particle Physics Department contributes to experiments including ATLAS, CMS and T2K. [List of proposals](/gsoc/{{ page.year }}/ral.html)|
 
 
-[Full list of Proposal Ideas](/gsoc/summary.html)
+[Full list of Proposal Ideas](/gsoc/{{page.year}}/summary.html)
 
-[Full list of Mentors](/gsoc/mentors.html)
+[Full list of Mentors](/gsoc/{{page.year}}/mentors.html)
 
 ## Contact information (for students)
 Although GSoC 2017 has finished, please do not hesitate to contact us if you are 
