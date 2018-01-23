@@ -18,7 +18,7 @@ The CERN software for experiments (CERN-SFT) group has participated in the GSoC 
 
 Students interested in participating in the GSoC for 2017 were able to chose from various project proposals [here](#Projects).
 
-HSF GSoC Administrators: Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a>
+HSF GSoC 2017 Administrators: Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a>
 
 Instructions for participating projects and mentors can be found [here](/gsoc/guideline.html).
 
@@ -52,23 +52,23 @@ GSoC please see [here](/activities/gsoc.html).
 ## Participating Organizations
 
 {:.table .table-hover  .table-striped}
-| ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
+| ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/{{ page.year }}/cern.html)|
 | ![Fermilab](/images/FNAL-Logo-NAL-Blue.jpg){:width="100px"} | [Fermi National Accelerator Laboratory](http://www.fnal.gov/) (FNAL) is a Department of Energy national laboratory dedicated to particle physics research. Fermilab supports work by scientists, from across the country and the globe, who seek to further our understanding of matter, energy, space and time. [List of proposals]({{site.baseurl}}/gsoc/{{ page.year }}/fnal.html)|
 | ![Universidad de Antioquia](/images/udea_logo.png){:width="100px"} | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. [List of proposals](/gsoc/{{ page.year }}/udea.html)|
 | ![Cornell University](/images/cornell_logo.gif){:width="100px"} | Founded in 1865, Cornell is a leading private institution of higher learning located in Ithaca, New York. [List of proposals](/gsoc/{{ page.year }}/cornell.html)|
 | ![Princeton University](/images/princeton-logo.png){:width="100px"} | Princeton University is a private Ivy League research university in Princeton, New Jersey. [List of proposals](/gsoc/{{ page.year }}/princeton.html)|
 | ![University of Bologna ](/images/unibo_logo.jpg){:width="100px"} | University of Bologna, one of the oldest and most famous universities in Europe. [List of proposals](/gsoc/{{ page.year }}/ubologna.html)|
 | ![University of Cincinnati ](/images/Uc-seal.png){:width="100px"} | University of Cincinnati [List of proposals](/gsoc/{{ page.year }}/cincinnati.html)|
-| ![Karlsruhe Institute of Technology](/images/kit_logo.png){:width="100px"} | The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. [List of proposals](/gsoc/kit.html)|
+| ![Karlsruhe Institute of Technology](/images/kit_logo.png){:width="100px"} | The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. [List of proposals](/gsoc/{{ page.year }}/kit.html)|
 | ![Massachusetts Institute of Technology](/images/MIT_logo.png){:width="100px"} | The [Massachusetts Institute of Technology](http://web.mit.edu/) is a private university in Cambridge, Massachusetts. [List of proposals](/gsoc/{{ page.year }}/mit.html)|
 | ![University of Florida](/images/ufl_logo.jpg){:width="100px"} | University of Florida is a public institution that was founded in 1853. [List of proposals](/gsoc/{{ page.year }}/uflorida.html)|
-| ![LAL](/images/logo_LAL.jpg){:width="100px"} | [LAL](http://www.lal.in2p3.fr) is a French research laboratory belonging to CNRS/IN2P3 and located at Université Paris Sud. The main topics of the research done at LAL are high energy physics, cosmology and accelerators. [List of proposals](/gsoc/lal.html)|
+| ![LAL](/images/logo_LAL.jpg){:width="100px"} | [LAL](http://www.lal.in2p3.fr) is a French research laboratory belonging to CNRS/IN2P3 and located at Université Paris Sud. The main topics of the research done at LAL are high energy physics, cosmology and accelerators. [List of proposals](/gsoc/{{ page.year }}/lal.html)|
 | ![LPC](/images/lpc-logo.png){:width="100px"} | Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. [List of proposals](/gsoc/{{ page.year }}/lpc-clermont.html)|
 | ![National Technical University of Ukraine](/images/NTUU_KPI_logo.png){:width="100px"} | The National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute" is a major university in Kiev, Ukraine. [List of proposals](/gsoc/{{ page.year }}/ntuukpi.html)|
 | ![University of Montreal](/images/umontreal_logo.png){:width="100px"} | The Université de Montréal is a public research university in Montreal, Quebec, Canada. [List of proposals](/gsoc/{{ page.year }}/umontreal.html)|
 | ![Florida State University](/images/fsu_logo.jpg){:width="100px"} | Florida State University is a public institution that was founded in 1851. [List of proposals](/gsoc/{{ page.year }}/fsu.html)|
 | ![Queen Mary University of London](/images/queen-mary-logo.jpg){:width="100px"} | Queen Mary University of London is a public research university in London that was founded in 1785. [List of proposals](/gsoc/{{ page.year }}/queenmary.html)|
-| ![BNL](/images/BNL_logo.jpg){:width="100px"} | Celebrating its 70th birthday in 2017, BNL on Long Island, New York hosts major facilities including RHIC and the new NSLS-II light source, and participates in international science including ATLAS at the LHC. [List of proposals](/gsoc/bnl.html)|
+| ![BNL](/images/BNL_logo.jpg){:width="100px"} | Celebrating its 70th birthday in 2017, BNL on Long Island, New York hosts major facilities including RHIC and the new NSLS-II light source, and participates in international science including ATLAS at the LHC. [List of proposals](/gsoc/{{ page.year }}/bnl.html)|
 | ![University of Oslo](/images/UOslo.png){:width="100px"} | University of Oslo [List of proposals](/gsoc/{{ page.year }}/uoslo.html)|
 | ![Metropolitan Institute of Technology](/images/logo_itm.png){:width="100px"} | ITM is an accredited public University, founded in 1944, in Medellin Colombia. [List of proposals](/gsoc/{{ page.year }}/itm.html)|
 | ![Universitat Jaume I](/images/uji_logo.jpg){:width="100px"} |The Universitat Jaume I is a public university in Castelló de la Plana, Spain. [List of proposals](/gsoc/{{ page.year }}/uji.html)|
