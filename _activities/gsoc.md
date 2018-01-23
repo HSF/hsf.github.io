@@ -26,4 +26,9 @@ The CERN software for experiments (CERN-SFT) group has participated in the GSoC 
 Since 2017 the program has expanded to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
 
 Information from last year's GSoC can be found [here](/gsoc/2017/index.html). For 2018 the 
-HSF is again applying for participation in the program.
+HSF is again applying for participation in the program. If you are 
+interested in the GSoC program contact us using the HSF GSoC mailing list: [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
+
+---
+
+*HSF GSoC Administrators*: [Sergei Gleyzer](mailto:sergei@cern.ch), [Enric Tejedor Saavedra](mailto:etejedor@cern.ch) and [Antoine Perus](mailto:perus@lal.in2p3.fr).
