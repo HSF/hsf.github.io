@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 future: true
 exclude: [vendor]
-plugins:
+plugins_dir:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-redirect-from
@@ -17,7 +17,7 @@ collections:
     permalink: /activities/:title.html
   gsocproposals:
     output: true
-    permalink: /gsoc/:title.html
+    permalink: /gsoc/:path.html
 
 docs:
   url: https://github.com/HEP-SF/documents/blob/master
