@@ -1,5 +1,5 @@
 ---
-title: "HSF GSoC Mentor Guideline 2017"
+title: "HSF GSoC Mentor Guidelines"
 author: "Benedikt Hegner"
 layout: default
 ---
