@@ -2,6 +2,7 @@
 title:  Faster matrix algebra for ATLAS
 layout: gsoc_proposal
 project: ATLAS
+year: 2018
 organization:
   - RAL
 ---

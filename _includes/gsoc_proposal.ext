@@ -13,7 +13,9 @@ grouping by organization and is case insensitive.
 # Project Proposals by {{ page.title }} in {{ year }}
 
 {% for proposal in site.gsocproposals %}
-{% if proposal.category == {{ year }} %}
+{% assign strings = proposal.url | split: '/' %}
+{% assign proposal_year = strings[2] %}
+{% if proposal_year == year %}
 {% for organization in proposal.organization %}
 {% capture u_proposal_org %}{{ organization | upcase }}{% endcapture %}
 {% capture u_org %}{{ page.organization | upcase }}{% endcapture %}
