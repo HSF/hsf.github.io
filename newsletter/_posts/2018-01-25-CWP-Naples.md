@@ -7,7 +7,7 @@ layout: newsletter
 ## CWP Roadmap
 
 The [Community White Paper](/activities/cwp.html){:target="_cwp"} process, that the HSF launched in 
-[San Diego](/2017/02/01/CWPWorkshopSanDiego.html){:target="_cwp_sandiego"} in January 2017 
+[San Diego](/newsletter/2017/02/01/CWPWorkshopSanDiego.html){:target="_cwp_sandiego"} in January 2017 
 came to a successful conclusion
 at the end of last year, with the publication of *A Roadmap for HEP Software and 
 Computing R&D for the 2020s* to [arXiv](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"}.
@@ -41,7 +41,7 @@ we tackle the training needs of the community.
 Feel free to suggest ideas for other sessions, or to make a contribution to existing ones
 by [contacting the organisers](mailto:WLCG-HSF-Workshop-2018-organisation@cern.ch).
 
-<div style="text-align:center"><img src ="/images/naples-bay.jpg" /></div>
+<div style="text-align:center"><img src ="/images/naples-bay.jpg" alt="Naples Bay" /></div>
 
 ## Google Summer of Code, 2018
 
