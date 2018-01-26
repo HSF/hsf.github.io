@@ -17,3 +17,7 @@ vendor/
 
 # MacOS
 .DS_Store
+
+# common editor backups
+*~
+
