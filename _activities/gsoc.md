@@ -51,6 +51,17 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![Princeton University](/images/princeton-logo.png){:width="100px"} | Princeton University is a private Ivy League research university in Princeton, New Jersey. [List of proposals](/gsoc/2018/princeton.html)|
 | ![Universitat Jaume I](/images/uji_logo.jpg){:width="100px"} |The Universitat Jaume I is a public university in Castelló de la Plana, Spain. [List of proposals](/gsoc/2018/uji.html)|
 | ![RAL](/images/logo_RAL.jpg){:width="100px"} | STFC Rutherford Appleton Laboratory in Oxfordshire, United Kingdom is home to national facilities including the Diamond synchroton and ISIS neutron spallation source. The Particle Physics Department contributes to experiments including ATLAS, CMS and T2K. [List of proposals](/gsoc/2018/ral.html)|
+| ![Oproject](/images/oproject-logo.png){:width="100px"} | (Oproject) Open source organization, specialized in development  of advaced scientfic software with ROOT, focused  mathematical/statistical tools, machine learning and high performance computing. [List of proposals](/gsoc/2018/oproject.html)|
+| ![Universidad de Antioquia](/images/udea_logo.png){:width="100px"} | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. [List of proposals](/gsoc/2018/udea.html)|
+| ![Karlsruhe Institute of Technology](/images/kit_logo.png){:width="100px"} | The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. [List of proposals](/gsoc/2018/kit.html)|
+| ![University of Florida](/images/ufl_logo.jpg){:width="100px"} | University of Florida is a public institution that was founded in 1853. [List of proposals](/gsoc/2018/uflorida.html)|
+| ![Florida State University](/images/fsu_logo.jpg){:width="100px"} | Florida State University is a public institution that was founded in 1851. [List of proposals](/gsoc/2018/fsu.html)|
+| ![Lulea University of Technology](/images/lut_logo.jpg){:width="100px"} | (Swedish: Luleå tekniska universitet) of Sweden is Scandinavia's northernmost university of technology. [List of proposals](/gsoc/2018/lut.html)|
+| ![University of Texas Arlington](/images/UTArlington_logo.png){:width="100px"} | The University of Texas at Arlington (UTA or UT Arlington) is a public research university located in Arlington, Texas, midway between Dallas and Fort Worth. [List of proposals](/gsoc/2018/uta.html)|
+| ![École polytechnique fédérale de Lausanne](/images/Logo_EPFL.png){:width="100px"} | The École polytechnique fédérale de Lausanne (EPFL) is a research institute and university in Lausanne, Switzerland, that specializes in natural sciences and engineering. [List of proposals](/gsoc/2018/epfl.html)|
+
+
+
 
 [Full list of Proposal Ideas](/gsoc/2018/summary.html)
 
