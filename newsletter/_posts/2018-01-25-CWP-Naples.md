@@ -1,5 +1,5 @@
 ---
-title: CWP and Naples Workshop
+title: CWP, Naples Workshop and GSoC
 author: Graeme Stewart
 layout: newsletter
 ---
@@ -29,9 +29,9 @@ your support to this important document.
 
 Now that we have concluded the roadmap, the next thing to do is to start working on all the
 interesting projects that we have identified. To that end WLCG and the HSF are joining forces
-this Spring in Naples to have a 
-[joint workshop](https://indico.cern.ch/event/658060/overview){:target="_naples_workshop"}
-focused on our future software and computing development. 
+to hold a [joint workshop](https://indico.cern.ch/event/658060/overview){:target="_naples_workshop"}
+this Spring in Naples, 
+focused on our future software and computing developments.
 
 Registration for the workshop is open now (try to book your hotel early as it's just before Easter).
 We have a great programme covering many areas that we need to work in, from data lakes to
@@ -42,3 +42,12 @@ Feel free to suggest ideas for other sessions, or to make a contribution to exis
 by [contacting the organisers](mailto:WLCG-HSF-Workshop-2018-organisation@cern.ch).
 
 <div style="text-align:center"><img src ="/images/naples-bay.jpg" /></div>
+
+## Google Summer of Code, 2018
+
+The HSF is once again [participating](/activities/gsoc.html){:target="_gsoc"} 
+in the Google Summer of Code event. Project proposals are been actively solicited
+[right now](/gsoc/guideline.html){:target="_gsoc_proposal"} . This is a great
+way to get talented students involved in our software projects for HEP and to
+raise awareness of the HSF.
+ 
