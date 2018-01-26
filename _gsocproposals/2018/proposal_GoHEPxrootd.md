@@ -26,9 +26,9 @@ We propose the following steps:
  * implement the client request format
  * implement the server response format
  * implement the following client requests: 
+   * `ping`, `protocol`,
    * `auth`, `bind`, `unbind`,
    * `close`, `open`, `read`,
-   * `ping`, `protocol`,
  * add tests and benchmarks (CPU, Mem, I/O) for each step
  * leverage Go builtin features to make the XRootD client concurrent and scalable.
 
@@ -44,6 +44,7 @@ Working command line client for XRootD (built on top of a clean API) that can re
 ## Mentors
 
   * [Sebastien Binet](mailto:binet@cern.ch)
+  * [Sebastien Gadrat](mailto:sebastien.gadrat@cc.in2p3.fr)
 
 ## Links
 
