@@ -2,6 +2,7 @@
 title: CernVM-FS powered WebAssembly I/O
 layout: gsoc_proposal
 project: CernVM-FS
+year: 2018
 organization:
   - CERN
 ---
