@@ -35,6 +35,8 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 
 {:.table .table-hover  .table-striped}
 | ![ATLAS](/images/ATLAS-Logo-Ref-RGB.png){:width="100px"} | [ATLAS](https://atlas.web.cern.ch/Atlas/Collaboration/) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/2018/project_ATLAS.html)|
+| ![CernVM-FS](/images/cernvmfs-logo.png){:width="100px"} | [CernVM-FS](http://cernvm.cern.ch/portal/filesystem) is a global, read-only POSIX file system that provides the universal namespace /cvmfs. It is based on content-addressable storage, Merkle trees, and HTTP data transport. [List of proposals](/gsoc/2018/project_CernVM-FS.html)|
+
 | ![Geant4](/images/geanttiny.gif){:width="100px"} | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals]({{site.baseurl}}/gsoc/2018/project_Geant4.html)|
 | ![GoHEP](/images/go-hep-logo.png){:width="100px"} | The GoHEP project aims at developing robust and concurrency friendly libraries for HEP, astrophysics and cosmology. [List of proposals](/gsoc/2018/project_GoHEP.html)|
 | ![ROOT](/images/rootlogo.png){:width="100px"} | A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R. [List of proposals](/gsoc/2018/project_ROOT.html)|
@@ -44,6 +46,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 
 {:.table .table-hover  .table-striped}
 | ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/2018/cern.html)|
+| ![LAL](/images/logo_LAL.jpg){:width="100px"} | [LAL](http://www.lal.in2p3.fr) is a French research laboratory belonging to CNRS/IN2P3 and located at Université Paris Sud. The main topics of the research done at LAL are high energy physics, cosmology and accelerators. [List of proposals](/gsoc/2018/lal.html)|
 | ![LPC](/images/lpc-logo.png){:width="100px"} | Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. [List of proposals](/gsoc/2018/lpc-clermont.html)|
 | ![Princeton University](/images/princeton-logo.png){:width="100px"} | Princeton University is a private Ivy League research university in Princeton, New Jersey. [List of proposals](/gsoc/2018/princeton.html)|
 | ![Universitat Jaume I](/images/uji_logo.jpg){:width="100px"} |The Universitat Jaume I is a public university in Castelló de la Plana, Spain. [List of proposals](/gsoc/2018/uji.html)|

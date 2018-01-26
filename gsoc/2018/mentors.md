@@ -8,6 +8,7 @@ layout: plain
 * Guilherme Amadio [guilherme.amadio@cern.ch](mailto:guilherme.amadio@cern.ch) CERN
 * John Apostolakis [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC Clermont
+* Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Enrico Guiraud [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
 * Giovanni Iadarola [giovanni.iadarola@cern.ch](mailto:giovanni.iadarola@cern.ch) CERN
