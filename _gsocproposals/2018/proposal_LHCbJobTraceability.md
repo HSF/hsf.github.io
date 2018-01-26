@@ -12,14 +12,12 @@ organization: CERN
 
 The student will contribute in developing DIRAC. Communities use DIRAC to submit jobs to hundreds of heterogeneous computing resources, with several tens of thousands of jobs running concurrently. Monitoring is essential. Traceability of each of the submitted jobs is key when security checks are needed. The student will extend the current job monitoring system, currently based upon relational databases, by using non-relational state-of-the-art solutions.
 
-The student will have the opportunity to see at work a large distributed computing infrastructure, and to understand the needs for it. The student will discover different ways of computing, including Grid and Cloud.
-
 
 ## Task ideas
 
  * Store DIRAC jobs' parameters in the ElasticSearch backend
  * Define an optimal indexing strategy
- * Assure backword-compatibility with SQL-based solution
+ * Assure backward-compatibility with SQL-based solution
 
 ## Expected results
 * working implementation with tests and documentation
