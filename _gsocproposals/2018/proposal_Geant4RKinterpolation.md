@@ -35,4 +35,4 @@ numerical methods for ODEs will be improved by undertaking this project.
 [http://geant.cern.ch/](http://geant.cern.ch/)
 
 # Source code 
-[https://github.com/jonapost/fieldpropagation](https://github.com/jonapost/fieldpropagation)
+[https://github.com/jonapost/field_propagation](https://github.com/jonapost/field_propagation)
