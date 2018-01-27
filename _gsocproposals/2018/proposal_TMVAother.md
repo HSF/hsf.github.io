@@ -34,6 +34,7 @@ Strong C++ skills, good understanding of machine learning algorithms
 * [Enrico Guiraud](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
 * [Enric Tejedor](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
 * [Kim Albertsson](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
+* [Saurav Shekhar](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
 
 ## Links
 
