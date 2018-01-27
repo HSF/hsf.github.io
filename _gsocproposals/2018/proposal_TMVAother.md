@@ -6,10 +6,10 @@ year: 2018
 organization: 
  - CERN
  - UdeA
- - UFlorida 
- - QueenMary 
+ - Florida 
  - KIT
- - Oproject
+ - OProject
+ - UOldenburg
 ---
 
 ## Project Description
@@ -32,10 +32,10 @@ Strong C++ skills, good understanding of machine learning algorithms
 * [Stefan Wunsch](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
 * [Enrico Guiraud](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
 * [Enric Tejedor](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
+* [Kim Albertsson](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
 
 ## Links
 
-  * [http://root.cern](http://root.cern)
   * [http://root.cern/tmva](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-mirror/root/tree/master/tmva)
 

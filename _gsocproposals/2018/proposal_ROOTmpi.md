@@ -4,8 +4,9 @@ layout: gsoc_proposal
 project: ROOT
 year: 2018
 organization:
-  - Oproject
+  - OProject
   - CERN
+  - UdeA
 ---
 
 # Description
@@ -30,8 +31,9 @@ By standardizing the way different machines communicate during a running process
 **Requirements**: Advance skills in C/C++, experience in parallel programming with MPI
 
 **Mentors**: 
-  * [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
-  * [Lorenzo Moneta](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA) 
+  * [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=ROOTMpi)
+  * [Lorenzo Moneta](mailto:sft-gsoc@cern.ch?subject=ROOTMpi) 
+  * [Diego Restrepo](mailto:sft-gsoc@cern.ch?subject=ROOTMpi)
 
 **Links**:
 

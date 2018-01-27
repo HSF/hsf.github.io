@@ -5,7 +5,7 @@ project: FALCON
 year: 2017
 organization: 
  - FSU
- - UFlorida
+ - Florida
  - UdeA
 ---
 
@@ -23,9 +23,9 @@ The goal of this project is to optimize the structure of the by using the latest
 Strong development skills, good knowledge of C++ and python. Interest in machine learning algorithms and applications.
 
 ## Mentors 
-  * [Harrison Prosper](mailto:harry@hep.fsu.edu)
-  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch)
-  * [Omar Zapata](mailto:Omar.Zapata@cern.ch)
+  * [Harrison Prosper](mailto:sft-gsoc@cern.ch?subject=FALCON)
+  * [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=FALCON)
+  * [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=FALCON)
 
 ## Links
   * [http://root.cern](http://root.cern)

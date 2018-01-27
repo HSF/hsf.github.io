@@ -1,8 +1,8 @@
 ---
-title: "University of Florida"
+title: "Universitaet Oldenburg"
 author: "Omar Zapata"
 layout: default
-organization: Florida
+organization: UOldenburg
 ---
 
 {% include gsoc_proposal.ext %}

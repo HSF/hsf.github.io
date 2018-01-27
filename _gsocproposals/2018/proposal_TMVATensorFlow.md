@@ -4,8 +4,7 @@ layout: gsoc_proposal
 project: TMVA
 year: 2018
 organization:
-  - UdeA
-  - UFlorida
+  - Florida
   - CERN
   - KIT
   - UTA
@@ -28,14 +27,13 @@ The goal of this project is to write an interface between TMVA and TensorFlow th
 **Requirements**: Strong C++ skills, good knowledge of deep learning, familiarity with Tensorflow, familiarity with ROOT and TMVA a plus.
 
 **Mentors**: 
-* [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA) 
-* [Fernanda Psihas](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
-* [Stefan Wunsch](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
+* [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=Tensorflow-TMVA%20Interface) 
+* [Fernanda Psihas](mailto:sft-gsoc@cern.ch?subject=Tensorflow-TMVA%20Interface)
+* [Stefan Wunsch](mailto:sft-gsoc@cern.ch?subject=Tensorflow-TMVA%20Interface)
 
 
 
 **Links**:
-  * [http://root.cern](http://root.cern)
   * [http://root.cern/tmva](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-project/root/tree/master/tmva)
 

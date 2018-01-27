@@ -2,7 +2,7 @@
 title: "O Project"
 author: "Omar Zapata"
 layout: default
-organization: Oproject
+organization: OProject
 ---
 
 ![Oproject](/images/oproject-banner.png){:.center-image}
