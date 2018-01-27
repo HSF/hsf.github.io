@@ -2,7 +2,7 @@ name: HEP Software Foundation Newsletter
 description: News from the HEP Software Foundation
 url: http://www.hepsoftwarefoundation.org
 excerpt_separator: <!--more-->
-timezone: Switzerland/Geneva
+timezone: Europe/Paris
 highlighter: rouge
 markdown: kramdown
 future: true
