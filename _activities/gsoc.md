@@ -43,6 +43,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![ROOT](/images/rootlogo.png){:width="100px"} | A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R. [List of proposals](/gsoc/2018/project_ROOT.html)|
 | ![TMVA](/images/tmva_logo.gif){:width="100px"} | Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning toolkit integrated into the ROOT scientific software framework, used in many particle physics data analysis and applications. [List of proposals](/gsoc/2018/project_TMVA.html)|
 | ![SixTrack](/images/sixtrack_logo.png){:width="100px"} | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals](/gsoc/2018/project_SixTrack.html) |
+| ![FALCON](/images/falcon_logo.png){:width="100px"} | Falcon is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments. [List of proposals](/gsoc/2018/project_FALCON.html)|
 
 ## Participating Organizations in 2018
 
