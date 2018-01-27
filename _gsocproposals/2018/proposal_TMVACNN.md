@@ -8,6 +8,7 @@ organization:
   - CERN
   - OProject
   - ETH
+  - EPFL
 ---
 
 # Description

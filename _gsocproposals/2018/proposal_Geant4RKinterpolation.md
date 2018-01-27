@@ -5,6 +5,7 @@ project: Geant4
 year: 2018
 organization:
   - CERN
+  - MIPT
 ---
 
 # Description

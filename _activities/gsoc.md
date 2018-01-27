@@ -15,11 +15,10 @@ and analyze petabytes data from high-energy physics experiments, such as the Lar
 hosted at the CERN laboratory in Geneva, Switzerland. 
 Some of the questions that we collectively ask are: 
 
-- What are the fundamental blocks that make up our Universe?
-- What is the nature of dark matter and dark energy?
-- What is the nature of the asymmetry between matter and antimatter?
-- What was the early Universe like?
-
+- what are the fundamental blocks that make up our Universe?
+- what is the nature of dark matter and dark energy?
+- what is the nature of the asymmetry between matter and antimatter?
+- what was the early Universe like?
 
 To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
 
@@ -44,7 +43,7 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 | ![SixTrack](/images/sixtrack_logo.png){:width="100px"} | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals](/gsoc/2018/project_SixTrack.html) |
 | ![TMVA](/images/tmva_logo.gif){:width="100px"} | Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning toolkit integrated into the ROOT scientific software framework, used in many particle physics data analysis and applications. [List of proposals](/gsoc/2018/project_TMVA.html)|
 
-## Participating Organizations in 2018
+## 2018 Participating Organizations
 
 {:.table .table-hover  .table-striped}
 | ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/2018/cern.html)|

@@ -11,6 +11,8 @@ organization:
  - OProject
  - UOldenburg
  - ETH
+ - EPFL
+ - LUT
 ---
 
 ## Project Description
