@@ -33,7 +33,7 @@ The goal of this project is to extend the existing deep learning libraries in TM
 * [Stefan Wunsch](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
 
 **Links**:
-  * http://root.cern
-  * http://root.cern/tmva
+  * [http://root.cern](http://root.cern)
+  * [http://root.cern/tmva](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-project/root/tree/master/tmva)
 

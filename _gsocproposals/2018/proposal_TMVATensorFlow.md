@@ -35,7 +35,7 @@ The goal of this project is to write an interface between TMVA and TensorFlow th
 
 
 **Links**:
-  * http://root.cern
-  * http://root.cern/tmva
+  * [http://root.cern](http://root.cern)
+  * [http://root.cern/tmva](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-project/root/tree/master/tmva)
 

@@ -35,8 +35,8 @@ By standardizing the way different machines communicate during a running process
 
 **Links**:
 
-  * http://root.cern 
-  * http://mpi-forum.org
-  * http://oproject.org/ROOTMpi
-  * https://root.cern.ch/proof
+  * [http://root.cern](http://root.cern)
+  * [http://mpi-forum.org](http://mpi-forum.org)
+  * [http://oproject.org/ROOTMpi](http://oproject.org/ROOTMpi)
+  * [https://root.cern.ch/proof](https://root.cern.ch/proof)
 
