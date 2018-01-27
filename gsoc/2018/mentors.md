@@ -23,6 +23,7 @@ layout: plain
 * Fernanda Psihas [psihas@fnal.gov](mailto:psihas@fnal.gov) UTA
 * Harrison Prosper [harry@hep.fsu.edu](mailto:harry@hep.fsu.edu) FSU
 * Diego Restrepo [restrepo@udea.edu.co](mailto:restrepo@udea.edu.co) UdeA
+* Saurav Shekhar [sauravshekhar01@gmail.com](mailto:sauravshekhar01@gmail.com) ETH
 * Kyrre Sjobak [kyrre.ness.sjoebaek@cern.ch](mailto:kyrre.ness.sjoebaek@cern.ch) CERN
 * Dmitry Sorokin [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) Moscow Institute of Physics and Technology
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN

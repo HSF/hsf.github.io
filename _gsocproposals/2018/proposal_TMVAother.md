@@ -10,6 +10,7 @@ organization:
  - KIT
  - OProject
  - UOldenburg
+ - ETH
 ---
 
 ## Project Description

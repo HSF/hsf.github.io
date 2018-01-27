@@ -7,6 +7,7 @@ organization:
   - Florida
   - CERN
   - OProject
+  - ETH
 ---
 
 # Description
@@ -24,8 +25,8 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 **Mentors**: 
 * [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=TMVA%20CNN) 
 * [Lorenzo Moneta](mailto:sft-gsoc@cern.ch?subject=TMVA%20CNN) 
-* [Vladimir Ilievski](ilievski.vladimir@live.com?subject=TMVA%20CNN)
-
+* [Vladimir Ilievski](mailto:sft-gsoc@cern.ch?subject=TMVA%20CNN)
+* [Saurav Shekhar](mailto:sft-gsoc@cern.ch?subject=TMVA%20CNN)
 **Links**:
   * [http://root.cern/tmva](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-project/root/tree/master/tmva)
