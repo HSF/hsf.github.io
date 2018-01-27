@@ -30,9 +30,8 @@ By standardizing the way different machines communicate during a running process
 **Requirements**: Advance skills in C/C++, experience in parallel programming with MPI
 
 **Mentors**: 
-
-  * Omar Zapata  Omar.Zapata@cern.ch
-  * Lorenzo Moneta  Lorenzo.Moneta@cern.ch
+  * [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA)
+  * [Lorenzo Moneta](mailto:sft-gsoc@cern.ch?subject=Other%20Machine%20Learning%20Projects%20in%20TMVA) 
 
 **Links**:
 
