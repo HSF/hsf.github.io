@@ -15,6 +15,9 @@ collections:
   activities:
     output: true
     permalink: /activities/:title.html
+  gsocprojects:
+    output: true
+    permalink: /gsoc/projects/:path.html
   gsocproposals:
     output: true
     permalink: /gsoc/:path.html
