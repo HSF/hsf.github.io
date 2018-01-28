@@ -40,13 +40,13 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 
 ## Participating Organizations in 2018
 
+{% assign org_collection = 'gsocorgs' %}
 {:.table .table-hover  .table-striped}
-| ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/2018/cern.html)|
-| ![LAL](/images/logo_LAL.jpg){:width="100px"} | [LAL](http://www.lal.in2p3.fr) is a French research laboratory belonging to CNRS/IN2P3 and located at Université Paris Sud. The main topics of the research done at LAL are high energy physics, cosmology and accelerators. [List of proposals](/gsoc/2018/lal.html)|
-| ![LPC](/images/lpc-logo.png){:width="100px"} | Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. [List of proposals](/gsoc/2018/lpc-clermont.html)|
-| ![Princeton University](/images/princeton-logo.png){:width="100px"} | Princeton University is a private Ivy League research university in Princeton, New Jersey. [List of proposals](/gsoc/2018/princeton.html)|
-| ![Universitat Jaume I](/images/uji_logo.jpg){:width="100px"} |The Universitat Jaume I is a public university in Castelló de la Plana, Spain. [List of proposals](/gsoc/2018/uji.html)|
-| ![RAL](/images/logo_RAL.jpg){:width="100px"} | STFC Rutherford Appleton Laboratory in Oxfordshire, United Kingdom is home to national facilities including the Diamond synchroton and ISIS neutron spallation source. The Particle Physics Department contributes to experiments including ATLAS, CMS and T2K. [List of proposals](/gsoc/2018/ral.html)|
+{% for org in site[org_collection] %}| ![{{ org.organization }}](/images/{{ org.logo }}){:width="100px"} | {%if org.summary %}{{ org.summary | strip_newlines }}{%else%}{{ org.description | strip_newlines }}{%endif%} | [List of proposals](/gsoc/organizations{{ org.path | remove_first: '_' | remove_first: org_collection | replace: '.md', '.html' }}) |
+{% endfor %}
+
+
+## Summary
 
 [Full list of Proposal Ideas](/gsoc/2018/summary.html)
 
