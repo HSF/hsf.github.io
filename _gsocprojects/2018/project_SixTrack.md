@@ -1,6 +1,7 @@
 ---
 project: SixTrack
 layout: default
+logo: sixtrack_logo.png
 description: |
   [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing
   the trajectory of high energy particles in accelerators. It has been used in
@@ -29,6 +30,12 @@ description: |
   and thus the code's reliability and backward compatibility cannot be
   compromised. There will be the opportunity to learn about methods used in
   simulating the motion of particles in accelerators.
+summary: |
+  [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory
+  of high energy particles in accelerators. It has been used in the design and optimization of
+  the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be
+  installed in the next decade.
+
 ---
 
 

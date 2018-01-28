@@ -5,8 +5,10 @@ Each proposal much have an attribute 'project' in its front-matter than can be a
 Project names are not case sensitive.
 {% endcomment %}
 
-{% assign strings = page.url | split: '/' %}
-{% assign year = strings[2] %}
+{% assign url_tokens = page.url | split: '/' %}
+{% assign year_position = url_tokens.size | minus: 2 %}
+{% assign year = url_tokens[year_position] %}
+
 {:.table .table-hover .table-striped}
 
 {% comment %}
@@ -21,14 +23,15 @@ Use the project name as the page title if none has been specified (they are typi
 ## Project Proposals
 
 {% for proposal in site.gsocproposals %}
-{% assign strings = proposal.url | split: '/' %}
-{% assign proposal_year = strings[2] %}
+{% assign url_tokens = proposal.url | split: '/' %}
+{% assign year_position = url_tokens.size | minus: 2 %}
+{% assign proposal_year = url_tokens[year_position] %}
 {% if proposal_year == year %}
 {% for project in proposal.project %}
 {% capture u_proposal_project %}{{ project | upcase }}{% endcapture %}
 {% capture u_project %}{{ page.project | upcase }}{% endcapture %}
 {% if u_proposal_project == u_project %}
-| [ {{ proposal.title }} ]( {{ proposal.url }} ) |
+* [ {{ proposal.title }} ]( {{ proposal.url }} )
 {% endif %}
 {% endfor %}
 {% endif %}
