@@ -25,6 +25,7 @@ layout: plain
 * Lorenzo Moneta [lorenzo.moneta@cern.ch](mailto:lorenzo.moneta@cern.ch) CERN
 * Julien Peloton [peloton@lal.in2p3.fr](mailto:peloton@lal.in2p3.fr) LAL
 * Danilo Piparo [danilo.piparo@cern.ch](mailto:danilo.piparo@cern.ch) CERN
+* Radu Popescu [radu.popescu@cern.ch](mailto:radu.popescu@cern.ch) CERN
 * Fernanda Psihas [psihas@fnal.gov](mailto:psihas@fnal.gov) UTA
 * Harrison Prosper [harry@hep.fsu.edu](mailto:harry@hep.fsu.edu) FSU
 * Diego Restrepo [restrepo@udea.edu.co](mailto:restrepo@udea.edu.co) UdeA
