@@ -50,3 +50,4 @@ emscripten can use C/C++ read-only file I/O on files in a CernVM-FS repository.
 ## Mentors
 
  * [Jakob Blomer](mailto:jblomer@cern.ch)
+ * [Radu Popescu](mailto:radu.popescu@cern.ch)
