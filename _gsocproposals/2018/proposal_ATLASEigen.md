@@ -30,3 +30,4 @@ A working implementation of symmetric matrices in Eigen, ready to be submitted a
 ## Mentors
 
  * [Stewart Martin-Haugh](mailto:stewart.martin-haugh@stfc.ac.uk)
+ * [Dmitry Emeliyanov](mailto:dmitry.emeliyanov@stfc.ac.uk)
