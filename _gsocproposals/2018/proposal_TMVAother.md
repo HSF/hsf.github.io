@@ -16,7 +16,7 @@ organization:
 ---
 
 ## Project Description
-Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning toolkit integrated into the ROOT scientific software framework, used in many particle physics data analysis and applications. The following are also areas of interest with impactful applications to particle physics.
+Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning toolkit integrated into the ROOT scientific software framework, used in many particle physics data analyses and applications. The following are also areas of interest with impactful applications to particle physics.
 
 ## Task ideas and expected results
 

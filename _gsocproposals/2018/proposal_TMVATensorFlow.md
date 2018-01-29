@@ -16,11 +16,11 @@ TensorFlow is a popular open-source software library for deep learning applicati
 
 Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning toolkit integrated into the ROOT scientific software framework, used in many particle physics data analysis and applications.
 
-The goal of this project is to write an interface between TMVA and TensorFlow that allows to use TensorFlow functionality within TMVA. 
+The goal of this project is to write an interface between TMVA and TensorFlow that allows use of TensorFlow's functionality within TMVA. 
 
 ## Task ideas and expected results
-  * Fully-functional interface between Tensorflow and TMVA
-  * It is important to make a design interface that takes into consideration various input-data formats for relevant input data types: images, flat files, etc. on both sides
+  * Fully-functional interface between Tensorflow and TMVA.
+  * It is important to design an interface that considers various input-data formats for relevant input data types: images, flat files, etc. on both sides.
 
 
 
