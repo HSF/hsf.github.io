@@ -2,10 +2,11 @@
 title: Message Passing Interface for ROOT (ROOTMpi)
 layout: gsoc_proposal
 project: ROOT
-year: 2017
+year: 2018
 organization:
-  - UdeA
+  - OProject
   - CERN
+  - UdeA
 ---
 
 # Description
@@ -16,31 +17,28 @@ By standardizing the way different machines communicate during a running process
 ## Task ideas
  * Extend existing communication schemas.
  * Write support for MPI files (may consider some design or idea to integrate it to TFile)
- * Write a memory window, shared memory and RMA support.
  * Checkpoint support at least in OpenMpi and Mpich.
  * Improve the error handler system and messages in the output.
  * User tools:
-    * Write a profiling tool.
+    * Write a profiling tool support.
     * Write a benchmarking module.
     * Integrate valgrind command to ROOTMpi command for debug.
 
 **Expected results**: 
 * working implementation with tests and documentation
-* A machine learning example integrated with TMVA that uses ROOTMpi 
 * Performance comparison with a basic example between ROOTMpi and Proof. 
 
 **Requirements**: Advance skills in C/C++, experience in parallel programming with MPI
 
 **Mentors**: 
-
-  * Omar Zapata  Omar.Zapata@cern.ch
-  * Diego Restrepo restrepo@udea.edu.co
-  * Lorenzo Moneta  Lorenzo.Moneta@cern.ch
+  * [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=ROOTMpi)
+  * [Lorenzo Moneta](mailto:sft-gsoc@cern.ch?subject=ROOTMpi) 
+  * [Diego Restrepo](mailto:sft-gsoc@cern.ch?subject=ROOTMpi)
 
 **Links**:
 
-  * http://root.cern 
-  * http://mpi-forum.org
-  * http://oproject.org/ROOTMpi
-  * https://root.cern.ch/proof
+  * [http://root.cern](http://root.cern)
+  * [http://mpi-forum.org](http://mpi-forum.org)
+  * [http://oproject.org/pages/ROOTMpi.html](http://oproject.org/pages/ROOTMpi.html)
+  * [https://root.cern.ch/proof](https://root.cern.ch/proof)
 
