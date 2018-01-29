@@ -14,7 +14,7 @@ organization:
 
 TensorFlow is a popular open-source software library for deep learning applications. It supports advanced math and flexible data-flows to build and train powerful deep neural networks.
 
-Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning toolkit integrated into the ROOT scientific software framework, used in many particle physics data analysis and applications.
+Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning toolkit integrated into the ROOT scientific software framework, used in many particle physics data analyses and applications.
 
 The goal of this project is to write an interface between TMVA and TensorFlow that allows use of TensorFlow's functionality within TMVA. 
 
