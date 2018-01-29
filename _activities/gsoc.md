@@ -33,18 +33,12 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 
 ## Projects in 2018
 
-{% assign project_collection = 'gsocprojects' %}
-{:.table .table-hover  .table-striped}
-{% for project in site[project_collection] %}| ![{{ project.project }}](/images/{{ project.logo }}){:width="100px"} | {%if project.summary %}{{ project.summary | strip_newlines }}{%else%}{{ project.description | strip_newlines }}{%endif%} | [List of proposals](/gsoc/projects{{ project.path | remove_first: '_' | remove_first: project_collection | replace: '.md', '.html' }}) |
-{% endfor %}
+{% assign current_year = "2018" %}
+{% include gsoc_project_list.ext year=current_year %}
 
 ## Participating Organizations in 2018
 
-{% assign org_collection = 'gsocorgs' %}
-{:.table .table-hover  .table-striped}
-{% for org in site[org_collection] %}| ![{{ org.organization }}](/images/{{ org.logo }}){:width="100px"} | {%if org.summary %}{{ org.summary | strip_newlines }}{%else%}{{ org.description | strip_newlines }}{%endif%} | [List of proposals](/gsoc/organizations{{ org.path | remove_first: '_' | remove_first: org_collection | replace: '.md', '.html' }}) |
-{% endfor %}
-
+{% include gsoc_organization_list.ext year=current_year %}
 
 ## Summary
 
