@@ -34,6 +34,7 @@ By standardizing the way different machines communicate during a running process
 **Mentors**: 
 
   * Omar Zapata  Omar.Zapata@cern.ch
+  * Diego Restrepo restrepo@udea.edu.co
   * Lorenzo Moneta  Lorenzo.Moneta@cern.ch
 
 **Links**:
