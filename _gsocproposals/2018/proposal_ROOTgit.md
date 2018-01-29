@@ -46,8 +46,8 @@ available, is to study the interplay with [Microsoft's GVFS](https://gvfs.io).
 
 # Mentors
 
-* Giulio Eulisse
-* TBD: someone from the ROOT team itself?
+* Giulio Eulisse (CERN - ALICE)
+* Danilo Piparo (CERN - ROOT)
 
 # Links
 
