@@ -12,8 +12,12 @@ layout: plain
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC Clermont
 * Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
+* David Chamont [david.chamont@lal.in2p3.fr](mailto:david.chamont@lal.in2p3.fr) LAL
+* Dmitry Emeliyanov [dmitry.emeliyanov@stfc.ac.uk](mailto:dmitry.emeliyanov@stfc.ac.uk) RAL
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
 * Sebastien Gadrat [sebastien.gadrat@cc.in2p3.fr](mailto:sebastien.gadrat@cc.in2p3.fr) LPC
+* Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
+* Hadrien Grasland [hadrien.grasland@lal.in2p3.fr](mailto:hadrien.grasland@lal.in2p3.fr) LAL
 * Enrico Guiraud [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
 * Christophe Haen [christophe.denis.haen@cern.ch](mailto:christophe.denis.haen@cern.ch) CERN
 * Giovanni Iadarola [giovanni.iadarola@cern.ch](mailto:giovanni.iadarola@cern.ch) CERN
@@ -27,8 +31,11 @@ layout: plain
 * Danilo Piparo [danilo.piparo@cern.ch](mailto:danilo.piparo@cern.ch) CERN
 * Radu Popescu [radu.popescu@cern.ch](mailto:radu.popescu@cern.ch) CERN
 * Fernanda Psihas [psihas@fnal.gov](mailto:psihas@fnal.gov) UTA
+* Witold Pokorski [witold.pokorski@cern.ch](mailto:witold.pokorski@cern.ch) CERN
 * Harrison Prosper [harry@hep.fsu.edu](mailto:harry@hep.fsu.edu) FSU
 * Diego Restrepo [restrepo@udea.edu.co](mailto:restrepo@udea.edu.co) UdeA
+* David Rousseau [david.rousseau@lal.in2p3.fr](mailto:david.rousseau@lal.in2p3.fr) LAL
+* Andreas Salzburger [Andreas.Salzburger@cern.ch](mailto:Andreas.Salzburger@cern.ch) CERN
 * Saurav Shekhar [sauravshekhar01@gmail.com](mailto:sauravshekhar01@gmail.com) ETH
 * Kyrre Sjobak [kyrre.ness.sjoebaek@cern.ch](mailto:kyrre.ness.sjoebaek@cern.ch) CERN
 * Dmitry Sorokin [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) Moscow Institute of Physics and Technology
