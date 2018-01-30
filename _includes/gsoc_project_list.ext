@@ -18,7 +18,7 @@ This liquid template produces the list of projects for the year passed as a para
     {% if project.logo %}
     <td><img src="/images/{{ project.logo }}" alt="{{ project.project }}" width="100px"></td>
     {% else %}
-    <td>{{ project.project }}</td>
+    <td class="text-center" style="vertical-align: middle;">{{ project.project }}</td>
     {% endif %}
     <td>{{ project_summary }}</td>
     <td><a href="/gsoc/projects{{ project.path | remove_first: '_' | remove_first: project_collection | replace: '.md', '.html' }}">List of proposals</a></td>
