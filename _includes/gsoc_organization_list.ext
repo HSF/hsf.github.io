@@ -18,7 +18,7 @@ This liquid template produces the list of organizations for the year passed as a
     {% if org.logo %}
     <td><img src="/images/{{ org.logo }}" alt="{{ org.organization }}" width="100px"></td>
     {% else %}
-    <td>{{ org.organization }}</td>
+    <td class="text-center" style="vertical-align: middle;">{{ org.organization }}</td>
     {% endif %}
     <td>{{ org_summary }}</td>
     <td><a href="/gsoc/organizations{{ org.path | remove_first: '_' | remove_first: org_collection | replace: '.md', '.html' }}">List of proposals</a></td>
