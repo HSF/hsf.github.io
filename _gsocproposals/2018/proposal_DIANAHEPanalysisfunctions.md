@@ -10,9 +10,9 @@ organization:
 
 # Description
 
-High Energy Physics (HEP) analysis scripts are typically written in a straightforward, procedural style, but algorithms written in this style are not always performant. Slow analysis scripts do more than slow down research— they break the concentration of the analyst. HEP can benefit from Spark-style analysis pipelining, which makes it easier to parallelize algorithms, as well as contiguous-memory and vectorization techniques from High Performance Computing (HPC). While tools to provide these features are well in development, we also need common analysis algorithms to be cast in these forms to take advantage of the new libraries.
+High Energy Physics (HEP) analysis scripts are typically written in a straightforward, procedural style, but algorithms written in this style are not always performant. Slow analysis scripts do more than slow down research— they break the concentration of the analyst. HEP can benefit from Spark-style analysis pipelining, which makes it easier to parallelize algorithms, as well as contiguous-memory and vectorization techniques from High Performance Computing (HPC). While tools to provide these features are well in development, we also need common analysis algorithms to be cast in these forms to take advantage of the new libraries. The goal of this project is to reimplement some real functions and demonstrate the improvements possible with functional, pipelined, and vectorized approaches.
 
-Algorithms written in a procedural style cannot be translated into a functional or vectorized style automatically. In many cases, the logic of the analysis procedure needs to be re-thought, to compute the same quantities in a new order.
+Algorithms written in a procedural style cannot be translated into a functional/pipelined/vectorized style automatically. In many cases, the logic of the analysis procedure needs to be re-thought, to compute the same quantities in a new order.
 
 ## Tasks
 
