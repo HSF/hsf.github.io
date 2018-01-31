@@ -5,7 +5,7 @@ project: ROOT
 year: 2018
 organization: 
   - CERN
-  - University of Iceland
+  - icelanduniversity
 ---
 
 ## Project Description
