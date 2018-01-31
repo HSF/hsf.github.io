@@ -8,9 +8,10 @@ services:
 before_install:
   - docker pull graemeastewart/hsf-jekyll
  
- # Skip install as the container does all the work
-install: /bin/true
- 
+ # Change ownership of the checkout to match the jekyll user in the container
+install:
+  - sudo chown -R 1000:1000 .
+
 script:
   - docker run --volume $(pwd):/srv/jekyll --interactive --tty graemeastewart/hsf-jekyll /bin/sh -c /srv/jekyll/.travis-scripts/html-proofer
 
