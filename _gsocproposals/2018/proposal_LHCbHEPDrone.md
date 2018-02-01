@@ -13,7 +13,7 @@ of interesting events in high energy physics. Such technologies will become
 increasingly important as detector upgrades are introduced 
 and data rates increase by [orders of magnitude](http://iopscience.iop.org/article/10.1088/1742-6596/898/11/112002/meta). 
 
-[HEPDrone]((https://arxiv.org/abs/1712.09114) is a toolkit to enable the creation of a drone classifier from 
+[HEPDrone](https://arxiv.org/abs/1712.09114) is a toolkit to enable the creation of a drone classifier from 
 any machine learning classifier, such that different classifiers may 
 be standardised into a single form and executed in parallel. 
 This involves the creation of a drone neural network, which learns the required 
