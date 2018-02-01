@@ -16,3 +16,22 @@ certain amount of energy E at a time instant t. Sensors are arranged in a hexago
 cloud. Developing clustering algorithms requires a deep understanding of the evolution features in space and time. For this reason, a flexible and high-performance visualization framework is required, as the amount of memory and processing power required for drawing hits, 
 and the hexagonal grid of sensors may exceed the resources available on a machine.
 
+## Task ideas
+ * Prototype a visualization framework for the EC.
+ * Benchmark its performance with simulated events.
+
+## Expected results
+ * Visualization framework launchable from within the CMS Software Framework
+ * Select only points belonging to: e.g. a cluster, or a time window
+ * Visualize the progressive evolution of the shower in time and space
+
+## Requirements
+Experience with large data visualization
+
+## Mentors 
+  * [Felice Pantaleo](mailto:felice.pantaleo@cern.ch)
+  * [Marco Rovere](mailto:marco.rovere@cern.ch)
+
+## Links
+  * [CMS](http://cms.cern)
+
