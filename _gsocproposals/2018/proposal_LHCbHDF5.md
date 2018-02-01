@@ -55,14 +55,3 @@ This work has far reaching implications, as the Gaudi framework is used, besides
  * [Gaudi](http://gaudi.web.cern.ch/gaudi/)
  * [hdfgroup.org](https://www.hdfgroup.org/)
 
-
-## Corresponding project
-
- * [LHCb](http://hepsoftwarefoundation.org/gsoc/projects/2018/project_LHCb.html)
-
-
-## Participating organisations
-
- * University of Zurich
- * University of Cincinnati
- * CERN
