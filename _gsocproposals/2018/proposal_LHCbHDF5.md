@@ -3,7 +3,10 @@ title: Integration of the HDF5 file format within the LHCb analysis framework
 layout: gsoc_proposal
 project: LHCb
 year: 2018
-organization: CERN
+organization:
+  - CERN
+  - Cincinnati
+  - Zurich
 ---
 
 ## Description
