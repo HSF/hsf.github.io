@@ -33,8 +33,8 @@ but also the limits of drone complexity given the available computing resources.
 ## Task ideas
 
  * To create New extentions of the models used as drone neural networks in the LHCb C++ production environment.
- * Characterisation of the suitability of the networks compared to the standard model.
- * Characterisation of the performance of the extended models relative to the standard model.
+ * Characterisation of the suitability of the networks compared to the standard deep neural network.
+ * Characterisation of the performance of the extended models relative to the standard deep neural network.
 
 ## Expected results
 * Working drone extentions in the LHCb C++ production environment.
