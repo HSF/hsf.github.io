@@ -14,6 +14,7 @@ layout: plain
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * David Chamont [david.chamont@lal.in2p3.fr](mailto:david.chamont@lal.in2p3.fr) LAL
 * Dmitry Emeliyanov [dmitry.emeliyanov@stfc.ac.uk](mailto:dmitry.emeliyanov@stfc.ac.uk) RAL
+* Giulio Eulisse [Giulio.Eulisse@cern.ch](mailto:Giulio.Eulisse@cern.ch) CERN
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
 * Sebastien Gadrat [sebastien.gadrat@cc.in2p3.fr](mailto:sebastien.gadrat@cc.in2p3.fr) LPC
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
@@ -40,6 +41,7 @@ layout: plain
 * Kyrre Sjobak [kyrre.ness.sjoebaek@cern.ch](mailto:kyrre.ness.sjoebaek@cern.ch) CERN
 * Dmitry Sorokin [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) Moscow Institute of Physics and Technology
 * Federico Stagni [federico.stagni@cern.ch](mailto:federico.stagni@cern.ch) CERN
+* Graeme Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Xavier Valls [xavier.valls.pla@cern.ch](mailto:xavier.valls.pla@cern.ch) Universitat Jaume I
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
