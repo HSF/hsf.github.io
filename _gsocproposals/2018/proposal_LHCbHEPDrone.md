@@ -3,7 +3,7 @@ title: Extension and characterisation of the LHCb data isolation drone neural ne
 layout: gsoc_proposal
 project: LHCb
 year: 2018
-organization: CERN, NWO, STFC
+organization: CERN, Nikhef, Edinburgh
 ---
 
 ## Description
