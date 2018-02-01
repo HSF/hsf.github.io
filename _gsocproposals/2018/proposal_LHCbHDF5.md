@@ -6,7 +6,7 @@ year: 2018
 organization:
   - CERN
   - Cincinnati
-  - Zurich
+  - UZH
 ---
 
 ## Description
