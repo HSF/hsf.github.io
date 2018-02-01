@@ -1,7 +1,7 @@
 ---
 project: HAhRD
 layout: default
-logo: HAhRD-logo.png
+logo: HAhRD-logo.jpg
 description: |
   HPC Algorithms for high Resolution Detectors (HAhRD). The aim of this project is to investigate new methods based on 
   statistics, Machine Learning, and/or image processing for high resolution detectors of sub-detectors in HEP. In addition, 
