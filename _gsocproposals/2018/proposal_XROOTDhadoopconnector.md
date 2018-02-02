@@ -1,5 +1,5 @@
 ---
-title: Development and Consolidation of the "Hadoop-XRootD Connector" Library
+title: Enabling Big Data Analytics on Physics Data with the "Hadoop-XRootD Connector" Library
 layout: gsoc_proposal
 project: XROOTD
 year: 2018
@@ -7,12 +7,11 @@ organization: CERN
 ---
 
 ## Description
+During the latest years, several efforts are ongoing in order to make it possible to perform analysis over High Energy Physics data with modern Big Data Technologies from the Hadoop Ecosystem, such as Apache [Spark](https://spark.apache.org/), an open-source software framework for large-scale data processing. One of the most important challenges to these efforts was the need to effectively read these data which are located in custom storage systems into popular Big Data Engines.
 
-CERN [EOS](https://eos.web.cern.ch/) is a disk-based, low-latency storage service with a highly scalable hierarchical namespace, which enables data access via the [XRootD protocol](http://xrootd.org/). It is the main solution for both physics and user storage needs at CERN and it is used by all the LHC Experiments.
+At CERN the vast majority of physics and infrastructure data reside in a system named EOS. [EOS](https://eos.web.cern.ch/) is a disk-based, low-latency storage service with a highly scalable hierarchical namespace, which enables data access via the [XRootD protocol](http://xrootd.org/).
 
-Lately, a substantial amount of effort has been put into making it possible to perform physics analysis with popular Big Data Technologies from the Hadoop Ecosystem, such as Apache [Spark](https://spark.apache.org/), an open-source software framework for large-scale data processing. However, one of the most important drawbacks to this effort was the need to transfer large amount of data from the EOS Storage Service to HDFS.
-
-To overpass this issue, the "[Hadoop-XRootD Connector](https://github.com/cerndb/hadoop-xrootd)" was created, a Java based library that connects to the XRootD Client via the Java Native Interface Framework ([JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/spec/jniTOC.html)). The library is capable of reading files from the EOS Storage Service directly, without the need to import or export files to HDFS.
+In order to read files in the Hadoop Ecosystem from EOS, the "[Hadoop-XRootD Connector](https://github.com/cerndb/hadoop-xrootd)" was created. This Java-based library connects to the XRootD Client of EOS via the Java Native Interface Framework ([JNI](https://docs.oracle.com/javase/7/docs/technotes/guides/jni/spec/jniTOC.html)) and is capable of reading files directly, without the need to import or export files to HDFS.
 
 The project aims to address the existing feature requirements of the "Hadoop-XRootD Connector" as well as expanding and optimizing the existing codebase of the library in order to make it production-ready. A successful outcome will not only allow researchers at CERN to perform analysis over PBs of physics and infrastructure data with Apache Spark and other popular Big Data Technologies, but also literally any other user or insitution outside CERN to easily access and analyze PBs of physics data in the Hadoop ecosystem via the EOS-based [CERN Open Data](http://opendata.cern.ch/) Project.
 
@@ -21,7 +20,7 @@ The project aims to address the existing feature requirements of the "Hadoop-XRo
  * Expand the authentication mechanisms of the library by including GRID X.509 Certificates which are widely used by the WLCG.
  * Introduce globing support in order to allow users to include wildcards on the file input.
  * Make the library compatible with multiple versions of Hadoop and Spark and all popular file formats (parquet, avro, csv, root etc.).
- * Perform tests over Spark with real code coming from CERN experiments (mainly CMS).
+ * Perform tests on physics analysis with the Hadoop-XrootD Connector over Apache Spark with real code coming from LHC experiments (mainly CMS).
 
 ## Expected results
 A production-ready connection library between the EOS Storage Service of CERN and the Hadoop Ecosystem, working in a similar fashion as other existing connection libraries to popular file systems such as Amazon S3.
