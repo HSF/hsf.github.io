@@ -1,5 +1,5 @@
 ---
-title: "LLR"
+title: LLR
 author: "Gilles Grasseau"
 layout: default
 organization: LLR
