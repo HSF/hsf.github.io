@@ -7,7 +7,7 @@ organization:
   - CERN
 ---
 
-# Description
+## Description
 
 The Worldwide LHC Computing Grid (WLCG) unites resources from over 160 computing centres and research institutes spread across the world and the number is expected to grow in the coming years. However, provisioning resources (compute, network, storage) at new sites to support WLCG workloads is still no straightforward task and often requires significant assistance from WLCG experts. Recently, the WLCG community has initiated steps towards reducing such overheads through the use of prefab Docker containers or OpenStack VM images, along with the adoption of popular tools like Puppet for configuration. In 2017, the Lightweight Sites project was initiated to construct shared community repositories providing such building blocks. These repositories are governed by a single Lightweight Site Specification Document which describes a modular way to define site components such as Batch Systems, Compute Elements, Worker Nodes, Networks etc. In an agile process we further develop the specifications while implementing, analysing and improving upon the latest revision. Through this project, in broad terms, the GSoC participant can expect to work on: 
 - Implementation of the specification using popular orchestration technologies (Docker Swarm, Kubernetes) and configuration management tools (Puppet, Ansible, Chef) .
