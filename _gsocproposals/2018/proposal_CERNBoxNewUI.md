@@ -3,7 +3,10 @@ title: Petabyte-Scale Cloud Storage File Manager
 layout: gsoc_proposal
 project: CERNBox
 year: 2018
-organization: CERN, AARNet, ownCloud
+organization:
+ - CERN
+ - ownCloud
+ - AARNet
 ---
 
 ## Description
