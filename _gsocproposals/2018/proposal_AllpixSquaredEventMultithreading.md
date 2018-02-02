@@ -57,5 +57,5 @@ The following resources might provide a more complete picture of the software an
 ## Documentation
 
 * User manual (HTML): [https://cern.ch/allpix-squared/usermanual/allpix-manual.html](https://cern.ch/allpix-squared/usermanual/allpix-manual.html)
-* User manual (PDF): [https://cern.ch/allpix-squared/allpix-manual.pdf](https://cern.ch/allpix-squared/allpix-manual.pdf)
+* User manual (PDF): [https://cern.ch/allpix-squared/usermanual/allpix-manual.pdf](https://cern.ch/allpix-squared/usermanual/allpix-manual.pdf)
 * Doxygen code reference: [https://cern.ch/allpix-squared/reference/](https://cern.ch/allpix-squared/reference/)
