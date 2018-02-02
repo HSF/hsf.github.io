@@ -7,7 +7,7 @@ organization: CERN
 ---
 
 ## Description
-During the latest years, several efforts are ongoing in order to make it possible to perform analysis of High Energy Physics data with modern big data technologies from the Hadoop ecosystem, such as Apache [Spark](https://spark.apache.org/), an open-source software framework for large-scale data processing. One of the most important challenges to these efforts has been the need to effectively read data located in custom storage systems from within popular big data engines.
+During the latest years,  a substantial amount of effort has been put into making it possible to perform analysis of High Energy Physics data with modern big data technologies from the Hadoop ecosystem, such as Apache [Spark](https://spark.apache.org/), an open-source software framework for large-scale data processing. One of the most important challenges to this effort has been the need to effectively read data located in custom storage systems from within popular big data engines.
 
 At CERN the vast majority of physics and infrastructure data reside in a system named EOS. [EOS](https://eos.web.cern.ch/) is a disk-based, low-latency storage service with a highly scalable hierarchical namespace, which enables data access via the [XRootD protocol](http://xrootd.org/).
 
