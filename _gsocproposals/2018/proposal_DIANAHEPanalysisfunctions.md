@@ -3,8 +3,7 @@ title: DIANA-HEP/analysisfunctions - Translate HEP analysis functions to modern 
 layout: gsoc_proposal
 project: DIANA-HEP
 year: 2018
-organization:
-  - Princeton
+organization: Princeton
 ---
 
 # Description
