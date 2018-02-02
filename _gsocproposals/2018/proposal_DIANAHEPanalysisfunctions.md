@@ -4,8 +4,7 @@ layout: gsoc_proposal
 project: DIANA-HEP
 year: 2018
 organization:
-  - DIANA-HEP
-  - Princeton
+  - Princeton
 ---
 
 # Description
