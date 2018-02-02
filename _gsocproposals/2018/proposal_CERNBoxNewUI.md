@@ -3,7 +3,7 @@ title: Petabyte-Scale Cloud Storage File Manager
 layout: gsoc_proposal
 project: CERNBox
 year: 2018
-organization: CERN
+organization: CERN, AARNet, ownCloud
 ---
 
 ## Description
@@ -44,6 +44,8 @@ Javascript, HTML, CSS3, Vue.js, Golang
 
 ## Mentors
   * [Hugo Labrador](mailto:hugo.gonzalez.labrador@cern.ch)
+  * [Michael D'Silva](mailto:michael.dsilva@aarnet.edu.au)
+  * [Thomas Müller](mailto:deepdiver@owncloud.com)
 
 ## Links
   * [CERNBox](https://cernbox.web.cern.ch/)
