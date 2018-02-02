@@ -47,5 +47,5 @@ Development of a plugin module for the Rucio transfer system, which can enable t
 
 ## Links
 
-- [Rucio Website](https://rucio.cern.ch){:data-proofer-ignore=""}
+- [Rucio Website](https://rucio.cern.ch)
 - [Rucio Github](https://github.com/rucio/rucio)

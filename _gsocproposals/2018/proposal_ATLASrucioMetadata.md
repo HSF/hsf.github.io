@@ -43,5 +43,5 @@ Rucio is a data management system for modern large-scale scientific experiments.
 
 ## Links
 
-- [Rucio Website](https://rucio.cern.ch){:data-proofer-ignore=""}
+- [Rucio Website](https://rucio.cern.ch)
 - [Rucio Github](https://github.com/rucio/rucio)
