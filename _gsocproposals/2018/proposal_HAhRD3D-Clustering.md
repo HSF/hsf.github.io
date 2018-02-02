@@ -31,8 +31,8 @@ background, good C++/C skills, familiar with GPUs if possible,
 visualization tools.
 
 ## Mentors 
-  * [Florian Beaudette] (mailto:Florian.Beaudette@llr.in2p3.fr), senior physicist
-  * [Artur Lobanov] (mailto:artur.lobanov@llr.in2p3.fr), physicist
-  * [Arnaud Chiron] (mailto:chiron@llr.in2p3.fr), computer scientist, CMS software expert
-  * [Gilles Grasseau] (mailto:gilles.grasseau@llr.in2p3.fr), computer scientist and image processing
+  * [Florian Beaudette](mailto:Florian.Beaudette@llr.in2p3.fr), senior physicist
+  * [Artur Lobanov](mailto:artur.lobanov@llr.in2p3.fr), physicist
+  * [Arnaud Chiron](mailto:chiron@llr.in2p3.fr), computer scientist, CMS software expert
+  * [Gilles Grasseau](mailto:gilles.grasseau@llr.in2p3.fr), computer scientist and image processing
   
