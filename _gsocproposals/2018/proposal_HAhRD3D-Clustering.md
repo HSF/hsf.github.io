@@ -27,8 +27,7 @@ important as well as getting criteria of the classification quality.
 
 ## Requirements
 Solid knowledge on machine learning or image processing, solid/good statistics 
-background, good C++/C skills, familiar with GPUs if possible, 
-visualization tools.
+background, good C++/C skills, familiar with GPUs if possible, visualization tools.
 
 ## Mentors 
   * [Florian Beaudette](mailto:Florian.Beaudette@llr.in2p3.fr), senior physicist
