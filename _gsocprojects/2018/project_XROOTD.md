@@ -1,7 +1,7 @@
 ---
 project: XROOTD
 layout: default
-logo: http://xrootd.org/images/xrootd-logo.png
+logo: xrootd-logo.png
 description: |
   The [XROOTD](http://xrootd.org/) project aims at giving high performance, scalable fault tolerant access to data repositories of many kinds. The typical usage is to give access to file-based ones. It is based on a scalable architecture, a communication protocol, and a set of plugins and tools based on those. The freedom to configure it and to make it scale (for size and performance) allows the deployment of data access clusters of virtually any size, which can include sophisticated features, like authentication/authorization, integrations with other systems, WAN data distribution, etc.
 summary: |
