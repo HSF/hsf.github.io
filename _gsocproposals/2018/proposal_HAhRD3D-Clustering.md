@@ -3,7 +3,9 @@ title: 3D-Clustering
 layout: gsoc_proposal
 project: HAhRD
 year: 2018
-organization: LLR
+organization:
+  - LLR
+  - CMS
 ---
 
 ## Description

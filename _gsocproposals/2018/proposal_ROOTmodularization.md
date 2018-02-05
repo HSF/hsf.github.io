@@ -3,7 +3,9 @@ title: ROOT Package Manager
 layout: gsoc_proposal
 project: ROOT
 year: 2018
-organization: CERN
+organization: 
+  - CERN
+  - UNL
 ---
 
 ## Description
