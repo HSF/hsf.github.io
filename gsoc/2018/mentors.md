@@ -57,7 +57,7 @@ layout: plain
 * Harrison Prosper [harry@hep.fsu.edu](mailto:harry@hep.fsu.edu) FSU
 * Albert Puig [albert.puig@cern.ch](mailto:albert.puig@cern.ch) University of Zurich
 * Diego Restrepo [restrepo@udea.edu.co](mailto:restrepo@udea.edu.co) UdeA
-* Eduardo Rodrigues [Eduardo.Rodrigues@cern.ch](Eduardo.Rodrigues@cern.ch) University of Cincinnati
+* Eduardo Rodrigues [Eduardo.Rodrigues@cern.ch](mailto:Eduardo.Rodrigues@cern.ch) University of Cincinnati
 * David Rousseau [david.rousseau@lal.in2p3.fr](mailto:david.rousseau@lal.in2p3.fr) LAL
 * Marco Rovere [marco.rovere@cern.ch](mailto:marco.rovere@cern.ch) CERN
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
