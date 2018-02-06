@@ -37,10 +37,6 @@ Good  C++/C skills, good python skills, familiar with GPUs if
 possible and visualization tools. Knowledge on machine learning 
 or image processing or statistics would be appreciated. 
 
-## Requirements
-Solid knowledge on machine learning or image processing, solid/good statistics 
-background, good C++/C skills, familiar with GPUs if possible, visualization tools.
-
 ## Mentors 
   * [Florian Beaudette](mailto:Florian.Beaudette@llr.in2p3.fr), senior physicist
   * [Artur Lobanov](mailto:artur.lobanov@llr.in2p3.fr), physicist
