@@ -5,7 +5,7 @@ project: ATLAS
 year: 2018
 organization:
  - CERN
- - UiO
+ - UOslo
 ---
 
 ## Description
