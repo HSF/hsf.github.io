@@ -7,23 +7,35 @@ organization: LLR
 ---
 
 ## Description
-
-The challenge of this project is to evaluate new algorithms to classify 
-objects from 3D images-like coming from the data acquisition of the [future 
-sub-detector of CMS](https://cds.cern.ch/record/2020886). This detector 
-that contains about 6 million channels will be used to reconstruct the 3D 
-clusters from hundreds of impinging particles arising from the proton-proton 
-collisions within the Large Hadron Collider. Image processing technologies 
-are obviously promising candidates to tackle this challenge as well as 
-Machine Learning  tool suite. The efficiency of the implementation is 
-important as well as getting criteria of the classification quality.  
+The challenge of HAhRD project is to implement new algorithms to classify 
+objects from 3D images-like coming from the data acquisition of the 
+[future sub-detector of CMS](https://cds.cern.ch/record/2020886). This 
+detector that contains about 6 million channels will be used to reconstruct 
+the 3D clusters from hundreds of impinging particles arising from the 
+proton-proton collisions within the Large Hadron Collider. The initial 
+implementation based on an image processing algorithm is already exploited. 
+We want in this proposal implement several Deep Neural Networks (DNN) 
+architectures (in particular Convolutional Neural Networks - CNN) to 
+classify clusters of points and develop a chain suite to analyze the 
+classification performed by the DNN/CNN.
 
 ## Task ideas and expected results
  * Start with the original source code and data
- * Choose a new strategy/algorithm with physicists and computer scientists
- * Implement the new strategy and test it
- * Expected results : eliminate bad strategies and identify a set of 
-   potential good candidates.
+ * Implement one of the selected CNN architectures (GPUs can be used 
+   on our platform)
+ * Implement a validation tool chain to give results of the classification 
+   quality.
+ * Train the CNN with different objectives (different kind of objects to 
+   identify).
+ * Optimize the efficiency of the whole process.
+ * Extend the application to different DNN/CNN architectures or propose a 
+   software architecture
+
+
+## Requirements
+Good  C++/C skills, good python skills, familiar with GPUs if 
+possible and visualization tools. Knowledge on machine learning 
+or image processing or statistics would be appreciated. 
 
 ## Requirements
 Solid knowledge on machine learning or image processing, solid/good statistics 
