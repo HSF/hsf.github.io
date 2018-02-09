@@ -1,5 +1,5 @@
 ---
-title: Large-scale computing backend for Jupyter notebooks: HTCondor batch job submission and monitoring using the Ganga toolkit
+title: Large-scale computing backend for Jupyter notebooks - HTCondor batch job submission and monitoring using the Ganga toolkit
 layout: gsoc_proposal
 project: Ganga
 year: 2018
