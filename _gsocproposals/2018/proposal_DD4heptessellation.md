@@ -4,7 +4,8 @@ layout: gsoc_proposal
 project:
   - DD4hep
 year: 2018
-organisation: CERN
+organisation:
+  - CERN
 ---
 
 ## Description
