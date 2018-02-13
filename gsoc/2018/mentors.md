@@ -1,5 +1,5 @@
 ---
-title: Summary of Mentors GSoC 2018 
+title: Summary of Mentors GSoC 2018
 layout: plain
 ---
 
@@ -10,6 +10,8 @@ layout: plain
 * Christian Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) LAL
 * John Apostolakis [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
 * Zbigniew Baranowski [zbigniew.baranowski@cern.ch](mailto:zbigniew.baranowski@cern.ch) CERN
+* Martin Barisits [Martin.Barisits@cern.ch](mailto:Martin.Barisits@cern.ch) CERN
+* Thomas Beermann [Thomas.Beermann@cern.ch](mailto:Thomas.Beermann@cern.ch) CERN
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC Clermont
 * Florian Beaudette [Florian.Beaudette@llr.in2p3.fr](mailto:Florian.Beaudette@llr.in2p3.fr) LLR
 * Sean Benson[sean.benson@cern.ch](mailto:sean.benson@cern.ch) NIKHEF
@@ -22,6 +24,7 @@ layout: plain
 * Dmitry Emeliyanov [dmitry.emeliyanov@stfc.ac.uk](mailto:dmitry.emeliyanov@stfc.ac.uk) RAL
 * Giulio Eulisse [Giulio.Eulisse@cern.ch](mailto:Giulio.Eulisse@cern.ch) CERN
 * Markus Frank [Markus.Frank@cern.ch](mailto:Markus.Frank@cern.ch) CERN
+* Vincent Garonne [vgaronne@gmail.com](mailto:vgaronne@gmail.com) UOslo
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
 * Sebastien Gadrat [sebastien.gadrat@cc.in2p3.fr](mailto:sebastien.gadrat@cc.in2p3.fr) LPC
 * Nikolay Gagunashvili [nikolay@hi.is](mailto:nikolay@hi.is) University of Iceland
@@ -38,6 +41,7 @@ layout: plain
 * Prasanth Kothuri [prasanth.kothuri@cern.ch](mailto:prasanth.kothuri@cern.ch) CERN
 * Hugo Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
+* Mario Lassnig [Mario.Lassnig@cern.ch](mailto:Mario.Lassnig@cern.ch) CERN
 * Artur Lobanov [artur.lobanov@llr.in2p3.fr](mailto:artur.lobanov@llr.in2p3.fr) LLR
 * Maarten Litmaath [maarten.litmaath@cern.ch](mailto:maarten.litmaath@cern.ch) CERN
 * Riccardo De Maria [riccardo.maric@cern.ch](mailto:riccardo.maric@cern.ch) CERN
@@ -45,7 +49,7 @@ layout: plain
 * Zoltan Mathe [zoltan.mathe@cern.ch](mailto:zoltan.mathe@cern.ch) CERN
 * Lorenzo Moneta [lorenzo.moneta@cern.ch](mailto:lorenzo.moneta@cern.ch) CERN
 * Vaggelis Motesnitsalis [vaggelis.motesnitsalis@cern.ch](mailto:vaggelis.motesnitsalis@cern.ch) CERN
-* Thomas Müller deepdiver@owncloud.com[](mailto:deepdiver@owncloud.com) OwnCloud
+* Thomas Müller [deepdiver@owncloud.com](mailto:deepdiver@owncloud.com) OwnCloud
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Julien Peloton [peloton@lal.in2p3.fr](mailto:peloton@lal.in2p3.fr) LAL
 * Marko Petric [Marko.petric@cern.ch](mailto:marko.petric@cern.ch) CERN
@@ -62,6 +66,7 @@ layout: plain
 * Marco Rovere [marco.rovere@cern.ch](mailto:marco.rovere@cern.ch) CERN
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
 * Andreas Salzburger [Andreas.Salzburger@cern.ch](mailto:Andreas.Salzburger@cern.ch) CERN
+* Cedric Serfon [Cedric.Serfon@cern.ch](mailto:Cedric.Serfon@cern.ch) UOslo
 * Paul Seyfert [Paul.Seyfert@cern.ch](mailto:Paul.Seyfert@cern.ch) CERN
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska Lincoln
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) Georgian Technical University
@@ -76,5 +81,6 @@ layout: plain
 * Xavier Valls [xavier.valls.pla@cern.ch](mailto:xavier.valls.pla@cern.ch) Universitat Jaume I
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Bogdan Vulpescu [bogdan.vulpescu@clermont.in2p3.fr](mailto:bogdan.vulpescu@clermont.in2p3.fr) LPC Clermont
+* Tobias Wegner [Tobias.Wegner@cern.ch](mailto:Tobias.Wegner@cern.ch) CERN
 * Stefan Wunsch [stefan.wunsch@student.kit.edu](mailto:stefan.wunsch@student.kit.edu) KIT
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) OProject
