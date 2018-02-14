@@ -13,7 +13,7 @@ track reconstruction in high-energy physics experiments. As a modernized
 version of the particle tracking code used by the ATLAS experiment at the
 Large Hadron Collider, the project is focused on adoption of modern C++
 standards, usability in multi-threaded workflows, and increased use of
-vectorization.
+vectorization and accelerators (gpgpu).
 
 The fitting step of track reconstruction, in which particle track hypotheses
 are confronted to experimental data, uses the Kalman Filter algorithm in the
@@ -41,6 +41,10 @@ FirePro S9170, NVIDIA K20, GeForce GTX Titan and hopefully V100). After this,
 we want to integrate kokkos-based computations in the ACTS codebase, and see
 how well it performs in a more realistic use case where it is mixed with other
 computations and more accelerator-CPU I/O and synchronization is needed.
+
+In the context of a key step of particle hunting, this project gives the
+opportunity to invent new optimizations for 5x5 linear algebra, and evaluate
+them with a large set of cutting-edge accelerators.
 
 
 ## Task ideas
