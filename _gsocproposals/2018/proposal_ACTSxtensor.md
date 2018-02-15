@@ -44,8 +44,7 @@ avoid an impractical replacement of all uses of Eigen in ACTS in one go.
 
 In the context of a key step of particle hunting, this project gives the
 opportunity to compare several C++ linear algebra libraries (especially a
-NumPy inspired one), experience their mixed use, and eventually invent some
-new optimizations for the 5x5 operations.
+NumPy inspired one), experience their mixed use, and eventually invent some new optimizations for the 5x5 operations.
 
 
 ## Task ideas
