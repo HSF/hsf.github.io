@@ -6,7 +6,6 @@ project:
 year: 2018
 organisation: 
   - CERN
-  - JSI
 ---
 
 ## Description
