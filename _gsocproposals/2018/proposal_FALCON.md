@@ -1,5 +1,5 @@
 ---
-title: Optimization of the ultra-fast detector simulation package FALCON and multi-objective regression
+title: FALCON - optimize fast detector simulation package and multi-objective regression
 layout: gsoc_proposal
 project: FALCON
 year: 2018
