@@ -38,6 +38,7 @@ The Worldwide LHC Computing Grid (WLCG) unites resources from over 160 computing
 
 **Links**:
 * [WLCG](http://wlcg.web.cern.ch)
+* [Next Steps : Lightweight Sites Web Forums](https://groups.google.com/forum/#!forum/wlcg-lightweight-sites)
 * [Git Repositories](https://github.com/WLCG-Lightweight-Sites)
 * [Introduction to WLCG](http://litmaath.web.cern.ch/litmaath/grids-intro/wlcg-intro-180130-long.pdf)
 * [Introduction to WLCG Lightweight Sites](https://indico.jinr.ru/contributionDisplay.py?contribId=219&confId=151)
