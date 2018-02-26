@@ -8,7 +8,7 @@ organization:
 ---
 
 ## Description
-The challenge of HAhRD project is to implement new algorithms to classify 
+The challenge of [HAhRD](https://github.com/grasseau/HAhRD/wiki) project is to implement new algorithms to classify 
 objects from 3D images-like coming from the data acquisition of the 
 [future sub-detector of CMS](https://cds.cern.ch/record/2020886). This 
 detector that contains about 6 million channels will be used to reconstruct 
@@ -29,7 +29,7 @@ classification performed by the DNN/CNN.
  * Train the CNN with different objectives (different kind of objects to 
    identify).
  * Optimize the efficiency of the whole process.
- * Extend the application to different DNN/CNN architectures or propose a 
+ * Extend the application to different CNN architectures or propose a 
    software architecture
 
 
@@ -42,5 +42,6 @@ or image processing or statistics would be appreciated.
   * [Florian Beaudette](mailto:Florian.Beaudette@llr.in2p3.fr), senior physicist
   * [Artur Lobanov](mailto:artur.lobanov@llr.in2p3.fr), physicist
   * [Arnaud Chiron](mailto:chiron@llr.in2p3.fr), computer scientist, CMS software expert
+  * [Andrea Sartirana](mailto:sartiran@llr.in2p3.fr), computer scientist, Software environment expert (containers, ...)
   * [Gilles Grasseau](mailto:gilles.grasseau@llr.in2p3.fr), computer scientist and image processing
   
