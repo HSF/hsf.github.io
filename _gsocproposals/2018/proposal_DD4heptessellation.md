@@ -4,7 +4,8 @@ layout: gsoc_proposal
 project:
   - DD4hep
 year: 2018
-organisation: CERN
+organization: 
+  - CERN
 ---
 
 ## Description
@@ -31,10 +32,10 @@ A functional workflow that allows to simulate CAD design in [DD4hep](http://dd4h
 C++, Python
 
 ## Mentors 
-  * [Markus Frank](mailto:Markus.Frank@cern.ch)
-  * [Andrei Gheata](mailto:Andrei.Gheata@cern.ch)
-  * [Andre Sailer](mailto:andre.philippe.sailer@cern.ch)
-  * [Marko Petric](mailto:marko.petric@cern.ch)
+  * [Markus Frank](mailto:dd4hep-mentors@cern.ch)
+  * [Andrei Gheata](mailto:dd4hep-mentors@cern.ch)
+  * [Andre Sailer](mailto:dd4hep-mentors@cern.ch)
+  * [Marko Petric](mailto:dd4hep-mentors@cern.ch)
 
 ## Links
   * [DD4hep](http://dd4hep.cern.ch)

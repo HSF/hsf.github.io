@@ -36,6 +36,12 @@ Eduardo Rodrigues - University of Cincinnati (Chair)<br>
 Graeme Stewart - CERN-HSF<br>
 Jeff Templon - Nikhef (Co-chair)
 
+### Sponsors
+
+The event is kindly sponsored by
+
+![Nikhef](/images/pyhep/Nikhef_logo.png){:height="90px"} ![PSF](/images/pyhep/PSF_logo.png){:height="90px"}
+
 
 ## Workshops
 

@@ -42,6 +42,12 @@ visualising profiling reports.
 - Dynamic web based visualisation technology
 - Backend database layer
 
+## Evaluation test
+
+Please complete the following 
+[evaluation test](https://github.com/ktf/gsoc-2018-igprof-exercise/blob/master/README.md){:_target="_profile_test"}
+to be considered for this project.
+
 ## Mentors 
 - [Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch)
 - [Giulio Eulisse](mailto:Giulio.Eulisse@cern.ch)

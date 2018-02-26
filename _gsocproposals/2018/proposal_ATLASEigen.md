@@ -19,13 +19,16 @@ Your task will be to implement an efficient symmetric matrix class storing only 
 
 ## Expected results
 
-A working implementation of symmetric matrices in Eigen, ready to be submitted as a patch for Eigen 
+A working implementation of symmetric matrices in Eigen, ready to be submitted as a patch for Eigen.
 
 ## Requirements
 
 - C++
-- python
 - basic linear algebra
+
+## Evaluation test 
+
+Please complete [this](https://github.com/StewMH/GSoC2018/blob/master/evaluation_test.pdf) evaluation test.
 
 ## Mentors
 

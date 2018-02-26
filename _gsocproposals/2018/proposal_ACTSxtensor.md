@@ -1,5 +1,5 @@
 ---
-title: Particle hunting with xtensor
+title: CPU Race for Particle Hunting
 layout: gsoc_proposal
 project: ACTS
 year: 2018
@@ -9,9 +9,9 @@ organization: LAL
 ## Description
 
 [ACTS](http://cern.ch/acts) is a free and open-source software project for
-track reconstruction in high-energy physics experiments. As a modernized
+track reconstruction in particle physics experiments. As a modernized
 version of the particle tracking code used by the ATLAS experiment at the
-Large Hadron Collider, the project is focused on adoption of modern C++
+CERN Large Hadron Collider, the project is focused on adoption of modern C++
 standards, usability in multi-threaded workflows, and increased use of
 vectorization.
 
@@ -21,26 +21,32 @@ are confronted to experimental data, uses the Kalman Filter algorithm in the
 linear algebra operations on a large amount of 5x5 matrices, a problem which
 has only received a limited amount of scrutinity from the linear algebra
 community in the past. We are thus evaluating the relative performance of
-multiple linear algebra toolikts on this problem, using realistic input data
-matching typical ACTS use cases.
+multiple linear algebra toolkits on this problem, using realistic input data
+from typical ACTS use cases.
 
 The linear algebra operations of ACTS are currently implemented using
 [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page). In this
-project, we want to investigate the use of
+project, we want to investigate especially the use of
 [xtensor](https://github.com/QuantStack/xtensor), another C++ library for
 linear algebra, which has the advantage of being designed for interface and
 implementation compatibility with the NumPy library that is popular in the
 Python scientific ecosystem.
 
 We already have a benchmarking infrastructure in place for comparing Eigen
-with custom SIMD instructions written using the
+with custom SIMD instructions written on top of the
 [Boost.SIMD](https://github.com/NumScale/boost.simd) library, in the Kalman
 Filter use case. In this project, we want to write an xtensor version to this
-benchmark, and compare the performance of this library with the alternatives.
+benchmark, and compare the performance of this library with its alternatives.
+
 If the performance is satisfactory, or can be made so through reasonable
 contributions to the xtensor project, the next step will be to investigate to
 which extent xtensor and Eigen can coexist in the ACTS codebase, as a way to
 avoid an impractical replacement of all uses of Eigen in ACTS in one go.
+
+In the context of a key step of particle hunting, this project gives the
+opportunity to compare several C++ linear algebra libraries (especially a
+NumPy inspired one), experience their mixed use, and eventually invent some
+new optimizations for the 5x5 operations.
 
 
 ## Task ideas
