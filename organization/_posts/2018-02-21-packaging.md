@@ -49,7 +49,7 @@ AliBuild Experience - Giulio
     -   Tarballs as file formats, rpms/dpkgs in separate step by FPM
     -   Dependency Management:
         -   No central "config" - derived only from set of dependencies
-            (Graeme: back propagation? Yes)
+            (Graeme: back propagation? Yes, with build order determined from topological analysis)
         -   No recipe inheritance (e.g. not class-based like Spack's
             "CMakePackage")
             -   Generally quite explicit - prefer always writing
