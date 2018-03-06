@@ -1,5 +1,5 @@
 ---
-title:  Faster matrix algebra for ATLAS
+title:  Faster matrix algebra for ATLAS (CLOSED TO NEW APPLICANTS)
 layout: gsoc_proposal
 project: ATLAS
 year: 2018
