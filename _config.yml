@@ -26,5 +26,5 @@ collections:
     permalink: /gsoc/:path.html
 
 docs:
-  url: https://github.com/HEP-SF/documents/blob/master
-  cwp201711: https://github.com/HEP-SF/documents/blob/master/CWP/papers/2017-11
+  url: https://github.com/HSF/documents/blob/master
+  cwp201711: https://github.com/HSF/documents/blob/master/CWP/papers/2017-11

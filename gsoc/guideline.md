@@ -10,7 +10,7 @@ layout: default
 
  * Option A: email GSoC administrators: [Sergei Gleyzer](mailto:sergei@cern.ch), [Enric Tejedor Saavedra](mailto:etejedor@cern.ch) and [Antoine Perus](mailto:perus@lal.in2p3.fr) 
  * Option B (via git): 
-   * fork [git repository](https://github.com/HEP-SF/hep-sf.github.io) 
+   * fork [git repository](https://github.com/HSF/hep-sf.github.io) 
    * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (for example `proposal_ROOTspark.md`)
    * add a front matter as given in this
    [example](https://raw.githubusercontent.com/hep-sf/hep-sf.github.io/master/_gsocprojects/2018/project_ROOT.md)
@@ -23,7 +23,7 @@ layout: default
 
 Proposals are attached to aproject (e.g. ROOT, CMS...). If you want to add a project for your proposal, you need to create 
 a MD file describing your project in `_gsocprojects/2018` directory (must start with `project_`,
-look at [ROOT project](https://raw.githubusercontent.com/HEP-SF/hep-sf.github.io/master/_gsocprojects/2018/project_ROOT.md) for an example).
+look at [ROOT project](https://raw.githubusercontent.com/HSF/hep-sf.github.io/master/_gsocprojects/2018/project_ROOT.md) for an example).
 This is a very simple file, containing only a *front matter* section that defines the attributes of
 your organization. The 2 mandatory attributes are `project` (your project name) and `layout` (which must be `default`).
 In addition you can use 2 optional attributes:

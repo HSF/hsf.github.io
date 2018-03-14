@@ -49,7 +49,7 @@ The summary of our initial findings is found in the [Technical note on Build Too
 
   * [cet-is](https://cdcvs.fnal.gov/redmine/projects/build-framework/repository)
   * [cmsdist recipes](https://github.com/cmsbuild/cmsdist)
-  * [HEP-SPACK recipes](https://github.com/HEP-SF/hep-spack)
+  * [HEP-SPACK recipes](https://github.com/HSF/hep-spack)
   * [conda recipes by Daniela Remenska ](https://github.com/remenska/root-conda-recipes)
   * [conda recipes by Brett Viren](https://github.com/brettviren/lbne-conda) (deprecated)
   * [aliDist recipes](https://github.com/alisw/alidist)
@@ -57,6 +57,6 @@ The summary of our initial findings is found in the [Technical note on Build Too
 
 # Other resources
 
-  * [HSF Organization on GitHub](https://github.com/HEP-SF)
-  * [HSF cmaketools package ](https://github.com/HEP-SF/cmaketools)
+  * [HSF Organization on GitHub](https://github.com/HSF)
+  * [HSF cmaketools package ](https://github.com/HSF/cmaketools)
   * [Draft Technical Note on Platform Naming Conventions](/technical_notes.html)
