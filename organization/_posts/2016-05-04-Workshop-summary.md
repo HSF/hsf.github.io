@@ -595,7 +595,7 @@ RAMP: the ML challenge idea with a group of people in the same room during 1 day
 
 Dependencies defined as a DAG: checked at installation time
 
-Spack add-on repo created for HEP: on HEP-SF GitHub
+Spack add-on repo created for HEP: on HSF GitHub
 
 ## Geant4 technical form (Tue pm)
 
@@ -1021,9 +1021,9 @@ Discussion
 
 -   Common github repo created for next-gen conditions DB
 
-    -   [*https://github.com/HEP-SF/PhysCondDB*](https://github.com/HEP-SF/PhysCondDB)
+    -   [*https://github.com/HSF/PhysCondDB*](https://github.com/HSF/PhysCondDB)
 
-    -   Group: [*https://github.com/orgs/HEP-SF/teams/conditiondata*](https://github.com/orgs/HEP-SF/teams/conditiondata)
+    -   Group: [*https://github.com/orgs/HSF/teams/conditiondata*](https://github.com/orgs/HSF/teams/conditiondata)
 
 -   HSF status, directions, scope
 

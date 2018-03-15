@@ -30,15 +30,15 @@ time to submit a logo proposal.
 
 We had a session dedicated to some of the HSF SW projects and related initiatives
 * [AIDA2020 WP3](http://aida2020.web.cern.ch/activities/wp3-advanced-software): the software work package of the EU-funded project about detector R&D. AIDA2020 expressed that they want to put their development under the HSF umbrella.
-* [Next Generation Conditions Database](https://github.com/HEP-SF/PhysCondDB): a project started jointly by CMS and ATLAS that is becoming attractive to others. This project benefits from the collaborative spirit resulting from the HSF.
+* [Next Generation Conditions Database](https://github.com/HSF/PhysCondDB): a project started jointly by CMS and ATLAS that is becoming attractive to others. This project benefits from the collaborative spirit resulting from the HSF.
 * [The HEP Software and Computing Knowledge Base](http://hepsoftware.org/): this is a project started by the HSF to facilitate software sharing. It is easy to use and allows crosslinking of software, experiments, organisations, events... **Register your favorite software!**
 * [WikiToLearn](https://en.wikitolearn.org/Main_Page): a new platform allowing the sharing and improving of training materials through collaboration between authors and users. Developed in Italy (University of Milano), its developers are committed to making it useful for, and usable by the HSF.
 * [DIANA-HEP](http://diana-hep.org/) (Data Intensive Analysis for HEP): a NSF-funded project to promote common analysis tools for data intensive research in HEP, using ROOT at its core. This US project shares many goals with the HSF.
 
 
 Helping software projects is the main goal of the HSF. During the last year, 
-the HSF has produced a Best Practices document (currently a [Technical Note draft](https://github.com/HEP-SF/documents/blob/master/HSF-TN/draft-2016-PROJ/draft-HSF-TN-2016-PROJ.md))
-and implemented it in a [Project Starter Kit](https://github.com/HEP-SF/tools).
+the HSF has produced a Best Practices document (currently a [Technical Note draft](https://github.com/HSF/documents/blob/master/HSF-TN/draft-2016-PROJ/draft-HSF-TN-2016-PROJ.md))
+and implemented it in a [Project Starter Kit](https://github.com/HSF/tools).
  This year, the HSF wants to continue its efforts on project support, focusing
  on helping projects get more visibility, and promoting the interoperability 
  of software projects.

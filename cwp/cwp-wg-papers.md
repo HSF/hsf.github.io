@@ -27,14 +27,14 @@ recommended.
       may find that text is inside a spurious `quote` environment and that some
       odd non-breaking spaces appear. Just delete these.
 1. Adopt the JHEP preprint style, using the template in the
-   [software development paper](https://github.com/HEP-SF/documents/tree/master/CWP/papers/HSF-CWP-2017-13_soft-dev/latex/).
+   [software development paper](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-13_soft-dev/latex/).
     - Copy the `jheppub.sty` file into your latex area as it is needed for arXiv side compilation.
 1. The paper title should be `HEP Software Foundation Community White Paper Working Group \-- *My Working Group*`.
 1. You will need to add an abstract for arXiv.
 1. Add a copyright and license statement as a comment - we strongly recommend <br>`% Copyright (C) 2018, The HSF Community White Paper authors, licence CC-BY-4.0.`
 1. When finalised/finalising add the document sources to the
   HSF documents github repo,
-  [https://github.com/HEP-SF/documents](https://github.com/HEP-SF/documents), following the
+  [https://github.com/HSF/documents](https://github.com/HSF/documents), following the
   usual pull request workflow. You can ask `hegner`, `eduardo-rodrigues`, `graeme-a-stewart`
   or `jouvin` for a review (best to pick at least two).
     -  Your paper should go into 

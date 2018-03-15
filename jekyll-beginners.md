@@ -115,7 +115,7 @@ but the short story is:
 * If you don't have one yet, create a clone of the GitHub HSF web site repository and move to the directory created (by default `hep-sf.githb.io`):
 
   ```bash
-  git clone https://github.com/HEP-SF/hep-sf.github.io.git
+  git clone https://github.com/HSF/hep-sf.github.io.git
   cd hep-sf.github.io
   ```
 

@@ -113,9 +113,9 @@ If you have a white paper which you would like to contribute to the CWP process,
 
   * DOE - [High Energy Physics Forum for Computational Excellence: Working Group Reports (I. Applications Software II. Software Libraries and Tools III. Systems)](http://arxiv.org/abs/1510.08545)
 
-<!---  * [HEP-FCE Working Group on Libraries and Tools](http://arxiv.org/abs/1506.01309) --->
-
-  * US Particle Physics Project Prioritization Panel (P5) report: [Building for Discovery: Strategic Plan for U.S. Particle Physics in the Global Context](http://science.energy.gov/~/media/hep/hepap/pdf/May-2014/FINAL_P5_Report_Interactive_060214.pdf)
+<!--- P5 is quite an unreliable URL, perhaps as the download is so huge, so don't check it --->
+  * US Particle Physics Project Prioritization Panel (P5) report: [Building for Discovery: Strategic Plan for U.S. Particle Physics in the Global Context](http://science.energy.gov/~/media/hep/hepap/pdf/May-2014/FINAL_P5_Report_Interactive_060214.pdf){:data-proofer-ignore=""}
+  
 
   * US Snowmass process:
 
