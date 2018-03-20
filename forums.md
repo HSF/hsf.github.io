@@ -9,7 +9,7 @@ layout: default
 Discussions and activities in the HEP Software Foundation rely on several mailing lists and forums, some of them for general discussions, others for topical ones. All these forums are open to anybody interested and archives are publically available but they generally require that you register in order to participate.
 
 *Most of these forums are hosted by Google Groups. To register to them with your preferred email, simply send a mail to
-`forum_name+subscribe@googlegroups.com` (with `forum_name` replaced by the actual name, e.g. `hep-sf-tech`): subject and contents 
+`forum_name+subscribe@googlegroups.com` (with `forum_name` replaced by the actual name, e.g. `hsf-tech`): subject and contents 
 are ignored and can be empty. If you want to register with your Google account, you can also use the web page associated with the forum
 (see below).*
 
@@ -17,13 +17,13 @@ are ignored and can be empty. If you want to register with your Google account, 
 ## General Discussion Forums
 -----
 
-### General Information about HSF: hep-sf-forum@googlegroups.com
+### General Information about HSF: hsf-forum@googlegroups.com
 
-The [hep-sf-forum](http://groups.google.com/d/forum/hep-sf-forum) is the general announcement and discussion forum for the HSF. Our meeting announcements are posted here, as are meeting minutes, including minutes of the startup team meetings. The forum is intended for discussion, not just announcements. And everybody interested into the HSF, even though it is only for specific topic, is encourage to register to this forum to get all announcements. 
+The [hsf-forum](http://groups.google.com/d/forum/hsf-forum) is the general announcement and discussion forum for the HSF. Our meeting announcements are posted here, as are meeting minutes, including minutes of the startup team meetings. The forum is intended for discussion, not just announcements. And everybody interested into the HSF, even though it is only for specific topic, is encourage to register to this forum to get all announcements. 
 
-### HSF Technical Forum: hep-sf-tech-forum@googlegroups.com
+### HSF Technical Forum: hsf-tech-forum@googlegroups.com
 
-The [hep-sf-tech-forum](https://groups.google.com/forum/#%21forum/hep-sf-tech-forum) is the general open forum for technical discussions on HEP Software Foundation topics. Anyone subscribing here should be prepared for technical emails, so posters should not be shy about posting technical issues! Topics can be forked off to dedicated forums as appropriate.
+The [hsf-tech-forum](https://groups.google.com/forum/#%21forum/hsf-tech-forum) is the general open forum for technical discussions on HEP Software Foundation topics. Anyone subscribing here should be prepared for technical emails, so posters should not be shy about posting technical issues! Topics can be forked off to dedicated forums as appropriate.
 
 
 ### HEP S&C community mailing list: hep-sw-comp@googlegroups.com
@@ -50,7 +50,7 @@ R&D series of presentations and discussions. The goal is to probe the lesser kno
 
 The reconstruction algorithms discussion forum is an open forum to discuss all matters of event reconstruction and pattern recognition in high energy physics and similar domains. All are welcome to join the forum and participate.
 
-[Reconstruction Algorithms Forum ](https://groups.google.com/forum/#!forum/hep-sf-reconstruction)
+[Reconstruction Algorithms Forum ](https://groups.google.com/forum/#!forum/hsf-reconstruction)
 
 ### Machine Learning Forum
 The Inter-Experimental LHC Machine Learning Working Group [IML](http://iml.cern.ch/) has been launched recently. 
@@ -64,9 +64,9 @@ are discussed by the community.
 
 ---
 
-### HSF Training Activities: hep-sf-training-wg
-The [hep-sf-training-wg](https://groups.google.com/forum/#%21forum/hep-sf-training-wg) is the discussion forum for the training working group.
+### HSF Training Activities: hsf-training-wg
+The [hsf-training-wg](https://groups.google.com/forum/#%21forum/hsf-training-wg) is the discussion forum for the training working group.
 
-### HSF Packaging WG: hep-sf-packaging-wg
-The [hep-sf-packaging-wg](https://groups.google.com/forum/#%21forum/hep-sf-packaging-wg) is the discussion forum for the packaging working group.
+### HSF Packaging WG: hsf-packaging-wg
+The [hsf-packaging-wg](https://groups.google.com/forum/#%21forum/hsf-packaging-wg) is the discussion forum for the packaging working group.
 

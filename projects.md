@@ -6,7 +6,7 @@ layout: default
 
 # HSF Projects
 
-HSF seeks to serve new and emerging common projects through a project incubator activity. Templates to guide and aid new projects are being established. If you'd like your project to be involved just let us know. Talk to any member of the startup team or email hep-sf-startup-team@googlegroups.com.
+HSF seeks to serve new and emerging common projects through a project incubator activity. Templates to guide and aid new projects are being established. If you'd like your project to be involved just let us know. Talk to any member of the startup team or email hsf-coordination@googlegroups.com.
 
 The incubator idea is close to the one of the Apache Software Foundation. Brian Van Klaveren who gave the exceptional ASF talk at the SLAC workshop provides [this link](http://www.apache.org/foundation/how-it-works.html#incubator) describing how ASF Incubator projects work.
 

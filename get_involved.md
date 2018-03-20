@@ -8,7 +8,7 @@ layout: default
 
 Our goal is to make every effort going on as transparent and open as possible.
 Our official communication channel is the 
-[hep-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum). 
+[hsf-forum](https://groups.google.com/forum/#!forum/hsf-forum). 
 
 See the [dedicated page](/forums.html) about HSF discussions forums for 
 information about how to register and the
@@ -40,7 +40,7 @@ affiliated people when needed. See <https://account.cern.ch/account/Externals/>
 If you are not comfortable with raising an issue in the
 [forums](/forums.html) or if you are afraid that this is not the
 right place for it, feel free to contact the
-[HSF startup team](mailto:hep-sf-startup-team@googlegroups.com) directly.
+[HSF startup team](mailto:hsf-coordination@googlegroups.com) directly.
 
 ## Contributing to this website
 

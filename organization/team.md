@@ -1,11 +1,11 @@
 ---
-title: "HSF Startup Team"
+title: "HSF Coordination Team"
 layout: default
 ---
 
-# HSF Startup Team
+# HSF Coordination Team
 
-Currently the activities within the HSF are organized by the *HSF startup team*. Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the startup team:
+Currently the activities within the HSF are organized by the *HSF coordination team* (formerly called the *startup team*). Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the team:
 
  * [Amber Boehnlein](https://www.jlab.org/div_dept/directorate/directors/ABoehnlein.html) - Jefferson Lab
  * [Peter Elmer](https://phy.princeton.edu/people/g-j-peter-elmer) - Princeton University
@@ -25,11 +25,11 @@ Currently the activities within the HSF are organized by the *HSF startup team*.
  * Brett Viren - [BNL](https://www.bnl.gov)
  * Torre Wenaus - [BNL](https://www.bnl.gov), co-lead
 
-The entire team can be contacted via <hep-sf-startup-team@googlegroups.com>.
+The entire team can be contacted via <hsf-coordination@googlegroups.com>.
 
 ## Meeting Minutes
 
-The startup team runs a regular HSF meeting (nominally, and usually, weekly) which is open to all. Meeting announcements and minutes are posted to the HSF open forum google group.
+The team runs the regular HSF meeting (nominally, and usually, weekly) which is open to all. Meeting announcements and minutes are posted to the HSF open forum google group.
 
 {:.table .table-hover .table-condensed .table-striped}
 | Date   | Title      |
@@ -39,7 +39,7 @@ The startup team runs a regular HSF meeting (nominally, and usually, weekly) whi
 
 [Full list of past minutes](/organization/minutes.html).
 
-## Presentations given by Startup Team Members
+## Presentations given by Coordination Team Members
  * [The HSF CWP](https://indico.desy.de/indico/event/18681/session/8/contribution/114/material/slides/0.pdf), [11th Terascale Alliance Workshop](https://indico.desy.de/indico/event/18681/), 28 Nov 2017, Benedikt Hegner
  * [The HSF CWP](https://indico.cern.ch/event/663273/contributions/2708178/attachments/1545100/2431717/HSF-CWP-Roadmap.pdf), [3rd Scientific Computing Forum](https://indico.cern.ch/event/663273/), 29 Oct 2017, Graeme Stewart
  * [HSF CWP Status](https://indico.cern.ch/event/578990/contributions/2720743/attachments/1522280/2381911/CWP_Status_-_GDB_20170913.pdf), WLCG GDBn, CERN, 13 Sep 2017, Michel Jouvin
