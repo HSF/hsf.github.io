@@ -5,7 +5,7 @@ layout: default
 ---
 
 The HSF [Community Calendar](https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com){:target="_hsf_calendar"}
-can be edited by people in the [HSF Startup Team](https://groups.google.com/forum/#!forum/hsf-coordination)
+can be edited by people in the [HSF Coordination Team](https://groups.google.com/forum/#!forum/hsf-coordination)
 or in the [HSF Calendar Editors Group](https://groups.google.com/forum/#!forum/hsf-calendar-editors) Google Groups.
 
 The most straight forward way to do this is to 
