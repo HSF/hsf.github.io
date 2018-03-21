@@ -26,5 +26,5 @@ Other actions in progress include:
 
 ## How to participate ?
 
-Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hep-sf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided!
+Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided!
   

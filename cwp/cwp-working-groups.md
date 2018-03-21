@@ -165,7 +165,7 @@ Draft WG notes: [google doc](https://docs.google.com/document/d/1IGKQStDZm97PFZJ
 ### Careers, Staffing and Training WG ###
 Charge: [Google Doc](https://docs.google.com/document/d/1oHnZDMNWe_QTy4cQ8kNN_GDIW8wW1hAIKS8z2z05U2w/edit) 
 
-Google group: hep-sf-training-wg@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hep-sf-training-wg)
+Google group: hsf-training-wg@googlegroups.com [(link to subscribe)](https://groups.google.com/forum/#!forum/hsf-training-wg)
 
 Plans:
 

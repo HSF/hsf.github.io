@@ -46,4 +46,4 @@ The work to deliver the CWP should happen over the next 5 months after which it 
 * HSF Analysis Ecosystem Workshop (a [Doodle](http://doodle.com/poll/wunez2afnmycg8tu) is open to fix dates) 
 * [DSHEP@FNAL](https://indico.fnal.gov/conferenceDisplay.py?confId=13497) (FNAL, May)
 
-Finally, please be sure to register to the [Community White Paper google group](https://groups.google.com/forum/#!forum/hsf-community-white-paper) and the general [HSF forum](mailto:hep-sf-forum@googlegroups.com) if you have not already done so.
+Finally, please be sure to register to the [Community White Paper google group](https://groups.google.com/forum/#!forum/hsf-community-white-paper) and the general [HSF forum](mailto:hsf-forum@googlegroups.com) if you have not already done so.

@@ -12,7 +12,7 @@ The group is currently convened by Ben Morgan (Warwick) and Graeme Stewart (CERN
 
 Everyone is welcome to participate and contribute on the forum and to the ongoing meetings:
 
-[Packaging Group Discussion Forum](https://groups.google.com/forum/#!forum/hep-sf-packaging-wg){:target="_hsf_packaging_forum}
+[Packaging Group Discussion Forum](https://groups.google.com/forum/#!forum/hsf-packaging-wg){:target="_hsf_packaging_forum}
 
 [Packaging Group Meetings Indico](https://indico.cern.ch/category/7975/){:target="_hsf_packaging_indico"}
 

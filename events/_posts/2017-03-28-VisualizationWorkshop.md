@@ -32,4 +32,4 @@ The agenda of the follow-up meeting can be found here: https://indico.cern.ch/ev
 
 *Update:*
 
-* 31 March 2017: A short [Workshop's summary report](https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/hep-sf-forum/R6QefiZ3RUU/1xiO7kIiFAAJ) about the main workshop, which ended yesterday.
+* 31 March 2017: A short [Workshop's summary report](https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/hsf-forum/R6QefiZ3RUU/1xiO7kIiFAAJ) about the main workshop, which ended yesterday.

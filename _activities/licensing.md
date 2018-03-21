@@ -24,7 +24,7 @@ In Spring 2015, A working group has been formed with people from the community
 who had already some experiences with licensing issues. This working group, as 
 any in the HSF, is open to new participants and contributions. Most 
 discussions so far took place in the HSF Technical Forum
-(<hep-sf-forum@googlegroups.com>).
+(<hsf-forum@googlegroups.com>).
 
 A first [Technical Note](/notes/HSF-TN-2016-01.pdf) 
 was released in February 2016, 

@@ -18,7 +18,7 @@ experience in and share of software used for track reconstruction. In particular
 We have two mailing lists for exchange of information and technical discussions
 
   * Detector-Technology-Pattern-Recognition@cern.ch (CTD mailing list)
-  * hep-sf-reconstruction@googlegroups.com (HSF mailing list)
+  * hsf-reconstruction@googlegroups.com (HSF mailing list)
 
 ## Meetings
 
