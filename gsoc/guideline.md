@@ -10,10 +10,10 @@ layout: default
 
  * Option A: email GSoC administrators: [Sergei Gleyzer](mailto:sergei@cern.ch), [Enric Tejedor Saavedra](mailto:etejedor@cern.ch) and [Antoine Perus](mailto:perus@lal.in2p3.fr) 
  * Option B (via git): 
-   * fork [git repository](https://github.com/HSF/hep-sf.github.io) 
+   * fork [git repository](https://github.com/HSF/hsf.github.io) 
    * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (for example `proposal_ROOTspark.md`)
    * add a front matter as given in this
-   [example](https://raw.githubusercontent.com/hep-sf/hep-sf.github.io/master/_gsocprojects/2018/project_ROOT.md)
+   [example](https://raw.githubusercontent.com/hsf/hsf.github.io/master/_gsocprojects/2018/project_ROOT.md)
       * Make sure the `year` attribute is correct for your proposal
    * make a pull request
 
@@ -23,7 +23,7 @@ layout: default
 
 Proposals are attached to aproject (e.g. ROOT, CMS...). If you want to add a project for your proposal, you need to create 
 a MD file describing your project in `_gsocprojects/2018` directory (must start with `project_`,
-look at [ROOT project](https://raw.githubusercontent.com/HSF/hep-sf.github.io/master/_gsocprojects/2018/project_ROOT.md) for an example).
+look at [ROOT project](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocprojects/2018/project_ROOT.md) for an example).
 This is a very simple file, containing only a *front matter* section that defines the attributes of
 your organization. The 2 mandatory attributes are `project` (your project name) and `layout` (which must be `default`).
 In addition you can use 2 optional attributes:
@@ -31,7 +31,7 @@ In addition you can use 2 optional attributes:
 * `title`: the name of the project to use in the page title. By default, `project` attribute is used.
 * `description`: a description of your project that will be added before the list of proposals attached to the project.
 
-It can be several lines: look at the [example](https://raw.githubusercontent.com/hep-sf/hep-sf.github.io/master/_gsocprojects/2018/project_SixTrack.md)
+It can be several lines: look at the [example](https://raw.githubusercontent.com/hsf/hsf.github.io/master/_gsocprojects/2018/project_SixTrack.md)
 for detailed syntax. The content is a standard Markdown text idented by at least one space (the number is not important
 but must be the same for all lines).
 
@@ -64,7 +64,7 @@ organization:
 ```
 
 To create a new organization, copy
-[_gsocorgs/2018/cern.md](https://raw.githubusercontent.com/hep-sf/hep-sf.github.io/master/_gsocorgs/2018/cern.md),
+[_gsocorgs/2018/cern.md](https://raw.githubusercontent.com/hsf/hsf.github.io/master/_gsocorgs/2018/cern.md),
 create a file for your organization and edit its contents as appropriate.
 
 

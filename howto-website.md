@@ -19,12 +19,12 @@ A [HSF documentation](/jekyll-beginners.html) provides some useful hints to make
 
 For adding information to this page or improving it, we follow the *[pull request](https://help.github.com/articles/using-pull-requests/)* workflow in GitHub.
 
-Just fork our HSF [website repository](https://github.com/HSF/hep-sf.github.io), edit the
+Just fork our HSF [website repository](https://github.com/HSF/hsf.github.io), edit the
 files you want to edit, push them to your fork, and open a pull request.
 
 If you wish (and it is recommended) you can easily set up a local instance of the newsletter site in order to preview your submissions. See the [documentation](https://help.github.com/articles/using-jekyll-with-pages/)
 on installing and running Jekyll.
-The website uses the master branch of the hep-sf.github.io repository.
+The website uses the master branch of the hsf.github.io repository.
 
 If you are not familiar with GitHub and Git, you can read our [survival kit](/github-beginners.html)!
 
