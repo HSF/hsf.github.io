@@ -35,12 +35,12 @@ Connection information for each specific Vidyo meeting is on the corresponding I
 agenda, a CERN account is needed. CERN provides lightweight accounts to non CERN
 affiliated people when needed. See <https://account.cern.ch/account/Externals/>
 
-## Giving input to the HSF Startup Team
+## Giving input to the HSF Coordination Team
 
 If you are not comfortable with raising an issue in the
 [forums](/forums.html) or if you are afraid that this is not the
 right place for it, feel free to contact the
-[HSF startup team](mailto:hsf-coordination@googlegroups.com) directly.
+[HSF coordination team](mailto:hsf-coordination@googlegroups.com) directly.
 
 ## Contributing to this website
 
