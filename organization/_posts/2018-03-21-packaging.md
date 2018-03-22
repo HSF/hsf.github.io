@@ -15,12 +15,12 @@ Introduction - Graeme & Ben
 ===========================
 - CHEP paper accepted as a presentation: showcase work and attract more interest. Nice target to work towards testing.
 - HSF Workshop next week - this WG will contribute to the Software Development stream
-- Use Cases Document: https://docs.google.com/document/d/1h-r3XPIXXxmr5tThIh6gu6VcXXRhBXtUuOv14ju3oTI/
+- [Use Cases Document](https://docs.google.com/document/d/1h-r3XPIXXxmr5tThIh6gu6VcXXRhBXtUuOv14ju3oTI/)
   - Some clarification on install time relocation
   - Version 1.0, but further additions to make 1.1 etc anticipated
 - Sprint Workshop for SPI project (CERN/SFT team that produces LCG Stack, and work with GENSER team for generators)
   - Goal is consensus and common perspective for SPI over next 2-3 years
-  - Synergy with this group, so input welcome, Graham/Ben will contribute/attend
+  - Synergy with this group, so input welcome, Graeme/Ben will contribute/attend
 - HSF rebranding: “hep-sf” -> “hsf”
   - For this WG, Github organization is now at [https://github.com/HSF](https://github.com/HSF)
   - There are redirects, but check your remotes
@@ -104,11 +104,11 @@ Nix package manager in LHCb - Chris
       - AliBuild takes care of this
     - Chris - Hydra will allow you to download a bootstrap script that gives a local build environment, that could be tweaked locally
 - Marco
-  - User development should be in nixshell
+  - User development should be in nix-shell
   - At the moment we are trapped on a single well controlled environment (e.g., lxplus) as we can’t really support non-native systems
   - Single tool to build and give a development environment is a big plus
 - Pere
-  - To build Gaudi source an lcgview, then cmake && make - there is nothing easier
+  - To build Gaudi, source an lcgview, then cmake && make - there is nothing easier
   - We are schizophrenic - we want perfect reproducibility, but also want to be able to patch things (e.g., new xrootd client)
   - How do we solve that problem?
   - Ben: lifecycle of different pieces is very different, physics makes numbers, middleware is a different matter (and breaks, can need changed)
@@ -122,7 +122,7 @@ Nix package manager in LHCb - Chris
     - Does this actually work?
 In favour of building everything, once, instead of having to support patching on many platforms.
 - Guilherme - change openssl, it rebuilds, but only for packages with a direct dependency, otherwise not
-- Can nix use system packages? No.
+- Can nix use system packages? On Mac, can use system libraries for Cocoa etc. No on Linux. Giulio: Might be possible to do this on Linux, but not the default.
 - Boundary between package management and development - treat this with care…
 - Graeme: We’re likely missing a few use cases, or rather, stories, that would be useful to enumerate. For example, if we have a reproducible rebuild, perhaps we shouldn’t be so afraid of rebuilding.
 
