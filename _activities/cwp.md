@@ -31,7 +31,7 @@ Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-pa
 | CWP Roadmap | HSF-CWP-2017-01 | [arXiv](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"} |
 | Careers & Training	 | HSF-CWP-2017-02	| [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9){:target="_cwp_cst"} |
 | Conditions Data | HSF-CWP-2017-03	| [Google Doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit){:target="_cwp_cdb"} |
-| Data Organisation, Management and Access | HSF-CWP-2017-04	| [Google Doc](https://docs.google.com/document/d/1_YKGs8waBidpS8akmjxEVjV00DThINbJAuVelzk2uHg/edit){:target="_cwp_doma"} |
+| Data Organisation, Management and Access | HSF-CWP-2017-04	| [Overleaf](https://www.overleaf.com/14528672pwpcxphcjfcr){:target="_cwp_doma"} |
 | Data Analysis and Interpretation | HSF-CWP-2017-05	| [Dropbox](http://tinyurl.com/yaf32pks){:target="_cwp_analysis"} |
 | Data and Software Preservation | HSF-CWP-2017-06 | [Google Doc](https://docs.google.com/document/d/17309oyniwK01qvJgDPrBsLw_-jqRgvkvWZi5lLmQISI/edit){:target="_cwp_dsp"} |
 | Detector Simulation | HSF-CWP-2017-07	| [Summary Google Doc](https://docs.google.com/document/d/15dyg1H5FMkbAWJf8WC6cXa6X62L1Q9AXLJuRGD-FR00/edit?usp=sharing){:target="_cwp_simsum"}; [Google Doc](https://docs.google.com/document/d/1Qm8btmDti1dcu5G2FMez3J6FLyzv0k6fag0clD25JSo/edit?ts=5977c5fc){:target="_cwp_sim"} |
