@@ -9,7 +9,7 @@ layout: default
 
 News, general matters
 =====================
--   RSE 2018 Conference has their [call for
+-   [UK Research Software Engineer Association](http://rse.ac.uk/) has their 2018 conference [call for
     papers](http://rse.ac.uk/conf2018/calls/) out.
     -   Mention this on the forum list, for our UK people.
     -   Ben Morgan might be interested, particularly for our packaging
@@ -133,8 +133,7 @@ Packaging
     [Minutes
     available](http://hepsoftwarefoundation.org/organization/2018/03/21/packaging.html).
 -   Will contribute to the Software Development session in Naples.
--   Next meeting [5
-    April](https://indico.cern.ch/event/716297/).
+-   Next meeting [5 April](https://indico.cern.ch/event/716297/).
     
 GSoC
 ----
