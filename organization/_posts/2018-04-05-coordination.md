@@ -1,5 +1,5 @@
 ---
-title: "HSF Weekly Meeting #132, 4 April, 2018"
+title: "HSF Weekly Meeting #132, 5 April, 2018"
 layout: default
 ---
 
@@ -24,10 +24,10 @@ HSF/WLCG Workshop Follow-up
     notes](https://docs.google.com/document/d/1QSkvwRK_2HENuxYXcs9Op1dTUK824KddQ1Tfan-P0WU/edit?usp=sharing))
     -   ### General Points
         -   We need a newsletter!
-            -   Graeme to follow up
+            -   Graeme to follow up.
         -   Benedikt will give a WS summary in next week's EP-SFT meeting.
     -   ### Common Data Management and Data Lakes
-        -   WLCG lead here
+        -   WLCG lead here.
         -   Are there software implications?
             -   Needs a global view and to see how the data will be used
                 by applications - production and analysis are quite
@@ -65,7 +65,7 @@ HSF/WLCG Workshop Follow-up
             -   Example activity: ALICE tests of Apache Arrow + TDataFrame.
     -   ### Software Development
         -   Documentation of how to use profiles / static analysers
-        -   Web based GUI to browse and compare different profilers
+        -   Web based GUI to browse and compare different profilers.
         -   Common plugin based mechanism for clang-tidy so that adding
             checks does not require modifying the upstream sources.
     -   ### Visualization
@@ -78,8 +78,8 @@ HSF/WLCG Workshop Follow-up
             across the scale spectrum from datasets to events.
         -   DOMA = data organization, management and access
     -   ### Security
-        -   WLCG led, some ongoing discussions identified
-        -   Trust groups with grid/campus teams
+        -   WLCG led, some ongoing discussions identified.
+        -   Trust groups with grid/campus teams.
     -   ### Performance and Cost Modeling
         -   WLCG led, group is pretty active already.
     -   ### Data Preservation for HEP
@@ -106,8 +106,8 @@ HSF/WLCG Workshop Follow-up
             White Paper end of last year, for the next 3 years of
             activities.
 -   ## Practical follow ups at the HSF level
-    -   Inventory of community activities
-        -   Should go with general website reorganisation
+    -   Inventory of community activities.
+        -   Should go with general website reorganisation.
     -   More variation in themes in these meetings (more topical)
         -   Would really need a better room to show slides on Vidyo.
         -   Time ok? It's rather early for Pacific Time.
@@ -204,17 +204,17 @@ Training
 Packaging
 ---------
 -   Discussion slot last week in Naples - good to communicate with a
-    wider group of developers
-    -   Containers are important and simplify things
-    -   Test driving solutions is the next practical step
+    wider group of developers.
+    -   Containers are important and simplify things.
+    -   Test driving solutions is the next practical step.
 -   Meeting
     [yesterday](https://indico.cern.ch/event/716297/)
     ([minutes](http://127.0.0.1:4000/organization/2018/04/04/packaging.html)
     available)
-    -   Reviewed Naples
+    -   Reviewed Naples.
     -   Feedback from first (naive) test drive of Nix
 -   Next meeting [18
-    April](https://indico.cern.ch/event/719557/)
+    April](https://indico.cern.ch/event/719557/).
 
 GSoC
 ----
