@@ -27,7 +27,7 @@ and was the major driver for the workshop. He outlined each of the CWP's
 chapters along with its major R&D goals and stressed again the approach
 of working together, re-characterising CWP as *Community Wide Projects*. 
 
-After this great introduction the workshop, and a review of the important
+After this great introduction to the workshop, and a review of the important
 technology trends and use cases, we continued with a mixture of
 plenary and parallel sessions that covered the major areas the community
 needs to invest in.
@@ -64,10 +64,10 @@ discussed, generating lively discussion.
 In the analysis domain, where workloads are far more diverse than for organised
 production activities, there are many interesting developments to follow-up.
 Systems like SWAN have had success in bringing notebook technology to
-HEP ROOT analysis and now plans R&D to scale up to future challenges. In
+HEP analysis and now plans R&D to scale up to future challenges. In
 the meantime, data science tools like Apache Spark clusters achieve a
 scale and ease of use which is admirable and our community would like
-to emulate. albeit that this is much harder to achieve with HEP
+to emulate, albeit that this is much harder to achieve with HEP
 analysis data. There was a fascinating talk and live demonstration of the Dask
 system for cluster based data analysis and analytics in the Python ecosystem.
 
@@ -83,7 +83,7 @@ wide vector registers, multiple CPU cores or even GPUs. That challenge might als
 faced more effectively in common through the use of common toolkits,
 such as VecCore, that help code adapt to the changing hardware landscape.
 An intense discussion about the strategy to be used here, and how much specific HEP solutions
-are really required, was had and typifies many of the open questions
+are really required, took place and typifies many of the open questions
 our R&D programme needs to address. 
 
 <!-- TrickTrack, ACTS mention? -->
@@ -125,7 +125,7 @@ prospects remain a concern, as with many other areas in HEP.
 
 Opening the final session of the workshop was 
 [a talk from Anna Scaife](https://indico.cern.ch/event/658060/contributions/2940455/attachments/1625101/2587580/WLCG-180329.pdf){:target="_naples_ska"}
-from the Square Kilomoeter Array Telescope and AENEAS projects. This is
+from the Square Kilometre Array Telescope and AENEAS projects. This is
 one of the other sciences facing a data deluge in the future and there
 can be a very healthy relationship with HEP, which has been recognised
 in the establishment of an MoU with CERN and WLCG.
