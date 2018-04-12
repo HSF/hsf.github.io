@@ -5,7 +5,7 @@ layout: newsletter
 ---
 
 The [WLCG-HSF joint workshop](https://indico.cern.ch/event/658060/overview){:target="_naples_workshop"}
-took place in Naples from 26-29 of March. There was a huge amount of interest
+took place in Naples from 26-29 of March. There was a great deal of interest
 in the event, with 211 people registering, far exceeding the size of any
 workshop hosted by WLCG or HSF alone. Clearly the objective,
 to tackle the challenges of HEP computing for the next decade *in common*,
@@ -34,10 +34,10 @@ needs to invest in.
 
 Recognising the large cost of data storage and data management for WLCG,
 and anticipating the data volumes of HL-LHC, optimising our storage 
-systems is a huge area for study. Consolidating storage into larger units,
+systems is a an important and challenging area for study. Consolidating storage into larger units,
 sometimes called a *data lake*, is one area to study; the anticipation
 is that much more use of the wide area network will be made in the future
-to provide data to where it is needed. Successes from the HEP programme,
+to deliver data to where it is needed. Successes from the HEP programme,
 like the [Rucio data management system](https://rucio.cern.ch/){:target="_rucio"}
 could offer a broad engagement with other sciences also facing massive
 distributed data challenges. Later technical sessions dived into the details
@@ -88,7 +88,7 @@ our R&D programme needs to address.
 
 <!-- TrickTrack, ACTS mention? -->
 
-For producing simulated events there were two full sessions. 
+There were two full sessions dedicated to the event simulation domain. 
 Producing events with better underlying physics is needed for both
 HL-LHC and the intensity frontier programs, where accuracy of understanding
 rare processes is a key to success. In addition, there is a need to speed
@@ -113,9 +113,9 @@ Helping establish best practice for development is one part of the training
 challenge our community faces. Ensuring that our software is well written
 and tested is a key part of making code more sustainable for experiments
 that now have multi-decade lifetimes. The training session gathered speakers
-involved in may of the communitiy's training areas, in experiments and
-from dedicated schools, and discussion about the best way to address the
-needs in the future was had. Agreeing that a solid base was the best place
+involved in many of the community's training areas, in experiments and
+from dedicated schools, and there was discussion about the best way to address the
+needs in the future. Agreeing that a solid base was the best place
 to start, the group will try and ensure that as many basic training needs
 are satisfied in common. Contributions to training should be recognised
 as a part of the career profile of our developers, but long term career
@@ -127,8 +127,8 @@ Opening the final session of the workshop was
 [a talk from Anna Scaife](https://indico.cern.ch/event/658060/contributions/2940455/attachments/1625101/2587580/WLCG-180329.pdf){:target="_naples_ska"}
 from the Square Kilomoeter Array Telescope and AENEAS projects. This is
 one of the other sciences facing a data deluge in the future and there
-can be a very healthy relationship between HEP, which has been recognised
-in the establishment of an MoU with CERN and WLCG. 
+can be a very healthy relationship with HEP, which has been recognised
+in the establishment of an MoU with CERN and WLCG.
 
 That set the scene for conveners reviewing their sessions and pointing
 the way to the R&D which is needed in the next years. Common projects
