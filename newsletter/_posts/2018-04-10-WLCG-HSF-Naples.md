@@ -34,7 +34,7 @@ needs to invest in.
 
 Recognising the large cost of data storage and data management for WLCG,
 and anticipating the data volumes of HL-LHC, optimising our storage 
-systems is a an important and challenging area for study. Consolidating storage into larger units,
+systems is an important and challenging area for study. Consolidating storage into larger units,
 sometimes called a *data lake*, is one area to study; the anticipation
 is that much more use of the wide area network will be made in the future
 to deliver data to where it is needed. Successes from the HEP programme,
@@ -48,11 +48,15 @@ at. There will be a lot of follow up to define the real R&D goals as well
 as the way to measure success in such a complex coupled and large-scale
 system. The *Workload Management* teams look to be involved there too
 as the data processing frameworks are a key actor here. Our current systems
-are rather diverse, but there are many shared goals.
+are rather diverse, but there are many shared goals. Using our large 
+distributed computing systems securely, evolving how
+we authenticate and responding to threats was discussed in the *Security*
+session of the workshop.
 
 The challenges of processing data in heterogeneous resource clusters were laid our
 in the *Frameworks and Infrastructure* session, before two presentations
-from frameworks (FairMQ and CLARA) that have implemented a design that addresses that very
+from frameworks (ALFA, using [FairMQ](https://github.com/FairRootGroup/FairMQ){:target="_naples_fairmq"} 
+and [CLARA](https://claraweb.jlab.org/clara/){:target="_naples_clara"}) that have implemented a design that addresses that very
 challenge. How to evolve the other frameworks used across the HEP experiments
 was a discussion that continued in the parallel session, where the group
 plans regular meetings and a follow up at CHEP. Even the tricky question
@@ -70,6 +74,8 @@ scale and ease of use which is admirable and our community would like
 to emulate, albeit that this is much harder to achieve with HEP
 analysis data. There was a fascinating talk and live demonstration of the Dask
 system for cluster based data analysis and analytics in the Python ecosystem.
+Improvements in *Data Preservation* practice might well also link into
+these new, easier to capture, analysis workflows.
 
 Back at the production end of HEP, where data is taken from the detector
 and reconstructed, we heard about the use of FPGAs to perform surprisingly
@@ -86,8 +92,6 @@ An intense discussion about the strategy to be used here, and how much specific 
 are really required, took place and typifies many of the open questions
 our R&D programme needs to address. 
 
-<!-- TrickTrack, ACTS mention? -->
-
 There were two full sessions dedicated to the event simulation domain. 
 Producing events with better underlying physics is needed for both
 HL-LHC and the intensity frontier programs, where accuracy of understanding
@@ -100,6 +104,10 @@ have been very detector specific so the challenge is how to make faster
 techniques more generic, including the process of training networks and
 performing validation. There is a very active community here and a vigorous
 and diverse R&D is underway.
+
+Work on event displays, a key part of *Visualisation* in HEP saw interest
+in consolidation and starting common projects to share best practice and
+ideas.
 
 The Software Development session reviewed progress made by the
 HSF's [Packaging Working Group](/activities/packaging.html){:target="_naples_packaging_wg"}. A common
