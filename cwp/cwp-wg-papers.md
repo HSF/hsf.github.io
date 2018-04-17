@@ -4,10 +4,16 @@ author: "Graeme Stewart"
 layout: default
 ---
 
+[cwp_chapters_bib]: https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp-chapters.bib
+{:target="_cwp_bib"}
+
+[cwp_main_bib]: https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp.bib
+{:target="_cwp_bib"}
+
 ## Publishing CWP Working Group Papers to arXiv
 
 This is the currently **and strongly** recommended way to publish each of the CWP WG
-papers to [arXiv](https://arxiv.org). This route ensures a high presentation standard 
+papers to [arXiv](https://arxiv.org){:target="_arxiv_site"}. This route ensures a high presentation standard 
 for the finished paper and allows reuse of bibtex files and author affiliations.
 It also archives the document sources in the HSF document repository.
 
@@ -28,13 +34,15 @@ It also archives the document sources in the HSF document repository.
     - The conversion is generally very accurate, but within `itemize` environments you
       may find that text is inside a spurious `quote` environment and that some
       odd non-breaking spaces appear. Just delete these.
-1. Adopt the [JHEP preprint](https://jhep.sissa.it/jhep/help/JHEP/TeXclass/DOCS/JHEP-author-manual.pdf)
+1. Adopt the [JHEP preprint](https://jhep.sissa.it/jhep/help/JHEP/TeXclass/DOCS/JHEP-author-manual.pdf){:target="_jhep_style"}
    style, using the template in the
-   [software development paper](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-13_soft-dev/latex/).
+   [software development paper](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-13_soft-dev/latex/){:target="_soft_dev_paper"}.
     - Copy the `jheppub.sty` file into your latex area as it is needed for arXiv side compilation.
 1. Build the author list: the **strongly recommended** way is to create a text file 
    `authors.txt` and use the `a2tex.py` tool to generate the TeX-formatted author list, 
-   following the steps below:
+   following the steps below (look at 
+[DOMA paper](https://github.com/HSF/documents/blob/master/CWP/papers/HSF-CWP-2017-04_doma){:target="_doma_paper"} 
+for an example):
    * `authors.txt`: the easiest is to start from the global CWP 
      [author list](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/authors.txt)
      and remove unnecessary entries. The line format in this file is:
@@ -42,9 +50,9 @@ It also archives the document sources in the HSF document repository.
        Surname, Forename - Affiliation_ID (footnote_key)
        ```
    * In the previous line, `Affiliation_ID` refers to the first word in the
-   [affiliation list](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/addresses.txt) 
+   [affiliation list](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/addresses.txt) {:target="_address_txt"}
    and `footnote_key` to the number at the start of the line in the
-   [footnote list](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/footnotes.txt). 
+   [footnote list](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/footnotes.txt){:target="_footnotes_txt"}. 
    If there are several affiliations, use ` & ` as the separator. If there are several 
    footnotes, separate them with a comma without surrounding spaces.
    * Run `a2tex.py` to generate the `authors.tex` file (and `arxiv.txt` for arXiv submission). Assumming you used the recommended 
@@ -58,9 +66,7 @@ It also archives the document sources in the HSF document repository.
        ```
 
 1. To create the title page use the `\maketitle` statement (without arguments). **Before** 
-you need to define the title, the abstract and the author list (look at 
-[DOMA papger](https://github.com/HSF/documents/blob/master/CWP/papers/HSF-CWP-2017-04_doma/latex/hsf-cwp-dm.tex) 
-for an example):
+you need to define the title, the abstract and the author list:
   * The title must be `HEP Software Foundation Community White Paper Working Group -- My Working Group`. 
   To define it, use the following statement:
       ```latex
@@ -82,21 +88,22 @@ file) - we strongly recommend:
     ```
 1. When finalised/finalising add the document sources to the
   HSF documents github repo,
-  [https://github.com/HSF/documents](https://github.com/HSF/documents), following the
+  [https://github.com/HSF/documents](https://github.com/HSF/documents){:target="_hsf_documents"}, following the
   usual pull request workflow. You can ask `hegner`, `eduardo-rodrigues`, `graeme-a-stewart`
   or `jouvin` for a review (best to pick at least two).
     -  Your paper should go into 
        `CWP/papers/HSF-CWP-2017-XX_short-wg-name/latex` (the first part for correct ordering,
        the second for allowing people to know which paper is which at a glance).
-1. You can take advantage of the [large bibtex](https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp.bib) file that
-  was used for the roadmap for your references.
-  - There is also a common file for references to [WG papers](https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp-chapters.bib) themselves.
+1. You can take advantage of the 
+  [large bibtex][cwp_main_bib] 
+  file that was used for the roadmap for your references.
+  - There is also a common file for references to [WG papers][cwp_chapters_bib] themselves.
 1. Upload to arXiv, use "Computational Physics (physics.comp-ph)" as the primary 
    subject, with "High Energy Physics - Experiment (hep-ex)" as a secondary.
     - Note that when uploading files to arXiv, it is the `.bbl` file of resolved and formatted 
       references that is required, not the source `.bib` files.
 1. You can now finalise your own paper's reference in
-  [CWP/papers/HSF-CWP-2017-01\_roadmap/latex/cwp-chapters.bib](https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp-chapters.bib).
+  [CWP/papers/HSF-CWP-2017-01\_roadmap/latex/cwp-chapters.bib][cwp_chapters_bib].
   - Make a final commit to github with this last piece of information so that all regenerated 
     WG texts will include the new cross reference correctly.
 
