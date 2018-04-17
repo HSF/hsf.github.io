@@ -7,17 +7,17 @@ layout: newsletter
 The [WLCG-HSF joint workshop](https://indico.cern.ch/event/658060/overview){:target="_naples_workshop"}
 took place in Naples from 26-29 of March. There was a great deal of interest
 in the event, with 211 people registering, far exceeding the size of any
-workshop hosted by WLCG or HSF alone. Clearly the objective,
-to tackle the challenges of HEP computing for the next decade *in common*,
+workshop hosted by WLCG or HSF alone. The idea
+of tackling the challenges in HEP computing for the next decade *in common*,
 struck a real chord with the community.
 
 The workshop opened with Liz Sexton-Kennedy [laying out the big picture of
 the HEP science goals](https://indico.cern.ch/event/658060/contributions/2844782/attachments/1622746/2582912/ScienceGoalsWLCG-HSFworkshop2018.pdf){:target="_naples_scigoals"},
 covering the motivations that drive research in
-particle physics, astro-particle and cosmology. New facilities usher in
-the exascale era at HL-LHC, DUNE, SKA, LIGO and LSST and we need to undertake
-major R&D in software and computing to ensure this programme
-is a success.
+particle physics, astro-particle physics and cosmology. New facilities for
+the exascale era are under construction. For HL-LHC, DUNE, SKA, LIGO and LSST and we need to undertake
+major R&D in software and computing to ensure these programmes
+are a success.
 
 <div style="text-align:center; padding:25px"><img src ="/images/naples-ws-liz.jpg" alt="Liz opens the workshop's science programme" /></div>
 
@@ -25,9 +25,9 @@ Eduardo Rodrigues then reviewed the [HSF Community White Paper Roadmap](https://
 that was [published last year](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"}
 and was the major driver for the workshop. He outlined each of the CWP's
 chapters along with its major R&D goals and stressed again the approach
-of working together, re-characterising CWP as *Community Wide Projects*. 
+of working together, re-characterising "CWP" as *Community Wide Projects*. 
 
-After this great introduction to the workshop, and a review of the important
+After this great introduction to the workshop, and a further review of the important
 technology trends and use cases, we continued with a mixture of
 plenary and parallel sessions that covered the major areas the community
 needs to invest in.
@@ -37,26 +37,27 @@ and anticipating the data volumes of HL-LHC, optimising our storage
 systems is an important and challenging area for study. Consolidating storage into larger units,
 sometimes called a *data lake*, is one area to study; the anticipation
 is that much more use of the wide area network will be made in the future
-to deliver data to where it is needed. Successes from the HEP programme,
+to deliver data on demand to where it is needed. Successes from the HEP programme,
 like the [Rucio data management system](https://rucio.cern.ch/){:target="_rucio"}
 could offer a broad engagement with other sciences also facing massive
-distributed data challenges. Later technical sessions dived into the details
-and there will be a strong coupling to how we can actually characterise
+distributed data challenges. Later technical sessions dived into the details.
+There will be a strong coupling to how we can actually characterise
 and measure the effectiveness of our workloads on our grid infrastructures,
 which the two sessions of the *Performance and Cost Modeling* group looked
 at. There will be a lot of follow up to define the real R&D goals as well
 as the way to measure success in such a complex coupled and large-scale
 system. The *Workload Management* teams look to be involved there too
 as the data processing frameworks are a key actor here. Our current systems
-are rather diverse, but there are many shared goals. Using our large 
-distributed computing systems securely, evolving how
-we authenticate and responding to threats was discussed in the *Security*
-session of the workshop.
+are rather diverse, but there are many shared goals.
 
-The challenges of processing data in heterogeneous resource clusters were laid our
-in the *Frameworks and Infrastructure* session, before two presentations
-from frameworks (ALFA, using [FairMQ](https://github.com/FairRootGroup/FairMQ){:target="_naples_fairmq"} 
-and [CLARA](https://claraweb.jlab.org/clara/){:target="_naples_clara"}) that have implemented a design that addresses that very
+In addition to these technical developments, using our large distributed computing 
+systems securely and evolving how we authenticate and responding to threats 
+was discussed in the *Security* session of the workshop.
+
+The challenges of processing data in heterogeneous resource clusters were laid out
+at the beginning of the *Frameworks and Infrastructure* session, before two presentations
+from frameworks (ALFA 
+and [CLARA](https://claraweb.jlab.org/clara/){:target="_naples_clara"}) implementing a design that addresses that very
 challenge. How to evolve the other frameworks used across the HEP experiments
 was a discussion that continued in the parallel session, where the group
 plans regular meetings and a follow up at CHEP. Even the tricky question
@@ -67,9 +68,9 @@ discussed, generating lively discussion.
 
 In the analysis domain, where workloads are far more diverse than for organised
 production activities, there are many interesting developments to follow-up.
-Systems like SWAN have had success in bringing notebook technology to
-HEP analysis and now plans R&D to scale up to future challenges. In
-the meantime, data science tools like Apache Spark clusters achieve a
+Systems like [SWAN](https://swan.web.cern.ch/){:target="_naples_swan"} have had success in bringing notebook technology to
+HEP analysis. The SWAN team now plans R&D to scale up to future challenges. In
+the meantime, data science tools like Apache Spark achieve a
 scale and ease of use which is admirable and our community would like
 to emulate, albeit that this is much harder to achieve with HEP
 analysis data. There was a fascinating talk and live demonstration of the Dask
@@ -86,7 +87,7 @@ modern hardware could be used more efficiently if the right algorithms
 are found; that might include replacing some traditional programmed
 solutions with *machine learning* that can usually run well on
 wide vector registers, multiple CPU cores or even GPUs. That challenge might also be
-faced more effectively in common through the use of common toolkits,
+faced more effectively in common through the use of community toolkits,
 such as VecCore, that help code adapt to the changing hardware landscape.
 An intense discussion about the strategy to be used here, and how much specific HEP solutions
 are really required, took place and typifies many of the open questions
@@ -96,13 +97,13 @@ There were two full sessions dedicated to the event simulation domain.
 Producing events with better underlying physics is needed for both
 HL-LHC and the intensity frontier programs, where accuracy of understanding
 rare processes is a key to success. In addition, there is a need to speed
-up simulation. This takes a few forms: better use of current hardware,
-tested via the GeantV R&D line and the use of approximate techniques that reproduce
+up simulation. This takes a few forms, such as better use of current hardware,
+tested via the GeantV R&D line, and the use of approximate techniques that reproduce
 complex processes more cheaply. Machine learning again looks very promising
-here, particularly for calorimiter simulation. Past fast simulation efforts
+here, particularly for calorimeter simulation. Past fast simulation efforts
 have been very detector specific so the challenge is how to make faster
 techniques more generic, including the process of training networks and
-performing validation. There is a very active community here and a vigorous
+performing validation. The community is very active here and a vigorous
 and diverse R&D is underway.
 
 Work on event displays, a key part of *Visualisation* in HEP saw interest
@@ -120,7 +121,7 @@ across the field.
 Helping establish best practice for development is one part of the training 
 challenge our community faces. Ensuring that our software is well written
 and tested is a key part of making code more sustainable for experiments
-that now have multi-decade lifetimes. The training session gathered speakers
+with multi-decade lifetimes. The training session gathered speakers
 involved in many of the community's training areas, in experiments and
 from dedicated schools, and there was discussion about the best way to address the
 needs in the future. Agreeing that a solid base was the best place
