@@ -50,7 +50,7 @@ for an example):
        Surname, Forename - Affiliation_ID (footnote_key)
        ```
    * In the previous line, `Affiliation_ID` refers to the first word in the
-   [affiliation list](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/addresses.txt) {:target="_address_txt"}
+   [affiliation list](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/address.txt){:target="_address_txt"}
    and `footnote_key` to the number at the start of the line in the
    [footnote list](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/footnotes.txt){:target="_footnotes_txt"}. 
    If there are several affiliations, use ` & ` as the separator. If there are several 

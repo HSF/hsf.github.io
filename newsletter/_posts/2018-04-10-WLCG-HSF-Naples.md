@@ -57,7 +57,7 @@ was discussed in the *Security* session of the workshop.
 The challenges of processing data in heterogeneous resource clusters were laid out
 at the beginning of the *Frameworks and Infrastructure* session, before two presentations
 from frameworks (ALFA 
-and [CLARA](https://claraweb.jlab.org/clara/){:target="_naples_clara"}) implementing a design that addresses that very
+and [CLARA](http://claraweb.jlab.org/clara/){:target="_naples_clara"}{:data-proofer-ignore=""}) implementing a design that addresses that very
 challenge. How to evolve the other frameworks used across the HEP experiments
 was a discussion that continued in the parallel session, where the group
 plans regular meetings and a follow up at CHEP. Even the tricky question
