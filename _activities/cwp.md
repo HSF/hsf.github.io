@@ -41,7 +41,7 @@ Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-pa
 | Physics Generators | HSF-CWP-2017-11 | [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn){:target="_cwp_ph"} |
 | Security | HSF-CWP-2017-12	 | See section 3.13 of [roadmap](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"} |
 | Software Development, Deployment and Validation | HSF-CWP-2017-13 | [arXiv](https://arxiv.org/abs/1712.07959){:target="_cwp_sddp"} |
-| Software Trigger and Event Reconstruction | HSF-CWP-2017-14	| [Summary Google Doc](https://docs.google.com/document/d/1f1rOFwqRh7FhSB2VXf5hM14r5wHdkIXo3AdBcYkC1qk){:target="_cwp_stersum"}; [Google Doc](https://docs.google.com/document/d/1QRO8RA488fwfSg5CSjmvm16-pZpGApSA0l666g_mS_0/edit#){:target="_cwp_ster"} |
+| Software Trigger and Event Reconstruction | HSF-CWP-2017-14	| [arXiv - Executive Summary](https://arxiv.org/abs/1802.08640){:target="_cwp_stersum"}; [arXiv - full document](https://arxiv.org/abs/1802.08638){:target="_cwp_ster"} |
 | Visualisation | HSF-CWP-2017-15 | [Google Doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit){:target="_cwp_visu"} |
 
 
