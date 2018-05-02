@@ -11,9 +11,9 @@ Agenda
 
 Participants: Graeme Stewart, Pere Mato, Guilherme Amadio, Benedikt Hegner, Chris Burr, Ben Morgan, Liz Sexton-Kennedy, Raphal Pacholek, Emil Obreshkov, Ben Couturier, Geri Ganis, Chris Green, Giulio Eulisse, Patricia Mendez, Marco Clemencic, Lynn Garren, Jim Amundson, Patrick Gartung
 
-Introduction - Graeme
+[Introduction - Graeme](https://indico.cern.ch/event/719557/contributions/2957742/attachments/1626928/2624333/HSF_Packaging_Group_Intro_2018-05-02.pdf)
 ===========================
-- Guix presentation tomorrow
+- [Guix presentation tomorrow](https://indico.cern.ch/event/719851/)
   - GNU reimplementation of Nix?
     - Chris thinks it may be a fork from Nix in the past
     - No non-GPL software allowed?
@@ -23,7 +23,7 @@ Introduction - Graeme
   - Will hear if accepted by end of May
 - Moving onto today’s agenda, as ever, contact Graeme and Ben if you have contributions, updates for future meetings
 
-Support for multiple micro-architectures - Pere
+[Support for multiple micro-architectures - Pere](https://indico.cern.ch/event/719557/contributions/2965980/attachments/1642767/2624258/HSF-Packaging-20180502.pdf)
 ===============================================
 - Need separate stacks for instruction sets (e.g fma, avx etc)
   - How to make available on CVMFS?
@@ -54,7 +54,7 @@ Support for multiple micro-architectures - Pere
 - Patrick: In Spack, flags are consistent through stack. Possibly some ordering issues (e.g. packages might override, put flags at end, last wins issue)
 - One way to try to anticipate problems is to scan the binaries for the instructions they use.
 
-Spack/SpackDev update - Chris
+[Spack/SpackDev update](https://indico.cern.ch/event/719557/contributions/2974886/attachments/1642912/2624529/HEP_Packaging_meeting_2018-05-02.pdf) - Chris
 =============================
 - Current effort to provide "minimum viable product" so narrow first goal with:
   - One OS/compiler/C++/optimization
