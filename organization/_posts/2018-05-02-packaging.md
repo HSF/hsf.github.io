@@ -35,7 +35,8 @@ Participants: Graeme Stewart, Pere Mato, Guilherme Amadio, Benedikt Hegner, Chri
     the package was compiled with
 - In LCGMake, new argument to package to select full instruction set build
   (via compiler wrapper), which adds platform tag extension
-  - Some issues with static libraries and dependencies
+  - Some issues with static libraries: rebuilding dependencies can pull in new instruction sets unwittingly, so this dependency needs to be expressed
+    correctly in the dependent build
 - Packages not using this are placed under arch-only tag
 - Setting up the environment - use views to allow transparent set of instruction set dependent packages combined with those that don’t require specific instruction sets.
 - System now in use is minimalistic and only builds a subset of packages
@@ -44,11 +45,14 @@ Participants: Graeme Stewart, Pere Mato, Guilherme Amadio, Benedikt Hegner, Chri
 - Still need a tool to discover runtime discovery and selection of "best" match.
 - Question: How to manage the dependencies between packages?
   - Change of a low lying library - do you need to build all of the dependencies to be really sure (e.g., inlining)
-- Building ROOT is problematic - dictionaries can be sensitive to micro-architecture.
+- Building ROOT is problematic
+  - Due to the fact that to generate a ROOT dictionary you have to run some code that has been previously compiled. This creates some problems on
+    cross-compiling because the code to generate the dictionary may use instructions that cannot be executed.
 - For "bare" packages, does choice of instruction set/optimization level influence interface?
 - HSF note was rather blocked by these dependency issues
 - What about fat binaries, that support multiple micro-architectures in one library/binary?
   - Larger binaries and cost of runtime switching - though these are not well quantified for our environment
+  - Adding support to new micro-architectures later will need to modify long time released software, which is a serious risk in reproducibility.
   - LHCb had reproducibility issues with fat libraries
 - C library has vectorised maths from v2.22 - picking from the system could produce similar problems
 - Patrick: In Spack, flags are consistent through stack. Possibly some ordering issues (e.g. packages might override, put flags at end, last wins issue)
