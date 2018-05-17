@@ -8,7 +8,7 @@ layout: default
 Participants: Carl Rosenfeld, Thomas Kuhr, Graeme Stewart, Stefan
 Roiser, Ed Moyse, Benedikt Hegner, Dave Dykstra, Marco Clemencic, Scott
 Snyder, Pere Mato, Martin Ritter, Andrea Valassi, Michel Jouvin, Liz
-Sexton-Kennedy
+Sexton-Kennedy, Davide Costanzo
 
 Introduction
 ============
