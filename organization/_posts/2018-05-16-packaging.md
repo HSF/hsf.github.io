@@ -18,7 +18,7 @@ Participants: Graeme Stewart, Ben Morgan, Oana Boeriu, Patrick Gartung, Chris Bu
   - Needs people to take a look and finalise
   - E.g., Add micro-microarchitecture piece, compiler release numbers (e.g. for GCC only major version should matter now)
   - How to comment/edit? To check, but probably on HSF/technotes GitHub.
-- Graeme: Overview on [Guix Cern Computing Seminar](http://hepsoftwarefoundation.org/technical_notes.html) (pronounced "gix"!)
+- Graeme: Overview on [Guix Cern Computing Seminar](https://indico.cern.ch/event/719851/) (pronounced "gix"!)
   - No slides, but link to recording available
   - Nutshell: very similar to nix in how packages built, hashed.
   - High reproducibility (up to 95% bitwise identical).
