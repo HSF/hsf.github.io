@@ -1,5 +1,5 @@
 ---
-title: "HSF Weekly Meeting #136, 24 May, 2018"
+title: "HSF Weekly Meeting #137, 24 May, 2018"
 layout: default
 ---
 
@@ -20,7 +20,8 @@ News, general matters
     to June 18.
 -   Presentation by Benedikt at Belle II software week. Feedback about
     where more collaboration is possible and desired. For licensing
-    just following what the community decides.
+    just following what the community decides. Copyright holder unclear. 
+    CERN was brought up as potential community-wide code owner.
 
 PyHEP Workshop
 ==============
@@ -101,17 +102,19 @@ HSF/WLCG Workshop Follow-up
             -   Links to HSF were weaker than they should be.
     -   Collaboration guide for projects
         -   Draft by Benedikt. Iterating with Graeme.
--   Are we missing the big picture for "software upgrades"?
+-   **Important discussion** on the question of are we missing the 
+        big picture for "software upgrades"?
     -   How does the HSF become a focus point that helps tackle the
-        grand challenge of HL-LHC.
+        grand challenge of HL-LHC?
     -   There are some project proposals that will be coming up in the
         next months - checkpoint at CHEP and after.
-    -   More urgent for the experiments in the HL-LHC planning. A
+    -   More urgent for the experiments in HL-LHC planning. A
         "re-engineering" task force? Topical groups, e.g., HPC
         efforts. GPU working group?
-    -   Bottom up efforts to be encouraged, but with support from
-        experiment management.
-    -   We should restart the Software Tech Forum as a start and
+    -   Bottom up efforts to be encouraged, but support from
+        experiment management is vital as developers are everywhere
+        stretched.
+    -   We should restart the Software Tech Forum as a start, 
         *continue to discuss this next week*.
 
 CWP
