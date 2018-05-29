@@ -10,7 +10,7 @@ organization: CERN
 
 The [ROOT](https://root.cern/) Software Framework is the cornerstone of all software stacks used by High Energy Physics (HEP) experiments, at CERN and other prestigious laboratories. It provides components which are fundamental for the entire data processing chain, from particle collisions to final publications, including final user data analysis, including modern machine learning techniques.
 
-ROOT features a declarative analysis sub-system, [TDataFrame](https://root.cern.ch/doc/master/classROOT_1_1Experimental_1_1TDataFrame.html), which has proven to be a solution to scale in-process parallel HEP data analysis to ~100 cores with a simple and intuitive programming model.
+ROOT features a declarative analysis sub-system, [TDataFrame](https://root.cern.ch/doc/master/classROOT_1_1RDataFrame.html), which has proven to be a solution to scale in-process parallel HEP data analysis to ~100 cores with a simple and intuitive programming model.
 
 This project aims to build up on this result increasing the impact of TDataFrame in other disciplines dealing with Big Data such as Astrophysics or Genomics and even non scientific activities - and this exploiting both the Python and C++ interfaces of TDataFrame.
 
@@ -31,7 +31,7 @@ C++, Parquet/HDF5/Avro would be a plus, knowledge about ROOT and TDataFrame can 
 
 ## Links
   * [ROOT](https://root.cern/)
-  * [TDataFrame](https://root.cern.ch/doc/master/classROOT_1_1Experimental_1_1TDataFrame.html)
+  * [TDataFrame](https://root.cern.ch/doc/master/classROOT_1_1RDataFrame.html)
   * [Parquet](https://parquet.apache.org/)
   * [HDF5](https://support.hdfgroup.org/HDF5/)
   * [Avro](https://avro.apache.org/)
