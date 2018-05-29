@@ -10,7 +10,7 @@ organization: CERN
 
 The [ROOT](https://root.cern/) Software Framework is the cornerstone of all software stacks used by High Energy Physics (HEP) experiments, at CERN and other prestigious laboratories. It provides components which are fundamental for the entire data processing chain, from particle collisions to final publications, including final user data analysis, including modern machine learning techniques.
 
-ROOT features a declarative analysis sub-system, [TDataFrame](https://root.cern.ch/doc/master/classROOT_1_1Experimental_1_1TDataFrame.html), which has proven to be a solution to scale in-process parallel HEP data analysis to ~100 cores with a simple and intuitive programming model.
+ROOT features a declarative analysis sub-system, [TDataFrame](https://root.cern.ch/doc/master/classROOT_1_1RDataFrame.html), which has proven to be a solution to scale in-process parallel HEP data analysis to ~100 cores with a simple and intuitive programming model.
 
 This project aims to address the distributed execution of TDataFrame analysis programs. This could be accomplished by developing a generic library with a MapReduce-like interface. Such library would sit on top of connectors for specific task schedulers that would distribute the application tasks, for instance [Spark](http://spark.apache.org), an open-source software framework for large-scale big data processing on clusters. Additionally, a plugin could be implemented to facilitate the submission of such distributed analyses from [Jupyter](http://jupyter.org) notebooks, a well-known interface for interactive analysis.
 
@@ -35,6 +35,6 @@ Python, Spark, JavaScript, Jupyter notebooks
 
 ## Links
   * [ROOT](https://root.cern/)
-  * [TDataFrame](https://root.cern.ch/doc/master/classROOT_1_1Experimental_1_1TDataFrame.html)
+  * [TDataFrame](https://root.cern.ch/doc/master/classROOT_1_1RDataFrame.html)
   * [Spark](http://spark.apache.org)
   * [Jupyter](http://jupyter.org)
