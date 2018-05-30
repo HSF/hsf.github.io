@@ -22,14 +22,6 @@ in High Energy Physics software and computing internationally.
 <hr>
 
 <!-- Important announcements from announcements/_posts -->
-<div>
-<p class="lead">
-The HSF has now submitted the 
-<a href="https://arxiv.org/abs/1712.06982" target="_cwp_roadmap_arxiv">final roadmap paper</a> from the
-<a href="{{site.baseurl}}/activities/cwp.html">Community White Paper</a> exercise.
-</p>
-</div>
-<hr>
   {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
   {% for post in site.categories.announcements reversed %}
     {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
@@ -63,17 +55,12 @@ The HSF has now submitted the
 
 
  <div class="col-lg-4">
-  <h2>Newsletter</h2>
+  <h2>Software Forum</h2>
     <p>
-      If you would like to stay updated, please subscribe to our newsletter:
+	The HSF is restarting its <a href="https://indico.cern.ch/category/10392/">Software Development Forum</a> activity,
+	focusing on common software projects and software re-engineering
+	to face the challenges laid out in the <a href="activities/cwp.html">Community White Paper</a>.
     </p>
-    <ul class="list list-simple">
-{% assign pagedate = site.time | date: "%Y-%m-%d"   %}
-{% for post in site.categories.newsletter limit: 3 %}
-    <li> <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-   </ul>
-   <p><a href="/newsletter.html" role="button">Older newsletters &raquo;</a></p>
  </div>
  
  
