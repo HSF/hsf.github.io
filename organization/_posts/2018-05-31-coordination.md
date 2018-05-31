@@ -90,7 +90,7 @@ HSF/WLCG Workshop Follow-up
 -   Practical follow ups at the HSF level
     -   Inventory of community activities
         -   Ideas for restructuring the website are advancing
-            -   Graeme setup a [Google
+            -   Graeme set up a [Google
                 Document](https://docs.google.com/document/d/1t8x8Ua9E__vp_9i3KwLGrgk8QDAIGL4-ZPsqvPOUCQY/edit?usp=sharing)
                 to collect suggestions
                 -   Need to translate these into a git branch that
