@@ -78,7 +78,7 @@ Visualization
 Software Development
 --------------------
 -   Martin, Giulio and Graeme met and we will have a Software
-    Development meeting on 13th June (taking this 15-16h slot). Aim is
+    Development meeting on 14th June (taking this 15-16h slot). Aim is
     to make progress and identify people wanting to work on
     performance & optimisation topics. Also proposing a BOF follow up
     at CHEP.

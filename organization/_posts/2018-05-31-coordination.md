@@ -81,7 +81,7 @@ Visualization
     
 Software Development
 --------------------
--   Meeting planned for 13 June.
+-   Meeting planned for 14 June.
 -   There will be a Geant4 developer position opened up in Pittsburgh -
     US ATLAS funded (more details as they are known).
 
