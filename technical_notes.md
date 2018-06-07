@@ -28,12 +28,11 @@ Before being assigned an HSF reference and being archived in their final form, f
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Ends    | Download    |
 | ------------- | ------------- | ------------ |---------|---------------|
-| HSF-TN-2015-NAM  | HSF Platform Naming Conventions - A Proposal  | B. Hegner | [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2015-NAM) |
+| HSF-TN-2015-NAM  | HSF Platform Naming Conventions | B. Hegner | 2018-06-15 | [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2015-NAM) |
 
 ## Drafts in earlier stages of the acceptance process:
 
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Download    |
 | ------------- | ------------- | ------------ |---------------|
-| . | . | . | . | . |
-
+| HSF-TN-2016-PROJ  | HSF Project Best Practices | B. Hegner | [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2016-PROJ) |
