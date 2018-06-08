@@ -35,7 +35,7 @@ The HSF has now submitted the
     {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
     {% if stopdate > sitedate %}
 <div class="row alert alert-warning">
-  <p class="lead">
+  <p class="lead event-announce">
     <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }} (<a href="{{ post.link }}">more info</a>)
   </p>
 </div>    

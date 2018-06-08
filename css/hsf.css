@@ -219,7 +219,7 @@ body {
 .lead {
   font-size: 20px;
 }
-.lead > a:hover {
+.event-announce > a:hover {
 	color: #333333;
 }
 
