@@ -5,19 +5,14 @@ layout: default
 redirect_from:
   - /cwp.html
   - /workinggroups/2016/07/06/communitywhitepaper.html
+  - /activities/cwp.html
 ---
 
 # A Roadmap for HEP Software and Computing R&D for the 2020s
 
-In 2017 the HEP Software Foundation produced a
+In 2017 the HEP Software Foundation, [charged by the WLCG](/assets/CWP-Charge-HSF.pdf){:target="_cwp_charge"}, produced a
 [roadmap white paper](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"} on the
 software and computing challenges that will be faced during the next decade.
-
-**The CWP Roadmap can still be signed by members of the community who endorse
-it.** Please use contact the
-[CWP Ghost Writers](mailto:hsf-cwp-ghost-writers@googlegroups.com?subject=CWP Signature) to add your name.
-We very much encourage you to do this, to show the breadth of the community's support
-for the roadmap.
 
 ## Community White Paper Reports
 
