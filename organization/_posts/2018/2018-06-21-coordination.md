@@ -57,7 +57,7 @@ Visualization
 -------------
 -   The code of Ed Moyse's WebGL based browser code in now in [GitHub](https://github.com/HSF/phoenix).
     It has been used as the base for a community-driven web-based
-    event display developed for TrackML challenge. The event display
+    event display developed for the TrackML challenge. The event display
     will be further developed by the Visualization WG members.
 -   CWP paper is moving on: Ric merged post-Naples contributors'
     additions; he also fixed, updated, and expanded the bibliography.
@@ -94,7 +94,7 @@ Technical Notes
 HSF/WLCG Workshop Follow-up
 ===========================
 -   New activity areas for critical areas:
-    -   We will setup working groups in analysis, reconstruction and
+    -   We will set up working groups in analysis, reconstruction and
         simulation areas soon, follow up on CWP roadmap. Means to
         provide input to LHCC review.
     -   Please think about names of good people to be involved.
