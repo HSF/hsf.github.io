@@ -15,6 +15,7 @@ The Technical Notes policy is set out in the first technical note. Finalized not
 {:.table .table-hover .table-condensed .table-striped}
 | TN Number  | Title           | Authors     | Download    |
 | ------------- | ------------- | ------------ |---------------|
+| HSF-TN-2018-01  | HSF Platform Naming Conventions | B. Hegner | [PDF](/notes/HSF-TN-2018-01.pdf) [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2018-01) |
 | HSF-TN-2016-04 | Vacuum Platform | A. McNab | [PDF](/notes/HSF-TN-2016-04.pdf) [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2016-04) |
 | HSF-TN-2016-03  | HSF Packaging Working Group Report  | B. Hegner, L. Sexton-Kennedy | [PDF](/notes/HSF-TN-2016-03.pdf)  [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2016-03) |
 | HSF-TN-2016-02  | Machine/Job Features  | M. Alef et al.| [PDF](/notes/HSF-TN-2016-02.pdf)  [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2016-02) |
@@ -28,11 +29,11 @@ Before being assigned an HSF reference and being archived in their final form, f
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Ends    | Download    |
 | ------------- | ------------- | ------------ |---------|---------------|
-| HSF-TN-2015-NAM  | HSF Platform Naming Conventions | B. Hegner | 2018-06-15 | [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2015-NAM) |
+| HSF-TN-2016-PROJ  | HSF Project Best Practices | B. Hegner, B. Morgan | 2018-07-15 | [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2016-PROJ) |
 
 ## Drafts in earlier stages of the acceptance process:
 
 {:.table .table-hover .table-condensed .table-striped}
 | Draft TN Reference  | Title           | Authors     | Download    |
 | ------------- | ------------- | ------------ |---------------|
-| HSF-TN-2016-PROJ  | HSF Project Best Practices | B. Hegner | [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2016-PROJ) |
+|||||
