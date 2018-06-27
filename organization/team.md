@@ -7,37 +7,23 @@ layout: default
 
 Currently the activities within the HSF are organized by the *HSF coordination team* (formerly called the *startup team*). Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the team:
 
- * [Amber Boehnlein](https://www.jlab.org/div_dept/directorate/directors/ABoehnlein.html) - Jefferson Lab
  * [Peter Elmer](https://phy.princeton.edu/people/g-j-peter-elmer) - Princeton University
  * Daniel Elvira - [FNAL](http://www.fnal.gov)
- * Frank Gaede - [DESY](http://www.desy.de)
  * Benedikt Hegner - [CERN](http://cern.ch)
  * Michel Jouvin - [LAL,IN2P3](http://www.lal.in2p3.fr)
  * Pere Mato - [CERN](http://cern.ch), co-lead
- * Andrew McNab - [Manchester](http://www.hep.manchester.ac.uk)
  * Dario Menasce - [INFN](http://www.mi.infn.it)
- * Mark Neubauer - University of Illinois at Urbana-Champaign
  * Eduardo Rodrigues - University of Cincinnati
  * Elizabeth Sexton-Kennedy - [FNAL](http://www.fnal.gov)
  * Graeme Stewart - [CERN](https://cern.ch)
- * Craig Tull - [LBNL](http://www.lbl.gov)
  * Andrea Valassi - [CERN](http://cern.ch)
- * Brett Viren - [BNL](https://www.bnl.gov)
  * Torre Wenaus - [BNL](https://www.bnl.gov), co-lead
 
 The entire team can be contacted via <hsf-coordination@googlegroups.com>.
 
 ## Meeting Minutes
 
-The team runs the regular HSF meeting (nominally, and usually, weekly) which is open to all. Meeting announcements and minutes are posted to the HSF open forum google group.
-
-{:.table .table-hover .table-condensed .table-striped}
-| Date   | Title      |
-| ------ | ---------- |
-{% for post in site.categories.organization limit: 10 %} | {{ post.date | date: "%d-%m-%Y" }} | [ {{ post.title }} ]( {{ post.url }} ) |
-{% endfor %}
-
-[Full list of past minutes](/organization/minutes.html).
+See the [meetings archive](minutes.html).
 
 ## Presentations given by Coordination Team Members
  * [The HSF CWP](https://indico.desy.de/indico/event/18681/session/8/contribution/114/material/slides/0.pdf), [11th Terascale Alliance Workshop](https://indico.desy.de/indico/event/18681/), 28 Nov 2017, Benedikt Hegner
