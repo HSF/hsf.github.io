@@ -2,7 +2,10 @@
 title: Common Tracking Software Forum
 layout: plain
 redirect_from: /workinggroups/2016/02/02/tracking.html
+redirect_from: /activities/tracking.html
 ---
+
+# *Archived Page*
 
 The Common Track Reconstruction Software Forum aims at increasing the exchange of 
 experience in and share of software used for track reconstruction. In particular we would like to
