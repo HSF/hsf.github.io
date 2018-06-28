@@ -172,7 +172,7 @@ AOB
     -   We can now enable the option to force http access to redirect to
         https.
 -   [Technical note on platform naming
-    conventions](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2015-NAM)
+    conventions](https://github.com/HSF/documents/tree/e7a182028f610dbdbf7038897bba6898f389cca5/HSF-TN/draft-2015-NAM)
     -   Some feedback from Graeme to Benedikt, reminder for others to
         comment on that soon...
     -   Needs to be broadcast a bit more widely.

@@ -85,10 +85,10 @@ Software Forum
 Technical Notes
 ---------------
 -   Technical note on [HSF Platform Naming
-    Conventions](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2015-NAM)
+    Conventions](https://github.com/HSF/documents/tree/3feb950306b75c93c6eb090fc7d38e86a004aae6/HSF-TN/draft-2015-NAM)
     is finished its consultation stage. To be finalised.
 -   Technical note on [HSF Project Best
-    Practices](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2016-PROJ)
+    Practices](https://github.com/HSF/documents/tree/3feb950306b75c93c6eb090fc7d38e86a004aae6/HSF-TN/draft-2016-PROJ)
     is now circulated more widely, please give feedback.
 
 HSF/WLCG Workshop Follow-up
