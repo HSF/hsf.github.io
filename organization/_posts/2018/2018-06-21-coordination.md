@@ -85,10 +85,10 @@ Software Forum
 Technical Notes
 ---------------
 -   Technical note on [HSF Platform Naming
-    Conventions](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2015-NAM)
+    Conventions](https://github.com/HSF/documents/tree/3feb950306b75c93c6eb090fc7d38e86a004aae6/HSF-TN/draft-2015-NAM)
     is finished its consultation stage. To be finalised.
 -   Technical note on [HSF Project Best
-    Practices](https://github.com/HSF/documents/tree/master/HSF-TN/draft-2016-PROJ)
+    Practices](https://github.com/HSF/documents/tree/3feb950306b75c93c6eb090fc7d38e86a004aae6/HSF-TN/draft-2016-PROJ)
     is now circulated more widely, please give feedback.
 
 HSF/WLCG Workshop Follow-up
@@ -171,7 +171,7 @@ AOB
     being addressed successfully over time. There is agreement to collaborate
     in the future.
 -   Website reorganisation underway:
-    [https://github.com/graeme-a-stewart/hsf.github.io/tree/website-reorganise](https://github.com/graeme-a-stewart/hsf.github.io/tree/website-reorganise).
+    https://github.com/graeme-a-stewart/hsf.github.io/tree/website-reorganise.
     -   Please take a look and add suggestions or updates (Google Doc
         collecting ideas is
         [here](https://docs.google.com/document/d/1t8x8Ua9E__vp_9i3KwLGrgk8QDAIGL4-ZPsqvPOUCQY/edit?usp=sharing)).
