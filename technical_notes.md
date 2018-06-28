@@ -15,12 +15,12 @@ The Technical Notes policy is set out in the first technical note. Finalized not
 {:.table .table-hover .table-condensed .table-striped}
 | TN Number  | Title           | Authors     | Download    |
 | ------------- | ------------- | ------------ |---------------|
+| HSF-TN-2018-01  | HSF Platform Naming Conventions | B. Hegner | [PDF](/notes/HSF-TN-2018-01.pdf) [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2018-01) |
 | HSF-TN-2016-04 | Vacuum Platform | A. McNab | [PDF](/notes/HSF-TN-2016-04.pdf) [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2016-04) |
 | HSF-TN-2016-03  | HSF Packaging Working Group Report  | B. Hegner, L. Sexton-Kennedy | [PDF](/notes/HSF-TN-2016-03.pdf)  [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2016-03) |
 | HSF-TN-2016-02  | Machine/Job Features  | M. Alef et al.| [PDF](/notes/HSF-TN-2016-02.pdf)  [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2016-02) |
 | HSF-TN-2016-01  | Software Licence Agreements HSF Policy Guidelines  | J. Harvey et al. | [PDF](/notes/HSF-TN-2016-01.pdf)  [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2016-01) |
 | HSF-TN-2015-01  | HSF Technical Notes policy | A. McNab | [PDF](/notes/HSF-TN-2015-01.pdf)  [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2015-01) |
-| HSF-TN-2018-01  | HSF Platform Naming Conventions | B. Hegner | [PDF](/notes/HSF-TN-2018-01.pdf) [GitHub](https://github.com/HSF/documents/tree/master/HSF-TN/2018-01) |
 
 ## Drafts in the consultation stage
 
