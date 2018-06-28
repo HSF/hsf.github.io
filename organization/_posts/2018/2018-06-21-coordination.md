@@ -171,7 +171,7 @@ AOB
     being addressed successfully over time. There is agreement to collaborate
     in the future.
 -   Website reorganisation underway:
-    [https://github.com/graeme-a-stewart/hsf.github.io/tree/website-reorganise](https://github.com/graeme-a-stewart/hsf.github.io/tree/website-reorganise).
+    https://github.com/graeme-a-stewart/hsf.github.io/tree/website-reorganise.
     -   Please take a look and add suggestions or updates (Google Doc
         collecting ideas is
         [here](https://docs.google.com/document/d/1t8x8Ua9E__vp_9i3KwLGrgk8QDAIGL4-ZPsqvPOUCQY/edit?usp=sharing)).
