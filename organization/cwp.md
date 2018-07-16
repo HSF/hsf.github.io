@@ -24,17 +24,17 @@ Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-pa
 | *Paper* | *Report Number* | *Link* |
 | ------- | --------------- | ------ |
 | CWP Roadmap | HSF-CWP-2017-01 | [arXiv](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"} |
-| Careers & Training	 | HSF-CWP-2017-02	| [ShareLaTeX](https://www.sharelatex.com/project/595500273c5204ff35dfdcf9){:target="_cwp_cst"} |
+| Careers & Training	 | HSF-CWP-2017-02	| [arXiv](https://arxiv.org/abs/1807.02875){:target="_cwp_cst"} |
 | Conditions Data | HSF-CWP-2017-03	| [Google Doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit){:target="_cwp_cdb"} |
-| Data Organisation, Management and Access | HSF-CWP-2017-04	| [Overleaf](https://www.overleaf.com/14528672pwpcxphcjfcr){:target="_cwp_doma"} |
+| Data Organisation, Management and Access | HSF-CWP-2017-04	| [Github](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-04_doma/latex){:target="_cwp_doma"} |
 | Data Analysis and Interpretation | HSF-CWP-2017-05	| [arXiv](https://arxiv.org/abs/1804.03983){:target="_cwp_analysis"} |
 | Data and Software Preservation | HSF-CWP-2017-06 | [Google Doc](https://docs.google.com/document/d/17309oyniwK01qvJgDPrBsLw_-jqRgvkvWZi5lLmQISI/edit){:target="_cwp_dsp"} |
 | Detector Simulation | HSF-CWP-2017-07	| [arXiv](https://arxiv.org/abs/1803.04165){:target="_cwp_sim"} |
-| Event/Data Processing Frameworks | HSF-CWP-2017-08	| [Google Doc](https://docs.google.com/document/d/1DYEHGgB3fanhpYRDJblE9NicX0OK7BNsjTCrq7gY-sU/edit?usp=sharing){:target="_cwp_fwk"} |
+| Event/Data Processing Frameworks | HSF-CWP-2017-08	| [Github](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-08_framework){:target="_cwp_fwk"} |
 | Facilities and Distributed Computing | HSF-CWP-2017-09	| [Google Doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing){:target="_cwp_fdc"} |
-| Machine Learning | HSF-CWP-2017-10	| [ShareLaTeX](https://www.sharelatex.com/project/593a919f0f690d906afbfc76){:target="_cwp_ml"} |
-| Physics Generators | HSF-CWP-2017-11 | [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn){:target="_cwp_ph"} |
-| Security | HSF-CWP-2017-12	 | See section 3.13 of [roadmap](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"} |
+| Machine Learning | HSF-CWP-2017-10	| [arXiv](https://arxiv.org/abs/1807.02876){:target="_cwp_ml"} |
+| Physics Generators | - | No separate paper, see [CWP Roadmap](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"}, section 3.1 |
+| Security | - | No separate paper, see [CWP Roadmap](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"}, section 3.13 |
 | Software Development, Deployment and Validation | HSF-CWP-2017-13 | [arXiv](https://arxiv.org/abs/1712.07959){:target="_cwp_sddp"} |
 | Software Trigger and Event Reconstruction | HSF-CWP-2017-14	| [arXiv - Executive Summary](https://arxiv.org/abs/1802.08640){:target="_cwp_stersum"}; [arXiv - full document](https://arxiv.org/abs/1802.08638){:target="_cwp_ster"} |
 | Visualisation | HSF-CWP-2017-15 | [Google Doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit){:target="_cwp_visu"} |
