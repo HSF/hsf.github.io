@@ -7,6 +7,8 @@ layout: default
 
 ## 2018
 
+* [HSF Community White Paper: Lessons and Future Work](https://indico.cern.ch/event/587955/contributions/3012294/attachments/1681524/2708636/CHEP18_-_CWP_Lessons_and_Future_Work.pdf), [CHEP2018 Plenary Talk](https://indico.cern.ch/event/587955/timetable/#20180711), 11 July 2018, Michel Jouvin
+* [HSF R&D and Activities after Naples](https://indico.cern.ch/event/740548/attachments/1676548/2692723/HSF_RD_and_Activities.pdf), ATLAS S&C Week, 25 June 2018, Graeme Stewart
 * [Update from HSF](https://www.jlab.org/indico/event/264/session/8/contribution/19/material/slides/0.pdf), [EIC Software Consortium Meeting](https://www.jlab.org/indico/event/264/other-view?view=standard), 17 May 2018, Graeme Stewart
 * [Lessons from HEP Software Foundation Community White Paper](https://indico.cern.ch/event/702775/contributions/2882384/attachments/1597819/2547448/HEP-Computing-After-CWP.pdf), [4th Scientific Computing Forum](https://indico.cern.ch/event/702775/), 23 Feb 2017, Michel Jouvin
 
