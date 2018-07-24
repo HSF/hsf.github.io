@@ -1,11 +1,11 @@
 ---
-title: "HSF Weekly Meeting #142, 18 July, 2018"
+title: "HSF Weekly Meeting #142, 19 July, 2018"
 layout: default
 ---
 
 # {{page.title}}
 
-#### *Present/Contributors*: Graeme Stewart, Andrea Valassi, Dario Menasce, Benedikt Hegner
+#### *Present/Contributors*: Graeme Stewart, Andrea Valassi, Dario Menasce, Benedikt Hegner, Eduardo Rodrigues
 
 News, general matters
 =====================
