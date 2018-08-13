@@ -32,6 +32,8 @@ Python, Spark, JavaScript, Jupyter notebooks
   * [Diogo Castro](mailto:diogo.castro@cern.ch)
   * [Danilo Piparo](mailto:danilo.piparo@cern.ch)
   * [Prasanth Kothuri](mailto:prasanth.kothuri@cern.ch)
+  * [Enrico Guiraud](mailto:enrico.guiraud@cern.ch)
+  * [Javier Cervantes](mailto:javier.cervantes@cern.ch)
 
 ## Links
   * [ROOT](https://root.cern/)

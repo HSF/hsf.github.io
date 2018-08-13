@@ -18,6 +18,7 @@ layout: plain
 * Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
 * Brian Bockelman [bbockelm@cse.unl.edu](mailto:bbockelm@cse.unl.edu) University of Nebraska
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
+* Javier Cervantes Villanueva [javier.cervantes@cern.ch](mailto:javier.cervantes@cern.ch) CERN
 * David Chamont [david.chamont@lal.in2p3.fr](mailto:david.chamont@lal.in2p3.fr) LAL
 * Arnaud Chiron [chiron@llr.in2p3.fr](mailto:chiron@llr.in2p3.fr) LLR
 * Michael D'Silva [michael.dsilva@aarnet.edu.au](mailto:michael.dsilva@aarnet.edu.au)
@@ -33,7 +34,7 @@ layout: plain
 * Konstantin Gizdov [konstantin.gizdov@cern.ch](mailto:konstantin.gizdov@cern.ch) University of Edinburgh
 * Hadrien Grasland [hadrien.grasland@lal.in2p3.fr](mailto:hadrien.grasland@lal.in2p3.fr) LAL
 * Gilles Grasseau [gilles.grasseau@llr.in2p3.fr](mailto:gilles.grasseau@llr.in2p3.fr) LLR
-* Enrico Guiraud [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) CERN
+* Enrico Guiraud [enrico.guiraud@cern.ch](mailto:enrico.guiraud@cern.ch) CERN
 * Christophe Haen [christophe.denis.haen@cern.ch](mailto:christophe.denis.haen@cern.ch) CERN
 * Daniel Hynds [d.hynds@physics.gla.ac.uk](mailto:d.hynds@physics.gla.ac.uk) University of Glasgow
 * Giovanni Iadarola [giovanni.iadarola@cern.ch](mailto:giovanni.iadarola@cern.ch) CERN
