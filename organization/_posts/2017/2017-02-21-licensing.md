@@ -1,6 +1,6 @@
 ---
 title: "Licensing WG Meeting, February 21, 2017"
-layout: default
+layout: meetings
 ---
 
 # Licensing Working Group Meeting, February 21, 2017

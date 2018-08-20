@@ -1,6 +1,6 @@
 ---
 title: "HSF Licensing Meeting, 9 May, 2018"
-layout: default
+layout: meetings
 ---
 
 # {{page.title}}

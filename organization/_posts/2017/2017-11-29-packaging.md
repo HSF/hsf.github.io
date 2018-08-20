@@ -1,6 +1,6 @@
 ---
 title: "HSF Packaging Group Meeting #15, November 29, 2017"
-layout: default
+layout: meetings
 ---
 
 # HSF Packaging Group Meeting #15, November 29, 2017
