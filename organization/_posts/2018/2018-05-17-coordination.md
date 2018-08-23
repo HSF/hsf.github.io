@@ -1,6 +1,6 @@
 ---
 title: "HSF Weekly Meeting #136, 17 May, 2018"
-layout: default
+layout: meetings
 ---
 
 # {{page.title}}

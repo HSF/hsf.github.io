@@ -1,6 +1,6 @@
 ---
 title: "HSF Packaging Group Meeting #25, June 13, 2018"
-layout: default
+layout: meetings
 ---
 
 # {{page.title}}

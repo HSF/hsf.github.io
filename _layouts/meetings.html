@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ "/images/hsf_logo_angled.png" | prepend: site.baseurl }}">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+{% include navbar.ext %}
+
+<div class="container">
+
+
+<div class="PageNavigation">
+
+{% if page.next_in_category %}
+  <p class="alignleft"><a href="{{ page.next_in_category.url }}"> &#8592;&nbsp;{{ page.next_in_category.title }}</a></p>
+{% endif %}
+
+ {% if page.previous_in_category %}
+  <p class="alignright"><a href="{{ page.previous_in_category.url }}">{{ page.previous_in_category.title }} &nbsp;&#8594;</a></p>
+
+{% endif %}
+
+</div>
+
+<div style="clear: both;"></div>
+
+<hr>
+
+  {{ content }}
+
+<hr>
+
+
+<div class="PageNavigation">
+
+{% if page.next_in_category %}
+  <p class="alignleft"><a href="{{ page.next_in_category.url }}"> &#8592;&nbsp;{{ page.next_in_category.title }}</a></p>
+{% endif %}
+
+{% if page.previous_in_category %}
+  <p class="alignright"><a href="{{ page.previous_in_category.url }}">{{ page.previous_in_category.title }} &nbsp;&#8594;</a></p>
+{% endif %}
+
+  </div>
+
+  <div style="clear: both;"></div>
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 ---
 title: "Third HSF Workshop Summary (May 2-4 2016, LAL)"
-layout: default
+layout: meetings
 ---
 
 # Third HSF Workshop Summary (May 2-4, 2016)

@@ -1,6 +1,6 @@
 ---
 title: "HSF Software Forum, 6 June, 2018"
-layout: default
+layout: meetings
 ---
 
 # {{page.title}}

@@ -1,6 +1,6 @@
 ---
 title: "HSF Software Forum on Vectorisation Tools, 18 July, 2018"
-layout: default
+layout: meetings
 ---
 
 # {{page.title}}
