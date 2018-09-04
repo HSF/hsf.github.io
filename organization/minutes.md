@@ -9,7 +9,7 @@ layout: default
 
 The startup team runs a regular HSF meeting (nominally, and usually, weekly) which is open to all. Meeting announcements and minutes are posted to the HSF forum google group. Activity groups also hold their own meetings, for which minutes are usually posted here.
 
-Please see <a href="/future-events.html">this page</a> for future meetings and events.
+Please see [this page](/future-events.html) for future meetings and events.
 
 {:.table .table-hover .table-condensed .table-striped}
 | Date   | Title      |
