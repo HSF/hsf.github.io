@@ -21,7 +21,7 @@ News, general matters
                 plans, that helps this to happen.
         -   LHCC have not yet set a date for the review of HL-LHC (may
             not be before next summer).
--   COMCHA Presentation:
+-   COMCHA (Spanish organisation for tackling COMputing CHAllenges) Presentation:
     -   [https://indico.ific.uv.es/event/3438/](https://indico.ific.uv.es/event/3438/)
     -   Presentation was well received - organisers are keen to keep in
         touch with us and work together.
@@ -40,7 +40,7 @@ Training
     (tech list) was very useful.
     -   RISE extension for Juypter notebooks seems ideal for live
         presentations.
--   Dedicate one of our next meeting to training activities?
+-   Dedicate one of our next meetings to training activities?
     -   Yes, to be followed offline with Sudhir.
 
 Packaging
@@ -53,8 +53,10 @@ Packaging
 Frameworks
 ----------
 -   Workshop at ANL arranged for discuss I/O for exascale. Recommended
-    re-investigating OpenMP. HPC community have invested here and now
-    it better supports tasks. Could be a topic for a future
+    re-investigating OpenMP. The HPC community have invested a lot into OpenMP
+    in recent years and report that it now has much
+    better support for tasks (which was the main feature that led HEP
+    to choose TBB in the past). Could be a topic for a future
     meeting/workshop (HSF Software Forum).
 
 Visualization
