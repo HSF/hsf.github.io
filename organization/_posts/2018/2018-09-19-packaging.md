@@ -36,7 +36,10 @@ Participants: Graeme Stewart, Ben Morgan, Guilherme Amadio, Javier Cervantes Vil
   - From CVMFS, merge LCG and FCC packages.yaml
   - Run `spack install <metapackage>` using this, outputting binary tarballs
   - Binary tarballs deployed/published on CVMFS, plus spack view creation
-  - Graeme: Have looked at combining Build/Publication node with Tomas Stefan (summer student), presentation is [here](https://indico.cern.ch/event/746546/contributions/3086271/attachments/1708942/2754445/Deployment_of_ATLAS_releases.pdf).
+  - Graeme: We have tested parallel publication to CVMFS from many
+    nodes that not only performs better, but simplifies the workflow
+    as the build node can also take care of publishing the results
+    (see [presentation](https://indico.cern.ch/event/746546/contributions/3086271/attachments/1708942/2754445/Deployment_of_ATLAS_releases.pdf) from Tomas Stefan's summer student project).
 - Next: speed up builds, try to avoid rebuilds of things already in CVMFS
   - Spack cache to use ccache (since July in Spack). Easy to setup, integrate with Jenkins. Up to 30% speedup found
   - Spack chain: still in development in Spack (Spack PR#8772). Provides concatenation of N install trees. Allows incremental builds via reuse of existing install trees. See Spack PR#8014 for use cases. FCC use is two-link: CVMFS tree + Build node tree
@@ -85,4 +88,6 @@ AOB
 - Next meeting 3 October: [https://indico.cern.ch/event/758817/](https://indico.cern.ch/event/758817/)
   - One presentation from FNAL on Spack/Spack-dev
   - As ever, more contributions welcome, contact Graeme and Ben
-
+- Todd: very happy with collaboration with HEP so far, would like
+  to prioritise important HEP use cases (very good PRs received)
+  - Graeme and Todd will keep in touch to better communicate and align goals and developments
