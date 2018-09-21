@@ -82,8 +82,8 @@ PyHEP
     about convincing people to use Python, but propagates information
     about the community and resources available. Analysis community
     are probably under-informed on all that’s available.
-    -   For the work that has been done, we need to link back better to
-        the main HSF website.
+-   For the work that has been done, we need to link back better to
+    the main HSF website.
 
 Technical Notes
 ---------------
@@ -107,9 +107,9 @@ New Working Groups
 -   Pere - can *facilitate* the communication.
 -   Eduardo, e.g., could encourage LHCb people to also try the Belle II
     analysis facilities.
-    -   Advocating new things to try seems a positive thing, not the
-        same a *deciding* for people.
--   Liz - in the packaging we had to deliver a document that summarizes
+-   Advocating new things to try seems a positive thing, not the
+    same a *deciding* for people.
+-   Liz - in the packaging we had to deliver a document that summarises
     the state of the art in an area, that was helpful to guide an
     informed decision.
 -   Don’t want this to be a re-iteration/re-invention of the CWP process
