@@ -15,7 +15,6 @@
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">Activities<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
                  <li><a href="/events.html">Events &amp; Workshops</a></li>
-                 <li><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam">Community Calendar</a></li>
                  <li class="divider"></li>
                  {% for activity in site.activities %}
                    <li><a href="{{ activity.url }}">{{ activity.title }}</a></li>
@@ -27,6 +26,8 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu">Communication<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam">Community Calendar</a></li>
+                  <li class="divider"></li>
                   <li><a href="/forums.html">Mailing Lists and Forums</a></li>
                   <li><a href="/technical_notes.html">Technical Notes</a></li>
                   <li><a href="/organization/minutes.html">Meeting Notes</a></li>
