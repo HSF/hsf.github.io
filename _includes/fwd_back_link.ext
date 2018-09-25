@@ -1,0 +1,15 @@
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  {% if page.previous %}
+   <p class="alignleft"><a href="{{ page.previous.url }}">&nbsp;&#8592; {{ page.previous.title }}</a></p>
+  {% endif %}
+
+  {% if page.next %}
+    <p class="alignright"><a href="{{ page.next.url }}">{{ page.next.title }} &#8594;&nbsp;</a></p>
+  {% endif %}
+
+</div>
+
+<div style="clear: both;"></div>
