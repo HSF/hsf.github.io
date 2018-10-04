@@ -17,17 +17,17 @@ News, general matters
     ([ECFA](https://ecfa.web.cern.ch/)) have launched a survey on
     “Recognition of individuals in large collaborations”. Aimed at
     younger researchers; very relevant that people working on software
-    share their experience.
+    share their experience and participate in the survey.
 -   IRIS-HEP [*announcement
     list*](https://groups.google.com/a/iris-hep.org/forum/#!forum/announcements)
     was publicised, people are encouraged to sign-up.
 -   The hepix-techwatch-wg was launched and had its [*first
     meeting*](https://indico.cern.ch/event/759721/) last week. The aim
-    it to organise and formalise technology tracking in a wider group.
+    is to organise and formalise technology tracking in a wider group.
     Sub-groups to be setup.
     -   Michel, Graeme and Torre are cross-over members with HSF hats.
-    -   Helge - lots of people on the list, but many are known to be
-        busy. So in particular people who have sufficient time to do
+    -   Helge: lots of people joined the list, but many are known to be
+        very busy already. So people who actually have sufficient time to do
         real work should join.
     -   Software area does not to be covered as this is an existing HSF
         activity; likewise costs are already covered by the Costs and
