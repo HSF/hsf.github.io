@@ -29,7 +29,7 @@ News, general matters
     -   Helge: lots of people joined the list, but many are known to be
         very busy already. So people who actually have sufficient time to do
         real work should join.
-    -   Software area does not to be covered as this is an existing HSF
+    -   Software area does not need to be covered as this is an existing HSF
         activity; likewise costs are already covered by the Costs and
         Performance WG.
 
