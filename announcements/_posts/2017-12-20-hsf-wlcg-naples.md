@@ -6,4 +6,4 @@ symbol: glyphicon-calendar
 link: events/2017/12/20/hsf-wlcg-naples.html
 until: 2018-03-26
 ---
-Joint HSF WLCG workshop in Naples, 26-29 March 2018.
+[Joint HSF WLCG workshop in Naples, 26-29 March 2018](/events/2017/12/20/hsf-wlcg-naples.html)

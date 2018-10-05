@@ -6,4 +6,4 @@ symbol: glyphicon-calendar
 link: https://indico.cern.ch/event/735132/
 until: 2018-06-14
 ---
-Software Development Tools Meeting
+[Software Development Tools Meeting](https://indico.cern.ch/event/735132/)

@@ -6,4 +6,4 @@ symbol: glyphicon-calendar
 link: https://indico.cern.ch/event/736105/
 until: 2018-07-18
 ---
-HSF Software Forum Meeting
+[HSF Software Forum Meeting, Vectorisation and SoA](https://indico.cern.ch/event/736105/)
