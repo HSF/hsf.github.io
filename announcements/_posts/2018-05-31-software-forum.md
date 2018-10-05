@@ -6,4 +6,4 @@ symbol: glyphicon-calendar
 link: https://indico.cern.ch/event/733268/
 until: 2018-06-06
 ---
-Software Forum: DD4hep Common Geometry
+[Software Forum: DD4hep Common Geometry](https://indico.cern.ch/event/733268/)

@@ -6,4 +6,4 @@ symbol: glyphicon-calendar
 link: https://indico.cern.ch/event/727646/
 until: 2018-07-08
 ---
-Frameworks Mini-Workshop - Please Register!
+[Frameworks Mini-Workshop - Please Register!](https://indico.cern.ch/event/727646/)
