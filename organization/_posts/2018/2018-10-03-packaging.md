@@ -1,5 +1,5 @@
 ---
-title: "HSF Packaging Group Meeting #27, September 19, 2018"
+title: "HSF Packaging Group Meeting #28, October 3, 2018"
 layout: meetings
 ---
 
