@@ -18,7 +18,7 @@ software and computing challenges that will be faced during the next decade.
 
 The roadmap summarised reports from fourteen working groups who studied the challenges in their
 sub-domains. All of the reports produced during the Community White Paper process are listed below.
-Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-papers.html) their work to arXiv. 
+Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-papers.html) their work to arXiv.
 
 {:.table .table-hover .table-condensed .table-striped}
 | *Paper* | *Report Number* | *Link* |
@@ -28,7 +28,7 @@ Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-pa
 | Conditions Data | HSF-CWP-2017-03	| [Google Doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit){:target="_cwp_cdb"} |
 | Data Organisation, Management and Access | HSF-CWP-2017-04	| [Github](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-04_doma/latex){:target="_cwp_doma"} |
 | Data Analysis and Interpretation | HSF-CWP-2017-05	| [arXiv](https://arxiv.org/abs/1804.03983){:target="_cwp_analysis"} |
-| Data and Software Preservation | HSF-CWP-2017-06 | [Google Doc](https://docs.google.com/document/d/17309oyniwK01qvJgDPrBsLw_-jqRgvkvWZi5lLmQISI/edit){:target="_cwp_dsp"} |
+| Data and Software Preservation | HSF-CWP-2017-06 | [arXiv](https://arxiv.org/abs/1810.01191){:target="_cwp_dsp"} |
 | Detector Simulation | HSF-CWP-2017-07	| [arXiv](https://arxiv.org/abs/1803.04165){:target="_cwp_sim"} |
 | Event/Data Processing Frameworks | HSF-CWP-2017-08	| [Github](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-08_framework){:target="_cwp_fwk"} |
 | Facilities and Distributed Computing | HSF-CWP-2017-09	| [Google Doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing){:target="_cwp_fdc"} |
