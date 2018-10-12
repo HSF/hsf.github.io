@@ -1,7 +1,9 @@
 ---
 title: Packaging
 layout: plain
-redirect_from: /workinggroups/2015/11/04/packaging.html
+redirect_from:
+  - /workinggroups/2015/11/04/packaging.html
+  - /activities/packaging.html
 ---
 
 The software packaging and distribution activity and working group addresses common issues, tools, and approaches to building and distributing the software stacks used by HEP experiments.
@@ -28,8 +30,8 @@ The aim of this working group is to foster communication and exchange among the 
 
 Software development in high energy physics follows the paradigm of open source software (OSS). Experiments as well as the theory community heavily rely on software being developed outside of the field. Creating a consistent and working stack out of 100s of packages, on a variety of platforms is a non-trivial task. Within the field multiple technical solutions exist to configure and build those stacks. None of this work is experiment specific and our working group agrees that this effort is being duplicated.
 
-We held [an initial series of meetings](https://indico.cern.ch/category/7975/) 
-to look at the existing build and packaging solutions, including the 
+We held [an initial series of meetings](https://indico.cern.ch/category/7975/)
+to look at the existing build and packaging solutions, including the
 community-driven projects. Some of the tools looked at are listed below.
 
 That initial work was summarised in a [Technical note on Build Tools](/technical_notes.html)
@@ -47,7 +49,7 @@ of core HEP software packages that can be used to demonstrate how different
 tools perform against the use cases that were identified.
 
 The group is currently working on the evaluation of  different tools, making
-use of Docker containers to allow non-experts in a particular tool to 
+use of Docker containers to allow non-experts in a particular tool to
 rapidly evaluate each tool for features, ease of use and flexibility.
 
 Documentation for these *test drive* setups is in the group's
