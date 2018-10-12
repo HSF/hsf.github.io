@@ -10,7 +10,7 @@ The HSF and the LPCC are happy to announce a
 software challenges for event generators.
 
 This event will focus on the challenges for physics event generators that need
-to be faced in HEP in the next decade, may of which were identified in the
+to be faced in HEP in the next decade, many of which were identified in the
 [HSF Community White Paper](https://arxiv.org/abs/1712.06982).
 
 Many physics searches will require enhanced precision, calling for generators
