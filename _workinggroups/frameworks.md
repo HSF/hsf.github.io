@@ -1,6 +1,7 @@
 ---
 title: "Frameworks"
 layout: plain
+redirect_from: activities/frameworks.html
 ---
 
 The HSF frameworks group organises common discussions and developments
@@ -12,5 +13,5 @@ discussions are held on the [hsf-tech-forum](https://groups.google.com/forum/#%2
 
 -----
 
-Contacts: [Paolo Calafiura](mailto:pcalafiura@lbl.gov), [Charles Leggett](mailto:CGLeggett@lbl.gov), 
+Contacts: [Paolo Calafiura](mailto:pcalafiura@lbl.gov), [Charles Leggett](mailto:CGLeggett@lbl.gov),
 [Jim Kowlakowski](mailto:jbk@fnal.gov)

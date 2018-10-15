@@ -24,6 +24,9 @@ collections:
   gsocproposals:
     output: true
     permalink: /gsoc/:path.html
+  workinggroups:
+    output: true
+    permalink: /workinggroups/:title.html
 
 docs:
   url: https://github.com/HSF/documents/blob/master

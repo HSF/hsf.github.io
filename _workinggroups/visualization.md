@@ -2,11 +2,12 @@
 title: "Visualization"
 author: "Riccardo Maria Bianchi"
 layout: default
+redirect_from: /activities/training.html
 ---
 
 # Visualization
 
-The Visualization Working Group (WG) gathers experts, develeopers, users and all people from the HEP community interested in interactive data visualization and event displays. The WG has been started in October 2016 and it is convened by Riccardo Maria Bianchi (*University of Pittsburgh*). 
+The Visualization Working Group (WG) gathers experts, developers, users and all people from the HEP community interested in interactive data visualization and event displays. The WG has been started in October 2016 and it is convened by Riccardo Maria Bianchi (*University of Pittsburgh*).
 
 All are welcome to join the WG and participate!
 
@@ -38,7 +39,7 @@ Visualization for statistical data analysis (histograms, etc…)
     * simulation and reconstruction development
     * physics analysis
     * outreach & education
-* Improve support for required platforms and devices 
+* Improve support for required platforms and devices
 * Ensure sustainability for key software packages
 * Improve low latency access to data, low entrance cost
 * Improve rendering performance
@@ -60,7 +61,7 @@ Topics for which we will have to interact with other WGs:
 
 ----
 
-## Documents 
+## Documents
 
 * Working Group's [charge document](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit), as defined by the WG in the San Diego Workshop
 
@@ -78,5 +79,3 @@ Topics for which we will have to interact with other WGs:
 * Workshop agenda: https://indico.cern.ch/event/570249/
 * Visualization session's [agenda](https://indico.cern.ch/event/570249/sessions/217071/#20170125)
 * All the [contributions](https://indico.cern.ch/event/570249/contributions/2450053/)
-
-

@@ -20,6 +20,10 @@
                    <li><a href="{{ activity.url }}">{{ activity.title }}</a></li>
                  {% endfor %}
                  <li class="divider"></li>
+                 {% for workinggroup in site.workinggroups %}
+                   <li><a href="{{ workinggroup.url }}">{{ workinggroup.title }}</a></li>
+                 {% endfor %}
+                 <li class="divider"></li>
                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
                </ul>
             </li>
