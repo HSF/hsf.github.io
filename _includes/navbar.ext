@@ -2,7 +2,7 @@
 <div class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="/index.html" class="navbar-brand">HEP Software Foundation</a>
+          <a href="/" class="navbar-brand">HEP Software Foundation</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -19,12 +19,16 @@
                  {% for activity in site.activities %}
                    <li><a href="{{ activity.url }}">{{ activity.title }}</a></li>
                  {% endfor %}
-                 <li class="divider"></li>
-                 {% for workinggroup in site.workinggroups %}
-                   <li><a href="{{ workinggroup.url }}">{{ workinggroup.title }}</a></li>
-                 {% endfor %}
-                 <li class="divider"></li>
-                 <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu">Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  {% for workinggroup in site.workinggroups %}
+                    <li><a href="{{ workinggroup.url }}">{{ workinggroup.title }}</a></li>
+                  {% endfor %}
                </ul>
             </li>
             <li class="dropdown">
@@ -47,19 +51,15 @@
                   <li><a href="/projects.html">Member Projects</a></li>
                   <li class="divider"></li>
                   <li><a href="/services.html">Development Services</a></li>
-
-
-
                 </ul>
-            </li>
-            <li>
-              <a href="/get_involved.html">Get involved!</a>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu">About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li class="divider"></li>
                 <li><a href="/organization/goals.html">Goals of the HSF</a></li>
                 <li><a href="/organization/cwp.html">Community White Paper</a></li>
                 <li><a href="/organization/team.html">The Coordination Team</a></li>
@@ -67,7 +67,7 @@
                 <li class="divider"></li>
                 <li><a href="/howto-website.html">Website Howto</a></li>
               </ul>
-
+            </li>
           </ul>
 
         </div>
