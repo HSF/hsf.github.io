@@ -109,9 +109,8 @@ Technical Notes
 -   Eduardo and Andy McNab following up on DOIs for some of the
     technical notes.
 
-CWP
-===
--   ### General Matters and Roadmap
+# CWP
+-  **General Matters and Roadmap**
     -   [CSBS review
         comments](https://docs.google.com/document/d/16T2RRu1LmAyXTgtKjyWgOwZR8zsVOw2Y1SCntot3_NU/edit?usp=sharing).
     -   Michel had the first look at the changes needed and created a
