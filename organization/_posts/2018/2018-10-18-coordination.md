@@ -11,7 +11,7 @@ Heather Gray, Ian Collier, James Amundsen, Michel Jouvin, Tommaso
 Boccali
 
 News, general matters
-=====================
+---------------------
 -   “US Research Software Sustainability Institute
     ([URSSI](http://urssi.us)) conceptualization project, looking
     for your opinions about needs in the US research software
@@ -20,7 +20,7 @@ News, general matters
     Dan Katz confirmed this is mainly for the US community.
 
 HSF/WLCG/OSG workshop
-=====================
+---------------------
 -   We made the first [official
     announcement](https://groups.google.com/forum/#!topic/hsf-forum/c0DOv84A4iU)
     to ‘save the date’ (18-22 March 2019).
@@ -35,7 +35,7 @@ HSF/WLCG/OSG workshop
 -   Topics also announced at the GDB yesterday.
 
 New Working Groups
-==================
+------------------
 -   Mandate was put on the [HSF
     Website](https://hepsoftwarefoundation.org/organization/working-group-mandates.html).
 -   Call for convenors was renewed, until 29 October.
@@ -46,7 +46,7 @@ New Working Groups
 -   Stubs for new working groups added to the website.
 
 Generators Software Computing Workshop
-======================================
+--------------------------------------
 -   [Indico agenda](https://indico.cern.ch/event/751693/).
     -   Timetable has been filled in with a lot more detail on the
         presentations and confirmed speakers.
@@ -58,18 +58,16 @@ Generators Software Computing Workshop
     -   TBD, so a topic for the next organisers meeting.
 
 Activity updates
-================
+----------------
 
-Licensing
----------
+### Licensing
 -   Still hoping to meet with FastJet authors in the week of the
     Generators Workshop.
     -   ATLAS, CMS input.
     -   Input from OpenLab about companies like IBM not agreeing to run
         at their facilities a code which is GPL.
 
-Training
---------
+### Training
 -   Graeme, Davide and James met to discuss ATLAS follow-up after last
     week’s training focused discussions.
     -   Definite interest in holding a ‘StarterKit’ like event in
@@ -81,36 +79,32 @@ Training
 -   Please comment on [David’s training
     survey](https://docs.google.com/forms/d/1DEb4h49UiJkUZscIemQaIWub_3jVC5Nn49T1dw6s-ws/edit).
 
-Packaging
----------
+### Packaging
 -   Due to a sparse agenda and various clashes, [next
     meeting](https://indico.cern.ch/event/766022/) will be 7
     November.
 
-Software Development
---------------------
+### Software Development
 -   Would like to organise a meeting in November on monitoring tools.
 
-Software Forum
----------------
+### Software Forum
 -   Next meeting is [HEP analysis in the Numpy
     ecosystem](https://indico.cern.ch/event/745288/), 7 November.
 -   Topics for next year - please suggest!
 
-PyHEP
------
+### PyHEP
 -   Continuing to make contact with neutrino community.
 -   See Software Forum topic for next meeting!
 -   Website update in the pipeline (Eduardo) to give a better overview
     of activities.
 
-Technical Notes
----------------
+### Technical Notes
 -   Eduardo and Andy McNab following up on DOIs for some of the
     technical notes.
 
-# CWP
--  **General Matters and Roadmap**
+CWP
+---
+-  ### General Matters and Roadmap
     -   [CSBS review
         comments](https://docs.google.com/document/d/16T2RRu1LmAyXTgtKjyWgOwZR8zsVOw2Y1SCntot3_NU/edit?usp=sharing).
     -   Michel had the first look at the changes needed and created a
@@ -135,7 +129,7 @@ Technical Notes
     -   Have a meeting of the HSF Ed Board by end of the month.
 
 AOB
-===
+---
 -   HSF Logo in vector format - reminder of action on Benedikt.
 -   [http://hepsoftware.org/](http://hepsoftware.org/) was fixed,
     thanks to Torre ([GitHub
