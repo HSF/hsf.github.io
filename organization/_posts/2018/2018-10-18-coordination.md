@@ -106,7 +106,7 @@ CWP
 ---
 -  ### General Matters and Roadmap
     -   [CSBS review
-        comments](https://docs.google.com/document/d/16T2RRu1LmAyXTgtKjyWgOwZR8zsVOw2Y1SCntot3_NU/edit?usp=sharing).
+        comments](https://docs.google.com/document/d/1y1xrJxPkJcGxpuF_7NrCfCqLiy4b4Ahg2zZoQ9SWNCk/edit?usp=sharing).
     -   Michel had the first look at the changes needed and created a
         [GitHub Issue](https://github.com/HSF/documents/issues/105)
         to track.
