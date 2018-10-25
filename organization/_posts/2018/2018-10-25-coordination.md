@@ -144,7 +144,8 @@ Neubauer, Sudhir Malik, Eduardo Rodrigues
 
   - HSF Logo in vector format - reminder of action on Benedikt.
 
-  - IRIS-HEP is in the process of ramping up. Kickoff workshop next
-    week. After the WS there will be more concrete plans. A bunch of
-    open positions are already open at
-    [<span class="underline">http://iris-hep.org/jobs</span>](http://iris-hep.org/jobs).
+  - The IRIS-HEP Software Institute is in the process of ramping up. 
+    Kickoff workshop next week. After the WS the 
+    team will begin communicating more concretely its plans for the 
+    next year to 18 months. A bunch of open positions are already 
+    open at [<span class="underline">http://iris-hep.org/jobs</span>](http://iris-hep.org/jobs).
