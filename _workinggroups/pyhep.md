@@ -1,14 +1,36 @@
 ---
-title: PyHEP Workshops
-author: "Eduardo Rodrigues"
-layout: default
+title: PyHEP - "Python in HEP"
+layout: plain
+redirect_from:
+  - /activities/pyhep.html
 ---
 
-# PyHEP "Python in HEP" Series of Workshops
+The PyHEP working group brings together a community of developers and users of Python in Particle Physics, with the aim of improving
+the sharing of knowledge and expertise. It embraces the broad community, from HEP to the Astroparticle and Intensity Frontier communities.
+
+The group is currently coordinated by Chris Tunnell (Rice U.), Eduardo Rodrigues (U. Cincinnati) and Graeme Stewart (CERN).
+All coordinators can be reached via <hsf-pyhep-organisation@googlegroups.com>.
+
+# Getting Involved
+
+Everyone is welcome to join the community and participate by means of the following:
+
+[Gitter channel PyHEP](https://gitter.im/HSF/PyHEP){:target="_pyhep_gitter_channel} for any informal exchanges.
+
+[GitHub repository of resources](https://github.com/hsf-training/PyHEP-resources){:target="_pyhep_resources_repo"}
+- Python libraries of interest to Particle Physics.
+
+# PyHEP Series of Workshops
 
 The **PyHEP workshops** are a new series of workshops initiated and supported by the HSF
 with the aim to provide an environment to discuss and promote the usage of Python in the HEP community at large.
 
+{:.table .table-hover .table-condensed .table-striped}
+| *Workshop* | *Location*          | *Date*               | *Agenda link*                                                                 |
+| ---------- | ------------------- | ---------------------| ----------------------------------------------------------------------------- |
+| PyHEP 2018 | Sofia, Bulgaria     | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
+
+The advert and details on the first such workshop are given below.
 
 ## PyHEP 2018
 
@@ -43,12 +65,4 @@ Jeff Templon - Nikhef (Co-chair)
 
 The event is kindly sponsored by
 
-![Nikhef](/images/pyhep/Nikhef_logo.png){:height="90px"} ![PSF](/images/pyhep/PSF_logo.png){:height="90px"}
-
-
-## Workshops
-
-{:.table .table-hover .table-condensed .table-striped}
-| *Workshop* | *Location*          | *Date*               | *Agenda link*                                                                 |
-| ---------- | ------------------- | ---------------------| ----------------------------------------------------------------------------- |
-| PyHEP 2018 | Sofia, Bulgaria     | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
+![Nikhef](/images/pyhep/Nikhef_logo.png){:height="60px"} ![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
