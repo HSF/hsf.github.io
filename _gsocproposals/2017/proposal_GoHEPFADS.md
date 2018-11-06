@@ -47,7 +47,7 @@ Go, C/C++ (to read legacy code and translate it into Go), git.
 
   * [Go](https://golang.org)
   * [GoHEP](https://go-hep.org)
-  * [fads](https://github.com/go-hep/fads)
+  * [fads](https://go-hep.org/x/hep/fads)
   * [Delphes](https://cp3.irmp.ucl.ac.be/projects/delphes)
   * [FastJet](http://fastjet.fr)
   * [CGAL](http://www.cgal.org)
