@@ -28,15 +28,14 @@ Final PDF files are copied to the main hepsoftwarefoundation.org website.
 
 Once the TN is finalized and you are ready to submit all documents to the GitHub repository, please follow these instructions to obtain a DOI on Zenodo:
 
-   1) Go to Upload then New Upload on the Zenodo website..
-   2) Click on the Reserve DOI javascript button under DOI (and keep the form page loaded!).
-   3) Copy and paste the reserved DOI into the .tex file from the Git repo.
-   4) Rebuild PDF.
-   5) Upload to Zenodo as normal on the same form page as the reserved DOI.
-   6) Push to GitHub.
+   1. Go to Upload then New Upload on the Zenodo website.
+   2. Click on the Reserve DOI javascript button under DOI (and keep the form page loaded!).
+   3. Copy and paste the reserved DOI into the .tex file from the Git repo.
+   4. Rebuild PDF.
+   5. Upload to Zenodo as normal on the same form page as the reserved DOI.
+   6. Push to GitHub.
 
-It is a good idea to also add a README file with information on how to cite the note, see the examples under links such as
-(this one)[https://github.com/HSF/documents/blob/master/HSF-TN/2015-01/README.md].
+It is a good idea to also add a README file with information on how to cite the note, see the examples under links such as [this one](https://github.com/HSF/documents/blob/master/HSF-TN/2015-01/README.md).
 
 ## Drafts in the consultation stage
 
