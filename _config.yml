@@ -2,12 +2,12 @@ name: HEP Software Foundation Newsletter
 description: News from the HEP Software Foundation
 url: http://www.hepsoftwarefoundation.org
 excerpt_separator: <!--more-->
-timezone: Switzerland/Geneva
+timezone: Europe/Paris
 highlighter: rouge
 markdown: kramdown
 future: true
 exclude: [vendor]
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-redirect-from
@@ -15,6 +15,19 @@ collections:
   activities:
     output: true
     permalink: /activities/:title.html
+  gsocorgs:
+    output: true
+    permalink: /gsoc/organizations/:path.html
+  gsocprojects:
+    output: true
+    permalink: /gsoc/projects/:path.html
   gsocproposals:
     output: true
-    permalink: /gsoc/:title.html
+    permalink: /gsoc/:path.html
+  workinggroups:
+    output: true
+    permalink: /workinggroups/:title.html
+
+docs:
+  url: https://github.com/HSF/documents/blob/master
+  cwp201711: https://github.com/HSF/documents/blob/master/CWP/papers/2017-11

@@ -17,13 +17,13 @@ The Inter-Experimental LHC Machine Learning Working Group [IML](http://iml.cern.
 -  Series of dedicated LHC ML challenges to further strengthen & grow MML-HEP interaction, so we can more effectively collaborate
 
 ## Website
-- [IML](http://iml.cern.ch/tiki-index.php)
+- [IML](http://iml.web.cern.ch/)
 
 ## Mailing List
 - [lhc-machinelearning-wg@cern.ch](mailto:lhc-machinelearning-wg@cern.ch)
 
 ## Meetings and IML Events
--  [Working group meetings](http://iml.cern.ch/tiki-index.php?page=Indico)
+-  [Working group meetings](http://iml.web.cern.ch/meetings)
 
 ## Related Events in HEP
 - [Second Machine Learning High Energy Physics Summer School 2016](https://indico.cern.ch/event/497368/), 20-26 June 2016 at Lund University

@@ -30,15 +30,15 @@ time to submit a logo proposal.
 
 We had a session dedicated to some of the HSF SW projects and related initiatives
 * [AIDA2020 WP3](http://aida2020.web.cern.ch/activities/wp3-advanced-software): the software work package of the EU-funded project about detector R&D. AIDA2020 expressed that they want to put their development under the HSF umbrella.
-* [Next Generation Conditions Database](https://github.com/HEP-SF/PhysCondDB): a project started jointly by CMS and ATLAS that is becoming attractive to others. This project benefits from the collaborative spirit resulting from the HSF.
+* [Next Generation Conditions Database](https://github.com/HSF/PhysCondDB): a project started jointly by CMS and ATLAS that is becoming attractive to others. This project benefits from the collaborative spirit resulting from the HSF.
 * [The HEP Software and Computing Knowledge Base](http://hepsoftware.org/): this is a project started by the HSF to facilitate software sharing. It is easy to use and allows crosslinking of software, experiments, organisations, events... **Register your favorite software!**
 * [WikiToLearn](https://en.wikitolearn.org/Main_Page): a new platform allowing the sharing and improving of training materials through collaboration between authors and users. Developed in Italy (University of Milano), its developers are committed to making it useful for, and usable by the HSF.
 * [DIANA-HEP](http://diana-hep.org/) (Data Intensive Analysis for HEP): a NSF-funded project to promote common analysis tools for data intensive research in HEP, using ROOT at its core. This US project shares many goals with the HSF.
 
 
 Helping software projects is the main goal of the HSF. During the last year, 
-the HSF has produced a Best Practices document (currently a [Technical Note draft](https://github.com/HEP-SF/documents/blob/master/HSF-TN/draft-2016-PROJ/draft-HSF-TN-2016-PROJ.md))
-and implemented it in a [Project Starter Kit](https://github.com/HEP-SF/tools).
+the HSF has produced a Best Practices document (currently a [Technical Note draft](https://github.com/HSF/documents/blob/master/HSF-TN/draft-2016-PROJ/draft-HSF-TN-2016-PROJ.md))
+and implemented it in a [Project Starter Kit](https://github.com/HSF/tools).
  This year, the HSF wants to continue its efforts on project support, focusing
  on helping projects get more visibility, and promoting the interoperability 
  of software projects.
@@ -54,7 +54,7 @@ packaging are a key piece of software interoperability. As we cannot
 envision all of the projects adopting the same tools, the effort has concentrated 
 on a review of the existing tools, and an attempt to identify a tool with the 
  greatest potential as an integrating layer. One tool from the HPC world, 
- [Spack](http://software.llnl.gov/spack/), generated a lot of interest. Some people tried to experiment with it in various 
+ [Spack](https://spack.io/), generated a lot of interest. Some people tried to experiment with it in various 
  contexts in the past few months.  The workshop session facilitated an in-depth 
  dicussion about Spack's potential and it's limits. We reached consensus about how to move forward.  We will continue to collaborate with the Spack developer community.  When the features identified by the working group and documented in our technical note are available we'll start to recommend it to new projects and facilitate adoption by older projects.
 

@@ -14,3 +14,10 @@ Gemfile.lock
 # Ruby bundle
 .bundle/
 vendor/
+
+# MacOS
+.DS_Store
+
+# common editor backups
+*~
+

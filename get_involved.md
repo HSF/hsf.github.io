@@ -8,7 +8,7 @@ layout: default
 
 Our goal is to make every effort going on as transparent and open as possible.
 Our official communication channel is the 
-[hep-sf-forum](https://groups.google.com/forum/#!forum/hep-sf-forum). 
+[hsf-forum](https://groups.google.com/forum/#!forum/hsf-forum). 
 
 See the [dedicated page](/forums.html) about HSF discussions forums for 
 information about how to register and the
@@ -35,17 +35,22 @@ Connection information for each specific Vidyo meeting is on the corresponding I
 agenda, a CERN account is needed. CERN provides lightweight accounts to non CERN
 affiliated people when needed. See <https://account.cern.ch/account/Externals/>
 
-## Giving input to the HSF Startup Team
+## Giving input to the HSF Coordination Team
 
 If you are not comfortable with raising an issue in the
 [forums](/forums.html) or if you are afraid that this is not the
 right place for it, feel free to contact the
-[HSF startup team](mailto:hep-sf-startup-team@googlegroups.com) directly.
+[HSF coordination team](mailto:hsf-coordination@googlegroups.com) directly.
 
 ## Contributing to this website
 
 You are very welcome to extend this website and add information to it. You can
 find instructions on how to do it [here](/howto-website.html).
+
+## Add events to the community calendar
+
+See [this short guide](/calendar.html) for how to add next events to the calendar.
+
 
 ## Contributing to the HSF S&C Knowledge Base
 

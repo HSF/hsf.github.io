@@ -12,39 +12,39 @@ layout: default
           </div>
           <div class="col-md-8">
             <p class="lead">
-The HEP Software Foundation (HSF) facilitates coordination and common efforts in high energy physics (HEP) software and computing internationally.
-           </p>
+The HEP Software Foundation facilitates cooperation and
+<a href="{{site.baseurl}}/activities/cwp.html">common efforts</a>
+in High Energy Physics software and computing internationally.
+</p>
       </div>
       </div>
 
 <hr>
 
 <!-- Important announcements from announcements/_posts -->
-<div>
-The HSF is now beginning a community process to develop a consensus roadmap for HEP Software and Computing R&amp;D for the 2020s. More infomation about this can be found on the <a href="{{site.baseurl}}/activities/cwp.html">Community White Paper (CWP)</a> page on the HSF site.
-</div>
-<hr>
   {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
   {% for post in site.categories.announcements reversed %}
     {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
     {% if stopdate > sitedate %}
 <div class="row alert alert-warning">
-  <p class="lead">
+  <p class="lead event-announce">
     <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }} (<a href="{{ post.link }}">more info</a>)
   </p>
-</div>    
+</div>
     {% endif %}
   {% endfor %}
 
 <hr>
- 
- <!-- Various boxes with more information -->     
+
+ <!-- Various boxes with more information -->
 <div class="row">
-  
+
  <div class="col-lg-4">
   <h2>Meetings</h2>
     <p>
-      All our activities and ideas are discussed weekly in our HSF meeting. Feel free to participate!
+      The HSF holds <a href="/future-events.html">regular meetings</a>
+      in its activity areas and has weekly coordination meetings as well.
+      All of our meetings are open for everyone to join.
     </p>
     <ul class="list list-simple">
 {% assign pagedate = site.time | date: "%Y-%m-%d"   %}
@@ -52,28 +52,37 @@ The HSF is now beginning a community process to develop a consensus roadmap for 
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
     </ul>
-    <p><a  href="/organization/minutes.html" role="button">Full list of meetings &raquo;</a></p>
+    <p><a href="/future-events.html" role="button">Upcoming HSF events &raquo;</a></p>
+    <p><a href="/organization/minutes.html" role="button">Full list of past meetings &raquo;</a></p>
   </div>
 
 
  <div class="col-lg-4">
-  <h2>Newsletter</h2>
+  <h2>New Working Groups</h2>
     <p>
-      If you would like to stay updated, please subscribe to our newsletter:
+    The HSF is establishing new working groups with
+    <a href="/organization/working-group-mandates.html">mandates</a>
+    to pursue the goals from the
+    <a href="/organization/cwp.html">Community White Paper Roadmap</a>
+    published last year. We are
+    <a href="mailto:hsf-coordination@googlegroups.com?subject=WG Nominations">calling for more nominations</a>
+    for convenors for each of the three new groups in
+    <a href="/workinggroups/detsim.html">Detector Simulation</a>,
+    <a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a>
+    and <a href="/workinggroups/dataanalysis.html">Data Analysis</a>.
+    Nominations are open until 29 October.
     </p>
-    <ul class="list list-simple">
-{% assign pagedate = site.time | date: "%Y-%m-%d"   %}
-{% for post in site.categories.newsletter limit: 3 %}
-    <li> <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-   </ul>
-   <p><a href="/newsletter.html" role="button">Older newsletters &raquo;</a></p>
  </div>
- 
- 
+
+
  <div class="col-lg-4">
-          <h2>Activities</h2>
-          <p>Our plenty of activities span from our <a href="/what_are_WGs.html">working groups</a>, organizing <a href="/events.html">events</a> to supporting projects as <a href="/projects.html">HSF projects</a>, and channeling communication within the community with  <a href="/forums.html">discussion forums</a>,  <a href="/technical_notes.html">technical notes</a> and a <a href="http://www.hepsoftware.org/">knowledge base</a>.
+ 	<h2>Activities</h2>
+    	<p>We organise many activities, from our <a href="/what_are_WGs.html">working groups</a>,
+          to organising <a href="/events.html">events</a>, to supporting projects as
+          <a href="/projects.html">HSF projects</a>, and helping communication within the
+          community through our  <a href="/forums.html">discussion forums</a>,
+          <a href="/technical_notes.html">technical notes</a> and a
+          <a href="http://www.hepsoftware.org/">knowledge base</a>.
           </p>
    <p><a href="/get_involved.html" role="button">How to get involved &raquo;</a></p>
        </div>

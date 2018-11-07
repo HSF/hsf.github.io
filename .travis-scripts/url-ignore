@@ -1,15 +1,11 @@
-# List of URL to ignore in html-proofer external link check
-# One URL per line, comments allowed as a full line or after the URL.
-# There is only a limited support for URL regexp rather than plain
-# URL : use a regexp only if it is really necessary. But the URL
-# may be a partial URL (ommitting the protocol for example or the
-# end of the URL).
+# Do not use this file to suppress checks against URLs any more.
+# Instead please add the attribute tag "data-proofer-ignore" to your link,
+# see 
+# https://github.com/gjtorikian/html-proofer#ignoring-content
 #
-# Please, DO NOT PUT BROKEN URLs in this file. Only add URLs that
-# cannot be verified successfully by html-proofer despite you
-# validated them with a browser.
-
-https://indico.desy.de/
-http://iml.cern.ch/tiki-index.php
-http://lipforge.ens-lyon.fr/www/crlibm
-https://www.researchgate.net/publication/228732867_Data_transfer_infrastructure_for_CMS_data_taking
+# To use this technique with a markdown URL, you can use the
+# kramdown extension that adds tags to URLs, e.g.
+# [link text](http://valid.but.unferifiable.com/){:data-proofer-ignore=""}
+#
+# N.B. Jekyll's kramdown generator changed to ignore plain attributes attached
+# to links, but using an empty value works just fine. 

@@ -6,6 +6,11 @@ layout: default
 
 # Logo contest
 
+**Page now kept for historical interest, many thanks to Joschka Lingemann 
+for designing the winning HSF logo.** 
+
+---
+
 It's time the HSF had a logo, so we're holding a contest. Put your creativity to work and send your proposals to the HSF startup team. 
 
 ## How to submit
@@ -26,8 +31,7 @@ specifically setup for this purpose, whose URL will be circulated at the end of 
 
 ## Voting period
 
-The voting site will be open between April 19th, 2016 and May 6th, 2016:
-[vote here](https://docs.google.com/forms/d/1g8o4m-ZUbr9NouvKouOioXoNpW7SXb14Jbq8fOUX8r0/edit?usp=forms_home&ths=true)!
+The voting site will be open between April 19th, 2016 and May 6th, 2016: vote here!
 
 
 ## Our wish list for valid submissions

@@ -1,2 +1,2 @@
-# hep-sf.github.io
+# hsf.github.io
 HEP Software Foundation github site

@@ -15,7 +15,7 @@ This pages is a GitHub and Git survival kit for people not familiar with these t
 
 At a first glance, GitHub (and Git) may look complex with their "workflows". But they are not so much in fact. What makes these tools great is that they allow a clear separation between your personal work and what you decide to show or export. Your personal work, unlike with tools like SVN, can be versionned and you can work on different things in parallel (branches) very easily.
 
-In the HSF web site context, what is shared is what is in the project repository called, [hep-sf.github.io](https://github.com/HEP-SF/hep-sf.github.io). Your personal environment is made of 2 parts:
+In the HSF web site context, what is shared is what is in the project repository called, [hsf.github.io](https://github.com/HSF/hsf.github.io). Your personal environment is made of 2 parts:
 
 * One personal repository on GitHub, called a *fork*. It is typically created using the GitHub web interface, click on the `Fork` button when you are in the project repository. Despite this is a Git repository, you cannot access it directly from you local computer with Git commands (for example, you cannot `git commit` changes made on your local computer to it).
 * One (or several) clone of your personal repository on GitHub. This is where you'll make/develop your changes, using the full versionning capabilities of Git. And until you publish (`git push`) your changes to your personal repository (fork) on GitHub, they are not visible by anybody else. Once in your personal repository, it is potentially visible but you control when you want to submit these changes to the project repository creating a `pull request`: at this point people can review/comment your changes and people with the appropriate permissions can `merge` your changes in the project repository.
@@ -24,7 +24,7 @@ With this *GitHub workflow*, the only repository you need to have write access t
 
 For simple things, there is an alternative to creating a clone on your local computer: you can use the GitHub editor in the web interface. When you save your changes, this commits your changes and you are asked for *commit message*. Note that this is really limited to situations where your contribution is limited to only one file as you cannot edit several files and commit them togheter this way. Apart from the management of the Git clone, there workflow for pushing your changes to the project repository remains the same, using *pull request*.
 
-Sections below give more details on the main steps involved. Examples are based on the HSF web site [repository](https://github.com/HEP-SF/hep-sf.github.io). Note that there is a help available for each Git command that can be displayed with:
+Sections below give more details on the main steps involved. Examples are based on the HSF web site [repository](https://github.com/HSF/hsf.github.io). Note that there is a help available for each Git command that can be displayed with:
 
 ```bash
 git help
@@ -43,22 +43,22 @@ Once you have an account, if you want to use the full workflow with a clone of t
 
 As explained in the introduction, this involves 2 steps:
 
-* Creating your personal fork: with your browser, open the HSF web site [repository](https://github.com/HEP-SF/hep-sf.github.io) and click on the `Fork` button at the top-right of page.
+* Creating your personal fork: with your browser, open the HSF web site [repository](https://github.com/HSF/hsf.github.io) and click on the `Fork` button at the top-right of page.
 * Creating your local clone of your personal fork (assuming your name is `dupont`: 
 
   ```bash
-  # The local Git repository will be in a directory hep-sf.github.io in your current directory.
+  # The local Git repository will be in a directory hsf.github.io in your current directory.
   # The exact URL to use is on the right side of web page, when you display your personal fork.
-  git clone git@github.com:dupont/hep-sf.github.io.git
+  git clone git@github.com:dupont/hsf.github.io.git
   # Move in your repository
-  cd hep-sf.github.io
+  cd hsf.github.io
   ```
 
 * Connect your local clone to the project repository: as it will be explained in other sections, there are several occasions where you will want to import changes that happened in the project repository into your local clone that you use to develop your contributions. In Git, this involves creating a *remote* and is done with:
 
   ```bash
   # Later to refer to the project repository, we'll use the remote called upstream
-  git remote add upstream git@github.com:HEP-SF/hep-sf.github.io.git
+  git remote add upstream git@github.com:HSF/hsf.github.io.git
   ```
 
 Note that adding a remote adds no information to the repository itself.

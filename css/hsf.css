@@ -188,7 +188,7 @@
 }
 
 a {
-  color: #bb0000;
+  color: #cc5555;
 }
 
 a:hover {
@@ -219,6 +219,10 @@ body {
 .lead {
   font-size: 20px;
 }
+.event-announce > a:hover {
+	color: #333333;
+}
+
 
 .alert {
   padding: 8px;
@@ -235,4 +239,11 @@ body {
 
 [role="button"] {
     font-size: 17px;
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
 }
