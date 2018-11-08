@@ -33,18 +33,17 @@ SFT Spack Update
 - Initially targeting CentOS7 + GCC 8.2
 - Package sets:
   - Gaudi+Externals (broad, but not huge, number)
-  -FCC Software (already using Spack, so this exercises Spack Chains, lower chain being Gaudi)
+  - FCC Software (already using Spack, so this exercises Spack Chains, lower chain being Gaudi)
   - ATLAS externals (using ATLAS’s CMake recipes)
 - Bootstrap:
   - Graeme has CentOS7 Docker image
   - Add recent Spack develop branch, plus patches for Chain, ROOT recipe, from current upstream PRs
 - Using Docker on a macOS laptop, mounting Spack from main laptop filesystem
   - Different mount points for build/install
-- Spack-Config setup under HSF github
-- Not without issues, but mostly related to Docker/macOS
-  - Problem of building ncurses/termcap on APFS filesystem
-  - Needed to use disk image that is explicitly case sensitive in this case.
-  - Something to be aware of in future
+  - Spack-Config setup under HSF github
+  - Not without issues, but mostly related to Docker/macOS
+    - Problem of building ncurses/termcap on APFS filesystem
+    - Needed to use disk image that is explicitly case sensitive in this case.
 - After that, went well
   - GCC 8 bootstrap from system compiler fine
   - Minor issues with tar/fifos, possible due to docker/permissions
