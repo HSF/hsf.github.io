@@ -6,7 +6,7 @@ layout: default
 
 ## About the HSF website
 
-This site is maintained by the HSF GitHub [contributors](https://github.com/orgs/HSF/people). If you're interested to become one contact the HSF startup team or any team member. It was set up by Torre Wenaus and Benedikt Hegner.
+This site is maintained by the HSF GitHub [contributors](https://github.com/orgs/HSF/people). If you're interested to become one contact the [HSF coordination team](/organization/team.html) or any team member. It was set up by Torre Wenaus and Benedikt Hegner.
 
 ## Implementation
 
@@ -30,8 +30,8 @@ If you are not familiar with GitHub and Git, you can read our [survival kit](/gi
 
 ### General structure of website content files
 All Markdown files of this site start with a section surrounded by `---`. This
-so-called *front-matter* contains metadata about the content. Such metadata are
-e.g. the author of the document or the title of the document.
+so-called *front-matter* contains metadata about the content. Such metadata are,
+e.g., the author of the document or the title of the document.
 
 In the *front-matter* (but not in the text itself), you need to replace any `&` characters (which has a special meaning in HTML) by `&amp;`. This is particularly important for the `title` attribute.
 
@@ -43,22 +43,19 @@ meeting to validate/update them. It is then easy to convert a properly formatted
 levels) to Markdown for inserting it into the website. Look at our [documentation](/jekyll-beginners.html) on how to
 do it.
 
-### Adding to the newsletter
 
-Add a new file in `newsletter/_posts` and follow the front-matter of the
-other files in there. The list of news will be updated automatically.
+### Adding a working group or activity
 
-### Adding a working group
-
-Add a new file in `workinggroups/` directory and follow the front-matter of the
-other files in there. `Activity` menu in the navigation bar will be updated automatically: the menu entry text is the `title` attribute in the *front-matter* section.
+Add a new file in the `_workinggroups` or `_activities` directory and follow the front-matter of the
+other files in there. The `Working Groups` / `Activities` menu in the navigation bar will
+be updated automatically: the menu entry text is the `title` attribute in the *front-matter* section.
 
 ### Adding an event
 
 Add a new file in `events/_posts` and follow the *front-matter* (see above) of the other files
-in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and the ``Upcoming Events`` sidebar will be updated automatically. 
+in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and the ``Upcoming Events`` sidebar will be updated automatically.
 
-### Adding breaking news
+### Adding news or announcements
 
 Add a new file in `announcements/_posts` and follow the front matter of the other files in there. The front page will
 get a new box with all information.
@@ -74,23 +71,28 @@ As of writing, this website contains the following page templates for wider usag
 
  * default - every page inherits from this
  * event - to be used for events
- * newsletter - to be used for news items
+ * newsletter - to be used for news items and announcements
  * plain - to be used for standard contents
  * main - the main page w/ boxes
+ * minutes - used for meeting minutes (the template adds
+   forward / backward navigation links)
 
 ### Menu bar and automatization
 The menu bar is defined in `_includes/navbar.ext`, from which all page layouts inherit.
-The layout is hard-coded except for the addition of working groups. A new post
-in the `workinggroups/_posts` directory automatically adds the group to the drop
-down menu `Working Groups`.
+The layout is somewhat hard-coded, but working groups and activities are generated
+automatically.
 
-### Main page automatization
-The main page contains three dynamic blocks:
+### Main page
+The main page contains three blocks, mostly hard-coded:
 
- * breaking news, triggered by writing an item in `announcements/_posts`
- * a list of minutes
- * a list of newsletters
- 
+  * A *meetings* block, with links to the minutes of the last three meetings
+    auto-generated
+  * A news item that holds a small snippet of current important information
+    (currently this is hard-coded, but it would be better if it were more
+      dynamic)
+  * An *activities* block, that serves as an entry point to the main sections
+    of the website
+
 They are filled with *[Liquid](https://github.com/Shopify/liquid/wiki)* snippets.
 
 ## Useful references
