@@ -104,8 +104,8 @@ Packaging
         are very positive.
     -   Minutes are
         [*here*](https://github.com/HSF/hsf.github.io/pull/385).
--   Next meeting in [*2 weeks
-    time*](https://indico.cern.ch/event/762971/), 17 October.
+-   Next meeting planned for 2 weeks
+    time, 17 October.
 
 Software Development
 --------------------
