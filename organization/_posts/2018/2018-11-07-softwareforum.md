@@ -43,7 +43,7 @@ HEP analysis in the Numpy ecosystem
         of DNNs.
 -   How easy is it for people to understand JaggedArray operations?
     -   Explicit is clear, implicit might be less so.
-    -   This is part of of the experiment.
+    -   This is part of the experiment.
         -   Selectors can help disambiguate a lot, to help understand
             masking.
 -   Exploring the right solutions for expressing analysis is a very
@@ -51,7 +51,7 @@ HEP analysis in the Numpy ecosystem
 -   Original idea was not to give physicists array syntax, but to use
     numba JIT expressions; however physicists might like to use an
     array operation style...
-    -   Xeonon-1T seem to have decent experience with this with new
+    -   XENON1T seem to have decent experience with this with new
         analysts.
 -   Could a DSL hide the loopyness, but allow for clearer expression of
     the idea, then behind the scenes use arrays?
