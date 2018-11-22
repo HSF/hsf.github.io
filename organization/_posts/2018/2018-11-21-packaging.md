@@ -28,16 +28,16 @@ Portage - Update and Live Demo
   - Native Linux (distro independent as Gentoo ships own glibc), macOS
   - Docker container using host CVMFS
   - Includes very lightweight images like Busybox (1MB), then use tooling from prefix
-- Documentation links: getting started on bare metal, Gentoo Linux image, just Gentoo Prefix on other Linuces, macOS etc
+- Documentation links: getting started on bare metal, Gentoo Linux image, just Gentoo Prefix on other Linuces, macOS etc.
   - "Test drive" on HSF repo on get started with Prefix
 - Further guides on the basics of using Portage
-  - Installing, configuration etc, plus associated tooling to help with packaging processes
-- Basic installation of packages via `emerge` program, eg. `emerge <args> package`
+  - Installing, configuration etc., plus associated tooling to help with packaging processes
+- Basic installation of packages via `emerge` program, e.g. `emerge <args> package`
   - Various options to check what will be done, what is available
   - Prints flags about what will be recompiled, upgraded, newly installed
-  - Arguments to search for packages, fetch distfiles, rebuild from scratch etc
+  - Arguments to search for packages, fetch distfiles, rebuild from scratch etc.
   - "Working with Portage" document shown, which has full usage and troubleshooting info
-  - "Masked" packages: ones that will be ignored depending on conditions such as arch etc
+  - "Masked" packages: ones that will be ignored depending on conditions such as arch etc.
 - Developer doc with links
   - Covers details of how Portages `ebuild` process works
   - Basic sequence of "phases" as per spack and other package managers: prepare, configure, build, test, install etc
