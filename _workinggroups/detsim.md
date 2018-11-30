@@ -15,3 +15,5 @@ adaption of simulation techniques to modern computing hardware
 technologies) are an important area of work.
 
 [Mandate](/organization/working-group-mandates.html).
+
+Convenors: Gloria Corti, Heather Gray, Witek Pokorski
