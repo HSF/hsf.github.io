@@ -21,9 +21,9 @@ The proposed project aims at extending or replacing some Rucio functionalities b
 - Cloud based object stores (e.g., Google Cloud Storage) integration to store physics data to serve analysis jobs.
 - Third party copy transfer service (e.g., Cloud Storage Transfer Service) to mass transfer data from/to institutional and cloud storage.
 - NoSQL solution (e.g., BigTable) for physics data referencing and metadata searches.
-- Content Delivery Network (e.g. Google Cloud CDN ) to transparently cache load balanced content close to the physicists or the analysis jobs requiring (WAN) data access. 
+- Content Delivery Network (e.g. Google Cloud CDN ) to transparently cache load balanced content close to the physicists or the analysis jobs requiring (WAN) data access.
 
-The integration of these components will require to find some compatible authentication, authorization and accounting model between the various involved services. 
+The integration of these components will require to find some compatible authentication, authorization and accounting model between the various involved services.
 
 ## Expected results
 
@@ -49,7 +49,5 @@ A working implementation of the desired new functionalities and fully tested at 
 ## Links
 
 - [Rucio Public Github Mirror](https://github.com/rucio01/rucio)
-- [Rucio Website](http://rucio.cern.ch){:data-proofer-ignore=""}
+- [Rucio Website](https://rucio.cern.ch)
 - [Google Cloud Services](https://cloud.google.com/)
-
-<!-- rucio.cern.ch has a broken CA right now --> 

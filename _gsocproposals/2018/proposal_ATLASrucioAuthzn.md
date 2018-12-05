@@ -46,5 +46,5 @@ Rucio is a multi-location data management system for large-scale scientific expe
 
 ## Links
 
-- [Rucio Website](https://rucio.cern.ch){:data-proofer-ignore=""}
+- [Rucio Website](https://rucio.cern.ch)
 - [Rucio Github](https://github.com/rucio/rucio)
