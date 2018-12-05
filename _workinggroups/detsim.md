@@ -16,4 +16,4 @@ technologies) are an important area of work.
 
 [Mandate](/organization/working-group-mandates.html).
 
-Convenors: Gloria Corti, Heather Gray, Witek Pokorski
+Convenors: Gloria Corti (LHCb), Heather Gray (ATLAS), Witek Pokorski (Geant4)

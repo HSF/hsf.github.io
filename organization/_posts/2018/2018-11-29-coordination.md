@@ -13,9 +13,9 @@ Ed Moyse
 
 News, general matters
 =====================
--   IRIS-HEP would like a to have HSF representation on their steering
+-   IRIS-HEP would like to have HSF representation on their steering
     committee.
-    -   Pete Elmer (PI) has proposed that Graeme take this on.
+    -   Pete Elmer (PI) has proposed that Graeme takes this on.
     -   Fine with Graeme and got support from others.
     -   *Agreed.*
 -   Gerri Ganis gave the [*software report to the LHCC
@@ -105,7 +105,7 @@ Generators Software Computing Workshop
         steps. A few people (Andrea, Steve) have already agreed to
         push on work in this area. We might have a dedicated 5-day
         practical workshop in 2019?
-    -   Graeme will also give an [*Overview
+    -   Graeme will also give a [*WLCG Overview
         Board*](https://indico.cern.ch/event/734889/) report tomorrow.
         We forwarded Federico’s invitation to ACAT to generators
         people. We might also give a summary there (Andy Buckley will
@@ -163,7 +163,7 @@ Activity updates
 Licensing
 ---------
 -   Matteo Cacciari was not able to come to CERN, so we are exploring
-    dates early next year to follow up on this. Licensing was be
+    dates early next year to follow up on this. Licensing was
     raised at the generators workshop and so we may broaden the
     discussion to the whole theory community.
 

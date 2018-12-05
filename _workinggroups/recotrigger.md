@@ -22,4 +22,4 @@ of profiling and quality assurance toolkits.
 
 [Mandate](/organization/working-group-mandates.html).
 
-Convenors: Caterina Doglioni, Agnieszka Dziurda, David Lange
+Convenors: Caterina Doglioni (ATLAS), Agnieszka Dziurda (LHCb), David Lange (CMS)
