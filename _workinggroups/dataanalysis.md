@@ -21,4 +21,4 @@ but can bring major gains.
 
 [Mandate](/organization/working-group-mandates.html).
 
-Convenors: Paul Laycock, Danilo Piparo, Andrea Rizzi
+Convenors: Paul Laycock (Belle II), Danilo Piparo (ROOT), Andrea Rizzi (CMS)
