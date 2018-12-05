@@ -10,7 +10,7 @@ redirect_from: /gsoc/gsoc2017.html
 
 ## Introduction
 
-Students who participated in the GSoC for 2017 were able to choose from various project proposals [here](#Projects).
+Students who participated in the GSoC for 2017 were able to choose from various project proposals.
 The HSF GSoC 2017 Administrators were Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a>
 
 *N.B.* This page **archives** the proposals from the 2017 Google Summer of Code. For information on the latest
@@ -72,6 +72,5 @@ GSoC please see [here](/activities/gsoc.html).
 [Full list of Mentors](/gsoc/{{page.year}}/mentors.html)
 
 ## Contact information (for students)
-Although GSoC 2017 has finished, please do not hesitate to contact us if you are 
+Although GSoC 2017 has finished, please do not hesitate to contact us if you are
 interested in the latest GSoC program using the HSF GSoC mailing list: [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
-

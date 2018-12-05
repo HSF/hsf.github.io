@@ -37,7 +37,7 @@ Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-pa
 | Security | - | No separate paper, see [CWP Roadmap](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"}, section 3.13 |
 | Software Development, Deployment and Validation | HSF-CWP-2017-13 | [arXiv](https://arxiv.org/abs/1712.07959){:target="_cwp_sddp"} |
 | Software Trigger and Event Reconstruction | HSF-CWP-2017-14	| [arXiv - Executive Summary](https://arxiv.org/abs/1802.08640){:target="_cwp_stersum"}; [arXiv - full document](https://arxiv.org/abs/1802.08638){:target="_cwp_ster"} |
-| Visualisation | HSF-CWP-2017-15 | [Google Doc](https://docs.google.com/document/d/1dtE2DEdYCWzPaEy_twgSCFdmGxphXMjMcOV0yjI4AKc/edit){:target="_cwp_visu"} |
+| Visualisation | HSF-CWP-2017-15 | [arXiv](https://arxiv.org/abs/1811.10309){:target="_cwp_visu"} |
 
 
 ## Talks
