@@ -39,7 +39,7 @@ Analyzing astronomical data with Apache Spark
 -   Re-partitioning in space is only one option - in general want to be
     able to repartition on arbitrary metrics:
     -   Need to build partition and then shuffle the data (2 phases).
-    -   USF = User Defined Function - this is difficult to optimise as
+    -   UDF = User Defined Function - this is difficult to optimise as
         it’s a black box for Spark.
 -   For C/C++ interfaces how to serialise?
     -   Contact Christan Arnault for this.
