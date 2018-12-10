@@ -87,7 +87,10 @@ Distributed data analysis with ROOT RDataFrame and Spark
     -   Problem is that Spark is doing this part and it doesn’t know how
         to break apart the tasks.
 -   ROOT is implemented as a UDF in Spark.
-    -   Required about 2k lines to adapt.
+    -   Certain parts of the original analysis code had to be adapted from an
+        imperative to a declarative programming model (offered by RDataFrame),
+        this reduced the code from 5000 to 4000 lines, of which about 3000
+        lines were unchanged from the original.
     -   Can pass arbitrary C++ to the JIT engine; calls libraries
         pre-installed onto CVMFS.
 
