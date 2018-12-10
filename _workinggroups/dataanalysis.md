@@ -20,3 +20,5 @@ analysis formats is a boundary condition to discuss with physics groups,
 but can bring major gains.
 
 [Mandate](/organization/working-group-mandates.html).
+
+Convenors: Paul Laycock (Belle II), Danilo Piparo (ROOT), Andrea Rizzi (CMS)

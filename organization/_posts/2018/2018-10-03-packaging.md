@@ -92,5 +92,5 @@ FNAL Spack Update
 
 AOB
 ===
--   With Pere and Guilherme’s updates we plan to have the [*next
-    meeting*](https://indico.cern.ch/event/762971/) in 2 weeks time.
+-   With Pere and Guilherme’s updates we plan to have the next
+    meeting in 2 weeks time.
