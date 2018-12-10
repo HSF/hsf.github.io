@@ -23,7 +23,8 @@ The goal of the WG is to discover common approaches, foster collaboration among 
 
 Here follows the description of the WG, its challenges and the questions which it should address, as defined by the WG itself during the Visualization session in the HSF Workshop in San Diego (see link in the meetings' list below).
 
-The first task of the WG is the planning and the writing of the [CWP](http://hepsoftwarefoundation.org/activities/cwp.html) chapter on Visualization, to draft the guidelines for the future HEP visualization tools, with a view of 5-10 years.
+The first task of the WG was the writing of a [common white paper](http://hepsoftwarefoundation.org/activities/cwp.html) about Visualization issues and challenges in HEP, and possible solutions, in a time scale of 5-10 years. The paper is now completed and published on arXiV: <https://arxiv.org/abs/1811.10309>.
+
 
 ### Scope of the WG activities
 
@@ -67,6 +68,8 @@ Topics for which we will have to interact with other WGs:
 ## Documents
 
 * Working Group's [charge document](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit), as defined by the WG in the January 2017 San Diego Workshop
+
+* HSG "Visualization" Community White Paper: <https://arxiv.org/abs/1811.10309>
 
 ----
 
