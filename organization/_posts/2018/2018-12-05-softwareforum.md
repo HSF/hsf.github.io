@@ -59,8 +59,6 @@ Analyzing astronomical data with Apache Spark
 
 Distributed data analysis with ROOT RDataFrame and Spark
 --------------------------------------------------------
--   Working with ROOT to establish working model for analysis for FCC
-    levels of data.
 -   In this case Spark does not do the reading - it’s the ROOT code
     running as a ‘black box’ on all of the mappers.
     -   Using Spark as a way of distributing work, so it’s quite simple;
@@ -84,8 +82,9 @@ Distributed data analysis with ROOT RDataFrame and Spark
 -   Want to avoid too much up-front tuning. Can you apply a task
     stealing approach, idle workers try to grab work from other busy
     tasks?
-    -   Problem is that Spark is doing this part and it doesn’t know how
-        to break apart the tasks.
+    -   Problem is that Spark is doing this part and it doesn’t know how to
+        break apart the tasks; however, final results can be improved by
+        choosing the correct granularity of the tasks.
 -   ROOT is implemented as a UDF in Spark.
     -   Certain parts of the original analysis code had to be adapted from an
         imperative to a declarative programming model (offered by RDataFrame),
