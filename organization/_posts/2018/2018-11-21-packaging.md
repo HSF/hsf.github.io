@@ -64,5 +64,4 @@ Portage - Update and Live Demo
 
 AOB
 ===
-- Next meeting: 5th December [*https://indico.cern.ch/event/772287/*](https://indico.cern.ch/event/772287/)
-
+- Next meeting: 5th December
