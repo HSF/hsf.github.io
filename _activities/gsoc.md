@@ -4,7 +4,7 @@ author: "Benedikt Hegner"
 layout: default
 ---
 
-# ![CERN](/images/CERN-logo.jpg){:height="100px"} ![HSF](/images/hsf_logo_angled.png){:height="100px"} Google Summer of Code
+# ![CERN](/images/CERN-logo.jpg){:height="100px"} ![HSF](/images/hsf_logo_angled.png){:height="100px"} Google Summer of Code 2019
 
 ## Introduction
 
@@ -24,27 +24,27 @@ To answer these questions, particle physicists build software to simulate and an
 
 The CERN software for experiments (CERN-SFT) group has participated in the GSoC since 2011. Since 2017 the program has expanded to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
 
-Information from last year’s GSoC can be found [here](/gsoc/2017/index.html). In 2018 CERN-HSF is again applying for participation in the program. 
+Information from last year’s GSoC can be found [here](/gsoc/2018/index.html). In 2019 CERN-HSF is again applying for participation in the program. 
 
 If you are interested in the GSoC program contact us using the HSF GSoC mailing list: [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
 
 Instructions for participating projects and mentors can be found [here](/gsoc/guideline.html).
 
-## Projects in 2018
+## Projects in 2019
 
-{% assign current_year = "2018" %}
+{% assign current_year = "2019" %}
 {% include gsoc_project_list.ext year=current_year %}
 
-## Participating Organizations in 2018
+## Participating Organizations in 2019
 
 {% include gsoc_organization_list.ext year=current_year %}
 
 ## Summary
 
-[Full list of Proposal Ideas](/gsoc/2018/summary.html)
+[Full list of Proposal Ideas](/gsoc/2019/summary.html)
 
-[Full list of Mentors](/gsoc/2018/mentors.html)
+[Full list of Mentors](/gsoc/2019/mentors.html)
 
 ---
 
-*HSF GSoC Administrators*: [Sergei Gleyzer](mailto:sergei@cern.ch), [Enric Tejedor Saavedra](mailto:etejedor@cern.ch) and [Antoine Perus](mailto:perus@lal.in2p3.fr).
+*HSF GSoC Administrators*: [Andrei Gheata](mailto:Andrei.Gheata@cern.ch), [Antoine Pérus](mailto:perus@lal.in2p3.fr) and [Javier Cervantes Villanueva](mailto:javier.cervantes.villanueva@cern.ch).
