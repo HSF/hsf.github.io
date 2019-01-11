@@ -33,4 +33,8 @@ GSoC please see [here](/activities/gsoc.html).
 
 ---
 
-*HSF GSoC Administrators*: [Sergei Gleyzer](mailto:sergei@cern.ch), [Enric Tejedor Saavedra](mailto:etejedor@cern.ch) and [Antoine Perus](mailto:perus@lal.in2p3.fr).
+## Contact information (for students)
+*HSF GSoC 2018 Administrators*: [Sergei Gleyzer](mailto:sergei@cern.ch), [Enric Tejedor Saavedra](mailto:etejedor@cern.ch) and [Antoine Perus](mailto:perus@lal.in2p3.fr).
+
+Although GSoC 2018 has finished, please do not hesitate to contact us if you are
+interested in the latest GSoC program using the HSF GSoC mailing list: [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
