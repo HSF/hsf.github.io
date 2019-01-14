@@ -13,7 +13,7 @@ Individual scientists are using the Ganga user interface as a frontend for perfo
 
 ## Task ideas
  * Demonstrate on a test bench that a task in Ganga can be executed within the docker container
- * Implement design of how virtualisation environment is defined for a user
+ * Implement design of how a virtualisation environment is defined for a user
  * Create abstract interface for virtualisation to support both Docker and Singularity
  * Create interface to the Dirac resource broker that will allow for use of virtual containers within the High Energy Physics community.
 
