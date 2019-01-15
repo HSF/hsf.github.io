@@ -8,7 +8,7 @@ layout: default
 
 ## Instructions for Adding a New Proposal
 
- * Option A: email GSoC administrators: [Andrei Gheata](mailto:Andrei.Gheata@cern.ch), [Antoine Pérus](mailto:perus@lal.in2p3.fr)  and [Javier Cervantes Villanueva](mailto:javier.cervantes.villanueva@cern.ch) 
+ * Option A: email GSoC [administrators](mailto:hsf-gsoc-admin@googlegroups.com) (currently: Andrei Gheata, Antoine Pérus and Javier Cervantes Villanueva)
  * Option B (via git): 
    * fork [git repository](https://github.com/HEP-SF/hep-sf.github.io) 
    * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (for example `proposal_ROOTspark.md`)

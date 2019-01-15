@@ -26,7 +26,7 @@ The CERN software for experiments (CERN-SFT) group has participated in the GSoC 
 
 Information from last year’s GSoC can be found [here](/gsoc/2018/index.html). In 2019 CERN-HSF is again applying for participation in the program. 
 
-If you are interested in the GSoC program contact us using the HSF GSoC mailing list: [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
+If you are interested in the GSoC program contact us using the HSF GSoC general mailing list: [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
 
 Instructions for participating projects and mentors can be found [here](/gsoc/guideline.html).
 
@@ -47,4 +47,6 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 
 ---
 
-*HSF GSoC Administrators*: [Andrei Gheata](mailto:Andrei.Gheata@cern.ch), [Antoine Pérus](mailto:perus@lal.in2p3.fr) and [Javier Cervantes Villanueva](mailto:javier.cervantes.villanueva@cern.ch).
+*HSF GSoC Administrators*: Andrei Gheata, Antoine Pérus and Javier Cervantes Villanueva.
+
+[Contact us](mailto:hsf-gsoc-admin@googlegroups.com)
