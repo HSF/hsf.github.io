@@ -30,8 +30,8 @@ Python, Docker
 
 ## Links
   * [Ganga](https://github.com/ganga-devs/ganga)
-  * [Singularity] (https://www.sylabs.io/)
-  * [DIRAC] (http://diracgrid.org/)
+  * [Singularity](https://www.sylabs.io/)
+  * [DIRAC](http://diracgrid.org/)
   
 
 {% include gsoc_project.ext %}
