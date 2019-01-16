@@ -1,0 +1,37 @@
+---
+title: "Physics Generators"
+layout: plain
+---
+
+The Physics Generators Working Group is a common forum for discussion and 
+technical work on the physics event generators used by HEP experiments.
+It promotes the collaboration of experimental and theoretical physicists from 
+different experiments and generator teams and of software and computing engineers,
+with the aim of having them work together on improving the current codes 
+and production workflows and on making new theoretical advances 
+easier to implement in a computationally efficient way.
+
+The working group was set up as a follow-up of the Physics Event Generator 
+Computing Workshop that was held at CERN in November 2018, during which 
+an initial program of work in this area was identified.
+The working group is currently coordinated by Andrea Valassi, Josh McFayden, 
+Stefan Hoeche, Steve Mrenna and Taylor Childers.
+
+### Physics Event Generator WG meetings and events
+
+   * WG meetings and Computing Workshop organization:
+indico [category](https://indico.cern.ch/category/8460)
+   
+   * Computing Workshop, CERN, 26-28 November 2018: 
+[agenda](https://indico.cern.ch/event/751693),
+[live notes](https://docs.google.com/document/d/1_EoyKI6-VhPbmTxaDqVtetlVq7zpRXMWTVIiB_un8Ys)
+   * Computing Workshop debriefing, CERN, 11 December 2018
+[agenda](https://indico.cern.ch/event/778521),
+[live notes](https://docs.google.com/document/d/1T9AUeh3Tdl1wbxC2kHtGUQ8DgnYD5X-t5S_vAWInfAc),
+HSF meeting [report](/organization/2018/12/13/coordination.html)
+      
+### Other resources
+
+   * Generator and theory CWP chapter draft:
+[Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
+(latest version from 11 November 2017 archived as [pdf](/cwp/2017-11-11-GeneratorWG-CWP-Chapter.pdf))
