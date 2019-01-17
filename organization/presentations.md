@@ -7,7 +7,7 @@ layout: default
 
 ## 2019
 
-* [Computing & Software work - recognition & citations in publications](http://hepsoftwarefoundation.org/assets/EduardoRodrigues-LHCb-2019-01-15.pdf), LHCb Weekly Meeting, 15 January 2019, Eduardo Rodrigues
+* [Computing & Software work - recognition & citations in publications](/assets/EduardoRodrigues-LHCb-2019-01-15.pdf), LHCb Weekly Meeting, 15 January 2019, Eduardo Rodrigues
 
 ## 2018
 
