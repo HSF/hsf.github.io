@@ -21,7 +21,7 @@ The [HSF Workshop at SDSC](http://indico.cern.ch/event/570249/) in January, 2017
 
 ### Challenges
 
-  As part of each WG charge, we should specify the expected challenges. From the [original CWP charge from WLCG](http://hepsoftwarefoundation.org/assets/CWP-Charge-HSF.pdf), we expect that most challenges will fall into three rough categories:
+  As part of each WG charge, we should specify the expected challenges. From the [original CWP charge from WLCG](/assets/CWP-Charge-HSF.pdf), we expect that most challenges will fall into three rough categories:
 
    1. to achieve improvements in software efficiency, scalability and performance and to make use of the advances in CPU, storage and network technologies
    2. to enable new approaches to computing and software that could radically extend the physics reach of the detectors
@@ -49,7 +49,7 @@ for wider feedback.
 
 ## CWP Roadmap
 
-The goal in 6 months is to produce a "Roadmap for HEP Software and Computing R&D for the 2020s" which responds to the [WLCG CWP charge](http://hepsoftwarefoundation.org/assets/CWP-Charge-HSF.pdf) as well as the HSF goal of being inclusive of the wider HEP community.
+The goal in 6 months is to produce a "Roadmap for HEP Software and Computing R&D for the 2020s" which responds to the [WLCG CWP charge](/assets/CWP-Charge-HSF.pdf) as well as the HSF goal of being inclusive of the wider HEP community.
 
 We need to be clear about defining priorities for the projects we need, how we will be organized to accomplish the projects and how these things fit in a timeline leading to the mid-2020s/HL-LHC era (but which runs through LHC Run 3 and other things in between).
 
