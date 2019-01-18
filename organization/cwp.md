@@ -25,12 +25,12 @@ Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-pa
 | ------- | --------------- | ------ |
 | CWP Roadmap | HSF-CWP-2017-01 | [arXiv](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"} |
 | Careers & Training	 | HSF-CWP-2017-02	| [arXiv](https://arxiv.org/abs/1807.02875){:target="_cwp_cst"} |
-| Conditions Data | HSF-CWP-2017-03	| [Google Doc](https://docs.google.com/document/d/1yTcw51TOc68DCZQ4AO7o1hBdkPbN5l52ysJgJXNnJl8/edit){:target="_cwp_cdb"} |
+| Conditions Data | HSF-CWP-2017-03	| [arXiv](https://arxiv.org/abs/1901.05429){:target="_cwp_cdb"} |
 | Data Organisation, Management and Access | HSF-CWP-2017-04	| [arXiv](https://arxiv.org/abs/1812.00761){:target="_cwp_doma"} |
 | Data Analysis and Interpretation | HSF-CWP-2017-05	| [arXiv](https://arxiv.org/abs/1804.03983){:target="_cwp_analysis"} |
 | Data and Software Preservation | HSF-CWP-2017-06 | [arXiv](https://arxiv.org/abs/1810.01191){:target="_cwp_dsp"} |
 | Detector Simulation | HSF-CWP-2017-07	| [arXiv](https://arxiv.org/abs/1803.04165){:target="_cwp_sim"} |
-| Event/Data Processing Frameworks | HSF-CWP-2017-08	| [Github](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-08_framework){:target="_cwp_fwk"} |
+| Event/Data Processing Frameworks | HSF-CWP-2017-08	| [arXiv](https://arxiv.org/abs/1812.07861){:target="_cwp_fwk"} |
 | Facilities and Distributed Computing | HSF-CWP-2017-09	| [Google Doc](https://docs.google.com/document/d/1dm5vxejQrKZ19Y-pBLaqBcI_Z_yEN6S0N3Z4UonoTn8/edit?usp=sharing){:target="_cwp_fdc"} |
 | Machine Learning | HSF-CWP-2017-10	| [arXiv](https://arxiv.org/abs/1807.02876){:target="_cwp_ml"} |
 | Physics Generators | - | No separate paper, see [CWP Roadmap](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"}, section 3.1 |

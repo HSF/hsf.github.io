@@ -11,6 +11,8 @@ layout: default
 
 ## 2018
 
+* [HEP Software Foundation](https://indico.ific.uv.es/event/3438/contributions/9763/attachments/6464/7304/COMCHA_HSF_Presentation.pdf), Spanish Computing Challenges Meeting (COMCHA), 12 September 2018, Graeme Stewart
+* [Future opportunities and challenges for software in HEP](https://indico.cern.ch/event/730568/contributions/3011127/attachments/1690167/2719313/Software-Opportunities-and-Challenges.pdf), ECFA Plenary Meeting, 20 July 2018, Graeme Stewart
 * [HSF Community White Paper: Lessons and Future Work](https://indico.cern.ch/event/587955/contributions/3012294/attachments/1681524/2708636/CHEP18_-_CWP_Lessons_and_Future_Work.pdf), [CHEP2018 Plenary Talk](https://indico.cern.ch/event/587955/timetable/#20180711), 11 July 2018, Michel Jouvin
 * [HSF R&D and Activities after Naples](https://indico.cern.ch/event/740548/attachments/1676548/2692723/HSF_RD_and_Activities.pdf), ATLAS S&C Week, 25 June 2018, Graeme Stewart
 * [Update from HSF](https://www.jlab.org/indico/event/264/session/8/contribution/19/material/slides/0.pdf), [EIC Software Consortium Meeting](https://www.jlab.org/indico/event/264/other-view?view=standard), 17 May 2018, Graeme Stewart
