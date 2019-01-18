@@ -17,7 +17,7 @@ With the recent development of fast and general engine such as [Apache Spark](ht
 
 ## Task ideas
 
-Following the [GeoSpark](http://geospark.datasyslab.org) approach, we propose to extend its
+Following the GeoSpark (http://geospark.datasyslab.org) approach, we propose to extend its
 construction (based on Apache Spark) with a set of out-of-the-box 3D Spatial Resilient Distributed Datasets that deal efficiently with large-scale 3D data sets across machines.
 A special attention will be put in developing geometrical and Spatial Queries for 3D data sets (indexation, location, aggregation, join), including the benchmarking on existing data sets.
 
@@ -38,4 +38,4 @@ Ultimately, the developments will be integrated in an Apache Spark-based framewo
 
 ## Links
   * [Spark](http://spark.apache.org)
-  * [GeoSpark](http://geospark.datasyslab.org)
+  * GeoSpark (http://geospark.datasyslab.org)
