@@ -41,8 +41,7 @@ David Lange
   -  Please advertise again in your community.
   -  There is a
     [<span class="underline">poster</span>](https://indico.cern.ch/event/759388/attachments/1770924/2877653/HOW2019.pdf)
-    that can be printed and put on your local notice
-boards.
+    that can be printed and put on your local notice boards.
 
 ### Session Planning (see [<span class="underline">block timetable</span>](https://indico.cern.ch/event/759388/timetable/#all))
   -  Reminder: David Lange, Michel Jouvin and Graeme Stewart organising
@@ -68,43 +67,43 @@ boards.
           - Heather: It would be useful to get feedback about which
         topics should be plenary vs more technical (I suspect that
         most of the topics that we have would be of quite general
-        interest)
-          -  fast simulation
-          -  physics models
-          -  common geometry tools
-          -  pile-up
-          -  vectorisation (Andrei)
-          -  common geometry tools
-          -  simulation code on new architectures (particularly g4)
+        interest).
+          -  fast simulation.
+          -  physics models.
+          -  common geometry tools.
+          -  pile-up.
+          -  vectorisation (Andrei).
+          -  common geometry tools.
+          -  simulation code on new architectures (particularly g4).
       -  Reconstruction (2 slots, 1 “parallel”)
-          -  Brainstorming on topics, converging on Tuesday
+          -  Brainstorming on topics, converging on Tuesday.
           -  Question on whether there could be more non-HEP-specific
             talks (we have contacts from recent ITNs on interesting
-            topics)
+            topics).
           -  Initial topics (we will trim down/add, this is to see
             overlap with other sessions):
-              -  Hybrid architectures and accelerators for triggers
-              -  ML for reconstruction
-              -  ML for trigger
+              -  Hybrid architectures and accelerators for triggers.
+              -  ML for reconstruction.
+              -  ML for trigger.
                   -  Connect to DarkMachines effort (some people from
-                    Unsupervised Learning group based in the US)
-              -  LHC: Run-3 preparations and expectations
-              -  HL-LHC: Updates on TDRs
+                    Unsupervised Learning group based in the US).
+              -  LHC: Run-3 preparations and expectations.
+              -  HL-LHC: Updates on TDRs.
               -  Beyond colliders: what are smaller experiments
                 planning / doing (use Physics Beyond Colliders
-                platform to advertise a call for talks)
+                platform to advertise a call for talks).
       -  Analysis (2 slots, 1 “parallel”)
-          -  Using events at CERN to help plan contribution (see below)
+          -  Using events at CERN to help plan contribution (see below).
       -  Software Tools (1 slot)
           -  Martin, Giulio and Serhan will discuss next week.
           -  Overlaps with analysis are interesting.
       -  Education and Training (1 slot)
           -  Initial thoughts from Sudhir/Dario:
               -  Highlight ramping of US centric training efforts
-            FIRST-HEP/IRIS-HEP
-              -  How can these efforts be expanded to Europe and beyond
+            FIRST-HEP/IRIS-HEP.
+              -  How can these efforts be expanded to Europe and beyond.
               -  Invite speakers/European counterparts (people who might
-            lead efforts there - NOT adhoc basis)
+            lead efforts there - NOT adhoc basis).
                   -  Now that ITN deadline for European graduate schools
                 has passed maybe we can talk about them as a source of
                 coordinated effort (and maybe a step towards bigger
@@ -116,14 +115,14 @@ boards.
             rest for 2 topical presentations, leaving the last 20
             minutes for an open discussion (e.g.: activities in 2019,
             community interests).
-      -  One spillover BoF slot
+      -  One spillover BoF slot.
 
 ## Activity and Working Group Updates
 General points:
   -  There is now a mailing list for all working group convenors
-      -  hsf-wg-convenors (at) googlegroups.com
+      -  hsf-wg-convenors (at) googlegroups.com.
           -  This is postable by all (does anyone know how to restrict
-            posting to members of other groups, like hsf-forum?)
+            posting to members of other groups, like hsf-forum?).
       -  If you are involved in a WG and did not get an email then
         please let Graeme know.
       -  We will allow this group to be able to edit the
@@ -144,8 +143,8 @@ General points:
 
 ### Data Analysis
   -  Preparing 2 events at CERN:
-      -  23 Jan - what analysers distill from their experience
-      -  13 Feb - technology used for analysis
+      -  23 Jan - what analysers distill from their experience.
+      -  13 Feb - technology used for analysis.
 
 ### Detector Simulation
   -  We’ve been working on the agenda for the fast simulation session
@@ -157,7 +156,7 @@ General points:
     learning for fast simulation.
 
 ### Reconstruction and Software Triggers
-  -  We aim to have the first meeting: February 6th
+  -  We aim to have the first meeting: February 6th.
   -  Changed name of the mailing list:
     [<span class="underline">https://groups.google.com/forum/\#\!forum/hsf-recotrigger</span>](https://groups.google.com/forum/#!forum/hsf-recotrigger)
   -  We discussed among ourselves potential topics for the HSF/WCLG
@@ -196,8 +195,8 @@ General points:
 
 ### PyHEP
   -  Graeme is stepping down since over-committed. But will keep
-    contributing when possible - thank you so much, Graeme\!
-  -  Welcome to Jim Pivarski to the conveners team\!
+    contributing when possible - thank you so much, Graeme!
+  -  Welcome to Jim Pivarski to the conveners team!
 
 ## CWP
 
