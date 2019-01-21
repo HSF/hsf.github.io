@@ -5,7 +5,7 @@ project: CMS
 year: 2019
 organization: 
   - Cornell
-  - CNRS/IN2P3
+  - LPC-Clermont
 ---
 
 ## Description
