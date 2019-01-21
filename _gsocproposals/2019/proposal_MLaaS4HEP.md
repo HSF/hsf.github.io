@@ -5,7 +5,7 @@ project: CMS
 year: 2019
 organization: 
   - Cornell
-  - Université Clermont Auvergne
+  - CNRS/IN2P3
 ---
 
 ## Description
