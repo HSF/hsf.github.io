@@ -1,5 +1,5 @@
 ---
-title: PyHEP - "Python in HEP"
+title: PyHEP - Python in HEP
 layout: plain
 redirect_from:
   - /activities/pyhep.html
