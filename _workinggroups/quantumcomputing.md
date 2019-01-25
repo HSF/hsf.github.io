@@ -1,7 +1,9 @@
 ---
 title: "Quantum Computing"
+author: "Riccardo Maria Bianchi"
 layout: plain
 ---
+
 
 # The HSF Quantum Computing working group
 
