@@ -1,8 +1,8 @@
 ---
 title: "Visualization"
 author: "Riccardo Maria Bianchi"
-layout: default
-redirect_from: /activities/training.html
+layout: plain
+redirect_from: /activities/visualization.html
 ---
 
 # Visualization
