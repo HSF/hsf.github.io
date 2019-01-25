@@ -77,15 +77,15 @@ Topics for which we will have to interact with other WGs:
 
 ### HSF Mini-workshop on GUI, graphic libraries, interactive visualization, CERN, 7 April 2017
 
-* Agenda: https://indico.cern.ch/event/628675/
+* [Agenda](https://indico.cern.ch/event/628675/)
 
 ### HSF Visualization Workshop, CERN, 28-30 March 2017
 
-* Agenda: https://indico.cern.ch/event/617054/
+* [Agenda](https://indico.cern.ch/event/617054/)
 * Discussion's [Live notes](https://indico.cern.ch/event/617054/contributions/2526122/attachments/1436308/2208777/go)
 
 ### HSF Workshop, San Diego, 23-26 January 2017
 
-* Workshop agenda: https://indico.cern.ch/event/570249/
+* [Workshop agenda](https://indico.cern.ch/event/570249/)
 * Visualization session's [agenda](https://indico.cern.ch/event/570249/sessions/217071/#20170125)
 * All the [contributions](https://indico.cern.ch/event/570249/contributions/2450053/)
