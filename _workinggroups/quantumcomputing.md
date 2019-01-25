@@ -17,7 +17,8 @@ Kick-starters: *Riccardo Maria BIANCHI* (ATLAS), *Sebastien BINET* (LSST, ALICE,
 
 ## Contacts
 
-- Mailing list: [hsf-quantumcomputing-wg@googlegroups.com](hsf-quantumcomputing-wg@googlegroups.com)
+- Convenors: [hsf-quantumcomputing-wg-convenors@googlegroups.com](mailto:hsf-quantumcomputing-wg-convenors@googlegroups.com)
+- Working group's mailing list: [hsf-quantumcomputing-wg@googlegroups.com](hsf-quantumcomputing-wg@googlegroups.com)
 )
 
 ----
