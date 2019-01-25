@@ -11,7 +11,7 @@ layout: default
  * Option A: email GSoC [administrators](mailto:hsf-gsoc-admin@googlegroups.com) (currently: Andrei Gheata, Antoine Pérus and Javier Cervantes Villanueva)
  * Option B (via git): 
    * fork [git repository](https://github.com/HEP-SF/hep-sf.github.io) 
-   * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (for example `proposal_ROOTspark.md`)
+   * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (for example [`proposal_ROOTspark.md`](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocproposals/2018/proposal_ROOTspark.md))
    * add a front matter as given in this
    [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocprojects/2019/project_HSF.md)
       * Make sure the `year` attribute is correct for your proposal
