@@ -5,8 +5,6 @@ layout: plain
 ---
 
 
-# The HSF Quantum Computing working group
-
 ## Introduction
 
 The Quantum Computing Working Group fosters collaboration among the HEP experiments and institutes to exploit the possibilities offered by quantum computing.
@@ -19,7 +17,6 @@ Kick-starters: *Riccardo Maria BIANCHI* (ATLAS), *Sebastien BINET* (LSST, ALICE,
 
 - Convenors: [hsf-quantumcomputing-wg-convenors@googlegroups.com](mailto:hsf-quantumcomputing-wg-convenors@googlegroups.com)
 - Working group's mailing list: [hsf-quantumcomputing-wg@googlegroups.com](hsf-quantumcomputing-wg@googlegroups.com)
-)
 
 ----
 
