@@ -5,8 +5,6 @@ layout: plain
 ---
 
 
-## Introduction
-
 The Quantum Computing Working Group fosters collaboration among the HEP experiments and institutes to exploit the possibilities offered by quantum computing.
 
 Quantum computing is a very active research field and prototype computers, simulators, and toolkits are now available. The participants in the working group share experiences, ideas, know-how, demonstrators, code snippets, and documents with the aim of fostering common research and development in this field, for the benefit of the HEP community.
