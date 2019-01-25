@@ -17,7 +17,7 @@ Kick-starters: *Riccardo Maria BIANCHI* (ATLAS), *Sebastien BINET* (LSST, ALICE,
 
 ## Repository
 
-You can find code snippets and demonstrators in the working group's GitHub repository: <https://github.com/HSF/quantum-computing>. All code, unless differently specified, is released under the Apache 2.0 license. 
+You can find code snippets and demonstrators in the [working group's GitHub repository](https://github.com/HSF/quantum-computing).
 
 ----
 
