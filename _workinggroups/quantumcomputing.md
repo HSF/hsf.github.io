@@ -15,6 +15,11 @@ Quantum computing is a very active research field and prototype computers, simul
 
 Kick-starters: *Riccardo Maria BIANCHI* (ATLAS), *Sebastien BINET* (LSST, ALICE, LPC), *Riccardo DI SIPIO* (ATLAS), *Lukas HEINRICH* (ATLAS), *Maurizio PIERINI* (CMS)
 
+## Contacts
+
+- Mailing list: [hsf-quantumcomputing-wg@googlegroups.com](hsf-quantumcomputing-wg@googlegroups.com)
+)
+
 ----
 
 ## Repository
