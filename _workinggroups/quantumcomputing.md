@@ -11,10 +11,7 @@ The Quantum Computing Working Group fosters collaboration among the HEP experime
 
 Quantum computing is a very active research field and prototype computers, simulators, and toolkits are now available. The participants in the working group share experiences, ideas, know-how, demonstrators, code snippets, and documents with the aim of fostering common research and development in this field, for the benefit of the HEP community.
 
-
-[Mandate](/organization/working-group-mandates.html).
-
-Kick-starters: Riccardo Maria BIANCHI (ATLAS), Sebastien BINET (LSST, ALICE, LPC), Riccardo DI SIPIO (ATLAS), Lukas HEINRICH (ATLAS), Maurizio PIERINI (CMS)
+Kick-starters: *Riccardo Maria BIANCHI* (ATLAS), *Sebastien BINET* (LSST, ALICE, LPC), *Riccardo DI SIPIO* (ATLAS), *Lukas HEINRICH* (ATLAS), *Maurizio PIERINI* (CMS)
 
 ----
 
