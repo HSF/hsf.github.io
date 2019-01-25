@@ -13,6 +13,14 @@ The WG has been started in October 2016 and it is convened by Riccardo Maria Bia
 
 All are welcome to join the WG and participate!
 
+## Contacts
+
+Convenor: [Riccardo Maria BIANCHI](mailto:riccardo.maria.bianchi@cern.ch) (ATLAS)
+
+Mailing list: [hsf-visualization-wg@googlegroups.com](mailto:hsf-visualization-wg@googlegroups.com)
+
+----
+
 ## Goal
 
 The goal of the WG is to discover common approaches, foster collaboration among HEP experiments and groups, plan future software development and developing common tools. 
