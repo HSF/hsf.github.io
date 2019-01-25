@@ -32,6 +32,3 @@ Python
 
 ## Links
   * [Ganga](https://github.com/ganga-devs/ganga)
-  
-
-{% include gsoc_project.ext %}
