@@ -5,8 +5,6 @@ layout: plain
 redirect_from: /activities/visualization.html
 ---
 
-# Visualization
-
 The Visualization Working Group (WG) gathers experts, develeopers, users and all people from the HEP community interested in interactive data visualization and event displays. 
 
 The WG has been started in October 2016 and it is convened by Riccardo Maria Bianchi (*University of Pittsburgh, US*, ATLAS Experiment). 
