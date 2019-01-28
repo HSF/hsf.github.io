@@ -16,7 +16,7 @@ Most particle physics analysis today is performed by physicists writing programs
   * branchy code (frequent `if` statements) make poor use of Single Instruction Multiple Data (SIMD) devices;
   * there's a steep trade-off between interactive analysis in Python and fast execution in C++.
 
-In other academic fields and in data science, these issues are avoided by expressing analysis logic in SQL or a suite of array operations like MATLAB or Numpy. Particle physics, however, relies crucially on variable-sized, nested data structures that don't fit neatly into tables or arrays. Every proton collision at the LHC produces a different number of electrons, gluons, and quarks with complex interrelationships.
+In other academic fields and in data science, these issues are avoided by expressing analysis logic in SQL or a suite of array operations in MATLAB or Numpy. Particle physics, however, relies crucially on variable-sized, nested data structures that don't fit neatly into tables or arrays. Every proton collision at the LHC produces a different number of electrons, gluons, and quarks with complex interrelationships.
 
 We have been developing extensions to array programming concepts for nested, heterogeneous, and cross-linked data in a library called [awkward-array](https://github.com/scikit-hep/awkward-array). This library follows the syntax of Numpy, but for complex structures:
 
