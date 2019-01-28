@@ -40,8 +40,8 @@ The code development will predominantly be in C++.
  * Demonstration/validation of the implemented software.
 
 ## Requirements
-C++
-Python
+ * C++
+ * Python
 
 ## Mentors 
   * [Alaettin Serhan Mete](mailto:serhanmete@gmail.com)
@@ -50,5 +50,3 @@ Python
 
 ## Links
   * [Athena](https://gitlab.cern.ch/atlas/athena)
-
-{% include gsoc_project.ext %}
