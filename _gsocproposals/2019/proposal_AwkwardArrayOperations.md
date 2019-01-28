@@ -11,7 +11,7 @@ organization:
 
 Most particle physics analysis today is performed by physicists writing programs to traverse nested data structures. These one-time analysis programs suffer from several issues:
 
-  * data structures linked with pointers or references are non-sequential in memory;
+  * data structures linked with pointers/references are non-sequential in memory;
   * dynamic memory allocation (to make nested data) is not even possible on some devices, such as GPUs;
   * branchy code (frequent `if` statements) make poor use of Single Instruction Multiple Data (SIMD) devices;
   * there's a steep trade-off between interactive analysis in Python and fast execution in C++.
