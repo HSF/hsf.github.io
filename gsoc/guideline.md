@@ -15,6 +15,9 @@ layout: default
    * add a front matter as given in this
    [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocprojects/2019/project_HSF.md)
       * Make sure the `year` attribute is correct for your proposal
+   * add an organiation description to the current year folder (if not already done) as given in this [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocorgs/2019/cern.md):
+      * It can be copied from last year if still valid
+      * Add a logo to [images](https://github.com/HSF/hsf.github.io/tree/master/images)
    * update the list of mentors (`gsoc/YEAR/mentors.md`)
       * Follow this format: `[YOUR@MAIL](mailto:YOUR@MAIL>) YOURORGANIZATION`
    * make a pull request
