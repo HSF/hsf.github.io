@@ -46,6 +46,8 @@ In this project, we would like you to create a library of precompiled awkward-ar
   * Possibly incorporate a SIMD library, such as [Vc](https://github.com/VcDevel/Vc), [VecOps](https://root.cern.ch/doc/v614/group__tutorial__vecops.html), or [xsimd](https://github.com/QuantStack/xsimd) for CPU vectorization.
   * Possibly incorporate awkward-array operations into [Pandas](https://pandas.pydata.org).
 
+_(Not all of the above are possible in one summer.)_
+
 ## Expected results
 
 By the end of the summer, we would like to see a well-established library structure. Even if the set of implemented operations is incomplete, it should be clear how the library will grow and be maintained.
