@@ -34,7 +34,7 @@ We have been developing extensions to array programming concepts for nested, het
  [{'x': 106, 'y': {'z': 107}}, None, {'x': 108, 'y': {'z': 109}}]]
 ```
 
-Like Numpy, a single expression performs calculations across a whole dataset (alleviating the tradeoff between interactivity and performance) that is contiguous by type ([column-oriented data](https://towardsdatascience.com/the-beauty-of-column-oriented-data-2945c0c9f560)) and are fully portable to GPUs. Our set of awkward-array operations is broader than those needed for flat-array processing, and we are discovering new operations by translating traditional particle physics programs into array-centric scripts.
+Like Numpy, a single expression performs calculations across a whole dataset (alleviating the tradeoff between interactivity and performance) that is contiguous by type ([column-oriented data](https://towardsdatascience.com/the-beauty-of-column-oriented-data-2945c0c9f560)) in a way that is fully portable to GPUs. Our set of awkward-array operations is broader than those needed for flat-array processing, and we are discovering new operations by translating traditional particle physics programs into array-centric scripts.
 
 In this project, we would like you to create a library of precompiled awkward-array operations. Our current implementation of awkward-array is built in pure Numpy, which is portable but not as efficient as dedicated routines. The project will focus on good software engineering principles to build a maintainable infrastructure. We don't expect an optimized implementation of every operation by the end of the summer, just a clearly organized space to put new implementations when we need them.
 
