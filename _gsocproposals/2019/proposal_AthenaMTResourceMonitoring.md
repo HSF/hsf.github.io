@@ -24,7 +24,7 @@ It is essentialy to closely monitor the cpu, memory, and disk usage, identify th
 Failing this, repercussions as sever as loosing data can arise.
 
 Current Athena infrastruction that is in place to monitor the resoruce usage of ATLAS jobs can only handle single-thread tasks.
-The goal of this project is to upgrade the Athena monitoring infrastruction such that it can handle MT jobs, natively.  
+The goal of this project is to upgrade the Athena monitoring infrastruction such that it can handle MT jobs, natively.
 Although the monitoring software is closely tied to the Gaudi/Athena frameworks, it would require some minimal understand of the underlying code base.
 However, the project is expected to be fairly self-contained. 
 The code development will predominantly be in C++. 
