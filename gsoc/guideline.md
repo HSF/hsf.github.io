@@ -11,10 +11,15 @@ layout: default
  * Option A: email GSoC [administrators](mailto:hsf-gsoc-admin@googlegroups.com) (currently: Andrei Gheata, Antoine Pérus and Javier Cervantes Villanueva)
  * Option B (via git): 
    * fork [git repository](https://github.com/HEP-SF/hep-sf.github.io) 
-   * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (for example `proposal_ROOTspark.md`)
+   * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (look at this example: [`proposal_ROOTspark.md`](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocproposals/2018/proposal_ROOTspark.md))
    * add a front matter as given in this
    [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocprojects/2019/project_HSF.md)
       * Make sure the `year` attribute is correct for your proposal
+   * add an organiation description to the current year folder (if not already done) as given in this [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocorgs/2019/cern.md):
+      * It can be copied from last year if still valid
+      * Add a logo to [images](https://github.com/HSF/hsf.github.io/tree/master/images)
+   * update the list of mentors (`gsoc/YEAR/mentors.md`)
+      * Follow this format: `[YOUR@MAIL](mailto:YOUR@MAIL>) YOURORGANIZATION`
    * make a pull request
 
 **Every proposal must be attached to an organization (e.g. CERN, Fermilab...) and to a project (e.g. ROOT, GeantV...).** If you add your own proposal yourself, be sure add the appropriate `organization` and `project` attributes (not case sensitive) in the *front-matter* section of the proposal. See next sections if you need to add a new organization or project but if you use an existing project and organization for your proposal you don't have to do anything else that what was described above.
