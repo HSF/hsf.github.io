@@ -19,7 +19,7 @@ layout: default
       * It can be copied from last year if still valid
       * Add a logo to [images](https://github.com/HSF/hsf.github.io/tree/master/images)
    * update the list of mentors (`gsoc/YEAR/mentors.md`)
-      * Follow this format: `[YOUR@MAIL](mailto:YOUR@MAIL>) YOURORGANIZATION`
+      * Follow this format: `YOURNAME [YOUR@MAIL](mailto:YOUR@MAIL) YOURORGANIZATION`
    * make a pull request
 
 **Every proposal must be attached to an organization (e.g. CERN, Fermilab...) and to a project (e.g. ROOT, GeantV...).** If you add your own proposal yourself, be sure add the appropriate `organization` and `project` attributes (not case sensitive) in the *front-matter* section of the proposal. See next sections if you need to add a new organization or project but if you use an existing project and organization for your proposal you don't have to do anything else that what was described above.
