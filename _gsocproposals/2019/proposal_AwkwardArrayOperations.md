@@ -67,6 +67,5 @@ By the end of the summer, we would like to see a well-established library struct
 ## Links
 
   1. [awkward-array](https://github.com/scikit-hep/awkward-array)
-  2. [uproot](https://github.com/scikit-hep/uproot)
-  3. [Introduction to array-centric analysis for physicists](https://github.com/jpivarski/jupyter-talks/blob/master/2018-09-28-uproot3-update/uproot-3-evaluated.ipynb)
-  4. [Presentation on array-centric analysis for physicists](https://indico.cern.ch/event/745288/contributions/3080203/attachments/1748811/2832682/pivarski-hsf-numpy.pdf)
+  2. [Introduction to array-centric analysis for physicists](https://github.com/jpivarski/jupyter-talks/blob/master/2018-09-28-uproot3-update/uproot-3-evaluated.ipynb)
+  3. [Presentation on array-centric analysis for physicists](https://indico.cern.ch/event/745288/contributions/3080203/attachments/1748811/2832682/pivarski-hsf-numpy.pdf)
