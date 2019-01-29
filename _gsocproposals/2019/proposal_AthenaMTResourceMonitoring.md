@@ -18,7 +18,7 @@ It is written in C++ and Python and based on the [Gaudi](https://gitlab.cern.ch/
 As part of the readiness for the LHC Run-3 data-taking that is expected to begin in 2021, the Athena framework is being upgraded to run in multi-threaded (MT) enviroment, the project is also named AthenaMT.  
 
 ## Description
-It goes without saying that measuring and profiling the software performance of the ATLAS code is of utmost importance. 
+Performance of ATLAS simulation and reconstruction code is of immense importance in order to work with ever-growing datasets within constrained computing resources, ever more so as we look forward to data from HL-LHC.
 It does not only guide the developers to improve the quality of the software but also ensures the ATLAS production workflows can run smoothly on the existing computing infrastructure.
 It is essentialy to closely monitor the cpu, memory, and disk usage, identify the bootlenecks as they appear and fix the issues immediately.
 Failing this, repercussions as sever as loosing data can arise.
