@@ -5,6 +5,7 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
+* Chris Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) LAL
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Julien Peloton [peloton@lal.in2p3.fr](mailto:peloton@lal.in2p3.fr) LAL
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
