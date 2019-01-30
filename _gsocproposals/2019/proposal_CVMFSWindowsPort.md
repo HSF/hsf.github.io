@@ -31,5 +31,5 @@ A usable ProjFS file system that can mount and read from a CernVM-FS repository 
 
 ## Links
   1. [CVMFS](https://github.com/cvmfs/cvmfs)
-  2. [Microsof Projected File System](thttps://docs.microsoft.com/en-us/windows/desktop/projfs/projected-file-system)
+  2. [Microsof Projected File System](https://docs.microsoft.com/en-us/windows/desktop/projfs/projected-file-system)
   3. [Git virtual file system](http://cern.ch/go/Qb8m)
