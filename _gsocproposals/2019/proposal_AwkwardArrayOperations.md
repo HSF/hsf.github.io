@@ -55,9 +55,9 @@ By the end of the summer, we would like to see a well-established library struct
 ## Desirable Skills
 
   * Good software engineering practices; well-organized coding.
-  * Fluency in modern C++ and enough familiarity with Python to bridge the gap. (CUDA/GPU programming is optional.)
   * Rigorous testing and documentation.
-  * Interest in data structures and optimization.
+  * Fluency in modern C++ programming and familiarity with Python packaging. (Experience with CUDA/GPU programming is optional.)
+  * Interest in data structures and optimization. (Experience in code optimization is optional: we're more interested in well-organized code than fast code.)
 
 ## Mentors
 
