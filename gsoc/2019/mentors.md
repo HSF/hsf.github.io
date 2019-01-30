@@ -5,6 +5,7 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
+* Chris Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) LAL
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC-Clermont
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
