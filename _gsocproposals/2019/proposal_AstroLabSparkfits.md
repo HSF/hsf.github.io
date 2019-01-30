@@ -1,5 +1,5 @@
 ---
-title: Apache Spark: migrating FITS Data Source API to V2
+title: Migrating Apache Spark FITS Data Source API to V2
 layout: gsoc_proposal
 project: AstroLab
 year: 2019
