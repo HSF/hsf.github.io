@@ -3,7 +3,9 @@ title: Development of a ONNX - ROOT converter
 layout: gsoc_proposal
 project: TMVA
 year: 2019
-organization: CERN
+organization:
+  - CERN
+  - KIT
 ---
 
 ## Description
