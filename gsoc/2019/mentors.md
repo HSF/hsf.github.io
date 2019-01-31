@@ -5,6 +5,7 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
+* Guilherme Amadio [guilherme.amadio@cern.ch](mailto:guilherme.amadio@cern.ch) CERN
 * Chris Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) LAL
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC-Clermont
 * Gabriele Cosmo [gabriele.cosmo@cern.ch](mailto:gabriele.cosmo@cern.ch) CERN
