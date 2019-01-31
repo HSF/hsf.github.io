@@ -3,7 +3,7 @@ title: "Detector Simulation"
 layout: plain
 ---
 
-The Detector Simulation Working Group will consider approaches to making
+The Detector Simulation Working Group considers approaches to making
 detector simulation faster and more accurate for HEP experiments.
 Simulation that produces a traditional digitised detector output, as
 well as more radical approaches to generate reconstruction or analysis
@@ -16,4 +16,7 @@ technologies) are an important area of work.
 
 [Mandate](/organization/working-group-mandates.html).
 
-Convenors: Gloria Corti (LHCb), Heather Gray (ATLAS), Witek Pokorski (Geant4)
+The group's meeting page is [in Indico](https://indico.cern.ch/category/10916/) and
+discussions are held on the [hsf-simulation](https://groups.google.com/forum/#%21forum/hsf-simulation) list.
+
+Convenors: Gloria Corti (LHCb) <mailto:Gloria.Corti@cern.ch>, Heather Gray (ATLAS) <mailto:heather.gray@cern.ch>, Witek Pokorski (Geant4) <mailto:Witold.Pokorski@cern.ch>
