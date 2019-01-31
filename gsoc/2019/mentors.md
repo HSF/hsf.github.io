@@ -11,7 +11,7 @@ layout: plain
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Sebastien Gadrat [sebastien.gadrat@cc.in2p3.fr](mailto:sebastien.gadrat@cc.in2p3.fr) CC-IN2P3
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
-* Mihaela Gheata [mihaela.gheata@cern.ch](mailto:mihaela.gheata@cern.ch) CERN/ISS Bucharest
+* Mihaela Gheata [mihaela.gheata@cern.ch](mailto:mihaela.gheata@cern.ch) CERN/ISS
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Julien Peloton [peloton@lal.in2p3.fr](mailto:peloton@lal.in2p3.fr) LAL
