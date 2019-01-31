@@ -28,7 +28,7 @@ Mask R-CNN implementation.
 ## Task ideas and expected results
  * Start with the original implementation on our GPUs platform
  * Extend to 3D the core of the implementation (ResNet50/ResNet101).
-   Transform RGB values (int) to one gray value (float). Tests/Validation.
+ * Transform RGB values (int) to one gray value (float). Tests/Validation.
  * Extend to 3D the Feature Pyramid Network (FPN) module. Tests/Validation.
  * Extend to 3D the Region Proposal Network (RPN) with anchor extensions.
    Test/Validations.
