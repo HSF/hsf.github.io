@@ -1,5 +1,5 @@
 ---
-title: Multi-thread safe resource monitoring infrastucture for the ATLAS experiment
+title: Multi-thread safe resource monitoring infrastructure for the ATLAS experiment
 layout: gsoc_proposal
 project: ATLAS
 year: 2019
