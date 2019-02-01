@@ -143,5 +143,11 @@ if __name__ == '__main__':
  
 EOF
 
+#echo Tidying up ${file}.md using sed
+
+\mv ${file}.md ${file}.md.bak
+
+cat ${file}.md.bak | sed "s/ - > / - /" > ${file}.md
+
 \rm ${file}.md.bak
 
