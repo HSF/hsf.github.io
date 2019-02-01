@@ -1,5 +1,5 @@
 ---
-title: CERNBox: Bring Your Own Application
+title: "CERNBox: Bring Your Own Application"
 layout: gsoc_proposal
 project: CERNBox
 year: 2019
