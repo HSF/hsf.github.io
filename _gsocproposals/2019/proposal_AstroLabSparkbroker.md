@@ -42,5 +42,4 @@ Ultimately, the developments will be integrated in the Apache Spark-based broker
 1. [Apache Kafka](https://kafka.apache.org/)
 2. [Apache Spark](https://spark.apache.org/)
 3. [AstroLab Software](https://astrolabsoftware.github.io/)
-4. 
 
