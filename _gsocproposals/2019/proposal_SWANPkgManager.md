@@ -12,7 +12,7 @@ organization:
 
 Thanks to CERNBox, SWAN has integrated sharing functionality inside its interface, allowing users to share "projects" between themselves thus fostering collaborative analysis. Due to the centrally managed software, provided by CVMFS, a user trying to open the shared notebook doesn’t have to worry about compatibility with its software stack, since they are the same. However, SWAN is also used by users who need to install their own packages, breaking this seamless sharing experience.
 
-With this problem in mind, this project aims to provide a package manager for SWAN (in the shape of a Jupyterlab extension), that will allow users to keep track of the packages needed by its "projects", thus also allowing others to seamless install everything needed.
+With this problem in mind, this project aims to provide a package manager for SWAN (in the shape of a Jupyterlab extension), that will allow users to keep track of the packages needed by their "projects", thus also allowing others to seamless install everything needed.
 
 ## Task ideas
   * Create a Jupyter interface extension to specify the names and versions of the packages required by a project
