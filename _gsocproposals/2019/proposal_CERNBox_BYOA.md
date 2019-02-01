@@ -40,7 +40,7 @@ other people to develop any CS3 API certified application to boost their product
 The deliverable will be tested on two sites: CERN and AARNet
 
 ## Requirements
-Javascript, HTML, CSS3, Vue.js, Golang
+Javascript, HTML, CSS3, Vue.js, Go
 
 ## Mentors
   * [Hugo Labrador](mailto:hugo.gonzalez.labrador@cern.ch)
@@ -51,6 +51,6 @@ Javascript, HTML, CSS3, Vue.js, Golang
   * [CERNBox](https://cernbox.web.cern.ch/)
   * [CERN EOS](https://eos.web.cern.ch/)
   * [Phoenix](https://github.com/owncloud/phoenix)
-  * [Golang](https://golang.org/)
+  * [Go](https://golang.org/)
   * [Google gRPC](https://grpc.io/)
   * [Google Protocol Buffers](https://developers.google.com/protocol-buffers/)
