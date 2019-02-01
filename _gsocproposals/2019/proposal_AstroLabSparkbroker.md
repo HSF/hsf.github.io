@@ -17,7 +17,7 @@ _Typical flow of alerts in astronomy. Raw data are collected by the telescope ev
 
 ## Task ideas
 
-Our group is investigating a broker solution based on Apache Spark streaming capabilities. First, the student will develop a prototype for prompt handling of the received and accepted alerts. The prototype will store those alerts in a temporary storage, receive related data, pre-process them and send notifications (via Slack, sms, Twitter, ...) in case of alerts considered as urgent. 
+Our group is investigating a broker solution based on Apache Spark streaming capabilities. First, the student will develop a prototype for prompt handling of the received and accepted alerts. The prototype will store those alerts in temporary storage, receive related data, pre-process them and send notifications (via Slack, sms, Twitter, ...) in case of alerts considered as urgent. 
 Second, the student will focus on optimizing communications and data transfer between the broker and external databases, allowing fast correlation between alerts (and data alerts) at different timescales. S/he will specifically work on developing tools to enable fast detection of transients in telescope images (signal correlated in time) at different timescales. Finally if time allows, we propose to the student to focus on the input side of the broker and particularly the fast decoding and manipulation of the stream of alerts. S/he will develop tools to optimize the Apache Spark broker interface with Kafka used by our alert system, and tools to reduce latency in asserting the relevance of the alerts.
 Datasets will be mock data specifically simulated for this project by our group.
 
@@ -27,7 +27,7 @@ Ultimately, the developments will be integrated in the Apache Spark-based broker
 
 ## Desirable Skills
 
-* At least one of the following programming language: Scala, Java, or Python.
+* At least one of the following programming languages: Scala, Java, or Python.
 * Knowledge of distributed computing (cluster and grid computing), and streaming.
 * Being aware of the Big Data challenges and issues.
 * Working with or willing to learn Spark.
