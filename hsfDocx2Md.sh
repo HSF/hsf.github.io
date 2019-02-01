@@ -7,7 +7,7 @@
 
 # Pandoc recipe by Michel Jouvin and Graeme Stewart (2016-2018).
 # Python tidy up script by Graeme Stewart (2018).
-# Bash wrapper by Andrea Valassi (2019).
+# Bash wrapper and python conversion to sed by Andrea Valassi (2019).
 
 function usage()
 {
@@ -75,8 +75,8 @@ if ! dos2unix -V >& /dev/null; then
   exit 1
 fi
 
-if ! python -V >& /dev/null; then 
-  echo "ERROR! python not found"
+if ! sed --version >& /dev/null; then 
+  echo "ERROR! sed not found"
   exit 1
 fi
 
@@ -98,56 +98,26 @@ fi
 
 #echo Converting ${file}.md to unix format using mac2unix
 
+\cp -dp ${file}.md ${file}.md.bak1
 mac2unix ${file}.md >& /dev/null
 
 #echo Converting ${file}.md to unix format using dos2unix
 
+\cp -dp ${file}.md ${file}.md.bak2
 dos2unix ${file}.md >& /dev/null
-
-#echo Tidying up ${file}.md using python
-
-python - ${file}.md <<EOF
-from __future__ import print_function 
-import argparse
-import os
-import re
-import sys
-relist = [
-    [r'\{\.underline\}', ''],
-    [r'\[\[', '['],
-    [r'\]\]', ']'],
-    [r'^(\s+)> ', '\g<1>'],
-    # This gets rid of a lot of excess space, but some do need to 
-    # put back (before section headers), but doing that properly
-    # would be complicated...
-    [r'^(\s+)$', ''],
-    ]
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('input', help='Input file to process')
-    parser.add_argument('--backup', help='Backup filename for original file (default is INPUTNAME.bak)')
-    options = parser.parse_args()
-    if options.backup == None:
-        options.backup = options.input + '.bak'
-    os.rename(options.input, options.backup)
-    with open(options.backup) as filein, open(options.input, 'w') as fileout:
-        for line in filein:
-            try:
-                for regexpair in relist:
-                    line = re.sub(regexpair[0], regexpair[1], line)
-                print(line, end='', file=fileout)
-            except Exception as e:
-                print('Exception raised processing \'{0}\': {1}', line, e)
-if __name__ == '__main__':
-    main()
- 
-EOF
 
 #echo Tidying up ${file}.md using sed
 
-\mv ${file}.md ${file}.md.bak
+\cp -dp ${file}.md ${file}.md.bak3
+cat ${file}.md.bak3 \
+  | sed 's/{\.underline}//g' \
+  | sed 's/\[\[/[/g' \
+  | sed 's/\]\]/]/g' \
+  | sed 's/^\( \+\)> /\1/g' \
+  | sed 's/^\( \+\)- > /\1- /g' \
+  | sed '/^ *$/d' \
+  > ${file}.md
 
-cat ${file}.md.bak | sed "s/ - > / - /" > ${file}.md
+# Remove bak files
 
-\rm ${file}.md.bak
-
+\rm ${file}.md.bak*
