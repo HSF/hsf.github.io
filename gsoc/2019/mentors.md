@@ -26,4 +26,5 @@ layout: plain
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
+* Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch)
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
