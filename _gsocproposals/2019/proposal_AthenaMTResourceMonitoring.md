@@ -30,8 +30,8 @@ It is essential to closely monitor the CPU, memory, and disk usage, identify bot
 Without this monitoring, repercussions as severe as loosing data can arise.
 
 The current Athena infrastructure that is in place to monitor the resource usage of ATLAS jobs can only handle single-thread tasks.
-The goal of this project is to upgrade the Athena monitoring infrastructure such that it can handle MT jobs, natively.
-Although the monitoring software is closely tied to the Gaudi/Athena framework, it requires only minimal understand of the underlying code base
+The goal of this project is to design and implement a new Athena perfornamce monitoring infrastructure that will handle MT jobs, natively.
+Although the monitoring software is closely tied to the Gaudi/Athena framework, it requires only minimal understanding of the underlying code base
 and the project is fairly self-contained.
 The code development will predominantly be in C++.
 
