@@ -1,5 +1,5 @@
 ---
-title:  Distributed Computing Resources: aggregation, usage, monitoring
+title:  "Distributed Computing Resources: aggregation, usage, monitoring"
 layout: gsoc_proposal
 project: DIRAC
 year: 2019
