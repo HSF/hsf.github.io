@@ -35,6 +35,7 @@ layout: plain
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Andrea Sartirana [sartiran@llr.in2p3.fr](mailto:sartiran@llr.in2p3.fr) LLR
+* Igor Sfiligoi [isfiligoi@ucsd.edu](mailto:isfiligoi@ucsd.edu) UCSD
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Federico Stagni [federico.stagni@cern.ch](mailto:federico.stagni@cern.ch) CERN
