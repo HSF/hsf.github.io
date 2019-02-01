@@ -39,3 +39,4 @@ Analyze the usage data and create a model of potential novel infrastructures.
 ## Links
   * [High-Luminosity LHC](https://home.cern/science/accelerators/high-luminosity-lhc)
   * [XRootd](http://xrootd.org)
+  * [A federated Xrootd cache](http://inspirehep.net/record/1699845)
