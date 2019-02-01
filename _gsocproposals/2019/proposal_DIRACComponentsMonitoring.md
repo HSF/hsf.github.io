@@ -21,7 +21,8 @@ The student will contribute in developing DIRAC. The LHCb upgrade program will d
  * Develop code compatible with python 3
 
 ## Expected results
- * working implementation with tests and documentation
+
+ * Working implementation of DIRAC component monitoring using ElasticSearch backend, completed with tests and documentation
 
 ## Requirements
 

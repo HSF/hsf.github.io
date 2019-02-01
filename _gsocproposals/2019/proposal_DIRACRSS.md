@@ -21,7 +21,8 @@ For this reason, using the DIRAC framework in the LHCb collaboration, we develop
  * Develop code compatible with python 3
 
 ## Expected results
- * working implementation with tests and documentation
+
+ * Working implementation of multi-VO DIRAC Resource Status System, completed with tests and documentation
 
 ## Requirements
 
