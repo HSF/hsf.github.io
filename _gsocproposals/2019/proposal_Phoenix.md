@@ -26,7 +26,7 @@ JavaScript, Web development skills (GUI design experience a bonus).
 
 ## Mentors
   * [Edward Moyse](mailto:edward.moyse@cern.ch)
-  * [Riccardo Maria Bianchi](mailto:riccardo.maria.bianchi@cern.ch) TBC!
+  * [Riccardo Maria Bianchi](mailto:riccardo.maria.bianchi@cern.ch) 
   * [Andreas Salzburger](mailto:andreas.salzburger@cern.ch)
 
 ## Links
