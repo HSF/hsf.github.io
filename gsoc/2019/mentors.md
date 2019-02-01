@@ -13,9 +13,11 @@ layout: plain
 * Gabriele Cosmo [gabriele.cosmo@cern.ch](mailto:gabriele.cosmo@cern.ch) CERN
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Sebastien Gadrat [sebastien.gadrat@cc.in2p3.fr](mailto:sebastien.gadrat@cc.in2p3.fr) CC-IN2P3
+* Frank Gaede <mailto:frank.gaede@desy.de> DESY
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Mihaela Gheata [mihaela.gheata@cern.ch](mailto:mihaela.gheata@cern.ch) CERN/ISS
 * Gilles Grasseau [gilles.grasseau@llr.in2p3.fr](mailto:gilles.grasseau@llr.in2p3.fr) LLR
+* Benedikt Hegner <mailto:benedikt.hegner@cern.ch> BNL
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Artur Lobanov [artur.lobanov@llr.in2p3.fr](mailto:artur.lobanov@llr.in2p3.fr) LLR
@@ -25,6 +27,7 @@ layout: plain
 * Andrea Sartirana [sartiran@llr.in2p3.fr](mailto:sartiran@llr.in2p3.fr) LLR
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
+* Graeme A Stewart <graeme.andrew.stewart@cern.ch> CERN
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch)
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
