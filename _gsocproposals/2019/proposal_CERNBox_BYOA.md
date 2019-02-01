@@ -1,4 +1,4 @@
---
+---
 title: CERNBox: Bring Your Own Application
 layout: gsoc_proposal
 project: CERNBox
