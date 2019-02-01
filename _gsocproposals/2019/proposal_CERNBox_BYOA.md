@@ -22,7 +22,7 @@ like Office 365, OnlyOffice and SWAN. Unfortunately, current
 integrations with different application providers are difficult to 
 be re-used across platforms and require a huge development effort to achieve the desired integration.
 
-Since the move to cloud based services the user freedom was lost.  The users do not have anymore the possibility to chose the applications they want to use to perform their job; it is the site administrator who decides for them. The goal of this project is to provide a mechanism using a well-defined communication protocol to integrate any collaborative service with the ownCloud platform. For such purpose, the student will leverage on the existing CS3 APIs created at CERN and will focus on the integration of the new ownCloud Web interface (code-named Phoenix) with the CERN REVA platform using Google gRPC and Google Protocol buffers technologies.
+Since the move to cloud based services the user freedom was lost.  The users do not have anymore the possibility to choose the applications they want to use to perform their job; it is the site administrator who decides for them. The goal of this project is to provide a mechanism using a well-defined communication protocol to integrate any collaborative service with the ownCloud platform. For such purpose, the student will leverage on the existing CS3 APIs created at CERN and will focus on the integration of the new ownCloud Web interface (code-named Phoenix) with the CERN REVA platform using Google gRPC and Google Protocol buffers technologies.
 
 ## Task ideas
 
