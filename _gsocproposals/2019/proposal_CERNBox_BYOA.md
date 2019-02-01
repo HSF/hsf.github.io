@@ -34,8 +34,9 @@ Since the move to cloud based services the user freedom was lost.  The users do 
 
 ## Expected results
 We expect the end deliverable to be a collection of two Phoenix applications (User Preferences App and Reference Collaborative App)
-with the corresponding server-side implementations in REVA using the CS3 APIS. The reference application with be related with HEP-related
-activities, like a Job submission viewer or a ROOT files viewer, that will show the potencial extensibility of the 
+with the corresponding server-side implementations in REVA using the CS3 APIS. The reference application will be related to HEP
+activities, like a Job submission viewer or a ROOT file viewer. This HEP-related application will be used as the example app to enable
+other people to develop any CS3 API certified application to boost their productvitiy.
 The deliverable will be tested on two sites: CERN and AARNet
 
 ## Requirements
