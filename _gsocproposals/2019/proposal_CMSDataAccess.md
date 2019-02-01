@@ -11,7 +11,7 @@ organization:
 ## Description
 
 The High-Luminosity Large Hadron Collider (HL-LHC) will produce roughly an exabyte of data per year for CMS. 
-We are trying to understand access patterns in Run2, i.e. the last couple years of CMS on the current accelerator, 
+We are trying to understand access patterns in Run2, i.e. most recent couple years of CMS on the current accelerator, 
 in order to provide input on the design of more cost-effective data access infrastructure for the HL-LHC. 
 
 This involves understanding access patterns at the level of task, file, block, dataset, and object within files.
@@ -21,7 +21,7 @@ This project will include both analysis of usage data, and modeling of potential
 
 ## Task ideas
 
-- Analyse the available data.
+- Analyze the available data.
   The analysis will include both global usage information,
   as well as local access patterns at the distributed Xrootd cache across Caltech and UCSD.
 - Create a model of potential novel infrastructures.
