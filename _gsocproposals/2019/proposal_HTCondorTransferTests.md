@@ -29,6 +29,6 @@ Python, HTCondor (desirable)
 
 ## Links
   * [HTCondor](http://research.cs.wisc.edu/htcondor/)
-  * [Limits of HTCondor Transfer System | https://indico.cern.ch/event/587955/contributions/2937378/contribution.pdf]
+  * [Limits of HTCondor Transfer System](https://indico.cern.ch/event/587955/contributions/2937378/contribution.pdf)
 
 
