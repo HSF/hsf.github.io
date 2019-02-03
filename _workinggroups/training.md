@@ -27,8 +27,8 @@ Other actions in progress include:
 * A [Training section](http://hepsoftware.org/e/training) in the HSF knowledge base intended to collect training related events, organizations, software packages... **Please contribute to the knowledge base to help enriching the content**
 
 ### Training Schools
-{%for post in site.categories.events | limit:6 %}
- * {{post.title}}
+{%for post in site.categories.Schools limit:6 %}
+ 1. {{post.title}}
 {% endfor %}
 
 ## How to participate ?
