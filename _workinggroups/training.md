@@ -31,12 +31,18 @@ Other actions in progress include:
 
 * A [Training section](http://hepsoftware.org/e/training) in the HSF knowledge base intended to collect training related events, organizations, software packages... **Please contribute to the knowledge base to help enriching the content**
 
+<<<<<<< HEAD
 ### Upcoming Training Schools
  **Warning** : Application deadlines are **before the date shown**
 {% for post in site.categories.Schools reversed  limit: 10%}
 {% if post.date > site.time %}
 1. [{{post.title}} - {{post.date | date_to_string}}]({{post.source}})
 {% endif %}
+=======
+### Training Schools
+{%for post in site.categories.Schools limit:6 %}
+ 1. {{post.title}}
+>>>>>>> added past and upcoming Schools
 {% endfor %}
 
 ### Past Schools
