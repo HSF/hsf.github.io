@@ -1,5 +1,5 @@
 ---
-project: MOLR
+project: Molr
 title: Molr - Operational
 year: 2019
 layout: gsoc_proposal
