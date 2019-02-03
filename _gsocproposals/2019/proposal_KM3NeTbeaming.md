@@ -9,9 +9,9 @@ organization:
 
 ## Description
 
-KM3NeT [1] will house two next-geneneration underwater neutrino
+KM3NeT [1] will house two next-generation underwater neutrino
 experiments. Two detectors are being constructed at two deep sites in
-the Mediterrenean Sea, one of the coast of Sicily and the other south
+the Mediterranean Sea, one of the coast of Sicily and the other south
 of Toulouse in Southern France. Nikhef [2] is involved the design and
 construction of the detectors and in the JPP software framework used
 to reconstruct signals from neutrinos.
