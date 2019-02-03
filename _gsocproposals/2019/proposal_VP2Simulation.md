@@ -42,7 +42,7 @@ addition to spatial coordinates will be required.
   * Test the performance of the algorithm as a function of the
     accuracy of the provided time measurements
   * Test the performance of the algorithm as a function of the
-    number of raw pixel measurements
+    number of raw measurements
 
 ## Expected results
 Assessment of the performance of a pattern-recognition algorithm that
