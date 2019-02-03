@@ -31,6 +31,7 @@ Implement GlobalModuleIndex in ROOT/Cling, provide a performance tuning for prel
 ## Mentors
   * [Yuka Takahashi](mailto:yuka@cern.ch)
   * [Oksana Shadura](mailto:oksana.shadura@cern.ch)
+  * [Vassil Vassilev](mailto:vvasilev@cern.ch)
 
 ## Links
   1. [GlobalModuleIndex](https://clang.llvm.org/doxygen/classclang_1_1GlobalModuleIndex.html)
