@@ -7,7 +7,7 @@
 
 # Pandoc recipe by Michel Jouvin and Graeme Stewart (2016-2018).
 # Python tidy up script by Graeme Stewart (2018).
-# Bash wrapper and python conversion to sed by Andrea Valassi (2019).
+# Bash wrapper and python conversion to sed/awk by Andrea Valassi (2019).
 
 function usage()
 {
@@ -80,6 +80,11 @@ if ! sed --version >& /dev/null; then
   exit 1
 fi
 
+if ! awk -V >& /dev/null; then 
+  echo "ERROR! awk not found"
+  exit 1
+fi
+
 #
 # Convert docx to md
 #
@@ -93,7 +98,7 @@ if [ "$docx" == "1" ]; then
 fi
 
 #
-# Tidy up md
+# Tidy up md using mac2unix, dos2unix, sed and awk
 #
 
 #echo Converting ${file}.md to unix format using mac2unix
@@ -106,8 +111,16 @@ mac2unix ${file}.md >& /dev/null
 \cp -dp ${file}.md ${file}.md.bak2
 dos2unix ${file}.md >& /dev/null
 
-#echo Tidying up ${file}.md using sed
+#echo Tidying up ${file}.md using sed and awk
 
+# Remove '{\.underline}'
+# Replace double '[[' by single '['
+# Replace double ']]' by single ']'
+# Remove '> ' after leading spaces
+# Remove '- > ' after leading spaces
+# Replace tabs by spaces
+# Replace space-only lines by empty lines
+# Remove empty lines except if next line has leading non-space
 \cp -dp ${file}.md ${file}.md.bak3
 cat ${file}.md.bak3 \
   | sed 's/{\.underline}//g' \
@@ -115,7 +128,9 @@ cat ${file}.md.bak3 \
   | sed 's/\]\]/]/g' \
   | sed 's/^\( \+\)> /\1/g' \
   | sed 's/^\( \+\)- > /\1- /g' \
-  | sed '/^ *$/d' \
+  | sed  's/\t/ /g' \
+  | sed  's/^ \+$//g' \
+  | awk -ve=0 '{if($0==""){e=1}else{if(e==1&&substr($0,0,1)!=" ")print"";e=0;print$0}}' \
   > ${file}.md
 
 # Remove bak files
