@@ -24,10 +24,10 @@ indico [category](https://indico.cern.ch/category/8460)
    
    * Computing Workshop, CERN, 26-28 November 2018: 
 [agenda](https://indico.cern.ch/event/751693),
-[live notes](https://docs.google.com/document/d/1_EoyKI6-VhPbmTxaDqVtetlVq7zpRXMWTVIiB_un8Ys)
+[minutes](/organization/2018/11/26/generators.html)
    * Computing Workshop debriefing, CERN, 11 December 2018
 [agenda](https://indico.cern.ch/event/778521),
-[live notes](https://docs.google.com/document/d/1T9AUeh3Tdl1wbxC2kHtGUQ8DgnYD5X-t5S_vAWInfAc),
+[minutes](/organization/2018/12/11/generators.html),
 HSF meeting [report](/organization/2018/12/13/coordination.html)
       
 ### Other resources
