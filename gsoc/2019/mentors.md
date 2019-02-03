@@ -43,3 +43,4 @@ layout: plain
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch)
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
+* Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
