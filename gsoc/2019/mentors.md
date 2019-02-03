@@ -25,6 +25,7 @@ layout: plain
 * Benedikt Hegner <mailto:benedikt.hegner@cern.ch> BNL
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) LAL
+* Daniel Hynds [daniel.hynds@cern.ch](mailto:daniel.hynds@cern.ch) Nikhef
 * Hugo Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Artur Lobanov [artur.lobanov@llr.in2p3.fr](mailto:artur.lobanov@llr.in2p3.fr) LLR
@@ -40,8 +41,10 @@ layout: plain
 * Andrea Sartirana [sartiran@llr.in2p3.fr](mailto:sartiran@llr.in2p3.fr) LLR
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
+* Simon Spannagel [simon.spannagel@cern.ch](mailto:simon.spannagel@cern.ch) CERN
 * Federico Stagni [federico.stagni@cern.ch](mailto:federico.stagni@cern.ch) CERN
 * Graeme A Stewart <graeme.andrew.stewart@cern.ch> CERN
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch)
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
+* Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
