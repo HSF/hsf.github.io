@@ -22,3 +22,6 @@ layout: plain
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
+* Roel Aaij [roelaaij@nikhef.nl](mailto:roelaaij@nikhef.nl) Nikhef
+* Daniel Hynds [d.hynds@nikhef.nl](mailto:d.hynds@nikhef.nl) Nikhef
+* Gerhard Raven [g.raven@nikhef.nl](mailto:g.raven@nikhef.nl) Nikhef
