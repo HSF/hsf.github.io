@@ -35,6 +35,7 @@ Analyze the usage data and create a model of potential novel infrastructures.
 
 ## Mentors
   * [Igor Sfiligoi](mailto:isfiligoi@ucsd.edu)
+  * [Frank Wuerthwein](mailto:fkw@ucsd.edu)
 
 ## Links
   * [High-Luminosity LHC](https://home.cern/science/accelerators/high-luminosity-lhc)
