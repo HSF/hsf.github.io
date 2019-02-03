@@ -3,8 +3,8 @@ title: "HSF Generator Workshop follow-up meeting, 11 December 2018"
 layout: meetings
 ---
 # {{page.title}}
-Post-Workshop
-=============
+
+## Post-Workshop
   - Short presentation done (Graeme) at the WLCG Overview Board
   - Presentation in last week’s ATLAS Weekly meeting (Simone A) and
     talk from Josh in this week’s ATLAS Software and Computing
@@ -25,8 +25,8 @@ Post-Workshop
         any definitive way. Then describe benchmarking.
       - Target outline for before the end of the year. Finish
         proceedings end of January.
-Take Home Messages / Actions / Planning
-=======================================
+
+## Take Home Messages / Actions / Planning
   - **Generator performance comparisons work**
       - Broaden this activity
       - Understand differences between ATLAS and CMS - e.g. two things
