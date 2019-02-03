@@ -28,11 +28,12 @@ This project proposes to extend an existing algorithm that
 reconstructs particle trajectories [3] by augmenting it with
 information about the measured time of traversal of particles.
 
-The algorithm is required to be able to process data from at least 100
-thousand batches of 50 simultaneous collisions per second per fully
-loaded PC-server in 2030. In order to keep the CPU requirements of the
-algorithm at an acceptable level, the use of time measurements in
-addition to spatial coordinates will be required.
+The initial goal of the project is a working algorithm that can be
+used to optimize the design of the VP2 detector. A secondary goal is
+to optimize the performance of the developed algorithm to approach the
+goal of processing data from at least 100 thousand batches of 50
+simultaneous collisions per second on a fully-loaded PC-server in
+2030.
 
 ## Task ideas
   * Add time-of-traversal information to the existing algorithm
