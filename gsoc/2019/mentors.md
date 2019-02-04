@@ -58,3 +58,7 @@ layout: plain
 * James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
 * Paul Gessinger [paul.gessinger@cern.ch](mailto:paul.gessinger@cern.ch) CERN
 * Andreas Salzburger [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN
+* Daniel Campora [dcampora@cern.ch](mailto:dcampora@cern.ch) CERN
+* Niko Neufeld [niko.neufeld@cern.ch](mailto:niko.neufeld@cern.ch) CERN
+* Gerhard Raven [gerhard.raven@cern.ch](mailto:gerhard.raven@cern.ch) CERN
+* Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
