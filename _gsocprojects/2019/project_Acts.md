@@ -1,6 +1,6 @@
 ---
-title: ACTS
-project: ACTS
+title: Acts
+project: Acts
 layout: default
 logo: ACTSlogo.gif
 description: |
