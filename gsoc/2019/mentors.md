@@ -7,6 +7,7 @@ layout: plain
 
 * Guilherme Amadio [guilherme.amadio@cern.ch](mailto:guilherme.amadio@cern.ch) CERN
 * Chris Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) LAL
+* Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Florian Beaudette [Florian.Beaudette@llr.in2p3.fr](mailto:Florian.Beaudette@llr.in2p3.fr) LLR
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC-Clermont
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
@@ -27,6 +28,7 @@ layout: plain
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) LAL
 * Hugo Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
+* Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Artur Lobanov [artur.lobanov@llr.in2p3.fr](mailto:artur.lobanov@llr.in2p3.fr) LLR
 * Zoltan Mathe [zoltan.mathe@cern.ch](mailto:zoltan.mathe@cern.ch) CERN
 * Jakub Moscicki [jakub.moscicki@cern.ch](mailto:jakub.moscicki@cern.ch) CERN
@@ -38,6 +40,7 @@ layout: plain
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
 * Andrea Sartirana [sartiran@llr.in2p3.fr](mailto:sartiran@llr.in2p3.fr) LLR
+* Cedric Serfon [cedric.serfon@cern.ch](mailto:cedric.serfon@cern.ch) CERN
 * Enric Tejedor Saavedra [enric.tejedor.saavedra@cern.ch](mailto:enric.tejedor.saavedra@cern.ch) CERN
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
