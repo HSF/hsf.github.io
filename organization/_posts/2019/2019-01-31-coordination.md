@@ -8,7 +8,7 @@ layout: meetings
 *Present/Contributors*: Graeme Stewart, Danilo Piparo, Jim Amundson,
 Agnieszka Dziurda, Jim Pivarski, David Lange, Witek Pokorski, Serhan
 Mete, Pere Mato, Liz Sexton-Kennedy, Stefan Roiser, Caterina Doglioni,
-Michel J, Guilherme Amadio, Daniel Elvira, Gloria Corti, Davide
+Michel Jouvin, Guilherme Amadio, Daniel Elvira, Gloria Corti, Davide
 Costanzo
 
 *Apologies:* Heather Gray
