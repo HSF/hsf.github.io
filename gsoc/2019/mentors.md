@@ -14,6 +14,7 @@ layout: plain
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC-Clermont
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
 * Ronald Bruijn [r.bruijn@nikhef.nl](mailto:r.bruijn@nikhef.nl) Nikhef
+* Andrea Calia [Andrea Calia](mailto:andrea.calia@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
 * Arnaud Chiron [chiron@llr.in2p3.fr](mailto:chiron@llr.in2p3.fr) LLR
@@ -22,6 +23,7 @@ layout: plain
 * Michael D'Silva [michael.dsilva@aarnet.edu.au](mailto:michael.dsilva@aarnet.edu.au) AARnet
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Markus Frank [markus.frank@cern.ch](mailto:markus.frank@cern.ch) CERN
+* Kajetan Fuchsberger [Kajetan Fuchsberger](mailto:Kajetan.Fuchsberger@cern.ch) CERN
 * Sebastien Gadrat [sebastien.gadrat@cc.in2p3.fr](mailto:sebastien.gadrat@cc.in2p3.fr) CC-IN2P3
 * Frank Gaede <mailto:frank.gaede@desy.de> DESY
 * Paul Gessinger [paul.gessinger@cern.ch](mailto:paul.gessinger@cern.ch) CERN
@@ -31,6 +33,7 @@ layout: plain
 * Christophe Haen [christophe.denis.haen@cern.ch](mailto:christophe.denis.haen@cern.ch) CERN
 * Benedikt Hegner <mailto:benedikt.hegner@cern.ch> BNL
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
+* Michi Hostettler [Michi Hostettler](mailto:michi.hostettler@cern.ch) CERN
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) LAL
 * Daniel Hynds [daniel.hynds@cern.ch](mailto:daniel.hynds@cern.ch) Nikhef
 * Tomas Javurek [tomas.javurek@cern.ch](mailto:tomas.javurek@cern.ch) CERN
