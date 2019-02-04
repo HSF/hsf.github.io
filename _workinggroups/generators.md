@@ -3,26 +3,27 @@ title: "Physics Generators"
 layout: plain
 ---
 
-The Physics Generators Working Group is a common forum for discussion and 
+The Physics Generators Working Group is a common forum for discussion and
 technical work on the physics event generators used by HEP experiments.
-It promotes the collaboration of experimental and theoretical physicists from 
-different experiments and generator teams and of software and computing engineers,
-with the aim of having them work together on improving the current codes 
-and production workflows and on making new theoretical advances 
+It promotes the collaboration of experimental and theoretical physicists
+from different experiments and generator teams and of software and computing
+engineers, with the aim of having them work together on improving the current
+codes and production workflows and on making new theoretical advances
 easier to implement in a computationally efficient way.
 
-The working group was set up as a follow-up of the Physics Event Generator 
-Computing Workshop that was held at CERN in November 2018, during which 
+The working group was set up as a follow-up of the Physics Event Generator
+Computing Workshop that was held at CERN in November 2018, during which
 an initial program of work in this area was identified.
-The working group is currently coordinated by Andrea Valassi, Josh McFayden, 
-Stefan Hoeche, Steve Mrenna and Taylor Childers.
-All coordinators can be reached 
+
+The working group is currently coordinated by Andrea Valassi,
+Josh McFayden, Stefan Hoeche, Steve Mrenna and Taylor Childers.
+All coordinators can be reached
 via <hsf-generator-wg-convenors@googlegroups.com>.
 
-The mailing list for all WG members is hsf-generator-wg@googlegroups.com.
-If you would like to subscribe to this group, 
-please click on https://groups.google.com/group/hsf-generator-wg/subscribe 
-or send an email to hsf-generator-wg+subscribe@googlegroups.com.
+The mailing list for all WG members is <hsf-generator-wg@googlegroups.com>.
+If you would like to subscribe to this group,
+please click on <https://groups.google.com/group/hsf-generator-wg/subscribe>
+or send an email to <hsf-generator-wg+subscribe@googlegroups.com>.
 
 ### Physics Event Generator WG meetings and events
 
