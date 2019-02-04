@@ -28,7 +28,7 @@ layout: plain
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) LAL
 * Daniel Hynds [daniel.hynds@cern.ch](mailto:daniel.hynds@cern.ch) Nikhef
-* Pierre Kesterner [ierre.kestener@cea.fr](mailto:pierre.kestener@cea.fr) CEA
+* Pierre Kesterner [ierre.kestener@cea.fr](mailto:pierre.kestener@cea.fr) MdS
 * Hugo Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN

@@ -3,7 +3,9 @@ title: GPU Race for Particle Hunting
 layout: gsoc_proposal
 project: Acts
 year: 2019
-organization: LAL
+organization: 
+ - LAL
+ - MdS
 ---
 
 ## Description
@@ -56,7 +58,7 @@ their performance portability with a large diversity of GPUs.
    with other cpu-based computations.
 
 ## Expected results
- * Benchmark able to run on various GRidCL/ACP accelerators.
+ * Benchmark able to run on various GridCL/ACP accelerators.
  * Acts demonstrator including some kokkos offloaded computing.
 
 ## Requirements
