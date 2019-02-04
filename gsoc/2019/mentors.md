@@ -22,6 +22,7 @@ layout: plain
 * Davide Costanzo [davide.costanzo@gmail.com](mailto:davide.costanzo@gmail.com) The University of Sheffield
 * Michael D'Silva [michael.dsilva@aarnet.edu.au](mailto:michael.dsilva@aarnet.edu.au) AARnet
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
+* Edgar Fajardo [emfajard@ucsd.edu](mailto:emfajard@ucsd.edu) UCSD
 * Markus Frank [markus.frank@cern.ch](mailto:markus.frank@cern.ch) CERN
 * Kajetan Fuchsberger [Kajetan Fuchsberger](mailto:Kajetan.Fuchsberger@cern.ch) CERN
 * Sebastien Gadrat [sebastien.gadrat@cc.in2p3.fr](mailto:sebastien.gadrat@cc.in2p3.fr) CC-IN2P3
@@ -68,6 +69,5 @@ layout: plain
 * Joao Calado Vicente [joao.calado.vicente@cern.ch](mailto:joao.calado.vicente@cern.ch) CERN
 * Tobias Wegner [tobias.wegner@cern.ch](mailto:tobias.wegner@cern.ch) CERN
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
-* Edgar Fajardo [emfajard@ucsd.edu](mailto:emfajard@ucsd.edu) UCSD
 * Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
 * Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
