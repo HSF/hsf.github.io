@@ -27,3 +27,6 @@ layout: plain
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
+* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst)
+* Riccardo Maria Bianchi  [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh)
+* Andreas Salzburger  [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN)
