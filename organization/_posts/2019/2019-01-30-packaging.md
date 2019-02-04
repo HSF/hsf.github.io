@@ -9,7 +9,7 @@ Agenda
 =======
 [*https://indico.cern.ch/event/790021/*](https://indico.cern.ch/event/790021/)
 
-Participants: Graeme Stewart, Chris Burr, Guilherme Amadio, Ben Morgan, Marco Clemencic, Patrick Gartung, Chris Green, Geri Ganis, Pere Mato, Henry S, Ben Couturier.
+Participants: Graeme Stewart, Chris Burr, Guilherme Amadio, Ben Morgan, Marco Clemencic, Patrick Gartung, Chris Green, Geri Ganis, Pere Mato, Henry Schreiner, Ben Couturier.
 
 [Introduction](https://indico.cern.ch/event/790021/contributions/3301107/attachments/1787837/2911508/HSF_Packaging_Group_Intro_2019-01-30.pdf)
 ============
