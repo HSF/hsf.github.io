@@ -35,6 +35,7 @@ layout: plain
 * Daniel Hynds [daniel.hynds@cern.ch](mailto:daniel.hynds@cern.ch) Nikhef
 * Tomas Javurek [tomas.javurek@cern.ch](mailto:tomas.javurek@cern.ch) CERN
 * Maarten de Jong [m.de.jong@nikhef.nl](mailto:m.de.jong@nikhef.nl) Nikhef
+* Moritz Kiehn [moritz.kiehn@cern.ch](mailto:moritz.kiehn@cern.ch) Université de Genève
 * Hugo Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
@@ -47,6 +48,7 @@ layout: plain
 * Marko Petric [marko.petric@cern.ch](mailto:marko.petric@cern.ch) CERN
 * Jim Pivarski [pivarski@princeton.edu](mailto:pivarski@princeton.edu) Princeton University
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
+* David Rousseau [rousseau@lal.in2p3.fr](mailto:rousseau@lal.in2p3.fr) LAL
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Gerhard Raven [g.raven@nikhef.nl](mailto:g.raven@nikhef.nl) Nikhef
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
