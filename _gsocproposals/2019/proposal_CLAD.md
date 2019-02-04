@@ -23,9 +23,10 @@ trivial cases and has good unit test coverage.
   * The implementation should be very well-tested and documented. The student should prepare a
   final poster of the work and be ready to present it.
 
-## Requirements: Advanced C++, Clang abstract syntax tree (AST), basic math.
+## Requirements:
+ Advanced C++, Clang abstract syntax tree (AST), basic math.
 
 ## Mentors:
 
-  *  [Vassil Vassilev](mailto:sft-gsoc@cern.ch)
-  *  [Oksana Shadura](mailto:sft-gsoc@cern.ch)
+  *  [Vassil Vassilev](mailto:vvasilev@cern.ch)
+  *  [Oksana Shadura](mailto:oksana.shadura@cern.ch)
