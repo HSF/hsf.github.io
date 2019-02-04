@@ -13,7 +13,7 @@ The LIGO experiment is adopting the use of GlideinWMS, a distributed resource ma
 
 ## Task ideas
  * Replicate the tests of the HTCondor transfer method that were done for GlueX [1].
- * Use glideTester to evaluate the usage of a Cache, a set of caches with/without SSD up to 5000 parallel jobs.
+ * Use glideTester to evaluate the usage of a Cache, a set of caches with/without SSD up to 50000 parallel jobs.
  * Combine the results of both and submit an abstract for CHEP Conference 2019.
 
 ## Expected results
@@ -24,7 +24,6 @@ Python, HTCondor (desirable)
 
 ## Mentors
   * [Edgar Fajardo](mailto:emfajard@ucsd.edu)
-  * [Igor Sfiligoi](mailto:isfiligoi@sdsc.edu)
   * [Frank Wuerthwein](mailto:fkw@ucsd.edu)
 
 ## Links
