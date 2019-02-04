@@ -19,6 +19,11 @@ Stefan Hoeche, Steve Mrenna and Taylor Childers.
 All coordinators can be reached 
 via <hsf-generator-wg-convenors@googlegroups.com>.
 
+The mailing list for all WG members is hsf-generator-wg@googlegroups.com.
+If you would like to subscribe to this group, 
+please click on https://groups.google.com/group/hsf-generator-wg/subscribe 
+or send an email to hsf-generator-wg+subscribe@googlegroups.com.
+
 ### Physics Event Generator WG meetings and events
 
    * WG meetings and Computing Workshop organization:
