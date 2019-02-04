@@ -1,4 +1,3 @@
-
 ---
 project: Allen
 title: SIMT to SPMD code translation
@@ -16,7 +15,7 @@ physics standpoint, in a process known as "triggering". The
 [Allen](https://gitlab.cern.ch/lhcb-parallelization/Allen) software
 framework provides a realization of the first stage of software trigger
 of the LHCb reconstruction software for GPUs. The entirety of algorithms
-in Allen are written in CUDA following the SIMT programming model, and
+in Allen is written in CUDA following the SIMT programming model, and
 are thus restricted to NVIDIA graphics cards hardware. Nevertheless,
 LHCb software should also support the baseline x86-64 architecture.
 
@@ -29,8 +28,8 @@ The [Intel SPMD Program Compiler (ISPC)](https://ispc.github.io/) is a
 realization of a compiler utilizing this model that targets primarily
 x86 and x86-64 architectures.
 
-The SIMT programming model present in CUDA and the SPMD programming
-model exposed by ISPC share many commonalities, making the transition
+The SIMT programming model exposed by CUDA and the SPMD programming
+model required by ISPC share many commonalities, making the transition
 from one language to another a nuanced translation exercise. The [LLVM
 Compiler Infrastructure](https://llvm.org/) provides a modular compiler
 and toolchain software infrastructure. LLVM supports compilation of CUDA
