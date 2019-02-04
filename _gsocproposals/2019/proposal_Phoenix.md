@@ -13,7 +13,7 @@ Visualising HEP event data is currently typically done per experiment (e.g. [VP1
 [Phoenix](https://github.com/HSF/phoenix) is an attempt at a framework that could be used by any typical (e.g. colliding beam) High Energy Physics experiment. It is based on work done for the TrackML [Kaggle](https://www.kaggle.com/c/trackml-particle-identification)/[Codalab](https://competitions.codalab.org/competitions/20112) challenges (and internal use by ATLAS), so the underlying principal is well validated but it now needs to be extended with a more sophisticated GUI, better visualisation techniques, unit tests etc. The common event data format also needs to be tested/extended with data from experiments other than ATLAS and TrackML.
 
 ## Task ideas
- * Investigate open source GUI libraries and develop improved GUI, capable of selecting/visualising specific physics object(s).
+ * Investigate open source GUI libraries and develop improved GUI, capable of selecting/visualising specific physics object(s)
  * Extend common JSON file format for event data, ensuring that it matches the needs of all potential clients
  * Investigate and implement conversions from TGeo / GEANT4 geometry to display in phoenix
  * Investigate and implement mechanisms to publish event data
