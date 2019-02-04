@@ -1,9 +1,7 @@
 ---
-layout: event
 title: Latin American School
 source: https://indico.cern.ch/event/763013/
-categories: Schools
-startdate: 2019-03-13
+date: 2019-03-13
 author: Guillermo Fidalgo
 ---
 # [Click here for more information](https://indico.cern.ch/event/763013/)
