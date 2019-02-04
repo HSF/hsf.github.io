@@ -14,7 +14,8 @@ Visualising HEP event data is currently typically done per experiment (e.g. [VP1
 
 ## Task ideas
  * Investigate open source GUI libraries and develop improved GUI, capable of selecting/visualising specific physics object(s).
- * Extend common JSON file format for event data, ensuring that it matches the needs of 
+ * Extend common JSON file format for event data, ensuring that it matches the needs of all potential clients
+ * Investigate and implement conversions from TGeo / GEANT4 geometry to display in phoenix
  * Investigate and implement mechanisms to publish event data
  * Invetsigate and implement convertors from other event data formats
 
