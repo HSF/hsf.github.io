@@ -37,13 +37,11 @@ simultaneous collisions per second on a fully-loaded PC-server in
 
 ## Task ideas
   * Add time-of-traversal information to the existing algorithm
-  * Test the impact on the CPU performance of the algorithm, its
-    capacity for finding trajectories, and the number of wrongly found
-    trajectories
-  * Test the performance of the algorithm as a function of the
+  * Using on the time information, optimize the CPU performance of the
+    algorithm, together with its capacity for finding trajectories and
+    rejecting wrongly found trajectories
+  * Analyze the performance of the algorithm as a function of the
     accuracy of the provided time measurements
-  * Test the performance of the algorithm as a function of the
-    number of raw measurements
 
 ## Expected results
 Assessment of the performance of a pattern-recognition algorithm that
