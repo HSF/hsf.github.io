@@ -16,7 +16,7 @@ to be able to cope with a factor of 10 increase in the number of
 proton-proton collisions per second. Studies of the technology for
 this future detector are now underway.
 
-Nikhef [2] is the Dutch institure for sub-atomic physics and it's LHCb
+Nikhef [2] is the Dutch institute for sub-atomic physics and its LHCb
 research group is involved in designing the Vertex Detector (VP2) for
 LHCb's 2030 upgrade.
 
