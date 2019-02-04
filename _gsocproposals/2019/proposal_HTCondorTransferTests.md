@@ -13,7 +13,11 @@ The LIGO experiment is adopting the use of GlideinWMS, a distributed resource ma
 
 ## Task ideas
  * Replicate the tests of the HTCondor transfer method that were done for GlueX [1].
- * Use glideTester to evaluate the usage of a Cache, a set of caches with/without SSD up to 50000 parallel jobs.
+ * Contribute to the [OSG Scalability Code repository|https://sourceforge.net/projects/osgscal/] and more specifically for the synthetic load generators:
+    1. Update the code to do  checksums of input and output transfers
+    1. Include Condor configuration for caputring and displaying transfer statistics
+    1. Capture transfer statistics (IO Transfer time, CPUTime) into InfluxDB using Condor built in Ganglia Daemon.
+ * Use and contribute to [glideTester|https://github.com/efajardo/osgscal/tree/master/glideTester] to evaluate the usage of a Cache, a set of caches with/without SSD up to 50000 parallel jobs.
  * Combine the results of both and submit an abstract for CHEP Conference 2019.
 
 ## Expected results
