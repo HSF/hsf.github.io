@@ -67,3 +67,6 @@ layout: plain
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
 * Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
 * Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
+* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst)
+* Riccardo Maria Bianchi  [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh)
+* Andreas Salzburger  [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN)
