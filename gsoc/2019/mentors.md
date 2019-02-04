@@ -51,7 +51,5 @@ layout: plain
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
 * Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
 * Roel Aaij [roelaaij@nikhef.nl](mailto:roelaaij@nikhef.nl) Nikhef
-* Daniel Hynds [d.hynds@nikhef.nl](mailto:d.hynds@nikhef.nl) Nikhef
-* Gerhard Raven [g.raven@nikhef.nl](mailto:g.raven@nikhef.nl) Nikhef
 * Ronald Bruijn [r.bruijn@nikhef.nl](mailto:r.bruijn@nikhef.nl) Nikhef
 * Maarten de Jong [m.de.jong@nikhef.nl](mailto:m.de.jong@nikhef.nl) Nikhef
