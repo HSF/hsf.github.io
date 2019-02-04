@@ -58,8 +58,12 @@ Other actions in progress include:
 {% endfor %}
 
 ### Past Schools
+<<<<<<< HEAD
 {% for post in site.categories.Schools reversed %}
 >>>>>>> Added more schools
+=======
+{% for post in site.categories.Schools %}
+>>>>>>> Added more a workshop and changed order of past schools
 {% if post.date < site.time %}
 1. [{{post.title}} - {{post.date | date_to_string}}]({{post.source}})
 {% endif %}
