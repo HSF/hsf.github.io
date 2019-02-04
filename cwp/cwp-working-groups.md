@@ -181,6 +181,7 @@ Google group: none yet
 Plans:
 
 Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
+(latest version from 2017/11/11 archived on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-11_generators))
 
 <!-- ======================================================= -->
 
