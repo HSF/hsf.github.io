@@ -48,6 +48,7 @@ layout: plain
 * Jim Pivarski [pivarski@princeton.edu](mailto:pivarski@princeton.edu) Princeton University
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
+* Gerhard Raven [g.raven@nikhef.nl](mailto:g.raven@nikhef.nl) Nikhef
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
 * Andreas Salzburger [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN
 * Andrea Sartirana [sartiran@llr.in2p3.fr](mailto:sartiran@llr.in2p3.fr) LLR
