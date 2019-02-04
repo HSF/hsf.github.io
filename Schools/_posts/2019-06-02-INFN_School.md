@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: INFN School of Statistics
 source: https://agenda.infn.it/event/16360/
 date: 2019-06-02
@@ -10,10 +11,11 @@ categories: Schools
 [INFN School of Statistics](https://agenda.infn.it/event/16360/)
 =======
 layout: event
+=======
+>>>>>>> Added more schools
 title: INFN School of Statistics
 source: https://agenda.infn.it/event/16360/
-categories: Schools
-startdate: 2019-06-02
+date: 2019-06-02
 author: Guillermo Fidalgo
 ---
 >>>>>>> added past and upcoming Schools

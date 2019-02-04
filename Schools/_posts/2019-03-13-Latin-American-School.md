@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: Latin American School
 source: https://indico.cern.ch/event/763013/
 date: 2019-03-13
@@ -10,10 +11,11 @@ categories: Schools
 [Latin American School](https://indico.cern.ch/event/763013/)
 =======
 layout: event
+=======
+>>>>>>> Added more schools
 title: Latin American School
 source: https://indico.cern.ch/event/763013/
-categories: Schools
-startdate: 2019-03-13
+date: 2019-03-13
 author: Guillermo Fidalgo
 ---
 # [Click here for more information](https://indico.cern.ch/event/763013/)
