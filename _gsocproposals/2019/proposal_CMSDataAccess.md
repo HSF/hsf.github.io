@@ -42,7 +42,7 @@ as well as local access patterns at the distributed Xrootd cache across Caltech 
  - A set of tools for cleansing and extracting access pattern data.
  - A set of tools for extracting access pattern trends from cleansed data.
  - A modeling framework for predicting access patterns.
- - A report than validates the usefulness of the tools and frameworks through the analysis of the currently available data
+ - A report that validates the usefulness of the tools and frameworks through the analysis of the currently available data
    and the predicted access pattern using a model of potential novel infrastructure. 
 
 ## Desirable skills
