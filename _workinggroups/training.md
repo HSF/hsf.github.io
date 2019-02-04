@@ -35,7 +35,7 @@ Other actions in progress include:
 {% endfor %}
 
 ### Past Schools
-{% for post in site.categories.Schools reversed %}
+{% for post in site.categories.Schools %}
 {% if post.date < site.time %}
 1. [{{post.title}} - {{post.date | date_to_string}}]({{post.source}})
 {% endif %}
