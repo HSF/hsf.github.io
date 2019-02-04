@@ -1,9 +1,11 @@
 ---
 title: Implementation and optimisation in ACTS of algorithms exposed in TrackML challenge
 layout: gsoc_proposal
-project: ACTS
+project: Acts
 year: 2019
-organization: CERN, LAL
+organization:
+ - CERN
+ - LAL
 ---
 
 ## Description
