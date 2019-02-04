@@ -42,6 +42,7 @@ layout: plain
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
 * Andrea Sartirana [sartiran@llr.in2p3.fr](mailto:sartiran@llr.in2p3.fr) LLR
 * Cedric Serfon [cedric.serfon@cern.ch](mailto:cedric.serfon@cern.ch) CERN
+* Igor Sfiligoi [isfiligoi@ucsd.edu](mailto:isfiligoi@ucsd.edu) UCSD
 * Enric Tejedor Saavedra [enric.tejedor.saavedra@cern.ch](mailto:enric.tejedor.saavedra@cern.ch) CERN
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
@@ -58,3 +59,4 @@ layout: plain
 * James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
 * Paul Gessinger [paul.gessinger@cern.ch](mailto:paul.gessinger@cern.ch) CERN
 * Andreas Salzburger [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN
+* Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
