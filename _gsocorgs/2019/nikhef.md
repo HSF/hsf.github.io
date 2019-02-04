@@ -1,14 +1,11 @@
 ---
-title: "Nikhef; Dutch national institute for subatomic physics"
-author: "Roel Aaij"
+title: "Nikhef"
+author: "Daniel Hynds"
 layout: default
 organization: Nikhef
 logo: logo_nikhef.svg
 description: |
-  [Nikhef](http://www.nikhef.nl) is the Dutch national institute for
-  subatomic physics. The institute performs research into the
-  elementary building blocks of our Universe, their mutual forces
-  and the structure of space and time.
+  The mission of the National Institute for Subatomic Physics Nikhef is to study the interactions and structure of all elementary particles and fields at the smallest distance scale and the highest attainable energy.
 ---
 
 {% include gsoc_proposal.ext %}
