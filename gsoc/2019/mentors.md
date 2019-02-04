@@ -54,4 +54,4 @@ layout: plain
 * Davide Costanzo [davide.costanzo@gmail.com](mailto:davide.costanzo@gmail.com) The University of Sheffield
 * James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
 * Paul Gessinger [paul.gessinger@cern.ch](mailto:paul.gessinger@cern.ch) CERN
-* Andreas Salzburger [andreas.salzburger@cern.ch](andreas.salzburger@cern.ch) CERN
+* Andreas Salzburger [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN
