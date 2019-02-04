@@ -50,7 +50,7 @@ The following resources might provide a more complete picture of the software an
 ## Source code
 
 * Main repository @ CERN GitLab: [https://gitlab.cern.ch/allpix-squared/allpix-squared](https://gitlab.cern.ch/allpix-squared/allpix-squared)
-* Mirror on GitHub: [https://github.com/simonspa/allpix-squared](https://github.com/simonspa/allpix-squared)
+* Mirror on GitHub: [https://github.com/allpix-squared/allpix-squared/](https://github.com/simonspa/allpix-squared)
 * Issue tracker: [https://gitlab.cern.ch/allpix-squared/allpix-squared/issues](https://gitlab.cern.ch/allpix-squared/allpix-squared/issues)
 
 ## Documentation
