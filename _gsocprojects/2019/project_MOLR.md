@@ -1,6 +1,7 @@
 ---
 project: Molr
 layout: default
+logo: molr-logo.png
 description: |
   A Modular Distributed Execution and Debugging Framework.
 
