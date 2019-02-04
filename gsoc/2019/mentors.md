@@ -50,3 +50,6 @@ layout: plain
 * Joao Calado Vicente [joao.calado.vicente@cern.ch](mailto:joao.calado.vicente@cern.ch) CERN
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
 * Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
+* Alaettin Serhan Mete [amete@cern.ch](mailto:amete@cern.ch) UCIrvine
+* Davide Costanzo [davide.costanzo@gmail.com](mailto:davide.costanzo@gmail.com) The University of Sheffield
+* James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
