@@ -21,7 +21,6 @@ Stefan Hoeche, Steve Mrenna and Taylor Childers.
 
    * WG meetings and Computing Workshop organization:
 indico [category](https://indico.cern.ch/category/8460)
-   
    * Computing Workshop, CERN, 26-28 November 2018: 
 [agenda](https://indico.cern.ch/event/751693),
 [minutes](/organization/2018/11/26/generators.html)
