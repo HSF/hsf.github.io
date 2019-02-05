@@ -13,6 +13,7 @@ layout: plain
 * Florian Beaudette [Florian.Beaudette@llr.in2p3.fr](mailto:Florian.Beaudette@llr.in2p3.fr) LLR
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC-Clermont
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
+* Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) University of Nebraska-Lincoln
 * Ronald Bruijn [r.bruijn@nikhef.nl](mailto:r.bruijn@nikhef.nl) Nikhef
 * Andrea Calia [Andrea Calia](mailto:andrea.calia@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
@@ -61,13 +62,13 @@ layout: plain
 * Cedric Serfon [cedric.serfon@cern.ch](mailto:cedric.serfon@cern.ch) CERN
 * Igor Sfiligoi [isfiligoi@ucsd.edu](mailto:isfiligoi@ucsd.edu) UCSD
 * Enric Tejedor Saavedra [enric.tejedor.saavedra@cern.ch](mailto:enric.tejedor.saavedra@cern.ch) CERN
-* Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska
+* Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Simon Spannagel [simon.spannagel@cern.ch](mailto:simon.spannagel@cern.ch) CERN
 * Federico Stagni [federico.stagni@cern.ch](mailto:federico.stagni@cern.ch) CERN
 * Graeme A Stewart <graeme.andrew.stewart@cern.ch> CERN
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
-* Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch)
+* Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton
 * Joao Calado Vicente [joao.calado.vicente@cern.ch](mailto:joao.calado.vicente@cern.ch) CERN
 * Tobias Wegner [tobias.wegner@cern.ch](mailto:tobias.wegner@cern.ch) CERN
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
