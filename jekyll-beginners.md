@@ -78,10 +78,11 @@ pandoc -t markdown_github --base-header-level=2 --atx-headers -o organization/_p
 
 This method can be used to convert a GoogleDoc document to markdown. To do it, use the GoogleDoc menu `File->Download as` and export the GoogleDoc document as a `docx` file. Then use the command above to convert to markdown.
 
+The conversion from docx to markdown differs slightly from one pandoc version to another. Some additional tidying up of the resulting `md` file may also be necessary. If you are using pandoc 2.5, you may try using this [script](hsfDocx2Md.sh), which converts docx files to markdown and in addition tidies up the `md` file using mac2unix, dos2unix, sed and awk.
 
 ### Inserting images
 
-To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Thenn in the page where you want to insert
+To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Then in the page where you want to insert
 it, add the following line:
 
 ```
