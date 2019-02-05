@@ -14,6 +14,7 @@ layout: plain
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC-Clermont
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) University of Nebraska-Lincoln
+* Johann A. Briffa [johann.briffa@cern.ch](mailto:johann.briffa@cern.ch) CERN
 * Ronald Bruijn [r.bruijn@nikhef.nl](mailto:r.bruijn@nikhef.nl) Nikhef
 * Andrea Calia [Andrea Calia](mailto:andrea.calia@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
@@ -23,6 +24,7 @@ layout: plain
 * Gabriele Cosmo [gabriele.cosmo@cern.ch](mailto:gabriele.cosmo@cern.ch) CERN
 * Davide Costanzo [davide.costanzo@gmail.com](mailto:davide.costanzo@gmail.com) The University of Sheffield
 * Michael D'Silva [michael.dsilva@aarnet.edu.au](mailto:michael.dsilva@aarnet.edu.au) AARnet
+* Riccardo De Maria [Riccardo.De.Maria@cern.ch](mailto:Riccardo.De.Maria@cern.ch) CERN
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Markus Frank [markus.frank@cern.ch](mailto:markus.frank@cern.ch) CERN
 * Kajetan Fuchsberger [Kajetan Fuchsberger](mailto:Kajetan.Fuchsberger@cern.ch) CERN
@@ -71,6 +73,7 @@ layout: plain
 * Federico Stagni [federico.stagni@cern.ch](mailto:federico.stagni@cern.ch) CERN
 * Graeme A Stewart <graeme.andrew.stewart@cern.ch> CERN
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
+* Gianluca Valentino [Gianluca.Valentino@cern.ch](mailto:Gianluca.Valentino@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton
 * Joao Calado Vicente [joao.calado.vicente@cern.ch](mailto:joao.calado.vicente@cern.ch) CERN
 * Tobias Wegner [tobias.wegner@cern.ch](mailto:tobias.wegner@cern.ch) CERN
