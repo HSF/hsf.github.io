@@ -19,6 +19,7 @@ layout: plain
 * Andrea Calia [Andrea Calia](mailto:andrea.calia@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
+* Javier Cervantes Villanueva [javier.cervantes@cern.ch](mailto:javier.cervantes@cern.ch) CERN
 * David Chamont [david.chamont@lal.in2p3.fr](mailto:david.chamont@lal.in2p3.fr) LAL
 * Arnaud Chiron [chiron@llr.in2p3.fr](mailto:chiron@llr.in2p3.fr) LLR
 * Gabriele Cosmo [gabriele.cosmo@cern.ch](mailto:gabriele.cosmo@cern.ch) CERN
