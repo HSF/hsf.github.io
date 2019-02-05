@@ -22,14 +22,6 @@ description: |
   computing. A running environment SixDesk is used to generate input files, split
   simulations for LHC@Home (link sends e-mail) or CERN cluster and collect the
   results for the user. SixTrack is licensed under LGPLv2.1.
-  
-  A strong background in computer science and programming languages as well the
-  interest to understand computational physics methods implemented in the code are
-  sought. The unique challenge will be offered to work with a high-performance
-  production code that is used for the highest energy accelerator in the world -
-  and thus the code's reliability and backward compatibility cannot be
-  compromised. There will be the opportunity to learn about methods used in
-  simulating the motion of particles in accelerators.
 summary: |
   [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory
   of high energy particles in accelerators. It has been used in the design and optimization of
