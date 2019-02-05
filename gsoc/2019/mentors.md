@@ -31,6 +31,7 @@ layout: plain
 * Paul Gessinger [paul.gessinger@cern.ch](mailto:paul.gessinger@cern.ch) CERN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Mihaela Gheata [mihaela.gheata@cern.ch](mailto:mihaela.gheata@cern.ch) CERN/ISS
+* Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
 * Gilles Grasseau [gilles.grasseau@llr.in2p3.fr](mailto:gilles.grasseau@llr.in2p3.fr) LLR
 * Christophe Haen [christophe.denis.haen@cern.ch](mailto:christophe.denis.haen@cern.ch) CERN
 * Benedikt Hegner <mailto:benedikt.hegner@cern.ch> BNL
@@ -45,6 +46,7 @@ layout: plain
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Artur Lobanov [artur.lobanov@llr.in2p3.fr](mailto:artur.lobanov@llr.in2p3.fr) LLR
+* Lorenzo Moneta [lorenzo.moneta@cern.ch](mailto:lorenzo.moneta@cern.ch) CERN
 * Zoltan Mathe [zoltan.mathe@cern.ch](mailto:zoltan.mathe@cern.ch) CERN
 * Alaettin Serhan Mete [amete@cern.ch](mailto:amete@cern.ch) UCIrvine
 * Jakub Moscicki [jakub.moscicki@cern.ch](mailto:jakub.moscicki@cern.ch) CERN
@@ -52,6 +54,7 @@ layout: plain
 * Julien Peloton [peloton@lal.in2p3.fr](mailto:peloton@lal.in2p3.fr) LAL
 * Marko Petric [marko.petric@cern.ch](mailto:marko.petric@cern.ch) CERN
 * Jim Pivarski [pivarski@princeton.edu](mailto:pivarski@princeton.edu) Princeton University
+* Harrison Prosper [harry@hep.fsu.edu](mailto:harry@hep.fsu.edu) FSU
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
 * David Rousseau [david.rousseau@lal.in2p3.fr](mailto:david.rousseau@lal.in2p3.fr) LAL
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
@@ -83,3 +86,4 @@ layout: plain
 * Gerhard Raven [gerhard.raven@cern.ch](mailto:gerhard.raven@cern.ch) CERN
 * Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
 * Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
+* Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) OProject
