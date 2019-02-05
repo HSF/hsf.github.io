@@ -31,48 +31,22 @@ Other actions in progress include:
 
 * A [Training section](http://hepsoftware.org/e/training) in the HSF knowledge base intended to collect training related events, organizations, software packages... **Please contribute to the knowledge base to help enriching the content**
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### Upcoming Training Schools
  **Warning** : Application deadlines are **before the date shown**
 {% for post in site.categories.Schools reversed  limit: 10%}
 {% if post.date > site.time %}
 1. [{{post.title}} - {{post.date | date_to_string}}]({{post.source}})
 {% endif %}
-=======
-### Training Schools
-{%for post in site.categories.Schools limit:6 %}
- 1. {{post.title}}
->>>>>>> added past and upcoming Schools
 {% endfor %}
 
-### Past Schools
-{% for post in site.categories.Schools %}
-=======
-### Upcoming Training Schools
- **Warning** : Application deadlines are **before the date shown**
-{% for post in site.categories.Schools reversed %}
-{% if post.date > site.time %}
-1. [{{post.title}} - {{post.date | date_to_string}}]({{post.source}})
-{% endif %}
-{% endfor %}
 
 ### Past Schools
-<<<<<<< HEAD
 {% for post in site.categories.Schools reversed %}
->>>>>>> Added more schools
-=======
-{% for post in site.categories.Schools %}
->>>>>>> Added more a workshop and changed order of past schools
 {% if post.date < site.time %}
 1. [{{post.title}} - {{post.date | date_to_string}}]({{post.source}})
 {% endif %}
 {% endfor %}
-<<<<<<< HEAD
 
-
-=======
->>>>>>> Added more schools
 ## How to participate ?
 
 Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided!
