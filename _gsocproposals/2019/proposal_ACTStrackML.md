@@ -6,6 +6,7 @@ year: 2019
 organization:
  - CERN
  - LAL
+ - UNIGE
 ---
 
 ## Description
@@ -16,7 +17,7 @@ from May to August 2018 and on Codalab from October to March 2019. A wealth of t
 exposed : some pure
 combinatorial using trajectory following, some assisted with Machine Learning, some with unsupervised clustering. Given
 that this was a competition, the ultimate algorithm is most likely a combination of good ideas (some being very original) used by different competitors.
-ACTS is the C++ tracking tool suite which has been used to simulate the TrackML dataset. This versatile framework also allow reconstruction algorithms to be run.
+ACTS is the C++ tracking tool suite which has been used to simulate the TrackML dataset. This versatile framework also allows reconstruction algorithms to be run.
 The goal of this project is to examine a number of TrackML submitted algorithms, to port the most promising ones (two or
 three) to ACTS and to build an optimal one using ideas exposed in the two phases of the challenge.
 
@@ -38,6 +39,7 @@ Experienced with C++ and python
 ## Mentors
   * [David Rousseau](mailto:rousseau@lal.in2p3.fr)
   * [Moritz Kiehn](mailto:moritz.kiehn@cern.ch)
+  * [Andreas Salzburger](mailto:andreas.salzsburger@cern.ch)
 
 ## Links
   * [ACTS](http://acts.web.cern.ch/ACTS/)
