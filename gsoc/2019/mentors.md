@@ -73,4 +73,13 @@ layout: plain
 * Tobias Wegner [tobias.wegner@cern.ch](mailto:tobias.wegner@cern.ch) CERN
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
 * Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
+* Alaettin Serhan Mete [amete@cern.ch](mailto:amete@cern.ch) UCIrvine
+* Davide Costanzo [davide.costanzo@gmail.com](mailto:davide.costanzo@gmail.com) The University of Sheffield
+* James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
+* Paul Gessinger [paul.gessinger@cern.ch](mailto:paul.gessinger@cern.ch) CERN
+* Andreas Salzburger [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN
+* Daniel Campora [dcampora@cern.ch](mailto:dcampora@cern.ch) CERN
+* Niko Neufeld [niko.neufeld@cern.ch](mailto:niko.neufeld@cern.ch) CERN
+* Gerhard Raven [gerhard.raven@cern.ch](mailto:gerhard.raven@cern.ch) CERN
+* Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
 * Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
