@@ -16,7 +16,7 @@ Demonstrate that the C code running on a GPU can run the scattering routines at 
 
 ## Mentors
 
-  * [Johann A. Briffa](mailto:johann.briffa@um.edu.mt)
+  * [Johann A. Briffa](mailto:johann.briffa@cern.ch)
   * [Riccardo De Maria](mailto:Riccardo.De.Maria@cern.ch)
   * [Gianluca Valentino](mailto:Gianluca.Valentino@cern.ch)
 
