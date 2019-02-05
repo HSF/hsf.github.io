@@ -18,6 +18,11 @@ Rucio is a data management system for modern large-scale scientific experiments.
 - Diagnosis and rerouting of impossible transfer rules
 - Protect storage access from too many concurrent requests
 - Transform database-specific PL/SQL into Python code for better database compatibility
+- Develop a call graph interface to show code dependencies for external systems
+- Follow-mode to notify users in more detail what happens with their data due to dataflow policies
+- Cloud computing extensions for data transfer and deletion
+- Web-UI overhaul for multiple scientific experiments
+- Web-UI Single-Sign On
 - And many many more on the [tracker](https://github.com/rucio/rucio/issues)
 
 ## Expected results
@@ -28,7 +33,7 @@ Rucio is a data management system for modern large-scale scientific experiments.
 
 ### Objective 2 - Select and work on core features
 
-- We have a large selection of features planned in the Rucio core, each of which can be tackled individually. We would select together with the student interesting features and guide the design, implementation, documentation, and testing. We follow a fully open Github workflow using code review. It is important for us that the student has a choice in selecting the work. The usual turntime is expected to be 2 weeks, which allows us to focus on multiple interesting features.
+- We have a large selection of features planned in the Rucio core, each of which can be tackled individually. We would select together with the student interesting features and guide the design, implementation, documentation, and testing. We follow a fully open Github workflow using code review. It is important for us that the student has a choice in selecting the work. The usual turntime per task is expected to be 2 weeks, which allows us to focus on multiple interesting tasks.
 
 ### Objective 3 - Report
 
@@ -44,6 +49,9 @@ Rucio is a data management system for modern large-scale scientific experiments.
 - [Mario Lassnig](mailto:Mario.Lassnig@cern.ch)
 - [Martin Barisits](mailto:Martin.Barisits@cern.ch)
 - [Cedric Serfon](mailto:Cedric.Serfon@cern.ch)
+- [Tomas Javurek](mailto:Tomas.Javurek@cern.ch)
+- [Tobias Wegner](mailto:Tobias.Wegner@cern.ch)
+- [Thomas Beermann](mailto:Thomas.Beermann@cern.ch)
 
 ## Links
 
