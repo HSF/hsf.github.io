@@ -1,7 +1,7 @@
 ---
 title: Development of an experiment independent javascript event display framework and data format
 layout: gsoc_proposal
-project: HSF
+project: Phoenix
 year: 2019
 organization: HSF
 ---
