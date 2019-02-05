@@ -17,6 +17,7 @@ layout: plain
 * Andrea Calia [Andrea Calia](mailto:andrea.calia@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
+* David Chamont [david.chamont@lal.in2p3.fr](mailto:david.chamont@lal.in2p3.fr) LAL
 * Arnaud Chiron [chiron@llr.in2p3.fr](mailto:chiron@llr.in2p3.fr) LLR
 * Gabriele Cosmo [gabriele.cosmo@cern.ch](mailto:gabriele.cosmo@cern.ch) CERN
 * Davide Costanzo [davide.costanzo@gmail.com](mailto:davide.costanzo@gmail.com) The University of Sheffield
@@ -38,6 +39,7 @@ layout: plain
 * Daniel Hynds [daniel.hynds@cern.ch](mailto:daniel.hynds@cern.ch) Nikhef
 * Tomas Javurek [tomas.javurek@cern.ch](mailto:tomas.javurek@cern.ch) CERN
 * Maarten de Jong [m.de.jong@nikhef.nl](mailto:m.de.jong@nikhef.nl) Nikhef
+* Pierre Kesterner [ierre.kestener@cea.fr](mailto:pierre.kestener@cea.fr) MdS
 * Hugo Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
@@ -50,6 +52,7 @@ layout: plain
 * Marko Petric [marko.petric@cern.ch](mailto:marko.petric@cern.ch) CERN
 * Jim Pivarski [pivarski@princeton.edu](mailto:pivarski@princeton.edu) Princeton University
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
+* David Rousseau [david.rousseau@lal.in2p3.fr](mailto:david.rousseau@lal.in2p3.fr) LAL
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Gerhard Raven [g.raven@nikhef.nl](mailto:g.raven@nikhef.nl) Nikhef
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
