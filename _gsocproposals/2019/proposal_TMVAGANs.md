@@ -24,14 +24,15 @@ The goal of this project is to extend the existing deep learning libraries in TM
   * GPU support for training.
 
 
-**Requirements**: Strong C++ skills, solid knowledge of deep learning, understanding of GANs, familiarity with GPUs
+## Requirements 
+Strong C++ skills, solid knowledge of deep learning, understanding of GANs, familiarity with GPUs
 
-**Mentors**: 
+## Mentors
 * [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=TMVA%20GANs) 
 * [Stefan Wunsch](mailto:sft-gsoc@cern.ch?subject=TMVA%20GANs)
 * [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=TMVA%20GANs)
 
-**Links**:
+## Links
   * [http://root.cern/tmva](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-project/root/tree/master/tmva)
 
