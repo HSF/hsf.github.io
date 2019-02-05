@@ -18,6 +18,7 @@ layout: plain
 * Johann A. Briffa [johann.briffa@cern.ch](mailto:johann.briffa@cern.ch) CERN
 * Ronald Bruijn [r.bruijn@nikhef.nl](mailto:r.bruijn@nikhef.nl) Nikhef
 * Andrea Calia [Andrea Calia](mailto:andrea.calia@cern.ch) CERN
+* Daniel Campora [dcampora@cern.ch](mailto:dcampora@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
 * Javier Cervantes Villanueva [javier.cervantes@cern.ch](mailto:javier.cervantes@cern.ch) CERN
@@ -45,6 +46,7 @@ layout: plain
 * Daniel Hynds [daniel.hynds@cern.ch](mailto:daniel.hynds@cern.ch) Nikhef
 * Tomas Javurek [tomas.javurek@cern.ch](mailto:tomas.javurek@cern.ch) CERN
 * Maarten de Jong [m.de.jong@nikhef.nl](mailto:m.de.jong@nikhef.nl) Nikhef
+* Moritz Kiehn [moritz.kiehn@cern.ch](mailto:moritz.kiehn@cern.ch) Université de Genève
 * Pierre Kesterner [ierre.kestener@cea.fr](mailto:pierre.kestener@cea.fr) MdS
 * Hugo Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
@@ -55,6 +57,8 @@ layout: plain
 * Alaettin Serhan Mete [amete@cern.ch](mailto:amete@cern.ch) UCIrvine
 * Jakub Moscicki [jakub.moscicki@cern.ch](mailto:jakub.moscicki@cern.ch) CERN
 * Thomas Müller [deepdiver@owncloud.com](mailto:deepdiver@owncloud.com) OwnCloud
+* Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
+* Niko Neufeld [niko.neufeld@cern.ch](mailto:niko.neufeld@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:Felice.Pantaleo@cern.ch) CERN
 * Julien Peloton [peloton@lal.in2p3.fr](mailto:peloton@lal.in2p3.fr) LAL
 * Marko Petric [marko.petric@cern.ch](mailto:marko.petric@cern.ch) CERN
@@ -63,8 +67,8 @@ layout: plain
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
 * David Rousseau [david.rousseau@lal.in2p3.fr](mailto:david.rousseau@lal.in2p3.fr) LAL
 * Marco Rovere [marco.rovere@cern.ch](mailto:Marco.Rovere@cern.ch) CERN
+* Gerhard Raven [gerhard.raven@nikhef.nl](mailto:gerhard.raven@nikhef.nl) Nikhef
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
-* Gerhard Raven [g.raven@nikhef.nl](mailto:g.raven@nikhef.nl) Nikhef
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
 * Andreas Salzburger [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN
 * Andrea Sartirana [sartiran@llr.in2p3.fr](mailto:sartiran@llr.in2p3.fr) LLR
@@ -83,14 +87,5 @@ layout: plain
 * Tobias Wegner [tobias.wegner@cern.ch](mailto:tobias.wegner@cern.ch) CERN
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
 * Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
-* Alaettin Serhan Mete [amete@cern.ch](mailto:amete@cern.ch) UCIrvine
-* Davide Costanzo [davide.costanzo@gmail.com](mailto:davide.costanzo@gmail.com) The University of Sheffield
-* James Catmore [james.catmore@cern.ch](mailto:james.catmore@cern.ch) University of Oslo
-* Paul Gessinger [paul.gessinger@cern.ch](mailto:paul.gessinger@cern.ch) CERN
-* Andreas Salzburger [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN
-* Daniel Campora [dcampora@cern.ch](mailto:dcampora@cern.ch) CERN
-* Niko Neufeld [niko.neufeld@cern.ch](mailto:niko.neufeld@cern.ch) CERN
-* Gerhard Raven [gerhard.raven@cern.ch](mailto:gerhard.raven@cern.ch) CERN
-* Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
 * Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) OProject
