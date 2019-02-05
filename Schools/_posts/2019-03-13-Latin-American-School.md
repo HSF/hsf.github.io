@@ -4,9 +4,9 @@ source: https://indico.cern.ch/event/763013/
 date: 2019-03-13
 author: Guillermo Fidalgo
 ---
-# [Click here for more information](https://indico.cern.ch/event/763013/)
+<!-- # [Click here for more information](https://indico.cern.ch/event/763013/)
 
- ![]({{site.baseurl}}/assets/img/posts/Latin_school_Banner.png)
+ ![]({{site.baseurl}}/assets/img/posts/Latin_school_Banner.png) -->
 
 Welcome to the 10th CERN Latin-American School of High-Energy Physics (CLASHEP2019).
 
@@ -24,5 +24,5 @@ Demand for attendance at the School exceeds the number of available places, so a
 
 The School is open to qualified candidates of any nationality. Sponsorship may be available to cover the fees, and in some cases also the travel expenses, of selected Latin-American students where it is not possible to obtain support from other sources.
 
-
-![]({{site.baseurl}}/assets/img/posts/Latin_school_Banner_Sponsor2.png)
+<!-- 
+![]({{site.baseurl}}/assets/img/posts/Latin_school_Banner_Sponsor2.png) -->
