@@ -65,7 +65,7 @@ layout: plain
 * Jim Pivarski [pivarski@princeton.edu](mailto:pivarski@princeton.edu) Princeton University
 * Harrison Prosper [harry@hep.fsu.edu](mailto:harry@hep.fsu.edu) FSU
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
-* David Rousseau [david.rousseau@lal.in2p3.fr](mailto:david.rousseau@lal.in2p3.fr) LAL
+* David Rousseau [rousseau@lal.in2p3.fr](mailto:rousseau@lal.in2p3.fr) LAL
 * Marco Rovere [marco.rovere@cern.ch](mailto:Marco.Rovere@cern.ch) CERN
 * Gerhard Raven [gerhard.raven@nikhef.nl](mailto:gerhard.raven@nikhef.nl) Nikhef
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
