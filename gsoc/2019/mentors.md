@@ -78,7 +78,6 @@ layout: plain
 * Joao Calado Vicente [joao.calado.vicente@cern.ch](mailto:joao.calado.vicente@cern.ch) CERN
 * Tobias Wegner [tobias.wegner@cern.ch](mailto:tobias.wegner@cern.ch) CERN
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
-<<<<<<< HEAD
 * Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
 * Alaettin Serhan Mete [amete@cern.ch](mailto:amete@cern.ch) UCIrvine
 * Davide Costanzo [davide.costanzo@gmail.com](mailto:davide.costanzo@gmail.com) The University of Sheffield
@@ -93,4 +92,3 @@ layout: plain
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) OProject
 * Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst)
 * Riccardo Maria Bianchi  [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh)
-* Andreas Salzburger  [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN)
