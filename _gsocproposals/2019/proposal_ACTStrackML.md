@@ -1,5 +1,5 @@
 ---
-title: Implementation and optimisation in ACTS of algorithms exposed in TrackML challenge
+title: Implementation and optimisation in Acts of algorithms exposed in TrackML challenge
 layout: gsoc_proposal
 project: Acts
 year: 2019
@@ -17,21 +17,21 @@ from May to August 2018 and on Codalab from October to March 2019. A wealth of t
 exposed : some pure
 combinatorial using trajectory following, some assisted with Machine Learning, some with unsupervised clustering. Given
 that this was a competition, the ultimate algorithm is most likely a combination of good ideas (some being very original) used by different competitors.
-ACTS is the C++ tracking tool suite which has been used to simulate the TrackML dataset. This versatile framework also allows reconstruction algorithms to be run.
+Acts is the C++ tracking tool suite which has been used to simulate the TrackML dataset. This versatile framework also allows reconstruction algorithms to be run.
 The goal of this project is to examine a number of TrackML submitted algorithms, to port the most promising ones (two or
-three) to ACTS and to build an optimal one using ideas exposed in the two phases of the challenge.
+three) to Acts and to build an optimal one using ideas exposed in the two phases of the challenge.
 
 ## Task ideas
  * Run some of the algorithms as submitted by the participants.
  * Evaluate the algorithms in terms of quality, speed, uniqueness, difficulty of the implementation
- * Implement in ACTS the data flow which will allow the evaluation (both in term of accuracy and in speed) the performance of the implemented algorithms
+ * Implement in Acts the data flow which will allow the evaluation (both in term of accuracy and in speed) the performance of the implemented algorithms
  * Implement one of the simplest algorithm submitted (clustering based)
  * Implement the more complex ones
  * Implement blending of algorithms
 
 
 ## Expected results
-A suite of efficient tracking reconstruction algorithms implemented in ACTS framework
+A suite of efficient tracking reconstruction algorithms implemented in Acts framework
 
 ## Requirements
 Experienced with C++ and python
