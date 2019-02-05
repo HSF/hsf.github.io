@@ -14,7 +14,7 @@ layout: plain
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC-Clermont
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) University of Nebraska-Lincoln
-* Johann A. Briffa [johann.briffa@cern.ch](johann.briffa@cern.ch) CERN
+* Johann A. Briffa [johann.briffa@cern.ch](mailto:johann.briffa@cern.ch) CERN
 * Ronald Bruijn [r.bruijn@nikhef.nl](mailto:r.bruijn@nikhef.nl) Nikhef
 * Andrea Calia [Andrea Calia](mailto:andrea.calia@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
