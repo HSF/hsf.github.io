@@ -91,3 +91,5 @@ layout: plain
 * Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
 * Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) OProject
+* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst)
+* Riccardo Maria Bianchi  [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh)
