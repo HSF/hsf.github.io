@@ -1,11 +1,11 @@
 ---
 title: Improving the precision of algorithms to hunt particles
 layout: gsoc_proposal
-project: Acts, IRIS-HEP
+project: Acts
 year: 2019
 organization:
 - CERN
-- UC Berkeley
+- UCB
 - LBNL
 ---
 
@@ -18,13 +18,12 @@ Particle trajectories are determined by so-called pattern recognition algorithms
 This project gives a unique opportunity to contribute to the development of a key component of the pattern recognition of ACTS.
 
 ## Task ideas
- *
  * Evaluate current track following algorithms for test-beam geometries
  * Design event data model for detector alignment in ACTS
  * Establish strategies to solve higher dimensional minimisation alignment problems for test-beam geometries
 
 ## Expected results
-An alignment package within ACTS that can be used to data from test-beam studies and used within track following algorithms.
+An alignment package within ACTS that can be used on data from test-beam studies within track following algorithms.
 
 ## Requirements
 C++
