@@ -10,14 +10,16 @@ organization: UCSD
 
 The LIGO experiment is adopting the use of GlideinWMS, a distributed resource manager, for its computing needs. Currently, passing input data to the parallel jobs is accomplished via either HTCondor-based file transfer or downloading from a set of Xrootd-powered distributed caches. Past work has been done on testing the scalability of these transfer methods, but not in the context of the needs of the LIGO experiment. We will attempt to test at what concurrency levels different components of the GlideinWMS infrastructure break while keeping conditions aligned to the needs of the LIGO experiment. 
 
+Although the scaling interest come from LIGO HTCondor, GlideinWMS and Xrootd Caching infrastructure are heavily used in the HEP communities like CMS, Atlas and IceCube. Moreover some of the same load testing tools that we are trying to improve for this use case had been used in the past for other scaling exercies for CMS. Hence this will most likely will have impact beyond LIGO needs. 
+
 
 ## Task ideas
  * Replicate the tests of the HTCondor transfer method that were done for GlueX [1].
- * Contribute to the [OSG Scalability Code repository|https://sourceforge.net/projects/osgscal/] and more specifically for the synthetic load generators:
+ * Contribute to the [OSG Scalability Code repository](https://sourceforge.net/projects/osgscal/) and more specifically for the synthetic load generators:
     1. Update the code to do  checksums of input and output transfers
     1. Include Condor configuration for capturing and displaying transfer statistics
     1. Capture transfer statistics (IO Transfer time, CPUTime) into InfluxDB using Condor built in Ganglia Daemon.
- * Use and contribute to [glideTester|https://github.com/efajardo/osgscal/tree/master/glideTester] to evaluate the usage of a Cache, a set of caches with/without SSD up to 50000 parallel jobs.
+ * Use and contribute to [glideTester](https://github.com/efajardo/osgscal/tree/master/glideTester) to evaluate the usage of a Cache, a set of caches with/without SSD up to 50000 parallel jobs.
  * Combine the results of both and submit an abstract for CHEP Conference 2019.
 
 ## Expected results
