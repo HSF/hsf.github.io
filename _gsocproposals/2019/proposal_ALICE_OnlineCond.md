@@ -35,4 +35,4 @@ Two multicast sending libraries and a receiving service that also implements a R
    1. [ALICE experiment at CERN](https://home.cern/science/experiments/alice)
    2. [ALICE Run 3 upgrade Technical Design Report](https://cds.cern.ch/record/2011297/files/ALICE-TDR-019.pdf)
    3. [ALICE CCDB status](https://docs.google.com/presentation/d/1RMIzqHL1JnDhwmqGj_yTmxqjNb54hNoJwvFIgtldR6g/edit#slide=id.g25765cf80e_0_3)
-   4. [ALICE CCDB Git repository](https://gitlab.cern.ch/grigoras/ccdb-local)
+   4. [ALICE CCDB repository](https://gitlab.cern.ch/grigoras/ccdb-local)
