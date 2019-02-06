@@ -6,6 +6,7 @@ layout: plain
 ## Full Mentor List (Name, Email, Org)
 
 * Roel Aaij [roelaaij@nikhef.nl](mailto:roelaaij@nikhef.nl) Nikhef
+* Xiaocong Ai [xiaocong.ai@cern.ch](mailto:xiacong.ai@cern.ch) UCB
 * Guilherme Amadio [guilherme.amadio@cern.ch](mailto:guilherme.amadio@cern.ch) CERN
 * Chris Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) LAL
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
@@ -38,6 +39,7 @@ layout: plain
 * Mihaela Gheata [mihaela.gheata@cern.ch](mailto:mihaela.gheata@cern.ch) CERN/ISS
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
 * Gilles Grasseau [gilles.grasseau@llr.in2p3.fr](mailto:gilles.grasseau@llr.in2p3.fr) LLR
+* Heather Gray [heather.gray@berkeley.edu](mailto:heather.gray@berkeley.edu) UCB/LBNL
 * Christophe Haen [christophe.denis.haen@cern.ch](mailto:christophe.denis.haen@cern.ch) CERN
 * Benedikt Hegner <mailto:benedikt.hegner@cern.ch> BNL
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
