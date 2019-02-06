@@ -12,6 +12,7 @@ layout: plain
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) CERN
 * Florian Beaudette [Florian.Beaudette@llr.in2p3.fr](mailto:Florian.Beaudette@llr.in2p3.fr) LLR
+* Latchezar Betev [latchezar.betev@cern.ch](mailto:latchezar.betev@cern.ch) CERN
 * Sebastien Binet [binet@cern.ch](mailto:binet@cern.ch) LPC-Clermont
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
 * Andrea Bocci [andrea.bocci@cern.ch](mailto:Andrea.Bocci@cern.ch) CERN
@@ -40,6 +41,7 @@ layout: plain
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
 * Gilles Grasseau [gilles.grasseau@llr.in2p3.fr](mailto:gilles.grasseau@llr.in2p3.fr) LLR
 * Heather Gray [heather.gray@berkeley.edu](mailto:heather.gray@berkeley.edu) UCB/LBNL
+* Costin Grigoras [costin.grigoras@cern.ch](mailto:costin.grigoras@cern.ch) CERN
 * Christophe Haen [christophe.denis.haen@cern.ch](mailto:christophe.denis.haen@cern.ch) CERN
 * Benedikt Hegner <mailto:benedikt.hegner@cern.ch> BNL
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
