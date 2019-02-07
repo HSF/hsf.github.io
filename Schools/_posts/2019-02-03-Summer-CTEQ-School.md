@@ -4,3 +4,4 @@ source: http://www.physics.smu.edu/scalise/cteq/
 date: 2019-07-16
 author: Guillermo Fidalgo
 ---
+[2019 CTEQ Summer School](http://www.physics.smu.edu/scalise/cteq/)
