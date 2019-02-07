@@ -31,6 +31,7 @@ layout: plain
 * Michael D'Silva [michael.dsilva@aarnet.edu.au](mailto:michael.dsilva@aarnet.edu.au) AARnet
 * Riccardo De Maria [Riccardo.De.Maria@cern.ch](mailto:Riccardo.De.Maria@cern.ch) CERN
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
+* Edgar Fajardo [emfajard@ucsd.edu](mailto:emfajard@ucsd.edu) UCSD
 * Markus Frank [markus.frank@cern.ch](mailto:markus.frank@cern.ch) CERN
 * Kajetan Fuchsberger [Kajetan Fuchsberger](mailto:Kajetan.Fuchsberger@cern.ch) CERN
 * Sebastien Gadrat [sebastien.gadrat@cc.in2p3.fr](mailto:sebastien.gadrat@cc.in2p3.fr) CC-IN2P3
