@@ -19,11 +19,11 @@ Levshina
     [<span class="underline">hep-software-foundation-google-summer-of-code@googlegroups.com</span>](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
   - To contact the admins, use
     [<span class="underline">hsf-gsoc-admin@googlegroups.com</span>](mailto:hsf-gsoc-admin@googlegroups.com).
-  - If Google accept us as an organisation (26 February), do we know
+  - If Google accepts us as an organisation (26 February), do we know
     how many slots we get?
       - Not at that time. We provide, by 25 March, a min/max number of
         projects we would like to have (this is when students apply to
-        Google with their projects). Google then make an allocation of
+        Google with their projects). Google then makes an allocation of
         slots.
 
 ## HSF/WLCG/OSG Workshop News and Planning
@@ -48,10 +48,10 @@ Levshina
           - Benedikt Hegner and Maria Girone are convening.
           - Session now planned in concert with Tuesday PM first
             session
-              - See detailed timetable
+              - See detailed timetable.
   - HSF Sessions:
       - *Please fill in a first version of your detailed timetable in
-        the coming week, even if not all slots are confirmed*
+        the coming week, even if not all slots are confirmed*.
           - All session convenors have management rights, let us know
             if you have any problems.
           - And do remember it’s a workshop - schedule generous
@@ -84,11 +84,11 @@ Levshina
 ## Activity and Working Group Updates
 General points:
   - Reminder to make sure your WG page has:
-      - Brief description of the interests of the group
-      - Information on how to join the group’s mailing list
+      - Brief description of the interests of the group.
+      - Information on how to join the group’s mailing list.
       - Information on how to contact the convenors (convenor list or
-        individual emails)
-      - A link to the group’s Indico category
+        individual emails).
+      - A link to the group’s Indico category.
 
 ### Detector Simulation
   - Not too much news - agenda for workshop is being prepared, 4/6
@@ -151,7 +151,7 @@ General points:
 
 ## AOB
   - Graeme absent next week - try to get another coordinator to run
-    the meeting
+    the meeting.
   - (Ongoing) URL checks on website are unreliable; another URL check
     code could be tried to see if that improves things.
   - Working on an update to the instructions for converting Google Doc
