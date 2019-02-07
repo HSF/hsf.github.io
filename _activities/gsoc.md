@@ -10,10 +10,10 @@ layout: default
 
 [Google Summer of Code](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations.
 
-Particle physics is an exciting field where large collaborations of scientists collect 
-and analyze petabytes data from high-energy physics experiments, such as the Large Hadron Collider, 
-hosted at the CERN laboratory in Geneva, Switzerland. 
-Some of the questions that we collectively ask are: 
+Particle physics is an exciting field where large collaborations of scientists collect
+and analyze petabytes data from high-energy physics experiments, such as the Large Hadron Collider,
+hosted at the CERN laboratory in Geneva, Switzerland.
+Some of the questions that we collectively ask are:
 
 - what are the fundamental blocks that make up our Universe?
 - what is the nature of dark matter and dark energy?
@@ -24,9 +24,24 @@ To answer these questions, particle physicists build software to simulate and an
 
 The CERN software for experiments (CERN-SFT) group has participated in the GSoC since 2011. Since 2017 the program has expanded to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
 
-Information from last year’s GSoC can be found [here](/gsoc/2018/index.html). In 2019 CERN-HSF is again applying for participation in the program. 
+Information from last year’s GSoC can be found [here](/gsoc/2018/index.html).
 
-If you are interested in the GSoC program contact us using the HSF GSoC general mailing list: [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com).
+
+### GSoC 2019
+
+In 2019 CERN-HSF is again applying for participation in the program. Accepted organizations will be announced on February 26.
+We already have some project proposals published [below](#projects-in-2019).
+
+### For Students
+
+If you are interested in the GSoC program have a look at our [guideline for students](/gsoc/students-guideline.html).
+
+For further information, feel free to contact us using the HSF GSoC general mailing list:
+
+
+[hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)
+
+### For Projects and Mentors
 
 Instructions for participating projects and mentors can be found [here](/gsoc/guideline.html).
 
@@ -50,3 +65,4 @@ Instructions for participating projects and mentors can be found [here](/gsoc/gu
 *HSF GSoC Administrators*: Andrei Gheata, Antoine Pérus and Javier Cervantes Villanueva.
 
 [Contact us](mailto:hsf-gsoc-admin@googlegroups.com)
+[General e-mail](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)
