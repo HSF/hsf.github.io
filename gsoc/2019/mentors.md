@@ -1,3 +1,10 @@
+---
+title: Summary of Mentors GSoC 2019
+layout: plain
+---
+
+## Full Mentor List (Name, Email, Org)	
+
 * Roel Aaij [roelaaij@nikhef.nl](mailto:roelaaij@nikhef.nl) Nikhef
 * Xiaocong Ai [xiaocong.ai@cern.ch](mailto:xiaocong.ai@cern.ch) UCB
 * Guilherme Amadio [guilherme.amadio@cern.ch](mailto:guilherme.amadio@cern.ch) CERN
