@@ -6,6 +6,7 @@ year: 2019
 organization: 
  - LAL
  - MdS
+ - Stanford University
  - CERN
 ---
 
