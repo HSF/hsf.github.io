@@ -40,6 +40,7 @@ layout: plain
 * Frank Gaede <frank.gaede@desy.de> DESY
 * Gerardo Ganis [gerardo.ganis@cern.ch](mailto:gerardo.ganis@cern.ch) CERN
 * Paul Gessinger [paul.gessinger@cern.ch](mailto:paul.gessinger@cern.ch) CERN
+* Spencer Gessner [spencer.j.gessner@cern.ch](mailto:spencer.j.gessner@cern.ch) CERN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Mihaela Gheata [mihaela.gheata@cern.ch](mailto:mihaela.gheata@cern.ch) CERN, ISS
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
