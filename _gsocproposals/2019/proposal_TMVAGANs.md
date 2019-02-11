@@ -29,7 +29,6 @@ Strong C++ skills, solid knowledge of deep learning, understanding of GANs, fami
 
 ## Mentors
 * [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=TMVA%20GANs) 
-* [Stefan Wunsch](mailto:sft-gsoc@cern.ch?subject=TMVA%20GANs)
 * [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=TMVA%20GANs)
 
 ## Links
