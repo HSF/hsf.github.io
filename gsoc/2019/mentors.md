@@ -43,6 +43,7 @@ layout: plain
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Mihaela Gheata [mihaela.gheata@cern.ch](mailto:mihaela.gheata@cern.ch) CERN, ISS
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
+* Hadrien Grasland [grasland@lal.in2p3.fr](mailto:grasland@lal.in2p3.fr) LAL
 * Gilles Grasseau [gilles.grasseau@llr.in2p3.fr](mailto:gilles.grasseau@llr.in2p3.fr) LLR
 * Heather Gray [heather.gray@berkeley.edu](mailto:heather.gray@berkeley.edu) UCB, LBNL
 * Costin Grigoras [costin.grigoras@cern.ch](mailto:costin.grigoras@cern.ch) CERN
