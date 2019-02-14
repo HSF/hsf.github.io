@@ -4,12 +4,6 @@ layout: meetings
 ---
 # {{page.title}}
 
-*Nota bene - this Google Doc is used as scratch pad each week, so it
-does not keep the minutes for any old meeting for posterity. The minutes
-are processed each week and put on the [<span class="underline">HSF
-website</span>](https://hepsoftwarefoundation.org/organization/minutes.html),
-which is the permanent record of the meetings.*
-
 *Agenda:
 [<span class="underline">https://indico.cern.ch/event/799280/</span>](https://indico.cern.ch/event/799280/)*
 
