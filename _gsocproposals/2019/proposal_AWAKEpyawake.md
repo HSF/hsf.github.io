@@ -23,6 +23,7 @@ Python, Jupyter notebooks
 
 ## Mentor
   * [Spencer Gessner](mailto:spencer.j.gessner@cern.ch)
+  * [Marlene Turner](mailto:marlene.turner@cern.ch)
 
 ## Links
   * [AWAKE](https://awake.web.cern.ch/)
