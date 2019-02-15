@@ -96,6 +96,7 @@ layout: plain
 * Graeme A Stewart <graeme.andrew.stewart@cern.ch> CERN
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
+* Marlene Turner [marlene.turner@cern.ch](mailto:marlene.turner@cern.ch) CERN
 * Gianluca Valentino [Gianluca.Valentino@cern.ch](mailto:Gianluca.Valentino@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton
 * Tobias Wegner [tobias.wegner@cern.ch](mailto:tobias.wegner@cern.ch) CERN
