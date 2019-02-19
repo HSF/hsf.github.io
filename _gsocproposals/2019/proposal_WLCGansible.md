@@ -1,5 +1,5 @@
 ---
-title: Python Components for the SIMPLE Grid Framework
+title: Ansible module for the SIMPLE Grid Framework
 layout: gsoc_proposal
 project: WLCG
 year: 2019
@@ -11,7 +11,8 @@ organization:
 
 The Worldwide LHC Computing Grid (WLCG) unites resources from over 160 computing centres and research institutes spread across the world and the number is expected to grow in the coming years. However, provisioning resources (compute, network, storage) at new sites to support WLCG workloads is still no straightforward task and often requires significant assistance from WLCG experts. Recently, the WLCG community has initiated steps towards reducing such overheads, for example, through the use of prefab Docker containers or OpenStack VM images, along with the adoption of popular tools like Puppet for configuration. In 2017, the SIMPLE Grid project was initiated to construct shared community repositories providing such building blocks. These repositories are governed by a single SIMPLE Framework Specification Document which describes a modular way to define site components such as Batch Systems, Compute Elements, Worker Nodes, Networks etc
 
-The SIMPLE Grid project is an extension of the SIMPLE Framework that combines popular configuration management technologies such as Puppet/Ansible and container orchestration technologies such as Docker Swarm/Kubernetes to allow deployment of complex computing clusters using a single site level configuration file. The various components of the framework and their functions are described in the SIMPLE specification document. Two of the core components written in Python are: SIMPLE Grid YAML Compiler and SIMPLE Grid Validation Engine.   
+The SIMPLE Grid project is an extension of the SIMPLE Framework that combines popular configuration management technologies such as Puppet/Ansible and container orchestration technologies such as Docker Swarm/Kubernetes to allow deployment of complex computing clusters using a single site level configuration file. The various components of the framework and their functions are described in the SIMPLE specification document. The central configuration manager is a core component of the framework that controls the execution pipelines for all of the other components of the framework. A Puppet based implementation of the central configuration manager that complies with the specification document has been developed by the team at CERN. Efforts to develop a parallel implementation in Ansible were started during Google Summer of Code 2018 and this year we plan to develop it further over the summer.
+ 
 
 
 

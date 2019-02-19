@@ -105,3 +105,5 @@ layout: plain
 * Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
 * Stefan Wunsch [stefan.wunsch@cern.ch](mailto:stefan.wunsch@cern.ch) CERN, KIT
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) OProject
+* Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) CERN
+* Maarten Litmaath [maarten.litmaath@cern.ch](mailto:maarten.litmaath@cern.ch) CERN
