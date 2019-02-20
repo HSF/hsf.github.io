@@ -32,4 +32,4 @@ C++ skills, experience with large scale software development and machine learnin
 ## Links
   * [ROOT TMVA](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-mirror/root/tree/master/tmva)
-  * [Deep Learning and Its Application to LHC Physics](https://doi.org/10.1146/annurev-nucl-101917-021019)
+  * [Deep Learning and Its Application to LHC Physics](https://arxiv.org/abs/1806.11484)

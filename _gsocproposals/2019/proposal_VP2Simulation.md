@@ -55,7 +55,7 @@ computational performance and ability to find trajectories.
 ## Mentors
   * [Daniel Hynds](mailto:d.hynds@nikhef.nl)
   * [Roel Aaij](mailto:roelaaij@nikhef.nl)
-  * [Gerhard Raven](mailto:g.raven@nikhef.nl)
+  * [Gerhard Raven](mailto:gerhard.raven@nikhef.nl)
 
 ## Links
    1. [https://lhcb.web.cern.ch](https://lhcb.web.cern.ch)
