@@ -40,6 +40,7 @@ layout: plain
 * Frank Gaede <frank.gaede@desy.de> DESY
 * Gerardo Ganis [gerardo.ganis@cern.ch](mailto:gerardo.ganis@cern.ch) CERN
 * Paul Gessinger [paul.gessinger@cern.ch](mailto:paul.gessinger@cern.ch) CERN
+* Spencer Gessner [spencer.j.gessner@cern.ch](mailto:spencer.j.gessner@cern.ch) CERN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Mihaela Gheata [mihaela.gheata@cern.ch](mailto:mihaela.gheata@cern.ch) CERN, ISS
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
@@ -99,6 +100,7 @@ layout: plain
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Lauren Tompkins [laurenat@stanford.edu](mailto:laurenat@stanford.edu) Stanford University
+* Marlene Turner [marlene.turner@cern.ch](mailto:marlene.turner@cern.ch) CERN
 * Gianluca Valentino [Gianluca.Valentino@cern.ch](mailto:Gianluca.Valentino@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton
 * Tobias Wegner [tobias.wegner@cern.ch](mailto:tobias.wegner@cern.ch) CERN
