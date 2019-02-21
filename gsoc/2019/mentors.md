@@ -44,6 +44,7 @@ layout: plain
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Mihaela Gheata [mihaela.gheata@cern.ch](mailto:mihaela.gheata@cern.ch) CERN, ISS
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) Florida
+* Hadrien Grasland [grasland@lal.in2p3.fr](mailto:grasland@lal.in2p3.fr) LAL
 * Gilles Grasseau [gilles.grasseau@llr.in2p3.fr](mailto:gilles.grasseau@llr.in2p3.fr) LLR
 * Heather Gray [heather.gray@berkeley.edu](mailto:heather.gray@berkeley.edu) UCB, LBNL
 * Costin Grigoras [costin.grigoras@cern.ch](mailto:costin.grigoras@cern.ch) CERN
@@ -61,6 +62,7 @@ layout: plain
 * Hugo Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
+* Maarten Litmaath [maarten.litmaath@cern.ch](mailto:maarten.litmaath@cern.ch) CERN
 * Artur Lobanov [artur.lobanov@llr.in2p3.fr](mailto:artur.lobanov@llr.in2p3.fr) LLR
 * Riccardo De Maria [Riccardo.De.Maria@cern.ch](mailto:Riccardo.De.Maria@cern.ch) CERN
 * Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
@@ -89,6 +91,7 @@ layout: plain
 * Alaettin Serhan Mete [amete@cern.ch](mailto:amete@cern.ch) UCIrvine
 * Igor Sfiligoi [isfiligoi@ucsd.edu](mailto:isfiligoi@ucsd.edu) UCSD
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
+* Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) CERN
 * Michael D'Silva [michael.dsilva@aarnet.edu.au](mailto:michael.dsilva@aarnet.edu.au) AARnet
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Simon Spannagel [simon.spannagel@cern.ch](mailto:simon.spannagel@cern.ch) CERN
@@ -96,6 +99,7 @@ layout: plain
 * Graeme A Stewart <graeme.andrew.stewart@cern.ch> CERN
 * Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
+* Lauren Tompkins [laurenat@stanford.edu](mailto:laurenat@stanford.edu) Stanford University
 * Marlene Turner [marlene.turner@cern.ch](mailto:marlene.turner@cern.ch) CERN
 * Gianluca Valentino [Gianluca.Valentino@cern.ch](mailto:Gianluca.Valentino@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton

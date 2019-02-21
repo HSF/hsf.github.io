@@ -6,6 +6,8 @@ year: 2019
 organization: 
  - LAL
  - MdS
+ - StanfordUniversity
+ - CERN
 ---
 
 ## Description
@@ -68,6 +70,8 @@ C++ Templates, Computing with GPU, Linear Algebra.
   * [David Chamont](mailto:david.chamont@lal.in2p3.fr)
   * [Pierre Kesterner](mailto:pierre.kestener@cea.fr)
   * [David Rousseau](mailto:david.rousseau@lal.in2p3.fr)
+  * [Lauren Tompkins](mailto:laurenat@stanford.edu)
+  * [Andreas Salzburger](mailto:Andreas.Salzburger@cern.ch)
 
 ## Links
   * [Acts](http://acts.web.cern.ch)
