@@ -61,6 +61,7 @@ layout: plain
 * Hugo Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
+* Maarten Litmaath [maarten.litmaath@cern.ch](mailto:maarten.litmaath@cern.ch) CERN
 * Artur Lobanov [artur.lobanov@llr.in2p3.fr](mailto:artur.lobanov@llr.in2p3.fr) LLR
 * Riccardo De Maria [Riccardo.De.Maria@cern.ch](mailto:Riccardo.De.Maria@cern.ch) CERN
 * Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
@@ -89,6 +90,7 @@ layout: plain
 * Alaettin Serhan Mete [amete@cern.ch](mailto:amete@cern.ch) UCIrvine
 * Igor Sfiligoi [isfiligoi@ucsd.edu](mailto:isfiligoi@ucsd.edu) UCSD
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
+* Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) CERN
 * Michael D'Silva [michael.dsilva@aarnet.edu.au](mailto:michael.dsilva@aarnet.edu.au) AARnet
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Simon Spannagel [simon.spannagel@cern.ch](mailto:simon.spannagel@cern.ch) CERN
@@ -105,5 +107,3 @@ layout: plain
 * Frank Wuerthwein [fkw@ucsd.edu](mailto:fkw@ucsd.edu) UCSD
 * Stefan Wunsch [stefan.wunsch@cern.ch](mailto:stefan.wunsch@cern.ch) CERN, KIT
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) OProject
-* Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) CERN
-* Maarten Litmaath [maarten.litmaath@cern.ch](mailto:maarten.litmaath@cern.ch) CERN
