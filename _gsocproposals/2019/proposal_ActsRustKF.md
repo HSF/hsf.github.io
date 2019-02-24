@@ -56,6 +56,7 @@ C++ and or Rust, linear algebra
 ## Mentors 
   * [Paul Gessinger](mailto:paul.gessinger@cern.ch)
   * [Andreas Salzburger](mailto:Andreas.Salzburger@cern.ch)
+  * [Hadrien Grasland](mailto:grasland@lal.in2p3.fr)
 
 ## Links
   * [Acts](http://cern.ch/acts)

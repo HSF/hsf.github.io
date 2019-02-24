@@ -59,7 +59,7 @@ Compiler knowledge, CUDA, C
 ## Mentors
   * [Daniel Campora](mailto:dcampora@cern.ch)
   * [Axel Naumann](mailto:axel.naumann@cern.ch)
-  * [Gerhard Raven](mailto:gerhard.raven@cern.ch)
+  * [Gerhard Raven](mailto:gerhard.raven@nikhef.nl)
   * [Niko Neufeld](mailto:niko.neufeld@cern.ch)
 
 ## Links
