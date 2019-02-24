@@ -28,7 +28,7 @@ Other actions in progress include:
 
 ### Upcoming Training Schools
  **Warning** : Application deadlines are **before the date shown**
-{% for post in site.categories.Schools reversed %}
+{% for post in site.categories.Schools reversed  limit: 10%}
 {% if post.date > site.time %}
 1. [{{post.title}} - {{post.date | date_to_string}}]({{post.source}})
 {% endif %}
