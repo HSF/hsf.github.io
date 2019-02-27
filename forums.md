@@ -9,7 +9,7 @@ layout: default
 Discussions and activities in the HEP Software Foundation rely on several mailing lists and forums, some of them for general discussions, others for topical ones. All these forums are open to anybody interested and archives are publically available but they generally require that you register in order to participate.
 
 *Most of these forums are hosted by Google Groups. To register to them with your preferred email, simply send a mail to
-`forum_name+subscribe@googlegroups.com` (with `forum_name` replaced by the actual name, e.g. `hsf-tech`): subject and contents 
+`forum_name+subscribe@googlegroups.com` (with `forum_name` replaced by the actual name, e.g. `hsf-tech`): subject and contents
 are ignored and can be empty. If you want to register with your Google account, you can also use the web page associated with the forum
 (see below).*
 
@@ -19,7 +19,7 @@ are ignored and can be empty. If you want to register with your Google account, 
 
 ### General Information about HSF: hsf-forum@googlegroups.com
 
-The [hsf-forum](http://groups.google.com/d/forum/hsf-forum) is the general announcement and discussion forum for the HSF. Our meeting announcements are posted here, as are meeting minutes. The forum is intended for discussion, not just announcements. And everybody interested into the HSF, even though it is only for specific topic, is encourage to register to this forum to get all announcements. 
+The [hsf-forum](http://groups.google.com/d/forum/hsf-forum) is the general announcement and discussion forum for the HSF. Our meeting announcements are posted here, as are meeting minutes. The forum is intended for discussion, not just announcements. And everybody interested into the HSF, even though it is only for specific topic, is encourage to register to this forum to get all announcements.
 
 ### HSF Technical Forum: hsf-tech-forum@googlegroups.com
 
@@ -30,14 +30,22 @@ The [hsf-tech-forum](https://groups.google.com/forum/#%21forum/hsf-tech-forum) i
 This is not strictly an HSF mailing list. The [HEP S&C community mailing list](http://groups.google.com/d/forum/hep-sw-comp) is intended for occasional HEP software and computing community mailings. Everyone involved or interested in HEP S&C is encouraged to sign up to this list. It will be used for occasional mailings of community wide interest, such as announcements of HEP S&C conferences, workshops and schools not strictly related to the HSF.
 
 
-## Dedicated Activity Forums
+## Dedicated Activities and Working Groups
 -----
 
-### HSF Training Activities: hsf-training-wg
-The [hsf-training-wg](https://groups.google.com/forum/#%21forum/hsf-training-wg) is the discussion forum for the training working group.
+Each of the HSF Working groups maintains a dedicated page where contact
+information for that group can be found:
 
-### HSF Packaging WG: hsf-packaging-wg
-The [hsf-packaging-wg](https://groups.google.com/forum/#%21forum/hsf-packaging-wg) is the discussion forum for the packaging working group.
+<ul class="list">
+{% for wg in site.workinggroups %}
+  <li> <a href="{{ wg.url }}">{{ wg.title }}</a></li>
+{% endfor %}
+</ul>
 
-### HSF Licensing WG: hsf-licensing-wg
-The [hsf-licensing-wg](https://groups.google.com/forum/#%21forum/hsf-licensing-wg) is the discussion forum for the licensing working group.
+And for other HSF activities there are also dedicated pages:
+
+<ul class="list">
+{% for activity in site.activities %}
+  <li> <a href="{{ activity.url }}">{{ activity.title }}</a></li>
+{% endfor %}
+</ul>

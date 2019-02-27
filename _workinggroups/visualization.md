@@ -1,17 +1,23 @@
 ---
 title: "Visualization"
 author: "Riccardo Maria Bianchi"
-layout: default
-redirect_from: /activities/training.html
+layout: plain
+redirect_from: /activities/visualization.html
 ---
-
-# Visualization
 
 The Visualization Working Group (WG) gathers experts, develeopers, users and all people from the HEP community interested in interactive data visualization and event displays. 
 
 The WG has been started in October 2016 and it is convened by Riccardo Maria Bianchi (*University of Pittsburgh, US*, ATLAS Experiment). 
 
 All are welcome to join the WG and participate!
+
+## Contacts
+
+Convenor: [Riccardo Maria BIANCHI](mailto:riccardo.maria.bianchi@cern.ch) (ATLAS)
+
+Mailing list: [hsf-visualization-wg@googlegroups.com](mailto:hsf-visualization-wg@googlegroups.com)
+
+----
 
 ## Goal
 
@@ -23,7 +29,8 @@ The goal of the WG is to discover common approaches, foster collaboration among 
 
 Here follows the description of the WG, its challenges and the questions which it should address, as defined by the WG itself during the Visualization session in the HSF Workshop in San Diego (see link in the meetings' list below).
 
-The first task of the WG is the planning and the writing of the [CWP](http://hepsoftwarefoundation.org/activities/cwp.html) chapter on Visualization, to draft the guidelines for the future HEP visualization tools, with a view of 5-10 years.
+The first task of the WG was the writing of a [common white paper](http://hepsoftwarefoundation.org/activities/cwp.html) about Visualization issues and challenges in HEP, and possible solutions, in a time scale of 5-10 years. The paper is now completed and published on arXiV: <https://arxiv.org/abs/1811.10309>.
+
 
 ### Scope of the WG activities
 
@@ -66,23 +73,30 @@ Topics for which we will have to interact with other WGs:
 
 ## Documents
 
+* HSG "Visualization" Community White Paper: <https://arxiv.org/abs/1811.10309>
+
 * Working Group's [charge document](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit), as defined by the WG in the January 2017 San Diego Workshop
+
 
 ----
 
 ## Meetings
 
+### HSF Workshop 2018 - Visualization session, Naples, 28 March 2018
+
+* [Agenda](https://indico.cern.ch/event/658060/sessions/266387/#20180328)
+
 ### HSF Mini-workshop on GUI, graphic libraries, interactive visualization, CERN, 7 April 2017
 
-* Agenda: https://indico.cern.ch/event/628675/
+* [Agenda](https://indico.cern.ch/event/628675/)
 
 ### HSF Visualization Workshop, CERN, 28-30 March 2017
 
-* Agenda: https://indico.cern.ch/event/617054/
+* [Agenda](https://indico.cern.ch/event/617054/)
 * Discussion's [Live notes](https://indico.cern.ch/event/617054/contributions/2526122/attachments/1436308/2208777/go)
 
 ### HSF Workshop, San Diego, 23-26 January 2017
 
-* Workshop agenda: https://indico.cern.ch/event/570249/
+* [Workshop agenda](https://indico.cern.ch/event/570249/)
 * Visualization session's [agenda](https://indico.cern.ch/event/570249/sessions/217071/#20170125)
 * All the [contributions](https://indico.cern.ch/event/570249/contributions/2450053/)
