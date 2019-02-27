@@ -110,10 +110,6 @@ General points:
             contribution to the WLCG performance/ cost model and
             metric’s group (they will meet at HOW on Wed. morning).
 
-### Quantum Computing 
-
--   NTR
-
 ### Licensing
 
 -   Marco and Graeme to meet with CERN KT next week.
@@ -135,13 +131,6 @@ General points:
 ### Packaging
 
 -   Next meeting on 27 February.
-
-## CWP
-
-#### Publication status for Individual WG Papers
-
--   **Facilities and Distributed Computing**
-    -   No news
 
 ## AOB
 
