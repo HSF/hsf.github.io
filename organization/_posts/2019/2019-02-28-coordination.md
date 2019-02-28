@@ -9,8 +9,8 @@ layout: meetings
 Tommaso Boccali, Danilo Piparo, Pere Mato, Stefan Roiser, Andrea
 Valassi, Eduardo Rodrigues, David Lange, Agnieszka Dziurda, Serhan Mete,
 Andrea Rizzi, Caterina Doglioni, Ed Moyse, Jim Amundson, Liz
-Sexton-Kennedy, Mark Hodgkinson, Daniel Elvira, Heather Grey, Markus
-Klute
+Sexton-Kennedy, Mark Hodgkinson, Daniel Elvira, Heather Gray, Markus
+Klute, Gloria Corti
 
 ## News, general matters
   - [<span class="underline">LHCC WLCG
