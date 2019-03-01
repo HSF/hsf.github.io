@@ -8,6 +8,10 @@ redirect_from:
 
 The HSF Training & Tutoring initiative is aimed at helping the research community (in various disciplines) to bridge the gap in computing skills existing nowadays between University level courses and what is required by scientist to produce high quality, sustainable software.
 
+## Github Organization
+
+The [HSF-Training GitHub Organization](https://github.com/hsf-training) has [Analysis Essentials](https://hsf-training.github.io/analysis-essentials/), a course on basic computing required for HEP, and [PyHEP resources](https://github.com/hsf-training/PyHEP-resources), a page of Python-focused training resources.
+
 ## WikiToLearn - collaborative textbooks
 
 To achieve this goal, we adopted an already existing and successful platform. [WikiToLearn](http://en.wikitolearn.org/Main_Page). Originally developed in Italy, it was intended to allow University students to deploy our tutoring in software. It has now a growing usage also outside Italy.
@@ -17,6 +21,7 @@ The basic principle of this initiative is that researchers can seldom afford to 
 WikiToLearn is a wikimedia-based content management system, pretty much like Wikipedia, were anybody can add new material or complete already existing one. To strengthen the quality of published material, scientists and researches can furthermore sign a particular version to enhance it's quality level. The platform is currently officially backed by Wikimedia and the KDE organization, and has received support from the University of Milano-Bicocca and the University of Pisa.
 
 Under the category 'Physics/Software', WikiToLearn now has a [branch](http://it.wikitolearn.org/Main_HSF_Page) dedicated to the HSF effort. We plan, in the coming months, to recruit as many volunteers as possible to publish there training material in various software domains relevant to HSF.
+
 
 ## Other training activities in HSF
 
