@@ -73,13 +73,18 @@ Topics for which we will have to interact with other WGs:
 
 ## Documents
 
+* HSG "Visualization" Community White Paper: <https://arxiv.org/abs/1811.10309>
+
 * Working Group's [charge document](https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit), as defined by the WG in the January 2017 San Diego Workshop
 
-* HSG "Visualization" Community White Paper: <https://arxiv.org/abs/1811.10309>
 
 ----
 
 ## Meetings
+
+### HSF Workshop 2018 - Visualization session, Naples, 28 March 2018
+
+* [Agenda](https://indico.cern.ch/event/658060/sessions/266387/#20180328)
 
 ### HSF Mini-workshop on GUI, graphic libraries, interactive visualization, CERN, 7 April 2017
 
