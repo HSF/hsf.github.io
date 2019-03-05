@@ -51,6 +51,11 @@ This GSoC task is to implement an HDF5 backend for PODIO.
 * Python
 * Optional: Some experience with CMake, git and GitHub would be useful
 
+## Evaluation Exercise
+
+There is an [evaluation exercise](https://github.com/graeme-a-stewart/podio-hdf5-evaluation)
+for this project that we ask all prospective students to complete.
+
 ## Mentors
   * [Graeme A Stewart](mailto:graeme.andrew.stewart@cern.ch)
   * [Frank Gaede](mailto:frank.gaede@desy.de)
