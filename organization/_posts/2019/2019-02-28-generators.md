@@ -87,7 +87,7 @@ Action items:
   - Fill in (at a minimum) the nEvts column in Table 2 in proceedings:
     ([<span class="underline">https://www.overleaf.com/1326158343ftxgrxxcspxg</span>](https://www.overleaf.com/1326158343ftxgrxxcspxg))
 
-> ![](/images/2019-02-28-generators.png)
+> ![Table 2 of proceedings](/images/2019-02-28-generators.png)
   - Get precise GEN no. of events and CPU s/evt for sets of sample
     that are roughly the same between ATLAS and CMS:
       - W+jets LO Ht-sliced
