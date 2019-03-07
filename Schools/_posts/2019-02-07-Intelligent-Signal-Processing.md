@@ -1,9 +1,9 @@
 ---
 title: Summer School on Intelligent Signal Processing for Frontier Physics and Industry
-source: http://petlab.hust.edu.cn/infieri2019.htm
+source: https://indico.cern.ch/event/683620/registrations/
 date: 2019-05-12
 author: Guillermo Fidalgo
 layout: event
 categories: Schools
 ---
-[Summer School on Intelligent Signal Processing](http://petlab.hust.edu.cn/infieri2019.htm)
+[Summer School on Intelligent Signal Processing](https://indico.cern.ch/event/683620/registrations/)
