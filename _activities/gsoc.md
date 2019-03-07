@@ -29,8 +29,7 @@ Information from last year’s GSoC can be found [here](/gsoc/2018/index.html).
 
 ### GSoC 2019
 
-In 2019 CERN-HSF is again applying for participation in the program. Accepted organizations will be announced on February 26.
-We already have some project proposals published [below](#projects-in-2019).
+In 2019 CERN-HSF has been selected as a GSoC organization to participate in the program. Project proposals are listed [below](#projects-in-2019).
 
 ### For Students
 
