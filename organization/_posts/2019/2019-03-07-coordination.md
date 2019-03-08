@@ -8,7 +8,7 @@ layout: meetings
 *Present/Contributors*: Graeme Stewart, Andrei Gheata, Danilo Piparo,
 Pere Mato, Serhan Mete, Caterina Doglioni, David Lange, Jim Amundson,
 Stefan Roiser, Paul Laycock, Heather Gray, Michel Jouvin, Liz
-Sexton-Kennedy, Andrea Rizzi
+Sexton-Kennedy, Andrea Rizzi, Javier Cervantes Villaneuva
 
 *Apologies*: Agnieszka Dziurda
 
