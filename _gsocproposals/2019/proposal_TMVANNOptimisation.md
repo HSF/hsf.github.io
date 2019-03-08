@@ -34,5 +34,5 @@ C++ skills, experience with large scale software development, vectorization, lin
 ## Links
   * [ROOT TMVA](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-mirror/root/tree/master/tmva)
-  * [BLAS](https://http://www.netlib.org/blas/)
+  * [BLAS](http://www.netlib.org/blas/)
   * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page)
