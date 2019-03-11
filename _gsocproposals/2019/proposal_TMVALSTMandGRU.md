@@ -15,11 +15,13 @@ Both layer types have very promising applications in particle physics such as je
 ## Task ideas
 * Implementation of the forward and backward pass for the LSTM and GRU layer types
 * Optimization for the CPU and GPU platform
+* In collaboration with the GSoC student for the sister project "Implementation of ONNX operators for Tensor Manipulation and Deep Learning", implement ONNX operators for "RNN", "LSTM" and "GRU".
 
 ## Expected results
 * Working implementation of the LSTM and GRU layer types
+* Working implemnetation of ONNX operators for "RNN", "LSTM" and "GRU" in teamwork.
 * Runnable on CPU and GPU with performance comparable to existing implementations
-* Demonstrator solving a ML task using the implementation
+* Demonstrating solving a ML task using the implementation
 
 
 ## Requirements

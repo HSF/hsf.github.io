@@ -1,5 +1,5 @@
 ---
-title: Development of an experiment independent javascript event display framework and data format
+title: Phoenix, interactive data visualization - Development of an experiment independent javascript event display framework and data format
 layout: gsoc_proposal
 project: Phoenix
 year: 2019

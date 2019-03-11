@@ -9,7 +9,7 @@ The PyHEP working group brings together a community of developers and users of P
 the sharing of knowledge and expertise. It embraces the broad community, from HEP to the Astroparticle and Intensity Frontier communities.
 
 The group is currently coordinated by Chris Tunnell (XENON1T), Eduardo Rodrigues (LHCb) and Jim Pivarski (CMS),
-who took over from Graeme Stewart (CERN EP-SF) in January 2019.
+who took over from Graeme Stewart (CERN EP-SFT) in January 2019.
 All coordinators can be reached via <hsf-pyhep-organisation@googlegroups.com>.
 
 # Getting Involved
@@ -19,6 +19,12 @@ Everyone is welcome to join the community and participate by means of the follow
 * [Gitter channel PyHEP](https://gitter.im/HSF/PyHEP){:target="_pyhep_gitter_channel} for any informal exchanges.
 * [GitHub repository of resources](https://github.com/hsf-training/PyHEP-resources){:target="_pyhep_resources_repo"},
   e.g., Python libraries of interest to Particle Physics.
+
+Extra Gitter channels have been created by and for the benefit of the community:
+
+* [PyHEP-histogramming](https://gitter.im/HSF/PyHEP-histogramming){:target="_pyhep_histogramming_gitter_channel} for discussions around histogramming.
+* [mpl-hep](https://gitter.im/HSF/mpl-hep){:target="_mpl_hep_gitter_channel} for Matplotlib proposals related to Particle Physics.
+
 
 # PyHEP Series of Workshops
 
