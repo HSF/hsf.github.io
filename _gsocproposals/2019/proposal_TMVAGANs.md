@@ -28,8 +28,8 @@ The goal of this project is to extend the existing deep learning libraries in TM
 Strong C++ skills, solid knowledge of deep learning, understanding of GANs, familiarity with GPUs
 
 ## Mentors
-* [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=TMVA%20GANs) 
-* [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=TMVA%20GANs)
+* [Sergei Gleyzer](mailto:sft-gsoc-ml@googlegroups.com?subject=TMVA%20GANs) 
+* [Omar Zapata](mailto:sft-gsoc-ml@googlegroups.com?subject=TMVA%20GANs)
 
 ## Links
   * [http://root.cern/tmva](http://root.cern/tmva)
