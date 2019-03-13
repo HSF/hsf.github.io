@@ -23,9 +23,9 @@ The goal of this project is to optimize the structure of the code by extending t
 Strong development skills, good knowledge of C++ and Python. Interest in Machine Learning algorithms and applications.
 
 ## Mentors 
-  * [Harrison Prosper](mailto:sft-gsoc@cern.ch?subject=FALCON)
-  * [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=FALCON)
-  * [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=FALCON)
+  * [Harrison Prosper](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
+  * [Sergei Gleyzer](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
+  * [Omar Zapata](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
 
 ## Links
   * [http://root.cern](http://root.cern)

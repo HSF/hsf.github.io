@@ -21,9 +21,9 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 C++ skills, experience with large scale software development and machine learning tools is a plus.
 
 ## Mentors
-* [Sergei Gleyzer](mailto:sft-gsoc@cern.ch?subject=TMVA%20Feature%20Extraction) 
-* [Manos Stergiadis](mailto:sft-gsoc@cern.ch?subject=TMVA%20Feature%20Extraction)
-* [Omar Zapata](mailto:sft-gsoc@cern.ch?subject=TMVA%20Feature%20Extraction)
+* [Sergei Gleyzer](mailto:sft-gsoc-ml@googlegroups.com?subject=TMVA%20Feature%20Extraction) 
+* [Manos Stergiadis](mailto:sft-gsoc-ml@googlegroups.com?subject=TMVA%20Feature%20Extraction)
+* [Omar Zapata](mailto:sft-gsoc-ml@googlegroups.com?subject=TMVA%20Feature%20Extraction)
 
 ## Links
   * [http://root.cern/tmva](http://root.cern/tmva)
