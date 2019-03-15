@@ -8,7 +8,8 @@ layout: meetings
 [<span class="underline">https://indico.cern.ch/event/802643</span>](https://indico.cern.ch/event/802643)*
 
 *Present/Contributors: Simone Amoroso, Andrea Valassi, Efe Yazgan, Lesya
-Shchutska, Qiang Li, Taylor Childers, Zach Marshall, Olivier Mattelaer*
+Shchutska, Qiang Li, Taylor Childers, Zach Marshall, Olivier Mattelaer,
+Josh McFayden*
 
 ## Discussion on sharing SUSY samples across experiments
   - ATLAS-CMS comparison recently started for process definitions in
