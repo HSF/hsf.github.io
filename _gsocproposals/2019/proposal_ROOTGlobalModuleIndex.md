@@ -29,7 +29,7 @@ Implement GlobalModuleIndex in ROOT/Cling, provide a performance tuning for prel
   * Interest in Compiler technology
 
 ## Mentors
-  * [Yuka Takahashi](mailto:yuka@cern.ch)
+  * [Yuka Takahashi](mailto:yukatkh@gmail.com)
   * [Oksana Shadura](mailto:oksana.shadura@cern.ch)
   * [Vassil Vassilev](mailto:vvasilev@cern.ch)
 
