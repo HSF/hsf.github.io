@@ -97,7 +97,7 @@ layout: plain
 * Simon Spannagel [simon.spannagel@cern.ch](mailto:simon.spannagel@cern.ch) CERN
 * Federico Stagni [federico.stagni@cern.ch](mailto:federico.stagni@cern.ch) CERN
 * Graeme A Stewart <graeme.andrew.stewart@cern.ch> CERN
-* Yuka Takahashi [yuka@cern.ch](mailto:yuka@cern.ch) CERN
+* Yuka Takahashi [yukatkh@gmail.com](mailto:yukatkh@gmail.com) CERN
 * Enric Tejedor Saavedra [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Lauren Tompkins [laurenat@stanford.edu](mailto:laurenat@stanford.edu) Stanford University
 * Marlene Turner [marlene.turner@cern.ch](mailto:marlene.turner@cern.ch) CERN
