@@ -22,6 +22,7 @@ Everyone is welcome to join the community and participate by means of the follow
 
 Extra Gitter channels have been created by and for the benefit of the community:
 
+* [PyHEP-newcomers](https://gitter.im/HSF/PyHEP-newcomers){:target="_pyhep_newcomers_gitter_channel} for newcomers support (very low entry threshold).
 * [PyHEP-histogramming](https://gitter.im/HSF/PyHEP-histogramming){:target="_pyhep_histogramming_gitter_channel} for discussions around histogramming.
 * [mpl-hep](https://gitter.im/HSF/mpl-hep){:target="_mpl_hep_gitter_channel} for Matplotlib proposals related to Particle Physics.
 
