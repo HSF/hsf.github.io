@@ -1,5 +1,5 @@
 ---
-title: "caltech"
+title: "Caltech"
 author: "Jean-Roch Vlimant"
 layout: default
 organization: Caltech
