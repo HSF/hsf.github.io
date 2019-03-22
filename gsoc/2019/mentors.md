@@ -103,7 +103,7 @@ layout: plain
 * Marlene Turner [marlene.turner@cern.ch](mailto:marlene.turner@cern.ch) CERN
 * Gianluca Valentino [Gianluca.Valentino@cern.ch](mailto:Gianluca.Valentino@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton
-* Jean-Roch Vlimant [vlimant@cern.ch](mailto:vlimant@cern.ch) CalTech
+* Jean-Roch Vlimant [vlimant@cern.ch](mailto:vlimant@cern.ch) Caltech
 * Tobias Wegner [tobias.wegner@cern.ch](mailto:tobias.wegner@cern.ch) CERN
 * Sandro Wenzel [sandro.wenzel@cern.ch](mailto:sandro.wenzel@cern.ch) CERN
 * Koen Wolters [k.s.wolters@gmail.com](mailto:k.s.wolters@gmail.com) CERN
