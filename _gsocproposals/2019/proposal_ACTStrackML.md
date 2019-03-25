@@ -7,6 +7,7 @@ organization:
  - CERN
  - LAL
  - UNIGE
+ - Caltech
 ---
 
 ## Description
@@ -40,6 +41,7 @@ Experienced with C++ and python
   * [David Rousseau](mailto:rousseau@lal.in2p3.fr)
   * [Moritz Kiehn](mailto:moritz.kiehn@cern.ch)
   * [Andreas Salzburger](mailto:andreas.salzburger@cern.ch)
+  * [Jean-Roch Vlimant](mailto:vlimant@cern.ch)
 
 ## Links
   * [ACTS](http://acts.web.cern.ch/ACTS/)
