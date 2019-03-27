@@ -18,7 +18,7 @@ This has been published in the journal
 
 ### Citation
 
-A Roadmap for HEP Software and Computing R&D for the 2020s, The HEP Software Foundation, Albrecht, J., Alves, A.A. et al. Comput Softw Big Sci (2019) 3: 7 <https://doi.org/10.1007/s41781-018-0018-8>.
+A Roadmap for HEP Software and Computing R&D for the 2020s, The HEP Software Foundation, Albrecht, J. et al., Comput Softw Big Sci (2019) 3, 7 <https://doi.org/10.1007/s41781-018-0018-8>.
 
 We recommend you download the citation files (BibTeX and others) for the paper from the
 journal website.
