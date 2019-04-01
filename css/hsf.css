@@ -132,11 +132,12 @@
  */
 
 .blog-post {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  padding: 10px 20px; /* I don't understand why this is needed... */
 }
 .blog-post-title {
   margin-bottom: 5px;
-  font-size: 40px;
+  font-size: 24px;
 }
 .blog-post-meta {
   margin-bottom: 20px;
