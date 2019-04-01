@@ -1,0 +1,30 @@
+{% comment %}
+This liquid template produces the list of projects for the year passed as a parameter
+{% endcomment %}
+
+{% assign project_collection = 'gsdocs-projects' %}
+
+<table class="table table-hover table-striped">
+  <tbody>
+
+  {% for project in site[project_collection] %}
+  {% assign url_tokens = project.url | split: '/' %}
+  {% assign year_position = url_tokens.size | minus: 2 %}
+  {% assign project_year = url_tokens[year_position] %}
+  {% capture project_summary %}{%if project.summary %}{{ project.summary }}{%else%}{{ project.description}}{%endif%}{% endcapture %}
+  {% assign project_summary = project_summary | strip_newlines | markdownify %}
+  {% if project_year == include.year %}
+  <tr>
+    {% if project.logo %}
+    <td><img src="/images/{{ project.logo }}" alt="{{ project.project }}" width="100px"></td>
+    {% else %}
+    <td class="text-center" style="vertical-align: middle;">{{ project.project }}</td>
+    {% endif %}
+    <td>{{ project_summary }}</td>
+    <td><a href="/gsdocs/projects{{ project.path | remove_first: '_' | remove_first: project_collection | replace: '.md', '.html' }}">List of proposals</a></td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="blog-header">
+  <h1 class="blog-title">{{ page.title }}</h1>
+</div>
+
+  {{ content }}
+
+<h2>Corresponding Project</h2>
+  <ul>
+      <li><a href="/gsdocs/projects/{{ page.year }}/project_{{ page.project }}.html">{{ page.project }}</a></li>
+  </ul>
+
+ <h2>Participating Organizations</h2>
+  <ul>
+  {% for item in page.organization %}
+<li><a href="/gsdocs/organizations/{{ page.year }}/{{ item| downcase}}.html">{{ item }}</a> </li>
+  {% endfor %}
+  </ul>
