@@ -33,20 +33,24 @@ Other actions in progress include:
 
 ### Upcoming Training Schools
  **Warning** : Application deadlines are **before the date shown**
-{% for post in site.categories.Schools  %}
+{% assign sorted = site.categories.Schools | sort:"date" %}
+
+{% for post in sorted limit:20 %}
 {% if post.date > site.time %}
 1. [**{{post.date | date: "%-d %b"}} - {{post.end_date | date: "%-d %b %Y"}}** - {{post.title}} ]({{post.source}})
 {% endif %}
 {% endfor %}
 
 ### Past Schools
-{% for post in site.categories.Schools reversed %}
+{% assign past = site.categories.Schools | sort:"date" | reverse %}
+
+{% for post in past limit:20 %}
 {% if post.date < site.time %}
 1. [**{{post.date | date: "%-d %b"}} - {{post.end_date | date: "%-d %b %Y"}}** - {{post.title}} ]({{post.source}})
 {% endif %}
 {% endfor %}
 
-
+ For full list of Upcoming and Past Schools enter [here](/Schools/events.html)
 
 
 ## How to participate ?
