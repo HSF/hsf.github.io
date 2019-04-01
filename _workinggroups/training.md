@@ -33,18 +33,18 @@ Other actions in progress include:
 
 ### Upcoming Training Schools
  **Warning** : Application deadlines are **before the date shown**
-{% assign sorted = site.categories.Schools | sort:"date" %}
+{% assign future = site.categories.Schools | sort:"date" | reverse %}
 
-{% for post in sorted limit:20 %}
+{% for post in future reversed limit:15 %}
 {% if post.date > site.time %}
 1. [**{{post.date | date: "%-d %b"}} - {{post.end_date | date: "%-d %b %Y"}}** - {{post.title}} ]({{post.source}})
 {% endif %}
 {% endfor %}
 
 ### Past Schools
-{% assign past = site.categories.Schools | sort:"date" | reverse %}
+{% assign past = site.categories.Schools | sort:"date" %}
 
-{% for post in past limit:20 %}
+{% for post in past reversed limit:10 %}
 {% if post.date < site.time %}
 1. [**{{post.date | date: "%-d %b"}} - {{post.end_date | date: "%-d %b %Y"}}** - {{post.title}} ]({{post.source}})
 {% endif %}
