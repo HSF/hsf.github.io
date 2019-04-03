@@ -21,13 +21,21 @@ next generation US nuclear physics experiment, the Electron-Ion Collider. That
 set the stage for the computing and software challenges we face in data
 intensive science for the next decade.
 
-<div style="text-align:center; padding:25px"><img src ="/images/workshops/HOW2019_Group-01.jpg" alt="JLab Workshop Group Photo" /></div>
+<div style="text-align:center; padding:25px; float:left">
+<img src ="/images/workshops/jlab-group.jpg" alt="JLab Workshop Group Photo" />
+<br>Workshop Participants. Photo &copy; DOE Jefferson Laboratory
+</div>
 
 The theme of working more closely with other sciences was underlined by the
 discussion on the *Evolution of the WLCG Collaboration* on Monday afternoon.
 Sharing an infrastructure for big data sciences, building on what we know and
 already have, received wide support, but the details of how to manage this, for
 all communities, need to be worked out.
+
+<div style="text-align:center; padding:25px; float:right">
+<img src ="/images/workshops/jlab-plenary1.jpg" alt="JLab Workshop Group Photo" />
+<br>Plenary Discussions. Photo &copy; DOE Jefferson Laboratory
+</div>
 
 Common sessions for HSF and WLCG on Tuesday looked at the evolution of
 technology - processors, storage and networking - and how HEP is managing to
@@ -66,6 +74,11 @@ both in time and in space, so called *Real Time Analysis*. That touched again on
 integrating compute accelerators, such as FPGAs as a way to do complex inference
 within budget.
 
+<div style="text-align:center; padding:25px; float:left">
+<img src ="/images/workshops/jlab-RTA-2.jpg" alt="JLab Workshop Group Photo" />
+<br>RTA Presentation. Photo &copy; Caterina Doglioni
+</div>
+
 Many of our other HSF working groups also organised sessions. [*Education and
 Training*](/workinggroups/training.html){:target="wg_train"} is still a major
 challenge for the community. A survey of what the training needs are for HEP
@@ -98,7 +111,12 @@ in *Computing and Software for Big Science* during the week of the workshop.
 That led us very neatly to a closing talk from JLab's Amber Boehnlein, on
 her thoughts about the future of computing the field. Amber was the main
 local organiser of the workshop and we were very happy to warmly thank
-her and the rest of the team on a job well done. We all enjoyed the early
+her and the rest of the team on a job well done. The dinner we enjoyed in the
+local Mariners' Museum was greatly appreciated and offered a great backdrop
+for continued discussions. We all enjoyed the early
 Spring meeting at JLab and already look forward to next year's event.
 
-[Insert other JLab picture here]
+<div style="text-align:center; padding:25px">
+<img src ="/images/workshops/jlab-dinner.jpg" alt="JLab Workshop Group Photo" />
+<br>Dinner in the Mariners' Museum. Photo &copy; DOE Jefferson Laboratory
+</div>
