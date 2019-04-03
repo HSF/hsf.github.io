@@ -60,8 +60,12 @@ architectures for the future looks like a good bet.
 
 *Reconstruction and Software Triggers* looked at the increasing tendency to
 produce analysis quality output close to the detector, both in time and in
-space, so called *Real Time Analysis*. That touched again on integrating compute
-accelerators, such as FPGAs as a way to do complex inference within budget.
+space, so called *Real Time Analysis*, now used by all LHC collaborations.
+That touched again on integrating compute accelerators, such as FPGAs as 
+a way to do complex inference within budget.
+[//]: # CD: Is "compute" accelerators a typo? 
+
+[//]: # CD: could have reco&software trigger picture(s) here 
 
 Many of our other HSF working groups also organised sessions. *Education and
 Training* is still a major challenge for the community. A survey of what the
@@ -78,6 +82,8 @@ the numba Python JIT and the Conda package distribution. In the latter
 our own community have contributed ROOT on Linux and OS X platforms, which
 is already very popular.
 
+[//]: # CD: could have Numba/Conda picture here 
+
 The theme of packaging was touched on again in the *Software Development
 Tools* session. The HSF Packaging WG presented solutions that support the
 wider science community and look like a good bet for the future. Closer to
@@ -91,10 +97,13 @@ White Paper Roadmap was finally
 [published](https://doi.org/10.1007/s41781-018-0018-8){:target="cwp_roadmap_csbs"}
 in *Computing and Software for Big Science* during the week of the workshop.
 
+[//]: # CD: could have HSF paper picture here.
+
 That led us very neatly to a closing talk from JLab's Amber Boehnlein, on
 her thoughts about the future of computing the field. Amber was the main
 local organiser of the workshop and we were very happy to warmly thank
 her and the rest of the team on a job well done. We all enjoyed the early
-Spring meeting at JLab and already look forward to next year's event.
+Spring meeting at JLab and already look forward to the next event.
+[//]: # CD: isn't this in November at CHEP? Feel free to revert
 
-[Insert other JLab picture here]
+[//]: # CD: could have Noland trail picture here.
