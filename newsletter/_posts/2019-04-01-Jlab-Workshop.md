@@ -47,42 +47,46 @@ their sessions. Our three new working groups were the stars of the show and
 the quality of the sessions they organised were a testament to how much
 good work and preparation has been done since the start of the year.
 
-*Detector Simulation* looked at everything from physics improvements for
-the future to the speed boosts that we need and how we can get them. The
-GeantV vectorisation R&D presented important results and the approximate
-methods for fast simulation were discussed, including progress in using
-machine learning.
+[*Detector Simulation*](/workinggroups/detsim.html){:target="wg_sim"} looked at
+everything from physics improvements for the future to the speed boosts that we
+need and how we can get them. The GeantV vectorisation R&D presented important
+results and the approximate methods for fast simulation were discussed,
+including progress in using machine learning.
 
-*Data Analysis* presented a summary of what we learned from their topical
-workshops, with new approaches for the future. Declarative analysis is
-being explored in many R&Ds now and given the uncertainty in computing
-architectures for the future looks like a good bet.
+[*Data Analysis*](/workinggroups/dataanalysis.html){:target="wg_ana"} presented
+a summary of what we learned from their topical workshops, with new approaches
+for the future. Declarative analysis is being explored in many R&Ds now, and
+given the uncertainty in computing architectures for the future, this is a topic
+worth investigating.
 
-*Reconstruction and Software Triggers* looked at the increasing tendency to
-produce analysis quality output close to the detector, both in time and in
-space, so called *Real Time Analysis*. That touched again on integrating compute
-accelerators, such as FPGAs as a way to do complex inference within budget.
+[*Reconstruction and Software
+Triggers*](/workinggroups/recotrigger.html){:target="wg_reco"} looked at the
+increasing tendency to produce analysis quality output close to the detector,
+both in time and in space, so called *Real Time Analysis*. That touched again on
+integrating compute accelerators, such as FPGAs as a way to do complex inference
+within budget.
 
-Many of our other HSF working groups also organised sessions. *Education and
-Training* is still a major challenge for the community. A survey of what the
-training needs are for HEP provides valuable input for how we organise
-schools and training the future. The LHCb StarterKit programme continues to shine
-as an example of bottom-up training that is an inspiration for many other
-experiments.
+Many of our other HSF working groups also organised sessions. [*Education and
+Training*](/workinggroups/training.html){:target="wg_train"} is still a major
+challenge for the community. A survey of what the training needs are for HEP
+provides valuable input for how we organise schools and training in the future.
+The LHCb StarterKit programme continues to shine as an example of bottom-up
+training that is an inspiration for many other experiments.
 
-The *PyHEP* group organised a session that explored our links with the
-wider Python community, with an emphasis on toolkit approaches where
-different tools mesh together to form the required pipeline. There was also
-a presentation from outside HEP, with Jonathan Helmus from Anaconda introducing
-the numba Python JIT and the Conda package distribution. In the latter
-our own community have contributed ROOT on Linux and OS X platforms, which
-is already very popular.
+The [*PyHEP*](/workinggroups/pyhep.html){:target="wg_pyhep"} group organised a
+session that explored our links with the wider Python community, with an
+emphasis on toolset approaches where different tools mesh together to form the
+required pipeline. There was also a presentation from outside HEP, with Jonathan
+Helmus from Anaconda introducing the numba Python JIT and the Conda package
+distribution. In the latter our own community has contributed ROOT on Linux and
+OS X platforms, which is already very popular.
 
-The theme of packaging was touched on again in the *Software Development
-Tools* session. The HSF Packaging WG presented solutions that support the
-wider science community and look like a good bet for the future. Closer to
-the code-face, presentations on profiling and static analysis provided developers
-with good advice about the best tools to use.
+The theme of packaging was touched on again in the [*Software Development
+Tools*](/workinggroups/softwaredevelopertools.html){:target="wg_swtools"}
+session. The HSF Packaging WG presented solutions that support the wider science
+community and look like a good bet for the future. Closer to the code-face,
+presentations on profiling and static analysis provided developers with good
+advice about the best tools to use.
 
 On Friday the sessions turned back to plenary mode and we heard from projects
 being funded to provide the investment in software and computing that we so very
