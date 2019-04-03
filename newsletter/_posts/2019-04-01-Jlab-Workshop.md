@@ -13,8 +13,6 @@ Worldwide LHC Computing Grid (WLCG) community and the  US Open Science Grid
 (OSG). Almost 250 scientists, from LHC, HEP and non-HEP communities joined the
 meeting.
 
-[Insert JLab workshop photo here]
-
 On the first day we opened the meeting with an excellent introduction to JLab
 from lab director Stuart Henderson and an overview of JLab computing and
 software from Raffaella De Vita. That was followed by plenary talks from the LHC
@@ -22,6 +20,8 @@ experiments, other HEP experiments and many non HEP communities, including the
 next generation US nuclear physics experiment, the Electron-Ion Collider. That
 set the stage for the computing and software challenges we face in data
 intensive science for the next decade.
+
+<div style="text-align:center; padding:25px"><img src ="/images/workshops/HOW2019_Group-01.jpg" alt="JLab Workshop Group Photo" /></div>
 
 The theme of working more closely with other sciences was underlined by the
 discussion on the *Evolution of the WLCG Collaboration* on Monday afternoon.
@@ -34,12 +34,13 @@ technology - processors, storage and networking - and how HEP is managing to
 make use of HPC facilities, something that is a growing trend. As HPCs equip
 themselves massively with compute accelerators this led very naturally to the
 afternoon HSF session on *Software for Accelerators*. These devices are very
-different from the CPUs we have written most of our software for up to now and
-pose serious challenges for developers. Integration with CPUs and finding the
-best way to maintain code for a heterogeneous future were among the  topics
-where the HSF will continue to work to identify prototypes and share best
-practice. ALICE and LHCb, who face the stiff test of LHC Run 3 showed how
-they were using GPUs to achieve the required throughput.
+different from CPUs, for which we have written most of our software for up to
+now, and pose serious challenges for developers. Integration with CPU frameworks
+and finding the best way to maintain code for a heterogeneous future were among
+the topics where the HSF will continue to work to identify prototypes and share
+best practice. ALICE showed how they were using GPUs to achieve the required
+throughput in Run 3. LHCb, who also face the stiff test of increased throughput
+in Run 3,  is actively doing R&D work on GPUs and presented encouraging results.
 
 Wednesday and Thursday saw the time of the HSF Working Groups to organise
 their sessions. Our three new working groups were the stars of the show and
@@ -59,8 +60,8 @@ architectures for the future looks like a good bet.
 
 *Reconstruction and Software Triggers* looked at the increasing tendency to
 produce analysis quality output close to the detector, both in time and in
-space. That touched again on integrating compute accelerators, such as FPGAs
-as a way to do complex inference within budget.
+space, so called *Real Time Analysis*. That touched again on integrating compute
+accelerators, such as FPGAs as a way to do complex inference within budget.
 
 Many of our other HSF working groups also organised sessions. *Education and
 Training* is still a major challenge for the community. A survey of what the
@@ -72,9 +73,10 @@ experiments.
 The *PyHEP* group organised a session that explored our links with the
 wider Python community, with an emphasis on toolkit approaches where
 different tools mesh together to form the required pipeline. There was also
-a presentation from the Anaconda team, with Jonathan Helmus introducing
+a presentation from outside HEP, with Jonathan Helmus from Anaconda introducing
 the numba Python JIT and the Conda package distribution. In the latter
-our own community have contributed ROOT on Linux and OS X platforms.
+our own community have contributed ROOT on Linux and OS X platforms, which
+is already very popular.
 
 The theme of packaging was touched on again in the *Software Development
 Tools* session. The HSF Packaging WG presented solutions that support the
