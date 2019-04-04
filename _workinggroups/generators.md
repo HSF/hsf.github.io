@@ -25,19 +25,26 @@ If you would like to subscribe to this group,
 please click on <https://groups.google.com/group/hsf-generator-wg/subscribe>
 or send an email to [hsf-generator-wg+subscribe@googlegroups.com](mailto:hsf-generator-wg+subscribe@googlegroups.com)
 
-### Physics Event Generator WG meetings and events
+### Physics Event Generator WG meetings, events and other resources
 
    * WG meetings and Computing Workshop organization:
 indico [category](https://indico.cern.ch/category/8460)
-   * Computing Workshop, CERN, 26-28 November 2018: 
-[agenda](https://indico.cern.ch/event/751693),
-[minutes](/organization/2018/11/26/generators.html)
+   * Generator document current draft 
+in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
+   * Andy Buckley's [talk](https://indico.cern.ch/event/708041/contributions/3308937) 
+at ACAT, 15 March 2019, Saas Fee
+
+### Older resources (2018)
+
    * Computing Workshop debriefing, CERN, 11 December 2018
 [agenda](https://indico.cern.ch/event/778521),
 [minutes](/organization/2018/12/11/generators.html),
 HSF meeting [report](/organization/2018/12/13/coordination.html)
-      
-### Other resources
+   * Computing Workshop, CERN, 26-28 November 2018: 
+[agenda](https://indico.cern.ch/event/751693),
+[minutes](/organization/2018/11/26/generators.html)
+
+### Older resources (2017)
 
    * Generator and theory CWP chapter draft:
 [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
