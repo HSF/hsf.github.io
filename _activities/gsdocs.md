@@ -47,7 +47,7 @@ In 2019 CERN-HSF is planning to apply as an umbrella organization, project propo
 
 ---
 
-*HSF Season of Docs Administrators*: Andrei Gheata and Javier Cervantes Villanueva.
+*HSF Season of Docs Administrators*: Andrei Gheata, Antoine Pérus and Javier Cervantes Villanueva.
 
 [Contact us](mailto:hsf-gsdocs-admin@googlegroups.com)
 [General e-mail](mailto:hep-software-foundation-google-season-of-docs@googlegroups.com)
