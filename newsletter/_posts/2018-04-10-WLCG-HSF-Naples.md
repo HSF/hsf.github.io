@@ -19,13 +19,13 @@ the exascale era are under construction. For HL-LHC, DUNE, SKA, LIGO and LSST an
 major R&D in software and computing to ensure these programmes
 are a success.
 
-<div style="text-align:center; padding:25px"><img src ="/images/naples-ws-liz.jpg" alt="Liz opens the workshop's science programme" /></div>
+<div style="text-align:center; padding:25px"><img src ="/images/workshops/naples-ws-liz.jpg" alt="Liz opens the workshop's science programme" /></div>
 
 Eduardo Rodrigues then reviewed the [HSF Community White Paper Roadmap](https://indico.cern.ch/event/658060/contributions/2876976/attachments/1622751/2582923/2018-03-26_WLCG-HSFWorkshopNaples.pdf){:target="_naples_cwp"}
 that was [published last year](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"}
 and was the major driver for the workshop. He outlined each of the CWP's
 chapters along with its major R&D goals and stressed again the approach
-of working together, re-characterising "CWP" as *Community Wide Projects*. 
+of working together, re-characterising "CWP" as *Community Wide Projects*.
 
 After this great introduction to the workshop, and a further review of the important
 technology trends and use cases, we continued with a mixture of
@@ -33,7 +33,7 @@ plenary and parallel sessions that covered the major areas the community
 needs to invest in.
 
 Recognising the large cost of data storage and data management for WLCG,
-and anticipating the data volumes of HL-LHC, optimising our storage 
+and anticipating the data volumes of HL-LHC, optimising our storage
 systems is an important and challenging area for study. Consolidating storage into larger units,
 sometimes called a *data lake*, is one area to study; the anticipation
 is that much more use of the wide area network will be made in the future
@@ -50,13 +50,13 @@ system. The *Workload Management* teams look to be involved there too
 as the data processing frameworks are a key actor here. Our current systems
 are rather diverse, but there are many shared goals.
 
-In addition to these technical developments, using our large distributed computing 
-systems securely and evolving how we authenticate and responding to threats 
+In addition to these technical developments, using our large distributed computing
+systems securely and evolving how we authenticate and responding to threats
 was discussed in the *Security* session of the workshop.
 
 The challenges of processing data in heterogeneous resource clusters were laid out
 at the beginning of the *Frameworks and Infrastructure* session, before two presentations
-from frameworks (ALFA 
+from frameworks (ALFA
 and [CLARA](http://claraweb.jlab.org/clara/){:target="_naples_clara"}{:data-proofer-ignore=""}) implementing a design that addresses that very
 challenge. How to evolve the other frameworks used across the HEP experiments
 was a discussion that continued in the parallel session, where the group
@@ -64,7 +64,7 @@ plans regular meetings and a follow up at CHEP. Even the tricky question
 of using new languages, outside our comfort zone of C++ and Python, was
 discussed, generating lively discussion.
 
-<div style="text-align:center; padding:25px"><img src ="/images/naples-ws-group-photo.jpg" alt="Group Photo" /></div>
+<div style="text-align:center; padding:25px"><img src ="/images/workshops/naples-ws-group-photo.jpg" alt="Group Photo" /></div>
 
 In the analysis domain, where workloads are far more diverse than for organised
 production activities, there are many interesting developments to follow-up.
@@ -91,9 +91,9 @@ faced more effectively in common through the use of community toolkits,
 such as VecCore, that help code adapt to the changing hardware landscape.
 An intense discussion about the strategy to be used here, and how much specific HEP solutions
 are really required, took place and typifies many of the open questions
-our R&D programme needs to address. 
+our R&D programme needs to address.
 
-There were two full sessions dedicated to the event simulation domain. 
+There were two full sessions dedicated to the event simulation domain.
 Producing events with better underlying physics is needed for both
 HL-LHC and the intensity frontier programs, where accuracy of understanding
 rare processes is a key to success. In addition, there is a need to speed
@@ -118,7 +118,7 @@ releases. A decision was also made to consolidate information and best
 practice on performance monitoring and tooling, which will help developers
 across the field.
 
-Helping establish best practice for development is one part of the training 
+Helping establish best practice for development is one part of the training
 challenge our community faces. Ensuring that our software is well written
 and tested is a key part of making code more sustainable for experiments
 with multi-decade lifetimes. The training session gathered speakers
@@ -130,9 +130,9 @@ are satisfied in common. Contributions to training should be recognised
 as a part of the career profile of our developers, but long term career
 prospects remain a concern, as with many other areas in HEP.
 
-<div style="text-align:center; padding:25px"><img src ="/images/naples-ws-banquet.jpg" alt="Well fed at the banquet" /></div>
+<div style="text-align:center; padding:25px"><img src ="/images/workshops/naples-ws-banquet.jpg" alt="Well fed at the banquet" /></div>
 
-Opening the final session of the workshop was 
+Opening the final session of the workshop was
 [a talk from Anna Scaife](https://indico.cern.ch/event/658060/contributions/2940455/attachments/1625101/2587580/WLCG-180329.pdf){:target="_naples_ska"}
 from the Square Kilometre Array Telescope and AENEAS projects. This is
 one of the other sciences facing a data deluge in the future and there
@@ -151,6 +151,3 @@ useful discussion and fruitful interaction.
 Overall the workshop was a great success and there is clearly enthusiasm for
 repeating it. That will be the next community wide checkpoint for
 our *software upgrade* R&Ds.
-
-
-
