@@ -6,18 +6,17 @@ layout: newsletter
 
 The annual [HEP Software Foundation
 workshop](https://indico.cern.ch/event/759388/){:target="jlab_agenda"} happened
-this year in [Jefferson
-Laboratory](https://www.jlab.org){:target="jlab_webpage"}  from the 18th to 22nd
-of March. This year we had the opportunity to join forces again with the
-Worldwide LHC Computing Grid (WLCG) community and the  US Open Science Grid
-(OSG). Almost 250 scientists, from LHC, HEP and non-HEP communities joined the
-meeting.
+in [Jefferson Laboratory](https://www.jlab.org){:target="jlab_webpage"} from the
+18th to 22nd of March. This year we had the opportunity to join forces again
+with the Worldwide LHC Computing Grid (WLCG) community and, in addition, the US
+Open Science Grid (OSG). Almost 250 scientists, from LHC, HEP and non-HEP
+communities joined the meeting.
 
 On the first day we opened the meeting with an excellent introduction to JLab
 from lab director Stuart Henderson and an overview of JLab computing and
 software from Raffaella De Vita. That was followed by plenary talks from the LHC
 experiments, other HEP experiments and many non HEP communities, including the
-next generation US nuclear physics experiment, the Electron-Ion Collider. That
+next generation US nuclear physics facility, the Electron-Ion Collider. That
 set the stage for the computing and software challenges we face in data
 intensive science for the next decade.
 
@@ -32,23 +31,25 @@ Sharing an infrastructure for big data sciences, building on what we know and
 already have, received wide support, but the details of how to manage this, for
 all communities, need to be worked out.
 
+Common sessions for HSF and WLCG on Tuesday looked at the evolution of
+technology, based on the impressive work done by the [HEPiX Benchmarking
+WG](http://w3.hepix.org/benchmarking.html){:target="hepix_bm"}. Processors,
+storage and networking are all changing and HEP is having to adapt to that, as
+well as making more and more use of HPC facilities. As HPCs equip themselves
+massively with compute accelerators this led very naturally to the afternoon HSF
+session on *Software for Accelerators*. These devices are very different from
+CPUs, for which we have written most of our software for up to now, and pose
+serious challenges for developers. Integration with CPU frameworks and finding
+the best way to maintain code for a heterogeneous future were among the topics
+where the HSF will continue to work to identify prototypes and share best
+practice. ALICE showed how they were using GPUs to achieve the required
+throughput in Run 3. LHCb, who also face the stiff test of increased throughput
+in Run 3, is actively doing R&D work on GPUs and presented encouraging results.
+
 <div style="text-align:center; padding:25px; float:right">
 <img src ="/images/workshops/jlab-plenary1.jpg" alt="JLab Workshop Group Photo" />
 <br>Plenary Discussions. Photo &copy; DOE Jefferson Laboratory
 </div>
-
-Common sessions for HSF and WLCG on Tuesday looked at the evolution of
-technology - processors, storage and networking - and how HEP is managing to
-make use of HPC facilities, something that is a growing trend. As HPCs equip
-themselves massively with compute accelerators this led very naturally to the
-afternoon HSF session on *Software for Accelerators*. These devices are very
-different from CPUs, for which we have written most of our software for up to
-now, and pose serious challenges for developers. Integration with CPU frameworks
-and finding the best way to maintain code for a heterogeneous future were among
-the topics where the HSF will continue to work to identify prototypes and share
-best practice. ALICE showed how they were using GPUs to achieve the required
-throughput in Run 3. LHCb, who also face the stiff test of increased throughput
-in Run 3,  is actively doing R&D work on GPUs and presented encouraging results.
 
 Wednesday and Thursday saw the time of the HSF Working Groups to organise
 their sessions. Our three new working groups were the stars of the show and
@@ -74,9 +75,10 @@ both in time and in space, so called *Real Time Analysis*. That touched again on
 integrating compute accelerators, such as FPGAs as a way to do complex inference
 within budget.
 
-<div style="text-align:center; padding:25px; float:left">
-<img src ="/images/workshops/jlab-RTA-2.jpg" alt="JLab Workshop Group Photo" />
-<br>RTA Presentation. Photo &copy; Caterina Doglioni
+<div style="text-align:center; padding:25px">
+<img src ="/images/workshops/jlab-RTA-1.jpg" style="padding:5px;" alt="JLab Real Time Analysis Talk ATLAS" />
+<img src ="/images/workshops/jlab-RTA-2.jpg" style="padding:5px;" alt="JLab Real Time Analysis Talk CMS" />
+<br>RTA Presentations. Photos &copy; Caterina Doglioni
 </div>
 
 Many of our other HSF working groups also organised sessions. [*Education and
@@ -96,10 +98,12 @@ OS X platforms, which is already very popular.
 
 The theme of packaging was touched on again in the [*Software Development
 Tools*](/workinggroups/softwaredevelopertools.html){:target="wg_swtools"}
-session. The HSF Packaging WG presented solutions that support the wider science
-community and look like a good bet for the future. Closer to the code-face,
-presentations on profiling and static analysis provided developers with good
-advice about the best tools to use.
+session. The [*HSF Packaging
+WG*](https://hepsoftwarefoundation.org/workinggroups/packaging.html){:target="wg_pkg"}
+presented solutions that support the wider science community and look like a
+good bet for the future. Closer to the code-face, presentations on profiling and
+static analysis provided developers with good advice about the best tools to
+use.
 
 On Friday the sessions turned back to plenary mode and we heard from projects
 being funded to provide the investment in software and computing that we so very
@@ -109,7 +113,7 @@ White Paper Roadmap was finally
 in *Computing and Software for Big Science* during the week of the workshop.
 
 That led us very neatly to a closing talk from JLab's Amber Boehnlein, on
-her thoughts about the future of computing the field. Amber was the main
+her thoughts about the future of computing in the field. Amber was the main
 local organiser of the workshop and we were very happy to warmly thank
 her and the rest of the team on a job well done. The dinner we enjoyed in the
 local Mariners' Museum was greatly appreciated and offered a great backdrop
@@ -117,6 +121,6 @@ for continued discussions. We all enjoyed the early
 Spring meeting at JLab and already look forward to next year's event.
 
 <div style="text-align:center; padding:25px">
-<img src ="/images/workshops/jlab-dinner.jpg" alt="JLab Workshop Group Photo" />
+<img src ="/images/workshops/jlab-dinner.jpg" alt="JLab Workshop Dinner" />
 <br>Dinner in the Mariners' Museum. Photo &copy; DOE Jefferson Laboratory
 </div>
