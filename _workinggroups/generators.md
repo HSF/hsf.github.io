@@ -32,7 +32,7 @@ indico [category](https://indico.cern.ch/category/8460)
    * Generator document current draft 
 in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
    * Andy Buckley's [talk](https://indico.cern.ch/event/708041/contributions/3308937) 
-at ACAT, 15 March 2019, Saas Fee.
+at ACAT, 15 March 2019, Saas Fee
 
 ### Older resources (2018)
 
