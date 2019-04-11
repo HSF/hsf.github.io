@@ -5,9 +5,9 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
-* Vincent Garonne [Vincent Garonne](mailto:vgaronne@gmail.com) University of Oslo
-* Mario Lassnig [Mario Lassnig](mailto:Mario.Lassnig@cern.ch) CERN
-* Martin Barisits [Martin Barisits](mailto:Martin.Barisits@cern.ch) CERN
-* Katy Ellis [Katy Ellis](mailto:katy.ellis@stfc.ac.uk) STFC RAL
-* Thomas Beermann [Thomas Beermann](mailto:thomas.beermann@cern.ch) University of Wuppertal
-* Cedric Serfon [Cedric Serfon](mailto:cedric.serfon@cern.ch) University of Innsbruck
+* Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
+* Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) University of Wuppertal
+* Katy Ellis [katy.ellis@stfc.ac.uk](mailto:katy.ellis@stfc.ac.uk) STFC RAL
+* Vincent Garonne [vgaronne@gmail.com](mailto:vgaronne@gmail.com) University of Oslo
+* Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
+* Cedric Serfon [cedric.serfon@cern.ch](mailto:cedric.serfon@cern.ch) University of Innsbruck
