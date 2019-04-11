@@ -177,7 +177,7 @@ Klute, Gloria Corti
 ### Packaging
   - Held a meeting on 27
         February.
-      - [<span class="underline">NixCon</span>](https://nixcon2018.org/)
+      - [<span class="underline">NixCon</span>](http://nixcon2018.org/)
         (Chris Burr attended).
       - Spack update (HEP people now have merge rights for our
         packages; we also have our own Slack channel).
