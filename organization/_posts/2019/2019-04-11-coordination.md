@@ -127,7 +127,7 @@ Martin Ritter, David Lange, Brian Bockelman
           - Workshop summary
           - Defining benchmarks - allow comparisons of different
             technologies.
-          - Analysis language - quite a lively discussion, a workshop
+          - Analysis description language - quite a lively discussion, a workshop
             organised at FNAL.
       - 9th May:
         [<span class="underline">https://indico.cern.ch/event/813208/</span>](https://indico.cern.ch/event/813208/)
