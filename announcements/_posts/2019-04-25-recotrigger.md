@@ -1,5 +1,5 @@
 ---
-title:  Reco and Trigger Working Group, ATLAS/CMS cross-talks 22 May
+title:  Reco and Trigger Working Group, ATLAS/CMS cross-talks 22 May 2019
 author: Graeme Stewart
 layout: newsletter
 symbol: glyphicon-calendar
