@@ -50,8 +50,9 @@ as well as local access patterns at the distributed Xrootd cache across Caltech 
  - Distributed computing
 
 ## Mentors
-  * [Igor Sfiligoi](mailto:isfiligoi@ucsd.edu)
+  * [Igor Sfiligoi](mailto:igor.sfiligoi@gmail.com)
   * [Frank Wuerthwein](mailto:fkw@ucsd.edu)
+  * [Diego Davilla](mailto:davila.foyo@gmail.com)
 
 ## Links
   * [High-Luminosity LHC](https://home.cern/science/accelerators/high-luminosity-lhc)
