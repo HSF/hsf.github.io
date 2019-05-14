@@ -33,7 +33,7 @@ Martin Ritter, Hadrien Grasland
 
 ## Nix (Chris B)
   - Presentation at
-    [<span class="underline">NixCon</span>](https://nixcon2018.org)
+    [<span class="underline">NixCon</span>](http://nixcon2018.org)
     last year.
       - Many areas, but lots of users from HPC.
       - E.g: GRICAD HPC (Grenoble), Blue Brain Project, Compute
