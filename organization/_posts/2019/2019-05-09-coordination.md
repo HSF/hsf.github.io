@@ -10,7 +10,7 @@ Costanzo, Serhan Mete, Andrea Valassi, Guilherme Amadio, Michel Jouvin, Heather
 Gray, Daniel Elvira, Ben Morgan, Agnieszka Dziurda
 
 ## News, general matters
-  - European Strategy Update [<span class="underline">meeting in
+  - European Strategy Update [<span class="underline">symposium in
     Granada next week</span>](https://indico.cern.ch/event/808335):
       - There is a general introduction to computing on Monday
         (Simone).
@@ -115,7 +115,7 @@ Gray, Daniel Elvira, Ben Morgan, Agnieszka Dziurda
     future.
       - Date now settled, 15th October, 14-18h (avoid ATLAS Week\!).
   - CERN have added some Nvidia GPUs to lxbatch. If you want to use
-    them the add “request\_GPUs = 1” to your Condor submit script.
+    them add “request\_GPUs = 1” to your Condor submit script.
   - RSE 2018 Conference,
     [<span class="underline">https://rse.ac.uk/conf2019/</span>](https://rse.ac.uk/conf2019/).
     - We did not resubmit the abstracts from last year (deadline was May 7), it would
