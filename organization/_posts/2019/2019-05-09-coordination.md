@@ -11,7 +11,7 @@ Gray, Daniel Elvira, Ben Morgan, Agnieszka Dziurda
 
 ## News, general matters
   - European Strategy Update [<span class="underline">meeting in
-    Granda next week</span>](https://indico.cern.ch/event/808335):
+    Granada next week</span>](https://indico.cern.ch/event/808335):
       - There is a general introduction to computing on Monday
         (Simone).
       - Software and Computing Parallel session Wednesday AM, covering
