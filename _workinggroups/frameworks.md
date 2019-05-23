@@ -23,14 +23,14 @@ existing solutions known to the community. Particular topics of interest
 include:
 
 1. Language support for heterogeneous computing (i.e. targeting non-CPU
-   resources), functional programming, concurrency
-1. Data models that are adapted for execution in heterogeneous environments
-1. Scheduling tools, including marshalling heterogeneous, non-CPU, resources
+   resources), functional programming, concurrency.
+1. Data models that are adapted for execution in heterogeneous environments.
+1. Scheduling tools, including marshalling heterogeneous, non-CPU, resources.
 1. Interfaces to other toolkits such as ML toolkits, IO systems, and simulation
-   engines
-1. Interaction and interface between frameworks and workload management systems
+   engines.
+1. Interaction and interface between frameworks and workload management systems.
 1. Other technology investigations that have an application for experiment
-   processing frameworks
+   processing frameworks.
 
 The group should also monitor and report on evolution and migrations within
 existing experiment frameworks. The group can offer advice to new experiments on
