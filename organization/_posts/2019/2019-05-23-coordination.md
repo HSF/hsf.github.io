@@ -42,7 +42,7 @@ Concezio Bozzi, Heather Gray, Lukasz Kreczko, Martin Ritter, Stefan Roiser
       - Please send us suggestions for talks and speakers\!
 
 ### Reconstruction and Software Triggers
-  - Meeting yesterday on Atlas/CMS trigger systems/operations based on
+  - Meeting yesterday on ATLAS/CMS trigger systems/operations based on
     previous joint discussions between the two experiments. 20-30
     attendees.
   - [Next meeting])https://indico.cern.ch/event/823263/) on 5th June:
@@ -88,7 +88,7 @@ Concezio Bozzi, Heather Gray, Lukasz Kreczko, Martin Ritter, Stefan Roiser
     in S&C with the goal to meet each other and discuss opportunities
     for collaboration within the region and with the international
     community.
-  - The scientific program is in the works.
+  - The scientific programme is in the works.
   - There will be invitations to members of the international
     community and registration will be open to everyone. The event
     will be announced in the near future through the HSF list.
