@@ -7,24 +7,27 @@ layout: default
 
 ## 2019
 
+* [Meeting Future Software Challenges in High-Energy Physics](/assets/HSF-UNIGE-Seminar.pdf), University of Geneva Seminar,
+  22 May 2019, Graeme A Stewart
+* [HSF Overview](https://agenda.infn.it/event/17249/contributions/89882/attachments/63230/76128/HSF_Electron_Ion_Consortium_Talk.pdf), Electron-Ion Collider Software Meeting, 20 May 2019, Graeme A Stewart
 * [Computing & Software work - recognition & citations in publications](/assets/EduardoRodrigues-LHCb-2019-01-15.pdf), LHCb Weekly Meeting, 15 January 2019, Eduardo Rodrigues
 
 ## 2018
 
-* [HEP Software Foundation](https://indico.ific.uv.es/event/3438/contributions/9763/attachments/6464/7304/COMCHA_HSF_Presentation.pdf), Spanish Computing Challenges Meeting (COMCHA), 12 September 2018, Graeme Stewart
-* [Future opportunities and challenges for software in HEP](https://indico.cern.ch/event/730568/contributions/3011127/attachments/1690167/2719313/Software-Opportunities-and-Challenges.pdf), ECFA Plenary Meeting, 20 July 2018, Graeme Stewart
+* [HEP Software Foundation](https://indico.ific.uv.es/event/3438/contributions/9763/attachments/6464/7304/COMCHA_HSF_Presentation.pdf), Spanish Computing Challenges Meeting (COMCHA), 12 September 2018, Graeme A Stewart
+* [Future opportunities and challenges for software in HEP](https://indico.cern.ch/event/730568/contributions/3011127/attachments/1690167/2719313/Software-Opportunities-and-Challenges.pdf), ECFA Plenary Meeting, 20 July 2018, Graeme A Stewart
 * [HSF Community White Paper: Lessons and Future Work](https://indico.cern.ch/event/587955/contributions/3012294/attachments/1681524/2708636/CHEP18_-_CWP_Lessons_and_Future_Work.pdf), [CHEP2018 Plenary Talk](https://indico.cern.ch/event/587955/timetable/#20180711), 11 July 2018, Michel Jouvin
-* [HSF R&D and Activities after Naples](https://indico.cern.ch/event/740548/attachments/1676548/2692723/HSF_RD_and_Activities.pdf), ATLAS S&C Week, 25 June 2018, Graeme Stewart
-* [Update from HSF](https://www.jlab.org/indico/event/264/session/8/contribution/19/material/slides/0.pdf), [EIC Software Consortium Meeting](https://www.jlab.org/indico/event/264/other-view?view=standard), 17 May 2018, Graeme Stewart
+* [HSF R&D and Activities after Naples](https://indico.cern.ch/event/740548/attachments/1676548/2692723/HSF_RD_and_Activities.pdf), ATLAS S&C Week, 25 June 2018, Graeme A Stewart
+* [Update from HSF](https://www.jlab.org/indico/event/264/session/8/contribution/19/material/slides/0.pdf), [EIC Software Consortium Meeting](https://www.jlab.org/indico/event/264/other-view?view=standard), 17 May 2018, Graeme A Stewart
 * [Lessons from HEP Software Foundation Community White Paper](https://indico.cern.ch/event/702775/contributions/2882384/attachments/1597819/2547448/HEP-Computing-After-CWP.pdf), [4th Scientific Computing Forum](https://indico.cern.ch/event/702775/), 23 Feb 2017, Michel Jouvin
 
 ## 2017
 
  * [The HSF CWP](https://indico.desy.de/indico/event/18681/session/8/contribution/114/material/slides/0.pdf), [11th Terascale Alliance Workshop](https://indico.desy.de/indico/event/18681/), 28 Nov 2017, Benedikt Hegner
- * [The HSF CWP](https://indico.cern.ch/event/663273/contributions/2708178/attachments/1545100/2431717/HSF-CWP-Roadmap.pdf), [3rd Scientific Computing Forum](https://indico.cern.ch/event/663273/), 29 Oct 2017, Graeme Stewart
+ * [The HSF CWP](https://indico.cern.ch/event/663273/contributions/2708178/attachments/1545100/2431717/HSF-CWP-Roadmap.pdf), [3rd Scientific Computing Forum](https://indico.cern.ch/event/663273/), 29 Oct 2017, Graeme A Stewart
  * [HSF CWP Status](https://indico.cern.ch/event/578990/contributions/2720743/attachments/1522280/2381911/CWP_Status_-_GDB_20170913.pdf), WLCG GDBn, CERN, 13 Sep 2017, Michel Jouvin
  * [Summary of the HSF CWP Workshop in Annecy](https://indico.cern.ch/event/651834/contributions/2652777/attachments/1493614/2322911/HSF2017AnnecySummary.pdf) presented to CERN EP/SFT, 17 Jul 2017, Benedikt Hegner
- * [Parallel Processing in HEP](https://indico.cern.ch/event/466934/contributions/2524830/attachments/1490098/2315783/hep-parallel-v3.pdf), ECFA Plenary meeting on *Particle Physics and Society Extending our Vision and Reach*, EPS-HEP Venice, 8 July 2017, Graeme Stewart
+ * [Parallel Processing in HEP](https://indico.cern.ch/event/466934/contributions/2524830/attachments/1490098/2315783/hep-parallel-v3.pdf), ECFA Plenary meeting on *Particle Physics and Society Extending our Vision and Reach*, EPS-HEP Venice, 8 July 2017, Graeme A Stewart
  * [HSF and the Community White Paper](https://indico.lal.in2p3.fr/event/3473/session/1/contribution/2/material/slides/0.pdf), [Workshop](https://indico.lal.in2p3.fr/event/3473/timetable/#20170515.detailed) on Algorithms and Numerical Tools for QCD, Orsay/France, 15 May 2017, Michel Jouvin
  * [HSF and the Community White Paper - Report on the San Diego Workshop](https://indico.cern.ch/event/609308/contributions/2456640/attachments/1407318/2150983/HSF_workshopSanDiego.pdf) presented to CERN EP/SFT, 6 Feb 2017, Benedikt Hegner, Lorenzo Moneta
  * [HSF and San Diego Workshop Summary - IN2P3 (France)](https://indico.in2p3.fr/event/14075/session/4/contribution/20/material/slides/0.pdf), Meeting of IN2P3 Computing Division Heads, Lyon, 31 January 2017, Michel Jouvin
