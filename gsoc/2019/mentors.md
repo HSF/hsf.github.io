@@ -31,6 +31,7 @@ layout: plain
 * Arnaud Chiron [chiron@llr.in2p3.fr](mailto:chiron@llr.in2p3.fr) LLR
 * Gabriele Cosmo [gabriele.cosmo@cern.ch](mailto:gabriele.cosmo@cern.ch) CERN
 * Davide Costanzo [davide.costanzo@gmail.com](mailto:davide.costanzo@gmail.com) The University of Sheffield
+* Diego Davilla [davila.foyo@gmail.com](mailto:davila.foyo@gmail.com) UCSD
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Giulio Eulisse [giulio.eulisse@cern.ch](mailto:giulio.eulisse@cern.ch) CERN
 * Edgar Fajardo [emfajard@ucsd.edu](mailto:emfajard@ucsd.edu) UCSD
@@ -89,7 +90,7 @@ layout: plain
 * Andrea Sartirana [sartiran@llr.in2p3.fr](mailto:sartiran@llr.in2p3.fr) LLR
 * Cedric Serfon [cedric.serfon@cern.ch](mailto:cedric.serfon@cern.ch) CERN
 * Alaettin Serhan Mete [amete@cern.ch](mailto:amete@cern.ch) UCIrvine
-* Igor Sfiligoi [isfiligoi@ucsd.edu](mailto:isfiligoi@ucsd.edu) UCSD
+* Igor Sfiligoi [igor.sfiligoi@gmail.com](mailto:igor.sfiligoi@gmail.com) UCSD
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) CERN
 * Michael D'Silva [michael.dsilva@aarnet.edu.au](mailto:michael.dsilva@aarnet.edu.au) AARnet
