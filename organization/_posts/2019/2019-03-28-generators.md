@@ -26,8 +26,8 @@ Efe Yazgan*
       - Table 1, CMS:
           - Total Events:
             1.41+1.96+0.43+1.94+0.712+0.154+0.876+1.95=9.4B
-          - GEN fraction \~7.3% (1.41\*0.05 + 1.96\*0.17 + 0.43\*0.05
-            + 1.94\*0.04 + 0.712\*0.05 + 0.154\*0.05 + 0.876\*0.05 +
+          - GEN fraction \~7.3% (1.41\*0.05 + 1.96\*0.17 + 0.43\*0.05 + 
+            1.94\*0.04 + 0.712\*0.05 + 0.154\*0.05 + 0.876\*0.05 +
             1.95\*0.05)/9.4, where 0.05, 0.17 and 0.04 are from
             numbers achieved from local tests, presented in last
             meetings (DY LO MLM 5%, DY NLO 17%, TT powheg 4%, QCD
