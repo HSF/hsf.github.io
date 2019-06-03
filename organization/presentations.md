@@ -14,8 +14,8 @@ layout: default
 
 ## 2018
 
-* [HEP Software Foundation (R&D) activities](https://indico.cern.ch/event/765782/contributions/3178923/attachments/1739367/2814552/EduardoRodrigues_HSF-2018-10-23.pdf), ECOM2X WG7 Meeting, CERN, 23 October 2018, Eduardo Rodrigues
-* [Python in HEP - first workshop, community activities](/assets/EduardoRodrigues-LHCb-2018-09-18.pdf), LHCb Tuesday Meeting, CERN, 19 September 2018, Eduardo Rodrigues
+* [HEP Software Foundation (R&D) activities](/assets/EduardoRodrigues-CMS-2018-10-23.pdf), ECOM2X WG7 Meeting, CERN, 23 October 2018, Eduardo Rodrigues
+* [Python in HEP - first workshop, community activities](/assets/EduardoRodrigues-LHCb-2018-09-18.pdf), LHCb Weekly Meeting, CERN, 19 September 2018, Eduardo Rodrigues
 * [HEP Software Foundation](https://indico.ific.uv.es/event/3438/contributions/9763/attachments/6464/7304/COMCHA_HSF_Presentation.pdf), Spanish Computing Challenges Meeting (COMCHA), 12 September 2018, Graeme A Stewart
 * [Future opportunities and challenges for software in HEP](https://indico.cern.ch/event/730568/contributions/3011127/attachments/1690167/2719313/Software-Opportunities-and-Challenges.pdf), ECFA Plenary Meeting, 20 July 2018, Graeme A Stewart
 * [HSF Community White Paper: Lessons and Future Work](https://indico.cern.ch/event/587955/contributions/3012294/attachments/1681524/2708636/CHEP18_-_CWP_Lessons_and_Future_Work.pdf), [CHEP2018 Plenary Talk](https://indico.cern.ch/event/587955/timetable/#20180711), 11 July 2018, Michel Jouvin
