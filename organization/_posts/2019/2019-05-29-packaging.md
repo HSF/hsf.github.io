@@ -9,7 +9,7 @@ layout: meetings
 [<span class="underline">https://indico.cern.ch/event/819329/</span>](https://indico.cern.ch/event/819329/)
 
 Participants: Ben Morgan, Patrick Gartung, Graeme Stewart, Javier Cervantes, Chris Burr,
-Pere Mato, Dimitri, Geri Ganis, Guilherme Amadio, Marco Clemencic, Chris Green, Elizabeth Sexton-Kennedy
+Pere Mato, Dmitri Konstantinov, Geri Ganis, Guilherme Amadio, Marco Clemencic, Chris Green, Elizabeth Sexton-Kennedy, Ivan Razumov
 
 ## Introduction (Graeme)
 - Ongoing Projects: FCC/LCG
@@ -51,8 +51,9 @@ Pere Mato, Dimitri, Geri Ganis, Guilherme Amadio, Marco Clemencic, Chris Green, 
   - LArSoft now building with Art 3.02.04 (but will go to 3.02.05 for MVP)
   - Remaining issue with "wirecell" package, need to support Git submodules
     - Spack supports submodules, but wirecell needs a additional manual step.
-    - Guilherme: Could create tarballs? Chris: Would imply FNAL becomes maintainer of those tarballs. Fix locally in Spack to get MVP progressing
-- Chris: some issues still require updates to the core concretization system, aim is end of US fiscal year, but may slip.
+    - Guilherme: Could create tarballs? Chris: Would imply FNAL becomes maintainer of those tarballs. Fix locally in Spack to get MVP progressing. Brett Viren
+      (wirecell maintainer) has already produced several composite source tarballs, the URIs for which have been incorporated into the recipe. A successful build of 0.10.9 has been achieved.
+- Chris: some issues still require updates to the core concretization system (by Todd Gamblin), aim is end of September, but may slip.
 
 ## Distributing CMS FWLite with Conda (Patrick)
 - Conda recap:
@@ -61,9 +62,9 @@ Pere Mato, Dimitri, Geri Ganis, Guilherme Amadio, Marco Clemencic, Chris Green, 
 - FWLite with scram in Conda?
   - Conda prefix + ROOT installed
   - Linux: Trivial
-  - OSX: issues with Scram going into infinite (with/without SIP)
+  - OSX: issues with Scram going into an infinite loop (with/without SIP)
 - Went to CMake using scram2cmake tool
-  - See https://github.com/gartung/fwlite
+  - See <https://github.com/gartung/fwlite>
   - Some tweaking needed for CMake FindXXX
   - Some tweaking need for fwlite sources
 - Conda-forge: “feedstocks”: repos for each package + builds for platforms
