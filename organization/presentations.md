@@ -7,6 +7,7 @@ layout: default
 
 ## 2019
 
+* [HSF Update](/assets/MJ-WLCG_OB-2019-06-12.pdf), WLCG Overview Board, 12 June 2019, Michel Jouvin
 * [Meeting Future Software Challenges in High-Energy Physics](/assets/HSF-UNIGE-Seminar.pdf), University of Geneva Seminar,
   22 May 2019, Graeme A Stewart
 * [HSF Overview](https://agenda.infn.it/event/17249/contributions/89882/attachments/63230/76128/HSF_Electron_Ion_Consortium_Talk.pdf), Electron-Ion Collider Software Meeting, 20 May 2019, Graeme A Stewart
