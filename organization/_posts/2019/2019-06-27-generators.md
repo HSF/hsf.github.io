@@ -35,50 +35,34 @@ Amoroso, Alexander Grohsjean, Graeme Stewart, Steve Mrenna*
                 85sec/ev/core</span>**
           - (3) GEN fraction: updates from
             [<span class="underline">https://indico.cern.ch/event/804266/</span>](https://indico.cern.ch/event/804266/)
-              - Old GEN fraction
-> \~7.3%
-
-> (1.41\*0.05+1.96\*0.17+0.43\*0.05+1.94\*0.04+0.712\*0.05+0.154\*0.05+0.876\*0.05+1.95\*0.05)/9.4
-  - New GEN fraction
-> \~9.3%
-
-> (1.62\*0.05+4.58\*0.17+0.43\*0.05+1.94\*0.04+0.712\*0.05+0.154\*0.05+0.876\*0.05+1.95\*0.05)/12.2
-  - Where 0.05, 0.17 and 0.04 ....are from numbers achieved from local
-    tests.
-  - Thus for GEN we have 85\*9.3%\~7.9 sec/ev/core.
-  - And the total GEN CPUs is 7.9\*12.26B\~96.9B
-
-<!-- end list -->
-  - (4) In Table 1, we also provided GEN CPUs for each sample
-    category:
-      - For example, DY MG MLM\~1.9s/event for GEN step based on local
-        tests, thus the total CPUs is 1.9\*1618M=3.07B.
-  - **Summing over the numbers we get in Table1 for each sample
-    category, we get 95.5B, which is quite close to 96.9B**
-
-<!-- end list -->
-  - <span class="underline">ATLAS numbers</span> (Josh)
-      - (1) Changes to numbers since last time came from two places:
-          - Double counting of a small number of samples
-          - Accidental removal of samples that should be included
-          - \--\> Relatively small effect
-      - (2) HS06s vs s
-          - All the ATLAS numbers are raw seconds. Would be preferable
-            to have in HS06 seconds instead. Technically this is
-            possible but will require relatively major update to the
-            code, in the end it's just a matter of finding the time to
-            do it.
-
-<!-- end list -->
-  - For reference: current tables in overleaf:
-      - Table 1
-
-![](images/2019-06-27-generators1.png)
-
-  - Table 2
-
-![](images/2019-06-27-generators2.png)
-
+              - Old GEN fraction ~7.3%
+                (1.41\*0.05+1.96\*0.17+0.43\*0.05+1.94\*0.04+0.712\*0.05+0.154\*0.05+0.876\*0.05+1.95\*0.05)/9.4
+              - New GEN fraction ~9.3%
+                (1.62\*0.05+4.58\*0.17+0.43\*0.05+1.94\*0.04+0.712\*0.05+0.154\*0.05+0.876\*0.05+1.95\*0.05)/12.2
+              - Where 0.05, 0.17 and 0.04 ....are from numbers achieved from local tests.
+              - Thus for GEN we have 85\*9.3%\~7.9 sec/ev/core.
+              - And the total GEN CPUs is 7.9\*12.26B\~96.9B
+          - (4) In Table 1, we also provided GEN CPUs for each sample category:
+              - For example, DY MG MLM\~1.9s/event for GEN step based on local
+                tests, thus the total CPUs is 1.9\*1618M=3.07B.
+          - **Summing over the numbers we get in Table1 for each sample
+            category, we get 95.5B, which is quite close to 96.9B**
+      - <span class="underline">ATLAS numbers</span> (Josh)
+          - (1) Changes to numbers since last time came from two places:
+              - Double counting of a small number of samples
+              - Accidental removal of samples that should be included
+              - \--\> Relatively small effect
+          - (2) HS06s vs s
+              - All the ATLAS numbers are raw seconds. Would be preferable
+                to have in HS06 seconds instead. Technically this is
+                possible but will require relatively major update to the
+                code, in the end it's just a matter of finding the time to
+                do it.
+      - For reference: current tables in overleaf:
+          - Table 1
+![](media/2019-06-27-generators1.png)
+         - Table 2
+![](media/2019-06-27-generators2.png)
   - Qiang/CMS
       - After update of statistics and reconstruction/digitisation/sim
         times, fraction of time for generation is now 9.3% for CMS
