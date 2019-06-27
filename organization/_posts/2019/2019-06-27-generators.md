@@ -58,11 +58,12 @@ Amoroso, Alexander Grohsjean, Graeme Stewart, Steve Mrenna*
                 possible but will require relatively major update to the
                 code, in the end it's just a matter of finding the time to
                 do it.
-      - For reference: current tables in overleaf:
+      - For reference: current tables in 
+        [<span class="underline">https://www.overleaf.com/1326158343ftxgrxxcspxg</span>](https://www.overleaf.com/1326158343ftxgrxxcspxg):
           - Table 1
-![](media/2019-06-27-generators1.png)
+![Table 1 of proceedings](/images/2019-06-27-generators1.png)
          - Table 2
-![](media/2019-06-27-generators2.png)
+![Table 2 of proceedings](/images/2019-06-27-generators2.png)
   - Qiang/CMS
       - After update of statistics and reconstruction/digitisation/sim
         times, fraction of time for generation is now 9.3% for CMS
