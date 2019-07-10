@@ -27,7 +27,7 @@ Participants: Ben Morgan, Javier Cervantes, Guilherme Amadio, Graeme Stewart, Ho
   - FNAL's MVP1a for LArSoft Spack/SPackDev released for testing and feedback
     - Ben has tried the initial setup/install with success.
 - AIDA++ LoI for Turnkey Stack"
-  - In to AIDA call: https://docs.google.com/document/d/1wf9AnL2T713idpdG0qz8J2v6iPI94LZscY5PL333Ikc
+  - In to AIDA call: <https://docs.google.com/document/d/1wf9AnL2T713idpdG0qz8J2v6iPI94LZscY5PL333Ikc>
 - Next meeting:
   - With summer here, provisionally reconvene on 11th September
   - Ad-hoc meetings over summer can be held if wanted, or use the
@@ -43,9 +43,9 @@ Participants: Ben Morgan, Javier Cervantes, Guilherme Amadio, Graeme Stewart, Ho
     - Production
       - Real world: calib, align, dead/noise
       - Stability, but continually improve
-  - Upgrade
-    - Design and implement improvements
-  - Preservation
+    - Upgrade
+      - Design and implement improvements
+    - Preservation
 - The HEP Application Stack
   - Familiar to the WG, Common OSS, to Core HEP (ROOT, etc), to Specific HEP (Geant4, event gen), Experiment Framework (Gaudi etc), Experiment specific (usually data representation and access), Experiment Apps
   - A true ecosystem of interacting parts
