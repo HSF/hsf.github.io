@@ -1,5 +1,5 @@
 ---
-title: "HSF Weekly Meeting #168, 20 June, 2019"
+title: "HSF Weekly Meeting #169, 11 July, 2019"
 layout: meetings
 ---
 
@@ -15,9 +15,9 @@ Gray, Sudhir Malik, Caterina Doglioni, Mark Neubauer
 
 ## News, general matters
   - HPCs and GPUs - cost model and benchmarking WG
-      - WLCG MB has set up a group to work on benchmarking of GPUs in
-        particular.
-      - This is to anticipate that some FAs might offer GPU resources
+      - WLCG Management Board has set up a group to work on benchmarking of GPUs in
+        particular. 
+      - This is to anticipate that some funding agencies might offer GPU resources
         as part of their WLCG pledge.
       - Some notes and the charge in this
         [<span class="underline">Google
@@ -260,12 +260,6 @@ Update slides [<span class="underline">attached to agenda</span>](https://indico
         [<span class="underline">hsf-wg-search-committee@cern.ch</span>](mailto:hsf-wg-search-committee@cern.ch)
         (maps to Graeme, Liz and Michel)
 
-### Licensing
-  - 
-
-### Quantum Computing
-  - 
-
 ### Visualisation
   - Phoenix GSoC project is going very well.
       - Github:
@@ -274,9 +268,6 @@ Update slides [<span class="underline">attached to agenda</span>](https://indico
         [<span class="underline">http://hepsoftwarefoundation.org/phoenix/</span>](http://hepsoftwarefoundation.org/phoenix/)
   - Experiment independent in browser toolkit, easy to use.
   - Would be good to present this.
-
-### Software Forum
-  - 
 
 ## Workshops
 
@@ -310,4 +301,5 @@ Update slides [<span class="underline">attached to agenda</span>](https://indico
         Phoenix.
       - Agreed.
   - Summer break now, when to resume meetings?
-      - Resume 5 September.
+      - Resume 29 August [as discussed after the meeting, on realising that
+        5 September is Jeûne Genevois CERN holiday].
