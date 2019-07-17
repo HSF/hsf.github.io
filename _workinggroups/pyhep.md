@@ -29,12 +29,13 @@ Extra Gitter channels have been created by and for the benefit of the community:
 
 # PyHEP Series of Workshops
 
-The **PyHEP workshops** are a new series of workshops initiated and supported by the HSF
+The **PyHEP workshops** are a series of workshops initiated and supported by the HSF
 with the aim to provide an environment to discuss and promote the usage of Python in the HEP community at large.
 
 {:.table .table-hover .table-condensed .table-striped}
 | *Workshop* | *Location*          | *Date*               | *Agenda link*                                                                 |
 | ---------- | ------------------- | ---------------------| ----------------------------------------------------------------------------- |
+| PyHEP 2019 | Abingdon, U.K.      | October 16-18, 2019  | [Indico](https://indico.cern.ch/event/833895/){:target="_pyhep2019_indico"}   |
 | PyHEP 2018 | Sofia, Bulgaria     | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
 
 The advert and details on the first such workshop are given below.
