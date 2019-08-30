@@ -19,6 +19,7 @@ Everyone is welcome to join the community and participate by means of the follow
 * [Gitter channel PyHEP](https://gitter.im/HSF/PyHEP){:target="_pyhep_gitter_channel} for any informal exchanges.
 * [GitHub repository of resources](https://github.com/hsf-training/PyHEP-resources){:target="_pyhep_resources_repo"},
   e.g., Python libraries of interest to Particle Physics.
+* Twitter Handle: #PyHEP
 
 Extra Gitter channels have been created by and for the benefit of the community:
 
