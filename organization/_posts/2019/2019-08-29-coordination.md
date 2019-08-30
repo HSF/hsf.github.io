@@ -104,7 +104,7 @@ Daniel Elvira, David Lange</span>
 
 ### <span dir="ltr">Training</span>
   - <span dir="ltr">Software Carpentry at CERN rescheduled to 27-29
-    Nov. since earlier dates (16-18 Oct) clashe with PyHEP in Abingdon,
+    Nov. since earlier dates (16-18 Oct) clash with PyHEP in Abingdon,
     U.K.</span>
       - <span dir="ltr">Thanksgiving Week, but this is EU
         focused.</span>
