@@ -45,7 +45,7 @@ Daniel Elvira, David Lange</span>
 
 ### <span dir="ltr">Reconstruction and Software Triggers</span>
   - <span dir="ltr">At the last coordination meeting, we floated the
-    idea of involving other communities (dark matter, GW, ) to
+    idea of involving other communities (dark matter, GW, etc.) to
     understand what their software needs are and if there are points
     in common</span>
       - <span dir="ltr">We have the chance to do it “live” (+Vidyo) at
