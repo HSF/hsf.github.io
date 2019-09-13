@@ -151,7 +151,7 @@ Daniel Elvira</span>
     what the licensing is for packaged experiment software.</span>
       - <span dir="ltr">To be checked but not necessarily a problem if
         only the binaries are distributed</span>
-      - <span dir="ltr">The people following this in the HepixWG are
+      - <span dir="ltr">The people following this in the HEPiX WG are
         Michele Michelotto and Domenico Giordano. Andrea will tell
         them to get in contact with Michel and Graeme (thanks to both
         for volunteering to help\!).</span>
@@ -214,5 +214,5 @@ Daniel Elvira</span>
     circulate information to their experiments.</span>
 
 ## <span dir="ltr">AOB</span>
-  - <span dir="ltr">Stefan Roiser will go to the UK RSE conference
+  - <span dir="ltr">Stefan Roiser will go to the [UK RSE conference](https://rse.ac.uk/conf2019/)
     next week, presenting software institute ideas.</span>
