@@ -51,4 +51,4 @@ Participants: Ben Morgan, Graeme Stewart, Hobbs Willett, Javier Cervantes, Ben C
 
 
 ## AOB
-- Next meeting provisionally 11th September
+- Next meeting provisionally 9th October
