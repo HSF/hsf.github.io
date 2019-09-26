@@ -7,7 +7,7 @@ layout: default
 
 Currently the activities within the HSF are organized by the *HSF coordination team* (formerly called the *startup team*). Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the team:
 
- * [Peter Elmer](https://phy.princeton.edu/people/g-j-peter-elmer) - Princeton University
+ * Peter Elmer - Princeton University
  * Daniel Elvira - FNAL
  * Benedikt Hegner - BNL
  * Michel Jouvin - LAL, IN2P3
