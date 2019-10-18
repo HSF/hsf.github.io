@@ -36,6 +36,7 @@ layout: meetings
     - Comments for the community for ~2 weeks after that (end November?)
     - Appointments to be made in December, if we can, for 2020
         - These will be as now, 1 year, renewable
+- **Meeting approved this plan**
 
 ### Post-JENAS Meeting
 
@@ -141,6 +142,6 @@ layout: meetings
         - Federated identity is advancing fast - eduGAIN would be an option, as all of our people should have institutional credentials of some kind
 
 - Next coordination meeting...
-    - CHEP is very soon, do people want to have a meeting on 31 October?
-    - Or wait till afterwards, 14 November
+    - CHEP is very soon, do people want to have a meeting on 31 October? Or wait till afterwards, 14 November
+    - Agreed next meeting is after CHEP
         
