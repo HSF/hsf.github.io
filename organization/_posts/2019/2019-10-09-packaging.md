@@ -14,7 +14,7 @@ Participants: Ben Morgan, Graeme Stewart, Chris Green, Patrick Gartung, Javier C
 - Discussion on visit from CMake developers
   - Mostly on building C++ modules
   - Compiler needs to give enough information to build C++ modules, which needs better interfaces for passing information
-- New CVMFS repo /cvmfs/sf.hsf.io
+- New CVMFS repo `/cvmfs/sf.hsf.io`
   - Stratum 0 at CERN
   - For any software of interest for wider use before production
   - Initial use for TAU performance tools from Tools WG
@@ -33,7 +33,7 @@ Participants: Ben Morgan, Graeme Stewart, Chris Green, Patrick Gartung, Javier C
 - External dependencies fixed with full paths
 - `argv[0]` needs some help to fix corner cases, but it works
 - `binreloc` will return a reliable absolute path
-  - But it also works for *dynamic* libraries (not static)
+  - But it only works for *dynamic* libraries (not static)
 - Python, Rust, Go provide "native" means to find paths
   - Some C/C++ toolkits do it (Qt, Poco)
   - But no absolutely general solution for C/C++, `binreloc` is the best current soluion
