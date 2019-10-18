@@ -75,7 +75,7 @@ layout: meetings
 
 - PyHEP 2019 workshop now taking place in Abingdon, U.K., 16-18 Oct., see https://indico.cern.ch/e/PyHEP2019.
 
-![PyHEP 2019 workshop](https://codimd.web.cern.ch/uploads/upload_5557a26f5c5546e6cd8b22d4f8964a1e.jpg)
+![PyHEP 2019 workshop photo](https://codimd.web.cern.ch/uploads/upload_5557a26f5c5546e6cd8b22d4f8964a1e.jpg)
 
 ### Frameworks
 - Will have a meeting next Wednesday. Plan to have presentation from DUNE. Workflow is quite different from HEP collider experiments. Speaker TBC.
