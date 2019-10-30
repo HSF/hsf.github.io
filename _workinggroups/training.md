@@ -17,9 +17,23 @@ researchers to achieve the level of knowledge that they require. This ranges
 from basic core skills, needed by everyone, to advanced training required by
 specialists in software and computing.
 
+A link to our training events can be found [HERE](https://indico.cern.ch/category/11386/)
+
+A link to CWP report on training can be found here: [HEP Software Foundation Community White Paper Working Group - Training, Staffing and Careers](https://arxiv.org/abs/1807.02875)
+
 <div style="text-align:center; padding:25px; float:center">
 <img src ="/images/training/training-pyramid.png" alt="HSF Training Pyramid" />
 </div>
+
+## How to participate ?
+
+Everybody is welcome to join the
+[forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to
+HSF training activities. This is the place where ideas and proposals are
+discussed and actions decided!
+
+Weekly meetings are usually held at 15h30 CERN time on Mondays. Check
+[Indico](https://indico.cern.ch/category/11294/) for details.
 
 ## Github Organization
 
@@ -39,13 +53,3 @@ The [HSF-Training GitHub Organization](https://github.com/hsf-training) has [Ana
 {% endfor %}
 
 #### For full list of Upcoming and Past Schools enter [here](/Schools/events.html)
-
-## How to participate ?
-
-Everybody is welcome to join the
-[forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to
-HSF training activities. This is the place where ideas and proposals are
-discussed and actions decided!
-
-Weekly meetings are usually held at 15h30 CERN time on Mondays. Check
-[Indico](https://indico.cern.ch/category/11294/) for details.
