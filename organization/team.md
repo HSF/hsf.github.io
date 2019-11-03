@@ -15,6 +15,7 @@ Currently the activities within the HSF are organized by the *HSF coordination t
  * Pere Mato - CERN
  * Dario Menasce - INFN
  * Eduardo Rodrigues - University of Cincinnati
+ * Stefan Roiser - CERN
  * Elizabeth Sexton-Kennedy - FNAL
  * Graeme Stewart - CERN
  * Andrea Valassi - CERN
