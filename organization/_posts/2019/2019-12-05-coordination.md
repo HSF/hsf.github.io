@@ -64,9 +64,11 @@ Apologies: Serhan Mete (ATLAS S&C Week)
 - We are still collecting feedback from students - but initial survey results were quite positive
 - The organizers discussed possibly doing this again in the spring as there appears to be plenty of demand. March 25-27 would happen to work well for both CMS (week before CMS week) and ATLAS (week before training courses at CERN that would build on this one). Plenty of ideas for how to change/improve to be discussed in the meanwhile...
 
-- Analysis Preservation Bootcamp in February (to follow up with Sam M). ...Samuel said that it is oversubscribed 51 participants for 30 places. So definitley in demand and well advertised..due to demand a second one is being planned in April..
+- Analysis Preservation Bootcamp is organised for 17-19 February
+    - Samuel said that it is oversubscribed 51 participants for 30 places, aso definitley in demand and well advertised
+    - Due to demand a second one is being planned for April
 
-- Advanced training with Alpaka, 27-30 April.
+- Advanced training with Alpaka, 27-30 April
 
 See [HSF Training Indico](https://indico.cern.ch/category/11386/) for all links!
 
@@ -118,8 +120,8 @@ The [Latin American Workshop in S&C Challenges in HEP](https://indico.cern.ch/ev
 ### Coordination Meetings
 
 - Next meetings
-    - Another before the end of the year? (12, 19 Dec)
-    - Probably no actual meeting, instead do a "virtual meeting" at the beginning of w/b 16 Dec
+    - Another before the end of the year? (12 or 19 December)
+    - Probably no actual meeting, instead do a "virtual meeting" at the beginning of w/b 16 December
 
 - Meetings for next year
     - Have all been booked, defaulting to *odd* weeks
