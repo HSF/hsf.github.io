@@ -5,7 +5,7 @@ layout: meetings
 
 # {{page.title}}
 
-Present/Contributors: Caterina Doglioni, Graeme Stewart, David Lange, Eduardo Rodrigues, Chris Jones, Marco Clemencic, Daniel Elvira, Pere Mato, Benedikt Hegner, Witek Pokorski, Andrea Valassi, Heather Gray, Michel Jouvin, Ben Morgan, Liz Sexton-Kennedy, Gloria Corti, Kyle Knoepfel, Stefan Roiser, Marco Clemencic, Sudhir Malik, Adam Parker, James Walder, David Lange
+Present/Contributors: Caterina Doglioni, Graeme Stewart, David Lange, Eduardo Rodrigues, Chris Jones, Marco Clemencic, Daniel Elvira, Pere Mato, Benedikt Hegner, Witek Pokorski, Andrea Valassi, Heather Gray, Michel Jouvin, Ben Morgan, Liz Sexton-Kennedy, Gloria Corti, Kyle Knoepfel, Stefan Roiser, Marco Clemencic, Sudhir Malik, Adam Parker, James Walder
 
 Apologies: Serhan Mete (ATLAS S&C Week)
 
