@@ -65,7 +65,7 @@ Apologies: Serhan Mete (ATLAS S&C Week)
 - The organizers discussed possibly doing this again in the spring as there appears to be plenty of demand. March 25-27 would happen to work well for both CMS (week before CMS week) and ATLAS (week before training courses at CERN that would build on this one). Plenty of ideas for how to change/improve to be discussed in the meanwhile...
 
 - Analysis Preservation Bootcamp is organised for 17-19 February
-    - Samuel said that it is oversubscribed 51 participants for 30 places, aso definitley in demand and well advertised
+    - Samuel said that it is oversubscribed 51 participants for 30 places, aso definitely in demand and well advertised
     - Due to demand a second one is being planned for April
 
 - Advanced training with Alpaka, 27-30 April
