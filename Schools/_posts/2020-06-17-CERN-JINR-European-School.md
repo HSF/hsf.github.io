@@ -8,4 +8,4 @@ layout: event
 categories: Schools
 deadline: 14 February 2020
 ---
-[2019 CERN-JINR European School of HEP](https://indico.cern.ch/event/798971/)
+[2020 CERN-JINR European School of HEP](https://indico.cern.ch/event/856903/page/18705-home)
