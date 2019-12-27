@@ -36,7 +36,7 @@ Other actions in progress include:
 {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
 
 ## Current and Upcoming Training Schools
-#### **Warning** : Application deadlines are **before the date shown**
+#### **Warning** : *Some* Application deadlines are shown
 {% for post in schools %}
   {% capture date %}{{post.end_date | date: '%s' | plus: 0 }}{% endcapture %}
   {% if date > now %}
