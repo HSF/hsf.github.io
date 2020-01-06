@@ -10,7 +10,7 @@ layout: default
 
 Get started checking out the [Google Summer of Code Guides for students](https://google.github.io/gsocguides/student/) and the [timeline](https://developers.google.com/open-source/gsoc/timeline) of the program.
 
-### How to apply to CERN-HSF
+### How to apply to HSF GSoC
 
 1. Take a look at the [list of projects](/activities/gsoc.html#projects-in-2020) participating for this year.
   * There you will find a list of proposals for each project, their descriptions and the contact information of their mentors.
@@ -24,7 +24,7 @@ Get started checking out the [Google Summer of Code Guides for students](https:/
   * Please note that the vast majority of our GSoC projects do not require any physics knowledge; in case of doubt, ask the mentors.
   * If you do well in the tests, mentors will usually ask you to write a description for your proposal and help you with the submission.
 
-In case you want to express interest in several projects you can also write to the general HSF GSoC mentors mailing list (including also previous years mentors). Note however that you may not be contacted back unless to adress directly to the mentors of specific projects.
+If you want to express interest in several projects you can also write to the general HSF GSoC mentors' mailing list (including also previous years' mentors). However, you may not get a direct response unless you specifically write to the mentors of the projects that interest you.
 
 [hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)
 
