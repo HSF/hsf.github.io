@@ -8,18 +8,21 @@ layout: default
 
 ## Instructions for Adding a New Proposal
 
- * Option A: email GSoC [administrators](mailto:hsf-gsoc-admin@googlegroups.com) (currently: Andrei Gheata, Antoine Pérus and Javier Cervantes Villanueva)
+ * Option A: email GSoC [administrators](mailto:hsf-gsoc-admin@googlegroups.com) (currently: Andrei Gheata and Antoine Pérus)
  * Option B (via git): 
    * fork [git repository](https://github.com/HEP-SF/hep-sf.github.io) 
    * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (look at this example: [`proposal_ROOTspark.md`](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocproposals/2018/proposal_ROOTspark.md))
    * add a front matter as given in this
    [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocprojects/2019/project_HSF.md)
       * Make sure the `year` attribute is correct for your proposal
-   * add an organiation description to the current year folder (if not already done) as given in this [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocorgs/2019/cern.md):
+   * add an organization description to the current year folder (if not already done) as given in this [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocorgs/2019/cern.md):
       * It can be copied from last year if still valid
+      * Remember that the name of the `organization: YOURORGANIZATION` will need to be referenced in the proposal and for each mentor
       * Add a logo to [images](https://github.com/HSF/hsf.github.io/tree/master/images)
    * update the list of mentors (`gsoc/YEAR/mentors.md`)
       * Follow this format: `YOURNAME [YOUR@MAIL](mailto:YOUR@MAIL) YOURORGANIZATION`
+      * Insert mentor names sorted rather than to the end of the list
+
    * make a pull request
 
 **Every proposal must be attached to an organization (e.g. CERN, Fermilab...) and to a project (e.g. ROOT, GeantV...).** If you add your own proposal yourself, be sure add the appropriate `organization` and `project` attributes (not case sensitive) in the *front-matter* section of the proposal. See next sections if you need to add a new organization or project but if you use an existing project and organization for your proposal you don't have to do anything else that what was described above.
@@ -27,7 +30,7 @@ layout: default
 ## Instructions for Adding a New Project
 
 Proposals are attached to aproject (e.g. ROOT, CMS...). If you want to add a project for your proposal, you need to create 
-a Markdown file describing your project in `_gsocprojects/2019` directory (must start with `project_`,
+a Markdown file describing your project in `_gsocprojects/YEAR` directory (must start with `project_`,
 look at [HSF project](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocprojects/2019/project_HSF.md) for an example).
 This is a very simple file, containing only a *front matter* section that defines the attributes of
 your organization. The 2 mandatory attributes are `project` (your project name) and `layout` (which must be `default`).
@@ -69,12 +72,10 @@ organization:
 ```
 
 To create a new organization, copy
-[_gsocorgs/2019/cern.md](https://raw.githubusercontent.com/hep-sf/hep-sf.github.io/master/_gsocorgs/2019/cern.md),
+[_gsocorgs/2020/cern.md](https://raw.githubusercontent.com/hep-sf/hep-sf.github.io/master/_gsocorgs/2020/cern.md),
 create a file for your organization and edit its contents as appropriate.
 
 
-## HSF GSoC Mentor Guideline 2019
+## HSF GSoC Mentor Guideline 2020
 
-[2019 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/1K_VewNIUQS9U9KYhkVJCiCiYnBBNsjdRTUpYRjxTTcA/pub)
-
-
+[2020 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/110NS7iRonBUKa05pny-YaOS8mXpBYjs6DG302SeWbOI/edit?usp=sharing)
