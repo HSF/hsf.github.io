@@ -11,7 +11,7 @@ layout: default
 [Google Summer of Code](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations.
 
 Particle physics is an exciting field where large collaborations of scientists collect
-and analyze petabytes data from high-energy physics experiments, such as the Large Hadron Collider,
+and analyze petabytes of data from high-energy physics experiments, such as the Large Hadron Collider,
 hosted at the CERN laboratory in Geneva, Switzerland.
 Some of the questions that we collectively ask are:
 
@@ -35,7 +35,7 @@ In 2020 HSF is participating in the program as a GSoC umbrella organization. Pro
 
 If you are interested in the GSoC program, please start by having a look at our [guidelines for students](/gsoc/students-guideline.html).
 
-New projects for HSF GSoC in 2020 will be published in February;  application period will open in mid-March, but discussions about application ideas with mentors will take place the month before. You can monitor our website in order to get acquainted with the projects you are interested in and to be prepared for submitting an application.
+New projects for HSF GSoC in 2020 will be published in February. The application period will open in mid-March, but discussions about application ideas with mentors will take place the month before. You can monitor our website in order to get acquainted with the projects you are interested in and to be prepared for submitting an application.
 
 For further information, feel free to contact the HSF GSoC admins:
 
