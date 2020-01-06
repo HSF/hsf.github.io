@@ -4,7 +4,7 @@
 
    * title: the name of the project to use in the page title. By default, project attribute is used.
    * description: a description of your project that will be added before the list of proposals attached to the project.
-It can be several lines: look at the `_gsocprojects/2018/project_SixTrack.md` example for detailed syntax. The content is a standard Markdown text idented by at least one space (the number is not important but must be the same for all lines).
+It can be several lines: look at the `_gsocprojects/2018/project_SixTrack.md` example for detailed syntax. The content is a standard Markdown text indented by at least one space (the number is not important but must be the same for all lines).
    * logo: the logo file name in directory `images`
 
 A proposal is attached to a project by its attribute `project` that must match (not case sensitive) the project attribute defined in project MD file. This attribute can be a single value or a list. For a list, use the following syntax in the front matter section:
