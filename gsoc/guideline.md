@@ -29,7 +29,7 @@ layout: default
    
 ## Instructions for Adding a New Project
 
-Proposals are attached to aproject (e.g. ROOT, CMS...). If you want to add a project for your proposal, you need to create 
+Proposals are attached to a project (e.g. ROOT, CMS...). If you want to add a project for your proposal, you need to create 
 a Markdown file describing your project in `_gsocprojects/YEAR` directory (must start with `project_`,
 look at [HSF project](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocprojects/2019/project_HSF.md) for an example).
 This is a very simple file, containing only a *front matter* section that defines the attributes of
@@ -43,7 +43,7 @@ It can be several lines: look at the [example](https://raw.githubusercontent.com
 for detailed syntax. The content is a standard Markdown text idented by at least one space (the number is not important
 but must be the same for all lines).
 
-* `logo`: the logo file name in directory `images`
+* `logo`: the logo file name in directory `images` (please name your logo `PROJECTNAME-logo.png` and ensure it is less than 100kB)
 
 A proposal is attached to a project by its attribute `project` that must match (not case sensitive) the `project`
 attribute defined in project MD file. This attribute can be a single value or a list. For a list, use the following
@@ -75,6 +75,7 @@ To create a new organization, copy
 [_gsocorgs/2020/cern.md](https://raw.githubusercontent.com/hep-sf/hep-sf.github.io/master/_gsocorgs/2020/cern.md),
 create a file for your organization and edit its contents as appropriate.
 
+Organization logos should be called `ORGAINIZATION-logo.png` and be less than 100kB in size.
 
 ## HSF GSoC Mentor Guideline 2020
 
