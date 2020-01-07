@@ -70,5 +70,5 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
 
 *HSF GSoC mentor discussion* [e-group](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)
 
-*HSF GSoC administrators:* [Andrei Gheata and Antoine Pérus](mailto:hsf-gsoc-admin@googlegroups.com)
+*HSF GSoC administrators:* [Andrei Gheata, Antoine Pérus and Xavier Valls](mailto:hsf-gsoc-admin@googlegroups.com)
 
