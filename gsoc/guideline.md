@@ -40,7 +40,7 @@ In addition you can use 2 optional attributes:
 * `description`: a description of your project that will be added before the list of proposals attached to the project.
 
 It can be several lines: look at the [example](https://raw.githubusercontent.com/hep-sf/hep-sf.github.io/master/_gsocprojects/2018/project_SixTrack.md)
-for detailed syntax. The content is a standard Markdown text idented by at least one space (the number is not important
+for detailed syntax. The content is a standard Markdown text indented by at least one space (the number is not important
 but must be the same for all lines).
 
 * `logo`: the logo file name in directory `images` (please name your logo `PROJECTNAME-logo.png` and ensure it is less than 100kB)
@@ -75,7 +75,7 @@ To create a new organization, copy
 [_gsocorgs/2020/cern.md](https://raw.githubusercontent.com/hep-sf/hep-sf.github.io/master/_gsocorgs/2020/cern.md),
 create a file for your organization and edit its contents as appropriate.
 
-Organization logos should be called `ORGAINIZATION-logo.png` and be less than 100kB in size.
+Organization logos should be called `ORGANIZATION-logo.png` and be less than 100kB in size.
 
 ## HSF GSoC Mentor Guideline 2020
 
