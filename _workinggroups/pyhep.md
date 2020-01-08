@@ -8,8 +8,7 @@ redirect_from:
 The PyHEP working group brings together a community of developers and users of Python in Particle Physics, with the aim of improving
 the sharing of knowledge and expertise. It embraces the broad community, from HEP to the Astroparticle and Intensity Frontier communities.
 
-The group is currently coordinated by Chris Tunnell (XENON1T), Eduardo Rodrigues (LHCb) and Jim Pivarski (CMS),
-who took over from Graeme Stewart (CERN EP-SFT) in January 2019.
+The group is currently coordinated by Ben Krikler (CMS, LZ), Eduardo Rodrigues (LHCb) and Jim Pivarski (CMS).
 All coordinators can be reached via <hsf-pyhep-organisation@googlegroups.com>.
 
 # Getting Involved
@@ -36,10 +35,41 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 {:.table .table-hover .table-condensed .table-striped}
 | *Workshop* | *Location*          | *Date*               | *Agenda link*                                                                 |
 | ---------- | ------------------- | ---------------------| ----------------------------------------------------------------------------- |
-| PyHEP 2019 | Abingdon, U.K.      | October 16-18, 2019  | [Indico](https://indico.cern.ch/event/833895/){:target="_pyhep2019_indico"}   |
+| PyHEP 2019 | Abingdon, U.K.      | October 16-18, 2019  | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}   |
 | PyHEP 2018 | Sofia, Bulgaria     | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
 
-The advert and details on the first such workshop are given below.
+The advert and details on these workshops are given below.
+
+## PyHEP 2019
+
+PyHEP 2019 was held at The Cosener's House, in Abingdon, near Oxford, United Kingdom, on 16-18 October 2019.
+The workshop was a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and steer where the community needs and wants to go. There was ample time for discussion.
+
+A keynote presentation on the [PyViz](https://pyviz.org){:target="_pyhep2019_pyviz"}
+- open source visualization tools for Python - project
+was given by [Philipp Rudiger](http://philippjfr.com){:target="_pyhep2019_philipp"}.
+
+The [agenda](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}
+was composed of plenary sessions such as for example:
+
+1. Lightning talks from participants
+2. Presentations following up from topics discussed at PyHEP 2018
+3. Topical sessions on e.g. histogramming and statistics, including a talk and a hands-on tutorial
+
+### Organising Committee
+
+Eduardo Rodrigues - University of Cincinnati (Chair)<br>
+Ben Krikler - University of Bristol (Co-chair)
+
+### Sponsors
+
+The event was kindly sponsored by
+
+![SSI](/images/pyhep/SSI_logo.png){:height="60px"}
+![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
+![IRIS-HEP](/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![STFC](/images/pyhep/STFC_logo.png){:height="60px"}
+
 
 ## PyHEP 2018
 
@@ -75,3 +105,9 @@ Jeff Templon - Nikhef (Co-chair)
 The event was kindly sponsored by
 
 ![Nikhef](/images/pyhep/Nikhef_logo.png){:height="60px"} ![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
+
+
+# Previous conveners
+
+2019 - Chris Tunnell (XENON1T)
+2018 - Graeme Stewart (CERN EP-SFT)
