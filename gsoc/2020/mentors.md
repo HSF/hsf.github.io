@@ -5,4 +5,4 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
-* Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
+* FirstName LastName [e-mail](mailto:e-mail) Organization
