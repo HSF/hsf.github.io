@@ -109,5 +109,5 @@ The event was kindly sponsored by
 
 # Previous conveners
 
-2019 - Chris Tunnell (XENON1T)
-2018 - Graeme Stewart (CERN EP-SFT)
+- 2019 - Chris Tunnell (XENON1T)
+- 2018 - Graeme Stewart (CERN EP-SFT)
