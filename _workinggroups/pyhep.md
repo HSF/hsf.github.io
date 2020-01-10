@@ -45,8 +45,8 @@ The advert and details on these workshops are given below.
 PyHEP 2019 was held at The Cosener's House, in Abingdon, near Oxford, United Kingdom, on 16-18 October 2019.
 The workshop was a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and steer where the community needs and wants to go. There was ample time for discussion.
 
-A keynote presentation on the [PyViz](https://pyviz.org){:target="_pyhep2019_pyviz"}
-- open source visualization tools for Python - project
+A keynote presentation on the [PyViz](https://pyviz.org){:target="_pyhep2019_pyviz"} project,
+open source visualization tools for Python,
 was given by [Philipp Rudiger](http://philippjfr.com){:target="_pyhep2019_philipp"}.
 
 The [agenda](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}
