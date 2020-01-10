@@ -14,7 +14,7 @@ Currently the activities within the HSF are organized by the *HSF coordination t
  * David Lange - Princeton University
  * Pere Mato - CERN
  * Dario Menasce - INFN
- * Eduardo Rodrigues - University of Cincinnati
+ * Eduardo Rodrigues - University of Liverpool
  * Stefan Roiser - CERN
  * Elizabeth Sexton-Kennedy - FNAL
  * Graeme Stewart - CERN
