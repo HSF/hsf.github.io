@@ -25,6 +25,8 @@ A link to CWP report on training can be found here: [HEP Software Foundation Com
 <img src ="/images/training/training-pyramid.png" alt="HSF Training Pyramid" />
 </div>
 
+Convenors: Kilian Lieret (LMU), Sudhir Malik (Puerto Rico), Sam Meehan (CERN)
+
 ## How to participate ?
 
 Everybody is welcome to join the
