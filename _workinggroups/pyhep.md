@@ -33,10 +33,11 @@ The **PyHEP workshops** are a series of workshops initiated and supported by the
 with the aim to provide an environment to discuss and promote the usage of Python in the HEP community at large.
 
 {:.table .table-hover .table-condensed .table-striped}
-| *Workshop* | *Location*          | *Date*               | *Agenda link*                                                                 |
-| ---------- | ------------------- | ---------------------| ----------------------------------------------------------------------------- |
-| PyHEP 2019 | Abingdon, U.K.      | October 16-18, 2019  | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}   |
-| PyHEP 2018 | Sofia, Bulgaria     | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
+| *Workshop* | *Location*             | *Date*               | *Agenda link*                                                                 |
+| ---------- | ---------------------- | ---------------------| ----------------------------------------------------------------------------- |
+| PyHEP 2020 | Austin, Texas, U.S.A.  | July 11-13, 2020     |      |
+| PyHEP 2019 | Abingdon, U.K.         | October 16-18, 2019  | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}     |
+| PyHEP 2018 | Sofia, Bulgaria        | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
 
 The advert and details on these workshops are given below.
 
