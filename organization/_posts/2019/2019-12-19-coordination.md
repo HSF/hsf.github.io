@@ -35,7 +35,10 @@ Present/Contributors: Graeme Stewart, Eduardo Rodrigues, Caterina Doglioni (w/Da
         - Philippe Canal (FNAL)
         - (Joining Gloria and Witek)
 
-    - For the Analysis WG our discussions still continue, announcement expected in January.
+    - Analysis:
+        - Our discussions still continue, announcement expected in January.
+
+    - **Many thanks to our outgoing convenors and Welcome! to our new ones**
 
 - Feedback from SPC talk 
     - Talk was well received by the SPC. Questions focused on the use of HPCs,
