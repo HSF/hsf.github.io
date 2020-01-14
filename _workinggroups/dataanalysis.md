@@ -1,5 +1,5 @@
 ---
-title: "Data Analysis"
+title: Data Analysis
 layout: plain
 ---
 
@@ -24,4 +24,4 @@ well-defined set of problems.
 [Meetings](https://indico.cern.ch/category/10914)
 [Forum](https://groups.google.com/forum/#!forum/hsf-analysis-wg)
 
-Convenors: Paul Laycock (Belle II), Danilo Piparo (CERN EP-SFT), Andrea Rizzi (CMS)
+Convenors: Paul Laycock (Belle II), TJ Khoo (ATLAS), Andrea Rizzi (CMS)
