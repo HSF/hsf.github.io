@@ -55,3 +55,8 @@ The [HSF-Training GitHub Organization](https://github.com/hsf-training) has [Ana
 {% endfor %}
 
 #### For full list of Upcoming and Past Schools enter [here](/Schools/events.html)
+
+---
+
+Former Convenors:
+- Dario Menasce (INFN)

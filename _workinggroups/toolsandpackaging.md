@@ -11,8 +11,8 @@ redirect_from:
 ## Software Developer Tools
 
 The Software Developer Tools Working Group aims to help the HEP community in developing the latest, modern feature-rich projects
-with the aid of software tools such as code editors, static/dynamic code analyzers, compilers, debuggers, performance analyzers and so on.
-The group plans to accomplish this by mainly serving as a forum where developers can share their experiences, discuss new/existing tools they utilize,
+with the aid of software tools such as code editors, static/dynamic code analysers, compilers, debuggers, performance analysers and so on.
+The group plans to accomplish this by mainly serving as a forum where developers can share their experiences, discuss new/existing tools they utilise,
 and learn from each other. To that point, contributions from the entire community are strongly encouraged.
 
 ## Packaging
@@ -63,3 +63,8 @@ The group is currently coordinated by Ben Morgan (Warwick, ATLAS and superNEMO),
 *  The Indico pages for the working group meetings can be found at <https://indico.cern.ch/category/10415/> and <https://indico.cern.ch/category/7975/> (to be merged)
 *  All coordinators can be reached at <hsf-software-tools-wg-conveners@googlegroups.com>
 *  For all technical discussions please use <hsf-tech-forum@googlegroups.com> (Tools) and <hsf-packaging-wg@googlegroups.com> (Packaging)
+
+Former Convenors:
+- Bendikt Hegner (CERN)
+- Elizabeth Sexton-Kennedy (FNAL)
+- Graeme A Stewart (CERN)

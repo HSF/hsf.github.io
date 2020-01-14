@@ -20,3 +20,8 @@ The group's meeting page is [in Indico](https://indico.cern.ch/category/10916/) 
 discussions are held on the [hsf-simulation](https://groups.google.com/forum/#%21forum/hsf-simulation) list.
 
 Convenors: Gloria Corti (LHCb) <mailto:Gloria.Corti@cern.ch>, Philippe Canal (CMS) <mailto:philippe.canal@cern.ch>, Witek Pokorski (Geant4) <mailto:Witold.Pokorski@cern.ch>
+
+---
+
+Former Convenors:
+- Heather Gray (ATLAS)

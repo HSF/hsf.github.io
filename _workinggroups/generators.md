@@ -50,3 +50,10 @@ HSF meeting [report](/organization/2018/12/13/coordination.html)
 [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
 (latest sources and pdf from 11 November 2017 archived
 on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-11_generators)).
+
+---
+
+Former Convenors:
+- Stefan Hoeche
+- Steve Mrenna
+- Taylor Childers

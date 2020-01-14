@@ -25,3 +25,8 @@ well-defined set of problems.
 [Forum](https://groups.google.com/forum/#!forum/hsf-analysis-wg)
 
 Convenors: Paul Laycock (Belle II), TJ Khoo (ATLAS), Andrea Rizzi (CMS)
+
+---
+
+Former Convenors:
+- Danilo Piparo (ROOT)
