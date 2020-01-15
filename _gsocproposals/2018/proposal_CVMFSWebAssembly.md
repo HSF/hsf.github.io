@@ -13,7 +13,7 @@ The physics experiments at the Large Hadron Collider (LHC) created millions of
 lines of scientific C++ code, most of it is targeted to the Linux
 platform.  The [emscripten](http://kripken.github.io/emscripten-site/index.html)
 compiler allows us to compile C++ into asm.js or WebAssembly, and thus enables
-us to [use any browser as a computing device](http://jblomer.web.cern.ch/jblomer/emscripten/main01.html)!
+us to use any browser as a computing device! (Old link: http://jblomer.web.cern.ch/jblomer/emscripten/main01.html)
 
 File based I/O in the browser's JavaScript sandbox, however, is a notorious problem. Many
 physics applications load some data from files in order to do useful work,

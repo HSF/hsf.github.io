@@ -6,6 +6,9 @@ layout: default
 
 ## Community White Paper (CWP) Working Groups
 
+> **Note Bene** The groups listed here are of *historical interest only*. If you are looking for the list
+of current HSF Working Groups then please check [this page](/what_are_WGs.html).
+
 In October, 2016, the process of forming CWP working groups began. Working groups self-organized with some help from the HEP experiment software/computing coordinators and the HSF startup team. Charges were formulated to describe the challenges in that area and questions which need to be answered to produce a roadmap for the CWP. 
 
 The working group charges and working group document should be world-visible for reading. Please
@@ -181,6 +184,7 @@ Google group: none yet
 Plans:
 
 Draft WG white paper: [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
+(latest version from 2017/11/11 archived on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-11_generators))
 
 <!-- ======================================================= -->
 

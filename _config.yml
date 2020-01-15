@@ -24,6 +24,15 @@ collections:
   gsocproposals:
     output: true
     permalink: /gsoc/:path.html
+  gsdocs-orgs:
+    output: true
+    permalink: /gsdocs/organizations/:path.html
+  gsdocs-projects:
+    output: true
+    permalink: /gsdocs/projects/:path.html
+  gsdocs-proposals:
+    output: true
+    permalink: /gsdocs/:path.html
   workinggroups:
     output: true
     permalink: /workinggroups/:title.html
