@@ -41,3 +41,11 @@ and encouraging long term sustainability of framework software.
 
 The group's meeting page is [in Indico](https://indico.cern.ch/category/10287/) and
 discussions are held on the [hsf-tech-forum](https://groups.google.com/forum/#%21forum/hsf-tech-forum) list.
+
+## Convenors
+
+The group convenors are:
+
+- Chris Jones, FNAL <cdj@fnal.gov>
+- Kyle Knoepfel, FNAL <knoepfel@fnal.gov>
+- Attila Krasznahorkay, CERN <Attila.Krasznahorkay@cern.ch>
