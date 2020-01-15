@@ -16,7 +16,7 @@ Computing Workshop that was held at CERN in November 2018, during which
 an initial program of work in this area was identified.
 
 The working group is currently coordinated by Andrea Valassi,
-Josh McFayden, Stefan Hoeche, Steve Mrenna and Taylor Childers.
+Josh McFayden and Efe Yazgan.
 All coordinators can be reached
 via <hsf-generator-wg-convenors@googlegroups.com>.
 
@@ -50,3 +50,10 @@ HSF meeting [report](/organization/2018/12/13/coordination.html)
 [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
 (latest sources and pdf from 11 November 2017 archived
 on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-11_generators)).
+
+---
+
+Former Convenors:
+- Stefan Hoeche
+- Steve Mrenna
+- Taylor Childers
