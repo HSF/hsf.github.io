@@ -29,12 +29,16 @@ in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
 
 #### Older resources (2019)
 
+- Steve Mrenna's [talk](https://indico.cern.ch/event/813325/contributions/3603456)
+at LAWSCHEP, Mexico City, 21 November 2019
+- Andrea Valassi's [talk](https://indico.cern.ch/event/831054/contributions/3647475/attachments/1948111/3232656/20191120-LHCb-HSFgenerators-v3.pdf)
+at the 12th LHCb Computing Workshop, CERN, 20 November 2019
 - Andy Buckley's [talk](https://indico.cern.ch/event/708041/contributions/3308937) 
-at ACAT, 15 March 2019, Saas Fee
+at ACAT, Saas Fee, 15 March 2019
 
 #### Older resources (2018)
 
-- Computing Workshop debriefing, CERN, 11 December 2018
+- Computing Workshop debriefing, CERN, 11 December 2018:
 [agenda](https://indico.cern.ch/event/778521),
 [minutes](/organization/2018/12/11/generators.html),
 HSF meeting [report](/organization/2018/12/13/coordination.html)
