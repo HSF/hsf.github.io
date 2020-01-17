@@ -14,15 +14,16 @@ The amount of data that is processed by individual scientists has grown hugely i
 The scale of user calculations means that just the metadata from the Ganga framework associated wit hthe users tasks has grown large. Until now the data has been stored in a simple uncompressed XML format. The aim will be to create a new model, most likely based on a relational database, that can serve as the persistent system for Ganga. It should be able to support caching of information in memory in an efficient way and should scale to the use cases within science over the next decade.
 
 ## Task ideas
- * Perform a careful audit of the memory consumption of Ganga when used in a real life situation.
- * 
- * Implement a new persistent storage model and create a migration tool for existing users.
+ * Write a prototype that stores the Job objects of Ganga in a relational database. Key information of the jobs should be stored as individual columns while the majority of the metadata is stored as blobs.
+ * Demonstrate a caching implementation based on configurable criteria.
+ * Implement the new persistent storage model and create a migration tool for existing users.
 
 ## Expected results
 A more responsive user interface that can transfer information to and from the persistent storage in a faster and more efficient way. A caching in memory that will allow Ganga to keep a fixed size in memory. 
 
 ## Requirements
-Python
+Python programming
+Relational database experience
 
 ## Mentors 
   * [Ulrik Egede](mailto:ulrik.egede@monash.edu)
