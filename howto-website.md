@@ -10,7 +10,7 @@ This site is maintained by the HSF GitHub [contributors](https://github.com/orgs
 
 ## Implementation
 
-This website is implemented using [GitHub's Pages](https://pages.github.com/) service which makes it easy to create a website associated with a GitHub account or project. Pages uses [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in GitHub). It supports structured sites like blogs in a simple but powerful way.
+This website is implemented using [GitHub's Pages](https://pages.github.com/) service, which makes it easy to create a website associated with a GitHub account or project. Pages uses [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in GitHub). It supports structured sites like blogs in a simple but powerful way.
 The site content is written using the easy [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) (which is used by GitHub itself).
 
 A [HSF documentation](/jekyll-beginners.html) provides some useful hints to make using Jekyll in the HSF context easier.
@@ -24,7 +24,7 @@ files you want to edit, push them to your fork, and open a pull request.
 
 If you wish (and it is recommended) you can easily set up a local instance of the newsletter site in order to preview your submissions. See the [documentation](https://help.github.com/articles/using-jekyll-with-pages/)
 on installing and running Jekyll.
-The website uses the master branch of the hsf.github.io repository.
+The website uses the master branch of the [hsf.github.io](https://github.com/HSF/hsf.github.io) repository.
 
 If you are not familiar with GitHub and Git, you can read our [survival kit](/github-beginners.html)!
 
@@ -35,18 +35,38 @@ e.g., the author of the document or the title of the document.
 
 In the *front-matter* (but not in the text itself), you need to replace any `&` characters (which has a special meaning in HTML) by `&amp;`. This is particularly important for the `title` attribute.
 
-### Adding contents from GoogleDoc
+### Adding content from collaborative tools
 
-It is sometimes handy to use GoogleDoc to produce some contents for the web site. For example, if taking minutes
-during a meeting, it allows several people to contribute to the effort of note taking and other persons who attended the
-meeting to validate/update them. It is then easy to convert a properly formatted GoogleDoc (using standard heading
-levels) to Markdown for inserting it into the website. Look at our [documentation](/jekyll-beginners.html) on how to
-do it.
+#### CodiMD
+
+The recommended way to host a collaborative note book, e.g. for taking meeting minutes
+is to use [CodiMD](https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-documentation), which is
+a collaborative ediitng tool utilising Markdown directly. This makes it trivial to move
+the content into the HSF website for archiving.
+
+CERN has its own [CodiMD instance](https://codimd.web.cern.ch/), but currently this only
+works if every contributor has a full CERN account (EduGain authentication is proposed,
+but it doesn't work yet AFAWU). An alternative is the [demo CodiMD service](https://demo.codimd.org/),
+but be aware that there is no long term gaurantee for content here, so move it to the 
+website after your meeting.
+
+We find that *recycling* the same document for a series of meetings is extremely useful
+as the *live notes* link can be copied and cloned from one meeting to the next.
+
+#### GoogleDocs
+
+Google Docs can also be used for shared notebooks, but in this case there is a need to convert
+the document to Markdown before it can be added to the website. This is less convenient, but
+we have [documentation](/jekyll-beginners.html) on how to do it.
 
 
 ### Adding a working group or activity
 
-Add a new file in the `_workinggroups` or `_activities` directory and follow the front-matter of the
+*Before adding any new activity or proposing a new working group please discuss with the
+[HSF Coordination Team](/organization/team.html)! We will make sure it gets proposed
+in an HSF meeting for approval.*
+
+Then, for the technical creation, add a new file in the `_workinggroups` or `_activities` directory. Follow the front-matter of the
 other files in there. The `Working Groups` / `Activities` menu in the navigation bar will
 be updated automatically: the menu entry text is the `title` attribute in the *front-matter* section.
 
@@ -55,6 +75,13 @@ be updated automatically: the menu entry text is the `title` attribute in the *f
 Add a new file in `events/_posts` and follow the *front-matter* (see above) of the other files
 in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and the ``Upcoming Events`` sidebar will be updated automatically.
 
+### Adding a training event
+
+For *training events* we have a special handling that lists all of these together on the 
+[Training Working Group page](workinggroups/training.html). To create a new
+entry add a new markdown file into `Schools/_posts`. The exisiting entries are a guide to
+the metadata which is needed.
+
 ### Adding news or announcements
 
 Add a new file in `announcements/_posts` and follow the front matter of the other files in there. The front page will
@@ -62,6 +89,14 @@ get a new box with all information.
 
 Please don't forget adding an event ``until`` in the *front-matter*: this is used for ordering events **and** as the end date
 for adding the event in the ``Upcoming Events`` sidebar.
+
+### Adding a newsletter
+
+[Newsletters](/newsletter.html) are occasional longer articles we publish. Each of these lives in `newsletter/_posts`.
+The format is very similar to the other
+content on the website, follow the front matter of the other files in there. 
+
+You can highlight a newsletter by updating the centre column of the frontpage of the website (see below).
 
 ## Technical details
 

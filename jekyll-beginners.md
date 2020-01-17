@@ -70,10 +70,14 @@ Look at the source of this page for an example.
 
 ### Converting Contents from Word or GoogleDoc
 
+Note that CodiMD is a better alternative for collaborative text which is destined for
+this website as it uses Markdown natively. However, if you do need to work from another
+source then...
+
 [pandoc](http://pandoc.org) is the swiss-army knife for the conversion between text formats. In particular it supports a very good conversion from Microsoft Word (`docx`) format to Jekyll markdown. The typical command to do this conversion is:
 
 ```
-pandoc -t markdown_github --base-header-level=2 --atx-headers -o organization/_posts/2016-05-19-startup.md document.docx
+pandoc -t gmf --base-header-level=2 --atx-headers -o organization/_posts/2016-05-19-startup.md document.docx
 ```
 
 This method can be used to convert a GoogleDoc document to markdown. To do it, use the GoogleDoc menu `File->Download as` and export the GoogleDoc document as a `docx` file. Then use the command above to convert to markdown.
