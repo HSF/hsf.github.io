@@ -47,7 +47,7 @@ the content into the HSF website for archiving.
 CERN has its own [CodiMD instance](https://codimd.web.cern.ch/), but currently this only
 works if every contributor has a full CERN account (EduGain authentication is proposed,
 but it doesn't work yet AFAWU). An alternative is the [demo CodiMD service](https://demo.codimd.org/),
-but be aware that there is no long term gaurantee for content here, so move it to the 
+but be aware that there is no long term guarantee for content here, so move it to the 
 website after your meeting.
 
 We find that *recycling* the same document for a series of meetings is extremely useful
@@ -79,7 +79,7 @@ in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and th
 
 For *training events* we have a special handling that lists all of these together on the 
 [Training Working Group page](workinggroups/training.html). To create a new
-entry add a new markdown file into `Schools/_posts`. The exisiting entries are a guide to
+entry add a new Markdown file into `Schools/_posts`. The existing entries are a guide to
 the metadata which is needed.
 
 ### Adding news or announcements

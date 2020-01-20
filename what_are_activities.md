@@ -6,7 +6,7 @@ layout: default
 
 # Activity Areas and Interest Groups
 
-HSF Activity Areas and Interest Groups are led by enthisiasts and
+HSF Activity Areas and Interest Groups are led by enthusiasts and
 advocates for a particular area of work or of technology
 interest and provide a focal point for organising dicussions
 in the HEP community. They can also cover engagement with
