@@ -11,7 +11,7 @@ This page is a GitHub and Git survival kit for people not familiar with these to
 * [Git Book](https://git-scm.com/book/en/v2): the definitive Git reference! Certainly not for beginners!
 
 
-## GitHUb Workflow
+## GitHub Workflow
 
 At first glance, GitHub (and Git) might appear complex with their "workflows." But, in reality, they are not so much. What makes these tools great is that they allow a clear separation between personal work and what you decide to show or export. Personal work, unlike with tools like SVN, can be versioned and you can work on different things in parallel (branches) very easily.
 
