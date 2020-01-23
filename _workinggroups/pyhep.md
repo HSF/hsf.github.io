@@ -49,7 +49,7 @@ conference on scientific computing in Python, and will slightly overlap in time 
 to facilitate inter-community exchanges. We encourage HEP participation in SciPy.
 
 The PyHEP 2020 [agenda](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}
-will be composed of plenary sessions; the contents is under preparation.
+will be composed of plenary sessions; the content is under preparation.
 
 ### Organising Committee
 
