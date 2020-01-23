@@ -9,6 +9,7 @@ layout: plain
 * Christian Ariza [christian.ariza@gmail.com](mailto:christian.ariza@gmail.com) CERN
 * Chris Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) IJCLab
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
+* Yvan Calas [yvan.calas@cc.in2p3.fr](mailto:yvan.calas@cc.in2p3.fr) CC-IN2P3
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Bertrand Bellenot [Bertrand.Bellenot@cern.ch](mailto:Bertrand.Bellenot@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) University of Wuppertal
@@ -22,7 +23,9 @@ layout: plain
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Gabriele Gaetano Fronzé [gabriele.gaetano.fronze@cern.ch](mailto:gabriele.gaetano.fronze@cern.ch) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
+* Andrew Hanushevsky [abh@slac.stanford.edu](mailto:abh@slac.stanford.edu) SLAC
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) IJCLab
+* Fabrice Jammes [fabrice.jammes@in2p3.fr](mailto:fabrice.jammes@in2p3.fr) LPC-Clermont
 * Valentin Kuznetsov [vkuznet@gmail.com](mailto:vkuznet@gmail.com) Cornell University, USA
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
