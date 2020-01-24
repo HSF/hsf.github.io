@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 
+"""
+Quick script to add training schools to data file.
+
+Kilian Lieret 2020
+"""
+
 import yaml
 from datetime import datetime
 from pathlib import Path
-import typing
+from typing import List, Optional, NamedTuple
 
 
-class Event(typing.NamedTuple):
+class Event(NamedTuple):
     name: str
     start_date: str
     end_date: str
@@ -38,7 +44,7 @@ class Event(typing.NamedTuple):
 
 
 class EventDatabase(object):
-    def __init__(self, events=None):
+    def __init__(self, events: Optional[List[Event]] = None):
         if events is not None:
             self.events = events
         else:
@@ -47,15 +53,28 @@ class EventDatabase(object):
     @classmethod
     def from_file(cls, path: Path):
         with path.open() as stream:
-            events = yaml.safe_load(stream)
-        return EventDatabase(events)
+            event_dict = yaml.safe_load(stream)
+            if event_dict is None:
+                return EventDatabase()
+            else:
+                return EventDatabase([Event(**dct) for dct in event_dict])
+
+    @staticmethod
+    def sort_key(event: Event):
+        return event.start_date
     
     def write(self, path: Path):
         with path.open("w") as stream:
-            yaml.dump(self.events, stream)
+            yaml.dump(
+                [
+                    dict(event._asdict())
+                    for event in sorted(self.events, key=self.sort_key)
+                ],
+                stream
+            )
         
     def add_event(self, event: Event):
-        self.events.append(dict(event._asdict()))
+        self.events.append(event)
 
 
 if __name__ == "__main__":
@@ -66,4 +85,3 @@ if __name__ == "__main__":
         edb = EventDatabase()
     edb.add_event(Event.input())
     edb.write(path)
-
