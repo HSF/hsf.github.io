@@ -1,76 +1,63 @@
+#!/usr/bin/env python3
+
 import yaml
+from datetime import datetime
+from pathlib import Path
+from collections import namedtuple
+
+Event = namedtuple("Event", ["name", "start_date", "end_date", "deadline", "url"])
 
 
-def ask_yn():
-    pass
-
-# checkers
-def is_date()
-
-def is_date_after(before: Union[str, ..], after: Union[str, ...])
-    # checks both dates
-
-def is_date_before(after, before):
-    return is_date_after(before, after)
-
-def is_unique_url(url, urls)
-
-def not_blank(inpt):
-    bool(inpt)
-
-def join_checkers(checkers):
-    def checker(inpt):
-        check = True
-        message = ""
-        for checker in checkers:
-            res = checker(inpt)
-            check &= res.check
-            message += res.message
-    return checker
-
-def input_field(prompt, checker=None):
-    accepted = False
-    while not accepted:
-        ans = input(prompt)
-        if checker is None:
-            return ans
-        check = checker(ans)
-        if not check.pass:
-            print(check.message)
-            override = ask_yn("Override warning and still accept?")
-            if override:
-                return ans
-            else:
-                continue
-        else:
-            return ans
+def input_event():
+    return Event(
+        input("Event title "),
+        input("Start date [YYYY-MM-DD] "),
+        input("End date [YYYY-MM-DD] "),
+        input("Deadline [YYYY-MM-DD] "),
+        input("Url "),
+    )
 
 
-def check_event(event):
-    pass
-
+def check_event(event: Event):
+    start_date = datetime.strptime(event.start_date, "%Y-%m-%d")
+    end_date = datetime.strptime(event.end_date, "%Y-%m-%d")
+    assert end_date >= start_date
+    deadline = event.deadline
+    if deadline:
+        deadline = datetime.strptime(deadline, "%Y-%m-%d")
+        assert deadline <= start_date
+    assert event.name  
+    
 
 class EventDatabase(object):
-    def __init__(self, events):
-        self.events = events
+    def __init__(self, events=None):
+        if events is not None:
+            self.events = events
+        else:
+            self.events = []
     
-    @class_method
-    def from_file(path):
-        with open("example.yaml") as stream:
+    @classmethod
+    def from_file(cls, path: Path):
+        with path.open() as stream:
             events = yaml.safe_load(stream)
-        return EventDatase(events)
+        return EventDatabase(events)
     
-    def write(path):
-        with open("example.yaml", "w") as stream:
-            stream.dump(self.events, stream)
+    def write(self, path: Path):
+        with path.open("w") as stream:
+            yaml.dump(self.events, stream)
         
-    def add_event(event):
-        self.events.append(event)
+    def add_event(self, event: Event):
+        self.events.append(dict(event._asdict()))
 
 
+if __name__ == "__main__":
+    path = Path("__file__").parent.parent / "schools.yml"
+    if path.is_file():
+        edb = EventDatabase.from_file(path)
+    else:
+        edb = EventDatabase()
+    event = input_event()
+    check_event(event)
+    edb.add_event(event)
+    edb.write(path)
 
-name = input_field("Event name", not_blank)
-start_date = input_field("Start date [YYYY-MM-DD]", is_date)
-end_date = input_field("End date [YYYY-MM-DD]", lambda inpt: is_date_after(inpt, start_date))
-deadline = input_field("Deadline [YYYY-MM-DD]", lambda inpt: is_date_before(inpt, start_date))
-url = input_field("Url", lambda url: is_unique_url(inpt, 
