@@ -63,14 +63,16 @@ the LHC, starting 2021.
 
 ## Expected results
 Full-featured workflow configuration import and validation facilities.
+
 Integration of said facilities into AliECS, documentation, tests.
+
 Optionally other additional configuration import interfaces can be considered, such as Web UI or
 graphical terminal, or other configuration input related improvements.
 
 ## Requirements
-Go programming
-YAML and JSON
-Experience with any of the following is a bonus:
+* Go programming
+* YAML and JSON
+* Experience with any of the following is a bonus: 
 Linux terminal programming, curses, C++, shell programming, Python, Consul, Web frameworks
 
 ## Mentors 
