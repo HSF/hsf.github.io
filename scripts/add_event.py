@@ -3,31 +3,39 @@
 import yaml
 from datetime import datetime
 from pathlib import Path
-from collections import namedtuple
-
-Event = namedtuple("Event", ["name", "start_date", "end_date", "deadline", "url"])
+import typing
 
 
-def input_event():
-    return Event(
-        input("Event title "),
-        input("Start date [YYYY-MM-DD] "),
-        input("End date [YYYY-MM-DD] "),
-        input("Deadline [YYYY-MM-DD] "),
-        input("Url "),
-    )
+class Event(typing.NamedTuple):
+    name: str
+    start_date: str
+    end_date: str
+    deadline: str
+    url: str
 
+    @classmethod
+    def input(cls, check=True):
+        tmp_event = Event(
+            input("Event title "),
+            input("Start date [YYYY-MM-DD] "),
+            input("End date [YYYY-MM-DD] "),
+            input("Deadline [YYYY-MM-DD] "),
+            input("Url "),
+        )
+        if check:
+            tmp_event.check()
+        return tmp_event
 
-def check_event(event: Event):
-    start_date = datetime.strptime(event.start_date, "%Y-%m-%d")
-    end_date = datetime.strptime(event.end_date, "%Y-%m-%d")
-    assert end_date >= start_date
-    deadline = event.deadline
-    if deadline:
-        deadline = datetime.strptime(deadline, "%Y-%m-%d")
-        assert deadline <= start_date
-    assert event.name  
-    
+    def check(self):
+        start_date = datetime.strptime(self.start_date, "%Y-%m-%d")
+        end_date = datetime.strptime(self.end_date, "%Y-%m-%d")
+        assert end_date >= start_date
+        deadline = self.deadline
+        if deadline:
+            deadline = datetime.strptime(deadline, "%Y-%m-%d")
+            assert deadline <= start_date
+        assert self.name
+
 
 class EventDatabase(object):
     def __init__(self, events=None):
@@ -56,8 +64,6 @@ if __name__ == "__main__":
         edb = EventDatabase.from_file(path)
     else:
         edb = EventDatabase()
-    event = input_event()
-    check_event(event)
-    edb.add_event(event)
+    edb.add_event(Event.input())
     edb.write(path)
 
