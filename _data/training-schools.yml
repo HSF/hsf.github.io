@@ -1,16 +1,60 @@
-- title: Thematic CERN School of Computing 2020
-  source: https://indico.cern.ch/event/861566/program
-  date: 2020-06-07
-  end_date: 2020-06-13
-  author: Guillermo Fidalgo
-  layout: event
-  categories: Schools
-  deadline: 27 February 2020
+
+
 - title: AEPSHEP (Asia-Europe-Pacific School of High-Energy Physics)
   source: http://2018.aepshep.org/
   date: 2018-09-12
   end_date: 2018-09-25
   author: Guillermo Fidalgo
-  layout: event
-  categories: Schools
--
+
+- title: 2019 CTEQ Summer School University of Pittsburgh, USA
+  source: http://www.physics.smu.edu/scalise/cteq/
+  date: 2019-07-16
+  end_date: 2019-07-26
+  author: Guillermo Fidalgo
+
+- title: Summer School on Intelligent Signal Processing for Frontier Physics and Industry
+  source: https://indico.cern.ch/event/683620/registrations/
+  date: 2019-05-11
+  end_date: 2019-05-26
+  author: Guillermo Fidalgo
+
+- title: Inverted CERN School of Computing
+  source: https://indico.cern.ch/event/766995/
+  date: 2019-03-04
+  end_date: 2019-03-07
+  author: Guillermo Fidalgo
+
+- title: Latin American School
+  source: https://indico.cern.ch/event/763013/
+  date: 2019-03-13
+  end_date: 2019-03-26
+  author: Guillermo Fidalgo
+
+- title: Nvidia Workshop
+  source: https://indico.cern.ch/event/803015/
+  date: 2019-03-25
+  end_date: 2019-03-25
+  author: Guillermo Fidalgo
+
+- title: Joint 9th IDPASC SCHOOL and XXXI INTERNATIONAL SEMINAR of NUCLEAR and SUBNUCLEAR PHYSICS "Francesco Romano"
+  source: https://agenda.infn.it/event/18060/
+  date: 2019-05-27
+  end_date: 2019-06-04
+  author: Guillermo Fidalgo
+
+
+
+
+
+
+
+
+
+
+
+- title: Thematic CERN School of Computing 2020
+  source: https://indico.cern.ch/event/861566/program
+  date: 2020-06-07
+  end_date: 2020-06-13
+  author: Guillermo Fidalgo
+  deadline: 2020-02-27
