@@ -1,48 +1,66 @@
 ---
 title: Intelligent Alert Management System For HEP experiments
 layout: gsoc_proposal
-project: Monitoring
+project: CMS-Monitoring
 year: 2020
 organization: CERN
 ---
 
 ## Description
 
-We would like to build an intelligent Alert Management System for HEP experiments.
-It should embrace existing open-source solutions based on Prometheus and AlertManager
-to select alerts from various sub-systems and reduce amount
-of non-relevant alerts. The system should be able to correlate alerts from
-CERN MONIT infrastructure based on ElasticSearch, Kafka, Grafana stack, GGUS WLCG, and
-Prometheus, AlertManager, VictoriaMetrics software components used in HEP experiments.
+The growth of distributed services introduces a challenge to properly
+monitor their status and reduce operational costs. In CMS experiment
+at CERN we deal with distributed computing infrastructure which includes
+central services for authentication, workload management, data management,
+databases, etc. To properly operate and maintain this infrastructure
+we rely on various open-source monitoring tools, including 
+ElasticSearch, Kafka, Grafana stack used by central CERN MONIT infrastructure, 
+Prometheus, AlertManager, VictoriaMetrics software components used by the experiment,
+as well as custom solution like GGUS WLCG, ServiceNow ticketing systems.
 
-The system should collect various alerts from ES, InfluxDB, Prometheus data-sources,
-GGUS system and be able to aggregate, and create meaningful alerts to address
-various sub-system failures. For instance, if GRID site has experience a problem
-in terms of its storage the new system should notify via appropriate channels
-a set of instructions how to fix and handle this situation.
+On daily basis these CMS computing infrastructure may produce significant
+amount of information about various anomalies, interminent problems, outages as
+well as undergo through scheduled maintance. Therefore the amount of alert
+notifications and tickets our operational teams should handle is very large.
+We're working towards Operataional Intellignet System which aiming to detect,
+analyse, and predict anomalies of the computing environment, to suggest
+possible actions, and ultimately automate operation procedures.  An important
+component of this system should be intelligent Alert Management System.
 
-We foresee that some sort of ML/AI tools may be required to identify (cluster)
+The system should collect anomalies, notifications, etc., from ES, InfluxDB, Prometheus
+data-sources, GGUS system and be able to aggregate, and create meaningful
+alerts to address various computing infrastructure failures. For instance, if certain
+component of global distributed system has experience a problem in terms of its
+storage the Alert Manangement system should notify via appropriate channels a
+set of instructions on how to fix and handle this situation. Before sending
+the alert it should check if this is a real anomaly or part of on-going
+outage, or schedule maintenance.
+
+We foresee that some sort of ML/AI tools may be required to identify and tag
 certain problems as well as apply various statistical tools to identify
 the anomalies and their recoveries.
-
-We're seeking a candidate proficient in Go and Python languages.
 
 ## Task ideas
  * Implement `vmalert` for VictoriaMetrics backend
  * Implement parser for GGUS WLCG alert system and inject GGUS states into VictoriaMetrics
- * Implement a common kubernetes infrastructure among various participant software components
  * Write common alert manager logging system with ability to analyze incoming alerts
    * apply ML/AI models to alerts
    * write template based notifications
  * Write aggregated layer of various alerts
+ * Deploy middleware components to Kubernetes infrastructure
  * Perform tests with real alerts coming from CERN experiments (ATLAS, CMS, etc.)
 
 ## Expected results
-Working implementation of intelligent Alert system for CMS experiment.
+A student should implement an additional middleware (layers) on top of existing
+open-source solutions, e.g. `vmalert` for VictoriaMetrics, and be able to
+compose them into working implementation of intelligent Alert system for CMS experiment.
+The system should be deployed to Kubernetes cluster as a set of loosly
+coupled components and/or microservices.
 
 ## Requirements
-Go, Python languages, be familiar with ElasticSearch, Prometheus, InfluxDB, Grafana,
-AlertManager and similar monitoring tools. Knowledge of kubernetes is a plus.
+We're seeking a candidate proficient in Go and Python languages, and be familiar
+with one or more open-source monitoring solutions like Prometheus, ElasticSearch, InfluxDB,
+Grafana, AlertManager and/or similar monitoring tools. Knowledge of Kubernetes is a plus.
 
 ## Mentors
   * [Valentin Kuznetsov](mailto:vkuznet@gmail.com)
