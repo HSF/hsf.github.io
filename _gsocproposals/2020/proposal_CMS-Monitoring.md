@@ -14,13 +14,13 @@ at CERN we deal with distributed computing infrastructure which includes
 central services for authentication, workload management, data management,
 databases, etc. To properly operate and maintain this infrastructure
 we rely on various open-source monitoring tools, including 
-ElasticSearch, Kafka, Grafana stack used by central CERN MONIT infrastructure, 
-Prometheus, AlertManager, VictoriaMetrics software components used by the experiment,
-as well as custom solution like GGUS WLCG, ServiceNow ticketing systems.
+ElasticSearch, Kafka, Grafana stack (used by central CERN MONIT infrastructure), 
+Prometheus, AlertManager, VictoriaMetrics software components (used by the experiment),
+as well as custom solutions like GGUS WLCG or ServiceNow ticketing systems.
 
 On daily basis these CMS computing infrastructure may produce significant
 amount of information about various anomalies, interminent problems, outages as
-well as undergo through scheduled maintance. Therefore the amount of alert
+well as undergo scheduled maintance. Therefore the amount of alert
 notifications and tickets our operational teams should handle is very large.
 We're working towards Operataional Intellignet System which aiming to detect,
 analyse, and predict anomalies of the computing environment, to suggest
@@ -37,7 +37,7 @@ the alert it should check if this is a real anomaly or part of on-going
 outage, or schedule maintenance.
 
 We foresee that some sort of ML/AI tools may be required to identify and tag
-certain problems as well as apply various statistical tools to identify
+certain problems, as well as apply various statistical tools to identify
 the anomalies and their recoveries.
 
 ## Task ideas
@@ -54,7 +54,7 @@ the anomalies and their recoveries.
 A student should implement an additional middleware (layers) on top of existing
 open-source solutions, e.g. `vmalert` for VictoriaMetrics, and be able to
 compose them into working implementation of intelligent Alert system for CMS experiment.
-The system should be deployed to Kubernetes cluster as a set of loosly
+The system should be deployed to Kubernetes cluster as a set of loosely
 coupled components and/or microservices.
 
 ## Requirements
