@@ -79,6 +79,7 @@ Linux terminal programming, curses, C++, shell programming, Python, Consul, Web 
 
 ## Mentors 
   * [Teo Mrnjavac](mailto:teo.m@cern.ch)
+  * [Vasco Chibante Barroso (backup)](mailto:vmcb@cern.ch)
 
 ## Links
   * [AliECS](https://github.com/AliceO2Group/Control)
