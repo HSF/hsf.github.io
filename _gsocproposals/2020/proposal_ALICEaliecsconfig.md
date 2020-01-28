@@ -60,6 +60,8 @@ the LHC, starting 2021.
  * Develop a "configuration simulator" tool which would accept a workflow configuration file
  plus some variables, and graphically represent the workflow as it would appear in the O²/FLP
  cluster.
+ * Further integration opportunities include schema validation in commit hooks, DDS import support,
+ Ansible inventory integration, Consul as data source during conversion, etc.
 
 ## Expected results
 Full-featured workflow configuration import and validation facilities.
