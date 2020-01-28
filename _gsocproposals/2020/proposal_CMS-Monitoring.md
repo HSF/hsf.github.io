@@ -1,7 +1,7 @@
 ---
 title: Intelligent Alert Management System For HEP experiments
 layout: gsoc_proposal
-project: CMS-Monitoring
+project: CMS
 year: 2020
 organization:
   - CERN
