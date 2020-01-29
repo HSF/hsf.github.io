@@ -78,8 +78,8 @@ graphical terminal, or other configuration input related improvements.
 Linux terminal programming, curses, C++, shell programming, Python, Consul, Web frameworks
 
 ## Mentors 
-  * [Teo Mrnjavac](mailto:teo.m@cern.ch)
-  * [Vasco Chibante Barroso (backup)](mailto:vmcb@cern.ch)
+  * [Vasco Chibante Barroso](mailto:vmcb@cern.ch) (backup)
+  * [Teo Mrnjavac](mailto:teo.m@cern.ch) (primary)
 
 ## Links
   * [AliECS](https://github.com/AliceO2Group/Control)
