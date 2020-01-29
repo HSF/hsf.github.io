@@ -32,7 +32,9 @@ A workflow template is a file (YAML) which describes a set of data-driven proces
 throughout the O²/FLP cluster at LHC Point 2. For developers of processing software, the high
 level interface is called DPL (O² Data Processing Layer). This component is able to generate
 dumps of data-driven workflows (i.e. files describing a set of processes to run and how they
-talk to each other), which currently cannot directly be imported into AliECS.
+talk to each other), which currently cannot directly be imported into AliECS. Besides DPL dumps,
+it would also be interesting to be able to import other experiment-agnostic workflow descriptions
+for use in the ALICE O²/FLP farm.
 
 Furthermore, while AliECS defines its own workflow template input format, this format has been
 extended over time and isn't subject to a formal schema. It would be very useful to be able to
@@ -40,7 +42,8 @@ validate this kind of configuration input against a schema, both in AliECS and i
 to AliECS workflow converter tool.
 
 While the files in question describe ALICE O²-specific configuration structures, the student does
-not need to be familiar with experiment-specific concepts. Even so, the tasks listed below provide
+not need to be familiar with experiment-specific concepts and most of the code produced by the
+student need not be experiment-specific. Even so, the tasks listed below provide
 ample opportunity for creative solutions to real world challenges in large physics experiment data
 acquisition.
 
@@ -54,14 +57,18 @@ the LHC, starting 2021.
  this command-line tool, such as an interactive mode and a non-interactive one with more clever
  guesswork. The student will be provided with file examples and documentation.
  * Develop a format validation package based on YAML schema, plus add format validation to DPL
- importer tool.
+ importer tool. While the schemata are necessarily ALICE-specific, the package need not be.
  * Extend configuration validation facilities to other forms of AliECS-managed configuration,
  such as component-specific configuration files.
  * Develop a "configuration simulator" tool which would accept a workflow configuration file
  plus some variables, and graphically represent the workflow as it would appear in the O²/FLP
  cluster.
- * Further integration opportunities include schema validation in commit hooks, DDS import support,
- Ansible inventory integration, Consul as data source during conversion, etc.
+ * Extend the importer tool to support DDS topology files, which are not experiment-specific and
+ would allow AliECS to consume any FairMQ-based processing chain.
+ * Develop an exporter tool or package, allowing the user to generate a DPL, DDS and/or other
+ experiment-agnostic workflow description starting from an AliECS workflow template.
+ * Further integration opportunities include schema validation in commit hooks, Ansible
+ inventory integration, Consul as data source during conversion, etc.
 
 ## Expected results
 Full-featured workflow configuration import and validation facilities.
@@ -75,7 +82,7 @@ graphical terminal, or other configuration input related improvements.
 * Go programming
 * YAML and JSON
 * Experience with any of the following is a bonus: 
-Linux terminal programming, curses, C++, shell programming, Python, Consul, Web frameworks
+Linux terminal programming, curses, C++, shell programming, Python, Consul, Web frameworks, Go text/template, Jinja
 
 ## Mentors 
   * [Vasco Chibante Barroso](mailto:vmcb@cern.ch) (backup)
