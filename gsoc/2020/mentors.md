@@ -6,8 +6,10 @@ layout: plain
 ## Full Mentor List (Name, Email, Org)
 
 * Christian Ariza [christian.ariza@gmail.com](mailto:christian.ariza@gmail.com) CERN
+* Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Valentin Kuznetsov [vkuznet@gmail.com](mailto:vkuznet@gmail.com) Cornell University, USA
 * Federica Legger [federica.legger@to.infn.it](mailto:federica.legger@to.infn.it) Universita e INFN Torino
+* Teo Mrnjavac [teo.m@cern.ch](mailto:teo.m@cern.ch) CERN
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
