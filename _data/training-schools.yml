@@ -1,5 +1,3 @@
-
-
 - title: AEPSHEP (Asia-Europe-Pacific School of High-Energy Physics)
   source: http://2018.aepshep.org/
   date: 2018-09-12
@@ -42,19 +40,134 @@
   end_date: 2019-06-04
   author: Guillermo Fidalgo
 
+- title: INFN School of Statistics
+  source: https://agenda.infn.it/event/16360/
+  date: 2019-06-02
+  end_date: 2019-06-07
+  author: Guillermo Fidalgo
 
+- title: Gridka - The art of Data
+  source: https://indico.scc.kit.edu/event/460/
+  date: 2019-08-26
+  end_date: 2019-08-30
+  author: Guillermo Fidalgo
 
+- title: Third international School on Open Science Cloud
+  source: https://agenda.infn.it/event/19049/
+  date: 2019-10-21
+  end_date: 2019-10-26
+  author: Guillermo Fidalgo
 
+- title: OSG User School 2019
+  source: https://opensciencegrid.org/user-school-2019/
+  date: 2019-07-15
+  end_date: 2019-07-19
+  author: Guillermo Fidalgo
 
+- title: CoDaS-HEP School (Computational and Data Science Training for High Energy Physics) at Princeton University
+  source: http://codas-hep.org/
+  date: 2019-07-22
+  end_date: 2019-07-26
+  author: Guillermo Fidalgo
 
+- title: 14th CERN-Fermilab Hadron Collider Physics Summer School
+  source: https://indico.cern.ch/event/795313/
+  date: 2019-08-28
+  end_date: 2019-09-06
+  author: Guillermo Fidalgo
 
+- title: 2019 CERN-JINR European School of HEP
+  source: https://indico.cern.ch/event/798971/
+  date: 2019-09-04
+  end_date: 2019-09-07
+  author: Guillermo Fidalgo
 
+- title: CERN School of Computing
+  source: https://indico.cern.ch/event/769356/
+  date: 2019-09-15
+  end_date: 2019-09-28
+  author: Guillermo Fidalgo
 
+- title: School on Efficient Scientific Computing
+  source: https://web.infn.it/esc/index.php?lang=en
+  date: 2019-10-21
+  end_date: 2019-10-26
+  author: Guillermo Fidalgo
 
+- title:  1st Pan-European Advanced School on Statistics in HEP
+  source: https://indico.desy.de/indico/event/22731/
+  date: 2019-10-28
+  end_date: 2019-11-01
+  author: Guillermo Fidalgo
+
+- title:  11th International School of Trigger and Data Acquisition
+  source: https://indico.cern.ch/event/828931/
+  date: 2020-01-13
+  end_date: 2020-01-22
+  author: Guillermo Fidalgo
+
+- title:  CSU Summer Student Computing/Analysis Training 2020
+  source: https://indico.cern.ch/event/875393/
+  date: 2020-01-21
+  end_date: 2020-02-25
+  author: Kilian Lieret
+
+- title: International school on particle detectors "Giornate di Studio sui Rivelatori" in Cogne (Italy)
+  source: http://gsr.to.infn.it/
+  date: 2020-02-10
+  end_date: 2020-02-14
+  author: Guillermo Fidalgo
+
+- title:  Analysis Preservation Bootcamp
+  source: https://indico.cern.ch/event/854880/
+  date: 2020-02-17
+  end_date: 2020-02-19
+  author: Kilian Lieret
+
+- title: Moscow International School of Physics 2020
+  source: https://mosphys.ru/
+  date: 2020-03-06
+  end_date: 2020-03-09
+  author: Guillermo Fidalgo
+
+- title: Inverted CERN School of Computing (iCSC 2020)
+  source: https://indico.cern.ch/event/853710/
+  date: 2020-03-16
+  end_date: 2020-03-19
+  author: Kilian Lieret
+
+- title: 3rd Trans-Siberian School of High Energy Physics
+  source: http://hep2020.tpu.ru/webcenter/portal/transib2020/Home?_adf.ctrl-state=tuyr071ra_4
+  date: 2020-03-23
+  end_date: 2020-03-29
+  author: Guillermo Fidalgo
+
+- title:  Alpaka Parallel Programming - Advanced Training Hackathon
+  source: https://indico.cern.ch/event/867700/
+  date: 2020-04-28
+  end_date: 2020-04-30
+  author: Kilian Lieret
+
+- title:  Alpaka Parallel Programming - Taster Session and Basic Tutorial
+  source: https://indico.cern.ch/event/858758/
+  date: 2020-04-27
+  end_date: 2020-04-27
+  author: Kilian Lieret
 
 - title: Thematic CERN School of Computing 2020
   source: https://indico.cern.ch/event/861566/program
   date: 2020-06-07
   end_date: 2020-06-13
   author: Guillermo Fidalgo
-  deadline: 2020-02-27
+
+- title: 2020 CERN-JINR European School of HEP
+  source: https://indico.cern.ch/event/856903/page/18705-home
+  date: 2020-06-17
+  end_date: 2020-06-30
+  author: Guillermo Fidalgo
+
+- title: EUDAT Summer School 2020 Where data meets HPC
+  source: https://www.eudat.eu/node/1314?action=showcontent&id=1314&idnewsletter=114&guid=4136&source=4&lang=en
+  date: 2020-07-13
+  end_date: 2020-07-17
+  author: Guillermo Fidalgo
