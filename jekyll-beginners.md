@@ -77,7 +77,7 @@ source then...
 [pandoc](http://pandoc.org) is the swiss-army knife for the conversion between text formats. In particular it supports a very good conversion from Microsoft Word (`docx`) format to Jekyll markdown. The typical command to do this conversion is:
 
 ```
-pandoc -t gmf --base-header-level=2 --atx-headers -o organization/_posts/2016-05-19-startup.md document.docx
+pandoc -t gfm --shift-heading-level-by=2 --atx-headers -o organization/_posts/2020/2020-01-01-coordination.md document.docx
 ```
 
 This method can be used to convert a GoogleDoc document to markdown. To do it, use the GoogleDoc menu `File->Download as` and export the GoogleDoc document as a `docx` file. Then use the command above to convert to markdown.
