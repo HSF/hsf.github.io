@@ -5,4 +5,6 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
-* FirstName LastName [e-mail](mailto:e-mail) Organization
+* Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) UGlasgow
+* Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
+* Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
