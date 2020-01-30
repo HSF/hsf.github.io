@@ -1,7 +1,7 @@
 ---
 title: Podman CVMFS integration
 layout: default
-project: CVMFS
+project: CernVM-FS
 year: 2020
 organization:
  - CERN
