@@ -5,7 +5,7 @@ project: Rucio
 year: 2020
 organization:
     - CERN
-	- UWuppertal
+    - UWuppertal
 ---
 
 ## Description
