@@ -6,5 +6,6 @@ end_date: 2019-11-01
 author: Guillermo Fidalgo
 layout: event
 categories: Schools
+deadline: October 4
 ---
 [1st Pan-European Advanced School on Statistics in HEP](https://indico.desy.de/indico/event/22731/)
