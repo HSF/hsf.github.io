@@ -1,5 +1,5 @@
 ---
-title: TMVA Deep Learning Developments: 3D Convolutions
+title: TMVA Deep Learning Developments - 3D Convolutions
 layout: gsoc_proposal
 project: TMVA
 year: 2020
