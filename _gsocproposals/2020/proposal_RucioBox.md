@@ -27,16 +27,16 @@ The tasks are as follows:
 ## Requirements
 
  * Mandatory
-  * C99 or newer, or C++14 or newer
-  * Python 3
-  * Linux, Git, and Docker
+   * C99 or newer, or C++14 or newer
+   * Python 3
+   * Linux, Git, and Docker
  * Basic understanding
-  * Cross-platform windowing libraries (e.g., GTK+, Qt, wxWidgets)
-  * FUSE-compliant filesystems
-  * HTTP REST APIs
-  * Token-based authentication
+   * Cross-platform windowing libraries (e.g., GTK+, Qt, wxWidgets)
+   * FUSE-compliant filesystems
+   * HTTP REST APIs
+   * Token-based authentication
  * Optional for MacOSX
-  * Objective-C, Cocoa
+   * Objective-C, Cocoa
 
 ## Expected results
 
