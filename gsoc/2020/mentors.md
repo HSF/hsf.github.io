@@ -10,11 +10,12 @@ layout: plain
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Bertrand Bellenot [Bertrand.Bellenot@cern.ch](mailto:Bertrand.Bellenot@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) University of Wuppertal
-* Jakob Blomer [jakob.blomer@cern.ch](mailto:jakob.blomer@cern.ch) CERN
+* Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
 * Ken Bloom [kenbloom@unl.edu](mailto:kenbloom@unl.edu) University of Nebraska-Lincoln
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) Morgridge Institute for Research
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) UGlasgow
 * Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
+* Philippe Canal [pcanal@gnal.gov](mailto:pcanal@gnal.gov) Fermilab
 * Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Gabriele Gaetano Fronzé [gabriele.gaetano.fronze@cern.ch](mailto:gabriele.gaetano.fronze@cern.ch) INFN
