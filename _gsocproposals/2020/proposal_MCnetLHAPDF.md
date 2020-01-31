@@ -14,7 +14,7 @@ The Large Hadron Collider smashes protons into each other at the highest energie
 
 The [LHAPDF](https://lhapdf.hepforge.org) C++ library is the LHC's standard system for supplying PDF data to both experiments and theory calculations. Several years ago it was rewritten from scratch to make it more flexible and maintainable, but in the upcoming high-luminosity era of the LHC where vast numbers of events need to be processed, some of these designs are in need of updates both for speed and precision.
 
-In this project, you will work on profiling and re-designing aspects of LHAPDF to make it much faster, adding caching, vectorisation, and GPU compatibility. This work has the potential to save huge amounts of CPU time for LHC experiments, and to enhance the physics we can do in the next LHC runs.
+In this project, you will work on profiling and re-designing aspects of LHAPDF to make it much faster, adding caching, vectoriaation, and GPU compatibility. This work has the potential to save huge amounts of CPU time for LHC experiments, and to enhance the physics we can do in the next LHC runs.
 
 ## Tasks
 
@@ -30,16 +30,16 @@ A prototype new version of LHAPDF, with improved performance via caching and exp
 
 ## Requirements
 
-- C++
-- Python/Cython
-- Profiling
-- Vector accelerator / coprocessor techniques
-- hg/git
+ * C++
+ * Python/Cython
+ * Profiling
+ * Vector accelerator / coprocessor techniques
+ * hg/git
 
 ## Mentors
 
-  * [Andy Buckley](mailto:andy.buckley@cern.ch)
+ * [Andy Buckley](mailto:andy.buckley@cern.ch)
 
 ## Links
 
-  * [LHAPDF](https://lhapdf.hepforge.org)
+ * [LHAPDF](https://lhapdf.hepforge.org)

@@ -29,19 +29,19 @@ A prototype new version of YODA, reworked to generalise binning to arbitrary dat
 
 ## Requirements
 
-- C++
-- Python/Cython
-- git
+ *- C++
+ *- Python/Cython
+ *- git
 
 ## Mentors
 
-  * [Andy Buckley](mailto:andy.buckley@cern.ch)
-  * [Louie Corpe](mailto:louie.corpe@cern.ch)
-  * [Christian Bierlich](mailto:christian.bierlich@thep.lu.se)
-  * [Holger Schulz](mailto:hschulz@fnal.gov)
+ * [Andy Buckley](mailto:andy.buckley@cern.ch)
+ * [Louie Corpe](mailto:louie.corpe@cern.ch)
+ * [Christian Bierlich](mailto:christian.bierlich@thep.lu.se)
+ * [Holger Schulz](mailto:hschulz@fnal.gov)
 
 ## Links
 
-  * [YODA](https://yoda.hepforge.org)
-  * [Rivet](https://rivet.hepforge.org)
-  * [Cython](https://cython.org/)
+ * [YODA](https://yoda.hepforge.org)
+ * [Rivet](https://rivet.hepforge.org)
+ * [Cython](https://cython.org/)

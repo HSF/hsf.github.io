@@ -21,32 +21,32 @@ The task for this project would be to put together an user-friendly interface to
 
 Producing the plots for these visualisations can be a time-consuming process, so part of the task may be to create a system where a database is dynamically created and populated for each heatmap.
 
-The problem of how to visualise scans of models in more than 2 dimensions would also need to be addressed. This could take the form of a "slider" on a web-page, where the user could select the values of each parameter and see the heatmap update in real time. 
+The problem of how to visualise scans of models in more than 2 dimensions would also need to be addressed. This could take the form of a "slider" on a web-page, where the user could select the values of each parameter and see the heatmap update in real time.
 
 Creating such tools to help users visualise (and debug) exclusions from CONTUR would significantly speed up the processing and understanding of CONTUR results, and subsequently could play an important role in quickly ruling out new theories (and saving time for researchers to work on other theories which are not ruled out).
 
-
 ## Expected results
 
-- Produce a GUI or website to help "drill down" into the result of CONTUR heatmaps
-- Ensure that the GUI/website runs quickly and efficiently by producing a database of plots and figures (on-the-fly) for each heatmap
-- Extend the capability to visualise multi-dimensional scans by adding a slider (or otherwise) to the heatmaps on the site
+ * Produce a GUI or website to help "drill down" into the result of CONTUR heatmaps
+ * Ensure that the GUI/website runs quickly and efficiently by producing a database of plots and figures (on-the-fly) for each heatmap
+ * Extend the capability to visualise multi-dimensional scans by adding a slider (or otherwise) to the heatmaps on the site
 
 ## Requirements
 
-- Python (and related packages, e.g. matplotlib)
-- git
-- Java/PHP/HTML
-- SQL
+ * Python (and related packages, e.g. matplotlib)
+ * git
+ * Java/PHP/HTML
+ * SQL
 
 ## Mentors
 
-  * [Andy Buckley](mailto:andy.buckley@cern.ch)
-  * [Louie Corpe](mailto:louie.corpe@cern.ch)
-  * [Jon Butterworth](mailto:j.butterworth@cern.ch)
+ * [Andy Buckley](mailto:andy.buckley@cern.ch)
+ * [Louie Corpe](mailto:louie.corpe@cern.ch)
+ * [Jon Butterworth](mailto:j.butterworth@cern.ch)
 
 ## Links
-  * [CONTUR](https://hepcedar.gitlab.io/contur-webpage/)
-  * [YODA](https://yoda.hepforge.org)
-  * [Rivet](https://rivet.hepforge.org)
-  * [Herwig](https://herwig.hepforge.org/)
+
+ * [CONTUR](https://hepcedar.gitlab.io/contur-webpage/)
+ * [YODA](https://yoda.hepforge.org)
+ * [Rivet](https://rivet.hepforge.org)
+ * [Herwig](https://herwig.hepforge.org/)
