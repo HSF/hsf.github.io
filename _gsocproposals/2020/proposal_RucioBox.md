@@ -46,6 +46,7 @@ By the end of GSoC'20 we are looking to have a fully working desktop application
  * [Mario Lassnig](mailto:mario.lassnig@cern.ch)
  * [Thomas Beermann](mailto:thomas.beermann@cern.ch)
  * [Gabriele Gaetano Fronzé](mailto:gabriele.gaetano.fronze@cern.ch)
+ * [Martin Barisits](mailto:martin.barisits@cern.ch)
 
 ## Links
  1. [Rucio GitHub](https://github.com/rucio/rucio)
