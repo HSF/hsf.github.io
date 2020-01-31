@@ -15,7 +15,7 @@ organization:
 
 The YODA system is an attempt to do basic computational statistics objects in a new and more coherent way, clearly separating content and semantics from presentation, and emphasising the conceptual links between different types of histogram. In this way we not only improve functionality for data reinterpretation purposes, but also explore alternative ways of handling data that fit better to the requirements of future physics analyses.
 
-## Tasks
+## Task ideas
 
 There are three major areas where YODA currently needs work, to better handle mismatches between MC analysis implementations and "publication" presentations of particle physics data, and meet the needs of high-performance computing facilities:
 

@@ -16,7 +16,7 @@ However, as MC models get more complex and detailed, Rivet's features --- design
 
 This project will focus on making Rivet performant on modern HEP and HPC CPU architectures, particularly ensuring that the central result caching and dispatching system is thread-safe. This will not only allow Rivet to be used in global fits, but also open new avenues for smaller-scale users, by transparently multiplexing event processing across multiple threads. As such re-engineering introduces risks that physics results will change, invalidating hundreds of analyses --- maybe in subtle ways --- we will also enhance the continuous integration system to include physics validation tests.
 
-## Tasks
+## Task ideas
 
 The following tasks are envisaged:
 

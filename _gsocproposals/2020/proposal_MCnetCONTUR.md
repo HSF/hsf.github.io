@@ -11,11 +11,11 @@ organization:
 
 # Description
 
-Contraints On New Theories Using RIVET [(CONTUR)](https://hepcedar.gitlab.io/contur-webpage/) is a Python-based package which uses the bank of LHC searches and measurements preserved in [Rivet](https://rivet.hepforge.org) and the [Herwig](https://herwig.hepforge.org/) event generator, to set constraints on new beyond-the-Standard-Model (BSM) theories. Fundamentally, CONTUR uses Herwig to generate simulated events for a grid of parameter values for the new model, and checks for each point in the grid, whether the BSM signal would already have been see in any of the existing LHC results. It can then produce an exclusion "heatmap" for the grid, and define exclusion contours at the 68% and 95% confidence level.
+Constraints On New Theories Using RIVET [(CONTUR)](https://hepcedar.gitlab.io/contur-webpage/) is a Python-based package which uses the bank of LHC searches and measurements preserved in [Rivet](https://rivet.hepforge.org) and the [Herwig](https://herwig.hepforge.org/) event generator, to set constraints on new beyond-the-Standard-Model (BSM) theories. Fundamentally, CONTUR uses Herwig to generate simulated events for a grid of parameter values for the new model, and checks for each point in the grid, whether the BSM signal would already have been see in any of the existing LHC results. It can then produce an exclusion "heatmap" for the grid, and define exclusion contours at the 68% and 95% confidence level.
 
 The bank of measurements and searches used by CONTUR includes hundreds of measured distributions, across ~100 LHC results, arranged into dozens of analysis pools. Understanding the exclusions from the heatmaps often involves checking how the BSM signal would look in these measured distributions. Furthermore, depending on the number of parameters in the model, there can be hundreds, or even thousands of grid points to check. At the moment, extracting these plots and digesting them is a laborious and time-consuming process. That is where you come in.
 
-## Tasks
+## Task ideas
 
 The task for this project would be to put together an user-friendly interface to be able to "drill down" into the heatmaps produced by CONTUR and understand the origin of the exclusion of a particular model for a particular set of parameters. This could be a graphical user interface (GUI) or a web-page, where the user could simply "click" or "hover" over a point of the heatmap, and this would bring up the set of measurements which give the analysis pools with the most exclusion power, with the option of drilling down further to view the results for a given measurement, or even a given measured distribution.
 

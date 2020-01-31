@@ -16,7 +16,7 @@ The [LHAPDF](https://lhapdf.hepforge.org) C++ library is the LHC's standard syst
 
 In this project, you will work on profiling and re-designing aspects of LHAPDF to make it much faster, adding caching, vectoriaation, and GPU compatibility. This work has the potential to save huge amounts of CPU time for LHC experiments, and to enhance the physics we can do in the next LHC runs.
 
-## Tasks
+## Task ideas
 
 The following tasks are envisaged:
 
@@ -39,6 +39,7 @@ A prototype new version of LHAPDF, with improved performance via caching and exp
 ## Mentors
 
  * [Andy Buckley](mailto:andy.buckley@cern.ch)
+ * [Louie Corpe](mailto:lcorpe@cern.ch)
 
 ## Links
 
