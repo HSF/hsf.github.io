@@ -37,8 +37,6 @@ A prototype new version of YODA, reworked to generalise binning to arbitrary dat
 
  * [Andy Buckley](mailto:andy.buckley@cern.ch)
  * [Louie Corpe](mailto:louie.corpe@cern.ch)
- * [Christian Bierlich](mailto:christian.bierlich@thep.lu.se)
- * [Holger Schulz](mailto:hschulz@fnal.gov)
 
 ## Links
 
