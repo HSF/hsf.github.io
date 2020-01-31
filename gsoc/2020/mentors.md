@@ -5,9 +5,6 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
-* Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) UGlasgow
-* Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
-* Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
 * Guilherme Amadio [amadio@cern.ch](mailto:amadio@cern.ch) CERN
 * Christian Ariza [christian.ariza@gmail.com](mailto:christian.ariza@gmail.com) CERN
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
@@ -15,6 +12,9 @@ layout: plain
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) University of Wuppertal
 * Ken Bloom [kenbloom@unl.edu](mailto:kenbloom@unl.edu) University of Nebraska-Lincoln
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) Morgridge Institute for Research
+* Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) UGlasgow
+* Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
+* Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Gabriele Gaetano Fronzé [gabriele.gaetano.fronze@cern.ch](mailto:gabriele.gaetano.fronze@cern.ch) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
