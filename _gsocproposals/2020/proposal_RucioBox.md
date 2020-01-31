@@ -6,6 +6,7 @@ year: 2020
 organization:
     - CERN
     - UWuppertal
+	- INFN
 ---
 
 ## Description
@@ -39,11 +40,12 @@ The tasks are as follows:
 
 ## Expected results
 
-By the end of GSoC'20 we are looking to have a fully working desktop application that runs under common Linux desktop environments. We are aware that low latency and high throughput might not be achieved during GSoC due to the scale of the namespace and data, as that requires long-term performance optimisations. As a stretch goal, cross-platform compatibility with Windows and macOS would be very appreciated.
+By the end of GSoC'20 we are looking to have a fully working desktop application that runs under common Linux desktop environments. We are aware that low latency and high throughput might not be achieved during GSoC due to the scale of the namespace and data, as that requires long-term performance optimisations. As a stretch goal, cross-platform compatibility with Windows and macOS would be very useful.
 
 ## Mentors
  * [Mario Lassnig](mailto:mario.lassnig@cern.ch)
  * [Thomas Beermann](mailto:thomas.beermann@cern.ch)
+ * [Gabriele Gaetano Fronzé](mailto:gabriele.gaetano.fronze@cern.ch)
 
 ## Links
  1. [Rucio GitHub](https://github.com/rucio/rucio)
