@@ -6,7 +6,7 @@ year: 2020
 organization:
     - CERN
     - UWuppertal
-	- INFN
+    - INFN
 ---
 
 ## Description
