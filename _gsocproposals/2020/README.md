@@ -6,7 +6,7 @@
 
 * Under `## Task ideas` enumerate the main ideas for the tasks to be completed for the project to succeed. Keep in mind that the target is a summer student who is not familiar with your project who will be working for 3 months. Try to make these tasks on realistic and concrete, targeting your project main objectives - your future student will write a proposal with a plan of work built-up upon these.
 
-* Under `## Expected results` enumerate the main objectives that you want to achieve at the end of the summer project to consider the student work successful. It is important to have a realistic and concrete target rater than generic and non-measurable objectives.
+* Under `## Expected results` enumerate the main objectives that you want to achieve at the end of the summer project to consider the student work successful. It is important to have a realistic and concrete target rather than generic and non-measurable objectives.
 
 * Under `## Evaluation Tasks` give pointers to the information needed by potential candidates to complete the tests required for being allowed to submit a proposal for your project. Do not write a direct link to the tests here, give this only to the students who expressed interest in your project. It is acceptable that in this section you only write the type of test (e.g. C++ algorithm), but you can be more specific if you need to.
 
