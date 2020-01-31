@@ -3,7 +3,7 @@ title: "HSF Weekly Meeting #178, 23 January, 2019"
 layout: meetings
 ---
 
-# {{page.title}} - Lund Workshop Planning Meetting
+# {{page.title}} - Lund Workshop Planning Meeting
 Present: Graeme Stewart, Pere Mato, Agnieszka Dziurda, Philippe Canal,
 Sam Meehan, Stefan Roiser, TJ Khoo, Andrea Valassi, Serhan Mete, Witek
 Pokorski, Paul Laycock, Mason Proffitt, Ben Morgan, Markus Schulz, Liz
