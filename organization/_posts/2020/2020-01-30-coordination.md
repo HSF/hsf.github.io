@@ -18,7 +18,7 @@ Apologies: Agnieszka Dziurda, Pere Mato, Serhan Mete
 - ESCAPE Software Catalogue, <https://projectescape.eu/escape-catalogue>
     - Caterina and Graeme met with Kay Graf from the ESCAPE project
     - They have a deliverable to provide a "software catalogue" for the project
-        - "ESCAPE services will be part of the global EOSC catalogue of scientific software, to ensure global open access and long-term usability."
+        - "ESCAPE services will be part of the global EOSC (European Open Science Cloud) catalogue of scientific software, to ensure global open access and long-term usability."
     - This would be a good opportunity to have a more central place where software projects could be publicised
     - *What would the HSF want from this?*
         - Concentrate mainly on reusable software
