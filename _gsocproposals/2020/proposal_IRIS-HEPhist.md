@@ -14,8 +14,8 @@ dozen packages intended to facilitate the use of Python in High Energy Physics
 histogramming; a majority of HEP analysis is heavily reliant on histograms. To
 this end, a new Python package was introduced for histogramming in Scikit-HEP,
 boost-histogram, developed in close collaboration with the author of the Boost
-C++ libraries' Histogram package. It is intended, however, to be a core package
-for histogramming, with no dependencies, much like Numpy is for data
+C++ libraries' Histogram package. This package is intended to be a core package
+for histogramming with no dependencies, much like Numpy is for data
 structures.
 
 Scikit-HEP developers are preparing an implementation of an analyst friendly
