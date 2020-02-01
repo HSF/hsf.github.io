@@ -29,9 +29,9 @@ A prototype new version of YODA, reworked to generalise binning to arbitrary dat
 
 ## Requirements
 
- *- C++
- *- Python/Cython
- *- git
+ * C++
+ * Python/Cython
+ * git
 
 ## Mentors
 
