@@ -30,6 +30,7 @@ layout: plain
 * Alexander Penev [alexander_penev@yahoo.com](mailto:alexander_penev@yahoo.com) University of Plovdiv "Paisii Hilendarski"
 * Jim Pivarski [pivarski@princeton.edu](mailto:pivarski@princeton.edu) Princeton University
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
+* Henry Schreiner [henryfs@princeton.edu](mailto:henryfs@princeton.edu) Princeton University
 * Giuseppe Scrivano [giuseppe@scrivano.org](mailto:giuseppe@scrivano.org) RedHat
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
