@@ -7,6 +7,7 @@ layout: plain
 
 * Guilherme Amadio [amadio@cern.ch](mailto:amadio@cern.ch) CERN
 * Christian Ariza [christian.ariza@gmail.com](mailto:christian.ariza@gmail.com) CERN
+* Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Bertrand Bellenot [Bertrand.Bellenot@cern.ch](mailto:Bertrand.Bellenot@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) University of Wuppertal
