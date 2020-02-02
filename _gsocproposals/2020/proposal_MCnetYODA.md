@@ -22,6 +22,7 @@ There are three major areas where YODA currently needs work, to better handle mi
  * development of a new inheritance structure in C++ and Python (via Cython) that efficiently provides functionality like N-dimensional binning of arbitrary datatypes, and expression of bin correlations, with maximum code reuse;
  * prototyping a new data format using the HDF5 library, for efficient data merging and parallel I/O on high-performance computing clusters;
  * creating a flexible, and publication quality plotting API around YODA, using matplotlib and other Python tools, to replace an old LaTeX-based plotter.
+ * creating a Web-based data rendering and exploration tool to complement the publication-quality Python/PDF plotter, built on the same API.
 
 ## Expected results
 
