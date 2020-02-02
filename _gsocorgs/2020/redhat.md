@@ -3,7 +3,7 @@ title: "Red Hat"
 author: "Simone Mosciatti"
 layout: default
 organization: RedHat
-logo: REDHAT-logo.jpg
+logo: REDHAT-logo.png
 description: |
   Red Hat offers a comprehensive software portfolio, covering 5 key technology areas: cloud, middleware, operating platform, storage, and virtualization, provided with a subscription model.
 ---
