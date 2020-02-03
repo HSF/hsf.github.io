@@ -9,7 +9,6 @@ layout: plain
 * Christian Ariza [christian.ariza@gmail.com](mailto:christian.ariza@gmail.com) CERN
 * Chris Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) IJCLab
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
-* Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Bertrand Bellenot [Bertrand.Bellenot@cern.ch](mailto:Bertrand.Bellenot@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) University of Wuppertal
 * Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
@@ -18,6 +17,7 @@ layout: plain
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) UGlasgow
 * Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
 * Philippe Canal [pcanal@gnal.gov](mailto:pcanal@gnal.gov) Fermilab
+* Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Gabriele Gaetano Fronzé [gabriele.gaetano.fronze@cern.ch](mailto:gabriele.gaetano.fronze@cern.ch) INFN
@@ -28,6 +28,7 @@ layout: plain
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Federica Legger [federica.legger@to.infn.it](mailto:federica.legger@to.infn.it) Universita e INFN Torino
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) Universite Catholique de Louvain
+* Lorenzo Moneta [Lorenzo.Moneta@cern.ch](mailto:Lorenzo.Moneta@cern.ch) CERN
 * Simone Mosciatti [simone.mosciatti@cern.ch](mailto:simone.mosciatti@cern.ch) CERN
 * Teo Mrnjavac [teo.m@cern.ch](mailto:teo.m@cern.ch) CERN
 * Julien Peloton [peloton@lal.in2p3.fr](mailto:peloton@lal.in2p3.fr) IJCLab
@@ -41,3 +42,4 @@ layout: plain
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
+* Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) CERN
