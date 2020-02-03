@@ -60,6 +60,10 @@ should be able to perform a few common statistical operations.
    * Good familiarity with Python
    * Familiarity with plotting, ideally with matplotlib
 
+## Evaluation tasks
+
+Contact the mentors for a task that we'll use to evaluate candidates.
+
 ## Mentors
 
   * [Henry Schreiner](mailto:henryfs@princeton.edu) (primary)
