@@ -34,3 +34,4 @@ layout: plain
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
+* Tobias Weinzierl [tobias.weinzierl@durham.ac.uk](mailto:tobias.weinzierl@durham.ac.uk) Durham University

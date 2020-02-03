@@ -1,42 +1,50 @@
 ---
-title: MCnet/Sherpa - Exascale performance optimization of a leading LHC particle-collision simulator
+title: MCnet/SHERPA - Accelerating Monte Carlo simulations for the LHC
 layout: gsoc_proposal
 project: MCnet
 year: 2020
 organization:
-  - UDur
+  - UDUR
 ---
 
 # Description
 
-[Sherpa](https://gitlab.com/sherpa-team/sherpa) is a Monte Carlo event generator for the Simulation of High-Energy Reactions of PArticles in lepton-lepton, lepton-photon, photon-photon, lepton-hadron and hadron-hadron collisions.  It provides some of the most precise simulations of physics signatures at the LHC and is widely used by the LHC experiments.
+SHERPA is a Monte Carlo event generator for collider-based particle physics experiments such as the ones perfomed at CERN's Large Hadron Collider (LHC).  It simulates full events, starting with the incident protons and finishing with the intricate patterns of the produced high-energetic particles that will eventually interact with the detector, thereby producing the indispensible link between theory and data, and allowing the interpretation of the latter in the light of the former.  To describe such events a variety of techniques and models must be invoked, many of which are based on the perturbative expansion of Quantum Field Theory.  This is true in particular for the starting point of the simulations where the so-called hard process defines the overall structure of the events.  To describe this central bit of the simulation, cross sections must be evaluated as integrals of the corresponding transition amplitudes over the multi-dimensional phase space of the outgoing particles.  Due to the high dimensionality of the phase space, this integration is achieved through Monte Carlo methods.
 
-The project will focus on a careful analysis of the code and a detailed performance profile, mostly at the level of single-nodes. This will form the baseline for the construction of an exascale optimisation roadmap of critical components of the overall simulation framework, on the basis of generic strategies like serialization of underlying data structures, reordering of data access and the avoidance of scattered memory accesses.
+In the ongoing quest for increased precision of our understanding and modelling of the physics involved in the proton collisions, ever higher orders of the perturbation expansion must be evaluated.  This results in ever more complicated expressions for the transition amplitudes and an ever increasing number of final state particles and therefore the dimensionality of the phase space integration.  It is therefore not surprising that this first step of event simulation is the most intensive source of CPU consumption and becoming the bottleneck for the full exploitation of future LHC results.
+
+This project will be co-supervised by Frank Krauss, SHERPA's primary author, and Tobias Weinzierl, an expert in HPC computations and their performance optimization.  The prject will focus on first steps to increase the efficiency of the SHERPA event generator, and in particular of its description of the hard process.  In a first step, the successful students will anlyse the code and derive a detailed performance profile. Given the embarrassingly parallel nature of the underlying algorithmics, the studies will focus on single-node performance. In Durham, Intel's Amplifier VTune and the Allinea tools are available for this task, as well as a suite of open source helpers such as Likwid.
+
+With a detailed performance profile at hand, the students will work out an exascale optimisation roadmap. We expect this roadmap to discuss mainly generic strategies mapped onto the particular application domain. This includes the flattening and serialisation of data structures to avoid scattered memory accesses, the reordering of data accesses, where the multi-shoot character of Monte Carlo algorithms usually provides ample space for relatively simple performance optimization.
 
 ## Task ideas
 
 The following tasks are envisaged:
 
- * a
- * b
- * b
+ * Overall performance profile of the SHERPA code
+ * Detailed performance profile of the hard process simulation in the SHERPA code, with emphasis on data structures and access
+ * First draft of an exascale roadmap to efficiently deploy SHERPA on future HPC architectures
 
 ## Expected results
 
-<One sentence here>
+ * Improvements to SHERPA's performance, especially for the integration of cross sections for processes with multi-particle final-states
+ * First draft of an Exascale Roadmap for SHERPA
 
 ## Requirements
 
  * C++
- * Software performance profiling
- * Performance optimization techniques
- * git
+ * Profiling
+ * Performance optimisation
+ * Multithreading
+ * git + gitlab or similar CI configuration
 
 ## Mentors
 
- * [Frank Krauss](mailto:frank.krauss@dur.ac.uk)
- * [Second Person](mailto:x@y.org)
+ * [Frank Krauss](mailto:frank.krauss@durham.ac.uk)
+ * [Tobias Weinzierl](mailto:tobias.weinzierl@durham.ac.uk)
 
 ## Links
 
- * [Sherpa](https://sherpa-team.gitlab.io/)
+ * [SHERPA](https://https://gitlab.com/sherpa-team/sherpa)
+ * [Frank Krauss](https://www.ippp.dur.ac.uk/profile/krauss)
+ * [Tobias Weinzierl](http://www.peano-framework.org/index.php/tobias-weinzierl/)
