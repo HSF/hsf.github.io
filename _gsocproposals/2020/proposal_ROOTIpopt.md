@@ -10,11 +10,11 @@ organization:
 
 ## Description
 Ipopt (Interior Point OPTimizer)[1] is a software package for large-scale ​nonlinear optimization. It is designed to find (local) solutions of mathematical optimization problems.
-Ipopt is being integrated to ROOT framework providing a new set of tools for minimization through a ROOT plugin system in the math libraries. 
-The goal of the project will be to fully integrate in ROOT ipopt, to include the support for optimization with non trivial parameter  constraints and to provide tests and code examples showing users how to use the new optimizers. 
+Ipopt is being integrated to ROOT framework, providing a new set of tools for minimization through a ROOT plugin system in the math libraries. 
+The goal of the project will be to fully integrate in ROOT ipopt, to include the support for optimization with non trivial parameter constraints and to provide tests and code examples showing users how to use the new optimizers. 
 
 ## Task ideas
-  * To write support for:
+  * Write support for:
     * Constraint function g(x):Rn−>Rm
     * Gradient of the constraint function
     * Hessian
@@ -24,7 +24,7 @@ The goal of the project will be to fully integrate in ROOT ipopt, to include the
   * Measure performance comparing the current ROOT minimizers.
 
 ## Expected results
-Fully integrated Ipopt with support for all solvers, hessian and constrain function. 
+Fully integrated Ipopt into ROOT with support for all solvers, hessian and constrain function. 
 Documentation, tests and examples.
 
 ## Desirable Skills
@@ -37,8 +37,8 @@ Documentation, tests and examples.
   * [Omar Zapata](mailto:Omar.Zapata@cern.ch)
 
 ## Links
-  1. [Ipopt](https://projects.coin-or.org/Ipopt)
-  2. [Github](https://github.com/oprojects/root/tree/master-ipopt/math/ipopt)
+  1. [Ipopt GitHub repository](https://github.com/coin-or/Ipopt)
+  2. [ROOT Ipopt interface](https://github.com/oprojects/root/tree/master-ipopt/math/ipopt)
   3. [Ipopt MultiMin](http://clusteri.itm.edu.co/rootdoc/html/group__MultiMin.html)
   4. [ROOT Ipopt](http://oproject.org/pages/Ipopt.html)
-  5. [Ipopt Solvers](https://www.coin-or.org/Ipopt/documentation/node51.html)
+  5. [Ipopt Solvers](https://coin-or.github.io/Ipopt/index.html#MATHBACKGROUND)
