@@ -11,6 +11,7 @@ layout: plain
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Bertrand Bellenot [Bertrand.Bellenot@cern.ch](mailto:Bertrand.Bellenot@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) University of Wuppertal
+* Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
 * Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
 * Ken Bloom [kenbloom@unl.edu](mailto:kenbloom@unl.edu) University of Nebraska-Lincoln
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) Morgridge Institute for Research
@@ -26,15 +27,14 @@ layout: plain
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Federica Legger [federica.legger@to.infn.it](mailto:federica.legger@to.infn.it) Universita e INFN Torino
 * Simone Mosciatti [simone.mosciatti@cern.ch](mailto:simone.mosciatti@cern.ch) CERN
+* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Teo Mrnjavac [teo.m@cern.ch](mailto:teo.m@cern.ch) CERN
 * Alexander Penev [alexander_penev@yahoo.com](mailto:alexander_penev@yahoo.com) University of Plovdiv "Paisii Hilendarski"
 * Jim Pivarski [pivarski@princeton.edu](mailto:pivarski@princeton.edu) Princeton University
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
+* Andreas Salzburger [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN
 * Henry Schreiner [henryfs@princeton.edu](mailto:henryfs@princeton.edu) Princeton University
 * Giuseppe Scrivano [giuseppe@scrivano.org](mailto:giuseppe@scrivano.org) RedHat
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
-* Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
-* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
-* Andreas Salzburger [andreas.salzburger@cern.ch](mailto:andreas.salzburger@cern.ch) CERN
