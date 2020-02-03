@@ -16,14 +16,15 @@ To that end, a test framework and testing methodology must be developed and exec
 
 ## Task ideas
  * Develop a simple submission framework within the JAliEn Grid environment for pre-configured containers to specific Grid sites;
- * Use the framework to start containers, gather and analyze the output of the submission to gauge the readiness of the site to execute the containers against a list of known conditions; 
+ * Use the framework to start containers, and gather and analyze the output of the submission to gauge the readiness of the site to execute the containers against a list of known conditions;
  * Suggest modifications to the container configuration to simplify their execution.
 
 ## Expected results
   * Develop a tool to assess the WLCG Grid sites readiness to run ALICE Grid jobs in containers
 
 ## Requirements
-  * Experience with Java and Python programming languages
+  * Java experience is required
+  * Python experience is recommended
   * Experience with containerization technologies is a plus
   * Bash and Linux skills are beneficial
 
