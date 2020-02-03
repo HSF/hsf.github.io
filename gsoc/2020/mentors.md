@@ -27,14 +27,17 @@ layout: plain
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Federica Legger [federica.legger@to.infn.it](mailto:federica.legger@to.infn.it) Universita e INFN Torino
+* Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) Universite Catholique de Louvain
 * Simone Mosciatti [simone.mosciatti@cern.ch](mailto:simone.mosciatti@cern.ch) CERN
 * Teo Mrnjavac [teo.m@cern.ch](mailto:teo.m@cern.ch) CERN
 * Julien Peloton [peloton@lal.in2p3.fr](mailto:peloton@lal.in2p3.fr) IJCLab
 * Alexander Penev [alexander_penev@yahoo.com](mailto:alexander_penev@yahoo.com) University of Plovdiv "Paisii Hilendarski"
 * Jim Pivarski [pivarski@princeton.edu](mailto:pivarski@princeton.edu) Princeton University
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
+* Stefan Roiser [stefan.roiser@cern.ch](mailto:stefan.roiser@cern.ch) CERN
 * Henry Schreiner [henryfs@princeton.edu](mailto:henryfs@princeton.edu) Princeton University
 * Giuseppe Scrivano [giuseppe@scrivano.org](mailto:giuseppe@scrivano.org) RedHat
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
+* Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
