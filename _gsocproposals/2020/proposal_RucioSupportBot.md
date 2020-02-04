@@ -16,8 +16,8 @@ The Native Language Processing (NLP) is a fairly developed technique used nowada
 
  * Input Data: 
    * Creation of text corpus or use of existing one.
-   * Extraction emails from the support mailing lists, preferably through IMAP client.
- * Extraction of the meanings of the input data and and transformations needed for further analysis, preferably with the Natural Language Toolkit (NLTK).
+   * Extraction of emails from the support mailing lists, preferably through IMAP client.
+ * Extraction of the meanings of the input data and transformations needed for further analysis, preferably with the Natural Language Toolkit (NLTK).
    * Creation of a training set and a valdiation set from the input data. 
    * Development of a tool capable to extract the information from the emails relevant to the data management.
 
