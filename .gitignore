@@ -5,8 +5,10 @@ Gemfile.lock
 # Eclipse
 .project
 
-# PyCharm
+# Python 
 .idea/
+*.pyc
+**/__pycache__/**
 
 # Visual Studio Code
 .vscode/*
