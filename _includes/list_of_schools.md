@@ -1,6 +1,6 @@
 
 
-{% assign schools = site.categories.Schools | sort:"date" %}
+{% assign schools = site.data.training-schools | sort:"date" %}
 
 {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
 
