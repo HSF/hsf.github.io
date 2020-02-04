@@ -1,6 +1,6 @@
 ---
 title: "Laboratoire de Physique de Clermont"
-author: "Sebastien Binet"
+author: "Fabrice Jammes"
 layout: default
 organization: LPC-Clermont
 logo: LPC-logo.png

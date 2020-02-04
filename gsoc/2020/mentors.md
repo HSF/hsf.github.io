@@ -17,13 +17,17 @@ layout: plain
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) Morgridge Institute for Research
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) University of Glasgow
 * Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
+* Yvan Calas [yvan.calas@cc.in2p3.fr](mailto:yvan.calas@cc.in2p3.fr) CC-IN2P3
 * Philippe Canal [pcanal@gnal.gov](mailto:pcanal@gnal.gov) Fermilab
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Gabriele Gaetano Fronzé [gabriele.gaetano.fronze@cern.ch](mailto:gabriele.gaetano.fronze@cern.ch) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
+* Andrew Hanushevsky [abh@slac.stanford.edu](mailto:abh@slac.stanford.edu) SLAC
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) IJCLab
+* Fabrice Jammes [fabrice.jammes@in2p3.fr](mailto:fabrice.jammes@in2p3.fr) LPC-Clermont
+* Tomas Javurek [tomas.javurek@cern.ch](tomas.javurek@cern.ch) CERN
 * Frank Krauss [frank.krauss@dur.ac.uk](mailto:frank.krauss@dur.ac.uk) Durham University
 * Valentin Kuznetsov [vkuznet@gmail.com](mailto:vkuznet@gmail.com) Cornell University, USA
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
