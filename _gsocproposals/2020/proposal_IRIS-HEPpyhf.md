@@ -36,10 +36,11 @@ Contributing a "good first issue" PR to `pyhf` would be a rather advanced form o
 
 ## Requirements
 
-   * Ability to code in Python.
-   * Good software engineering skills.
-   * Ability to work as part of a distributed team on GitHub.
-   * Familiarity with testing and documentation generation.
+   * Familiarity with techniques for hardware acceleration using scientific python libraries (CuPy, Numba, etc...)
+   * Comfort with switching between machine learning frameworks (PyTorch, TensorFlow, JAX, NumPy)
+   * Basic understanding of functional minimization (scipy.optimize, minuit, and autodifferentiation)
+   * Ability to profile python code
+   * Code in Python 3 and adhere to Black style
 
 ## Mentors
 
