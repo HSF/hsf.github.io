@@ -1,7 +1,7 @@
 ---
 title: Making Exabytes of LHC data seamlessly accessible on Jupyter Notebooks
 layout: gsoc_proposal
-project: SWAN/Rucio
+project: SWAN
 year: 2020
 organization:
  - CERN
@@ -39,14 +39,11 @@ A working, and easy-to-use extension, installable both in SWAN and vanilla Jupyt
 * Understanding of REST APIs
 
 ## Mentors
-* [Aristeidis Fkiaras](mailto:aristeidis.fkiaras@cern.ch)
+* [Aristeidis Fkiaras](mailto:aristeidis.fkiaras@cern.ch) (Primary mentor)
 * [Riccardo Di Maria](mailto:Riccardo.Di.Maria@cern.ch)
-* [Rizart Dona](mailto:rizart.dona@cern.ch)
-* [Mario Lassnig](mailto:Mario.Lassnig@cern.ch)
 * [Enric Tejedor](mailto:etejedor@cern.ch)
 * [Enrico Bocchi](mailto:enrico.bocchi@cern.ch)
 * [Diogo Castro](mailto:diogo.castro@cern.ch)
-* [Martin Barisits](mailto:martin.barisits@cern.ch)
 
 ## Links
 * [CERN](https://home.cern/)
