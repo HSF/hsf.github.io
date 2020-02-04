@@ -31,7 +31,7 @@ The Native Language Processing (NLP) is a fairly developed technique used nowada
 
 ## Expected Results
 
-Note that the whole Rucio Bot project demands full engagement for the time period longer than the GSoC timescale. The essential requirements for declaring success of the work of a GSoC student are explicitly written in the section of 'Milestones'. Especially the second bullet requires deep expertise with NLTK including creation of both the training set and the validation set and running the developed bot on them. The validation set provides us with the neccessary statistics to demonstrate the reliability of the bot. 
+Note that the whole Rucio Bot project demands full engagement for the time period longer than the GSoC timescale. The essential requirements for declaring success of the work of a GSoC student are explicitly written in the section of 'Milestones'. Especially the second bullet requires deep expertise with NLTK including creation of both the training set and the validation set and running the developed bot on them. The validation set provides us with the neccessary statistics to demonstrate the reliability of the bot.
 
 Achievable, but not mandatory, developments are listed in the section 'Ideas for Extension'.
 
