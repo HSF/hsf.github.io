@@ -34,5 +34,5 @@ In this project, the student will develop a procedure for creating a JCentral re
  * [Costin Grigoras](mailto:consting@cern.ch) (backup)
 
 ## Links
- * [JAliEn git repository](https://gitlab.cern.ch/)
+ * [JAliEn git repository](https://gitlab.cern.ch/jalien/jalien)
  * [ALICE Grid Monitoring](https://alimonitor.cern.ch)
