@@ -38,11 +38,11 @@ Contributing a "good first issue" PR to `pyhf` would be a rather advanced form o
 
 ## Requirements
 
+   * Code in Python 3 and adhere to the [Black](https://github.com/psf/black) code style
+   * Basic understanding of functional minimization (e.g. [`scipy.optimize`](https://docs.scipy.org/doc/scipy/reference/optimize.html), [`minuit`](https://iminuit.readthedocs.io/en/latest/), and autodifferentiation)
    * Familiarity with techniques for hardware acceleration using scientific python libraries (CuPy, Numba, etc...)
-   * Comfort with switching between machine learning frameworks (PyTorch, TensorFlow, JAX, NumPy)
-   * Basic understanding of functional minimization (scipy.optimize, minuit, and autodifferentiation)
-   * Ability to profile python code
-   * Code in Python 3 and adhere to Black style
+   * Comfort with switching between Python machine learning frameworks (PyTorch, TensorFlow, JAX, NumPy)
+   * Ability to profile Python code
 
 ## Mentors
 
