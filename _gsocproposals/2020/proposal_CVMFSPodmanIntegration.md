@@ -5,7 +5,6 @@ project: CernVM-FS
 year: 2020
 organization:
  - CERN
- - RedHat
 ---
 
 ## Description
