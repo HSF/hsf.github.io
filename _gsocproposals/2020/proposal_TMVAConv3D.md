@@ -25,6 +25,7 @@ Strong C++ skills, solid knowledge of deep learning, familiarity with GPUs
 ## Mentors
   * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
   * [Omar Zapata](mailto:Omar.Zapata@cern.ch)
+  * [Akshay Vashistha](mailto:akshayvashistha1995@gmail.com)
 
 ## Links
   * [http://root.cern/tmva](http://root.cern/tmva)
