@@ -21,7 +21,8 @@ The benchmarking suite would preferably be written as a [`pytest`](https://docs.
 
 ## Task ideas
 
-   * Add a hardware acceleration benchmarking suite for the GPU enabled backends (TensorFlow, PyTorch, and JAX) and make comparison plots against each other and the CPU backends (`pyhf` Issues [301](https://github.com/scikit-hep/pyhf/issues/301), [348](https://github.com/scikit-hep/pyhf/issues/348)).
+   * Write a hardware acceleration benchmarking suite for the GPU enabled backends (TensorFlow, PyTorch, and JAX) in Python (`pyhf` Issues [301](https://github.com/scikit-hep/pyhf/issues/301), [348](https://github.com/scikit-hep/pyhf/issues/348)).
+   * Write comparison plot generation code in Python for the performance of the GPU enabled backends against each other and the CPU backends.
    * Thoroughly document the performance benchmarking in the form of a case study.
    * Evaluate the hardware acceleration test suite using Google TPUs.
    * Profile the `pyhf` codebase to determine where the hardware acceleration is making the largest difference.
