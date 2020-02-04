@@ -15,7 +15,7 @@ In the ongoing quest for increased precision of our understanding and modelling 
 
 This project will be co-supervised by Frank Krauss, SHERPA's primary author, and Tobias Weinzierl, an expert in HPC computations and their performance optimization.  The project will focus on first steps to increase the efficiency of the SHERPA event generator, and in particular of its description of the hard process.  In a first step, the successful students will analyse the code and derive a detailed performance profile. Given the embarrassingly parallel nature of the underlying algorithmics, the studies will focus on single-node performance. In Durham, Intel's Amplifier VTune and the Allinea tools are available for this task, as well as a suite of open source helpers such as Likwid.
 
-With a detailed performance profile at hand, the students will work out an exascale optimisation roadmap. We expect this roadmap to discuss mainly generic strategies mapped onto the particular application domain. This includes the flattening and serialisation of data structures to avoid scattered memory accesses, the reordering of data accesses, where the multi-shoot character of Monte Carlo algorithms usually provides ample space for relatively simple performance optimization.
+With a detailed performance profile at hand, the students will design an "optimisation roadmap" strategy for performance optimisation, and prototype its dominant aspects. We expect this roadmap to discuss mainly generic strategies mapped onto the particular application domain. This includes the flattening and serialisation of data structures to avoid scattered memory accesses, the reordering of data accesses, where the multi-shoot character of Monte Carlo algorithms usually provides ample space for relatively simple performance optimization.
 
 ## Task ideas
 
@@ -23,7 +23,7 @@ The following tasks are envisaged:
 
  * Overall performance profile of the SHERPA code
  * Detailed performance profile of the hard process simulation in the SHERPA code, with emphasis on data structures and access
- * First draft of an exascale roadmap to efficiently deploy SHERPA on future HPC architectures
+ * Prototype code for performance improvement in performance hotspots, using data structure optimisation for vectorised CPU architectures
 
 ## Expected results
 
@@ -32,8 +32,8 @@ The following tasks are envisaged:
 
 ## Requirements
 
- * C++
- * Profiling
+ * Competent in OO C++
+ * Experience with profiling tools
  * Performance optimisation
  * Multithreading
  * git + GitLab or similar CI configuration
