@@ -16,7 +16,8 @@ This HistFactory p.d.f. template is per-se independent of its implementation in 
 The [`pyhf`](https://github.com/scikit-hep/pyhf) library is a pure-python implementation of that statistical model for multi-bin histogram-based analysis and its interval estimation is based on the asymptotic formulas of "[Asymptotic formulae for likelihood-based tests of new physics](https://arxiv.org/abs/1007.1727)".
 `pyhf` supports modern computational graph libraries such as TensorFlow and PyTorch in order to make use of features such as autodifferentiation and GPU acceleration.
 
-The goal of the project is to test and benchmark the performance increase of the hardware accelerated backends on GPUs and TPUs on openly published physics data from LHC experiments [[10.17182/hepdata.89408](https://doi.org/10.17182/hepdata.89408), [10.17182/hepdata.92006](https://doi.org/10.17182/hepdata.92006)].
+The goal of the project is to develop a benchmarking suite in Python to test and benchmark the performance increase of the hardware accelerated backends on GPUs and TPUs on openly published physics data from LHC experiments [[10.17182/hepdata.89408](https://doi.org/10.17182/hepdata.89408), [10.17182/hepdata.92006](https://doi.org/10.17182/hepdata.92006)].
+The benchmarking suite would preferably be written as a [`pytest`](https://docs.pytest.org/en/latest/) module.
 
 ## Task ideas
 
