@@ -9,7 +9,10 @@ logo: pyhf-logo.png
 
 ## Description
 
-The [HistFactory p.d.f. template](https://cds.cern.ch/record/1456844) is per-se independent of its implementation in ROOT and it is useful to be able to run statistical analysis outside of the ROOT, RooFit, RooStats framework.
+High Energy Physics analyses are performed with statistical computations to ascertain the compatibility of the reported results with the existing Standard Model.
+These computed likelihood fits are performed using tools implemented in [ROOT](https://root.cern.ch/) such as [RooFit](https://root.cern.ch/roofit).
+In many cases, a binned, asymptotic likelihood fit is performed following a mathematical p.d.f. template called [HistFactory](https://cds.cern.ch/record/1456844).
+This HistFactory p.d.f. template is per-se independent of its implementation in ROOT and it is useful to be able to run statistical analysis outside of the ROOT, RooFit, RooStats framework.
 The [`pyhf`](https://github.com/scikit-hep/pyhf) library is a pure-python implementation of that statistical model for multi-bin histogram-based analysis and its interval estimation is based on the asymptotic formulas of "[Asymptotic formulae for likelihood-based tests of new physics](https://arxiv.org/abs/1007.1727)".
 `pyhf` supports modern computational graph libraries such as TensorFlow and PyTorch in order to make use of features such as autodifferentiation and GPU acceleration.
 
