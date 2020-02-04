@@ -15,38 +15,56 @@ The working group was set up as a follow-up of the Physics Event Generator
 Computing Workshop that was held at CERN in November 2018, during which
 an initial program of work in this area was identified.
 
-The working group is currently coordinated by Andrea Valassi,
-Josh McFayden, Stefan Hoeche, Steve Mrenna and Taylor Childers.
-All coordinators can be reached
-via <hsf-generator-wg-convenors@googlegroups.com>.
-
 The mailing list for all WG members is <hsf-generator-wg@googlegroups.com>.
 If you would like to subscribe to this group,
 please click on <https://groups.google.com/group/hsf-generator-wg/subscribe>
 or send an email to [hsf-generator-wg+subscribe@googlegroups.com](mailto:hsf-generator-wg+subscribe@googlegroups.com)
 
-### Physics Event Generator WG meetings, events and other resources
+## Physics Event Generator WG meetings, events and other resources
 
-   * WG meetings and Computing Workshop organization:
+- WG meetings and Computing Workshop organization:
 indico [category](https://indico.cern.ch/category/8460)
-   * Generator document current draft 
+- Generator document current draft
 in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
-   * Andy Buckley's [talk](https://indico.cern.ch/event/708041/contributions/3308937) 
-at ACAT, 15 March 2019, Saas Fee
 
-### Older resources (2018)
+#### Older resources (2019)
 
-   * Computing Workshop debriefing, CERN, 11 December 2018
+- Steve Mrenna's [talk](https://indico.cern.ch/event/813325/contributions/3603456)
+at LAWSCHEP, Mexico City, 21 November 2019
+- Andrea Valassi's [talk](https://indico.cern.ch/event/831054/contributions/3647475/attachments/1948111/3232656/20191120-LHCb-HSFgenerators-v3.pdf)
+at the 12th LHCb Computing Workshop, CERN, 20 November 2019
+- Andy Buckley's [talk](https://indico.cern.ch/event/708041/contributions/3308937) 
+at ACAT, Saas Fee, 15 March 2019
+
+#### Older resources (2018)
+
+- Computing Workshop debriefing, CERN, 11 December 2018:
 [agenda](https://indico.cern.ch/event/778521),
 [minutes](/organization/2018/12/11/generators.html),
 HSF meeting [report](/organization/2018/12/13/coordination.html)
-   * Computing Workshop, CERN, 26-28 November 2018: 
+- Computing Workshop, CERN, 26-28 November 2018: 
 [agenda](https://indico.cern.ch/event/751693),
 [minutes](/organization/2018/11/26/generators.html)
 
-### Older resources (2017)
+#### Older resources (2017)
 
-   * Generator and theory CWP chapter draft:
+- Generator and theory CWP chapter draft:
 [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
 (latest sources and pdf from 11 November 2017 archived
 on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-11_generators)).
+
+## Convenors
+
+#### Current convenors
+
+- Andrea Valassi (2018-2020)
+- Efe Yazgan (2020)
+- Josh McFayden (2018-2020)
+
+All convenors can be reached via <hsf-generator-wg-convenors@googlegroups.com>.
+
+#### Former convenors
+
+- Stefan Hoeche (2018-2019)
+- Steve Mrenna (2018-2019)
+- Taylor Childers (2018-2019)

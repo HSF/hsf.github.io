@@ -2,7 +2,7 @@
 title: CernVM-FS
 project: CernVM-FS
 layout: default
-logo: cernvmfs-logo.png
+logo: CERNVM-FS-logo.png
 description: |
   The CernVM-File System (CernVM-FS) is a global, read-only POSIX file system that provides the universal namespace /cvmfs.
   It is based on content-addressable storage, Merkle trees, and HTTP data transport. CernVM-FS provides a mission

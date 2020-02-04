@@ -21,4 +21,4 @@ vendor/
 
 # common editor backups
 *~
-
+*.swp

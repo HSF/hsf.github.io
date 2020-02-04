@@ -33,12 +33,35 @@ The **PyHEP workshops** are a series of workshops initiated and supported by the
 with the aim to provide an environment to discuss and promote the usage of Python in the HEP community at large.
 
 {:.table .table-hover .table-condensed .table-striped}
-| *Workshop* | *Location*          | *Date*               | *Agenda link*                                                                 |
-| ---------- | ------------------- | ---------------------| ----------------------------------------------------------------------------- |
-| PyHEP 2019 | Abingdon, U.K.      | October 16-18, 2019  | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}   |
-| PyHEP 2018 | Sofia, Bulgaria     | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
+| *Workshop* | *Location*             | *Date*               | *Agenda link*                                                                 |
+| ---------- | ---------------------- | ---------------------| ----------------------------------------------------------------------------- |
+| PyHEP 2020 | Austin, Texas, U.S.A.  | July 11-13, 2020     | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}     |
+| PyHEP 2019 | Abingdon, U.K.         | October 16-18, 2019  | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}     |
+| PyHEP 2018 | Sofia, Bulgaria        | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
 
 The advert and details on these workshops are given below.
+
+## PyHEP 2020
+
+PyHEP 2020 will be held in Austin (Texas), USA, on 11-13 July 2020.
+The workshop will take place in the same city as the [SciPy 2020](https://www.scipy2020.scipy.org/){:target="_scipy2020"}
+conference on scientific computing in Python, and will slightly overlap in time with it,
+to facilitate inter-community exchanges. We encourage HEP participation in SciPy.
+
+The PyHEP 2020 [agenda](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}
+will be composed of plenary sessions; the content is under preparation.
+
+### Organising Committee
+
+Ben Krikler - University of Bristol (Co-chair)<br>
+Eduardo Rodrigues - University of Cincinnati (Chair)<br>
+Jim Pivarski - Princeton University (Co-chair)
+
+**Local organisation**<br>
+Chris Tunnell - Rice University<br>
+Matthew Feickert - University of Illinois at Urbana-Champaign<br>
+Peter Onyisi - The University of Texas at Austin
+
 
 ## PyHEP 2019
 
