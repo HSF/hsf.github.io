@@ -33,5 +33,5 @@ To that end, a test framework and testing methodology must be developed and exec
  * [Costin Grigoras](mailto:consting@cern.ch) (backup)
 
 ## Links
- * [JAliEn git repository](https://gitlab.cern.ch)
+ * [JAliEn git repository](https://gitlab.cern.ch/jalien/jalien)
  * [ALICE Grid monitoring](https://alimonitor.cern.ch)
