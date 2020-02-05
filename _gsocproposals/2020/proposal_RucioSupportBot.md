@@ -9,15 +9,15 @@ organization:
 
 ## Description
 
-Rucio is an open source software framework that provides scientific collaborations with the functionality to organize, manage, and access their volumes of data. Data in Rucio is organized using Data Identifiers (DIDs) which have three levels of granularity viz.: files, datasets and containers, respectively. Datasets are used to organise sets of files in groups and to facilitate bulk operations such as transfers or deletions. Users are permitted to perform certain actions on the DIDs such as downloads, uploads or transfers. Several escalation levels of expert support is available for users in case of problems. When satisfying answers are not found at lower support levels, a request from a user or a group of users can be escalated to the Rucio support. Due to the vast amount of support requests, we are looking into methods to assist the support team in answering these requests. Ideally, the support would be provided by an intelligent bot able to process and understand the user’s requests and finally trigger appropriate action.
+Rucio is an open source software framework that provides scientific collaborations with the functionality to organize, manage, and access their volumes of data. Data in Rucio is organized using Data Identifiers (DIDs) which have three levels of granularity viz.: files, datasets and containers, respectively. Datasets are used to organise sets of files in groups and to facilitate bulk operations such as transfers or deletions. Users are permitted to perform certain actions on the DIDs such as downloads, uploads or transfers. Different levels of expert support are available for users in case of problems. When satisfying answers are not found at lower support levels, a request from a user or a group of users can be escalated to the Rucio support. Due to the vast amount of support requests, we are looking into methods to assist the support team in answering these requests. Ideally, the support would be provided by an intelligent bot able to process and understand the user’s requests and finally trigger appropriate action.
 The Native Language Processing (NLP) is a fairly developed technique used nowadays in many fields requiring the analysis of large chunks of text and automation of actions to be taken. Processing questions from users and providing satisfying answers is an important activity in the Rucio project. This activity could be optimised by prototyping a bot capable to handle user's requests up to a certain level of complexity, and forwarding only the remaining ones to the experts. Developing this prototype requires in a first phase reaching the following milestones.
 
 ## Milestones for GSoC Student
 
  * Input Data: 
    * Creation of text corpus or use of existing one.
-   * Extraction emails from the support mailing lists, preferably through IMAP client.
- * Extraction of the meanings of the input data and and transformations needed for further analysis, preferably with the Natural Language Toolkit (NLTK).
+   * Extraction of emails from the support mailing lists, preferably through IMAP client.
+ * Extraction of the meanings of the input data and transformations needed for further analysis, preferably with the Natural Language Toolkit (NLTK).
    * Creation of a training set and a validation set from the input data. 
    * Development of a tool capable to extract the information from the emails relevant to the data management.
 
