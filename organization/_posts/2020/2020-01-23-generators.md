@@ -4,7 +4,7 @@ layout: meetings
 ---
 # {{page.title}}
 
-*Agenda: https://indico.cern.ch/event/880274*
+*Agenda: <https://indico.cern.ch/event/880274>*
 
 Present: 
 - In the room: Andrea Valassi, Stefan Roiser, Efe Yazgan, Markus Schulz, Josh Bendavid
