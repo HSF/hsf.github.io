@@ -1,5 +1,5 @@
 ---
-title: "HSF Generator Meeting, 25 July 2019"
+title: "HSF Generator Meeting #7, 25 July 2019"
 layout: meetings
 ---
 # {{page.title}}
