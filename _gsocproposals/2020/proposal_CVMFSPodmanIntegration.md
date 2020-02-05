@@ -93,7 +93,7 @@ The code-base will mostly be in Go(lang), hence it is necessary to know the lang
 
 ## Mentors
 
- * [Simone Mosciatti (CERN)][simo]
+ * [Simone Mosciatti (CERN)](mailto:simone.mosciatti@cern.ch)
  * [Giuseppe Scrivano (RedHat)](mailto:giuseppe@scrivano.org)
  * [Jakob Blomer (CERN)](mailto:jblomer@cern.ch@cern.ch)
 

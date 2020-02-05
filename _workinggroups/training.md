@@ -41,7 +41,7 @@ Weekly meetings are usually held at 15h30 CERN time on Mondays. Check
 
 The [HSF-Training GitHub Organization](https://github.com/hsf-training) has [Analysis Essentials](https://hsf-training.github.io/analysis-essentials/), a course on basic computing required for HEP, and [PyHEP resources](https://github.com/hsf-training/PyHEP-resources), a page of Python-focused training resources.
 
-{% assign schools = site.categories.Schools | sort:"date" %}
+{% assign schools = site.data.training-schools | sort:"date" %}
 
 {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
 
