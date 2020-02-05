@@ -32,12 +32,8 @@ layout: plain
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) IJCLab
 * Fabrice Jammes [fabrice.jammes@in2p3.fr](mailto:fabrice.jammes@in2p3.fr) LPC-Clermont
-<<<<<<< HEAD
-* Tomas Javurek [tomas.javurek@cern.ch](mailto:tomas.javurek@cern.ch) CERN
-=======
 * Tomas Javurek [tomas.javurek@cern.ch](tomas.javurek@cern.ch) CERN
 * Frank Krauss [frank.krauss@dur.ac.uk](mailto:frank.krauss@dur.ac.uk) Durham University
->>>>>>> c1423c7f554fcf58e2858a896382ad0a8b99988d
 * Valentin Kuznetsov [vkuznet@gmail.com](mailto:vkuznet@gmail.com) Cornell University, USA
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
