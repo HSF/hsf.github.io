@@ -4,7 +4,7 @@ layout: meetings
 ---
 # {{page.title}}
 
-*Agenda: https://indico.cern.ch/event/821205*
+*Agenda: <https://indico.cern.ch/event/821205>*
 
 *Present/Contributors: Abid (BNL), Andrea Valassi (partly), Efe Yazgan, Frank Siegert, Holger, Josh Bendavid, Josh McFayden, Liz Sexton-Kennedy, Meifeng, Qiang, Stephen Jiggins, Steve Mrenna, Torre Wenaus, Walter Hopkins, Taylor Childers, Kyle Fielman*
 
