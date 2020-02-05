@@ -60,3 +60,4 @@ layout: plain
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Tobias Weinzierl [tobias.weinzierl@durham.ac.uk](mailto:tobias.weinzierl@durham.ac.uk) Durham University
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) CERN
+* Joseph Boudreau [boudreau@pitt.edu](mailto:boudreau@pitt.edu) University of Pittsburgh
