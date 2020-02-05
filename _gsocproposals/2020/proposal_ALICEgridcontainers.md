@@ -34,4 +34,4 @@ To that end, a test framework and testing methodology must be developed and exec
 
 ## Links
  * [JAliEn git repository](https://gitlab.cern.ch/jalien/jalien)
- * [ALICE Grid monitoring](https://alimonitor.cern.ch)
+ * [ALICE Grid monitoring](http://alimonitor.cern.ch)
