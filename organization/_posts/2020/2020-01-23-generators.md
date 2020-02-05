@@ -30,7 +30,7 @@ There is one postdoc at Argonne working on an ATLAS qualification task on these 
 
 Qiang: starting with any specific MadGraph version? Answer: did not get to integrating with MG yet, but plan to use the version used in CMS.
 
-Taylor: there are frameworks like kokkos which are more portable than CUDA. StefanR: we also have a workshop upcoming in April on alpaka, including one day of public training on April 27 (https://indico.cern.ch/event/858758), plus three days of hands-on (https://indico.cern.ch/event/867700, but this is by invitation only and slots are already full). Walter: could be very interesting for our use case.
+Taylor: there are frameworks like kokkos which are more portable than CUDA. StefanR: we also have a workshop upcoming in April on alpaka, including one day of public training on April 27 (<https://indico.cern.ch/event/858758>), plus three days of hands-on (<https://indico.cern.ch/event/867700>, but this is by invitation only and slots are already full). Walter: could be very interesting for our use case.
 
 JoshMF: will you work also on the event generation (gSPRING)? From an analyser's point of view, integration is the most painful part, but overall the largest time spent is event generation. Walter: apparently gSPRING already exists, but have not obtained Junichi's code yet. 
 
@@ -153,4 +153,4 @@ Aim for one meeting per month on average, more frequently when needed (e.g. whil
 Possible topics for some of the next meetings:
 - Update by JoshMF about reproducible setups to run generators in a configuration representative of the actual ATLAS/CMS use cases?
 - Discussion (by Steve Mrenna?) about the HDF5 format for parton level events (this is an HPC friendly replacement for LHE Les Houches Event files, which are in ASCII format)
-- Suggestion by StefanH: presentation by Enrico Bothmann of his work on NN integration (see http://arxiv.org/abs/arXiv:2001.05478 and http://arxiv.org/abs/arXiv:2001.05486)
+- Suggestion by StefanH: presentation by Enrico Bothmann of his work on NN integration (see <http://arxiv.org/abs/arXiv:2001.05478> and <http://arxiv.org/abs/arXiv:2001.05486>)
