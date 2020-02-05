@@ -1,4 +1,8 @@
-# HSF Generator WG Meeting, 23 January 2020
+---
+title: "HSF Generator Meeting, 23 January 2020"
+layout: meetings
+---
+# {{page.title}}
 
 *Agenda: https://indico.cern.ch/event/880274*
 
