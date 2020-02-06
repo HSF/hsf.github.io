@@ -1,7 +1,7 @@
 ---
 title: Simulating Dark Matter with Strong Gravitational Lensing
 layout: gsoc_proposal
-project: DeepLense
+project: DEEPLENSE
 year: 2020
 organization:
   - Alabama
