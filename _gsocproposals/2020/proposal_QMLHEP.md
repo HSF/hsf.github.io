@@ -23,12 +23,12 @@ With this project we seek to implement Quantum Machine Learning methods for LHC 
 
 ## Expected results
   * A program that implemented a Quantum Variational method or a Quantum Neural Network method based on Google OpenFermion framework.
-  * Successfully run Quantum Machine Learning methods with some LHC physics data and get some benchmarks comparing with classical machine learning methods.
-  * (Optional or partly) A program which can be easily used to apply different physics data and different quantum frameworks.
+  * Successfully apply the Quantum Machine Learning method to LHC physics analyses and obtain performance benchmarks to compare to classical machine learning methods.
+  * (Optional or partly) A program which can be easily used as a QML interface for HEP to support different quantum frameworks.
 
 ## Requirements 
   * Solid knowledge of machine learning and deep learning
-  * Solid knowledge of quantum mechanics.
+  * Solid knowledge of quantum mechanics
   * Familiarity with c/c++
   * Strong python skills
 
