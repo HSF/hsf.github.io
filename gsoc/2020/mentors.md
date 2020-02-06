@@ -25,6 +25,8 @@ layout: plain
 * Matthew Feickert [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch) University of Illinois at Urbana-Champaign
 * Gabriele Gaetano Fronzé [gabriele.gaetano.fronze@cern.ch](mailto:gabriele.gaetano.fronze@cern.ch) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
+* Sergei V. Gleyzer [sergei@cern.ch](mailto:sergei@cern.ch) University of Alabama
+* Wen Guan [wen.guan@cern.ch](mailto:wen.guan@cern.ch) University of Wisconsin-Madison
 * Andrew Hanushevsky [abh@slac.stanford.edu](mailto:abh@slac.stanford.edu) SLAC
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) IJCLab
@@ -51,7 +53,9 @@ layout: plain
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Giordon Stark [giordon.holtsberg.stark@cern.ch](mailto:giordon.holtsberg.stark@cern.ch) SCIPP, University of California, Santa Cruz
+* Shaojun Sun [shaojun.sun@cern.ch](mailto:shaojun.sun@cern.ch) University of Wisconsin-Madison
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Tobias Weinzierl [tobias.weinzierl@durham.ac.uk](mailto:tobias.weinzierl@durham.ac.uk) Durham University
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) CERN
+* Chen Zhou [chen.zhou@cern.ch](mailto:chen.zhou@cern.ch) University of Wisconsin-Madison
