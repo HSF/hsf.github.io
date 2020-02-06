@@ -1,6 +1,6 @@
 ---
 title: "University of Wisconsin–Madison"
-author: "Sau Lan Wu"
+author: "Shaojun Sun"
 layout: default
 organization: Wisconsin
 logo: wisconsin_logo.png
