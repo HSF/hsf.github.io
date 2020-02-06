@@ -9,17 +9,18 @@ layout: plain
 * Christian Ariza [christian.ariza@gmail.com](mailto:christian.ariza@gmail.com) CERN
 * Chris Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) IJCLab
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
-* Bertrand Bellenot [Bertrand.Bellenot@cern.ch](mailto:Bertrand.Bellenot@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) University of Wuppertal
+* Bertrand Bellenot [Bertrand.Bellenot@cern.ch](mailto:Bertrand.Bellenot@cern.ch) CERN
 * Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
 * Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
 * Ken Bloom [kenbloom@unl.edu](mailto:kenbloom@unl.edu) University of Nebraska-Lincoln
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) Morgridge Institute for Research
+* Joseph Boudreau [boudreau@pitt.edu](mailto:boudreau@pitt.edu) University of Pittsburgh
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) University of Glasgow
 * Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
 * Yvan Calas [yvan.calas@cc.in2p3.fr](mailto:yvan.calas@cc.in2p3.fr) CC-IN2P3
-* Philippe Canal [pcanal@gnal.gov](mailto:pcanal@gnal.gov) Fermilab
+* Philippe Canal [pcanal@fnal.gov](mailto:pcanal@fnal.gov) Fermilab
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
@@ -60,4 +61,3 @@ layout: plain
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Tobias Weinzierl [tobias.weinzierl@durham.ac.uk](mailto:tobias.weinzierl@durham.ac.uk) Durham University
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) CERN
-* Joseph Boudreau [boudreau@pitt.edu](mailto:boudreau@pitt.edu) University of Pittsburgh
