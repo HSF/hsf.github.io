@@ -25,7 +25,6 @@ layout: plain
 * Matthew Feickert [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch) University of Illinois at Urbana-Champaign
 * Gabriele Gaetano Fronzé [gabriele.gaetano.fronze@cern.ch](mailto:gabriele.gaetano.fronze@cern.ch) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
-* Sergei V. Gleyzer [sergei@cern.ch](mailto:sergei@cern.ch) University of Alabama
 * Wen Guan [wen.guan@cern.ch](mailto:wen.guan@cern.ch) University of Wisconsin-Madison
 * Andrew Hanushevsky [abh@slac.stanford.edu](mailto:abh@slac.stanford.edu) SLAC
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
