@@ -29,7 +29,9 @@ The benchmarking suite would preferably be written as a [`pytest`](https://docs.
 
 ## Expected results
 
-By the end of Summer 2020, we would like to have a robust benchmarking system for evaluating the performance of hardware accelerated `pyhf` on GPUs and TPUs, along with detailed documentation and report for the `pyhf` website.
+By the end of Summer 2020, we would like to have a benchmarking suite written in Python (preferably using `pytest`) that can test and compare the performance of all the `pyhf` computational backends in fitting openly published likelihoods from the LHC.
+This will require modularity in the benchmarking suite to allow it to be used on new data.
+There is particular interest in also having the student use the benchmarking suite they developed to evaluate the performance of hardware accelerated `pyhf` on GPUs and TPUs, along with detailed documentation and a report for the `pyhf` website.
 
 ## Evaluation tasks
 
