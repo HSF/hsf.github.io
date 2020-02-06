@@ -18,11 +18,13 @@ layout: plain
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) Morgridge Institute for Research
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) University of Glasgow
 * Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
+* Tom Byrne [tom.byrne@stfc.ac.uk](mailto:tom.byrne@stfc.ac.uk) STFC
 * Yvan Calas [yvan.calas@cc.in2p3.fr](mailto:yvan.calas@cc.in2p3.fr) CC-IN2P3
 * Philippe Canal [pcanal@gnal.gov](mailto:pcanal@gnal.gov) Fermilab
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
+* Alastair Dewhurst [alastair.dewhurst@stfc.ac.uk](mailto:alastair.dewhurst@stfc.ac.uk) STFC
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Matthew Feickert [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch) University of Illinois at Urbana-Champaign
 * Aristeidis Fkiaras [aristeidis.fkiaras@cern.ch](mailto:aristeidis.fkiaras@cern.ch) CERN
@@ -33,6 +35,7 @@ layout: plain
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) IJCLab
 * Fabrice Jammes [fabrice.jammes@in2p3.fr](mailto:fabrice.jammes@in2p3.fr) LPC-Clermont
 * Tomas Javurek [tomas.javurek@cern.ch](tomas.javurek@cern.ch) CERN
+* Ian Johnson [ian.johnson@stfc.ac.uk](mailto:ian.johnson@stfc.ac.uk) STFC
 * Frank Krauss [frank.krauss@dur.ac.uk](mailto:frank.krauss@dur.ac.uk) Durham University
 * Valentin Kuznetsov [vkuznet@gmail.com](mailto:vkuznet@gmail.com) Cornell University, USA
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
@@ -54,6 +57,7 @@ layout: plain
 * Henry Schreiner [henryfs@princeton.edu](mailto:henryfs@princeton.edu) Princeton University
 * Giuseppe Scrivano [giuseppe@scrivano.org](mailto:giuseppe@scrivano.org) RedHat
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
+* Sam Skipsey [samuel.skipsey@glasgow.ac.uk](mailto:samuel.skipsey@glasgow.ac.uk) University of Glasgow
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Giordon Stark [giordon.holtsberg.stark@cern.ch](mailto:giordon.holtsberg.stark@cern.ch) SCIPP, University of California, Santa Cruz
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
