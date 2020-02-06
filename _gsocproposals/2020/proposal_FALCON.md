@@ -27,7 +27,7 @@ Strong development skills, good knowledge of C++ and Python. Interest in Machine
   * [Harrison Prosper](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
   * [Sergei Gleyzer](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
   * [Sitong An](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
-  * [Omar Zapata](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
+
 ## Links
   * [FALCON paper](http://inspirehep.net/record/1456803)
   * [http://root.cern](http://root.cern)

@@ -23,9 +23,7 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 Strong Python and C++ skills, solid knowledge of deep learning, familiarity with PyTorch
 
 ## Mentors
-  * [Stefan Wunsch](mailto:stefan.wunsch@cern.ch)
   * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
-  * [Omar Zapata](mailto:Omar.Zapata@cern.ch)
 
 ## Links
   * [http://root.cern/tmva](http://root.cern/tmva)

@@ -27,7 +27,7 @@ This project will focus on benchmarking, implementation and compression of deep 
 Python, C++, and some previous experience in Machine Learning. 
 
 ## Mentors
-  * [Mujeon Kim](mailto:pq8556@ufl.edu) 
+  * [Mujeon Kim](mailto:pq8556@ufl.edu)
   * [Ali Hariri]()
   * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) 
 

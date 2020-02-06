@@ -28,7 +28,7 @@ Python, C++, and some previous experience in Machine Learning.
   * [Evan McDonough](mailto:evan_mcdonough@brown.edu )
   * [Michael Toomey](mailto:michael_toomey@brown.edu)
   * [Stephon Alexander](mailto:stephon_alexander@brown.edu)
-  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) 
+  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch)
 
 ## Links
   * [Paper ](https://arxiv.org/abs/1909.07346)
