@@ -4,7 +4,8 @@ layout: gsoc_proposal
 project: QMLHEP
 year: 2020
 organization:
-
+   -Wisconsin
+   -Alabama
 ---
 
 # Description
@@ -12,7 +13,7 @@ The ambitious [HL-LHC](https://hilumilhc.web.cern.ch) program will require enorm
 
 Discovery of new physics requires the identification of rare signals against immense backgrounds. Development of machine learning methods will greatly enhance our ability to achieve this objective. However, with this ever-growing volume of data in the near future, current machine learning algorithms will require large computing resources and excessive computing time to achieve good performance. Quantum Computing in Qubit platform, where qubits are used instead of bits in classical computer, has the potential to improve the time complexity of classical algorithms.
 
-We have successfully applied Quantum Machine Learning (QML) for LHC HEP analysis with IBM quantum simulators and IBM quantum hardware. With this project we seek to implement Quantum Machine Learning methods for LHC HEP analysis based on Google OpenFermion framework (“OpenFermion is an open source library for compiling and analyzing quantum algorithms to simulate fermionic systems”). This will enhance the ability of the HEP community to use Quantum Machine Learning methods. In addition, if possible, we also would like to develop a common QML interface for HEP which can support different quantum frameworks such as OpenFermion and qisikit.
+With this project we seek to implement Quantum Machine Learning methods for LHC HEP analysis based on Google OpenFermion framework (“OpenFermion is an open source library for compiling and analyzing quantum algorithms to simulate fermionic systems”). This will enhance the ability of the HEP community to use Quantum Machine Learning methods. In addition, if possible, we also would like to develop a common QML interface for HEP which can support different quantum frameworks such as OpenFermion and qisikit.
 
 
 ## Task ideas and expected results
