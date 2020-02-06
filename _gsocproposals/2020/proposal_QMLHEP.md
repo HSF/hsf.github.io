@@ -38,7 +38,8 @@ With this project we seek to implement Quantum Machine Learning methods for LHC 
   * [Shaojun Sun](mailto:shaojun.sun@cern.ch) University of Wisconsin-Madison
   * [Chen Zhou](mailto:chen.zhou@cern.ch) University of Wisconsin-Madison
   * [Sergei V. Gleyzer](mailto:sergei@cern.ch) University of Alabama
-  
+  * [If interested in this proposal, please contact] (mailto: hgg-wisc@cern.ch)
+
 ## Links
   * [HL-LHC](https://hilumilhc.web.cern.ch)
   * [LHC](https://home.cern/science/accelerators/large-hadron-collider)
