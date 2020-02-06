@@ -1,6 +1,6 @@
 ---
 
-project: DeepLense
+project: DEEPLENSE
 layout: default
 logo: DEEPLENSE-logo.png
 description: |
