@@ -4,7 +4,7 @@ author: "Benedikt Hegner"
 layout: default
 ---
 
-# ![CERN](/images/CERN-logo.jpg){:height="100px"} ![HSF](/images/hsf_logo_angled.png){:height="100px"} Google Summer of Code 2020
+# ![CERN](/images/CERN-HSF-GSoC-logo.png){:height="100px"} Google Summer of Code 2020
 
 ## Introduction
 
