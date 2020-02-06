@@ -11,11 +11,15 @@ organization:
 # Description
 
 Toolkit for Multivariate Analysis [(TMVA)](http://root.cern/tmva) is a multi-purpose machine learning toolkit integrated into the [ROOT](http://root.cern) scientific software framework, used in many particle physics data analysis and applications. We provide in TMVA the functionality for building deep neural networks including fully connected, convolutional and recurrent layers. 
-This project will focus on development of missing deep learning operations which will allow to build more complex networks within TMVA and with the aim to provide a fast inference engine. The operators we are planning to implement  will allow the merge of the output of different layers using concatenation or addition. 
+This project will focus on development of some deep learning operators such as layer concatenation or merging that will allow the build of more complex networks such as ResNet within TMVA and with the aim to provide a fast inference engine. 
+
 
 ## Task ideas and expected results
-  * Support for concatenation and addition of layers
-  * Integration with existing inference library 
+ * Support for concatenation and addition of layers
+ * Integration with existing inference library 
+
+## Expected Results:
+ * Production ready inference engine for Resnet like neural network completed with example tests and documentation
 
 ## Requirements 
 Strong C++ skills, solid knowledge of deep learning, familiarity with GPUs

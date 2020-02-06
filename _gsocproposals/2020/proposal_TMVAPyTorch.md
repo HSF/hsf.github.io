@@ -11,7 +11,7 @@ organization:
 
 # Description
 
-Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning toolkit integrated into the ROOT scientific software framework, used in many particle physics data analysis and applications. TMVA provides functionality for building deep neural networks including fully connected, convolutional and recurrent layers. In addition, TMVA provides interfaces to other deep learning frameworks (scikit-learn, Keras). This project will focus on the development of an interface to PyTorch which will leverage existing PyKeras TMVA interface.
+Toolkit for Multivariate Analysis [(TMVA)](http://root.cern/tmva) is a multi-purpose machine learning toolkit integrated into the [ROOT](http://root.cern)  scientific software framework, used in many particle physics data analysis and applications. TMVA provides functionality for building deep neural networks including fully connected, convolutional and recurrent layers. In addition, TMVA provides interfaces to other deep learning frameworks (scikit-learn, Keras). This project will focus on the development of an interface to [PyTorch](https://pytorch.org/) which will leverage existing PyKeras TMVA interface.
 
 
 ## Task ideas and expected results
