@@ -5,6 +5,7 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
+* Darin Acosta [acostad@ufl.edu](mailto:acostad@ufl.edu) University of Florida
 * Stephon Alexander [stephon_alexander@brown.edu ](mailto:stephon_alexander@brown.edu ) Brown University
 * Guilherme Amadio [amadio@cern.ch](mailto:amadio@cern.ch) CERN
 * Sitong An [s.an@cern.ch](mailto:s.an@cern.ch) CERN
@@ -48,6 +49,7 @@ layout: plain
 * Federica Legger [federica.legger@to.infn.it](mailto:federica.legger@to.infn.it) Universita e INFN Torino
 * Riccardo Di Maria [Riccardo.Di.Maria@cern.ch](mailto:Riccardo.Di.Maria@cern.ch) CERN
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) Universite Catholique de Louvain
+* Evan McDonough [evan_mcdonough@brown.edu](mailto:evan_mcdonough@brown.edu) Brown University
 * Lorenzo Moneta [Lorenzo.Moneta@cern.ch](mailto:Lorenzo.Moneta@cern.ch) CERN
 * Simone Mosciatti [simone.mosciatti@cern.ch](mailto:simone.mosciatti@cern.ch) CERN
 * Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst

@@ -25,6 +25,8 @@ Strong C++ skills, solid knowledge of deep learning, familiarity with GPUs
 ## Mentors
   * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
   * [Akshay Vashistha](mailto:akshayvashistha1995@gmail.com)
+  
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
 
 ## Links
   * [http://root.cern/tmva](http://root.cern/tmva)

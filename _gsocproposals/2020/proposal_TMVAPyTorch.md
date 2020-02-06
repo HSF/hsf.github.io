@@ -15,8 +15,12 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 
 
 ## Task ideas and expected results
-  * Production-ready TMVA interface to PyTorch
-  * Tests, Examples and documentation
+ * Create working version of PyTorch interfaces based on PyKeras TMVA interface 
+ * Create tests and examples based on test suite in TMVA
+
+## Expected Results
+ * Production-ready TMVA interface to PyTorch
+
 
 
 ## Requirements 
@@ -24,6 +28,9 @@ Strong Python and C++ skills, solid knowledge of deep learning, familiarity with
 
 ## Mentors
   * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
+  * [Akshay Vashistha](mailto:akshayvashistha1995@gmail.com)
+
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
 
 ## Links
   * [http://root.cern/tmva](http://root.cern/tmva)

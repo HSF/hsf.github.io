@@ -7,7 +7,6 @@ organization:
   - CERN
   - Alabama
   - Florida
-  - AUB
 ---
 
 ## Description
@@ -22,14 +21,21 @@ This project will focus on benchmarking, implementation and compression of deep 
  * Development of DL compression algorithms for optimized inference
  * Prototyping of emulation of the DL-based trigger inference within realistic latency requirements
 
+## Task ideas and expected results
+ * Functional prototype emulator for deep-learning based trigger task of muon momentum assignment for fully connected networks
+ * Functional prototype emulator for deep-learning based trigger task of muon momentum assignment for convolutional and graph networks
+ * Benchmarks of deep network model inference for muon momentum assignment for prompt and displaced muons
+
 
 ## Requirements
 Python, C++, and some previous experience in Machine Learning. 
 
 ## Mentors
   * [Mujeon Kim](mailto:pq8556@ufl.edu)
-  * [Ali Hariri]()
+  * [Darin Acosta](acostad@ufl.edu)
   * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) 
+
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
 
 ## Links
   * [Paper ](https://iopscience.iop.org/article/10.1088/1742-6596/1085/4/042042)
