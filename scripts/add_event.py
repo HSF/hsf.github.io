@@ -94,7 +94,7 @@ class EventDatabase(object):
 
 
 if __name__ == "__main__":
-    path = Path("__file__").resolve().parent.parent / "_data" / "training-schools.yml"
+    path = Path(__file__).resolve().parent.parent / "_data" / "training-schools.yml"
     if path.is_file():
         edb = EventDatabase.from_file(path)
         print(f"Loaded {len(edb.events)} events from database.")
