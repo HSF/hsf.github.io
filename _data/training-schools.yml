@@ -102,6 +102,12 @@
   end_date: 2019-11-01
   source: https://indico.desy.de/indico/event/22731/
   title: 1st Pan-European Advanced School on Statistics in HEP
+- author: Kilian Lieret
+  date: 2019-12-17
+  deadline: ''
+  end_date: 2019-12-19
+  source: http://urssi.us/winterschool/
+  title: URSSI Winter School in Research Software Engineering
 - author: Guillermo Fidalgo
   date: 2020-01-13
   deadline: 2019-10-15
