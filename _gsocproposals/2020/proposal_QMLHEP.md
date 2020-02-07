@@ -28,7 +28,7 @@ With this project we seek to implement Quantum Machine Learning methods for LHC 
 
 ## Requirements 
   * Solid knowledge of machine learning and deep learning
-  * Solid knowledge of quantum mechanics
+  * Some knowledge of quantum mechanics desired
   * Familiarity with c/c++
   * Strong python skills
 
