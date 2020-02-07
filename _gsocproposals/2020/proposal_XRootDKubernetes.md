@@ -32,9 +32,9 @@ A production-ready operator for XRootD, enabling at least **Basic Install** and 
 [Go](https://golang.org), Shell scripting, [Kubernetes](https://kubernetes.io/), C++
 
 ## Mentors
-  * [Yvan Calas](mailto:yvan.calas@cc.in2p3.fr)
-  * [Andrew Hanushevsky](mailto:abh@slac.stanford.edu)
   * [Fabrice Jammes](mailto:fabrice.jammes@in2p3.fr)
+  * [Andrew Hanushevsky](mailto:abh@slac.stanford.edu)
+  * [Yvan Calas](mailto:yvan.calas@cc.in2p3.fr)
   
 ## Links
   * [Operator framework](https://github.com/operator-framework)
