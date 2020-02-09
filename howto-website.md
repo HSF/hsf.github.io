@@ -79,8 +79,10 @@ in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and th
 
 For *training events* we have a special handling that lists all of these together on the 
 [Training Working Group page](workinggroups/training.html). To create a new
-entry add a new Markdown file into `Schools/_posts`. The existing entries are a guide to
-the metadata which is needed.
+entry you can either:
+
+1. Run the interactive script ``scripts/add_training_event.py`` (recommended)
+2. Directly edit the ``_data/trainning-schools.yml`` file and add another entry following the structure of the existing entries (note that events are sorted chronologically by starting date)
 
 ### Adding news or announcements
 
