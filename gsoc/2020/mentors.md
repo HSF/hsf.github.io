@@ -20,6 +20,7 @@ layout: plain
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) Morgridge Institute for Research
 * Joseph Boudreau [boudreau@pitt.edu](mailto:boudreau@pitt.edu) University of Pittsburgh
+* Antonio Boveia [antonio.boveia@cern.ch](mailto:antonio.boveia@cern.ch) Ohio State University
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) University of Glasgow
 * Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
 * Tom Byrne [tom.byrne@stfc.ac.uk](mailto:tom.byrne@stfc.ac.uk) STFC
