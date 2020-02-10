@@ -26,4 +26,4 @@ C++
   * [Phil Ilten](mailto:philten@cern.ch)
 
 ## Links
-  * [http://home.thep.lu.se/Pythia/](http://home.thep.lu.se/Pythia/)
+  * [Pythia Home/](http://home.thep.lu.se/~torbjorn/pythia81html/Welcome.html)

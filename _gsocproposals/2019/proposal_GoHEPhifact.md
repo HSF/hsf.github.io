@@ -52,7 +52,7 @@ A package that creates statistical models for multi-bin histogram-based analyses
 
   * [ROOT](https://root.cern)
   * [HistFactory](https://github.com/root-project/root/tree/master/roofit/histfactory/doc)
-  * [pyhf](https://diana-hep.org/pyhf)
+  * [pyhf](https://scikit-hep.org/pyhf/)
   * [Go](https://golang.org)
   * [Go-HEP](https://go-hep.org)
   * [Gonum](https://gonum.org)
