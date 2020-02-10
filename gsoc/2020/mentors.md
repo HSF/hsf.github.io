@@ -35,7 +35,7 @@ layout: plain
 * Gabriele Gaetano Fronzé [gabriele.gaetano.fronze@cern.ch](mailto:gabriele.gaetano.fronze@cern.ch) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) University of Alabama
-* Costin Grigoras [consting@cern.ch](consting@cern.ch) CERN
+* Costin Grigoras [consting@cern.ch](mailto:consting@cern.ch) CERN
 * Wen Guan [wen.guan@cern.ch](mailto:wen.guan@cern.ch) University of Wisconsin-Madison
 * Andrew Hanushevsky [abh@slac.stanford.edu](mailto:abh@slac.stanford.edu) SLAC
 * Nikola Hardi [nhardi@cern.ch](mailto:nhardi@cern.ch) CERN

@@ -32,7 +32,7 @@ Python, C++, and some previous experience in Machine Learning.
 
 ## Mentors
   * [Mujeon Kim](mailto:pq8556@ufl.edu)
-  * [Darin Acosta](acostad@ufl.edu)
+  * [Darin Acosta](mailto:acostad@ufl.edu)
   * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) 
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 

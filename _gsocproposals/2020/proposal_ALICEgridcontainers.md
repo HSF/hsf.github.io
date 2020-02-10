@@ -8,7 +8,7 @@ organization:
 ---
 
 ## Description
-The [ALICE Experiment](https://web.cern.ch) at the [CERN](https://home.cern) LHC relies on the [WLCG](https://wlcg.web.cern.ch/), Worldwide LHC Computing Grid, for processing and analysing large quantities of its data. With clusters spread across hundreds [computing sites](http://alimonitor.cern.ch/map.jsp) worldwide, most of the computing resources provided by these sites vary greatly in both hardware and configurations.
+The [ALICE Experiment](https://home.cern/science/experiments/alice) at the [CERN](https://home.cern) LHC relies on the [WLCG](https://wlcg.web.cern.ch/), Worldwide LHC Computing Grid, for processing and analysing large quantities of its data. With clusters spread across hundreds [computing sites](http://alimonitor.cern.ch/map.jsp) worldwide, most of the computing resources provided by these sites vary greatly in both hardware and configurations.
 
 To assure compatibility with the software requirements of its applications, ALICE is moving towards a [new framework](https://gitlab.cern.ch/jalien/jalien) for executing tasks on the Grid using containers. To execute containers, the sites must meet a series of prerequisites both in terms of operating system and container handling software. The readiness of the site to run containers must be ensured before configuring the task submission using the ALICE container framework.
 

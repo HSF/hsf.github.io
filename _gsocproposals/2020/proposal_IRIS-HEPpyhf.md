@@ -3,7 +3,7 @@ title: pyhf Hardware Acceleration Benchmarking with GPUS and TPUs
 layout: gsoc_proposal
 project: IRIS-HEP
 year: 2020
-organization: University of Illinois at Urbana-Champaign
+organization: IllinoisUC
 logo: pyhf-logo.png
 ---
 

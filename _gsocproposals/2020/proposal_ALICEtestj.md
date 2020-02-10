@@ -8,7 +8,7 @@ organization:
 ---
 
 ## Description
-The [ALICE Experiment](https://alice.cern.ch) at the [CERN](https://home.cern) LHC is preparing for the restart of the [LHC](https://home.cern/science/accelerators/large-hadron-collider) (Run3) in 2021. To that end, a new Grid framework [JAliEn](https://gitlab.cern.ch/jalien/jalien) with extended capabilities is being developed and tested as the successor of the [AliEn](https://alien.web.cern.ch) framework.
+The [ALICE Experiment](https://home.cern/science/experiments/alice) at the [CERN](https://home.cern) LHC is preparing for the restart of the [LHC](https://home.cern/science/accelerators/large-hadron-collider) (Run3) in 2021. To that end, a new Grid framework [JAliEn](https://gitlab.cern.ch/jalien/jalien) with extended capabilities is being developed and tested as the successor of the [AliEn](https://alien.web.cern.ch) framework.
 
 This framework will be deployed on a set of central services as well as on more than 80 individual [computing sites](http://alimonitor.cern.ch/map.jsp), which provide CPU and storage resources for ALICE.
 
@@ -35,4 +35,4 @@ In this project, the student will develop a procedure for creating a JCentral re
 
 ## Links
  * [JAliEn git repository](https://gitlab.cern.ch/jalien/jalien)
- * [ALICE Grid Monitoring](https://alimonitor.cern.ch)
+ * [ALICE Grid Monitoring](http://alimonitor.cern.ch)
