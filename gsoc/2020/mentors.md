@@ -29,6 +29,7 @@ layout: plain
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
 * Alastair Dewhurst [alastair.dewhurst@stfc.ac.uk](mailto:alastair.dewhurst@stfc.ac.uk) STFC
+* Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) Lund University
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Matthew Feickert [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch) University of Illinois at Urbana-Champaign
 * Aristeidis Fkiaras [aristeidis.fkiaras@cern.ch](mailto:aristeidis.fkiaras@cern.ch) CERN
