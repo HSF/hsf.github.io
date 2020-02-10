@@ -4,8 +4,8 @@ layout: gsoc_proposal
 project: QMLHEP
 year: 2020
 organization:
-   - Wisconsin
-   - Alabama
+ - Wisconsin
+ - Alabama
 ---
 
 # Description

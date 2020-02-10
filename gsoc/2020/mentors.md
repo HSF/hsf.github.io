@@ -35,8 +35,10 @@ layout: plain
 * Gabriele Gaetano Fronzé [gabriele.gaetano.fronze@cern.ch](mailto:gabriele.gaetano.fronze@cern.ch) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Sergei Gleyzer [Sergei.Gleyzer@cern.ch](mailto:Sergei.Gleyzer@cern.ch) University of Alabama
+* Costin Grigoras [consting@cern.ch](mailto:consting@cern.ch) CERN
 * Wen Guan [wen.guan@cern.ch](mailto:wen.guan@cern.ch) University of Wisconsin-Madison
 * Andrew Hanushevsky [abh@slac.stanford.edu](mailto:abh@slac.stanford.edu) SLAC
+* Nikola Hardi [nhardi@cern.ch](mailto:nhardi@cern.ch) CERN
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) IJCLab
 * Fabrice Jammes [fabrice.jammes@in2p3.fr](mailto:fabrice.jammes@in2p3.fr) LPC-Clermont
@@ -69,6 +71,7 @@ layout: plain
 * Sam Skipsey [samuel.skipsey@glasgow.ac.uk](mailto:samuel.skipsey@glasgow.ac.uk) University of Glasgow
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Giordon Stark [giordon.holtsberg.stark@cern.ch](mailto:giordon.holtsberg.stark@cern.ch) SCIPP, University of California, Santa Cruz
+* Maksim Storetvedt [maksim.melnik.storetvedt@cern.ch](mailto:maksim.melnik.storetvedt@cern.ch) CERN
 * Shaojun Sun [shaojun.sun@cern.ch](mailto:shaojun.sun@cern.ch) University of Wisconsin-Madison
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Michael Toomey [michael_toomey@brown.edu](mailto:michael_toomey@brown.edu) Brown University

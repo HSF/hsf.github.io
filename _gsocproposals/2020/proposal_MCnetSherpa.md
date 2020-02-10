@@ -45,6 +45,6 @@ The following tasks are envisaged:
 
 ## Links
 
- * [SHERPA](https://https://gitlab.com/sherpa-team/sherpa)
+ * [SHERPA](https://gitlab.com/sherpa-team/sherpa)
  * [Frank Krauss](https://www.ippp.dur.ac.uk/profile/krauss)
  * [Tobias Weinzierl](http://www.peano-framework.org/index.php/tobias-weinzierl/)
