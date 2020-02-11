@@ -15,25 +15,25 @@ Toolkit for Multivariate Analysis [(TMVA)](http://root.cern/tmva) is a multi-pur
 
 ## Task ideas and expected results
  * Create alpha version of GNN in TMVA based on existing DL suite
- * GPU support for GNN training and inference 
+ * GPU support for GNN training and inference
 
 
 ## Expected results
  * Prototype of basic GNN classes in the TMVA-DNN infrastructure
  * Tests of the classes for simple use cases
+ * Allow for support of GNN in the proposed TMVA inference engine in the long term
 
 
-## Requirements 
+## Requirements
 Strong C++ skills, solid knowledge of deep learning, familiarity with GPUs
 
 ## Mentors
   * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
   * [Sitong An](mailto:s.an@cern.ch)
-  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) 
+  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch)
 
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you.
 
 ## Links
   * [http://root.cern/tmva](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-project/root/tree/master/tmva)
-

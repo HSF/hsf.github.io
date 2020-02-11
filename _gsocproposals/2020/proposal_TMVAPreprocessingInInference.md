@@ -1,5 +1,5 @@
 ---
-title: TMVA Deep Learning Developments - Inference
+title: TMVA Deep Learning Developments - Data preprocessing in inference
 layout: gsoc_proposal
 project: TMVA
 year: 2020
@@ -11,19 +11,19 @@ organization:
 
 Toolkit for Multivariate Analysis [(TMVA)](http://root.cern/tmva) is a multi-purpose machine learning toolkit integrated into the [ROOT](http://root.cern) scientific software framework, used in many particle physics data analysis and applications. We provide in TMVA the functionality for building deep neural networks including fully connected, convolutional and recurrent layers. For the next stage of development of TMVA, we aim to provide a fast and convenient inference engine that takes ONNX model as input and produces compilation-ready standalone C++ scripts as output. These scripts will then provide users an easy way to deploy their deep learning models in their physics software and analysis frameworks.
 
-This project will focus on development of some missing deep learning operations which will allow to build more complex networks within TMVA. The operators we are planning to implement will allow the merge of the output of different layers using concatenation or addition, leading to the build of more complex networks such as Resnet eventually. Additionally, we also expect to implement LSTM/GRU in the code generation format. The student can choose to build this based on existing implementations in TMVA or build their own from scratch.
+This project will focus on development of some missing deep learning operations which will allow to build more complex networks within TMVA. The operators we are planning to implement will allow the inference code generator to support data preprocessing methods already supported by TMVA training methods, such as variable normalisation and decorrelation.
+
 
 
 
 ## Task ideas and expected results
- * Support for concatenation and addition of layers
- * Support for LSTM/GRU operator in the code generation format
+ * Support of the existent TMVA data preprocessing methods in the new inference engine, in the code generator format
 
 ## Expected Results:
- * Production ready code-generator inference engine for Resnet-like neural network completed with example tests and documentation
+ * Production ready code-generator inference engine that supports common data preprocessing methods
 
-## Requirements 
-Strong C++ skills, solid knowledge of deep learning, familiarity with GPUs
+## Requirements
+Strong C++ skills, solid knowledge of deep learning. Familiarity with GPUs is a plus.
 
 ## Mentors
   * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
