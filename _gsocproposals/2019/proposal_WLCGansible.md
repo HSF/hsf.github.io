@@ -54,6 +54,6 @@ The functions of the Central Configuration Manager are described in the SIMPLE f
 * [SIMPLE Grid Project  : CHEP 2018 Conference Proceedings paper](https://cernbox.cern.ch/index.php/s/OCqVQ55Q3bjzs7x)
 * [SIMPLE Grid Specification Document (Early draft)](https://docs.google.com/document/d/1yp_96UXcwNO49cktnHtT61iNmTO0RgrSQukuNYqACpM/edit#heading=h.3etse5r12l7p)
 * [WLCG](http://wlcg.web.cern.ch/)
-* [Introduction to WLCG](http://litmaath.web.cern.ch/litmaath/grids-intro/WLCG-intro-2019-v4.pdf)
-* [Introduction to WLCG Lightweight Sites](https://indico.jinr.ru/contributionDisplay.py?contribId=219&confId=151)
+* [Introduction to WLCG](http://litmaath.web.cern.ch/litmaath/grids-intro/WLCG-intro-2020-v1.pdf)
+* [Introduction to WLCG Lightweight Sites](https://indico.jinr.ru/event/151/contributions/827/)
 

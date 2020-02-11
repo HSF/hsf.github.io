@@ -44,7 +44,7 @@ layout: plain
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) CERN
 * Julius Hrivnac [hrivnac@lal.in2p3.fr](mailto:hrivnac@lal.in2p3.fr) IJCLab
 * Fabrice Jammes [fabrice.jammes@in2p3.fr](mailto:fabrice.jammes@in2p3.fr) LPC-Clermont
-* Tomas Javurek [tomas.javurek@cern.ch](tomas.javurek@cern.ch) CERN
+* Tomas Javurek [tomas.javurek@cern.ch](mailto:tomas.javurek@cern.ch) CERN
 * Ian Johnson [ian.johnson@stfc.ac.uk](mailto:ian.johnson@stfc.ac.uk) STFC
 * Mujeon Kim [pq8556@ufl.edu](mailto:pq8556@ufl.edu) University of Florida
 * Frank Krauss [frank.krauss@dur.ac.uk](mailto:frank.krauss@dur.ac.uk) Durham University
