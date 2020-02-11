@@ -20,6 +20,7 @@ layout: plain
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
 * Brian Bockelman [bbockelman@morgridge.org](mailto:bbockelman@morgridge.org) Morgridge Institute for Research
 * Joseph Boudreau [boudreau@pitt.edu](mailto:boudreau@pitt.edu) University of Pittsburgh
+* Antonio Boveia [antonio.boveia@cern.ch](mailto:antonio.boveia@cern.ch) Ohio State University
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) University of Glasgow
 * Jon Butterworth [j.butterworth@cern.ch](mailto:j.butterworth@cern.ch) UCL
 * Tom Byrne [tom.byrne@stfc.ac.uk](mailto:tom.byrne@stfc.ac.uk) STFC
@@ -29,6 +30,7 @@ layout: plain
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
 * Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
 * Alastair Dewhurst [alastair.dewhurst@stfc.ac.uk](mailto:alastair.dewhurst@stfc.ac.uk) STFC
+* Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) Lund University
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Matthew Feickert [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch) University of Illinois at Urbana-Champaign
 * Aristeidis Fkiaras [aristeidis.fkiaras@cern.ch](mailto:aristeidis.fkiaras@cern.ch) CERN
