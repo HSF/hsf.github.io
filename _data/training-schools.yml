@@ -141,8 +141,8 @@
   title: Moscow International School of Physics 2020
 - author: Kilian Lieret
   date: 2020-03-16
-  deadline: ''
-  end_date: 2020-03-19
+  deadline: 2020-03-19
+  end_date: 2020-03-18
   source: https://indico.cern.ch/event/853710/
   title: Inverted CERN School of Computing (iCSC 2020)
 - author: Guillermo Fidalgo
