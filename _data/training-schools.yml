@@ -181,3 +181,9 @@
   end_date: 2020-07-17
   source: https://www.eudat.eu/node/1314?action=showcontent&id=1314&idnewsletter=114&guid=4136&source=4&lang=en
   title: EUDAT Summer School 2020 Where data meets HPC
+- author: Kilian Lieret
+  date: 2020-07-27
+  deadline: ''
+  end_date: 2020-07-31
+  source: https://indico.cern.ch/event/888279/
+  title: ATLAS Canada Computing Workshop
