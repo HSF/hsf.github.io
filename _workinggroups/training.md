@@ -43,7 +43,7 @@ The [HSF-Training GitHub Organization](https://github.com/hsf-training) has [Ana
 
 {% assign schools = site.data.training-schools | sort:"date" %}
 
-{% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
+{% capture now %}{{'now' | date: '%s' }}{% endcapture %}
 
 ## Current and Upcoming Training Schools
 #### **Warning** : Application deadlines are **before the date shown**
