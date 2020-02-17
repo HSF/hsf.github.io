@@ -98,13 +98,13 @@
   title: School on Efficient Scientific Computing
 - author: Guillermo Fidalgo
   date: 2019-10-28
-  # deadline: ''
+  deadline: ''
   end_date: 2019-11-01
   source: https://indico.desy.de/indico/event/22731/
   title: 1st Pan-European Advanced School on Statistics in HEP
 - author: Kilian Lieret
   date: 2019-12-17
-  # deadline: ''
+  deadline: ''
   end_date: 2019-12-19
   source: http://urssi.us/winterschool/
   title: URSSI Winter School in Research Software Engineering
@@ -116,7 +116,7 @@
   title: 11th International School of Trigger and Data Acquisition
 - author: Kilian Lieret
   date: 2020-01-21
-  # deadline: ''
+  deadline: ''
   end_date: 2020-02-25
   source: https://indico.cern.ch/event/875393/
   title: CSU Summer Student Computing/Analysis Training 2020
@@ -158,7 +158,7 @@
   title: Alpaka Parallel Programming - Taster Session and Basic Tutorial
 - author: Kilian Lieret
   date: 2020-04-28
-  # deadline:
+  deadline:
   end_date: 2020-04-30
   source: https://indico.cern.ch/event/867700/
   title: Alpaka Parallel Programming - Advanced Training Hackathon
@@ -176,7 +176,7 @@
   title: 2020 CERN-JINR European School of HEP
 - author: Guillermo Fidalgo
   date: 2020-07-13
-  # deadline:
+  deadline: ''
   end_date: 2020-07-17
   source: https://www.eudat.eu/node/1314?action=showcontent&id=1314&idnewsletter=114&guid=4136&source=4&lang=en
   title: EUDAT Summer School 2020 Where data meets HPC
