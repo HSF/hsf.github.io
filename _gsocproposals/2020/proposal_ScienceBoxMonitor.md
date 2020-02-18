@@ -20,7 +20,7 @@ ScienceBox is available in two flavors:
 This project focuses on:
   * Implementing health checks for ScienceBox services running in containers. This ranges from basic probing (e.g., check network sockets/running processes, issue HTTP requests) to the development of custom scripts for functional tests verifying the expected behavior of services.
   * Managing application-level logs through sidecar containers running log parsing and ingestion agents (e.g., [Apache Flume](https://flume.apache.org/)). Ingested metrics should be collected on a centralized storage backend (e.g., [Elastic Search](https://www.elastic.co/products/elasticsearch) or [InfluxDB](https://www.influxdata.com/products/influxdb-overview/)).
-  * Exploring collected metrics interactively (e.g., via [Timber](https://timber.io/) or [Kibana] (https://www.elastic.co/products/kibana)) and creating visualization dashboards (e.g., time-series, heatmaps in [Grafana] (https://grafana.com/) for ScienceBox administrators
+  * Exploring collected metrics interactively (e.g., via [Timber](https://timber.io/) or [Kibana](https://www.elastic.co/products/kibana)) and creating visualization dashboards (e.g., time-series, heatmaps in [Grafana](https://grafana.com/) for ScienceBox administrators
   * Complementing the set of containers provided by ScienceBox with the ones requires for log ingestion, storage, and processing/visualization.
 
 It is encouraged to re-use widely adopted technologies as much as possible.
