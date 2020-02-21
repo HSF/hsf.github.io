@@ -1,11 +1,11 @@
 ---
-title: "HSF Weekly Meeting #180, 13 February, 2019"
+title: "HSF Weekly Meeting #180, 13 February, 2020"
 layout: meetings
 ---
 
 # {{page.title}}
 
-Present/Contributors: Graeme Stewart, Agnieszka Dziurda, Ben K, David L, Andrea R, Maria G, Liz SK, Efe Y, Stefan R, Andrea V, Witek P, Kyle K, Caterina D, Teng Jian Khoo, Ben Morgan 
+Present/Contributors: Graeme Stewart, Agnieszka Dziurda, Ben Krikler, David Lange, Andrea Rizzi, Maria Girone, Liz Sexton-Kennedy, Efe Yazgan, Stefan Roiser, Andrea Valassi, Witek Pokorski, Kyle Knoepfel, Caterina Doglioni, Teng Jian Khoo, Ben Morgan, Philippe Canal, Mark Neubauer, 
 
 Apologies: Pete Mato, Gloria Corti
 
