@@ -5,7 +5,7 @@ layout: meetings
 
 # {{page.title}}
 
-Present/Contributors: Graeme Stewart, Agnieszka Dziurda, Ben Krikler, David Lange, Andrea Rizzi, Maria Girone, Liz Sexton-Kennedy, Efe Yazgan, Stefan Roiser, Andrea Valassi, Witek Pokorski, Kyle Knoepfel, Caterina Doglioni, Teng Jian Khoo, Ben Morgan, Philippe Canal, Mark Neubauer, 
+Present/Contributors: Graeme Stewart, Agnieszka Dziurda, Ben Krikler, David Lange, Andrea Rizzi, Maria Girone, Liz Sexton-Kennedy, Efe Yazgan, Stefan Roiser, Andrea Valassi, Witek Pokorski, Kyle Knoepfel, Caterina Doglioni, Teng Jian Khoo, Ben Morgan, Philippe Canal, Mark Neubauer
 
 Apologies: Pete Mato, Gloria Corti
 
@@ -25,7 +25,7 @@ Apologies: Pete Mato, Gloria Corti
             - Workflows for generators
         - Any further ideas or inputs?
         - Got some general thoughts from Dan Katz that software catalogues take too much work for too little real value (!)
-        - `libraries.io` worth looking at, monitors many open source repositories
+        - [libraries.io](https://libraries.io) worth looking at, monitors many open source repositories
 
 - IRIS-HEP Steering Board, 18 February
     - HSF were asked for feedback for IRIS-HEP
@@ -36,7 +36,7 @@ Apologies: Pete Mato, Gloria Corti
 Now live on the HSF website: *29 Organisations*, *22 Projects*, *45 proposals*
 
 Students will now start to get in touch, next deadline March 20, your evaluation
-of students *based on your interactions and a test*
+of students based on your interactions *and a test*
 
 
 ## LHCC Review of HL-LHC Software and Computing
@@ -101,7 +101,7 @@ ATLAS and CMS documents will be public only after the review
 
 ### Training
 
-- Software Carpentry in March (Carpentries just confirmed tutors)
+- [Software Carpentry in March](https://indico.cern.ch/event/882660/) (Carpentries just confirmed tutors)
 - Discussions on more advanced training are happening
     - [Alpaka general day](https://indico.cern.ch/event/858758/), 27 April
     - [Openlab oneAPI training](https://indico.cern.ch/event/878418/), 24-26 March
