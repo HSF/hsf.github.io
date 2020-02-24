@@ -30,7 +30,7 @@ To that end, a test framework and testing methodology must be developed and exec
 
 ## Mentors
  * [Maksim Storetvedt](mailto:maksim.melnik.storetvedt@cern.ch) (primary)
- * [Costin Grigoras](mailto:costing@cern.ch) (backup)
+ * [Costin Grigoras](mailto:costin.grigoras@cern.ch) (backup)
 
 ## Links
  * [JAliEn git repository](https://gitlab.cern.ch/jalien/jalien)
