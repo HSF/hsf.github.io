@@ -28,9 +28,17 @@ class Event(object):
         self.source = source
         self.author = author
 
-        assert self.end_date >= self.date
+        if not self.end_date >= self.date:
+            raise ValueError(
+                f"End date {self.end_date} is BEFORE the date {self.date} for "
+                f"training event '{self.title}'."
+            )
         if self.deadline:
-            assert self.deadline <= self.date
+            if not self.deadline <= self.date:
+                raise ValueError(
+                    f"Deadline {self.deadline} is after start date {self.date}"
+                    f" for training evnet '{self.title}'."
+                )
         assert self.title
 
     @staticmethod
