@@ -31,7 +31,7 @@ In this project, the student will develop a procedure for creating a JCentral re
 
 ## Mentors
  * [Nikola Hardi](mailto:nhardi@cern.ch) (primary)
- * [Costin Grigoras](mailto:costing@cern.ch) (backup)
+ * [Costin Grigoras](mailto:costin.grigoras@cern.ch) (backup)
 
 ## Links
  * [JAliEn git repository](https://gitlab.cern.ch/jalien/jalien)
