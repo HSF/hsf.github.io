@@ -21,7 +21,7 @@ Apologies: Pete Mato, Gloria Corti
             - Metadata tied to code base of projects?
         - Documentation of workflows
             - Virtual environment for Dark Matter, for end-2-end studies
-            - Caterina and Lukas looking into using Recast, PyHF and ReAna incorporated
+            - Caterina and Lukas looking into using Recast, PyHF and ReAna
             - Workflows for generators
         - Any further ideas or inputs?
         - Got some general thoughts from Dan Katz that software catalogues take too much work for too little real value (!)
