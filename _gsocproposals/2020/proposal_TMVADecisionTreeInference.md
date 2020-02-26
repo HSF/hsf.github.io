@@ -36,3 +36,4 @@ Please DO NOT contact mentors directly by email, and instead please send project
 ## Links
   * [http://root.cern/tmva](http://root.cern/tmva)
   * [TMVA source code](https://github.com/root-project/root/tree/master/tmva)
+  * [xgBoost model, see "Training""dump model"](https://xgboost.readthedocs.io/en/latest/python/python_intro.html)
