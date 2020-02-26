@@ -1,5 +1,5 @@
 ---
-title: TMVA Interfraces - Pytorch
+title: TMVA Interfaces - Pytorch
 layout: gsoc_proposal
 project: TMVA
 year: 2020
