@@ -11,7 +11,7 @@ organization:
 
 Toolkit for Multivariate Analysis [(TMVA)](http://root.cern/tmva) is a multi-purpose machine learning toolkit integrated into the [ROOT](http://root.cern) scientific software framework, used in many particle physics data analysis and applications. We provide in TMVA the functionality for building deep neural networks including fully connected, convolutional and recurrent layers.
 
-We have already a very efficient inference engine for decision tree based ML algorithms developed in TMVA. However, currently this engine only supports xgBoost model files. We would like to expand this support to existing TMVA XML formats and Scikit-learn pickles, as well as to support serialization of the model in ROOT format and conversion of other models into ROOT format.
+We have already a very efficient inference engine for decision tree based ML algorithms developed in TMVA. However, currently this engine only supports [(xgBoost)](https://xgboost.readthedocs.io/en/latest/) model files. We would like to expand this support to existing TMVA XML formats and Scikit-learn pickles, as well as to support serialization of the model in ROOT format and conversion of other models into ROOT format.
 
 
 
