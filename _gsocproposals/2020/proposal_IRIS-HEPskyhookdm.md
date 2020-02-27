@@ -3,7 +3,7 @@ title: Extend SkyhookDM programmable object storage with statistics, sort/aggreg
 layout: gsoc_proposal
 project: IRIS-HEP
 year: 2020
-organization: CROSS/UC Santa Cruz
+organization: CROSS
 ---
 
 ## Description
@@ -15,21 +15,26 @@ Functions are developed using Ceph's dynamic object classes mechanism, and these
 This project proposes extending SkyhookDM with several new functionalities: (1) including data statistics collection, (2) SQL GROUPBY and ORDERBY, and (3) merge/split sub-partitions within an object.  Each of these will be developed as a new object class method that will be applied directly to formatted object data with the following benefits (1) improve query optimization and physical design tuning approaches (stats), (2) extend the types of query processing that can be pushed down into the storage layer (groupby, sort), or (3) improve data read time from disk (compaction).
 
 ## Task ideas
+
  * Implement a new custom method for statistics collection on data partitions stored in objects. [Github Issue](https://github.com/uccross/skyhookdm-ceph/issues/77)
  * Implement compaction of multiple formatted sub-partitions within an object into a single partition.  This could also incorporate compression. [Github Issue](https://github.com/uccross/skyhookdm-ceph/issues/33)
  * Extend current aggregation method to include sort/groupby for formatted database partitions in objects [Github Issue](https://github.com/uccross/skyhookdm-ceph/issues/23)
  
 ## Expected results
+
 The task should be fully functional for data stored in both row and column formats (Flatbuffers and Arrow).  Larger scale experiments of 1--32 node clusters can be conducted on [NSF Cloudlab](https://www.cloudlab.us) to evaluate performance.
 
 ## Requirements
+
 C++, some Python, storage systems or database background preferred
 
 ## Mentors
+
   * [JeffLeFevre](mailto:jlefevre@ucsc.edu)
   * [Aaron Chu](mailto:xchu1@ucsc.edu)
 
 ## Links
+
   * [Skyhook Data Management](http://www.skyhookdm.com)
   * [Ceph](https://ceph.io)
   * [SkyhookDM github repo](https://github.com/uccross/skyhookdm-ceph/wiki)
