@@ -1,5 +1,5 @@
 ---
-title: Extend SkyhookDM programmable object storage functions
+title: Extend SkyhookDM programmable object storage functions with statistics, sort/aggregate, or data compaction.
 layout: gsoc_proposal
 project: IRIS-HEP
 year: 2020
@@ -15,12 +15,12 @@ Functions are developed using Ceph's dynamic object classes mechanism, and these
 This project proposes extending SkyhookDM with several new functionalities: including data statistics collection, SQL GROUPBY and ORDERBY, and merge/split sub-partitions within an object.  Each of these will be develop as a new object class method that will be applied directly to formatted object data in order to (1) improve query optimization and physical design tuning approaches (stats), (2) extend the types of query processing that can be pushed down into the storage layer (groupby, sort), or (3) improve data read time from disk (compaction).
 
 ## Task ideas
- * Implement compaction of multiple formatted sub-partitions within an object into a single partition.  This could also incorporate compression.
- * Implement one or more connectors for the aforementioned library, e.g. a Spark connector.
- * Explore how ROOT’s dataframe class, TDataFrame, can be combined with the aforementioned library to drive the execution in every node of a cluster.
- * Design and develop a programming model to facilitate the submission of distributed ROOT jobs from a Jupyter notebook, possibly involving JavaScript graphics.
- * Perform tests with real code coming from CERN experiments (CMS, TOTEM).
-
+ * Implement a custom method for statistics collection on data partitions stored in objects. [Github Issue](https://github.com/uccross/skyhookdm-ceph/issues/77)
+ * Implement compaction of multiple formatted sub-partitions within an object into a single partition.  This could also incorporate compression. [Github Issue](https://github.com/uccross/skyhookdm-ceph/issues/33)
+ * Extend current aggregations to include sort/groupby for formatted database partitions in objects [Github Issue](https://github.com/uccross/skyhookdm-ceph/issues/23)
+ 
+ 
+ 
 ## Expected results
 Working implementation of a Python library that hides the complexity of submitting distributed ROOT TDataFrame jobs to computational clusters.
 
