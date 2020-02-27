@@ -31,6 +31,7 @@ C++, some Python, storage systems or database background preferred
 
 ## Links
   * [Skyhook Data Management](http://www.skyhookdm.com)
+  * [Ceph](https://ceph.io)
   * [SkyhookDM github repo](https://github.com/uccross/skyhookdm-ceph/wiki)
   * [SkyhookDM custom object classes](https://github.com/uccross/skyhookdm-ceph/tree/skyhook-luminous/src/cls/tabular)
   * [Google Flatbuffers](https://google.github.io/flatbuffers/)
