@@ -1,18 +1,18 @@
 ---
-title: Extend SkyhookDM programmable storage functionality
+title: Extend SkyhookDM programmable object storage functions
 layout: gsoc_proposal
 project: IRIS-HEP
-year: 2018
+year: 2020
 organization: CROSS
 ---
 
 ## Description
 
-The [ROOT](https://root.cern/) Software Framework is the cornerstone of all software stacks used by High Energy Physics (HEP) experiments, at CERN and other prestigious laboratories. It provides components which are fundamental for the entire data processing chain, from particle collisions to final publications, including final user data analysis, including modern machine learning techniques.
+The [Skyhook Data Management](http://www.skyhookdm.com) project extends Ceph distributed object storage to execute data management functions directly within storage at the object level.  Data is partitioned, formatted, and stored into objects and we have created functions that apply SQL operations such SELECT, PROJECT, AGGREGATE, and other custom processing methods.  We have also created methods to apply database physical design techniques such as indexing and transforming object data between row and columnar formats.  SkyhookDM supports loading data from several formats such as CSV, JSON, pyArrow, and [ROOT](https://root.cern/). Users can access SkyhookDM functions via two front-ends, Python and PostgreSQL.
 
-ROOT features a declarative analysis sub-system, [TDataFrame](https://root.cern.ch/doc/master/classROOT_1_1RDataFrame.html), which has proven to be a solution to scale in-process parallel HEP data analysis to ~100 cores with a simple and intuitive programming model.
+Internally, object data is formatted and accessed via two fast in-memory serialization libraries, [Google Flatbuffers]() for row organizations and [Apache Arrow]()for columnar organizations. Ceph Object Storage Devices apply our processing functions to the formatted object data using the corresponding APIs of each format.  Furthermore, data partitions are mapped to objects via several partitioning methods including JumpConsistent Hash as well custom partitioning functions, and each object may contain a sequence of formatted sub-partitions.
 
-This project aims to address the distributed execution of TDataFrame analysis programs. This could be accomplished by developing a generic library with a MapReduce-like interface. Such library would sit on top of connectors for specific task schedulers that would distribute the application tasks, for instance [Spark](http://spark.apache.org), an open-source software framework for large-scale big data processing on clusters. Additionally, a plugin could be implemented to facilitate the submission of such distributed analyses from [Jupyter](http://jupyter.org) notebooks, a well-known interface for interactive analysis.
+This project will add new functionality to SkyhookDM, including support data statistics collection per object (partition), SQL GROUPBY and ORDERBY on object data, and merge/split sub-partitions within an object.  Each of these will be applied directly to formatted object data and will be used to improve query optimization and physical design tuning (stats), extend the types of processing pushed down into the storage layer (groupby, sort), or improved data read time (compaction).
 
 ## Task ideas
  * Implement a Python library, with a MapReduce-like interface, that is able to submit distributed jobs receiving as input a ROOT columnar dataset and producing aggregated results (e.g. histograms).
