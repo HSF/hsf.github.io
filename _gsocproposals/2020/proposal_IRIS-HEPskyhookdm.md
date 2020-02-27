@@ -20,7 +20,7 @@ This project proposes extending SkyhookDM with several new functionalities: incl
  * Extend current aggregations to include sort/groupby for formatted database partitions in objects [Github Issue](https://github.com/uccross/skyhookdm-ceph/issues/23)
  
 ## Expected results
-The task should be fully functional for data stored in both row and column formats (Flatbuffers and Arrow).  Large scale experiments can be conducted on NSF Cloudlab to evaluate performance.
+The task should be fully functional for data stored in both row and column formats (Flatbuffers and Arrow).  Larger scale experiments of 1--32 node clusters can be conducted on [NSF Cloudlab](https://www.cloudlab.us) to evaluate performance.
 
 ## Requirements
 Good C++ coding skills, some Python, storage systems or database background preferred
