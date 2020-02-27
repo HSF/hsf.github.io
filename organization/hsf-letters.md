@@ -39,7 +39,7 @@ projects.
   of the future
 - Please make this request at least *three weeks* before you need the letter
 
-### Proceedure
+### Procedure
 
 In both cases the HSF Coordination group will discuss the request and, if approved,
 circulate a draft letter to the whole of the HSF community for any comments. We will
