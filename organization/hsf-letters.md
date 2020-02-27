@@ -16,7 +16,7 @@ shares similar goals.
 ### Letters of Cooperation
 
 We will be happy to provide a *letter of cooperation*
-that can be used for any funding application. To ask us
+that can be used for any software project or funding application. To ask us
 for this please:
 
 - Send an email request to [HSF Coordination](mailto:hsf-coordination@googlegroups.com)
