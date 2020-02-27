@@ -23,7 +23,7 @@ This project proposes extending SkyhookDM with several new functionalities: (1) 
 The task should be fully functional for data stored in both row and column formats (Flatbuffers and Arrow).  Larger scale experiments of 1--32 node clusters can be conducted on [NSF Cloudlab](https://www.cloudlab.us) to evaluate performance.
 
 ## Requirements
-Good C++ coding skills, some Python, storage systems or database background preferred
+C++, some Python, storage systems or database background preferred
 
 ## Mentors
   * [JeffLeFevre](mailto:jlefevre@ucsc.edu)
