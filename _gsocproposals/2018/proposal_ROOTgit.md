@@ -42,7 +42,7 @@ The project is divided in four parts:
 # Possible extensions
 
 A natural extension of this work, if the student has a Windows machine
-available, is to study the interplay with [Microsoft's GVFS](https://gvfs.io).
+available, is to study the interplay with [Microsoft's GVFS](https://github.com/Microsoft/VFSForGit).
 
 # Mentors
 

@@ -60,7 +60,7 @@ Documentation for these *test drive* setups is in the group's
 
 The group is currently coordinated by Ben Morgan (Warwick, ATLAS and superNEMO), Alaettin Serhan Mete (Argonne National Laboratory, ATLAS), and Martin Ritter (LMU Munich, Belle II).
 
-*  The Indico pages for the working group meetings can be found at <https://indico.cern.ch/category/10415/> and <https://indico.cern.ch/category/7975/> (to be merged)
+*  The Indico pages for the working group meetings can be found at <https://indico.cern.ch/category/7975/>
 *  All coordinators can be reached at <hsf-software-tools-wg-conveners@googlegroups.com>
 *  For all technical discussions please use <hsf-tech-forum@googlegroups.com> (Tools) and <hsf-packaging-wg@googlegroups.com> (Packaging)
 

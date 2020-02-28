@@ -36,8 +36,6 @@ Documentation, tests and examples.
   * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
 
 ## Links
-  1. [Ipopt](https://projects.coin-or.org/Ipopt)
+  1. [Ipopt](https://github.com/coin-or/Ipopt)
   2. [Github](https://github.com/oprojects/root/tree/master-ipopt/math/ipopt)
-  3. [Ipopt MultiMin](http://clusteri.itm.edu.co/rootdoc/html/group__MultiMin.html)
   4. [ROOT Ipopt](http://oproject.org/pages/Ipopt.html)
-  5. [Ipopt Solvers](https://www.coin-or.org/Ipopt/documentation/node51.html)

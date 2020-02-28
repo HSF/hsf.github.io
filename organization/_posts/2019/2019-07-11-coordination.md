@@ -116,8 +116,8 @@ Update slides [<span class="underline">attached to agenda</span>](https://indico
 #### Planned meetings
   - Next week (July 17th): joint discussion on partial event building
     for real-time analysis within Institut Pascal
-    [<span class="underline">“Learning To Discover”
-    workshop</span>](https://www.universite-paris-saclay.fr/fr/real-time-workshop)
+    <span class="underline">“Learning To Discover”
+    workshop</span> https://www.universite-paris-saclay.fr/fr/real-time-workshop
     (agenda tba today)
   - July 31st: [<span class="underline">joint ACTS
     meeting</span>](https://indico.cern.ch/event/830160/)

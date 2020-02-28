@@ -100,7 +100,7 @@ The first workshop, **PyHEP 2018**, was held as a pre-CHEP event in Sofia, Bulga
 The workshop was a forum for the participants, representatives of the community, to discuss topics around the areas of work identified in the HSF [Community White Paper](/activities/cwp.html). There was ample time for discussion.
 
 A keynote presentation on [JupyterLab](http://jupyterlab.readthedocs.io/){:target="_pyhep2018_jupyterlab"}
-was given by [Vidar Tonaas Fauske](https://www.simula.no/people/vidar){:target="_pyhep2018_vidar"}.
+was given by Vidar Tonaas Fauske.
 
 The [agenda](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"} was composed of plenary sessions dedicated to the following topics:
 

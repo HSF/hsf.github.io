@@ -40,7 +40,8 @@ We invite interested projects and groups to participate and will list them on th
 
 ## Related Workshops
 
-  * [Connecting the Dots 2016](https://indico.hephy.oeaw.ac.at/event/86/)
+<!-- HEP PY Indico has regular timeout issues -->
+  * [Connecting the Dots 2016](https://indico.hephy.oeaw.ac.at/event/86/){:data-proofer-ignore=""}
   * [Connecting the Dots 2015](https://indico.physics.lbl.gov/indico/conferenceDisplay.py?confId=149)
 
 
