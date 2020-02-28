@@ -28,6 +28,7 @@ layout: plain
 * Philippe Canal [pcanal@fnal.gov](mailto:pcanal@fnal.gov) Fermilab
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Vasco Chibante Barroso [vmcb@cern.ch](mailto:vmcb@cern.ch) CERN
+* Aaron Chu [xchu1@ucsc.edu](mailto:xchu1@ucsc.edu) University of California, Santa Cruz
 * Louie Corpe [lcorpe@cern.ch](mailto:lcorpe@cern.ch) UCL
 * Alastair Dewhurst [alastair.dewhurst@stfc.ac.uk](mailto:alastair.dewhurst@stfc.ac.uk) STFC
 * Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) Lund University
@@ -51,6 +52,7 @@ layout: plain
 * Valentin Kuznetsov [vkuznet@gmail.com](mailto:vkuznet@gmail.com) Cornell University, USA
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
+* Jeff LeFevre [jlefevre@ucsc.edu](mailto:jlefevre@ucsc.edu) University of California, Santa Cruz
 * Federica Legger [federica.legger@to.infn.it](mailto:federica.legger@to.infn.it) Universita e INFN Torino
 * Riccardo Di Maria [Riccardo.Di.Maria@cern.ch](mailto:Riccardo.Di.Maria@cern.ch) CERN
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) Universite Catholique de Louvain
