@@ -152,7 +152,7 @@ Workshop registration is open:
 
 <https://indico.cern.ch/event/867789/>
 
-There is a [poster](https://indico.cern.ch/event/867789/attachments/1984157/3309134/Poster_HSFWLCG.pdf) on the website - please print and pin up! (CERN: B40, B32, B2, B1 and R1 fairly well covered - can someone do R2 and IT buildings?)
+There is a [poster](https://indico.cern.ch/event/867789/attachments/1984157/3312033/Poster_HSFWLCG.pdf) on the website - please print and pin up! (CERN: B40, B32, B2, B1 and R1 fairly well covered - can someone do R2 and IT buildings?)
 
 #### Scientific Programme
 
