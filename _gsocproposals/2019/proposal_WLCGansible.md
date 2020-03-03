@@ -49,7 +49,6 @@ The functions of the Central Configuration Manager are described in the SIMPLE f
 **Links**:
 * [Lightweight Sites Web Forum (request membership)](https://groups.google.com/forum/#!forum/wlcg-lightweight-sites)
 * [Next Steps](https://groups.google.com/forum/#!category-topic/wlcg-lightweight-sites/gsoc/T5OtDT-W79c)
-* [Git Repositories](https://github.com/WLCG-Lightweight-Sites)
 * [Introduction to SIMPLE Grid Framework](https://speakerdeck.com/maany/the-simple-framework-deploy-complex-clusters-with-ease)
 * [SIMPLE Grid Project  : CHEP 2018 Conference Proceedings paper](https://cernbox.cern.ch/index.php/s/OCqVQ55Q3bjzs7x)
 * [SIMPLE Grid Specification Document (Early draft)](https://docs.google.com/document/d/1yp_96UXcwNO49cktnHtT61iNmTO0RgrSQukuNYqACpM/edit#heading=h.3etse5r12l7p)

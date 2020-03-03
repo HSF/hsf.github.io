@@ -138,7 +138,7 @@ The workshop fee will be:
 
 The conference dinner, prepared with local ingredients and hosted at the Lund Grand Hotel, can also be paid from the payment page (approx. 50 EUR).
 
-There is a [poster](https://indico.cern.ch/event/867789/attachments/1984157/3309134/Poster_HSFWLCG.pdf) on the website - please print and pin up!
+There is a poster on the website - please print and pin up!
 
 #### Scientific Programme
 

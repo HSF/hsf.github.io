@@ -483,7 +483,7 @@ Keras: Python library interfacing with tensor manipulation frameworks like Tenso
 
 In ATLAS:
 
--   Keras-trained RNNs for flavor tagging already in Athena ([*RNNIPTag*](https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/JetTagging/JetTagTools/trunk/src/RNNIPTag.cxx)) based on lightweight NN class ([*lwtnn*](https://github.com/dguest/lwtnn))
+-   Keras-trained RNNs for flavor tagging already in Athena *RNNIPTag* based on lightweight NN class ([*lwtnn*](https://github.com/dguest/lwtnn))
 
 -   Ongoing work to try to integrate TensorFlow with Athena
 

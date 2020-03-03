@@ -28,7 +28,7 @@ We have two mailing lists for exchange of information and technical discussions
 {:.table .table-hover .table-condensed .table-striped}
 | Date                                                                               | Main topic                          |
 | ---------------------------------------------------------------------------------- | ----------------------------------- |
-| [24.2.2016](https://indico.hephy.oeaw.ac.at/event/86/session/5/?slotId=0#20160224) | Session at Connecting the Dots 2016 |
+| [24.2.2016](https://indico.hephy.oeaw.ac.at/event/86/session/5/?slotId=0#20160224){:data-proofer-ignore=""} | Session at Connecting the Dots 2016 |
 | [29.1.2016](https://indico.cern.ch/event/486488/)                                  | Vidyo Meeting                       |
 | [3.12.2015](https://indico.cern.ch/event/459865/)                                  | Kickoff Meeting at CERN             |
 
@@ -40,7 +40,8 @@ We invite interested projects and groups to participate and will list them on th
 
 ## Related Workshops
 
-  * [Connecting the Dots 2016](https://indico.hephy.oeaw.ac.at/event/86/)
+<!-- HEP PY Indico has regular timeout issues -->
+  * [Connecting the Dots 2016](https://indico.hephy.oeaw.ac.at/event/86/){:data-proofer-ignore=""}
   * [Connecting the Dots 2015](https://indico.physics.lbl.gov/indico/conferenceDisplay.py?confId=149)
 
 

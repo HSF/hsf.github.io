@@ -9,11 +9,13 @@ organization:
   - CERN
 ---
 
+<!-- Phoenix visualisation URLs can't be validated by the checker, for some reason -->
+
 ## Description
 
 Visualising HEP event data is currently typically done per experiment (e.g. [VP1](http://atlas-vp1.web.cern.ch/atlas-vp1/home/), [Iguana](https://doi.org/10.1016/j.nima.2004.07.036), [Fireworks](https://iopscience.iop.org/article/10.1088/1742-6596/219/3/032014/pdf)), and normally involves the installation of dedicated software. However modern browsers are more than capable of showing complex detector geometry, as well as representations of the underlying physics. As the [Visualisation](https://arxiv.org/abs/1811.10309) section of HSF Community White Paper explained, using an intermediate data format (e.g. JSON) makes it possible to separate the event display from the underlying (experiment-specific) software framework. 
 
-[Phoenix](https://hepsoftwarefoundation.org/phoenix/) is a framework that can be used by any typical (e.g. colliding beam) High Energy Physics experiment. It was initially based on work done for the TrackML [Kaggle](https://www.kaggle.com/c/trackml-particle-identification)/[Codalab](https://competitions.codalab.org/competitions/20112) challenges (and internal use by ATLAS). We were working with a GSOC student in 2019 who ported it to [angular](https://angular.io), and added new functionality (such as overlays, compound objects etc). A [LHCb example](http://hepsoftwarefoundation.org/phoenix/lhcb) has since been added, so the underlying principle is well validated, and various "loaders" exist to read JSON, Atlas JiveXML, LHCb and TrackML event data. The task now is to make it more user friendly, and to add more functionality.
+[Phoenix](https://hepsoftwarefoundation.org/phoenix/) is a framework that can be used by any typical (e.g. colliding beam) High Energy Physics experiment. It was initially based on work done for the TrackML [Kaggle](https://www.kaggle.com/c/trackml-particle-identification)/[Codalab](https://competitions.codalab.org/competitions/20112) challenges (and internal use by ATLAS). We were working with a GSOC student in 2019 who ported it to [angular](https://angular.io), and added new functionality (such as overlays, compound objects etc). A [LHCb example](https://hepsoftwarefoundation.org/phoenix/lhcb){:data-proofer-ignore=""} has since been added, so the underlying principle is well validated, and various "loaders" exist to read JSON, Atlas JiveXML, LHCb and TrackML event data. The task now is to make it more user friendly, and to add more functionality.
 
 ## Task ideas
  * Develop a better GUI (using open source tools). VP1 is a possible example of what should be aimed for.
@@ -25,7 +27,7 @@ Visualising HEP event data is currently typically done per experiment (e.g. [VP1
  * Further tests etc to improve code quality
  * New visualisation techniques, such as projects into a calorimeter cluster plan.
  * Animation of events
- * Improve the [VR playground](http://hepsoftwarefoundation.org/phoenix/playgroundVR)
+ * Improve the [VR playground](https://hepsoftwarefoundation.org/phoenix/playgroundVR){:data-proofer-ignore=""}
 
 ## Expected results
 A more intuitive interface to allow complex object selection and visualisation, possibility to animate the events (primarily for outreach and public relations purposes). Better functionality and the ability to display events in "real time". 
