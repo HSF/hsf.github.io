@@ -151,7 +151,13 @@
   end_date: 2020-03-29
   source: http://hep2020.tpu.ru/webcenter/portal/transib2020/page15?_adf.ctrl-state=2shs7c3nq_4
   title: 3rd Trans-Siberian School of High Energy Physics
-  url_proof_ignore: True
+  url_proof_ignore: true
+- author: Kilian Lieret
+  date: 2020-03-24
+  deadline: ''
+  end_date: 2020-03-27
+  source: https://indico.cern.ch/event/882660/
+  title: Software Carpentry at CERN
 - author: Kilian Lieret
   date: 2020-04-27
   deadline: ''
