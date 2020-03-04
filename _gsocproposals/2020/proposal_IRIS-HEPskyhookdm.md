@@ -34,7 +34,7 @@ C++, some Python, storage systems or database background preferred
   * [Aaron Chu](mailto:xchu1@ucsc.edu)
 
 ## Links
-
+  * [Gitter Channel for project discussions](https://gitter.im/uccross/gsoc)(@jlefevre)
   * [Skyhook Data Management](http://www.skyhookdm.com)
   * [Ceph](https://ceph.io)
   * [SkyhookDM github repo](https://github.com/uccross/skyhookdm-ceph/wiki)
