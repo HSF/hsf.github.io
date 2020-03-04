@@ -13,13 +13,17 @@ from typing import List, Optional, Union
 
 
 class Event(object):
+
+    default_false = ["url_proof_ignore"]
+
     def __init__(
         self,
         title: str,
         date: Union[str, datetime.date],
         end_date: Union[str, datetime.date],
         source: str, author: str,
-        deadline: Union[str, datetime.date] = ""
+        deadline: Union[str, datetime.date] = "",
+        url_proof_ignore=False,
     ):
         self.title = title
         self.date = self._interpret_date(date)
@@ -27,6 +31,7 @@ class Event(object):
         self.deadline = self._interpret_date(deadline, empty_ok=True)
         self.source = source
         self.author = author
+        self.url_proof_ignore = url_proof_ignore
 
         if not self.end_date >= self.date:
             raise ValueError(
@@ -63,8 +68,11 @@ class Event(object):
         return tmp_event
 
     def to_dict(self):
-        return self.__dict__
-
+        dct = self.__dict__.copy()
+        for key in self.default_false:
+            if not dct[key]:
+                dct.pop(key)
+        return dct
 
 class EventDatabase(object):
     def __init__(self, events: Optional[List[Event]] = None):
