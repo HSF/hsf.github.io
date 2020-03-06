@@ -32,6 +32,7 @@ Python, C++, and some previous experience in Machine Learning.
   * [Michael Toomey](mailto:michael_toomey@brown.edu)
   * [Stephon Alexander](mailto:stephon_alexander@brown.edu)
   * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch)
+  * [Emanuele Usai](mailto:emanuele.usai@cern.ch) 
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
 

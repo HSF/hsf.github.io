@@ -34,8 +34,9 @@ This project will focus on the integration of E2E code with the [CMSSW](https://
 Python, Keras, PyTorch, C++, and some previous experience in Machine Learning.
 
 ## Mentors
-  * [Mujeon Kim](mailto:pq8556@ufl.edu) 
-  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) 
+  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch)
+  * [Michael Andrews](mailto:michael.andrews@cern.ch)
+  * [Emanuele Usai](mailto:emanuele.usai@cern.ch)   
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
 
