@@ -189,6 +189,12 @@
   source: https://indico.in2p3.fr/event/20306/
   title: ESCAPE Summer School
 - author: Guillermo Fidalgo
+  date: 2020-07-06
+  deadline: 2020-03-31
+  end_date: 2020-07-10
+  source: https://opensciencegrid.org/user-school-2020/
+  title: OSG User School 2020
+- author: Guillermo Fidalgo
   date: 2020-07-13
   deadline: ''
   end_date: 2020-07-17
