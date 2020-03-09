@@ -200,3 +200,9 @@
   end_date: 2020-07-31
   source: https://indico.cern.ch/event/888279/
   title: ATLAS Canada Computing Workshop
+- author: Guillermo Fidalgo
+  date: 2020-08-02
+  deadline: 2020-03-31
+  end_date: 2020-08-12
+  source: https://indico.scc.kit.edu/event/721/registrations/266/
+  title: MCnet-CTEQ summer school 2020
