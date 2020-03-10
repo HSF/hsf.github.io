@@ -7,4 +7,7 @@ layout: plain
 
 - To add this calendar to your own setup, use this [ical link](https://calendar.google.com/calendar/ical/e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com/public/basic.ics).
 
-- [Standalone calendar page](https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam)
+- [Standalone calendar page](https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam).
+
+- If you are planning a meeting and want to ensure that you also don't clash with major religious holidays
+there is a [calendar maintained by the community](/holiday-calendar.html) that lists these.
