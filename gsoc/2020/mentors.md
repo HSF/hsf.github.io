@@ -9,6 +9,7 @@ layout: plain
 * Stephon Alexander [stephon_alexander@brown.edu ](mailto:stephon_alexander@brown.edu ) Brown University
 * Guilherme Amadio [amadio@cern.ch](mailto:amadio@cern.ch) CERN
 * Sitong An [s.an@cern.ch](mailto:s.an@cern.ch) CERN
+* Michael Andrews [michael.andrews@cern.ch](mailto:michael.andrews@cern.ch) CERN
 * Christian Ariza [christian.ariza@gmail.com](mailto:christian.ariza@gmail.com) CERN
 * Chris Arnault [arnault@lal.in2p3.fr](mailto:arnault@lal.in2p3.fr) IJCLab
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
@@ -79,7 +80,7 @@ layout: plain
 * Shaojun Sun [shaojun.sun@cern.ch](mailto:shaojun.sun@cern.ch) University of Wisconsin-Madison
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Michael Toomey [michael_toomey@brown.edu](mailto:michael_toomey@brown.edu) Brown University
-* Emanuele Usai [Emanuele.Usai@cern.ch ](mailto:Emanuele.Usai@cern.ch ) Brown University
+* Emanuele Usai [Emanuele.Usai@cern.ch](mailto:Emanuele.Usai@cern.ch) Brown University
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
 * Akshay Vashistha [Akshay Vashistha](mailto:akshayvashistha1995@gmail.com) OProject
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University

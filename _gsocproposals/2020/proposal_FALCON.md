@@ -8,6 +8,7 @@ organization:
  - FSU
  - Alabama
  - OProject
+ - Brown
 ---
 
 ## Description
@@ -27,9 +28,9 @@ Strong development skills, good knowledge of C++ and Python. Interest in Machine
   * [Harrison Prosper](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
   * [Sergei Gleyzer](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
   * [Sitong An](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON)
+  * [Emanuele Usai](mailto:sft-gsoc-ml@googlegroups.com?subject=FALCON) 
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
 
 ## Links
   * [FALCON paper](http://inspirehep.net/record/1456803)
-  * [http://root.cern](http://root.cern)
