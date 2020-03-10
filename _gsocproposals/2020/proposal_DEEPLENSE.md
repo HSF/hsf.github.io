@@ -28,7 +28,6 @@ This project will focus on further development of the pipeline that combines sta
 Python, C++, and some previous experience in Machine Learning. 
 
 ## Mentors
-  * [Evan McDonough](mailto:evan_mcdonough@brown.edu )
   * [Michael Toomey](mailto:michael_toomey@brown.edu)
   * [Stephon Alexander](mailto:stephon_alexander@brown.edu)
   * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch)
