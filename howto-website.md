@@ -83,6 +83,10 @@ entry you can either:
 
 1. Run the interactive script ``scripts/add_training_event.py`` (recommended)
 2. Directly edit the ``_data/trainning-schools.yml`` file and add another entry following the structure of the existing entries (note that events are sorted chronologically by starting date)
+    - There is one very rare thing you may need to do if the URL for the training event 
+      will not validate in the link checker, which is to add the tag `url_proof_ignore: true`
+      to the YAML file (an example is a school that used a web technology that insists
+      on setting cookies and issues continual redirects without this)
 
 ### Adding news or announcements
 
