@@ -34,7 +34,7 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu">Communication<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
-                  <li><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam">Community Calendar</a></li>
+                  <li><a href="/future-events.html">Community Calendar</a></li>
                   <li><a href="/Schools/events.html">Training Schools</a></li>
                   <li><a href="/events.html">Events &amp; Workshops</a></li>
                   <li class="divider"></li>
