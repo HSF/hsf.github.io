@@ -17,7 +17,7 @@ Apologies: Caterina Doglioni, Agnieszka Dziurda
 ### HEP-CCE Kick Off Meeting
 There was an [organizing meeting](<https://indico.fnal.gov/event/23262/other-view?view=standard>) for a new project organization of the CCE which is a collaboration of ANL, BNL, Fermilab,and LBNL participants funded to work on HEP's most pressing and uncovered topics.
 
-We've agreed that going forward all technical meetings should fully public in the same way that IRIS-HEP meetings are. It seems to me that this could be coordinated through the HSF sub-group conveners.
+We've agreed that going forward all technical meetings should be fully public in the same way that IRIS-HEP meetings are. It seems that this could be coordinated through the HSF sub-group conveners.
 
 Main topics interesing to HSF:
 
