@@ -15,7 +15,7 @@ Apologies: Caterina Doglioni, Agnieszka Dziurda
 ## News, general matters
 
 ### HEP-CCE Kick Off Meeting
-There was an [organizing meeting](<https://indico.fnal.gov/event/23262/other-view?view=standard>) for a new project organization of the CCE which is a collaboration of ANL, BNL, Fermilab,and LBNL participants funded to work on HEP's most pressing and uncovered topics.
+There was an [organizing meeting](<https://indico.fnal.gov/event/23262/other-view?view=standard>) for a new project organization of the HEP *Center for Computational Excellence* which is a collaboration of ANL, BNL, Fermilab,and LBNL participants funded to work on HEP's most pressing and uncovered topics.
 
 We've agreed that going forward all technical meetings should be fully public in the same way that IRIS-HEP meetings are. It seems that this could be coordinated through the HSF sub-group conveners.
 
@@ -132,7 +132,7 @@ Proposal: HSF review and feedback week of 6 April, one afternoon 15-17h (is that
 - Next topical meeting planned on 25th March; proposed topic: Needs and experience of non-LHC HEP community; currently contacting potential speakers
 - Following meeting planned for 15 or 22 April
 - Two pages of LHCC draft document on simulation written, more coming
-- R&D Forum for Simulation on Accelrators? 
+- R&D Forum for Simulation on Accelerators? 
     - Can foresee this to be one of the topical meetings, end of April (announce this well in advance)
 
 
