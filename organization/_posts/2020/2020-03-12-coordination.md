@@ -19,10 +19,10 @@ There was an [organizing meeting](<https://indico.fnal.gov/event/23262/other-vie
 
 We've agreed that going forward all technical meetings should be fully public in the same way that IRIS-HEP meetings are. It seems that this could be coordinated through the HSF sub-group conveners.
 
-Main topics interesing to HSF:
+Main topics interesting to HSF:
 
 -  Portable Parallelization Strategies: meaningful systematic comparison of a few pieces of HEP code (FastCalosim, Patatrack, Wirecell)
-    - Overlap with interests of Framework WG and Reco WG
+    - Overlap with interests of Frameworks WG and Reco & Trigger WG
 - Fine-Grained I/O and Storage: new storage technologies, Philippe is involved, evolution of ROOT I/O - RNTuple is in development, so apposite time for this activity
 - Event Generators, recognised as ever more important and will ramp up over time
 
