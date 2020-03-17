@@ -73,7 +73,7 @@ On **Monday 27 April** a training session for Alpaka will be held in the CERN/IT
 
 ### CUDA Training at CERN
 
-Maria attended a decicated meeting with Nvidia for organising training through hackathons and bootcamps. Want to host at CERN a CUDA dedicated bootcamp, 2-3 days (pre-requisites are to be a decent CPU coder). Then a hackathon as a follow-up, when people have real projects to work on.
+Maria attended a dedicated meeting with Nvidia for organising training through hackathons and bootcamps. Want to host at CERN a CUDA dedicated bootcamp, 2-3 days (pre-requisites are to be a decent CPU coder). Then a hackathon as a follow-up, when people have real projects to work on.
 
 Can have it in the technical training centre at CERN. Was arranged for April, but that has had to be cancelled. Will try to make another definite arrangement once COVID-19 has calmed down a bit.
 
