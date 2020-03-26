@@ -7,13 +7,13 @@ layout: default
 
 Currently the activities within the HSF are organized by the *HSF coordination team* (formerly called the *startup team*). Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the team:
 
+ * Caterina Doglioni - Lund University
  * Peter Elmer - Princeton University
  * Daniel Elvira - FNAL
  * Benedikt Hegner - BNL
  * Michel Jouvin - LAL, IN2P3
  * David Lange - Princeton University
  * Pere Mato - CERN
- * Dario Menasce - INFN
  * Eduardo Rodrigues - University of Liverpool
  * Stefan Roiser - CERN
  * Elizabeth Sexton-Kennedy - FNAL
