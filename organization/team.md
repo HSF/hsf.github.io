@@ -14,6 +14,7 @@ Currently the activities within the HSF are organized by the *HSF coordination t
  * Michel Jouvin - LAL, IN2P3
  * David Lange - Princeton University
  * Pere Mato - CERN
+ * Mark Neubauer - University of Illinois
  * Eduardo Rodrigues - University of Liverpool
  * Stefan Roiser - CERN
  * Elizabeth Sexton-Kennedy - FNAL
