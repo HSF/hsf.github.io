@@ -16,7 +16,7 @@ Apologies: Ben Morgan
 We were invited by Danilo and Markus to give a talk to CMS in a [session on external projects](https://indico.cern.ch/event/902343/) (along with IRIS-HEP and HEP-CCE)
 - Outline of the HSF, motivation and history
 - Current structure and activities
-- Propsects for future collaboration and impact
+- Prospects for future collaboration and impact
 
 ### Proto-SIDIS
 
@@ -28,7 +28,7 @@ Current activities of SIDIS are:
 - the "Alpaka training and hackathon (see below)" in collaboration with HSF, Openlab and [CASUS](https://www.hzdr.de/db/Cms?pNid=1227&pLang=en)
 - a "Topical Workshop on accelerator programming" tentatively to be held in early December with the goals to
     - Draw a landscape of current national initiatives similar to SIDIS and connecting those
-    - Exercise the core idea of SIDIS to connect computer scienctists and natural scientists, aiming at interactivity as much as possible
+    - Exercise the core idea of SIDIS to connect computer scientists and natural scientists, aiming at interactivity as much as possible
     - Establish common R&D activities amongst computer science and natural science
 
 If you are interested in SIDIS please [subscribe to proto-sidis-concept@cern.ch](https://e-groups.cern.ch/e-groups/EgroupsSubscription.do?egroupName=proto-sidis-concept). In case you don't have a CERN account you need to follow some [special instructions to subscribe](https://sidis.web.cern.ch/node/44). Meetings will be also announced on this list.
@@ -76,7 +76,7 @@ The student application deadline is still March 31, but the student proposal rev
 
 ### Event Generators
 
-The draft contribution of the WG has been merged into the full HSF document, although it still needs to receive feedback from all of the WG. Presently 5 pages plus one of references (do others foresee references, too?). This is a shorter version of the draft that was prepared last month, which we plan to complete on the same timescale and upload to arxiv (or submit to a journal).
+The draft contribution of the WG has been merged into the full HSF document, although it still needs to receive feedback from all of the WG. Presently 5 pages plus one of references (do others foresee references, too?). This is a shorter version of the draft that was prepared last month, which we plan to complete on the same timescale and upload to arXiv (or submit to a journal).
 
 ### Detector Simulation
 Draft of the simulation chapter for LHCC review completed and merged into the full HSF document.
@@ -102,7 +102,7 @@ Draft added before last meeting, not substantially changed, but a few spots will
     - Prioritisation can happen on a profiled basis (invest more in the more expensive areas); *however every experiment is at a different working point, so no one-size-fits-all recommendation*
 - HSF should comment on the performance of generators, not on the decisions of the experiments
     - Indeed, but comparison of ATLAS and CMS led to significant insights in this area; it is not a competitive or pejorative comparison - this was the spirit of the study, which was led by ATLAS and CMS generator experts
-- WLCG does not foresee 'analysis facilties' being distinguished at the resource accounting level (they stick to the Tier 0/1/2 model)
+- WLCG does not foresee 'analysis facilities' being distinguished at the resource accounting level (they stick to the Tier 0/1/2 model)
     - ALICE plans are more for a reduction facility
     - (Graeme personal comment) true analysis facilities are very much at the R&D stage
 
@@ -193,7 +193,7 @@ Current proposal to organise a *3* session event, focused on **New Architectures
 
 - **Is this worthwhile doing?** Please *do* give feedback on whether you believe this event is good to organise and if you would attend it (in particular, if your feelings are *negative*)
     - Liz - virtual meetings need to have a specific focus, but experience of virtual CMS S&C week is positive
-    - David - *Conneting the Dots* will be pre-recording material (otherwise not practical to do 20hrs of material from many timezones), so this will provide some experience of an alternative format
+    - David - *Connecting the Dots* will be pre-recording material (otherwise not practical to do 20hrs of material from many timezones), so this will provide some experience of an alternative format
 
 ### [PyHEP 2020 Workshop](http://indico.cern.ch/e/PyHEP2020)
 - We will decide on the format of PyHEP 2020 next week.
