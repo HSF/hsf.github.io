@@ -206,4 +206,4 @@ We changed to Zoom this week, a regular meeting has been booked until the end of
 
 ### Next Meeting
 
-- Next regular meeeting slot is 9 April
+- Next regular meeting slot is 9 April
