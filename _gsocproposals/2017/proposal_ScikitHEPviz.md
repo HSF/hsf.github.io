@@ -22,7 +22,7 @@ Advanced Python.
 ## Link to relevant websites
 * [Matplotlib](http://matplotlib.org)
 * [DIANA/HEP](http://diana-hep.org)
-* [Histogrammar](http://histogrammar.org)
+* [Histogrammar](https://github.com/histogrammar)
 * [Vega](https://vega.github.io/vega/)
 * [ROOT](https://root.cern.ch)
 
