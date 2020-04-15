@@ -28,7 +28,7 @@ We need to reboot the GSoC Advisory Committee (last year it was Pere Mato, Pete 
 
 News from GSoC Admins:
 
-- We are working these days to gather the student proposal rankings from mentors, who were asked to provide feedback by April 16 the latest
+- We are working these days to gather the student proposal rankings from mentors, who were asked to provide feedback by April 16 the latest.
 - As they answer, we go through their selected candidates proposals and make a quite detailed summary in a Google sheet, giving already recommendations based on the info we extract.
     - We tag already project proposals as qualified, reserve or disqualified, which can be used by the committee to make an educated guest of the number of slots we need
 - As last year, we expect maybe few clashes or unclear cases that will need to be treated with more attention, but for the vast majority of projects there will be no additional investigation needed by the advisory committee compared to what we do already: Google gave us in the past all the slots we could fill...
