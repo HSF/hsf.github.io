@@ -192,7 +192,7 @@ We will continue/complete our survey of experiment frameworks next week with a p
 
 Main speakers identified, inviting them now. The goal is to have public announcement of the virtual workshop and the preliminary agenda next Wednesday, after Easter and the next preparation meeting on Tuesday evening.
 
-**We ask that people [register](https://indico.cern.ch/event/908146/registrations/)** so that we can gague the level of interest.
+**We ask that people [register](https://indico.cern.ch/event/908146/registrations/)** so that we can gauge the level of interest.
 
 Prepared a [virtual meeting guide](https://indico.cern.ch/event/908146/page/20187-virtual-meeting-guide) to try to make the event work as well as possible, *more suggestions and feedback very welcome here* (we are treading new ground).
 
