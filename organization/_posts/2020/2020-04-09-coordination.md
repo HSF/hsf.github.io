@@ -47,7 +47,7 @@ There will be a relatively short virtual meeting in the week of 18 May, with fol
 
 [HSF Draft Document](https://docs.google.com/document/d/1ai7m7kFyiGgl2tKralJKyPX6rlD9tffU7B6wPj_vpZU/edit?usp=sharing)
 
-- This was released publically 1 April
+- This was released publicly on April 1st
 - Now gathering feedback and comments
     - This was extremely active in the last week and (mostly) helpful comments were received, so thanks to commenters and to the WGs for responding and adapting to them
 - In general, be pro-active at resolving discussions (they can be re-opened if needed)
