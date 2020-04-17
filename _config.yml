@@ -36,6 +36,9 @@ collections:
   workinggroups:
     output: true
     permalink: /workinggroups/:title.html
+  training:
+    output: true
+    permalink: /training/:path.html
 
 docs:
   url: https://github.com/HSF/documents/blob/master
