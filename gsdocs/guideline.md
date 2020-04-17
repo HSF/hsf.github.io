@@ -63,7 +63,7 @@ organization:
 ```
 
 To create a new organization, copy
-[_gsdocs-orgs/2020/cern.md](2020/cern.md), create a file for your organization and edit its contents as appropriate.
+[_gsdocs-orgs/2020/cern.md](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsdocs-orgs/2020/cern.md), create a file for your organization and edit its contents as appropriate.
 
 Organization logos should be called `ORGANIZATION-logo.png` and be less than 100kB in size.
 
@@ -72,4 +72,4 @@ Organization logos should be called `ORGANIZATION-logo.png` and be less than 100
  * [Announcement for Season of Docs 2020](https://groups.google.com/forum/#!topic/season-of-docs-announce/x04Gl7D4dm8)
  * [Mentor guide for Season of Docs 2020](https://developers.google.com/season-of-docs/docs/mentor-guide)
  * [Guideline for what project ideas could contain](https://developers.google.com/season-of-docs/docs/project-ideas)
- 
+

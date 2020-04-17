@@ -23,7 +23,7 @@ General description of the project and what are the current documentation needs.
   * If you're proposing a tutorial or a set of how-to guides, describe the features or use cases that need documenting.
   * If you're proposing a contributor's guide, link to any existing README file or other relevant material if present. If there's nothing available yet, it's fine to say that.
   * Include links to similar documentation in other projects, if relevant.
-  * Use links like: [Readable quotation text](#)
+  * Use links like: [Readable quotation text](proposal_ROOTgeneric.html)
 
 ## Expected results
 Describe the deliverables of the projects 
