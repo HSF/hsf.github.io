@@ -25,7 +25,7 @@ The documentation of our project consists of several parts, which live in differ
 With over 3.5 years of continuous development and additions, the documentation has become a bit cluttered and we would like to streamline it with your help:
 
 * **Content:** We would like to separate more clearly which parts of the documentation are intended for users - which are not expected to alter a single line of code - and which parts aim at developers who would like to contribute to the project or would like to extend their own copy. Also, we would like to review the current user manual for potentially lacking information or areas where we could improve.
-* **Infrastructure:** We would like to streamline the way we present the documentation and especially improve its online representation. Optimally we would end up with a sreamlined, fully-integrated online presence which coherently presents news, manual and code reference. One possibility for this would e.g. be moving the documentation to [Docsy.dev](https://www.docsy.dev/). The tricky part about this is that we would like to keep as much as possible our current automatic deployment and workflow.
+* **Infrastructure:** We would like to streamline the way we present the documentation and especially improve its online representation. Optimally we would end up with a streamlined, fully-integrated online presence which coherently presents news, manual and code reference. One possibility for this would e.g. be moving the documentation to [Docsy.dev](https://www.docsy.dev/). The tricky part about this is that we would like to keep as much as possible our current automatic deployment and workflow.
 * **Bonus task:** For those of you who would like to dive a bit deeper into the scientific depth of this project - we currently do have a few examples for users to understand how to start using the framework and how to use certain features, but they are not very nicely presented and not very extensively documented. They could use a good polishing.
 
 ## Project duration
@@ -36,7 +36,7 @@ Given the good overall level of documentation of the project, we think a standar
 ## Related material
 
   * Project website: [http://cern.ch/allpix-squared](http://cern.ch/allpix-squared)
-  * Repository of website (hugo): [APSQ Webiste @ CERn GitLab](https://gitlab.cern.ch/allpix-squared/allpix-squared-website)
+  * Repository of website (hugo): [APSQ Website @ CERn GitLab](https://gitlab.cern.ch/allpix-squared/allpix-squared-website)
   * Project repository: [Allpix Squared @ CERN GitLab](https://gitlab.cern.ch/allpix-squared/allpix-squared)
   * Documentation within the repository: [doc/usermanual](https://gitlab.cern.ch/allpix-squared/allpix-squared/-/tree/master/doc%2Fusermanual)
   * Online documentation: [Online User Manual](https://project-allpix-squared.web.cern.ch/project-allpix-squared/usermanual/allpix-manual.html)
