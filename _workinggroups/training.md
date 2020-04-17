@@ -4,6 +4,8 @@ layout: plain
 redirect_from:
   - /workinggroups/2015/11/04/training.html
   - /activities/training.html
+  - /training/
+  - /training/index.html
 excerpt: none
 ---
 
