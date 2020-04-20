@@ -19,11 +19,11 @@ The documentation of our project consists of several parts, which live in differ
     * Online as HTML version with a link from the website (using `latex2html`)
     * As PDF document, linked from the website (using `pdflatex`)
     
-* **Doxygen Code Reference:** In addition to the user manual, also the source code is heavily documented and a HTML documentation of the code base is automatically generated using `doxygen` and deployed on the website.
+* **Doxygen Code Reference:** In addition to the user manual, also the source code is heavily documented and a HTML reference guide is automatically generated using `doxygen` and deployed on the website.
 
 With over 3.5 years of continuous development and additions, the documentation has become a bit cluttered and we would like to streamline it with your help:
 
-* **Content:** We would like to separate more clearly which parts of the documentation are intended for users which are not expected to alter a single line of code - and which parts aim at developers who would like to contribute to the project or would like to extend their own copy. Also, we would like to review the current user manual for potentially lacking information or areas where we could improve.
+* **Content:** We would like to separate more clearly which parts of the documentation are intended for users which are not expected to alter a single line of code, from those targeting developers who would like to contribute to the project or would like to extend their own copy of the software for their specific application. Also, we would like to review the current user manual for potentially lacking information or areas where we could improve.
 * **Infrastructure:** We would like to streamline the way we present the documentation and especially improve its online representation. Optimally we would end up with a streamlined, fully-integrated online presence which coherently presents news, manual and code reference. One possibility for this would e.g. be moving the documentation to [Docsy.dev](https://www.docsy.dev/). The challenging part about this is that we would like to keep as much as possible of our current automatic deployment and workflow.
 * **Bonus task:** For those of you who would like to dive a bit deeper into the scientific depth of this project - we currently do have a few examples for users to understand how to start using the framework and how to use certain features, but they are not very nicely presented and not very extensively documented. They could use a good polishing. Ultimately, these and further examples can be streamlined to follow a tutorial-like workflow.
 
@@ -44,7 +44,7 @@ Given the good overall level of documentation of the project, we think a standar
 
 ## Expected results
 
-* A restructured user manual which clearly separates content intended for users and developers
+* A restructured user manual which clearly separates content intended for users and developers. This could also be separate documents, like a User Manual and a Developer Guide.
 * A reviewed manual with previously missing information on the project and the framework
 * A streamlined online presence which better integrates project website, documentation and code reference
 
