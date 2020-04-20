@@ -1,5 +1,5 @@
 ---
-title: Generic Proposal Title
+title: Restructuring & Streamlining of the Allpix Squared Documentation
 layout: gsdocs_proposal
 project: AllpixSquared
 year: 2020
