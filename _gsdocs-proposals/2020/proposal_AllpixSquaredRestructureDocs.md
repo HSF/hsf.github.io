@@ -1,6 +1,6 @@
 ---
 title: Generic Proposal Title
-layout: gsoc_proposal
+layout: gsdocs_proposal
 project: AllpixSquared
 year: 2020
 organization:
