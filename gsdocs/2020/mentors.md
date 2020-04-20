@@ -5,4 +5,5 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
-* First_name Last_name [email@domain](mailto:email@domain) Institution Name
+* Paul Schütze [paul.schuetze@desy.de](mailto:paul.schuetze@desy.de) DESY
+* Simon Spannagel [simon.spannagel@desy.de](mailto:simon.spannagel@desy.de) DESY
