@@ -14,7 +14,7 @@ Having a comprehensive documentation was always a strong point of this project, 
 
 The documentation of our project consists of several parts, which live in different spaces as detailed below:
 
-* **Website:** The first point of contact should be the website. It is built using the static website generator `hugo` based on the very simple `beautiful-hugo` theme and contains, most importantly, the "news" section used for publishing release announcements and release notes. Among others, users can furthermore find installation information and screenshots illustrating different use cases.
+* **Website:** The first point of contact should be the website. It is built using the static website generator `hugo` based on the very simple `beautiful-hugo` theme and contains, most importantly, the "news" section used for publishing release announcements and release notes. Furthermore, some installation information (mostly redundant to the user manual) and screenshots illustrating different use cases are provided.
 * **User Manual:** The main documentation of the framework consists of a 160-page user manual document which is generated from LaTeX code in the main software repository as well as Markdown files for individual parts of the framework - translated to LaTeX using `pandoc`. This happens automatically for new releases and it is published
     * Online as HTML version with a link from the website (using `latex2html`)
     * As PDF document, linked from the website (using `pdflatex`)
