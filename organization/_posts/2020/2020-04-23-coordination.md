@@ -182,6 +182,10 @@ Will try to hold one more meeting (next week) before the "virtual workshop", con
 
 Details to be circulated soon...
 
+### Training
+
+Interesting [blog post](https://carpentries.org/blog/2020/04/coderefinery-first-online-workshop/) from Code Refinery on their experience of running online training.
+
 ---
 
 ## Workshops
