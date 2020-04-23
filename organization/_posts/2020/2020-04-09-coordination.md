@@ -5,7 +5,7 @@ layout: meetings
 
 # {{page.title}}
 
-Present/Contributors: Graeme Stewart, Andrea Valassi, Pere Mato, Teng Jian Khoo, Caterina Doglioni, Ben Morgan, Kyle Knoepfel, Josh McFayden, Serhan Mete, Chris Jones, Efe Yazgan, Agnieszka Dziurda, Witek Pokorski, Eduardo Rodrigues, Paul Laycock, Michel Jouvin, Liz Sexton-Kennedy, Stefan Roiser, Andrea Rizzi, David Lange, Davide Costanzo, Horst Severini, Kilian Lieret, Maek Neubauer, Philippe Canal, Predrag Buncic, Antoine Pérus, Gloria Corti, Daniel Elvira
+Present/Contributors: Graeme Stewart, Andrea Valassi, Pere Mato, Teng Jian Khoo, Caterina Doglioni, Ben Morgan, Kyle Knoepfel, Josh McFayden, Serhan Mete, Chris Jones, Efe Yazgan, Agnieszka Dziurda, Witek Pokorski, Eduardo Rodrigues, Paul Laycock, Michel Jouvin, Liz Sexton-Kennedy, Stefan Roiser, Andrea Rizzi, David Lange, Davide Costanzo, Horst Severini, Kilian Lieret, Mark Neubauer, Philippe Canal, Predrag Buncic, Antoine Pérus, Gloria Corti, Daniel Elvira
 
 Apologies: Attila Krasznahorkay
 
