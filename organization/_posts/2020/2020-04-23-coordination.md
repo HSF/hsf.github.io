@@ -17,14 +17,14 @@ CD's opinion (1st time snowmass-er, others may have further experience): LoI + p
 Paper encourages projects to develop further within the framework with "help" of a forum (at least that's how things are working in Energy Frontier). 
 
 - Could do more than an LoI as we have made progress (LHCC docs)
-- What length? Exec summary, that then references longer document(s)
+- What length? Exec summary, that then makes references to longer document(s)
 - Should continue discussion in the coordination group, inviting Oli (who is a Computational Frontier convenor)
 
 ## Google Summer of Code 2020
 
 GSoC Advisory Committee this year is Liz, Pere and Michel.
 
-This year we have ~200 student proposals for 47 project ideas, 37 qualifying (valid student proposal, complying with the program rules). We asked for 36-37 slots and **received 36** (last year we had 33). The successful proposals will be announced on May 4, coding starts June 1st.
+This year we have ~200 student proposals for 47 project ideas, 37 qualifying (valid student proposals that comply with the program rules). We asked for 36-37 slots and **received 36** (last year we had 33). The successful proposals will be announced on May 4, coding starts June 1st.
 * Currently, we are in a phase where students confirm their participation to a selected project: always the risk of "loosing" a few students who applied to several selected projects (not the case inside HSF but no way to prevent/know in advance if they did in the project of another organization) who may have confirmed before us (but we were quick!)
 
 ## Google Season of Docs 2020
@@ -82,12 +82,12 @@ There will be a relatively short virtual meeting in the week of 18 May, with fol
     - Analysis 6
     - Conclusions 2
     - **Total 29**
-- LaTeX should allow a squeeze (technical "solution"), but we should look out for opporunities to be more concise
+- LaTeX should allow a squeeze (technical "solution"), but we should look out for opportunities to be more concise
 
 ### Introduction
 
 - Reminder that we align expected hardware gains with WLCG/ATLAS/CMS
-    - This was checked and is estimated at ~10% per year as the common figure to be used (the experients also give a 20% pa figure, but that seems over-optimistic)
+    - This was checked and is estimated at ~10% per year as the common figure to be used (the experiments also give a 20% per annum figure, but that seems over-optimistic)
 
 ### Event Generators
 
@@ -101,7 +101,7 @@ There will be a relatively short virtual meeting in the week of 18 May, with fol
 
 ### Reconstruction and Software Triggers
 
-- DL: There are some overlapping ideas to consider consolidate with respect to the facilities document to LHCC (perhaps more general than the reco/trigger secion). 
+- DL: There are some overlapping ideas to consider consolidate with respect to the facilities document to LHCC (perhaps more general than the reco/trigger section). 
 - One idea we didn't capture so well is the need to support HPC architectures. This comes out in both validation and non-x86 support. Will add a few sentences today.
  
 ### Data Analysis
@@ -111,7 +111,7 @@ There will be a relatively short virtual meeting in the week of 18 May, with fol
 
 ### ~~Conclusions~~ Summary
 
-- *Summary* is a more approriate way to finish the document
+- *Summary* is a more appropriate way to finish the document
 - Bullet points per section (aiming for 4-5 seems about right)
     - 24 month timescale (stated as 'a few years')
     - Should be realistic, but ambitious
@@ -150,13 +150,13 @@ No meeting in May due to workshop, but some (incl. categories) potentially lined
 - FASTML (HSF4ML & SONIC) for ML on accelerators
 - (from earlier) Particle flow review
 
-Would it be worth categorizing meetings according to priorities in LHCC document? May benefit HSF PR...
+Would it be worth categorizing meetings according to priorities in the LHCC document? May benefit HSF PR...
 
 *Using the LHCC document to plan the next activities for the working groups is strongly supported.*
 
 #### Other
 
-We have a request of someone who wanted to work in trigger & reco (see previous meetings). 
+We have a request from someone who wanted to work in the trigger & reco area (see previous meetings). 
 
 Idea could be to have him help with ESCAPE dark matter test case (= show an end-to-end physics analysis) and liaise with HSF WGs (especially frameworks and data analysis) on what is being done right now and what can be done in the future. Other ideas/objections? 
 
