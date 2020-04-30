@@ -24,16 +24,20 @@ documenting all the ROOT C++ components. A large set of tutorials [5], helping t
 enter the ROOT world, is also provided. And finally a "Manual"
 guides users trough the ROOT tools and concepts [7].
 
+
 ## Tasks
 
  Possible tasks might include:
 
 - Because ROOT's documentation is mainly physics-oriented, it is more
   difficult for non-physicists to pick up ROOT. The Manual should address this.
-- Documentation of Python bindings in the reference guide.
-- Series of new "tutorial for modern analysis" is needed to illustrate the
+- The ROOT Python bindings suffers from a lack of documentation. It should be extended in
+  the reference guide.
+- Series of new "tutorials for modern analysis" is needed to illustrate the
   functionalities provided by ROOT 7.
-- Technical specifications for the new data format RNTuple.
+- RNTuple is the new data format ROOT will provide in the future. It will be the sucessor
+  of the TTree object which is used to stored the 1 exabyte of data previously mentioned.
+  Therefore, detailed Technical specifications of this new object is crucial.
 
 ## Project duration
 
@@ -52,15 +56,24 @@ after this period.
 
 ## Expected results
 
-The deliverables of the projects will be directly visible online
-in the various area mentioned in the "Tasks" paragraph. The writers
-will directly commit his work as pull requests to the web site repository.
+The deliverables of the projects will be directly visible online in the various area
+mentioned in the "Tasks" paragraph. The writers will directly commit his work as pull
+requests to the web site repository.
+
+The minimum results for each task to consider the project successful are:
+
+- Make sur the manual, at least in the introductory part of each section, does not
+  require physics knowledges.
+- With the help of the ROOT Python experts implement the structure of a guide for ROOT python
+  bindings.
+- Start to implement new "tutorials for modern analysis" to illustrate the
+  functionalities provided by ROOT 7.
+- At least a skeleton of the RNTuple Technical specifications should be implemented.
 
 ## Experience required
 
-We are seeking technical writers with a good experience.
-Technical writing skills are mandatory.
-The following technical skills are mandatory:
+Besides good technical writer skills, the following additional technical skills are mandatory:
+
   - Programming Knowledges (python and C++)
   - Web coding (html, markdown, jekyll, etc ..)
   - Tools : git/github
