@@ -57,7 +57,7 @@ after this period.
   4. [ROOT Reference Guide](https://root.cern/doc/master/)
   5. [ROOT tutorials](https://root.cern/doc/master/group__Tutorials.html)
   6. [ROOT web site GitHub repository](https://github.com/root-project/web)
-  7. [ROOT manual in the web web site](https://root-project.github.io/web/manual/)
+  7. [ROOT manual in the web site](https://root-project.github.io/web/manual/)
 
 ## Expected results
 
