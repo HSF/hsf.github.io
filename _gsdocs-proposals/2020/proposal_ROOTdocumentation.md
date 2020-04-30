@@ -42,13 +42,13 @@ after this period.
 
 ## Related material
 
-  1. https://root.cern
-  2. https://github.com/root-project/
-  3. https://root.cern/guides/users-guide
-  4. https://root.cern/doc/master/
-  5. https://root.cern/doc/master/group__Tutorials.html
-  6. https://github.com/root-project/web
-  7. https://root-project.github.io/web/manual/
+  1. [ROOT web site](https://root.cern)
+  2. [ROOT GiHub repository](https://github.com/root-project/)
+  3. [ROOT User's Guide](https://root.cern/guides/users-guide)
+  4. [ROOT Reference Guide](https://root.cern/doc/master/)
+  5. [ROOT tutorials](https://root.cern/doc/master/group__Tutorials.html)
+  6. [ROOT web site GitHub repository](https://github.com/root-project/web)
+  7. [ROOT manual in the web web site](https://root-project.github.io/web/manual/)
 
 ## Expected results
 
