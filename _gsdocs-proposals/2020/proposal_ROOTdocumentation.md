@@ -24,6 +24,11 @@ documenting all the ROOT C++ components. A large set of tutorials [5], helping t
 enter the ROOT world, is also provided. And finally a "Manual"
 guides users trough the ROOT tools and concepts [7].
 
+ROOT's documentation needs to be improved in various areas:
+  - It is difficult for non-physicists.
+  - Some important parts like the Python bindings are weakly documented.
+  - We are missing tutorials illustrating the functionalities provided by ROOT 7.
+  - New key data format need detailed Technical specifications.
 
 ## Tasks
 
