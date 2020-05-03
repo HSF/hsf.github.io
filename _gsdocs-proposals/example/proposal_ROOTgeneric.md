@@ -1,5 +1,5 @@
 ---
-title: Generic Proposal Title
+title: Generic Proposal Title (add proposal title here)
 layout: gsdocs_proposal
 project: ROOT
 year: 2020
