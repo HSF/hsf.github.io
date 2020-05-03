@@ -4,7 +4,7 @@ author: "Andrei Gheata"
 layout: default
 ---
 
-# ![CERN](/images/CERN-logo.jpg){:height="100px"} ![HSF](/images/hsf_logo_angled.png){:height="100px"} Season of Docs 2020
+# ![CERN](/images/CERN-HSF-GSdocs-logo.png){:height="100px"} Season of Docs 2020
 
 ## Introduction
 
