@@ -11,7 +11,7 @@ layout: default
  * Option A: email GSoC [administrators](mailto:hsf-gsdocs-admin@googlegroups.com) (currently: Andrei Gheata, Antoine Pérus and Xavier Valls)
  * Option B (via git): 
    * fork [git repository](https://github.com/HEP-SF/hep-sf.github.io) 
-   * add `_gsdocs-proposals/YEAR/proposal_YOURPROJECTyourproposal.md` (look at this example: [proposal_ROOTgeneric.md](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsdocs-proposals/2020/proposal_ROOTgeneric.md))
+   * add `_gsdocs-proposals/YEAR/proposal_YOURPROJECTyourproposal.md` (look at this example: [proposal_ROOTgeneric.md](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsdocs-proposals/example/proposal_ROOTgeneric.md))
    * use the above template and fill all sections, which are required
       * Make sure the `year` attribute is correct for your proposal
    * add an organization description to the current year folder (if not already done) as given in this [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsdocs-orgs/2020/cern.md):

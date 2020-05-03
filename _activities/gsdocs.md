@@ -31,7 +31,7 @@ In 2020 CERN-HSF is planning to apply as an umbrella organization, project propo
 
 ### For HSF projects and mentors
 
-HSF is calling for project proposals by May 1, 2020. Detailed instructions on how to apply, including links to other relevant Season of Docs resources are [available here](/gsdocs/guideline.html). Note that the proposal linked in the ROOT project below is only a template to be followed as guideline concerning the possible content. Please use the contact at the bottom of this page (not the general e-mail) to ask us any questions concerning your application.
+Detailed instructions for mentors and organizations on how to apply, including links to other relevant Season of Docs resources are [available here](/gsdocs/guideline.html). Please use the administrators contact at the bottom of this page (not the general to ask us any questions concerning your application.
 
 ## Projects in 2020
 
@@ -52,4 +52,4 @@ HSF is calling for project proposals by May 1, 2020. Detailed instructions on ho
 
 *HSF Season of Docs Administrators*: Andrei Gheata, Antoine Pérus and Xavier Valls.
 
-[Contact us](mailto:hsf-gsdocs-admin@googlegroups.com) / [General e-mail for mentors](mailto:hep-software-foundation-google-season-of-docs@googlegroups.com)
+[Contact administrators](mailto:hsf-gsdocs-admin@googlegroups.com) / [General e-mail for mentors](mailto:hep-software-foundation-google-season-of-docs@googlegroups.com)
