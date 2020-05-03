@@ -1,10 +1,10 @@
 ---
 title: Generic Proposal Title (add proposal title here)
 layout: gsdocs_proposal
-project: PROJ (put project name here)
+project: ROOT
 year: 2020
 organization:
-  - ORGANIZATION (e.g. CERN)
+  - CERN
 ---
 
 ## Description of project idea
