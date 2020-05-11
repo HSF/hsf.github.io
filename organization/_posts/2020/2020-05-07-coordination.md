@@ -15,7 +15,7 @@ Our CERN colleagues (Jose Gonzalez, Tim Smith) asked for a letter of support for
 
 This looks very well aligned with the HSF and we have prepared a [draft letter of support](https://docs.google.com/document/d/1Pqc918XiqmrcGuPCZKjgi8QPxqUEZNgVKaaBXZRnq6c/edit?usp=sharing).
 
-Q. What about software standards? What constitures "well written software"? A. Yes, there is a work package on sustainability and quality. There will be a body that tries to improve this area and also training is a significant work package.
+Q. What about software standards? What constitutes "well written software"? A. Yes, there is a work package on sustainability and quality. There will be a body that tries to improve this area and also training is a significant work package.
 
 *The meeting approved the letter of support for EuSSI.*
 
