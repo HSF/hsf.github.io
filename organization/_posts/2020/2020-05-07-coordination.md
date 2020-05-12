@@ -130,7 +130,7 @@ Follow-up in the HSF Frameworks Group.
 
 ### Event generators
 * Updating the generator paper. Will submit to the journal next week (still waiting for some comments).
-    * Also plan to contribute it to the Snowmass process.
+    * Also plan to contribute the paper to the Snowmass process.
 * Started discussion with Andy Buckley on collaboration between the HSF and UK "Efficient Computing in HEP" generators projects. Will schedule a discussion at an upcoming WG meeting. 
 
 ### Frameworks
@@ -157,6 +157,6 @@ Follow-up in the HSF Frameworks Group.
 
 ### Next Meeting
 
-- Next regular meeeting slot is 21 May, *however this is the Ascension holiday in many European countries (and at CERN)* so no meeting.
+- Next regular meeting slot is 21 May, *however this is the Ascension holiday in many European countries (and at CERN)* so no meeting.
     - *We decided to have a meeting on 28 May, but dedicated to feedback from the LHCC review*.
     - Then next regular meeting will be 4 June
