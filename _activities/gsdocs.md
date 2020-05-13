@@ -29,6 +29,10 @@ Since 2011, CERN has participated in other Google initiatives such as Google Sum
 
 In 2020 CERN-HSF is planning to apply as an umbrella organization, project proposals are listed [below](#projects-in-2020).
 
+### For technical writers
+
+For candidate technical writers interested in our project proposals, please take your time to first read them thoroughly and visit the links they advertise. In case the content attracts your interest and you have ideas on how you may contribute, contact by mail directly the mentors listed at the end of each proposal. Please introduce yourself and attach your curriculum, which must contain references to some of your notable technical writing contributions. Note that all our projects require some previous experience in this area.
+
 ### For HSF projects and mentors
 
 Detailed instructions for mentors and organizations on how to apply, including links to other relevant Season of Docs resources are [available here](/gsdocs/guideline.html). Please use the administrators contact at the bottom of this page (not the general to ask us any questions concerning your application.
