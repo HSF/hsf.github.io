@@ -170,6 +170,12 @@
   end_date: 2020-04-30
   source: https://indico.cern.ch/event/867700/
   title: Alpaka Parallel Programming - Advanced Training Hackathon
+- author: Kilian Lieret
+  date: 2020-06-02
+  deadline: ''
+  end_date: 2020-06-04
+  source: https://indico.cern.ch/event/904759/
+  title: Virtual Pipelines Training
 - author: Guillermo Fidalgo
   date: 2020-06-07
   deadline: 2020-02-27
