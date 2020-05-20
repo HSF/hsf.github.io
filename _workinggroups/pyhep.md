@@ -35,7 +35,7 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 {:.table .table-hover .table-condensed .table-striped}
 | *Workshop* | *Location*             | *Date*               | *Agenda link*                                                                 |
 | ---------- | ---------------------- | ---------------------| ----------------------------------------------------------------------------- |
-| PyHEP 2020 | Austin, Texas, U.S.A.  | July 11-13, 2020     | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}     |
+| PyHEP 2020 | Virtual workshop       | July 13-17, 2020     | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}     |
 | PyHEP 2019 | Abingdon, U.K.         | October 16-18, 2019  | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}     |
 | PyHEP 2018 | Sofia, Bulgaria        | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
 
@@ -43,10 +43,12 @@ The advert and details on these workshops are given below.
 
 ## PyHEP 2020
 
-PyHEP 2020 will be held in Austin (Texas), USA, on 11-13 July 2020.
-The workshop will take place in the same city as the [SciPy 2020](https://www.scipy2020.scipy.org/){:target="_scipy2020"}
-conference on scientific computing in Python, and will slightly overlap in time with it,
-to facilitate inter-community exchanges. We encourage HEP participation in SciPy.
+PyHEP 2020 will be held as a *virtual* workshop on 13-17 July 2020.
+The workshop was meant to take place in the same city as the [SciPy 2020](https://www.scipy2020.scipy.org/){:target="_scipy2020"}
+conference on scientific computing in Python, and slightly overlap in time with it,
+to facilitate inter-community exchanges.
+Both events are now virtual because of the worldwide COVID-19 pandemic.
+We encourage HEP participation in SciPy.
 
 The PyHEP 2020 [agenda](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}
 will be composed of plenary sessions; the content is under preparation.
