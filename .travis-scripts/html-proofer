@@ -17,6 +17,9 @@ then
 fi
 
 # DESY Debug statetments
+echo NETWORK
+ifconfig -a
+echo
 echo HTTP HEADER TEST
 curl -I -L https://indico.desy.de/indico/
 echo 

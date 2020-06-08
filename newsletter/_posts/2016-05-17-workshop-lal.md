@@ -143,11 +143,11 @@ progress accomplished in the last year, yielding an increasing motivation.
 In addition to the initiatives already mentioned and the follow-up of existing 
 activities, the main actions agreed for the coming year are: 
 
-* HSF communication: explore the use of StackExchange, a well-identified open forum, for questions about HEP computing
-   * At some point it may become an attractive alternative for (some) mailing-list based forums in HSF
-* Increase software project support, develop project peer-review activity
-* Look for an official blessing of the HSF by bodies like ECFA/ICFA
-* Find some dedicated resources for the HSF work (currently best effort by motivated people on their "spare" time!). A proposal of creating HSF Centers in our laboratories/universities/institutions has been made: this could become visible parts of HSF hosted by various parties.
+* HSF communication: explore the use of StackExchange, a well-identified open forum, for questions about HEP computing
+  * At some point it may become an attractive alternative for (some) mailing-list based forums in HSF
+* Increase software project support, develop project peer-review activity
+* Look for an official blessing of the HSF by bodies like ECFA/ICFA
+* Find some dedicated resources for the HSF work (currently best effort by motivated people on their "spare" time!). A proposal of creating HSF Centers in our laboratories/universities/institutions has been made: this could become visible parts of HSF hosted by various parties.
 
 We also discussed (again!) the possibility of a legal entity to support HSF. Despite not reaching a consensus yet, we agreed to further explore the possibility with funding agencies and lawyers. The general idea was that this entity, if created, should focus initially on IPR management, in a way similar to the Apache Software Foundation, to make possible IPR transfer.
 
