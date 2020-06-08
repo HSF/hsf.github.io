@@ -16,6 +16,14 @@ then
     usage
 fi
 
+# DESY Debug statetments
+echo HTTP HEADER TEST
+curl -I -L https://indico.desy.de/indico/
+echo 
+echo HTTP PAGE TEST
+curl -L https://indico.desy.de/indico/event/22731/
+# End
+
 bundle exec jekyll build
 bundle exec htmlproofer ${url_ignore_option} ${debug_option} --check-html ./_site
 status=$?
