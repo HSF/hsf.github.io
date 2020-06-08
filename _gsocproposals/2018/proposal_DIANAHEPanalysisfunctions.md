@@ -41,4 +41,4 @@ At the end of this project, we expect a first draft of a functional/pipelined/ve
 ## Links
 
   * [Object-Array Mapping](https://github.com/diana-hep/oamap)
-  * [Histogrammar](http://histogrammar.org)
+  * [Histogrammar](https://pypi.org/project/histogrammar/)

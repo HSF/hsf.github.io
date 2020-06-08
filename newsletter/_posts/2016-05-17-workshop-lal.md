@@ -31,7 +31,7 @@ time to submit a logo proposal.
 We had a session dedicated to some of the HSF SW projects and related initiatives
 * [AIDA2020 WP3](http://aida2020.web.cern.ch/activities/wp3-advanced-software): the software work package of the EU-funded project about detector R&D. AIDA2020 expressed that they want to put their development under the HSF umbrella.
 * [Next Generation Conditions Database](https://github.com/HSF/PhysCondDB): a project started jointly by CMS and ATLAS that is becoming attractive to others. This project benefits from the collaborative spirit resulting from the HSF.
-* [The HEP Software and Computing Knowledge Base](http://hepsoftware.org/): this is a project started by the HSF to facilitate software sharing. It is easy to use and allows crosslinking of software, experiments, organisations, events... **Register your favorite software!**
+* The HEP Software and Computing Knowledge Base: this is a project started by the HSF to facilitate software sharing. It is easy to use and allows crosslinking of software, experiments, organisations, events... **Register your favorite software!**
 * [WikiToLearn](https://en.wikitolearn.org/Main_Page): a new platform allowing the sharing and improving of training materials through collaboration between authors and users. Developed in Italy (University of Milano), its developers are committed to making it useful for, and usable by the HSF.
 * [DIANA-HEP](http://diana-hep.org/) (Data Intensive Analysis for HEP): a NSF-funded project to promote common analysis tools for data intensive research in HEP, using ROOT at its core. This US project shares many goals with the HSF.
 

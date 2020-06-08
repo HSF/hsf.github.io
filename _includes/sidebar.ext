@@ -17,7 +17,6 @@ contact the <a href="mailto:hsf-coordination@googlegroups.com">startup team</a>.
       {% endif %}
     {% endfor %}
     </ol>
-See also <a href='http://hepsoftware.org/?popupmode=Events&popupstate=events'>HEP S&amp;C community events</a>
   </div>
 
   <div class="sidebar-module sidebar-module-inset">
@@ -35,7 +34,6 @@ See also <a href='http://hepsoftware.org/?popupmode=Events&popupstate=events'>HE
     <h4>Links</h4>
     <ol class="list-unstyled">
       <li><a href="http://feeds.feedburner.com/HepSoftwareFoundationNewsletter">RSS feed</a></li>
-      <li><a href="http://hepsoftware.org">HEP Knowledge Base</a></li>
       <li><a href="http://it.wikitolearn.org/Main_HSF_Page">HSF on WikiToLearn</a></li>
       <li><a href="https://github.com/HSF">HSF on GitHub</a></li>
 

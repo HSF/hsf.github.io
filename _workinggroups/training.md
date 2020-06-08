@@ -39,7 +39,7 @@ Weekly meetings are usually held at 15h30 CERN time on Mondays. Everyone is welc
 
 ## Towards a full HEP Software Curriculum
 
-Our long term goal is to compile standardized HEP Software training modules into a full curriculum. More about this project can be found [here](/training/curriculum).
+Our long term goal is to compile standardized HEP Software training modules into a full curriculum. More about this project can be found [here](/training/curriculum.html).
 
 ## Github Organization
 

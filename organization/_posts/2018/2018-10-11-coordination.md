@@ -98,7 +98,7 @@ AOB
     -   Graeme - no activity in this area as far as I am aware.
     -   Is anyone interested in this topic?
         -   Dario and Pete are - Graeme will pass on contact details.
--   [http://hepsoftware.org/](http://hepsoftware.org/) has been down
+-   http://hepsoftware.org/ has been down
     for a week - tracked as a [GitHub
     issue](https://github.com/HSF/hsf.github.io/issues/390).
 

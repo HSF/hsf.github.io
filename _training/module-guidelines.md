@@ -7,7 +7,7 @@ layout: plain
 The training material should aim at and be relevant for the HEP community.
 
 ## Format of the training modules
-We are a fan of developing training modules similar to the work of the [software carpentry](software-carpentry.org): as a git repository containing a set of markdown files together with nice tooling to display them as fancy webpages. This format makes it easy to collaboratively extend and maintain the modules.
+We are a fan of developing training modules similar to the work of the [software carpentry](https://software-carpentry.org): as a git repository containing a set of markdown files together with nice tooling to display them as fancy webpages. This format makes it easy to collaboratively extend and maintain the modules.
 
 We are also open for other formats as well (suggestions are always welcome), if they are
 
