@@ -14,14 +14,14 @@ Present/Contributors: Graeme Stewart, Andrea Rizzi, Caterina Doglioni, Attila Kr
 [LHCC referees meeting](https://indico.cern.ch/event/877841/) yesterday, Graeme presented the software report (thanks for feedback and input)
 
 - Comment on workshop
-    - Possible tension between live presentations and ensuring we stick to time
-        - Still, need discipline (chairs and speakers) for the presentation 'core' not to be over time
+    - Possible tension between live presentations and ensuring we stick to time (pre-recorded talks don't run over!)
+        - Need discipline (chairs and speakers) for the presentation 'core' not to be over time; questions during the talk are fine, indeed part of the perceived advantage of live talks
 - Questions on PyHEP
     - How to manage so many participants
         - If CERN Zoom trial is made official >500 people may be possible
     - The participant communities
         - LHC, non-LHC, sites, Belle II, DUNE, dark matter
-        - Discusses use of Python in core of DM experiments (XENON1T)
+        - Short discussion use of Python in core of DM experiments (XENON1T)
 
 ### Alpaka Training
 
@@ -40,9 +40,9 @@ Present/Contributors: Graeme Stewart, Andrea Rizzi, Caterina Doglioni, Attila Kr
 ## Working Group Updates
 
 ### Data Analysis
- - Meeting on non-mainstream analysis pattern postponed due to unavailability of speakers from many of the contacted experiments
+ - Meeting on non-mainstream analysis patterns postponed due to unavailability of speakers from many of the contacted experiments
  - Probably splitting in two sessions (one before summer, one after)
-     - Attempted splitting based on topic (e.g. B-physics vs exotics), but does not fit different experiments timelines
+     - Attempted splitting based on topic (e.g. B-physics vs exotics), but does not fit different experiments' timelines
 
 ### Detector Simulation
 - Topical meeting on 27th May devoted to GPU usage in simulation
