@@ -96,7 +96,7 @@ HSF/WLCG Workshop Follow-up
                 -   Need to translate these into a git branch that
                     people can preview.
             -   Discussed the future of
-                [http://www.hepsoftware.org/](http://www.hepsoftware.org/) -
+                http://www.hepsoftware.org/ -
                 at the moment we should keep using it, even if we
                 foresee its frontend being migrated (when effort is
                 identified).

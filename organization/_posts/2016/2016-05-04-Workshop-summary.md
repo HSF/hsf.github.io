@@ -227,7 +227,7 @@ Data intensive ANAlisys for HEP: collaborative efforts around anlysis tools to m
 
 ### SW&C Knowledge Base - T. Wenaus
 
-[*http://hepsoftware.org*](http://hepsoftware.org): the last generation (hopefully the last one, works nicely!)
+http://hepsoftware.org: the last generation (hopefully the last one, works nicely!)
 
 -   Javascript app in the browser
 

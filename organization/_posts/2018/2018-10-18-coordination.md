@@ -131,7 +131,7 @@ CWP
 AOB
 ---
 -   HSF Logo in vector format - reminder of action on Benedikt.
--   [http://hepsoftware.org/](http://hepsoftware.org/) was fixed,
+-   http://hepsoftware.org/ was fixed,
     thanks to Torre ([GitHub
     issue](https://github.com/HSF/hsf.github.io/issues/390)).
 -   Website was restructured a bit to add the new working group stubs.

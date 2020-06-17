@@ -17,11 +17,11 @@ We have been compiling a set of [project guidelines](project_guidelines.html) th
 {:.table .table-hover .table-condensed .table-striped}
 | Name  | Description | License | Contact |
 | --------| ------------- |----------|-----------|
-| [DD4hep](http://hepsoftware.org/e/dd4hep)   | Generic Detector Description toolkit for HEP  | LGPL v3 | [Markus Frank](mailto:marks.frank@cern.ch) |
-| [fads](http://hepsoftware.org/e/fads)          | FAst Detector Simulation  | BSD-3 | [Sebastien Binet](mailto:binet@cern.ch) |  
-| [Gaudi](http://hepsoftware.org/e/gaudi)          | Event data processing framework | Unk | [Marco Clemencic](mailto:marco.clemencic@cern.ch) |  
-| [HepMC3](http://hepsoftware.org/e/hepmc3) | C++ Event Record for Monte Carlo Generators | LGPL v3 | [Witek Pokorski](mailto:witold.pokorski@cern.ch) |
-| [podio](https://github.com/hegner/podio) | Event Data Model Library based on plain-old-data | GPL v3 | [Benedikt Hegner](mailto:benedikt.hegner@cern.ch) |
+| [DD4hep](https://github.com/AIDASoft/DD4hep)   | Generic Detector Description toolkit for HEP  | LGPL v3 | [Markus Frank](mailto:marks.frank@cern.ch) |
+| [fads](https://pkg.go.dev/go-hep.org/x/hep/fads?tab=doc)          | FAst Detector Simulation  | BSD-3 | [Sebastien Binet](mailto:binet@cern.ch) |  
+| [Gaudi](http://gaudi.web.cern.ch/gaudi/)          | Event data processing framework | Unk | [Marco Clemencic](mailto:marco.clemencic@cern.ch) |  
+| [HepMC3](https://gitlab.cern.ch/hepmc/HepMC3) | C++ Event Record for Monte Carlo Generators | LGPL v3 | [Witek Pokorski](mailto:witold.pokorski@cern.ch) |
+| [podio](https://github.com/AIDASoft/podio) | Event Data Model Library based on plain-old-data | GPL v3 | [Benedikt Hegner](mailto:benedikt.hegner@cern.ch) |
 | [PM4hep](https://github.com/hegner/PM4hep) | Minimal Plugin Manager | GPL v3 | [Benedikt Hegner](mailto:benedikt.hegner@cern.ch) |
-| [ROOT](http://hepsoftware.org/e/root)            | Data Analysis Framework | LGPL v2+ | [Pere Mato](mailto:pere.mato@cern.ch) |
-| [XRootD](http://hepsoftware.org/e/xrootd)     | High performance, scalable fault tolerant access to data  | LGPL v3 | [Andrew Hanushevsky](mailto:abh@stanford.edu)|
+| [ROOT](https://root.cern.ch/)            | Data Analysis Framework | LGPL v2+ | [Pere Mato](mailto:pere.mato@cern.ch) |
+| [XRootD](https://xrootd.slac.stanford.edu/)     | High performance, scalable fault tolerant access to data  | LGPL v3 | [Andrew Hanushevsky](mailto:abh@stanford.edu)|

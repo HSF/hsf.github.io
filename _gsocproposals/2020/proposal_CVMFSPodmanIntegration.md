@@ -113,4 +113,4 @@ The code-base will mostly be in Go(lang), hence it is necessary to know the lang
 [simo]: mailto:simone.mosciatti@cern.ch
 [ducc]: https://github.com/cvmfs/cvmfs/tree/devel/ducc
 [docker-graphdriver]: https://cvmfs.readthedocs.io/en/stable/cpt-graphdriver.html
-[remote-containerd]: https://github.com/ktock/stargz-snapshotter/pull/27
+[remote-containerd]: https://github.com/ktock/stargz-snapshotter/
