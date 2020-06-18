@@ -50,8 +50,8 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 | -------- | -------- |-------- |
 | The Unix Shell |  | [Created & Maintained by software carpentries](http://swcarpentry.github.io/shell-novice)|
 | Advanced Shell | E.g. SSH | |
-| Version controlling with git | | [Created & Maintained by software carpentries](http://swcarpentry.github.io/git-novice)
-| Advanced git  | |
+| Version controlling with git | | [Created & Maintained by software carpentries](http://swcarpentry.github.io/git-novice) |
+| Advanced git  | | |
 | Programming with python | | [Created & Maintained by software carpentries ](http://swcarpentry.github.io/python-novice-inflammation) |
 | Build systems: From ``gcc`` to ``cmake`` | | |
 | Basic ``C++`` | | |
