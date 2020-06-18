@@ -85,3 +85,9 @@ Contributions of any kind are very welcome! There are various ways you can get i
 * Join our meetings to give feedback and discuss with us (details at our [main page](/workinggroups/training.html))
 * Bugs reports or features requests: Directly open an issue on github or (even better) submit a pull request to fix things.
 * Want to contribute your own module? We compiled a small list of recommendations [here](/training/module-guidelines.html). Of course we always encourage you to talk to us early for a better coordination.
+
+## FAQ
+
+>  Where can I find the source (github repository) of the web pages linked above? 
+
+Scroll down the page and click on "Source" or "Edit on GitHub".
