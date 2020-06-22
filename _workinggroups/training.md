@@ -35,7 +35,7 @@ Today's graduate students will be the young faculty members driving HEP research
 
 Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided! 
 
-Weekly meetings are usually held at 15h30 CERN time on Mondays. Everyone is welcomed to discuss! Check [Indico](https://indico.cern.ch/category/11294/) for details.
+Weekly meetings are usually held at 16h00 CERN time on Mondays. Everyone is welcomed to discuss! Check [Indico](https://indico.cern.ch/category/11294/) for details.
 
 We are always looking for volunteers from the community to help us with our training events. [This page](/training/educators.html) lists the different roles that you can take.
 
