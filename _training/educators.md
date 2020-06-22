@@ -15,7 +15,7 @@ An efficient execution of a training event is made possible through focusing on 
 
 <figure style="text-align: center">
   <img src="/images/training/instructor_mentor_small.jpg" alt="Facilitator" style="width:80%; max-width: 600px">
-  <figcaption style="width:80%; max-width: 600px; text-align: center; margin: 0 auto;">Instructor Giordon Stark (back left near the screen) guides the group of participants through the core subject matter while Mentor Danika MacDonell (front center standing up) debugs and clarifies understanding with a single participant.  Every learner is unique!</figcaption>
+  <figcaption style="width:80%; max-width: 600px; text-align: center; margin: 0 auto;">Instructor Giordon Stark (background right in front of the screen) guides the group of participants through the core subject matter while Mentor Danika MacDonell (front center standing up) debugs and clarifies understanding with a single participant.  Every learner is unique!</figcaption>
 </figure>
 
 ## Facilitators
