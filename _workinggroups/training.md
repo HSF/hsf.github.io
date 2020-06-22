@@ -43,7 +43,7 @@ Our long term goal is to compile standardized HEP Software training modules into
 
 ## Github Organization
 
-The [HSF-Training GitHub Organization](https://github.com/hsf-training) has [Analysis Essentials](https://hsf-training.github.io/analysis-essentials/), a course on basic computing required for HEP, and [PyHEP resources](https://github.com/hsf-training/PyHEP-resources), a page of Python-focused training resources.
+The [HSF-Training GitHub Organization](https://github.com/hsf-training) hosts the training modules from our [HEP software curriculum](/training/curriculum.html). It also has [Analysis Essentials](https://hsf-training.github.io/analysis-essentials/), a course on basic computing required for HEP, and [PyHEP resources](https://github.com/hsf-training/PyHEP-resources), a page of Python-focused training resources.
 
 ## Current and Upcoming Training Schools
 
