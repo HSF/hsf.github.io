@@ -33,9 +33,11 @@ Today's graduate students will be the young faculty members driving HEP research
 
 ## How to participate and contribute?
 
-Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided!
+Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided! 
 
 Weekly meetings are usually held at 15h30 CERN time on Mondays. Everyone is welcomed to discuss! Check [Indico](https://indico.cern.ch/category/11294/) for details.
+
+We are always looking for volunteers from the community to help us with our training events. [This page](/training/educators.html) lists the different roles that you can take.
 
 ## Towards a full HEP Software Curriculum
 
@@ -56,10 +58,10 @@ The [HSF-Training GitHub Organization](https://github.com/hsf-training) hosts th
   {% if date > now %}
   {% if post.deadline != blank %}
   1. [**{{post.date | date: "%-d %b"}} - {{post.end_date | date: "%-d %b %Y"}}** - {{post.title}} - **Deadline:** {{post.deadline| date: "%-d %b %Y"}} ]({{post.source}}){% if post.url_proof_ignore %}{:data-proofer-ignore=""}{% endif %}
-  {% else %}
+    {% else %}
   1. [**{{post.date | date: "%-d %b"}} - {{post.end_date | date: "%-d %b %Y"}}** - {{post.title}} ]({{post.source}}){% if post.url_proof_ignore %}{:data-proofer-ignore=""}{% endif %}
-  {% endif %}
-  {% endif %}
+    {% endif %}
+    {% endif %}
 {% endfor %}
 
 [**Full list of Upcoming and Past Schools**](/Schools/events.html)
