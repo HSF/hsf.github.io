@@ -11,6 +11,7 @@ twitter:  # your twitter handle (if any)
 github:  # your github (if any)
 orcid: 
 gravatar:
+linkedin:
 
 # Don't modify the following setting
 layout: plain
