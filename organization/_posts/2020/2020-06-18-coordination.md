@@ -19,7 +19,7 @@ Mattermost (everyone welcome) to discuss projects:
 
 - <https://mattermost.web.cern.ch/signup_user_complete/?id=zf7w5rb1miy85xsfjqm68q9hwr>
 
-(this does work for non-CERN people, but you might need to create an lightweight account)
+(this does work for non-CERN people, but you might need to create an lightweight account).
 
 Meeting approved this a new Activity for the HSF, **Differentiable Computing**. Use the HSF platform to look for cross-cutting topics with, e.g., Analysis and PyHEP WGs.
 
@@ -58,8 +58,8 @@ We do expect more details later from the panel.
 
 ## Alpaka Training
 
-- Alpaka (heterogeneous API) training will take place as a [virtual event](https://indico.cern.ch/event/912156/)
-- Reminder mail to be sent soon on the HSF mailing list (fixing last technical details)
+- Alpaka (heterogeneous API) training will take place as a [virtual event](https://indico.cern.ch/event/912156/).
+- Reminder mail to be sent soon on the HSF mailing list (fixing last technical details):
     - Co-organised with SIDIS, openlab, CASUS
 - Date settled: June 29 - July 3
     - Monday - Friday, 9.00 - 10.30 CEST
@@ -69,20 +69,21 @@ We do expect more details later from the panel.
 Caterina, Graeme, Xavier, Pere, Tommaso (and others, including Lukas Heinrich and Sam Meehan on the ATLAS side) involved in discussions to make the "ESCAPE Dark Matter Test Science Project" (=review and implementation of software pipelines for different dark matter experiments) part of a proposal for the European Open Science Cloud [INFRAEOSC-03-2020](https://www.eosc-portal.eu/infraeosc-03-2020-integration-and-consolidation-existing-pan-european-access-mechanism-public). 
    * If successful, some postdocs from CERN and other institutes will join up to work on this, with a link to HSF. 
    * Work plan outlined very roughly so far, but there is a lot of room for feedback to make this project actually useful (and how to use this platform to make work on tools & pipelines more recognized career-wise).
-   * Slides if you want to know more in broad terms: [link](https://cernbox.cern.ch/index.php/s/6iFibyWVHReeBk1)
+   * Slides if you want to know more in broad terms: [link](https://cernbox.cern.ch/index.php/s/6iFibyWVHReeBk1).
 
 ## Working Group Updates
 
 ### Data Analysis
-Some problems trying to converge on a date for the next meeting (follow up from the DOMA-Analysis meeting), we will resort to doodle now that we have (nearly!) finalised speakers - theme is a B-physics focus (LHCb and Belle II) with contributions from CMS and ATLAS that also include exotics / not-mainstream.
+- Some problems trying to converge on a date for the next meeting (follow up from the DOMA-Analysis meeting), we will resort to doodle now that we have (nearly!) finalised speakers.
+  - Theme is a B-physics focus (LHCb and Belle II) with contributions from CMS and ATLAS that also include exotics / not-mainstream analysis.
 
 ### Detector Simulation
-Next to topical meeting next week on Wednesday 24th June at 4pm. Third (and last) of the series of meetings devoted to GPU usage in particle transport. The slides for the lightning talks will be available before the meeting and a document with live notes will be attached to the agenda for people to ask questions before and/or during the meeting. 
+- Next to topical meeting next week on Wednesday 24th June at 4pm. Third (and last) of the series of meetings devoted to GPU usage in particle transport. 
+  - The slides for the lightning talks will be available before the meeting and a document with live notes will be attached to the agenda for people to ask questions before and/or during the meeting. 
 
 ### Reconstruction and Software Triggers
-- Today's meeting (17, CERN time):
-    - <https://indico.cern.ch/event/929836/>
-    - “Allen: the LHCb HLT1 trigger on GPU” by Dorothea Vom Bruch
+- Today's meeting (17h, CERN time):
+    - [“Allen: the LHCb HLT1 trigger on GPU” by Dorothea Vom Bruch](https://indico.cern.ch/event/929836/)
 - In the pipeline: website reorganization with projects, following up on Graph networks for tracking, meetings after the summer
 
 
@@ -95,17 +96,14 @@ Next to topical meeting next week on Wednesday 24th June at 4pm. Third (and last
 
 ### Software Training
 
-[See slides](https://indico.cern.ch/event/916411/contributions/3852668/attachments/2060079/3455432/hsf_training_1.pdf) for the update of WG activity.
-
-Captioning - sent mp4 files of the event to the company (takes ~1 week to turnaround)
-
-FNAL will offer a C++ class (last year has 60 people; attendance dropped from 50->30 through the week). This time will change a nominal fee to try and increase commitment. Virtual event, spread over a few weeks, to give more time for exercises. Discuss in training meetings the format. Not clear if the tutor would be able/willing to put the material into the proposed HSF lessons template.
+- [See slides](https://indico.cern.ch/event/916411/contributions/3852668/attachments/2060079/3455432/hsf_training_1.pdf) for the update of WG activity.
+- Captioning - sent mp4 files of the event to the company (takes ~1 week to turnaround)
+- FNAL will offer a C++ class (last year has 60 people; attendance dropped from 50->30 through the week). This time will change a nominal fee to try and increase commitment. Virtual event, spread over a few weeks, to give more time for exercises. Discuss in training meetings the format. Not clear if the tutor would be able/willing to put the material into the proposed HSF lessons template.
 
 ### Frameworks
 
-We are still trying to identify someone to discuss the Gaudi multi-threading scheduling mechanisms.
-
-We are also working to schedule a talk regarding LHCb's Allen framework. Thanks to Agnieszka for putting us in touch with the Allen team.
+- We are still trying to identify someone to discuss the Gaudi multi-threading scheduling mechanisms.
+- We are also working to schedule a talk regarding LHCb's Allen framework. Thanks to Agnieszka for putting us in touch with the Allen team.
 
 ---
 
@@ -113,11 +111,11 @@ We are also working to schedule a talk regarding LHCb's Allen framework. Thanks 
 
 ### New Architectures, Portability, and Sustainability
 
-Feedback meeting was yesterday (<https://indico.cern.ch/event/925974/>) but was not very well attended (~20 people)
+Feedback meeting was yesterday (<https://indico.cern.ch/event/925974/>), but was not very well attended (~20 people)
 - General agreement that the virtual workshop was a success: allowed useful discussions that will be followed up in topical meetings organised by the WGs
 - Summary and outcomes [document](https://docs.google.com/document/d/1ujwMhFTwxy3TAe8jKpvHvT1TB-ZXv1s7BolcfNKgqJA/edit?usp=sharing) has been prepared 
 
-Good participation to the survey: 34% of the registered people (75 out of 221)
+Good participation in the survey: 34% of the registered people (75 out of 221)
 * People attended sessions out of their main area of interest
 * Having presentations a few days in advance was important: 2/3 reviewed them
 * Strong preference for live presentations over recorded ones
