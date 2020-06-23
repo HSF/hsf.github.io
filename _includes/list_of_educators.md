@@ -14,8 +14,6 @@
     margin-top: -50px;
 }
 
-
-
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -52,12 +50,28 @@
 </style>
 
 
+{% assign ouryear = site.time | date: '%Y' %}
+{% for thisyear in (2019..ouryear) reversed %}
+
+<h3> {{ thisyear }} </h3>
+
+{% assign skipped = 0 %}
 {% for person in site.educators | sort:"title" %}
 
-{% assign nroles = post.roles.size %}
+{% assign nroles = person.roles.size %}
 
 
-{% assign loopindex = forloop.index | modulo: 4 %}
+{% if nroles == 0 %}
+	{% assign skipped = skipped | plus: -1 %}
+	{% continue %}
+{% endif %}
+
+{% unless person.years contains thisyear %}
+	{% assign skipped = skipped | plus: -1 %}
+	{% continue %}
+{% endunless %}
+
+{% assign loopindex = forloop.index | plus: skipped | modulo: 4 %}
 
 {% if loopindex == 1 %}
 <div class="row">
@@ -72,12 +86,19 @@
   {% else %}
   <img data-src="https://www.gravatar.com/avatar/{{ person.gravatar }}?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of {{person.title}}">
   {% endif %}
+  <div>
+  {% for role in person.roles %}
+	<span class="badge badge-secondary">{{ role | capitalize }}</span>
+  {% endfor %}
+  </div>
   <h3>{{ person.title }}</h3>
+  <!-- todo: add linkedin -->
+  <!-- todo: add link to about me page person.url -->
   <ul class="list-inline social-buttons">
       {% if person.twitter %}<li> <a href="https://twitter.com/{{ person.twitter }}"> <i class="fab fa-twitter"></i> </a> </li> {% endif %}
       {% if person.github %}<li> <a href="https://github.com/{{ person.github }}"> <i class="fab fa-github"></i> </a> </li> {% endif %}
       {% if person.orcid %}<li> <a href="https://orcid.org/{{ person.orcid }}"> <i class="fab fa-orcid"></i> </a> </li> {% endif %}
-      {% if person.url and person.url != "" %}<li> <a href="{{ person.url }}"> <i class="fas fa-link"></i> </a> </li> {% endif %}
+      {% if person.homepage and person.homepage != "" %}<li> <a href="{{ person.url }}"> <i class="fas fa-link"></i> </a> </li> {% endif %}
   </ul>
   {% unless person.country == "" %}
   <!-- <img width="64" src="/files/flags/{{ person.country | downcase }}.svg"/> -->
@@ -89,5 +110,12 @@
 {% if loopindex == 0 %}
 </div>
 {% endif %}
+{% endfor %}
+
+{% if loopindex != 0 %}
+</div>
+{% endif %}
+
+
 {% endfor %}
 
