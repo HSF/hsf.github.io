@@ -19,7 +19,7 @@ Mattermost (everyone welcome) to discuss projects:
 
 - <https://mattermost.web.cern.ch/signup_user_complete/?id=zf7w5rb1miy85xsfjqm68q9hwr>
 
-(this does work for non-CERN people, but you might need to create an lightweight account).
+(this does work for non-CERN people, but you might need to create a lightweight account).
 
 Meeting approved this a new Activity for the HSF, **Differentiable Computing**. Use the HSF platform to look for cross-cutting topics with, e.g., Analysis and PyHEP WGs.
 
