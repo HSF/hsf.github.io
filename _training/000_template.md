@@ -7,13 +7,13 @@ years: []              # in which years did you help out? (e.g. [2020, 2019])
 
 # Optional (please add github or gravatar for your picture)
 github:       # your github handle  (github.com/<handle>)
-gravatar:
-homepage:     # your personal homepage  (full url)
-twitter:      # your twitter handle 
-gitlab:       # your gitlab handle  (gitlab.com/<handle>)
-bitbucket:    # your bitbucket handle  (bitbucket.com/<handle>)
-orcid:        # your orcid handle (https://orcid.org/<handle>)
-linkedin:     # full url (https://linkedin.com/in/your-name-some-hex-code)
+gravatar:     # your gravatar ID (the hex hash of your email, something like 123ef...123)
+homepage:     # your personal homepage (full url)
+twitter:      # your twitter ID (not full URL, no leading '@')
+gitlab:       # your gitlab ID (not full URL)
+bitbucket:    # your bitbucket ID (not full URL)
+orcid:        # your orcid handle (not full URL)
+linkedin:     # full url (i.e. https://linkedin.com/in/your-name-some-hex-code)
 email:
 
 # Don't modify the following setting
