@@ -2,6 +2,8 @@
 title: "How to update your educator profile"
 layout: plain
 ---
+This page explains how to update or create your educator profile for the [training community page](/training/community).
+
 ## Basics
 
 Your educator profile corresponds to a text file in the ``_educators`` directory ([view on github](https://github.com/HSF/hsf.github.io/tree/master/_educators)). The file ``000_template.md`` tells you how this file should look like (it is shown below for convenience).
@@ -17,8 +19,8 @@ Simply copy the template at the bottom of this page and modify it to include you
 
 Either
 
-* Find your profile [on github](https://github.com/HSF/hsf.github.io/tree/master/_educators) (``first_name_last_name.md``), copy it to a text file, make your modifcations and send your new version to the conveners via email
-* (**preferred**) fork the github repository, update your information in ``_educators/first_name_last_name.md`` and open a pull request
+* Find your profile [on github](https://github.com/HSF/hsf.github.io/tree/master/_educators) (``first_name_last_name.md``), copy it to a text file, make your modifcations and send your new version to the conveners via email
+* (**preferred**) fork the github repository, update your information in ``_educators/first_name_last_name.md`` and open a pull request
 
 ## The template
 
@@ -28,7 +30,8 @@ Either
 
 ### Notes
 
-* The profile picture will be taken from your github profile (if specified). If the github profile is not specified, it will be taken from gravatar. If the latter is not specified either, you will have a blank profile picture.
+* The profile picture will be taken from your [github](https://github.com) profile (if specified). If the github profile is not specified, it will be taken from [gravatar](https://gravatar.com/) (a free service for global avatar synchornization). If the latter is not specified either, you will have a blank profile picture.
+* The roles are explained [here](/training/educators). Valid examples: ``[convenor]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets). Please keep the order of the roles as they are in the template. 
 
 ### Example
 
@@ -47,7 +50,7 @@ Either
 
 Make sure that your github link works or that you've added your gravatar ID
 
-> I want to add/update my profile with git, but I'm stuck
+> I want to add/update my profile with git, but I'm stuck. Help?
 
 Perhaps one of these links might help you:
 
@@ -55,3 +58,7 @@ Perhaps one of these links might help you:
 * [a bit more overbose explanation on help.github](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 If it doesn't, don't hesitate to ask us :)
+
+> My file contained some (syntax) errors and destroyed the community page
+
+Cool, that never happened before. But no worries, just write to the convenors, who apparently did a bad job at checking your file (if you can fix it quickly, a pull request would also be nice of course).
