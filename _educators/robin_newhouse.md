@@ -7,7 +7,7 @@ years: [2020]              # in which years did you help out? (e.g. [2020, 2019]
 
 # Optional (please add github or gravatar for your picture)
 github: "robinnewhouse"       # your github handle  (github.com/<handle>)
-gravatar: "robinnewhouse@gmail.com"
+gravatar: 19b484d43646573791323ef5f370a478
 homepage: "https://rnewhous.web.cern.ch/rnewhous/"     # your personal homepage  (full url)
 twitter: "robinnewhouse"      # your twitter handle
 gitlab: "robinnewhouse"       # your gitlab handle  (gitlab.com/<handle>)
