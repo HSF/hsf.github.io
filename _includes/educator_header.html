@@ -4,7 +4,7 @@
 <script src="{{ "/assets/js/lazysizes.min.js" | relative_url }}" async=""></script>
 
 <!-- for the github/orcid/etc icons -->
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" crossorigin="anonymous"/>
 
 <style>
 /* These style definitions are mostly adapted from 
@@ -54,5 +54,75 @@ https://github.com/carpentries/carpentries.org/blob/gh-pages/assets/css/extras.c
     padding-right: 5px;
     font-size: 20px;
 }
+
+.column,
+.columns {
+ padding-left:.9375rem;
+ padding-right:.9375rem;
+ width:100%;
+ float:left
+}
+[class*="column"]+[class*="column"]:last-child {
+ float:right
+}
+[class*="column"]+[class*="column"].end {
+ float:left
+}
+
+@media only screen {
+ .column,
+ .columns {
+  position:relative;
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+ 
+  .row.small-collapse>.column,
+ .row.small-collapse>.columns {
+  padding-left:0;
+  padding-right:0
+ }
+ .row.small-collapse .row {
+  margin-left:0;
+  margin-right:0
+ }
+ .row.small-uncollapse>.column,
+ .row.small-uncollapse>.columns {
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+}
+
+@media only screen and (min-width: 40.063em) {
+ .column,
+ .columns {
+  position:relative;
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+ 
+ .row.medium-collapse>.column,
+ .row.medium-collapse>.columns {
+  padding-left:0;
+  padding-right:0
+ }
+ .row.medium-collapse .row {
+  margin-left:0;
+  margin-right:0
+ }
+ .row.medium-uncollapse>.column,
+ .row.medium-uncollapse>.columns {
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+}
+
+.medium-3 {
+	width:25%
+}
+ 
 
 </style>

@@ -1,12 +1,12 @@
 ---
 # Required:
-title: "Your Name"     # first (middle) last
+title: Giordon Stark     # first middle last
 country:               # your country of residence (2 letters)
-roles: []              # subset of [convenor, facilitator, instructor, mentor]
-years: []              # in which years did you help out? (e.g. [2020, 2019])
+roles: [instructor]              # subset of [convenor, facilitator, instructor, mentor]
+years: [2020]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Optional (please add github or gravatar for your picture)
-github:       # your github handle  (github.com/<handle>)
+github: kratsg     # your github handle  (github.com/<handle>)
 gravatar:
 homepage:     # your personal homepage  (full url)
 twitter:      # your twitter handle 
