@@ -31,7 +31,7 @@ Either
 ### Notes
 
 * The profile picture will be taken from your [github](https://github.com) profile (if specified). If the github profile is not specified, it will be taken from [gravatar](https://gravatar.com/) (a free service for global avatar synchornization). If the latter is not specified either, you will have a blank profile picture.
-* The roles are explained [here](/training/educators). Valid examples: ``[convenor]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets). Please keep the order of the roles as they are in the template. 
+* The roles are explained [here](/training/educators). Valid examples: ``[convenor]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets). Please keep the order of the roles as they are in the template. 
 
 ### Example
 
