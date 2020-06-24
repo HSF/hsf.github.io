@@ -13,10 +13,15 @@ orcid:
 gravatar:
 
 # Don't modify the following setting
-layout: plain
+layout: educator
 ---
 
 <!-- Remove this comment and write something about yourself here (if you want)! 
 You can use Markdown syntax to style this page.
 -->
 
+Hi, it's me, I'm sam. I've worked on
+* this workshop
+* other workshop
+
+I like **cats**

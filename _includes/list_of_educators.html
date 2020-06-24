@@ -32,9 +32,9 @@ proper index for the table column. -->
 <div class="medium-3 columns">
 <div class="team-member anchor-offset" id="{{ person.github }}">
 <a href="{{ person.url }}">{% include educator_avatar.html %}</a>
-<div>{% include educator_badges.html %}</div>
+{% include educator_badges.html %}
 <h3><a href="{{ person.url }}">{{ person.title }}</a></h3>
-<ul class="list-inline social-buttons">{% include educator_social.html %}</ul>
+{% include educator_social.html %}
 {% unless person.country == "" %}
 <!-- <img width="64" src="/files/flags/{{ person.country | downcase }}.svg"/> -->
 {% endunless %}

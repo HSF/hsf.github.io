@@ -16,7 +16,7 @@ orcid:        # your orcid handle (https://orcid.org/<handle>)
 linkedin:     # full url (https://linkedin.com/in/your-name-some-hex-code)
 
 # Don't modify the following setting
-layout: plain
+layout: educator
 ---
 
 <!-- Write something about yourself here (if you want)! 
