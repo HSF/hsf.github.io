@@ -1,61 +1,4 @@
-<!-- lazy loading of images for the avatars of educators to avoid slowing the page down -->
-<script src="{{ "/assets/js/lazysizes.min.js" | relative_url }}" async=""></script>
-
-<!-- for the github/orcid/etc icons -->
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-<style>
-/* These style definitions are mostly adapted from 
-https://github.com/carpentries/carpentries.org/blob/gh-pages/assets/css/extras.css
-*/
-
-.img-circle {
-    border-radius: 50%;
-    width: 128px;
-    height: 128px;
-}
-
-.anchor-offset {
-    padding-top: 50px;
-    margin-top: -50px;
-}
-
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    margin-top: 0;
-}
-
-.list-inline {
-    padding-left: 0;
-    list-style: none;
-    margin-left: -5px;
-}
-
-.list-inline>li {
-    display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 20px;
-}
-
-</style>
-
-
+{% include educator_header.html %}
 
 <!-- Start looping through all the years that we have educators for.
 The first year is hard coded here. -->
@@ -88,30 +31,10 @@ proper index for the table column. -->
 
 <div class="medium-3 columns">
 <div class="team-member anchor-offset" id="{{ person.github }}">
-<a href="{{ person.url }}">
-{% if person.github %}
-<img data-src="https://avatars.githubusercontent.com/{{ person.github }}" class="img-circle lazyload" alt="GitHub profile photo of {{person.title}}">
-{% else %}
-<img data-src="https://www.gravatar.com/avatar/{{ person.gravatar }}?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of {{person.title}}">
-{% endif %}
-</a>
-<div>
-{% for role in person.roles %}
-<span class="badge badge-secondary">{{ role | capitalize }}</span>
-{% endfor %}
-</div>
+<a href="{{ person.url }}">{% include educator_avatar.html %}</a>
+<div>{% include educator_badges.html %}</div>
 <h3><a href="{{ person.url }}">{{ person.title }}</a></h3>
-<!-- todo: add linkedin -->
-<!-- todo: add link to about me page person.url -->
-<ul class="list-inline social-buttons">
-{% if person.twitter %}<li> <a href="https://twitter.com/{{ person.twitter }}"> <i class="fab fa-twitter"></i> </a> </li> {% endif %}
-{% if person.github %}<li> <a href="https://github.com/{{ person.github }}"> <i class="fab fa-github"></i> </a> </li> {% endif %}
-{% if person.gitlab %}<li> <a href="https://gitlab.com/{{ person.gitlab }}"> <i class="fab fa-gitlab"></i> </a> </li> {% endif %}
-{% if person.bitbucket %}<li> <a href="https://bitbucket.com/{{ person.bitbucket }}"> <i class="fab fa-bitbucket"></i> </a> </li> {% endif %}
-{% if person.orcid %}<li> <a href="https://orcid.org/{{ person.orcid }}"> <i class="fab fa-orcid"></i> </a> </li> {% endif %}
-{% if person.linkedin %}<li> <a href="{{ person.linkedin }}"> <i class="fab fa-linkedin"></i> </a> </li> {% endif %}
-{% if person.homepage and person.homepage != "" %}<li> <a href="{{ person.url }}"> <i class="fas fa-link"></i> </a> </li> {% endif %}
-</ul>
+<ul class="list-inline social-buttons">{% include educator_social.html %}</ul>
 {% unless person.country == "" %}
 <!-- <img width="64" src="/files/flags/{{ person.country | downcase }}.svg"/> -->
 {% endunless %}
@@ -129,5 +52,4 @@ proper index for the table column. -->
 </div>
 {% endunless %}
 {% endfor %}
-
 
