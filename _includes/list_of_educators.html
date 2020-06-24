@@ -88,23 +88,28 @@ proper index for the table column. -->
 
 <div class="medium-3 columns">
 <div class="team-member anchor-offset" id="{{ person.github }}">
+<a href="{{ person.url }}">
 {% if person.github %}
 <img data-src="https://avatars.githubusercontent.com/{{ person.github }}" class="img-circle lazyload" alt="GitHub profile photo of {{person.title}}">
 {% else %}
 <img data-src="https://www.gravatar.com/avatar/{{ person.gravatar }}?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of {{person.title}}">
 {% endif %}
+</a>
 <div>
 {% for role in person.roles %}
 <span class="badge badge-secondary">{{ role | capitalize }}</span>
 {% endfor %}
 </div>
-<h3>{{ person.title }}</h3>
+<h3><a href="{{ person.url }}">{{ person.title }}</a></h3>
 <!-- todo: add linkedin -->
 <!-- todo: add link to about me page person.url -->
 <ul class="list-inline social-buttons">
 {% if person.twitter %}<li> <a href="https://twitter.com/{{ person.twitter }}"> <i class="fab fa-twitter"></i> </a> </li> {% endif %}
 {% if person.github %}<li> <a href="https://github.com/{{ person.github }}"> <i class="fab fa-github"></i> </a> </li> {% endif %}
+{% if person.gitlab %}<li> <a href="https://gitlab.com/{{ person.gitlab }}"> <i class="fab fa-gitlab"></i> </a> </li> {% endif %}
+{% if person.bitbucket %}<li> <a href="https://bitbucket.com/{{ person.bitbucket }}"> <i class="fab fa-bitbucket"></i> </a> </li> {% endif %}
 {% if person.orcid %}<li> <a href="https://orcid.org/{{ person.orcid }}"> <i class="fab fa-orcid"></i> </a> </li> {% endif %}
+{% if person.linkedin %}<li> <a href="{{ person.linkedin }}"> <i class="fab fa-linkedin"></i> </a> </li> {% endif %}
 {% if person.homepage and person.homepage != "" %}<li> <a href="{{ person.url }}"> <i class="fas fa-link"></i> </a> </li> {% endif %}
 </ul>
 {% unless person.country == "" %}
@@ -112,7 +117,6 @@ proper index for the table column. -->
 {% endunless %}
 </div>
 </div>
-
 
 {% if column == 0 %}
 </div>
