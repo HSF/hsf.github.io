@@ -14,6 +14,7 @@ gitlab:       # your gitlab handle  (gitlab.com/<handle>)
 bitbucket:    # your bitbucket handle  (bitbucket.com/<handle>)
 orcid:        # your orcid handle (https://orcid.org/<handle>)
 linkedin:     # full url (https://linkedin.com/in/your-name-some-hex-code)
+email:
 
 # Don't modify the following setting
 layout: educator
