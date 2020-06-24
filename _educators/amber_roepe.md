@@ -1,6 +1,6 @@
 ---
 # Required:
-title: Amber Roepe     # first (middle) last
+title: Amber Roepe (she/her)     # first (middle) last
 country: US              # your country of residence (2 letters)
 roles: [instructor, mentor]              # subset of [convenor, facilitator, instructor, mentor]
 years: [2020]              # in which years did you help out? (e.g. [2020, 2019])
