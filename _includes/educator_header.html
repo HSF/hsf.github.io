@@ -1,0 +1,128 @@
+<!-- Include this in order to get the floating-heads of the educator list -->
+
+<!-- lazy loading of images for the avatars of educators to avoid slowing the page down -->
+<script src="{{ "/assets/js/lazysizes.min.js" | relative_url }}" async=""></script>
+
+<!-- for the github/orcid/etc icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" crossorigin="anonymous"/>
+
+<style>
+/* These style definitions are mostly adapted from 
+https://github.com/carpentries/carpentries.org/blob/gh-pages/assets/css/extras.css
+*/
+
+.img-circle {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
+
+.anchor-offset {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.column,
+.columns {
+ padding-left:.9375rem;
+ padding-right:.9375rem;
+ width:100%;
+ float:left
+}
+[class*="column"]+[class*="column"]:last-child {
+ float:right
+}
+[class*="column"]+[class*="column"].end {
+ float:left
+}
+
+@media only screen {
+ .column,
+ .columns {
+  position:relative;
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+ 
+  .row.small-collapse>.column,
+ .row.small-collapse>.columns {
+  padding-left:0;
+  padding-right:0
+ }
+ .row.small-collapse .row {
+  margin-left:0;
+  margin-right:0
+ }
+ .row.small-uncollapse>.column,
+ .row.small-uncollapse>.columns {
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+}
+
+@media only screen and (min-width: 40.063em) {
+ .column,
+ .columns {
+  position:relative;
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+ 
+ .row.medium-collapse>.column,
+ .row.medium-collapse>.columns {
+  padding-left:0;
+  padding-right:0
+ }
+ .row.medium-collapse .row {
+  margin-left:0;
+  margin-right:0
+ }
+ .row.medium-uncollapse>.column,
+ .row.medium-uncollapse>.columns {
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+}
+
+.medium-3 {
+	width:25%
+}
+ 
+
+</style>

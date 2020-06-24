@@ -23,3 +23,7 @@ We would like to bring together HEP-flavored training modules at one central hub
 We are aiming for a specific audience and hence our central vision is to work towards a convergence on the training modules and avoid a fragmented setup with many different forks
 
 As a central place to collaborate, we have the [hsf-training github organization](https://github.com/hsf-training) as central repository to collect and host different software training modules.
+
+## Further reads
+
+* [explanation of the different roles in a training event](/training/educators.html)
