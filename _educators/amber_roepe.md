@@ -3,13 +3,13 @@
 title: Amber Roepe     # first (middle) last
 country: US              # your country of residence (2 letters)
 roles: [instructor, mentor]              # subset of [convenor, facilitator, instructor, mentor]
-years: [2020, 2019]              # in which years did you help out? (e.g. [2020, 2019])
+years: [2020]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Optional (please add github or gravatar for your picture)
 github: aroepe       # your github handle  (github.com/<handle>)
 gravatar:
 homepage: https://nhn.ou.edu/~roepe    # your personal homepage  (full url)
-twitter: @AmberRoepe     # your twitter handle 
+twitter: AmberRoepe     # your twitter handle 
 gitlab: aroepe      # your gitlab handle  (gitlab.com/<handle>)
 bitbucket:    # your bitbucket handle  (bitbucket.com/<handle>)
 orcid: 0000-0001-5933-9357        # your orcid handle (https://orcid.org/<handle>)
