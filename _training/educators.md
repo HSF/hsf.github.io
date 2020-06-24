@@ -31,4 +31,4 @@ Allowing Mentors and Instructors to focus entirely on the subject matter require
 
 The following individuals have been involved in carrying out successful training events as a member of the HSF-Training community. If you see them in the real or virtual world, take a chance to thank them for generously giving their time to teaching others, thereby making our field more knowledgeable as a whole.
 
-{% include list_of_educators.md %}
+{% include list_of_educators.html %}

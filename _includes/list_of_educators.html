@@ -1,0 +1,129 @@
+<!-- lazy loading of images for the avatars of educators to avoid slowing the page down -->
+<script src="{{ "/assets/js/lazysizes.min.js" | relative_url }}" async=""></script>
+
+<!-- for the github/orcid/etc icons -->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+<style>
+/* These style definitions are mostly adapted from 
+https://github.com/carpentries/carpentries.org/blob/gh-pages/assets/css/extras.css
+*/
+
+.img-circle {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
+
+.anchor-offset {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+</style>
+
+
+
+<!-- Start looping through all the years that we have educators for.
+The first year is hard coded here. -->
+{% assign firstyear = 2019 %}
+{% assign currentyear = site.time | date: '%Y' %}
+{% for loopyear in (firstyear..currentyear) reversed %}
+<h3> {{ loopyear }} </h3>
+
+<!-- Now we loop through the educators, sorted by their full names and
+pick out the ones who trained in $loopyear.
+This code originally was based on 
+github.com.com/carpentries/carpentries.org/gh-pages/_includes/community_profiles.md
+We need to keep track of how many educators are skipped in order to have the
+proper index for the table column. -->
+{% assign skipped = 0 %}
+{% for person in site.educators | sort:"title" %}
+
+{% unless person.years contains loopyear %}
+{% assign skipped = skipped | plus: -1 %}
+{% continue %}
+{% endunless %}
+
+{% assign column = forloop.index | plus: skipped | modulo: 4 %}
+
+{% if column == 1 %}
+<div class="row">
+{% endif %}
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="{{ person.github }}">
+{% if person.github %}
+<img data-src="https://avatars.githubusercontent.com/{{ person.github }}" class="img-circle lazyload" alt="GitHub profile photo of {{person.title}}">
+{% else %}
+<img data-src="https://www.gravatar.com/avatar/{{ person.gravatar }}?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of {{person.title}}">
+{% endif %}
+<div>
+{% for role in person.roles %}
+<span class="badge badge-secondary">{{ role | capitalize }}</span>
+{% endfor %}
+</div>
+<h3>{{ person.title }}</h3>
+<!-- todo: add linkedin -->
+<!-- todo: add link to about me page person.url -->
+<ul class="list-inline social-buttons">
+{% if person.twitter %}<li> <a href="https://twitter.com/{{ person.twitter }}"> <i class="fab fa-twitter"></i> </a> </li> {% endif %}
+{% if person.github %}<li> <a href="https://github.com/{{ person.github }}"> <i class="fab fa-github"></i> </a> </li> {% endif %}
+{% if person.orcid %}<li> <a href="https://orcid.org/{{ person.orcid }}"> <i class="fab fa-orcid"></i> </a> </li> {% endif %}
+{% if person.homepage and person.homepage != "" %}<li> <a href="{{ person.url }}"> <i class="fas fa-link"></i> </a> </li> {% endif %}
+</ul>
+{% unless person.country == "" %}
+<!-- <img width="64" src="/files/flags/{{ person.country | downcase }}.svg"/> -->
+{% endunless %}
+</div>
+</div>
+
+
+{% if column == 0 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% unless column == 0 %}
+<!-- The last </div> never happened, because we ended short of a full last column. -->
+</div>
+{% endunless %}
+{% endfor %}
+
+
