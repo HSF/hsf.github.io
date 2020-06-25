@@ -27,10 +27,12 @@ Allowing Mentors and Instructors to focus entirely on the subject matter require
   <figcaption style="width:80%; max-width: 600px; text-align: center; margin: 0 auto;">Facilitator Sam Meehan (front left) kicks off an HSF training event with a thumbs up.  Let's get ready to learn!</figcaption>
 </figure>
 
-## The Community
+## The Educators
 
 The following individuals have been involved in carrying out successful training events as a member of the HSF-Training community. If you see them in the real or virtual world, take a chance to thank them for generously giving their time to teaching others, thereby making our field more knowledgeable as a whole.
 
 If you contributed, but don't find yourself in the list below (or spot some outdated information), see [here](/training/howto-educator-profile.html) for how to fix this. This list was added in June 2020 and is likely still very incomplete.
+
+For a full list of everyone contributing to HSF training, see [here](/training/community.html).
 
 {% include list_of_educators.html %}

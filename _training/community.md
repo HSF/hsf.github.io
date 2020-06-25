@@ -1,10 +1,14 @@
 ---
-title: "The community"
+title: "The HSF Training Community"
 layout: plain
 ---
 
-The following individuals have been involved in carrying out successful training events as a member of the [HSF-Training](/training) community. If you see them in the real or virtual world, take a chance to thank them for generously giving their time to teaching others, thereby making our field more knowledgeable as a whole.
+To fulfill our mission, we rely on active community members to support us in various ways.
 
-If you contributed, but don't find yourself in the list below (or spot some outdated information), see [here](/training/howto-educator-profile.html) for how to fix this. This list was added in June 2020 and is likely still very incomplete.
+We would like to thank everyone for their time, energy and dedication!
 
-{% include list_of_educators.html %}
+If you contributed to HSF training, but don't find yourself in the list below (or spot some outdated information), see [this page](/training/howto-educator-profile.html) for how to fix this. 
+See [here](/training/educators.html) for a special thank you for everyone who made our workshops possible.
+
+{% include list_of_training_community.html %}
+
