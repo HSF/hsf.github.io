@@ -1,7 +1,7 @@
 ---
 title: Kilian Lieret
 country: DE
-roles: [convenor]
+roles: []
 years: [2020]
 
 github: klieret

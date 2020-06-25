@@ -2,7 +2,7 @@
 # Required:
 title: Sudhir Malik
 country: USA
-roles: [convenor]
+roles: []
 years: [2019, 2020]
 
 # Optional (please add github or gravatar for your picture)

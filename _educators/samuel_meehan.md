@@ -2,7 +2,7 @@
 # Required:
 title: "Samuel Meehan"
 country: CH
-roles: [convenor, facilitator]
+roles: [facilitator]
 years: [2019, 2020]
 
 # Optional (please add github or gravatar for your picture)

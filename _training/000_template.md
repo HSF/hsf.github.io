@@ -2,7 +2,7 @@
 # Required:
 title: "Your Name"     # first (middle) last
 country:               # your country of residence (2 letters)
-roles: []              # subset of [convenor, facilitator, instructor, mentor]
+roles: []              # subset of [facilitator, instructor, mentor], can stay empty ([])
 years: []              # in which years did you help out? (e.g. [2020, 2019])
 
 # Optional (please add github or gravatar for your picture)
