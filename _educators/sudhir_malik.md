@@ -10,7 +10,7 @@ github: fatala22
 gravatar:
 homepage: http://charma.uprm.edu/~malik/
 twitter: SudhirM39407009
-gitlab: malik
+gitlab:
 orcid: 0000-0002-6356-2655
 linkedin: https://linkedin.com/in/sudhir-malik-19932534/
 
