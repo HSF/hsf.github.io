@@ -2,7 +2,7 @@
 # Required:
 title: "Daniel S. Katz"     # first (middle) last
 country: US              # your country of residence (2 letters)
-roles: [convenor]              # subset of [convenor, facilitator, instructor, mentor]
+roles: []              # subset of [convenor, facilitator, instructor, mentor]
 years: [2020, 2019]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Optional (please add github or gravatar for your picture)
