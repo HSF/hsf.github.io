@@ -42,7 +42,7 @@ Training in software and computing are essential ingredients for the success of 
 
 The curriculum is comprised of a set of standardized *modules*, so that students can focus on what is most relevant to them. More about the style of these modules is written in the [guidelines for training material](/training/module-guidelines.html).
 
-This mission relies on active contributors: [This page](/training/educators.html) outlines the different roles that need to be filled.  
+This mission relies on active contributors: [This page](/training/educators) outlines the different roles that need to be filled.  
 
 ## The modules
 
