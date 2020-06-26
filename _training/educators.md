@@ -5,6 +5,8 @@ layout: plain
 
 The [HSF training group](/training.html) relies on proactive and dedicated educators coming from *within* the field of high energy physics. Here we aim to introduce you to what it means to be an HSF-Educator, the different types of roles that exist, and who has served the community by giving their time and energy to bootstrapping the education of HEP. If you are interested in serving as an educator, please do not hesitate to contact the HSF-Training conveners for more details.
 
+If you want to organize a complete workshop, we also have [recommendations on that](/training/howto-event.html).
+
 ## Mentors
 
 The philosophy of HSF training events is to be as hands-on as possible for the participants. This requires a participant:educator ratio of five or less. As a result, we rely on having enthusiastic individuals, who we call *mentors*, who are able to work closely with participants. These individuals are familiar with the subject matter of a specific training event, but come with the openness to help participants persevere and "learn on the fly" in a role that is entirely aimed at optimizing the learning environment for individual participants. They are critical to the success of any event and through participation as a mentor not only serve the community, but develop pedagogical communication skills that are transferable to other aspects of their research/teaching portfolio.

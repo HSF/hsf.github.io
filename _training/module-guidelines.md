@@ -27,3 +27,4 @@ As a central place to collaborate, we have the [hsf-training github organization
 ## Further reads
 
 * [explanation of the different roles in a training event](/training/educators.html)
+* [how to organize a successful workshop](/training/howto-event.html)

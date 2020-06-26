@@ -42,7 +42,7 @@ Training in software and computing are essential ingredients for the success of 
 
 The curriculum is comprised of a set of standardized *modules*, so that students can focus on what is most relevant to them. More about the style of these modules is written in the [guidelines for training material](/training/module-guidelines.html).
 
-This mission relies on active contributors: [This page](/training/educators.html) outlines the different roles that need to be filled.  
+This mission relies on active contributors: [This page](/training/educators.html) outlines the different roles that need to be filled.  
 
 ## The modules
 
@@ -88,6 +88,7 @@ Contributions of any kind are very welcome! There are various ways you can get i
 * Bugs reports or features requests: Directly open an issue on github or (even better) submit a pull request to fix things.
 * Want to contribute your own module? We compiled a small list of recommendations [here](/training/module-guidelines.html). Of course we always encourage you to talk to us early for a better coordination.
 * [More information on the different roles in our training events](/training/educators.html)
+* [Want to organize your own workshop? We got you covered.](/training/howto-event.html)
 
 ## FAQ
 
