@@ -6,11 +6,11 @@ roles: [mentor]              # subset of [convenor, facilitator, instructor, men
 years: [2020]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Optional (please add github or gravatar for your picture)
-github: (github.com/meevans1)      # your github handle  (github.com/<handle>)
+github: meevans1      # your github handle  (github.com/<handle>)
 gravatar: meirinevans@yahoo.co.uk
 homepage: https://meirinoanevans.wixsite.com/portfolio     # your personal homepage  (full url)
 twitter: meirinoanevans     # your twitter handle 
-gitlab: gitlab.cern.ch/meevans       # your gitlab handle  (gitlab.com/<handle>)
+gitlab:        # your gitlab handle  (gitlab.com/<handle>)
 bitbucket:    # your bitbucket handle  (bitbucket.com/<handle>)
 orcid: 0000-0002-4259-018X       # your orcid handle (https://orcid.org/<handle>)
 linkedin: https://linkedin.com/in/meirin-oan-evans-606a9b123     # full url (https://linkedin.com/in/your-name-some-hex-code)
