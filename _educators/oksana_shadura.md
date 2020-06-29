@@ -1,7 +1,7 @@
 ---
 # Required:
 title: "Oksana Shadura"                # first (middle) last
-country: France                          # your country of residence (2 letters)
+country: FR # your country of residence (2 letters)
 roles: [instructor]     # subset of [convenor, facilitator, instructor, mentor]
 years: [2019,2020]                  # in which years did you help out? (e.g. [2020, 2019])
 
