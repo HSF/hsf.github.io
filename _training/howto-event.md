@@ -3,9 +3,31 @@ title: So I want to host/request/organize a training event...
 layout: plain_toc
 ---
 
+<style>
+    figure.centered-figure {
+        text-align: center
+    }
+    .centered-figure > img {
+        width:80%;
+        max-width: 600px
+    }
+    .centered-figure > figcaption {
+        width:80%;
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+    }
+</style>
+
 **Great!** We gladly welcome anyone who is interested in helping bootstrap the education of the HEP community.  At this point in time, we as a group have accrued a fair bit of experience and offer to work with you to make your event as effective and efficient as possible. We aim to do this in a way that stays coherent with the approach and "philosophy" of the HST-Training group so as to make the tools and techniques that are developed persistent, re-useable, and broadly accessible. 
 
 If you have an inkling that you are keen to do this, you should start by joining the [Awesome WS Mattermost workspace](https://mattermost.web.cern.ch/signup_user_complete/?id=t9zkdocffbbozqcdy193myre8y) and pinging the ``@TownSquare`` channel or joining the next [HSF Training Weekly Meeting](https://indico.cern.ch/category/10294/) and just speaking up to brainstorm your idea.  We don't bite, reach out and say _"Hi!"_.
+
+<figure class="centered-figure">
+<img src="/images/training/analysis_preservation_bootcamp_participants.jpg">
+<figcaption>Two (enthusiastic) participants attending the Analysis Preservation Bootcamp at CERN in February 2020. Note the two screens at the front and the “non-auditorium” room configuration.
+</figcaption>
+</figure>
 
 # What is the HSF-Training "philosophy"?
 [Pedagogy](https://en.wikipedia.org/wiki/Pedagogy) is important to engage and help our community grow - [Watch this TED Talk](https://www.ted.com/talks/christopher_emdin_teach_teachers_how_to_create_magic?language=en). Having a common approach to education will help ensure that everyone involved in your training is "on the same page" and knows what you and we are aiming to achieve.  To a large extent, our approach is inspired by the [Software Carpentries](https://software-carpentry.org/) organization and we encourage you to educate yourself about that organization if you are not already familiar.  But in short, we strive to cultivate education that is : 
@@ -17,6 +39,11 @@ If you have an inkling that you are keen to do this, you should start by joining
   - **Open and Accessible** : If someone wants to learn, they should be able to learn, and we will support this.
 
 Please reflect on these points and adopt a mindset that keeps these in mind while transforming your idea into reality.   And, if you feel like this philosophy should be modified or extended, don't hesitate to bring it up to the conveners.  
+
+<figure class="centered-figure">
+<img src="/images/training/sw_carpentry_small.png">
+<figcaption>Much of our pedagogical philosophy is borrowed from the <a href="https://software-carpentry.org/)">Software Carpentries</a></figcaption>
+</figure>
 
 # What type of event are you holding?
 Two formats of events have been carried out within the group, and you should give some concerted thought about which is more appropriate for your education goals.
@@ -33,6 +60,18 @@ An in-person event is akin to a standard conference or workshop where everyone g
       - Logistical challenges with rooms (e.g. 2 screens and 2 projectors)
       - Less equitable - Only those with the ability to be in the room due to any number of resources (e.g. money, scheduling) can participate
 
+<figure class="centered-figure">
+<img src="/images/training/mentors.jpg">
+<figcaption>Three mentors (standing and kneeling) actively helping a participant (sitting, center).  The three other participants at the table are now active mentors in the community.
+</figcaption>
+</figure>
+
+<figure class="centered-figure">
+<img src="/images/training/instructor.jpg">
+<figcaption>The Instructor (center) driving the training session by actively working through the same material the students are learning.  This helps keep a good pace and demonstrates that challenges affect participants <i>and</i> experts.
+</figcaption>
+</figure>
+
 ## Virtual
 An virtual event takes place *entirely* online.  It commences with a "kickoff" where the facilitator describes how the event will function and proceeds in one of two ways. 
 
@@ -47,6 +86,18 @@ An virtual event takes place *entirely* online.  It commences with a "kickoff" w
       - Participants may "flake out" and not attend if they get busy near to the event
       - Participants may be trying to multi-task and get distracted throughout training
       - Non-personal - Only get to meet educators/participants in the virtual world.  Reduces the chance to have an ad-hoc but meaningful interaction
+
+<figure class="centered-figure">
+<img src="/images/training/virtual.png">
+<figcaption>Virtual events can be preserved and archived on YouTube and by sharing the webpage and terminal, the participant experience is largely recreated online.  Note the inclusion of captioning to ensure these resources are broadly accessible.
+</figcaption>
+</figure>
+
+<figure class="centered-figure">
+<img src="/images/training/participants_virtual.png">
+<figcaption>When an event is virtual, participants will come from around the world.
+</figcaption>
+</figure>
 
 # What will you be teaching?
 Give some thought as to *what* you want to teach and *why*, particularly in the context of the philosophy of this group.  If you want to cultivate a generic skill among a portion of the HEP community (perhaps only those in your local research group) then its probably should be an "HSF event" and we can offer support.  If you want to teach a few of your students "how to do HEP analysis on LHCb with machine learning for track reconstruction" then its probably outside of the scope of this group.
@@ -69,6 +120,11 @@ In principle, if you are the person reading this page and wanting to organise an
 **_Diversity Matters_** : When recruiting instructors, please bear in mind that particularly in training events, there is a self-evident differential of authority where educators are often "looked-up to" by participants.  As such, make a concerted effort to create a diverse team of educators.  If you feel like "you just can't find {X,Y,Z}" then please _reach out to us_.  This is an important tenet of the group of which you are (now) aware well in advance.
 
 In all of this, please bear in mind, **_everyone is doing this out of a desire to educate and learn, rarely is anyone getting paid to expressly contribute their time or energy to HSF training_**.
+
+<figure class="centered-figure">
+<img src="/images/training/educators_enjoying_work.png">
+<figcaption>HSF Educators enjoy their work (as evidenced by the smiles) and serve as role-models for participants. </figcaption>
+</figure>
 
 # What do I need to do to organize this thing?
 If you have organized a workshop/conference yourself, some of this may already be intuitive to you.  Likewise, some of it may not.  Please take a second to read through this as it is a recipe at which we have arrived through iteration.  If you have an alternative approach, we are eager to learn from your experience.
@@ -106,6 +162,15 @@ Your participation in HSF and subsequently the participation of educators and pa
 
 We have found that in addition to protecting participants from harm, an addition to the code of conduct that facilitates education is to stress the concept that **_"There is no such thing as a stupid question."_**.
 
+<figure class="centered-figure">
+<iframe width="80%" height="400px"
+src="https://www.youtube.com/embed/Rjnx3jprSKo">
+</iframe>
+<figcaption>A successful training requires mutual respect among all participants.  This should be established beginning from the initial stages of planning and educators and participants should be made aware of it throughout.
+</figcaption>
+</figure>
+
+
 # Do I need to consider aspects of Accessibility and Diversity/Inclusion/Equity?
 **YES!**
 
@@ -136,6 +201,11 @@ Organizing the event carefully is very important to ensure that it is effective.
   - **Be wary of timezones** : Keep in mind that a virtual training advertized broadly has the potential to attract participants from many disparate timezones.  Plan accordingly, but keep in mind that there is not perfect solution.  Assuring participants that recordings will be taken (and then making the recordings!) will help mitigate these issues.
   - **Captioning** : BE INCLUSIVE! If the event is virtual, then there may be some individuals who can only participate if there is captioning.  Refer to the section on "Accessibility" for more details but bear in mind that this is a bit more of a unique accomodation from an in person event.
 
+<figure class="centered-figure">
+<img src="/images/training/how_does_an_event_look_like.jpg">
+<figcaption>The primary instructor (standing in front) driving the lesson with the lesson webpage and terminal while a mentor (bottom, long blond hair) helps debug a specific issue with a partcipant (bottom right, long black hair)
+</figcaption>
+</figure>
 
 # Do I care about gathering information on the event? (Surveys)
 **YES!**
@@ -155,7 +225,13 @@ We care about documenting our successes as well as where we can improve using se
   - **Event-Specific Knowledge** :  These are the same set of self-reported understanding questions.
   - **Event Feedback** : This is tailored to your event and is aimed at helping to understand how we can improve the execution of future events.  It should be a combination of multiple choice and open-ended questions. 
 
+<figure class="centered-figure">
+<img src="/images/training/surveys.png">
+<figcaption>The HSF-Training approach makes a difference in the self-reported understanding of participants. </figcaption>
+</figure>
+
 ## Debriefs
+
 Following the event, it is customary for you to find a time to gather with the educators to have a time to discuss and debrief about what was successful and what was not.  This typically occurs after you have the results of the post-(and pre-) workshop surveys to help give some focus to the discussion.  This feedback should be documented on your planning document.
 
 After all of this, we would ask that you make a short presentation of your experience with the event at the HSF-Training weekly meeting.
