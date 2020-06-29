@@ -105,7 +105,9 @@ Give some thought as to *what* you want to teach and *why*, particularly in the 
 ## Does the material already exist?
 **STOP!** 
 
-Before you go ahead and begin making a set of slides or designing your module, see if there is something that already exists in the [HSF-Training archives](https://hepsoftwarefoundation.org/training/curriculum.html).  Here you will find a number of resources that may pertain to your goal. And if it doesn't exactly pertain to your training goal, then it can provide a starting point in the form of a [HSF-SWC module like this](https://github.com/hsf-training/hsf-training-cicd) ([which generates a website like this](https://hsf-training.github.io/hsf-training-cicd/)) that you can fork and develop for your specific training.  You can extend it by adding on a couple of pages at the end which contain *experiment specific* lessons and/or you can simply modify the [setup page](https://hsf-training.github.io/hsf-training-cicd/setup.html) of a lesson to give participants guidance on how to use specific resources that you are providing to them.  
+Before you go ahead and begin making a _new_ set of slides or designing your module, see if there is something that already exists in the [HSF-Training archives](https://hepsoftwarefoundation.org/training/curriculum.html).  Here you will find a number of resources that may pertain to your goal. And if it doesn't exactly pertain to your training goal, then it can provide a starting point in the form of a [HSF-SWC module like this](https://github.com/hsf-training/hsf-training-cicd) ([which generates a website like this](https://hsf-training.github.io/hsf-training-cicd/)) that you can fork and develop for your specific training.  You can extend it by adding on a couple of pages at the end which contain *experiment specific* lessons and/or you can simply modify the [setup page](https://hsf-training.github.io/hsf-training-cicd/setup.html) of a lesson to give participants guidance on how to use specific resources that you are providing to them.  
+
+## I can't find an HSF module for the training I want to organize ...
 
 In some cases, however, there may be a hole in our coverage of training material and that should be evident on the training archive.  In that case, you have a unique opportunity to contribute something truly original by creating a training from the ground up!  Doing so requires a larger investment of time, and likely a longer lead time in planning your event and we have found it typically takes approximately __one month__ to produce a first draft that can be reviewed by mentors who will eventually be helping teach it.  However, we are prepared to support and give guidance on the development of this material, and to the extent that we can, offer technical expertise to produce a quality product that adheres to the HSF-Training philosophy.  If you find yourself in this scenario, consider reflecting on whether your training goal will cover one of the items on the "wishlist of HSF modules" from the [February 2020 Blueprint Meeting](https://docs.google.com/document/d/1QpWWK5ZYEY6kLofqUESwzuNTqUGRHAVj7Y_FeCPHt6c/edit?ts=5e53908e#heading=h.filivyl6ybj8).  If it will, then we are *very* keen to help in developing this.
 
@@ -170,7 +172,6 @@ src="https://www.youtube.com/embed/Rjnx3jprSKo">
 </figcaption>
 </figure>
 
-
 # Do I need to consider aspects of Accessibility and Diversity/Inclusion/Equity?
 **YES!**
 
@@ -224,6 +225,7 @@ We care about documenting our successes as well as where we can improve using se
   - **Contact Info** : Name/email to allow for you to identify who has and has not filled out the survey.
   - **Event-Specific Knowledge** :  These are the same set of self-reported understanding questions.
   - **Event Feedback** : This is tailored to your event and is aimed at helping to understand how we can improve the execution of future events.  It should be a combination of multiple choice and open-ended questions. 
+  
 
 <figure class="centered-figure">
 <img src="/images/training/surveys.png">
@@ -231,7 +233,6 @@ We care about documenting our successes as well as where we can improve using se
 </figure>
 
 ## Debriefs
-
 Following the event, it is customary for you to find a time to gather with the educators to have a time to discuss and debrief about what was successful and what was not.  This typically occurs after you have the results of the post-(and pre-) workshop surveys to help give some focus to the discussion.  This feedback should be documented on your planning document.
 
 After all of this, we would ask that you make a short presentation of your experience with the event at the HSF-Training weekly meeting.
@@ -256,3 +257,15 @@ To give you an example of an event organization that follows this paradigm, let'
   - **[T+1 week]** Request registrants to complete post-workshop survey 
   - **[T+2 weeks]** Debrief with the educator team
   - **[T+3 weeks]** Make closing presentation with HSF Training group
+
+
+# And don't forget ...
+
+There are a few logistical items that the facilitator (i.e. you) should bear in mind when the actual event is going on.  We have found that these are the type of things that often "slip one's mind" but are mission critical to the longevity of the HSF Training effort.
+  - **Take Photos** : Whether in person or virtual, be sure to document the event with photos which can be used in talks or on our website.  Don't be afraid to "stage" photos with participants to more appropriately highlight things in the training event.
+  - **Use the Sticky Notes** : The SWC training approach using sticky notes has been found to be very effective, particularly for participants that do not want to raise their hands.  Encourage the instructor to use them throughout the teaching to break up the lessons, and encourage students to use them throughout to indicate they are having an issue at any point. 
+  - **Get the Surveys** : Don't assume that all participants will automagically fill out the pre- and post-workshop surveys.  You as the facilitator should actively work to keep a tally and get them to fill them out. 
+  - **Monitor the Mattermost** : Whatever your central communication point for educators and participants is, monitor it.  It's important to not leave participants hanging by themselves.
+  - **Keep "How to improve" Notes** : On your internal document, note down ideas of how to improve the training for next time, logistically or otherwise, throughout the execution of the event.  Encourage all educators to do likewise.
+  - **Take Coffee Breaks** : Don't go for multiple hours without taking a break.  Even if the training is online, break once per hour to give participants an explicit chance to take a stretch while being assured they will not "miss something".
+
