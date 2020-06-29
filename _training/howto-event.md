@@ -88,7 +88,7 @@ An virtual event takes place *entirely* online.  It commences with a "kickoff" w
       - Non-personal - Only get to meet educators/participants in the virtual world.  Reduces the chance to have an ad-hoc but meaningful interaction
 
 <figure class="centered-figure">
-<img src="/images/training/virtual.png">
+<a href="https://www.youtube.com/watch?v=NxhDGMo9ILM&list=PLWZ1NKCZTdqcnTEx_CkfTP_3uZWcDOgxY"><img src="/images/training/virtual.png"></a>
 <figcaption>Virtual events can be preserved and archived on YouTube and by sharing the webpage and terminal, the participant experience is largely recreated online.  Note the inclusion of captioning to ensure these resources are broadly accessible.
 </figcaption>
 </figure>
@@ -225,7 +225,7 @@ We care about documenting our successes as well as where we can improve using se
   - **Contact Info** : Name/email to allow for you to identify who has and has not filled out the survey.
   - **Event-Specific Knowledge** :  These are the same set of self-reported understanding questions.
   - **Event Feedback** : This is tailored to your event and is aimed at helping to understand how we can improve the execution of future events.  It should be a combination of multiple choice and open-ended questions. 
-  
+
 
 <figure class="centered-figure">
 <img src="/images/training/surveys.png">
