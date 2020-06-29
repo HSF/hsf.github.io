@@ -1,7 +1,7 @@
 ---
 # Required:
 title: "Your Name"     # first (middle) last
-country:               # your country of residence (2 letters)
+country:               # your country of residence (2 capital letters, e.g. US, GB, DE)
 roles: []              # subset of [facilitator, instructor, mentor], can stay empty ([])
 years: []              # in which years did you help out? (e.g. [2020, 2019])
 
@@ -20,6 +20,6 @@ email:
 layout: educator
 ---
 
-<!-- Write something about yourself here (if you want)! 
+<!-- Optional: Write something about yourself below the '-->'.
 You can use Markdown syntax to style this page.
 -->
