@@ -7,7 +7,7 @@ layout: meetings
 
 Present/Contributors: Graeme Stewart, Liz Sexton-Kennedy, Andrea Valassi, Efe Yazgan, Kyle Knoepfel, Witek Pokorski, Eduardo Rodrigues, Michel Jouvin, Andrea Rizzi, Horst Severini, Teng Jian Khoo, Stefan Roiser, Caterina Doglioni (for a bit), Serhan Mete, Benedikt Hegner, David Lange, Gloria Corti, Kilian Lieret, Pere Mato, Sam Meehan, Sudhir Malik, Daniel Elvira
 
-Apologies: Agnieszka Dziurda 
+Apologies: Agnieszka Dziurda
 
 ## News, general matters
 
@@ -23,9 +23,9 @@ No additional comments, so this is approved.
 
 This meeting is now set for July 22: <https://indico.cern.ch/event/930127/>.
 
-### ESCAPE Workshop on Open Source Software Lifecycles (July 23, 24 + 27, 28)
+### ESCAPE Workshop on *Open Source Software Lifecycles*
 
-<https://indico.in2p3.fr/event/21698/overview> - we were invited to give a 20' talk on Friday 24 (CERN/HSF approach to software/code or workflow optimisation), any volunteers? Contact Graeme for details.
+July 23, 24 + 27, 28: <https://indico.in2p3.fr/event/21698/overview>. We were invited to give a 20' talk on Friday 24 (CERN/HSF/HEP approach to software/code or workflow optimisation), any volunteers? Contact Graeme for details.
 
 ### LHCC Review of HL-LHC Software and Computing
 
@@ -33,7 +33,7 @@ We received a first draft of the report from the panel. Largely it was very posi
 
 ### New Convenor for Data Analysis WG
 
-Andrea Rizzi has been nominated CMS deputy physics coordinator. *Congratulations!* It means Andrea will not be able to stay as an Analysis WG convenor. Need to start the process for his replacement, to start Sept. 1st. Proposal to have the appointment run until end of 2021.
+Andrea Rizzi has been nominated CMS deputy physics coordinator. *Congratulations!* It means Andrea will not be able to stay as an Analysis WG convenor. Need to start the process for his replacement, to start Sept. 1st. We would have the appointment run until end of 2021.
 
 
 ### Alpaka Training
@@ -43,7 +43,7 @@ Andrea Rizzi has been nominated CMS deputy physics coordinator. *Congratulations
 - Sessions are recorded and will be made available either directly on indico or linked from there.
 - No GPUs made available, all the examples also run on CPU (OpenMP backend)
 
-Discuss with them the format of the training material and possible conversion to Carpentry style (Stefan)
+Discuss with them the format of the training material and possible conversion to Carpentry style (Stefan).
 
 ## Website
 
@@ -52,8 +52,6 @@ Discuss with them the format of the training material and possible conversion to
 Policy changed: `Web_Site_Managers` can no longer push directly to master; need at least 1 approval on a PR.
 
 BUT: Few people comment on PRs (even when asked), which is slowing things down a lot.
-
-There is a `Web_Site_Managers` group but it seems a bit random...
 
 Possible solutions:
 - Volunteers to help with reviews?
@@ -65,7 +63,7 @@ Agreed that we want to keep things running smoothly for people making useful con
 * We insist that the `master` branch remains protected
 * We try to improve the CI and get the tested website available for inspection
 
-Benedikt volunteered to take a look at these issues and implement some solutions
+Benedikt volunteered to take a look at these issues and implement some solutions.
 
 ### Profiles - 'floating heads'
 
@@ -74,8 +72,7 @@ Benedikt volunteered to take a look at these issues and implement some solutions
 * Adding profiles of the convenors to the WGs makes us look more active and approachable (probably important for all groups)
 * Community pages can help to foster and encourage community contributions (indispensable for training, but perhaps also important for other groups)
 
-The meeting was positive about this for WG pages, so we try to implement that for all WGs
-
+The meeting was positive about this for WG pages, so we try to implement that for all WGs.
 
 ## Working Group Updates
 
@@ -97,7 +94,7 @@ Held the 3rd topical meeting devoted to use of GPUs on the 24th of June. Include
 ### Reconstruction and Software Triggers
 
 Organized the Allen meeting + attended a number of seminars and workshops about GPU in trigger and reconstruction.
-Not many news apart from that for the time being, no meetings in July but will resume in August/September. 
+Not much news apart from that for the time being, no meetings in July but will resume in August/September. 
 
 ### PyHEP
 [PyHEP 2020 workshop](https://indico.cern.ch/e/PyHEP2020) agenda finalised and online - a very interesting set of presentations!
@@ -110,17 +107,17 @@ Not many news apart from that for the time being, no meetings in July but will r
 
 ### Software Tools and Packaging
 
-As advertised before, a new tag of [HSF/prmon](https://github.com/HSF/prmon) is imminent. Among many other improvements, it'll be the first version that supports NVidia GPU monitoring.
+As advertised before, a new tag of [HSF/prmon](https://github.com/HSF/prmon) is imminent. Among many other improvements, it'll be the first version that supports NVIDIA GPU monitoring.
 
 
 ### Software Training
 
-* Expanding our webpage, for example [how to host a training workshop](https://hepsoftwarefoundation.org/training/howto-event.html), trying to make the process of creating new workshops and new training material look less "magical" in order to encourage new people joining in
-* **[July 27-30]** Preparations for Docker training underway [indico](https://indico.cern.ch/event/934651/) (follow up of very successful virtual pipelines training [recently](https://indico.cern.ch/event/904759/))
-* **[August]** Emery Nigibira (no engagement before, but young postdoc in France) wants to be the lead of next Virtual Pipelines training.  Will reuse the same material (low time investment).
-* **[August]** Plan to develop REANA training with Tibor Simko and company.
-* **[September]** GPU+ML development underway for Manchester/Lancaster folks
-    * Comments on ML training? - [Link to Doc (Please comment!)](https://docs.google.com/document/d/1BZEKnj1D8QVIByr0enHE6fxSBkkd8bGDvUQHukVIz1w/edit)
+- Expanding our webpage, for example [how to host a training workshop](https://hepsoftwarefoundation.org/training/howto-event.html), trying to make the process of creating new workshops and new training material look less "magical" in order to encourage new people joining in
+- **[July 27-30]** Preparations for Docker training underway [Indico](https://indico.cern.ch/event/934651/) (follow up of very successful virtual pipelines training [recently](https://indico.cern.ch/event/904759/))
+- **[August]** Emery Nigibira (no engagement before, but young postdoc in France) wants to be the lead of next Virtual Pipelines training.  Will reuse the same material (low time investment).
+- **[August]** Plan to develop REANA training with Tibor Simko and company.
+- **[September]** GPU+ML development underway for Manchester/Lancaster folks
+  - Comments on ML training? - [Link to Doc (Please comment!)](https://docs.google.com/document/d/1BZEKnj1D8QVIByr0enHE6fxSBkkd8bGDvUQHukVIz1w/edit)
 
 ### Event generators
 
@@ -140,7 +137,7 @@ There's a PR to setup the activity from Nathan, to be reviewed.
 
 ### Licensing
 
-Graeme was contacted by FASER to ask about licensing and passed on the HSF's advice. (CERN experiment, so relatively east case, following the LHC Experiment models,)
+Graeme was contacted by FASER to ask about licensing and passed on the HSF's advice. (CERN experiment, so relatively easy case, following the LHC Experiment models,)
 
 *Very positive that we get these spontaneous contacts.*
 
@@ -152,19 +149,20 @@ Reminder that the proposed September workshop in Lund is again postponed. Next p
 
 ## AOB
 
-
 ### Indico -> HSF Calendar Sync
 
-Stefan has deployed some scripts that manage the synchronisation of the HSF Indico category with the HSF Community Calendar (thank you!). This is now working and deployed.
- 
+Stefan has deployed some scripts that manage the synchronization of the HSF Indico category with the HSF Community Calendar (thank you!). This is now working and deployed.
+
 So any (public) events created in Indico will generate an entry then created in the HSF Calendar within 15 minutes (cron job time!).
- 
+
 The script is smart: if you update or cancel a meeting it will change or disappear accordingly.
- 
+
 This removes an extremely annoying manual step to get things into the HSF calendar. However, do be aware that anything created in Indico it will appear in the calendar more publicly than if it was just lurking. (You can set the visibility of events in Indico on calendar feeds though.)
 
-- Scripts at <https://github.com/HSF/merge2gcal> 
+- Scripts at <https://github.com/HSF/merge2gcal>
+
+The scripts will work against any Indico instance.
 
 ### Next Meeting
 
-- Next regular meeeting slot is 16 July
+- Next regular meeting slot is 16 July
