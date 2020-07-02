@@ -15,8 +15,6 @@ The group aims to develop a training program that can be pursued by researchers 
 
 The HSF training events can be found [here](https://indico.cern.ch/category/11386/). A white paper on training can be found here: [HEP Software Foundation Community White Paper Working Group - Training, Staffing and Careers](https://arxiv.org/abs/1807.02875).
 
-**Convenors**: Kilian Lieret (LMU), Sudhir Malik (Puerto Rico), Sam Meehan (CERN)
-
 ## Our mission
 
 The long term sustainability of the research software ecosystem is important for HEP as [HL-LHC](https://home.cern/science/accelerators/high-luminosity-lhc) and other facilities of the 2020s will be relevant through at least the 2030s. Meeting this challenge requires a workforce with a combination of HEP domain knowledge and advanced software skills.
@@ -71,6 +69,13 @@ The HSF training group relies on a growing list of proactive and dedicated educa
 {% endfor %}
 
 [**Full list of Upcoming and Past Schools**](/Schools/events.html)
+
+## Convenors
+
+Kilian Lieret (LMU), Sudhir Malik (Puerto Rico), Sam Meehan (CERN)
+
+{% assign persons = "Kilian Lieret, Sudhir Malik, Sam Meehan" | split: ", " %}
+{% include list_of_selected_training_people.html %}
 
 ---
 
