@@ -20,6 +20,4 @@ email: meirin.oan.evans@cern.ch
 layout: educator
 ---
 
-<!-- Write something about yourself here (if you want)! 
 Hi, Meirin here. So far, I've mentored on the Virtual Pipelines training after participating in the Awesome Bootcamp. I'm a content developer for a future Machine Learning training and I'll be a mentor for the upcoming Virtual Docker training. My work is to prepare ATLAS Open Data for use in education, including particle physics, data science and machine learning.
--->

@@ -212,6 +212,12 @@
   end_date: 2020-07-31
   source: https://indico.cern.ch/event/888279/
   title: ATLAS Canada Computing Workshop
+- author: Kilian Lieret
+  date: 2020-07-27
+  deadline: 2020-07-14
+  end_date: 2020-07-30
+  source: https://indico.cern.ch/event/934651/
+  title: Virtual Docker Training
 - author: Guillermo Fidalgo
   date: 2020-08-02
   deadline: 2020-03-31

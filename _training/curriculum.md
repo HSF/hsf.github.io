@@ -79,6 +79,7 @@ This mission relies on active contributors: [This page](/training/educators) out
 | -------- | -------- |-------- |
 | Documentation | ``sphinx``, ``doxygen``, etc. | |
 | Event generation and MC | ``pythia``, ``sherpa``, ``madgraph``, etc. | |
+| alpaka | [alpaka](https://alpaka.readthedocs.io/en/latest/index.html) is a header-only C++ abstraction library for accelerator development | |
 
 ## Contributing
 
