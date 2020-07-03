@@ -57,11 +57,11 @@ will be composed of plenary sessions; the content is under preparation.
 
 Ben Krikler - University of Bristol (Co-chair)<br>
 Eduardo Rodrigues - University of Cincinnati (Chair)<br>
-Jim Pivarski - Princeton University (Co-chair)
+Jim Pivarski - Princeton University (Co-chair)<br>
+Matthew Feickert - University of Illinois at Urbana-Champaign
 
 **Local organisation**<br>
 Chris Tunnell - Rice University<br>
-Matthew Feickert - University of Illinois at Urbana-Champaign<br>
 Peter Onyisi - The University of Texas at Austin
 
 ### Sponsors
