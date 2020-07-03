@@ -1,3 +1,9 @@
+---
+title: Differentiable Computing
+author: Nathan Simpson
+layout: plain
+---
+
 ## Why make things differentiable?
 
 When we write a program to do some physics, that program will likely have some free parameters. These could be as simple as the position of a cut, or as complicated as the parameters of a neural network. In either case, we want these parameters to be optimized such that we get the best possible result, whatever that may be. In the case of a HEP analysis, for instance, this could correspond to having the highest sensitivity to new phenomena. 
@@ -12,7 +18,15 @@ We can make this possible if we keep track of the derivatives of each step (i.e.
 
 ## How do I get involved?
 
-Efforts in this direction are currently pivoting around the [gradHEP](gradhep.github.io) organisation on GitHub. If you’d like to get involved, feel free to [express interest on Gitter](https://gitter.im/gradhep/community?source=orgpage), or [raise an issue on our ‘center’ repo](https://github.com/gradhep/center/issues) if you have some big picture thoughts to share.
+Efforts in this direction are currently pivoting around the [gradHEP](https://gradhep.github.io) organisation on GitHub. 
+
+To express general interest:
+- [Say hi on Gitter](https://gitter.im/gradhep/community?source=orgpage)
+- For big-picture thoughts or specific questions, [comment on existing issues, or raise a new issue on our ‘center’ repo](https://github.com/gradhep/center/issues) 
+
+For those that have CERN accounts (or those that can make a lightweight account) and want to be more involved, we have a [Mattermost](https://mattermost.web.cern.ch/signup_user_complete/?id=zf7w5rb1miy85xsfjqm68q9hwr), which is the main way we communicate amongst ourselves.
+
+We're also going to start having monthly update meetings, which you can find the agendas for on the [differentiable computing Indico category](https://indico.cern.ch/category/12615/) (time slot TBD).
 
 This is a new & emerging effort — everyone is very much welcome to join! :)
 
@@ -20,4 +34,4 @@ This is a new & emerging effort — everyone is very much welcome to join! :)
 
 For any further queries, please contact the activity organisers (Lukas Heinrich & Nathan Simpson):
 
-lukas [dot] heinrich [at] cern [dot] ch & n [dot] s [at] cern [dot] ch
+<lukas.heinrich@cern.ch>, <n.s@cern.ch>
