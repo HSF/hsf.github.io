@@ -72,6 +72,7 @@ The event is kindly sponsored by
 ![UoL](/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
 ![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
 ![SSI](/images/pyhep/SSI_logo.png){:height="60px"}
+![SSI](/images/pyhep/FNAL_logo.png){:height="60px"}
 
 ## PyHEP 2019
 
