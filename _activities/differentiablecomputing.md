@@ -34,4 +34,4 @@ This is a new & emerging effort — everyone is very much welcome to join! :)
 
 For any further queries, please contact the activity organisers (Lukas Heinrich & Nathan Simpson):
 
-<lukas.heinrich@cern.ch>, <n.s@cern.ch>
+<lukas.heinrich@cern.ch,n.s@cern.ch>
