@@ -42,7 +42,7 @@ upload material and create playlists. Only owners can add new managers.
 The current HSF Owners are:
 
 * Graeme Stewart <graeme.andrew.stewart@cern.ch>
-* A Mystery Guest <amg@somewhere.org>
+* Eduardo Rodrigues <eduardo.rodrigues@cern.ch>
 
 If you aren't able to contact an owner, please ask the 
 [HSF Coordination Team](/organization/team.html) for advice.
