@@ -10,7 +10,7 @@ Currently the activities within the HSF are organized by the *HSF coordination t
  * Caterina Doglioni - Lund University
  * Peter Elmer - Princeton University
  * Daniel Elvira - FNAL
- * Benedikt Hegner - BNL
+ * Benedikt Hegner - CERN / Stony Brook University
  * Michel Jouvin - LAL, IN2P3
  * David Lange - Princeton University
  * Pere Mato - CERN
