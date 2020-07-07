@@ -23,7 +23,7 @@ take-down).
 
 Good content for the channel includes:
 
-* Sessions from HSF-WLCG workshops
+* Sessions from HSF workshops and co-organised events
 * Working Group topical meetings
 * Training videos
 
