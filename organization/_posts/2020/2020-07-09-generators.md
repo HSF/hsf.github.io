@@ -84,4 +84,4 @@ Speaker: M. Grazzini.
 
 ## AOB
 
-...
+Next meeting will normally be in two weeks, on July 23.
