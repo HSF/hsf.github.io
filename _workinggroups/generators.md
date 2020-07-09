@@ -26,8 +26,8 @@ or send an email to [hsf-generator-wg+subscribe@googlegroups.com](mailto:hsf-gen
 indico [category](https://indico.cern.ch/category/8460)
 
 #### Publications
-- Challenges in Monte Carlo event generator software for High-Luminosity LHC (https://arxiv.org/abs/2004.13687)
-- HL-LHC Computing Review: Common Tools and Community Software (https://zenodo.org/record/3779250)
+- [Challenges in Monte Carlo event generator software for High-Luminosity LHC](https://arxiv.org/abs/2004.13687)
+- [HL-LHC Computing Review: Common Tools and Community Software](https://zenodo.org/record/3779250)
 - Generator document ("proceedings") current draft
 in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
 
