@@ -20,6 +20,3 @@ email: masonlp@uw.edu
 layout: educator
 ---
 
-<!-- Optional: Write something about yourself below the '-->'.
-You can use Markdown syntax to style this page.
--->
