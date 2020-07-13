@@ -22,10 +22,12 @@ in High Energy Physics software and computing internationally.
 <hr>
 
 <!-- Important announcements from announcements/_posts -->
+  {% assign has_announcements = false %}
   {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
   {% for post in site.categories.announcements reversed %}
     {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
     {% if stopdate > sitedate %}
+    {% assign has_announcements = true %}
 <div class="row alert alert-warning">
   <p class="lead event-announce">
     <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }} (<a href="{{ post.link }}">more info</a>)
@@ -34,7 +36,9 @@ in High Energy Physics software and computing internationally.
     {% endif %}
   {% endfor %}
 
+{% if has_announcements %} 
 <hr>
+{% endif %}
 
  <!-- Various boxes with more information -->
 <div class="row">
