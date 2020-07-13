@@ -3,7 +3,7 @@
 title: "Jackson Burzynski"     # first (middle) last
 country: US              # your country of residence (2 letters)
 roles: [mentor]              # subset of [convenor, facilitator, instructor, mentor]
-years: [2020]              # in which years did you help out? (e.g. [2020, 2019])
+years: 2020              # in which years did you help out? (e.g. [2020, 2019])
 
 # Optional (please add github or gravatar for your picture)
 github: github.com/jburzy01      # your github handle  (github.com/<handle>)
