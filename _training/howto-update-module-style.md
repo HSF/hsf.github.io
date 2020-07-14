@@ -3,16 +3,16 @@ title: Updating a carpentry-style module with the HSF style
 layout: plain
 ---
 
-If
+If...
 
-* You have built a carpentry style lesson by following the software carpentry tutorial
-* You want to make it an HSF training module that is part of our [curriculum](hepsoftwarefoundation.org/training/curriculum)
-* You have already talked to us about it
+* you have built a carpentry style lesson by following the software carpentry tutorial
+* you want to make it an HSF training module that is part of our [curriculum](hepsoftwarefoundation.org/training/curriculum)
+* you have already talked to us about it
 
 **OR**
 
-* You are maintaining an HSF module
-* You want to update the style
+* you are maintaining an HSF module
+* you want to update the style
 
 then this section is for you. If you want to update a new module from scratch, see [here](howto-new-module).
 
@@ -44,6 +44,6 @@ This might however create some merge conflicts, for example if the original vers
 
 5. Merge conflicts? Sorry to hear that. There's a couple of options:
     1. Feeling lost? Abort by doing ``git reset --hard`` (note that all non-commited changes will be lost!)
-    2. Resolve the merge conflicts and commit! That would be awesome. If resolve by overwriting a file with with the version from the styles repository, ``git checkout template/gh-pages -- path/to/your/file`` is your friend
+    2. Resolving the merge conflicts and commit! That would be awesome. If resolve by overwriting a file with with the version from the styles repository, ``git checkout template/gh-pages -- path/to/your/file`` is your friend
 
 6. No merge conflicts? Congratulations, you're all done!

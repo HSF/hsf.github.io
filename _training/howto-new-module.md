@@ -3,10 +3,10 @@ title: Creating a HSF module from scratch
 layout: plain
 ---
 
-If
+If...
 
-* You want to create a new carpentry-style training lesson from scratch (or from material that is in another format)
-* You have talked to us about it
+* you want to create a new carpentry-style training lesson from scratch (or from material that is in another format)
+* you have talked to us about it
 
 then this is for you! If you already have a module of some kind and want to update it with the HSF style, see [here](howto-update-module-style).
 
@@ -37,12 +37,12 @@ After the last section, you should have repository that creates a blank carpentr
 * Follow the "Jekyll Setup for Lesson Development" instructions of the [carpentry tutorial setup instructions](https://carpentries.github.io/lesson-example/setup.html).
 * If you are interested to study the pedagogical concepts behind the carpentries approach, head [to their handbook](https://carpentries.github.io/curriculum-development/)
 * [The technological section of their handbook](https://carpentries.github.io/curriculum-development/technological-introductions.html) is a good starting point to create content right away
-* The [tutorial on creating content](https://carpentries.github.io/lesson-example/02-tooling/index.html) also gives a nice introduction (but perhaps a bit more from a technological standpoint?)
+* The [tutorial on creating content](https://carpentries.github.io/lesson-example/02-tooling/index.html) also gives a nice introduction (but perhaps a bit more from a technological standpoint)
 
 What to not edit
 ----------------
 
-* If you improve the HSF style and other general parts of the page, please commit your changes to the HSF style repository and then pull your changes from there (this way, all other modules profit of the changes as well)
+* If you improve the HSF style and other general parts of the page, please commit your changes to the HSF style repository and then pull your changes from there (this way, all other modules benefit from the changes as well)
 
 Additional steps
 ----------------
