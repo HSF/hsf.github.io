@@ -40,9 +40,9 @@ layout: plain
 
 Training in software and computing are essential ingredients for the success of any HEP experiment. As most experiments have similar basic prerequisites (Unix shell, Python, C++, …) we want to join our efforts and create one introductory software training curriculum that serves HEP newcomers the software skills needed as they enter the field, and in parallel, instill best practices for writing software.
 
-The curriculum is comprised of a set of standardized *modules*, so that students can focus on what is most relevant to them. More about the style of these modules is written in the [guidelines for training material](/training/module-guidelines.html).
+The curriculum is comprised of a set of standardized *modules*, so that students can focus on what is most relevant to them. More about the style of these modules is written in the [guidelines for training material](/training/module-guidelines.html). If you want to create your own HSF training module, see [here](howto-new-module); if you already have one and want to update it with the HSF style, see [here](howto-update-module-style).
 
-This mission relies on active contributors: [This page](/training/educators) outlines the different roles that need to be filled.  
+This mission relies on active contributors: [This page](/training/educators) outlines the different roles that need to be filled.
 
 ## The modules
 
@@ -59,7 +59,7 @@ This mission relies on active contributors: [This page](/training/educators) out
 | Basic ``C++`` | | |
 | Distributed file systems and grid computing || |
 | ``ROOT`` | | |
-| A simple analysis | A simple analysis using CMS open data| [Created by S. Wunsch; maintained by HSF](https://hsf-training.github.io/hsf-training-cms-analysis-webpage/) |
+| A simple analysis | A simple analysis using CMS open data| [Created by S. Wunsch; maintained by HSF](https://hsf-training.github.io/hsf-training-cms-analysis-webpage/); [videos available](https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V) |
 | Unit testing                                | [Unit testing](https://en.wikipedia.org/wiki/Unit_testing) in python | [Created by K. Huff](http://katyhuff.github.io/python-testing/) |
 
 ### Intermediate
@@ -69,8 +69,8 @@ This mission relies on active contributors: [This page](/training/educators) out
 | Parallel programming |  | |
 | Docker | Introduction to the [docker](https://www.docker.com/) container image system | [Created by M. Feickert](https://matthewfeickert.github.io/intro-to-docker/) |
 | Workflows & reproducability | E.g. ``yadage`` and ``reana`` | |
-| Machine learning | | |
-| CI/CD | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [gitlab](https://about.gitlab.com/) | [Created by G. Stark; maintained by HSF](https://hsf-training.github.io/hsf-training-cicd/) |
+| Machine learning | | WIP |
+| CI/CD | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [gitlab](https://about.gitlab.com/) | [Created by G. Stark; maintained by HSF](https://hsf-training.github.io/hsf-training-cicd/); [videos available](https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb) |
 
 ### Advanced
 
@@ -79,7 +79,7 @@ This mission relies on active contributors: [This page](/training/educators) out
 | -------- | -------- |-------- |
 | Documentation | ``sphinx``, ``doxygen``, etc. | |
 | Event generation and MC | ``pythia``, ``sherpa``, ``madgraph``, etc. | |
-| alpaka | [alpaka](https://alpaka.readthedocs.io/en/latest/index.html) is a header-only C++ abstraction library for accelerator development | |
+| alpaka | [alpaka](https://alpaka.readthedocs.io/en/latest/index.html) is a header-only C++ abstraction library for accelerator development | WIP |
 
 ## Contributing
 
