@@ -13,7 +13,28 @@ The HSF Training Working Group aims to help the research community to provide tr
 
 The group aims to develop a training program that can be pursued by researchers to achieve the level of required knowledge. This ranges from basic core software skills needed by everyone to the advanced training required by specialists in software and computing.
 
-The HSF training events can be found [here](https://indico.cern.ch/category/11386/). A white paper on training can be found here: [HEP Software Foundation Community White Paper Working Group - Training, Staffing and Careers](https://arxiv.org/abs/1807.02875).
+## Sitemap
+
+* About HSF training:
+  * [Our mission](/workinggroups/training#our-mission)
+  * [HSF training White paper](https://arxiv.org/abs/1807.02875)
+  * [HSF training events](https://indico.cern.ch/category/11386/)
+  * [List of HEP training events](https://indico.cern.ch/category/11386/)
+* The Community
+  * [The HSF training community](/training/community.html)
+  * [Participating & Contributing](/workinggroups/training#how-to-participate-and-contribute)
+  * [Convenors](/workinggroups/training#convenors)
+* Howtos & Guides
+  * Events:
+    * [How to organize an event](/training/howto-event.html)
+    * [The different roles in an HSF-training event](/training/educators.html)
+  * Modules
+    * [The HSF training curriculum](/training/curriculum.html)
+    * [Guidelines for HSF training content](/training/module-guidelines.html)
+    * [How to create a HSF training module from scratch](/training/howto-new-module.html)
+    * [How to update a carpentry-style module with the HSF style](/training/howto-update-module-style.html)
+* Meta
+  * [How to add your profile to the HSF training community pages](/training/howto-educator-profile.html)
 
 ## Our mission
 
