@@ -19,7 +19,7 @@ We will be happy to provide a *letter of cooperation*
 that can be used for any software project or funding application. To ask us
 for this please:
 
-- Send an email request to [HSF Coordination](mailto:hsf-coordination@googlegroups.com)
+- Send a request to [HSF Coordination](mailto:hsf-coordination@googlegroups.com)
 - Include an outline of your project's goals and indicate where you
   believe that the HSF can usefully cooperate with you
 - Please make this request at least *two weeks* before you need the letter
@@ -33,7 +33,7 @@ Please note that a letter of support will not be exclusive for any
 particular grant application round - the HSF is free to support multiple
 projects.
 
-- Send an email request to [HSF Coordination](mailto:hsf-coordination@googlegroups.com)
+- Send a request to [HSF Coordination](mailto:hsf-coordination@googlegroups.com)
 - Include an outline of your project's goals and indicate in what way
   this helps the high-energy physics community to meet the software challenges
   of the future
@@ -41,7 +41,8 @@ projects.
 
 ### Procedure
 
-In both cases the HSF Coordination group will discuss the request and, if approved,
-circulate a draft letter to the whole of the HSF community for any comments. We will
-then approve the request in an HSF Coordination meeting (or, exceptionally, just by email,
-should deadlines not fit with the meeting schedule).
+In both cases the HSF Coordination group and the HSF Working Group Convenors
+will discuss the request and, if approved, circulate a draft letter to the
+whole of the HSF community for any comments. We will then approve the request
+in an HSF Coordination meeting (or, exceptionally, just by email, should
+deadlines not fit with the meeting schedule).
