@@ -38,6 +38,7 @@
                   <li><a href="/Schools/events.html">Training Schools</a></li>
                   <li><a href="/events.html">Events &amp; Workshops</a></li>
                   <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">HSF Indico</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCv4hukXGkCYvBClQMKzypnQ" target="_hsf_youtube">HSF on YouTube</a></li>
                   <li class="divider"></li>
                   <li><a href="/forums.html">Mailing Lists and Forums</a></li>
                   <li><a href="/technical_notes.html">Technical Notes</a></li>
@@ -68,6 +69,7 @@
                 <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
                 <li><a href="/organization/team.html">The Coordination Team</a></li>
                 <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
                 <li class="divider"></li>
                 <li><a href="/howto-website.html">Website Howto</a></li>
               </ul>

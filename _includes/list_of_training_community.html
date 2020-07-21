@@ -1,0 +1,42 @@
+{% include educator_header.html %}
+
+<h3> Our community </h3>
+
+{% assign skipped = 0 %}
+{% for person in site.educators | sort:"title" %}
+
+{% if person.title == "Your Name" %}
+{% assign skipped = skipped | plus: -1 %}
+{% continue %}
+{% endif %}
+
+{% assign column = forloop.index | plus: skipped | modulo: 4 %}
+
+{% if column == 1 %}
+<div class="row">
+{% endif %}
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="{{ person.github }}">
+<a href="{{ person.url }}">{% include educator_avatar.html %}</a>
+<h3><a href="{{ person.url }}">{{ person.title }}</a></h3>
+{% include educator_social.html %}
+{% unless person.country == "" %}
+<!-- <img width="64" src="/files/flags/{{ person.country | downcase }}.svg"/> -->
+{% endunless %}
+</div>
+</div>
+
+{% if column == 0 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% unless column == 0 %}
+<!-- The last </div> never happened, because we ended short of a full last column. -->
+</div>
+{% endunless %}
+

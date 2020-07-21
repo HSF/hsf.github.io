@@ -22,10 +22,12 @@ in High Energy Physics software and computing internationally.
 <hr>
 
 <!-- Important announcements from announcements/_posts -->
+  {% assign has_announcements = false %}
   {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
   {% for post in site.categories.announcements reversed %}
     {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
     {% if stopdate > sitedate %}
+    {% assign has_announcements = true %}
 <div class="row alert alert-warning">
   <p class="lead event-announce">
     <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }} (<a href="{{ post.link }}">more info</a>)
@@ -34,7 +36,9 @@ in High Energy Physics software and computing internationally.
     {% endif %}
   {% endfor %}
 
+{% if has_announcements %} 
 <hr>
+{% endif %}
 
  <!-- Various boxes with more information -->
 <div class="row">
@@ -58,24 +62,17 @@ in High Energy Physics software and computing internationally.
 
 
  <div class="col-lg-4">
-  <h2>Virtual Workshop on New Architectures</h2>
-  <img src="/images/workshops/new-arch-virtual.jpg" 
-  alt="Virtual Workshop" style="display: block; width:90%; margin-left: auto; margin-right: auto;">
-  <p>WLCG and the HSF are organising a 
-    <a href="https://indico.cern.ch/e/HSFWLCG2020virtual">virtual workshop in May</a>
-    covering <i>New Architectures, Portability, and Sustainability</i>.
+  <h2>HSF on YouTube</h2>
+  <p>The HSF has started a <a href="https://www.youtube.com/channel/UCv4hukXGkCYvBClQMKzypnQ">YouTube Channel</a>
+    to support all of the videos that we are creating in workshops and training events.
   </p>
-  <p>
-    This is an end-to-end challenge, from low level code portability to
-    workload management and accounting. The goal of the workshop is
-    to exchange best practice and discuss areas of future collaboration and R&D.
+  <img href="https://indi.to/bbqYQ" src="/images/pyhep/PyHEP_logo_template_white.png"
+    alt="PyHEP" style="display: block; width:50%; margin-left: auto; margin-right: auto;">
+  <p>We hope that you will subscribe to know about the latest uploads. Checkout the videos
+    from the <a href="https://indi.to/bbqYQ">PyHEP 2020</a> Workshop
+    <a href="https://www.youtube.com/playlist?list=PLKZ9c4ONm-VkZXgXlA8bGsOXcukp8hh9N">playlist.</a>
   </p>
-  <p>We are organising this workshop to 
-    <a href="https://indico.cern.ch/event/908146/page/20187-virtual-meeting-guide">optimise
-    for an online event</a>, please 
-    <a href="https://indico.cern.ch/event/908146/registrations/">register</a> so we can
-    better plan the event.
-  </p>
+
  </div>
 
 

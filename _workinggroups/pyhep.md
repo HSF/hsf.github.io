@@ -57,11 +57,11 @@ will be composed of plenary sessions; the content is under preparation.
 
 Ben Krikler - University of Bristol (Co-chair)<br>
 Eduardo Rodrigues - University of Cincinnati (Chair)<br>
-Jim Pivarski - Princeton University (Co-chair)
+Jim Pivarski - Princeton University (Co-chair)<br>
+Matthew Feickert - University of Illinois at Urbana-Champaign
 
 **Local organisation**<br>
 Chris Tunnell - Rice University<br>
-Matthew Feickert - University of Illinois at Urbana-Champaign<br>
 Peter Onyisi - The University of Texas at Austin
 
 ### Sponsors
@@ -72,6 +72,7 @@ The event is kindly sponsored by
 ![UoL](/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
 ![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
 ![SSI](/images/pyhep/SSI_logo.png){:height="60px"}
+![SSI](/images/pyhep/FNAL_logo.png){:height="50px"}
 
 ## PyHEP 2019
 

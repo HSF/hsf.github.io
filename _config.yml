@@ -39,6 +39,9 @@ collections:
   training:
     output: true
     permalink: /training/:path.html
+  educators:
+    output: true
+    permalink: /training/educators/:path.html
 
 docs:
   url: https://github.com/HSF/documents/blob/master
