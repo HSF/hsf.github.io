@@ -49,26 +49,9 @@ The [HSF-Training GitHub Organization](https://github.com/hsf-training) hosts th
 
 The HSF training group relies on a growing list of proactive and dedicated educators that help us with our mission. Head to [this page](/training/community.html) to meet them!
 
-## Current and Upcoming Training Schools
+## Current and Upcoming Training Events
 
-{% assign schools = site.data.training-schools | sort:"date" %}
-
-{% capture now %}{{'now' | date: '%s' }}{% endcapture %}
-
-{% for post in schools %}
-  {% capture date %}{{post.end_date | date: '%s' }}{% endcapture %}
-  {% if date > now %}
-  {% if post.deadline != blank %}
-  1. [**{{post.date | date: "%-d %b"}} - {{post.end_date | date: "%-d %b %Y"}}** - {{post.title}} - **Deadline:** {{post.deadline| date: "%-d %b %Y"}} ]({{post.source}}){% if post.url_proof_ignore %}{:data-proofer-ignore=""}{% endif %}
-
-    {% else %}
-  1. [**{{post.date | date: "%-d %b"}} - {{post.end_date | date: "%-d %b %Y"}}** - {{post.title}} ]({{post.source}}){% if post.url_proof_ignore %}{:data-proofer-ignore=""}{% endif %}
-
-    {% endif %}
-    {% endif %}
-{% endfor %}
-
-[**Full list of Upcoming and Past Schools**](/Schools/events.html)
+{% include list_of_upcoming_schools.md %}
 
 ## Convenors
 

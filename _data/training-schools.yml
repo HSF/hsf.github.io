@@ -60,6 +60,7 @@
   source: http://codas-hep.org/
   title: CoDaS-HEP School (Computational and Data Science Training for High Energy
     Physics) at Princeton University
+  tags: HSF
 - author: Guillermo Fidalgo
   date: 2019-08-26
   deadline: ''
@@ -120,6 +121,7 @@
   end_date: 2020-02-25
   source: https://indico.cern.ch/event/875393/
   title: CSU Summer Student Computing/Analysis Training 2020
+  tags: HSF
 - author: Guillermo Fidalgo
   date: 2020-02-10
   deadline: 2020-02-09
@@ -158,24 +160,28 @@
   end_date: 2020-03-27
   source: https://indico.cern.ch/event/882660/
   title: Software Carpentry at CERN [**POSTPONED/CANCELLED**]
+  tags: HSF
 - author: Kilian Lieret
   date: 2020-04-27
   deadline: ''
   end_date: 2020-04-27
   source: https://indico.cern.ch/event/858758/
   title: Alpaka Parallel Programming - Taster Session and Basic Tutorial
+  tags: HSF
 - author: Kilian Lieret
   date: 2020-04-28
   deadline: ''
   end_date: 2020-04-30
   source: https://indico.cern.ch/event/867700/
   title: Alpaka Parallel Programming - Advanced Training Hackathon
+  tags: HSF
 - author: Kilian Lieret
   date: 2020-06-02
   deadline: ''
   end_date: 2020-06-04
   source: https://indico.cern.ch/event/904759/
   title: Virtual Pipelines Training
+  tags: HSF
 - author: Guillermo Fidalgo
   date: 2020-06-07
   deadline: 2020-02-27
@@ -200,6 +206,7 @@
   end_date: 2020-07-10
   source: https://opensciencegrid.org/user-school-2020/
   title: OSG User School 2020
+  tags: HSF
 - author: Guillermo Fidalgo
   date: 2020-07-13
   deadline: ''

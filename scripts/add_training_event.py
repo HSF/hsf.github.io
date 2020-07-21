@@ -24,6 +24,7 @@ class Event(object):
         source: str, author: str,
         deadline: Union[str, datetime.date] = "",
         url_proof_ignore=False,
+        tags=None,
     ):
         self.title = title
         self.date = self._interpret_date(date)
@@ -32,6 +33,9 @@ class Event(object):
         self.source = source
         self.author = author
         self.url_proof_ignore = url_proof_ignore
+        if tags is None:
+            tags = []
+        self.tags = tags
 
         if not self.end_date >= self.date:
             raise ValueError(
@@ -64,6 +68,7 @@ class Event(object):
             deadline=input("Deadline [YYYY-MM-DD or ''] ").strip(),
             source=input("Url ").strip(),
             author=input("Author ").strip(),
+            tags=input("Tags (comma separated)").strip()
         )
         return tmp_event
 
