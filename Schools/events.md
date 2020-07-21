@@ -1,18 +1,18 @@
 ---
 layout: plain
-title: Schools for HEP Software Training
+title: HEP Software Training Events
 ---
 
-## Current and Upcoming Training Schools
+## Current and Upcoming Training Events
 
 {% include list_of_upcoming_schools.md %}
 
-## Past Schools
+## Past Events
 
 {% include list_of_past_schools.md %}
 
-## HSF supported/organized schools
+## HSF supported/organized training events
 
-The following schools were directly organized by HSF or supported by HSF.
+The following events were directly organized by HSF or supported by HSF.
 
 {% include list_of_hsf_schools.md %}
