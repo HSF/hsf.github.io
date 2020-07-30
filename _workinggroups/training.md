@@ -33,8 +33,8 @@ The group aims to develop a training program that can be pursued by researchers 
   * [List of HEP training events](https://indico.cern.ch/category/11386/)
   * The Community
     * [The HSF training community](/training/community.html)
-    * [Participating & Contributing](/workinggroups/training#how-to-participate-and-contribute)
-    * [Convenors](/workinggroups/training#convenors)
+    * [Participating & Contributing](/workinggroups/training.html#how-to-participate-and-contribute)
+    * [Convenors](/workinggroups/training.html#convenors)
 * **Meta**:
   * [How to add your profile to the HSF training community pages](/training/howto-educator-profile.html)
 
