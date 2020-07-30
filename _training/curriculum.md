@@ -55,8 +55,8 @@ This mission relies on active contributors: [This page](/training/educators) out
 | Version controlling with git | | [Created & Maintained by software carpentries](http://swcarpentry.github.io/git-novice) |
 | Advanced git  | | |
 | Programming with python | | [Created & Maintained by software carpentries ](http://swcarpentry.github.io/python-novice-inflammation) |
-| Build systems: From ``gcc`` to ``cmake`` | | |
 | Basic ``C++`` | | |
+| Build systems:  ``cmake`` | | [Created by H. Schneider](https://henryiii.github.io/cmake_workshop/) |
 | Distributed file systems and grid computing || |
 | ``ROOT`` | | |
 | A simple analysis | A simple analysis using CMS open data| [Created by S. Wunsch; maintained by HSF](https://hsf-training.github.io/hsf-training-cms-analysis-webpage/); [videos available](https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V) |
@@ -67,7 +67,7 @@ This mission relies on active contributors: [This page](/training/educators) out
 | Module  | Description  | Status |
 | -------- | -------- |-------- |
 | Parallel programming |  | |
-| Docker | Introduction to the [docker](https://www.docker.com/) container image system | [Created by M. Feickert](https://matthewfeickert.github.io/intro-to-docker/) |
+| Docker | Introduction to the [docker](https://www.docker.com/) container image system | [Created by M. Feickert; maintained by HSF](https://hsf-training.github.io/hsf-training-docker/index.html); [videos available](https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj) |
 | Workflows & reproducability | E.g. ``yadage`` and ``reana`` | |
 | Machine learning | | WIP |
 | CI/CD | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [gitlab](https://about.gitlab.com/) | [Created by G. Stark; maintained by HSF](https://hsf-training.github.io/hsf-training-cicd/); [videos available](https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb) |
