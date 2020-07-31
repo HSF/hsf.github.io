@@ -13,7 +13,30 @@ The HSF Training Working Group aims to help the research community to provide tr
 
 The group aims to develop a training program that can be pursued by researchers to achieve the level of required knowledge. This ranges from basic core software skills needed by everyone to the advanced training required by specialists in software and computing.
 
-The HSF training events can be found [here](https://indico.cern.ch/category/11386/). A white paper on training can be found here: [HEP Software Foundation Community White Paper Working Group - Training, Staffing and Careers](https://arxiv.org/abs/1807.02875).
+## Sitemap
+
+* I'm a student and want to **learn** about HEP Software:
+  * [The HSF training curriculum](/training/curriculum.html)
+  * [List of upcoming training events](/Schools/events.html)
+* I want to **teach** software:
+  * Training events:
+    * [How to organize a software training event](/training/howto-event.html)
+    * [The different roles in an HSF-training event](/training/educators.html)
+  * Training modules:
+    * [The HSF training curriculum](/training/curriculum.html)
+    * [Guidelines for HSF training content](/training/module-guidelines.html)
+    * [How to create a HSF training module from scratch](/training/howto-new-module.html)
+    * [How to update a carpentry-style module with the HSF style](/training/howto-update-module-style.html)
+* I want to learn more **about the HSF Training WG**:
+  * [Our mission](/workinggroups/training.html#our-mission)
+  * [HSF training White paper](https://arxiv.org/abs/1807.02875)
+  * [List of HEP training events](https://indico.cern.ch/category/11386/)
+  * The Community
+    * [The HSF training community](/training/community.html)
+    * [Participating & Contributing](/workinggroups/training.html#how-to-participate-and-contribute)
+    * [Convenors](/workinggroups/training.html#convenors)
+* **Meta**:
+  * [How to add your profile to the HSF training community pages](/training/howto-educator-profile.html)
 
 ## Our mission
 
