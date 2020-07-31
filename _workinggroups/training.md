@@ -28,7 +28,7 @@ The group aims to develop a training program that can be pursued by researchers 
     * [How to create a HSF training module from scratch](/training/howto-new-module.html)
     * [How to update a carpentry-style module with the HSF style](/training/howto-update-module-style.html)
 * I want to learn more **about the HSF Training WG**:
-  * [Our mission](/workinggroups/training#our-mission)
+  * [Our mission](/workinggroups/training.html#our-mission)
   * [HSF training White paper](https://arxiv.org/abs/1807.02875)
   * [List of HEP training events](https://indico.cern.ch/category/11386/)
   * The Community

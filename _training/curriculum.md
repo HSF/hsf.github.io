@@ -40,9 +40,9 @@ layout: plain
 
 Training in software and computing are essential ingredients for the success of any HEP experiment. As most experiments have similar basic prerequisites (Unix shell, Python, C++, …) we want to join our efforts and create one introductory software training curriculum that serves HEP newcomers the software skills needed as they enter the field, and in parallel, instill best practices for writing software.
 
-The curriculum is comprised of a set of standardized *modules*, so that students can focus on what is most relevant to them. More about the style of these modules is written in the [guidelines for training material](/training/module-guidelines.html). If you want to create your own HSF training module, see [here](howto-new-module); if you already have one and want to update it with the HSF style, see [here](howto-update-module-style).
+The curriculum is comprised of a set of standardized *modules*, so that students can focus on what is most relevant to them. More about the style of these modules is written in the [guidelines for training material](/training/module-guidelines.html). If you want to create your own HSF training module, see [here](/training/howto-new-module.html); if you already have one and want to update it with the HSF style, see [here](/training/howto-update-module-style.html).
 
-This mission relies on active contributors: [This page](/training/educators) outlines the different roles that need to be filled.
+This mission relies on active contributors: [This page](/training/educators.html) outlines the different roles that need to be filled.
 
 ## The modules
 
@@ -60,7 +60,7 @@ This mission relies on active contributors: [This page](/training/educators) out
 | Distributed file systems and grid computing || |
 | ``ROOT`` | | |
 | A simple analysis | A simple analysis using CMS open data| [Created by S. Wunsch; maintained by HSF](https://hsf-training.github.io/hsf-training-cms-analysis-webpage/); [videos available](https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V) |
-| Unit testing                                | [Unit testing](https://en.wikipedia.org/wiki/Unit_testing) in python | [Created by K. Huff](http://katyhuff.github.io/python-testing/) |
+| Unit testing                                | [Unit testing](https://en.wikipedia.org/wiki/Unit_testing) in python | [Created by K. Huff](http://carpentries-incubator.github.io/python-testing/) |
 
 ### Intermediate
 
