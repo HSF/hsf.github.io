@@ -46,4 +46,6 @@ This might however create some merge conflicts, for example if the original vers
     1. Feeling lost? Abort by doing ``git reset --hard`` (note that all non-commited changes will be lost!)
     2. Resolving the merge conflicts and commit! That would be awesome. If resolve by overwriting a file with with the version from the styles repository, ``git checkout template/gh-pages -- path/to/your/file`` is your friend
 
-6. No merge conflicts? Congratulations, you're all done!
+6. No merge conflicts? Congratulations, you're almost done!
+
+7. Edit the file ``_config.yml``. Change the first setting to ``carpentry: "hsf"``. This will activate all remaining changes.
