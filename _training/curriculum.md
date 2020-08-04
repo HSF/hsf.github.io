@@ -59,6 +59,7 @@ This mission relies on active contributors: [This page](/training/educators.html
 | Build systems:  ``cmake`` | | [Created by H. Schneider](https://henryiii.github.io/cmake_workshop/) |
 | Distributed file systems and grid computing || |
 | ``ROOT`` | | |
+| ``uproot`` | Reading and writing ROOT files without having to install ROOT. | [Created by M. Proffitt; maintained by HSF](https://hsf-training.github.io/hsf-training-uproot-webpage/) |
 | A simple analysis | A simple analysis using CMS open data| [Created by S. Wunsch; maintained by HSF](https://hsf-training.github.io/hsf-training-cms-analysis-webpage/); [videos available](https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V) |
 | Unit testing                                | [Unit testing](https://en.wikipedia.org/wiki/Unit_testing) in python | [Created by K. Huff](http://carpentries-incubator.github.io/python-testing/) |
 
