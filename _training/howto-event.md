@@ -268,3 +268,13 @@ There are a few logistical items that the facilitator (i.e. you) should bear in 
   - **Keep "How to improve" Notes** : On your internal document, note down ideas of how to improve the training for next time, logistically or otherwise, throughout the execution of the event.  Encourage all educators to do likewise.
   - **Take Coffee Breaks** : Don't go for multiple hours without taking a break.  Even if the training is online, break once per hour to give participants an explicit chance to take a stretch while being assured they will not "miss something".
 
+# Further reads
+
+* [HSF Training home](https://hepsoftwarefoundation.org/workinggroups/training.html)
+* [The different roles in an HSF-training event](https://hepsoftwarefoundation.org/training/educators.html)
+* [The HSF training curriculum](https://hepsoftwarefoundation.org/training/curriculum.html)
+* Creating content:
+  * [Guidelines for HSF training content](https://hepsoftwarefoundation.org/training/module-guidelines.html)
+  * [How to create a HSF training module from scratch](https://hepsoftwarefoundation.org/training/howto-new-module.html)
+  * [How to update a carpentry-style module with the HSF style](https://hepsoftwarefoundation.org/training/howto-update-module-style.html)
+
