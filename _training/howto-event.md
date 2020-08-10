@@ -18,8 +18,7 @@ layout: plain_toc
         margin: 0 auto;
     }
 </style>
-
-**Great!** We gladly welcome anyone who is interested in helping bootstrap the education of the HEP community.  At this point in time, we as a group have accrued a fair bit of experience and offer to work with you to make your event as effective and efficient as possible. We aim to do this in a way that stays coherent with the approach and "philosophy" of the HST-Training group so as to make the tools and techniques that are developed persistent, re-useable, and broadly accessible. 
+**Great!** We gladly welcome anyone who is interested in helping bootstrap the education of the HEP community.  At this point in time, we as a group have accrued a fair bit of experience and offer to work with you to make your event as effective and efficient as possible. We aim to do this in a way that stays coherent with the approach and "philosophy" of the HSF-Training group so as to make the tools and techniques that are developed persistent, re-useable, and broadly accessible. 
 
 If you have an inkling that you are keen to do this, you should start by joining the [Awesome WS Mattermost workspace](https://mattermost.web.cern.ch/signup_user_complete/?id=t9zkdocffbbozqcdy193myre8y) and pinging the ``@TownSquare`` channel or joining the next [HSF Training Weekly Meeting](https://indico.cern.ch/category/10294/) and just speaking up to brainstorm your idea.  We don't bite, reach out and say _"Hi!"_.
 
@@ -253,7 +252,7 @@ To give you an example of an event organization that follows this paradigm, let'
   - **[T-2 weeks]** Perform "dry run" of material with the educator team
   - **[T-1 week]** Request registrants to complete pre-workshop survey
   - **[T]** Kickoff workshop
-  - **[T $\rightarrow$ T+few days]** Execute lessons
+  - **[T ⟶ T+few days]** Execute lessons
   - **[T+1 week]** Request registrants to complete post-workshop survey 
   - **[T+2 weeks]** Debrief with the educator team
   - **[T+3 weeks]** Make closing presentation with HSF Training group
