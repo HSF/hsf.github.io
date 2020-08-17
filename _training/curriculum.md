@@ -36,7 +36,14 @@ layout: plain
   table tr th :last-child, table tr td :last-child {
     margin-bottom: 0; 
   }
+
+  /* WHY DOES THIS NOT WORK? */
+  a .glyphicon {
+    text-decoration: none;
+  }
 </style>
+
+
 
 Training in software and computing are essential ingredients for the success of any HEP experiment. As most experiments have similar basic prerequisites (Unix shell, Python, C++, …) we want to join our efforts and create one introductory software training curriculum that serves HEP newcomers the software skills needed as they enter the field, and in parallel, instill best practices for writing software.
 
@@ -48,39 +55,39 @@ This mission relies on active contributors: [This page](/training/educators.html
 
 ### Beginner level
 
-| Module  | Description  | Status |
-| -------- | -------- |-------- |
-| The Unix Shell | Introduction to the [unix command line/shell](https://en.wikipedia.org/wiki/Unix_shell) | [Created & Maintained by software carpentries](http://swcarpentry.github.io/shell-novice)|
-| Advanced Shell | E.g. SSH | |
-| Version controlling with git | | [Created & Maintained by software carpentries](http://swcarpentry.github.io/git-novice) |
-| Advanced git  | | |
-| Programming with python | | [Created & Maintained by software carpentries ](http://swcarpentry.github.io/python-novice-inflammation) |
-| Basic ``C++`` | | |
-| Build systems:  ``cmake`` | | [Created by H. Schneider](https://henryiii.github.io/cmake_workshop/) |
-| Distributed file systems and grid computing || |
-| ``ROOT`` | | |
-| ``uproot`` | Reading and writing ROOT files without having to install ROOT. | [Created by M. Proffitt; maintained by HSF](https://hsf-training.github.io/hsf-training-uproot-webpage/) |
-| A simple analysis | A simple analysis using CMS open data| [Created by S. Wunsch; maintained by HSF](https://hsf-training.github.io/hsf-training-cms-analysis-webpage/); [videos available](https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V) |
-| Unit testing                                | [Unit testing](https://en.wikipedia.org/wiki/Unit_testing) in python | [Created by K. Huff](http://carpentries-incubator.github.io/python-testing/) |
+| Module  | Description  | Status | Authors | Repo | Site/Material                           |
+| -------- | -------- |-------- |-------- |-------- |-------- |
+| The Unix Shell | Introduction to the [unix command line/shell](https://en.wikipedia.org/wiki/Unix_shell) | stable | SWC |  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/shell-novice"></a> |
+| Advanced Shell | E.g. SSH |  |  | | |
+| Version controlling with git | | stable | SWC |  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/git-novice"></a> |
+| Advanced git  | | | | | |
+| Programming with python | | stable | SWC |  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/python-novice-inflammation"> |
+| Basic ``C++`` | | | | | |
+| Build systems:  ``cmake`` | | | H. Schneider |  | <a class="glyphicon glyphicon-book" href="https://henryiii.github.io/cmake_workshop/"></a> |
+| Distributed file systems and grid computing |||| | |
+| ``ROOT`` | | | | | |
+| ``uproot`` | Reading and writing ROOT files without having to install ROOT. | beta | M. Profitt | | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-uproot-webpage/"></a> |
+| A simple analysis | A simple analysis using CMS open data| stable | S. Wunsch |  | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cms-analysis-webpage/"></a>  &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V"></a> |
+| Unit testing                                | [Unit testing](https://en.wikipedia.org/wiki/Unit_testing) in python | beta | K. Huff |  | <a class="glyphicon glyphicon-book" href="http://carpentries-incubator.github.io/python-testing/"></a> |
 
 ### Intermediate
 
-| Module  | Description  | Status |
-| -------- | -------- |-------- |
-| Parallel programming |  | |
-| Docker | Introduction to the [docker](https://www.docker.com/) container image system | [Created by M. Feickert; maintained by HSF](https://hsf-training.github.io/hsf-training-docker/index.html); [videos available](https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj) |
-| Workflows & reproducability | E.g. ``yadage`` and ``reana`` | |
-| Machine learning | | WIP |
-| CI/CD | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [gitlab](https://about.gitlab.com/) | [Created by G. Stark; maintained by HSF](https://hsf-training.github.io/hsf-training-cicd/); [videos available](https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb) |
+| Module  | Description  | Status | Authors | Repo | Site/Material |
+| -------- | -------- |-------- |-------- |-------- |-------- |
+| Parallel programming |  |  |  |  | |
+| Docker | Introduction to the [docker](https://www.docker.com/) container image system | stable | M. Feickert |  | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-docker/index.html"></a> &nbsp;  <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"></a> |
+| Workflows & reproducability | E.g. ``yadage`` and ``reana`` |  |  |  | |
+| Machine learning | | WIP | | |  |
+| CI/CD | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [gitlab](https://about.gitlab.com/) | stable | G. Stark |  | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cicd/"></a> &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb"></a> |
 
 ### Advanced
 
 
-| Module  | Description  | Status |
-| -------- | -------- |-------- |
-| Documentation | ``sphinx``, ``doxygen``, etc. | |
-| Event generation and MC | ``pythia``, ``sherpa``, ``madgraph``, etc. | |
-| alpaka | [alpaka](https://alpaka.readthedocs.io/en/latest/index.html) is a header-only C++ abstraction library for accelerator development | WIP |
+| Module  | Description  | Status | Authors | Repo | Site/Material |
+| -------- | -------- |-------- |-------- |-------- |-------- |
+| Documentation | ``sphinx``, ``doxygen``, etc. | | | | |
+| Event generation and MC | ``pythia``, ``sherpa``, ``madgraph``, etc. | | | | |
+| alpaka | [alpaka](https://alpaka.readthedocs.io/en/latest/index.html) is a header-only C++ abstraction library for accelerator development | WIP |  |  |  |
 
 ## Contributing
 
