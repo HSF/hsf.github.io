@@ -38,20 +38,23 @@ layout: plain
   }
 
   /* WHY DOES THIS NOT WORK? */
+
   a .glyphicon {
     text-decoration: none;
   }
 </style>
 
 
+## Idea
 
 Training in software and computing are essential ingredients for the success of any HEP experiment. As most experiments have similar basic prerequisites (Unix shell, Python, C++, …) we want to join our efforts and create one introductory software training curriculum that serves HEP newcomers the software skills needed as they enter the field, and in parallel, instill best practices for writing software.
 
-The curriculum is comprised of a set of standardized *modules*, so that students can focus on what is most relevant to them. More about the style of these modules is written in the [guidelines for training material](/training/module-guidelines.html). If you want to create your own HSF training module, see [here](/training/howto-new-module.html); if you already have one and want to update it with the HSF style, see [here](/training/howto-update-module-style.html).
-
-This mission relies on active contributors: [This page](/training/educators.html) outlines the different roles that need to be filled.
+The curriculum is comprised of a set of standardized *modules*, so that students can focus on what is most relevant to them. 
 
 ## The modules
+
+* Want to **study**? Click on the book <span class="glyphicon glyphicon-book"></span> or video <span class="glyphicon glyphicon-film"></span> button
+* Want to **contribute**? Click on the wrench <span class="glyphicon glyphicon-wrench"></span>
 
 ### Beginner level
 
@@ -89,18 +92,13 @@ This mission relies on active contributors: [This page](/training/educators.html
 | Event generation and MC | ``pythia``, ``sherpa``, ``madgraph``, etc. | | | | |
 | alpaka | [alpaka](https://alpaka.readthedocs.io/en/latest/index.html) is a header-only C++ abstraction library for accelerator development | WIP |  |  |  |
 
-## Contributing
+## Further reads
 
+* I want to **contribute** or **teach**:
 Contributions of any kind are very welcome! There are various ways you can get involved:
 
-* Join our meetings to give feedback and discuss with us (details at our [main page](/workinggroups/training.html))
-* Bugs reports or features requests: Directly open an issue on github or (even better) submit a pull request to fix things.
-* Want to contribute your own module? We compiled a small list of recommendations [here](/training/module-guidelines.html). Of course we always encourage you to talk to us early for a better coordination.
-* [More information on the different roles in our training events](/training/educators.html)
-* [Want to organize your own workshop? We got you covered.](/training/howto-event.html)
-
-## FAQ
-
->  Where can I find the source (github repository) of the web pages linked above? 
-
-Scroll down the page and click on "Source" or "Edit on GitHub".
+    * Join our **meetings** to give feedback and discuss with us (details at our [main page](/workinggroups/training.html))
+    * **Bugs reports or feature requests**: Directly open an issue on github or (even better) submit a pull request to fix things.
+    * Want to **contribute your own module**? We compiled a small list of recommendations [here](/training/module-guidelines.html). Of course we always encourage you to talk to us early for a better coordination. There is also more technical information for [creating a new module](/training/howto-new-module.html) or using the [HSF style]((/training/howto-update-module-style.html).
+    * Want to **help out at a workshop?**: [More information on the different roles in our training events](/training/educators.html)
+    * Want to **organize your own workshop**? [ We got you covered.](/training/howto-event.html)
