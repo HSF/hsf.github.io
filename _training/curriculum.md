@@ -57,28 +57,28 @@ This mission relies on active contributors: [This page](/training/educators.html
 
 | Module  | Description  | Status | Authors | Repo | Site/Material                           |
 | -------- | -------- |-------- |-------- |-------- |-------- |
-| The Unix Shell | Introduction to the [unix command line/shell](https://en.wikipedia.org/wiki/Unix_shell) | stable | SWC |  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/shell-novice"></a> |
+| The Unix Shell | Introduction to the [unix command line/shell](https://en.wikipedia.org/wiki/Unix_shell) | stable | SWC | <a class="glyphicon glyphicon-wrench" href="https://github.com/swcarpentry/shell-novice"></a>  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/shell-novice"></a> |
 | Advanced Shell | E.g. SSH |  |  | | |
-| Version controlling with git | | stable | SWC |  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/git-novice"></a> |
+| Version controlling with git | | stable | SWC | <a class="glyphicon glyphicon-wrench" href="https://github.com/swcarpentry/git-novice"></a>  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/git-novice"></a> |
 | Advanced git  | | | | | |
-| Programming with python | | stable | SWC |  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/python-novice-inflammation"> |
+| Programming with python | | stable | SWC | <a class="glyphicon glyphicon-wrench" href="https://github.com/swcarpentry/python-novice-inflammation"></a>  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/python-novice-inflammation"> |
 | Basic ``C++`` | | | | | |
-| Build systems:  ``cmake`` | | | H. Schneider |  | <a class="glyphicon glyphicon-book" href="https://henryiii.github.io/cmake_workshop/"></a> |
+| Build systems:  ``cmake`` | | | H. Schneider | <a class="glyphicon glyphicon-wrench" href="https://github.com/henryiii/cmake_workshop"></a>  | <a class="glyphicon glyphicon-book" href="https://henryiii.github.io/cmake_workshop/"></a> |
 | Distributed file systems and grid computing |||| | |
 | ``ROOT`` | | | | | |
-| ``uproot`` | Reading and writing ROOT files without having to install ROOT. | beta | M. Profitt | | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-uproot-webpage/"></a> |
-| A simple analysis | A simple analysis using CMS open data| stable | S. Wunsch |  | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cms-analysis-webpage/"></a>  &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V"></a> |
-| Unit testing                                | [Unit testing](https://en.wikipedia.org/wiki/Unit_testing) in python | beta | K. Huff |  | <a class="glyphicon glyphicon-book" href="http://carpentries-incubator.github.io/python-testing/"></a> |
+| ``uproot`` | Reading and writing ROOT files without having to install ROOT. | beta | M. Profitt | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-uproot-webpage"></a>  | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-uproot-webpage/"></a> |
+| A simple analysis | A simple analysis using CMS open data| stable | S. Wunsch | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cms-analysis-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cms-analysis-webpage/"></a>  &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V"></a> |
+| Unit testing                                | [Unit testing](https://en.wikipedia.org/wiki/Unit_testing) in python | beta | K. Huff | <a class="glyphicon glyphicon-wrench" href="https://github.com/carpentries-incubator/python-testing"></a> | <a class="glyphicon glyphicon-book" href="http://carpentries-incubator.github.io/python-testing/"></a> |
 
 ### Intermediate
 
 | Module  | Description  | Status | Authors | Repo | Site/Material |
 | -------- | -------- |-------- |-------- |-------- |-------- |
 | Parallel programming |  |  |  |  | |
-| Docker | Introduction to the [docker](https://www.docker.com/) container image system | stable | M. Feickert |  | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-docker/index.html"></a> &nbsp;  <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"></a> |
+| Docker | Introduction to the [docker](https://www.docker.com/) container image system | stable | M. Feickert | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-docker"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-docker/index.html"></a> &nbsp;  <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"></a> |
 | Workflows & reproducability | E.g. ``yadage`` and ``reana`` |  |  |  | |
 | Machine learning | | WIP | | |  |
-| CI/CD | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [gitlab](https://about.gitlab.com/) | stable | G. Stark |  | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cicd/"></a> &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb"></a> |
+| CI/CD | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [gitlab](https://about.gitlab.com/) | stable | G. Stark | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cicd"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cicd/"></a> &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb"></a> |
 
 ### Advanced
 
