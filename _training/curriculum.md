@@ -66,7 +66,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 | Advanced git  | | | | | |
 | Programming with python | | stable | SWC | <a class="glyphicon glyphicon-wrench" href="https://github.com/swcarpentry/python-novice-inflammation"></a>  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/python-novice-inflammation"> |
 | Basic ``C++`` | | | | | |
-| Build systems:  ``cmake`` | | | H. Schneider | <a class="glyphicon glyphicon-wrench" href="https://github.com/henryiii/cmake_workshop"></a>  | <a class="glyphicon glyphicon-book" href="https://henryiii.github.io/cmake_workshop/"></a> |
+| Build systems:  ``cmake`` | | stable | H. Schneider | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cmake-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cmake-webpage/"></a> |
 | Distributed file systems and grid computing |||| | |
 | ``ROOT`` | | | | | |
 | ``uproot`` | Reading and writing ROOT files without having to install ROOT. | beta | M. Profitt | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-uproot-webpage"></a>  | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-uproot-webpage/"></a> |
@@ -80,7 +80,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 | Parallel programming |  |  |  |  | |
 | Docker | Introduction to the [docker](https://www.docker.com/) container image system | stable | M. Feickert | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-docker"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-docker/index.html"></a> &nbsp;  <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"></a> |
 | Workflows & reproducability | E.g. ``yadage`` and ``reana`` |  |  |  | |
-| Machine learning | | WIP | | |  |
+| Machine learning | | alpha | L. Polson | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-ml-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-ml-webpage"></a> |
 | CI/CD | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [gitlab](https://about.gitlab.com/) | stable | G. Stark | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cicd"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cicd/"></a> &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb"></a> |
 
 ### Advanced
