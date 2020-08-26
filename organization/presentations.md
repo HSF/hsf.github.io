@@ -5,6 +5,10 @@ layout: default
 
 # HSF Presentations
 
+## 2020
+
+* [HSF PyHEP WG and the PyHEP 2020 workshop](https://indico.bnl.gov/event/9122/contributions/40797/attachments/30133/47071/EduardoRodrigues_2020-08-26_PyHEP.pdf), Electron-Ion Collider Software Seminar, 26 August 2020, Eduardo Rodrigues
+
 ## 2019
 
 * [HSF Update](/assets/MJ-WLCG_OB-2019-06-12.pdf), WLCG Overview Board, 12 June 2019, Michel Jouvin
