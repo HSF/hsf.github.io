@@ -104,7 +104,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 | Advanced git  | | | | | |
 | Programming with python | | <span class="stable">✔</span> | [authors](https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/swcarpentry/python-novice-inflammation"></a>  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/python-novice-inflammation"> |
 | Basic ``C++`` | | | | | |
-| Build systems:  ``cmake`` | | <span class="stable">✔</span> | [H. Schneider](/training/educators/henry_schreiner.html) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cmake-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cmake-webpage/"></a> |
+| Build systems:  ``cmake`` | | <span class="stable">✔</span> | [H. Schreiner](/training/educators/henry_schreiner.html) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cmake-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cmake-webpage/"></a> |
 | Distributed file systems and grid computing |||| | |
 | ``ROOT`` | | | | | |
 | ``uproot`` | Reading and writing ROOT files without having to install ROOT. | <span class="beta">β</span> | [M. Profitt](/training/educators/mason_proffitt.html) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-uproot-webpage"></a>  | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-uproot-webpage/"></a> |
