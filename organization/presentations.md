@@ -7,7 +7,11 @@ layout: default
 
 ## 2020
 
-* [HSF PyHEP WG and the PyHEP 2020 workshop](https://indico.bnl.gov/event/9122/contributions/40797/attachments/30133/47071/EduardoRodrigues_2020-08-26_PyHEP.pdf), Electron-Ion Collider Software Seminar, 26 August 2020, Eduardo Rodrigues
+* [HSF PyHEP WG and the PyHEP 2020 workshop](https://indico.bnl.gov/event/9122/contributions/40797/attachments/30133/47071/EduardoRodrigues_2020-08-26_PyHEP.pdf), [Electron-Ion Collider Software Seminar](https://indico.bnl.gov/event/9122/), 26 August 2020, Eduardo Rodrigues
+* [Meeting Future Software Challenges in High-Energy Physics](https://indico.stfc.ac.uk/event/187/attachments/341/554/RAL_Software_Seminar_Graeme.pdf), [Rutherford
+Appleton Lab Particle Physics Division Serminar](https://indico.stfc.ac.uk/event/187/), 22 July 2020, Graeme A Stewart
+* [International efforts on efficient computing - HEP Software Foundation](https://indico.ph.ed.ac.uk/event/66/contributions/819/attachments/675/817/ECHEP_HSF_Talk.pdf),
+[Efficient Computing in HEP Workshop](https://indico.ph.ed.ac.uk/event/66/), Edinburgh, 17 February 2020, Graeme A Stewart
 
 ## 2019
 
