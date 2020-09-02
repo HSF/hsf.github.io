@@ -1,5 +1,5 @@
 ---
-title: Support for Rucio Users with Native Language Processing
+title: Support for Rucio Users with Natural Language Processing
 layout: gsoc_proposal
 project: Rucio
 year: 2020
