@@ -24,7 +24,7 @@ well-defined set of problems.
 [Meetings](https://indico.cern.ch/category/10914)
 [Forum](https://groups.google.com/forum/#!forum/hsf-analysis-wg)
 
-Convenors: Katya Govorkova (CERN), Allison Hall (Fermilab), Paul Laycock (Belle II), TJ Khoo (ATLAS), 
+Convenors: Katya Govorkova (LHCb), Allison Hall (CMS), Paul Laycock (Belle II), TJ Khoo (ATLAS)
 
 ---
 
