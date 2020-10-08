@@ -1,12 +1,7 @@
 ---
 title: "HSF Software Tools and Packaging Working Group Meeting #30, 30th September 2020"
-layout: meetings
+layout: plain
 ---
-# HSF Software Tools and Packaging Working Group Meeting #3, 30th September 2020
-
-*This notebook is used to record the minutes of the HSF Software Tools and Packaging meetings. These are archived after each meeting onto the [HSF Website](https://hepsoftwarefoundation.org).*
-
-*If you find you cannot edit these notes please login with your GitHub account!*
 
 Present/Contributors: Ben Morgan, Serhan Mete, Andre Sailer, Attila Krasznahorkay, Charles Leggett, Frank Winklmeier, Graeme Stewart, Henry Schreiner, Jim Pivarski, Matti Kortelainen, Tao Lin, Chris Green, Brett, Liz Sexton-Kennedy, James Amundson
 
@@ -31,7 +26,7 @@ Apologies:
     - minimal script
     - separation of build/source dirs
 - Wide range of buildsystems for C/C++
-    - cmake, scons, meson, bazel 
+    - CMake, Scons, Meson, Bazel 
     - Other languages have their own (e.g. Rust)
 - CMake has become a standard tool
     - Wide IDE support (either in CMake, or via IDEs themselves)
@@ -43,7 +38,7 @@ Apologies:
     - Attila: Isn't TBB still using plain Make? Henry: main thing is that TBB installs a "TBBConfig.cmake" file that allows easy use of TBB in CMake projects.
 - "Modern" CMake roughly from 2014 with CMake 3.0
     - "Target" based
-    - CMake 3.12 "more modern cmake", unified target behaviour
+    - CMake 3.12 "more modern CMake", unified target behaviour
 - CMake backward compatibility with policies
     - The `cmake_minimum_required` command
     - CMake 3.12 introduced version ranges for this
@@ -58,7 +53,7 @@ Apologies:
 - Minimum versions by OS (e.g. "out-the-box" on CentOS etc), vs CMake features (what it can do)
 - Installing CMake now very easy across all platforms (inc. GitLab/Hub CI)
     - See the installing page on the website
-- Modern cmake has better CLI, so can run underlying configure/build/test/install directly through the `cmake` command
+- Modern CMake has better CLI, so can run underlying configure/build/test/install directly through the `cmake` command
 - Key CMake convention: property initialization
     - A property `MY_PROPERTY` initialized by `CMAKE_MY_PROPERTY`
 - Key tips for packaging:
@@ -69,8 +64,8 @@ Apologies:
     - classic: ExternalProject (build time)
     - new: FetchContent, (configure time)
         - Like submodules, much easier integration, direct use of targets provided by subproject.
-- Can also integrate with Conan/Conan.io
-    - requires conan (but can bootstrap it in your cmake script)
+- Can also integrate with [Conan/Conan.io](https://conan.io) C/C++ package manager
+    - requires conan (but can bootstrap it in your CMake script)
 - Imported targets
     - A target that comes from outside the project
     - Cmake 3.11 now makes these much easier to define much like all other targets
@@ -90,7 +85,7 @@ Apologies:
     - ccache
     - clang-tidy, clang tooling
     - Work well with GitHub Actions (and ci)
-- Also a cmake-format tool now
+- Also a `cmake-format` tool now
     - Just like black/clang-format for CMake
     - Builtin GitHub Action support
 - Use try_compile/try_run/WriteCompilerDetectionHeader to check/addpt to different compilers
@@ -98,7 +93,7 @@ Apologies:
     - New "FindPython" module is recommended over separate Interp/Libs modules
     - Best since 3.15, PyPy needs 3.18
     - Attila: Quite slow in ATLAS due to number of calls
-    - Henry: due to behaviour of FindPython in supporting multiple versions, so trying to refind Python each call. Is a variable that can be set to disable that. Looks like this is new in 3.18. Can vendor this in projects if you can't require 3.18.
+    - Henry: due to behaviour of FindPython in supporting multiple versions, so trying to refind Python each call. Is a variable (`Python_ARTIFACTS_INTERACTIVE`) that can be set to `ON/TRUE` to disable that. Looks like this is new in CMake 3.18 in FindPython. Can vendor that version of the module in projects if you can't require 3.18.
 - Python/CMake: See Scikit-build and CMake wheels
     - Not as reliable as setuptools for non-standard Python setups
     - See [https://github.com/scikit-hep/boost-histogram](https://github.com/scikit-hep/boost-histogram) for an example
@@ -109,7 +104,6 @@ Apologies:
 - Liz: With modern CMake, has the overlap between build/package managers increased?
     - Henry: still a role for downloading binaries with a package manager, though there's good integration with Conan
     - Attila: still think there's a role for a higher level tools, e.g. for hardware level optimization
-    - Patrick: there is good communication between spack and cmake to make them work well together
+    - Patrick: there is good communication between spack and CMake to make them work well together
     - Chris: Upgrades to CETmodules are integrating the modern features, with spack.
-    - Graeme: EP-SFT at CERN working on turn key stack using spack
-## AOB
+    - Graeme: EP-SFT at CERN working on turnkey stack using spack
