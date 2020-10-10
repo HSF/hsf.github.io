@@ -1,22 +1,22 @@
 ---
-# Required:
-title: "Savannah Thais"     # first (middle) last
-country: US              # your country of residence (2 capital letters, e.g. US, GB, DE)
-roles: [instructor, facilitator, mentor]              # subset of [facilitator, instructor, mentor], can stay empty ([])
-years: [2019, 2020]              # in which years did you help out? (e.g. [2020, 2019])
-
-# Optional (please add github or gravatar for your picture)
-github: savvy379      # your github ID (not full url)
-gravatar:     # your gravatar ID (the hex hash of your email, something like 123ef...123)
-homepage:     # your personal homepage (full url)
-twitter: BasicScienceSav     # your twitter ID (not full URL, no leading '@')
-gitlab:       # your gitlab ID (not full URL)
-bitbucket:    # your bitbucket ID (not full URL)
-orcid:        # your orcid ID (not full URL)
-linkedin: https://www.linkedin.com/in/savannah-thais-12a7b95a/    # full url (i.e. https://linkedin.com/in/your-name-some-hex-code)
+title: Savannah Thais
+country: US
+roles:
+- instructor
+- facilitator
+- mentor
+years:
+- 2019
+- 2020
+github: savvy379
+gravatar: null
+homepage: null
+twitter: BasicScienceSav
+gitlab: null
+bitbucket: null
+orcid: null
+linkedin: https://www.linkedin.com/in/savannah-thais-12a7b95a/
 email: sthais@princeton.edu
-
-# Don't modify the following setting
 layout: educator
 ---
 

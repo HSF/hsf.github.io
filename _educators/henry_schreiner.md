@@ -1,9 +1,11 @@
 ---
-title: "Henry Schreiner"
+title: Henry Schreiner
 country: US
-roles: [instructor]
-years: [2019, 2020]
-
+roles:
+- instructor
+years:
+- 2019
+- 2020
 github: henryiii
 homepage: https://iscinumpy.gitlab.io
 twitter: henryschreiner3
@@ -12,8 +14,6 @@ bitbucket: henryiii
 orcid: 0000-0002-7833-783X
 linkedin: https://linkedin.com/in/henryiii
 email: henryfs@princeton.edu
-
-# Don't modify the following setting
 layout: educator
 ---
 

@@ -1,22 +1,19 @@
 ---
-# Required:
-title: "Meirin Oan Evans"     # first (middle) last
-country: GB               # your country of residence (2 letters)
-roles: [mentor]              # subset of [convenor, facilitator, instructor, mentor]
-years: [2020]              # in which years did you help out? (e.g. [2020, 2019])
-
-# Optional (please add github or gravatar for your picture)
-github: meevans1      # your github handle  (github.com/<handle>)
+title: Meirin Oan Evans
+country: GB
+roles:
+- mentor
+years:
+- 2020
+github: meevans1
 gravatar: meirinevans@yahoo.co.uk
-homepage: https://meirinoanevans.wixsite.com/portfolio     # your personal homepage  (full url)
-twitter: meirinoanevans     # your twitter handle 
-gitlab:        # your gitlab handle  (gitlab.com/<handle>)
-bitbucket:    # your bitbucket handle  (bitbucket.com/<handle>)
-orcid: 0000-0002-4259-018X       # your orcid handle (https://orcid.org/<handle>)
-linkedin: https://linkedin.com/in/meirin-oan-evans-606a9b123     # full url (https://linkedin.com/in/your-name-some-hex-code)
+homepage: https://meirinoanevans.wixsite.com/portfolio
+twitter: meirinoanevans
+gitlab: null
+bitbucket: null
+orcid: 0000-0002-4259-018X
+linkedin: https://linkedin.com/in/meirin-oan-evans-606a9b123
 email: meirin.oan.evans@cern.ch
-
-# Don't modify the following setting
 layout: educator
 ---
 

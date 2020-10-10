@@ -1,22 +1,21 @@
 ---
-# Required:
-title: "Jim Pivarski"                # first (middle) last
-country: US                          # your country of residence (2 letters)
-roles: [facilitator, instructor]     # subset of [convenor, facilitator, instructor, mentor]
-years: [2019, 2020]                  # in which years did you help out? (e.g. [2020, 2019])
-
-# Optional (please add github or gravatar for your picture)
-github: jpivarski                    # your github handle  (github.com/<handle>)
+title: Jim Pivarski
+country: US
+roles:
+- facilitator
+- instructor
+years:
+- 2019
+- 2020
+github: jpivarski
 gravatar: jpivarski
-homepage: null                       # your personal homepage  (full url)
-twitter: JimPivarski                 # your twitter handle
-gitlab: jpivarski                    # your gitlab handle  (gitlab.com/<handle>)
-bitbucket: jpivarski                 # your bitbucket handle  (bitbucket.com/<handle>)
-orcid: 0000-0002-6649-343X           # your orcid handle (https://orcid.org/<handle>)
-linkedin: https://linkedin.com/in/james-pivarski-19a17310    # full url (https://linkedin.com/in/your-name-some-hex-code)
+homepage: null
+twitter: JimPivarski
+gitlab: jpivarski
+bitbucket: jpivarski
+orcid: 0000-0002-6649-343X
+linkedin: https://linkedin.com/in/james-pivarski-19a17310
 email: pivarski@princeton.edu
-
-# Don't modify the following setting
 layout: educator
 ---
 

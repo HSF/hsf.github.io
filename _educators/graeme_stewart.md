@@ -1,22 +1,21 @@
 ---
-# Required:
-title: "Graeme A Stewart"     # first (middle) last
-country: CH              # your country of residence (2 letters)
-roles: [facilitator, mentor]              # subset of [convenor, facilitator, instructor, mentor]
-years: [2020, 2019]              # in which years did you help out? (e.g. [2020, 2019])
-
-# Optional (please add github or gravatar for your picture)
-github: graeme-a-stewart      # your github handle  (github.com/<handle>)
-gravatar:
-homepage: https://profiles.web.cern.ch/660400    # your personal homepage  (full url)
-twitter:  graemeastewart    # your twitter handle 
-gitlab:       # your gitlab handle  (gitlab.com/<handle>)
-bitbucket:    # your bitbucket handle  (bitbucket.com/<handle>)
-orcid:  0000-0003-0182-7088      # your orcid handle (https://orcid.org/<handle>)
-linkedin:     # full url (https://linkedin.com/in/your-name-some-hex-code)
+title: Graeme A Stewart
+country: CH
+roles:
+- facilitator
+- mentor
+years:
+- 2020
+- 2019
+github: graeme-a-stewart
+gravatar: null
+homepage: https://profiles.web.cern.ch/660400
+twitter: graemeastewart
+gitlab: null
+bitbucket: null
+orcid: 0000-0003-0182-7088
+linkedin: null
 email: graeme.andrew.stewart@cern.ch
-
-# Don't modify the following setting
 layout: educator
 ---
 
