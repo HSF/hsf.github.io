@@ -12,7 +12,7 @@ twitter: robinnewhouse
 gitlab: robinnewhouse
 bitbucket: robinnewhouse
 orcid: 0000-0001-8026-3836
-linkedin: https://www.linkedin.com/in/robinnewhouse/
+linkedin: robinnewhouse
 email: robinnewhouse@gmail.com
 layout: educator
 ---

@@ -14,7 +14,7 @@ twitter: matt_bellis
 gitlab: null
 bitbucket: null
 orcid: 0000-0002-6353-6043
-linkedin: https://www.linkedin.com/in/matthew-bellis-2377aa4/
+linkedin: matthew-bellis-2377aa4
 email: mbellis@siena.edu
 layout: educator
 ---

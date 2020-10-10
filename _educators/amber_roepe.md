@@ -13,7 +13,7 @@ twitter: AmberRoepe
 gitlab: aroepe
 bitbucket: null
 orcid: 0000-0001-5933-9357
-linkedin: https://www.linkedin.com/in/amber-roepe/
+linkedin: amber-roepe
 email: amber.roepe@ou.edu
 layout: educator
 ---

@@ -12,7 +12,7 @@ twitter: HEPfeickert
 gitlab: null
 bitbucket: null
 orcid: 0000-0003-4124-7862
-linkedin: https://www.linkedin.com/in/matthew-feickert/
+linkedin: matthew-feickert
 layout: educator
 ---
 

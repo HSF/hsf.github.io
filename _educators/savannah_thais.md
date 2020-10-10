@@ -15,7 +15,7 @@ twitter: BasicScienceSav
 gitlab: null
 bitbucket: null
 orcid: null
-linkedin: https://www.linkedin.com/in/savannah-thais-12a7b95a/
+linkedin: savannah-thais-12a7b95a
 email: sthais@princeton.edu
 layout: educator
 ---

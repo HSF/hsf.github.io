@@ -14,7 +14,7 @@ twitter: JimPivarski
 gitlab: jpivarski
 bitbucket: jpivarski
 orcid: 0000-0002-6649-343X
-linkedin: https://linkedin.com/in/james-pivarski-19a17310
+linkedin: james-pivarski-19a17310
 email: pivarski@princeton.edu
 layout: educator
 ---

@@ -31,7 +31,7 @@ def get_content_header(lines: List[str]) -> Tuple[str, Dict[str, Any]]:
     for i_line, line in enumerate(lines):
         line = line.strip()
         if i_line == 0:
-            assert line == "---"
+            assert line == "---", lines
             continue
         if line == "---":
             is_content = True
@@ -69,6 +69,31 @@ def read_transform_write(
         file.write(new_file_content)
 
 
+# ------------------------------------------------------------------------------
+# Transformation functions
+# ------------------------------------------------------------------------------
+
+def linked_in_handle_instead_url(header: Dict[str, Any]) -> Dict[str, Any]:
+    """ Use linkedin handles rather than full URL
+    """
+    if "linkedin" not in header:
+        linkedin = None
+    else:
+        linkedin = header["linkedin"]
+    if linkedin is None:
+        return header
+    if linkedin.endswith("/"):
+        linkedin = linkedin[:-1]
+    handle = linkedin.split("/")[-1]
+    assert handle, (linkedin, handle)
+    linkedin = handle
+    header["linkedin"] = linkedin
+    return header
+
+
+# ------------------------------------------------------------------------------
+
+
 def main():
     """ Loop over all profiles and apply read_transform_write.
 
@@ -78,7 +103,9 @@ def main():
         None
     """
     for file in profile_directory.iterdir():
-        read_transform_write(file, lambda x: x)
+        if "readme" in file.name.lower():
+            continue
+        read_transform_write(file, linked_in_handle_instead_url)
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@ twitter: meirinoanevans
 gitlab: null
 bitbucket: null
 orcid: 0000-0002-4259-018X
-linkedin: https://linkedin.com/in/meirin-oan-evans-606a9b123
+linkedin: meirin-oan-evans-606a9b123
 email: meirin.oan.evans@cern.ch
 layout: educator
 ---

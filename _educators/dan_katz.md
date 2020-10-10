@@ -12,7 +12,7 @@ twitter: danielskatz
 gitlab: danielskatz
 bitbucket: danielskatz
 orcid: 0000-0001-5934-7525
-linkedin: http://www.linkedin.com/in/danielskatz
+linkedin: danielskatz
 email: d.katz@ieee.org
 layout: educator
 ---

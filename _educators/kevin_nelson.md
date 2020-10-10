@@ -12,7 +12,7 @@ twitter: null
 gitlab: kenelson
 bitbucket: null
 orcid: null
-linkedin: https://www.linkedin.com/in/kevin-nelson-3a78971b1/
+linkedin: kevin-nelson-3a78971b1
 email: kevin.nelson@cern.ch
 layout: educator
 ---

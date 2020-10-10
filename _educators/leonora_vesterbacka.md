@@ -8,7 +8,7 @@ years:
 - 2020
 github: leonoravesterbacka
 gitlab: mvesterb
-linkedin: https://linkedin.com/in/leonora-vesterbacka
+linkedin: leonora-vesterbacka
 homepage: null
 twitter: null
 bitbucket: null

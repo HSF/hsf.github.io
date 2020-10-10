@@ -12,7 +12,7 @@ twitter: null
 gitlab: snorberg
 bitbucket: null
 orcid: null
-linkedin: https://www.linkedin.com/in/scarlet-norberg-0986321b1/
+linkedin: scarlet-norberg-0986321b1
 email: scarletnorberg2014@gmail.com
 layout: educator
 ---

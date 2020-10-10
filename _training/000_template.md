@@ -13,7 +13,7 @@ twitter:      # your twitter ID (not full URL, no leading '@')
 gitlab:       # your gitlab ID (not full URL)
 bitbucket:    # your bitbucket ID (not full URL)
 orcid:        # your orcid ID (not full URL)
-linkedin:     # full url (i.e. https://linkedin.com/in/your-name-some-hex-code)
+linkedin:     # your linkedin ID (not full url, i.e. the last bit of the url to your profile)
 email:
 
 # Don't modify the following setting

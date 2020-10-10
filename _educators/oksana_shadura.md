@@ -13,7 +13,7 @@ twitter: null
 gitlab: oshadura
 bitbucket: null
 orcid: 0000-0001-5356-2494
-linkedin: https://www.linkedin.com/in/oksana-shadura-843b8420/
+linkedin: oksana-shadura-843b8420
 email: oksana.shadura@cern.ch
 layout: educator
 ---

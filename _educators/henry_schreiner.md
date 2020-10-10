@@ -12,7 +12,7 @@ twitter: henryschreiner3
 gitlab: henryiii
 bitbucket: henryiii
 orcid: 0000-0002-7833-783X
-linkedin: https://linkedin.com/in/henryiii
+linkedin: henryiii
 email: henryfs@princeton.edu
 layout: educator
 ---
