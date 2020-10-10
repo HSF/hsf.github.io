@@ -5,7 +5,7 @@ for example.-->
 {% include profile_header.html %}
 
 {% assign skipped = 0 %}
-{% for person in site.educators | sort:"title" %}
+{% for person in site.profiles | sort:"title" %}
 
 {% unless persons contains person.title %}
 {% assign skipped = skipped | plus: -1 %}

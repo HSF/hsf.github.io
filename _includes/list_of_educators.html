@@ -14,7 +14,7 @@ github.com.com/carpentries/carpentries.org/gh-pages/_includes/community_profiles
 We need to keep track of how many educators are skipped in order to have the
 proper index for the table column. -->
 {% assign skipped = 0 %}
-{% for person in site.educators | sort:"title" %}
+{% for person in site.profiles| sort:"title" %}
 {% assign nroles = person.training_roles.size %}
 {% unless person.training_years contains loopyear and nroles >= 1 %}
 {% assign skipped = skipped | plus: -1 %}

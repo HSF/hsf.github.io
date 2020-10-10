@@ -3,9 +3,10 @@
 <h3> Our community </h3>
 
 {% assign skipped = 0 %}
-{% for person in site.educators | sort:"title" %}
+{% for person in site.profiles | sort:"title" %}
 
-{% if person.title == "Your Name" %}
+{% assign nyears = person.training_years.size %}
+{% if nyears == 0 %}
 {% assign skipped = skipped | plus: -1 %}
 {% continue %}
 {% endif %}
