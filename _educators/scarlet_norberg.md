@@ -1,9 +1,9 @@
 ---
 title: Scarlet Norberg
 country: US
-roles:
+training_roles:
 - facilitator
-years:
+training_years:
 - 2019
 github: scarletnorberg
 gravatar: null

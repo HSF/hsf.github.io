@@ -15,8 +15,8 @@ We need to keep track of how many educators are skipped in order to have the
 proper index for the table column. -->
 {% assign skipped = 0 %}
 {% for person in site.educators | sort:"title" %}
-{% assign nroles = person.roles.size %}
-{% unless person.years contains loopyear and nroles >= 1 %}
+{% assign nroles = person.training_roles.size %}
+{% unless person.training_years contains loopyear and nroles >= 1 %}
 {% assign skipped = skipped | plus: -1 %}
 {% continue %}
 {% endunless %}
@@ -49,6 +49,7 @@ proper index for the table column. -->
 
 {% unless column == 0 %}
 <!-- The last </div> never happened, because we ended short of a full last column. -->
+<!-- Small bug: If there is no educator for a whole year, then this will still get displayed.... -->
 </div>
 {% endunless %}
 {% endfor %}

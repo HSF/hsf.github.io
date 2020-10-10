@@ -1,8 +1,8 @@
 ---
 title: Daniel S. Katz
 country: US
-roles: []
-years:
+training_roles: []
+training_years:
 - 2020
 - 2019
 github: danielskatz

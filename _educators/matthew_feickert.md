@@ -1,9 +1,9 @@
 ---
 title: Matthew Feickert
 country: US
-roles:
+training_roles:
 - instructor
-years:
+training_years:
 - 2020
 github: matthewfeickert
 gravatar: null

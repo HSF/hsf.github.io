@@ -1,10 +1,10 @@
 ---
 title: Matt Bellis
 country: US
-roles:
+training_roles:
 - facilitator
 - mentor
-years:
+training_years:
 - 2019
 - 2020
 github: mattbellis

@@ -1,9 +1,9 @@
 ---
 title: Kevin Nelson
 country: US
-roles:
+training_roles:
 - Instructor
-years:
+training_years:
 - 2020
 github: kmnelson
 gravatar: null

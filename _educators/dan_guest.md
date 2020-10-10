@@ -1,10 +1,10 @@
 ---
 title: Dan Guest
 country: FR
-roles:
+training_roles:
 - instructor
 - mentor
-years:
+training_years:
 - 2019
 github: dguest
 gravatar: null

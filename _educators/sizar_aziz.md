@@ -1,8 +1,8 @@
 ---
 title: Sizar Aziz
 country: FR
-roles: []
-years:
+training_roles: []
+training_years:
 - 2020
 github: sizaraziz
 gravatar: null

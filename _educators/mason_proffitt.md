@@ -1,10 +1,10 @@
 ---
 title: Mason Proffitt
 country: FR
-roles:
+training_roles:
 - instructor
 - mentor
-years:
+training_years:
 - 2019
 - 2020
 github: masonproffitt

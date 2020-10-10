@@ -1,9 +1,9 @@
 ---
 title: Oksana Shadura
 country: FR
-roles:
+training_roles:
 - instructor
-years:
+training_years:
 - 2019
 - 2020
 github: oshadura

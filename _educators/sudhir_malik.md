@@ -1,8 +1,8 @@
 ---
 title: Sudhir Malik
 country: USA
-roles: []
-years:
+training_roles: []
+training_years:
 - 2019
 - 2020
 github: fatala22

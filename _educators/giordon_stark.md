@@ -1,9 +1,9 @@
 ---
 title: Giordon Stark
 country: US
-roles:
+training_roles:
 - instructor
-years:
+training_years:
 - 2020
 github: kratsg
 gravatar: kratsg@gmail.com

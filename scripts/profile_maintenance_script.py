@@ -69,6 +69,10 @@ def read_transform_write(
         file.write(new_file_content)
 
 
+def change_key(self, old, new):
+    """ Change key in ordered dictionary """
+    return {new if key == old else key: value for key, value in self.items()}
+
 # ------------------------------------------------------------------------------
 # Transformation functions
 # ------------------------------------------------------------------------------
@@ -76,10 +80,7 @@ def read_transform_write(
 def linked_in_handle_instead_url(header: Dict[str, Any]) -> Dict[str, Any]:
     """ Use linkedin handles rather than full URL
     """
-    if "linkedin" not in header:
-        linkedin = None
-    else:
-        linkedin = header["linkedin"]
+    linkedin = header.get("linkedin")
     if linkedin is None:
         return header
     if linkedin.endswith("/"):
@@ -89,6 +90,22 @@ def linked_in_handle_instead_url(header: Dict[str, Any]) -> Dict[str, Any]:
     linkedin = handle
     header["linkedin"] = linkedin
     return header
+
+
+def rename_training_only_keys(header: Dict[str, Any]) -> Dict[str, Any]:
+    """ Rename some keys to generalize profiles """
+
+    header = change_key(header, "years", "training_years")
+    header = change_key(header, "roles", "training_roles")
+    return header
+
+    # years = header.pop("years", None)
+    # if years is not None:
+    #     header["training-active-years"] = years
+    # roles = header.pop("roles", None)
+    # if roles is not None:
+    #     header["training-roles"] = roles
+    # return header
 
 
 # ------------------------------------------------------------------------------
@@ -105,7 +122,7 @@ def main():
     for file in profile_directory.iterdir():
         if "readme" in file.name.lower():
             continue
-        read_transform_write(file, linked_in_handle_instead_url)
+        read_transform_write(file, rename_training_only_keys)
 
 
 if __name__ == "__main__":

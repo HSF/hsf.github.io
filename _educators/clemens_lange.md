@@ -1,11 +1,11 @@
 ---
 title: Clemens Lange
 country: FR
-roles:
+training_roles:
 - facilitator
 - instructor
 - mentor
-years:
+training_years:
 - 2020
 github: clelange
 gravatar: 97b720a017049d19bf4650b953df2a8e

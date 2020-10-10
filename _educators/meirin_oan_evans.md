@@ -1,9 +1,9 @@
 ---
 title: Meirin Oan Evans
 country: GB
-roles:
+training_roles:
 - mentor
-years:
+training_years:
 - 2020
 github: meevans1
 gravatar: meirinevans@yahoo.co.uk

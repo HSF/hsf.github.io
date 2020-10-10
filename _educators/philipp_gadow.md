@@ -1,9 +1,9 @@
 ---
 title: Philipp Gadow
 country: DE
-roles:
+training_roles:
 - mentor
-years:
+training_years:
 - 2020
 github: philippgadow
 homepage: https://pgadow.de

@@ -1,8 +1,8 @@
 ---
 title: Kilian Lieret
 country: DE
-roles: []
-years:
+training_roles: []
+training_years:
 - 2020
 github: klieret
 homepage: https://lieret.net

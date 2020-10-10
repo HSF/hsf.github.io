@@ -1,9 +1,9 @@
 ---
 title: Henry Schreiner
 country: US
-roles:
+training_roles:
 - instructor
-years:
+training_years:
 - 2019
 - 2020
 github: henryiii

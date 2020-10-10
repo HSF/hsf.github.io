@@ -1,10 +1,10 @@
 ---
 title: Amber Roepe (she/her)
 country: US
-roles:
+training_roles:
 - instructor
 - mentor
-years:
+training_years:
 - 2020
 github: aroepe
 gravatar: null

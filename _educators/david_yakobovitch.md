@@ -1,9 +1,9 @@
 ---
 title: David Yakobovitch
 country: US
-roles:
+training_roles:
 - instructor
-years:
+training_years:
 - 2019
 github: davidyakobovitch
 gravatar: dyakobovitch

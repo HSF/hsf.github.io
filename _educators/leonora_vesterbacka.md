@@ -1,10 +1,10 @@
 ---
 title: Leonora Vesterbacka
 country: SE
-roles:
+training_roles:
 - facilitator
 - mentor
-years:
+training_years:
 - 2020
 github: leonoravesterbacka
 gitlab: mvesterb

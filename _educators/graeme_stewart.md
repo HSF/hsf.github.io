@@ -1,10 +1,10 @@
 ---
 title: Graeme A Stewart
 country: CH
-roles:
+training_roles:
 - facilitator
 - mentor
-years:
+training_years:
 - 2020
 - 2019
 github: graeme-a-stewart

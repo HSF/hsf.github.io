@@ -1,11 +1,11 @@
 ---
 title: Savannah Thais
 country: US
-roles:
+training_roles:
 - instructor
 - facilitator
 - mentor
-years:
+training_years:
 - 2019
 - 2020
 github: savvy379
