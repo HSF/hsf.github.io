@@ -1,4 +1,4 @@
-{% include educator_header.html %}
+{% include profile_header.html %}
 
 <!-- Start looping through all the years that we have educators for.
 The first year is hard coded here. -->
@@ -31,10 +31,10 @@ proper index for the table column. -->
 
 <div class="medium-3 columns">
 <div class="team-member anchor-offset" id="{{ person.github }}">
-<a href="{{ person.url }}">{% include educator_avatar.html %}</a>
+<a href="{{ person.url }}">{% include profile_avatar.html %}</a>
 {% include educator_badges.html %}
 <h3><a href="{{ person.url }}">{{ person.title }}</a></h3>
-{% include educator_social.html %}
+{% include profile_social.html %}
 {% unless person.country == "" %}
 <!-- <img width="64" src="/files/flags/{{ person.country | downcase }}.svg"/> -->
 {% endunless %}
