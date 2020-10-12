@@ -6,7 +6,7 @@ training_roles:
 training_years:
 - 2020
 github: meevans1
-gravatar: meirinevans@yahoo.co.uk
+gravatar: 8a2cd38ac1438ea456ddd1637e80d4ae
 homepage: https://meirinoanevans.wixsite.com/portfolio
 twitter: meirinoanevans
 gitlab: null

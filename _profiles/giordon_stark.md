@@ -6,7 +6,7 @@ training_roles:
 training_years:
 - 2020
 github: kratsg
-gravatar: kratsg@gmail.com
+gravatar: cb9c2a6bd418b3f913c5c6816b5db5ab
 homepage: https://giordonstark.com/
 twitter: kratsg
 gitlab: kratsg

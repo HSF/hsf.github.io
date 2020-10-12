@@ -6,7 +6,7 @@ training_roles:
 training_years:
 - 2020
 github: jburzy01
-gravatar: 6a61636b736f6e6275727a796e736b6940676d61696c2e636f6d
+gravatar:
 homepage: https://www.jacksonburzynski.com/
 twitter: jburzy1
 gitlab: jburzyns
