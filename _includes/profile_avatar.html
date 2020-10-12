@@ -1,7 +1,7 @@
 <!-- Make sure to include educator_header to use this -->
 
-{% if person.github %}
-<img data-src="https://avatars.githubusercontent.com/{{ person.github }}" class="img-circle lazyload" alt="GitHub profile photo of {{person.title}}">
-{% else %}
+{% if person.gravatar %}
 <img data-src="https://www.gravatar.com/avatar/{{ person.gravatar }}?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of {{person.title}}">
+{% else %}
+<img data-src="https://avatars.githubusercontent.com/{{ person.github }}" class="img-circle lazyload" alt="GitHub profile photo of {{person.title}}">
 {% endif %}
