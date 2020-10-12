@@ -6,13 +6,13 @@ This page explains how to update or create a profile/"floating head" as e.g. sho
 
 ## Basics
 
-Your profile corresponds to a text file in the ``_profiles`` directory ([view on github](https://github.com/HSF/hsf.github.io/tree/master/_profiles)). 
+Your profile corresponds to a text file in the ``_profiles`` directory ([view on github](https://github.com/HSF/hsf.github.io/tree/master/_profiles)).
 
 ## If you don't have a profile yet
 
-Simply copy the template at the bottom of this page and modify it to include your information. You can then either 
+Simply copy the template at the bottom of this page and modify it to include your information. You can then either
 
-* send it to the conveners via email, or 
+* send it to the conveners via email, or
 * (**preferred**) fork the github repository, put your profile in the ``_profiles`` directory as ``first_name_last_name.md`` (don't worry about the exact form of the name) and open a pull request.
 
 ## If you want to change your profile
@@ -25,7 +25,7 @@ Either
 ## The template
 
 ```
-{% include_relative 000_template.md %}
+{% include_relative _profiles/000_template.md %}
 ```
 
 ### Notes
@@ -42,7 +42,7 @@ Either
 ### Example
 
 ```
-{% include_relative kilian_lieret.md %}
+{% include_relative _profiles/kilian_lieret.md %}
 ```
 
 ## If you want to include a specific selection of people on your page

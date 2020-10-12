@@ -2,8 +2,6 @@
 # Required:
 title: "Your Name"     # first (middle) last
 country:               # your country of residence (2 capital letters, e.g. US, GB, DE)
-roles: []              # subset of [facilitator, instructor, mentor], can stay empty ([])
-years: []              # in which years did you help out? (e.g. [2020, 2019])
 
 # Optional (please add github or gravatar for your picture)
 github:       # your github ID (not full url)
@@ -15,6 +13,10 @@ bitbucket:    # your bitbucket ID (not full URL)
 orcid:        # your orcid ID (not full URL)
 linkedin:     # your linkedin ID (not full url, i.e. the last bit of the url to your profile)
 email:
+
+# Training WG
+training_roles: []              # subset of [facilitator, instructor, mentor], can stay empty ([])
+training_years: []              # in which years did you help out? (e.g. [2020, 2019])
 
 # Don't modify the following setting
 layout: educator
