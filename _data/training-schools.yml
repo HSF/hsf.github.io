@@ -162,13 +162,6 @@
   source: https://mosphys.ru/
   tags: []
   title: Moscow International School of Physics 2020
-- author: Kilian Lieret
-  date: 2020-09-28
-  deadline: ''
-  end_date: 2020-10-02
-  source: https://indico.cern.ch/event/853710/
-  tags: []
-  title: 13th Inverted CERN School of Computing (iCSC 2020)
 - author: Guillermo Fidalgo
   date: 2020-03-23
   deadline: 2020-02-15
@@ -276,9 +269,23 @@
   tags: ''
   title: HTCondor Workshop Autumn 2020
 - author: Kilian Lieret
+  date: 2020-09-28
+  deadline: ''
+  end_date: 2020-10-02
+  source: https://indico.cern.ch/event/853710/
+  tags: []
+  title: 13th Inverted CERN School of Computing (iCSC 2020)
+- author: Kilian Lieret
   date: 2020-10-12
   deadline: ''
   end_date: 2020-10-16
   source: https://indico.cern.ch/event/946584/
   tags: HSF
   title: C++ Course and Hands-on Training
+- author: Kilian Lieret
+  date: 2020-11-02
+  deadline: ''
+  end_date: 2020-11-09
+  source: https://indico.cern.ch/event/958112/
+  tags: hsf
+  title: ML + GPU Training
