@@ -41,7 +41,7 @@ collections:
     permalink: /training/:path.html
   profiles:
     output: true
-    permalink: /training/profiles/:path.html
+    permalink: /profiles/:path.html
 
 docs:
   url: https://github.com/HSF/documents/blob/master
