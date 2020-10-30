@@ -20,6 +20,4 @@ email: stefan.roiser@cern.ch
 layout: educator
 ---
 
-<!-- Optional: Write something about yourself below the '- - >'.
 Hi, I'm Stefan, a senior computing engineer at CERN. I'm interested in computing infrastructures and the software engineering for those. Recently my heart is close again to core software engineering and specifically the engineering for compute accelerators. I also would like to help with training of engineers in software engineering in HEP, hence my participation here. 
--->
