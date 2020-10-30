@@ -2,8 +2,8 @@
 # Required:
 title: Stefan Roiser     # first (middle) last
 country: CH              # your country of residence (2 capital letters, e.g. US, GB, DE)
-roles: [facilitator]     # subset of [facilitator, instructor, mentor], can stay empty ([])
-years: [2020]            # in which years did you help out? (e.g. [2020, 2019])
+training-roles: [facilitator]     # subset of [facilitator, instructor, mentor], can stay empty ([])
+training-years: [2020]            # in which years did you help out? (e.g. [2020, 2019])
 
 # Optional (please add github or gravatar for your picture)
 github: roiser                                   # your github ID (not full url)
@@ -13,7 +13,7 @@ twitter: StRoiser                                # your twitter ID (not full URL
 gitlab: roiser                                   # your gitlab ID (not full URL)
 bitbucket:                                       # your bitbucket ID (not full URL)
 orcid: 0000-0002-5600-8592                       # your orcid ID (not full URL)
-linkedin: https://www.linkedin.com/in/roiser/    # full url (i.e. https://linkedin.com/in/your-name-some-hex-code)
+linkedin: roiser
 email: stefan.roiser@cern.ch
 
 # Don't modify the following setting
