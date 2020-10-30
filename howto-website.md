@@ -100,9 +100,16 @@ for adding the event in the ``Upcoming Events`` sidebar.
 
 [Newsletters](/newsletter.html) are occasional longer articles we publish. Each of these lives in `newsletter/_posts`.
 The format is very similar to the other
-content on the website, follow the front matter of the other files in there. 
+content on the website, follow the front matter of the other files in there.
 
 You can highlight a newsletter by updating the centre column of the frontpage of the website (see below).
+
+### Adding your profile
+
+Some pages, like the [training community page](/training/community.html) feature "floating heads"
+corresponding to profiles of community members.
+See [howto profile](/howto-profile.html) for how to create your profile and how to include
+selected profiles into a page.
 
 ## Technical details
 

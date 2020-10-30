@@ -1,15 +1,16 @@
-{% include profile_header.html %}
+<!-- If the persons array is set, this will only include profiles of those
+people who are in the persons array. This can be used to include the convenors 
+for example.-->
 
-<h3> Our community </h3>
+{% include profile_header.html %}
 
 {% assign skipped = 0 %}
 {% for person in site.profiles | sort:"title" %}
 
-{% assign nyears = person.training_years.size %}
-{% if nyears == 0 %}
+{% unless persons contains person.title %}
 {% assign skipped = skipped | plus: -1 %}
 {% continue %}
-{% endif %}
+{% endunless %}
 
 {% assign column = forloop.index | plus: skipped | modulo: 4 %}
 

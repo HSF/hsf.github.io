@@ -2,13 +2,13 @@
 layout: default
 ---
 
-{% include educator_header.html %}
+{% include profile_header.html %}
 {% assign person = page %}
 <div class="blog-header" style="text-align: center">
 <h1 class="blog-title">{{ person.title }}</h1>
-{% include educator_avatar.html %}
+{% include profile_avatar.html %}
 {% include educator_badges.html %}
-{% include educator_social.html %}
+{% include profile_social.html %}
 </div>
 
 {{ content }}

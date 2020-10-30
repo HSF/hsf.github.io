@@ -36,7 +36,7 @@ The group aims to develop a training program that can be pursued by researchers 
     * [Participating & Contributing](/workinggroups/training.html#how-to-participate-and-contribute)
     * [Convenors](/workinggroups/training.html#convenors)
 * **Meta**:
-  * [How to add your profile to the HSF training community pages](/training/howto-educator-profile.html)
+  * [How to add your profile to the HSF training community pages](/howto-profile.html)
 
 ## Our mission
 
@@ -81,7 +81,7 @@ The HSF training group relies on a growing list of proactive and dedicated educa
 Kilian Lieret (LMU), Sudhir Malik (Puerto Rico), Sam Meehan (CERN)
 
 {% assign persons = "Kilian Lieret, Sudhir Malik, Sam Meehan" | split: ", " %}
-{% include list_of_selected_training_people.html %}
+{% include list_of_selected_profiles.html %}
 
 ---
 
