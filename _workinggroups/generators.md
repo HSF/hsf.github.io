@@ -62,6 +62,9 @@ on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-C
 
 #### Current convenors
 
+{% assign persons = "Josh McFayden, Andrea Valassi, Efe Yazgan" | split: ", " %}
+{% include list_of_selected_profiles.html %}
+
 - Andrea Valassi (2018-2020)
 - Efe Yazgan (2020)
 - Josh McFayden (2018-2020)
