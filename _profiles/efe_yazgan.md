@@ -1,18 +1,18 @@
 ---
 # Required:
 title: "Efe Yazgan"
-country: CH               # your country of residence (2 capital letters, e.g. US, GB, DE)
+country: FR  # your country of residence (2 capital letters, e.g. US, GB, DE)
 
 # Optional (please add github or gravatar for your picture)
-github:       # your github ID (not full url)
-gravatar:     # your gravatar ID (the hex hash of your email, something like 123ef...123)
-homepage:     # your personal homepage (full url)
-twitter:      # your twitter ID (not full URL, no leading '@')
-gitlab:       # your gitlab ID (not full URL)
-bitbucket:    # your bitbucket ID (not full URL)
-orcid:        # your orcid ID (not full URL)
-linkedin:     # your linkedin ID (not full url, i.e. the last bit of the url to your profile)
-email:
+github: efeyazgan              # your github ID (not full url)
+gravatar:                      # your gravatar ID (the hex hash of your email, something like 123ef...123)
+homepage: https://cern.ch/efe  # your personal homepage (full url)
+twitter:                       # your twitter ID (not full URL, no leading '@')
+gitlab:                        # your gitlab ID (not full URL)
+bitbucket:                     # your bitbucket ID (not full URL)
+orcid: 0000-0001-5732-7950     # your orcid ID (not full URL)
+linkedin: efe-yazgan           # your linkedin ID (not full url, i.e. the last bit of the url to your profile)
+email: efe.yazgan@cern.ch
 
 # Training WG
 training_roles: []              # subset of [facilitator, instructor, mentor], can stay empty ([])
