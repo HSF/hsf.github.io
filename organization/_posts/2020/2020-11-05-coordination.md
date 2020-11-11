@@ -23,27 +23,27 @@ Liz, Michel and Graeme have been polling our current convenors and we're close t
 
 Was held [12 - 16 October](https://indico.cern.ch/event/946584/) with 50 participants. Lecture recordings are available on the Indico page. Very lively discussions and very good feedback from students. Many thanks again to Sebastien Ponce as lecturer and [all mentors](https://e-groups.cern.ch/e-groups/Egroup.do?egroupId=10387430).
 
-Another 180 people on a waiting list. In a post-mortem meeting we decided to go for another iteration with 75 participants max. Tentatively in the week of...
+Another 180 people on a waiting list. In a post-mortem meeting we decided to go for another iteration with 75 participants max. Tentatively in the week of
 
 **18 - 22 January 2021** --> *Please check if there are any clashes!!*
 
 (We will open registration anew, but let people on the waiting list know.)
 
-If you want to help us promoting training please consider using the info from this [propaganda slide](https://cernbox.cern.ch/index.php/s/s7V9FOVDejElBaD).
+If you want to help us promote training please consider using the info from this [propaganda slide](https://cernbox.cern.ch/index.php/s/s7V9FOVDejElBaD).
 
 Attrition rate was very low!
 
-Can improve the afternoon organisation for the students. Some of the rooms were quite quiet.
+Can improve the afternoon organisation for the students. Some of the rooms were rather quiet.
 
 Attila - should we also discuss higher level concepts (singletons, factory pattern)? Liz - singletons are very concurrency unfriendly though.
 
-- There will be a later meeting to discuss the curriculum.
+- There will be a meeting to discuss the curriculum later.
 
 ### Compute Accelerator Forum
 
 Next meeting, [Wed 11 Nov, 17:00 CET](https://indico.cern.ch/event/962110/) with talks given by David Rohr (ALICE) and Daniel Campora (LHCb) on their experiments' approaches to abstraction of GPU hardware.
 
-Currently discussing with NVidia the possibility to have a seminar style presentation on either the NSight profiling suite or libcu++ for the [Wed 9 Dec, 16:30 CET](https://indico.cern.ch/event/962112/) meeting.
+Currently discussing with Nvidia the possibility to have a seminar style presentation on either the NSight profiling suite or libcu++ for the [Wed 9 Dec, 16:30 CET](https://indico.cern.ch/event/962112/) meeting.
 
 Tentative dates and times for 2021 -- 2nd Wednesday of the month at 16:30 -- have been entered in the [indico category](https://indico.cern.ch/category/12741/).
 
@@ -51,9 +51,9 @@ Please subscribe to [compute-accelerator-forum-announce@cern.ch](https://e-group
 
 ## LHCC
 
-### WLCG Software Liasons
+### WLCG Software Liaisons
 
-The WLCG has appointed Graeme Stewart and Liz Sexton-Kennedy as their software liason contacts. Graeme and Liz will take care of reporting for software groups and for communicating WLCG needs back to developers.
+The WLCG has appointed Graeme Stewart and Liz Sexton-Kennedy as their software liaison contacts. Graeme and Liz will take care of reporting for software groups and for communicating WLCG needs back to developers.
 
 - No intention for the current lines of communication between experiments and projects to be cut, but WLCG is an all-experiment forum that can be useful for setting priorities as seen by the WLCG
 - Generally we want to improve communications between computing and software, e.g., organise a one-shot workshop on I/O matters
@@ -77,7 +77,7 @@ We also expect to get news about the charge from the LHCC about the next phase o
 - You can add social media or a quick text to your profile
 - [This page](https://hepsoftwarefoundation.org/howto-profile.html) shows how to add a new profile. Basically each profile corresponds to a small markdown file.
 - To add a selection of people (e.g. conveners) to a page, see [this file](https://github.com/HSF/hsf.github.io/blob/master/_workinggroups/training.md) as an example
-- If you want to add more information like phone number, you can just add it in the  profile text (or is there a nice way to turn the phone number into an "icon" with link?)
+- If you want to add more information like phone number, you can just add it in the  profile text (or is there a nice way to turn the phone number into an "icon" with a link?)
 
 ## Working Group Updates
 
@@ -89,7 +89,7 @@ We also expect to get news about the charge from the LHCC about the next phase o
 
 ### Detector Simulation
 
-- LPCC workshop took place Monday, Tuesday this week. Experiments presented their physics results as far as Geant4 simulation was concerned. Overall agreement is very nice. Still a few remaining issues concerning the shower shapes (both EM and hadronic), recent improvements in Geant4 could potentially help there. Test beam data is extremely useful for any Geant4 development. More effort should be certainly invested in making standalone Geant4 testbeam simulation that could be included in the Geant4 validation suite.
+- LPCC workshop took place Monday, Tuesday this week. Experiments presented their physics results as far as Geant4 simulation was concerned. Overall agreement is very nice. Still a few remaining issues concerning the shower shapes (both EM and hadronic), recent improvements in Geant4 could potentially help there. Test-beam data is extremely useful for any Geant4 development. More effort should be certainly invested in making standalone Geant4 testbeam simulation that could be included in the Geant4 validation suite.
 - Agenda for the HSF workshop ready and speakers confirmed.
 - Planning to have the next topical meeting on 16th of December devoted to the definition of validation strategies for Deep Learning-based fast simulation models as well as the challenges related to the integration of those tools into the full-simulation frameworks.
 
@@ -114,8 +114,8 @@ We also expect to get news about the charge from the LHCC about the next phase o
   - Eduardo minted DOIs on Zenodo for all talks and notebook repositories, see <https://zenodo.org/communities/pyhep2020>.
     - Semi-related Q from Caterina: is there common code for doing this? It would be useful for ESCAPE/DM initiatives & other conferences
     - Reply: not that I'm aware of. You need to go and add the info by hand. Some bits can probably be automated, but not all. See on the link above the kind of info each entry has (metadata).
-    - Thanks! So I continue with v2 of a Bachelor's project to automatize this for future conferences :)
-  - Eduardo to prepare report for the Python Software Foundation.
+    - Thanks! So I continue with v2 of a Bachelor's project to automate this for future conferences :)
+  - Eduardo to prepare a report for the Python Software Foundation.
   - Final email with various bits of info (presentations and "proceedings", videos links, WG communication channels, workshop "photos", survey results summary) will soon be sent to participants.
 - Topical WG meetings:
   - Meeting on “HEP Statistics Serialization Standard” with ROOT, zfit and pyhf people postponed to early 2021.
@@ -178,6 +178,6 @@ Intel Developer Summit 2020, <https://webinar.intel.com/oneAPIDeveloperSummit202
 
 ### Next Meeting
 
-- Please check the HSF Calendar to make sure that events for 2021 are listed correctly
+- Please check the [HSF Calendar](https://hepsoftwarefoundation.org/future-events.html) to make sure that events for 2021 are listed correctly
 - Next meeting scheduled for 19 November, but this is the workshop
   - We agreed to have a "virtual" meeting where people post updates to the live notes, but we don't have a call
