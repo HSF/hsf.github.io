@@ -14,11 +14,12 @@ The iDDS is designed as a standalone experiment agnostic service. It's implement
 
  * [Documents](https://idds.readthedocs.io/en/latest/index.html)
  * [Main page](https://idds.cern.ch)
- * Repository [iDDS](https://github.com/HSF/iDDS)
+ * [Repository](https://github.com/HSF/iDDS)
 
 The iDDS has been used for several experiment exercises. Efforts are ongoning to support more use cases. 
 
 ## Contacts
 
 More efforts are ongoing for different experiment exercises. Everyone is very much welcome to join! :)
+
 To express general interests, please contact: atlas-adc-iddsATcern.ch
