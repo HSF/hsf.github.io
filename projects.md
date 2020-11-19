@@ -24,6 +24,6 @@ We have been compiling a set of [project guidelines](project_guidelines.html) th
 | [Phoenix](https://github.com/HSF/phoenix) | Event display framework | Apache-2 | [Ed Moyse](mailto:Edward.Moyse@cern.ch) |
 | [podio](https://github.com/AIDASoft/podio) | Event Data Model Library based on plain-old-data | GPL v3 | [Benedikt Hegner](mailto:benedikt.hegner@cern.ch) |
 | [PM4hep](https://github.com/hegner/PM4hep) | Minimal Plugin Manager | GPL v3 | [Benedikt Hegner](mailto:benedikt.hegner@cern.ch) |
-| [prmon](https://github.com/HSF/prmon) | Standalong process resource consumption monitor | Apache-2 |  [Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch) |
+| [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | Apache-2 |  [Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch) |
 | [ROOT](https://root.cern.ch/)            | Data Analysis Framework | LGPL v2+ | [Pere Mato](mailto:pere.mato@cern.ch) |
 | [XRootD](https://xrootd.slac.stanford.edu/)     | High performance, scalable fault tolerant access to data  | LGPL v3 | [Andrew Hanushevsky](mailto:abh@stanford.edu)|
