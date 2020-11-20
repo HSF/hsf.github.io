@@ -289,3 +289,10 @@
   source: https://indico.cern.ch/event/958112/
   tags: hsf
   title: ML + GPU Training
+- author: Kilian Lieret
+  date: 2020-12-16
+  deadline: ''
+  end_date: 2020-12-18
+  source: https://indico.cern.ch/event/975487/
+  tags: HSF
+  title: HSF Training Hackathon
