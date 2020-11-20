@@ -6,11 +6,13 @@ layout: plain
 
 ## Introduction
 
-iDDS(intelligent Data Delivery Service) is an intelligent Data Delivery Service. It's an ATLAS/IRIS-HEP joint project. It’s designed to intelligently transform and deliver the needed data to the processing workflow in a fine-grained approach for High Energy Physics workloads. It will not only reduce the need for replicas, but also enable benefits such as decreasing the time period of caching transient data, transforming expensive replicas to cheaper format data at remote sites and only cache cheaper new data for processing. iDDS will also work to orchestrate the WorkFlow Management System (WFMS) and the Distributed Data Management (DDM) systems to trigger them to process the data as soon as possible. In addition, iDDS will have intelligent algorithms to adjust the lifetime of cache, the format transformation and the delivery destination. The iDDS will increase the efficiency of data usage, reduce storage usage for processing and speed up the processing workflow.
+iDDS is an intelligent Data Delivery Service. It is an ATLAS/IRIS-HEP joint project. It is designed to intelligently transform and deliver the needed data to the processing workflow in a fine-grained approach for High Energy Physics workloads. It will not only reduce the need for replicas, but also enable benefits such as: decreasing the time period of caching transient data; transforming expensive replicas to cheaper format data at remote sites; and only cache cheaper new data for processing.
+
+The iDDS will also work to orchestrate the WorkFlow Management System (WFMS) and the Distributed Data Management (DDM) systems to trigger them to process the data as soon as possible. In addition, the iDDS will have intelligent algorithms to adjust the lifetime of the cache, the format transformation and the delivery destination. The iDDS will increase the efficiency of data usage, reduce storage usage for processing and speed up the processing workflow.
 
 ## Main description
 
-The iDDS is designed as a standalone experiment agnostic service. It's implemented based on a Work/Workflow structure, where a Work is a transformation/processings and a Workflow is a bunch of Works and their relationship, such as DAG. New use cases can be imported to iDDS by implementing a new Work with some hook functions.
+The iDDS is designed as a standalone experiment agnostic service. It is implemented based on a Work/Workflow structure, where Work is a transformation/processings and a Workflow is a collection of Work and their relationship(DAG). New use cases can be imported to iDDS by implementing a new Work class with some hook functions.
 
  * [Documents](https://idds.readthedocs.io/en/latest/index.html)
  * [Main page](https://idds.cern.ch)
