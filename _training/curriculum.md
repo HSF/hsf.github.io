@@ -69,16 +69,16 @@ layout: plain
   }
 
   .alpha {
-  	background: #6c757d;
+    background: #dedede;
     width: 1.3em;
     height: 1.3em;
     border-radius: 0.65em;
-    color: white;
+    color: #7c7676;
     font-weight: bold;
     padding: 0em;
     display: inline-block;
     text-align: center;
-    padding-bottom: 2.5ex !important;
+    padding-bottom: 3ex !important;
   }
 </style>
 
