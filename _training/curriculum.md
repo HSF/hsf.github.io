@@ -69,16 +69,16 @@ layout: plain
   }
 
   .alpha {
-  	background: #6c757d;
+    background: #dedede;
     width: 1.3em;
     height: 1.3em;
     border-radius: 0.65em;
-    color: white;
+    color: #7c7676;
     font-weight: bold;
     padding: 0em;
     display: inline-block;
     text-align: center;
-    padding-bottom: 2.5ex !important;
+    padding-bottom: 3ex !important;
   }
 </style>
 
@@ -118,7 +118,8 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 | Parallel programming |  |  |  |  | |
 | Docker | Introduction to the [docker](https://www.docker.com/) container image system | <span class="stable">✔</span> | [authors](https://github.com/hsf-training/hsf-training-docker/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-docker"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-docker/index.html"></a> &nbsp;  <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"></a> |
 | Workflows & reproducability | E.g. ``yadage`` and ``reana`` |  |  |  | |
-| Machine learning | | <span class="beta">β</span> | [authors](https://github.com/hsf-training/hsf-training-ml-webpage/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-ml-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-ml-webpage"></a> |
+| Machine learning | | <span class="stable">✔</span> | [authors](https://github.com/hsf-training/hsf-training-ml-webpage/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-ml-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-ml-webpage"></a> &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/playlist?list=PLKZ9c4ONm-VmHsMKImIDEMsZI1Vp0UY-Z"></a>|
+| Machine learning on GPU | | <span class="stable">✔</span> | [authors](https://github.com/hsf-training/hsf-training-ml-gpu-webpage/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-ml-gpu-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-ml-gpu-webpage"></a> &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/playlist?list=PLKZ9c4ONm-VnfKk7XrVUa-V42lUdMrB6M"></a> |
 | CI/CD | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [gitlab](https://about.gitlab.com/) | <span class="stable">✔</span> | [authors](https://github.com/hsf-training/hsf-training-cicd/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cicd"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cicd/"></a> &nbsp; <a class="glyphicon glyphicon-film" href="https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb"></a> |
 
 ### Advanced
