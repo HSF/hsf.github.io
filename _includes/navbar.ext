@@ -12,16 +12,6 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">Activities<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="activities_menu">
-                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
-                 <li class="divider"></li>
-                 {% for activity in site.activities %}
-                   <li><a href="{{ activity.url }}">{{ activity.title }}</a></li>
-                 {% endfor %}
-               </ul>
-            </li>
-            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu">Working Groups<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
                   <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
@@ -29,6 +19,16 @@
                   {% for workinggroup in site.workinggroups %}
                     <li><a href="{{ workinggroup.url }}">{{ workinggroup.title }}</a></li>
                   {% endfor %}
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 {% for activity in site.activities %}
+                   <li><a href="{{ activity.url }}">{{ activity.title }}</a></li>
+                 {% endfor %}
                </ul>
             </li>
             <li class="dropdown">
