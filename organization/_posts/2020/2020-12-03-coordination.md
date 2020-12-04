@@ -117,7 +117,7 @@ ATLAS has a new group on databases & metadata -- will try to get the coordinator
 
 - Yes we agreed this was a very good point to explore, given the different views of metadata from these two communities, but that in the then they are very related.
 
-For later in the year, want to follow up on declarative analysis -- flesh out benchmark challenges into more complete analysis situations. HSF to provide a "conventional" implementation for performance comparison?
+For later in the year, we want to follow up on declarative analysis -- flesh out benchmark challenges into more complete analysis situations. HSF to provide a "conventional" implementation for performance comparison?
 
 - We should make sure that ease of use and clarity are prioritised in the solutions. People developing new tools (IRIS-HEP, for example) are definitely interested in this.
 
