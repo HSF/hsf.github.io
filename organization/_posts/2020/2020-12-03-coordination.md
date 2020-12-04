@@ -111,7 +111,7 @@ Planning to kick off 2021 with a series of discussions on analysis metadata (LHC
   2. Bookkeeping processed events
   3. Intersections of the above and/or analysis experience
 
-So far have some candidate speakers from ATLAS/CMS, Paul will tell us about Belle II global tags (probably in 1st theme). Suggestions for speakers from other communities very welcome.
+So far we have some candidate speakers from ATLAS/CMS, Paul will tell us about Belle II global tags (probably in 1st theme). Suggestions for speakers from other communities are very welcome.
 
 ATLAS has a new group on databases & metadata -- will try to get the coordinators involved. Does (some fraction of) the Frameworks WG want to come along?
 
