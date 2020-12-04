@@ -125,7 +125,7 @@ For later in the year, we want to follow up on declarative analysis -- flesh out
 
 Next HSF Detector Simulation working group topical meeting on Wednesday 16th of December at 4pm (CERN time) devoted to the definition of validation strategies for Deep Learning-based fast simulation models as well as the challenges related to the integration of those tools into detailed-simulation frameworks. (Indico entry to come soon!)
 
-We had a short debriefing of the workshop session and it was very positive to have it as Geant4 co-hosted event. One thing we would like to do is to continue fostering including the Geant4 collaboration in HSF.
+We had a short debriefing of the workshop session and it was very positive to have it as a Geant4 co-hosted event. One thing we would like to do is to continue fostering including the Geant4 collaboration in HSF.
 
 ### Reconstruction and Software Triggers
 
