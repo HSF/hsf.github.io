@@ -38,7 +38,7 @@ Reminder, we have made a call for WG Convenor nominations open until **4 Decembe
 > - Training
 >
 > We are looking for motivated individuals from the community to lead HSF activities in these areas. Self-nominations are very welcome.
-> Please send nominations to hsf-wg-search-committee@cern.ch. The search committee consists of Michel Jouvin (IJCLab), Liz Sexton-Kennedy (Fermlab) and Graeme Stewart (CERN).
+> Please send nominations to hsf-wg-search-committee@cern.ch. The search committee consists of Michel Jouvin (IJCLab), Liz Sexton-Kennedy (Fermilab) and Graeme Stewart (CERN).
 >
 > We would like to receive your nominations by Friday 4 December.
 >
