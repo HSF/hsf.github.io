@@ -151,7 +151,7 @@ Talk on `perf` based monitoring 20 Jan. (5pm CERN time):
 
 ### Software Training
 
-- Training hackathon end of this month (16th-18th)!
+- Training hackathon at the end of this month (16th-18th)!
   - Currently ~15 registrants
   - Formally in European time zone, but mostly working in parallel groups anyway, so join whenever you're ready (use the google doc or mattermost to express yourself if you miss the kickoff session perhaps -- but we can also discuss in the afternoon session)
   - [indico](https://indico.cern.ch/event/975487/)
