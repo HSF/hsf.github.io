@@ -68,7 +68,7 @@ Note we have settled on a regular slot for the meetings, 16h30 every second Wedn
 
 ### HSF-WLCG Workshop
 
-Took place 19, 20 + 23, 24 November. General impression very positive. Rough turnout for HSF software sessions was:
+Took place 19, 20 + 23, 24 November. General impression was very positive. Rough turnout for HSF software sessions was:
 
 | Session | Attendance |
 | :--- | ---: |
