@@ -30,17 +30,17 @@ See slides attached to the [agenda](https://indico.cern.ch/event/981562/), prese
 ---
 
 - Andi Salzburger: on workshop, "complaints" about length of workshops especially late in the year. More topical workshop: should the WGs be doing their individual "workshops"?
-- CD: agree with Andi. If no workshop, will we miss joint workshops with WLCG?
+- CD: agree with Andi. If there is no workshop, will we miss joint workshops with WLCG?
     - Liz and Graeme are in the management board - need to also discuss there.
 - Andrea Valassi: are we actually managing to get people to talk together even when they go to the same workshop? There is the risk that people only attend their session.
 - Andi: if this is "out of the box" of the WGs, we could have joint sessions between WG A and WG B. This could be a working mode. 
 - Graeme: in particular we could also talk about I/O matters, which links analysis, frameworks and WLCG.
-- Conclusion from this part: explore more restricted but cross-cutting topics. No appetite for a spring workshop, but keep open option for autumn (TBD with WLCG). **ACTION**
+- Conclusion from this part: explore more restricted but cross-cutting topics. No appetite for a spring workshop, but keep an open option for autumn (TBD with WLCG). **ACTION**
 
 #### Training
 
 - Sudhir Malik - Training WG: 
-    - We (training) come from different experiments, so it would be good to understand what we are providing / what are our contributions in terms of simulation etc. Highlighting our success in terms of practical things. Some answer to "What have we achieved". **ACTION**
+    - We (training) come from different experiments, so it would be good to understand what we are providing / what are our contributions in terms of simulation etc. Highlighting our success in terms of practical things. Some answers to "What have we achieved". **ACTION**
     - Question to all other WGs: training is connected to all other WGs. Physics / physics object groups help with newcomers training, so we could do the same with HSF.
 
 #### Organisational Engagement
@@ -66,13 +66,13 @@ See slides attached to the [agenda](https://indico.cern.ch/event/981562/), prese
 
 ### HDR Institute - Letter of Collaboration
 
-We have been contacted by Mark Neubauer and Shih-Chieh Hsu asking for a letter of intention to collborate if their NSF proposal for *HDR Institute: Accelerated AI Algorithms for Data-Driven Discovery* is funded. Proposal:
+We have been contacted by Mark Neubauer and Shih-Chieh Hsu asking for a letter of intention to collaborate if their NSF proposal for *HDR Institute: Accelerated AI Algorithms for Data-Driven Discovery* is funded. Proposal:
 
-> Graeme Stewart has agreed to coordinate the collaboration between the HEP Software Foundation (HSF) and A3D3. This collaboration will include AI efforts in event reconstruction and software triggering, and cohosting training and community events of mutual interest.
+> Graeme Stewart has agreed to coordinate the collaboration between the HEP Software Foundation (HSF) and A3D3. This collaboration will include AI efforts in event reconstruction and software triggering, and co-hosting training and community events of mutual interest.
 
 A summary of the proposal and draft letter (it's the NSF standard text) are attached to Indico.
 
-The coordination group are favourable. Please give any feedback or comment by 11 January.
+The coordination group is favourable. Please give any feedback or comment by 11 January.
 
 ### Working Group Convenors for 2021
 
