@@ -4,7 +4,7 @@
 
 * Under `## Description` write the description of the proposal in the context of your project. Try not to make it exhaustive, but rather readable and appealing for potential students. Note that the project duration has to be tuned for 175 hours projects (rather than 350, as in the previous years)
 
-* Under `## Task ideas` enumerate the main ideas for the tasks to be completed for the project to succeed. Keep in mind that the target is a summer student who is not familiar with your project who will be working for 3 months. Try to make these tasks on realistic and concrete, targeting your project main objectives - your future student will write a proposal with a plan of work built-up upon these.
+* Under `## Task ideas` enumerate the main ideas for the tasks to be completed for the project to succeed. Keep in mind that the target is a summer student who is not familiar with your project who will be working for 175 hours. Try to make these tasks on realistic and concrete, targeting your project main objectives - your future student will write a proposal with a plan of work built-up upon these.
 
 * Under `## Expected results` enumerate the main objectives that you want to achieve at the end of the summer project to consider the student work successful. It is important to have a realistic and concrete target rather than generic and non-measurable objectives.
 
