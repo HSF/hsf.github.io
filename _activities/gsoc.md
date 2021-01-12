@@ -8,7 +8,7 @@ layout: default
 
 ## Introduction
 
-[Google Summer of Code](https://summerofcode.withgoogle.com) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations.
+[Google Summer of Code](https://summerofcode.withgoogle.com) is a program that allows students to contribute to the development of open-source projects, mentored by participating organizations.
 
 Particle physics is an exciting field where large collaborations of scientists collect
 and analyze petabytes of data from high-energy physics experiments, such as the Large Hadron Collider,
@@ -29,15 +29,15 @@ Information from last year’s GSoC can be found [here](/gsoc/2020/index.html).
 
 ### GSoC 2021
 
-In 2021 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. Project proposals will be added until mid February and are listed [below](#projects-in-2021). There are important changes in the [program rules](https://summerofcode.withgoogle.com/rules/)  and [timeline](https://summerofcode.withgoogle.com/how-it-works/) compared to the previous year, described in the GSoC 2021 [announcement](https://groups.google.com/g/google-summer-of-code-discuss/c/GgvbLrFBcUQ). Most notably, the student project duration has been halved (175 hours instead of 350). Adapting to this new timeline, CERN-HSF is proposing this year shorter projects having well-defined deliverables.
+In 2021 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. Project proposals will be added until mid February and are listed [below](#projects-in-2021). There are important changes in the [program rules](https://summerofcode.withgoogle.com/rules/)  and the [timeline](https://summerofcode.withgoogle.com/how-it-works/) compared to the previous year, described in the GSoC 2021 [announcement](https://groups.google.com/g/google-summer-of-code-discuss/c/GgvbLrFBcUQ). Most notably, the student project duration has been halved (175 hours instead of 350). Adapting to this new timeline, CERN-HSF is proposing this year shorter projects having well-defined deliverables.
 
-The 2021 GSoC edition extended the student eligibility criteria. Due to the large number of candidates in 2020 and an expected increase for this year, the selection process in our organization will be split in two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. Only the successful candidates will be able to engage in a personalized exchange with mentors on a given project idea, and their proposals will be evaluated for the final student selection. The detailed [timeline](/activities/gsoc.html#timeline) for these phases is shown below.
+The 2021 GSoC edition extended the student eligibility criteria. Due to the large number of candidates in 2020 and an expected increase for this year, the selection process in our organization will be split in two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. Only the successful candidates will be able to engage in a personalized exchange with mentors on a given project idea, and their proposals will be evaluated for the final student selection. The detailed [timeline](/activities/gsoc.html#timeline) of these phases is shown below.
 
 ### For Students
 
-If you are interested in the the HSF projects, please start by having a look at our [guidelines for students](/gsoc/students-guideline.html).
+If you are interested in the HSF projects, please start by having a look at our [guidelines for students](/gsoc/students-guideline.html).
 
-New projects for HSF GSoC in 2021 will be published by **February 19**. Meanwhile you can take a look at last year's HSF GSoC [projects](/gsoc/2020/index.html#projects-in-2020) since many of those may propose subjects also this year. The student application period will begin on **March 29**, but discussions about student project ideas with mentors will take place starting with **March 9**, when the list of accepted Organizations is announced. You are encouraged to monitor this website in order to get acquainted with our projects and be prepared for contacting their mentors. Due to the high number of applicants for CERN-HSF projects, the application period procedure become more formal this year, so please try to follow our guidance. 
+New projects for HSF GSoC in 2021 will be published by **February 19**. Meanwhile you can take a look at last year's HSF GSoC [projects](/gsoc/2020/index.html#projects-in-2020) since many of those may also propose subjects this year. The student application period will begin on **March 29**, but discussions about student project ideas with mentors will take place starting on **March 9**, when the list of accepted Organizations is announced. You are encouraged to monitor this website in order to get acquainted with our projects and be prepared for contacting their mentors. Due to the high number of applicants for CERN-HSF projects, the application period procedure become more formal this year, so please try to follow our guidance. 
 
 Please avoid having the first contact with the mentors of HSF projects before **March 9** or after **March 20**! You are encouraged to take the time to read our project proposals until **March 9**, focusing on only one or two projects that attract your interest. Once you have identified those, you should e-mail the respective mentors, attaching your CV and describing the motivation for your choice. The mentors will first propose an evaluation test, waiting for your solution. Note that the test you are given is private, your solution should be personal and the response time is part of the evaluation. Mentors will let you know the test results, and if you passed they will start discussing and helping you develop a project idea. The student application period is **March 29 - April 13**, when you will have to write and review your proposal with help from your mentors.
 
@@ -112,7 +112,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
   </tr>
   <tr>
     <td> May 3 </td>
-    <td> Student slot requests due from Org Admins </td>
+    <td> Student slot requests due for Org Admins </td>
   </tr>
   <tr>
     <td> May 13 </td>

@@ -24,7 +24,7 @@ Get started checking out the [Google Summer of Code Guides for students](https:/
 
 3. Mentors will ask you to complete a technical test of their choice to evaluate if you have the skills required for the project. This is a first stage selection only, passing it does not imply that you are selected.
   * Please note that the vast majority of our GSoC projects do not require any physics knowledge; in case of doubt, ask the mentors.
-  * Note that the test you are given is private, your solution should be personal and the response time is part of the evaluation. Sharing your test and/or solution with others may lead to getting disqualified as candidate for our Organization.
+  * Note that the test you are given is private, your solution should be personal and the response time is part of the evaluation. Sharing your test and/or solution with others may lead to getting disqualified as a candidate for our Organization.
 <br><br>
 
 4. Mentors will announce you by mail if you passed the first stage selection or not, along with potentially other candidates. In case you passed, mentors will usually ask you to write a description for your proposal and help you with the submission. This implies, but is not limited to:
@@ -39,8 +39,8 @@ Get started checking out the [Google Summer of Code Guides for students](https:/
   * Between `Apr 6 - Apr 13` you will have the possibility to share your proposal draft with the project mentors to get improvement suggestions, before making your GSoC application due on `Apr 13`. 
 <br><br>
 
-6. Your proposal will be evaluated and ranked by your mentors, who give their feedback to the HSF Org Admins. If a project has eligible candidates, it will be considered for the request of slots made to GSoC, due by `May 3`. Note that the result of this Phase 2 selection process cannot be made available before the official announcement by Google of the succesful student projects, on `May 17`.
+6. Your proposal will be evaluated and ranked by your mentors, who give their feedback to the HSF Org Admins. If a project has eligible candidates, it will be considered for the request of slots made to GSoC, due on `May 3`. Note that the result of this Phase 2 selection process cannot be made available before the official announcement by Google of the successful student projects, on `May 17`.
 
-We do not provide a mailing list for candidates, but there is a chat room in [![Gitter](https://badges.gitter.im/HSF/HSF-GSoC.svg)](https://gitter.im/HSF/HSF-GSoC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) where you can ask questions, getting answers form the HSF Admins and previous students in our Organization. Please avoid posting extended information about yourself in the chat channel and reserve this for the first exchange with the mentors. 
+We do not provide a mailing list for candidates, but there is a chat room in [![Gitter](https://badges.gitter.im/HSF/HSF-GSoC.svg)](https://gitter.im/HSF/HSF-GSoC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) where you can ask questions, getting answers from the HSF Admins and previous students in our Organization. Please avoid posting extended information about yourself in the chat channel and reserve this for the first exchange with the mentors. 
 
 Do not hesitate to [contact us](mailto:hsf-gsoc-admin@googlegroups.com) if you have further questions.
