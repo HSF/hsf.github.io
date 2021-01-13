@@ -15,17 +15,20 @@ layout: default
    * add a front matter as given in this
    [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocprojects/2019/project_HSF.md)
       * Make sure the `year` attribute is correct for your proposal
-   * add an organization description to the current year folder (if not already done) as given in this [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocorgs/2019/cern.md):
+   * add an organization description to the current year folder (if not already done) as given in this [example](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocorgs/2020/cern.md):
       * It can be copied from last year if still valid
       * Remember that the name of the `organization: YOURORGANIZATION` will need to be referenced in the proposal and for each mentor
       * Add a logo to [images](https://github.com/HSF/hsf.github.io/tree/master/images)
-   * update the list of mentors (`gsoc/YEAR/mentors.md`)
+   * update the list of mentors (at the end of the proposal AND in the file `gsoc/YEAR/mentors.md`)
       * Follow this format: `YOURNAME [YOUR@MAIL](mailto:YOUR@MAIL) YOURORGANIZATION`
+      * The main mentor (responsible with student evaluation and exchanging with the Admins) has to be put in bold letters
       * Insert mentor names sorted rather than to the end of the list
 
    * make a pull request
 
 **Every proposal must be attached to an organization (e.g. CERN, Fermilab...) and to a project (e.g. ROOT, GeantV...).** If you add your own proposal yourself, be sure add the appropriate `organization` and `project` attributes (not case sensitive) in the *front-matter* section of the proposal. See next sections if you need to add a new organization or project but if you use an existing project and organization for your proposal you don't have to do anything else that what was described above.
+
+**Proposals have to be tuned this year for 175-hour project length.** Please propose coding topics having well-defined deliverables, rather than R&D with unforeseen timeline and results. Remember that your student will effectively work in total only about 30 days (6 hours/day) on the project!
    
 ## Instructions for Adding a New Project
 
@@ -77,6 +80,6 @@ create a file for your organization and edit its contents as appropriate.
 
 Organization logos should be called `ORGANIZATION-logo.png` and be less than 100kB in size.
 
-## HSF GSoC Mentor Guideline 2020
+## HSF GSoC Mentor Guideline 2021
 
-[2020 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/110NS7iRonBUKa05pny-YaOS8mXpBYjs6DG302SeWbOI/edit?usp=sharing)
+[2021 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/110NS7iRonBUKa05pny-YaOS8mXpBYjs6DG302SeWbOI/edit?usp=sharing)
