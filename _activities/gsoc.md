@@ -1,6 +1,6 @@
 ---
 title: "Google Summer of Code"
-author: "Benedikt Hegner"
+author: "Andrei Gheata"
 layout: default
 ---
 
@@ -11,7 +11,7 @@ layout: default
 [Google Summer of Code](https://summerofcode.withgoogle.com) is a program that allows students to contribute to the development of open-source projects, mentored by participating organizations.
 
 Particle physics is an exciting field where large collaborations of scientists collect
-and analyze petabytes of data from high-energy physics experiments, such as the Large Hadron Collider,
+and analyze petabytes of data from high-energy physics experiments, such as those at the Large Hadron Collider,
 hosted at the CERN laboratory in Geneva, Switzerland.
 Some of the questions that we collectively ask are:
 
