@@ -37,6 +37,6 @@ We're seeking a candidate who is highly skilled in Cuda/C++ programming. A basic
   * [Andrea Valassi](mailto:andrea.valassi@cern.ch) CERN
 
 ## Links
-  * [MadGraph5](https://launchpad.net/mg5amcnlo)
-  * [GPU Code](https://madgraph5.github.io/)
+  * [MadGraph5 project](https://launchpad.net/mg5amcnlo)
+  * [Madgraph5 GPU Code](https://madgraph5.github.io/)
   * [NVidia Cuda Graphs](https://developer.nvidia.com/blog/cuda-graphs/)
