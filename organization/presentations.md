@@ -5,6 +5,13 @@ layout: default
 
 # HSF Presentations
 
+## 2021
+
+* [The HSF landscape - recent activities &amp; plans](https://indico.cern.ch/event/976081/contributions/4149153/attachments/2171368/3665976/EduardoRodrigues_2021-01-14_SWIFT-HEP.pdf), [SWIFT-HEP/Excalibur-HEP workshop](https://indico.cern.ch/event/976081/), 14 January 2021, Eduardo Rodrigues
+* [HSF Community Overview](https://indico.jlab.org/event/420/contributions/7595/attachments/6350/8412/HSF%20Roundtable%202021-01.pdf), [Nucleal Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Graeme A Stewart
+* [HSF - Python and PyHEP](https://indico.jlab.org/event/420/contributions/7596/attachments/6353/8415/EduardoRodrigues-HSF-2021-01-12.pdf), [Nucleal Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Eduardo Rodrigues
+* [HSF Training](https://indico.jlab.org/event/420/contributions/7597/attachments/6352/8417/HSF_Training_SoftCompRoundTable_12Jan_2021.pdf), [Nucleal Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Sudhir Malik
+
 ## 2020
 
 * [HSF PyHEP WG and the PyHEP 2020 workshop](https://indico.bnl.gov/event/9122/contributions/40797/attachments/30133/47071/EduardoRodrigues_2020-08-26_PyHEP.pdf), [Electron-Ion Collider Software Seminar](https://indico.bnl.gov/event/9122/), 26 August 2020, Eduardo Rodrigues
