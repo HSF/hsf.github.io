@@ -34,7 +34,7 @@ The group aims to develop a training program that can be pursued by researchers 
   * The Community
     * [The HSF training community](/training/community.html)
     * [Participating & Contributing](/workinggroups/training.html#how-to-participate-and-contribute)
-    * [Convenors](/workinggroups/training.html#convenors)
+    * [Convenors](/workinggroups/training.html#conveners)
 * **Meta**:
   * [How to add your profile to the HSF training community pages](/howto-profile.html)
 
@@ -88,6 +88,7 @@ The conveners can be reached [by email](mailto:michel.hernandez.mx@gmail.com,me3
 {% include list_of_selected_profiles.html %}
 ### Former Conveners:
 
-- Dario Menasce (INFN Milano)
-- Kilian Lieret (LMU, Belle II)
-- Sam Meehan (CERN, ATLAS and FASER)
+- Dario Menasce (INFN Milano), 2016-2019
+- Kilian Lieret (LMU, Belle II), 2020
+- Sam Meehan (CERN, ATLAS and FASER), 2020
+

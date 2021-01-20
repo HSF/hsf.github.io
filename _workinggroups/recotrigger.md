@@ -24,12 +24,12 @@ of profiling and quality assurance toolkits.
 
 ## Get involved
 
-Current WG convenors: 
+Current WG conveners: 
 - Andreas Salzburger (ATLAS)
 - David Lange (CMS)
 - Dorothea vom Bruch (LHCb)
 
-[Contact the group convenors](mailto:dorothea.vom.bruch@cern.ch,andreas.salzburger@cern.ch,david.lange@cern.ch).
+[Contact the group conveners](mailto:dorothea.vom.bruch@cern.ch,andreas.salzburger@cern.ch,david.lange@cern.ch).
 
 Everyone is welcome to participate and contribute on the forum and to the ongoing meetings. For more information, contact us or
 follow our mailing list on google groups [hsf-recotrigger](https://groups.google.com/forum/#!forum/hsf-recotrigger).
@@ -42,6 +42,7 @@ follow our mailing list on google groups [hsf-recotrigger](https://groups.google
 ## Details
 [Mandate and link to other HSF working groups](/organization/working-group-mandates.html).
 
-## Former Convenors
+## Former Conveners
 
-- Caterina Doglioni (ATLAS), Agnieszka Dziurda (LHCb)
+- Caterina Doglioni (ATLAS), 2019-2020
+- Agnieszka Dziurda (LHCb), 2019-2020

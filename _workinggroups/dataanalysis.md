@@ -29,4 +29,6 @@ Convenors: Chris Burr (LHCb), Allison Hall (CMS), TJ Khoo (ATLAS)
 ---
 
 Former Convenors:
-- Danilo Piparo (ROOT), Andrea Rizzi (CMS), Paul Laycock (Belle II),
+- Danilo Piparo (ROOT), 2019
+- Andrea Rizzi (CMS), 2019-2020
+- Paul Laycock (Belle II), 2019-2020

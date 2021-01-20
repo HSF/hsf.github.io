@@ -72,8 +72,9 @@ All the coordinators can be reached [by email](mailto:serhanmete@gmail.com,pater
 
 ### Former Conveners
 
-- Bendikt Hegner (CMS, EP-SFT)
-- Elizabeth Sexton-Kennedy (CMS)
-- Graeme A Stewart (ATLAS)
-- Ben Morgan (ATLAS and superNEMO)
-- Martin Ritter (Belle II)
+- Benedikt Hegner (CMS, EP-SFT), 2016-2017
+- Elizabeth Sexton-Kennedy (CMS), 2016-2017
+- Graeme A Stewart (ATLAS), 2017-2019
+- Ben Morgan (ATLAS, superNEMO), 2017-2020
+- Martin Ritter (Belle II), 2018-2020
+- Giulio Eulisse (ALICE), 2018
