@@ -56,15 +56,24 @@ rapidly evaluate each tool for features, ease of use and flexibility.
 Documentation for these *test drive* setups is in the group's
 [GitHib](https://github.com/HSF/packaging) repository.
 
----
+### Conveners
 
-The group is currently coordinated by Ben Morgan (Warwick, ATLAS and superNEMO), Alaettin Serhan Mete (Argonne National Laboratory, ATLAS), and Martin Ritter (LMU Munich, Belle II).
+The group is currently coordinated by:
+
+- Alaettin Serhan Mete (ATLAS)
+- Marc Paterno (DUNE)
+- Mircho Rozodov (CMS)
+
+All the coordinators can be reached [by email](mailto:serhanmete@gmail.com,paterno@fnal.gov,mircho.nikolaev.rodozov@cern.ch).
+### Activities
 
 *  The Indico pages for the working group meetings can be found at <https://indico.cern.ch/category/7975/>
-*  All coordinators can be reached at <hsf-software-tools-wg-conveners@googlegroups.com>
 *  For all technical discussions please use <hsf-tech-forum@googlegroups.com> (Tools) and <hsf-packaging-wg@googlegroups.com> (Packaging)
 
-Former Convenors:
-- Bendikt Hegner (CERN)
-- Elizabeth Sexton-Kennedy (FNAL)
-- Graeme A Stewart (CERN)
+### Former Conveners
+
+- Bendikt Hegner (CMS, EP-SFT)
+- Elizabeth Sexton-Kennedy (CMS)
+- Graeme A Stewart (ATLAS)
+- Ben Morgan (ATLAS and superNEMO)
+- Martin Ritter (Belle II)

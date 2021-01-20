@@ -49,3 +49,5 @@ The group convenors are:
 - Chris Jones, FNAL <cdj@fnal.gov>
 - Kyle Knoepfel, FNAL <knoepfel@fnal.gov>
 - Attila Krasznahorkay, CERN <Attila.Krasznahorkay@cern.ch>
+
+[Email WG Convenors](mailto:cdj@fnal.gov,knoepfel@fnal.gov,Attila.Krasznahorkay@cern.ch)
