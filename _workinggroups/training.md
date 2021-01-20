@@ -34,7 +34,7 @@ The group aims to develop a training program that can be pursued by researchers 
   * The Community
     * [The HSF training community](/training/community.html)
     * [Participating & Contributing](/workinggroups/training.html#how-to-participate-and-contribute)
-    * [Convenors](/workinggroups/training.html#convenors)
+    * [Convenors](/workinggroups/training.html#conveners)
 * **Meta**:
   * [How to add your profile to the HSF training community pages](/howto-profile.html)
 
@@ -76,14 +76,19 @@ The HSF training group relies on a growing list of proactive and dedicated educa
 
 {% include list_of_upcoming_schools.md %}
 
-## Convenors
+## Conveners
 
-Kilian Lieret (LMU), Sudhir Malik (Puerto Rico), Sam Meehan (CERN)
+- Meirin Oan Evans (ATLAS)
+- Michel Hernandez Villanueva (Belle II)
+- Sudhir Malik (CMS)
 
-{% assign persons = "Kilian Lieret, Sudhir Malik, Sam Meehan" | split: ", " %}
+The conveners can be reached [by email](mailto:michel.hernandez.mx@gmail.com,me338@sussex.ac.uk,malik@fnal.gov).
+
+{% assign persons = "Meirin Oan Evans, Sudhir Malik, Michel Hernandez Villanueva" | split: ", " %}
 {% include list_of_selected_profiles.html %}
+### Former Conveners:
 
----
+- Dario Menasce (INFN Milano), 2016-2019
+- Kilian Lieret (LMU, Belle II), 2020
+- Sam Meehan (CERN, ATLAS and FASER), 2020
 
-Former Convenors:
-- Dario Menasce (INFN Milano)

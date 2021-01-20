@@ -19,9 +19,11 @@ technologies) are an important area of work.
 The group's meeting page is [in Indico](https://indico.cern.ch/category/10916/) and
 discussions are held on the [hsf-simulation](https://groups.google.com/forum/#%21forum/hsf-simulation) list.
 
-Convenors: Gloria Corti (LHCb) <mailto:Gloria.Corti@cern.ch>, Philippe Canal (CMS) <mailto:philippe.canal@cern.ch>, Witek Pokorski (Geant4) <mailto:Witold.Pokorski@cern.ch>
+- Conveners: Ben Morgan (ATLAS, Geant4), Kevin Pedro (CMS), Krzysztof Genser (Mu2e, Geant4)
+- Email: [HSF Simulation WG Conveners](mailto:Ben.Morgan@warwick.ac.uk,kpedro88@gmail.com,resnegfk@gmail.com)
+### Former Conveners
 
----
-
-Former Convenors:
-- Heather Gray (ATLAS)
+- Heather Gray (ATLAS), 2019
+- Gloria Corti (LHCb), 2019-2020
+- Philippe Canal (CMS), 2020
+- Witek Pokorski (Geant4), 2019-2020

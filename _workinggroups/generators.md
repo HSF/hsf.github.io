@@ -60,7 +60,7 @@ on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-C
 
 ## Convenors
 
-#### Current convenors
+#### Current conveners
 
 {% assign persons = "Josh McFayden, Andrea Valassi, Efe Yazgan" | split: ", " %}
 {% include list_of_selected_profiles.html %}
@@ -69,10 +69,10 @@ on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-C
 - Efe Yazgan (2020)
 - Josh McFayden (2018-2020)
 
-All convenors can be reached via <hsf-generator-wg-convenors@googlegroups.com>.
+All conveners can be reached via <hsf-generator-wg-convenors@googlegroups.com>.
 
 #### Former convenors
 
-- Stefan Hoeche (2018-2019)
-- Steve Mrenna (2018-2019)
-- Taylor Childers (2018-2019)
+- Stefan Hoeche, 2018-2019
+- Steve Mrenna, 2018-2019
+- Taylor Childers, 2018-2019
