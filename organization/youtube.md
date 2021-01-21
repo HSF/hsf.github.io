@@ -6,7 +6,7 @@ layout: plain
 ## Purpose
 
 The [HSF YouTube
-channel](https://www.youtube.com/channel/UCv4hukXGkCYvBClQMKzypnQ) is used to
+channel](https://www.youtube.com/c/HEPSoftwareFoundation) is used to
 host video content that should last beyond the lifetime of a single event and
 for which it is useful for people to be able to view the material 'offline'.
 
