@@ -20,4 +20,4 @@ Hola! I'm Michel Hernandez Villanueva. I'm a postdoc at the University of Missis
 My main interests are flavor physics with tau leptons, analysis on distributed computing environments, training, and outreach.
 
 I joined the HSF Training group in 2020. My motivation is to explore together advanced tools, popular within the HPC
-community and their potential usage in the High Energy Physics workflow. 
+community, and their potential usage in the High Energy Physics workflow. 
