@@ -10,9 +10,3 @@ title: HEP Software Training Events
 ## Past Events
 
 {% include list_of_past_schools.md %}
-
-## HSF supported/organized training events
-
-The following events were directly organized by HSF or supported by HSF.
-
-{% include list_of_hsf_schools.md %}
