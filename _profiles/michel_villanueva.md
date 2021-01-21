@@ -1,6 +1,6 @@
 ---
 title: Michel Hernandez Villanueva
-country: USA
+country: US
 training_roles:
 training_years:
 - 2021
