@@ -287,7 +287,7 @@
   deadline: ''
   end_date: 2020-11-09
   source: https://indico.cern.ch/event/958112/
-  tags: hsf
+  tags: HSF
   title: ML + GPU Training
 - author: Kilian Lieret
   date: 2020-12-16
@@ -296,3 +296,17 @@
   source: https://indico.cern.ch/event/975487/
   tags: HSF
   title: HSF Training Hackathon
+- author: Michel Villanueva
+  date: 2021-01-18
+  deadline: ''
+  end_date: 2021-01-22
+  source: https://indico.cern.ch/event/979067/
+  tags: HSF
+  title: 2nd HEP C++ Course and Hands-on Training
+- author: Michel Villanueva
+  date: 2021-01-22
+  deadline: ''
+  end_date: 2021-01-22
+  source: https://indico.cern.ch/event/997485/
+  tags: HSF
+  title: HSF Training Hackathon Follow-up
