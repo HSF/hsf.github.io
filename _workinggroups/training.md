@@ -82,7 +82,7 @@ The HSF training group relies on a growing list of proactive and dedicated educa
 - Michel Hernandez Villanueva (Belle II)
 - Sudhir Malik (CMS)
 
-The conveners can be reached [by email](mailto:michel.hernandez.mx@gmail.com,me338@sussex.ac.uk,malik@fnal.gov).
+The conveners can be reached [by email](mailto:michmx@phy.olemiss.edu,me338@sussex.ac.uk,malik@fnal.gov).
 
 {% assign persons = "Meirin Oan Evans, Sudhir Malik, Michel Hernandez Villanueva" | split: ", " %}
 {% include list_of_selected_profiles.html %}
