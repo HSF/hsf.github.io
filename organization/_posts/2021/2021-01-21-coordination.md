@@ -132,7 +132,7 @@ Remember to [submit your project ideas](https://hepsoftwarefoundation.org/activi
 - **PyHEP 2021 workshop:**
     - Date to be decided. Likely just after SciPy 2021, which takes place as a virtual event on July 12-18.
 - **Topical meetings:**
-    - Reminder that we will do a kind of "Python module of the month", by default the first Wednesday of each month at 16h CET.
+    - Remember that we will do a kind of "Python module of the month", by default the first Wednesday of each month at 16h CET.
     - Topics so far confirmed are, see [Indico](https://indico.cern.ch/category/11412/):
         - Feb 3rd: Numba, by Jim Pivarski.
         - March 3rd: JAX, by Hans Dembinski.
