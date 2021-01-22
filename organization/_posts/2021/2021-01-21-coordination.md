@@ -53,7 +53,7 @@ Remember to [submit your project ideas](https://hepsoftwarefoundation.org/activi
 **DAWG Metadata Discussion 1 — Takeaways:**
 
 * Priority features:
-    * Good user interface — analysers prefer POSIX over web access to DB (etc). Authentication is considered an obstacle. Does a cvmfs cache suffice? How can we incentivise using existing metadata structures vs inventing own (e.g. dataset name parsing)?
+    * Good user interface — analysers prefer POSIX over web access to DB (etc). Authentication is considered an obstacle. Does a cvmfs cache suffice? How can we incentivise using existing metadata structures vs inventing our own (e.g. dataset name parsing)?
     * Local caching for situations w/o full connectivity, e.g. HPC, HLT. Relocatable paths addressed at least in a couple of ways (Belle II, ATLAS)
     * In some cases, need user input & extension (e.g. higher order cross-section). Also need override functionality, e.g. Belle II mergeable Global Tag.
 * Unifying calibration data
