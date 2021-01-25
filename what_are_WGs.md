@@ -77,3 +77,8 @@ and suggestions.
 At least one of the working group conveners should attend the bi-weekly
 [HSF Coordination Meetings](https://indico.cern.ch/category/7970/) and
 give a short update on the group's recent and forthcoming activities.
+
+When the HSF organises [workshops](https://indico.cern.ch/category/7971/)
+working group conveners can give input to the organising team. If there
+will be a session dedicated to the activities of any working group then
+conveners will be asked to co-organise it.
