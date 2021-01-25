@@ -1,7 +1,6 @@
 .jekyll-metadata
 _site
 Gemfile.lock
-mdcheck.json
 node_modules/
 package-lock.json
 package.json

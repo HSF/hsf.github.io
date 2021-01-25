@@ -78,7 +78,7 @@ in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and th
 ### Adding a training event
 
 For *training events* we have a special handling that lists all of these together on the 
-[Training Working Group page](workinggroups/training.html). To create a new
+[Training Working Group page](/workinggroups/training.html). To create a new
 entry you can either:
 
 1. Run the interactive script ``scripts/add_training_event.py`` (recommended)
