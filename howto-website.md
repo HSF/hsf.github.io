@@ -148,7 +148,3 @@ They are filled with *[Liquid](https://github.com/Shopify/liquid/wiki)* snippets
 - [Jekyll](http://jekyllrb.com/) to build websites from plain text
 - The [Liquid](https://github.com/Shopify/liquid/wiki) template engine used by Jekyll
 - [Markdown](http://daringfireball.net/projects/markdown/syntax) syntax
-
-### Bogus Link
-
-[This link is broken](https://wombats.cern/bugus.html)
