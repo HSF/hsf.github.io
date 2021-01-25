@@ -71,7 +71,7 @@ Our working group conveners should usually dedicate between 5% and 10% of their
 time to running the working group. More than 10% is great, but we recognise
 that people are busy with many other tasks. Less than 5% and the working group
 can fall into an inactive state. Conveners should meet at least once a month to
-plan. The HSF Coordination Group are always happy to attend to give feedback
+plan. The HSF Coordination Group is always happy to attend to give feedback
 and suggestions.
 
 At least one of the working group conveners should attend the bi-weekly
