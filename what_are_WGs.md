@@ -24,7 +24,7 @@ just contact the
 [HSF coordination team](mailto:hsf-coordination@googlegroups.com).
 
 Working Groups are added to the website of the HSF, with 
-description and contact information and their own
+description and contact information, and their own
 [Indico category](https://indico.cern.ch/category/7972/).
 
 <ul class="list">
