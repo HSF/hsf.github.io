@@ -14,15 +14,6 @@
       "replacement": "{{BASEURL}}/"
     }
   ],
-  "httpHeaders": [
-    {
-      "urls": ["https://example.com"],
-      "headers": {
-        "Authorization": "Basic Zm9vOmJhcg==",
-        "Foo": "Bar"
-      }
-    }
-  ],
   "timeout": "20s",
   "retryOn429": true,
   "retryCount": 5,
