@@ -56,7 +56,7 @@ HSF Working Group meetings in general should try to:
 
 We strongly encourage the use of common software in the HSF and opportunities
 for common development and sharing should be seized when they exist. The HSF
-exists as a [GitHub organisaion](https://github.com/HSF) and is happy
+exists as a [GitHub organisation](https://github.com/HSF) and is happy
 to host projects to help them grow. This can include things like common
 datasets used in development as well as actual code.
 
