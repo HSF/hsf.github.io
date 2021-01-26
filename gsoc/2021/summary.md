@@ -5,6 +5,7 @@ year: 2021
 ---
 
 ## Full List of Proposals
+## --YOU REACHED EARLY, REACH BACK SOME TIME LATER--
 
 {:.table .table-hover .table-striped}
 {% assign sorted_proposals = site.gsocproposals | sort: 'title' %}
