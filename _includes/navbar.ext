@@ -32,6 +32,14 @@
                </ul>
             </li>
             <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu">Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 {% for meeting in site.meetings %}
+                   <li><a href="{{ meeting.url }}">{{ meeting.title }}</a></li>
+                 {% endfor %}
+               </ul>
+            </li>
+            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu">Communication<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
                   <li><a href="/future-events.html">Community Calendar</a></li>
