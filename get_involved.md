@@ -12,7 +12,7 @@ Our official communication channel is the
 a smaller group of HSF advocates you can get in touch with the
 [HSF Coordination Team](/organization/team.html).
 
-See the [dedicated page](/forums.html) about HSF discussions forums for 
+See the [dedicated page](/forums.html) about HSF discussions forums for
 information about how to register and the
 other existing discussion forums.
 
@@ -31,12 +31,12 @@ by joining the HSF with your software project:
 ## Meetings, Agendas and Video-Conferences Access
 
 See the [Events listing](/future-events.html) on this site for information on HSF meetings, workshops,
-etc. 
+etc.
 
 Meetings use the [CERN Indico system](http://indico.cern.ch/category/5816/) for agenda pages. The agenda pages are generally open to the world, and no CERN account is needed. To upload material to Indico you do need to be identified CERN now allows EduGain authentication
 to many of its services, if you do not have a full CERN account.
 
-The [Vidyo](http://information-technology.web.cern.ch/services/fe/vidyo) video conferencing system is used for almost all HSF meetings and anyone can participate in the meetings from any internet-connected location. Connection information for each specific Vidyo meeting is on the corresponding Indico meeting agenda page.
+The [Zoom](https://videoconference.web.cern.ch/t/about-the-zoom-cern-service/24) video conferencing system is used for almost all HSF meetings and anyone can participate in the meetings from any internet-connected location. Connection information for each specific Zoom meeting is on the corresponding Indico meeting agenda page.
 
 ## Giving input to the HSF Coordination Team
 
