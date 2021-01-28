@@ -43,14 +43,28 @@ Remember to [submit your project ideas](https://hepsoftwarefoundation.org/activi
 
 ### Data Analysis
 
-#### Plan for 2021
+#### DAWG plans for early-mid 2021 (updated w/b 25 Feb to be more complete)
 
-* Have well defined agenda for metadata discussions (into mid-Feb)
-* Had plans to follow up on declarative analysis benchmarking, with goal of a concrete discussion later in the year
-* Ideas about more cooperation with Training WG to improve analysis code robustness — should arrange a cross-WG discussion (open?)
-* Still room for more concrete planning…
+Ongoing series of metadata discussions seems like a workable format to repeat on other topics. Some themes that could follow:
+* Declarative analysis & analysis frameworks
+  * Want to avoid this becoming a competition —> focus on interfaces & usability?
+  * Incorporate workflow management as well as event processing
+  * Identify the most essential functions of an analysis framework & how these should be provided to the user
+  * Could have follow-up meeting or even mini-workshop to expand benchmarks (c.f. https://github.com/iris-hep/adl-benchmarks-index)
+  * To-do: review what IRIS-HEP is up to, so we don’t duplicate
+* Overviews from non-LHC experiments
+  * We as conveners still lack some awareness of the major issues in some other communities
+  * Thinking to invite reps from e.g. neutrinos, nuclear physics to describe what issues they are grappling with
+* Reduced data formats (NanoAOD/DAOD_PHYSLITE)
+  * Attempted conversations with the non-mainstream analyses
+  * Should we revisit questions of policy (i.e. how to engage user base), consequences (framework design, sites)
+  * Also haven’t spoken to WLCG/DOMA in a year (https://indico.cern.ch/event/890991/manage/timetable/#20200323), try to reconnect? But needed more concreteness on what studies should be done.
 
-**DAWG Metadata Discussion 1 — Takeaways:**
+Besides these, we discussed commonalities with Training WG. One q: how much should HSF branch into (experiment-agnostic) analysis tutorials?
+* Curriculum has a basic CMS example — without going heavily in on teaching physics, could this be expanded to cover statistical tools, demonstrate analysis ecosystem e.g. PyHEP? But don’t want to be prescriptive.
+* (Probably) have had discussions comparing e.g. CMS DA school and ATLAS SW tutorial? Can HSF material usefully be integrated into these?
+
+#### DAWG Metadata Discussion 1 — Takeaways:
 
 * Priority features:
     * Good user interface — analysers prefer POSIX over web access to DB (etc). Authentication is considered an obstacle. Does a cvmfs cache suffice? How can we incentivise using existing metadata structures vs inventing our own (e.g. dataset name parsing)?
