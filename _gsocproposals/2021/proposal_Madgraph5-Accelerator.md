@@ -29,7 +29,7 @@ NVidia provides a feature called Cuda Graphs for their programming IDE, which ca
 The deliverable of the project is the implementation of Cuda Graphs in the Madgraph5 project, together with a performance study of the workflow with the new feature enabled.
 
 ## Requirements
-We're seeking a candidate who is highly skilled in Cuda/C++ programming. A basic understanding of NVidia profiling tools (e.g. NSight System, NSight Compute), GNU Makefiles, git and Python are a surplus.
+We're seeking a candidate who is skilled in Cuda/C++ programming. A basic understanding of NVidia profiling tools (e.g. NSight System, NSight Compute), GNU Makefiles, git and Python are a surplus.
 
 ## Mentors
   * [Olivier Mattelaer](mailto:olivier.mattelaer@uclouvain.be) UnivLouvain
