@@ -20,10 +20,10 @@ The student will work with one of the most utilised MC Generators, called Madgra
 
 NVidia provides a feature called Cuda Graphs for their programming IDE, which can can provide further speedup of the workflow. We want to enable Cuda Graphs for the most compute intensive part of the workflow called "matrix element calculation". The task includes
 
- * Learn about Cuda Graphs
- * Apply Cuda Graphs to the matrix element calculation module of the package
- * Measure the performance changes of the new implementation
- * Document the changes and provide help with the porting of the changes upstream into the master project
+ * Learning about Cuda Graphs
+ * Applying Cuda Graphs to the matrix element calculation module of the package
+ * Measuring the performance changes of the new implementation
+ * Documenting the changes and providing help with the porting of the changes upstream into the master project
 
 ## Expected results
 The deliverable of the project is the implementation of Cuda Graphs in the Madgraph5 project, together with a performance study of the workflow with the new feature enabled.
@@ -33,7 +33,7 @@ We're seeking a candidate who is highly skilled in Cuda/C++ programming. A basic
 
 ## Mentors
   * [Olivier Mattelaer](mailto:olivier.mattelaer@uclouvain.be) UnivLouvain
-  * [Stefan Roiser](mailto:stefan.roiser@cern.ch) CERN
+  * **[Stefan Roiser](mailto:stefan.roiser@cern.ch)** CERN
   * [Andrea Valassi](mailto:andrea.valassi@cern.ch) CERN
 
 ## Links
