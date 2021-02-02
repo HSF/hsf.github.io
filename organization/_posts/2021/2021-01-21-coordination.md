@@ -242,9 +242,15 @@ Arrange meetings to discuss work done by others as in the plans laid out in deta
          - This might be more the right emphasis from HSF.
 
 
-### Frameworks
+### Frameworks (updated 2 February with WG plans)
 
-- We have not yet met in the new year.  We will likely be focusing on accelerator-offloading.  We are expecting a request from DUNE to present their framework needs.
+- Have free-form-discussion meetings between the experiments once a month
+    - First Wednesday of every month, starting on March 3rd
+- Multi-meeting discussion about heterogeneous computing usage in experiment frameworks
+    - Joint meeting with Packaging WG about build system / packaging aspects of heterogeneous software releases?
+- Invite “DOE parallel I/O developers” to show what they are working on
+- Discuss work to remove use of TBB deprecated APIs from frameworks
+- Investigate whether guidance (e.g. webpages) can and should be assembled regarding framework aspects such as multithreading, metadata, offloading, etc.
 
 ---
 
