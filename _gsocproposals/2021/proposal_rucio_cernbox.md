@@ -39,7 +39,7 @@ By the end of GSoC'21 we expect at the end of the deliverable a Rucio plugin tha
 
 ## Mentors
  * [Martin Barisits (Rucio)](mailto:martin.barisits@cern.ch)
- * [Hugo Gonzalez Labrador (CS3MESH4EOSC)](hugo.gonzalez.labrador@cern.ch)
+ * [Hugo Gonzalez Labrador (CS3MESH4EOSC)](mailto:hugo.gonzalez.labrador@cern.ch)
  * [Mario Lassnig (Rucio)](mailto:mario.lassnig@cern.ch)
  * [Giuseppe Lo Presti (CERNBox)](mailto:giuseppe.lopresti@cern.ch)
 
