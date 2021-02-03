@@ -36,5 +36,5 @@ We expect at the end of the deliverable a VueJS application that can be enabled 
 
 ## Links
   * [SWAN project](https://swan.web.cern.ch)
-  * [CERBox project](https:/cernbox.web.cern.ch)
+  * [CERBox project](https://cernbox.web.cern.ch)
   * [OCIS project](https://owncloud.github.io/ocis/)
