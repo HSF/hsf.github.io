@@ -1,5 +1,5 @@
 ---
-title: Rucio and CS3APIs: enabling data management for the ScienceMesh cloud
+title: Rucio and CS3API to enable data management for the ScienceMesh cloud
 layout: gsoc_proposal
 project: Rucio
 year: 2021
