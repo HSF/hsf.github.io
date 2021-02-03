@@ -18,7 +18,7 @@ The aim of this project is to add adapt the existing integration SWAN/CERNBox to
 
 ## Task ideas
 * Develop a SWAN OCIS application to explore scientific notebooks from the CERNBox UI.
-* Make the application generic to be reusable in a vanilla Jupyterhub environment
+* Allow the integration of the application with vanilla JupyterHub/JupyterLab environments
 * Document the application and publish in the OCIS marketplace
 * Test the application in the new CERNBox UI
 
