@@ -29,12 +29,12 @@ We expect at the end of the deliverable a VueJS application that can be enabled 
 * JS, VueJS, Python, Go
 
 ## Mentors
-* **[Samuel Alfageme](samuel.alfageme.sainz@cern.ch)** CERN
-* [Diogo Castro](diogo.castro@cern.ch) CERN
-* [Hugo Gonzalez Labrador](hugo.gonzalez.labrador) CERN
-* [XYZ](xyz@test.com) ownCloud
+* **[Samuel Alfageme](mailto:samuel.alfageme.sainz@cern.ch)** CERN
+* [Diogo Castro](mailto:diogo.castro@cern.ch) CERN
+* [Hugo Gonzalez Labrador](mailto:hugo.gonzalez.labrador) CERN
+* [XYZ](mailto:xyz@test.com) ownCloud
 
 ## Links
-  * [SWAN project](https:/swan.web.cern.ch)
+  * [SWAN project](https://swan.web.cern.ch)
   * [CERBox project](https:/cernbox.web.cern.ch)
   * [OCIS project](https://owncloud.github.io/ocis/)

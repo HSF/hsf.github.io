@@ -32,13 +32,13 @@ We expect at the end of the deliverable that pluggins can be added at runtime ju
 * Go, GRPC, Protocol Buffers
 
 ### Mentors
-* **[Ishank Arora](ishank.arora@cern.ch)** CERNBox
-* [Hugo Gonzalez Labrador](hugo.gonzalez.labrador@cern.ch) CERNBox
-* [XYZ](xyz@test.com) AARNet
-* [XYZ](xyz@test.com) ownCloud
+* **[Ishank Arora](mailto:ishank.arora@cern.ch)** CERNBox
+* [Hugo Gonzalez Labrador](mailto:hugo.gonzalez.labrador@cern.ch) CERNBox
+* [XYZ](mailto:xyz@test.com) AARNet
+* [XYZ](mailto:xyz@test.com) ownCloud
 
 ## Links
-  * [CERBox project](https:/cernbox.web.cern.ch)
+  * [CERBox project](https://cernbox.web.cern.ch)
   * [OCIS project](https://owncloud.github.io/ocis/)
   * [Reva project](https://reva.link/)
 
