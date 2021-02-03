@@ -42,7 +42,7 @@ By the end of GSoC'21 we expect to have a fully working Rucio client that can sm
 ## Mentors
  * [Martin Barisits](mailto:martin.barisits@cern.ch)
  * [Thomas Beermann](mailto:thomas.beermann@cern.ch)
- * [Mario Lassnig](mailto:mario.lassnig@cern.ch)
+ * **[Mario Lassnig](mailto:mario.lassnig@cern.ch)**
 
 ## Links
  1. [Rucio GitHub](https://github.com/rucio/rucio)
