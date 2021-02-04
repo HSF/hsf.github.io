@@ -1,6 +1,6 @@
 ---
 project: CERNBox
-title: Runtime plugin ecosystem support for OCIS
+title: Scientific Notebook support in ownCloud Infinite Scale
 layout: gsoc_proposal
 year: 2021
 organization:
