@@ -3,12 +3,14 @@ title: Summary of Mentors GSoC 2021
 layout: plain
 ---
 
+**Note for contributors:** entries must be sorted in last name alphabetic order
+
 ## Full Mentor List (Name, Email, Org)
 
-* John Doe [jdoe@domain](mailto:jdoe@domain) Institution Name (this is an example, entries must be sorted in last name alphabetic order)
-
+* John Apostolakis [john.apostolakis@cern.ch](mailto:john.apostolakis@cern.ch) CERN
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) UWuppertal
+* Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
