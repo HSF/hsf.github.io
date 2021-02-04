@@ -1,6 +1,6 @@
 ---
 title: "HSF Weekly Meeting #200, 21 January 2021"
-layout: plain
+layout: plain_toc
 ---
 
 Present: Graeme Stewart, Josh McFayden, Serhan Mete, Ben Morgan, Kyle Knoepfel, Paul Laycock, Efe Yazgan, Attila Krasznahorkay, Meirin Oan Evans, Michel Jouvin, Andreas Salzburger, Benedikt Hegner, David Lange, Eduardo Rodrigues, Peter Elmer, Stefan Roiser, Gloria Corti, Kevin Pedro, Krzysztof Genser, Liz Sexton-Kennedy, Marc Paterno, Mason Proffitt, Michel Jouvin, Philippe Canal, Stefano Piano, Sudhir Malik, Daniel Elvira, Torre Weanus
