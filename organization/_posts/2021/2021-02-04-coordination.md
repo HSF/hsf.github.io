@@ -24,7 +24,7 @@ Should we just refer to these minutes or prepare another page as a 2021 *Plan of
 Remember to [submit your project ideas](https://hepsoftwarefoundation.org/activities/gsoc.html) by 15 February. Avoid submitting the last minute, there is a review process for the PRs! Also check the instructions for changes to the projects this year. Few points to keep in mind:
 
 - The program [timeline](https://developers.google.com/open-source/gsoc/timeline) has changed. Student projects have halved in length (175 hours), so project proposals need to be more concise. The coding period is Jun 7 - Aug 16, but the project hours can be spread within as convenient for the mentor and student.
-- Shorter projects makes it possible to have more proposals splitting larger developments. This is encouraged as long as sub-projects do not depend on each other. There will be also potentially more candidates than last year.
+- Shorter projects makes it possible to have more proposals splitting larger developments. This is encouraged as long as sub-projects do not depend on each other. There will also be potentially more candidates than last year.
 - There is a detailed internal [timeline](https://hepsoftwarefoundation.org/activities/gsoc.html#timeline) for the project submission and candidate selection period.
 - Prepare a test for candidates, relevant for your proposal, by Mar 9, when mentors will start being contacted. It is very important to do an initial filtering to have an extended exchange only with a limited number of students this year!
 - We will need help, as every year, for the final proposal evaluation for the slots request (selection committee) (Apr 28 - May 2)
@@ -60,7 +60,7 @@ Ongoing series of metadata discussions seems like a workable format to repeat on
 
 Besides these, we discussed commonalities with Training WG. One Q: how much should HSF branch into (experiment-agnostic) analysis tutorials?
 
-* Curriculum has a basic CMS example - without going heavily in on teaching physics, could this be expanded to cover statistical tools, demonstrate analysis ecosystem e.g. PyHEP? But don’t want to be prescriptive.
+* Curriculum has a basic CMS example - without focusing heavily on the physics aspects, could this be expanded to cover statistical tools, demonstrate analysis ecosystem e.g. PyHEP? But don’t want to be prescriptive.
 * (Probably) have had discussions comparing, e.g. CMS DA school and ATLAS SW tutorial? Can HSF material usefully be integrated into these?
     * Feeling that apart from experiment-specific SW, things like stats, generators etc. could be made more common between experiments
     * No mention of HSF material now - probably because it is rather new compared to the established experimental tutorials?
@@ -71,7 +71,7 @@ Besides these, we discussed commonalities with Training WG. One Q: how much shou
 - First new conveners' meeting last week
 - Initial set of topics to cover discussed
     - Simulation challenges for future experiments (provisionally last week of Feb)
-    - NEST package for liquid nobel gases/dark matter
+    - NEST package for liquid noble gases/dark matter
     - AdePT/Celeritas/Excalibur/GPU update
     - Geometry: experiences of migrating to/using DD4HEP (advertise CAF meeting on lower level VecGeom, etc. topics)
     - Machine Learning implementations in experiments (inc. LHC and Low Background)
@@ -99,7 +99,7 @@ Next topical meeting on March 3rd (every first Wednesday of the month).
 
 Not clear how many people followed-along live, launching and using the notebook at the same time as the speaker?
 
-- Graeme and Eduardo felt it was hard to listen to Jim, follow Slido and work with ones own notebook at the same time
+- Graeme and Eduardo felt it was hard to listen to Jim, follow Slido and work with one's own notebook at the same time
 - However, having the tutorial in a notebook is still extremely useful; people can (re)run at their leisure, even while following the YouTube video
 
 ### Software Tools and Packaging
@@ -128,9 +128,9 @@ Homework : Follow-up on the Eigen discussion we had prior to the Christmas break
 - Have started a discussion with Markus Dienfenthaler on possible needs of NP community.
 - We understood that we can't get reliable HS06 values from CMS monitoring - after testing for the first time a single big GEN campaign that has the full info (i.e. not affected by the 18 month limit) - an issue that has been rolling on since Nov 2018 WS....
     - Instead, CMS is now going through a campaign with local runs where CPU->HS06 conversion is known and everything is under control. After some checks, we will discuss in an HSF GEN meeting.
-- Did not make it to the Training WG meeting this week. Ideally need to find time to discuss amongst ourselves first, but hope to discuss Generators needs in that meeting soon.
-- In response to paper referee comment have been significantly expanding the discussion on MP/MT usage in experiments for generators.
-- Les Houches 2021 (<https://phystev.cnrs.fr>) will include some projects on generator software, including benchmarking, ML applications and migration to alterative architectures (largely GPU).
+- Did not make it to the Training WG meeting this week. Ideally we need to find time to discuss amongst ourselves first, but hope to discuss Generators needs in that meeting soon.
+- In response to paper referee comment, we have been significantly expanding the discussion on the MP/MT usage in experiments for generators.
+- Les Houches 2021 (<https://phystev.cnrs.fr>) will include some projects on generator software, including benchmarking, ML applications and migration to alternative architectures (largely GPU).
 
 Q. When will the next WG meetings be? A. Not yet decided, but this year...
 
@@ -160,7 +160,7 @@ Graeme was in discussion with the Faser collaboration and advised them how to co
 
 - Software and Computing Roundtable, 17h Tuesday 9 Feb, <https://indico.jlab.org/event/420/>
     - I/O is the topic
-- Compute Accelerator Forun, 16h30 Wednesday 10 Feb, <https://indico.cern.ch/event/975007/>
+- Compute Accelerator Forum, 16h30 Wednesday 10 Feb, <https://indico.cern.ch/event/975007/>
     - NVidia intro/tutorial on libcu++ & CERN IT/CM update on GPU infrastructure
 
 ### IRIS-HEP Feedback
