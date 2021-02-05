@@ -20,7 +20,7 @@ The group's meeting page is [in Indico](https://indico.cern.ch/category/10916/) 
 discussions are held on the [hsf-simulation](https://groups.google.com/forum/#%21forum/hsf-simulation) list.
 
 - Conveners: Ben Morgan (ATLAS, Geant4), Kevin Pedro (CMS), Krzysztof Genser (Mu2e, Geant4)
-- Email: [HSF Simulation WG Conveners](mailto:Ben.Morgan@warwick.ac.uk,kpedro88@gmail.com,resnegfk@gmail.com)
+- Email: [HSF Simulation WG Conveners](mailto:Ben.Morgan@warwick.ac.uk,kpedro88@gmail.com,genser@fnal.gov)
 ### Former Conveners
 
 - Heather Gray (ATLAS), 2019
