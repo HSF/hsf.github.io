@@ -8,14 +8,11 @@ organization: INFN
 
 ## Description
 
-The GPU develompement and evolution of the last years has shown a much stronger peak performance growth with respect to CPUs. 
+The GPU development and evolution of the last years has shown a much stronger peak performance growth with respect to CPUs. 
 The performance growth, driven mainly by technological improvements in the transistor’s sizes, forced hardware producers to introduce hardware 
-and low level software functionalities capable of enabling the GPU partitioning “à la CPU”.
+and low level software functionalities capable of enabling the GPU partitioning “à la CPU”. Such solutions (e.g. AMD MxGPU, Nvidia vGPU) are currently available in payware environments such as VMware and CITRIX, while these are not available inside Linux KVM. 
 
-Such solutions (e.g. AMD MxGPU, Nvidia vGPU) are currently available in payware environments such as VMware and CITRIX, while these are not available inside Linux KVM. 
-
-Aim of the project is to develop a layer capable of presenting a common interface on top of such technologies in the open-source Linux KVM environment.
-
+Aim of the project is to develop a layer capable of presenting a common interface on top of such technologies in the open-source Linux KVM environment, targeting both  scientific and commercial applications.
 
 ## Task ideas
  * Implement 1
