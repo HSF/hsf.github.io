@@ -17,3 +17,5 @@ layout: plain
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) UCLouvain
 * Stefan Roiser [stefan.roiser@cern.ch](mailto:stefan.roiser@cern.ch) CERN
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
+* Federica Legger [federica.legger@cern.ch](mailto:federica.legger@cern.ch) INFN
+* Gabriele Gaetano Fronzè [gabriele.fronze@to.infn.it](mailto:gabriele.fronze@to.infn.it) INFN
