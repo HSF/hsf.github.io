@@ -1,7 +1,7 @@
 ---
 title:  Partitioning GPUs for graphical and computing applications under Linux KVM
 layout: gsoc_proposal
-project: ???
+project: CMS
 year: 2021
 organization: INFN
 ---
