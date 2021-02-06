@@ -14,7 +14,7 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu">Projects<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
-                  {% for workinggroup in site.gsocprojects.2021 %}
+                  {% for workinggroup in site.gsocprojects %}
                     <li><a href="{{ workinggroup.url }}">{{ workinggroup.title }}</a></li>
                   {% endfor %}
                </ul>
