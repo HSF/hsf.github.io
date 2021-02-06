@@ -1,5 +1,5 @@
 ---
-project: QMLHEP
+project: CRISMIS
 layout: default
 logo: QMLHEP-logo.png
 description: |

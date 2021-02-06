@@ -1,5 +1,5 @@
 ---
-project: QMLHEP
+project: DLAMME
 layout: default
 logo: QMLHEP-logo.png
 description: |
