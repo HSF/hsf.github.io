@@ -19,8 +19,14 @@ The aim of this project is to add runtime pluggability to the framework to accel
 
 ## Task ideas
 
-* Study how runtime plugins are created and packaged in the the creation and packaging of runtime plugins the in the Traefik project 
-* Complement the build-time plugings with runtime support using the Go Yaegi interpreter.
+* Study and research what mechanisms various plugin systems implement and which one would be best suited to our use case. Some examples which can be considered include:
+    * [Yaegi](https://github.com/traefik/yaegi), a Go interpreter
+    * [go-plugin](https://github.com/hashicorp/go-plugin), connects plugins over GRPC
+    * [Pie](https://github.com/natefinch/pie), supports protocol-independent RPCs
+    *  [Goloader](https://github.com/dearplain/goloader), a lightweight linker
+    *   Just use native Go plugins
+* Study how runtime plugins are created and packaged in the chosen technlogy and document it. 
+* Complement the build-time plugings with runtime support using the chosen technology.
 * Migrate an existing build-time plugin to the new runtime model
 
 
