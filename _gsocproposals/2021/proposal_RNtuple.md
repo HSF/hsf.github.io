@@ -27,7 +27,7 @@ Interested students please contact Jakob (jblomer@cern.ch) or Javier (j.lopez@ce
 
 ## Mentors
  * [Jakob Blomer](mailto:jblomer@cern.ch)
- * [Javier Lopez-Gomez](mailto:j.lopez@cern.ch)
+ * **[Javier Lopez-Gomez](mailto:j.lopez@cern.ch)**
 
 ## Links
  * [ROOT](https://root.cern/)
