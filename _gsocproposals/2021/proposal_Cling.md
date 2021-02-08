@@ -29,7 +29,8 @@ Interested students please contact Javier (j.lopez@cern.ch) for a warm-up and ev
  * C++, strong knowledge on compilers (particularly Clang/LLVM) and GNU/Linux.
 
 ## Mentors
- * [Javier Lopez-Gomez](mailto:j.lopez@cern.ch)
+ * **[Javier Lopez-Gomez](mailto:j.lopez@cern.ch)**
+ * [Axel Naumann](mailto:Axel.Naumann@cern.ch)
 
 ## Links
  * [ROOT](https://root.cern/)
