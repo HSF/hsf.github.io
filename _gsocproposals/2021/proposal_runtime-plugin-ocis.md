@@ -33,9 +33,9 @@ We expect at the end of the deliverable that pluggins can be added at runtime ju
 
 ### Mentors
 * **[Ishank Arora](mailto:ishank.arora@cern.ch)** CERNBox
-* [Hugo Gonzalez Labrador](mailto:hugo.gonzalez.labrador@cern.ch) CERNBox
+* [Alex Unger](mailto:aunger@owncloud.com) ownCloud
 * [XYZ](mailto:xyz@test.com) AARNet
-* [XYZ](mailto:xyz@test.com) ownCloud
+* [Hugo Gonzalez Labrador](mailto:hugo.gonzalez.labrador@cern.ch) CERNBox
 
 ## Links
   * [CERBox project](https://cernbox.web.cern.ch)
