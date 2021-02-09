@@ -17,7 +17,7 @@ and useful for HEP.*
 
 ## Overall Activity and Coordination
 
-*Reference: 7 January 2021 [slides](https://indico.cern.ch/event/981562/contributions/4134317/attachments/2167697/3659044/HSF%202020-2021%20Review%20and%20Planning.pdf) 
+*Reference: 7 January 2021 [slides](https://indico.cern.ch/event/981562/contributions/4134317/attachments/2167697/3693851/HSF%202020-2021%20Review%20and%20Planning.pdf) 
 and [meeting minutes](/organization/2021/01/07/coordination.html).*
 
 ### Meeting Series
