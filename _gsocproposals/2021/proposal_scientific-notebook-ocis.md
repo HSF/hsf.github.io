@@ -23,7 +23,7 @@ The aim of this project is to add adapt the existing integration SWAN/CERNBox to
 * Test the application in the new CERNBox UI
 
 ## Expected results
-We expect at the end of the deliverable a VueJS application that can be enabled in CERNBox and SWAN to explore scientific notebooks in the new ownCloud platform.
+We expect at the end of GSOC '21, a VueJS application that can be enabled in CERNBox and SWAN to explore scientific notebooks in the new ownCloud platform.
 
 ##  Requirements
 * JS, VueJS, Python, Go
@@ -36,6 +36,6 @@ We expect at the end of the deliverable a VueJS application that can be enabled 
 * [Hugo Gonzalez Labrador](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 
 ## Links
-  * [SWAN project](https://swan.web.cern.ch)
-  * [CERBox project](https://cernbox.web.cern.ch)
-  * [OCIS project](https://owncloud.github.io/ocis/)
+* [SWAN project](https://swan.web.cern.ch)
+* [CERBox project](https://cernbox.web.cern.ch)
+* [OCIS project](https://owncloud.github.io/ocis/)
