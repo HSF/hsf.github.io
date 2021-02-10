@@ -37,8 +37,9 @@ The student will perform the baseline performance measurements that are necessar
 Bash, Python (C++ optional but appreciated), familiar with Linux environment (bonus skill: KVM, ESXi) and virtualization techniques
 
 ## Mentors
-  * [Federica Legger](mailto:federica.legger@cern.ch)
   * **[Gabriele Gaetano Fronzé](mailto:gabriele.fronze@to.infn.it)**
+  * [Federica Legger](mailto:federica.legger@cern.ch)
+
 
 
 
