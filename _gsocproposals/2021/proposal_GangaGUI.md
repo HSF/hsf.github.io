@@ -11,7 +11,7 @@ organization:
 ## Description
 The amount of data that is processed by individual scientists has grown hugely in the past decade. It is not unusual for a user to have data processed on tens of thousands of processors with these located at tens of different locations across the globe. The Ganga user interface was created to allow for the management of such large calculations. It helps the user to prepare the calculations, submitting the tasks to a resource broker, keeping track of which parts of the task that has been completed, and putting it all together in the end.
 
-In addition to the ubiquitous command line interface, there exists a web based graphical user interface (GUI) to ganga. The basic functionality of the GUI is there but it requires further development to include the correct information and to work in an intuitive way for users. 
+In addition to the ubiquitous command-line interface, there exists a web-based graphical user interface (GUI) to Ganga. The basic functionality of the GUI is there but it requires further development to include the correct information and to work in an intuitive way for users. 
 
 ## Task ideas
  * Understand the existing GUI code.
