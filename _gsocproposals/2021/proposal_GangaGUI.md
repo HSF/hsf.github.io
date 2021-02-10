@@ -33,7 +33,7 @@ Linux command line experience
 ## Mentors 
   * [Alex Richards](mailto:a.richards@imperial.ac.uk)
   * [Mark Smith](mailto:mark.smith1@imperial.ac.uk)
-  * [Ulrik Egede](mailto:ulrik.egede@monash.edu)
+  * **[Ulrik Egede](mailto:ulrik.egede@monash.edu)**
 
 ## Links
   * [Ganga](https://github.com/ganga-devs/ganga)
