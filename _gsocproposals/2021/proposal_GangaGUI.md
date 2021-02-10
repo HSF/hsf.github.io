@@ -22,7 +22,7 @@ In addition to the ubiquitous command line interface, there exists a web based g
 Have a modern web application layer over the Ganga interface to act as a GUI capable and is  capable of carrying out the same tasks users could do with the command line interface.
 
 ## Evaluation Task
-Interested students please contact [Ulrik](ulrik.egede@monash.edu) to ask questions and for an evaluation task.
+Interested students please contact Ulrik (see contact below) to ask questions and for an evaluation task.
 
 ## Requirements
 Python programming

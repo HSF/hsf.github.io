@@ -23,7 +23,7 @@ The scale of the computations submitted through the interface are placing increa
 A user interface where the user will have better infromation on why part of their task is failing to execute and make it easier to deal ith these failures in a programmatic way. 
 
 ## Evaluation Task
-Interested students please contact [Ulrik](ulrik.egede@monash.edu) to ask questions and for an evaluation task.
+Interested students please contact Ulrik (see contact below) to ask questions and for an evaluation task.
 
 ## Requirements
 Python programming
