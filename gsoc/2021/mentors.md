@@ -15,15 +15,16 @@ layout: plain
 * Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) UofGlasgow
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
+* Gabriele Gaetano Fronzè [gabriele.fronze@to.infn.it](mailto:gabriele.fronze@to.infn.it) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
 * Lukas Hirt [lhirt@owncloud.com](mailto:lhirt@owncloud.com) ownCloud
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
+* Federica Legger [federica.legger@cern.ch](mailto:federica.legger@cern.ch) INFN
 * Javier Lopez-Gomez [j.lopez@cern.ch](mailto:j.lopez@cern.ch) CERN
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) UCLouvain
-* Serhan Mete [alaettin.serhan.mete@cern.ch](mailto:alaettin.serhan.mete@cern.ch) ANL
 * Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
 * Krishnan Raghavan [krishnan.raghavan@cern.ch](mailto:krishnan.raghavan@cern.ch) CERN
 * Stefan Roiser [stefan.roiser@cern.ch](mailto:stefan.roiser@cern.ch) CERN
@@ -31,3 +32,9 @@ layout: plain
 * Alex Unger [aunger@owncloud.com](mailto:aunger@owncloud.com) ownCloud
 * Michael Usher [michael.usher@aarnet.edu.au](mailto:michael.usher@aarnet.edu.au) AARNet
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
+
+
+
+
+
+
