@@ -1,5 +1,5 @@
 ---
-title: PRMON - Develop Logging Implementation For Process Monitor
+title: PRMON - Develop Logging and Unit Test Infrastructure For PRMON
 layout: gsoc_proposal
 project: HSF
 year: 2021
