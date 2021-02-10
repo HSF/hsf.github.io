@@ -188,5 +188,5 @@ AOB
     -   Dan Katz has been a driver behind this and it looks like it
         would be well worth investigating and helping to promote.
     -   A future evolution of
-        [*http://hepsoftware.org/*](http://hepsoftware.org/) could go
+        http://hepsoftware.org/ could go
         this way?

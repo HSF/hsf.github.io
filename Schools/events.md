@@ -1,6 +1,12 @@
 ---
 layout: plain
-title: Schools for HSF Training
+title: HEP Software Training Events
 ---
 
-{% include list_of_schools.md %}
+## Current and Upcoming Training Events
+
+{% include list_of_upcoming_schools.md %}
+
+## Past Events
+
+{% include list_of_past_schools.md %}

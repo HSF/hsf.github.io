@@ -1,0 +1,6 @@
+<!-- badges for educator roles -->
+<ul class="list-inline">
+{% for role in person.training_roles %}
+<li><span class="badge badge-secondary">{{ role | capitalize }}</span></li>
+{% endfor %}
+</ul>

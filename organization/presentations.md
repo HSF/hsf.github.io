@@ -5,6 +5,22 @@ layout: default
 
 # HSF Presentations
 
+## 2021
+
+* [The HSF landscape - recent activities &amp; plans](https://indico.cern.ch/event/976081/contributions/4149153/attachments/2171368/3665976/EduardoRodrigues_2021-01-14_SWIFT-HEP.pdf), [SWIFT-HEP/Excalibur-HEP workshop](https://indico.cern.ch/event/976081/), 14 January 2021, Eduardo Rodrigues
+* [HSF Community Overview](https://indico.jlab.org/event/420/contributions/7595/attachments/6350/8412/HSF%20Roundtable%202021-01.pdf), [Nucleal Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Graeme A Stewart
+* [HSF - Python and PyHEP](https://indico.jlab.org/event/420/contributions/7596/attachments/6353/8415/EduardoRodrigues-HSF-2021-01-12.pdf), [Nucleal Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Eduardo Rodrigues
+* [HSF Training](https://indico.jlab.org/event/420/contributions/7597/attachments/6352/8417/HSF_Training_SoftCompRoundTable_12Jan_2021.pdf), [Nucleal Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Sudhir Malik
+
+## 2020
+
+* [HSF PyHEP WG and the PyHEP 2020 workshop](https://indico.bnl.gov/event/9122/contributions/40797/attachments/30133/47071/EduardoRodrigues_2020-08-26_PyHEP.pdf), [Electron-Ion Collider Software Seminar](https://indico.bnl.gov/event/9122/), 26 August 2020, Eduardo Rodrigues
+* [The View (on end-user analysis) from HSF](https://indico.fnal.gov/event/43829/contributions/193756/), [Snowmass Computational Frontier Kickoff Workshop](https://indico.fnal.gov/event/43829/), 10 August 2020, Teng Jian Khoo
+* [Meeting Future Software Challenges in High-Energy Physics](https://indico.stfc.ac.uk/event/187/attachments/341/554/RAL_Software_Seminar_Graeme.pdf), [Rutherford
+Appleton Lab Particle Physics Division Serminar](https://indico.stfc.ac.uk/event/187/), 22 July 2020, Graeme A Stewart
+* [International efforts on efficient computing - HEP Software Foundation](https://indico.ph.ed.ac.uk/event/66/contributions/819/attachments/675/817/ECHEP_HSF_Talk.pdf),
+[Efficient Computing in HEP Workshop](https://indico.ph.ed.ac.uk/event/66/), Edinburgh, 17 February 2020, Graeme A Stewart
+
 ## 2019
 
 * [HSF Update](/assets/MJ-WLCG_OB-2019-06-12.pdf), WLCG Overview Board, 12 June 2019, Michel Jouvin

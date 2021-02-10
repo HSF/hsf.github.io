@@ -1,12 +1,17 @@
 .jekyll-metadata
 _site
 Gemfile.lock
+node_modules/
+package-lock.json
+package.json
 
 # Eclipse
 .project
 
-# PyCharm
+# Python 
 .idea/
+*.pyc
+**/__pycache__/**
 
 # Visual Studio Code
 .vscode/*
@@ -21,4 +26,4 @@ vendor/
 
 # common editor backups
 *~
-
+*.swp

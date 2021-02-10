@@ -31,7 +31,7 @@ time to submit a logo proposal.
 We had a session dedicated to some of the HSF SW projects and related initiatives
 * [AIDA2020 WP3](http://aida2020.web.cern.ch/activities/wp3-advanced-software): the software work package of the EU-funded project about detector R&D. AIDA2020 expressed that they want to put their development under the HSF umbrella.
 * [Next Generation Conditions Database](https://github.com/HSF/PhysCondDB): a project started jointly by CMS and ATLAS that is becoming attractive to others. This project benefits from the collaborative spirit resulting from the HSF.
-* [The HEP Software and Computing Knowledge Base](http://hepsoftware.org/): this is a project started by the HSF to facilitate software sharing. It is easy to use and allows crosslinking of software, experiments, organisations, events... **Register your favorite software!**
+* The HEP Software and Computing Knowledge Base: this is a project started by the HSF to facilitate software sharing. It is easy to use and allows crosslinking of software, experiments, organisations, events... **Register your favorite software!**
 * [WikiToLearn](https://en.wikitolearn.org/Main_Page): a new platform allowing the sharing and improving of training materials through collaboration between authors and users. Developed in Italy (University of Milano), its developers are committed to making it useful for, and usable by the HSF.
 * [DIANA-HEP](http://diana-hep.org/) (Data Intensive Analysis for HEP): a NSF-funded project to promote common analysis tools for data intensive research in HEP, using ROOT at its core. This US project shares many goals with the HSF.
 
@@ -143,11 +143,11 @@ progress accomplished in the last year, yielding an increasing motivation.
 In addition to the initiatives already mentioned and the follow-up of existing 
 activities, the main actions agreed for the coming year are: 
 
-* HSF communication: explore the use of StackExchange, a well-identified open forum, for questions about HEP computing
-   * At some point it may become an attractive alternative for (some) mailing-list based forums in HSF
-* Increase software project support, develop project peer-review activity
-* Look for an official blessing of the HSF by bodies like ECFA/ICFA
-* Find some dedicated resources for the HSF work (currently best effort by motivated people on their "spare" time!). A proposal of creating HSF Centers in our laboratories/universities/institutions has been made: this could become visible parts of HSF hosted by various parties.
+* HSF communication: explore the use of StackExchange, a well-identified open forum, for questions about HEP computing
+  * At some point it may become an attractive alternative for (some) mailing-list based forums in HSF
+* Increase software project support, develop project peer-review activity
+* Look for an official blessing of the HSF by bodies like ECFA/ICFA
+* Find some dedicated resources for the HSF work (currently best effort by motivated people on their "spare" time!). A proposal of creating HSF Centers in our laboratories/universities/institutions has been made: this could become visible parts of HSF hosted by various parties.
 
 We also discussed (again!) the possibility of a legal entity to support HSF. Despite not reaching a consensus yet, we agreed to further explore the possibility with funding agencies and lawyers. The general idea was that this entity, if created, should focus initially on IPR management, in a way similar to the Apache Software Foundation, to make possible IPR transfer.
 

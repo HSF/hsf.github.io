@@ -22,10 +22,12 @@ in High Energy Physics software and computing internationally.
 <hr>
 
 <!-- Important announcements from announcements/_posts -->
+  {% assign has_announcements = false %}
   {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
   {% for post in site.categories.announcements reversed %}
     {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
     {% if stopdate > sitedate %}
+    {% assign has_announcements = true %}
 <div class="row alert alert-warning">
   <p class="lead event-announce">
     <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }} (<a href="{{ post.link }}">more info</a>)
@@ -34,7 +36,9 @@ in High Energy Physics software and computing internationally.
     {% endif %}
   {% endfor %}
 
+{% if has_announcements %} 
 <hr>
+{% endif %}
 
  <!-- Various boxes with more information -->
 <div class="row">
@@ -42,8 +46,8 @@ in High Energy Physics software and computing internationally.
  <div class="col-lg-4">
   <h2>Meetings</h2>
     <p>
-      The HSF holds <a href="/future-events.html">regular meetings</a>
-      in its activity areas and has weekly coordination meetings as well.
+      The HSF holds <a href="/future-events.html" target="_hsf_indico">regular meetings</a>
+      in its activity areas and has bi-weekly coordination meetings as well.
       All of our meetings are open for everyone to join.
     </p>
     <ul class="list list-simple">
@@ -52,27 +56,22 @@ in High Energy Physics software and computing internationally.
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
     </ul>
-    <p><a href="/future-events.html" role="button">Upcoming HSF events &raquo;</a></p>
+    <p><a href="/future-events.html" role="button">Upcoming HSF and community events &raquo;</a></p>
     <p><a href="/organization/minutes.html" role="button">Full list of past meetings &raquo;</a></p>
   </div>
 
 
  <div class="col-lg-4">
-  <h2>EPPSU</h2>
-    <p>
-      HSF has been contributing to the 
-      <a href="https://europeanstrategyupdate.web.cern.ch">European Strategy Update</a> process,
-      emphasising the importance of software for the field.
-    </p>
-    <img src="/images/others/eppsu.png"
-    alt="EPPSU logo" style="display: block; width:40%; margin-left: auto; margin-right: auto;">
-    <p>
-      As well as our <a href="https://zenodo.org/record/2413005">input paper</a>
-      we had substantial contributions to the <a href="https://indico.cern.ch/event/808335/contributions/3367988/">Software R&amp;D talk</a> at
-      the Granada workshop and the 
-      <a href="https://indico.cern.ch/event/577856/contributions/3467633/">Computing and Software Challenges</a> talk at the ECFA session
-      of EPS-HEP in Ghent.
-    </p>
+  <h2>HSF in GSoC 2021</h2>
+  <p>
+    The HSF will once again participate in the Google Summer of Code this year. We'll be offering
+    great students across the globe the chance to participate in software projects connected
+    with the world's largest scientific experiments.
+  </p>
+  <img src="/images/GSoC/GSoC-icon-192.png"
+  alt="GSoC-logo" style="display: block; width:55%; margin-left: auto; margin-right: auto;">
+  <p>Have a look at our <a href="/activities/gsoc.html">GSoC page</a> to find out how to participate
+  as a student or how to propose a project for GSoC 2021.</p>
  </div>
 
 
@@ -81,9 +80,8 @@ in High Energy Physics software and computing internationally.
     	<p>We organise many activities, from our <a href="/what_are_WGs.html">working groups</a>,
           to organising <a href="/events.html">events</a>, to supporting projects as
           <a href="/projects.html">HSF projects</a>, and helping communication within the
-          community through our  <a href="/forums.html">discussion forums</a>,
-          <a href="/technical_notes.html">technical notes</a> and a
-          <a href="http://www.hepsoftware.org/">knowledge base</a>.
+          community through our  <a href="/forums.html">discussion forums</a>
+          and <a href="/technical_notes.html">technical notes</a>.
           </p>
    <p><a href="/get_involved.html" role="button">How to get involved &raquo;</a></p>
        </div>

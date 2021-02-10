@@ -24,8 +24,13 @@ or send an email to [hsf-generator-wg+subscribe@googlegroups.com](mailto:hsf-gen
 
 - WG meetings and Computing Workshop organization:
 indico [category](https://indico.cern.ch/category/8460)
-- Generator document current draft
+
+#### Publications
+- [Challenges in Monte Carlo event generator software for High-Luminosity LHC](https://arxiv.org/abs/2004.13687)
+- [HL-LHC Computing Review: Common Tools and Community Software](https://zenodo.org/record/3779250)
+- Generator document ("proceedings") current draft
 in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
+
 
 #### Older resources (2019)
 
@@ -55,16 +60,19 @@ on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-C
 
 ## Convenors
 
-#### Current convenors
+#### Current conveners
+
+{% assign persons = "Josh McFayden, Andrea Valassi, Efe Yazgan" | split: ", " %}
+{% include list_of_selected_profiles.html %}
 
 - Andrea Valassi (2018-2020)
 - Efe Yazgan (2020)
 - Josh McFayden (2018-2020)
 
-All convenors can be reached via <hsf-generator-wg-convenors@googlegroups.com>.
+All conveners can be reached via <hsf-generator-wg-convenors@googlegroups.com>.
 
 #### Former convenors
 
-- Stefan Hoeche (2018-2019)
-- Steve Mrenna (2018-2019)
-- Taylor Childers (2018-2019)
+- Stefan Hoeche, 2018-2019
+- Steve Mrenna, 2018-2019
+- Taylor Childers, 2018-2019

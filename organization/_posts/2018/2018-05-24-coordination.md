@@ -87,7 +87,7 @@ HSF/WLCG Workshop Follow-up
 ===========================
 -   Practical follow ups at the HSF level
     -   Inventory of community activities
-        -   [http://www.hepsoftware.org/](http://www.hepsoftware.org/)
+        -   http://www.hepsoftware.org/
             is dormant - do we need a new "technology" (for example, a
             graph database may look as an attractive technology)? But
             re-use the information for sure. Link this to Sudhir's

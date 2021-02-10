@@ -60,3 +60,6 @@ layout: plain
 * Mike Williams [mwill@mit.edu](mailto:mwill@mit.edu) Massachusetts Institute of Technology
 * Stefan Wunsch [sft-gsoc@cern.ch](mailto:sft-gsoc@cern.ch) Karlsruhe Institute of Technology
 * Omar Zapata [Omar.Zapata@cern.ch](mailto:Omar.Zapata@cern.ch) ITM 
+* Nikola Hardi [nhardi@cern.ch](mailto:nhardi@cern.ch) CERN
+* Costin Grigoras [costing@cern.ch](mailto:costing@cern.ch) CERN
+* Maksim Storetvedt [maksim.melnik.storetvedt@cern.ch](mailto:maksim.melnik.storetvedt@cern.ch) CERN

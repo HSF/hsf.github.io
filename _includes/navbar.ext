@@ -12,16 +12,6 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">Activities<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="activities_menu">
-                 <li><a href="/events.html">Events &amp; Workshops</a></li>
-                 <li class="divider"></li>
-                 {% for activity in site.activities %}
-                   <li><a href="{{ activity.url }}">{{ activity.title }}</a></li>
-                 {% endfor %}
-               </ul>
-            </li>
-            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu">Working Groups<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
                   <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
@@ -32,18 +22,41 @@
                </ul>
             </li>
             <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 {% for activity in site.activities %}
+                   <li><a href="{{ activity.url }}">{{ activity.title }}</a></li>
+                 {% endfor %}
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu">Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 {% for meeting in site.meetings %}
+                   <li><a href="{{ meeting.url }}">{{ meeting.title }}</a></li>
+                 {% endfor %}
+               </ul>
+            </li>
+            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu">Communication<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
-                  <li><a href="https://calendar.google.com/calendar/embed?src=e4v33e1a1drbncdle1n03ahpcs%40group.calendar.google.com&ctz=Europe/Amsterdam">Community Calendar</a></li>
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
                   <li><a href="/Schools/events.html">Training Schools</a></li>
                   <li class="divider"></li>
                   <li><a href="/forums.html">Mailing Lists and Forums</a></li>
-                  <li><a href="/technical_notes.html">Technical Notes</a></li>
                   <li><a href="/organization/minutes.html">Meeting Notes</a></li>
-                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
                   <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+                  
                   <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
-                  <li><a href="http://www.hepsoftware.org">HEP S&amp;C Knowledge Base</a></li>
                 </ul>
             </li>
             <li class="dropdown">
@@ -61,11 +74,13 @@
               <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu">About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="about_menu">
                 <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
                 <li class="divider"></li>
                 <li><a href="/organization/goals.html">Goals of the HSF</a></li>
                 <li><a href="/organization/cwp.html">Community White Paper</a></li>
-                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
                 <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
                 <li class="divider"></li>
                 <li><a href="/howto-website.html">Website Howto</a></li>
               </ul>

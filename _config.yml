@@ -33,9 +33,18 @@ collections:
   gsdocs-proposals:
     output: true
     permalink: /gsdocs/:path.html
+  meetings:
+    output: true
+    permalink: /meetings/:title.html
   workinggroups:
     output: true
     permalink: /workinggroups/:title.html
+  training:
+    output: true
+    permalink: /training/:path.html
+  profiles:
+    output: true
+    permalink: /profiles/:path.html
 
 docs:
   url: https://github.com/HSF/documents/blob/master

@@ -19,7 +19,7 @@ The proposed project would be to develop a suite of HEP analysis primitive funct
 We propose the following steps:
 
  * given a collection of real-world analysis scripts and explanations of their purpose, distill the common techniques into components that can be composed;
- * express these components in frameworks like [Object-Array Mapping](https://github.com/diana-hep/oamap), which allows rapid exchange between object-oriented views and vectorizable-array views of the same data, or [Histogrammar](http://histogrammar.org), which builds plots by composition, or a new, similar infrastructure;
+ * express these components in frameworks like [Object-Array Mapping](https://github.com/diana-hep/oamap), which allows rapid exchange between object-oriented views and vectorizable-array views of the same data, or [Histogrammar](https://pypi.org/project/histogrammar/), which builds plots by composition, or a new, similar infrastructure;
  * demonstrate that the original analysis code can be expressed as compositions of these components, hopefully reducing complexity and improving readability;
  * run performance tests on the original and re-expressed scripts, hopefully observing an improvement.
 
@@ -41,4 +41,4 @@ At the end of this project, we expect a first draft of a functional/pipelined/ve
 ## Links
 
   * [Object-Array Mapping](https://github.com/diana-hep/oamap)
-  * [Histogrammar](http://histogrammar.org)
+  * [Histogrammar](https://pypi.org/project/histogrammar/)

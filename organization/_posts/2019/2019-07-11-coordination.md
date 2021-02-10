@@ -116,8 +116,8 @@ Update slides [<span class="underline">attached to agenda</span>](https://indico
 #### Planned meetings
   - Next week (July 17th): joint discussion on partial event building
     for real-time analysis within Institut Pascal
-    [<span class="underline">“Learning To Discover”
-    workshop</span>](https://www.universite-paris-saclay.fr/fr/real-time-workshop)
+    <span class="underline">“Learning To Discover”
+    workshop</span> https://www.universite-paris-saclay.fr/fr/real-time-workshop
     (agenda tba today)
   - July 31st: [<span class="underline">joint ACTS
     meeting</span>](https://indico.cern.ch/event/830160/)
@@ -177,8 +177,7 @@ Update slides [<span class="underline">attached to agenda</span>](https://indico
     announcement email will be sent next Monday or Tuesday at the
     latest.  
     \- Workshop taking place in the UK, at
-    [<span class="underline">The Cosener’s
-    House</span>](https://www.thecosenershouse.co.uk/), Abingdon.  
+    The Cosener’s House, Abingdon.  
     \- Will run 2.5 days, October 16-18.  
     \- We welcome input and suggestions from the HSF already at this
     stage.  

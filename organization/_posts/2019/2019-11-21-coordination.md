@@ -233,9 +233,6 @@ Sexton-Kennedy</span>
             public park.</span>
       - <span dir="ltr">Full description of two locations here:
         [<span class="underline">https://docs.google.com/document/d/1lLLA4NqyCa5MpYJVseflX-LiHwKFu3CvDp5j\_83PgAM/edit?usp=sharing</span>](https://docs.google.com/document/d/1lLLA4NqyCa5MpYJVseflX-LiHwKFu3CvDp5j_83PgAM/edit?usp=sharing)</span>
-      - <span dir="ltr">Maybe we can have a show-of-hands here as
-        well?</span>
-          - <span dir="ltr">[<span class="underline">https://indico.cern.ch/event/860332/</span>](https://indico.cern.ch/event/860332/)</span>
       - <span dir="ltr">Opinions to:
         [<span class="underline">wlcg-hsf-workshop-2020-organisation@cern.ch</span>](mailto:wlcg-hsf-workshop-2020-organisation@cern.ch)</span>
 

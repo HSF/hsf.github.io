@@ -35,11 +35,44 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 {:.table .table-hover .table-condensed .table-striped}
 | *Workshop* | *Location*             | *Date*               | *Agenda link*                                                                 |
 | ---------- | ---------------------- | ---------------------| ----------------------------------------------------------------------------- |
-| PyHEP 2020 | Austin, Texas, U.S.A.  | July 11-13, 2020     |      |
+| PyHEP 2020 | Virtual workshop       | July 13-17, 2020     | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}     |
 | PyHEP 2019 | Abingdon, U.K.         | October 16-18, 2019  | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}     |
 | PyHEP 2018 | Sofia, Bulgaria        | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
 
 The advert and details on these workshops are given below.
+
+## PyHEP 2020
+
+PyHEP 2020 will be held as a *virtual* workshop on 13-17 July 2020.
+The workshop was meant to take place in the same city as the [SciPy 2020](https://www.scipy2020.scipy.org/){:target="_scipy2020"}
+conference on scientific computing in Python, and slightly overlap in time with it,
+to facilitate inter-community exchanges.
+Both events are now virtual because of the worldwide COVID-19 pandemic.
+We encourage HEP participation in SciPy.
+
+The PyHEP 2020 [agenda](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}
+will be composed of plenary sessions; the content is under preparation.
+
+### Organising Committee
+
+Ben Krikler - University of Bristol (Co-chair)<br>
+Eduardo Rodrigues - University of Cincinnati (Chair)<br>
+Jim Pivarski - Princeton University (Co-chair)<br>
+Matthew Feickert - University of Illinois at Urbana-Champaign
+
+**Local organisation**<br>
+Chris Tunnell - Rice University<br>
+Peter Onyisi - The University of Texas at Austin
+
+### Sponsors
+
+The event is kindly sponsored by
+
+![IRIS-HEP](/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![UoL](/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
+![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
+![SSI](/images/pyhep/SSI_logo.png){:height="60px"}
+![SSI](/images/pyhep/FNAL_logo.png){:height="50px"}
 
 ## PyHEP 2019
 
@@ -78,7 +111,7 @@ The first workshop, **PyHEP 2018**, was held as a pre-CHEP event in Sofia, Bulga
 The workshop was a forum for the participants, representatives of the community, to discuss topics around the areas of work identified in the HSF [Community White Paper](/activities/cwp.html). There was ample time for discussion.
 
 A keynote presentation on [JupyterLab](http://jupyterlab.readthedocs.io/){:target="_pyhep2018_jupyterlab"}
-was given by [Vidar Tonaas Fauske](https://www.simula.no/people/vidar){:target="_pyhep2018_vidar"}.
+was given by Vidar Tonaas Fauske.
 
 The [agenda](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"} was composed of plenary sessions dedicated to the following topics:
 
@@ -110,5 +143,5 @@ The event was kindly sponsored by
 
 # Previous conveners
 
-- 2019 - Chris Tunnell (XENON1T)
-- 2018 - Graeme Stewart (CERN EP-SFT)
+- Chris Tunnell (XENON1T), 2019
+- Graeme Stewart (CERN EP-SFT), 2018
