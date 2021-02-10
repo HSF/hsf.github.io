@@ -60,7 +60,7 @@ help make prmon more robust against unexpected inputs.
 ## Mentors
 
  * [Graeme A Stewart](mailto:graeme.andrew.stewart@cern.ch)
- * [Serhan Mete](mailto:alaettin.serhan.mete@cern.ch)
+ * [**Serhan Mete**](mailto:alaettin.serhan.mete@cern.ch)
 
 ## Links
 
