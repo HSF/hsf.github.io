@@ -11,7 +11,7 @@ organization:
 ## Description
 The amount of data that is processed by individual scientists has grown hugely in the past decade. It is not unusual for a user to have data processed on tens of thousands of processors with these located at tens of different locations across the globe. The Ganga user interface was created to allow for the management of such large calculations. It helps the user to prepare the calculations, submitting the tasks to a resource broker, keeping track of which parts of the task that has been completed, and putting it all together in the end.
 
-The scale of the computations submitted through the interface are placing increasing constraints on the system. When a given computational task is split up into maybe thousands of individual pieces, even a failure rate of one percent means many failures that have to be dealt with in a computational way. The aim of the project is to improve on the error reporting from individual computations and improve on the ability to recover from errors in a programmatic way.
+The scale of the computations submitted through the interface is placing increasing constraints on the system. When a given computational task is split up into maybe thousands of individual pieces, even a failure rate of one percent means many failures that have to be dealt with in a computational way. The aim of the project is to improve on the error reporting from individual computations and improve on the ability to recover from errors in a programmatic way.
 
 ## Task ideas
  * Collect the different wrapper scripts that are running to manage the jobs on different computational backends.
