@@ -38,7 +38,9 @@ Bash, Python (C++ optional but appreciated), familiar with Linux environment (bo
 
 ## Mentors
   * [Federica Legger](mailto:federica.legger@cern.ch)
-  * [Gabriele Gaetano Fronzé](mailto:gabriele.fronze@to.infn.it)
+  * **[Gabriele Gaetano Fronzé](mailto:gabriele.fronze@to.infn.it)**
+
+
 
 ## Links
   * [OpenForBC](https://hackmd.io/@gfronze/r1j6FIb9U)
