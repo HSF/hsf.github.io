@@ -6,18 +6,18 @@ layout: plain_toc
 
 ## Preamble
 
-*In the first few meetings of 2021 the HSF established some high-level
+* In the first few meetings of 2021 the HSF established some high-level
 plans and goals for 2021. While none of these are cast in stone, we
 remain agile to adapt to new opportunities and circumstances throughout
 the year, they are a useful guide to our activities.*
 
-*We encourage experiments and projects to take a look at these and
+* We encourage experiments and projects to take a look at these and
 we welcome any suggestions about how to make the HSF more effective
 and useful for HEP.*
 
 ## Overall Activity and Coordination
 
-*Reference: 7 January 2021 [slides](https://indico.cern.ch/event/981562/contributions/4134317/attachments/2167697/3693851/HSF%202020-2021%20Review%20and%20Planning.pdf) 
+* Reference: 7 January 2021 [slides](https://indico.cern.ch/event/981562/contributions/4134317/attachments/2167697/3693851/HSF%202020-2021%20Review%20and%20Planning.pdf) 
 and [meeting minutes](/organization/2021/01/07/coordination.html).*
 
 ### Meeting Series
@@ -36,7 +36,7 @@ and [meeting minutes](/organization/2021/01/07/coordination.html).*
 
 ### Organisational Engagement
 
-* We already have quite a long list of organisations with which we have a link or some engagement (see slide 11).
+* We already have quite a long list of organisations with which we have a link or some engagement (see slide 11 of the presentation above).
   * Keep this up and be alert for additional opportunities.
   * In particular in the next ~year the Snowmass process will be important (this has been delayed by a year).
 
@@ -123,7 +123,7 @@ Besides these, we discussed commonalities with Training WG. One question: how mu
 
 * Establish closer link to training group, expanding from pure technical training
   *  e.g.: general introduction to HEP triggers and reconstruction and introduction to the methods used; can training be done on little demonstrators:
-    *  ALLEN demonstrator of mixing CPU/GPU algorithm
+    *  ALLEN demonstrator of multi-event scheduling framework for GPUs, allowing to interleave host(CPU) and device(CPU / AMD GPU / Nvidia GPU) algorithms, where the device type is chosen at compile time (same source code for all device types)
     *  Patatrack, ACTS etc. on OpenDataDetector
 * Help integrating common packages into turn-key demonstrator projects
   * natural connection: CERN EP-R&D turn-key  (Key4hep)
@@ -141,7 +141,7 @@ Besides these, we discussed commonalities with Training WG. One question: how mu
 * **PyHEP 2021 workshop:**
   * Date to be decided. Likely just after SciPy 2021, which takes place as a virtual event on July 12-18.
 * **Topical meetings:**
-  * Remember that we will do a kind of "Python module of the month", by default the first Wednesday of each month at 16h CET.
+  * We are running this year a kind of "Python module of the month" meeting, by default the first Wednesday of each month at 16h CET.
   * Topics so far confirmed are, see [Indico](https://indico.cern.ch/category/11412/):
     * Feb 3rd: Numba, by Jim Pivarski.
     * March 3rd: JAX, by Hans Dembinski.
