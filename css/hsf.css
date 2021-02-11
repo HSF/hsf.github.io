@@ -4,6 +4,20 @@
  * Globals
  */
 
+p {
+font-family: Helvetica, sans-serif;
+}
+H1 {
+font-family: Helvetica, sans-serif;
+}
+H2 {
+font-family: Helvetica, sans-serif;
+}
+H3 {
+font-family: Helvetica, sans-serif;
+}
+
+
 /*
  * Override Bootstrap's default container.
  */

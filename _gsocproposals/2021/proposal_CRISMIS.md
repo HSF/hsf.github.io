@@ -1,7 +1,7 @@
 ---
 title: Cosmic-Ray Imaging Studies via Mission-Imagery from Space (CRISMIS)
 layout: gsoc_proposal
-project: CMS
+project: CRISMIS
 year: 2021
 organization:
   - Alabama
