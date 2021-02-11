@@ -23,7 +23,7 @@ and [meeting minutes](/organization/2021/01/07/coordination.html).*
 ### Meeting Series
 
 * Continue with regular [coordination meetings](/meetings/coordination.html) every 2 weeks (on the odd-numbered weeks of the year by default).
-* Monthly [*Software and Computing Roundtable*](/meetings/roundtable.html) is an ideal place to speak to the Nuclear Physics community (BNL and JLab co-organise), but we should make sure the series is known to not be only NP and is more widely known.
+* Monthly [*Software and Computing Roundtable*](/meetings/roundtable.html) is an ideal place to speak to the Nuclear Physics community (BNL and JLab co-organise), but we should make sure the more widely known and undeline that it is not just for Nuclear Physics colleagues.
 * Also monthly, the [Compute Accelerator Forum](/meetings/compute-accelerator-forum.html) made a very good start last year and attracts a lot of interest - good that it's co-organised with SIDIS and openlab.
 
 ### Workshops
