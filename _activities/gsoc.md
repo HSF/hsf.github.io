@@ -8,14 +8,12 @@ layout: default
 
 ## Introduction
 
-[Google Summer of Code](https://summerofcode.withgoogle.com) is a program that allows students to contribute to the development of open-source projects, mentored by participating organizations.
+In 2021 ML4SCI is participating in the program as a GSoC umbrella organization.
+The ML4SCI organization has partnered with the [Google Summer of Code](https://summerofcode.withgoogle.com) in 2021 to broaden student participation in machine learning projects over a wide variety of scientific fields.
+ML4SCI participants will be mentored by scientists at top research universities and laboratories on research projects at the cutting edge of science.
+Projects span a wide range of scientific domains, including physics, astronomy, planetary science, quantum information science and others.
 
 
-### GSoC 2021
-
-In 2021 ML4SCI is participating in the program as a GSoC umbrella organization. Project proposals will be added until mid February and are listed [below](#projects-in-2021). There are important changes in the [program rules](https://summerofcode.withgoogle.com/rules/)  and the [timeline](https://summerofcode.withgoogle.com/how-it-works/) compared to the previous year, described in the GSoC 2021 [announcement](https://groups.google.com/g/google-summer-of-code-discuss/c/GgvbLrFBcUQ). Most notably, the student project duration has been halved (175 hours instead of 350).
-
-The 2021 GSoC edition extended the student eligibility criteria. Due to the large number of candidates in 2020 and an expected increase for this year, the selection process in our organization will be split in two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. Only the successful candidates will be able to engage in a personalized exchange with mentors on a given project idea, and their proposals will be evaluated for the final student selection. The detailed [timeline](/activities/gsoc.html#timeline) of these phases is shown below.
 
 ### For Students
 
