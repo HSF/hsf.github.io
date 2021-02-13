@@ -34,4 +34,4 @@ C++, CMake, python
 * [Lydia Brenner](mailto:lydia.brenner@cern.ch)
 * [Tim Adye](mailto:T.J.Adye@rl.ac.uk)
 * [Carsten Burgard](mailto:carsten.burgard@cern.ch)
-* [Pim verschuuren](pim.verschuuren@rhul.ac.uk)
+* [Pim verschuuren](mailto:pim.verschuuren@rhul.ac.uk)
