@@ -36,7 +36,11 @@ layout: plain
 * Alex Unger [aunger@owncloud.com](mailto:aunger@owncloud.com) ownCloud
 * Michael Usher [michael.usher@aarnet.edu.au](mailto:michael.usher@aarnet.edu.au) AARNet
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
-
+* Vincent Croft [vincent.croft@cern.ch](mailto:vincent.croft@cern.ch) Tufts
+* Lydia Brenner [lydia.brenner@cern.ch](mailto:lydia.brenner@cern.ch) CERN
+* Tim Adye [T.J.Adye@rl.ac.uk](mailto:T.J.Adye@rl.ac.uk) Rutherford Appleton Laboratory
+* Carsten Burgard [carsten.burgard@cern.ch](mailto:carsten.burgard@cern.ch) DESY
+* Pim verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
 
 
 
