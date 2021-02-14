@@ -30,8 +30,8 @@ Working implementation of a new C++ base class that is optimised for usage with 
 C++, CMake, python
 
 ## Mentors
-* [**Vincent Croft**](mailto:vincent.croft@cern.ch)
-* [Lydia Brenner](mailto:lydia.brenner@cern.ch)
 * [Tim Adye](mailto:T.J.Adye@rl.ac.uk)
+* [Lydia Brenner](mailto:lydia.brenner@cern.ch)
 * [Carsten Burgard](mailto:carsten.burgard@cern.ch)
+* [**Vincent Croft**](mailto:vincent.croft@cern.ch)
 * [Pim verschuuren](mailto:pim.verschuuren@rhul.ac.uk)
