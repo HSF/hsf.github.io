@@ -93,13 +93,13 @@ Besides these, we discussed commonalities with Training WG. One question: how mu
 ### Detector Simulation
 
 * Topics and cross-group areas:
-  * Simulation for liquid noble gas detectors (covering both neutrino and dark matter experiments)
-  * Use of FLUKA/MARS by experiments
-  * Geometry: e.g. developments/experiences with DD4hep, VecGeom
-  * Dealing with pile-up (possible cross-link with Frameworks, Reconstruction?)
   * Computational challenges in future detectors (e.g. muon colliders)
   * Use of GPUs and similar accelerators
   * Developments in ML for simulation
+  * Simulation for liquid noble gas detectors (covering both neutrino and dark matter experiments)
+  * Geometry: e.g. developments/experiences with DD4hep, VecGeom
+  * Use of FLUKA/MARS by experiments
+  * Dealing with pile-up (possible cross-link with Frameworks, Reconstruction?)
 * Will keep in touch with Geant4 Task Force for R&D to avoid duplication and identify possible joint meetings
 * Further ideas and input very welcome, especially for cross-WG items, e.g.
   * Use of Python with/for Simulation?
