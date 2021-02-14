@@ -10,12 +10,16 @@ layout: plain
 * Samuel Alfageme [samuel.alfageme.sainz@cern.ch](mailto:samuel.alfageme.sainz@cern.ch) CERN
 * John Apostolakis [john.apostolakis@cern.ch](mailto:john.apostolakis@cern.ch) CERN
 * Ishank Arora [ishank.arora@cern.ch](mailto:ishank.arora@cern.ch) CERN
+* Tim Adye [T.J.Adye@rl.ac.uk](mailto:T.J.Adye@rl.ac.uk) Rutherford Appleton Laboratory
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) UWuppertal
 * Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
+* Lydia Brenner [lydia.brenner@cern.ch](mailto:lydia.brenner@cern.ch) CERN
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) UofGlasgow
+* Carsten Burgard [carsten.burgard@cern.ch](mailto:carsten.burgard@cern.ch) DESY
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
+* Vincent Croft [vincent.croft@cern.ch](mailto:vincent.croft@cern.ch) Tufts
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Gabriele Gaetano Fronzè [gabriele.fronze@to.infn.it](mailto:gabriele.fronze@to.infn.it) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
@@ -36,10 +40,6 @@ layout: plain
 * Alex Unger [aunger@owncloud.com](mailto:aunger@owncloud.com) ownCloud
 * Michael Usher [michael.usher@aarnet.edu.au](mailto:michael.usher@aarnet.edu.au) AARNet
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
-* Vincent Croft [vincent.croft@cern.ch](mailto:vincent.croft@cern.ch) Tufts
-* Lydia Brenner [lydia.brenner@cern.ch](mailto:lydia.brenner@cern.ch) CERN
-* Tim Adye [T.J.Adye@rl.ac.uk](mailto:T.J.Adye@rl.ac.uk) Rutherford Appleton Laboratory
-* Carsten Burgard [carsten.burgard@cern.ch](mailto:carsten.burgard@cern.ch) DESY
 * Pim verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
 
 
