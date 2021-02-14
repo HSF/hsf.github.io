@@ -9,7 +9,7 @@ organization:
 ---
 
 ## Description
-[RooUnfold](https://roounfold.web.cern.ch) is a powerful modular analysis tool is for the unfolding (AKA "deconvolution" or "unsmearing") of distributions.
+[RooUnfold](https://roounfold.web.cern.ch) is a powerful modular analysis tool used for the unfolding (AKA "deconvolution" or "unsmearing") of distributions.
 Unfolding is the statistical process in which the 'true' underlying processes that govern the interactions of fundamental forces of the universe are estimated from both simulated and measured data.
 To facilitate these data intensive analyses, RooUnfold is built on the [ROOT](https://root.cern/) Software Framework and is used in the publication of hundreds of LHC analyses every year.
 RooUnfold was designed to provide a common interface for a number of analysis algorithms and was [recently upgraded](https://arxiv.org/abs/1910.14654) to leverage the power of the ROOT statistical modelling package RooFit in order to provide a statistical comparison of the various algorithms.
