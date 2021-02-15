@@ -46,14 +46,14 @@ Interested students please contact Rafal (see contact below) to ask questions an
 
 ## Requirements
 
- *     C
- *     C++
- *     Python
- *     Computer networks
- *     Writing GUIs
- *     Graphs
- *     Git
- *     Knowledge of InfiniBand and RoCE is optional but welcome
+ * C
+ * C++
+ * Python
+ * Computer networks
+ * Writing GUIs
+ * Graphs
+ * Git
+ * Knowledge of InfiniBand and RoCE is optional but welcome
 
 
 ## Mentors
