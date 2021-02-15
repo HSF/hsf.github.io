@@ -21,18 +21,20 @@ Visualising HEP event data is currently typically done per experiment (e.g. [VP1
   * Together with the rest of the Phoenix team, investigate open-source VR menu systems and use the best option to improve the VR experience in Phoenix
   * Improve the dynamic cutting to allow for two cutting planes (so we can have small geometry wedges) 
   * Implement a phi cut widget (for use in the above, but also for standard physics objects)
+  * Implement a calorimeter renderer for ATLAS, which sweep the calorimeter profile around, showing clean closed geometry
   * Investigate support for more HEP geometry systems, such as GeoModel and DD4HEP
   * New visualisation techniques, such as projections into a calorimeter cluster plane
+  * Implement an animation creation UI, keyframing camera position and menu settings, similar to that of VP1. So we could produce an animation of different parts of the detector turning off an on, with a moving camera.
   * Implement better visualisation for compound objects, such as Photons and Muons (i.e. if a Muon is created from Tracks, Clusters etc, should visually link them i.e. with colour)
 
 ## Expected results
-Some UI improvements for both normal views and VR, and possibly some improved core functionality. 
+UI improvements for both normal views and VR, and possibly some improved core functionality. 
 
 ## Requirements
 Angular, Typescript, Web development (GUI design experience and [threejs](https://threejs.org) knowledge a bonus).
 
 ## Mentors
-  * Fawad Ali [m.fawaadali98@gmail.com][mailto:m.fawaadali98@gmail.com]
+  * [Fawad Ali](mailto:m.fawaadali98@gmail.com)
   * [Riccardo Maria Bianchi](mailto:riccardo.maria.bianchi@cern.ch) 
   * [Andreas Salzburger](mailto:andreas.salzburger@cern.ch)
   * **[Edward Moyse](mailto:edward.moyse@cern.ch)**
