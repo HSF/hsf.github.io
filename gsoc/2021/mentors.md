@@ -35,7 +35,8 @@ layout: plain
 * Alex Unger [aunger@owncloud.com](mailto:aunger@owncloud.com) ownCloud
 * Michael Usher [michael.usher@aarnet.edu.au](mailto:michael.usher@aarnet.edu.au) AARNet
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
-
+* Rafal Dominik Krawczyk  [rafal.dominik.krawczyk@cern.ch][mailto:rafal.dominik.krawczyk@cern.ch] CERN
+* Niko Neufeld [niko.neufeld@cern.ch][mailto:niko.neufeld@cern.ch] CERN
 
 
 
