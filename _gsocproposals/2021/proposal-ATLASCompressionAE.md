@@ -54,4 +54,4 @@ An improved autoencoder network with documentation and figures of merit that may
   * [Caterina Doglioni](mailto:caterina.doglioni@cern.ch)
   * [Antonio Boveia](mailto:antonio.boveia@cern.ch)
   * [Baptiste Ravina](mailto:baptiste.ravina@cern.ch)
-  * [Lukas Heinrich] (mailto:lukas.heinrich@cern.ch)
+  * [Lukas Heinrich](mailto:lukas.heinrich@cern.ch)
