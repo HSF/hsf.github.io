@@ -20,7 +20,8 @@ layout: plain
 * Carsten Burgard [carsten.burgard@cern.ch](mailto:carsten.burgard@cern.ch) DESY
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Vincent Croft [vincent.croft@cern.ch](mailto:vincent.croft@cern.ch) Tufts
-* Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
+* Caterina Doglioni [caterina.doglioni@cern.ch](mailto:vincent.croft@cern.ch) Tufts
+* Ulrik Egede [ulrik.egede@monash.edu](mailto:caterina.doglioni@cern.ch) Lund University
 * Gabriele Gaetano Fronzè [gabriele.fronze@to.infn.it](mailto:gabriele.fronze@to.infn.it) INFN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
