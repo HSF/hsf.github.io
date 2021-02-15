@@ -3,7 +3,7 @@ title: Summary of Mentors GSoC 2021
 layout: plain
 ---
 
-**Note for contributors:** entries must be sorted in last name alphabetic order
+**Note for contributors:** entries must be sorted in **last name** alphabetic order
 
 ## Full Mentor List (Name, Email, Org)
 
@@ -32,7 +32,9 @@ layout: plain
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) UCLouvain
 * Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
+* Felice Pantaleo [felice.pantaleo@cern,ch](mailto:felice.pantaleo@cern.ch) CERN
 * Krishnan Raghavan [krishnan.raghavan@cern.ch](mailto:krishnan.raghavan@cern.ch) CERN
+* Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) Universita' degli Studi di Milano Bicocca
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
 * Stefan Roiser [stefan.roiser@cern.ch](mailto:stefan.roiser@cern.ch) CERN
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
@@ -40,7 +42,7 @@ layout: plain
 * Alex Unger [aunger@owncloud.com](mailto:aunger@owncloud.com) ownCloud
 * Michael Usher [michael.usher@aarnet.edu.au](mailto:michael.usher@aarnet.edu.au) AARNet
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
-* Pim verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
+* Pim Verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
 
 
 
