@@ -58,7 +58,7 @@ Interested students please contact Rafal (see contact below) to ask questions an
 
 ## Mentors
  * **[Rafal Dominik Krawczyk](mailto:rafal.dominik.krawczyk@cern.ch)**
- * [Niko Neufeld](mailto:niko.neufeld.cern.ch)
+ * [Niko Neufeld](mailto:niko.neufeld@cern.ch)
 
 ## Links
  * [LHCb intro](https://www.youtube.com/watch?v=rsmBMuTFdkA&ab_channel=CERN)
