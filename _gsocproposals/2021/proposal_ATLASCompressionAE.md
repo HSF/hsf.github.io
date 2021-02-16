@@ -22,7 +22,7 @@ organization: CERN
 
  ## Task ideas
 
-    * Run, update and benchmark an existing autoencoder network to compress ATLAS data.
+   * Run, update and benchmark an existing autoencoder network to compress ATLAS data.
       * Benchmarking includes and is not necessarily limited to:
          * The costs of training and decompressing the data in the context of a resource-constrained system such as the ATLAS trigger;
          * The fidelity of decompressed data with respect to original inputs, in terms of impact on the quality of the physics analysis with de-compressed objects; 
@@ -51,7 +51,7 @@ An improved autoencoder network with documentation and figures of merit that may
   * [PyTorch](http://pytorch.org)
 
  ## Mentors
-  * [Caterina Doglioni](mailto:caterina.doglioni@cern.ch) [main]
+  * ***[Caterina Doglioni](mailto:caterina.doglioni@cern.ch)***
   * [Antonio Boveia](mailto:antonio.boveia@cern.ch)
   * [Baptiste Ravina](mailto:baptiste.ravina@cern.ch)
   * [Lukas Heinrich](mailto:lukas.heinrich@cern.ch)
