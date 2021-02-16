@@ -6,13 +6,14 @@ layout: plain
 **Note for contributors:** entries must be sorted in **last name** alphabetic order
 
 ## Full Mentor List (Name, Email, Org)
-
 * Samuel Alfageme [samuel.alfageme.sainz@cern.ch](mailto:samuel.alfageme.sainz@cern.ch) CERN
+* Fawad Ali [m.fawaadali98@gmail.com][mailto:m.fawaadali98@gmail.com]
 * John Apostolakis [john.apostolakis@cern.ch](mailto:john.apostolakis@cern.ch) CERN
 * Ishank Arora [ishank.arora@cern.ch](mailto:ishank.arora@cern.ch) CERN
 * Tim Adye [T.J.Adye@rl.ac.uk](mailto:T.J.Adye@rl.ac.uk) Rutherford Appleton Laboratory
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Thomas Beermann [thomas.beermann@cern.ch](mailto:thomas.beermann@cern.ch) UWuppertal
+* Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
 * Jakob Blomer [jblomer@cern.ch](mailto:jblomer@cern.ch) CERN
 * Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
 * Lydia Brenner [lydia.brenner@cern.ch](mailto:lydia.brenner@cern.ch) CERN
@@ -32,6 +33,7 @@ layout: plain
 * Javier Lopez-Gomez [j.lopez@cern.ch](mailto:j.lopez@cern.ch) CERN
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) UCLouvain
+* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
 * Niko Neufeld [niko.neufeld@cern.ch](mailto:niko.neufeld@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern,ch](mailto:felice.pantaleo@cern.ch) CERN
