@@ -1,7 +1,7 @@
 ---
 title: Add numerical differentiation support in clad
 layout: gsoc_proposal
-project: CMSSW
+project: IRIS-HEP
 year: 2021
 organization: princeton
 ---
