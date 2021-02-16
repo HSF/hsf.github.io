@@ -38,7 +38,7 @@ layout: plain
 * Niko Neufeld [niko.neufeld@cern.ch](mailto:niko.neufeld@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern,ch](mailto:felice.pantaleo@cern.ch) CERN
 * Krishnan Raghavan [krishnan.raghavan@cern.ch](mailto:krishnan.raghavan@cern.ch) CERN
-* Baptiste Ravina [baptiste.ravina@cern.ch](mailto:baptiste.ravina@cern.ch) CERN
+* Baptiste Ravina [baptiste.ravina@cern.ch](mailto:baptiste.ravina@cern.ch) UofGlasgow
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) Universita' degli Studi di Milano Bicocca
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
 * Stefan Roiser [stefan.roiser@cern.ch](mailto:stefan.roiser@cern.ch) CERN
