@@ -39,6 +39,7 @@ layout: plain
 * Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
 * Niko Neufeld [niko.neufeld@cern.ch](mailto:niko.neufeld@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern,ch](mailto:felice.pantaleo@cern.ch) CERN
+* Alexander Penev [alexander_penev@yahoo.com](mailto:alexander_penev@yahoo.com) University of Plovdiv Paisii Hilendarski
 * Krishnan Raghavan [krishnan.raghavan@cern.ch](mailto:krishnan.raghavan@cern.ch) CERN
 * Baptiste Ravina [baptiste.ravina@cern.ch](mailto:baptiste.ravina@cern.ch) UofGlasgow
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) Universita' degli Studi di Milano Bicocca
@@ -49,9 +50,5 @@ layout: plain
 * Alex Unger [aunger@owncloud.com](mailto:aunger@owncloud.com) ownCloud
 * Michael Usher [michael.usher@aarnet.edu.au](mailto:michael.usher@aarnet.edu.au) AARNet
 * Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
+* Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Pim Verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
-
-
-
-
-
