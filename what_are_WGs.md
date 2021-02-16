@@ -15,7 +15,7 @@ of common software between different communities.
 Working groups have three conveners, to help share the workload, and
 are appointed by the HSF (via an open nomination process and a search
 committee) to serve for one year, with renewal possible by mutual
-agreement. (In contrast, [interest groups and activity areas](https://github.com/HSF)
+agreement. (In contrast, [interest groups and activity areas](/what_are_activities.html)
 are less formal.)
 
 If you want to form a working group, or want to put some community-wide
