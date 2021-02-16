@@ -51,7 +51,7 @@ An improved autoencoder network with documentation and figures of merit that may
   * [PyTorch](http://pytorch.org)
 
  ## Mentors
-  * [Caterina Doglioni](mailto:caterina.doglioni@cern.ch)
+  * [Caterina Doglioni](mailto:caterina.doglioni@cern.ch) [main]
   * [Antonio Boveia](mailto:antonio.boveia@cern.ch)
   * [Baptiste Ravina](mailto:baptiste.ravina@cern.ch)
   * [Lukas Heinrich](mailto:lukas.heinrich@cern.ch)
