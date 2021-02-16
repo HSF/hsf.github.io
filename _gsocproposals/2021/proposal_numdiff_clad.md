@@ -21,7 +21,7 @@ Intermediate C++; Understanding basic differential calculus; intermediate knowle
 ## Mentors
 
   * **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
-  * [Alexander Penev](alexander_penev@yahoo.com)
+  * [Alexander Penev](mailto:alexander_penev@yahoo.com)
 
 ## Links
 
