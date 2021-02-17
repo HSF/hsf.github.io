@@ -25,7 +25,7 @@ Many computations are modelled using functor objects. Usually, a functor object 
        return pow2;
      }
 
-The goal of this project is to modify Clad to handle suhc cases.
+The goal of this project is to modify Clad to handle such cases.
 
 ## Task ideas and expected results
 Implement functor object differentiation in both forward and reverse mode. The candidate should be ready to investigate performance bottlenecks, add test and benchmarking coverage and improve documentation for various parts of clad not only limited to the functor object differentiation support. The student should be prepared to write a progress report and present the results.
