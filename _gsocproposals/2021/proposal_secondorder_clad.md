@@ -14,7 +14,7 @@ ROOT is a framework for data processing, born at CERN, at the heart of the resea
 
 ## Task ideas and expected results
 
-TFormula is a ROOT class which bridges compiled and interpreted code. Teach TFormula to use second order derivatives (using clad::hessian). The implementation should very similar to what was done in [this pull request](https://github.com/root-project/root/pull/2745). The produced code should be well tested and documented. The student should be prepared to write a progress report and present the results. If time permits, we should pursue converting the C++ gradient function to CUDA device kernels. The integration of that feature should be comparable in terms of complexity to integrating 'clad::hessians'.
+TFormula is a ROOT class which bridges compiled and interpreted code. Teach TFormula to use second order derivatives (using clad::hessian). The implementation should be very similar to what was done in [this pull request](https://github.com/root-project/root/pull/2745). The produced code should be well tested and documented. The student should be prepared to write a progress report and present the results. If time permits, we should pursue converting the C++ gradient function to CUDA device kernels. The integration of that feature should be comparable in terms of complexity to integrating 'clad::hessians'.
 
 ## Mentors
 
