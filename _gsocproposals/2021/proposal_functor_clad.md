@@ -40,5 +40,5 @@ Implement functor object differentiation in both forward and reverse mode. The c
 
   * [CLAD page](https://compiler-research.org/clad/)
   * [Cling](https://rawgit.com/root-project/cling/master/www/index.html)
-  * [Clang](http://clang.llvm.gov)
+  * [Clang](http://clang.llvm.org)
   
