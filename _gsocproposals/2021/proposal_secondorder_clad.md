@@ -25,7 +25,7 @@ TFormula is a ROOT class which bridges compiled and interpreted code. Teach TFor
 
   * [CLAD page](https://compiler-research.org/clad/)
   * [Cling](https://rawgit.com/root-project/cling/master/www/index.html)
-  * [Clang](http://clang.llvm.gov)
+  * [Clang](http://clang.llvm.org)
   * [ROOT](http://root.cern)
   * [ROOT github](https://github.com/root-project/root)
   
