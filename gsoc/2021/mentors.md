@@ -29,7 +29,9 @@ layout: plain
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
 * Lukas Hirt [lhirt@owncloud.com](mailto:lhirt@owncloud.com) ownCloud
+* Ioana Ifrim [ioana.ifrim@cern.ch](mailto:ioana.ifrim@cern.ch) Princeton University
 * Rafal Dominik Krawczyk  [rafal.dominik.krawczyk@cern.ch](mailto:rafal.dominik.krawczyk@cern.ch) CERN
+* David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Federica Legger [federica.legger@cern.ch](mailto:federica.legger@cern.ch) INFN
 * Javier Lopez-Gomez [j.lopez@cern.ch](mailto:j.lopez@cern.ch) CERN
