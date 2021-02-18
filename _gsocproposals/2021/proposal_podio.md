@@ -12,7 +12,8 @@ organization:
 PODIO is a C++ toolkit for the creation of event data models (EDMs) with a fast and efficient I/O layer.
 An event data model is like a schema: it describes the structure of the data collected by a particle detector.
 Event data models typically consist of collections of records that describe physics objects identified by the detector, for instance particles, tracks, jets, and clusters.
-PODIO translates such high-level object hierarchies into vectors of plain-old-data (POD) data structures for optimal I/O performance.
+PODIO offers automatic code generation for efficiently implementing the EDM starting from a high level description of the objects.
+PODIO uses plain-old-data (POD) structures to store the data of the objects and translates hierarchies of objects into vector of PODs for optimal I/O performance.
 It is built in an extensible way so that different storage backends can be connected to read and writes the POD vectors.
 
 The ROOT data analysis framework provides the fundamental tools for the processing of High-Energy Physics data.
