@@ -27,7 +27,7 @@ The existing TTree reader and writer can be used as a template.
 A first comparison between RNTuple and TTree files (e.g., file size, read and write throughput) would complete the project.
 
 ## Evaluation Task
-Interested students please contact Jakob (jblomer@cern.ch) or Javier (j.lopez@cern.ch) for a warm-up and evaluation task.
+Interested students please contact Jakob (jblomer@cern.ch), Valentin (valentin.volkl@cern.ch) or Thomas (thomas.madlener@desy.de) for a warm-up and evaluation task.
 
 ## Requirements
  * C++, low-level data storage and access programming
