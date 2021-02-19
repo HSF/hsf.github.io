@@ -7,7 +7,7 @@ organization:
   - Alabama
   - Brown
   - BITS
-  ---
+---
 
 ## Description
 

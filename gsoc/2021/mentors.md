@@ -18,13 +18,13 @@ layout: plain
   * [Brandon Ames](mailto:bpames@ua.edu) 
   * [Tyler Trupke ](mailto:ttrupke@crimson.ua.edu)
   * [Suzanne Rozenzweig](mailto:srhelfrich@ufl.edu)
-  * [Efe Yigibasi] (mailto:efe.yigitbasi@cern.ch)
+  * [Efe Yigibasi](mailto:efe.yigitbasi@cern.ch)
   * [Darin Acosta](mailto:acostad@ufl.edu)
-  * [Ali Hariri] (mailto:aah71@mail.aub.edu)
+  * [Ali Hariri](mailto:aah71@mail.aub.edu)
   * [Davide DiCroce](mailto:davide.di.croce@cern.ch) 
-  * [Shravan Chaudhari] (mailto:f20170736@goa.bits-pilani.ac.in)
+  * [Shravan Chaudhari](mailto:f20170736@goa.bits-pilani.ac.in)
   * [Michael Andrews](mailto:michael.andrews@cern.ch)
-  * [Darya Dyachkova] (mailto:darya.dyachkova@minerva.kgi.edu)
+  * [Darya Dyachkova](mailto:darya.dyachkova@minerva.kgi.edu)
   * [Harrison Prosper](mailto:harry@hep.fsu.edu)
   * [Michelle Kuchera](mailto:mikuchera@davidson.edu) 
   * [Sitong An](mailto:s.an@cern.ch)
@@ -34,13 +34,13 @@ layout: plain
   * [Shaojun Sun](mailto:shaojun.sun@cern.ch) University of Wisconsin-Madison
   * [Chen Zhou](mailto:chen.zhou@cern.ch) University of Wisconsin-Madison
   * [Wen Guan](mailto:wen.guan@cern.ch) University of Wisconsin-Madison
-  * [Alkaid Cheng] (mailto:lung9675420@gmail.com) University of Wisconsin Madison
+  * [Alkaid Cheng](mailto:lung9675420@gmail.com) University of Wisconsin Madison
   * [Meenakshi Narain](mailto:meenakshi_narain@brown.edu) Brown University
   * [Jeremy Bailin](mailto:jbailin@ua.edu) University of Alabama
-  * [Jacob Morgan] (mailto:jmorgan15@crimson.ua.edu) University of Alabama
-  * [Jeremy Quijano] (mailto:jquijano@crimson.ua.edu) University of Alabama
-  * [Jianghao Huyan] (jhuyan@email.sc.edu) University of South Carolina
-  * [Varsha Kulkarni] (mailto:kulkarni@sc.edu) University of South Carolina
+  * [Jacob Morgan](mailto:jmorgan15@crimson.ua.edu) University of Alabama
+  * [Jeremy Quijano](mailto:jquijano@crimson.ua.edu) University of Alabama
+  * [Jianghao Huyan](jhuyan@email.sc.edu) University of South Carolina
+  * [Varsha Kulkarni](mailto:kulkarni@sc.edu) University of South Carolina
   * [Jason Terry](mailto:jpterry@uga.edu)  
 
 

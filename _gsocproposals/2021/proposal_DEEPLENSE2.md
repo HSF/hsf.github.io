@@ -6,7 +6,7 @@ year: 2021
 organization:
   - Alabama
   - Brown
-  ---
+---
 
 ## Description
 
