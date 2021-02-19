@@ -1,5 +1,5 @@
 ---
-title: TMVA Deep Learning Developments: Inference Code Generation for Batch Normalization
+title: TMVA Deep Learning Developments - Inference Code Generation for Batch Normalization
 layout: gsoc_proposal
 project: ROOT
 year: 2021
