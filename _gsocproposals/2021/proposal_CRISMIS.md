@@ -8,7 +8,7 @@ organization:
   - JHUAPL
 ---
 
-# Description
+## Description
 
 [CRISMIS](https://www.researchgate.net/publication/327526829_Observation_of_galactic_cosmic_ray_spallation_events_from_the_SoHO_mission_20-yr_operation_of_LASCO) is an open-source machine learning based tool to identify cosmic-ray artifacts in imaging data
  
@@ -26,17 +26,11 @@ The CRISMIS project focuses on development of an open-source, machine-learning b
  * Develop artifact categorization routine
  * Perform cosmic-ray artifact identification and categorization
 
-
-
 ## Requirements 
 Python, C++, and some previous experience in Machine Learning. 
 
 ## Mentors
   * [Patrick Peplowski](mailto:Patrick.Peplowski@jhuapl.edu) 
   * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) 
-
-
-## Links
-  * [http://root.cern/tmva](http://root.cern/tmva)
-  * [TMVA source code](https://github.com/root-project/root/tree/master/tmva)
-
+ 
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to ml4-sci@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
