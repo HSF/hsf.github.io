@@ -43,7 +43,7 @@ We expect that, at the end of GSOC '21, plugins could be added to Reva at runtim
 * [Hugo Gonzalez Labrador](mailto:hugo.gonzalez.labrador@cern.ch) CERNBox
 
 ## Links
-  * [CERBox project](https://cernbox.web.cern.ch)
+  * [CERNBox project](https://cernbox.web.cern.ch)
   * [OCIS project](https://owncloud.github.io/ocis/)
   * [Reva project](https://reva.link/)
 
