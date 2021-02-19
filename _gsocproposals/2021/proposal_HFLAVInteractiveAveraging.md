@@ -28,7 +28,7 @@ This project seeks to transform user interaction with HFLAV's 'Beauty to Charm' 
 The expected result is a web-portal, within the hflav.web.cern.ch website, that gives the user access to the heart of the averaging process, visualising the elements of the average results that they are interested in. The student should be prepared to write a progress report and present the results at the end of the summer.
 
 ## Evaluation Task
-Interested students please contact Dan (d.j@cern.ch) for more details and and evaluation task.
+Interested students please contact Dan (d.j@cern.ch) for more details and an evaluation task.
 
 ## Requirements
  * Python, JavaScript, CSS, HTML5. Comfortable using Linux. Familiarity with Jupyter notebooks and matplotlib (or similar visualisation software suitable for web-based presentation) an advantage.
