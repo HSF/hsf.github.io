@@ -33,11 +33,13 @@ layout: plain
 * Rafal Dominik Krawczyk  [rafal.dominik.krawczyk@cern.ch](mailto:rafal.dominik.krawczyk@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
+* Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) LBNL
 * Federica Legger [federica.legger@cern.ch](mailto:federica.legger@cern.ch) INFN
 * Javier Lopez-Gomez [j.lopez@cern.ch](mailto:j.lopez@cern.ch) CERN
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Thomas Madlener [thomas.madlener@desy.de](mailto:thomas.madlener@desy.de) DESY
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) UCLouvain
+* William Moses [wmoses@mit.edu](mailto:wmoses@mit.edu) MIT
 * Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
 * Niko Neufeld [niko.neufeld@cern.ch](mailto:niko.neufeld@cern.ch) CERN
