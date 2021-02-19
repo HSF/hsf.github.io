@@ -1,9 +1,9 @@
 ---
-title: Distributed Big Data Analysis with TDataFrame
+title: Implementation of physical shape function
 layout: gsoc_proposal
 project: ROOT
 year: 2018
-organization: CERN
+organization: University of Zurich
 ---
 
 ## Description
