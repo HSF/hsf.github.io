@@ -1,5 +1,5 @@
 ---
-title: TMVA Deep Learning Developments: Inference Code Generation for Recurrent Neural Networks
+title: TMVA Deep Learning Developments - Inference Code Generation for Recurrent Neural Networks
 layout: gsoc_proposal
 project: ROOT
 year: 2021
