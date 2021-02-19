@@ -28,7 +28,7 @@ Intermediate C++; Understanding basic differential calculus; intermediate knowle
 
 ## Links
   * [clad](https://github.com/vgvassilev/clad)
-  * [clad gsoc page](https://github.com/vgvassilev/clad/wiki/GSoC-2020)
+  * [clad gsoc page](https://github.com/vgvassilev/clad/wiki/GSoC-2021)
   * [enzyme](https://github.com/wsmoses/Enzyme)
   * [enzyme web](https://enzyme.mit.edu)
   * [clang](http://clang.llvm.org/)
