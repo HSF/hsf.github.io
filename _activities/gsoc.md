@@ -18,7 +18,7 @@ Projects span a wide range of scientific domains, including physics, astronomy, 
 ### For Students
 
 
-In 2021 GSoC students work with their mentors for 175 hrs to produce open-source codes that apply machine learning solutions to solve science problems. Projects span three evaluation periods that allow for students and mentors to collaborate on their project and evaluate student progress. Detailed rules for the GSOC program can be found here (hyperlink).
+In 2021 GSoC students work with their mentors for 175 hrs to produce open-source codes that apply machine learning solutions to solve science problems. Projects span three evaluation periods that allow for students and mentors to collaborate on their project and evaluate student progress. Detailed rules for the GSOC program can be found [here](https://summerofcode.withgoogle.com/rules/).
 Interested students should look at the ideas page and contact the mentors. Candidates will be asked to complete an evaluation test for each project they apply to demonstrate the skills needed for the respective projects. In the next step, students will produce a proposal which will be evaluated for final student selection.  
 The detailed timeline is shown below.
 
