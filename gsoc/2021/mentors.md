@@ -23,6 +23,7 @@ layout: plain
 * Vincent Croft [vincent.croft@cern.ch](mailto:vincent.croft@cern.ch) Tufts
 * Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) Lund University
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
+* Simeon Ehrig [s.ehrig@hzdr.de](mailto:s.ehrig@hzdr.de) HZDR
 * Gabriele Gaetano Fronzè [gabriele.fronze@to.infn.it](mailto:gabriele.fronze@to.infn.it) INFN
 * Alex Gekow [gekow.1@buckeyemail.osu.edu](mailto:gekow.1@buckeyemail.osu.edu) Ohio State University
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
