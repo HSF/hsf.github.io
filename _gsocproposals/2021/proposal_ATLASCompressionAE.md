@@ -46,6 +46,11 @@ Required: Good knowledge of UNIX, Python, MatPlotLib or ROOT, Pytorch, Pandas, f
 Jupyter and pyTorch exercise of running the existing NN and describing the results. 
 
 ## Links
+   * Previous work: 
+      * [Thesis by Eric Wulff, Lund University](https://lup.lub.lu.se/student-papers/search/publication/9004751)
+      * [Thesis by Erik Wallin, Lund University](https://lup.lub.lu.se/student-papers/search/publication/9012882)
+      * [GSOC 2020 project Medium post by Honey Gupta](https://medium.com/@hn.gpt1/deep-compression-for-high-energy-physics-data-google-summer-of-code20-3dea5acc7bcf) - Note: code not available for the time being, until the evaluation task is released. 
+
    * [ROOT](https://root.cern/)
    * [Jupyter](http://jupyter.org)
    * [PyTorch](http://pytorch.org)
