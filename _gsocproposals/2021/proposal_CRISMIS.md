@@ -30,7 +30,7 @@ The CRISMIS project focuses on development of an open-source, machine-learning b
 Python, C++, and some previous experience in Machine Learning. 
 
 ## Mentors
-  * [Patrick Peplowski](mailto:Patrick.Peplowski@jhuapl.edu) 
-  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) 
+  * [Patrick Peplowski](mailto:Patrick.Peplowski@jhuapl.edu) (JHUAPL)
+  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) (University of Alabama)
  
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to ml4-sci@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 

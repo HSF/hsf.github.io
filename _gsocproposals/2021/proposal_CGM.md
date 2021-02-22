@@ -1,5 +1,5 @@
 ---
-title: Dimensionality Reduction for diffuse circumgalactic medium
+title: Dimensionality Reduction for Studying Diffuse Circumgalactic Medium
 layout: gsoc_proposal
 project: CGM
 year: 2021
@@ -27,11 +27,11 @@ The project focuses on applying ML dimensionality reduction techniques for the d
 Python, previous experience in Machine Learning. 
 
 ## Mentors
-  * [Jeremy Bailin](mailto:jbailin@ua.edu) University of Alabama
-  * [Jacob Morgan] (mailto:jmorgan15@crimson.ua.edu) University of Alabama
-  * [Jeremy Quijano] (mailto:jquijano@crimson.ua.edu) University of Alabama
-  * [Sergei Gleyzer](mailto:sergei@cern.ch) University of Alabama
-  * [Jianghao Huyan] (jhuyan@email.sc.edu) University of South Carolina
-  * [Varsha Kulkarni] (mailto:kulkarni@sc.edu) University of South Carolina
+  * [Jeremy Bailin](mailto:jbailin@ua.edu) (University of Alabama)
+  * [Jacob Morgan] (mailto:jmorgan15@crimson.ua.edu) (University of Alabama)
+  * [Jeremy Quijano] (mailto:jquijano@crimson.ua.edu) (University of Alabama)
+  * [Sergei Gleyzer](mailto:sergei@cern.ch) (University of Alabama)
+  * [Jianghao Huyan] (jhuyan@email.sc.edu) (University of South Carolina)
+  * [Varsha Kulkarni] (mailto:kulkarni@sc.edu) (University of South Carolina)
 
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to ml4-sci@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
