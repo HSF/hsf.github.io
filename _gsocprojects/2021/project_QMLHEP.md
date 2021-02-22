@@ -3,7 +3,7 @@ project: QMLHEP
 layout: default
 logo: QMLHEP-logo.png
 description: |
-  With this project we seek to implement Quantum Machine Learning methods for LHC High Energy Physics analysis based on Google OpenFermion framework. 
+  QMLHEP project implements Quantum Machine Learning methods for physics analysis.
 ---
 
 {% include gsoc_project.ext %}
