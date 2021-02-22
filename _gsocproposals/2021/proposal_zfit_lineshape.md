@@ -34,7 +34,7 @@ Python, Numpy, (maybe C++ and CUDA)
 
 ## Mentors
   * **[Jonas Eschle](mailto:Jonas.Eschle@cern.ch)**
-  * **[Rafael Silva Coutinho](mailto:rafael.silva.coutinho@cern.ch)**
+  * [Rafael Silva Coutinho](mailto:rafael.silva.coutinho@cern.ch)
 
 ## Links
   * [zfit](https://github.com/zfit/zfit)
