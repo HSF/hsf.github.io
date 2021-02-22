@@ -21,10 +21,12 @@ layout: plain
 * Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) UofGlasgow
 * Carsten Burgard [carsten.burgard@cern.ch](mailto:carsten.burgard@cern.ch) DESY
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
+* Rafael Silva Coutinho [Rafael Silva Coutinho](mailto:rafael.silva.coutinho@cern.ch) UZH
 * Vincent Croft [vincent.croft@cern.ch](mailto:vincent.croft@cern.ch) Tufts
 * Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) Lund University
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Simeon Ehrig [s.ehrig@hzdr.de](mailto:s.ehrig@hzdr.de) HZDR
+* Jonas Eschle [Jonas Eschle](mailto:Jonas.Eschle@cern.ch) UZH
 * Gabriele Gaetano Fronzè [gabriele.fronze@to.infn.it](mailto:gabriele.fronze@to.infn.it) INFN
 * Alex Gekow [gekow.1@buckeyemail.osu.edu](mailto:gekow.1@buckeyemail.osu.edu) Ohio State University
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
@@ -65,5 +67,3 @@ layout: plain
 * Pim Verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
 * Omar Zapata [Omar.Zapata@cern..ch](mailto:Omar.Zapata@cern.ch) CERN
-* Jonas Eschle [Jonas Eschle](mailto:Jonas.Eschle@cern.ch) UZH
-* Rafael Silva Coutinho [Rafael Silva Coutinho](mailto:rafael.silva.coutinho@cern.ch) UZH
