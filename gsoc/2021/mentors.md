@@ -8,6 +8,7 @@ layout: plain
 ## Full Mentor List (Name, Email, Org)
 * Samuel Alfageme [samuel.alfageme.sainz@cern.ch](mailto:samuel.alfageme.sainz@cern.ch) CERN
 * Fawad Ali [m.fawaadali98@gmail.com](mailto:m.fawaadali98@gmail.com)
+* Sitong An [s.an@cern.ch](mailto:s.an@cern.ch) CERN 
 * John Apostolakis [john.apostolakis@cern.ch](mailto:john.apostolakis@cern.ch) CERN
 * Ishank Arora [ishank.arora@cern.ch](mailto:ishank.arora@cern.ch) CERN
 * Tim Adye [T.J.Adye@rl.ac.uk](mailto:T.J.Adye@rl.ac.uk) Rutherford Appleton Laboratory
@@ -42,6 +43,7 @@ layout: plain
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Thomas Madlener [thomas.madlener@desy.de](mailto:thomas.madlener@desy.de) DESY
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) UCLouvain
+* Lorenzo Moneta [Lorenzo.Moneta@cern.ch](mailto:Lorenzo.Moneta@cern.ch) CERN 
 * William Moses [wmoses@mit.edu](mailto:wmoses@mit.edu) MIT
 * Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
@@ -61,5 +63,4 @@ layout: plain
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Pim Verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
-* Lorenzo Moneta [Lorenzo.Moneta@cern.ch](mailto:Lorenzo.Moneta@cern.ch) CERN
-* Sitong An [s.an@cern.ch](mailto:s.an@cern.ch) CERN
+* Omar Zapata [Omar.Zapata@cern..ch](mailto:Omar.Zapata@cern.ch) CERN
