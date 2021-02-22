@@ -2,8 +2,9 @@
 title: Implementation of physical shape function
 layout: gsoc_proposal
 project: zfit
-year: 2018
-organization: University of Zurich
+year: 2021
+organization:
+  - UZH
 ---
 
 ## Description
@@ -29,10 +30,11 @@ This project aims at implementing a more difficult lineshape, namely the faddeev
 Working faddeeva function, implemented using the low-level functionality of TensorFLow (which is Numpy-like).
 
 ## Requirements
-Python, Numpy, (evtl C++ and CUDA)
+Python, Numpy, (maybe C++ and CUDA)
 
 ## Mentors
-  * [Jonas Eschle](mailto:Jonas.Eschle@cern.ch)
+  * **[Jonas Eschle](mailto:Jonas.Eschle@cern.ch)**
+  * **[Rafael Silva Coutinho](mailto:rafael.silva.coutinho@cern.ch)**
 
 ## Links
   * [zfit](https://github.com/zfit/zfit)
