@@ -40,4 +40,4 @@ Interested students please contact Dan (d.j@cern.ch) for more details and an eva
 ## Links
  * [HFLAV](https://hflav.web.cern.ch/)
  * [SWAN](https://swan.web.cern.ch/)
- * [HFLAV 'Beauty to Charm' averaging code](https://gitlab.cern.ch/hflav/b2charm)
+ * [HFLAV 'Beauty to Charm' averaging code](https://gitlab.cern.ch/hflav/averaging)

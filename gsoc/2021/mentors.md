@@ -8,6 +8,7 @@ layout: plain
 ## Full Mentor List (Name, Email, Org)
 * Samuel Alfageme [samuel.alfageme.sainz@cern.ch](mailto:samuel.alfageme.sainz@cern.ch) CERN
 * Fawad Ali [m.fawaadali98@gmail.com](mailto:m.fawaadali98@gmail.com)
+* Sitong An [s.an@cern.ch](mailto:s.an@cern.ch) CERN 
 * John Apostolakis [john.apostolakis@cern.ch](mailto:john.apostolakis@cern.ch) CERN
 * Ishank Arora [ishank.arora@cern.ch](mailto:ishank.arora@cern.ch) CERN
 * Tim Adye [T.J.Adye@rl.ac.uk](mailto:T.J.Adye@rl.ac.uk) Rutherford Appleton Laboratory
@@ -23,6 +24,7 @@ layout: plain
 * Vincent Croft [vincent.croft@cern.ch](mailto:vincent.croft@cern.ch) Tufts
 * Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) Lund University
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
+* Simeon Ehrig [s.ehrig@hzdr.de](mailto:s.ehrig@hzdr.de) HZDR
 * Gabriele Gaetano Fronzè [gabriele.fronze@to.infn.it](mailto:gabriele.fronze@to.infn.it) INFN
 * Alex Gekow [gekow.1@buckeyemail.osu.edu](mailto:gekow.1@buckeyemail.osu.edu) Ohio State University
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
@@ -41,6 +43,7 @@ layout: plain
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Thomas Madlener [thomas.madlener@desy.de](mailto:thomas.madlener@desy.de) DESY
 * Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) UCLouvain
+* Lorenzo Moneta [Lorenzo.Moneta@cern.ch](mailto:Lorenzo.Moneta@cern.ch) CERN 
 * William Moses [wmoses@mit.edu](mailto:wmoses@mit.edu) MIT
 * Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Axel Naumann [axel.naumann@cern.ch](mailto:axel.naumann@cern.ch) CERN
@@ -52,6 +55,7 @@ layout: plain
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) Universita' degli Studi di Milano Bicocca
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
 * Stefan Roiser [stefan.roiser@cern.ch](mailto:stefan.roiser@cern.ch) CERN
+* Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Graeme A Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN
 * Alex Unger [aunger@owncloud.com](mailto:aunger@owncloud.com) ownCloud
@@ -60,7 +64,6 @@ layout: plain
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Pim Verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
-* Lorenzo Moneta [Lorenzo.Moneta@cern.ch](mailto:Lorenzo.Moneta@cern.ch) CERN
-* Sitong An [s.an@cern.ch](mailto:s.an@cern.ch) CERN
+* Omar Zapata [Omar.Zapata@cern..ch](mailto:Omar.Zapata@cern.ch) CERN
 * Jonas Eschle [Jonas Eschle](mailto:Jonas.Eschle@cern.ch) UZH
 * Rafael Silva Coutinho [Rafael Silva Coutinho](mailto:rafael.silva.coutinho@cern.ch) UZH
