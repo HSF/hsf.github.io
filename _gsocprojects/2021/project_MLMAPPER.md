@@ -1,7 +1,7 @@
 ---
 project: MLMAPPER
 layout: default
-logo: ml4sci_logo_angled.png
+logo: MLMAPPER.png
 description: |
   MLMAPPER
 ---

@@ -1,7 +1,7 @@
 ---
 title: End-to-End Deep Learning Reconstruction for CMS Experiment
 layout: gsoc_proposal
-project: E2E
+project: CMS
 year: 2021
 organization:
   - Alabama

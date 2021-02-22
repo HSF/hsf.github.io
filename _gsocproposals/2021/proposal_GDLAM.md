@@ -1,7 +1,7 @@
 ---
 title: Graph Neural Networks for Particle Momentum Estimation in the CMS Trigger System
 layout: gsoc_proposal
-project: GDLAM
+project: CMS
 year: 2021
 organization:
   - Alabama
