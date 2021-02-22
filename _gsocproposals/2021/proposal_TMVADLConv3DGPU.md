@@ -2,10 +2,9 @@
 title: TMVA Deep Learning Developments - 3D Convolutions for GPU
 layout: gsoc_proposal
 project: TMVA
-year: 2020
+year: 2021
 organization:
   - CERN
-  - OProject
 ---
 
 # Description
@@ -27,7 +26,7 @@ The developed code should support both the training and inference for deep learn
 Strong C++ skills, solid knowledge of deep learning, familiarity with GPUs
 
 ## Mentors
-  * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
+  * **[Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)**
   * [Omar Zapata](mailto:Omar.Zapata@cern.ch)
   
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
