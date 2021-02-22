@@ -1,5 +1,5 @@
 ---
-title: Improve Cling’s Development Lifecycle
+title: Allow redefinition of CUDA functions
 layout: gsoc_proposal
 project: IRIS-HEP
 year: 2021
@@ -15,7 +15,7 @@ infrastructure. Cling realizes the read-eval-print loop (REPL) concept, in order
 to leverage rapid application development. Implemented as a small extension to
 LLVM and Clang, the interpreter reuses their strengths such as the praised
 concise and expressive compiler diagnostics.
-               
+
 Since the development of Cling started, it got some new features to enable new
 workflows. One of the features is CUDA mode, which allows you to interactively
 develop and run CUDA code on Nvidia GPUs. Another feature is the redefinition of
@@ -32,7 +32,7 @@ unknown problems that parsing and executing CUDA code causes. The student should
 be prepared to write a progress report and present the results.
 
 ## Necessary skills
-                   
+
 Good knowledge of C++, basic CUDA skills, knowledge of compiler construction,
 experience with the LLVM library not mandatory but recommended.
 
