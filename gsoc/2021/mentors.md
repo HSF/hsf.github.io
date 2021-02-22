@@ -62,3 +62,5 @@ layout: plain
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
 * Lorenzo Moneta [Lorenzo.Moneta@cern.ch](mailto:Lorenzo.Moneta@cern.ch) CERN
 * Sitong An [s.an@cern.ch](mailto:s.an@cern.ch) CERN
+* Jonas Eschle [Jonas Eschle](mailto:Jonas.Eschle@cern.ch) UZH
+* Rafael Silva Coutinho [Rafael Silva Coutinho](mailto:rafael.silva.coutinho@cern.ch) UZH
