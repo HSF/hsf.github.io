@@ -3,7 +3,7 @@ title: Implementation of Quantum Generative Models to Perform High Energy Physic
 layout: gsoc_proposal
 project: QMLHEP
 year: 2021
-Organization:
+organization:
  - Alabama
  - Wisconsin
 ---

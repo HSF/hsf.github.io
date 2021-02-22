@@ -3,7 +3,7 @@ title: Quantum Neural Networks for High Energy Physics Analysis at the LHC
 layout: gsoc_proposal
 project: QMLHEP
 year: 2021
-Organization:
+organization:
  - Alabama
  - Wisconsin
 ---

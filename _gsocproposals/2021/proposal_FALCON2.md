@@ -5,7 +5,7 @@ project: DeepFALCON
 year: 2021
 organization: 
  - Alabama
- - Beirut
+ - AUB
  - Brown
  - KGI
 
@@ -35,4 +35,5 @@ Please DO NOT contact mentors directly by email, and instead please send project
 
 
 ## Links
-  * [FALCON paper 1](http://inspirehep.net/record/1456803) [FALCON paper 2](https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_138.pdf)
+  * [Paper 1](http://inspirehep.net/record/1456803)
+  * [Paper 2](https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_138.pdf)

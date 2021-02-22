@@ -5,7 +5,7 @@ project: GDLAM
 year: 2021
 organization:
   - Alabama
-  - Beirut
+  - AUB
   - Florida
 
 ---

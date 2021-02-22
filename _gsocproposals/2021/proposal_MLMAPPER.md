@@ -3,7 +3,7 @@ title: Machine Learning Model for the Planetary Albedo
 layout: gsoc_proposal
 project: MLMAPPER
 year: 2021
-Organization:
+organization:
  - Alabama
  - Georgia
  - JHUAPL

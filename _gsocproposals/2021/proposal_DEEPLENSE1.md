@@ -4,8 +4,8 @@ layout: gsoc_proposal
 project: DEEPLENSE
 year: 2021
 organization:
-  - University of Alabama
-  - BITS
+  - Alabama
+  - BITS Pilani Hyderabad
   - Brown
   - Florida
 ---
@@ -36,4 +36,6 @@ Please DO NOT contact mentors directly by email, and instead please send project
 
 
 ## Links
-  * [Paper1](https://arxiv.org/abs/2008.12731)[Paper2](https://arxiv.org/abs/1909.07346)
+  * [Paper 1](https://arxiv.org/abs/2008.12731)
+  * [Paper 2](https://arxiv.org/abs/1909.07346)
+  

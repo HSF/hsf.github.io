@@ -5,7 +5,7 @@ project: E2E
 year: 2021
 organization:
   - Alabama
-  - BITS
+  - BITS Pilani Goa
   - Brown
   - CMU
 

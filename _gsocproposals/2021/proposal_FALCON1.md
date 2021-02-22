@@ -32,4 +32,5 @@ Strong machine learning skills, good knowledge of C++ and Python. Interest in Ma
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
 
 ## Links
-  * [FALCON paper 1](http://inspirehep.net/record/1456803) [FALCON paper 2](https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_138.pdf)
+  * [Paper 1](http://inspirehep.net/record/1456803)
+  * [Paper 2](https://ml4physicalsciences.github.io/2020/files/NeurIPS_ML4PS_2020_138.pdf)
