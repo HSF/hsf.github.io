@@ -24,13 +24,13 @@ This project will focus on further development of the DeepLense pipeline that co
 Python, PyTorch and relevant past experience in Machine Learning. 
 
 ## Mentors
-  * [Michael Toomey](mailto:michael_toomey@brown.edu)
-  * [Stephon Alexander](mailto:stephon_alexander@brown.edu)
-  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch)
-  * [Brandon Ames](mailto:bpames@ua.edu) 
-  * [Tyler Trupke ](mailto:ttrupke@crimson.ua.edu) 
+  * [Michael Toomey](mailto:michael_toomey@brown.edu) (Brown University)
+  * [Stephon Alexander](mailto:stephon_alexander@brown.edu) (Brown University)
+  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) (University of Alabama)
+  * [Brandon Ames](mailto:bpames@ua.edu) (University of Alabama)
+  * [Tyler Trupke](mailto:ttrupke@crimson.ua.edu) (University of Alabama) 
 
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to ml4-sci@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
 
 
 ## Links

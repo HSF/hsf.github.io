@@ -5,6 +5,7 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
+  * [Emanuele Usai](mailto:Emanuele.Usai@cern.ch) (Brown University)
   * [Richard S. Miller](mailto:Richard.S.Miller@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
   * [James P. Mastandrea](mailto:James.P.Mastandrea@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
   * [Patrick Peplowski](mailto:Patrick.Peplowski@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
@@ -36,6 +37,7 @@ layout: plain
   * [Wen Guan](mailto:wen.guan@cern.ch) (University of Wisconsin-Madison)
   * [Alkaid Cheng](mailto:lung9675420@gmail.com) (University of Wisconsin Madison)
   * [Meenakshi Narain](mailto:meenakshi_narain@brown.edu) (Brown University)
+  * [Ulrich Heintz](mailto:ulrich_heintz@brown.edu) (Brown University)
   * [Jeremy Bailin](mailto:jbailin@ua.edu) (University of Alabama)
   * [Jacob Morgan](mailto:jmorgan15@crimson.ua.edu) (University of Alabama)
   * [Jeremy Quijano](mailto:jquijano@crimson.ua.edu) (University of Alabama)
@@ -56,5 +58,5 @@ layout: plain
 * Harrison Prosper [harry@hep.fsu.edu](mailto:harry@hep.fsu.edu) FSU
 * Shaojun Sun [shaojun.sun@cern.ch](mailto:shaojun.sun@cern.ch) University of Wisconsin-Madison
 * Michael Toomey [michael_toomey@brown.edu](mailto:michael_toomey@brown.edu) Brown University
-* Emanuele Usai [Emanuele.Usai@cern.ch](mailto:Emanuele.Usai@cern.ch) Brown University
+
 * Chen Zhou [chen.zhou@cern.ch](mailto:chen.zhou@cern.ch) University of Wisconsin-Madison -->

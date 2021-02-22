@@ -35,11 +35,11 @@ Classification of SNeIa based on a machine learning approach is appropriate, in 
 Python, C++, previous experience in Machine Learning or equivalent 
 
 ## Mentors
-  * Richard S. Miller (JHUAPL)
-  * James P. Mastandrea (JHUAPL),
-  * [Patrick Peplowski (JHUAPL)](mailto:Patrick.Peplowski@jhuapl.edu)  , 
-  * Aimee Hungerford (LANL),
-  * [Sergei Gleyzer (UA)](mailto:Sergei.Gleyzer@cern.ch)  
+  * [Richard S. Miller](mailto:Richard.S.Miller@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
+  * [James P. Mastandrea](mailto:James.P.Mastandrea@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
+  * [Patrick Peplowski](mailto:Patrick.Peplowski@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
+  * [Aimee Hungerford](mailto:amiee@lanl.gov) (Los Alamos National Laboratories)
+  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) (University of Alabama) 
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
 

@@ -23,14 +23,14 @@ organization:
 Strong machine learning skills, good knowledge of C++ and Python. Interest in Machine Learning algorithms and applications.
 
 ## Mentors 
-  * [Ali Hariri](mailto:aah71@mail.aub.edu)
-  * [Davide DiCroce](mailto:davide.di.croce@cern.ch) 
-  * [Darya Dyachkova](mailto:darya.dyachkova@minerva.kgi.edu)
-  * [Sergei Gleyzer](mailto:sgleyzer@ua.edu)
-  * [Emanuele Usai](mailto:emanuele_usai@brown.edu)   
+  * [Ali Hariri](mailto:aah71@mail.aub.edu) (American University Beirut)
+  * [Davide DiCroce](mailto:davide.di.croce@cern.ch) (University of Alabama)
+  * [Darya Dyachkova](mailto:darya.dyachkova@minerva.kgi.edu) (KGI Minerva)
+  * [Sergei Gleyzer](mailto:sgleyzer@ua.edu) (University of Alabama)
+  * [Emanuele Usai](mailto:emanuele_usai@brown.edu) (Brown University)
 
 
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to ml4-sci@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
 
 
 

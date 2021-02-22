@@ -32,16 +32,16 @@ With this project we seek to implement Quantum Machine Learning methods for LHC 
 
 
 ## Mentors
-  * [Rui Zhang](mailto:rui.zhang@cern.ch) University of Wisconsin-Madison
-  * [Shaojun Sun](mailto:shaojun.sun@cern.ch) University of Wisconsin-Madison
-  * [Chen Zhou](mailto:chen.zhou@cern.ch) University of Wisconsin-Madison
-  * [Sergei Gleyzer](mailto:sergei@cern.ch) University of Alabama
-  * [Wen Guan](mailto:wen.guan@cern.ch) University of Wisconsin-Madison
+  * [Rui Zhang](mailto:rui.zhang@cern.ch) (University of Wisconsin-Madison)
+  * [Shaojun Sun](mailto:shaojun.sun@cern.ch) (University of Wisconsin-Madison)
+  * [Chen Zhou](mailto:chen.zhou@cern.ch) (University of Wisconsin-Madison)
+  * [Sergei Gleyzer](mailto:sergei@cern.ch) (University of Alabama)
+  * [Wen Guan](mailto:wen.guan@cern.ch) (University of Wisconsin-Madison)
 
 ## Links
   * [HL-LHC](https://hilumilhc.web.cern.ch)
   * [LHC](https://home.cern/science/accelerators/large-hadron-collider)
-  * [TensorFlow Quantum] (https://www.tensorflow.org/quantum/overview)
+  * [TensorFlow Quantum](https://www.tensorflow.org/quantum/overview)
 
 
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to ml4-sci@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 

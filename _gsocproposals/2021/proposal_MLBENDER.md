@@ -9,7 +9,7 @@ Organization:
 ---
 
 # Description
-Data driven background estimation is crucial for many scientific searches, including searches for new phenomena in experimental datasets.  Neural autoregressive flows (NAF) is a deep generative model that can be used for general transformations, and is therefore attractive for this application.
+Data driven background estimation is crucial for many scientific searches, including searches for new phenomena in experimental datasets. Neural autoregressive flows (NAF) is a deep generative model that can be used for general transformations, and is therefore attractive for this application.
 
 The MLBENDER project focuses on studying how to develop such transformations that can be learned and applied to a region of interest. 
 
@@ -24,7 +24,8 @@ Python, C++, and some previous experience in Machine Learning.
 
 ## Mentors
   
-  * [Sergei Gleyzer](mailto:sergei@cern.ch) University of Alabama
-  * [Meenakshi Narain](mailto:meenakshi_narain@brown.edu) Brown University
+  * [Sergei Gleyzer](mailto:sergei@cern.ch) (University of Alabama)
+  * [Meenakshi Narain](mailto:meenakshi_narain@brown.edu) (Brown University)
+  * [Ulrich Heintz](mailto:ulrich_heintz@brown.edu) (Brown University)
   
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to ml4-sci@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
+Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
