@@ -19,12 +19,12 @@ CCD-based cameras operate throughout the solar system, imaging the surfaces of o
 The CRISMIS project focuses on development of an open-source, machine-learning based tool to identify cosmic-ray artifacts in CCD imaging data products. Such a tool would be useful for space science teams to automatically filter their data. Moreover, identifying cosmic-ray events in images, and classifying their nature and frequency opens a new path for studying cosmic-ray events throughout the solar system. 
 
 
+
 ## Task ideas and expected results
- * Write image processing ingestion and analysis code.
- * Train ML algorithms on code test case images with and without cosmic ray artifacts
  * Develop automated image ingestion and processing code.
  * Develop artifact categorization routine
  * Perform cosmic-ray artifact identification and categorization
+
 
 ## Requirements 
 Python, C++, and some previous experience in Machine Learning. 

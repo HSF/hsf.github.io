@@ -13,18 +13,17 @@ organization:
 ## Description
 
 Thermonuclear supernovae (Type-Ia or SNeIa) are deeply connected to topics throughout astrophysics and cosmology. They are, however, an enigma. What are they? Why do they explode? How diverse is their population? The answers to these fundamental questions will have a far-reaching impact. SNeIa are governed by nuclear physics processes, and the emergent nuclear radiation produced by these cataclysmic events encodes details of their structure and dynamics. Future population studies enabled by next-generation space-based astrophysics investigations will seek to identify progenitor sub-classes based on the fundamental nuclear emissions. Ultimately, nuclear physics-based observations and analyses will deepen our understanding of the role these objects play in the Galaxy and beyond. 
+
 Classification of SNeIa based on a machine learning approach is appropriate, in part because the connections between nuclear physics observables and intrinsic parameters (e.g. progenitor type, mass, explosion dynamics, and distribution of radioactive material) can be complex. An extensive library of detailed supernova simulations facilitate the establishment of classification metrics in preparation for the future nuclear astrophysics investigations. The first step is a student evaluation exercise when you can apply a machine learning technique of your choice to the classification of supernovae based on the parameter dataspace described in the provided dataset. The specific approach is left to you, so feel free to impress us! Work should be clearly demonstrated in Jupyter Notebooks that address why the approach you chose is appropriate for this problem and how you validated your model. 
+
 
 
 
 
 ## Task ideas
  * Identify ML and computational techniques suitable for SNeIa classification
- * Evaluate the performance of each technique and select the best one for this project
  * Train the algorithm on a provided SNeIa simulation database 
  * Develop a SNeIa classification framework and/or routine 
- * Evaluate classification performance 
- * Incorporate temporal evolution metrics into the classification scheme 
 
 
 ## Expected results
@@ -36,7 +35,7 @@ Python, C++, previous experience in Machine Learning or equivalent
 
 ## Mentors
   * [Richard S. Miller](mailto:Richard.S.Miller@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
-  * [James P. Mastandrea](mailto:James.P.Mastandrea@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
+  * [James P. Mastandrea](mailto:James.Mastandrea@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
   * [Patrick Peplowski](mailto:Patrick.Peplowski@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
   * [Aimee Hungerford](mailto:amiee@lanl.gov) (Los Alamos National Laboratories)
   * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) (University of Alabama) 

@@ -7,7 +7,7 @@ layout: plain
 
   * [Emanuele Usai](mailto:Emanuele.Usai@cern.ch) (Brown University)
   * [Richard S. Miller](mailto:Richard.S.Miller@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
-  * [James P. Mastandrea](mailto:James.P.Mastandrea@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
+  * [James P. Mastandrea](mailto:James.Mastandrea@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
   * [Patrick Peplowski](mailto:Patrick.Peplowski@jhuapl.edu) (Johns Hopkins University Applied Physics Laboratory)
   * [Aimee Hungerford](mailto:amiee@lanl.gov) (Los Alamos National Laboratories)
   * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) (University of Alabama)
