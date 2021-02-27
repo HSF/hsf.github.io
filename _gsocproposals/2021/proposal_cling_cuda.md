@@ -1,12 +1,10 @@
 ---
-title: Allow redefinition of CUDA functions
+title: Allow redefinition of CUDA functions in Cling
 layout: gsoc_proposal
 project: IRIS-HEP
 year: 2021
 organization: HZDR
 ---
-
-Redefinition of CUDA functions
 
 ## Description
 
