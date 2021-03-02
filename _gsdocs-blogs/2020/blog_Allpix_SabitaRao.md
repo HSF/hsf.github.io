@@ -47,7 +47,7 @@ The AP2 team was very clear on the **project requirements** from the start:
 
 ### My initial proposal
 
-In my [GSoD application](https://developers.google.com/season-of-docs/docs/participants/project-cernhsf-sabitar), I proposed the following deliverables:
+In my [GSoD application](https://developers.google.com/season-of-docs/docs/2020/participants/project-cernhsf-sabitar), I proposed the following deliverables:
 
   * A streamlined project website that integrates documentation, code reference, tutorials, and news.
   * A restructured and reviewed user manual that separates content intended for users and developers, and includes previously missing information.
