@@ -55,6 +55,7 @@ layout: plain
 * Krishnan Raghavan [krishnan.raghavan@cern.ch](mailto:krishnan.raghavan@cern.ch) CERN
 * Baptiste Ravina [baptiste.ravina@cern.ch](mailto:baptiste.ravina@cern.ch) UofGlasgow
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) Universita' degli Studi di Milano Bicocca
+* Jonas Rembser[Jonas.Rembser@cern.ch](mailto: Jonas.Rembser@cern.ch) CERN
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
 * Stefan Roiser [stefan.roiser@cern.ch](mailto:stefan.roiser@cern.ch) CERN
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
