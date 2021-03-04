@@ -29,7 +29,7 @@ Strong C++ skills, solid knowledge of deep learning, familiarity with GPUs
   * **[Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)**
   * [Omar Zapata](mailto:Omar.Zapata@cern.ch)
   
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to MLSFT-GSOC@cern.ch with Project Title in the subject and relevant mentors will get in touch with you. 
+Interested students please contact the mentors for project inquiries and evaluation task. 
 
 ## Links
   * [ROOT](https://root.cern/)
