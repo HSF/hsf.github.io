@@ -1,10 +1,11 @@
 ---
 project: Rucio
-title: Rucio – Modernize (restructure & rewrite) the Rucio documentation
-author: Dyvia Mohan
+title: Modernize the Rucio documentation
+author: Divya Mohan
+photo: blog_authors/DivyaMohan.jpg
 date: 17.11.2020
 year: 2020
-layout: newsletter
+layout: blog_post
 logo: RUCIO-logo.jpg
 intro: |
   Documentation has been cited as [one of the key factors](https://cdn2.hubspot.net/hubfs/4008838/Resources/The-2019-Tidelift-managed-open-source-survey-results.pdf) along with established policies towards the adoption of Open-Source software packages. With the industry [projected to cross](https://www.cbinsights.com/research/report/future-open-source/) $33 billion by 2022, the role that technically & qualitatively sound documentation assumes is only set to gain more importance.
