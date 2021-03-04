@@ -1,7 +1,7 @@
 ---
 title: TMVA Deep Learning Developments - 3D Convolutions for GPU
 layout: gsoc_proposal
-project: TMVA
+project: ROOT
 year: 2021
 organization:
   - CERN
