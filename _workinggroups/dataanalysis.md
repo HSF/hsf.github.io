@@ -24,7 +24,9 @@ well-defined set of problems.
 [Meetings](https://indico.cern.ch/category/10914)
 [Forum](https://groups.google.com/forum/#!forum/hsf-analysis-wg)
 
-Convenors: Chris Burr (LHCb), Allison Hall (CMS), TJ Khoo (ATLAS)
+Convenors: Allison Hall (CMS), TJ Khoo (ATLAS), Nicola Skidmore (LHCb)
+
+* Contact the [convenors by email](mailto:ahall@fnal.gov,teng.jian.khoo@cern.ch,nicola.skidmore@cern.ch) <!-- markdown-link-check-disable-line -->
 
 ---
 
@@ -32,3 +34,4 @@ Former Convenors:
 - Danilo Piparo (ROOT), 2019
 - Andrea Rizzi (CMS), 2019-2020
 - Paul Laycock (Belle II), 2019-2020
+- Chris Burr (LHCb), 2020

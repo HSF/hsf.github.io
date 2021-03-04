@@ -25,9 +25,13 @@ To answer these questions, particle physicists build software to simulate and an
 Since 2011, CERN has participated in other Google initiatives such as Google Summer of Code (GSoC), first as a small organization (CERN-SFT) and later as an umbrella organization (CERN-HSF) to involve the high-energy physics community. Given the good results in the past under the GSoC program, CERN-HSF is eager to participate in this year and future editions of Season of Docs.
 
 
-### Season of Docs 2020
+## Season of Docs 2020
 
-In 2020 CERN-HSF is planning to apply as an umbrella organization, project proposals are listed [below](#projects-in-2020).
+In 2020 CERN-HSF participated as an umbrella organization, project proposals are listed [below](#projects-in-2020).
+
+### Blogs from participants
+
+Technical writer [blogs](/gsdocs/2020/blogs.html)
 
 ### For technical writers
 

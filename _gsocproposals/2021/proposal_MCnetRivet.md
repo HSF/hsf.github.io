@@ -37,7 +37,7 @@ This project will involve a mixture of system design and implementation. The ide
 ## Mentors
 
  * **[Andy Buckley](mailto:andy.buckley@cern.ch)**
- * [Chris Gutschow](mailto:chris.g@cern.ch)
+ * [Christian Bierlich](mailto:christian.bierlich@thep.lu.se)
 
 
 ## Links
