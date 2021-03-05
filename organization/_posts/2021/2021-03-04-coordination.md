@@ -38,7 +38,7 @@ Plans have been made together with WLCG PL and the experiment computing coordina
 
 *Foundational Tools* - Mostly core pieces of ROOT, such as I/O system, geometry and event display, JSROOT, PyROOT, Maths. ROOT project will edit this.
 
-*Analysis* - To cover the ROOT project (more "analysis facing" components, such as RooFit, Histograms, RDataFrame) - handled by ROOT team. Also cover newer Pythonic Tools, Scikit-HEP project (pyhf, uproot, etc.), Coffea project, zfit fitting package; editors from SciKit HEP, HSF PyHEP and Analysis WG, IRIS-HEP.
+*Analysis* - To cover the ROOT project (more "analysis facing" components, such as RooFit, Histograms, RDataFrame) - handled by ROOT team. Also cover newer Pythonic Tools, Scikit-HEP project (pyhf, uproot, etc.), Coffea project, zfit fitting package; editors from Scikit-HEP, HSF PyHEP and Analysis WG, IRIS-HEP.
 
 *DOMA* - Rucio, File Transfer Service (FTS), Storage interfaces and caching layers (CTA, dCache, Xcache, StoRM, xrootd, http TPC, etc.), Network technologies including monitoring and software defined networks, CVMFS, Token based authentication. Liz and Graeme made a presentation at the last DOMA general meeting (<https://indico.cern.ch/event/1009737/>). We will assemble an editorial team.
 
@@ -56,7 +56,7 @@ Feedback/discussion from LHCC and review chair:
 
 ### HSF Plans
 
-As mentioned above... the summary of our plans for 2021 are here: <https://hepsoftwarefoundation.org/organization/planning/plan-of-work-2021.html>.
+As mentioned above... The summary of our plans for 2021 are here: <https://hepsoftwarefoundation.org/organization/planning/plan-of-work-2021.html>.
 
 Please help circulate it to other communities.
 
@@ -71,7 +71,7 @@ Please help circulate it to other communities.
 - Season of Docs 2021 call for mentors and project proposals already issued
   - Proposals accepted until **Mar 25** (on Mar 26 we need to apply as Org)
   - We had 4 projects in 2020 (2 short-term, 2 long-running) on [Rucio](https://www.divya-mohan.com/project-report-gsod), [Allpix Squared](https://github.com/sabitarao/gsod/wiki), ROOT (being evaluated) 
-    - Techical writer [blogs](https://hepsoftwarefoundation.org/gsdocs/2020/blogs.html) available
+    - Technical writer [blogs](https://hepsoftwarefoundation.org/gsdocs/2020/blogs.html) available
   - The web page 2021 still being prepared. Folders in the repo for 2021 not there yet, but people can [contact us](mailto:hsf-gsdocs-admin@googlegroups.com) in case they plan to make a proposal.
 
 ### Data Analysis Working Group Convenors
@@ -80,7 +80,7 @@ Chris Burr (LHCb, CERN) has unfortunately had to step down as a convenor of DAWG
 
 ### C++ Course
 
-Next iteration, tentatively 30 August - 3 Sept. Pivot the material a bit to concentrate more on the on basics and to have more exercises.
+Next iteration, tentatively 30 August - 3 Sept. Pivot the material a bit to concentrate more on the basics and to have more exercises.
 
 ## Working Group Updates
 
@@ -127,7 +127,7 @@ Next iteration, tentatively 30 August - 3 Sept. Pivot the material a bit to conc
 
 ### Event Generators
 
-- HL-LHC Review 2: Have been discussing the proposal from Liz and Graeme and have decided it would be good to dedicate some upcoming WG meetings to discuss the important topics - expecting to send announcement to the WG tomorrow.
+- HL-LHC Review 2: Have been discussing the proposal from Liz and Graeme and have decided it would be good to dedicate some upcoming WG meetings to discuss the important topics - expecting to send an announcement to the WG tomorrow.
 - ATLAS and CMS GEN accounting: Have updates coming soon.
 - CSBS Paper: Now accepted!
 
