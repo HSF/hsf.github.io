@@ -72,7 +72,7 @@ Please help circulate it to other communities.
   - Proposals accepted until **Mar 25** (on Mar 26 we need to apply as Org)
   - We had 4 projects in 2020 (2 short-term, 2 long-running) on [Rucio](https://www.divya-mohan.com/project-report-gsod), [Allpix Squared](https://github.com/sabitarao/gsod/wiki), ROOT (being evaluated) 
     - Technical writer [blogs](https://hepsoftwarefoundation.org/gsdocs/2020/blogs.html) available
-  - The web page 2021 still being prepared. Folders in the repo for 2021 not there yet, but people can [contact us](mailto:hsf-gsdocs-admin@googlegroups.com) in case they plan to make a proposal.
+  - The web page for 2021 still being prepared. Folders in the repo for 2021 are not there yet, but people can [contact us](mailto:hsf-gsdocs-admin@googlegroups.com) if they plan to make a proposal.
 
 ### Data Analysis Working Group Convenors
 
@@ -124,11 +124,12 @@ Next iteration, tentatively 30 August - 3 Sept. Pivot the material a bit to conc
 ### Software Training
 
 - Quick presentation summarising recent GitHub CI/CD training <https://docs.google.com/presentation/d/12sS7p5E1skOAATztGk5C3NjK0FNCFV9VbWTVxX1UtME/edit?usp=sharing>
+- Discussed possibility of follow-up questionnaire on skill level after, say, six months - this is planned
 
 ### Event Generators
 
 - HL-LHC Review 2: Have been discussing the proposal from Liz and Graeme and have decided it would be good to dedicate some upcoming WG meetings to discuss the important topics - expecting to send an announcement to the WG tomorrow.
-- ATLAS and CMS GEN accounting: Have updates coming soon.
+- ATLAS and CMS event generation job accounting: Have updates coming soon.
 - CSBS Paper: Now accepted!
 
 ### Frameworks
