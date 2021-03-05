@@ -72,7 +72,7 @@ Please help circulate it to other communities.
   - Proposals accepted until **Mar 25** (on Mar 26 we need to apply as Org)
   - We had 4 projects in 2020 (2 short-term, 2 long-running) on [Rucio](https://www.divya-mohan.com/project-report-gsod), [Allpix Squared](https://github.com/sabitarao/gsod/wiki), ROOT (being evaluated) 
     - Techical writer [blogs](https://hepsoftwarefoundation.org/gsdocs/2020/blogs.html) available
-  - The web page 2021 still being prepared. Folders in the repo for 2021 not there yet, but people can [contact us](hsf-gsdocs-admin@googlegroups.com) in case they plan to make a proposal.
+  - The web page 2021 still being prepared. Folders in the repo for 2021 not there yet, but people can [contact us](mailto:hsf-gsdocs-admin@googlegroups.com) in case they plan to make a proposal.
 
 ### Data Analysis Working Group Convenors
 
@@ -80,7 +80,7 @@ Chris Burr (LHCb, CERN) has unfortunately had to step down as a convenor of DAWG
 
 ### C++ Course
 
-Next iteration, tentatively 30 August - 3 Sept. Pivot the materrial a bit to concentrate more on the on basics and to have more exercises.
+Next iteration, tentatively 30 August - 3 Sept. Pivot the material a bit to concentrate more on the on basics and to have more exercises.
 
 ## Working Group Updates
 
@@ -134,7 +134,7 @@ Next iteration, tentatively 30 August - 3 Sept. Pivot the materrial a bit to con
 ### Frameworks
 
 - We had our first free-form meeting yesterday.  It was lightly attended, but we had good discussion regarding TBB UI deprecations, other multithreading issues, and how data-quality monitoring integrates with experiment frameworks.
-- Rebrand as 'Frameworks Coffee'?
+- Re-brand as 'Frameworks Coffee'?
 
 ---
 
