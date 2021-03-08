@@ -21,7 +21,7 @@ Graeme sent a PR request for people to comment on.
 [Submission of project ideas](https://hepsoftwarefoundation.org/activities/gsoc.html) was open till 15 February. Avoid submitting the last minute, there is a review process for the PRs! Also check the instructions for changes to the projects this year. Few points to keep in mind:
 
  - The program [timeline](https://developers.google.com/open-source/gsoc/timeline) has changed. Student projects have halved in length (175 hours), so project proposals need to be more concise. The coding period is Jun 7 - Aug 16, but the project hours can be spread within as convenient for the mentor and student.
- - Shorter projects makes it possible to have more proposals splitting larger developments. This is encouraged as long as sub-projects do not depend on each other. There will be also potentially more candidates than last year.
+ - Shorter projects make it possible to have more proposals splitting larger developments. This is encouraged as long as sub-projects do not depend on each other. There will be also potentially more candidates than last year.
  - There is a detailed internal [timeline](https://hepsoftwarefoundation.org/activities/gsoc.html#timeline) for the project submission and candidate selection period.
  - Prepare a test for candidates, relevant for your proposal, by Mar 9, when mentors will start being contacted. It is very important to do an initial filtering to have an extended exchange only with a limited number of students this year!
  - We will need help as every year for the final proposal evaluation for the slots request (selection committee) (Apr 28 - May 2)
@@ -41,10 +41,10 @@ Metadata discussion series had good discussion -- last meeting on Tues with "ana
     - Yet also rationalising "wait for email to copy from Twiki" as an important "validation strategy"
     - Liberation from collaboration code is valued
 - Bearing in mind mostly ATLAS/CMS input, steps towards consolidation of analysis-specific sources
-    - ATLAS Calibration Area, CMS common json on cvmfs for heavier calibration files
+    - ATLAS Calibration Area, CMS common JSON on CVMFS for heavier calibration files
     - Associated cross-section info in dataset/production management DBs
         - Concerns over curation & source-checking
-    - ATLAS more keen to centralise than CMS -- this did take some time
+    - ATLAS keener to centralise than CMS -- this did take some time
     - Needs to be relocatable for sites/users w/o connectivity
     - Preloading to reduce overheads/facilitate preservation?
 - Concern over 100% processing requirement is not so great?
@@ -56,7 +56,7 @@ Follow-up:
 - Organise a meeting/workshop later on to refine
 
 Other plans:
-- Find a date to speak to trainig
+- Find a date to speak to Training WG
 - Pick next topic between (non-LHC) expt overviews and declarative analysis, set dates & contact speakers
 - Prefer to involve 3rd convener
 
@@ -121,7 +121,7 @@ We plan to start "free-form-discussion" meetings once a month, to allow for an e
 
 ### Differentiable Computing
 
-"campfire" meeting, last week Friday 12 Feb at 17h: <https://indico.cern.ch/event/1005490/>.
+"Campfire" meeting, last week Friday 12 Feb at 17h: <https://indico.cern.ch/event/1005490/>.
 
 ---
 
