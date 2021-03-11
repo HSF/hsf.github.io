@@ -45,7 +45,6 @@ layout: plain
 * Javier Lopez-Gomez [j.lopez@cern.ch](mailto:j.lopez@cern.ch) CERN
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Thomas Madlener [thomas.madlener@desy.de](mailto:thomas.madlener@desy.de) DESY
-* Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) UCLouvain
 * Lorenzo Moneta [Lorenzo.Moneta@cern.ch](mailto:Lorenzo.Moneta@cern.ch) CERN
 * William Moses [wmoses@mit.edu](mailto:wmoses@mit.edu) MIT
 * Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
@@ -56,15 +55,13 @@ layout: plain
 * Krishnan Raghavan [krishnan.raghavan@cern.ch](mailto:krishnan.raghavan@cern.ch) CERN
 * Baptiste Ravina [baptiste.ravina@cern.ch](mailto:baptiste.ravina@cern.ch) UofGlasgow
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) Universita' degli Studi di Milano Bicocca
-* Jonas Rembser[Jonas.Rembser@cern.ch](mailto: Jonas.Rembser@cern.ch) CERN
+* Jonas Rembser[Jonas.Rembser@cern.ch](mailto:Jonas.Rembser@cern.ch) CERN
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
-* Stefan Roiser [stefan.roiser@cern.ch](mailto:stefan.roiser@cern.ch) CERN
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Graeme A Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN
 * Alex Unger [aunger@owncloud.com](mailto:aunger@owncloud.com) ownCloud
 * Michael Usher [michael.usher@aarnet.edu.au](mailto:michael.usher@aarnet.edu.au) AARNet
-* Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Pim Verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
