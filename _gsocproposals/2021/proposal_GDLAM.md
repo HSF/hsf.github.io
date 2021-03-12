@@ -26,11 +26,11 @@ This project will focus on implementation and benchmarking of deep learning algo
 Python, C++, and some previous experience in Machine Learning. 
 
 ## Mentors
-  * [Suzanne Rozenzweig](mailto:srhelfrich@ufl.edu) (University of Florida)
-  * [Efe Yigibasi](mailto:efe.yigitbasi@cern.ch) (University of Florida)
-  * [Darin Acosta](mailto:acostad@ufl.edu) (University of Florida)
-  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) (University of Alabama)
-  * [Ali Hariri](mailto:aah71@mail.aub.edu) (American University Beirut)
+  * [Suzanne Rozenzweig](mailto:ml4-sci@cern.ch) (University of Florida)
+  * [Efe Yigibasi](mailto:ml4-sci@cern.ch) (University of Florida)
+  * [Darin Acosta](mailto:ml4-sci@cern.ch) (University of Florida)
+  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Ali Hariri](mailto:ml4-sci@cern.ch) (American University Beirut)
 
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 

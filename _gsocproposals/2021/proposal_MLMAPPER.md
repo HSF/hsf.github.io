@@ -29,8 +29,8 @@ Python, previous experience in Machine Learning.
 
 ## Mentors
 
-  * [Patrick Peplowski](mailto:Patrick.Peplowski@jhuapl.edu) (JHUAPL)
-  * [Sergei Gleyzer](mailto:sergei@cern.ch) (University of Alabama)
-  * [Jason Terry](mailto:jpterry@uga.edu) (University of Georgia)
+  * [Patrick Peplowski](mailto:ml4-sci@cern.ch) (JHUAPL)
+  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Jason Terry](mailto:ml4-sci@cern.ch) (University of Georgia)
  
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 

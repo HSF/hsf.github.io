@@ -25,10 +25,10 @@ This project will focus on further development of the DeepLense pipeline that co
 Python, PyTorch and relevant past experience in Machine Learning. 
 
 ## Mentors
-  * [Emanuele Usai](mailto:emanuele.usai@cern.ch) (Brown University)
-  * [Anna Parul](mailto:hparul@crimson.ua.edu) (University of Alabama)
-  * [Michael Toomey](mailto:michael_toomey@brown.edu) (Brown University)
-  * [Pranath Reddy](mailto:f20160572@hyderabad.bits-pilani.ac.in) (BITS Pilani Hyderabad)
+  * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Anna Parul](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Michael Toomey](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Pranath Reddy](mailto:ml4-sci@cern.ch) (BITS Pilani Hyderabad)
 
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 

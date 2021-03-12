@@ -24,8 +24,8 @@ Python, C++, and some previous experience in Machine Learning.
 
 ## Mentors
   
-  * [Sergei Gleyzer](mailto:sergei@cern.ch) (University of Alabama)
-  * [Meenakshi Narain](mailto:meenakshi_narain@brown.edu) (Brown University)
-  * [Ulrich Heintz](mailto:ulrich_heintz@brown.edu) (Brown University)
+  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Meenakshi Narain](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Ulrich Heintz](mailto:ml4-sci@cern.ch) (Brown University)
   
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 

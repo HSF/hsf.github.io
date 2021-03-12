@@ -6,6 +6,7 @@ year: 2021
 organization:
  - Alabama
  - Wisconsin
+ - Waterloo
 ---
 
 ## Description
@@ -32,11 +33,12 @@ With this project we seek to implement Quantum Machine Learning methods for LHC 
 
 
 ## Mentors
-  * [Rui Zhang](mailto:rui.zhang@cern.ch) (University of Wisconsin-Madison)
-  * [Shaojun Sun](mailto:shaojun.sun@cern.ch) (University of Wisconsin-Madison)
-  * [Chen Zhou](mailto:chen.zhou@cern.ch) (University of Wisconsin-Madison)
-  * [Sergei Gleyzer](mailto:sergei@cern.ch) (University of Alabama)
-  * [Wen Guan](mailto:wen.guan@cern.ch) (University of Wisconsin-Madison)
+  * [Rui Zhang](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
+  * [Shaojun Sun](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
+  * [Chen Zhou](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
+  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Raphael Koh](mailto:ml4-sci@cern.ch) (University of Waterloo)
+  * [Wen Guan](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
 
 ## Links
   * [HL-LHC](https://hilumilhc.web.cern.ch)

@@ -26,11 +26,11 @@ This project will focus on further development of the DeepLense pipeline that co
 Python, PyTorch and relevant experience in Machine Learning. 
 
 ## Mentors
-  * [Pranath Reddy](mailto:f20160572@hyderabad.bits-pilani.ac.in) (BITS Pilani Hyderabad)
-  * [Michael Toomey](mailto:michael_toomey@brown.edu) (Brown University)
-  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) (University of Alabama)
-  * [Anna Parul](mailto:hparul@crimson.ua.edu) (University of Alabama)
-  * [Sourav Raha](mailto:souravraha@ufl.edu) (University of Florida)
+  * [Pranath Reddy](mailto:ml4-sci@cern.ch) (BITS Pilani Hyderabad)
+  * [Michael Toomey](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Anna Parul](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Sourav Raha](mailto:ml4-sci@cern.ch) (University of Florida)
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
 

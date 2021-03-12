@@ -30,11 +30,11 @@ C++, Python, PyTorch and some previous experience in Machine Learning.
 
 ## Mentors
 
-  * [Davide DiCroce](mailto:davide.di.croce@cern.ch) (University of Alabama)
-  * [Darya Dyachkova](mailto:darya.dyachkova@minerva.kgi.edu) (KGI Minerva)
-  * [Shravan Chaudhari](mailto:f20170736@goa.bits-pilani.ac.in) (BITS Pilani Goa)
-  * [Emanuele Usai](mailto:emanuele.usai@cern.ch) (Brown University)
-  * [Michael Andrews](mailto:michael.andrews@cern.ch) (Carnegie Mellon University)
+  * [Davide DiCroce](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Darya Dyachkova](mailto:ml4-sci@cern.ch) (KGI Minerva)
+  * [Shravan Chaudhari](mailto:ml4-sci@cern.ch) (BITS Pilani Goa)
+  * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Michael Andrews](mailto:ml4-sci@cern.ch) (Carnegie Mellon University)
 
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 

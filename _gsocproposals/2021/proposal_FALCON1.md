@@ -23,11 +23,11 @@ organization:
 Strong machine learning skills, good knowledge of C++ and Python. Interest in Machine Learning algorithms and applications.
 
 ## Mentors 
-  * [Harrison Prosper](mailto:harry@hep.fsu.edu) (Florida State University)
-  * [Michelle Kuchera](mailto:mikuchera@davidson.edu) (Davidson College) 
-  * [Sitong An](mailto:s.an@cern.ch) (Carnegie Mellon University and CERN)
-  * [Abdulhakim Alnuqaydan](mailto:aal700@uky.edu) (University of Kentucky)
-  * [John Blue](mailto:joblue@davidson.edu) (Davidson College)
+  * [Harrison Prosper](mailto:ml4-sci@cern.ch) (Florida State University)
+  * [Michelle Kuchera](mailto:ml4-sci@cern.ch) (Davidson College) 
+  * [Sitong An](mailto:ml4-sci@cern.ch) (Carnegie Mellon University and CERN)
+  * [Abdulhakim Alnuqaydan](mailto:ml4-sci@cern.ch) (University of Kentucky)
+  * [John Blue](mailto:ml4-sci@cern.ch) (Davidson College)
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
 

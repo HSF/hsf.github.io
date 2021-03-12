@@ -32,11 +32,11 @@ This project will focus on the integration of E2E code with the [CMSSW](https://
 C++, Python, PyTorch and some previous experience in Machine Learning.
 
 ## Mentors
-  * [Emanuele Usai](mailto:emanuele.usai@cern.ch) (Brown University)
-  * [Davide DiCroce](mailto:davide.di.croce@cern.ch) (University of Alabama)
-  * [Shravan Chaudhari](mailto:f20170736@goa.bits-pilani.ac.in) (BITS Pilani Goa)
-  * [Sergei Gleyzer](mailto:Sergei.Gleyzer@cern.ch) (University of Alabama)
-  * [Michael Andrews](mailto:michael.andrews@cern.ch) (Carnegie Mellon University)
+  * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Davide DiCroce](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Shravan Chaudhari](mailto:ml4-sci@cern.ch) (BITS Pilani Goa)
+  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Michael Andrews](mailto:ml4-sci@cern.ch) (Carnegie Mellon University)
 
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
