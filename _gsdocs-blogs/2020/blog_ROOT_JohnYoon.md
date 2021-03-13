@@ -41,7 +41,7 @@ Most of the challenges relating to the completion of either goals derived from t
 
 # Summary
 The final two results can be found:
-* [as "global_temperatures.cxx"](https://github.com/root-project/root/tree/master/tutorials/v7), or [alternatively](https://root.cern/doc/master/global__temperatures_8cxx.html)
+* [as "global_temperatures.cxx"](https://github.com/root-project/root/tree/master/tutorials/v7)
 * [RNTuple reference specification](https://github.com/root-project/root/blob/master/tree/ntuple/v7/doc/specifications.md)
 
 As mentioned before, due to the inherently experimental nature of the version ROOT 7, it is highly likely that both of my products will be living and dynamic documents that frequently experience updates.
