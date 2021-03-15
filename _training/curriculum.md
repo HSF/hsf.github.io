@@ -82,7 +82,6 @@ layout: plain
   }
 </style>
 
-
 ## Idea
 
 Training in software and computing are essential ingredients for the success of any HEP experiment. As most experiments have similar basic prerequisites (Unix shell, Python, C++, …) we want to join our efforts and create one introductory software training curriculum that serves HEP newcomers the software skills needed as they enter the field, and in parallel, instill best practices for writing software.
@@ -103,8 +102,8 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 | Version controlling with git | | <span class="stable">✔</span> | [authors](https://github.com/swcarpentry/git-novice/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/swcarpentry/git-novice"></a>  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/git-novice"></a> |
 | Advanced git  | | <span class="alpha">α</span> | [authors](https://github.com/hsf-training/hsf-training-advanced-git-webpage/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-advanced-git-webpage/"></a> |  |
 | Programming with python | | <span class="stable">✔</span> | [authors](https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/swcarpentry/python-novice-inflammation"></a>  | <a class="glyphicon glyphicon-book" href="http://swcarpentry.github.io/python-novice-inflammation"> |
-| HEP ``C++`` School | | <span class="stable">✔</span> | | <a class="glyphicon glyphicon-wrench" href="https://gitlab.cern.ch/sponce/cpluspluscourse/"></a> | <a class="glyphicon glyphicon-book" href="https://indico.cern.ch/event/979067/"></a>  &nbsp; <a class="glyphicon glyphicon-film" href="https://indico.cern.ch/event/979067/"></a>  |
-| Basic Modern ``C++`` | | <span class="alpha">α</span> | [authors](https://github.com/hsf-training/hsf-training-cpp-webpage/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cpp-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cpp-webpage"></a> |
+| HEP C++ Course | | <span class="stable">✔</span> | Sebastien Ponce | <a class="glyphicon glyphicon-wrench" href="https://gitlab.cern.ch/sponce/cpluspluscourse/"></a> | <a class="glyphicon glyphicon-book" href="https://indico.cern.ch/event/979067/"></a>  &nbsp; <a class="glyphicon glyphicon-film" href="https://indico.cern.ch/event/979067/"></a>  |
+| Basic Modern C++ | | <span class=alpha">α</span> | [authors](https://github.com/hsf-training/hsf-training-cpp-webpage/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cpp-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cpp-webpage"></a> |
 | Build systems:  ``cmake`` | | <span class="stable">✔</span> | [authors](https://github.com/hsf-training/hsf-training-cmake-webpage/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cmake-webpage"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cmake-webpage/"></a> |
 | Distributed file systems and grid computing |||| | |
 | ``ROOT`` | | | | | |
@@ -126,7 +125,6 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 | CI/CD github | [Continous integration and deployment](https://docs.gitlab.com/ee/ci/) with [github actions](https://github.com/features/actions) | <span class="beta">β</span> | [authors](https://github.com/hsf-training/hsf-training-cicd-github/blob/gh-pages/AUTHORS) | <a class="glyphicon glyphicon-wrench" href="https://github.com/hsf-training/hsf-training-cicd-github"></a> | <a class="glyphicon glyphicon-book" href="https://hsf-training.github.io/hsf-training-cicd-github/"></a> |
 
 ### Advanced
-
 
 | Module  | Description  | Status | Authors | Repo | Site/Material |
 | -------- | -------- |-------- |-------- |-------- |-------- |
