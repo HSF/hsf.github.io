@@ -5,7 +5,7 @@ author: John Yoon
 date: 03.11.2020
 year: 2021
 layout: blog_post
-logo: ROOT-logo.png.jpg
+logo: ROOT-logo.png
 intro: |
   Google's Season of Docs offers an opportunity for technical writers and open source organizations to collaborate on projects that would improve through documentation. Following the program's application process, I was fortunate enough to match up with CERN, specifically with its software framework team, ROOT. Per ROOT's own [website](https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html#motivation-and-introduction), "ROOT is a software framework for data analysis and I/O: a powerful tool to cope with the demanding tasks typical of state of the art scientific data analysis." Due to the nature of CERN, ROOT's primary use cases revolve around particle physics analysis. This fact catalyzed the inspiration for my proposal, which heavily focused on creating a tutorial that would use datasets beyond the physics realm, in order to introduce ROOT's incredible capabilities to a wider audience. Specifically, the scope for this endeavor highlighted on ROOT's RNTuple feature.
 ---
@@ -47,5 +47,4 @@ The final two results can be found:
 As mentioned before, due to the inherently experimental nature of the version ROOT 7, it is highly likely that both of my products will be living and dynamic documents that frequently experience updates.
 
 My GSoD experience with CERN's ROOT was a rewarding and enjoyable one. I was able to learn a lot more about the technical writing field and open source organizations, thanks to my mentor, Jakob Blomer, as well as the entire I/O team!
-
 
