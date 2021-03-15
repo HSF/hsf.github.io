@@ -66,7 +66,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
     <td> Jan 15 </td>
     <td>Call for 2021 HSF GSoC projects and mentors</td>
   </tr>
-  <tr style="color: red;">
+  <tr>
     <td> Jan 15 - Feb 15 </td>
     <td> Mentors add project proposals available on the HSF GSoC website </td>
   </tr>
@@ -74,7 +74,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
     <td> Mar 9 </td>
     <td> Accepted Organizations announced by Google </td>
   </tr>
-  <tr>
+  <tr style="color: red;">
     <td> Mar 9 - Mar 20 </td>
     <td><p><font color="blue"> Phase 1 selection </font></p> Candidates have a first contact with project mentors. </td>
   </tr>
