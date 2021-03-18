@@ -2,6 +2,7 @@
 Machine Learning for Science github site
 
 * Live at https://ml4sci.github.io/
+![ML4SCI Website](https://i.ibb.co/BNZqzS7/11.png)
 * [Website howto/documentation](https://ml4sci.github.io/howto-website.html)
 
 ## About ML4SCI
