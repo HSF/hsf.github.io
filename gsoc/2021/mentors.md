@@ -38,6 +38,8 @@ layout: plain
   * [Alkaid Cheng](mailto:ml4-sci@cern.ch) (University of Wisconsin Madison)
   * [Meenakshi Narain](mailto:ml4-sci@cern.ch) (Brown University)
   * [Ulrich Heintz](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Aneesh Heintz](mailto:ml4-sci@cern.ch) (Cornell University)
+  * [Daniel Li](mailto:ml4-sci@cern.ch) (Brown University)
   * [Jeremy Bailin](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Jacob Morgan](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Raphael Koh](mailto:ml4-sci@cern.ch) (University of Waterloo)

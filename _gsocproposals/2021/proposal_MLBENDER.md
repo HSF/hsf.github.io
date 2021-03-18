@@ -3,9 +3,10 @@ title: Background Estimation with Neural AutoRegressive Flows
 layout: gsoc_proposal
 project: MLBENDER
 year: 2021
-Organization:
+organization:
  - Alabama
  - Brown
+ - Cornell
 ---
 
 # Description
@@ -27,5 +28,8 @@ Python, C++, and some previous experience in Machine Learning.
   * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Meenakshi Narain](mailto:ml4-sci@cern.ch) (Brown University)
   * [Ulrich Heintz](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Aneesh Heintz](mailto:ml4-sci@cern.ch) (Cornell University)
+  * [Daniel Li](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
   
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 

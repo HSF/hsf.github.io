@@ -40,5 +40,6 @@ With this project we seek to implement Quantum Machine Learning methods for LHC 
   * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Raphael Koh](mailto:ml4-sci@cern.ch) (University of Waterloo)
   * [Wen Guan](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
+  * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
