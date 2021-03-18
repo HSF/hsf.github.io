@@ -1,9 +1,7 @@
 # ML4SCI.github.io
 Machine Learning for Science github site
 
-* Live at https://ml4sci.github.io/
-![ML4SCI Website](https://i.ibb.co/BNZqzS7/11.png)
-* [Website howto/documentation](https://ml4sci.github.io/howto-website.html)
+* Live at https://ml4sci.org
 
 ## About ML4SCI
 Machine Learning for Science (ML4Sci) is an open-source organization that brings together modern machine learning techniques and applies them to cutting edge problems in Science, Technology, Engineering, and Math (STEM). 
