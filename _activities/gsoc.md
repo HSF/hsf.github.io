@@ -74,13 +74,13 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
     <td> Mar 9 </td>
     <td> Accepted Organizations announced by Google </td>
   </tr>
-  <tr style="color: red;">
-    <td> Mar 9 - Mar 20 </td>
+  <tr>
+    <td> Mar 9 - Mar 20 <p><font color="red"> Extended. Projects still accepting candidates </font></p></td>
     <td><p><font color="blue"> Phase 1 selection </font></p> Candidates have a first contact with project mentors. </td>
   </tr>
-  <tr>
-    <td> Mar 20 - Mar 25 </td>
-    <td> Mentors announce to students the result of phase 1 selection </td>
+  <tr style="color: red;">
+    <td> Mar 20 - Mar 25 <p><font color="red"> Extended. Check with mentors for specific instructions </font></p></td>
+    <td> <p><font color="red"> Mentors announce to students the result of phase 1 selection </font></p> </td>
   </tr>
   <tr>
     <td> Mar 20 - Apr 6 </td>
