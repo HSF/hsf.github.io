@@ -24,6 +24,7 @@ layout: plain
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Rafael Silva Coutinho [Rafael Silva Coutinho](mailto:rafael.silva.coutinho@cern.ch) UZH
 * Vincent Croft [vincent.croft@cern.ch](mailto:vincent.croft@cern.ch) Tufts
+* Anirudh Dagar [anirudhdagar6@gmail.com ](mailto:anirudhdagar6@gmail.com )  Indian Institute of Technology, Roorkee
 * Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) Lund University
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Simeon Ehrig [s.ehrig@hzdr.de](mailto:s.ehrig@hzdr.de) HZDR
