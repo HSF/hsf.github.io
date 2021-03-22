@@ -46,6 +46,14 @@ layout: plain
   * [Jianghao Huyan](mailto:ml4-sci@cern.ch) (University of South Carolina)
   * [Varsha Kulkarni](mailto:ml4-sci@cern.ch) (University of South Carolina)
   * [Jason Terry](mailto:ml4-sci@cern.ch) (University of Georgia)
+  * [Stephen Carr](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Vesna Mitrovic](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Chandrasekhar Ramanathan](mailto:ml4-sci@cern.ch) (Dartmouth University)
+  * [Brad Marston](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Charles Snider](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Steven Tobias](mailto:ml4-sci@cern.ch) (University of Leeds)
+  * [Chenyu Zhang](mailto:ml4-sci@cern.ch) (Brown University)
+
 
 
 
