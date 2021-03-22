@@ -21,8 +21,9 @@ The expected result is a working implementation of a new functionality that allo
  * C++, familiarity of ML/DL frameworks (Keras, PyTorch, ScikitLearn)
 
 ## Mentors
+ * **[Anirudh Dagar](mailto:Anirudh.Dagar@cern.ch)**
  * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
- * **[Sitong An](mailto:s.an@cern.ch)**
+ * [Sitong An](mailto:s.an@cern.ch)
 
 ## Links
  * [ROOT](https://root.cern/)
