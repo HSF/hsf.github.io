@@ -43,6 +43,8 @@ Please avoid having the first contact with the mentors of HSF projects before **
 
 For further information, feel free to contact the HSF GSoC admins or join our open chat channel below. Note that the channel is intended for exchanging with the admins, the other candidates and some of the CERN-HSF students from previous year, and we do not maintain a mailing list for candidates. Please avoid posting extended information about yourself in the chat channel and reserve this for the direct exchange with the mentors.
 
+##### <font color="red">Note:</font> **Projects are still seeking candidates, so you can still contact mentors according to the GSoC timeline. Some project proposals are already very popular, you will get a warning in their idea page and/or from the mentors in case you decide to contact them. Please check our project proposals pages in the coming days!**
+
 [hsf-gsoc-admin@googlegroups.com](mailto:hsf-gsoc-admin@googlegroups.com)
 
 [![Gitter](https://badges.gitter.im/HSF/HSF-GSoC.svg)](https://gitter.im/HSF/HSF-GSoC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
