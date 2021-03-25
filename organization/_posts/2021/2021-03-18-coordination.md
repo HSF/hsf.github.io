@@ -23,10 +23,10 @@ We have had some meetings with key people for each section of the document. Now 
 
 The GSoC mentors are quite busy at the moment with candidate evaluation and there are few exchanges on the mentors list.
 
-For GSoD so far we have **no applications**. *Do no projects need documentation help?* If no proposals we won't apply. Deadline is 25 March.
+For GSoD so far we have **no applications**. *Do no projects need documentation help?* If there are no proposals we won't apply. Deadline is 25 March.
 
 - Will send another reminder
-- Can we consider also facility areas that need documentation?
+- Can we also consider facility areas that need documentation?
     - Yes
 
 ### November Workshop Survey and Outcomes
@@ -37,7 +37,7 @@ See slides attached to the agenda, which give highlights of the survey from the 
 
 ### Proposal for DUNE Framework Requirements Review
 
-Paul: DUNE is trying to workout how to deal with its data, including massive "events" from supernovae (100TB). DUNE task force has defined the requirements (43 of them) in a document, which is aimed at DUNE people. If the HSF is giving feedback on this, how can it be expanded/annotated to non-DUNE people? Once that's done can we get together a group of experts who could review and bring input from the expertise of the wider community?
+Paul: DUNE is trying to work out how to deal with its data, including massive "events" from supernovae (100TB!). DUNE task force has defined the requirements (43 of them) in a document, which is aimed at DUNE people. If the HSF is to give feedback on this, how can it be expanded/annotated to non-DUNE people? Once that's done can we get together a group of experts who could review and bring input from the expertise of the wider community?
 
 - Makes a lot of sense to have the HSF do this, crosscheck requirements and make sure that nothing is forgotten
 - Could we ask people from astro-particle to be involved as well, especially to look at the SN event issues
@@ -67,7 +67,7 @@ Benedikt, Chris, Kyle and Attila will discuss then how to proceed.
 
 ### Data Analysis
 
-- Work has started on metadata document. After the skeleton document has been created will ask metadata meeting contributors to help populate it
+- Work has started on the metadata document. After the skeleton document has been created will ask metadata meeting contributors to help populate it
 - Organisation of next meeting series on Analysis frameworks has begun (approx. timeline mid-April). Want to focus on the non-LHC experiments, which will be split into developing and established experiment categories. Contacting/investigating potential speakers, please let us know if you have names in mind.
 - Current (tentative) list:
     - (proto)DUNE
@@ -130,7 +130,7 @@ Our next meeting is on March 31st, 2021 @ 5pm CERN time:
 
 ### Software Training
 
-Please contact us or drop into weekly meeting Monday 16h CET so we can help you organise a training.
+Please contact us or drop into the weekly meeting Monday 16h CET so we can help you organise a training.
 C++ courses merged onto curriculum https://hepsoftwarefoundation.org/training/curriculum.html
 Distributed computing module being planned.
 
@@ -150,4 +150,4 @@ Had an open discussion a few weeks ago that went well. Current schedule is open 
 
 ### Next Meeting(s)
 
-- Next meeting will be 1 April
+- Next meeting will be 1 April - no joke!
