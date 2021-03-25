@@ -86,7 +86,7 @@ Benedikt, Chris, Kyle and Attila will discuss then how to proceed.
 
 ### Reconstruction and Software Triggers
 
-- Kick-off meeting evaluating the outcome of the survey held on Wednesday: https://indico.cern.ch/event/1011873/
+- Kick-off meeting evaluating the outcome of the survey held on Wednesday: <https://indico.cern.ch/event/1011873/>
 - Plan to organize the following events this year:
     - Mini-workshop on heterogeneous computing / algorithms for reconstruction & triggers
         - tentative two half-days, virtual
