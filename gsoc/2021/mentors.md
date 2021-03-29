@@ -38,6 +38,7 @@ layout: plain
 * Ioana Ifrim [ioana.ifrim@cern.ch](mailto:ioana.ifrim@cern.ch) Princeton University
 * Dan Johnson [d.j@cern.ch](mailto:d.j@cern.ch) CERN
 * Rafal Dominik Krawczyk  [rafal.dominik.krawczyk@cern.ch](mailto:rafal.dominik.krawczyk@cern.ch) CERN
+* Ashish Kshirsagar [ashishkshirsagar10@gmail.com](mailto: ashishkshirsagar10@gmail.com) Barclays
 * Thomas Kuhr [thomas.kuhr@lmu.de](mailto:thomas.kuhr@lmu.de) LMU
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
