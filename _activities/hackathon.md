@@ -4,7 +4,9 @@ author: "Emanuele Usai"
 layout: default
 ---
 
-# ![ML4SCI](/images/CERN-HSF-GSoC-logo.png){:height="100px"} ML4SCI Hackathon 2020
+![ML4SCI Hackathon](/images/ML4SCI_hackathon.jpg)
+
+# ML4SCI Hackathon 2020
 
 
 
@@ -18,7 +20,7 @@ layout: default
 
 
 
-![ML4SCI Logo](ML4SCI.jpg)
+<!-- ![ML4SCI Logo](ML4SCI.jpg) -->
 
 We are pleased to announce the **Machine Learning for Science (ML4SCI) Hackathon Competition** that will take place virtually from **October 26-30, 2020**. The competition is sponsored by the University of Alabama Cyber Initiative and the Brown Data Science Initiative and is open to anyone interested. The hackathon will focus on applying **machine learning** techniques to scientific challenges, including those from the fields of physics, astronomy, planetary science and geoscience.
 
@@ -47,147 +49,127 @@ Please find more details and example Jupyter notebooks inside each challenge fol
 Solutions are due on Friday, Oct 30 at 7pm EDT/6pm Central time. Winners will receive certificates and prizes. For any questions about the ML4SCI Hackathon please contact Prof. Sergei Gleyzer [sgleyzer@ua.edu](mailto:sgleyzer@ua.edu)
 
 
+## Agenda
 
 
+### Monday, 26 October 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Introduction
-
-In 2021 ML4SCI is participating in the program as a GSoC umbrella organization.
-The ML4SCI organization has partnered with the [Google Summer of Code](https://summerofcode.withgoogle.com) in 2021 to broaden student participation in machine learning projects over a wide variety of scientific fields.
-ML4SCI participants will be mentored by scientists at top research universities and laboratories on research projects at the cutting edge of science.
-Projects span a wide range of scientific domains, including physics, astronomy, planetary science, quantum information science and others.
-
-
-
-### For Students
-
-
-In 2021 GSoC students work with their mentors for 175 hrs to produce open-source codes that apply machine learning solutions to solve science problems. Projects span three evaluation periods that allow for students and mentors to collaborate on their project and evaluate student progress. Detailed rules for the GSOC program can be found [here](https://summerofcode.withgoogle.com/rules/).
-Interested students should look at the ideas page and contact the mentors. Candidates will be asked to complete an evaluation test for each project they apply to demonstrate the skills needed for the respective projects. In the next step, students will produce a proposal which will be evaluated for final student selection.  
-The detailed timeline is shown below.
 
 <table class="table table-hover table-striped">
 
   <tr>
-    <td>9 March 2021</td>
-    <td>Accepted Organizations announced by Google</td>
+    <td>17:00-17:15 EST: Welcome remarks</td>
+    <td>Speakers: Jeffrey Carver (UACI), Meenakshi Narain (Brown University (US)), Sergei Gleyzer (University of Alabama (US))</td>
   </tr>
 
   <tr>
-    <td>9 March - 13 April 2021</td>
-    <td>Prospective Students interact with Mentors about evaluation tests and possible proposals</td>
-  </tr>
-
-  <tr>
-    <td>13 April 2021</td>
-    <td>Student Application Deadline</td>
-  </tr>
-
-  <tr>
-    <td>17 May 2021</td>
-    <td>Accepted Student Projects Announced</td>
-  </tr>
-
-  <tr>
-    <td>17 May - 7 June 2021</td>
-    <td>Community Bonding</td>
-  </tr>
-
-  <tr>
-    <td>7 June - 16 August 2021</td>
-    <td>Coding Begins</td>
+    <td>17:15-18:30 EST: Kick-off session</td>
+    <td>Speaker: Sergei Gleyzer (University of Alabama (US))</td>
+    <td><a href="https://indico.cern.ch/event/966872/contributions/4078757/attachments/2130208/3587258/ML4SCI_2020.pdf" target="_parent">Slides</a> <a href="https://drive.google.com/file/d/1pebpjR_4blIRJQRVTFhSvelDpbCfavnX/view?usp=sharing" target="_parent">Recording</a></td>
   </tr>
 
 </table>
 
-Please see the [official GSoC Timeline](https://summerofcode.withgoogle.com/how-it-works/)
 
-### For Mentors
-
-For new projects wishing to join ML4SCI GSoC umbrella, please contact the admins at  [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch). Projects need to have a connection with machine learning applied to science to join us. The mentor timeline can be found below. 
+### Tuesday, 27 October
 
 <table class="table table-hover table-striped">
 
 <tr>
-<td>15 February 2021</td>
-<td>Deadline to apply for ML4Sci project participation</td>
+<td>14:30-15:30 EST: Introduction to Machine Learning</td>
+<td>Speaker: Harry Prosper (Florida State University (US))</td>
+<td><a href="https://drive.google.com/drive/folders/1b0rGayqvMFfGpmz_6RnD-t6rKn_K_EvW?usp=sharing" target="_parent">Recording</a></td>
 </tr>
 
 <tr>
-<td>18 February 2021</td>
-<td>We will apply to GSoC as an umbrella organization</td>
+<td>17:00-18:00 EST: Hackathon Office Hours - CosmicRayChallenge</td>
+<td>Speaker: Patrick Peplowski (JHUAPL (US))</td>
 </tr>
 
 <tr>
-<td>5 March 2021</td>
-<td>Deadline to finalize student evaluation tests</td>
+<td>17:00-18:00 EST: Hackathon Office Hours - General Questions</td>
+<td>Speaker: Sergei Gleyzer (University of Alabama (US))</td>
 </tr>
 
 <tr>
-<td>9 March 2021</td>
-<td>Accepted Orgs announced by Google</td>
+<td>17:00-18:00 EST: Hackathon Office Hours - GoogleEarthEngine</td>
+<td>Speaker: Brad Peter (University of Alabama (US))</td>
 </tr>
 
 <tr>
-<td>9 March - 13 April 2021</td>
-<td>Prospective Students interact with Mentors about evaluation tests and possible proposals</td>
+<td>17:00-18:00 EST: Hackathon Office Hours - HiggsChallenge</td>
+<td>Speaker: Ali Hariri (American University of Beirut (LB))</td>
 </tr>
 
 <tr>
-<td>3 May 2021</td>
-<td>Slot Requests</td>
+<td>17:00-18:00 EST: Hackathon Office Hours - NMR</td>
+<td>Speaker: Stephen Carr (Brown University (US))</td>
 </tr>
 
 <tr>
-<td>17 May 2021</td>
-<td>Accepted Student Projects Announced</td>
+<td>17:00-18:00 EST: Hackathon Office Hours - Particle Images</td>
+<td>Speaker: Emanuele Usai (Brown University (US))</td>
 </tr>
 
 <tr>
-<td>17 May - 7 June 2021</td>
-<td>Community Bonding</td>
-</tr>
-
-<tr>
-<td>7 June - 16 August 2021</td>
-<td>Coding Begins</td>
+<td>17:00-18:00 EST: Hackathon Office Hours - StrongLensing</td>
+<td>Speaker: Michael Toomey (Brown University (US))</td>
 </tr>
 
 </table>
 
-## Projects in 2021
+### Wednesday, 28 October
 
-{% assign current_year = "2021" %}
-{% include gsoc_project_list.ext year=current_year %}
+<table class="table table-hover table-striped">
 
-## Participating Organizations in 2021
+  <tr>
+    <td>12:00-13:00 EST: Hackathon Office Hours</td>
+  </tr>
+  <tr>
+    <td>17:00-18:00 EST: Hackathon Office Hours</td>
+  </tr>
+  
+</table>
 
-{% include gsoc_organization_list.ext year=current_year %}
+### Thursday, 29 October
 
-## Summary
+<table class="table table-hover table-striped">
 
-[Full list of Proposal Ideas](/gsoc/2021/summary.html)
+  <tr>
+    <td>12:00-13:00 EST: Hackathon Office Hours</td>
+  </tr>
+  <tr>
+    <td>17:00-18:00 EST: Hackathon Office Hours</td>
+  </tr>
+  
+</table>
 
-[Full list of Mentors](/gsoc/2021/mentors.html)
+### Friday, 30 October
+
+Solutions/Submissions Due
+
+### Monday, 16 November
+
+Results Announced
+
+### Monday, 30 November 
+
+<table class="table table-hover table-striped">
+
+  <tr>
+    <td>18:00-19:00 EST: Challenge Winners - Going Over Solutions, Wrap up</td>
+    <td>Speaker: Sergei Gleyzer (University of Alabama (US))</td>
+    <td><a href="https://indico.cern.ch/event/966872/contributions/4111597/attachments/2153115/3630958/ML4SCI_2020_follow_up.pdf" target="_parent">Slides</a></td>
+  </tr>
+
+</table>
+
+
+
 
 ---
 
 ## Contacts
 
-*ML4SCI GSoC Admins* [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch)
+*ML4SCI Admins* [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch)
 
