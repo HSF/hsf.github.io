@@ -4,7 +4,7 @@ author: "Emanuele Usai"
 layout: default
 ---
 
-![ML4SCI Hackathon](/images/ML4SCI_hackathon.jpg)
+![ML4SCI Hackathon](/images/ML4SCI_hackathon.jpg){:width="1000px"}
 
 # ML4SCI Hackathon 2020
 
