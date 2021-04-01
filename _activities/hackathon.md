@@ -9,17 +9,6 @@ layout: default
 # ML4SCI Hackathon 2020
 
 
-
-
-
-
-
-
-
-
-
-
-
 <!-- ![ML4SCI Logo](ML4SCI.jpg) -->
 
 We are pleased to announce the **Machine Learning for Science (ML4SCI) Hackathon Competition** that will take place virtually from **October 26-30, 2020**. The competition is sponsored by the University of Alabama Cyber Initiative and the Brown Data Science Initiative and is open to anyone interested. The hackathon will focus on applying **machine learning** techniques to scientific challenges, including those from the fields of physics, astronomy, planetary science and geoscience.
