@@ -310,4 +310,10 @@
   source: https://indico.cern.ch/event/997485/
   tags: HSF
   title: HSF Training Hackathon Follow-up
-  
+- author: Sudhir Malik
+  date: 2021-02-16
+  deadline: ''
+  end_date: 2021-02-20
+  source: https://indico.cern.ch/event/1001128/
+  tags: HSF
+  title: GitHub CI/CD Training 
