@@ -1,5 +1,5 @@
 ---
-title: Quantum Convolutional Neural Networks for High Energy Physics Analysis at the LHC
+title: Quantum Graph Neural Networks for High Energy Physics Analysis at the LHC
 layout: gsoc_proposal
 project: QMLHEP
 year: 2021
@@ -19,11 +19,11 @@ With this project we seek to implement Quantum Machine Learning methods for LHC 
 
 
 ## Task ideas
-  * Implement a Quantum Convolutional Neural Network (QCNN) method based on Google Tensorflow Quantum framework.
+  * Implement a Quantum Graph Neural Network (QCNN) method based on Google Tensorflow Quantum framework.
   * Apply the quantum machine learning method to a benchmark high-energy physics analysis and benchmark the quantum machine learning performance compared to classical machine learning methods
  
 ## Expected results
-  * Trained Quantum Convolutional Neural Network with TensorFlow Quantum framework.
+  * Trained Quantum Graph Neural Network with TensorFlow Quantum framework.
   * Apply the Quantum Machine Learning method to LHC physics analysis and compare to classical machine learning methods.
   
 ## Requirements 

@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Model for the Albedo of Mercury
+title: Machine Learning Model for the Albedo of the Moon
 layout: gsoc_proposal
 project: MESSENGER
 year: 2021
@@ -18,10 +18,10 @@ Planetary surfaces are observed as all electromagnetic wavelengths (e.g. radar, 
 We seek to study planetary surfaces by inputting maps of surfaces at all wavelengths available to discover the relationships between the measurements and to make predictions about chemistry that are not directly sampled by observations. This provides a way of studying the geologic history of a planet with existing data, which is valuable given the infrequent opportunities for new measurements by planetary spacecraft.
 
 ## Task ideas
-  * Implement a deep multi-objective regression model to predict the chemical composition of Mercury based on data collected by the Messenger mission.
+  * Implement a deep multi-objective regression model to predict the chemical composition of the Moon based on data collected by the Lunar Prospector mission.
 
 ## Expected results
-  * Accurate models of albedo and chemical composition based on Messenger mission data
+  * Accurate models of albedo and chemical composition based on Lunar Prospector mission data
    
 ## Requirements 
 Python, previous experience in Machine Learning. 
