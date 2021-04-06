@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Model for the Albedo of the Moon
+title: Machine Learning Model for the Lunar Albedo
 layout: gsoc_proposal
 project: MESSENGER
 year: 2021
