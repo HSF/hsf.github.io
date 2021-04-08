@@ -1,7 +1,7 @@
 ---
 title: Machine Learning Model for the Lunar Albedo
 layout: gsoc_proposal
-project: MESSENGER
+project: LUNARPROSPECTOR
 year: 2021
 organization:
  - Alabama
