@@ -23,40 +23,78 @@ Everyone is welcome to join the community and participate by means of the follow
 Extra Gitter channels have been created by and for the benefit of the community:
 
 * [PyHEP-newcomers](https://gitter.im/HSF/PyHEP-newcomers){:target="_pyhep_newcomers_gitter_channel} for newcomers support (very low entry threshold).
+* [PyHEP-fitting](https://gitter.im/HSF/PyHEP-fitting){:target="_pyhep_fitting_gitter_channel} for 
+discussions around fitting.
 * [PyHEP-histogramming](https://gitter.im/HSF/PyHEP-histogramming){:target="_pyhep_histogramming_gitter_channel} for discussions around histogramming.
 * [mpl-hep](https://gitter.im/HSF/mpl-hep){:target="_mpl_hep_gitter_channel} for Matplotlib proposals related to Particle Physics.
 
 
 # PyHEP Series of Workshops
 
-The **PyHEP workshops** are a series of workshops initiated and supported by the HSF
+The **PyHEP workshops** are a series of workshops initiated by Eduardo Rodrigues and supported by the HSF
 with the aim to provide an environment to discuss and promote the usage of Python in the HEP community at large.
 
 {:.table .table-hover .table-condensed .table-striped}
 | *Workshop* | *Location*             | *Date*               | *Agenda link*                                                                 |
 | ---------- | ---------------------- | ---------------------| ----------------------------------------------------------------------------- |
+| PyHEP 2021 | Virtual workshop       | July 5-9, 2021       | [Indico](https://indico.cern.ch/e/PyHEP2021)
+{:target="_pyhep2021_indico"}     |
 | PyHEP 2020 | Virtual workshop       | July 13-17, 2020     | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}     |
 | PyHEP 2019 | Abingdon, U.K.         | October 16-18, 2019  | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}     |
 | PyHEP 2018 | Sofia, Bulgaria        | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
 
 The advert and details on these workshops are given below.
 
-## PyHEP 2020
+## PyHEP 2021
 
-PyHEP 2020 will be held as a *virtual* workshop on 13-17 July 2020.
-The workshop was meant to take place in the same city as the [SciPy 2020](https://www.scipy2020.scipy.org/){:target="_scipy2020"}
-conference on scientific computing in Python, and slightly overlap in time with it,
-to facilitate inter-community exchanges.
-Both events are now virtual because of the worldwide COVID-19 pandemic.
-We encourage HEP participation in SciPy.
+PyHEP 2021 will be held as a *virtual* workshop on 5-9 July 2021.
+It will be a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and inform the future evolution of community activities. There will be ample time for discussion.
 
-The PyHEP 2020 [agenda](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}
-will be composed of plenary sessions; the content is under preparation.
+The PyHEP 2021 [agenda](https://indico.cern.ch/e/PyHEP2021){:target="_pyhep2021_indico"}
+will be composed of plenary sessions; the content is under preparation:
+
+1. Topical sessions
+2. Hands-on tutorials
+3. Keynote presentations
+4. Presentations following up from topics discussed at PyHEP 2020
 
 ### Organising Committee
 
-Ben Krikler - University of Bristol (Co-chair)<br>
 Eduardo Rodrigues - University of Cincinnati (Chair)<br>
+Ben Krikler - University of Bristol (Co-chair)<br>
+Jim Pivarski - Princeton University (Co-chair)<br>
+Matthew Feickert - University of Illinois at Urbana-Champaign<br>
+Oksana Shadura - University of Nebraska-Lincoln<br>
+Philip Grace - The University of Adelaide
+
+### Sponsors
+
+The event is kindly sponsored by
+
+![UoL](/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
+![IRIS-HEP](/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![SSI](/images/pyhep/SSI_logo.png){:height="60px"}
+
+## PyHEP 2020
+
+PyHEP 2020 was held as a *virtual* workshop on 13-17 July 2020.
+The workshop was meant to take place in the same city as the [SciPy 2020](https://www.scipy2020.scipy.org/){:target="_scipy2020"}
+conference on scientific computing in Python, and slightly overlap in time with it,
+to facilitate inter-community exchanges.
+Both events ran as virtual events because of the worldwide COVID-19 pandemic.
+
+The PyHEP 2020 [agenda](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}
+was composed of plenary sessions such as for example:
+
+1. Topical sessions
+2. Hands-on tutorials
+3. Two keynote presentations (phenomenology and astroparticle physics communities)
+4. Presentations following up from topics discussed at PyHEP 2019
+
+### Organising Committee
+
+Eduardo Rodrigues - University of Cincinnati (Chair)<br>
+Ben Krikler - University of Bristol (Co-chair)<br>
 Jim Pivarski - Princeton University (Co-chair)<br>
 Matthew Feickert - University of Illinois at Urbana-Champaign
 
@@ -81,7 +119,7 @@ The workshop was a forum for the participants and the community at large to disc
 
 A keynote presentation on the [PyViz](https://pyviz.org){:target="_pyhep2019_pyviz"} project,
 open source visualization tools for Python,
-was given by [Philipp Rudiger](http://philippjfr.com){:target="_pyhep2019_philipp"}.
+was given by [Philipp Rudiger](https://github.com/philippjfr){:target="_pyhep2019_philipp"}.
 
 The [agenda](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}
 was composed of plenary sessions such as for example:
