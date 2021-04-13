@@ -119,7 +119,7 @@ The workshop was a forum for the participants and the community at large to disc
 
 A keynote presentation on the [PyViz](https://pyviz.org){:target="_pyhep2019_pyviz"} project,
 open source visualization tools for Python,
-was given by [Philipp Rudiger](http://philippjfr.com){:target="_pyhep2019_philipp"}.
+was given by [Philipp Rudiger](https://github.com/philippjfr){:target="_pyhep2019_philipp"}.
 
 The [agenda](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}
 was composed of plenary sessions such as for example:
