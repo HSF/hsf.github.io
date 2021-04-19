@@ -39,16 +39,16 @@ Apologies: Kevin Pedro
 
 ### HL-LHC Review Phase 2
     
-We have discussed having mini-workshops to help prepare for the Analysis and Simulation documents. The idea is experiment presentations on plans, R&D, boundary conditions and to use that as a way to discuss with the projects.
+We have discussed having mini-workshops to help prepare for the Analysis and Simulation documents. The idea is project and experiment presentations on plans, R&D, boundary conditions, etc. that we then discuss to check that we are aligned.
 
 The dates are now fixed for these meetings:
 
 - Detector Simulation, Thursday 29 April <https://indico.cern.ch/event/1028379/>
 - Analysis, Tuesday 4 May <https://indico.cern.ch/event/1028381/>
-   - The WG conveners are contacting different generator teams and will invite them to discuss the review in forthcoming meetings. There are quite a few to get though but we think we have time.
 
 They run from 15-18h CEST. Note the plan is to have a first draft of these documents by *30 June*.
 
+For the Physics Event Generators the WG conveners are contacting different generator teams and will invite them to discuss the review in forthcoming meetings. There are quite a few to get though, but we think we have time.
 ### Google Summer of Code, Season of Docs
 
 - now in the proposal evaluation and slots request phase
@@ -60,18 +60,18 @@ They run from 15-18h CEST. Note the plan is to have a first draft of these docum
     - *"... about 55 total with ~10 being spam"*
     - *"... received 21 total proposals, out of those 15 actually had a proposal that was more than just a resume, ... This was a sharp decline from last year were we got 62 proposals, with 15 of those being spam."*
 - counted 9/36 projects without a proposal
-    - [Caterina, may not get there by the time comment is made] I guess we can't "share" good candidates at this point? It was hard to do it before the deadline as it would have been against the Google recommendations (it would have meant ranking before the proposal stage) -> no
+    - [Caterina] I guess we can't "share" good candidates at this point? It was hard to do it before the deadline as it would have been against the Google recommendations (it would have meant ranking before the proposal stage) -> A. no, unfortunately this isn't possible
 - we plan asking for slots for **all** projects having a good candidate
-- we sent instructions to mentors for evaluating and ranking the proposals these days, the deadline is Apr 20 to send us feedback (with few days extensions for good reasons)
+- we sent instructions to mentors for evaluating and ranking the proposals in the coming days, the deadline is Apr 20 to send us feedback (with few days extension for any good reasons)
 - we have not applied for **Season of Docs** this year since we haven't received any project proposals
 
 
 ### Proposal for DUNE Framework Requirements Review
 
- - We have now heard from everyone that we invited to the panel. 
- - Will be sending a more formal communication soon. 
- - 6 out of 7 people said yes to the invite.
- - Will have 2 x 1/2 day meetings at the end of May (but some internal panel discussion before that).
+- We have now heard from everyone that we invited to the panel.
+- Will be sending a more formal communication soon.
+- 6 out of 7 people said yes to the invite.
+- Will have 2 x 1/2 day meetings at the end of May (but some internal panel discussion before that).
 
 ### HSF Workshops in 2021
 
@@ -82,7 +82,7 @@ But we would like to have possible mini-workshops focusing on one particular top
 - Focus on high-granularity calorimeters, from simulation to reconstruction
 - Focus on I/O, driven by technology evolution and how this would affect data processing software and facilities
 
-For next year, we do plan to have a f2f pre-CHEP workshop in Norfolk.
+For next year, we do plan to have a f2f pre-CHEP workshop in Norfolk (has been discussed with Amber).
 
 See PyHEP 2021 workshop below.
 
@@ -90,7 +90,7 @@ See PyHEP 2021 workshop below.
 
 ### Data Analysis
 
-- Meeting series on "Analysis software in the wider HEP/nuclear community" starts next week on Wednesday, April 21 from 15:30-17:30 CET, featuring speakers from SBN, DUNE, Jefferson Lab, and sPHENIX: <https://indico.cern.ch/event/1027471/> 
+- Meeting series on "Analysis software in the wider HEP/nuclear community" starts next week on Wednesday, April 21 from 15:30-17:30 CET, featuring speakers from SBN, DUNE, Jefferson Lab, and sPHENIX: <https://indico.cern.ch/event/1027471/>
 
 
 ### Detector Simulation
@@ -106,8 +106,6 @@ See PyHEP 2021 workshop below.
 ### Reconstruction and Software Triggers
 
 - Planning a topical meeting on 4D reconstruction. Date still to be defined (tentatively on May 26th)
-
-
 ### PyHEP
 
 - **Topical "meeting of the month" on the [pyhf](https://github.com/scikit-hep/pyhf) package** held last Wednesday, see <https://indico.cern.ch/event/985425/> for the tutorial materials and the recording uploaded to YouTube.
@@ -120,16 +118,16 @@ See PyHEP 2021 workshop below.
 
 Next meeting on *experience with Spack at Fermilab* by Steve White:
 - **Date:** Wednesday 28 Apr 2021 at 17:00 CERN
-- **Agenda:** https://indico.cern.ch/event/1026182/
-- The goal is to have 30' presentation followed but a discussion among Spack developers/users (need to invite some people explicitly, e.g. Valentin Volkl for FCC/Key4hep and Ivan Razumov for SPI etc.; FAIR experiments). Please feel free to advertise more widely. An announcment will be made soon, too.
+- **Agenda:** <https://indico.cern.ch/event/1026182/>
+- The goal is to have 30' presentation followed but a discussion among Spack developers/users (need to invite some people explicitly, e.g. Valentin Volkl for FCC/Key4hep and Ivan Razumov for SPI etc.; FAIR experiments). Please feel free to advertise more widely. An announcement will be made soon, too.
 
 There is a Spack HEP channel that can be used for discussion and help.
  - See <https://spack.io> for details/links.
 
 ### Software Training
 
-Not many people signed for training hackathon followup (to pick a date in end of April) - https://doodle.com/poll/2yuffursq7t7ghhb
-Please adverstise (C++ team??), also using Mattermost. This is good for other HSF working groups with interest in training.
+Not many people signed for training hackathon followup (to pick a date in end of April) - <https://doodle.com/poll/2yuffursq7t7ghhb>
+Please advertise (C++ team??), also using Mattermost. This is good for other HSF working groups with interest in training.
 
 ### Event Generators
 - Had a discussion with Graeme and Liz about the HL-LHC review. We are planning meetings to follow up.
@@ -150,15 +148,6 @@ Would also like to touch on data quality in later meetings.
 Much effort going into DUNE fwk review.
 
 ## Other Interest and Activity Areas
-
-### Differentiable Computing
-
-### Quantum Computing
-
-### Visualisation
-
-### Event Delivery Forum
-
 ### Licensing
 
 Plan to update / reword the HSF document about licenses and copyright.
@@ -181,7 +170,10 @@ Plan to update / reword the HSF document about licenses and copyright.
 
 ### Mailing Lists
 
-It seems that changes in Google policy now mean that it is *not* possible to sign up to Google Groups lists without a Google account.
+It seems that changes in Google policy now mean that it is *not* possible to
+sign up to Google Groups lists without a Google account. Note that when we
+decided the mailing list policy for HSF it was before eduGAIN so we may
+consider a different policy later (not urgent).
 
 ### Next Meeting(s)
 
@@ -191,5 +183,3 @@ It seems that changes in Google policy now mean that it is *not* possible to sig
     - Clashes with the Ascension Holiday at CERN and in many EU countries
 - Propose then an exceptional even-week meeting, *Thursday 6 May*
     - Agreed: next meetings 6 May, then 27 May
-
-
