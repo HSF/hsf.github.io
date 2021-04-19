@@ -59,7 +59,7 @@ will be composed of plenary sessions; the content is under preparation:
 
 ### Organising Committee
 
-Eduardo Rodrigues - University of Cincinnati (Chair)<br>
+Eduardo Rodrigues - University of Liverpool (Chair)<br>
 Ben Krikler - University of Bristol (Co-chair)<br>
 Jim Pivarski - Princeton University (Co-chair)<br>
 Matthew Feickert - University of Illinois at Urbana-Champaign<br>
