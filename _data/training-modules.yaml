@@ -157,3 +157,10 @@
   videos: ''
   webpage: ''
   id: alpaka
+- description: Introduction to the <a href="https://en.wikipedia.org/wiki/Ssh_(Secure_Shell)">Secure Shell (SSH)</a>
+  name: SSH
+  repository: https://github.com/hsf-training/hsf-training-ssh-webpage/
+  status: alpha
+  videos: ''
+  webpage: https://hsf-training.github.io/hsf-training-ssh-webpage/
+  id: ssh

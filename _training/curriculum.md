@@ -13,7 +13,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### Basics
 
-{% include list_of_selected_training_modules.html ids="git,python,ml" %}
+{% include list_of_selected_training_modules.html ids="git,python,ssh,ml" %}
 
 ### Software Development and Deployment
 
