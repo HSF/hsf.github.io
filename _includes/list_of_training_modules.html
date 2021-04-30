@@ -1,0 +1,15 @@
+<div class="training-module-container">
+{% for module in modules %}
+    <div class="training-module">
+        <div class="training-module-name">{{ module.name }}</div>
+        <div class="training-module-description">{{ module.description }}</div>
+        {% unless module.webpage == "" %}
+        <a class="training-module-webpage" href="{{ module.webpage }}"><span class="glyphicon glyphicon-book"></span> Start learning now!</a>
+        {% endunless %}
+        {% unless module.videos == "" %}
+        <a class="training-module-videos" href="{{ module.videos }}"><span class="glyphicon glyphicon-film"></span> Watch the videos!</a>
+        {% endunless %}
+        <a class="training-module-repository" href="{{ module.repository }}"><span class="glyphicon glyphicon-wrench"></span> Contribute!</a>
+    </div>
+{% endfor %}
+</div>

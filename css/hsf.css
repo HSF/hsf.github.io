@@ -248,3 +248,54 @@ body {
 .alignright {
   float: right;
 }
+
+
+/* TRAINING GROUP */
+
+/* LIST OF MODULES */
+
+.training-module {
+  width: 100%;
+  min-height: 100pt;
+  display: grid;
+  padding: 5pt;
+  background: #F9F2F4;
+  border-radius: 10px 20px;
+}
+
+.training-module-name {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10pt;
+  font-size: 17px;
+}
+
+.training-module-description {
+  padding-bottom: 10pt;
+}
+
+.training-module-webpage {
+  text-align: center;
+  display: block;
+}
+
+.training-module-repository {
+  padding-top: 10pt;
+  vertical-align: bottom;
+  text-align: center;
+  display: block;
+  align-self: end;
+}
+
+
+.training-module-videos {
+  text-align: center;
+  display: block;
+}
+
+.training-module-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
