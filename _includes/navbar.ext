@@ -1,8 +1,8 @@
 
 <div class="navbar navbar-default">
-      <div class="container">
+    <div class="container">
         <div class="navbar-header">
-          <a href="/" class="navbar-brand">HEP Software Foundation</a>
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span> HSF</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -10,9 +10,9 @@
           </button>
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-center">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu">Working Groups<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span> Working Groups<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
                   <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
                   <li class="divider"></li>
@@ -22,7 +22,7 @@
                </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">Activities<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span> Activities<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
                  <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
                  <li class="divider"></li>
@@ -32,7 +32,7 @@
                </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu">Meetings<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span> Meetings<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
                  {% for meeting in site.meetings %}
                    <li><a href="{{ meeting.url }}">{{ meeting.title }}</a></li>
@@ -40,7 +40,7 @@
                </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu">Communication<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span> Communication<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
                   <li><a href="/future-events.html">Community Calendar</a></li>
                   <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
@@ -55,12 +55,12 @@
                   <li><a href="/events.html">Events &amp; Workshops</a></li>
                   <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
                   <li class="divider"></li>
-                  
+
                   <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
                 </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu">Projects &amp; Support<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span> Projects &amp; Support<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="projects_menu">
                   <li><a href="/project_guidelines.html">How to join as a project</a></li>
                   <li><a href="/projects.html">Member Projects</a></li>
@@ -71,7 +71,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu">About<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span> About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="about_menu">
                 <li><a href="/get_involved.html">Get involved!</a><li>
                 <li><a href="/organization/team.html">The Coordination Team</a></li>
@@ -87,7 +87,6 @@
               </ul>
             </li>
           </ul>
-
         </div>
-      </div>
     </div>
+</div>
