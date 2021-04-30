@@ -1,63 +1,73 @@
-- description: ''
+- description: 'Track code changes, undo mistakes, collaborate. This module is a must.'
   name: Version controlling with git
   repository: https://github.com/swcarpentry/git-novice
   status: stable
   videos: ''
   webpage: http://swcarpentry.github.io/git-novice
-- description: ''
+  id: git
+- description: 'Working with branches and more'
   name: Advanced git
   repository: https://github.com/hsf-training/hsf-training-advanced-git-webpage/
   status: alpha
   videos: ''
   webpage: ''
-- description: ''
+  id: advancedgit
+- description: 'Get started with an incredibly popular programming language.'
   name: Programming with python
   repository: https://github.com/swcarpentry/python-novice-inflammation
   status: stable
   videos: ''
-  webpage: ''
+  webpage: http://swcarpentry.github.io/python-novice-inflammation
+  id: python
 - description: ''
   name: HEP C++ Course
   repository: https://gitlab.cern.ch/sponce/cpluspluscourse/
   status: stable
   videos: https://indico.cern.ch/event/979067/
   webpage: https://indico.cern.ch/event/979067/
+  id: hepcpp
 - description: ''
   name: Basic Modern C++
   repository: https://github.com/hsf-training/hsf-training-cpp-webpage
   status: alpha
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-cpp-webpage
+  id: moderncpp
 - description: ''
   name: 'Build systems:  <code>cmake</code>'
   repository: https://github.com/hsf-training/hsf-training-cmake-webpage
   status: stable
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-cmake-webpage/
+  id: cmake
 - description: ''
   name: Distributed file systems and grid computing
   repository: ''
   status: alpha
   videos: ''
   webpage: ''
+  id: grid
 - description: ''
   name: <code>ROOT</code>
   repository: ''
   status: alpha
   videos: ''
   webpage: ''
+  id: root
 - description: Reading and writing ROOT files without having to install ROOT.
   name: <code>uproot</code>
   repository: https://github.com/hsf-training/hsf-training-uproot-webpage
   status: beta
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-uproot-webpage/
+  id: uproot
 - description: A simple analysis using CMS open data
   name: A simple analysis
   repository: https://github.com/hsf-training/hsf-training-cms-analysis-webpage
   status: stable
   videos: https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V
   webpage: https://hsf-training.github.io/hsf-training-cms-analysis-webpage/
+  id: simpleanalysis
 - description: <a href="https://en.wikipedia.org/wiki/Unit_testing">Unit testing</a>
     in python
   name: Unit testing
@@ -65,18 +75,21 @@
   status: beta
   videos: ''
   webpage: http://carpentries-incubator.github.io/python-testing/
+  id: testingpython
 - description: ''
   name: Matplotlib for HEP
   repository: https://github.com/hsf-training/hsf-training-matplotlib
   status: alpha
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-matplotlib/
+  id: matplotlib
 - description: ''
   name: Parallel programming
   repository: ''
   status: alpha
   videos: ''
   webpage: ''
+  id: parallel
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system
   name: Docker
@@ -84,24 +97,28 @@
   status: stable
   videos: https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj
   webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  id: docker
 - description: E.g. <code>yadage</code> and <code>reana</code>
   name: Workflows &amp; reproducability
   repository: ''
   status: alpha
   videos: ''
   webpage: ''
+  id: yadagereana
 - description: ''
   name: Machine learning
   repository: https://github.com/hsf-training/hsf-training-ml-webpage
   status: stable
   videos: https://www.youtube.com/playlist?list=PLKZ9c4ONm-VmHsMKImIDEMsZI1Vp0UY-Z
   webpage: https://hsf-training.github.io/hsf-training-ml-webpage
+  id: ml
 - description: ''
   name: Machine learning on GPU
   repository: https://github.com/hsf-training/hsf-training-ml-gpu-webpage
   status: stable
   videos: https://www.youtube.com/playlist?list=PLKZ9c4ONm-VnfKk7XrVUa-V42lUdMrB6M
   webpage: https://hsf-training.github.io/hsf-training-ml-gpu-webpage
+  id: gpuml
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
     deployment</a> with <a href="https://about.gitlab.com/">gitlab</a>
   name: CI/CD
@@ -109,6 +126,7 @@
   status: stable
   videos: https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb
   webpage: https://hsf-training.github.io/hsf-training-cicd/
+  id: cicd
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
     deployment</a> with <a href="https://github.com/features/actions">github actions</a>
   name: CI/CD github
@@ -116,18 +134,21 @@
   status: beta
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-cicd-github/
+  id: cicdgithub
 - description: <code>sphinx</code>, <code>doxygen</code>, etc.
   name: Documentation
   repository: ''
   status: alpha
   videos: ''
   webpage: ''
+  id: doc
 - description: <code>pythia</code>, <code>sherpa</code>, <code>madgraph</code>, etc.
   name: Event generation and MC
   repository: ''
   status: alpha
   videos: ''
   webpage: ''
+  id: generators
 - description: <a href="https://alpaka.readthedocs.io/en/latest/index.html">alpaka</a>
     is a header-only C++ abstraction library for accelerator development
   name: alpaka
@@ -135,3 +156,4 @@
   status: alpha
   videos: ''
   webpage: ''
+  id: alpaka

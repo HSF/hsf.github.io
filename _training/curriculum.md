@@ -11,7 +11,33 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ## The modules
 
-{% include list_of_training_modules.html %}
+### Basics
+
+{% include list_of_selected_training_modules.html ids="git,python,ml" %}
+
+### Software Development and Deployment
+
+{% include list_of_selected_training_modules.html ids="git,cicd,cicdgithub,docker,testingpython" %}
+
+### C++ corner
+
+{% include list_of_selected_training_modules.html ids="hepcpp,moderncpp,cmake"%}
+
+### Machine learning and other analysis tools
+
+{% include list_of_selected_training_modules.html ids="ml,gpuml" %}
+
+### HEP specific tools
+
+{% include list_of_selected_training_modules.html ids="uproot" %}
+
+### Miscellaneous
+
+{% include list_of_selected_training_modules.html ids="simpleanalysis" %}
+
+### Planned or in early development
+
+{% include list_of_selected_training_modules.html ids="root,advancedgit,grid,parallel,alpaka,yadagereana,doc,generators,matplotlib" %}
 
 ## Further reads
 

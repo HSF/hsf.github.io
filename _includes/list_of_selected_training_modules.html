@@ -1,5 +1,8 @@
 <div class="training-module-container">
+{% assign ids = include.ids | split: "," %}
 {% for module in site.data.training-modules %}
+{% if ids contains module.id %}
 {% include training_module.html %}
+{% endif %}
 {% endfor %}
 </div>

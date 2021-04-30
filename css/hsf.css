@@ -259,8 +259,19 @@ body {
   min-height: 100pt;
   display: grid;
   padding: 5pt;
-  background: #F9F2F4;
   border-radius: 10px 20px;
+}
+
+.tm-stable {
+  background-color: #f1f9f1;
+}
+
+.tm-alpha {
+  background-color: #f9f2f4;
+}
+
+.tm-beta {
+  background-color: #f9f9f1;
 }
 
 .training-module-name {
@@ -270,13 +281,17 @@ body {
   font-size: 17px;
 }
 
-.training-module-description {
-  padding-bottom: 10pt;
+
+.training-module-status {
+  padding-top: 10pt;
+  text-align: center;
 }
 
 .training-module-webpage {
   text-align: center;
   display: block;
+  align-self: end;
+  padding-top: 10pt;
 }
 
 .training-module-repository {
@@ -291,6 +306,7 @@ body {
 .training-module-videos {
   text-align: center;
   display: block;
+  align-self: end;
 }
 
 .training-module-container {
