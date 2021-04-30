@@ -93,7 +93,7 @@
  */
 
 .blog-main {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
 }
 
@@ -169,6 +169,7 @@
   font-weight: 500;
   background-color: #555555;
   min-height: 40px;
+  font-size: 14px;
 }
 
 .navbar-brand {
@@ -198,6 +199,7 @@ a:hover {
 
 body {
   color: #333333;
+  font-size: 16.5px;
 }
 
 .btn-primary {
