@@ -13,6 +13,26 @@ The HSF Training Working Group aims to help the research community to provide tr
 
 The group aims to develop a training program that can be pursued by researchers to achieve the level of required knowledge. This ranges from basic core software skills needed by everyone to the advanced training required by specialists in software and computing.
 
+<div class="training-big-link-container">
+  <a href="/training/curriculum.html" class="training-big-link">
+    <div class="training-big-link-header">
+      Upcoming training events
+    </div>
+    <div class="training-big-link-description">
+      Discover new topics together with mentors and peers!
+    </div>
+  </a>
+  <a href="/Schools/events.html" class="training-big-link">
+    <div class="training-big-link-header">
+      Self study!
+    </div>
+    <div class="training-big-link-description">
+      Everything at your own pace. No matter if you want to get a quick overview
+      or dive in the details, this is for you!
+    </div>
+  </a>
+</div>
+
 ## Sitemap
 
 * I'm a student and want to **learn** about HEP Software:
@@ -54,7 +74,7 @@ Today's graduate students will be the young faculty members driving HEP research
 
 ## How to participate and contribute?
 
-Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided! 
+Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided!
 
 Weekly meetings are usually held at 16h00 CERN time on Mondays. Everyone is welcomed to discuss! Check [Indico](https://indico.cern.ch/category/10294/) for details. The live notes and the zoom connection is linked in the right sidebar in the category view.
 
