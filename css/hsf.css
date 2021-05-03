@@ -248,3 +248,70 @@ body {
 .alignright {
   float: right;
 }
+
+
+/* TRAINING GROUP */
+
+/* LIST OF MODULES */
+
+.training-module {
+  width: 100%;
+  min-height: 100pt;
+  display: grid;
+  padding: 5pt;
+  border-radius: 10px 20px;
+}
+
+.tm-stable {
+  background-color: #f1f9f1;
+}
+
+.tm-alpha {
+  background-color: #f9f2f4;
+}
+
+.tm-beta {
+  background-color: #f9f9f1;
+}
+
+.training-module-name {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10pt;
+  font-size: 17px;
+}
+
+
+.training-module-status {
+  padding-top: 10pt;
+  text-align: center;
+}
+
+.training-module-webpage {
+  text-align: center;
+  display: block;
+  align-self: end;
+  padding-top: 10pt;
+}
+
+.training-module-repository {
+  padding-top: 10pt;
+  vertical-align: bottom;
+  text-align: center;
+  display: block;
+  align-self: end;
+}
+
+
+.training-module-videos {
+  text-align: center;
+  display: block;
+  align-self: end;
+}
+
+.training-module-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
