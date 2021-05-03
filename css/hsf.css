@@ -264,9 +264,6 @@ body {
 .training-big-link-container a {
   text-decoration: none;
   color: inherit;
-}
-
-.training-big-link {
   width: 100%;
   min-height: 100pt;
   padding: 15pt;
@@ -274,10 +271,8 @@ body {
   background-color: #f9f2f4;
 }
 
-.training-big-link-header {
-  /*font-size: 18pt;*/
+.training-big-link-container a:first-line {
   font-weight: bold;
-  margin-bottom: 10pt;
   color: #cc5555;
 }
 

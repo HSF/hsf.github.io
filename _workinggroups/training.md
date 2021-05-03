@@ -14,22 +14,14 @@ The HSF Training Working Group aims to help the research community to provide tr
 The group aims to develop a training program that can be pursued by researchers to achieve the level of required knowledge. This ranges from basic core software skills needed by everyone to the advanced training required by specialists in software and computing.
 
 <div class="training-big-link-container">
-  <a href="/training/curriculum.html" class="training-big-link">
-    <div class="training-big-link-header">
-      Upcoming training events
-    </div>
-    <div class="training-big-link-description">
-      Discover new topics together with mentors and peers!
-    </div>
+  <a href="/training/curriculum.html">
+    Upcoming training events<br/>
+    Discover new topics together with mentors and peers!
   </a>
-  <a href="/Schools/events.html" class="training-big-link">
-    <div class="training-big-link-header">
-      Self study!
-    </div>
-    <div class="training-big-link-description">
-      Everything at your own pace. No matter if you want to get a quick overview
-      or dive in the details, this is for you!
-    </div>
+  <a href="/Schools/events.html">
+    Self study!<br/>
+    Everything at your own pace. No matter if you want to get a quick overview
+    or dive in the details, this is for you!
   </a>
 </div>
 
