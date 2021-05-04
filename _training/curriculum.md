@@ -41,6 +41,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ## Further reads
 
+* Show all modules in a table (mostly for administrative purposes): [click here](/training/curriculum_table.html)
 * I want to **contribute** or **teach**:
 Contributions of any kind are very welcome! There are various ways you can get involved:
 
