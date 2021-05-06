@@ -249,19 +249,16 @@ body {
   float: right;
 }
 
-
-/* TRAINING GROUP */
-
 /* COLORFUL BIG LINK */
 
-.training-big-link-container {
+.big-link-container {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
-.training-big-link-container a {
+.big-link-container a {
   text-decoration: none;
   color: inherit;
   width: 100%;
@@ -271,10 +268,12 @@ body {
   background-color: #f9f2f4;
 }
 
-.training-big-link-container a:first-line {
+.big-link-container a:first-line {
   font-weight: bold;
   color: #cc5555;
 }
+
+/* TRAINING GROUP */
 
 /* LIST OF MODULES */
 
