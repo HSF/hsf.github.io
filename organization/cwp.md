@@ -10,7 +10,7 @@ redirect_from:
 
 # A Roadmap for HEP Software and Computing R&D for the 2020s
 
-In 2017 the HEP Software Foundation, [charged by the WLCG](/assets/CWP-Charge-HSF.pdf){:target="_cwp_charge"}, produced a
+In 2017 the HEP Software Foundation, [charged by the WLCG]({{ site.baseurl }}/assets/CWP-Charge-HSF.pdf){:target="_cwp_charge"}, produced a
 [roadmap white paper](https://doi.org/10.1007/s41781-018-0018-8){:target="_cwp_roadmap_csbs"} on the
 software and computing challenges that will be faced during the next decade.
 This has been published in the journal

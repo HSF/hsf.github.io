@@ -21,9 +21,9 @@ layout: plain
 
 
 
-The [HSF training group](/workinggroups/training.html) relies on proactive and dedicated educators coming from *within* the field of high energy physics. Here we aim to introduce you to what it means to be an HSF-Educator, the different types of roles that exist, and who has served the community by giving their time and energy to bootstrapping the education of HEP. If you are interested in serving as an educator, please do not hesitate to contact the HSF-Training conveners for more details.
+The [HSF training group]({{ site.baseurl }}/workinggroups/training.html) relies on proactive and dedicated educators coming from *within* the field of high energy physics. Here we aim to introduce you to what it means to be an HSF-Educator, the different types of roles that exist, and who has served the community by giving their time and energy to bootstrapping the education of HEP. If you are interested in serving as an educator, please do not hesitate to contact the HSF-Training conveners for more details.
 
-If you want to organize a complete workshop, we also have [recommendations on that](/training/howto-event.html).
+If you want to organize a complete workshop, we also have [recommendations on that]({{ site.baseurl }}/training/howto-event.html).
 
 ## Mentors
 
@@ -53,8 +53,8 @@ Allowing Mentors and Instructors to focus entirely on the subject matter require
 
 The following individuals have been involved in carrying out successful training events as a member of the HSF-Training community. If you see them in the real or virtual world, take a chance to thank them for generously giving their time to teaching others, thereby making our field more knowledgeable as a whole.
 
-If you contributed, but don't find yourself in the list below (or spot some outdated information), see [here](/howto-profile.html) for how to fix this. This list was added in June 2020 and is likely still very incomplete.
+If you contributed, but don't find yourself in the list below (or spot some outdated information), see [here]({{ site.baseurl }}/howto-profile.html) for how to fix this. This list was added in June 2020 and is likely still very incomplete.
 
-For a full list of everyone contributing to HSF training, see [here](/training/community.html).
+For a full list of everyone contributing to HSF training, see [here]({{ site.baseurl }}/training/community.html).
 
 {% include list_of_educators.html %}

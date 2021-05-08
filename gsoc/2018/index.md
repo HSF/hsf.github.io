@@ -6,7 +6,7 @@ year: 2018
 redirect_from: /gsoc/gsoc2018.html
 ---
 
-# ![CERN](/images/CERN-logo.jpg){:height="100px"} ![HSF](/images/hsf_logo_angled.png){:height="100px"} Google Summer of Code 2018
+# ![CERN]({{ site.baseurl }}/images/CERN-logo.jpg){:height="100px"} ![HSF]({{ site.baseurl }}/images/hsf_logo_angled.png){:height="100px"} Google Summer of Code 2018
 
 ## Introduction
 
@@ -14,7 +14,7 @@ Students who participated in the GSoC for 2018 were able to choose from various 
 The HSF GSoC 2018 Administrators were Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a>, Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a> and Antoine Pérus <a href="mailto:perus@lal.in2p3.fr">perus@lal.in2p3.fr</a>
 
 *N.B.* This page **archives** the proposals from the 2018 Google Summer of Code. For information on the latest
-GSoC please see [here](/activities/gsoc.html).
+GSoC please see [here]({{ site.baseurl }}/activities/gsoc.html).
 
 ## Projects in 2018
 
@@ -27,9 +27,9 @@ GSoC please see [here](/activities/gsoc.html).
 
 ## Summary
 
-[Full list of Proposal Ideas](/gsoc/2018/summary.html)
+[Full list of Proposal Ideas]({{ site.baseurl }}/gsoc/2018/summary.html)
 
-[Full list of Mentors](/gsoc/2018/mentors.html)
+[Full list of Mentors]({{ site.baseurl }}/gsoc/2018/mentors.html)
 
 ---
 

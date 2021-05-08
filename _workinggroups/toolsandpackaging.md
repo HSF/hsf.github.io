@@ -35,7 +35,7 @@ We held [an initial series of meetings](https://indico.cern.ch/category/7975/)
 to look at the existing build and packaging solutions, including the
 community-driven projects. Some of the tools looked at are listed below.
 
-That initial work was summarised in a [Technical note on Build Tools](/technical_notes.html)
+That initial work was summarised in a [Technical note on Build Tools]({{ site.baseurl }}/technical_notes.html)
 in March 2016.
 
 Since then the group has been meeting to re-examine changes in the field and to have

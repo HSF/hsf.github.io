@@ -4,7 +4,7 @@ author: "Javier Cervantes"
 layout: default
 ---
 
-# ![CERN](/images/CERN-logo.jpg){:height="100px"} ![HSF](/images/hsf_logo_angled.png){:height="100px"} Season of Docs 2019
+# ![CERN]({{ site.baseurl }}/images/CERN-logo.jpg){:height="100px"} ![HSF]({{ site.baseurl }}/images/hsf_logo_angled.png){:height="100px"} Season of Docs 2019
 
 ## Introduction
 
@@ -41,9 +41,9 @@ In 2019 CERN-HSF is planning to apply as an umbrella organization, project propo
 
 ## Summary
 
-[Full list of Proposal Ideas](/gsdocs/2019/summary.html)
+[Full list of Proposal Ideas]({{ site.baseurl }}/gsdocs/2019/summary.html)
 
-[Full list of Mentors](/gsdocs/2019/mentors.html)
+[Full list of Mentors]({{ site.baseurl }}/gsdocs/2019/mentors.html)
 
 ---
 

@@ -61,9 +61,9 @@ Amoroso, Alexander Grohsjean, Graeme Stewart, Steve Mrenna*
       - For reference: current tables in 
         [<span class="underline">https://www.overleaf.com/1326158343ftxgrxxcspxg</span>](https://www.overleaf.com/1326158343ftxgrxxcspxg):
           - Table 1
-![Table 1 of proceedings](/images/2019-06-27-generators1.png)
+![Table 1 of proceedings]({{ site.baseurl }}/images/2019-06-27-generators1.png)
          - Table 2
-![Table 2 of proceedings](/images/2019-06-27-generators2.png)
+![Table 2 of proceedings]({{ site.baseurl }}/images/2019-06-27-generators2.png)
   - Qiang/CMS
       - After update of statistics and reconstruction/digitisation/sim
         times, fraction of time for generation is now 9.3% for CMS

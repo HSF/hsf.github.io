@@ -6,7 +6,7 @@ layout: meetings
 # Third HSF Workshop Summary (May 2-4, 2016)
 {:.no_toc}
 
-![Workshop Group Photo](/images/lal_workshop.jpg){:height="400px" width="600px" .centered-image}
+![Workshop Group Photo]({{ site.baseurl }}/images/lal_workshop.jpg){:height="400px" width="600px" .centered-image}
 
 ### Contents
 {:.no_toc}

@@ -10,7 +10,7 @@ v1.0, 2018-10-11
 HEP software and computing
 community, developed with input from experiments and others and was
 agreed on in the
-[open HSF meeting](/organization/2018/10/11/coordination.html) of 2018-10-11.*
+[open HSF meeting]({{ site.baseurl }}/organization/2018/10/11/coordination.html) of 2018-10-11.*
 
 ----
 

@@ -65,7 +65,7 @@ McFayden*
             pretty complete for generators, nothing missing or nothing
             too much.
 
-![Table 1 of proceedings](/images/2019-05-09-generators1.jpg)
+![Table 1 of proceedings]({{ site.baseurl }}/images/2019-05-09-generators1.jpg)
   - Qiang: Table 3 is a full apples to apples for LO.
       - Efe: here there is a good agreement. There is 30 seconds per
         event in both cases.
@@ -75,7 +75,7 @@ McFayden*
         particular, it is becoming apparent that ATLAS makes stricter
         filters and then produces more expensive, but fewer, events.
 
-![Table 3 of proceedings](/images/2019-05-09-generators3.jpg)
+![Table 3 of proceedings]({{ site.baseurl }}/images/2019-05-09-generators3.jpg)
   - Table 2 then is apples to apples for NLO. Here sherpa is a factor
     20x slower\!
       - Josh: will write down in text some comments to help
@@ -85,7 +85,7 @@ McFayden*
         possible. Josh: should be easy for ATLAS. Efe; more complex
         for CMS.
 
-![Table 2 of proceedings](/images/2019-05-09-generators2.jpg)
+![Table 2 of proceedings]({{ site.baseurl }}/images/2019-05-09-generators2.jpg)
   - Andrea: very good progress. We should eventually converge on
     making this a writeup of the November workshop. Andy Buckley
     volunteered to help with the writeup of the workshop proceedings,

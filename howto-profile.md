@@ -2,7 +2,7 @@
 title: "How to update your profile"
 layout: plain
 ---
-This page explains how to update or create a profile/"floating head" as e.g. shown on the [training community page](/training/community.html).
+This page explains how to update or create a profile/"floating head" as e.g. shown on the [training community page]({{ site.baseurl }}/training/community.html).
 
 ## Basics
 
@@ -35,8 +35,8 @@ Either
 
 ### Working group specific settings
 
-* To be listed as "educator" on the [training community page](/training/community.html) or the [educators page](/training/educators.html):
-  * Set the `training-roles` field: The ``training-roles`` are explained [here](/training/educators.html). Valid examples: ``[]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets). Please keep the order of the roles as they are in the template. 
+* To be listed as "educator" on the [training community page]({{ site.baseurl }}/training/community.html) or the [educators page]({{ site.baseurl }}/training/educators.html):
+  * Set the `training-roles` field: The ``training-roles`` are explained [here]({{ site.baseurl }}/training/educators.html). Valid examples: ``[]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets). Please keep the order of the roles as they are in the template. 
   * Set the `training-years` field: This should be a list of years that you were actively contributing to the HSF Training efforts. Valid examples: `[2012]` , ``[2012, 2014]``. **Invalid**: ``["2012"]``.
 
 ### Example

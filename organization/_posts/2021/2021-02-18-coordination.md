@@ -12,7 +12,7 @@ Apologies: Graeme Stewart
 
 ### WG Plans and Last Meeting's Minutes
 
-At the [2nd but last meeting](/organization/2021/01/21/coordination.html) we reviewed WG plans for the early part of 2021 in particular.
+At the [2nd but last meeting]({{ site.baseurl }}/organization/2021/01/21/coordination.html) we reviewed WG plans for the early part of 2021 in particular.
 
 Graeme sent a PR request for people to comment on.
 

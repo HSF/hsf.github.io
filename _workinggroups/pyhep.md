@@ -79,9 +79,9 @@ Philip Grace - The University of Adelaide
 
 The event is kindly sponsored by
 
-![UoL](/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
-![IRIS-HEP](/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
-![SSI](/images/pyhep/SSI_logo.png){:height="60px"}
+![UoL]({{ site.baseurl }}/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
+![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![SSI]({{ site.baseurl }}/images/pyhep/SSI_logo.png){:height="60px"}
 
 ## PyHEP 2020
 
@@ -114,11 +114,11 @@ Peter Onyisi - The University of Texas at Austin
 
 The event is kindly sponsored by
 
-![IRIS-HEP](/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
-![UoL](/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
-![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
-![SSI](/images/pyhep/SSI_logo.png){:height="60px"}
-![SSI](/images/pyhep/FNAL_logo.png){:height="50px"}
+![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![UoL]({{ site.baseurl }}/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
+![PSF]({{ site.baseurl }}/images/pyhep/PSF_logo.png){:height="60px"}
+![SSI]({{ site.baseurl }}/images/pyhep/SSI_logo.png){:height="60px"}
+![SSI]({{ site.baseurl }}/images/pyhep/FNAL_logo.png){:height="50px"}
 
 ## PyHEP 2019
 
@@ -145,16 +145,16 @@ Ben Krikler - University of Bristol (Co-chair)
 
 The event was kindly sponsored by
 
-![SSI](/images/pyhep/SSI_logo.png){:height="60px"}
-![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
-![IRIS-HEP](/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
-![STFC](/images/pyhep/STFC_logo.png){:height="60px"}
+![SSI]({{ site.baseurl }}/images/pyhep/SSI_logo.png){:height="60px"}
+![PSF]({{ site.baseurl }}/images/pyhep/PSF_logo.png){:height="60px"}
+![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![STFC]({{ site.baseurl }}/images/pyhep/STFC_logo.png){:height="60px"}
 
 
 ## PyHEP 2018
 
 The first workshop, **PyHEP 2018**, was held as a pre-CHEP event in Sofia, Bulgaria, on 7-8 July 2018, just before the start of the [CHEP 2018 conference](http://chep2018.org/). It focused on a review of where and how Python is used in our community, and what the future will hold.
-The workshop was a forum for the participants, representatives of the community, to discuss topics around the areas of work identified in the HSF [Community White Paper](/activities/cwp.html). There was ample time for discussion.
+The workshop was a forum for the participants, representatives of the community, to discuss topics around the areas of work identified in the HSF [Community White Paper]({{ site.baseurl }}/activities/cwp.html). There was ample time for discussion.
 
 A keynote presentation on [JupyterLab](http://jupyterlab.readthedocs.io/){:target="_pyhep2018_jupyterlab"}
 was given by Vidar Tonaas Fauske.
@@ -184,7 +184,7 @@ Jeff Templon - Nikhef (Co-chair)
 
 The event was kindly sponsored by
 
-![Nikhef](/images/pyhep/Nikhef_logo.png){:height="60px"} ![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
+![Nikhef]({{ site.baseurl }}/images/pyhep/Nikhef_logo.png){:height="60px"} ![PSF]({{ site.baseurl }}/images/pyhep/PSF_logo.png){:height="60px"}
 
 
 # Previous conveners

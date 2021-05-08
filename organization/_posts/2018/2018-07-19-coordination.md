@@ -73,7 +73,7 @@ Training
     
 Software Forum
 --------------
--   Met yesterday, 18 July, discussed VecCore and SOAContainer ([minutes](/organization/2018/07/18/softwareforum.html)).
+-   Met yesterday, 18 July, discussed VecCore and SOAContainer ([minutes]({{ site.baseurl }}/organization/2018/07/18/softwareforum.html)).
 -   Meetings for after summer now being planned - please suggest and
     volunteer subjects to cover. [Check Indico for booked slots](https://indico.cern.ch/category/10392/).
     

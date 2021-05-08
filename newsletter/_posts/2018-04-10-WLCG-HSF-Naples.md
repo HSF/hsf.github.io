@@ -111,7 +111,7 @@ in consolidation and starting common projects to share best practice and
 ideas.
 
 The Software Development session reviewed progress made by the
-HSF's [Packaging Working Group](/activities/packaging.html){:target="_naples_packaging_wg"}. A common
+HSF's [Packaging Working Group]({{ site.baseurl }}/activities/packaging.html){:target="_naples_packaging_wg"}. A common
 solution here will be of great benefit to our R&D projects in the future
 as it will allow a wider base of users to more easily test early
 releases. A decision was also made to consolidate information and best

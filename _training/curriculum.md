@@ -44,8 +44,8 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 * I want to **contribute** or **teach**:
 Contributions of any kind are very welcome! There are various ways you can get involved:
 
-    * Join our **meetings** to give feedback and discuss with us (details at our [main page](/workinggroups/training.html))
+    * Join our **meetings** to give feedback and discuss with us (details at our [main page]({{ site.baseurl }}/workinggroups/training.html))
     * **Bugs reports or feature requests**: Directly open an issue on github or (even better) submit a pull request to fix things.
-    * Want to **contribute your own module**? We compiled a small list of recommendations [here](/training/module-guidelines.html). Of course we always encourage you to talk to us early for a better coordination. There is also more technical information for [creating a new module](/training/howto-new-module.html) or using the [HSF style](/training/howto-update-module-style.html).
-    * Want to **help out at a workshop?**: [More information on the different roles in our training events](/training/educators.html)
-    * Want to **organize your own workshop**? [ We got you covered.](/training/howto-event.html)
+    * Want to **contribute your own module**? We compiled a small list of recommendations [here]({{ site.baseurl }}/training/module-guidelines.html). Of course we always encourage you to talk to us early for a better coordination. There is also more technical information for [creating a new module]({{ site.baseurl }}/training/howto-new-module.html) or using the [HSF style]({{ site.baseurl }}/training/howto-update-module-style.html).
+    * Want to **help out at a workshop?**: [More information on the different roles in our training events]({{ site.baseurl }}/training/educators.html)
+    * Want to **organize your own workshop**? [ We got you covered.]({{ site.baseurl }}/training/howto-event.html)

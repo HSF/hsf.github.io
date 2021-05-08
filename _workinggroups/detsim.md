@@ -14,7 +14,7 @@ adaption of simulation techniques to modern computing hardware
 (covering, e.g., multithreading, vectorisation and different accelerator
 technologies) are an important area of work.
 
-[Mandate](/organization/working-group-mandates.html).
+[Mandate]({{ site.baseurl }}/organization/working-group-mandates.html).
 
 The group's meeting page is [in Indico](https://indico.cern.ch/category/10916/) and
 discussions are held on the [hsf-simulation](https://groups.google.com/forum/#%21forum/hsf-simulation) list.

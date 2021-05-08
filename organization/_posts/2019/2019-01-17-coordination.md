@@ -215,5 +215,5 @@ General points:
     [<span class="underline">presentations
     list</span>](https://hepsoftwarefoundation.org/organization/presentations.html).
       -  Eduardo gave a very useful [talk on software citations and
-        publications](/assets/EduardoRodrigues-LHCb-2019-01-15.pdf)
+        publications]({{ site.baseurl }}/assets/EduardoRodrigues-LHCb-2019-01-15.pdf)
         to LHCb, that is now available.

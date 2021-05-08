@@ -25,6 +25,6 @@ to set priorities and goals for the work. It can also facilitate wider
 connections; while the HSF is a HEP community effort, it should be open
 enough to form the basis for collaboration with other sciences.
 
-The [HSF Coordination Team](/organization/team.html) help run the
+The [HSF Coordination Team]({{ site.baseurl }}/organization/team.html) help run the
 organisation on a day to day basis.
 Please feel free to ask us any questions you have.
