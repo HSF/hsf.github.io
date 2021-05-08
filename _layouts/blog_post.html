@@ -10,7 +10,7 @@ layout: default
   <div class="row">
     {% if page.photo %} 
     <div class="col-md-3">
-      <img src="/images/{{ page.photo }}" alt={{ page.author }} width="100%" style="float:right">
+      <img src="{{ site.baseurl }}/images/{{ page.photo }}" alt={{ page.author }} width="100%" style="float:right">
     </div>
     <div class="col-md-9">
     {% else %}

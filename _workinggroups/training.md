@@ -49,7 +49,7 @@ More advanced training is then needed (with domain examples!) in parallel progra
 Today's graduate students will be the young faculty members driving HEP research in the 2020s. Investing in their software skills is not only important to actually build the requisite software infrastructure, but will also change community norms, create role models and promote career paths for computational scientists within the HEP research community. Computation is a central element of 21st century science, and clearer career paths will provide a virtuous cycle of feedback to enhance the vibrancy of the training and workforce development activities.
 
 <div style="text-align:center; padding:25px; float:center">
-<img src ="/images/training/training-pyramid.png" alt="HSF Training Pyramid" />
+<img src="{{ '/images/training/training-pyramid.png' | relative_url }}" alt="HSF Training Pyramid" />
 </div>
 
 ## How to participate and contribute?

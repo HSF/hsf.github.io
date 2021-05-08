@@ -41,7 +41,7 @@ we tackle the training needs of the community.
 Feel free to suggest ideas for other sessions, or to make a contribution to existing ones
 by [contacting the organisers](mailto:WLCG-HSF-Workshop-2018-organisation@cern.ch).
 
-<div style="text-align:center"><img src ="/images/workshops/naples-bay.jpg" alt="Naples Bay" /></div>
+<div style="text-align:center"><img src="{{ '/images/workshops/naples-bay.jpg' | relative_url }}" alt="Naples Bay" /></div>
 
 ## Google Summer of Code, 2018
 

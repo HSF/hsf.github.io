@@ -21,7 +21,7 @@ set the stage for the computing and software challenges we face in data
 intensive science for the next decade.
 
 <div style="text-align:center; padding:25px; float:left">
-<img src ="/images/workshops/jlab-group.jpg" alt="JLab Workshop Group Photo" />
+<img src="{{ '/images/workshops/jlab-group.jpg' | relative_url }}" alt="JLab Workshop Group Photo" />
 <br>Workshop Participants. Photo &copy; DOE Jefferson Laboratory
 </div>
 
@@ -47,7 +47,7 @@ throughput in Run 3. LHCb, who also face the stiff test of increased throughput
 in Run 3, is actively doing R&D work on GPUs and presented encouraging results.
 
 <div style="text-align:center; padding:25px; float:right">
-<img src ="/images/workshops/jlab-plenary1.jpg" alt="JLab Workshop Group Photo" />
+<img src="{{ '/images/workshops/jlab-plenary1.jpg' | relative_url }}" alt="JLab Workshop Group Photo" />
 <br>Plenary Discussions. Photo &copy; DOE Jefferson Laboratory
 </div>
 
@@ -76,8 +76,8 @@ integrating compute accelerators, such as FPGAs as a way to do complex inference
 within budget.
 
 <div style="text-align:center; padding:25px">
-<img src ="/images/workshops/jlab-RTA-1.jpg" style="padding:5px;" alt="JLab Real Time Analysis Talk ATLAS" />
-<img src ="/images/workshops/jlab-RTA-2.jpg" style="padding:5px;" alt="JLab Real Time Analysis Talk CMS" />
+<img src="{{ '/images/workshops/jlab-RTA-1.jpg' | relative_url }}" style="padding:5px;" alt="JLab Real Time Analysis Talk ATLAS" />
+<img src="{{ '/images/workshops/jlab-RTA-2.jpg' | relative_url }}" style="padding:5px;" alt="JLab Real Time Analysis Talk CMS" />
 <br>RTA Presentations. Photos &copy; Caterina Doglioni
 </div>
 
@@ -121,6 +121,6 @@ for continued discussions. We all enjoyed the early
 Spring meeting at JLab and already look forward to next year's event.
 
 <div style="text-align:center; padding:25px">
-<img src ="/images/workshops/jlab-dinner.jpg" alt="JLab Workshop Dinner" />
+<img src="{{ '/images/workshops/jlab-dinner.jpg' | relative_url }}" alt="JLab Workshop Dinner" />
 <br>Dinner in the Mariners' Museum. Photo &copy; DOE Jefferson Laboratory
 </div>

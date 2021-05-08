@@ -19,7 +19,7 @@ the exascale era are under construction. For HL-LHC, DUNE, SKA, LIGO and LSST an
 major R&D in software and computing to ensure these programmes
 are a success.
 
-<div style="text-align:center; padding:25px"><img src ="/images/workshops/naples-ws-liz.jpg" alt="Liz opens the workshop's science programme" /></div>
+<div style="text-align:center; padding:25px"><img src="{{ '/images/workshops/naples-ws-liz.jpg' | relative_url }}" alt="Liz opens the workshop's science programme" /></div>
 
 Eduardo Rodrigues then reviewed the [HSF Community White Paper Roadmap](https://indico.cern.ch/event/658060/contributions/2876976/attachments/1622751/2582923/2018-03-26_WLCG-HSFWorkshopNaples.pdf){:target="_naples_cwp"}
 that was [published last year](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"}
@@ -64,7 +64,7 @@ plans regular meetings and a follow up at CHEP. Even the tricky question
 of using new languages, outside our comfort zone of C++ and Python, was
 discussed, generating lively discussion.
 
-<div style="text-align:center; padding:25px"><img src ="/images/workshops/naples-ws-group-photo.jpg" alt="Group Photo" /></div>
+<div style="text-align:center; padding:25px"><img src="{{ '/images/workshops/naples-ws-group-photo.jpg' | relative_url }}" alt="Group Photo" /></div>
 
 In the analysis domain, where workloads are far more diverse than for organised
 production activities, there are many interesting developments to follow-up.
@@ -130,7 +130,7 @@ are satisfied in common. Contributions to training should be recognised
 as a part of the career profile of our developers, but long term career
 prospects remain a concern, as with many other areas in HEP.
 
-<div style="text-align:center; padding:25px"><img src ="/images/workshops/naples-ws-banquet.jpg" alt="Well fed at the banquet" /></div>
+<div style="text-align:center; padding:25px"><img src="{{ '/images/workshops/naples-ws-banquet.jpg' | relative_url }}" alt="Well fed at the banquet" /></div>
 
 Opening the final session of the workshop was
 [a talk from Anna Scaife](https://indico.cern.ch/event/658060/contributions/2940455/attachments/1625101/2587580/WLCG-180329.pdf){:target="_naples_ska"}

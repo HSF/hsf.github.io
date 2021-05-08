@@ -841,7 +841,7 @@ Dario: importance of trainings to meet the challenge by increasing existing peop
 
 -   Thanks particularly and congratulations to Joschka Lingemann, CERN Fellow working with EP-SFT, who produced the winner preferred by a strong plurality (17 votes in 37 responses). A bottle of wine will be forthcoming for Joschka :-)
 
-<img src="/images/hsf_logo_angled.png" alt="HSF logo" width="300" height="230" />
+<img src="{{ '/images/hsf_logo_angled.png' | relative_url }}" alt="HSF logo" width="300" height="230" />
 
 ### Meeting notes
 

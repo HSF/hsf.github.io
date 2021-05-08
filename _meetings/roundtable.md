@@ -5,7 +5,7 @@ layout: plain
 ---
 
 <p align=center>
-<img src="/images/Roundtable-banner.jpg"
+<img src="{{ '/images/Roundtable-banner.jpg' | relative_url }}"
   alt="Roundtable-logo" style="display: inline-block; width:80%; margin:3%">
 </p>
 
@@ -27,10 +27,10 @@ Coordination](mailto:hsf-coordination@googlegroups.com). The current HSF
 representative is [Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch).
 
 <p align=center>
-<img src="/images/JLab_logo.png"
+<img src="{{ '/images/JLab_logo.png' | relative_url }}"
   alt="JLab-logo" style="display: inline-block; width:25%; margin:3%">
-<img src="/images/hsf_logo_angled.png"
+<img src="{{ '/images/hsf_logo_angled.png' | relative_url }}"
   alt="HSF-logo" style="display: inline-block; width:20%; margin:3%">
-<img src="/images/BNL-logo.png"
+<img src="{{ '/images/BNL-logo.png' | relative_url }}"
   alt="BNL-logo" style="display: inline-block; width:25%; margin:3%">
 </p>
