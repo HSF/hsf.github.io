@@ -8,7 +8,7 @@ layout: default
 <hr>
         <div class=row>
           <div class="col-md-4">
-            <img src="/images/hsf_logo_angled.png" alt="HSF Logo" width="70%">
+            <img src="{{ '/images/hsf_logo_angled.png' | relative_url }}" alt="HSF Logo" width="70%">
           </div>
           <div class="col-md-8">
             <p class="lead">
@@ -36,7 +36,7 @@ in High Energy Physics software and computing internationally.
     {% endif %}
   {% endfor %}
 
-{% if has_announcements %} 
+{% if has_announcements %}
 <hr>
 {% endif %}
 
@@ -68,7 +68,7 @@ in High Energy Physics software and computing internationally.
   </p>
   <img src="/images/pyhep/PyHEP_logo_template_white.png"
   alt="PyHEP-logo" style="display: block; width:55%; margin-left: auto; margin-right: auto;">
-  <p> After the huge success of PyHEP in 2020 the workshop is back, again as a virtual event. The call for abstracts is 
+  <p> After the huge success of PyHEP in 2020 the workshop is back, again as a virtual event. The call for abstracts is
     <a href="https://indico.cern.ch/event/1019958/abstracts/">open</a> until 6 June for you to submit live tutorial ideas or "notebook talks".
   </p>
  </div>

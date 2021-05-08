@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
     <title>{{ page.title }}</title>
-    <link rel="icon" type="image/x-icon" href="{{ "/images/hsf_logo_angled.png" | prepend: site.baseurl }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/images/hsf_logo_angled.png' | relative_url }}">
 
     <!-- bootstrap framework -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
 
-    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+    <link rel="stylesheet" href="{{ '/css/hsf.css' | relative_url }}" type="text/css" />
 </head>
 <body>
 {% include navbar.ext %}
