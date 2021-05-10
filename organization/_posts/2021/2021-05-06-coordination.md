@@ -65,7 +65,7 @@ Second instance of "Wider HEP/NP analysis community" meetings yesterday. Agenda 
     * How have (some, smaller?) experiments managed to converge on one analysis framework
     * Keen to revisit discussion on recognition (always a popular topic!)
 
-Need to define agenda for next instance, was for 19 May, but perhaps we should postpone a week to avoid vCHEP...
+Need to define an agenda for the next instance, currently scheduled for 19 May but perhaps we should postpone it to a week later to avoid vCHEP...
 
 [Analysis metadata "constraints" rough draft](https://docs.google.com/document/d/1zT5tPCtiNfuRm8ywKNbaNGvXGtCZYaO-GOj77pV2BEY/edit#) written, to share with community for comments soon:
 
@@ -77,7 +77,7 @@ Need to define agenda for next instance, was for 19 May, but perhaps we should p
 - Next meeting 10th May on simulation for solid state microphysics:
     - <https://indico.cern.ch/event/1016632/>
 - Provisional next meeting 7th June on [pyg4ometry](http://www.pp.rhul.ac.uk/bdsim/pyg4ometry/) (see also <https://arxiv.org/abs/2010.01109>) package for geometry construction
-    - Likely of interest to Reconstruction/Triggers and Python WGs? (literally set it up last couple of days so not advertised yet!).
+    - Likely of interest to Reconstruction/Triggers and Python WGs? (literally set it up a couple of days ago, so not advertised yet!).
     - May also have an update on GDML parsers/support in Geant4/ROOT/VecGeom
 - Preliminary topics for fall: MARS, varying Geant4 parameters
 
@@ -151,7 +151,7 @@ Monthly informal "coffee" delayed one week until May 12.
 
 ### Webpage
 
-- Cannot properly deploy to github pages from fork of repository (links won't properly resolve)?
+- Cannot properly deploy to github pages from a fork of the repository (links won't properly resolve)?
     - This seems to be related to the usage of absolute links (e.g. `/css/hsf.css`) without using `{{site.baseurl}}` (which only works if everything is directly relative to the domain, as with the official deployment to `hepsoftwarefoundation.org`, as `/` resolves to that)
 - Some PR with design tweaks:
     * Slightly increase overall font size:
