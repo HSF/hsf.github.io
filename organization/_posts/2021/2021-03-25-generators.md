@@ -5,8 +5,6 @@ layout: meetings
 ---
 # HSF Generator Meeting #10, 25 March 2021
 
-*This notebook is used to record the minutes of the HSF Generator WG meetings. These are archived after each meeting onto the [HSF Website](https://hepsoftwarefoundation.org/organization/minutes.html). To edit this page, please login with your GitHub account!*
-
 *Agenda: <https://indico.cern.ch/event/1019213>*
 
 Present: 
