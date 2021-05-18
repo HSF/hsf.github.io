@@ -28,7 +28,8 @@ If you never wrote a blog, this is your opportunity to begin - there are plenty 
  * Add a front matter, using the following labels:
 
 **project:** HSF _<span style="color:grey"> [use your project idea name, matching the same label in _gsocprojects/YEAR/project_yourproject.md]</span>_<br/>
-**title:** Firstname Lastname<br/>
+**title:** Your article title<br/>
+**author:** Firstname Lastname<br/>
 **photo:** blog_authors/FirstLast.jpg _<span style="color:grey"> [Optionally upload a squared format photo, rendered as 100x100, othrwise don't use the label]</span>_<br/>
 **date:** 16.05.2021 _<span style="color:grey"> [Use the date when you wrote the article]</span>_<br/>
 **year:** 2021 _<span style="color:grey"> [Make sure the year is correct]</span>_<br/>
