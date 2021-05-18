@@ -29,9 +29,11 @@ Information from last year’s GSoC can be found [here](/gsoc/2020/index.html).
 
 ### GSoC 2021
 
-In 2021 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. Project proposals will be added until mid February and are listed [below](#projects-in-2021). There are important changes in the [program rules](https://summerofcode.withgoogle.com/rules/)  and the [timeline](https://summerofcode.withgoogle.com/how-it-works/) compared to the previous year, described in the GSoC 2021 [announcement](https://groups.google.com/g/google-summer-of-code-discuss/c/GgvbLrFBcUQ). Most notably, the student project duration has been halved (175 hours instead of 350). Adapting to this new timeline, CERN-HSF is proposing this year shorter projects having well-defined deliverables.
+In 2021 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. The HSF project ideas are listed [below](#projects-in-2021). There are important changes in the [program rules](https://summerofcode.withgoogle.com/rules/)  and the [timeline](https://summerofcode.withgoogle.com/how-it-works/) compared to the previous year, described in the GSoC 2021 [announcement](https://groups.google.com/g/google-summer-of-code-discuss/c/GgvbLrFBcUQ). Most notably, the student project duration has been halved (175 hours instead of 350). Adapting to this new timeline, CERN-HSF is proposing this year shorter projects having well-defined deliverables.
 
-The 2021 GSoC edition extended the student eligibility criteria. Due to the large number of candidates in 2020 and an expected increase for this year, the selection process in our organization will be split in two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. Only the successful candidates will be able to engage in a personalized exchange with mentors on a given project idea, and their proposals will be evaluated for the final student selection. The detailed [timeline](/activities/gsoc.html#timeline) of these phases is shown below.
+The selection process in our organization was split in two phases. All candidates had to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. The successful candidates had a detailed exchange with mentors on a given project idea, and their proposals were evaluated for the final student selection. The detailed [timeline](/activities/gsoc.html#timeline) of these phases is shown below.
+
+The blog posts made by our 2021 students are available [here](/gsoc/2021/blogs.html).
 
 ### For Students
 
@@ -42,8 +44,6 @@ New projects for HSF GSoC in 2021 will be published by **February 19**. Meanwhil
 Please avoid having the first contact with the mentors of HSF projects before **March 9** or after **March 20**! You are encouraged to take the time to read our project proposals until **March 9**, focusing on only one or two projects that attract your interest. Once you have identified those, you should e-mail the respective mentors, attaching your CV and describing the motivation for your choice. The mentors will first propose an evaluation test, waiting for your solution. Note that the test you are given is private, your solution should be personal and the response time is part of the evaluation. Mentors will let you know the test results, and if you passed they will start discussing and helping you develop a project idea. The student application period is **March 29 - April 13**, when you will have to write and review your proposal with help from your mentors.
 
 For further information, feel free to contact the HSF GSoC admins or join our open chat channel below. Note that the channel is intended for exchanging with the admins, the other candidates and some of the CERN-HSF students from previous year, and we do not maintain a mailing list for candidates. Please avoid posting extended information about yourself in the chat channel and reserve this for the direct exchange with the mentors.
-
-##### <font color="red">Note:</font> **Projects are still seeking candidates, so you can still contact mentors according to the GSoC timeline. Some project proposals are already very popular, you will get a warning in their idea page and/or from the mentors in case you decide to contact them. Please check our project proposals pages in the coming days!**
 
 [hsf-gsoc-admin@googlegroups.com](mailto:hsf-gsoc-admin@googlegroups.com)
 
@@ -96,11 +96,11 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
     <td> Apr 13 </td>
     <td> Student application deadline </td>
   </tr>
-  <tr style="color: red;">
+  <tr>
     <td> Apr 14 - Apr 20 </td>
     <td><p><font color="blue"> Phase 2 selection </font></p> Mentors evaluate and rank student proposals. </td>
   </tr>
-  <tr style="color: red;">
+  <tr>
     <td> Apr 20 </td>
     <td> Rankings due for mentors, sent to HSF Org Admins </td>
   </tr>
@@ -120,7 +120,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
     <td> May 13 </td>
     <td> Student Project selections due from Org Admins </td>
   </tr>
-  <tr>
+  <tr style="color: red;">
     <td> May 17 </td>
     <td> Accepted student projects announced  </td>
   </tr>
