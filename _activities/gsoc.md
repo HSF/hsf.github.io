@@ -128,7 +128,14 @@ For new projects wishing to join ML4SCI GSoC umbrella, please contact the admins
 
 ---
 
+## Administrators
+Prof. Sergei Gleyzer (University of Alabama) <br>
+<a href="https://emanueleusai.com" target="_blank">Dr. Emanuele Usai (Brown University)</a> <br>
+Dr. Patrick Peplowski (JHUAPL) <br>
+Prof. Meenakshi Narain (Brown University) <br>
+
 ## Contacts
 
 *ML4SCI GSoC Admins* [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch)
+
 
