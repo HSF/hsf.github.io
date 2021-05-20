@@ -13,6 +13,18 @@ The HSF Training Working Group aims to help the research community to provide tr
 
 The group aims to develop a training program that can be pursued by researchers to achieve the level of required knowledge. This ranges from basic core software skills needed by everyone to the advanced training required by specialists in software and computing.
 
+<div class="big-link-container">
+  <a href="/Schools/events.html">
+    Join an event!<br/>
+    Discover new topics together with mentors and peers!
+  </a>
+  <a href="/training/curriculum.html">
+    Self study!<br/>
+    Everything at your own pace. No matter if you want to get a quick overview
+    or dive in the details, this is for you!
+  </a>
+</div>
+
 ## Sitemap
 
 * I'm a student and want to **learn** about HEP Software:
@@ -54,7 +66,7 @@ Today's graduate students will be the young faculty members driving HEP research
 
 ## How to participate and contribute?
 
-Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided! 
+Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided!
 
 Weekly meetings are usually held at 16h00 CERN time on Mondays. Everyone is welcomed to discuss! Check [Indico](https://indico.cern.ch/category/10294/) for details. The live notes and the zoom connection is linked in the right sidebar in the category view.
 
@@ -82,7 +94,7 @@ The HSF training group relies on a growing list of proactive and dedicated educa
 - Michel Hernandez Villanueva (Belle II)
 - Sudhir Malik (CMS)
 
-The conveners can be reached [by email](mailto:michmx@phy.olemiss.edu,me338@sussex.ac.uk,malik@fnal.gov).
+The conveners can be reached [by email](mailto:michmx@phy.olemiss.edu,me338@sussex.ac.uk,malik@fnal.gov). <!-- markdown-link-check-disable-line -->
 
 {% assign persons = "Meirin Oan Evans, Sudhir Malik, Michel Hernandez Villanueva" | split: ", " %}
 {% include list_of_selected_profiles.html %}

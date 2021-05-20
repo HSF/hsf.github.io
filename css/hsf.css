@@ -251,6 +251,29 @@ body {
   float: right;
 }
 
+/* COLORFUL BIG LINK */
+
+.big-link-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.big-link-container a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  min-height: 100pt;
+  padding: 15pt;
+  border-radius: 10px 20px;
+  background-color: #f9f2f4;
+}
+
+.big-link-container a:first-line {
+  font-weight: bold;
+  color: #cc5555;
+}
 
 /* TRAINING GROUP */
 
