@@ -37,10 +37,10 @@ There is a meeting with the LHCC referees next week. The software report will co
 
 After our mini-workshops everything is on track for document drafts to be ready by 30 June. The DOMA chief editors (Oliver Keeble, Mario Lassnig) have scheduled two meetings for feedback:
 
-- 1 June for Rucio, FTS and network
-- 8 June for storage
+- 1 June for Rucio, FTS and network, <https://indico.cern.ch/event/1043829/>
+- 8 June for storage, <https://indico.cern.ch/event/1043848/>
 
-Details went to the wlcg-doma@cern.ch list (Zoom link has now been circulated).
+Details are being send on the wlcg-doma@cern.ch list.
 
 ### Google Summer of Code
 
