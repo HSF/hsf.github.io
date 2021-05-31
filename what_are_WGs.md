@@ -85,14 +85,14 @@ conveners will be asked to co-organise it.
 
 ### Recording Meetings and Minutes
 
-In general recording *is appropriate* for HSF meetings, which are there to
-foster discussion and collaboration so *we do recommend it*. There are a lot of
+In general, recording *is appropriate* for HSF meetings, which are there to
+foster discussion and collaboration, so *we do recommend it*. There are a lot of
 meetings and we have a worldwide community, so not everyone who is interested
-can join the meeting and a recording can help people to catch-up.
+can join a meeting and recordings can help people to catch-up.
 
-However, you need to make make it very clear with the speakers and to participants that:
+However, you need to make it very clear with the speakers and to participants that:
 
-- That the meeting is being recorded and will be made public;
+- The meeting is being recorded and will be made public;
 - And where the video will be posted ([YouTube](/organization/youtube.html), [CDS](http://cds.cern.ch/record/2289430), etc.);
   - Note that it is strongly recommended not to add video files directly into Indico, instead post a link to CDS.
 
