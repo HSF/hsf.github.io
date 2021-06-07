@@ -14,12 +14,12 @@ Apologies: Phil Ilten (will be late)
 ## News
 
 Our WG paper has finally been published by Springer's Computing and Software in Big Science: 
-- https://doi.org/10.1007/s41781-021-00055-1
+- <https://doi.org/10.1007/s41781-021-00055-1>
 
 There were a few talks on generators at the vCHEP conference last week. Slides and recordings are on the web. In particular:
-- Mohan Krishnamoorthy, "Apprentice for Event Generator Tuning". https://indico.cern.ch/event/948465/contributions/4324130/
-- Andrea Valassi, "Design and engineering of a simpliﬁed GPU workﬂow execution for the Madgraph5_aMC@NLO event generator". https://indico.cern.ch/event/948465/contributions/4323568/
-- Juan Cruz Martinez, "MadFlow: towards the automation of Monte Carlo simulation on GPU for particle physics processes". https://indico.cern.ch/event/948465/contributions/4324113/
+- Mohan Krishnamoorthy, "Apprentice for Event Generator Tuning". <https://indico.cern.ch/event/948465/contributions/4324130/>
+- Andrea Valassi, "Design and engineering of a simpliﬁed GPU workﬂow execution for the Madgraph5_aMC@NLO event generator". <https://indico.cern.ch/event/948465/contributions/4323568/>
+- Juan Cruz Martinez, "MadFlow: towards the automation of Monte Carlo simulation on GPU for particle physics processes". <https://indico.cern.ch/event/948465/contributions/4324113/>
 
 ## Madgraph5_aMC@NLO report for LHCC review 
 Speaker: O. Mattelaer
