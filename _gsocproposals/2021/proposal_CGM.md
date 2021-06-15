@@ -5,7 +5,7 @@ project: CGM
 year: 2021
 organization:
  - Alabama
- - Carolina
+ - SouthCarolina
 ---
 
 ## Description
