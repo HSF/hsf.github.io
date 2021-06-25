@@ -164,3 +164,10 @@
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-ssh-webpage/
   id: ssh
+- description: A guide through the basics of the file systems and the shell.
+  name: The UNIX Shell
+  repository: https://github.com/swcarpentry/shell-novice
+  status: stable
+  videos: ''
+  webpage: https://swcarpentry.github.io/shell-novice/
+  id: unix
