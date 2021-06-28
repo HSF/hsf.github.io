@@ -316,4 +316,11 @@
   end_date: 2021-02-20
   source: https://indico.cern.ch/event/1001128/
   tags: HSF
-  title: GitHub CI/CD Training 
+  title: GitHub CI/CD Training
+- author: Kilian Lieret
+  date: 2021-07-17
+  deadline: ''
+  end_date: 2021-07-22
+  source: https://indico.fnal.gov/event/49414/
+  tags: ''
+  title: 2021 Intensity Frontier Computing Summer School
