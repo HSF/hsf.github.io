@@ -79,8 +79,9 @@ Philip Grace - The University of Adelaide
 
 The event is kindly sponsored by
 
-![UoL](/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
+![PSF](/images/pyhep/PSF_logo.png){:height="60px"}
 ![IRIS-HEP](/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![UoL](/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
 ![SSI](/images/pyhep/SSI_logo.png){:height="60px"}
 
 ## PyHEP 2020
