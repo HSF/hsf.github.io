@@ -8,7 +8,7 @@ training_years:
 - 2019
 - 2020
 github: jpivarski
-gravatar:
+gravatar: null
 homepage: null
 twitter: JimPivarski
 gitlab: jpivarski

@@ -1,17 +1,17 @@
 ---
 title: Michel Hernandez Villanueva
 country: US
-training_roles:
+training_roles: null
 training_years:
 - 2021
 github: michmx
-gravatar: 
-homepage: 
+gravatar: null
+homepage: null
 twitter: mich_mx
 gitlab: null
 bitbucket: null
 orcid: 0000-0002-6322-5587
-linkedin: michel-hernández-villanueva-56b50677
+linkedin: "michel-hern\xE1ndez-villanueva-56b50677"
 email: michmx@phy.olemiss.edu
 layout: educator
 ---
@@ -20,4 +20,4 @@ Hola! I'm Michel Hernandez Villanueva. I'm a postdoc at the University of Missis
 My main interests are flavor physics with tau leptons, analysis on distributed computing environments, training, and outreach.
 
 I joined the HSF Training group in 2020. My motivation is to explore together advanced tools, popular within the HPC
-community, and their potential usage in the High Energy Physics workflow. 
+community, and their potential usage in the High Energy Physics workflow.
