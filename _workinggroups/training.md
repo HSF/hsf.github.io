@@ -1,5 +1,5 @@
 ---
-title: Training
+title: HSF Training
 layout: plain
 redirect_from:
   - /workinggroups/2015/11/04/training.html
@@ -54,6 +54,8 @@ The group aims to develop a training program that can be pursued by researchers 
 
 ## Our mission
 
+<img src="{{site.baseurl}}/images/training/instructor_mentor_small.jpg" style="float: right; max-width: 30%; margin-left: 20px;">
+
 The long term sustainability of the research software ecosystem is important for HEP as [HL-LHC](https://home.cern/science/accelerators/high-luminosity-lhc) and other facilities of the 2020s will be relevant through at least the 2030s. Meeting this challenge requires a workforce with a combination of HEP domain knowledge and advanced software skills.
 
 The software skills required fall into two groups. Nearly all researchers need basic programming skills (Python, C++), basic software engineering skills (Unix, git/GitHub/GitLab, continuous integration, performance evaluation), and skills in the core data tools in HEP (e.g., the [ROOT data format and analysis framework](https://root.cern.ch/)).
@@ -62,31 +64,73 @@ More advanced training is then needed (with domain examples!) in parallel progra
 
 Today's graduate students will be the young faculty members driving HEP research in the 2020s. Investing in their software skills is not only important to actually build the requisite software infrastructure, but will also change community norms, create role models and promote career paths for computational scientists within the HEP research community. Computation is a central element of 21st century science, and clearer career paths will provide a virtuous cycle of feedback to enhance the vibrancy of the training and workforce development activities.
 
-<div style="text-align:center; padding:25px; float:center">
-<img src ="/images/training/training-pyramid.png" alt="HSF Training Pyramid" />
+<div class="big-link-container">
+  <a href="https://arxiv.org/abs/1807.02875">
+    Whitepaper<br/>
+    Read more about our vision in this 2018 paper
+  </a>
 </div>
 
-## How to participate and contribute?
+## Learn with us
+
+<div class="big-link-container">
+  <a href="/Schools/events.html">
+    Join an event!<br/>
+    Discover new topics together with mentors and peers!
+  </a>
+  <a href="/training/curriculum.html">
+    HSF Training center<br/>
+    Everything at your own pace. No matter if you want to get a quick overview
+    or dive in the details, this is for you!
+  </a>
+  <a href="https://hsf-training.github.io/analysis-essentials/">
+    Analysis essentials<br/>
+    A course on basic computing required for HEP
+  </a>
+  <a href="https://github.com/hsf-training/PyHEP-resources">
+    PyHEP resources<br/>
+    A curated list of python modules for HEP
+  </a>
+</div>
+
+## Participate & Contribute!
+
+The easiest way to get in touch are our weekly meetings, usually held at 16h00 CERN time on Mondays. Everyone is welcomed to discuss! Check [Indico](https://indico.cern.ch/category/10294/) for details. The live notes and the zoom connection is linked in the right sidebar in the category view.
 
 Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided!
 
-Weekly meetings are usually held at 16h00 CERN time on Mondays. Everyone is welcomed to discuss! Check [Indico](https://indico.cern.ch/category/10294/) for details. The live notes and the zoom connection is linked in the right sidebar in the category view.
+<div class="big-link-container">
+  <a href="https://indico.cern.ch/category/10294/">
+    Meet us!<br/>
+    We meet weekly, usually on Monday at 16h00 CERN time.
+  </a>
+  <a href="https://groups.google.com/forum/#!forum/hsf-training-wg">
+    Write us!<br/>
+    Discuss your ideas and reach a wide range of training enthusiasts.
+  </a>
+  <a href="/training/community.html">
+    The community<br/>
+    Meet the people who work on our mission
+  </a>
+</div>
 
-We are always looking for volunteers from the community to help us with our training events. [This page](/training/educators.html) lists the different roles that you can take. We have also prepared [recommendation for organizing your own workshop](/training/howto-event.html).
+## Training events
 
-## Towards a full HEP Software Curriculum
+We are always looking for volunteers from the community to help us with our training events.
 
-Our long term goal is to compile standardized HEP Software training modules into a full curriculum. More about this project can be found [here](/training/curriculum.html).
+<div class="big-link-container">
+  <a href="h/training/educators.html">
+    Training roles<br/>
+    We have standardized the different roles your can fulfill at our events
+  </a>
+  <a href="/training/howto-event.html">
+    How to organize a workshop<br/>
+    Whether you work with us or not, these guidelines might help your organizing an awesome workshop!
+  </a>
+</div>
 
-## Github Organization
 
-The [HSF-Training GitHub Organization](https://github.com/hsf-training) hosts the training modules from our [HEP software curriculum](/training/curriculum.html). It also has [Analysis Essentials](https://hsf-training.github.io/analysis-essentials/), a course on basic computing required for HEP, and [PyHEP resources](https://github.com/hsf-training/PyHEP-resources), a page of Python-focused training resources.
-
-## The community
-
-The HSF training group relies on a growing list of proactive and dedicated educators that help us with our mission. Head to [this page](/training/community.html) to meet them!
-
-## Current and Upcoming Training Events
+Upcoming schools:
 
 {% include list_of_upcoming_schools.md %}
 
