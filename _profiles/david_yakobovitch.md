@@ -6,7 +6,7 @@ training_roles:
 training_years:
 - 2019
 github: davidyakobovitch
-gravatar:
+gravatar: null
 homepage: https://www.humainpodcast.com
 twitter: dyakobovitch
 gitlab: null
