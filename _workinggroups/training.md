@@ -112,6 +112,10 @@ Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum
     The community<br/>
     Meet the people who work on our mission
   </a>
+  <a href="https://github.com/hsf-training/PyHEP-resources">
+    Github Organization<br/>
+    Browse all of our training material. Issues & pull requests are always welcome!
+  </a>
 </div>
 
 ## Training events
@@ -119,6 +123,10 @@ Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum
 We are always looking for volunteers from the community to help us with our training events.
 
 <div class="big-link-container">
+  <a href="/Schools/events.html">
+    Training events<br/>
+    A list of training events both with and without HSF participation
+  </a>
   <a href="h/training/educators.html">
     Training roles<br/>
     We have standardized the different roles your can fulfill at our events
