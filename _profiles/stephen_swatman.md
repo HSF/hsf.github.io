@@ -1,9 +1,6 @@
 ---
-# Required:
 title: Stephen Nicholas Swatman
 country: FR
-
-# Optional (please add github or gravatar for your picture)
 github: stephenswat
 gravatar: null
 homepage: https://v25.nl/
@@ -13,12 +10,12 @@ bitbucket: null
 orcid: 0000-0002-3747-3229
 linkedin: stephen-nicholas-swatman-913a088a
 email: stephen@v25.nl
-
-# Training WG
-training_roles: [instructor, mentor]
-training_years: [2020, 2021]
-
-# Don't modify the following setting
+training_roles:
+- instructor
+- mentor
+training_years:
+- 2020
+- 2021
 layout: educator
 ---
 
