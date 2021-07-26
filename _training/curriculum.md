@@ -1,5 +1,5 @@
 ---
-title: "Towards a HEP Software Training curriculum"
+title: HSF Software Training Center
 layout: plain
 ---
 
