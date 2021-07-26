@@ -131,7 +131,7 @@
     deployment</a> with <a href="https://github.com/features/actions">github actions</a>
   name: CI/CD (github)
   repository: https://github.com/hsf-training/hsf-training-cicd-github
-  status: beta
+  status: stable
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-cicd-github/
   id: cicdgithub
