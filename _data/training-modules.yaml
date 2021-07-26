@@ -121,7 +121,7 @@
   id: gpuml
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
     deployment</a> with <a href="https://about.gitlab.com/">gitlab</a>
-  name: CI/CD
+  name: CI/CD (gitlab)
   repository: https://github.com/hsf-training/hsf-training-cicd
   status: stable
   videos: https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb
@@ -129,7 +129,7 @@
   id: cicd
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
     deployment</a> with <a href="https://github.com/features/actions">github actions</a>
-  name: CI/CD github
+  name: CI/CD (github)
   repository: https://github.com/hsf-training/hsf-training-cicd-github
   status: beta
   videos: ''
