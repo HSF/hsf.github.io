@@ -287,7 +287,7 @@ body {
   border-radius: 10px 20px;
 }
 
-.tm-stable {
+.tm-s.training table {
   background-color: #f1f9f1;
 }
 
@@ -339,4 +339,37 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+}
+
+.training table {
+    padding: 0;
+    width: 100%;
+  }
+.training table tr {
+    border: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+.training table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.training table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.training table tr td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.training table tr th :first-child, .training table tr td :first-child {
+  margin-top: 0;
+}
+.training table tr th :last-child, .training table tr td :last-child {
+  margin-bottom: 0;
 }
