@@ -5,6 +5,7 @@ training_years:
 - 21
 - 202
 training_roles:
+- instructor
 - mentor
 gravatar: null
 github: AFJohan92
