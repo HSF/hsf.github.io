@@ -69,6 +69,10 @@ Today's graduate students will be the young faculty members driving HEP research
     Whitepaper<br/>
     Read more about our vision in this 2018 paper
   </a>
+  <a href="{{site.baseurl}}/training/resources">
+    More about us<br/>
+    A collection of talks, papers and other material about our group
+  </a>
 </div>
 
 ## Learn with us
