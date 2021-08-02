@@ -132,7 +132,7 @@
   name: CI/CD (github)
   repository: https://github.com/hsf-training/hsf-training-cicd-github
   status: stable
-  videos: ''
+  videos: https://www.youtube.com/watch?v=-Xd5D6xKugk&list=PLKZ9c4ONm-Vl3kwsjrNRlPYNQFbPO2no4
   webpage: https://hsf-training.github.io/hsf-training-cicd-github/
   id: cicdgithub
 - description: <code>sphinx</code>, <code>doxygen</code>, etc.
