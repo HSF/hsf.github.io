@@ -65,9 +65,13 @@ More advanced training is then needed (with domain examples!) in parallel progra
 Today's graduate students will be the young faculty members driving HEP research in the 2020s. Investing in their software skills is not only important to actually build the requisite software infrastructure, but will also change community norms, create role models and promote career paths for computational scientists within the HEP research community. Computation is a central element of 21st century science, and clearer career paths will provide a virtuous cycle of feedback to enhance the vibrancy of the training and workforce development activities.
 
 <div class="big-link-container">
+  <a href="https://arxiv.org/abs/2103.00659">
+    Our most recent paper<br/>
+    Several years of experiences and plans for the future (2021)
+  </a>
   <a href="https://arxiv.org/abs/1807.02875">
     Whitepaper<br/>
-    Read more about our vision in this 2018 paper
+    Our vision of software training as of 2018
   </a>
   <a href="{{site.baseurl}}/training/resources">
     More about us<br/>

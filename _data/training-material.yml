@@ -1,5 +1,10 @@
 # Please keep this file in reverse chronological order:
 # Newest things go on top!
+- title: Software Training in HEP
+  date: 2021-02-28
+  url: https://arxiv.org/abs/2103.00659
+  type: paper
+  note: Submitted to CSBS.
 - title: Software Training and Sustainable HEP
   date: 2021-06-29
   url: https://indico.cern.ch/event/1004432/contributions/4377762/
