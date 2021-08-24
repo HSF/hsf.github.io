@@ -112,7 +112,7 @@ Peter Onyisi - The University of Texas at Austin
 
 ### Sponsors
 
-The event wass kindly sponsored by
+The event was kindly sponsored by
 
 ![IRIS-HEP](/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
 ![UoL](/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
