@@ -121,7 +121,7 @@
   id: gpuml
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
     deployment</a> with <a href="https://about.gitlab.com/">gitlab</a>
-  name: CI/CD
+  name: CI/CD (gitlab)
   repository: https://github.com/hsf-training/hsf-training-cicd
   status: stable
   videos: https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb
@@ -129,10 +129,10 @@
   id: cicd
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
     deployment</a> with <a href="https://github.com/features/actions">github actions</a>
-  name: CI/CD github
+  name: CI/CD (github)
   repository: https://github.com/hsf-training/hsf-training-cicd-github
-  status: beta
-  videos: ''
+  status: stable
+  videos: https://www.youtube.com/watch?v=-Xd5D6xKugk&list=PLKZ9c4ONm-Vl3kwsjrNRlPYNQFbPO2no4
   webpage: https://hsf-training.github.io/hsf-training-cicd-github/
   id: cicdgithub
 - description: <code>sphinx</code>, <code>doxygen</code>, etc.
@@ -164,3 +164,10 @@
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-ssh-webpage/
   id: ssh
+- description: A guide through the basics of the file systems and the shell.
+  name: The UNIX Shell
+  repository: https://github.com/swcarpentry/shell-novice
+  status: stable
+  videos: ''
+  webpage: https://swcarpentry.github.io/shell-novice/
+  id: unix

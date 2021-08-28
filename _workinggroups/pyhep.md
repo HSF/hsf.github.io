@@ -55,16 +55,15 @@ The advert and details on these workshops are given below.
 
 ## PyHEP 2021
 
-PyHEP 2021 will be held as a *virtual* workshop on 5-9 July 2021.
-It will be a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and inform the future evolution of community activities. There will be ample time for discussion.
+PyHEP 2021 was held as a *virtual* workshop on 5-9 July 2021.
+The workshop was a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and inform the future evolution of community activities. There was ample time for discussion.
 
-The PyHEP 2021 [agenda](https://indico.cern.ch/e/PyHEP2021){:target="_pyhep2021_indico"}
-will be composed of plenary sessions; the content is under preparation:
+PyHEP 2021 [agenda](https://indico.cern.ch/e/PyHEP2021){:target="_pyhep2021_indico"}
+was composed of plenary sessions such as for example:
 
 1. Topical sessions
-2. Hands-on tutorials
-3. Keynote presentations
-4. Presentations following up from topics discussed at PyHEP 2020
+2. Hands-on tutorials and lightning talks
+3. Presentations following up from topics discussed at PyHEP 2020
 
 ### Organising Committee
 
@@ -77,10 +76,11 @@ Philip Grace - The University of Adelaide
 
 ### Sponsors
 
-The event is kindly sponsored by
+The event was kindly sponsored by
 
-![UoL]({{ site.baseurl }}/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
+![PSF]({{ site.baseurl }}/images/pyhep/PSF_logo.png){:height="60px"}
 ![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![UoL]({{ site.baseurl }}/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
 ![SSI]({{ site.baseurl }}/images/pyhep/SSI_logo.png){:height="60px"}
 
 ## PyHEP 2020
@@ -91,7 +91,7 @@ conference on scientific computing in Python, and slightly overlap in time with 
 to facilitate inter-community exchanges.
 Both events ran as virtual events because of the worldwide COVID-19 pandemic.
 
-The PyHEP 2020 [agenda](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}
+PyHEP 2020 [agenda](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}
 was composed of plenary sessions such as for example:
 
 1. Topical sessions
@@ -112,7 +112,7 @@ Peter Onyisi - The University of Texas at Austin
 
 ### Sponsors
 
-The event is kindly sponsored by
+The event was kindly sponsored by
 
 ![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
 ![UoL]({{ site.baseurl }}/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}

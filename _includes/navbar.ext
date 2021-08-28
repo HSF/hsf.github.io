@@ -1,8 +1,8 @@
 
 <div class="navbar navbar-default">
-      <div class="container">
+    <div class="container">
         <div class="navbar-header">
-          <a href="{{ site.baseurl }}" class="navbar-brand">HEP Software Foundation</a>
+          <a href="{{site.baseurl}}" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -10,84 +10,83 @@
           </button>
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-center">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html' | relative_url }}" id="wg_menu">Working Groups<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
-                  <li><a href="{{ '/what_are_WGs.html' | relative_url }}">What are HSF working groups?</a></li>
+                  <li><a href="{{site.baseurl}}/what_are_WGs.html">What are HSF working groups?</a></li>
                   <li class="divider"></li>
                   {% for workinggroup in site.workinggroups %}
-                    <li><a href="{{ workinggroup.url | relative_url }}">{{ workinggroup.title }}</a></li>
+                    <li><a href="{{ workinggroup.url }}">{{ workinggroup.title }}</a></li>
                   {% endfor %}
                </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html' | relative_url }}" id="activities_menu">Activities<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
-                 <li><a href="{{ '/what_are_activities.html' | relative_url }}">What are HSF activity areas?</a></li>
+                 <li><a href="{{ site.baseurl }}/what_are_activities.html">What are HSF activity areas?</a></li>
                  <li class="divider"></li>
                  {% for activity in site.activities %}
-                   <li><a href="{{ activity.url | relative_url }}">{{ activity.title }}</a></li>
+                   <li><a href="{{ activity.url }}">{{ activity.title }}</a></li>
                  {% endfor %}
                </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html' | relative_url }}" id="meetings_menu">Meetings<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{site.baseurl}}/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="activities_menu">
                  {% for meeting in site.meetings %}
-                   <li><a href="{{ meeting.url | relative_url }}">{{ meeting.title }}</a></li>
+                   <li><a href="{{ meeting.url }}">{{ meeting.title }}</a></li>
                  {% endfor %}
                </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html' | relative_url }}" id="communication_menu">Communication<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{site.baseurl}}/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
-                  <li><a href="{{ '/future-events.html' | relative_url }}">Community Calendar</a></li>
+                  <li><a href="{{ site.baseurl }}/future-events.html">Community Calendar</a></li>
                   <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
-                  <li><a href="{{ '/Schools/events.html' | relative_url }}">Training Schools</a></li>
+                  <li><a href="{{ site.baseurl }}/Schools/events.html">Training Schools</a></li>
                   <li class="divider"></li>
-                  <li><a href="{{ '/forums.html' | relative_url }}">Mailing Lists and Forums</a></li>
-                  <li><a href="{{ '/organization/minutes.html' | relative_url }}">Meeting Notes</a></li>
-                  <li><a href="{{ '/technical_notes.html' | relative_url }}">Technical Notes</a></li>
-                  <li><a href="{{ '/organization/documents.html' | relative_url }}">Documents</a></li>
+                  <li><a href="{{ site.baseurl }}/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="{{ site.baseurl }}/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="{{ site.baseurl }}/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="{{ site.baseurl }}/organization/documents.html">Documents</a></li>
                   <li class="divider"></li>
-                  <li><a href="{{ '/newsletter.html' | relative_url }}">Newsletters</a></li>
-                  <li><a href="{{ '/events.html' | relative_url }}">Events &amp; Workshops</a></li>
+                  <li><a href="{{ site.baseurl }}/newsletter.html">Newsletters</a></li>
+                  <li><a href="{{ site.baseurl }}/events.html">Events &amp; Workshops</a></li>
                   <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
                   <li class="divider"></li>
 
-                  <li><a href="{{ '/inventory/inventory.html' | relative_url }}">HSF Project Inventory</a></li>
+                  <li><a href="{{ site.baseurl }}/inventory/inventory.html">HSF Project Inventory</a></li>
                 </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/projects.html' | relative_url }}" id="projects_menu">Projects &amp; Support<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="projects_menu">
-                  <li><a href="{{ '/project_guidelines.html' | relative_url }}">How to join as a project</a></li>
-                  <li><a href="{{ '/projects.html' | relative_url }}">Member Projects</a></li>
+                  <li><a href="{{ site.baseurl }}/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="{{ site.baseurl }}/projects.html">Member Projects</a></li>
                   <li class="divider"></li>
-                  <li><a href="{{ '/services.html' | relative_url }}">Development Services</a></li>
+                  <li><a href="{{ site.baseurl }}/services.html">Development Services</a></li>
                 </ul>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ '/index.html' | relative_url }}" id="about_menu">About<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="about_menu">
-                <li><a href="{{ '/get_involved.html' | relative_url }}">Get involved!</a><li>
-                <li><a href="{{ '/organization/team.html' | relative_url }}">The Coordination Team</a></li>
-                <li><a href="{{ '/organization/planning/plan-of-work-2021.html' | relative_url }}">HSF Planning</a></li>
+                <li><a href="{{ site.baseurl }}/get_involved.html">Get involved!</a><li>
+                <li><a href="{{ site.baseurl }}/organization/team.html">The Coordination Team</a></li>
+                <li><a href="{{ site.baseurl }}/organization/planning/plan-of-work-2021.html">HSF Planning</a></li>
                 <li class="divider"></li>
-                <li><a href="{{ '/organization/goals.html' | relative_url }}">Goals of the HSF</a></li>
-                <li><a href="{{ '/organization/cwp.html' | relative_url }}">Community White Paper</a></li>
-                <li><a href="{{ '/organization/hsf-letters.html' | relative_url }}">Letters from the HSF</a></li>
-                <li><a href="{{ '/organization/presentations.html' | relative_url }}">HSF Presentations</a></li>
-                <li><a href="{{ '/organization/youtube.html' | relative_url }}">HSF YouTube Channel</a></li>
+                <li><a href="{{ site.baseurl }}/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="{{ site.baseurl }}/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="{{ site.baseurl }}/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="{{ site.baseurl }}/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="{{ site.baseurl }}/organization/youtube.html">HSF YouTube Channel</a></li>
                 <li class="divider"></li>
-                <li><a href="{{ '/howto-website.html' | relative_url }}">Website Howto</a></li>
+                <li><a href="{{ site.baseurl }}/howto-website.html">Website Howto</a></li>
               </ul>
             </li>
           </ul>
-
         </div>
-      </div>
     </div>
+</div>

@@ -1,5 +1,5 @@
 ---
-title: "Towards a HEP Software Training curriculum"
+title: HSF Software Training Center
 layout: plain
 ---
 
@@ -13,7 +13,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### Basics
 
-{% include list_of_selected_training_modules.html ids="git,python,ssh,ml" %}
+{% include list_of_selected_training_modules.html ids="unix,git,python,ssh,ml" %}
 
 ### Software Development and Deployment
 
@@ -41,6 +41,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ## Further reads
 
+* Show all modules in a table (mostly for administrative purposes): [click here](/training/curriculum_table.html)
 * I want to **contribute** or **teach**:
 Contributions of any kind are very welcome! There are various ways you can get involved:
 

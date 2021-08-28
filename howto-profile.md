@@ -49,10 +49,12 @@ Either
 
 Use this:
 
+{% raw %}
 ```
 {% assign persons = "Kilian Lieret, Sudhir Malik, Sam Meehan" | split: ", " %}
 {% include list_of_selected_profiles.html %}
 ```
+{% endraw %}
 
 ## FAQ
 
