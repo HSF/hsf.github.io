@@ -44,7 +44,7 @@ Feedback:
 
 - CernVM effort levels were discussed, stressing the need for projects like this to do *support* and *R&D*
 - Some clarification on the ROOT/HighLO project, praised for attracting external funding
-- Discussion of the sustainability of the current C++ course, where - stressed that others (beyond Sebastien P) were contributing and the course material was open source
+- Discussion of the sustainability of the current C++ course (currently developed and delivered by one person). We stressed that others (beyond Sebastien) were also contributing and the course material was open source. Therefore we are confident that other people can also teach it.
 - Long discussion on the effort available for software and computing, particularly for computing operations, the fact that this is declining and not well recognised
   - Institute commitment was seen to be key to solving this
   - Recognised as part of a wider problem, covering almost all areas
