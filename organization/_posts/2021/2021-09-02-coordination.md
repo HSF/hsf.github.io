@@ -3,7 +3,7 @@ title: "HSF Coordination Meeting #213, 2 September 2021"
 layout: plain_toc
 ---
 
-Present: Graeme Stewart, Josh McFayden, Attila Krasznahorkay, Kyle Knoepfel, Michel Jouvin, Pere Mato, Ben Morgan, Dorothea vom Bruch, Krzysztof Genser, Mark Neubauer, Caterina Doglioni, Eduardo Rodrigues, Allison Hall, Philippe Gras, Liz Sexton-Kennedy, Alexander Moreno, Andrei Gheata, Gordon Watts, Jerry Ling, Michael Hernandez, Nicola Skidmore, Sudhir Malik, Torre Wenaus, Daniel Elvira, Benedikt Hegner, Aman Goel
+Present: Graeme Stewart, Josh McFayden, Attila Krasznahorkay, Kyle Knoepfel, Michel Jouvin, Pere Mato, Ben Morgan, Dorothea vom Bruch, Krzysztof Genser, Mark Neubauer, Caterina Doglioni, Eduardo Rodrigues, Allison Hall, Philippe Gras, Liz Sexton-Kennedy, Alexander Moreno, Andrei Gheata, Gordon Watts, Jerry Ling, Michael Hernandez, Nicole Skidmore, Sudhir Malik, Torre Wenaus, Daniel Elvira, Benedikt Hegner, Aman Goel
 
 ## News, general matters, announcements
 
@@ -11,8 +11,8 @@ Present: Graeme Stewart, Josh McFayden, Attila Krasznahorkay, Kyle Knoepfel, Mic
 
 See slides on [the agenda](https://indico.cern.ch/event/1043626).
 
-- Workshop planned on **September 20** to discuss with more details how to move forward in the
-  Julia evaluation planned in PyHEP WG
+- Workshop planned on **September 20th** to discuss in more detail how to move forward in the
+  Julia evaluation planned within the PyHEP WG following a session on Julia at the PyHEP 2021 workshop
 
 - Don't use developer preferences to guide choices ("small enthusiastic communities bias" of minor languages)
   - We need to concentrate on the language's features and potential
@@ -48,7 +48,7 @@ Feedback:
 - Long discussion on the effort available for software and computing, particularly for computing operations, the fact that this is declining and not well recognised
   - Institute commitment was seen to be key to solving this
   - Recognised as part of a wider problem, covering almost all areas
-  - Software is not in quite such a parlous state as operations, but it was stresses that software needs *long term support* and *viable career paths* - just funding cool R&D isn't enough
+  - Software is not in quite such a parlous state as operations, but it was stressed that software needs *long term support* and *viable career paths* - just funding cool R&D isn't enough
 - Many thanks from the referees for the efforts put into preparing the HL-LHC review documents
 
 ### HSF Letters
@@ -128,7 +128,7 @@ An EP newsletter article has been prepared by Graeme and Andrei.
 
 ### Frameworks
 
-- Will (hopefully) have a meeting next week after a longer hiatus. (<https://indico.cern.ch/event/1072798/>) With the intention of going back to regular meetings in the autumn once again.
+- Will (hopefully) have a meeting next week after a longer hiatus (<https://indico.cern.ch/event/1072798/>). With the intention of going back to regular meetings in the autumn once again.
 
 ---
 
@@ -142,7 +142,7 @@ Ticket still open, no recent movement.
 
 We are currently working on a funding proposal (EU COST) in the context of the "Software Institute for Data Intensive Sciences", aiming to bridge the gap between computer scientists and natural science software engineers. The "grand theme" of the proposal will be around the topic of "software sustainability".
 
-For a success proposal it is useful to include participants also from "inclusive target" countries (mostly eastern European countries). In case you have contacts in this direction please get in contact with Graeme or Stefan.
+For a successul proposal it is useful to include participants also from "inclusive target" countries (mostly eastern European countries). In case you have contacts in this direction please get in contact with Graeme or Stefan.
 
 ### Next Meeting
 
