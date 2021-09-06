@@ -22,7 +22,7 @@ We have forked the [carpentries style repository](https://github.com/carpentries
 
 This might however create some merge conflicts, for example if the original version of style repository that you used to kick off your lesson repository with is outdated (or ours is). Again, we're here to help if you feel lost.
 
-1. **IMPORTANT!** Make sure you do not have any uncommited changes in your repsitory. This makes sure we can't destroy any of your work.
+1. **IMPORTANT!** Make sure you do not have any uncommitted changes in your repsitory. This makes sure we can't destroy any of your work.
 
 2. Add our repository as a remote (called ``template``):
 
