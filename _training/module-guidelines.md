@@ -28,5 +28,5 @@ As a central place to collaborate, we have the [hsf-training github organization
 
 * [explanation of the different roles in a training event]({{ site.baseurl }}/training/educators.html)
 * [how to organize a successful workshop]({{ site.baseurl }}/training/howto-event.html)
-* [how to create a new HSF module](howto-new-module.html)
-* [how to update a module with the HSF style](howto-update-module-style.html)
+* [how to create a new HSF module]({{ site.baseurl }}/training/howto-new-module.html)
+* [how to update a module with the HSF style]({{ site.baseurl }}/howto-update-module-style.html)

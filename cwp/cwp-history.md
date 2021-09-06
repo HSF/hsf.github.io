@@ -47,12 +47,12 @@ for the roadmap.*
 The second draft of the CWP, the 
 [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1RIcnj7DBNOoQ1DT45WCGFboS0tCDeJcvAi2xjPv_UVQ){:target="_cwp_roadmap"} 
 report (also available as a 
-[pdf]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.2.pdf)) 
+[pdf]({{site.baseurl}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.2.pdf))
 was released to the community on November 17.
 
 The first draft was released on October 20, it is still available as a
 [Google Docs](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
-or as a [PDF]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1-linenumbers.pdf).
+or as a [PDF]({{site.baseurl}}/assets/HSF-Community-White-Paper-v0.1-linenumbers.pdf).
 
 ## Editorial Team
 
