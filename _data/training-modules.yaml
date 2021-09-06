@@ -21,7 +21,7 @@
   id: python
 - description: 'A full introduction to C++ based on a series of slides and exercises.'
   name: HEP C++ Course
-  repository: https://gitlab.cern.ch/sponce/cpluspluscourse/
+  repository: https://github.com/hsf-training/cpluspluscourse
   status: stable
   videos: https://indico.cern.ch/event/979067/
   webpage: https://indico.cern.ch/event/979067/
