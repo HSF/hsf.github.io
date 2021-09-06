@@ -5,7 +5,7 @@
   videos: ''
   webpage: http://swcarpentry.github.io/git-novice
   id: git
-- description: 'Working with branches and more'
+- description: 'Working with branches and more.'
   name: Advanced git
   repository: https://github.com/hsf-training/hsf-training-advanced-git-webpage/
   status: alpha
@@ -19,21 +19,21 @@
   videos: ''
   webpage: http://swcarpentry.github.io/python-novice-inflammation
   id: python
-- description: ''
+- description: 'A full introduction to C++ based on a series of slides and exercises.'
   name: HEP C++ Course
-  repository: https://gitlab.cern.ch/sponce/cpluspluscourse/
+  repository: https://github.com/hsf-training/cpluspluscourse
   status: stable
   videos: https://indico.cern.ch/event/979067/
   webpage: https://indico.cern.ch/event/979067/
   id: hepcpp
-- description: ''
+- description: 'A brand new C++ course that is currently in development.'
   name: Basic Modern C++
   repository: https://github.com/hsf-training/hsf-training-cpp-webpage
   status: alpha
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-cpp-webpage
   id: moderncpp
-- description: ''
+- description: 'Building code is hard. <code>CMake</code> makes it easier.'
   name: 'Build systems:  <code>cmake</code>'
   repository: https://github.com/hsf-training/hsf-training-cmake-webpage
   status: stable
@@ -47,7 +47,7 @@
   videos: ''
   webpage: ''
   id: grid
-- description: ''
+- description: 'The most famous data analysis framework used in HEP.'
   name: <code>ROOT</code>
   repository: ''
   status: alpha
@@ -61,7 +61,7 @@
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-uproot-webpage/
   id: uproot
-- description: A simple analysis using CMS open data
+- description: A simple analysis using CMS open data.
   name: A simple analysis
   repository: https://github.com/hsf-training/hsf-training-cms-analysis-webpage
   status: stable
@@ -69,14 +69,14 @@
   webpage: https://hsf-training.github.io/hsf-training-cms-analysis-webpage/
   id: simpleanalysis
 - description: <a href="https://en.wikipedia.org/wiki/Unit_testing">Unit testing</a>
-    in python
+    in python.
   name: Unit testing
   repository: https://github.com/carpentries-incubator/python-testing
   status: beta
   videos: ''
   webpage: http://carpentries-incubator.github.io/python-testing/
   id: testingpython
-- description: ''
+- description: 'Make science prettier with beautiful plots!'
   name: Matplotlib for HEP
   repository: https://github.com/hsf-training/hsf-training-matplotlib
   status: alpha
@@ -91,7 +91,7 @@
   webpage: ''
   id: parallel
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
-    image system
+    image system.
   name: Docker
   repository: https://github.com/hsf-training/hsf-training-docker
   status: stable
@@ -105,14 +105,14 @@
   videos: ''
   webpage: ''
   id: yadagereana
-- description: ''
+- description: 'Get behind the buzzword and teach machines to work for you intelligently!'
   name: Machine learning
   repository: https://github.com/hsf-training/hsf-training-ml-webpage
   status: stable
   videos: https://www.youtube.com/playlist?list=PLKZ9c4ONm-VmHsMKImIDEMsZI1Vp0UY-Z
   webpage: https://hsf-training.github.io/hsf-training-ml-webpage
   id: ml
-- description: ''
+- description: 'Speed up your machine learning using massive parallelization!'
   name: Machine learning on GPU
   repository: https://github.com/hsf-training/hsf-training-ml-gpu-webpage
   status: stable
@@ -120,7 +120,7 @@
   webpage: https://hsf-training.github.io/hsf-training-ml-gpu-webpage
   id: gpuml
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
-    deployment</a> with <a href="https://about.gitlab.com/">gitlab</a>
+    deployment</a> with <a href="https://about.gitlab.com/">gitlab</a>.
   name: CI/CD (gitlab)
   repository: https://github.com/hsf-training/hsf-training-cicd
   status: stable
@@ -128,7 +128,7 @@
   webpage: https://hsf-training.github.io/hsf-training-cicd/
   id: cicd
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
-    deployment</a> with <a href="https://github.com/features/actions">github actions</a>
+    deployment</a> with <a href="https://github.com/features/actions">github actions</a>.
   name: CI/CD (github)
   repository: https://github.com/hsf-training/hsf-training-cicd-github
   status: stable
@@ -150,7 +150,7 @@
   webpage: ''
   id: generators
 - description: <a href="https://alpaka.readthedocs.io/en/latest/index.html">alpaka</a>
-    is a header-only C++ abstraction library for accelerator development
+    is a header-only C++ abstraction library for accelerator development.
   name: alpaka
   repository: https://github.com/hsf-training/hsf-training-alpaka-webpage
   status: alpha
