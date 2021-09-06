@@ -23,16 +23,16 @@ Appleton Lab Particle Physics Division Serminar](https://indico.stfc.ac.uk/event
 
 ## 2019
 
-* [HSF Update](/assets/MJ-WLCG_OB-2019-06-12.pdf), WLCG Overview Board, 12 June 2019, Michel Jouvin
-* [Meeting Future Software Challenges in High-Energy Physics](/assets/HSF-UNIGE-Seminar.pdf), University of Geneva Seminar,
+* [HSF Update]({{ site.baseurl }}/assets/MJ-WLCG_OB-2019-06-12.pdf), WLCG Overview Board, 12 June 2019, Michel Jouvin
+* [Meeting Future Software Challenges in High-Energy Physics]({{ site.baseurl }}/assets/HSF-UNIGE-Seminar.pdf), University of Geneva Seminar,
   22 May 2019, Graeme A Stewart
 * [HSF Overview](https://agenda.infn.it/event/17249/contributions/89882/attachments/63230/76128/HSF_Electron_Ion_Consortium_Talk.pdf), Electron-Ion Collider Software Meeting, 20 May 2019, Graeme A Stewart
-* [Computing & Software work - recognition & citations in publications](/assets/EduardoRodrigues-LHCb-2019-01-15.pdf), LHCb Weekly Meeting, 15 January 2019, Eduardo Rodrigues
+* [Computing & Software work - recognition & citations in publications]({{ site.baseurl }}/assets/EduardoRodrigues-LHCb-2019-01-15.pdf), LHCb Weekly Meeting, 15 January 2019, Eduardo Rodrigues
 
 ## 2018
 
-* [HEP Software Foundation (R&D) activities](/assets/EduardoRodrigues-CMS-2018-10-23.pdf), ECOM2X WG7 Meeting, CERN, 23 October 2018, Eduardo Rodrigues
-* [Python in HEP - first workshop, community activities](/assets/EduardoRodrigues-LHCb-2018-09-18.pdf), LHCb Weekly Meeting, CERN, 19 September 2018, Eduardo Rodrigues
+* [HEP Software Foundation (R&D) activities]({{ site.baseurl }}/assets/EduardoRodrigues-CMS-2018-10-23.pdf), ECOM2X WG7 Meeting, CERN, 23 October 2018, Eduardo Rodrigues
+* [Python in HEP - first workshop, community activities]({{ site.baseurl }}/assets/EduardoRodrigues-LHCb-2018-09-18.pdf), LHCb Weekly Meeting, CERN, 19 September 2018, Eduardo Rodrigues
 * [HEP Software Foundation](https://indico.ific.uv.es/event/3438/contributions/9763/attachments/6464/7304/COMCHA_HSF_Presentation.pdf), Spanish Computing Challenges Meeting (COMCHA), 12 September 2018, Graeme A Stewart
 * [Future opportunities and challenges for software in HEP](https://indico.cern.ch/event/730568/contributions/3011127/attachments/1690167/2719313/Software-Opportunities-and-Challenges.pdf), ECFA Plenary Meeting, 20 July 2018, Graeme A Stewart
 * [HSF Community White Paper: Lessons and Future Work](https://indico.cern.ch/event/587955/contributions/3012294/attachments/1681524/2708636/CHEP18_-_CWP_Lessons_and_Future_Work.pdf), [CHEP2018 Plenary Talk](https://indico.cern.ch/event/587955/timetable/#20180711), 11 July 2018, Michel Jouvin
@@ -70,7 +70,7 @@ Appleton Lab Particle Physics Division Serminar](https://indico.stfc.ac.uk/event
  * [HSF summary](https://indico.cern.ch/event/395887/session/5/contribution/12/attachments/1185905/1719290/HSF_111115.pdf) at [ATLAS Software Technical Meeting](https://indico.cern.ch/event/395887/other-view?view=standard), Nov 11 2015, Benedikt Hegner
  * [HSF initiatives](https://indico.cern.ch/event/454984/contribution/3/attachments/1171114/1690747/HEP_Software_Foundation_HSF__CMS_Meeting_20151015.pdf) at [CMS Offline and Computing Week](https://indico.cern.ch/event/454984/), Oct 15 2015, Pere Mato
  * [Software Evolution - HSF](https://indico.cern.ch/event/345619/session/1/contribution/13/attachments/681171/935779/WLCG_HSF.pdf) at [2015 WLCG Workshop](https://indico.cern.ch/event/345619/), Apr 12 2015, Elizabeth Sexton-Kennedy
- * [Workshop summary](/assets/Benedikt%20Hegner%20HSFSummary.pdf) presented to CERN PH-SFT, Feb 2015, Benedikt Hegner
- * [Workshop summary](/assets/HSF-Summary-Vakho-Tsulaia-ATLAS.pdf) presented to ATLAS S&C Week, Feb 2015, Vakho Tsulaia
- * [Workshop summary](/assets/HSF-SLAC-workshop-summary-GDB-Feb.pdf) presented to the WLCG GDB, Feb 2015, Michel Jouvin
- * [HSF introduction](/assets/HSF-intro-intensity-20150108.pdf) presented to the intensity frontier community, Jan 8 2015, Torre Wenaus
+ * [Workshop summary]({{ site.baseurl }}/assets/Benedikt%20Hegner%20HSFSummary.pdf) presented to CERN PH-SFT, Feb 2015, Benedikt Hegner
+ * [Workshop summary]({{ site.baseurl }}/assets/HSF-Summary-Vakho-Tsulaia-ATLAS.pdf) presented to ATLAS S&C Week, Feb 2015, Vakho Tsulaia
+ * [Workshop summary]({{ site.baseurl }}/assets/HSF-SLAC-workshop-summary-GDB-Feb.pdf) presented to the WLCG GDB, Feb 2015, Michel Jouvin
+ * [HSF introduction]({{ site.baseurl }}/assets/HSF-intro-intensity-20150108.pdf) presented to the intensity frontier community, Jan 8 2015, Torre Wenaus

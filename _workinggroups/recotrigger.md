@@ -40,7 +40,7 @@ follow our mailing list on google groups [hsf-recotrigger](https://groups.google
 * Reconstruction+Trigger sessions at HOW2019 JLab include discussions on real-time analysis, reconstruction on accelerators, and more: [agenda](https://indico.cern.ch/event/759388/timetable/#20190320.detailed).
 
 ## Details
-[Mandate and link to other HSF working groups](/organization/working-group-mandates.html).
+[Mandate and link to other HSF working groups]({{ site.baseurl }}/organization/working-group-mandates.html).
 
 ## Former Conveners
 

@@ -2,7 +2,7 @@
   <div class="sidebar-module sidebar-module-inset">
     <h4>About the HSF</h4>
     <p>
-For more information on the HEP Software Foundation see the <a href="/organization/goals.html">goals</a> page or
+For more information on the HEP Software Foundation see the <a href="{{ '/organization/goals.html' | relative_url }}">goals</a> page or
 contact the <a href="mailto:hsf-coordination@googlegroups.com">startup team</a>.
     </p>
   </div>
@@ -27,7 +27,7 @@ contact the <a href="mailto:hsf-coordination@googlegroups.com">startup team</a>.
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     </ol>
-    <a href="/organization/team.html">more...</a>
+    <a href="{{ '/organization/team.html' | relative_url }}">more...</a>
   </div>
 
    <div class="sidebar-module sidebar-module-inset">

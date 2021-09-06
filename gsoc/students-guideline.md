@@ -12,9 +12,9 @@ Get started checking out the [Google Summer of Code Guides for students](https:/
 
 ### How to apply to HSF GSoC
 
-1. Take a look at the list of participating [projects](/activities/gsoc.html#projects-in-2021) this year. If there are no projects or just a few, note that more will be added according to this year's [timeline](/activities/gsoc.html#timeline).
+1. Take a look at the list of participating [projects]({{ site.baseurl }}/activities/gsoc.html#projects-in-2021) this year. If there are no projects or just a few, note that more will be added according to this year's [timeline]({{ site.baseurl }}/activities/gsoc.html#timeline).
   * There you will find a list of proposals for each project, their descriptions and the contact information of their mentors.
-  * There is also a list with [all the project proposals](/gsoc/2021/summary.html) sorted in alphabetical order.
+  * There is also a list with [all the project proposals]({{ site.baseurl }}/gsoc/2021/summary.html) sorted in alphabetical order.
   <!-- Next <br><br>, add an extra new line, otherwise there is no space between point 2 and previous nested bullet  -->
   <br><br>
 

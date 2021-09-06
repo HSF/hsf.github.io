@@ -45,4 +45,4 @@ The current HSF Owners are:
 * Eduardo Rodrigues <eduardo.rodrigues@cern.ch>
 
 If you aren't able to contact an owner, please ask the 
-[HSF Coordination Team](/organization/team.html) for advice.
+[HSF Coordination Team]({{ site.baseurl }}/organization/team.html) for advice.

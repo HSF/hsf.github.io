@@ -11,7 +11,7 @@ Apologies: Josh McFayden, Marc Paterno
 
 ### WG Plans and Last Meeting's Minutes
 
-At the [last meeting](/organization/2021/01/21/coordination.html) we reviewed WG plans for the early part of 2021 in particular. (Note that a TOC was added, so that direct links to individual WG notes are easier.)
+At the [last meeting]({{ site.baseurl }}/organization/2021/01/21/coordination.html) we reviewed WG plans for the early part of 2021 in particular. (Note that a TOC was added, so that direct links to individual WG notes are easier.)
 
 We want to now more widely announce these to the community, to different experiments. This is both to raise the profile of HSF activities and to solicit feedback, particularly from non-LHC experiments.
 

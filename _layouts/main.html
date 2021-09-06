@@ -8,7 +8,7 @@ layout: default
 <hr>
         <div class=row>
           <div class="col-md-4">
-            <img src="/images/hsf_logo_angled.png" alt="HSF Logo" width="70%">
+            <img src="{{ '/images/hsf_logo_angled.png' | relative_url }}" alt="HSF Logo" width="70%">
           </div>
           <div class="col-md-8">
             <p class="lead">
@@ -36,7 +36,7 @@ in High Energy Physics software and computing internationally.
     {% endif %}
   {% endfor %}
 
-{% if has_announcements %} 
+{% if has_announcements %}
 <hr>
 {% endif %}
 
@@ -46,7 +46,7 @@ in High Energy Physics software and computing internationally.
  <div class="col-lg-4">
   <h2>Meetings</h2>
     <p>
-      The HSF holds <a href="/future-events.html" target="_hsf_indico">regular meetings</a>
+      The HSF holds <a href="{{ '/future-events.html' | relative_url }}" target="_hsf_indico">regular meetings</a>
       in its activity areas and has bi-weekly coordination meetings as well.
       All of our meetings are open for everyone to join.
     </p>
@@ -56,8 +56,8 @@ in High Energy Physics software and computing internationally.
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
     </ul>
-    <p><a href="/future-events.html" role="button">Upcoming HSF and community events &raquo;</a></p>
-    <p><a href="/organization/minutes.html" role="button">Full list of past meetings &raquo;</a></p>
+    <p><a href="{{ '/future-events.html' | relative_url }}" role="button">Upcoming HSF and community events &raquo;</a></p>
+    <p><a href="{{ '/organization/minutes.html' | relative_url }}" role="button">Full list of past meetings &raquo;</a></p>
   </div>
 
 
@@ -66,7 +66,7 @@ in High Energy Physics software and computing internationally.
   <p>
     The <a href="https://indico.cern.ch/e/pyhep2021">PyHEP 2021 workshop</a> was held as a virtual workshop on 5-9 July 2021.
   </p>
-  <img src="/images/pyhep/PyHEP_logo_template_white.png"
+  <img src="{{ '/images/pyhep/PyHEP_logo_template_white.png' | relative_url }}"
   alt="PyHEP-logo" style="display: block; width:55%; margin-left: auto; margin-right: auto;">
   <p>Run for the second consecutive year as an event online, it attracted approximately 1300 registrants
      from a very broad spectrum of communities from the LHC to neutrinos and astroparticle physics,
@@ -79,13 +79,13 @@ in High Energy Physics software and computing internationally.
 
  <div class="col-lg-4">
  	<h2>Activities</h2>
-    	<p>We organise many activities, from our <a href="/what_are_WGs.html">working groups</a>,
-          to organising <a href="/events.html">events</a>, to supporting projects as
-          <a href="/projects.html">HSF projects</a>, and helping communication within the
-          community through our  <a href="/forums.html">discussion forums</a>
-          and <a href="/technical_notes.html">technical notes</a>.
+    	<p>We organise many activities, from our <a href="{{ '/what_are_WGs.html' | relative_url }}">working groups</a>,
+          to organising <a href="{{ '/events.html' | relative_url }}">events</a>, to supporting projects as
+          <a href="{{ '/projects.html' | relative_url }}">HSF projects</a>, and helping communication within the
+          community through our  <a href="{{ '/forums.html' | relative_url }}">discussion forums</a>
+          and <a href="{{ '/technical_notes.html' | relative_url }}">technical notes</a>.
           </p>
-   <p><a href="/get_involved.html" role="button">How to get involved &raquo;</a></p>
+   <p><a href="{{ '/get_involved.html' | relative_url }}" role="button">How to get involved &raquo;</a></p>
        </div>
       </div>
 

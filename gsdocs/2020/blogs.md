@@ -11,14 +11,14 @@ year: 2020
 <div class="blog-header" style="text-align: left">
   <div class="row">
     <div class="col-md-2">
-      <img src="/images/{{ blog.logo }}" alt="{{ blog.project }}" width="100px">
+      <img src="{{ site.baseurl }}/images/{{ blog.logo }}" alt="{{ blog.project }}" width="100px">
     </div>
     <div class="col-md-8">
       <h1>{{ blog.title }}</h1>
     </div> 
     <div class="col-md-2" style="text-align: right;">
       {% if blog.photo %}
-      <img src="/images/{{ blog.photo }}" alt="{{ blog.author }}" width="100px">
+      <img src="{{ site.baseurl }}/images/{{ blog.photo }}" alt="{{ blog.author }}" width="100px">
       {% endif %}
       <p style="font-weight: bold;"> by {{ blog.author }}</p> 
     </div>

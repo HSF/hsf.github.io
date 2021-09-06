@@ -45,11 +45,11 @@ at ACAT, Saas Fee, 15 March 2019
 
 - Computing Workshop debriefing, CERN, 11 December 2018:
 [agenda](https://indico.cern.ch/event/778521),
-[minutes](/organization/2018/12/11/generators.html),
-HSF meeting [report](/organization/2018/12/13/coordination.html)
+[minutes]({{ site.baseurl }}/organization/2018/12/11/generators.html),
+HSF meeting [report]({{ site.baseurl }}/organization/2018/12/13/coordination.html)
 - Computing Workshop, CERN, 26-28 November 2018: 
 [agenda](https://indico.cern.ch/event/751693),
-[minutes](/organization/2018/11/26/generators.html)
+[minutes]({{ site.baseurl }}/organization/2018/11/26/generators.html)
 
 #### Older resources (2017)
 

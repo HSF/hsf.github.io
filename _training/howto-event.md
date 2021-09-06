@@ -23,7 +23,7 @@ layout: plain_toc
 If you have an inkling that you are keen to do this, you should start by joining the [Awesome WS Mattermost workspace](https://mattermost.web.cern.ch/signup_user_complete/?id=t9zkdocffbbozqcdy193myre8y) and pinging the ``@TownSquare`` channel or joining the next [HSF Training Weekly Meeting](https://indico.cern.ch/category/10294/) and just speaking up to brainstorm your idea.  We don't bite, reach out and say _"Hi!"_.
 
 <figure class="centered-figure">
-<img src="/images/training/analysis_preservation_bootcamp_participants.jpg">
+<img src="{{ '/images/training/analysis_preservation_bootcamp_participants.jpg' | relative_url }}">
 <figcaption>Two (enthusiastic) participants attending the Analysis Preservation Bootcamp at CERN in February 2020. Note the two screens at the front and the “non-auditorium” room configuration.
 </figcaption>
 </figure>
@@ -40,7 +40,7 @@ If you have an inkling that you are keen to do this, you should start by joining
 Please reflect on these points and adopt a mindset that keeps these in mind while transforming your idea into reality.   And, if you feel like this philosophy should be modified or extended, don't hesitate to bring it up to the conveners.  
 
 <figure class="centered-figure">
-<img src="/images/training/sw_carpentry_small.png">
+<img src="{{ '/images/training/sw_carpentry_small.png' | relative_url }}">
 <figcaption>Much of our pedagogical philosophy is borrowed from the <a href="https://software-carpentry.org/">Software Carpentries</a></figcaption>
 </figure>
 
@@ -60,13 +60,13 @@ An in-person event is akin to a standard conference or workshop where everyone g
       - Less equitable - Only those with the ability to be in the room due to any number of resources (e.g. money, scheduling) can participate
 
 <figure class="centered-figure">
-<img src="/images/training/mentors.jpg">
+<img src="{{ '/images/training/mentors.jpg' | relative_url }}">
 <figcaption>Three mentors (standing and kneeling) actively helping a participant (sitting, center).  The three other participants at the table are now active mentors in the community.
 </figcaption>
 </figure>
 
 <figure class="centered-figure">
-<img src="/images/training/instructor.jpg">
+<img src="{{ '/images/training/instructor.jpg' | relative_url }}">
 <figcaption>The Instructor (center) driving the training session by actively working through the same material the students are learning.  This helps keep a good pace and demonstrates that challenges affect participants <i>and</i> experts.
 </figcaption>
 </figure>
@@ -87,13 +87,13 @@ An virtual event takes place *entirely* online.  It commences with a "kickoff" w
       - Non-personal - Only get to meet educators/participants in the virtual world.  Reduces the chance to have an ad-hoc but meaningful interaction
 
 <figure class="centered-figure">
-<a href="https://www.youtube.com/watch?v=NxhDGMo9ILM&list=PLWZ1NKCZTdqcnTEx_CkfTP_3uZWcDOgxY"><img src="/images/training/virtual.png"></a>
+<a href="https://www.youtube.com/watch?v=NxhDGMo9ILM&list=PLWZ1NKCZTdqcnTEx_CkfTP_3uZWcDOgxY"><img src="{{ '/images/training/virtual.png' | relative_url }}"></a>
 <figcaption>Virtual events can be preserved and archived on YouTube and by sharing the webpage and terminal, the participant experience is largely recreated online.  Note the inclusion of captioning to ensure these resources are broadly accessible.
 </figcaption>
 </figure>
 
 <figure class="centered-figure">
-<img src="/images/training/participants_virtual.png">
+<img src="{{ '/images/training/participants_virtual.png' | relative_url }}">
 <figcaption>When an event is virtual, participants will come from around the world.
 </figcaption>
 </figure>
@@ -104,7 +104,7 @@ Give some thought as to *what* you want to teach and *why*, particularly in the 
 ## Does the material already exist?
 **STOP!** 
 
-Before you go ahead and begin making a _new_ set of slides or designing your module, see if there is something that already exists in the [HSF-Training archives](/training/curriculum.html).  Here you will find a number of resources that may pertain to your goal. And if it doesn't exactly pertain to your training goal, then it can provide a starting point in the form of a [HSF-SWC module like this](https://github.com/hsf-training/hsf-training-cicd) ([which generates a website like this](https://hsf-training.github.io/hsf-training-cicd/)) that you can fork and develop for your specific training.  You can extend it by adding on a couple of pages at the end which contain *experiment specific* lessons and/or you can simply modify the [setup page](https://hsf-training.github.io/hsf-training-cicd/setup.html) of a lesson to give participants guidance on how to use specific resources that you are providing to them.  
+Before you go ahead and begin making a _new_ set of slides or designing your module, see if there is something that already exists in the [HSF-Training archives]({{ site.baseurl }}/training/curriculum.html).  Here you will find a number of resources that may pertain to your goal. And if it doesn't exactly pertain to your training goal, then it can provide a starting point in the form of a [HSF-SWC module like this](https://github.com/hsf-training/hsf-training-cicd) ([which generates a website like this](https://hsf-training.github.io/hsf-training-cicd/)) that you can fork and develop for your specific training.  You can extend it by adding on a couple of pages at the end which contain *experiment specific* lessons and/or you can simply modify the [setup page](https://hsf-training.github.io/hsf-training-cicd/setup.html) of a lesson to give participants guidance on how to use specific resources that you are providing to them.  
 
 ## I can't find an HSF module for the training I want to organize ...
 
@@ -123,7 +123,7 @@ In principle, if you are the person reading this page and wanting to organise an
 In all of this, please bear in mind, **_everyone is doing this out of a desire to educate and learn, rarely is anyone getting paid to expressly contribute their time or energy to HSF training_**.
 
 <figure class="centered-figure">
-<img src="/images/training/educators_enjoying_work.png">
+<img src="{{ '/images/training/educators_enjoying_work.png' | relative_url }}">
 <figcaption>HSF Educators enjoy their work (as evidenced by the smiles) and serve as role-models for participants. </figcaption>
 </figure>
 
@@ -202,7 +202,7 @@ Organizing the event carefully is very important to ensure that it is effective.
   - **Captioning** : BE INCLUSIVE! If the event is virtual, then there may be some individuals who can only participate if there is captioning.  Refer to the section on "Accessibility" for more details but bear in mind that this is a bit more of a unique accommodation from an in person event.
 
 <figure class="centered-figure">
-<img src="/images/training/how_does_an_event_look_like.jpg">
+<img src="{{ '/images/training/how_does_an_event_look_like.jpg' | relative_url }}">
 <figcaption>The primary instructor (standing in front) driving the lesson with the lesson webpage and terminal while a mentor (bottom, long blond hair) helps debug a specific issue with a partcipant (bottom right, long black hair)
 </figcaption>
 </figure>
@@ -227,7 +227,7 @@ We care about documenting our successes as well as where we can improve using se
 
 
 <figure class="centered-figure">
-<img src="/images/training/surveys.png">
+<img src="{{ '/images/training/surveys.png' | relative_url }}">
 <figcaption>The HSF-Training approach makes a difference in the self-reported understanding of participants. </figcaption>
 </figure>
 

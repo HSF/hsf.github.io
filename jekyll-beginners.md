@@ -89,7 +89,7 @@ To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Th
 it, add the following line:
 
 ```
-![Replacement text](/images/file){:height="400px" width="600px" .centered-image}
+![Replacement text]({{ site.baseurl }}/images/file){:height="400px" width="600px" .centered-image}
 ```
 
 where:

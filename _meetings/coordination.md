@@ -13,4 +13,4 @@ items of interesting news or to discuss new HSF activities.
 Minutes are regularly published on this website.
 
 * [Coordination Meetings in Indico](https://indico.cern.ch/category/7970/)
-* [Meeting Minutes](/organization/minutes.html)
+* [Meeting Minutes]({{ site.baseurl }}/organization/minutes.html)

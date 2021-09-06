@@ -27,5 +27,5 @@ Responders to the call for TechForum early adopters:
 
 ## Resources
 
-  * [US HEP-FCE Working Group Report on Libraries and Tools](/assets/fce-tools-wg-report.pdf)
+  * [US HEP-FCE Working Group Report on Libraries and Tools]({{ site.baseurl }}/assets/fce-tools-wg-report.pdf)
   * [CERN TechLab OpenPower8 and AArch64 Resources](http://lvalsan.web.cern.ch/lvalsan/processor_benchmarking/presentation/)

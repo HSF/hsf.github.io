@@ -28,7 +28,7 @@ for this please:
 
 If you would like a *letter of support* for your project then you
 should additionally show how your project will help to meet the goals
-of the HSF as set out, for example, in the [Community White Paper](/organization/cwp.html).
+of the HSF as set out, for example, in the [Community White Paper]({{ site.baseurl }}/organization/cwp.html).
 Please note that a letter of support will not be exclusive for any
 particular grant application round - the HSF is free to support multiple
 projects.

@@ -12,7 +12,7 @@ interest and provide a focal point for organising dicussions
 in the HEP community. They can also cover engagement with
 external projects, like Google's Summer of Code.
 
-They are less formal, in the HSF, than [working groups](/what_are_WGs.html)
+They are less formal, in the HSF, than [working groups]({{ site.baseurl }}/what_are_WGs.html)
 and any relevant and reasonable activity for HEP can spawn
 an interest group. If you want to put some community-wide
 activity under the umbrella of the HSF as an activity areas or interest group

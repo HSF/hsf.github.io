@@ -29,7 +29,7 @@ was to produce a Community White Paper
 (CWP) which would describe the community strategy and a roadmap for 
 software and computing R&D in HEP for the 2020s. This activity was organised under 
 the umbrella of the HSF. The LHC experiments and HSF were 
-specifically [charged by the WLCG project](/assets/CWP-Charge-HSF.pdf) and
+specifically [charged by the WLCG project]({{ site.baseurl }}/assets/CWP-Charge-HSF.pdf) and
 reached out to other HEP experiments around the world to participate.
 
 ## Final Roadmap Paper
@@ -47,12 +47,12 @@ for the roadmap.*
 The second draft of the CWP, the 
 [Roadmap for HEP Software and Computing R&D for the 2020s](https://docs.google.com/document/d/1RIcnj7DBNOoQ1DT45WCGFboS0tCDeJcvAi2xjPv_UVQ){:target="_cwp_roadmap"} 
 report (also available as a 
-[pdf]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.2.pdf)) 
+[pdf]({{site.baseurl}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.2.pdf))
 was released to the community on November 17.
 
 The first draft was released on October 20, it is still available as a
 [Google Docs](https://docs.google.com/document/d/1rcPIJQc3LNAh5tjHKjfuq80StrMO5ksiLwhDlJzeg9U/edit?usp=sharing){:target="_cwp_roadmap"} 
-or as a [PDF]({{site.docs.url}}/CWP/papers/roadmap/HSF-Community-White-Paper-v0.1-linenumbers.pdf).
+or as a [PDF]({{site.baseurl}}/assets/HSF-Community-White-Paper-v0.1-linenumbers.pdf).
 
 ## Editorial Team
 
@@ -81,7 +81,7 @@ The Editorial Board, which helped to prepare the final version of the roadmap, w
 
 ## Working Groups
 
-  The list of CWP working groups, their charges and working documents was maintained on a [dedicated working group page](/cwp/cwp-working-groups.html).
+  The list of CWP working groups, their charges and working documents was maintained on a [dedicated working group page]({{ site.baseurl }}/cwp/cwp-working-groups.html).
 
 ## Main CWP Events
 

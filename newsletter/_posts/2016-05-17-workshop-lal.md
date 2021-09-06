@@ -6,7 +6,7 @@ layout: newsletter
 
 # Third HSF Workshop (May 2-4, 2016)
 
-![Workshop Group Photo](/images/lal_workshop.jpg){:height="400px" width="600px" .centered-image}
+![Workshop Group Photo]({{ site.baseurl }}/images/lal_workshop.jpg){:height="400px" width="600px" .centered-image}
 
 The HSF had its third workshop at LAL (Orsay, France) on May 2-4, 2016. It 
 was well attended (70 people) representing many different laboratories, 
@@ -16,10 +16,10 @@ We were happy to see a lot of new faces!
 The [Agenda](https://indico.cern.ch/event/496146/timetable/) was a mix 
 of (lively!) general discussions and topical/hands-on sessions. Live 
 notes of these discussions are 
-[available](/organization/2016/05/04/Workshop-summary.html). 
+[available]({{ site.baseurl }}/organization/2016/05/04/Workshop-summary.html). 
 This newsletter summarizes them.
 
-![HSF Logo](/images/hsf_logo_angled.png){:height="100px" width="150px" .centered-image}
+![HSF Logo]({{ site.baseurl }}/images/hsf_logo_angled.png){:height="100px" width="150px" .centered-image}
 
 One of the breaking news is that the HSF now has a logo! Thanks to 
 J. Lingemann, the winner of the logo contest, and to all of you who took the
@@ -58,7 +58,7 @@ on a review of the existing tools, and an attempt to identify a tool with the
  contexts in the past few months.  The workshop session facilitated an in-depth 
  dicussion about Spack's potential and it's limits. We reached consensus about how to move forward.  We will continue to collaborate with the Spack developer community.  When the features identified by the working group and documented in our technical note are available we'll start to recommend it to new projects and facilitate adoption by older projects.
 
-See the [Packaging WG](/workinggroups/2015/11/04/packaging.html) section on the web site for more details.
+See the [Packaging WG]({{ site.baseurl }}/workinggroups/2015/11/04/packaging.html) section on the web site for more details.
 
 
 ## Learning from Others

@@ -8,6 +8,6 @@ description: |
   [OProject](http://oproject.org) Open source organization, specialized in development  of advaced scientfic software with ROOT, focused  mathematical/statistical tools, machine learning and high performance computing.
 ---
 
-![Oproject](/images/oproject-banner.png){:.center-image}
+![Oproject]({{ site.baseurl }}/images/oproject-banner.png){:.center-image}
 
 {% include gsoc_proposal.ext %}
