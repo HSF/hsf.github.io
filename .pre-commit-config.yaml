@@ -1,0 +1,7 @@
+repos:
+-   repo: https://github.com/klieret/jekyll-relative-url-hook
+    rev: 99e0e8dd46b99eb07a646927149482b2f6718207
+    hooks:
+    -   id: jekyll_relative_url_html
+    -   id: jekyll_relative_url_markdown
+
