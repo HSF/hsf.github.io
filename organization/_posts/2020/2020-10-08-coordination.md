@@ -58,7 +58,7 @@ Started planning (together with the Geant4 member) the detector simulation sessi
 
 ### Reconstruction and Software Triggers
 
-Awakening from hibernation (a ~month hiatus due to other committments...)
+Awakening from hibernation (a ~month hiatus due to other commitments...)
 
 Encouraging people to submit abstracts to the HSF workshop.
 

@@ -72,7 +72,7 @@ Nix package manager in LHCb - Chris
     - Patrick: Supercomputers use "uncvmfs"; user space filesystems also help (e.g., parrot)
     - Total recompile does mean that it’s very clean, albeit with CPU cost for rebuilding
     - You don’t need to worry about platform variants (SLC6, CentOS7, etc.) as single build is self contained.
-  - Package builds using Nix “Hydra” tool on openstack. Uses local machine for build, but easy to add additonal worker(s)
+  - Package builds using Nix “Hydra” tool on openstack. Uses local machine for build, but easy to add additional worker(s)
     - Also supports for workers with different archs (darwin, or CPU variants etc)
   - Overlays: Take main NixPkgs repo, then apply your changes on top of this. Can extend or override.
     - Graeme: So can take things from base, but then change a few options? Yes.
@@ -87,7 +87,7 @@ Nix package manager in LHCb - Chris
   - Built software should run on “any” Linux flavour (own libc, "build almost everything" approach)
   - Simpler environments
   - Many packages already upstream in NixPkgs
-  - Adding new packages is straight forward (many things like shbang patching, RUNPATH etc automagically handled)
+  - Adding new packages is straight forward (many things like shebang patching, RUNPATH etc automagically handled)
   - Active community
 - What isn’t so good
   - Documentation lacking, but is improving and many examples help

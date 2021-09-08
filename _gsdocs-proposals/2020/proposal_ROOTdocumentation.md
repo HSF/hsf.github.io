@@ -40,7 +40,7 @@ ROOT's documentation needs to be improved in various areas:
   the reference guide.
 - Series of new "tutorials for modern analysis" is needed to illustrate the
   functionalities provided by ROOT 7.
-- RNTuple is the new data format ROOT will provide in the future. It will be the sucessor
+- RNTuple is the new data format ROOT will provide in the future. It will be the successor
   of the TTree object which is used to stored the 1 exabyte of data previously mentioned.
   Therefore, detailed Technical specifications of this new object is crucial.
 

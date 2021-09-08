@@ -46,7 +46,7 @@ The Scientific Organising Team discussed what we could do as a virtual event in 
         - 6h for Pacific coast, which is still a bit hard
     - Could end at 19h CERN time
         - Quite late for Europe, but not awful
-    - We understand that this can be difficult, especially re. family committments, *but these are exceptional events, not regular meetings, and they replace a week of travel*
+    - We understand that this can be difficult, especially re. family commitments, *but these are exceptional events, not regular meetings, and they replace a week of travel*
     - Concentrating on remote meetings can be hard, so this also makes a 4h slot more practical
 - We believe that encouraging less physical travel overall in our community is a positive thing (money, time, CO2 - see <https://remotely.green>, <http://hiltner.english.ucsb.edu/index.php/ncnc-guide/> aka <http://greenphysicsconference.com>)
 
@@ -184,7 +184,7 @@ Proposal: HSF review and feedback week of 6 April, one afternoon 15-17h (is that
 
 The document with the summary and conclusions of the First Latin American Workshop on S&C challenges in HEP has been finished and posted in the workshop web page at:
 <https://indico.cern.ch/event/813325/>
-The document includes action items and a list of projects. The list was put together using a google document where participants added their proposed activities and names with the purpose of either initiating new partnerships or joining existing ones. A "live document" with only the project list will be added to the web page soon so that the list continues to evolve. Unfortunatelly the LAS4RI workshop in Sao Paulo planned for March 22-27 was postponed due to the virus crisis. We can think of LAS4RI is a Latin American "Snowmass process" or "European Strategy process". In any case, the LAWSCHEP scientific committee will send the LAS4RI organizers the LAWSCHEP document so that they are aware of the LAWSCHEP workshop and action items.
+The document includes action items and a list of projects. The list was put together using a google document where participants added their proposed activities and names with the purpose of either initiating new partnerships or joining existing ones. A "live document" with only the project list will be added to the web page soon so that the list continues to evolve. Unfortunately the LAS4RI workshop in Sao Paulo planned for March 22-27 was postponed due to the virus crisis. We can think of LAS4RI is a Latin American "Snowmass process" or "European Strategy process". In any case, the LAWSCHEP scientific committee will send the LAS4RI organizers the LAWSCHEP document so that they are aware of the LAWSCHEP workshop and action items.
 
 ## AOB
 

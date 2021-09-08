@@ -142,7 +142,7 @@ Ticket still open, no recent movement.
 
 We are currently working on a funding proposal (EU COST) in the context of the "Software Institute for Data Intensive Sciences", aiming to bridge the gap between computer scientists and natural science software engineers. The "grand theme" of the proposal will be around the topic of "software sustainability".
 
-For a successul proposal it is useful to include participants also from "inclusive target" countries (mostly eastern European countries). In case you have contacts in this direction please get in contact with Graeme or Stefan.
+For a successful proposal it is useful to include participants also from "inclusive target" countries (mostly eastern European countries). In case you have contacts in this direction please get in contact with Graeme or Stefan.
 
 ### Next Meeting
 

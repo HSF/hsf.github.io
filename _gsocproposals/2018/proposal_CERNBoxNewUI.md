@@ -18,7 +18,7 @@ MacOSX, Android, iOS) aiming to provide offline availability to any data stored
 in the [CERN EOS](http://eos.web.cern.ch) infrastructure. 
 
 CERNBox is based on ownCloud, a cloud sync and share platform written in PHP
-following a Model-View-Controller architecture sofware pattern. In the last
+following a Model-View-Controller architecture software pattern. In the last
 months the service started an architectural migration from a monolithic architecture to
 microservices. The monolithic-based application was providing different
 functionalities: access to storage, sharing of files, authentication,

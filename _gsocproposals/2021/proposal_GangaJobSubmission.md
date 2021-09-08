@@ -20,7 +20,7 @@ The scale of the computations submitted through the interface is placing increas
  * Improve the user experience when part of a task is failing by allowing them to further split the task into smaller pieces.
 
 ## Expected results
-A user interface where the user will have better infromation on why part of their task is failing to execute and make it easier to deal ith these failures in a programmatic way. 
+A user interface where the user will have better information on why part of their task is failing to execute and make it easier to deal ith these failures in a programmatic way. 
 
 ## Evaluation Task
 Interested students please contact Ulrik (see contact below) to ask questions and for an evaluation task.

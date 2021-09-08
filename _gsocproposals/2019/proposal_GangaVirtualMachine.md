@@ -1,5 +1,5 @@
 ---
-title: Create a user interface for Ganga that allows for the excution of tasks inside user specified virtual machines.
+title: Create a user interface for Ganga that allows for the execution of tasks inside user specified virtual machines.
 layout: gsoc_proposal
 project: Ganga
 year: 2019

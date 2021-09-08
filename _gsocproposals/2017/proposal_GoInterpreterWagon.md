@@ -20,7 +20,7 @@ While this workaround is very serviceable, it carries its own set of issues, mai
 This project intends to create the foundations for a Go interpreter, written in Go, for Go.
 Writing an interpreter is a lot of work and is a daunting task.
 The main development of this project will focus on creating the needed tooling (libraries and executables) to be able to consume [WebAssembly](http://webassembly.org) bytecode (`wasm`) and interpret it.
-A package will be developed in Go to decode `wasm` binary files and display their sections, informations and content.
+A package will be developed in Go to decode `wasm` binary files and display their sections, information and content.
 Another package will then implement a simple stack based interpreter, loading `wasm` files interactively and executing simple functions.
 The creation of these `wasm` bytecode modules by the Go toolchain is out of the scope of this project.
 
@@ -30,7 +30,7 @@ The creation of these `wasm` bytecode modules by the Go toolchain is out of the 
    * Display `wasm` sections and subsections
    * Create unit tests based on the official `wasm` specifications
    * Create a simple `readelf`-like executable (`readwasm` ?) for `wasm` files
-   * Create a simple web server that displays the same informations than `readwasm`
+   * Create a simple web server that displays the same information than `readwasm`
  * Design and implementation of a package to load `wasm` bytecode functions
  * Design and implementation of a stack-based interpreter in Go that interprets `wasm` bytecode
    * Handling of bytecode instruction pointer

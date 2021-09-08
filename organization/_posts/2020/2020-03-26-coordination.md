@@ -127,7 +127,7 @@ Draft added before last meeting, not substantially changed, but a few spots will
 - Analysis language workshop is postponed, hope is still to have a face to face meeting but in "wait and see" mode
 
 ### Detector Simulation
-Topical [meeting 25th of March 2020](https://indico.cern.ch/event/899153/) focussed on non-LHC experiments. One talk from neutrino experiments (NOvA, SBN and DUNE) and one from Belle II. Neutrino community would appreciate a lot having a GPU-based module for optical photons transport that could be integrated into Geant4, as this currently is a very CPU-consuming part of the simulation.
+Topical [meeting 25th of March 2020](https://indico.cern.ch/event/899153/) focused on non-LHC experiments. One talk from neutrino experiments (NOvA, SBN and DUNE) and one from Belle II. Neutrino community would appreciate a lot having a GPU-based module for optical photons transport that could be integrated into Geant4, as this currently is a very CPU-consuming part of the simulation.
 
 Next topical meeting to be decided, but target is end April, beginning May.
 
@@ -202,7 +202,7 @@ Current proposal to organise a *3* session event, focused on **New Architectures
 ## AOB
 
 We changed to Zoom this week, a regular meeting has been booked until the end of the year
-- Please give [feedback on your Zoom experience](https://espace.cern.ch/AVC-workspace/videoconference/Lists/Zoom%20Pilot%20Feedback/overview.aspx) to CERN IT
+- Please give [feedback on your Zoom experience](https://escape.cern.ch/AVC-workspace/videoconference/Lists/Zoom%20Pilot%20Feedback/overview.aspx) to CERN IT
 
 ### Next Meeting
 

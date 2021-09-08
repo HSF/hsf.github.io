@@ -19,9 +19,9 @@ Visualising HEP event data is currently typically done per experiment (e.g. [VP1
 ## Task ideas
  * Investigate open source GUI libraries and develop improved GUI, capable of selecting/visualising specific physics object(s)
  * Extend common JSON file format for event data, ensuring that it matches the needs of all potential clients
- * Investigate and implement convertors from TGeo / GEANT4 geometry to display in phoenix
+ * Investigate and implement converters from TGeo / GEANT4 geometry to display in phoenix
  * Investigate and implement mechanisms to publish event data
- * Investigate and implement convertors from other event data formats
+ * Investigate and implement converters from other event data formats
 
 ## Expected results
 A browser-based event display, capable of showing some simple detector geometry as well as visualisations of the event data (charged particles, photons, jets etc). The event display should be capable of displaying a subset of physics data, depending on user defined selections. We should specify a data format, complete enough to represent the data from a typical High Energy Physics experiment.

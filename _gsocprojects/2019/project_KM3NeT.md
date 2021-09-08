@@ -21,7 +21,7 @@ description: |
   on-line monitoring of the deep sea environment and the sea bottom at
   depth of several kilometers.
 summary: |
-  A large deep-sea reseach infrastructure that houses two
+  A large deep-sea research infrastructure that houses two
   next-generation neutrino telescopes in addition to instrumentation
   for Earth and Sea sciences.
 ---

@@ -100,7 +100,7 @@ Not much news apart from that for the time being, no meetings in July but will r
 [PyHEP 2020 workshop](https://indico.cern.ch/e/PyHEP2020) agenda finalised and online - a very interesting set of presentations!
 - Two keynote presentations scheduled, i.e. one for each of the 2 time zones of the workshop.
 - Registration has been extended to the end of this week. We have 870 participants!
-- We still aim to release a pre-workshop questionaire as usually done.
+- We still aim to release a pre-workshop questionnaire as usually done.
 
 - Good advertising on much more specific lists has been successful.
 - Will make FNAL a publicised co-sponsor (for specific Zoom videoconferencing set-up).

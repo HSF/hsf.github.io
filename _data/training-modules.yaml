@@ -99,7 +99,7 @@
   webpage: https://hsf-training.github.io/hsf-training-docker/index.html
   id: docker
 - description: E.g. <code>yadage</code> and <code>reana</code>
-  name: Workflows &amp; reproducability
+  name: Workflows &amp; reproducibility
   repository: ''
   status: alpha
   videos: ''
@@ -119,7 +119,7 @@
   videos: https://www.youtube.com/playlist?list=PLKZ9c4ONm-VnfKk7XrVUa-V42lUdMrB6M
   webpage: https://hsf-training.github.io/hsf-training-ml-gpu-webpage
   id: gpuml
-- description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
+- description: <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and
     deployment</a> with <a href="https://about.gitlab.com/">gitlab</a>.
   name: CI/CD (gitlab)
   repository: https://github.com/hsf-training/hsf-training-cicd
@@ -127,7 +127,7 @@
   videos: https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb
   webpage: https://hsf-training.github.io/hsf-training-cicd/
   id: cicd
-- description: <a href="https://docs.gitlab.com/ee/ci/">Continous integration and
+- description: <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and
     deployment</a> with <a href="https://github.com/features/actions">github actions</a>.
   name: CI/CD (github)
   repository: https://github.com/hsf-training/hsf-training-cicd-github

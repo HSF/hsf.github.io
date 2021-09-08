@@ -136,7 +136,7 @@ Nothing to report, occupied with the LHCC report.
 
 ### Detector Simulation
 
-For the last couple of weeks focussed on the LHCC report. Need to organize the next topical meeting asap avoiding conflicts with May workshop.
+For the last couple of weeks focused on the LHCC report. Need to organize the next topical meeting asap avoiding conflicts with May workshop.
 
 ### Reconstruction and Software Triggers
 

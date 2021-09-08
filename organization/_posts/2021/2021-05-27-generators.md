@@ -65,4 +65,4 @@ Additional comments/discussion:
 
 ## AOB
 
-- The next two meetings will probably on June 17 and 24, discussing Herwig and POWHEG, resepectively. But it is still possible that we organize one (or two) more meeting(s) on June 10 (and/or June 3).
+- The next two meetings will probably on June 17 and 24, discussing Herwig and POWHEG, respectively. But it is still possible that we organize one (or two) more meeting(s) on June 10 (and/or June 3).

@@ -1,3 +1,5 @@
 contur
 wan
 tunnell
+hist
+studi

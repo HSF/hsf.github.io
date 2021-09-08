@@ -24,7 +24,7 @@ by joining the HSF with your software project:
 
   *  Participation in HSF [working groups]({{ site.baseurl }}/what_are_WGs.html) and [activity areas]({{ site.baseurl }}/what_are_activities.html)
   *  Participation in [HSF events and meetings]({{ site.baseurl }}/future-events.html)
-  *  Taking advantage of the HSF by indentifying your [software project]({{ site.baseurl }}/projects.html) with us
+  *  Taking advantage of the HSF by identifying your [software project]({{ site.baseurl }}/projects.html) with us
   *  Giving input to the [HSF Coordination Team]({{ site.baseurl }}/organization/team.html)
   *  Contributing to this website
 

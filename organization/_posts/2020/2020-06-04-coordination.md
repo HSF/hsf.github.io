@@ -94,7 +94,7 @@ Presentation on [Phoenix](https://github.com/HSF/phoenix) event display, see [In
     - Good contribution model and cheaper than people rewriting again and again from scratch
 - Implements many things we wanted to do from the CWP, +1!
     - Geometries are plugins; so could the data stream in (with suitable metadata?), and could then support time dependent geometry
-    - Development work, but definately supported by underlying toolkit (in ATLAS case need to convert from custom geometry to something that can be understood by three.js)
+    - Development work, but definitely supported by underlying toolkit (in ATLAS case need to convert from custom geometry to something that can be understood by three.js)
 
 ---
 
