@@ -4,4 +4,13 @@ repos:
     hooks:
     -   id: jekyll_relative_url_html
     -   id: jekyll_relative_url_markdown
+-   repo: https://github.com/codespell-project/codespell
+    rev: 'v2.1.0'
+    hooks:
+    -   id: codespell
+        args: ["-I", "codespell.txt"]
+        types_or: ["markdown", "html"]
+
+ci:
+    autoupdate_schedule: monthly
 
