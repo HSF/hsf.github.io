@@ -202,7 +202,7 @@ Current proposal to organise a *3* session event, focused on **New Architectures
 ## AOB
 
 We changed to Zoom this week, a regular meeting has been booked until the end of the year
-- Please give [feedback on your Zoom experience](https://escape.cern.ch/AVC-workspace/videoconference/Lists/Zoom%20Pilot%20Feedback/overview.aspx) to CERN IT
+- Please give [feedback on your Zoom experience](https://espace.cern.ch/AVC-workspace/videoconference/Lists/Zoom%20Pilot%20Feedback/overview.aspx) to CERN IT
 
 ### Next Meeting
 
