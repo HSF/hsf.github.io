@@ -187,7 +187,7 @@ USolids/VecGeom: generic shape library, introduced in G4 10.x
 
 -   Integration with SIMD instructions
 
-Alignment: developed a fully automatized fast alignment procedure for LHCb VELO, in production
+Alignment: developed a fully automated fast alignment procedure for LHCb VELO, in production
 
 EDM Toolkit: PODIO project, also in HSF incubator, efficient I/O with PODs, currently being evaluated in the context of FCC/lcio
 

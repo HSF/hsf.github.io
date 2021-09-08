@@ -22,7 +22,7 @@ ROOT's documentation and web site are a key parts of the ROOT project [6]. They 
 evolving in parallel and complement each other. The basis is the reference Guide [4]
 documenting all the ROOT C++ components. A large set of tutorials [5], helping to
 enter the ROOT world, is also provided. And finally a "Manual"
-guides users trough the ROOT tools and concepts [7].
+guides users through the ROOT tools and concepts [7].
 
 ROOT's documentation needs to be improved in various areas:
   - It is difficult for non-physicists.
@@ -67,7 +67,7 @@ requests to the web site repository.
 
 The minimum results for each task to consider the project successful are:
 
-- Make sur the manual, at least in the introductory part of each section, does not
+- Make sure the manual, at least in the introductory part of each section, does not
   require physics knowledges.
 - With the help of the ROOT Python experts implement the structure of a guide for ROOT python
   bindings.

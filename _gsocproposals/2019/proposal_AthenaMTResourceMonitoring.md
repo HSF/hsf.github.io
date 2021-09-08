@@ -27,7 +27,7 @@ Performance of ATLAS simulation and reconstruction code is of immense importance
 stage of the LHC, the high-luminosity upgrade (HL-LHC).
 Understanding Athena's performance guides the developers to improve the quality of the software and also ensures the ATLAS production workflows can run smoothly on the existing computing infrastructure.
 It is essential to closely monitor the CPU, memory, and disk usage, identify bottlenecks as they appear and fix any issues rapidly.
-Without this monitoring, repercussions as severe as loosing data can arise.
+Without this monitoring, repercussions as severe as losing data can arise.
 
 The current Athena infrastructure that is in place to monitor the resource usage of ATLAS jobs can only handle single-thread tasks.
 The goal of this project is to design and implement a new Athena performance monitoring infrastructure that will handle MT jobs, natively.
