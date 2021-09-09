@@ -114,7 +114,7 @@ Still investigating this with CERN, who might want to take it over connected wit
 
 - Roundtable meeting was [this Tuesday (6 July)](https://indico.jlab.org/event/420/#day-2021-07-06), talk on *Can we really "Re"-interpret data from the LHC?*.
 - Compute Accelerator Forum meeting [yesterday (7 July)](https://indico.cern.ch/event/975012/), interesting topic of using OpenCAPI (Coherent Accelerator Processor Interface) to download at high speeds from a light source detector via FPGA, definitely interesting from a TDAQ perspective. Additionally an overview of the OpenPOWER architecture and their plans for the future.
-  - Targetting generic data centre workloads
+  - Targeting generic data centre workloads
   - POWER10 is coming
   - Plans for a small development board "POWERpi"
   - Reminder: openlab have some POWER machines if people need access to this platform

@@ -53,7 +53,7 @@ The goal in 6 months is to produce a "Roadmap for HEP Software and Computing R&D
 
 We need to be clear about defining priorities for the projects we need, how we will be organized to accomplish the projects and how these things fit in a timeline leading to the mid-2020s/HL-LHC era (but which runs through LHC Run 3 and other things in between).
 
-The CWP roadmap  is not a full specication of the computing models for all HEP experiments. For HL-LHC (CMS/Atlas), for example, that will happen in 2019-2020 in the computing TDRs.
+The CWP roadmap  is not a full specification of the computing models for all HEP experiments. For HL-LHC (CMS/Atlas), for example, that will happen in 2019-2020 in the computing TDRs.
 
 The questions in the charge should lead to answers which apply to writing down a roadmap in the later phase of the CWP process.
 

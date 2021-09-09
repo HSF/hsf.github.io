@@ -25,7 +25,7 @@ Paper encourages projects to develop further within the framework with "help" of
 GSoC Advisory Committee this year is Liz, Pere and Michel.
 
 This year we have ~200 student proposals for 47 project ideas, 37 qualifying (valid student proposals that comply with the program rules). We asked for 36-37 slots and **received 36** (last year we had 33). The successful proposals will be announced on May 4, coding starts June 1st.
-* Currently, we are in a phase where students confirm their participation to a selected project: always the risk of "loosing" a few students who applied to several selected projects (not the case inside HSF but no way to prevent/know in advance if they did in the project of another organization) who may have confirmed before us (but we were quick!)
+* Currently, we are in a phase where students confirm their participation to a selected project: always the risk of "losing" a few students who applied to several selected projects (not the case inside HSF but no way to prevent/know in advance if they did in the project of another organization) who may have confirmed before us (but we were quick!)
 
 ## Google Season of Docs 2020
 
@@ -136,7 +136,7 @@ Nothing to report, occupied with the LHCC report.
 
 ### Detector Simulation
 
-For the last couple of weeks focussed on the LHCC report. Need to organize the next topical meeting asap avoiding conflicts with May workshop.
+For the last couple of weeks focused on the LHCC report. Need to organize the next topical meeting asap avoiding conflicts with May workshop.
 
 ### Reconstruction and Software Triggers
 

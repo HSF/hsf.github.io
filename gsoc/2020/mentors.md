@@ -49,7 +49,7 @@ layout: plain
 * Tomas Javurek [tomas.javurek@cern.ch](mailto:tomas.javurek@cern.ch) CERN
 * Ian Johnson [ian.johnson@stfc.ac.uk](mailto:ian.johnson@stfc.ac.uk) STFC
 * Mujeon Kim [pq8556@ufl.edu](mailto:pq8556@ufl.edu) University of Florida
-* Frank Krauss [frank.krauss@dur.ac.uk](mailto:frank.krauss@dur.ac.uk) Durham University
+* Frank Krauss [frank.krauss@due.ac.uk](mailto:frank.krauss@due.ac.uk) Durham University
 * Valentin Kuznetsov [vkuznet@gmail.com](mailto:vkuznet@gmail.com) Cornell University, USA
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN

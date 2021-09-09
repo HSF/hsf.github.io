@@ -124,7 +124,7 @@ The CWP process involved a number of workshops between January and Summer 2017. 
 
 There is a [list of the contributed CWP whitepapers](http://hepsoftwarefoundation.org/cwp-whitepapers.html).
 
-Some guidance and suggestions for WGs was orignally given here: [Guidance for WGs at HSF workshop at SDSC](http://hepsoftwarefoundation.org/cwp/cwp-wg-guidance-sdsc.html)
+Some guidance and suggestions for WGs was originally given here: [Guidance for WGs at HSF workshop at SDSC](http://hepsoftwarefoundation.org/cwp/cwp-wg-guidance-sdsc.html)
 
 
 ## Related links

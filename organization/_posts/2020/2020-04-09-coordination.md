@@ -152,7 +152,7 @@ There will be a relatively short virtual meeting in the week of 18 May, with fol
 ### Software Training
 
 - **Meeting** last week: <https://indico.cern.ch/event/904686/>
-- Started to popuplate **github organization** <https://github.com/hsf-training/> with training modules (CI/CD from G. Stark, Awesome Analysis by S. Wunsch)
+- Started to populate **github organization** <https://github.com/hsf-training/> with training modules (CI/CD from G. Stark, Awesome Analysis by S. Wunsch)
 - **Webpage**: Drafted additional pages for overview over the modules/curriculum 
 - **Virtual workshop** on analysis preservation/CI/CD scheduled for April 28th 
 

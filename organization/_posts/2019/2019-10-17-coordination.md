@@ -46,7 +46,7 @@ layout: meetings
         - HSF-ESCAPE interaction encouraged by APPEC in this context
     - Very much a first *getting to know you* meeting
     - The level was quite senior
-    - Feedback was positive, but not immedately clear how to take next steps
+    - Feedback was positive, but not immediately clear how to take next steps
     - Two interesting concrete things came from the discussions with ESCAPE
         - Training event at LAPP that HEP could be involved in
         - Software directory that is being built as a deliverable for ESCAPE and could be promoted for HEP software projects
@@ -122,7 +122,7 @@ layout: meetings
 - Workshop URL <https://indico.cern.ch/event/813325>
 - Giving final touches to the agenda
 - We are missing three important topics/speakers:
-    - Detector simulation (Pere, any progress identifying a speaker? HSF simulation converners consulted, posibility of a CERN speaker)
+    - Detector simulation (Pere, any progress identifying a speaker? HSF simulation converners consulted, possibility of a CERN speaker)
     - Reconstruction (IRIS-HEP will support travel if speaker is US-based). D. Lange, P. Elmer, G. Watts trying to find a suitable speaker from an NSF-funded institution. Alternatively, Giuseppe Cerati is available and willing to do it.
     - "HPC lanscape for science applications". We are trying to get someone from Oakridge. Not clear we will succeed. Ideas?
 - Everyone: you still have time to register and attend! Excellent opportunity to network with Latin American collaborators.

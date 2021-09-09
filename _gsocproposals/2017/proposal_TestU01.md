@@ -13,7 +13,7 @@ The TestU01 suite is an established suite of empirical tests for pseudorandom nu
 
 ## Potential project topics 
  * Creating a 64-bit version of the software, so that more than 32 bits of the output values are tested.
- * Use faster algorithms ot improve the implementation of certain tests.
+ * Use faster algorithms to improve the implementation of certain tests.
  * Design and implement specific tests for parallel RNGs.
  * Construct a parallel version of TestU01, that can run on parallel  processors.
 

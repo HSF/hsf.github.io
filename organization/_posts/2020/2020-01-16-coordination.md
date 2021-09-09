@@ -32,7 +32,7 @@ Apologies: Eduardo Rodrigues
     - These map nicely to our four working groups in these areas, so the suggestion is that each group takes charge of ~4 pages of text
         - Starting point should be the CWP
         - R&D plans should be outlined
-        - Important question is how to get community input and reasonable concensus
+        - Important question is how to get community input and reasonable consensus
         - Outline plan was discussed:
             - 4 pages by March
             - March for feedback and meetings
@@ -162,7 +162,7 @@ Organising team for HSF are: Graeme, Heather, David and Michel
 
 ##### Parallel
 - Tuesday, Wednesday and Thursday will probably (all) be parallel HSF
-    - We could have 2 items ongoing (there are 3 rooms in total), but will need negotations with our computing colleagues
+    - We could have 2 items ongoing (there are 3 rooms in total), but will need negotiations with our computing colleagues
 - The DOMA/Analysis workshop pre-CHEP was a success, with the interactive sessions appreciated
 - Should we try to do something along the same lines here?
 - e.g. Reconstruction and Simulation are the other major resource impacting areas

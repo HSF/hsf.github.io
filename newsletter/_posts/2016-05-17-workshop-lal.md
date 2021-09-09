@@ -100,7 +100,7 @@ astrophysics simulation. The discussion tackled several questions, in particular
   * Interesting input from Astrophysics
 
 We are still far from definitive answers to these questions. There was an 
-agreeement that this topic is of primordial importance for the future, and 
+agreement that this topic is of primordial importance for the future, and 
 should become more visible in the HSF. The new Software Technical Evolution 
 forum (a follow-up for the Software Concurrency forum) will be in charge of 
 convening this activity inside the HSF.
@@ -112,7 +112,7 @@ convening this activity inside the HSF.
 The HSF demonstrated some initial collaborative activities but to address 
 the challenges ahead (e.g. HL-LHC) it needs more and dedicated resources. 
 To convince funding agencies, and get a chance to obtain these resources, 
-some US collegues launched the idea of a Community White Paper that will 
+some US colleagues launched the idea of a Community White Paper that will 
 contain a description of the challenges ahead of us, with a roadmap to address
 them. The idea is to build for computing something similar to the P5 process 
 for HEP experiments in the US. In fact, the LHCC committee (that reviews the 
@@ -124,7 +124,7 @@ There was a consensus that this was a high priority activity for the coming year
 
 ### Software and Computing Journal
 
-Some German colleagues, supported by Springer, proposed the idea of creating a journal dedicated to Data Intensive Science Sofware and Computing. Currently, there is no such journal, making it difficult to publish articles related to the computing aspect of our science (this is suitable neither for physics journals, nor for computer science journals). The goal is to have a refereed, abstracted and indexed journal that could acoomplish the following goals:
+Some German colleagues, supported by Springer, proposed the idea of creating a journal dedicated to Data Intensive Science Software and Computing. Currently, there is no such journal, making it difficult to publish articles related to the computing aspect of our science (this is suitable neither for physics journals, nor for computer science journals). The goal is to have a refereed, abstracted and indexed journal that could acoomplish the following goals:
 
 * Authoritative and central reference archive
 * Help with career paths

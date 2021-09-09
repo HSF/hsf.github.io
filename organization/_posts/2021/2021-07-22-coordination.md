@@ -40,7 +40,7 @@ Take away messages:
 - Software and Computing is considered critical by the UK, so forms part of their overall strategic roadmap for HEP
 - UK has a lot of expertise in software and computing, much software expertise conentrated in the experiements
 - Common areas for software and computing, both in HEP and possibly more widely, are felt to be a good match for UKRI/STFC funding
-  - Paticularly for funding routes that are not tensioned against physics, meaning they have to be general and match UK PLC aims (like developing skills for people moving to industry)
+  - Particularly for funding routes that are not tensioned against physics, meaning they have to be general and match UK PLC aims (like developing skills for people moving to industry)
 - There is specific concern that software expertise is lacking / unavailable for smaller experiments
   - I pointed to the availability of Key4hep as one way to help resolve this
 - Research Software Engineers (RSEs) / Research Software Professionals (RSPs) can be seen to have a big impact (RSPs encompass other roles, such as training or systems analysis)

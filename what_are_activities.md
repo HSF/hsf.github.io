@@ -8,7 +8,7 @@ layout: default
 
 HSF Activity Areas and Interest Groups are led by enthusiasts and
 advocates for a particular area of work or of technology
-interest and provide a focal point for organising dicussions
+interest and provide a focal point for organising discussions
 in the HEP community. They can also cover engagement with
 external projects, like Google's Summer of Code.
 

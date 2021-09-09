@@ -51,7 +51,7 @@ layout: meetings
   * Suggested that implementing a GUI to track which recipes were used would be useful
   * Comment that containers could help to define a runtime environment.
   * Additional discussion mentioned issue of "one container per release" leading
-    to duplication. Possiblility to mount local or other container filesystem in container
+    to duplication. Possibility to mount local or other container filesystem in container
     might mitigate this.
   * Question on how to handle Debug symbols in a package stack. Comment that traditionally
     there's a separate stack of Debug packages, but does duplicate things. Should

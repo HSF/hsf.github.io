@@ -55,7 +55,7 @@ for an example):
    [footnote list](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/footnotes.txt){:target="_footnotes_txt"}. 
    If there are several affiliations, use ` & ` as the separator. If there are several 
    footnotes, separate them with a comma without surrounding spaces.
-   * Run `a2tex.py` to generate the `authors.tex` file (and `arxiv.txt` for arXiv submission). Assumming you used the recommended 
+   * Run `a2tex.py` to generate the `authors.tex` file (and `arxiv.txt` for arXiv submission). Assuming you used the recommended 
    directory structure, the command to use is (use `--help` for more details):
        ```bash
        ../../HSF-CWP-2017-01_roadmap/authors/a2tex.py \

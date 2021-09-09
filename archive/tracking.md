@@ -36,7 +36,7 @@ We have two mailing lists for exchange of information and technical discussions
 
 We invite interested projects and groups to participate and will list them on this webpage.
 
-  * [ACTS](https://gitlab.cern.ch/acts/a-common-tracking-sw) - extration of ATLAS tracking software for general use
+  * [ACTS](https://gitlab.cern.ch/acts/a-common-tracking-sw) - extraction of ATLAS tracking software for general use
 
 ## Related Workshops
 

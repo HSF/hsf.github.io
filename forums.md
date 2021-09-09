@@ -6,7 +6,7 @@ layout: default
 
 # Discussion Forums
 
-Discussions and activities in the HEP Software Foundation rely on several mailing lists and forums, some of them for general discussions, others for topical ones. All these forums are open to anybody interested and archives are publically available but they generally require that you register in order to participate.
+Discussions and activities in the HEP Software Foundation rely on several mailing lists and forums, some of them for general discussions, others for topical ones. All these forums are open to anybody interested and archives are publicly available but they generally require that you register in order to participate.
 
 *Most of these forums are hosted by Google Groups. To register to them with your preferred email, simply send a mail to
 `forum_name+subscribe@googlegroups.com` (with `forum_name` replaced by the actual name, e.g. `hsf-tech`): subject and contents

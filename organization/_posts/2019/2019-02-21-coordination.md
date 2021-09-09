@@ -52,7 +52,7 @@ Josh McFayden, Jim Amundson, Michel Jouvin, David Lange, Dario Menasce
     -   Software on Accelerators (2 slots).
         -   Graeme, Michel, David L are convening
             -   Confirmed all talks and discussion tome.
-    -   Reconstruction and real-time anlysis: one talk proposed from
+    -   Reconstruction and real-time analysis: one talk proposed from
         Icecube not yet added
     -   Training: session almost filled in
     -   One spillover session still available but no request for it yet

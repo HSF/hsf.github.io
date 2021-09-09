@@ -48,7 +48,7 @@ Document [outline](https://docs.google.com/document/d/1ai7m7kFyiGgl2tKralJKyPX6r
 Our timeline:
 * February - first drafts
 * March - incorporate feedback
-* April - consolidation and concensus
+* April - consolidation and consensus
 * 1 May - document ready for LHCC
 
 Outline - cross cutting topics like accelerators and machine learning; how could we best incorporate these? Do it area by area or have a general sub-section?
@@ -180,8 +180,8 @@ Topics for plenary sessions:
     - WLCG Overview
     - Other Communities
         - Nuclear (FAIR), Astroparticle/SKA, Dark Matter
-    - Machine Learning (common challenges and opportunties, TBD)
-    - CVMFS, Containers and future software distrubution
+    - Machine Learning (common challenges and opportunities, TBD)
+    - CVMFS, Containers and future software distribution
 
 - Tuesday 
     - Please send any suggestions as this is rather a cross-cuttting topic

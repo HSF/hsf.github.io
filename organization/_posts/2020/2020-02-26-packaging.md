@@ -43,7 +43,7 @@ Apologies:
     - Handle hardlinks correctly to avoid direct copies (and large buildcaches)
 - Further work in progress
     - Handle installing buildcaches in non-default directory layout (arch/compiler/compilerver etc)
-    - Several different implementations trialled, focussed on handling different prefixes and resulting rpaths
+    - Several different implementations trialled, focused on handling different prefixes and resulting rpaths
     - Awaiting review
 - Other items
     - Require -d flag when creating buildcache directory

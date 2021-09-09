@@ -19,7 +19,7 @@ Simply copy the template at the bottom of this page and modify it to include you
 
 Either
 
-* Find your profile [on github](https://github.com/HSF/hsf.github.io/tree/master/_profiles) (``first_name_last_name.md``), copy it to a text file, make your modifcations and send your new version to the conveners via email
+* Find your profile [on github](https://github.com/HSF/hsf.github.io/tree/master/_profiles) (``first_name_last_name.md``), copy it to a text file, make your modifications and send your new version to the conveners via email
 * (**preferred**) fork the github repository, update your information in ``_profiles/first_name_last_name.md`` and open a pull request
 
 ## The template

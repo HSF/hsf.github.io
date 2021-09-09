@@ -46,7 +46,7 @@ existing CUDA code with a simple syntax.
 ## Tasks
 
 - Convert basic CUDA examples to the SPMD model
-- Automatize the conversion with an LLVM code conversion engine
+- Automate the conversion with an LLVM code conversion engine
 - Generalize the code conversion engine to support the CUDA features required in Allen
 
 ## Expected results
