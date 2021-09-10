@@ -1,22 +1,23 @@
 ---
 title: Sebastien Ponce
-country: FR
-github: sponce
-gravatar: null
-homepage: null
-twitter: null
-gitlab: sponce
-bitbucket: null
-orcid: null
-linkedin: null
-email: sebastien.ponce@cern.ch
-training_roles:
-- instructor
-- mentor
 training_years:
 - 2019
 - 2020
+- 2021
+training_roles:
+- instructor
+- mentor
+gravatar: null
+github: sponce
+gitlab: sponce
+bitbucket: null
+homepage: null
+twitter: null
+orcid: null
+linkedin: null
+email: sebastien.ponce@cern.ch
 layout: educator
+country: FR
 ---
 
 <!-- Optional: Write something about yourself below the '- - >'.

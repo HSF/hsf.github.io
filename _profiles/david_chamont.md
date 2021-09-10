@@ -1,20 +1,22 @@
 ---
 title: David Chamont
-country: FR
-training_roles:
-- mentor
 training_years:
 - 2020
-github: chavid
+- 2021
+training_roles:
+- instructor
+- mentor
 gravatar: b2aa5c2890aadc9e9c0f5767c479afe1
-homepage: null
-twitter: null
+github: chavid
 gitlab: null
 bitbucket: null
+homepage: null
+twitter: null
 orcid: null
 linkedin: davidchamont
 email: null
 layout: educator
+country: FR
 ---
 
 <!-- Optional: Write something about yourself below the '- - >'.
