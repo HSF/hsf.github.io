@@ -1,9 +1,8 @@
 ---
 title: Johan Sebastian Bonilla
 training_years:
-- 20
-- 21
-- 202
+- 2020
+- 2021
 training_roles:
 - instructor
 - mentor

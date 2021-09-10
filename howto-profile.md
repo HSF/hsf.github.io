@@ -36,8 +36,8 @@ Either
 ### Working group specific settings
 
 * To be listed as "educator" on the [training community page]({{ site.baseurl }}/training/community.html) or the [educators page]({{ site.baseurl }}/training/educators.html):
-  * Set the `training-roles` field: The ``training-roles`` are explained [here]({{ site.baseurl }}/training/educators.html). Valid examples: ``[]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets). Please keep the order of the roles as they are in the template. 
-  * Set the `training-years` field: This should be a list of years that you were actively contributing to the HSF Training efforts. Valid examples: `[2012]` , ``[2012, 2014]``. **Invalid**: ``["2012"]``.
+  * Set the `training_roles` field: The ``training_roles`` are explained [here]({{ site.baseurl }}/training/educators.html). Valid examples: ``[]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets). Please keep the order of the roles as they are in the template. 
+  * Set the `training_years` field: This should be a list of years that you were actively contributing to the HSF Training efforts. Valid examples: `[2012]` , ``[2012, 2014]``. **Invalid**: ``["2012"]``.
 
 ### Example
 
@@ -61,7 +61,7 @@ Use this:
 > I've added my profile, but it doesn't appear on the webpage
 
 * The webpage takes a couple of minutes to update
-* If you don't find yourself on the list of educators/training people, make sure that the ``training-years`` information is correct and includes at least one year. **Valid** examples: ``[2020, 2019]``. **Invalid**: ``["2020"]``, ``2020``, ``[]``
+* If you don't find yourself on the list of educators/training people, make sure that the ``training_years`` information is correct and includes at least one year. **Valid** examples: ``[2020, 2019]``. **Invalid**: ``["2020"]``, ``2020``, ``[]``
 
 >My profile picture doesn't show up
 

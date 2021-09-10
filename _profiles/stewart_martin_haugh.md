@@ -1,9 +1,9 @@
 ---
 title: Stewart Martin-Haugh
 country: GB
-training-roles:
+training_roles:
 - mentor
-training-years:
+training_years:
 - 2020
 github: StewMH
 gravatar: null
