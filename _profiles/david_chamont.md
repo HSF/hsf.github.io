@@ -1,9 +1,9 @@
 ---
 title: David Chamont
 country: FR
-training-roles:
+training_roles:
 - mentor
-training-years:
+training_years:
 - 2020
 github: chavid
 gravatar: b2aa5c2890aadc9e9c0f5767c479afe1

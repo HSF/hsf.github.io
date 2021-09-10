@@ -1,9 +1,9 @@
 ---
 title: Andrea Valassi
 country: CH
-training-roles:
+training_roles:
 - mentor
-training-years:
+training_years:
 - 2020
 github: valassi
 gravatar: null

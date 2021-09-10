@@ -1,9 +1,9 @@
 ---
 title: Stefan Roiser
 country: CH
-training-roles:
+training_roles:
 - facilitator
-training-years:
+training_years:
 - 2020
 github: roiser
 gravatar: null
