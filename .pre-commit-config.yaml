@@ -1,9 +1,9 @@
 repos:
--   repo: https://github.com/klieret/jekyll-relative-url-hook
-    rev: 99e0e8dd46b99eb07a646927149482b2f6718207
+-   repo: https://github.com/klieret/jekyll-relative-url-check
+    rev: v2.0.0
     hooks:
-    -   id: jekyll_relative_url_html
-    -   id: jekyll_relative_url_markdown
+    -   id: jekyll-relative-url-check-html
+    -   id: jekyll-relative-url-check-markdown
 -   repo: https://github.com/codespell-project/codespell
     rev: 'v2.1.0'
     hooks:
