@@ -3,7 +3,7 @@ title: "HSF Training Modules"
 layout: plain
 ---
 This table of the HSF training modules is mostly meant for administrative purposes.
-If you're a student and want to discover our training content, go [here](/training/curriculum.html).
+If you're a student and want to discover our training content, go [here]({{site.baseurl}}/training/curriculum.html).
 
 <div class="training">
     <table>

@@ -93,10 +93,10 @@ can join a meeting and recordings can help people to catch-up.
 However, you need to make it very clear with the speakers and to participants that:
 
 - The meeting is being recorded and will be made public;
-- And where the video will be posted ([YouTube](/organization/youtube.html), [CDS](http://cds.cern.ch/record/2289430), etc.);
+- And where the video will be posted ([YouTube]({{site.baseurl}}/organization/youtube.html), [CDS](http://cds.cern.ch/record/2289430), etc.);
   - Note that it is strongly recommended not to add video files directly into Indico, instead post a link to CDS.
 
 In any case, *please also make sure that meetings are minuted in a concise way*
 (it’s not always the case that people have the time to watch the 60 minute
 video and they need a shorter summary). Minutes can be posted directly onto
-Indico (easy) or to the [HSF website](/howto-website.html) (via a PR).
+Indico (easy) or to the [HSF website]({{site.baseurl}}/howto-website.html) (via a PR).
