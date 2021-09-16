@@ -12,6 +12,10 @@
     {
       "pattern": "^/",
       "replacement": "{{BASEURL}}/"
+    },
+    {
+      "pattern": "^\\s*{{\\s*site.baseurl\\s*}}\\s*/(.*)",
+      "replacement": "/_site/$1"
     }
   ],
   "timeout": "20s",
