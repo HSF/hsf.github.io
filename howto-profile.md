@@ -3,7 +3,7 @@ title: "How to update your profile"
 layout: plain
 ---
 Modification to trigger checking of this file
-This page explains how to update or create a profile/"floating head" as e.g. shown on the [training community page]({{ site.baseurl }}/training/community.html).
+This page explains how to update or create a profile/"floating head" as e.g. shown on the [training community page]({{ site.baseurl }}/tttttraining/community.html).
 
 ## Basics
 
