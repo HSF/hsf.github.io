@@ -16,7 +16,7 @@
     {
       "pattern": "^\\s*{{\\s*site.baseurl\\s*}}\\s*/(.*)",
       "replacement": "/_site/$1"
-    },
+    }
   ],
   "timeout": "20s",
   "retryOn429": true,
