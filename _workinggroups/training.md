@@ -20,7 +20,7 @@ The group aims to develop a training program that can be pursued by researchers 
     Join an event!<br/>
     Discover new topics together with mentors and peers!
   </a>
-  <a href="/training/curriculum.html">
+  <a href="{{site.baseurl}}/training/curriculum.html">
     Self study!<br/>
     Everything at your own pace. No matter if you want to get a quick overview
     or dive in the details, this is for you!
@@ -30,27 +30,27 @@ The group aims to develop a training program that can be pursued by researchers 
 ## Sitemap
 
 * I'm a student and want to **learn** about HEP Software:
-  * [The HSF training curriculum](/training/curriculum.html)
-  * [List of upcoming training events](/Schools/events.html)
+  * [The HSF training curriculum]({{site.baseurl}}/training/curriculum.html)
+  * [List of upcoming training events]({{site.baseurl}}/Schools/events.html)
 * I want to **teach** software:
   * Training events:
-    * [How to organize a software training event](/training/howto-event.html)
-    * [The different roles in an HSF-training event](/training/educators.html)
+    * [How to organize a software training event]({{site.baseurl}}/training/howto-event.html)
+    * [The different roles in an HSF-training event]({{site.baseurl}}/training/educators.html)
   * Training modules:
-    * [The HSF training curriculum](/training/curriculum.html)
-    * [Guidelines for HSF training content](/training/module-guidelines.html)
-    * [How to create a HSF training module from scratch](/training/howto-new-module.html)
-    * [How to update a carpentry-style module with the HSF style](/training/howto-update-module-style.html)
+    * [The HSF training curriculum]({{site.baseurl}}/training/curriculum.html)
+    * [Guidelines for HSF training content]({{site.baseurl}}/training/module-guidelines.html)
+    * [How to create a HSF training module from scratch]({{site.baseurl}}/training/howto-new-module.html)
+    * [How to update a carpentry-style module with the HSF style]({{site.baseurl}}/training/howto-update-module-style.html)
 * I want to learn more **about the HSF Training WG**:
-  * [Our mission](/workinggroups/training.html#our-mission)
+  * [Our mission]({{site.baseurl}}/workinggroups/training.html#our-mission)
   * [HSF training White paper](https://arxiv.org/abs/1807.02875)
   * [List of HEP training events](https://indico.cern.ch/category/11386/)
   * The Community
-    * [The HSF training community](/training/community.html)
-    * [Participating & Contributing](/workinggroups/training.html#how-to-participate-and-contribute)
-    * [Convenors](/workinggroups/training.html#conveners)
+    * [The HSF training community]({{site.baseurl}}/training/community.html)
+    * [Participating & Contributing]({{site.baseurl}}/workinggroups/training.html#how-to-participate-and-contribute)
+    * [Convenors]({{site.baseurl}}/workinggroups/training.html#conveners)
 * **Meta**:
-  * [How to add your profile to the HSF training community pages](/howto-profile.html)
+  * [How to add your profile to the HSF training community pages]({{site.baseurl}}/howto-profile.html)
 
 ## Our mission
 
@@ -86,7 +86,7 @@ Today's graduate students will be the young faculty members driving HEP research
     Join an event!<br/>
     Discover new topics together with mentors and peers!
   </a>
-  <a href="/training/curriculum.html">
+  <a href="{{site.baseurl}}/training/curriculum.html">
     HSF Training center<br/>
     Everything at your own pace. No matter if you want to get a quick overview
     or dive in the details, this is for you!
