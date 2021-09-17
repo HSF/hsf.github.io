@@ -160,9 +160,9 @@ For a success proposal it is useful to include participants also from "inclusive
 
 #### Absolute URLs
 
-- So far we had a lot of links to subpages linked like this: <code>&lsqb;text&rsqb;(link/to/page.html)</code>
+- So far we had a lot of links to subpages linked like this: <code>&lsqb;text&rsqb;(link/to/page.html)</code><!-- markdown-link-check-disable-line -->
 - However this breaks deploys via github pages from forks of our repository (so it's an obstacle to testing the page)
-- Proper procedure is {% raw %}<code>[text]({{site.baseurl}}/link/to/page.html)</code>{% endraw %}
+- Proper procedure is {% raw %}<code>[text]({{site.baseurl}}/link/to/page.html)</code>{% endraw %}<!-- markdown-link-check-disable-line -->
 - Same for links/images in HTML
 - More technical background in [this PR](https://github.com/HSF/hsf.github.io/pull/976)
 - There's a new check in place that will complain if you create links without `site.baseurl`
