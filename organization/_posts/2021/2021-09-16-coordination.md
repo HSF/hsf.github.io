@@ -30,7 +30,7 @@ Serhan Mete
 
 Apologies: Andrea Valassi, Josh McFayden, Efe Yazgan
 
-## Presentation about PyHEP workshop by E. Rodrigues
+## Presentation on the PyHEP 2021 workshop by E. Rodrigues
 
 Slides are [attached to the agenda](https://indico.cern.ch/event/1043627/).
 
@@ -64,7 +64,7 @@ These are now being prepared for submission to the LHCC reviewers.
 
 ### WLCG Report
 
-The software and projects [report for WLCG](https://docs.google.com/document/d/1-2VXmhEu2KXsx6DlJJrj1DO4FyPsHPsK/edit?usp=sharing&ouid=108095447452240056352&rtpof=true&sd=true) for 2021H2 has been written and was submitted 15 September.
+The software and projects [report for WLCG](https://docs.google.com/document/d/1-2VXmhEu2KXsx6DlJJrj1DO4FyPsHPsK/edit?usp=sharing&ouid=108095447452240056352&rtpof=true&sd=true) for 2021H2 has been written and was submitted on 15 September.
 
 Thanks to all for implicit (gathered from LHCC talks) and explicit inputs!
 
