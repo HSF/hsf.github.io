@@ -21,7 +21,7 @@ identified proposal from HEP.
 ## Letters of Cooperation
 
 We will be happy to provide a *letter of cooperation* that can be used for any
-software project or funding application, incuding, e.g., individual fellowships,
+software project or funding application, including, e.g., individual fellowships,
 stating that the HSF will work with the proposer(s) if they receive funding. The
 HSF can also put in this letter a statement stating that the goals of the
 project are well aligned with the [Community White Paper]({{ site.baseurl
