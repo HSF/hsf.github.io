@@ -52,7 +52,7 @@ able to demonstrate specific aims to tackle the challenges set out in the
 
 ## Procedure
 
-In both cases the HSF Coordination group and the HSF Working Group Convenors
+In both cases the HSF Coordination group and the HSF Working Group Conveners
 will discuss the request and, if approved, circulate a draft letter and the
 project outline **to the whole of the HSF community** for any comments. We will
 then approve the request in an HSF Coordination meeting (or, exceptionally, just
