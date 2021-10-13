@@ -13,7 +13,7 @@ shares similar goals.
 
 The HSF will usually give a letter of cooperation for any projects and proposals
 that are aligned with the general goals of developing collaborative software for
-high-energy physics. This will particularly apply when there may be multiple
+particle physics. This will particularly apply when there may be multiple
 applications for a funding stream which are well aligned with the HSF. Letters
 of support are usually reserved for specific calls where there is one clearly
 identified proposal from HEP.
