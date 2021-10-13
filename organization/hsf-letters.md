@@ -33,6 +33,8 @@ please:
   believe that the HSF can usefully cooperate and work with you
   - We strongly encourage you do discuss with the working group conveners of
   the working groups where you think this would happen
+  - As we will circulate this outline to the whole of the HSF be aware that this
+  will, *de facto*, become a public document
 - Please make this request at least *two weeks* before you need the letter
 
 ## Letters of Support
@@ -47,7 +49,9 @@ able to demonstrate specific aims to tackle the challenges set out in the
 - Include an outline of your project's goals and indicate in what way
   this helps the high-energy physics community to meet the software challenges
   of the future
-- Outline in which way you would with in and with the HSF during the project
+  - Outline in which way you would with in and with the HSF during the project
+  - As we will circulate this outline to the whole of the HSF be aware that this
+    will, *de facto*, become a public document
 - Please make this request at least *three weeks* before you need the letter
 
 ## Procedure
