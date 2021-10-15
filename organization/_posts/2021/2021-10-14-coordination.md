@@ -93,7 +93,7 @@ Further on list for potential topical meetings (following the survey):
 
 ### Software Training
 
-- Software Training in HEP paper accepted for publication in Springer CSBS: [Comput Softw Big Sci 5, 22 (2021)](https://doi.org/10.1007/s41781-021-00069-9).
+- Software Training in HEP paper accepted for publication in Springer CSBS: [Comput Softw Big Sci 5, 22 (2021)](https://link.springer.com/article/10.1007%2Fs41781-021-00069-9).
 - Announcement of the next HSF IRIS-HEP Training Challenge in the coming days. 
   - Discussion focused on the sustainability and scalability of the training in the HEP community.
   - Define possible engagement with experiments and their existing training organization. 
