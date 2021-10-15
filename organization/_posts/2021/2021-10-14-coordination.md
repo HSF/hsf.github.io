@@ -39,7 +39,7 @@ Please comment - plan to merge by end of the week if no blockers.
 
 We have a few HSF talks upcoming:
 
-- [ILCX workshop](https://agenda.linearcollider.org/event/9211/) 26-29 Oct, Graeme invited to speak on *[HEP computing challenges and the HSF](https://agenda.linearcollider.org/event/9211/contributions/49089/)*
+- [ILCX workshop](https://agenda.linearcollider.org/event/9211/) 26-29 Oct, Graeme invited to speak on *HEP computing challenges and the HSF*
 - [Swift-HEP workshop](https://indico.cern.ch/event/1033028/) 2-3 Nov, Caterina invited to speak on *The HSF landscape*
 
 Draft slides will appear!
@@ -126,7 +126,7 @@ The SIDIS COST proposal is advancing well. Contact Graeme and Stefan if you woul
 
 This has changed recently and they are trying to sell it more as a paid for product, not really suitable for our community.
 
-Can we ask Chris Burr about this - he was keen on this as a solution and presented in the HSF Packaging Group. Miniconda provides a lot of add ons, but still refers back to the (to be paid for) Anaconda packages.
+Can we ask Chris Burr about this - he was keen on this as a solution and presented in the HSF Packaging Group. Miniconda provides a lot of addons, but still refers back to the (to be paid for) Anaconda packages.
 
 Still free for individuals, but unclear situation for non-commercial institutions and labs.
 
@@ -152,7 +152,7 @@ Also: Extreme Universe TSP.
 
 Would be nice to sync up with what the Analysis WG is doing (e.g. metadata document) --> will contact the conveners after November 2nd when we have the next meeting.
 
-Anyone is welcome to join the meetings if they'd like on the 1st Tuesday of the month at 10 am CERN time, agendas are here: <https://indico.in2p3.fr/event/>.
+Anyone is welcome to join the meetings if they'd like on the 1st Tuesday of the month at 10 am CERN time, agendas are here: <https://indico.in2p3.fr/category/976/>.
 
 ### Next Meeting
 
