@@ -5,7 +5,7 @@ layout: plain_toc
 
 Present/Contributing: Graeme Stewart, Benedikt Hegner, Marc Paterno, Andi Salzburger, Josh McFayden, Krzysztof Genser, Stefan Roiser, Ben Morgan, Alexander Moreno, Mark Neubauer, Michael Hernandez Villanueva, Liz Sexton-Kennedy, Allison Hall, Caterina Doglioni, Michel Jouvin
 
-Apologies: Serhan Mete, Eduardo Rodrigues,
+Apologies: Serhan Mete, Eduardo Rodrigues
 
 ## News, general matters, announcements
 
@@ -17,13 +17,9 @@ The project aims at establishing better collaboration in software with India. We
 
 ### HL-LHC Review Phase 2
 
-Documents were delivered to the LHCC reviewers on time (1 October).
+Documents were delivered to the LHCC reviewers on time (1 October). The finished versions have been put into [CERNBox](https://cernbox.cern.ch/index.php/s/QGfcgPkvVsC2p31). Graeme and Liz wrote a short introduction, that summarises the process.
 
 **Many, thanks to the projects and individuals involved.**
-
-The finished versions have been put into [CERNBox](https://cernbox.cern.ch/index.php/s/QGfcgPkvVsC2p31).
-
-Graeme and Liz wrote a short introduction, that summarises the process.
 
 N.B. The review itself will take place 1-5 November, hybrid at CERN + Zoomlandia. Attendance is being clarified with the LHCC, but it should be possible for some participation beyond document editors.
 
@@ -97,7 +93,7 @@ Further on list for potential topical meetings (following the survey):
 - Announcement of the next HSF IRIS-HEP Training Challenge in the coming days. 
   - Discussion focused on the sustainability and scalability of the training in the HEP community.
   - Define possible engagement with experiments and their existing training organization. 
-- Next Software Carprentries training event being organized (Dec 13-15, 2021). 
+- Next Software Carpentries training event being organized (Dec 13-15, 2021). 
   - We are preparing videos to cover prerequisites in Mac, Linux, and Windows. 
 - A task force organized to develop the Matplotlib training module. Aiming to organize an event by November. 
 
