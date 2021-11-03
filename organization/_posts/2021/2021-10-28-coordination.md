@@ -32,7 +32,7 @@ Andy Buckley is asking for a support letter for a new "ScotDIST Centre for Docto
 
 We have a few HSF talks upcoming:
 
-- [ILCX workshop](https://agenda.linearcollider.org/event/9211/) 26-29 Oct, Graeme invited to speak on *[HEP computing challenges and the HSF](https://agenda.linearcollider.org/event/9211/contributions/49089/)*
+- [ILCX workshop](https://agenda.linearcollider.org/event/9211/) 26-29 Oct, Graeme invited to speak on *[HEP computing challenges and the HSF](https://agenda.linearcollider.org/event/9211/contributions/49168/)*
 - [Swift-HEP workshop](https://indico.cern.ch/event/1033028/) 2-3 Nov, Caterina invited to speak on *The HSF landscape*
 - [Small Experiments Workshop](https://indico.physics.lbl.gov/event/1756/overview)
 
@@ -62,6 +62,7 @@ Nov 8: Meeting scheduled on new ML techniques for simulation (speakers confirmed
 December: tentative plans for meetings on DD4hep, FPGAs for simulation (contacting speakers)
 
 ### PyHEP
+
 No topical meeting this coming month (would be Nov. 3rd, next week). But December "module of the month" meeting on PyTorch about to be confirmed, for Dec. 8th.
 
 ### Software Tools and Packaging
