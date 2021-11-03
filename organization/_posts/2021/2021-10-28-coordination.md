@@ -124,7 +124,7 @@ As dates start to be fixed for 2022, please add things to the HSF Community Cale
 
 ### SIDIS EU COST Funding proposal
 
-Aim to build a community on software engineering for computing accelerators and heterogenous computing architectures, establish and connect training initiatives, raise the profile of software engineering in natural sciences. 30 proposers from 24 European countries from computer science institutes, natural sciences, HPCs, institutes bridging CS & NS. To be submitted this afternoon. Decision about funding expected mid-May 2022. COST implements an "open funding model", ie. in case of funding more participants can join easily within the first year.
+Aim to build a community on software engineering for computing accelerators and heterogeneous computing architectures, establish and connect training initiatives, raise the profile of software engineering in natural sciences. 30 proposers from 24 European countries from computer science institutes, natural sciences, HPCs, institutes bridging CS & NS. To be submitted this afternoon. Decision about funding expected mid-May 2022. COST implements an "open funding model", ie. in case of funding more participants can join easily within the first year.
 
 ### Next Meeting
 
