@@ -63,7 +63,7 @@ We have started to think about WG convenerships for 2022. For WG convenors, plea
 
 [Meeting](https://indico.cern.ch/event/1094888/) yesterday on "Expanding analysis benchmarks" with a talk from LHCb analysts on fitting.
 
-- Will follow up on [live notes](https://docs.google.com/document/d/15z2bO8BFFLarqRiEiKdvxCRPj5nX8H4l-lbnQgR3FFY/edit#) and in a future meeting to discuss if we can establish suitable fitting benchmarks
+- Will follow up on [live notes](https://docs.google.com/document/d/15z2bO8BFFLarqRiEiKdvxCRPj5nX8H4l-lbnQgR3FFY/edit#) and in a future meeting to discuss if we can establish suitable fitting benchmarks.
 - Ran out of time to discuss workflow benchmarks - asked people to refer and contribute to [previous live notes](https://docs.google.com/document/d/10XVZm859rjRudImRGtcyKKWFhPLzPVGdr0T4w3Eriqg/edit#heading=h.hcubs8cy4y7c) which will be consolidated and discussed at the next meeting.
 
 Potential future topic - running analysis software on GPUs.
