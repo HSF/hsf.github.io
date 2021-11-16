@@ -36,7 +36,7 @@ Q&A:
 
 #### ILCX
 
-Graeme gave an [HSF talk](https://agenda.linearcollider.org/event/9211/contributions/49168/) to the ILC community two weeks ago. Well received, with some discussion about if linear colliders really can share software with the LHC community (our answer: *yes, albeit that tracking and pattern matching algorithms are at a different working point to hadronic experiments, there is still a huge amount of potentially sharable software*).
+Graeme gave an [HSF talk](https://agenda.linearcollider.org/event/9211/contributions/49168/) to the ILC community two weeks ago. Well received, with some discussion about if linear colliders really can share software with the LHC community (our answer: *yes, albeit that tracking and pattern matching algorithms are at a different working point to hadronic experiments, there is still a huge amount of potentially shareable software*).
 
 #### Snowmass Small Experiments Workshop
 
