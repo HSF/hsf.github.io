@@ -56,7 +56,7 @@ Should we put in an HSF paper for this? N.B. Deadline is 19 November. (The last 
 
 We have started to think about WG convenerships for 2022. For WG convenors, please let Benedikt know your plans.
 
-- Normally WG conveners serve for 2 years, by mutual agreement (but this is not set in stone).
+- Normally WG convenors serve for 2 years, by mutual agreement (but this is not set in stone).
 - So far, all but 8 convenors answered. Most want to continue (even beyond 2 years). Some would make space for younger replacements if there are.
 
 ### Data Analysis
