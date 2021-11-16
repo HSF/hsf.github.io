@@ -32,7 +32,7 @@ Caterina gave the [HSF talk](https://indico.cern.ch/event/1033028/contributions/
 Q&A:
 
 - _Is there any effort on sharing control board software?_ The answer here was that HSF is not covering this topic, but if anyone is interested we can exchange contacts.
-- _Can we organize / benefit from joint training activities?_ Davide Costanzo flagged a call (for UK institutes but with virtual participation we can do joint things):  <https://www.ukri.org/opportunity/support-the-development-of-research-software-engineering/>. Caterina is following up in a thread with Ben Morgan and Tim Scanlon, let her know if you'd like to be added in the thread.
+- _Can we organize / benefit from joint training activities?_ Davide Costanzo flagged a call (for UK institutes but with virtual participation we can do joint things):  <https://www.ukri.org/opportunity/support-the-development-of-research-software-engineering/>. Caterina is following up in a thread with Ben Morgan and Tim Scanlon; let her know if you'd like to be added in the thread.
 
 #### ILCX
 
