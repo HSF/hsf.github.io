@@ -25,54 +25,49 @@ or send an email to [hsf-generator-wg+subscribe@googlegroups.com](mailto:hsf-gen
 - WG meetings and Computing Workshop organization:
 indico [category](https://indico.cern.ch/category/8460)
 
-#### Publications
-- [Challenges in Monte Carlo event generator software for High-Luminosity LHC](https://arxiv.org/abs/2004.13687)
-- [HL-LHC Computing Review: Common Tools and Community Software](https://zenodo.org/record/3779250)
-- Generator document ("proceedings") current draft
-in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
+#### LHCC review of HL-LHC computing (2020-2021) and related documents
 
+- The HSF Generator WG, "HL-LHC Computing Review Stage-2, Common Software Projects: Event Generators", 
+30 September 2021 [[arXiv:2109.14938](https://arxiv.org/abs/2109.14938)]
+- The HSF Generator WG, "Challenges in Monte Carlo event generator software for High-Luminosity LHC", 
+Comput Softw Big Sci 5, 12 (2021) [[doi:10.1007/s41781-021-00055-1](https://doi.org/10.1007/s41781-021-00055-1)]
+- Andrea Valassi's [talk](https://zenodo.org/record/4028835)
+at the WLCG meeting with LHCC referees, 1 September 2020
 
-#### Older resources (2019)
+#### Other resources
 
-- Steve Mrenna's [talk](https://indico.cern.ch/event/813325/contributions/3603456)
+- (2019) Steve Mrenna's [talk](https://indico.cern.ch/event/813325/contributions/3603456)
 at LAWSCHEP, Mexico City, 21 November 2019
-- Andrea Valassi's [talk](https://indico.cern.ch/event/831054/contributions/3647475/attachments/1948111/3232656/20191120-LHCb-HSFgenerators-v3.pdf)
+- (2019) Andrea Valassi's [talk](https://indico.cern.ch/event/831054/contributions/3647475/attachments/1948111/3232656/20191120-LHCb-HSFgenerators-v3.pdf)
 at the 12th LHCb Computing Workshop, CERN, 20 November 2019
-- Andy Buckley's [talk](https://indico.cern.ch/event/708041/contributions/3308937) 
+- (2019) Andy Buckley's [talk](https://indico.cern.ch/event/708041/contributions/3308937) 
 at ACAT, Saas Fee, 15 March 2019
-
-#### Older resources (2018)
-
-- Computing Workshop debriefing, CERN, 11 December 2018:
+- (2018-2021) Computing Workshop "proceedings" draft draft
+in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
+- (2018) Computing Workshop debriefing, CERN, 11 December 2018:
 [agenda](https://indico.cern.ch/event/778521),
-[minutes]({{ site.baseurl }}/organization/2018/12/11/generators.html),
-HSF meeting [report]({{ site.baseurl }}/organization/2018/12/13/coordination.html)
-- Computing Workshop, CERN, 26-28 November 2018: 
+[minutes](/organization/2018/12/11/generators.html),
+HSF meeting [report](/organization/2018/12/13/coordination.html)
+- (2018) Computing Workshop, CERN, 26-28 November 2018: 
 [agenda](https://indico.cern.ch/event/751693),
-[minutes]({{ site.baseurl }}/organization/2018/11/26/generators.html)
-
-#### Older resources (2017)
-
-- Generator and theory CWP chapter draft:
+[minutes](/organization/2018/11/26/generators.html)
+- (2017) Generator and theory CWP chapter draft:
 [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
-(latest sources and pdf from 11 November 2017 archived
-on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-11_generators)).
+(latest sources and pdf from 11 Nov 2017 archived
+on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-11_generators))
 
 ## Convenors
 
-#### Current conveners
+#### Current convenors
 
-{% assign persons = "Josh McFayden, Andrea Valassi, Efe Yazgan" | split: ", " %}
-{% include list_of_selected_profiles.html %}
+- Andrea Valassi (2018-2021)
+- Efe Yazgan (2020-2021)
+- Josh McFayden (2018-2021)
 
-- Andrea Valassi (2018-2020)
-- Efe Yazgan (2020)
-- Josh McFayden (2018-2020)
-
-All conveners can be reached via <hsf-generator-wg-convenors@googlegroups.com>.
+All convenors can be reached via <hsf-generator-wg-convenors@googlegroups.com>.
 
 #### Former convenors
 
-- Stefan Hoeche, 2018-2019
-- Steve Mrenna, 2018-2019
-- Taylor Childers, 2018-2019
+- Stefan Hoeche (2018-2019)
+- Steve Mrenna (2018-2019)
+- Taylor Childers (2018-2019)
