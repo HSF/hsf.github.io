@@ -27,11 +27,13 @@ indico [category](https://indico.cern.ch/category/8460)
 
 #### LHCC review of HL-LHC computing (2020-2021) and related documents
 
+- Josh McFayden's [talk](https://doi.org/10.5281/zenodo.5708168)
+at the LHCC review, 3 November 2021
 - The HSF Generator WG, "HL-LHC Computing Review Stage-2, Common Software Projects: Event Generators", 
 30 September 2021 [[arXiv:2109.14938](https://arxiv.org/abs/2109.14938)]
 - The HSF Generator WG, "Challenges in Monte Carlo event generator software for High-Luminosity LHC", 
 Comput Softw Big Sci 5, 12 (2021) [[doi:10.1007/s41781-021-00055-1](https://doi.org/10.1007/s41781-021-00055-1)]
-- Andrea Valassi's [talk](https://zenodo.org/record/4028835)
+- Andrea Valassi's [talk](https://doi.org/10.5281/zenodo.4028835)
 at the WLCG meeting with LHCC referees, 1 September 2020
 
 #### Other resources
@@ -53,7 +55,7 @@ HSF meeting [report](/organization/2018/12/13/coordination.html)
 [minutes](/organization/2018/11/26/generators.html)
 - (2017) Generator and theory CWP chapter draft:
 [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
-(latest sources and pdf from 11 Nov 2017 archived
+(latest sources and pdf from 11 November 2017 archived
 on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-11_generators))
 
 ## Convenors
