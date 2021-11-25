@@ -32,7 +32,7 @@ at the LHCC review, 3 November 2021
 - The HSF Generator WG, "HL-LHC Computing Review Stage-2, Common Software Projects: Event Generators", 
 30 September 2021 [[arXiv:2109.14938](https://arxiv.org/abs/2109.14938)]
 - The HSF Generator WG, "Challenges in Monte Carlo event generator software for High-Luminosity LHC", 
-Comput Softw Big Sci 5, 12 (2021) [[doi:10.1007/s41781-021-00055-1](https://doi.org/10.1007/s41781-021-00055-1)]
+Comput Softw Big Sci 5, 12 (2021) [[doi:10.1007/s41781-021-00055-1](https://doi.org/10.1007/s41781-021-00055-1)] <!-- markdown-link-check-disable-line -->
 - Andrea Valassi's [talk](https://doi.org/10.5281/zenodo.4028835)
 at the WLCG meeting with LHCC referees, 1 September 2020
 
