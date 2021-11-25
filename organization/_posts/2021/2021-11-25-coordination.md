@@ -25,7 +25,7 @@ Apologies/Contributing: It's Thanksgiving, so US colleagues excused! Pere Mato, 
   - HSF forums are useful in fostering positive collaboration
     - Particularly for generators and Pythonic analysis
     - Generators making progress, despite incentive mismatch
-  - Rucio praised – espcially for CMS adoption, there is a need for a wider developer base
+  - Rucio praised – especially for CMS adoption, there is a need for a wider developer base
   - DOMA group has played a key role in coordination in that area
     - Detailed requirements still not established, working assumptions of x10 need to be pinned down
     - Exercises that increase in scope and complexity will help understand the challenge
@@ -110,7 +110,7 @@ Email will be sent on Monday with a call for nominations and a 2 week window.
 ### Software Training
 
 - Next Sotware Carpentries workshop in preparation. Link to [Indico page](https://indico.cern.ch/event/1097111/)
-  - Instructors from Software Carpentries have been asigned. They will cover the basic part the first two days (Bash, Python, Git).
+  - Instructors from Software Carpentries have been assigned. They will cover the basic part the first two days (Bash, Python, Git).
   - ROOT team confirmed for teaching on last day.
   - Registration will open soon.
 - Matplotlib module development in progress ([link to GitHub](https://github.com/hsf-training/hsf-training-matplotlib)).
@@ -150,7 +150,7 @@ Noted that this was funded through Snowmass and funding will last for at least t
 
 ### Conditions Databases
 
-A new HSF Activity for Conditions Databases?  BNL are adapting the Belle II conditions database design, which largely follows HSF CWP best practice, for the sPHENIX experiment.  In so doing they are taking this as an opportunity to design something that incorporates as much of the experience and expertise from other experiments as possible.  Paul Laycock, Andrea Formica and Giacomo Govi are interested in attempting to define "the" API for a conditions database (independent of technology choices).  Other interesting discussion topics would be technology choices for the server, payload serialisation, calibration workflows, etc.  This also relates to the relevant parts of the Data Analysis working group's "Metadata" summary paper, paeticularly analysis global tags.  The interested community is small but that makes knowledge exchange all the more important.  Would it make sense to make this an HSF activity?  It already covers experts from ATLAS, CMS, Belle II, DUNE and sPHENIX!
+A new HSF Activity for Conditions Databases?  BNL are adapting the Belle II conditions database design, which largely follows HSF CWP best practice, for the sPHENIX experiment.  In so doing they are taking this as an opportunity to design something that incorporates as much of the experience and expertise from other experiments as possible.  Paul Laycock, Andrea Formica and Giacomo Govi are interested in attempting to define "the" API for a conditions database (independent of technology choices).  Other interesting discussion topics would be technology choices for the server, payload serialisation, calibration workflows, etc.  This also relates to the relevant parts of the Data Analysis working group's "Metadata" summary paper, particularly analysis global tags.  The interested community is small but that makes knowledge exchange all the more important.  Would it make sense to make this an HSF activity?  It already covers experts from ATLAS, CMS, Belle II, DUNE and sPHENIX!
 
 **We shall discuss this proposal in more depth at the next meeting on 9 December.**
 
@@ -158,7 +158,7 @@ A new HSF Activity for Conditions Databases?  BNL are adapting the Belle II cond
 
 - Advert for a GPU hackathon in the UK under the UKRI umbrella:
   - <https://www.gpuhackathons.org/event/uk-national-gpu-hackathon-2022>
-  - UK focussed (and GMT timezone...), but can have international groups.
+  - UK focused (and GMT timezone...), but can have international groups.
   - Andrea: there are many more such events elsewhere too, <https://www.gpuhackathons.org/events>. They all seem digital for the moment, except a physical one in Berlin in March 2022.
 
 ### Next Meeting
