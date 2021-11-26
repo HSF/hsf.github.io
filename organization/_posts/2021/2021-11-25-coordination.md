@@ -95,7 +95,7 @@ Email will be sent on Monday with a call for nominations and a 2 week window.
 
 - One outcome of 2021 survey for Reconstruction was the need/request for R&D detector datasets:
   - Open Data Detector - Tracking System (follow-up of TrackML detector) to be ACTS-free (MR + ACAT poster)
-  - Calorimeter system will be added as part of a bigger initiative of CERN EP-R&D allows full Geant4 simulation of realistic tracking (including timing) + calorimeter
+  - Calorimeter system will be added as part of a bigger initiative of CERN EP-R&D; this will allow full Geant4 simulation of realistic tracking (including timing), plus the calorimeter
 - Also a [HSF PHOENIX](https://acts-project.github.io/odd-phoenix/) version available.
 
 ### PyHEP
