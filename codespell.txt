@@ -10,3 +10,4 @@ ths
 lightening
 arithmetics
 espace
+commends

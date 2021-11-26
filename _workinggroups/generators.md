@@ -32,7 +32,7 @@ at the LHCC review, 3 November 2021
 - The HSF Generator WG, "HL-LHC Computing Review Stage-2, Common Software Projects: Event Generators", 
 30 September 2021 [[arXiv:2109.14938](https://arxiv.org/abs/2109.14938)]
 - The HSF Generator WG, "Challenges in Monte Carlo event generator software for High-Luminosity LHC", 
-Comput Softw Big Sci 5, 12 (2021) [[doi:10.1007/s41781-021-00055-1](https://doi.org/10.1007/s41781-021-00055-1)]
+Comput Softw Big Sci 5, 12 (2021) [[doi:10.1007/s41781-021-00055-1](https://doi.org/10.1007/s41781-021-00055-1)] <!-- markdown-link-check-disable-line -->
 - Andrea Valassi's [talk](https://doi.org/10.5281/zenodo.4028835)
 at the WLCG meeting with LHCC referees, 1 September 2020
 
@@ -48,11 +48,11 @@ at ACAT, Saas Fee, 15 March 2019
 in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
 - (2018) Computing Workshop debriefing, CERN, 11 December 2018:
 [agenda](https://indico.cern.ch/event/778521),
-[minutes](/organization/2018/12/11/generators.html),
-HSF meeting [report](/organization/2018/12/13/coordination.html)
+[minutes]({{ site.baseurl }}/organization/2018/12/11/generators.html),
+HSF meeting [report]({{ site.baseurl }}/organization/2018/12/13/coordination.html)
 - (2018) Computing Workshop, CERN, 26-28 November 2018: 
 [agenda](https://indico.cern.ch/event/751693),
-[minutes](/organization/2018/11/26/generators.html)
+[minutes]({{ site.baseurl }}/organization/2018/11/26/generators.html)
 - (2017) Generator and theory CWP chapter draft:
 [Overleaf](https://www.overleaf.com/read/wyyybnvxyfyn)
 (latest sources and pdf from 11 November 2017 archived
