@@ -39,12 +39,12 @@ Apologies/Contributing: It's Thanksgiving, so US colleagues excused! Pere Mato, 
 There was a Snowmass Small Experiments Workshop [last week](https://indico.physics.lbl.gov/event/1756/overview). Liz gave the HSF talk.
 
 - Small experiments does not mean small computing problems
-  - They have with less human resources to tackle the issues
+  - They have less human resources to tackle the issues
 - Data management is often at the PB scale, which is well beyond management by hand
 - Great reliance on common software, like ROOT and Geant4
 - Small cosmic experiments are often west coast US based, which is a hard TZ for collaboration with CERN and Europe
 
-One practical follow-up would be in the context of the ESCAPE workflows activity (Caterina is our contact there). We want to follow-up on that next year.
+One practical follow-up would be in the context of the ESCAPE workflows activity (Caterina is our contact there). We want to follow up on that next year.
 
 There is a follow-up report document to which we can contribute (join the "computingforsmallexps" channel in the Snowmass Slack).
 
@@ -52,7 +52,7 @@ There is a follow-up report document to which we can contribute (join the "compu
 
 There is a DOE supported [ASCR workshop](https://web.cvent.com/event/1b7d7c3a-e9b4-409d-ae2b-284779cfe72f/summary) 13-15 December on scientific software. There is a call for [position papers](https://web.cvent.com/event/1b7d7c3a-e9b4-409d-ae2b-284779cfe72f/websitePage:5c30ffe5-b577-491f-8d8d-1f745b03e9ec): *We invite community input in the form of **two-page position** papers that identify and discuss key challenges and opportunities in the science of the scientific-software development process and the study of the use of scientific software.*
 
-It was felt to useful to submit a paper to this, so Graeme, Liz and Eduardo wrote/contributed to [what we submitted](https://docs.google.com/document/d/1f3wcOgE8tqh-Q88A3wzQrZaWhLazPl196g1lLkv0XZo/edit?usp=sharing).
+It was felt useful to submit a paper to this, so Graeme, Liz and Eduardo wrote/contributed to [what we submitted](https://docs.google.com/document/d/1f3wcOgE8tqh-Q88A3wzQrZaWhLazPl196g1lLkv0XZo/edit?usp=sharing).
 
 - We seem to be more of an "interesting problem" than a solution in this space, but no bad idea to throw our hat into the ring.*
 
@@ -60,7 +60,7 @@ It was felt to useful to submit a paper to this, so Graeme, Liz and Eduardo wrot
 
 ### Mandates for 2022
 
-We have started to think about WG convenerships for 2022. For WG convenors, please let Benedikt know your plans.
+We have started to think about WG convenerships for 2022. For WG conveners, please let Benedikt know your plans.
 
 - Normally WG conveners serve for 2 years, by mutual agreement (but this is not set in stone).
 - Most conveners want to continue; some would make space for younger replacements if there are any.
@@ -93,7 +93,7 @@ Email will be sent on Monday with a call for nominations and a 2 week window.
 
 ### Reconstruction and Software Triggers
 
-- One outcome of 2021 survey for Reconstruction was the need/request for R&D detector dataset:
+- One outcome of 2021 survey for Reconstruction was the need/request for R&D detector datasets:
   - Open Data Detector - Tracking System (follow-up of TrackML detector) to be ACTS-free (MR + ACAT poster)
   - Calorimeter system will be added as part of a bigger initiative of CERN EP-R&D allows full Geant4 simulation of realistic tracking (including timing) + calorimeter
 - Also a [HSF PHOENIX](https://acts-project.github.io/odd-phoenix/) version available.
@@ -101,7 +101,7 @@ Email will be sent on Monday with a call for nominations and a 2 week window.
 ### PyHEP
 
 - The last topical "Python Module of the Month" meeting of the year will take place on December 8th and will be devoted to PyTorch. Agenda at <https://indico.cern.ch/event/1098618/>.
-  - Training frameworks were quite disucssed at the LPCC Fast Sim workshop this week
+  - Training frameworks were quite discussed at the LPCC Fast Sim workshop this week.
 
 ### Software Tools and Packaging
 
@@ -109,7 +109,7 @@ Email will be sent on Monday with a call for nominations and a 2 week window.
 
 ### Software Training
 
-- Next Sotware Carpentries workshop in preparation. Link to [Indico page](https://indico.cern.ch/event/1097111/)
+- Next Software Carpentries workshop in preparation. Link to [Indico page](https://indico.cern.ch/event/1097111/)
   - Instructors from Software Carpentries have been assigned. They will cover the basic part the first two days (Bash, Python, Git).
   - ROOT team confirmed for teaching on last day.
   - Registration will open soon.
