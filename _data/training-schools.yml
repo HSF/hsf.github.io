@@ -1,6 +1,34 @@
 # Sorted by ascending date => New events go on top
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
+- author: Sebastian Lopienski
+  date: 2022-08-28
+  deadline: 2022-04-17
+  end_date: 2022-09-10
+  source: https://csc.web.cern.ch/
+  tags: []
+  title: CERN School of Computing 2022
+- author: Sebastian Lopienski
+  date: 2022-06-19
+  deadline: 2022-03-13
+  end_date: 2022-06-25
+  source: https://csc.web.cern.ch/
+  tags: []
+  title: Thematic CERN School of Computing on *"Security of Research Computing Infrastructures"*
+- author: Sebastian Lopienski
+  date: 2022-05-01
+  deadline: 2022-01-23
+  end_date: 2022-05-07
+  source: https://indico.cern.ch/e/tCSC-2022
+  tags: []
+  title: Thematic CERN School of Computing on *"Scientific Software for Heterogeneous Architectures"*
+- author: Sebastian Lopienski
+  date: 2021-10-10
+  deadline: ''
+  end_date: 2021-10-16
+  source: https://indico.cern.ch/e/tCSC-autumn-2021
+  tags: []
+  title: Thematic CERN School of Computing (tCSC autumn 2021)
 - author: Sudhir Malik
   date: 2021-08-25
   deadline: ''
@@ -15,6 +43,13 @@
   source: https://indico.fnal.gov/event/49414/
   tags: ''
   title: 2021 Intensity Frontier Computing Summer School
+- author: Sebastian Lopienski
+  date: 2021-06-14
+  deadline: ''
+  end_date: 2021-06-18
+  source: https://indico.cern.ch/e/tCSC-spring-2021
+  tags: []
+  title: Thematic CERN School of Computing (tCSC spring 2021 - online)
 - author: Sudhir Malik
   date: 2021-02-16
   deadline: ''
@@ -75,9 +110,9 @@
   date: 2020-08-23
   deadline: 2020-04-05
   end_date: 2020-09-05
-  source: https://indico.cern.ch/event/885686/
+  source: https://indico.cern.ch/e/CSC-2020
   tags: []
-  title: 43rd CERN School of Computing 2020
+  title: 43rd CERN School of Computing 2020 [**CANCELLED**]
 - author: Guillermo Fidalgo
   date: 2020-08-02
   deadline: 2020-03-31
