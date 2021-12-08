@@ -19,7 +19,7 @@ agreement. (In contrast, [interest groups and activity areas]({{ site.baseurl }}
 are less formal.)
 
 We strive for a diverse representation in the HSF working groups and, in
-particular, we very strongly favour a group of conveners from three different
+particular, we very strongly favour having conveners from three different
 experiments.
 
 If you want to form a working group, or want to put some community-wide
