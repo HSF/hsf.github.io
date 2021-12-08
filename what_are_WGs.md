@@ -18,7 +18,7 @@ committee) to serve for one year, with renewal possible by mutual
 agreement. (In contrast, [interest groups and activity areas]({{ site.baseurl }}/what_are_activities.html)
 are less formal.)
 
-We strive for a diverse representation in the HSF working group and, in
+We strive for a diverse representation in the HSF working groups and, in
 particular, we very strongly favour a group of conveners from three different
 experiments.
 
