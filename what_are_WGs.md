@@ -18,6 +18,9 @@ committee) to serve for one year, with renewal possible by mutual
 agreement. (In contrast, [interest groups and activity areas]({{ site.baseurl }}/what_are_activities.html)
 are less formal.)
 
+We strive for a diverse representation in the HSF working groups, so having
+multiple conveners from the same experiment is very strongly discouraged.
+
 If you want to form a working group, or want to put some community-wide
 activity under the umbrella of the HSF,
 just contact the
