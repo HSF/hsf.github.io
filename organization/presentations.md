@@ -7,10 +7,15 @@ layout: default
 
 ## 2021
 
+* [HEP Computing Challenges and the HSF](https://indico.physics.lbl.gov/event/1756/contributions/6247/), [Snowmass Small Experiments Workshop](https://indico.physics.lbl.gov/event/1756/), 16 November 2021, Elizabeth Sexton-Kennedy
+* [The HEP Software Foundations and its Activities](https://indico.cern.ch/event/1033028/contributions/4551806/attachments/2337826/3985074/20211102%20-%20SwiftHEP_Excalibur%20-%20HSF-6.pdf), [SwiftHep/ExcaliburHep workshop](https://indico.cern.ch/event/1033028/), 2 November 2021, Caterina Doglioni
+* [HEP Computing Challenges and the HSF](https://agenda.linearcollider.org/event/9211/contributions/49168/), [ILC Workshop on Potential Experiments (ILCX2021)](https://agenda.linearcollider.org/event/9211/), 28 October 2021, Graeme A Stewart
+* [Software R&D an International Perspective](https://indico.stfc.ac.uk/event/331/contributions/2168/attachments/667/1172/PPTAP%20Workshop%202021%20-%20International%20R%26D.pdf), [UK PPTAP Computing & Software Roadmap Workshop](https://indico.stfc.ac.uk/event/331/), 19 July 2021, Graeme A Stewart
+* [The HSF WLCG Virtual Workshop Experience](https://indico.cern.ch/event/1026363/contributions/4309486/), [IRIS-HEP Virtual Meeting on Virtual Meetings](https://indico.cern.ch/event/1026363/), 5 May 2021, Graeme A Stewart
 * [The HSF landscape - recent activities &amp; plans](https://indico.cern.ch/event/976081/contributions/4149153/attachments/2171368/3665976/EduardoRodrigues_2021-01-14_SWIFT-HEP.pdf), [SWIFT-HEP/Excalibur-HEP workshop](https://indico.cern.ch/event/976081/), 14 January 2021, Eduardo Rodrigues
-* [HSF Community Overview](https://indico.jlab.org/event/420/contributions/7595/attachments/6350/8412/HSF%20Roundtable%202021-01.pdf), [Nucleal Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Graeme A Stewart
-* [HSF - Python and PyHEP](https://indico.jlab.org/event/420/contributions/7596/attachments/6353/8415/EduardoRodrigues-HSF-2021-01-12.pdf), [Nucleal Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Eduardo Rodrigues
-* [HSF Training](https://indico.jlab.org/event/420/contributions/7597/attachments/6352/8417/HSF_Training_SoftCompRoundTable_12Jan_2021.pdf), [Nucleal Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Sudhir Malik
+* [HSF Community Overview](https://indico.jlab.org/event/420/contributions/7595/attachments/6350/8412/HSF%20Roundtable%202021-01.pdf), [Nuclear Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Graeme A Stewart
+* [HSF - Python and PyHEP](https://indico.jlab.org/event/420/contributions/7596/attachments/6353/8415/EduardoRodrigues-HSF-2021-01-12.pdf), [Nuclear Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Eduardo Rodrigues
+* [HSF Training](https://indico.jlab.org/event/420/contributions/7597/attachments/6352/8417/HSF_Training_SoftCompRoundTable_12Jan_2021.pdf), [Nuclear Physics Software &amp; Computing Round Table](https://indico.jlab.org/event/420/), 12 January 2021, Sudhir Malik
 
 ## 2020
 
