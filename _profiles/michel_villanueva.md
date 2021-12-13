@@ -1,7 +1,9 @@
 ---
 title: Michel Hernandez Villanueva
-country: US
-training_roles: null
+country: DE
+training_roles:
+- facilitator
+- mentor
 training_years:
 - 2021
 github: michmx
@@ -12,11 +14,11 @@ gitlab: null
 bitbucket: null
 orcid: 0000-0002-6322-5587
 linkedin: "michel-hern\xE1ndez-villanueva-56b50677"
-email: michmx@phy.olemiss.edu
+email: michel.hernandez.villanueva@desy.de
 layout: educator
 ---
 
-Hola! I'm Michel Hernandez Villanueva. I'm a postdoc at the University of Mississippi, working on the [Belle II](https://belle2.jp) experiment.
+Hola! I'm Michel Hernandez Villanueva. I'm a research fellow at DESY, working in the [Belle II](https://belle2.jp) experiment.
 My main interests are flavor physics with tau leptons, analysis on distributed computing environments, training, and outreach.
 
 I joined the HSF Training group in 2020. My motivation is to explore together advanced tools, popular within the HPC
