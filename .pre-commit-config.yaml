@@ -1,0 +1,21 @@
+repos:
+-   repo: https://github.com/klieret/jekyll-relative-url-check
+    rev: v2.0.1
+    hooks:
+    -   id: jekyll-relative-url-check-html
+    -   id: jekyll-relative-url-check-markdown
+-   repo: https://github.com/codespell-project/codespell
+    rev: 'v2.1.0'
+    hooks:
+    -   id: codespell
+        args: ["-I", "codespell.txt"]
+        types_or: ["markdown"]
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+    -   id: check-json
+    -   id: check-yaml
+
+ci:
+    autoupdate_schedule: monthly
+

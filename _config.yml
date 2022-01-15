@@ -2,12 +2,12 @@ name: HEP Software Foundation Newsletter
 description: News from the HEP Software Foundation
 url: http://www.hepsoftwarefoundation.org
 excerpt_separator: <!--more-->
-timezone: Switzerland/Geneva
+timezone: Europe/Paris
 highlighter: rouge
 markdown: kramdown
 future: true
 exclude: [vendor]
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-redirect-from
@@ -15,10 +15,43 @@ collections:
   activities:
     output: true
     permalink: /activities/:title.html
+  gsocorgs:
+    output: true
+    permalink: /gsoc/organizations/:path.html
+  gsocprojects:
+    output: true
+    permalink: /gsoc/projects/:path.html
   gsocproposals:
     output: true
-    permalink: /gsoc/:title.html
+    permalink: /gsoc/:path.html
+  gsocblogs:
+    output: true
+    permalink: /gsoc/blogs/:path.html
+  gsdocs-orgs:
+    output: true
+    permalink: /gsdocs/organizations/:path.html
+  gsdocs-projects:
+    output: true
+    permalink: /gsdocs/projects/:path.html
+  gsdocs-proposals:
+    output: true
+    permalink: /gsdocs/:path.html
+  gsdocs-blogs:
+    output: true
+    permalink: /gsdocs/blogs/:path.html
+  meetings:
+    output: true
+    permalink: /meetings/:title.html
+  workinggroups:
+    output: true
+    permalink: /workinggroups/:title.html
+  training:
+    output: true
+    permalink: /training/:path.html
+  profiles:
+    output: true
+    permalink: /profiles/:path.html
 
 docs:
-  url: https://github.com/HEP-SF/documents/blob/master
-  cwp201711: https://github.com/HEP-SF/documents/blob/master/CWP/papers/2017-11
+  url: https://github.com/HSF/documents/blob/master
+  cwp201711: https://github.com/HSF/documents/blob/master/CWP/papers/2017-11

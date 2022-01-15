@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% include fwd_back_link.ext %}
+
+<hr>
+
 <div class="blog-header">
   <h1 class="blog-title">{{ page.title }}</h1>
   <p class="blog-post-meta">{{ page.date | date_to_string }} by <a href="{{ page.url }}">{{ page.author }}</a></p>

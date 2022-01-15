@@ -1,0 +1,30 @@
+{% comment %}
+This liquid template produces the list of organizations for the year passed as a parameter
+{% endcomment %}
+
+{% assign org_collection = 'gsdocs-orgs' %}
+
+<table class="table table-hover table-striped">
+  <tbody>
+
+  {% for org in site[org_collection] %}
+  {% assign url_tokens = org.url | split: '/' %}
+  {% assign year_position = url_tokens.size | minus: 2 %}
+  {% assign org_year = url_tokens[year_position] %}
+  {% capture org_summary %}{%if org.summary %}{{ org.summary }}{%else%}{{ org.description}}{%endif%}{% endcapture %}
+  {% assign org_summary = org_summary | strip_newlines | markdownify %}
+  {% if org_year == include.year %}
+  <tr>
+    {% if org.logo %}
+    <td><img src="{{ site.baseurl }}/images/{{ org.logo }}" alt="{{ org.organization }}" width="100px"></td>
+    {% else %}
+    <td class="text-center" style="vertical-align: middle;">{{ org.organization }}</td>
+    {% endif %}
+    <td>{{ org_summary }}</td>
+    <td><a href="{{ site.baseurl }}/gsdocs/organizations{{ org.path | remove_first: '_' | remove_first: org_collection | replace: '.md', '.html' }}">List of proposals</a></td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+
+  </tbody>
+</table>

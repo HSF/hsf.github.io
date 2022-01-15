@@ -9,11 +9,13 @@ layout: default
   {{ content }}
 
 <h2>Corresponding Project</h2>
-  <a href="/gsoc/project_{{ page.project }}.html">{{ page.project }}</a>  
- 
+  <ul>
+      <li><a href="{{ site.baseurl }}/gsoc/projects/{{ page.year }}/project_{{ page.project }}.html">{{ page.project }}</a></li>
+  </ul>
+
  <h2>Participating Organizations</h2>
   <ul>
   {% for item in page.organization %}
-<li><a href="/gsoc/{{ item| downcase}}.html">{{ item }}</a> </li>
+<li><a href="{{ site.baseurl }}/gsoc/organizations/{{ page.year }}/{{ item| downcase}}.html">{{ item }}</a> </li>
   {% endfor %}
   </ul>

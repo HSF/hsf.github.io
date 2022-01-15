@@ -1,0 +1,53 @@
+{% include profile_header.html %}
+
+<!-- Start looping through all the years that we have educators for.
+The first year is hard coded here. -->
+{% assign firstyear = 2019 %}
+{% assign currentyear = site.time | date: '%Y' %}
+{% for loopyear in (firstyear..currentyear) reversed %}
+<h3> {{ loopyear }} </h3>
+
+<!-- Now we loop through the educators, sorted by their full names and
+pick out the ones who trained in $loopyear.
+This code originally was based on 
+github.com.com/carpentries/carpentries.org/gh-pages/_includes/community_profiles.md
+We need to keep track of how many educators are skipped in order to have the
+proper index for the table column. -->
+{% assign skipped = 0 %}
+{% for person in site.profiles| sort:"title" %}
+{% assign nroles = person.training_roles.size %}
+{% unless person.training_years contains loopyear and nroles >= 1 %}
+{% assign skipped = skipped | plus: -1 %}
+{% continue %}
+{% endunless %}
+
+{% assign column = forloop.index | plus: skipped | modulo: 4 %}
+
+{% if column == 1 %}
+<div class="row">
+{% endif %}
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="{{ person.github }}">
+<a href="{{ person.url }}">{% include profile_avatar.html %}</a>
+{% include educator_badges.html %}
+<h3><a href="{{ person.url }}">{{ person.title }}</a></h3>
+{% include profile_social.html %}
+</div>
+</div>
+
+{% if column == 0 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% unless column == 0 %}
+<!-- The last </div> never happened, because we ended short of a full last column. -->
+<!-- Small bug: If there is no educator for a whole year, then this will still get displayed.... -->
+</div>
+{% endunless %}
+{% endfor %}
+

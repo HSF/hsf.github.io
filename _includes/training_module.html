@@ -1,0 +1,19 @@
+<div class="training-module  tm-{{ module.status }}">
+    <div class="training-module-name">{{ module.name }}</div>
+    <div class="training-module-description">{{ module.description }}</div>
+    {% if module.status == "alpha" %}
+    <div class="training-module-status"><span class="glyphicon glyphicon-warning-sign"></span> Status: Early development </div>
+    {% endif %}
+    {% if module.status == "beta" %}
+    <div class="training-module-status"><span class="glyphicon glyphicon-asterisk"></span> Status: Beta testing</div>
+    {% endif %}
+    {% unless module.webpage == "" %}
+    <a class="training-module-webpage" href="{{ module.webpage }}"><span class="glyphicon glyphicon-book"></span> Start learning now!</a>
+    {% endunless %}
+    {% unless module.videos == "" %}
+    <a class="training-module-videos" href="{{ module.videos }}"><span class="glyphicon glyphicon-film"></span> Watch the videos!</a>
+    {% endunless %}
+    {% unless module.repository == "" %}
+    <a class="training-module-repository" href="{{ module.repository }}"><span class="glyphicon glyphicon-wrench"></span> Contribute!</a>
+    {% endunless %}
+</div>

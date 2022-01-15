@@ -16,7 +16,7 @@ Message sent to the HSF forum on March 26 2015
 
 <div class="rteindent1" style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;"> </div>
 
-<div class="rteindent1" style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;">We invite people to get in touch with us who are interested to have their projects participate as an early adopter and guinea pig. Contact the startup team at <a href="mailto:hep-sf-startup-team@googlegroups.com" style="color: rgb(17, 85, 204);" target="_blank">hep-sf-startup-team@googlegroups.com</a>. </div>
+<div class="rteindent1" style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 12.8000001907349px; line-height: normal;">We invite people to get in touch with us who are interested to have their projects participate as an early adopter and guinea pig. Contact the startup team at <a href="mailto:hsf-coordination@googlegroups.com" style="color: rgb(17, 85, 204);" target="_blank">hsf-coordination@googlegroups.com</a>. </div>
 
 ## TechForum interest list
 
@@ -27,5 +27,5 @@ Responders to the call for TechForum early adopters:
 
 ## Resources
 
-  * [US HEP-FCE Working Group Report on Libraries and Tools](/assets/fce-tools-wg-report.pdf)
+  * [US HEP-FCE Working Group Report on Libraries and Tools]({{ site.baseurl }}/assets/fce-tools-wg-report.pdf)
   * [CERN TechLab OpenPower8 and AArch64 Resources](http://lvalsan.web.cern.ch/lvalsan/processor_benchmarking/presentation/)

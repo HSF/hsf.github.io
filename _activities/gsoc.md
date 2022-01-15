@@ -1,80 +1,151 @@
 ---
-title: "Google Summer of Code 2017"
-author: "Benedikt Hegner"
+title: "Google Summer of Code"
+author: "Andrei Gheata"
 layout: default
-redirect_from: /gsoc/gsoc2017.html
 ---
 
-# ![CERN](/images/CERN-logo.jpg){:height="100px"} ![HSF](/images/hsf_logo_angled.png){:height="100px"} Google Summer of Code 2017
+# ![CERN]({{ site.baseurl }}/images/CERN-HSF-GSoC-logo.png){:height="100px"} Google Summer of Code 2021
 
 ## Introduction
 
-[Google Summer of Code 2017](https://developers.google.com/open-source/gsoc/) is a program that allows students to contribute to development of open-source projects, mentored by participating organizations.
+[Google Summer of Code](https://summerofcode.withgoogle.com) is a program that allows students to contribute to the development of open-source projects, mentored by participating organizations.
 
-Particle physics is an exciting field where large collaborations of scientists collect and analyze the data from high-energy physics experiments, such as the Large Hadron Collider, hosted by the CERN laboratory in Geneva, Switzerland. The questions that we collectively ask are: what are the fundamental blocks that make up our Universe? What is the nature of dark matter and dark energy?  What is the nature of the asymmetry between matter and antimatter? What was early Universe like? To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
+Particle physics is an exciting field where large collaborations of scientists collect
+and analyze petabytes of data from high-energy physics experiments, such as those at the Large Hadron Collider,
+hosted at the CERN laboratory in Geneva, Switzerland.
+Some of the questions that we collectively ask are:
 
-The CERN software for experiments (CERN-SFT) group has participated in the GSoC since 2011. This year the program expands to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
+- what are the fundamental blocks that make up our Universe?
+- what is the nature of dark matter and dark energy?
+- what is the nature of the asymmetry between matter and antimatter?
+- what was early Universe like?
 
-Students interested in participating in the GSoC can find project proposals [here](#Projects).
+To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
 
-HSF GSoC Administrators: Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a>
+The CERN software for experiments (CERN EP-SFT) group has participated in the GSoC since 2011. Since 2017 the program has expanded to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
 
-Instructions for participating projects and mentors can be found [here](/gsoc/guideline.html).
-
-
-## Projects
-
-{:.table .table-hover  .table-striped}
-| ![ROOT](/images/rootlogo.png){:width="100px"} | A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R. [List of proposals](/gsoc/project_ROOT.html)|
-| ![TMVA](/images/tmva_logo.gif){:width="100px"} | TMVA is a ROOT-integrated toolkit for multivariate classification and regression analysis. TMVA performs the training, testing and performance evaluation of a large variety of multivariate methods. [List of proposals]({{site.baseurl}}/gsoc/project_TMVA.html)|
-| ![HSF](/images/hsf_logo_angled.png){:width="100px"} | The HEP Software Foundation (HSF) facilitates coordination and common efforts in high energy physics (HEP) software and computing internationally. [List of proposals](/gsoc/project_HSF.html)|
-| ![ATLAS](/images/ATLAS-Logo-Ref-RGB.png){:width="100px"} | [ATLAS](https://atlas.web.cern.ch/Atlas/Collaboration/) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/project_ATLAS.html)|
-| ![CMS](/images/CMS-Color.gif){:width="100px"} | [CMS](http://cms.web.cern.ch/) (Compact Muon Solenoid) is a high-energy physics experiment at the LHC. [List of proposals](/gsoc/project_CMS.html)|
-| ![NOvA](/images/NOvA_logo.png){:width="100px"} | [NOvA](https://www-nova.fnal.gov)(NOvA Off-Axis Electron Neutrino Appearance) is a Neutrino Oscillation experiment at Fermilab. [List of proposals](/gsoc/project_NOvA.html)|
-| ![SixTrack](/images/sixtrack_logo.png){:width="100px"} | [SixTrack](http://cern.ch/sixtrack) is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. [List of proposals](/gsoc/project_SixTrack.html) |
-| **SciKit-HEP** | The [Scikit-HEP project](http://scikit-hep.org/) is a community-driven and community-oriented project with the aim of providing Particle Physics at large with a Python package containing core and common tools. [List of proposals](/gsoc/project_SciKit-HEP.html)|
-| ![GeantV](/images/geantv_logo.png){:width="100px"} | The GeantV project aims at developing a high performance detector simulation system integrating fastand fullsimulation that  can  be  ported  on  different  computing  architectures,  including CPU accelerators. [List of proposals](/gsoc/project_GeantV.html)|
-| ![Geant4](/images/geanttiny.gif){:width="100px"} | Geant (for GEometry ANd Tracking) is a platform for "the simulation of the passage of particles through matter," using Monte Carlo methods. [List of proposals]({{site.baseurl}}/gsoc/project_Geant4.html)|
-| ![GoHEP](/images/go-hep-logo.png){:width="100px"} | The GoHEP project aims at developing robust and concurrency friendly libraries for HEP, astrophysics and cosmology. [List of proposals](/gsoc/project_GoHEP.html)|
-| **GoInterpreter** | The `GoInterpreter` project aims to provide an interpreter for the `Go` language. [List of proposals](/gsoc/project_GoInterpreter.html)|
-| ![FALCON](/images/falcon_logo.png){:width="100px"} | Falcon is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments. [List of proposals](/gsoc/project_FALCON.html)|
-| ![Pythia](/images/pythia99.gif){:width="100px"} | [Pythia](http://home.thep.lu.se/Pythia/) is the most widely used Monte Carlo event generator in particle physics. [List of proposals](/gsoc/project_Pythia.html)|
-| **TestU01** | TestU01 is a software library, implemented in the ANSI C language, and offering a collection of utilities for the empirical statistical testing of uniform random number generators. [List of proposals](/gsoc/project_TestU01.html)|
-| **GoPython** | `GoPython` is a set of tools to easily integrate `Go` and `Python`. [List of proposals](/gsoc/project_GoPython.html)|
-| ![PSPA](/images/pspa.png){:width="100px"} | [PSPA](https://groups.lal.in2p3.fr/pspa/) is a work-in-progress initiative to build an innovative platform to integrate existing accelerator simulation tools and connect them to the various parts of an accelerator structure. [List of proposals](/gsoc/project_PSPA.html)|
-| ![HSF](/images/kubernetes.png){:width="100px"} | [Kubernetes](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications. [List of proposals](/gsoc/project_Kubernetes.html)|
+Information from last year’s GSoC can be found [here]({{ site.baseurl }}/gsoc/2020/index.html).
 
 
-## Participating Organizations
+### GSoC 2021
 
-{:.table .table-hover  .table-striped}
-| ![CERN](/images/CERN-logo.jpg){:width="100px"} | At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world's largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. [List of proposals]({{site.baseurl}}/gsoc/cern.html)|
-| ![Fermilab](/images/FNAL-Logo-NAL-Blue.jpg){:width="100px"} | [Fermi National Accelerator Laboratory](http://www.fnal.gov/) (FNAL) is a Department of Energy national laboratory dedicated to particle physics research. Fermilab supports work by scientists, from across the country and the globe, who seek to further our understanding of matter, energy, space and time. [List of proposals]({{site.baseurl}}/gsoc/fnal.html)|
-| ![Universidad de Antioquia](/images/udea_logo.png){:width="100px"} | Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. [List of proposals](/gsoc/udea.html)|
-| ![Cornell University](/images/cornell_logo.gif){:width="100px"} | Founded in 1865, Cornell is a leading private institution of higher learning located in Ithaca, New York. [List of proposals](/gsoc/cornell.html)|
-| ![Princeton University](/images/princeton-logo.png){:width="100px"} | Princeton University is a private Ivy League research university in Princeton, New Jersey. [List of proposals](/gsoc/princeton.html)|
-| ![University of Bologna ](/images/unibo_logo.jpg){:width="100px"} | University of Bologna, one of the oldest and most famous universities in Europe. [List of proposals](/gsoc/ubologna.html)|
-| ![University of Cincinnati ](/images/Uc-seal.png){:width="100px"} | University of Cincinnati [List of proposals](/gsoc/cincinnati.html)|
-| ![Karlsruhe Institute of Technology](/images/kit_logo.png){:width="100px"} | The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. [List of proposals](/gsoc/kit.html)|
-| ![Massachusetts Institute of Technology](/images/MIT_logo.png){:width="100px"} | The [Massachusetts Institute of Technology](http://web.mit.edu/) is a private university in Cambridge, Massachusetts. [List of proposals](/gsoc/mit.html)|
-| ![University of Florida](/images/ufl_logo.jpg){:width="100px"} | University of Florida is a public institution that was founded in 1853. [List of proposals](/gsoc/uflorida.html)|
-| ![LAL](/images/logo_LAL.jpg){:width="100px"} | [LAL](http://www.lal.in2p3.fr) is a French research laboratory belonging to CNRS/IN2P3 and located at Université Paris Sud. The main topics of the research done at LAL are high energy physics, cosmology and accelerators. [List of proposals](/gsoc/lal.html)|
-| ![LPC](/images/lpc-logo.png){:width="100px"} | Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. [List of proposals](/gsoc/lpc-clermont.html)|
-| ![National Technical University of Ukraine](/images/NTUU_KPI_logo.png){:width="100px"} | The National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute" is a major university in Kiev, Ukraine. [List of proposals](/gsoc/ntuukpi.html)|
-| ![University of Montreal](/images/umontreal_logo.png){:width="100px"} | The Université de Montréal is a public research university in Montreal, Quebec, Canada. [List of proposals](/gsoc/umontreal.html)|
-| ![Florida State University](/images/fsu_logo.jpg){:width="100px"} | Florida State University is a public institution that was founded in 1851. [List of proposals](/gsoc/fsu.html)|
-| ![Queen Mary University of London](/images/queen-mary-logo.jpg){:width="100px"} | Queen Mary University of London is a public research university in London that was founded in 1785. [List of proposals](/gsoc/queenmary.html)|
-| ![BNL](/images/BNL_logo.jpg){:width="100px"} | Celebrating its 70th birthday in 2017, BNL on Long Island, New York hosts major facilities including RHIC and the new NSLS-II light source, and participates in international science including ATLAS at the LHC. [List of proposals](/gsoc/bnl.html)|
-| ![University of Oslo](/images/UOslo.png){:width="100px"} | University of Oslo [List of proposals](/gsoc/uoslo.html)|
-| ![Metropolitan Institute of Technology](/images/logo_itm.png){:width="100px"} | ITM is an accredited public University, founded in 1944, in Medellin Colombia. [List of proposals](/gsoc/itm.html)|
-| ![Universitat Jaume I](/images/uji_logo.jpg){:width="100px"} |The Universitat Jaume I is a public university in Castelló de la Plana, Spain. [List of proposals](/gsoc/uji.html)|
-| ![Indiana University](/images/iu_logo.png){:width="100px"} | [Indiana University] (https://www.indiana.edu/), Bloomington. [List of proposals](/gsoc/iu.html)|
+In 2021 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. The HSF project ideas are listed [below](#projects-in-2021). There are important changes in the [program rules](https://summerofcode.withgoogle.com/rules/)  and the [timeline](https://summerofcode.withgoogle.com/how-it-works/) compared to the previous year, described in the GSoC 2021 [announcement](https://groups.google.com/g/google-summer-of-code-discuss/c/GgvbLrFBcUQ). Most notably, the student project duration has been halved (175 hours instead of 350). Adapting to this new timeline, CERN-HSF is proposing this year shorter projects having well-defined deliverables.
 
+The selection process in our organization was split in two phases. All candidates had to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. The successful candidates had a detailed exchange with mentors on a given project idea, and their proposals were evaluated for the final student selection. The detailed [timeline]({{site.baseurl}}/activities/gsoc.html#timeline) of these phases is shown below.
 
-[Full list of Proposal Ideas](/gsoc/summary.html)
+The blog posts made by our 2021 students are available [here]({{ site.baseurl }}/gsoc/2021/blogs.html).
 
-[Full list of Mentors](/gsoc/mentors.html)
+### For Students
 
-## Contact information (for students)
-Please do not hesitate to contact us if you are planning to apply for any of the above projects:
-HSF GSoC mailing list:[hep-software-foundation-google-summer-of-code@googlegroups.com](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)  no subscription needed
+If you are interested in the HSF projects, please start by having a look at our [guidelines for students]({{ site.baseurl }}/gsoc/students-guideline.html).
+
+New projects for HSF GSoC in 2021 will be published by **February 19**. Meanwhile you can take a look at last year's HSF GSoC [projects]({{ site.baseurl }}/gsoc/2020/index.html#projects-in-2020) since many of those may also propose subjects this year. The student application period will begin on **March 29**, but discussions about student project ideas with mentors will take place starting on **March 9**, when the list of accepted Organizations is announced. You are encouraged to monitor this website in order to get acquainted with our projects and be prepared for contacting their mentors. Due to the high number of applicants for CERN-HSF projects, the application period procedure become more formal this year, so please try to follow our guidance.
+
+Please avoid having the first contact with the mentors of HSF projects before **March 9** or after **March 20**! You are encouraged to take the time to read our project proposals until **March 9**, focusing on only one or two projects that attract your interest. Once you have identified those, you should e-mail the respective mentors, attaching your CV and describing the motivation for your choice. The mentors will first propose an evaluation test, waiting for your solution. Note that the test you are given is private, your solution should be personal and the response time is part of the evaluation. Mentors will let you know the test results, and if you passed they will start discussing and helping you develop a project idea. The student application period is **March 29 - April 13**, when you will have to write and review your proposal with help from your mentors.
+
+For further information, feel free to contact the HSF GSoC admins or join our open chat channel below. Note that the channel is intended for exchanging with the admins, the other candidates and some of the CERN-HSF students from previous year, and we do not maintain a mailing list for candidates. Please avoid posting extended information about yourself in the chat channel and reserve this for the direct exchange with the mentors.
+
+[hsf-gsoc-admin@googlegroups.com](mailto:hsf-gsoc-admin@googlegroups.com)
+
+[![Gitter](https://badges.gitter.im/HSF/HSF-GSoC.svg)](https://gitter.im/HSF/HSF-GSoC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+### For Projects and Mentors
+
+Instructions for participating projects and mentors can be found [here]({{ site.baseurl }}/gsoc/guideline.html). The main differences compared to last year are that proposals have to be tuned for 175-hour project length, and the target objectives must be well-defined deliverables.
+
+We have a mentor-only Google group where we handle all announcements related to GSoC for our HSF Umbrella Organization. Please write us a mail to [hsf-gsoc-admin@googlegroups.com](mailto:hsf-gsoc-admin@googlegroups.com) if you want to add your preferred email to this list. Note that all participating mentors in 2021 HSF GSoC will have to be added to this group. Please let us know if for some reason your want your mail removed from this list.
+
+For new HEP-related groups wishing to join HSF GSoC umbrella rather than being independent organizations: there is no formal procedure, you will just need to add a description and logo for your organization. Note that your project needs to have some connection with high-energy physics to join us. We need one contact person for each new group, so please write us an e-mail.
+
+## Timeline
+
+<table class="table table-hover table-striped">
+  <tr>
+    <td> Dec 18, 2020 </td>
+    <td> Announcement of GSoC 2021 program in HSF </td>
+  </tr>
+  <tr>
+    <td> Jan 15 </td>
+    <td>Call for 2021 HSF GSoC projects and mentors</td>
+  </tr>
+  <tr>
+    <td> Jan 15 - Feb 15 </td>
+    <td> Mentors add project proposals available on the HSF GSoC website </td>
+  </tr>
+  <tr>
+    <td> Mar 9 </td>
+    <td> Accepted Organizations announced by Google </td>
+  </tr>
+  <tr>
+    <td> Mar 9 - Mar 20  Extended. </td>
+    <td><p><font color="blue"> Phase 1 selection </font></p> Candidates have a first contact with project mentors. </td>
+  </tr>
+  <tr>
+    <td> Mar 20 - Mar 25  Extended. </td>
+    <td> Mentors announce to students the result of phase 1 selection </td>
+  </tr>
+  <tr>
+    <td> Mar 20 - Apr 6 </td>
+    <td> Candidates discuss with mentors their project idea, timeline and objectives </td>
+  </tr>
+  <tr>
+    <td> Apr 6 - Apr 13 </td>
+    <td> Mentors help candidates improving their proposals, proposals are submitted </td>
+  </tr>
+  <tr>
+    <td> Apr 13 </td>
+    <td> Student application deadline </td>
+  </tr>
+  <tr>
+    <td> Apr 14 - Apr 20 </td>
+    <td><p><font color="blue"> Phase 2 selection </font></p> Mentors evaluate and rank student proposals. </td>
+  </tr>
+  <tr>
+    <td> Apr 20 </td>
+    <td> Rankings due for mentors, sent to HSF Org Admins </td>
+  </tr>
+  <tr>
+    <td> Apr 21 - Apr 27 </td>
+    <td> Admins propose a range of slots to be asked</td>
+  </tr>
+  <tr>
+    <td> Apr 28 - May 2 </td>
+    <td> HSF committee validates the range of slots and the projects in reserve </td>
+  </tr>
+  <tr>
+    <td> May 3 </td>
+    <td> Student slot requests due for Org Admins </td>
+  </tr>
+  <tr>
+    <td> May 13 </td>
+    <td> Student Project selections due from Org Admins </td>
+  </tr>
+  <tr style="color: red;">
+    <td> May 17 </td>
+    <td> Accepted student projects announced  </td>
+  </tr>
+</table>
+
+## Projects in 2021
+
+{% assign current_year = "2021" %}
+{% include gsoc_project_list.ext year=current_year %}
+
+## Participating Organizations in 2021
+
+{% include gsoc_organization_list.ext year=current_year %}
+
+## Summary
+
+[Full list of Proposal Ideas]({{ site.baseurl }}/gsoc/2021/summary.html)
+
+[Full list of Mentors]({{ site.baseurl }}/gsoc/2021/mentors.html)
+
+---
+
+## Contacts
+
+*HSF GSoC mentor discussion* [e-group](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)
+
+*HSF GSoC administrators:* [Andrei Gheata, Antoine Pérus and Xavier Valls](mailto:hsf-gsoc-admin@googlegroups.com)
+

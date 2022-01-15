@@ -1,5 +1,5 @@
 <hr>
-  <h4><a href="/events.html">Upcoming Events</a></h4>
+  <h4><a href="{{ '/events.html' | relative_url }}">Upcoming Events</a></h4>
   <ul class="lead">
 
   {% assign sitedate = site.time | date: "%m-%d-%Y"   %}
@@ -11,5 +11,3 @@
   {% endfor %}
 
   </ul>
-
-See also <a href="http://hepsoftware.org/?popupmode=Events&amp;popupstate=events">HEP S&amp;C community events</a>

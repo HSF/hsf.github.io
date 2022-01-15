@@ -1,0 +1,385 @@
+# Sorted by ascending date => New events go on top
+# You can use the scripts from https://github.com/HSF/website-helpers/
+# to update or reformat this file interactively.
+- author: Sebastian Lopienski
+  date: 2022-08-28
+  deadline: 2022-04-17
+  end_date: 2022-09-10
+  source: https://csc.web.cern.ch/
+  tags: []
+  title: CERN School of Computing 2022
+- author: Sebastian Lopienski
+  date: 2022-06-19
+  deadline: 2022-03-13
+  end_date: 2022-06-25
+  source: https://csc.web.cern.ch/
+  tags: []
+  title: Thematic CERN School of Computing on *"Security of Research Computing Infrastructures"*
+- author: Sebastian Lopienski
+  date: 2022-05-01
+  deadline: 2022-01-23
+  end_date: 2022-05-07
+  source: https://indico.cern.ch/e/tCSC-2022
+  tags: []
+  title: Thematic CERN School of Computing on *"Scientific Software for Heterogeneous Architectures"*
+- author: Sudhir Malik
+  date: 2022-03-28
+  deadline: ''
+  end_date: 2022-03-30
+  source: https://indico.cern.ch/event/1112526/
+  tags: HSF
+  title: Software Carpentry (Virtual)
+- author: Sebastian Lopienski
+  date: 2021-10-10
+  deadline: ''
+  end_date: 2021-10-16
+  source: https://indico.cern.ch/e/tCSC-autumn-2021
+  tags: []
+  title: Thematic CERN School of Computing (tCSC autumn 2021)
+- author: Sudhir Malik
+  date: 2021-12-13
+  deadline: ''
+  end_date: 2021-12-15
+  source: https://indico.cern.ch/event/1097111/
+  tags: HSF
+  title: Software Carpentry (Virtual)
+- author: Sudhir Malik
+  date: 2021-08-25
+  deadline: ''
+  end_date: 2021-08-27
+  source: https://indico.cern.ch/event/1058873/
+  tags: HSF
+  title: Software Carpentry (Virtual)
+- author: Kilian Lieret
+  date: 2021-07-17
+  deadline: ''
+  end_date: 2021-07-22
+  source: https://indico.fnal.gov/event/49414/
+  tags: ''
+  title: 2021 Intensity Frontier Computing Summer School
+- author: Sebastian Lopienski
+  date: 2021-06-14
+  deadline: ''
+  end_date: 2021-06-18
+  source: https://indico.cern.ch/e/tCSC-spring-2021
+  tags: []
+  title: Thematic CERN School of Computing (tCSC spring 2021 - online)
+- author: Sudhir Malik
+  date: 2021-02-16
+  deadline: ''
+  end_date: 2021-02-20
+  source: https://indico.cern.ch/event/1001128/
+  tags: HSF
+  title: GitHub CI/CD Training
+- author: Michel Villanueva
+  date: 2021-01-22
+  deadline: ''
+  end_date: 2021-01-22
+  source: https://indico.cern.ch/event/997485/
+  tags: HSF
+  title: HSF Training Hackathon Follow-up
+- author: Michel Villanueva
+  date: 2021-01-18
+  deadline: ''
+  end_date: 2021-01-22
+  source: https://indico.cern.ch/event/979067/
+  tags: HSF
+  title: 2nd HEP C++ Course and Hands-on Training
+- author: Kilian Lieret
+  date: 2020-12-16
+  deadline: ''
+  end_date: 2020-12-18
+  source: https://indico.cern.ch/event/975487/
+  tags: HSF
+  title: HSF Training Hackathon
+- author: Kilian Lieret
+  date: 2020-11-02
+  deadline: ''
+  end_date: 2020-11-09
+  source: https://indico.cern.ch/event/958112/
+  tags: HSF
+  title: ML + GPU Training
+- author: Kilian Lieret
+  date: 2020-10-12
+  deadline: ''
+  end_date: 2020-10-16
+  source: https://indico.cern.ch/event/946584/
+  tags: HSF
+  title: C++ Course and Hands-on Training
+- author: Kilian Lieret
+  date: 2020-09-28
+  deadline: ''
+  end_date: 2020-10-02
+  source: https://indico.cern.ch/event/853710/
+  tags: []
+  title: 13th Inverted CERN School of Computing (iCSC 2020)
+- author: Kilian Lieret
+  date: 2020-09-21
+  deadline: ''
+  end_date: 2020-09-25
+  source: https://indico.cern.ch/event/936993/
+  tags: ''
+  title: HTCondor Workshop Autumn 2020
+- author: Kilian Lieret
+  date: 2020-08-23
+  deadline: 2020-04-05
+  end_date: 2020-09-05
+  source: https://indico.cern.ch/e/CSC-2020
+  tags: []
+  title: 43rd CERN School of Computing 2020 [**CANCELLED**]
+- author: Guillermo Fidalgo
+  date: 2020-08-02
+  deadline: 2020-03-31
+  end_date: 2020-08-12
+  source: https://indico.scc.kit.edu/event/721/registrations/266/
+  tags: []
+  title: MCnet-CTEQ summer school 2020
+- author: Kilian Lieret
+  date: 2020-07-27
+  deadline: ''
+  end_date: 2020-07-31
+  source: https://indico.cern.ch/event/888279/
+  tags: []
+  title: ATLAS Canada Computing Workshop
+- author: Kilian Lieret
+  date: 2020-07-27
+  deadline: 2020-07-14
+  end_date: 2020-07-30
+  source: https://indico.cern.ch/event/934651/
+  tags: HSF
+  title: Virtual Docker Training
+- author: Guillermo Fidalgo
+  date: 2020-07-13
+  deadline: ''
+  end_date: 2020-07-17
+  source: https://www.eudat.eu/node/1314?action=showcontent&id=1314&idnewsletter=114&guid=4136&source=4&lang=en
+  tags: []
+  title: EUDAT Summer School 2020 Where data meets HPC [**CANCELLED**]
+- author: Guillermo Fidalgo
+  date: 2020-07-06
+  deadline: 2020-03-31
+  end_date: 2020-07-10
+  source: https://opensciencegrid.org/user-school-2020/
+  tags: HSF
+  title: OSG User School 2020
+- author: Kilian Lieret
+  date: 2020-06-22
+  deadline: ''
+  end_date: 2020-07-01
+  source: https://indico.in2p3.fr/event/20306/
+  tags: []
+  title: ESCAPE Summer School [**POSTPONED**]
+- author: Guillermo Fidalgo
+  date: 2020-06-17
+  deadline: 2020-02-21
+  end_date: 2020-06-30
+  source: https://indico.cern.ch/event/856903/page/18705-home
+  tags: []
+  title: 2020 CERN-JINR European School of HEP [**CANCELLED**]
+- author: Guillermo Fidalgo
+  date: 2020-06-07
+  deadline: 2020-02-27
+  end_date: 2020-06-13
+  source: https://indico.cern.ch/event/861566/program
+  tags: []
+  title: Thematic CERN School of Computing 2020 [**POSTPONED**]
+- author: Kilian Lieret
+  date: 2020-06-02
+  deadline: ''
+  end_date: 2020-06-04
+  source: https://indico.cern.ch/event/904759/
+  tags: HSF
+  title: Virtual Pipelines Training
+- author: Kilian Lieret
+  date: 2020-04-28
+  deadline: ''
+  end_date: 2020-04-30
+  source: https://indico.cern.ch/event/867700/
+  tags: HSF
+  title: Alpaka Parallel Programming - Advanced Training Hackathon
+- author: Kilian Lieret
+  date: 2020-04-27
+  deadline: ''
+  end_date: 2020-04-27
+  source: https://indico.cern.ch/event/858758/
+  tags: HSF
+  title: Alpaka Parallel Programming - Taster Session and Basic Tutorial
+- author: Kilian Lieret
+  date: 2020-03-24
+  deadline: ''
+  end_date: 2020-03-27
+  source: https://indico.cern.ch/event/882660/
+  tags: HSF
+  title: Software Carpentry at CERN [**POSTPONED/CANCELLED**]
+- author: Guillermo Fidalgo
+  date: 2020-03-23
+  deadline: 2020-02-15
+  end_date: 2020-03-29
+  source: http://hep2020.tpu.ru/webcenter/portal/transib2020/page15?_adf.ctrl-state=2shs7c3nq_4
+  tags: []
+  title: 3rd Trans-Siberian School of High Energy Physics
+  url_proof_ignore: true
+- author: Guillermo Fidalgo
+  date: 2020-03-06
+  deadline: 2020-01-15
+  end_date: 2020-03-09
+  source: https://mosphys.ru/
+  tags: []
+  title: Moscow International School of Physics 2020
+- author: Kilian Lieret
+  date: 2020-02-17
+  deadline: ''
+  end_date: 2020-02-19
+  source: https://indico.cern.ch/event/854880/
+  tags: []
+  title: Analysis Preservation Bootcamp
+- author: Guillermo Fidalgo
+  date: 2020-02-10
+  deadline: 2020-02-09
+  end_date: 2020-02-14
+  source: http://gsr.to.infn.it/
+  tags: []
+  title: International school on particle detectors "Giornate di Studio sui Rivelatori"
+    in Cogne (Italy)
+- author: Kilian Lieret
+  date: 2020-01-21
+  deadline: ''
+  end_date: 2020-02-25
+  source: https://indico.cern.ch/event/875393/
+  tags: HSF
+  title: CSU Summer Student Computing/Analysis Training 2020
+- author: Guillermo Fidalgo
+  date: 2020-01-13
+  deadline: 2019-10-15
+  end_date: 2020-01-22
+  source: https://indico.cern.ch/event/828931/
+  tags: []
+  title: 11th International School of Trigger and Data Acquisition
+- author: Kilian Lieret
+  date: 2019-12-17
+  deadline: ''
+  end_date: 2019-12-19
+  source: http://urssi.us/winterschool/
+  tags: []
+  title: URSSI Winter School in Research Software Engineering
+- author: Guillermo Fidalgo
+  date: 2019-10-28
+  deadline: ''
+  end_date: 2019-11-01
+  source: https://indico.desy.de/indico/event/22731/
+  tags: []
+  title: 1st Pan-European Advanced School on Statistics in HEP
+- author: Guillermo Fidalgo
+  date: 2019-10-21
+  deadline: ''
+  end_date: 2019-10-26
+  source: https://agenda.infn.it/event/19049/
+  tags: []
+  title: Third international School on Open Science Cloud
+- author: Guillermo Fidalgo
+  date: 2019-10-21
+  deadline: ''
+  end_date: 2019-10-26
+  source: https://web.infn.it/esc/index.php?lang=en
+  tags: []
+  title: School on Efficient Scientific Computing
+- author: Guillermo Fidalgo
+  date: 2019-09-15
+  deadline: ''
+  end_date: 2019-09-28
+  source: https://indico.cern.ch/event/769356/
+  tags: []
+  title: CERN School of Computing
+- author: Guillermo Fidalgo
+  date: 2019-09-04
+  deadline: ''
+  end_date: 2019-09-07
+  source: https://indico.cern.ch/event/798971/
+  tags: []
+  title: 2019 CERN-JINR European School of HEP
+- author: Guillermo Fidalgo
+  date: 2019-08-28
+  deadline: ''
+  end_date: 2019-09-06
+  source: https://indico.cern.ch/event/795313/
+  tags: []
+  title: 14th CERN-Fermilab Hadron Collider Physics Summer School
+- author: Guillermo Fidalgo
+  date: 2019-08-26
+  deadline: ''
+  end_date: 2019-08-30
+  source: https://indico.scc.kit.edu/event/460/
+  tags: []
+  title: Gridka - The art of Data
+- author: Guillermo Fidalgo
+  date: 2019-07-22
+  deadline: ''
+  end_date: 2019-07-26
+  source: http://codas-hep.org/
+  tags: HSF
+  title: CoDaS-HEP School (Computational and Data Science Training for High Energy
+    Physics) at Princeton University
+- author: Guillermo Fidalgo
+  date: 2019-07-16
+  deadline: ''
+  end_date: 2019-07-26
+  source: http://www.physics.smu.edu/scalise/cteq/
+  tags: []
+  title: 2019 CTEQ Summer School University of Pittsburgh, USA
+- author: Guillermo Fidalgo
+  date: 2019-07-15
+  deadline: ''
+  end_date: 2019-07-19
+  source: https://opensciencegrid.org/user-school-2019/
+  tags: []
+  title: OSG User School 2019
+- author: Guillermo Fidalgo
+  date: 2019-06-02
+  deadline: ''
+  end_date: 2019-06-07
+  source: https://agenda.infn.it/event/16360/
+  tags: []
+  title: INFN School of Statistics
+- author: Guillermo Fidalgo
+  date: 2019-05-27
+  deadline: ''
+  end_date: 2019-06-04
+  source: https://agenda.infn.it/event/18060/
+  tags: []
+  title: Joint 9th IDPASC SCHOOL and XXXI INTERNATIONAL SEMINAR of NUCLEAR and SUBNUCLEAR
+    PHYSICS "Francesco Romano"
+- author: Guillermo Fidalgo
+  date: 2019-05-11
+  deadline: ''
+  end_date: 2019-05-26
+  source: https://indico.cern.ch/event/683620/registrations/
+  tags: []
+  title: Summer School on Intelligent Signal Processing for Frontier Physics and Industry
+- author: Guillermo Fidalgo
+  date: 2019-03-25
+  deadline: ''
+  end_date: 2019-03-25
+  source: https://indico.cern.ch/event/803015/
+  tags: []
+  title: Nvidia Workshop
+- author: Guillermo Fidalgo
+  date: 2019-03-13
+  deadline: ''
+  end_date: 2019-03-26
+  source: https://indico.cern.ch/event/763013/
+  tags: []
+  title: Latin American School
+- author: Guillermo Fidalgo
+  date: 2019-03-04
+  deadline: ''
+  end_date: 2019-03-07
+  source: https://indico.cern.ch/event/766995/
+  tags: []
+  title: Inverted CERN School of Computing
+- author: Guillermo Fidalgo
+  date: 2018-09-12
+  deadline: ''
+  end_date: 2018-09-25
+  source: http://2018.aepshep.org/
+  tags: []
+  title: AEPSHEP (Asia-Europe-Pacific School of High-Energy Physics)

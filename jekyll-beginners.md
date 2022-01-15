@@ -70,10 +70,14 @@ Look at the source of this page for an example.
 
 ### Converting Contents from Word or GoogleDoc
 
+Note that CodiMD is a better alternative for collaborative text which is destined for
+this website as it uses Markdown natively. However, if you do need to work from another
+source then...
+
 [pandoc](http://pandoc.org) is the swiss-army knife for the conversion between text formats. In particular it supports a very good conversion from Microsoft Word (`docx`) format to Jekyll markdown. The typical command to do this conversion is:
 
 ```
-pandoc -t markdown_github --base-header-level=2 --atx-headers -o organization/_posts/2016-05-19-startup.md document.docx
+pandoc -t gfm --shift-heading-level-by=2 --atx-headers -o organization/_posts/2020/2020-01-01-coordination.md document.docx
 ```
 
 This method can be used to convert a GoogleDoc document to markdown. To do it, use the GoogleDoc menu `File->Download as` and export the GoogleDoc document as a `docx` file. Then use the command above to convert to markdown.
@@ -81,11 +85,11 @@ This method can be used to convert a GoogleDoc document to markdown. To do it, u
 
 ### Inserting images
 
-To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Thenn in the page where you want to insert
+To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Then in the page where you want to insert
 it, add the following line:
 
 ```
-![Replacement text](/images/file){:height="400px" width="600px" .centered-image}
+![Replacement text]({{ site.baseurl }}/images/file){:height="400px" width="600px" .centered-image}
 ```
 
 where:
@@ -94,7 +98,7 @@ where:
 * `/images/file` is the path to the image file, relative to the top directory of the web site. Images are typically in
 `/images` directory.
 * `{...}` are optional rendering instructions, using CSS attributes. `height` and `width` are used to define the size of the
-rendered image (whatever is its orignal size), `px` meaning the unit is pixel. `.centered-image` is a CSS class that
+rendered image (whatever is its original size), `px` meaning the unit is pixel. `.centered-image` is a CSS class that
 allows to center horizontally the image (everything starting with a `.` is interpreted as a CSS class, typically defined
 into `css/hsf.css`).
 
@@ -115,8 +119,8 @@ but the short story is:
 * If you don't have one yet, create a clone of the GitHub HSF web site repository and move to the directory created (by default `hep-sf.githb.io`):
 
   ```bash
-  git clone https://github.com/HEP-SF/hep-sf.github.io.git
-  cd hep-sf.github.io
+  git clone https://github.com/HSF/hsf.github.io.git
+  cd hsf.github.io
   ```
 
 * Install/update your Jekyll installation (must be done regularly):

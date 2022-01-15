@@ -5,17 +5,30 @@ Organization title is defined by 'title' attribute in front matter of the parent
 grouping by organization and is case insensitive.
 {% endcomment %}
 
+{% assign url_tokens = page.url | split: '/' %}
+{% assign year_position = url_tokens.size | minus: 2 %}
+{% assign year = url_tokens[year_position] %}
+
 {:.table .table-hover .table-striped}
 
-# Project Proposals by {{ page.title }}
+# Project Proposals by {{ page.title }} in {{ year }}
+
+{{ page.description }}
+
+## Project List
 
 {% for proposal in site.gsocproposals %}
+{% assign url_tokens = proposal.url | split: '/' %}
+{% assign year_position = url_tokens.size | minus: 2 %}
+{% assign proposal_year = url_tokens[year_position] %}
+{% if proposal_year == year %}
 {% for organization in proposal.organization %}
 {% capture u_proposal_org %}{{ organization | upcase }}{% endcapture %}
 {% capture u_org %}{{ page.organization | upcase }}{% endcapture %}
 {% if u_proposal_org == u_org %}
-| [ {{ proposal.title }} ]( {{ proposal.url }} ) |
+* [ {{ proposal.title }} ]( {{ proposal.url }} )
 {% endif %}
 {% endfor %}
+{% endif %}
 {% endfor %}
 

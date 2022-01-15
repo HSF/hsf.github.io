@@ -14,7 +14,7 @@ open source licenses.
 or TN in short, are a possibility to share ideas, concepts, or results of discussions.
 They are meant to be informal and inclusive. And can contain any topic you may find relevant
 for the HSF community. The very first HSF TN explains this in detail: 
-[HSF Technical Notes policy](https://github.com/HEP-SF/documents/tree/master/HSF-TN/2015-01).
+[HSF Technical Notes policy](https://github.com/HSF/documents/tree/master/HSF-TN/2015-01).
 
 ## Open Source Licenses
 One of the complex, and always postponed questions is - what license should I use for my software?

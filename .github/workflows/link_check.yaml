@@ -1,0 +1,23 @@
+name: link_checker
+
+on: [push, pull_request]
+
+jobs:
+  check_new_links:
+    name: link_checker
+    runs-on: ubuntu-latest
+    container: hepsoftwarefoundation/hsf-jekyll
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v2
+
+      - name: jekyll build
+        run: |
+          bundler exec jekyll build
+
+      - name: actions link checker
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          config-file: '.github/config/mdcheck.json'
+          check-modified-files-only: 'yes'
+          use-verbose-mode: 'yes'
