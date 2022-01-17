@@ -108,7 +108,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
   </tr>
   <tr>
     <td> May 7 - May 12 </td>
-    <td> Admins propose a range of slots to be asked</td>
+    <td> Admins propose a range of slots to be asked, amended by the HSF committee.</td>
   </tr>
   <tr>
   </tr>
