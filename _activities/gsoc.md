@@ -107,7 +107,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
     <td> Rankings due for mentors, sent to HSF Org Admins </td>
   </tr>
   <tr>
-    <td> Apr 22 - Apr 29 </td>
+    <td> May 7 - May 12 </td>
     <td> Admins propose a range of slots to be asked</td>
   </tr>
   <tr>
