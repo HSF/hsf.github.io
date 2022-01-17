@@ -28,7 +28,9 @@ layout: default
 
 **Every proposal must be attached to an organization (e.g. CERN, Fermilab...) and to a project (e.g. ROOT, GeantV...).** If you add your own proposal yourself, be sure add the appropriate `organization` and `project` attributes (not case sensitive) in the *front-matter* section of the proposal. See next sections if you need to add a new organization or project but if you use an existing project and organization for your proposal you don't have to do anything else that what was described above.
 
-**Proposals have to be tuned this year for either 175-hour or 350h project length.** For 17h h projects please propose coding topics having well-defined deliverables, rather than R&D with unforeseen timeline and results. Remember that your student will effectively work in total only about 30 days (6 hours/day) on the project!
+**Proposals have to be tuned this year for either 175-hour or 350h project length.** For 175h projects please propose coding topics having well-defined deliverables, rather than R&D with unforeseen timeline and results. Remember that your student will effectively work in total only about 30 days (6 hours/day) on the project!
+
+Please do not forget to add **essential information** like *level of difficulty*, *duration* and an explicit statement about *mentor availability*. 
    
 ## Instructions for Adding a New Project
 
