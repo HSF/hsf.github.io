@@ -103,7 +103,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
     <td><p><font color="blue"> Phase 2 selection </font></p> Mentors evaluate and rank student proposals. </td>
   </tr>
   <tr>
-    <td> Apr 22 </td>
+    <td> May 7 </td>
     <td> Rankings due for mentors, sent to HSF Org Admins </td>
   </tr>
   <tr>
