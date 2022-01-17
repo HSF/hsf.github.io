@@ -111,8 +111,6 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
     <td> Admins propose a range of slots to be asked</td>
   </tr>
   <tr>
-    <td> Apr 29 - May 2 </td>
-    <td> HSF committee validates the range of slots and the projects in reserve </td>
   </tr>
   <tr>
     <td> May 12 </td>
