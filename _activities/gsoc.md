@@ -24,7 +24,7 @@ To answer these questions, particle physicists build software to simulate and an
 
 The CERN software for experiments (CERN EP-SFT) group has participated in the GSoC since 2011. Since 2017 the program has expanded to involve the high-energy physics community under the umbrella of the HEP Software Foundation.
 
-Information from last year’s GSoC can be found [here]({{ site.baseurl }}/gsoc/2022/index.html).
+Information from last year’s GSoC can be found [here]({{ site.baseurl }}/gsoc/2021/index.html).
 
 
 ### GSoC 2022
