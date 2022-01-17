@@ -83,7 +83,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
     <td><p><font color="blue"> Phase 1 selection </font></p> Candidates have a first contact with project mentors. </td>
   </tr>
   <tr>
-    <td> Mar 20 - Mar 25 </td>
+    <td> Apr 4 </td>
     <td> Mentors announce to students the result of phase 1 selection </td>
   </tr>
   <tr>
