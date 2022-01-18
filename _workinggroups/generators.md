@@ -62,7 +62,7 @@ on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-C
 
 #### Current convenors
 
-- Markus Deifenthaler, EIC and JLab (2022)
+- Markus Diefenthaler, EIC and JLab (2022)
 - Efe Yazgan, CMS and National Taiwan University (2020-2022)
 - Josh McFayden, ATLAS and University of Sussex (2018-2022)
 
