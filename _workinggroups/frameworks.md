@@ -46,10 +46,10 @@ discussions are held on the [hsf-tech-forum](https://groups.google.com/forum/#%2
 
 The group conveners are:
 
-- Benedikt Hegner, CERN and FCC
-- Kyle Knoepfel, FNAL and Neutrino Platform
-- Matti Kortelainen, FNAL and CMS
-- Vakho Tsulaia, LBNL and ATLAS
+- Benedikt Hegner, Key4hep and CERN
+- Kyle Knoepfel, Neutrino Platform and Fermilab
+- Matti Kortelainen, CMS and Fermilab
+- Vakho Tsulaia, ATLAS and LBNL
 
 [Email the WG Conveners](mailto:benedikt.hegner@cern.ch,knoepfel@fnal.gov,matti.kortelainen@cern.ch,vakhtang.tsulaia@cern.ch). <!-- markdown-link-check-disable-line -->
 

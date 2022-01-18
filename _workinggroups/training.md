@@ -16,7 +16,7 @@ The HSF Training Working Group aims to help the research community to provide tr
 The group aims to develop a training program that can be pursued by researchers to achieve the level of required knowledge. This ranges from basic core software skills needed by everyone to the advanced training required by specialists in software and computing.
 
 <div class="big-link-container">
-  <a href="/Schools/events.html">
+  <a href="{{site.baseurl}}/Schools/events.html">
     Join an event!<br/>
     Discover new topics together with mentors and peers!
   </a>
@@ -151,14 +151,14 @@ Upcoming schools:
 
 ## Conveners
 
-- Wouter Doudeck (EIC, University of Manitoba)
-- Kilian Lieret (LMU, Belle II, *from July 2022*)
+- Wouter Deconinck (EIC, University of Manitoba)
+- Kilian Lieret (Belle II, LMU, *from July 2022*)
 - Michel Hernandez Villanueva (Belle II, DESY)
 - Sudhir Malik (CMS, University of Puerto Rico)
 
 The conveners can be [reached by email](mailto:michel.hernandez.villanueva@desy.de,wouter.deconinck@umanitoba.ca,malik@fnal.gov,kilian.lieret@posteo.de). <!-- markdown-link-check-disable-line -->
 
-{% assign persons = "Kilian Lieret, Sudhir Malik, Michel Hernandez Villanueva, Wouter Doudeck" | split: ", " %}
+{% assign persons = "Kilian Lieret, Sudhir Malik, Michel Hernandez Villanueva, Wouter Deconinck" | split: ", " %}
 {% include list_of_selected_profiles.html %}
 ### Former Conveners:
 

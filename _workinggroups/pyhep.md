@@ -192,4 +192,4 @@ The event was kindly sponsored by
 
 - Chris Tunnell (XENON1T), 2019
 - Graeme Stewart (CERN EP-SFT), 2018
-- Ben Kirkler (LZ, CMS) 2020
+- Ben Krikler (LZ, CMS) 2020
