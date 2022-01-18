@@ -62,14 +62,15 @@ on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-C
 
 #### Current convenors
 
-- Andrea Valassi (2018-2021)
-- Efe Yazgan (2020-2021)
-- Josh McFayden (2018-2021)
+- Markus Deifenthaler, EIC and JLab (2022)
+- Efe Yazgan, CMS and National Taiwan University (2020-2022)
+- Josh McFayden, ATLAS and University of Sussex (2018-2022)
 
-All convenors can be reached via <hsf-generator-wg-convenors@googlegroups.com>.
+All convenors can be reached [by email](mailto:hsf-generator-wg-convenors@googlegroups.com). <!-- markdown-link-check-disable-line -->
 
 #### Former convenors
 
 - Stefan Hoeche (2018-2019)
 - Steve Mrenna (2018-2019)
 - Taylor Childers (2018-2019)
+- Andrea Valassi (2018-2021)
