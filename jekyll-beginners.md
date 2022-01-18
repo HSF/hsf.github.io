@@ -82,6 +82,13 @@ pandoc -t gfm --shift-heading-level-by=2 --atx-headers -o organization/_posts/20
 
 This method can be used to convert a GoogleDoc document to markdown. To do it, use the GoogleDoc menu `File->Download as` and export the GoogleDoc document as a `docx` file. Then use the command above to convert to markdown.
 
+## Linking to other subpages
+
+Please prefix `{{ site.baseurl }}` in your markdown links, for example
+
+```
+[link text]({{ site.baseurl}}/workinggroups/dataanalysis.html)
+```
 
 ### Inserting images
 
