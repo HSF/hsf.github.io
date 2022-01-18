@@ -15,6 +15,14 @@ jobs:
         run: |
           bundler exec jekyll build
 
+      - name: debug step (delete me)
+        run: |
+          apk add tree
+          pwd
+          find -name "*.html"
+          cd /
+          find -name "*.html"
+
       - name: actions link checker
         uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
