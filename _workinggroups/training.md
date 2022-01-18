@@ -16,7 +16,7 @@ The HSF Training Working Group aims to help the research community to provide tr
 The group aims to develop a training program that can be pursued by researchers to achieve the level of required knowledge. This ranges from basic core software skills needed by everyone to the advanced training required by specialists in software and computing.
 
 <div class="big-link-container">
-  <a href="/Schools/events.html">
+  <a href="{{site.baseurl}}/Schools/events.html">
     Join an event!<br/>
     Discover new topics together with mentors and peers!
   </a>
@@ -145,24 +145,23 @@ We are always looking for volunteers from the community to help us with our trai
   </a>
 </div>
 
-
 Upcoming schools:
 
 {% include list_of_upcoming_schools.md %}
 
 ## Conveners
 
-- Meirin Oan Evans (ATLAS)
-- Michel Hernandez Villanueva (Belle II)
-- Sudhir Malik (CMS)
+- Wouter Deconinck (EIC, University of Manitoba)
+- Kilian Lieret (Belle II, LMU, *from July 2022*)
+- Michel Hernandez Villanueva (Belle II, DESY)
+- Sudhir Malik (CMS, University of Puerto Rico)
 
-The conveners can be reached [by email](mailto:michmx@phy.olemiss.edu,me338@sussex.ac.uk,malik@fnal.gov). <!-- markdown-link-check-disable-line -->
+The conveners can be [reached by email](mailto:michel.hernandez.villanueva@desy.de,wouter.deconinck@umanitoba.ca,malik@fnal.gov,kilian.lieret@posteo.de). <!-- markdown-link-check-disable-line -->
 
-{% assign persons = "Meirin Oan Evans, Sudhir Malik, Michel Hernandez Villanueva" | split: ", " %}
+{% assign persons = "Kilian Lieret, Sudhir Malik, Michel Hernandez Villanueva, Wouter Deconinck" | split: ", " %}
 {% include list_of_selected_profiles.html %}
 ### Former Conveners:
 
 - Dario Menasce (INFN Milano), 2016-2019
-- Kilian Lieret (LMU, Belle II), 2020
 - Sam Meehan (CERN, ATLAS and FASER), 2020
-
+- Meirin Oan Evans (ATLAS), 2021
