@@ -190,6 +190,6 @@ The event was kindly sponsored by
 
 # Previous conveners
 
+- Ben Krikler (LZ, CMS) 2019-2021
 - Chris Tunnell (XENON1T), 2019
 - Graeme Stewart (CERN EP-SFT), 2018
-- Ben Krikler (LZ, CMS) 2020
