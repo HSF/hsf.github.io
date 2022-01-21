@@ -7,13 +7,15 @@
   "replacementPatterns": [
     {
       "pattern": "^/(.*)",
-      "replacement": "_site/$1"
+      "replacement": "{{BASEURL}}/$1"
     },
     {
       "pattern": "^\\s*{{\\s*site.baseurl\\s*}}\\s*/(.*)",
-      "replacement": "_site/$1"
+      "replacement": "{{BASEURL}}/$1"
     }
   ],
+  "projectBaseUrl": "_site/",
+  "baseUrl": "_site/",
   "timeout": "20s",
   "retryOn429": true,
   "retryCount": 5,
