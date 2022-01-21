@@ -17,10 +17,12 @@ jobs:
 
       - name: debug step (delete me)
         run: |
-          apk add tree
+          pwd
+          echo "--------------------"
+          file /__w/hsf.github.io/hsf.github.io/_site/training/curriculum.html
+          echo "--------------------"
           cd /
           find -name "*.html"
-          file /__w/hsf.github.io/hsf.github.io/_site/training/curriculum.html
 
       - name: actions link checker
         uses: gaurav-nelson/github-action-markdown-link-check@v1
