@@ -7,11 +7,11 @@
   "replacementPatterns": [
     {
       "pattern": "^/(.*)",
-      "replacement": "/__w/hsf.github.io/hsf.github.io/_site/$1"
+      "replacement": "_site/$1"
     },
     {
       "pattern": "^\\s*{{\\s*site.baseurl\\s*}}\\s*/(.*)",
-      "replacement": "/__w/hsf.github.io/hsf.github.io/_site/$1"
+      "replacement": "_site/$1"
     }
   ],
   "timeout": "20s",
