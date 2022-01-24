@@ -68,7 +68,7 @@ A big welcome to all of out incoming conveners for 2022 and many thanks to all o
 
 Many thanks to TJ Khoo (Analysis); Chris Jones and Attila Krasznahorkay (Frameworks); Andrea Valassi (Generators); Ben Krikler (PyHEP); David Lange (Reconstruction); Mircho Rozodov (Developer Tools); and Meirin Oan Evans (Training) for their work in 2021 and, in many cases, for quite a number of years before that. It’s very much appreciated!
 
-After this meeting outgoing conveners will be liberated from the mailing list, but we look foward to your continuing involvement in HSF and the WGs.
+After this meeting outgoing conveners will be liberated from the mailing list, but we look forward to your continuing involvement in HSF and the WGs.
 
 ### Data Analysis
 
@@ -132,7 +132,7 @@ Please see the slides attached to the agenda
 
 https://indico.cern.ch/event/1096580/contributions/4613188/subcontributions/364054/attachments/2376265/4059425/TrainingWG_HSFcoordinationMeeting_20Jan2022.pdf
 
-HSF Groups expressed interest in trainig (hope didnt miss any)
+HSF Groups expressed interest in trainig (hope didn't miss any)
 * Reconstruction & SW Trigger
 * Physics Generators
 * Software  Packaging 
@@ -202,7 +202,7 @@ Notes/Elaboration:
 
 - Given the length of today's agenda, probably best to take up the discussion on this proposal at the next meeting (3 Feb)
 - IRIS-HEP plans to help the Forum get started by organizing a Blueprint Meeting with the AF Forum coordinators as a kickoff
-- Chats with WLCG/DOMA team recognize that the activity would benefit from a liason between the HSF AF Forum and the WLCG/DOMA
+- Chats with WLCG/DOMA team recognize that the activity would benefit from a liaison between the HSF AF Forum and the WLCG/DOMA
 - Plan a HSF/WLCG community white paper on Analysis Facilities by the end of 2022 as a specific goal for the Forum activities 
 
 ### Calendar for 2022
