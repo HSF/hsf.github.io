@@ -130,7 +130,7 @@ Similarity with the tools group re. new C++ features - could cover that in commo
 
 Please see the slides attached to the agenda
 
-https://indico.cern.ch/event/1096580/contributions/4613188/subcontributions/364054/attachments/2376265/4059247/TrainingWG_HSFcoordinationMeeting_20Jan2022.pdf
+https://indico.cern.ch/event/1096580/contributions/4613188/subcontributions/364054/attachments/2376265/4059425/TrainingWG_HSFcoordinationMeeting_20Jan2022.pdf
 
 HSF Groups expressed interest in trainig (hope didnt miss any)
 * Reconstruction & SW Trigger
