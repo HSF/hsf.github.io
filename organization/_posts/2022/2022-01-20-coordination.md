@@ -64,11 +64,13 @@ Graeme gave an overview [plenary talk](https://indico.cern.ch/event/949705/contr
 
 ### General
 
-A big welcome to all of out incoming conveners for 2022 and many thanks to all of our continuing conveners.
+A big welcome to all of our incoming conveners for 2022 and many thanks to all of our continuing conveners.
 
 Many thanks to TJ Khoo (Analysis); Chris Jones and Attila Krasznahorkay (Frameworks); Andrea Valassi (Generators); Ben Krikler (PyHEP); David Lange (Reconstruction); Mircho Rozodov (Developer Tools); and Meirin Oan Evans (Training) for their work in 2021 and, in many cases, for quite a number of years before that. It’s very much appreciated!
 
 After this meeting outgoing conveners will be liberated from the mailing list, but we look forward to your continuing involvement in HSF and the WGs.
+
+All WGs uploaded their plans to the [agenda](https://indico.cern.ch/event/1096580/), which gets discussed group by group:
 
 ### Data Analysis
 
@@ -113,12 +115,17 @@ Good idea to look at new C++ features, a la module of the month.
 ### Event Generators
 
 Benjamin Morgan: use of julia for generators as in simulation could be a possible topic? 
-josh: for this to work you have to convince all generator authors... To make this work it would require convincing lots of people, the code base it already fragmented in Fortran, C++, Python. Idea is good but in practice it may be difficult. 
+
+Josh: for this to work you have to convince all generator authors... To make this work it would require convincing lots of people, the code base it already fragmented in Fortran, C++, Python. Idea is good but in practice it may be difficult. 
+
 Jim Pivarski: Just a note: in some syntactical ways, Julia is a shorter jump from Fortran than C++ is. In other fields (non-HEP), Julia is replacing Fortran, so generators, which still have more affinity for Fortran, is not inconceivable.
+
 Benjamin morgan: At least on the detector sim side, it’s not just use of Python/Julia for implementation, but also “good practices” for binding existing C/C++/Fortran libraries to these. That’s a slightly different scope, but can be a good bridge/intro. 
 
 Liz: Any discussion of neutrino generators? 
+
 Josh: it's on our radar.
+
 Liz: Fermilab put a proposal to do generators for neutrinos. If succeeded, definitely I'd nominate someone to give a talk on that. 
 
 ### Frameworks
@@ -128,9 +135,7 @@ Similarity with the tools group re. new C++ features - could cover that in commo
 
 ### Software Training
 
-Please see the slides attached to the agenda
-
-https://indico.cern.ch/event/1096580/contributions/4613188/subcontributions/364054/attachments/2376265/4059425/TrainingWG_HSFcoordinationMeeting_20Jan2022.pdf
+Please see the slides attached to the [agenda](https://indico.cern.ch/event/1096580/contributions/4613188/subcontributions/364054/attachments/2376265/4059425/TrainingWG_HSFcoordinationMeeting_20Jan2022.pdf)
 
 HSF Groups expressed interest in trainig (hope didn't miss any)
 * Reconstruction & SW Trigger
