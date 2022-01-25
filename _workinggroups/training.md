@@ -152,7 +152,7 @@ Upcoming schools:
 ## Conveners
 
 - Wouter Deconinck (EIC, University of Manitoba)
-- Kilian Lieret (Belle II, LMU, *from July 2022*)
+- Kilian Lieret (Belle II, LMU, *from June 2022*)
 - Michel Hernandez Villanueva (Belle II, DESY)
 - Sudhir Malik (CMS, University of Puerto Rico)
 
