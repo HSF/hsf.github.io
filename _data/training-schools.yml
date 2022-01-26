@@ -1,6 +1,13 @@
 # Sorted by ascending date => New events go on top
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
+- author: Sudhir Malik
+  date: 2022-03-15
+  deadline: ''
+  end_date: 2022-03-17
+  source: https://indico.cern.ch/event/1119339/
+  tags: []
+  title: 4th HEP C++ Course and Hands-on Training - The Essentials
 - author: Sebastian Lopienski
   date: 2022-08-28
   deadline: 2022-04-17
