@@ -27,7 +27,7 @@ of profiling and quality assurance toolkits.
 Current WG conveners:
 
 - Andreas Salzburger (ATLAS, CERN)
-- Jin Huang (EIC, BNL)
+- Jin Huang (sPHENIX/EIC, BNL)
 - Dorothea vom Bruch (LHCb, CPPM)
 
 [Contact the group conveners](mailto:dorothea.vom.bruch@cern.ch,andreas.salzburger@cern.ch,jhuang@bnl.gov) by email. <!-- markdown-link-check-disable-line -->
