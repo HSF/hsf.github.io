@@ -75,7 +75,7 @@
               <ul class="dropdown-menu" aria-labelledby="about_menu">
                 <li><a href="{{ site.baseurl }}/get_involved.html">Get involved!</a><li>
                 <li><a href="{{ site.baseurl }}/organization/team.html">The Coordination Team</a></li>
-                <li><a href="{{ site.baseurl }}/organization/planning/plan-of-work-2021.html">HSF Planning</a></li>
+                <li><a href="{{ site.baseurl }}/organization/planning/plan-of-work-2022.html">HSF Planning</a></li>
                 <li class="divider"></li>
                 <li><a href="{{ site.baseurl }}/organization/goals.html">Goals of the HSF</a></li>
                 <li><a href="{{ site.baseurl }}/organization/cwp.html">Community White Paper</a></li>
