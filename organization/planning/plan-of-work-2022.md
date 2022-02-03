@@ -7,9 +7,9 @@ layout: plain_toc
 ## Preamble
 
 At the beginning of 2022 the HSF established some high-level
-plans and goals for 2022. While none of these are cast in stone, we
+plans and goals for the year ahead. While none of these are cast in stone, we
 remain agile to adapt to new opportunities and circumstances throughout
-the year, they are a useful guide to our activities.
+the year. This planning is a useful guide to our activities.
 
 We encourage experiments and projects to take a look at these and
 we welcome any suggestions about how to make the HSF more effective
