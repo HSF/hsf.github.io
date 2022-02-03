@@ -118,7 +118,7 @@ the HSF coordination meeting on 20 January 2022.
 * We’re considering end of August/beginning of September instead of July.
 * We’re thinking of adding new features (still brainstorming)
   * Maybe adding hackathon / community building specific contributions
-* Would mean a call for “short tasks” across ecosystem package aside the usual call for presentations
+* Would mean a call for “short tasks” across the ecosystem packages aside the usual call for presentations
   * Possibly, hackathon in person at CERN’s Ideasquare
 
 #### Topical Meetings
