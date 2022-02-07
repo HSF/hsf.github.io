@@ -1,5 +1,5 @@
 ---
-title: ROOT: Automatic conversion of data stored in TTree form to RNTuple
+title: ROOT - Automatic conversion of data stored in TTree form to RNTuple
 layout: gsoc_proposal
 project: ROOT
 year: 2022
