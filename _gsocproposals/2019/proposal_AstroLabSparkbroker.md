@@ -11,7 +11,7 @@ organization: LAL
 Each observation night, telescopes all around the world issue alerts based on what they observe on the sky (see figure below). These alerts are typically streamed to other places, where the stream is analysed and the relevance of each alert is asserted in order to take a decision on the next steps to perform. Such decisions include for example retrieving a set of previous observations and extract the scientific information, sometimes hidden on a longer time-scale than the alert itself (transient objects, new objects, ...).
 Given the unprecedented precision of next generation of telescopes, the stream of alerts will be made of millions of alerts per night, reaching the TB per night, and decisions and actions must be taken extremely fast. 
 
-![broker](/images/system_design.png){:height="200px"} 
+![broker]({{ site.baseurl }}/images/system_design.png){:height="200px"} 
 
 _Typical flow of alerts in astronomy. Raw data are collected by the telescope every nights, and alerts are issued by the Alert System. These alerts are streamed to other places, and treated by brokers (red). Brokers need to assess the relevance of the alerts, correlate corresponding alert data with external data (raw data or previous processed alerts for example) if needed, and produce scientific products for further analyses. Dashed lines represent stream processes._
 

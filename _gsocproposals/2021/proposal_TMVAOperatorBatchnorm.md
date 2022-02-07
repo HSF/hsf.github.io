@@ -21,8 +21,10 @@ The expected result is a working implementation of a modular operator class that
  * C++, familiarity with the working mechanism of Batch Normalisation
 
 ## Mentors
- * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
  * **[Sitong An](mailto:s.an@cern.ch)**
+ * [Ashish Kshirsagar](mailto:ashishkshirsagar10@gmail.com)
+ * [Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)
+
 
 ## Links
  * [ROOT](https://root.cern/)

@@ -6,7 +6,7 @@ startdate: 2018-03-26
 ---
 
 The HSF and WLCG will hold a joint workshop that addresses the challenges
-identified by the [Community White Paper](/activities/cwp.html)
+identified by the [Community White Paper]({{ site.baseurl }}/activities/cwp.html)
 process. The workshop will focus on the long term evolution of 
 software and computing in HEP, particularly oriented towards
 the High Luminosity LHC, the Intensity Frontier and 

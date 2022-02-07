@@ -26,7 +26,7 @@ any in the HSF, is open to new participants and contributions. Most
 discussions so far took place in the HSF Technical Forum
 (<hsf-forum@googlegroups.com>).
 
-A first [Technical Note](/notes/HSF-TN-2016-01.pdf)
+A first [Technical Note]({{ site.baseurl }}/notes/HSF-TN-2016-01.pdf)
 was released in February 2016,
 discussing the main issues related to open-source software licensing and
 proposing some licensing recommendations for HSF projects which don't have
@@ -42,12 +42,12 @@ any licensing related questions there.
 
 # Meetings
 
-* [February 2017](/organization/2017/02/21/licensing.html)
+* [February 2017]({{ site.baseurl }}/organization/2017/02/21/licensing.html)
 
 # Resources
 
 * Software License Agreements: HSF Policy Guidelines - [Technical Note](http://hepsoftwarefoundation.org/notes/HSF-TN-2016-01.pdf),
   February 2016
 * Report from the Task Force on Open Source Software Licence at CERN - [Main
-report](/assets/OSL-TF_Final_Report-Main_Volume.pdf) and
-[Annexes](/assets/OSL-TF_Final_Report-Volume_of_Annexes.pdf)
+report]({{ site.baseurl }}/assets/OSL-TF_Final_Report-Main_Volume.pdf) and
+[Annexes]({{ site.baseurl }}/assets/OSL-TF_Final_Report-Volume_of_Annexes.pdf)

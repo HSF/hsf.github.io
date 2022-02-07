@@ -124,7 +124,7 @@ CWP
         [WIP](https://github.com/HSF/documents/pull/83).
         Need to fix a few remaining formatting issues (because of the
         move to a new LaTeX style) and have a final agreement with
-        Springer about using "HEP Software Fundation" as the author
+        Springer about using "HEP Software Foundation" as the author
         with the actual list in an appendix like in arXiv.
     -   Michel will continte the mechanics of the submission with this
         updated LaTeX version.

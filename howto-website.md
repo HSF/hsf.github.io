@@ -6,14 +6,14 @@ layout: default
 
 ## About the HSF website
 
-This site is maintained by the HSF GitHub [contributors](https://github.com/orgs/HSF/people). If you're interested to become one contact the [HSF coordination team](/organization/team.html) or any team member. It was set up by Torre Wenaus and Benedikt Hegner.
+This site is maintained by the HSF GitHub [contributors](https://github.com/orgs/HSF/people). If you're interested to become one contact the [HSF coordination team]({{ site.baseurl }}/organization/team.html) or any team member. It was set up by Torre Wenaus and Benedikt Hegner.
 
 ## Implementation
 
 This website is implemented using [GitHub's Pages](https://pages.github.com/) service, which makes it easy to create a website associated with a GitHub account or project. Pages uses [Jekyll](https://help.github.com/articles/using-jekyll-with-pages/), a tool to automatically build a website from source files (which are kept in GitHub). It supports structured sites like blogs in a simple but powerful way.
 The site content is written using the easy [Markdown syntax](http://daringfireball.net/projects/markdown/syntax) (which is used by GitHub itself).
 
-A [HSF documentation](/jekyll-beginners.html) provides some useful hints to make using Jekyll in the HSF context easier.
+A [HSF documentation]({{ site.baseurl }}/jekyll-beginners.html) provides some useful hints to make using Jekyll in the HSF context easier.
 
 ## How to add and edit information
 
@@ -26,7 +26,7 @@ If you wish (and it is recommended) you can easily set up a local instance of th
 on installing and running Jekyll.
 The website uses the master branch of the [hsf.github.io](https://github.com/HSF/hsf.github.io) repository.
 
-If you are not familiar with GitHub and Git, you can read our [survival kit](/github-beginners.html)!
+If you are not familiar with GitHub and Git, you can read our [survival kit]({{ site.baseurl }}/github-beginners.html)!
 
 ### General structure of website content files
 All Markdown files of this site start with a section surrounded by `---`. This
@@ -57,13 +57,13 @@ as the *live notes* link can be copied and cloned from one meeting to the next.
 
 Google Docs can also be used for shared notebooks, but in this case there is a need to convert
 the document to Markdown before it can be added to the website. This is less convenient, but
-we have [documentation](/jekyll-beginners.html) on how to do it.
+we have [documentation]({{ site.baseurl }}/jekyll-beginners.html) on how to do it.
 
 
 ### Adding a working group or activity
 
 *Before adding any new activity or proposing a new working group please discuss with the
-[HSF Coordination Team](/organization/team.html)! We will make sure it gets proposed
+[HSF Coordination Team]({{ site.baseurl }}/organization/team.html)! We will make sure it gets proposed
 in an HSF meeting for approval.*
 
 Then, for the technical creation, add a new file in the `_workinggroups` or `_activities` directory. Follow the front-matter of the
@@ -78,7 +78,7 @@ in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and th
 ### Adding a training event
 
 For *training events* we have a special handling that lists all of these together on the 
-[Training Working Group page](/workinggroups/training.html). To create a new
+[Training Working Group page]({{ site.baseurl }}/workinggroups/training.html). To create a new
 entry you can either:
 
 1. Run the interactive script ``scripts/add_training_event.py`` (recommended)
@@ -98,7 +98,7 @@ for adding the event in the ``Upcoming Events`` sidebar.
 
 ### Adding a newsletter
 
-[Newsletters](/newsletter.html) are occasional longer articles we publish. Each of these lives in `newsletter/_posts`.
+[Newsletters]({{ site.baseurl }}/newsletter.html) are occasional longer articles we publish. Each of these lives in `newsletter/_posts`.
 The format is very similar to the other
 content on the website, follow the front matter of the other files in there.
 
@@ -106,9 +106,9 @@ You can highlight a newsletter by updating the centre column of the frontpage of
 
 ### Adding your profile
 
-Some pages, like the [training community page](/training/community.html) feature "floating heads"
+Some pages, like the [training community page]({{ site.baseurl }}/training/community.html) feature "floating heads"
 corresponding to profiles of community members.
-See [howto profile](/howto-profile.html) for how to create your profile and how to include
+See [howto profile]({{ site.baseurl }}/howto-profile.html) for how to create your profile and how to include
 selected profiles into a page.
 
 ## Technical details

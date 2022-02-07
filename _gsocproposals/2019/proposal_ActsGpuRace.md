@@ -23,7 +23,7 @@ The fitting step of track reconstruction, in which particle track hypotheses
 are confronted to experimental data, uses the Kalman Filter algorithm in the
 5-dimensional space of possible track parameters. This entails performing
 linear algebra operations on a large amount of 5x5 matrices, a problem which
-has only received a limited amount of scrutinity from the linear algebra
+has only received a limited amount of scrutiny from the linear algebra
 community in the past. We are thus evaluating the relative performance of
 multiple linear algebra toolkits on this problem, using realistic input data
 from typical Acts use cases.

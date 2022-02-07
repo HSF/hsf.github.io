@@ -1,4 +1,4 @@
-/* Boostrap blog theme */
+/* Bootstrap blog theme */
 
 /*
  * Globals
@@ -93,7 +93,7 @@
  */
 
 .blog-main {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
 }
 
@@ -169,11 +169,12 @@
   font-weight: 500;
   background-color: #555555;
   min-height: 40px;
+  font-size: 14px;
 }
 
 .navbar-brand {
  height: 40px;
- padding: 12.5px 15px;
+ padding: 9.5px 15px;
  font-size: 15px;
 }
 
@@ -198,6 +199,7 @@ a:hover {
 
 body {
   color: #333333;
+  font-size: 16.5px;
 }
 
 .btn-primary {
@@ -247,4 +249,127 @@ body {
 }
 .alignright {
   float: right;
+}
+
+/* COLORFUL BIG LINK */
+
+.big-link-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.big-link-container a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  min-height: 100pt;
+  padding: 15pt;
+  border-radius: 10px 20px;
+  background-color: #f9f2f4;
+}
+
+.big-link-container a:first-line {
+  font-weight: bold;
+  color: #cc5555;
+}
+
+/* TRAINING GROUP */
+
+/* LIST OF MODULES */
+
+.training-module {
+  width: 100%;
+  min-height: 100pt;
+  display: grid;
+  padding: 5pt;
+  border-radius: 10px 20px;
+}
+
+.tm-stable {
+  background-color: #f1f9f1;
+}
+
+.tm-alpha {
+  background-color: #f9f2f4;
+}
+
+.tm-beta {
+  background-color: #f9f9f1;
+}
+
+.training-module-name {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10pt;
+  font-size: 17px;
+}
+
+
+.training-module-status {
+  padding-top: 10pt;
+  text-align: center;
+}
+
+.training-module-webpage {
+  text-align: center;
+  display: block;
+  align-self: end;
+  padding-top: 10pt;
+}
+
+.training-module-repository {
+  padding-top: 10pt;
+  vertical-align: bottom;
+  text-align: center;
+  display: block;
+  align-self: end;
+}
+
+
+.training-module-videos {
+  text-align: center;
+  display: block;
+  align-self: end;
+}
+
+.training-module-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.training table {
+    padding: 0;
+    width: 100%;
+  }
+.training table tr {
+    border: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+.training table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.training table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.training table tr td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.training table tr th :first-child, .training table tr td :first-child {
+  margin-top: 0;
+}
+.training table tr th :last-child, .training table tr td :last-child {
+  margin-bottom: 0;
 }

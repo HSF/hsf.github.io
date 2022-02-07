@@ -48,7 +48,7 @@ Olivier: note that GPU port is at present only conceivable for LO, while for NLO
 
 ## Machine Learning techniques for MC integration (Josh Bendavid)
 
-Matrix elemnt calculation is the dominant computational cost. A DNN approach increases the integration or unweighting efficiency, hence it reduces the number of matrix element calculations needed.
+Matrix element calculation is the dominant computational cost. A DNN approach increases the integration or unweighting efficiency, hence it reduces the number of matrix element calculations needed.
 
 JoshMF: how hard would it be to integrate this in MadGraph? JoshB: presently working on a future development branch of MG using python, it would be more complex on the present Fortran based implementation. This work is still at the R&D stage.
 

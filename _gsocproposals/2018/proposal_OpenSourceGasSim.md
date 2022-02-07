@@ -14,7 +14,7 @@ Magboltz solves the Boltzmann transport equations with numerical integration in 
 
 Degrad calculates the cluster size distribution and primary cluster distribution in gas mixtures for minimum ionizing particles and X-rays.
 
-Both of these programs were originally made in Fortran, the code is available in the links bellow.
+Both of these programs were originally made in Fortran, the code is available in the links below.
 
 The goal of this project is to begin with a test python interface for Degrad and Magboltz, to design optimized python implementations of their processes, joint functionality, and can extend to new functionality related to the calculation as well as extensive reports of the results.
 

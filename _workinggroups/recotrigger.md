@@ -24,25 +24,28 @@ of profiling and quality assurance toolkits.
 
 ## Get involved
 
-Current WG conveners: 
-- Andreas Salzburger (ATLAS)
-- David Lange (CMS)
-- Dorothea vom Bruch (LHCb)
+Current WG conveners:
 
-[Contact the group conveners](mailto:dorothea.vom.bruch@cern.ch,andreas.salzburger@cern.ch,david.lange@cern.ch).
+- Andreas Salzburger (ATLAS, CERN)
+- Jin Huang (sPHENIX/EIC, BNL)
+- Dorothea vom Bruch (LHCb, CPPM)
+
+[Contact the group conveners](mailto:dorothea.vom.bruch@cern.ch,andreas.salzburger@cern.ch,jhuang@bnl.gov) by email. <!-- markdown-link-check-disable-line -->
 
 Everyone is welcome to participate and contribute on the forum and to the ongoing meetings. For more information, contact us or
 follow our mailing list on google groups [hsf-recotrigger](https://groups.google.com/forum/#!forum/hsf-recotrigger).
 
 ## Group activities
 
-* Reconstruction+Trigger group meetings: [agendas](https://indico.cern.ch/category/10917/) 
-* Reconstruction+Trigger sessions at HOW2019 JLab include discussions on real-time analysis, reconstruction on accelerators, and more: [agenda](https://indico.cern.ch/event/759388/timetable/#20190320.detailed).
+- Reconstruction+Trigger group meetings: [agendas](https://indico.cern.ch/category/10917/) 
+- Reconstruction+Trigger sessions at HOW2019 JLab include discussions on real-time analysis, reconstruction on accelerators, and more: [agenda](https://indico.cern.ch/event/759388/timetable/#20190320.detailed).
 
 ## Details
-[Mandate and link to other HSF working groups](/organization/working-group-mandates.html).
+
+[Mandate and link to other HSF working groups]({{ site.baseurl }}/organization/working-group-mandates.html).
 
 ## Former Conveners
 
 - Caterina Doglioni (ATLAS), 2019-2020
 - Agnieszka Dziurda (LHCb), 2019-2020
+- David Lange (CMS), 2019-2021

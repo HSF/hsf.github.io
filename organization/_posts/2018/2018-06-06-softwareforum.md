@@ -41,7 +41,7 @@ DD4hep and DD\* tools
       re-alignments. TGeo can do sanity checks for you for overlap and there are
       other toolkits that can help to.
 -   Ben M - For a small experiment to evaluate I would need to write a
-    convertor from the current description to DD4hep. 
+    converter from the current description to DD4hep. 
     - A. Yes.
 
 CMS Migration

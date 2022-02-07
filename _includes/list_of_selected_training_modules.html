@@ -1,0 +1,7 @@
+<div class="training-module-container">
+{% assign ids = include.ids | split: "," %}
+{% for id in ids %}
+{% assign module = site.data.training-modules | where:"id", id  | first %}
+{% include training_module.html %}
+{% endfor %}
+</div>

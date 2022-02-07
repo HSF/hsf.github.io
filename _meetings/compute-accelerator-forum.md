@@ -27,10 +27,10 @@ sent to the
 mailing list (please subscribe!).
 
 <p align=center>
-<img src="/images/SIDIS-full-logo-2l-smhx-dark_0.png"
+<img src="{{ '/images/SIDIS-full-logo-2l-smhx-dark_0.png' | relative_url }}"
   alt="SIDIS-logo" style="display: inline-block; width:25%; margin:3%">
-<img src="/images/hsf_logo_angled.png"
+<img src="{{ '/images/hsf_logo_angled.png' | relative_url }}"
   alt="HSF-logo" style="display: inline-block; width:20%; margin:3%">
-<img src="/images/LOGO_CERN_openlab_0.png"
+<img src="{{ '/images/LOGO_CERN_openlab_0.png' | relative_url }}"
   alt="openlab-logo" style="display: inline-block; width:25%; margin:3%">
 </p>

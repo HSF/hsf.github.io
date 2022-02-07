@@ -12,7 +12,7 @@ Geant4 and GeantV use Runge-Kutta methods to integrate the motion of charged par
 
 ## Task ideas
  * Introduce new methods for the control of integration error of existing integration Runge Kutta methods.
- * Create heuristics for choosing an appropriate method (helix, RK of particular order, Burlich/Stoer), using knowledge of the accuracy requirements and the variation of the derivative in the proposed step.
+ * Create heuristics for choosing an appropriate method (helix, RK of particular order, Burlich/Store), using knowledge of the accuracy requirements and the variation of the derivative in the proposed step.
  
 ## Expected results
 Working implementation of:

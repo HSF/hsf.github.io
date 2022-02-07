@@ -24,6 +24,7 @@ layout: plain
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Rafael Silva Coutinho [Rafael Silva Coutinho](mailto:rafael.silva.coutinho@cern.ch) UZH
 * Vincent Croft [vincent.croft@cern.ch](mailto:vincent.croft@cern.ch) Tufts
+* Anirudh Dagar [anirudhdagar6@gmail.com ](mailto:anirudhdagar6@gmail.com )  Indian Institute of Technology, Roorkee
 * Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) Lund University
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) Monash University
 * Simeon Ehrig [s.ehrig@hzdr.de](mailto:s.ehrig@hzdr.de) HZDR
@@ -37,6 +38,7 @@ layout: plain
 * Ioana Ifrim [ioana.ifrim@cern.ch](mailto:ioana.ifrim@cern.ch) Princeton University
 * Dan Johnson [d.j@cern.ch](mailto:d.j@cern.ch) CERN
 * Rafal Dominik Krawczyk  [rafal.dominik.krawczyk@cern.ch](mailto:rafal.dominik.krawczyk@cern.ch) CERN
+* Ashish Kshirsagar [ashishkshirsagar10@gmail.com](mailto: ashishkshirsagar10@gmail.com) Barclays
 * Thomas Kuhr [thomas.kuhr@lmu.de](mailto:thomas.kuhr@lmu.de) LMU
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton University
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
@@ -56,15 +58,13 @@ layout: plain
 * Krishnan Raghavan [krishnan.raghavan@cern.ch](mailto:krishnan.raghavan@cern.ch) CERN
 * Baptiste Ravina [baptiste.ravina@cern.ch](mailto:baptiste.ravina@cern.ch) UofGlasgow
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) Universita' degli Studi di Milano Bicocca
-* Jonas Rembser[Jonas.Rembser@cern.ch](mailto: Jonas.Rembser@cern.ch) CERN
+* Jonas Rembser[Jonas.Rembser@cern.ch](mailto:Jonas.Rembser@cern.ch) CERN
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) Imperial College London
-* Stefan Roiser [stefan.roiser@cern.ch](mailto:stefan.roiser@cern.ch) CERN
 * Oksana Shadura [oksana.shadura@cern.ch](mailto:oksana.shadura@cern.ch) University of Nebraska-Lincoln
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) Imperial College London
 * Graeme A Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN
 * Alex Unger [aunger@owncloud.com](mailto:aunger@owncloud.com) ownCloud
 * Michael Usher [michael.usher@aarnet.edu.au](mailto:michael.usher@aarnet.edu.au) AARNet
-* Andrea Valassi [andrea.valassi@cern.ch](mailto:andrea.valassi@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) Princeton University
 * Pim Verschuuren [pim.verschuuren@rhul.ac.uk](mailto:pim.verschuuren@rhul.ac.uk) Royal Holloway University of London
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN

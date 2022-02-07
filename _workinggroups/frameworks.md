@@ -46,8 +46,14 @@ discussions are held on the [hsf-tech-forum](https://groups.google.com/forum/#%2
 
 The group conveners are:
 
-- Chris Jones, FNAL <cdj@fnal.gov>
-- Kyle Knoepfel, FNAL <knoepfel@fnal.gov>
-- Attila Krasznahorkay, CERN <Attila.Krasznahorkay@cern.ch>
+- Benedikt Hegner, Key4hep and CERN
+- Kyle Knoepfel, Neutrino Platform and Fermilab
+- Matti Kortelainen, CMS and Fermilab
+- Vakho Tsulaia, ATLAS and LBNL
 
-[Email WG Conveners](mailto:cdj@fnal.gov,knoepfel@fnal.gov,Attila.Krasznahorkay@cern.ch)
+[Email the WG Conveners](mailto:benedikt.hegner@cern.ch,knoepfel@fnal.gov,matti.kortelainen@cern.ch,vakhtang.tsulaia@cern.ch). <!-- markdown-link-check-disable-line -->
+
+### Former Conveners
+
+- Chris Jones, FNAL 2020-2021
+- Attila Krasznahorkay, CERN 2020-2021

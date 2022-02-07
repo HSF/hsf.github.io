@@ -92,7 +92,7 @@ Gheata, Paul Laycock, Pere Mato, Gloria Corti
 
 ### Packaging
   - [<span class="underline">Meeting on 27
-    March</span>](https://indico.cern.ch/event/802100/) ([minutes](/organization/2019/03/27/packaging.html)):
+    March</span>](https://indico.cern.ch/event/802100/) ([minutes]({{ site.baseurl }}/organization/2019/03/27/packaging.html)):
       - Review of JLab meeting.
       - Update from SuperNEMO on building with Spack.
       - Discussed issues with ROOT recipe in Spack.

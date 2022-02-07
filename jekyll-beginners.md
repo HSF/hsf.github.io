@@ -82,14 +82,21 @@ pandoc -t gfm --shift-heading-level-by=2 --atx-headers -o organization/_posts/20
 
 This method can be used to convert a GoogleDoc document to markdown. To do it, use the GoogleDoc menu `File->Download as` and export the GoogleDoc document as a `docx` file. Then use the command above to convert to markdown.
 
+## Linking to other subpages
+
+Please prefix `{{ site.baseurl }}` in your markdown links, for example
+
+```
+[link text]({{ site.baseurl}}/workinggroups/dataanalysis.html)
+```
 
 ### Inserting images
 
-To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Thenn in the page where you want to insert
+To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Then in the page where you want to insert
 it, add the following line:
 
 ```
-![Replacement text](/images/file){:height="400px" width="600px" .centered-image}
+![Replacement text]({{ site.baseurl }}/images/file){:height="400px" width="600px" .centered-image}
 ```
 
 where:
@@ -98,7 +105,7 @@ where:
 * `/images/file` is the path to the image file, relative to the top directory of the web site. Images are typically in
 `/images` directory.
 * `{...}` are optional rendering instructions, using CSS attributes. `height` and `width` are used to define the size of the
-rendered image (whatever is its orignal size), `px` meaning the unit is pixel. `.centered-image` is a CSS class that
+rendered image (whatever is its original size), `px` meaning the unit is pixel. `.centered-image` is a CSS class that
 allows to center horizontally the image (everything starting with a `.` is interpreted as a CSS class, typically defined
 into `css/hsf.css`).
 

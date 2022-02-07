@@ -14,13 +14,13 @@ With the recent developments in ROOT framework - Distributed RDataFrame, there i
 
 ## Task ideas
 * Creation of Kubernetes cluster on CERN Openstack magnum interface from Jupyter notebooks
-* Intializing Spark services (e.g shuffle service, history server) on Kubernetes cluster with helm
-* Intializing CERN services (e.g CVMFS) on Kubernetes cluster with helm
+* Initializing Spark services (e.g shuffle service, history server) on Kubernetes cluster with helm
+* Initializing CERN services (e.g CVMFS) on Kubernetes cluster with helm
 * Admin of the cluster to create user service accounts
 * Development of web interface Jupyter plugin to attach the Kubernetes cluster to the Jupyter notebook (SWAN) based on user service account token
 
 ## Expected results
-A Jupyter plugin to create, intialize and attach Kubernetes cluster from the notebooks
+A Jupyter plugin to create, initialize and attach Kubernetes cluster from the notebooks
 
 ## Requirements
 1. Python

@@ -7,11 +7,11 @@
   "replacementPatterns": [
     {
       "pattern": "^/(.*)",
-      "replacement": "/_site/$1"
+      "replacement": "https://hepsoftwarefoundation.org/$1"
     },
     {
-      "pattern": "^/",
-      "replacement": "{{BASEURL}}/"
+      "pattern": "^\\s*{{\\s*site.baseurl\\s*}}\\s*/(.*)",
+      "replacement": "https://hepsoftwarefoundation.org/$1"
     }
   ],
   "timeout": "20s",

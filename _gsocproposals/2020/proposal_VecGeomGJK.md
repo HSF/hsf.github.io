@@ -17,7 +17,7 @@ intersection algorithms and other functionality that make use of fine-grained
 SIMD and SIMT parallelism.
 
 The [Gilbert-Johnson-Keerthi algorithm][2] is a fast algorithm for general
-convex shapes. The goal of this project is to implement the GJK algoritm in
+convex shapes. The goal of this project is to implement the GJK algorithm in
 VecGeom/Geant4 to allow for the simplification and potentially speedup of
 several geometry primitives by sharing the same algorithm for their
 implementation. Using a common implementation is also helpful to run simulations

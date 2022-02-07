@@ -11,7 +11,7 @@ The coordination team runs a regular HSF meeting (nominally, and usually, weekly
 Meeting announcements and minutes are posted to the HSF forum Google group.
 Activity groups also hold their own meetings, for which minutes are usually posted here.
 
-Please see [this page](/future-events.html) for future meetings and events.
+Please see [this page]({{ site.baseurl }}/future-events.html) for future meetings and events.
 
 {:.table .table-hover .table-condensed .table-striped}
 | Date   | Title      |

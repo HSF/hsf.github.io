@@ -6,7 +6,7 @@ year: 2019
 redirect_from: /gsoc/gsoc2019.html
 ---
 
-# ![CERN](/images/CERN-logo.jpg){:height="100px"} ![HSF](/images/hsf_logo_angled.png){:height="100px"} Google Summer of Code 2019
+# ![CERN]({{ site.baseurl }}/images/CERN-logo.jpg){:height="100px"} ![HSF]({{ site.baseurl }}/images/hsf_logo_angled.png){:height="100px"} Google Summer of Code 2019
 
 ## Introduction
 
@@ -14,7 +14,7 @@ Students who participated in the GSoC for 2019 were able to choose from various 
 The HSF GSoC 2019 Administrators were Andrei Gheata <a href="mailto:andrei.gheata@cern.ch">andrei.gheata@cern.ch</a>, Antoine Pérus <a href="mailto:perus@lal.in2p3.fr">perus@lal.in2p3.fr</a> and Javier Cervantes Villanueva <a href="mailto:javier.cervantes.villanueva@cern.ch">javier.cervantes.villanueva@cern.ch</a>
 
 *N.B.* This page **archives** the proposals from the 2019 Google Summer of Code. For information on the latest
-GSoC please see [here](/activities/gsoc.html).
+GSoC please see [here]({{ site.baseurl }}/activities/gsoc.html).
 
 ## Projects in 2019
 
@@ -27,9 +27,9 @@ GSoC please see [here](/activities/gsoc.html).
 
 ## Summary
 
-[Full list of Proposal Ideas](/gsoc/2019/summary.html)
+[Full list of Proposal Ideas]({{ site.baseurl }}/gsoc/2019/summary.html)
 
-[Full list of Mentors](/gsoc/2019/mentors.html)
+[Full list of Mentors]({{ site.baseurl }}/gsoc/2019/mentors.html)
 
 ---
 

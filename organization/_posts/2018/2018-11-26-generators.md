@@ -327,7 +327,7 @@ together.
     lock in to a specific architecture, note the Xeon Phi cautionary
     tale
   - Roofline Performance Comparison - represents how well an algorithm
-    for a specific architecture - defines the consept of operational
+    for a specific architecture - defines the concept of operational
     intensity
       - DGEMM is the Linpack benchmark
       - Recommend finding the flops/ byte for your algorithms
@@ -384,7 +384,7 @@ reason to use stack variables
   - Don’t be afraid of specializing templates
   - Don’t be afraid to rewrite your prototype code
   - Understand the limitations of the abstraction and concept
-    programing you do
+    programming you do
   - Shouldn’t you code for the common case first not the corner one?
     Yes but remember the memory wall and think about how your
     algorithms use the data first.
@@ -450,7 +450,7 @@ reason to use stack variables
 #### PYTHIA 8 Status and Plans - Philip Ilten
   - History - lasted release will appear in March, another planned
   - Documentation - lots of references
-  - Desided to be user-friendly
+  - Decided to be user-friendly
   - Focuses on everything but ME generation
   - Phythia is thread-safe except for adaptive maximum
   - Special constructors for multiple instances that save time
@@ -534,7 +534,7 @@ reason to use stack variables
     will continue
   - Can there be unit tests for physics validation?
       - Yes, this is done for Herwig made difficult by multiple
-        changes occuring per release which is benchmarked
+        changes occurring per release which is benchmarked
   - Validation discussion
       - As complex for the generators to evaluate expected changes as
         for the experiments

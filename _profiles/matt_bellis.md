@@ -8,7 +8,7 @@ training_years:
 - 2019
 - 2020
 github: mattbellis
-gravatar:
+gravatar: null
 homepage: https://www.siena.edu/faculty-and-staff/person/matt-bellis/
 twitter: matt_bellis
 gitlab: null

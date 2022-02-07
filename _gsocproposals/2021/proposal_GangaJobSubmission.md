@@ -16,11 +16,11 @@ The scale of the computations submitted through the interface is placing increas
 ## Task ideas
  * Collect the different wrapper scripts that are running to manage the jobs on different computational backends.
  * Set-up a local test system that implements a single node batch system using HTCondor and Slurm.
- * Identify failure modes that the wrapper sripts should identify and write a unified one for all backends.
+ * Identify failure modes that the wrapper scripts should identify and write a unified one for all backends.
  * Improve the user experience when part of a task is failing by allowing them to further split the task into smaller pieces.
 
 ## Expected results
-A user interface where the user will have better infromation on why part of their task is failing to execute and make it easier to deal ith these failures in a programmatic way. 
+A user interface where the user will have better information on why part of their task is failing to execute and make it easier to deal ith these failures in a programmatic way. 
 
 ## Evaluation Task
 Interested students please contact Ulrik (see contact below) to ask questions and for an evaluation task.

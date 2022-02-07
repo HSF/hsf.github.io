@@ -18,13 +18,13 @@ and useful for HEP.*
 ## Overall Activity and Coordination
 
 * Reference: 7 January 2021 [slides](https://indico.cern.ch/event/981562/contributions/4134317/attachments/2167697/3693851/HSF%202020-2021%20Review%20and%20Planning.pdf) 
-and [meeting minutes](/organization/2021/01/07/coordination.html).*
+and [meeting minutes]({{ site.baseurl }}/organization/2021/01/07/coordination.html).*
 
 ### Meeting Series
 
-* Continue with regular [coordination meetings](/meetings/coordination.html) every 2 weeks (on the odd-numbered weeks of the year by default).
-* Monthly [*Software and Computing Roundtable*](/meetings/roundtable.html) is an ideal place to speak to the Nuclear Physics community (BNL and JLab co-organise), but we should make sure the more widely known and undeline that it is not just for Nuclear Physics colleagues.
-* Also monthly, the [Compute Accelerator Forum](/meetings/compute-accelerator-forum.html) made a very good start last year and attracts a lot of interest - good that it's co-organised with SIDIS and openlab.
+* Continue with regular [coordination meetings]({{ site.baseurl }}/meetings/coordination.html) every 2 weeks (on the odd-numbered weeks of the year by default).
+* Monthly [*Software and Computing Roundtable*]({{ site.baseurl }}/meetings/roundtable.html) is an ideal place to speak to the Nuclear Physics community (BNL and JLab co-organise), but we should make sure the more widely known and undeline that it is not just for Nuclear Physics colleagues.
+* Also monthly, the [Compute Accelerator Forum]({{ site.baseurl }}/meetings/compute-accelerator-forum.html) made a very good start last year and attracts a lot of interest - good that it's co-organised with SIDIS and openlab.
 
 ### Workshops
 
@@ -50,7 +50,7 @@ and [meeting minutes](/organization/2021/01/07/coordination.html).*
 ### Post-CWP and LHCC
 
 * As we prepare activity for the year we should not forget to look back to the
-  [Community White Paper](/organization/cwp.html) and see which plans there were
+  [Community White Paper]({{ site.baseurl }}/organization/cwp.html) and see which plans there were
   put into place, by the HSF directly or in other contexts.
 
 * We already did some of that in preparing last year's [LHCC review document](https://zenodo.org/record/4009114).
@@ -58,7 +58,7 @@ and [meeting minutes](/organization/2021/01/07/coordination.html).*
 
 ## Working Groups
 
-*Reference: 21 January 2021 [meeting minutes](/organization/2021/01/21/coordination.html).*
+*Reference: 21 January 2021 [meeting minutes]({{ site.baseurl }}/organization/2021/01/21/coordination.html).*
 
 ### Data Analysis
 
