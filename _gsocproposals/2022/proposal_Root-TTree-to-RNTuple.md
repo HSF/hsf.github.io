@@ -14,13 +14,13 @@ columns stored for each event. In this context, systems tuned for columnar acces
 are specially relevant. TTree is the ROOT's legacy columnar storage that has been
 used to store more than 1 exabyte of HEP data during the last 25 years.
 On the other hand, the RNTuple classes provide ROOT's new, experimental I/O subsystem
-for HEP data. The RNTuple data layout is columnar and supports nested types (e.g.,
+for HEP data. The RNTuple data layout is columnar and supports nested types (e.g.
 vectors of floats), conceptually similar to Apache Arrow or Apache Parquet.
 
 Given that RNTuple is backwards-incompatible with TTree, existing data in TTree
-format will have to be converted to the RNTuple format. This project will consist in
+format will have to be converted to the RNTuple format. This project will consist of
 the implementation of an automatic conversion tool that migrates both the schema
-(i.e., fields and their types) and the user data. Note that replicating the schema is
+(i.e. fields and their types) and the user data. Note that replicating the schema is
 not always possible because RNTuple does not currently support all the column types
 supported in TTree.
 
