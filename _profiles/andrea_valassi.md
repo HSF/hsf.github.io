@@ -1,23 +1,21 @@
 ---
-# Required:
-title: "Andrea Valassi"    # first (middle) last
-country: CH                # your country of residence (2 capital letters, e.g. US, GB, DE)
-training-roles: [mentor]            # subset of [facilitator, instructor, mentor], can stay empty ([])
-training-years: [2020]              # in which years did you help out? (e.g. [2020, 2019])
-
-# Optional (please add github or gravatar for your picture)
-github: valassi            # your github ID (not full url)
-gravatar:                  # your gravatar ID (the hex hash of your email, something like 123ef...123)
-homepage:                  # your personal homepage (full url)
-twitter:                   # your twitter ID (not full URL, no leading '@')
-gitlab:                    # your gitlab ID (not full URL)
-bitbucket:                 # your bitbucket ID (not full URL)
-orcid: 0000-0001-9322-9565 # your orcid ID (not full URL)
-linkedin:
-email:
-
-# Don't modify the following setting
+title: Andrea Valassi
+training_years:
+- 2020
+- 2021
+training_roles:
+- mentor
+gravatar: null
+github: valassi
+gitlab: null
+bitbucket: null
+homepage: null
+twitter: null
+orcid: 0000-0001-9322-9565
+linkedin: null
+email: null
 layout: educator
+country: CH
 ---
 
 <!-- Optional: Write something about yourself below the '- - >'.

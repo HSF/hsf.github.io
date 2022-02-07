@@ -58,7 +58,7 @@ Document [outline](https://docs.google.com/document/d/1ai7m7kFyiGgl2tKralJKyPX6r
     - Is it an option to connect this (& other WG software) to the Software Catalogue (they all have git repos and we could nudge them in the direction of providing documentation/test case)?
         - Yes (albeit this is not connected to the review)
 - Data Analysis
-    - Want to fold in feedback from meetings planned in the next few weeks/months and with the pre-CHEP workshop (analysis facilties, analysis language)
+    - Want to fold in feedback from meetings planned in the next few weeks/months and with the pre-CHEP workshop (analysis facilities, analysis language)
     - Iterative process envisaged
         - Meeting supportive of this approach
 - Conclusions

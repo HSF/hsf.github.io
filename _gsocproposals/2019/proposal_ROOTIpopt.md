@@ -10,7 +10,7 @@ organization:
 
 ## Description
 Ipopt (Interior Point OPTimizer)[1] is a software package for large-scale ​nonlinear optimization. It is designed to find (local) solutions of mathematical optimization problems.
-Ipopt is now integrated to ROOT framework providing a new set of tools for minization[2] throught a ROOT plugin system in the math libraries.
+Ipopt is now integrated to ROOT framework providing a new set of tools for minization[2] through a ROOT plugin system in the math libraries.
 
 ## Task ideas
   * To write support for:

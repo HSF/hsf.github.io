@@ -35,7 +35,7 @@ Interested students please contact Javier (j.lopez@cern.ch) for a warm-up and ev
 ## Links
  * [ROOT](https://root.cern/)
  * [Cling introduction](https://root.cern/primer/#learn-c-at-the-root-prompt)
- * [Devtoolset-8](https://www.softwarecollections.org/en/scls/rhscl/devtoolset-8/)
+ * [Devtoolset-8](https://www.softwarecollections.org/en/scls/rhscl/devtoolset-8/) <!-- markdown-link-check-disable-line -->
  * [LLVM](https://llvm.org/)
  * [Clang](https://clang.llvm.org/)
  * [Cling sources](https://github.com/root-project/cling/)

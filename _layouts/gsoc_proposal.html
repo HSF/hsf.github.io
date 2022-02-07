@@ -10,12 +10,12 @@ layout: default
 
 <h2>Corresponding Project</h2>
   <ul>
-      <li><a href="/gsoc/projects/{{ page.year }}/project_{{ page.project }}.html">{{ page.project }}</a></li>
+      <li><a href="{{ site.baseurl }}/gsoc/projects/{{ page.year }}/project_{{ page.project }}.html">{{ page.project }}</a></li>
   </ul>
 
  <h2>Participating Organizations</h2>
   <ul>
   {% for item in page.organization %}
-<li><a href="/gsoc/organizations/{{ page.year }}/{{ item| downcase}}.html">{{ item }}</a> </li>
+<li><a href="{{ site.baseurl }}/gsoc/organizations/{{ page.year }}/{{ item| downcase}}.html">{{ item }}</a> </li>
   {% endfor %}
   </ul>

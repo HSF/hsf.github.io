@@ -40,7 +40,7 @@ HSF contributions:
 *Ultimate goal:* apply best practices to ESCAPE Software Catalogue
 Best practices notes: <https://gitlab.in2p3.fr/jutta.schnabel/wossl/-/wikis/Best-Practices-for-software-development>
 
-Some intersting topics: [CodeMeta](https://github.com/codemeta/codemeta) as a way to add metadata to software - hold this close to the code/developers, but then use it to power the catalogue; software archive project: <https://archive.softwareheritage.org/>.
+Some interesting topics: [CodeMeta](https://github.com/codemeta/codemeta) as a way to add metadata to software - hold this close to the code/developers, but then use it to power the catalogue; software archive project: <https://archive.softwareheritage.org/>.
 
 Outstanding question: which facilities / "middleware" will be used to run pipelines? Could use the occasion for a joint session at the November workshop?
 
@@ -127,7 +127,7 @@ We will submit the LHCC input document to the review (which we agreed did not ne
 
 ### C++ Course
 
-Following up e.g. on dicussions in the IRIS-HEP SW Sustainability workshop we want to propose a C++ course. Sebastien Ponce has created [a lot of material](http://sponce.web.cern.ch/sponce/C++Course/) and given the course in several occasions already (LHCb, ESIPAP). Some concrete ideas 
+Following up e.g. on discussions in the IRIS-HEP SW Sustainability workshop we want to propose a C++ course. Sebastien Ponce has created [a lot of material](http://sponce.web.cern.ch/sponce/C++Course/) and given the course in several occasions already (LHCb, ESIPAP). Some concrete ideas 
 
 * Sebastien is willing to teach this courses
 * Format (all virtual)
@@ -139,7 +139,7 @@ Following up e.g. on dicussions in the IRIS-HEP SW Sustainability workshop we wa
   * 19 - 23 October (clashes: ALICE mini week, ML workshop, Snowmass planning, FR + CH school holidays)
   * In this first iteration we plan to do the training in the morning CEST; in case of more iterations go for CEST afternoon trainings for the next one.
 * Aiming for ~2 training weeks / year
-* Limit for the first iteration to max 50 people to allow interaction (especially with virtual training). If successfull go higher for next iteration
+* Limit for the first iteration to max 50 people to allow interaction (especially with virtual training). If successful go higher for next iteration
   * Introduce "waiting list" if needed to also gauge the level of interest
 * Tentative morning schedule:
 

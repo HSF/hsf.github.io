@@ -38,7 +38,7 @@ Potential Gains for Software from Modern Hardware
             activity
     -   Both simulation and digi/reco show a lot of memory “port” access
         and much less arithmetic than expected
-    -   Trident can be started/stopped, but not programatically at the
+    -   Trident can be started/stopped, but not programmatically at the
         moment
         -   Overheads are measured and usually \~1%
 -   Haswell is much better in code page access, which is why the single

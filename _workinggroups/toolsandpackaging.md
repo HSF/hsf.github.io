@@ -35,7 +35,7 @@ We held [an initial series of meetings](https://indico.cern.ch/category/7975/)
 to look at the existing build and packaging solutions, including the
 community-driven projects. Some of the tools looked at are listed below.
 
-That initial work was summarised in a [Technical note on Build Tools](/technical_notes.html)
+That initial work was summarised in a [Technical note on Build Tools]({{ site.baseurl }}/technical_notes.html)
 in March 2016.
 
 Since then the group has been meeting to re-examine changes in the field and to have
@@ -43,9 +43,9 @@ more of a focus on deployment and end user development issues.
 
 This resulted in the writing of
 
-* A set of [use cases](https://docs.google.com/document/d/1h-r3XPIXXxmr5tThIh6gu6VcXXRhBXtUuOv14ju3oTI/edit?usp=sharing)
+- A set of [use cases](https://docs.google.com/document/d/1h-r3XPIXXxmr5tThIh6gu6VcXXRhBXtUuOv14ju3oTI/edit?usp=sharing)
 that give the high level goals for an integrated and shared suite of packaging tools.
-* A [test stack](https://docs.google.com/document/d/1LW8OsTFFA9QwsJ9fASkRoJ2E6Gk3UGnOQIcElCL8UCM/edit?usp=sharing)
+- A [test stack](https://docs.google.com/document/d/1LW8OsTFFA9QwsJ9fASkRoJ2E6Gk3UGnOQIcElCL8UCM/edit?usp=sharing)
 of core HEP software packages that can be used to demonstrate how different
 tools perform against the use cases that were identified.
 
@@ -60,15 +60,16 @@ Documentation for these *test drive* setups is in the group's
 
 The group is currently coordinated by:
 
-- Alaettin Serhan Mete (ATLAS)
-- Marc Paterno (DUNE)
-- Mircho Rozodov (CMS)
+- Alaettin Serhan Mete (ATLAS and ANL)
+- Marc Paterno (DUNE and Fermilab)
+- Valentin Volkl (FCC and CERN)
 
-All the coordinators can be reached [by email](mailto:serhanmete@gmail.com,paterno@fnal.gov,mircho.nikolaev.rodozov@cern.ch).
+All the coordinators can be reached [by email](mailto:serhanmete@gmail.com,paterno@fnal.gov,valentin.volkl@cern.ch). <!-- markdown-link-check-disable-line -->
+
 ### Activities
 
-*  The Indico pages for the working group meetings can be found at <https://indico.cern.ch/category/7975/>
-*  For all technical discussions please use <hsf-tech-forum@googlegroups.com> (Tools) and <hsf-packaging-wg@googlegroups.com> (Packaging)
+- The Indico pages for the working group meetings can be found at <https://indico.cern.ch/category/7975/>
+- For all technical discussions please use <hsf-tech-forum@googlegroups.com> (Tools) and <hsf-packaging-wg@googlegroups.com> (Packaging)
 
 ### Former Conveners
 
@@ -78,3 +79,4 @@ All the coordinators can be reached [by email](mailto:serhanmete@gmail.com,pater
 - Ben Morgan (ATLAS, superNEMO), 2017-2020
 - Martin Ritter (Belle II), 2018-2020
 - Giulio Eulisse (ALICE), 2018
+- Mircho Rozodov (CMS), 2021

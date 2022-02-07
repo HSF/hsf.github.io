@@ -22,7 +22,7 @@ The goal of the project is to validate the possibility to use pre-conditioners i
 
 The second part of the project could be to understand how we can extend feature in the context of both lossy and lossless compression algorithms.
 
-Extra task that could be investigated is new BYTE_STREAM_SPLIT encoding [8] that improves compression ratio and compression speed for certain types of floating-point data where the upper-most bytes of a values do not change much. The exisiting compressors and encodings in ROOT do not perform well for such data due to noise in the mantissa bytes. The new encoding improves results by extracting the well compressible bytes into separate byte streams which can be afterwards compressed by a compressor like ZSTD. [7]
+Extra task that could be investigated is new BYTE_STREAM_SPLIT encoding [8] that improves compression ratio and compression speed for certain types of floating-point data where the upper-most bytes of a values do not change much. The existing compressors and encodings in ROOT do not perform well for such data due to noise in the mantissa bytes. The new encoding improves results by extracting the well compressible bytes into separate byte streams which can be afterwards compressed by a compressor like ZSTD. [7]
 
 ## Task ideas
  * Integrate pre-conditioners in ROOT compression layer (based on our preliminary tests).

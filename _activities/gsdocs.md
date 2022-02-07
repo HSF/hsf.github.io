@@ -4,7 +4,7 @@ author: "Andrei Gheata"
 layout: default
 ---
 
-# ![CERN](/images/CERN-HSF-GSdocs-logo.png){:height="100px"} Season of Docs 2020
+# ![CERN]({{ site.baseurl }}/images/CERN-HSF-GSdocs-logo.png){:height="100px"} Season of Docs 2020
 
 ## Introduction
 
@@ -25,9 +25,13 @@ To answer these questions, particle physicists build software to simulate and an
 Since 2011, CERN has participated in other Google initiatives such as Google Summer of Code (GSoC), first as a small organization (CERN-SFT) and later as an umbrella organization (CERN-HSF) to involve the high-energy physics community. Given the good results in the past under the GSoC program, CERN-HSF is eager to participate in this year and future editions of Season of Docs.
 
 
-### Season of Docs 2020
+## Season of Docs 2020
 
-In 2020 CERN-HSF is planning to apply as an umbrella organization, project proposals are listed [below](#projects-in-2020).
+In 2020 CERN-HSF participated as an umbrella organization, project proposals are listed [below](#projects-in-2020).
+
+### Blogs from participants
+
+Technical writer [blogs]({{ site.baseurl }}/gsdocs/2020/blogs.html)
 
 ### For technical writers
 
@@ -35,7 +39,7 @@ For candidate technical writers interested in our project proposals, please take
 
 ### For HSF projects and mentors
 
-Detailed instructions for mentors and organizations on how to apply, including links to other relevant Season of Docs resources are [available here](/gsdocs/guideline.html). Please use the administrators contact at the bottom of this page (not the general to ask us any questions concerning your application.
+Detailed instructions for mentors and organizations on how to apply, including links to other relevant Season of Docs resources are [available here]({{ site.baseurl }}/gsdocs/guideline.html). Please use the administrators contact at the bottom of this page (not the general to ask us any questions concerning your application.
 
 ## Projects in 2020
 
@@ -48,9 +52,9 @@ Detailed instructions for mentors and organizations on how to apply, including l
 
 ## Summary
 
-[Full list of Proposal Ideas](/gsdocs/2020/summary.html)
+[Full list of Proposal Ideas]({{ site.baseurl }}/gsdocs/2020/summary.html)
 
-[Full list of Mentors](/gsdocs/2020/mentors.html)
+[Full list of Mentors]({{ site.baseurl }}/gsdocs/2020/mentors.html)
 
 ---
 

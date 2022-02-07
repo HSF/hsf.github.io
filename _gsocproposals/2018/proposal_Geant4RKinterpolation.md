@@ -18,7 +18,7 @@ The potential to create a vectorised version of leading embedded RK methods for 
 # Task ideas
  * Adapt integration methods with interpolation into Geant4 field propagation,
  * Develop vectorised implementation of RK steppers for integration of single track using the VecCore library,
- * Create heuristics for choosing an appropriate method (helix, RK of particular order, Burlich/Stoer), using knowledge of the accuracy requirements and the variation of the derivative in the proposed step.
+ * Create heuristics for choosing an appropriate method (helix, RK of particular order, Burlich/Store), using knowledge of the accuracy requirements and the variation of the derivative in the proposed step.
 
 # Requirements
 This project requires prior exposure to Numerical Analysis and familiarity with either C++, C or Java programming.

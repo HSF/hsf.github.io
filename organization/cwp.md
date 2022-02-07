@@ -10,7 +10,7 @@ redirect_from:
 
 # A Roadmap for HEP Software and Computing R&D for the 2020s
 
-In 2017 the HEP Software Foundation, [charged by the WLCG](/assets/CWP-Charge-HSF.pdf){:target="_cwp_charge"}, produced a
+In 2017 the HEP Software Foundation, [charged by the WLCG]({{ site.baseurl }}/assets/CWP-Charge-HSF.pdf){:target="_cwp_charge"}, produced a
 [roadmap white paper](https://doi.org/10.1007/s41781-018-0018-8){:target="_cwp_roadmap_csbs"} on the
 software and computing challenges that will be faced during the next decade.
 This has been published in the journal
@@ -29,7 +29,7 @@ The roadmap is also available as [arXiv:1712.06982](https://arxiv.org/abs/1712.0
 
 The roadmap summarised reports from fourteen working groups who studied the challenges in their
 sub-domains. All of the reports produced during the Community White Paper process are listed below.
-Working groups are in the process of [finalising and uploading](../cwp/cwp-wg-papers.html) their work to arXiv.
+Working groups are in the process of [finalising and uploading]({{site.baseurl}}/cwp/cwp-wg-papers.html) their work to arXiv.
 
 {:.table .table-hover .table-condensed .table-striped}
 | *Paper* | *Report Number* | *Link* |
@@ -69,5 +69,5 @@ the [11th Terascale Alliance Workshop](https://indico.desy.de/indico/event/18681
 
 ## History
 
-A [historical page](../cwp/cwp-history.html) is maintained that describes in more detail
+A [historical page]({{site.baseurl}}/cwp/cwp-history.html) is maintained that describes in more detail
 the process that the community took to arrive at the final outcome.

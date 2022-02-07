@@ -9,7 +9,7 @@ Realizing the physics programs of the planned and/or upgraded HEP experiments ov
 The HSF is engaging the HEP community to produce the CWP via a “community planning process”, which has been initiated in the context of the HL-LHC project but which is also aiming for a broader participation that so far includes the neutrino programme, Belle II, and ILC. A workshop took place 23-26 January at the San Diego Supercomputing Center (SDSC) in order to launch the process of delivering the CWP. There were 118 registered participants representing a wide range of labs and universities based in the USA and in Europe. Whilst most delegates are working on the LHC programme, it was good to see a healthy participation by colleagues working at FNAL-IF, ILC, IHEP-Beijing, and JLab. In addition there were a number of computer scientists attending, including some from industrial partners, such as NVIDIA, Intel, IBM, Google and Altair. The full agenda for the meeting can be found [here](http://indico.cern.ch/event/570249/timetable/#20170123.detailed).
 
 
-![Workshop Group Photo](/images/SDSC_Workshop_hires.jpg){: width="100%" }  
+![Workshop Group Photo]({{ site.baseurl }}/images/SDSC_Workshop_hires.jpg){: width="100%" }  
 
 **Group photo of workshop participants on steps of San Diego Supercomputing Centre**
 

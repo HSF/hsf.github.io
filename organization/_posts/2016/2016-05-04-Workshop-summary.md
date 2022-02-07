@@ -6,7 +6,7 @@ layout: meetings
 # Third HSF Workshop Summary (May 2-4, 2016)
 {:.no_toc}
 
-![Workshop Group Photo](/images/lal_workshop.jpg){:height="400px" width="600px" .centered-image}
+![Workshop Group Photo]({{ site.baseurl }}/images/lal_workshop.jpg){:height="400px" width="600px" .centered-image}
 
 ### Contents
 {:.no_toc}
@@ -187,7 +187,7 @@ USolids/VecGeom: generic shape library, introduced in G4 10.x
 
 -   Integration with SIMD instructions
 
-Alignement: developed a fully automatized fast alignment procedure for LHCb VELO, in production
+Alignment: developed a fully automated fast alignment procedure for LHCb VELO, in production
 
 EDM Toolkit: PODIO project, also in HSF incubator, efficient I/O with PODs, currently being evaluated in the context of FCC/lcio
 
@@ -201,7 +201,7 @@ Advanced tracking tools: follow-up of aidaTT from AIDA project
 
 -   Integration of LHC tracking algorithms into aidaTT
 
--   Connected to the Common Tracking Forum started recenly
+-   Connected to the Common Tracking Forum started recently
 
 Advance Particle Flow Algorithms (Pandora PFA toolkit)
 
@@ -211,7 +211,7 @@ Advance Particle Flow Algorithms (Pandora PFA toolkit)
 
 ### DIANA-HEP - P. Elmer
 
-Data intensive ANAlisys for HEP: collaborative efforts around anlysis tools to make them a sustainable infrastructure in our community
+Data intensive ANAlisys for HEP: collaborative efforts around analysis tools to make them a sustainable infrastructure in our community
 
 -   4 year project (2015-2019)
 
@@ -219,7 +219,7 @@ Data intensive ANAlisys for HEP: collaborative efforts around anlysis tools to m
 
 -   Not a new SW
 
--   Not only about SW development but SW eco-system, carreer recognition, training…
+-   Not only about SW development but SW eco-system, career recognition, training…
 
 -   ROOT as one core component: performance, ROOT I/O
 
@@ -841,7 +841,7 @@ Dario: importance of trainings to meet the challenge by increasing existing peop
 
 -   Thanks particularly and congratulations to Joschka Lingemann, CERN Fellow working with EP-SFT, who produced the winner preferred by a strong plurality (17 votes in 37 responses). A bottle of wine will be forthcoming for Joschka :-)
 
-<img src="/images/hsf_logo_angled.png" alt="HSF logo" width="300" height="230" />
+<img src="{{ '/images/hsf_logo_angled.png' | relative_url }}" alt="HSF logo" width="300" height="230" />
 
 ### Meeting notes
 

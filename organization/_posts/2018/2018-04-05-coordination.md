@@ -209,7 +209,7 @@ Packaging
     -   Test driving solutions is the next practical step.
 -   Meeting
     [yesterday](https://indico.cern.ch/event/716297/)
-    ([minutes](/organization/2018/04/04/packaging.html)
+    ([minutes]({{ site.baseurl }}/organization/2018/04/04/packaging.html)
     available)
     -   Reviewed Naples.
     -   Feedback from first (naive) test drive of Nix

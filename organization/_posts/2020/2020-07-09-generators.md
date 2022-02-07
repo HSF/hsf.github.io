@@ -38,7 +38,7 @@ Speaker: A. Buckley.
         - Dima Konstantinov's code was the starting point
     - Andrea: Somebody needs to look at PDFs on GPUs.
         - Olivier: NNPDF started some work on this
-        - Marek: Need uniform code throughout differen t PDFs (??)
+        - Marek: Need uniform code throughout different t PDFs (??)
 
 
 ## CPU performance improvements in MadGraph 

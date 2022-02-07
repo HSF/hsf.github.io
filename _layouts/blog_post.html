@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% include fwd_back_link.ext %}
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    {% if page.photo %} 
+    <div class="col-md-3">
+      <img src="{{ site.baseurl }}/images/{{ page.photo }}" alt={{ page.author }} width="100%" style="float:right">
+    </div>
+    <div class="col-md-9">
+    {% else %}
+    <div class="col-md-12">
+    {% endif %}
+      <h1 class="blog-title">{{ page.title }}</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">{{ page.date | date_to_string }} by <a href="{{ page.url }}">{{ page.author }}</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  {{ content }}
+
+   </div>
+</div>

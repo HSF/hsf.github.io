@@ -6,7 +6,7 @@ layout: newsletter
 
 # Third HSF Workshop (May 2-4, 2016)
 
-![Workshop Group Photo](/images/lal_workshop.jpg){:height="400px" width="600px" .centered-image}
+![Workshop Group Photo]({{ site.baseurl }}/images/lal_workshop.jpg){:height="400px" width="600px" .centered-image}
 
 The HSF had its third workshop at LAL (Orsay, France) on May 2-4, 2016. It 
 was well attended (70 people) representing many different laboratories, 
@@ -16,10 +16,10 @@ We were happy to see a lot of new faces!
 The [Agenda](https://indico.cern.ch/event/496146/timetable/) was a mix 
 of (lively!) general discussions and topical/hands-on sessions. Live 
 notes of these discussions are 
-[available](/organization/2016/05/04/Workshop-summary.html). 
+[available]({{ site.baseurl }}/organization/2016/05/04/Workshop-summary.html). 
 This newsletter summarizes them.
 
-![HSF Logo](/images/hsf_logo_angled.png){:height="100px" width="150px" .centered-image}
+![HSF Logo]({{ site.baseurl }}/images/hsf_logo_angled.png){:height="100px" width="150px" .centered-image}
 
 One of the breaking news is that the HSF now has a logo! Thanks to 
 J. Lingemann, the winner of the logo contest, and to all of you who took the
@@ -58,7 +58,7 @@ on a review of the existing tools, and an attempt to identify a tool with the
  contexts in the past few months.  The workshop session facilitated an in-depth 
  dicussion about Spack's potential and it's limits. We reached consensus about how to move forward.  We will continue to collaborate with the Spack developer community.  When the features identified by the working group and documented in our technical note are available we'll start to recommend it to new projects and facilitate adoption by older projects.
 
-See the [Packaging WG](/workinggroups/2015/11/04/packaging.html) section on the web site for more details.
+See the [Packaging WG]({{ site.baseurl }}/workinggroups/2015/11/04/packaging.html) section on the web site for more details.
 
 
 ## Learning from Others
@@ -100,7 +100,7 @@ astrophysics simulation. The discussion tackled several questions, in particular
   * Interesting input from Astrophysics
 
 We are still far from definitive answers to these questions. There was an 
-agreeement that this topic is of primordial importance for the future, and 
+agreement that this topic is of primordial importance for the future, and 
 should become more visible in the HSF. The new Software Technical Evolution 
 forum (a follow-up for the Software Concurrency forum) will be in charge of 
 convening this activity inside the HSF.
@@ -112,7 +112,7 @@ convening this activity inside the HSF.
 The HSF demonstrated some initial collaborative activities but to address 
 the challenges ahead (e.g. HL-LHC) it needs more and dedicated resources. 
 To convince funding agencies, and get a chance to obtain these resources, 
-some US collegues launched the idea of a Community White Paper that will 
+some US colleagues launched the idea of a Community White Paper that will 
 contain a description of the challenges ahead of us, with a roadmap to address
 them. The idea is to build for computing something similar to the P5 process 
 for HEP experiments in the US. In fact, the LHCC committee (that reviews the 
@@ -124,7 +124,7 @@ There was a consensus that this was a high priority activity for the coming year
 
 ### Software and Computing Journal
 
-Some German colleagues, supported by Springer, proposed the idea of creating a journal dedicated to Data Intensive Science Sofware and Computing. Currently, there is no such journal, making it difficult to publish articles related to the computing aspect of our science (this is suitable neither for physics journals, nor for computer science journals). The goal is to have a refereed, abstracted and indexed journal that could acoomplish the following goals:
+Some German colleagues, supported by Springer, proposed the idea of creating a journal dedicated to Data Intensive Science Software and Computing. Currently, there is no such journal, making it difficult to publish articles related to the computing aspect of our science (this is suitable neither for physics journals, nor for computer science journals). The goal is to have a refereed, abstracted and indexed journal that could acoomplish the following goals:
 
 * Authoritative and central reference archive
 * Help with career paths

@@ -26,7 +26,7 @@ from linear algebra to machine learning.
 ## Expected results
 
 Getting familiarized with the possibilities opened by the Go and the OpenCL 
-languages in concurent and parallel computing and in particular with using 
+languages in concurrent and parallel computing and in particular with using 
 a Field Programmable Array (FPGA) as an accelerator device. The student is
 free to choose the HEP computing application upon which he will conclude his
 work.

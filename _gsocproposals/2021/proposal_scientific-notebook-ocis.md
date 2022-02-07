@@ -37,5 +37,5 @@ We expect at the end of GSOC '21, a VueJS application that can be enabled in CER
 
 ## Links
 * [SWAN project](https://swan.web.cern.ch)
-* [CERBox project](https://cernbox.web.cern.ch)
+* [CERNBox project](https://cernbox.web.cern.ch)
 * [OCIS project](https://owncloud.github.io/ocis/)

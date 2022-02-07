@@ -6,4 +6,4 @@ symbol: glyphicon-calendar
 link: /events/2017/05/22/analysis.html
 until: 2017-05-24
 ---
-[HSF Workshop on the HEP Analysis Ecosystem, Amsterdam, May 22-24 2017](/events/2017/05/22/analysis.html)
+[HSF Workshop on the HEP Analysis Ecosystem, Amsterdam, May 22-24 2017]({{ site.baseurl }}/events/2017/05/22/analysis.html)

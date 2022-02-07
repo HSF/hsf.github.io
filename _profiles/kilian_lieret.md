@@ -1,7 +1,9 @@
 ---
 title: Kilian Lieret
 country: DE
-training_roles: []
+training_roles:
+- instructor
+- mentor
 training_years:
 - 2020
 github: klieret

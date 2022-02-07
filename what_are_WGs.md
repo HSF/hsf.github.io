@@ -15,8 +15,12 @@ of common software between different communities.
 Working groups have three conveners, to help share the workload, and
 are appointed by the HSF (via an open nomination process and a search
 committee) to serve for one year, with renewal possible by mutual
-agreement. (In contrast, [interest groups and activity areas](https://github.com/HSF)
+agreement. (In contrast, [interest groups and activity areas]({{ site.baseurl }}/what_are_activities.html)
 are less formal.)
+
+We strive for a diverse representation in the HSF working groups and, in
+particular, we very strongly favour having conveners from three different
+experiments.
 
 If you want to form a working group, or want to put some community-wide
 activity under the umbrella of the HSF,
@@ -82,3 +86,21 @@ When the HSF organises [workshops](https://indico.cern.ch/category/7971/)
 working group conveners can give input to the organising team. If there
 will be a session dedicated to the activities of any working group then
 conveners will be asked to co-organise it.
+
+### Recording Meetings and Minutes
+
+In general, recording *is appropriate* for HSF meetings, which are there to
+foster discussion and collaboration, so *we do recommend it*. There are a lot of
+meetings and we have a worldwide community, so not everyone who is interested
+can join a meeting and recordings can help people to catch-up.
+
+However, you need to make it very clear with the speakers and to participants that:
+
+- The meeting is being recorded and will be made public;
+- And where the video will be posted ([YouTube]({{ site.baseurl }}/organization/youtube.html), [CDS](http://cds.cern.ch/record/2289430), etc.);
+  - Note that it is strongly recommended not to add video files directly into Indico, instead post a link to CDS.
+
+In any case, *please also make sure that meetings are minuted in a concise way*
+(it’s not always the case that people have the time to watch the 60 minute
+video and they need a shorter summary). Minutes can be posted directly onto
+Indico (easy) or to the [HSF website]({{ site.baseurl }}/howto-website.html) (via a PR).

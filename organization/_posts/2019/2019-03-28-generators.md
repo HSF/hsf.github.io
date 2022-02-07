@@ -15,7 +15,7 @@ Efe Yazgan*
   - Latest numbers in
     [<span class="underline">https://www.overleaf.com/1326158343ftxgrxxcspxg</span>](https://www.overleaf.com/1326158343ftxgrxxcspxg)
 
-![Table 1 of proceedings](/images/2019-03-28-generators1.jpg)
+![Table 1 of proceedings]({{ site.baseurl }}/images/2019-03-28-generators1.jpg)
   - Qiang: update on CMS accounting numbers (attached to the agenda):
       - Official Numbers from CMS Computing:
           - Gen+Sim = 50 sec/ev/core
@@ -48,7 +48,7 @@ Efe Yazgan*
         this is exactly what I am trying to do in the next tables in
         the document. Table 2 is one V+jets (W→eν+jets@NLO).
 
-![Table 2 of proceedings](/images/2019-03-28-generators2.jpg)
+![Table 2 of proceedings]({{ site.baseurl }}/images/2019-03-28-generators2.jpg)
   - Josh: two columns for sec/evts, to take into account the
     generation time with and without filtering. Average 400 sec/event
     because many events are thrown away by filtering, while
@@ -70,13 +70,13 @@ Efe Yazgan*
         also non-unity weights, so we definitely need to include
         weight distributions.
 
-![Figure 2 of proceedings](/images/2019-03-28-generators3.jpg)
+![Figure 2 of proceedings]({{ site.baseurl }}/images/2019-03-28-generators3.jpg)
   - Josh: in figure 4 the difference between blue and yellow is in the
     choice of the scale. Efe: please write down the scale choice, so
     we can try the same in CMS too. Frank: we should make sure that
     green MG and yellow sherpa are comparable.
 
-![Figure 4 of proceedings](/images/2019-03-28-generators4.jpg)
+![Figure 4 of proceedings]({{ site.baseurl }}/images/2019-03-28-generators4.jpg)
 
 ## AOB
   - Josh to Andrea: any progress in investigating the use of some

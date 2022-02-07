@@ -6,7 +6,7 @@ training_roles:
 training_years:
 - 2020
 github: kratsg
-gravatar: cb9c2a6bd418b3f913c5c6816b5db5ab
+gravatar: null
 homepage: https://giordonstark.com/
 twitter: kratsg
 gitlab: kratsg
@@ -17,6 +17,4 @@ email: kratsg@gmail.com
 layout: educator
 ---
 
-<!-- Write something about yourself here (if you want)!
-You can use Markdown syntax to style this page.
--->
+Giordon Stark is a Deaf, post-doctoral, experimental particle physicist involved with the ATLAS collaboration looking for signs of new physics Beyond the Standard Model. He cares about boosted object reconstruction, hadronic final states, jet substructure, pile-up mitigation techniques, the intersection of particle physics & machine learning, and more! When he's not busy hacking together python, he can be found in the kitchen baking sweets and breads.

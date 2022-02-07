@@ -21,14 +21,21 @@ between physics analysis experts and technical innovators, fostering
 collaboration between these two communities to produce optimal solutions to a 
 well-defined set of problems.
 
-[Meetings](https://indico.cern.ch/category/10914)
-[Forum](https://groups.google.com/forum/#!forum/hsf-analysis-wg)
+- [Meetings](https://indico.cern.ch/category/10914) (Indico)
+- [Forum](https://groups.google.com/forum/#!forum/hsf-analysis-wg) (Mailing list)
 
-Convenors: Chris Burr (LHCb), Allison Hall (CMS), TJ Khoo (ATLAS)
+## Conveners 
 
----
+- Allison Hall, CMS and FNAL
+- Stephan Hageboeck, ATLAS and CERN
+- Nicola Skidmore, LHCb and University of Manchester
 
-Former Convenors:
+Contact the [convenors by email](mailto:ahall@fnal.gov,stephan.hageboeck@cern.ch,nicola.skidmore@cern.ch) <!-- markdown-link-check-disable-line -->
+
+### Former Convenors
+
 - Danilo Piparo (ROOT), 2019
 - Andrea Rizzi (CMS), 2019-2020
 - Paul Laycock (Belle II), 2019-2020
+- Chris Burr (LHCb), 2020
+- TJ Khoo (ATLAS), 2020-2021

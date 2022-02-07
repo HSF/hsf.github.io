@@ -24,6 +24,9 @@ collections:
   gsocproposals:
     output: true
     permalink: /gsoc/:path.html
+  gsocblogs:
+    output: true
+    permalink: /gsoc/blogs/:path.html
   gsdocs-orgs:
     output: true
     permalink: /gsdocs/organizations/:path.html
@@ -33,6 +36,9 @@ collections:
   gsdocs-proposals:
     output: true
     permalink: /gsdocs/:path.html
+  gsdocs-blogs:
+    output: true
+    permalink: /gsdocs/blogs/:path.html
   meetings:
     output: true
     permalink: /meetings/:title.html
