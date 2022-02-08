@@ -3,6 +3,9 @@ title: ROOT - Automatic conversion of data stored in TTree form to RNTuple
 layout: gsoc_proposal
 project: ROOT
 year: 2022
+difficulty: medium
+duration: 350
+mentor_avail: June-August
 organization:
   - CERN
 ---
