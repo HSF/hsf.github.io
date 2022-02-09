@@ -1,7 +1,7 @@
 ---
-title: FastSim - ML pipeline optimization for fast shower simulation
+title: Geant4-FastSim - ML pipeline optimization for fast shower simulation
 layout: gsoc_proposal
-project: FastSim
+project: Geant4
 year: 2022
 difficulty: medium
 duration: 350
@@ -43,8 +43,8 @@ Python and ML exercises.
 
 ## Mentors
 
-* [Dalila Salamani](mailto:anna.zaborowska@cern.ch)
-* [Anna Zaborowska](mailto:dalila.salamani@cern.ch)
+* [Dalila Salamani](mailto:dalila.salamani@cern.ch)
+* [Anna Zaborowska](mailto:anna.zaborowska@cern.ch)
 
 
 ## Links
