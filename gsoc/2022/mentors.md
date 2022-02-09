@@ -12,3 +12,5 @@ layout: plain
 * Bernhard Manfred Gruber [bernhard.manfred.gruber@cern.ch](mailto:bernhard.manfred.gruber@cern.ch) CERN
 * Guilherme Amadio [amadio@cern.ch](mailto:amadio@cern.ch) CERN
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
+* Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
+* Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
