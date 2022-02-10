@@ -15,3 +15,6 @@ layout: plain
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
 * Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
+* Benjamin Fuks [fuks@lpthe.jussieu.fr](mailto:fuks@lpthe.jussieu.fr) LPTHE
+* Eric Conte [eric.conte@iphc.cnrs.fr](mailto:eric.conte@iphc.cnrs.fr) IPHC
+* Jack Y. Araz [jack.araz@durham.ac.uk](mailto:jack.araz@durham.ac.uk) IPPP
