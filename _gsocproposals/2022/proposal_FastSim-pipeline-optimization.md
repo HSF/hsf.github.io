@@ -43,8 +43,8 @@ Python and ML exercises.
 
 ## Mentors
 
-* [Dalila Salamani](mailto:dalila.salamani@cern.ch)
-* [Anna Zaborowska](mailto:anna.zaborowska@cern.ch)
+* **[Dalila Salamani](mailto:dalila.salamani@cern.ch)** (CERN)
+* [Anna Zaborowska](mailto:anna.zaborowska@cern.ch) (CERN)
 
 
 ## Links
