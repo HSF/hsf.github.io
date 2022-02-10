@@ -1,6 +1,6 @@
 ---
 title: "LPTHE"
-author: "Jack Y. Araz"
+author: "Benjamin Fuks"
 layout: default
 organization: LPTHE
 logo: LPTHE-logo.png
