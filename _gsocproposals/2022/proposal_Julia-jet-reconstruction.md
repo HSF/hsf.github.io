@@ -45,7 +45,7 @@ measurements.
 
 Over the years the community have developed several well-tested algorithms for
 doing this. One of the most popular is the [*anti-kt* algorithm][antikt], which
-has a community standard implementation as part of the [FastJet package][fastjet].
+has a community standard implementation as part of the [FastJet package][fastjet]. <!-- markdown-link-check-disable-line -->
 
 ## Task ideas and expected results
 
@@ -96,7 +96,7 @@ of their evaluation.
 
 * [Jets in HEP][jethep]
 * [The anti-kt jet clustering algorithm][antikt]
-* [FastJet][fastjet]
+* [FastJet][fastjet] <!-- markdown-link-check-disable-line -->
 
 ### HEP Software Stacks
 
