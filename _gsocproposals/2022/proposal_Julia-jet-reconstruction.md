@@ -12,7 +12,11 @@ organization:
 
 # Description
 
-Currently in high-energy physics there are [two main languages
+<div style="text-align:center; padding:25px; float:right">
+<img src="{{ '/images/others/julia.png' | relative_url }}" alt="Julia Logo" width=100px />
+</div>
+
+Currently in high-energy physics (HEP) there are [two main languages
 used][SCRoundtable]: **C++** for numerically intensive code, where execution
 speed is paramount; and **Python**, for interactivity and ease of development
 (often used as 'glue' between high-performance code modules). Recently there has
@@ -26,6 +30,11 @@ important algorithms for HEP in Julia, with the aim of assessing developer
 convenience and runtime performance compared to standard implementations in C++.
 
 ## Jet Reconstruction
+
+<div style="text-align:center; padding:25px; float:right">
+<img src="{{ '/images/others/ATLAS_VP1_event_display_run282712_evt474587238_2015-10-21T06-26-57_v3.png' | relative_url }}" alt="ATLAS Event Display" width=400px />
+<br>ATLAS Event Display with multiple jets, &copy; ATLAS
+</div>
 
 The passage of high-energy particles through detectors like ATLAS and CMS at
 CERN frequently results in showers of secondary particles that form a cascade,
@@ -50,7 +59,7 @@ code maintainability will be assessed.
 
 ## Skills
 
-Some prior experience with Juila would be highly desirable, but strong
+Some prior experience with Julia would be highly desirable, but strong
 programming skills in C++ and Python should enable the candidate to learn Julia
 sufficiently quickly for the project.
 
@@ -63,7 +72,8 @@ The task has many possible extensions that the candidate could tackle:
 
 ## Evaluation Task
 
-To be done...
+The evaluation task comprises of doing a simple timing of the current anti-kt
+algorithm. For details please contact the mentors.
 
 If the candidate has prior experience in Julia they may submit this work as part
 of their evaluation.
