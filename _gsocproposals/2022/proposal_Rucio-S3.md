@@ -15,7 +15,7 @@ organization:
 
 Rucio is an open-source software framework that provides functionality to scientific collaborations to organize, manage, monitor, and access their distributed data and dataflows across heterogeneous infrastructures. Rucio was originally developed to meet the requirements of the high-energy physics experiment ATLAS, and is continuously enhanced to support diverse scientific communities. Since 2016 Rucio orchestrated multiple Exabytes of data access and data transfers globally.
 
-With this project we seek to enhance Rucio to support a new mechanism for analysis facilities, which are oriented towards object stores in order to provide a portable destination for HEP analyzers to store data products produced in their research in a portable, sharable and standardized way.
+With this project we seek to enhance Rucio to support a new mechanism for analysis facilities, which are oriented towards object stores in order to provide a portable destination for HEP analyzers to store data products produced in their research in a portable, shareable and standardized way.
 
 ## Task ideas and expected results
 
