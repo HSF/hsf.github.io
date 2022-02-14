@@ -1,5 +1,5 @@
 ---
-title: Rucio: S3-compatible access interface for analysis facilities
+title: Rucio - S3-compatible access interface for analysis facilities
 layout: gsoc_proposal
 project: Rucio
 year: 2022
