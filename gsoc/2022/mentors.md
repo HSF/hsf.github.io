@@ -20,4 +20,6 @@ layout: plain
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
 * Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
+* Cedric Sefron[Cedric Sefron](mailto:cedric.sefron@cern.ch) CERN
+* Mayank Sharma[Mayank Sharma](mailto:mayank.sharma@cern.ch) CERN
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
