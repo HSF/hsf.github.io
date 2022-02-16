@@ -1,6 +1,6 @@
 ---
 project: Ganga
-title: Develop a new concurrency model for the monitoring in Ganga
+title: A concurrency model for the monitoring in Ganga
 layout: gsoc_proposal
 year: 2022
 organization:
