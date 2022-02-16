@@ -292,11 +292,10 @@ body {
 }
 
 .tm-alpha {
-  background-color: #f9f2f4;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 20px, #f9f2f4 20px, #f9f2f4 40px);
 }
-
 .tm-beta {
-  background-color: #f9f9f1;
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, #f9f9f1 10px, #f9f9f1 40px);
 }
 
 .training-module-name {

@@ -8,6 +8,15 @@ layout: default
 
   {{ content }}
 
+{% if page.year >= 2022 %}
+<h2>Additional Information</h2>
+  <ul>
+      <li>Difficulty level (low / medium / high): {{ page.difficulty }}</li>
+      <li>Duration: {{ page.duration }} hours</li>
+      <li>Mentor availability: {{ page.mentor_avail }}</li>
+  </ul>
+{% endif %}
+
 <h2>Corresponding Project</h2>
   <ul>
       <li><a href="{{ site.baseurl }}/gsoc/projects/{{ page.year }}/project_{{ page.project }}.html">{{ page.project }}</a></li>
