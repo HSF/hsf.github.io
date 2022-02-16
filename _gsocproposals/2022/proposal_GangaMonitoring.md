@@ -3,6 +3,9 @@ project: Ganga
 title: A concurrency model for the monitoring in Ganga
 layout: gsoc_proposal
 year: 2022
+difficulty: medium
+duration: 350
+mentor_avail: June-August
 organization:
   - ImperialCollege
   - MonashUniversity
