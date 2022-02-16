@@ -25,13 +25,15 @@ The scale of the computations submitted through the interface is placing increas
    monitoring operations are queued for execution.
 
 ## Expected results
-A monitoring system that is able to keep the users session responsive and that doesn't fall behind in the monitoring of tasks.
+Moving Ganga from the present situation where the monitoring often falls behind, leading to frustrated usesrs that can't get hold of their results even if the tasks are finished, to a new monitoring system that is able to keep the user's session responsive and that doesn't fall behind in the monitoring of tasks.
+
+As a student, you will gain experience with the challenges of concurrency and how different solutions will have to be used when implementing this in a large existing framework. You will of course also gain experience with working within an open source environment, presenting your work, writing test cases and utilise continuous integration as part of your development cycle.
 
 ## Evaluation Task
 Interested students please contact Ulrik (see contact below) to ask questions and for an evaluation task.
 
 ## Requirements
-Python programming, Experience with concurrency, Linux command line experience
+Python programming (advanced), use of concurrency in Python (intermediate), Linux command line experience (novice).
 
 ## Mentors 
   * [Alex Richards](mailto:a.richards@imperial.ac.uk)
