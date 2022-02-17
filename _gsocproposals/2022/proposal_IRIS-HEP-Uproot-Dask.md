@@ -50,8 +50,8 @@ Interested students please contact Jim (pivarski@princeton.edu) for an evaluatio
 
 ## Mentors
 
-  * **[Jim Pivarski](mailto:pivarski@princeton.edu)**
   * [David Lange](mailto:david.lange@cern.ch)
+  * **[Jim Pivarski](mailto:pivarski@princeton.edu)**
 
 ## Links
 
