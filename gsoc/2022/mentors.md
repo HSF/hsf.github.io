@@ -12,6 +12,7 @@ layout: plain
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Jakob Blomer [Jakob Blomer](mailto:jblomer@cern.ch) CERN
 * Eric Conte [eric.conte@iphc.cnrs.fr](mailto:eric.conte@iphc.cnrs.fr) IPHC
+* Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) monashuniversity
 * Benjamin Fuks [fuks@lpthe.jussieu.fr](mailto:fuks@lpthe.jussieu.fr) LPTHE
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Bernhard Manfred Gruber [bernhard.manfred.gruber@cern.ch](mailto:bernhard.manfred.gruber@cern.ch) CERN
@@ -20,7 +21,9 @@ layout: plain
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN
+* Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) imperialcollege
 * Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
 * Cedric Sefron[Cedric Sefron](mailto:cedric.sefron@cern.ch) CERN
 * Mayank Sharma[Mayank Sharma](mailto:mayank.sharma@cern.ch) CERN
+* Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) imperialcollege
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
