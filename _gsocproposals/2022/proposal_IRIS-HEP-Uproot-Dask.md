@@ -5,7 +5,7 @@ project: IRIS-HEP
 year: 2022
 difficulty: high
 duration: 350
-mentor_avail: June-August
+mentor_avail: May-September (whole GSoC period)
 organization:
   - princeton
 ---
