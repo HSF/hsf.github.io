@@ -1,5 +1,5 @@
 ---
-title: CernVM-FS integration test framework powered by Firecracker
+title: CernVM-FS integration test framework powered by Firecracker VM
 layout: gsoc_proposal
 project: CernVM
 year: 2022
