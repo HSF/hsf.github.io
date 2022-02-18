@@ -31,16 +31,18 @@ machine).
   distribution, containing an installation of the desired CernVM-FS version or
   tag (ex: Ubuntu 20.04 + CernVM-FS 2.9.1).
 * Use the produced VM image with Firecracker VM on a Linux host and run a single
-  integration test case, powering down the VM after the test case was run; changes to the VM image occuring during the test should not be persisted.
+  integration test case, powering down the VM after the test case was run;
+  changes to the VM image occuring during the test should not be persisted.
 * Develop the needed scaffolding to run individual test cases, collect their
-  results and present a summary of a complete test run. Each test case should be run in a VM with a clean initial state.
+  results and present a summary of a complete test run. Each test case should be
+  run in a VM with a clean initial state.
 * Deploy the new integration test system in the CernVM-FS CI infrastructure at
   CERN.
 
 ## Expected results
 
-A usable system for running CernVM-FS integration tests with isolation
-between test cases, powered by Firecracker VM, and running on CERN Openstack
+A usable system for running CernVM-FS integration tests with isolation between
+test cases, powered by Firecracker VM, and running on CERN Openstack
 infrastructure.
 
 ## Requirements
