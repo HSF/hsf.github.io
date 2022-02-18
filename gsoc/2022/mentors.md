@@ -27,3 +27,6 @@ layout: plain
 * Mayank Sharma[Mayank Sharma](mailto:mayank.sharma@cern.ch) CERN
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) imperialcollege
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
+* Giuseppe Lo Presti[giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
+* Daniel Müller[daniel.mueller@uni-muenster.de](mailto:daniel.mueller@uni-muenster.de) WWU
+* Gianmaria Del Monte[gianmaria.del.monte@cern.ch](mailto:gianmaria.del.monte@cern.ch) CERN
