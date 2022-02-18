@@ -30,7 +30,7 @@ Interested students please contact Enrico (see **Mentors** below) for a warm-up 
 ## Mentors
 
   * **[Enrico Guiraud](mailto:enrico.guiraud@cern.ch)**
-  * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch)
+  * [Enric Tejedor](mailto:etejedor@cern.ch)
 
 
 ## Links
