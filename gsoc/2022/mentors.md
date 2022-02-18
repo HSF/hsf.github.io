@@ -27,3 +27,7 @@ layout: plain
 * Mayank Sharma[Mayank Sharma](mailto:mayank.sharma@cern.ch) CERN
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) imperialcollege
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
+* Felice Pantaleo[Felice Pantaleo](mailto:felice.pantaleo@cern.ch) CERN
+* Tony Di Pilato[Tony Di Pilato](mailto:tony.dipilato@cern.ch) CASUS HZDR
+* Wahid Redjeb[Wahid Redjeb](mailto:wahid.redjeb@cern.ch) CERN RWTH
+* Marco Rovere[Marco Rovere](mailto:marco.rovere@cern.ch) CERN
