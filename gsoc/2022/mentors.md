@@ -19,8 +19,10 @@ layout: plain
 * Tony Di Pilato [tony.dipilato@cern.ch](mailto:tony.dipilato@cern.ch) CERN CASUS
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) monashuniversity
 * Benjamin Fuks [fuks@lpthe.jussieu.fr](mailto:fuks@lpthe.jussieu.fr) LPTHE
+* Paul Gessinger [Paul Gessinger](mailto:paul.gessinger@cern.ch) CERN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
+* Hadrien Grasland [Hadrien Grasland](mailto:hadrien.grasland@ijclab.in2p3.fr) IJCLab
 * Enrico Guiraud [Enrico Guiraud](mailto:enrico.guiraud@cern.ch) CERN
 * Bernhard Manfred Gruber [bernhard.manfred.gruber@cern.ch](mailto:bernhard.manfred.gruber@cern.ch) CERN
 * Nikolai Hartmann[Nikolai Hartmann](mailto:nikolai.hartmann@physik.uni-muenchen.de) LMU
@@ -40,6 +42,7 @@ layout: plain
 * Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Daniel Müller [daniel.mueller@uni-muenster.de](mailto:daniel.mueller@uni-muenster.de) WWU
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN
+* Joana Niermann [Joana Niermann](mailto:joana.niermann@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) University of Plovdiv Paisii Hilendarski
 * Radu Popescu [Radu Popescu](mailto:radu.popescu@cern.ch) CERN
