@@ -18,6 +18,7 @@ layout: plain
 * Bernhard Manfred Gruber [bernhard.manfred.gruber@cern.ch](mailto:bernhard.manfred.gruber@cern.ch) CERN
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) TUM
+* Ioana Ifrim [Ioana Ifrim](mailto:ioana.ifrim@cern.ch) Princeton
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN
@@ -26,4 +27,5 @@ layout: plain
 * Cedric Sefron[Cedric Sefron](mailto:cedric.sefron@cern.ch) CERN
 * Mayank Sharma[Mayank Sharma](mailto:mayank.sharma@cern.ch) CERN
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) imperialcollege
+* Vassil Vassilev [Vassil Vassilev](mailto:vvasilev@cern.ch) Princeton
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
