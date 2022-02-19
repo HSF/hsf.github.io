@@ -24,3 +24,5 @@ layout: plain
 * Cedric Sefron[Cedric Sefron](mailto:cedric.sefron@cern.ch) CERN
 * Mayank Sharma[Mayank Sharma](mailto:mayank.sharma@cern.ch) CERN
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
+* Thomas Kuhr[Thomas Kuhr](mailto:Thomas.Kuhr@lmu.de) LMU
+* Nikolai Hartmann[Nikolai Hartmann](mailto:nikolai.hartmann@physik.uni-muenchen.de) LMU

@@ -1,5 +1,5 @@
 ---
-project: Belle II
+project: Belle2
 title: Belle II
 layout: default
 logo: belle2-logo.png
