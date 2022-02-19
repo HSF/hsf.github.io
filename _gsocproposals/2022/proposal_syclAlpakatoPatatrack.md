@@ -27,7 +27,7 @@ The goal of the project is to introduce support for Intel accelerator devices vi
 Interested students please contact: 
 
  * [Felice Pantaleo](mailto:felice.pantaleo@cern.ch) (CERN)
- * [Tony Di Pilato](mailto:tony.dipilato@cern.ch) (CASUS HZDR)
+ * **[Tony Di Pilato](mailto:tony.dipilato@cern.ch) (CERN CASUS)**
  * [Wahid Redjeb](mailto:wahid.redjeb@cern.ch) (CERN RWTH)
 
 ## Technologies
