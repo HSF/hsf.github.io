@@ -3,7 +3,7 @@ title: Acts GPU R&D - Optimization of GPU tracking pipeline
 layout: gsoc_proposal
 project: Acts
 year: 2022
-difficulty: hard
+difficulty: high
 duration: 175
 mentor_avail: June-August
 organization:
