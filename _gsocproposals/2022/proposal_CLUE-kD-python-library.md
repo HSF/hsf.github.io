@@ -44,8 +44,8 @@ Interested students please contact clue-dev@cern.ch
 ## Mentors
 
  * [Felice Pantaleo](mailto:felice.pantaleo@cern.ch) (CERN)
- * [Tony Di Pilato](mailto:tony.dipilato@cern.ch) (CASUS HZDR)
- * [Wahid Redjeb](mailto:wahid.redjeb@cern.ch) (CERN RWTH)
+ * [Tony Di Pilato](mailto:tony.dipilato@cern.ch) (CERN CASUS)
+ * **[Wahid Redjeb](mailto:wahid.redjeb@cern.ch) (CERN RWTH)**
  * [Marco Rovere](mailto:marco.rovere@cern.ch) (CERN)
 
 ## Links
