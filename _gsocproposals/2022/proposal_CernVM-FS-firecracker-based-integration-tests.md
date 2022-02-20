@@ -1,9 +1,12 @@
 ---
 title: CernVM-FS integration test framework powered by Firecracker VM
 layout: gsoc_proposal
-project: CernVM
+project: CernVM-FS
 year: 2022
 organization: CERN
+difficulty: medium
+duration: 350
+mentor_avail: June-August
 ---
 
 ## Description
@@ -32,7 +35,7 @@ machine).
   tag (ex: Ubuntu 20.04 + CernVM-FS 2.9.1).
 * Use the produced VM image with Firecracker VM on a Linux host and run a single
   integration test case, powering down the VM after the test case was run;
-  changes to the VM image occuring during the test should not be persisted.
+  changes to the VM image occurring during the test should not be persisted.
 * Develop the needed scaffolding to run individual test cases, collect their
   results and present a summary of a complete test run. Each test case should be
   run in a VM with a clean initial state.
@@ -49,8 +52,8 @@ infrastructure.
 Linux, shell scripting, basic networking, VMs, containers
 
 ## Mentors
-  * [Radu Popescu](mailto:radu.popescu@cern.ch)
-  * [Jakob Blomer](mailto:jakob.blomer@cern.ch)
+  * **[Radu Popescu](mailto:radu.popescu@cern.ch)** (CERN)
+  * [Jakob Blomer](mailto:jakob.blomer@cern.ch) (CERN)
 
 ## Links
   * [CernVM-FS](https://cernvm.cern.ch/fs)

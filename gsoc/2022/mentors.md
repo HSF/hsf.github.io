@@ -21,6 +21,7 @@ layout: plain
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN
+* Radu Popescu [Radu Popescu](mailto:radu.popescu@cern.ch) CERN
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) imperialcollege
 * Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
 * Cedric Sefron[Cedric Sefron](mailto:cedric.sefron@cern.ch) CERN
