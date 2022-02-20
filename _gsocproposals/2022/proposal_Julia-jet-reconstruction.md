@@ -13,7 +13,7 @@ organization:
 # Description
 
 <div style="text-align:center; padding:25px; float:right">
-<img src="{{ '/images/others/julia.png' | relative_url }}" alt="Julia Logo" width=100px />
+<img src="{{ '/images/others/julia.png' | relative_url }}" alt="Julia Logo" width="100px" />
 </div>
 
 Currently in high-energy physics (HEP) there are [two main languages
@@ -32,7 +32,7 @@ convenience and runtime performance compared to standard implementations in C++.
 ## Jet Reconstruction
 
 <div style="text-align:center; padding:25px; float:right">
-<img src="{{ '/images/others/ATLAS_VP1_event_display_run282712_evt474587238_2015-10-21T06-26-57_v3.png' | relative_url }}" alt="ATLAS Event Display" width=400px />
+<img src="{{ '/images/others/ATLAS_VP1_event_display_run282712_evt474587238_2015-10-21T06-26-57_v3.png' | relative_url }}" alt="ATLAS Event Display" width="400px" />
 <br>ATLAS Event Display with multiple jets, &copy; ATLAS
 </div>
 
@@ -80,7 +80,7 @@ of their evaluation.
 
 ## Mentors
 
-* [Benedikt Hegner](mailto:Benedikt.Hegner@cern.ch) (CERN)
+* **[Benedikt Hegner](mailto:Benedikt.Hegner@cern.ch)** (CERN)
 * [Graeme A Stewart](mailto:graeme.andrew.stewart@cern.ch) (CERN)
 
 ## Links
