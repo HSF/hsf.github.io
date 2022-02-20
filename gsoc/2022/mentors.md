@@ -22,6 +22,7 @@ layout: plain
 * Bernhard Manfred Gruber [bernhard.manfred.gruber@cern.ch](mailto:bernhard.manfred.gruber@cern.ch) CERN
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) TUM
+* Ioana Ifrim [Ioana Ifrim](mailto:ioana.ifrim@cern.ch) Princeton
 * Baidyanath Kundu [baidyanath.kundu@cern.ch] Princeton
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton
@@ -39,4 +40,5 @@ layout: plain
 * Garima Singh [Garima Singh](mailto:garima.singh@cern.ch) Princeton/CERN
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) imperialcollege
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
+* Vassil Vassilev [Vassil Vassilev](mailto:vvasilev@cern.ch) Princeton
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
