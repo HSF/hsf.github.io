@@ -24,6 +24,8 @@ In the recent Advanced Computing and Analysis Techniques (ACAT) 2021 [conference
 GSOC students in 2019 and 2020 ported Phoenix to angular, wrote and implemented a new menu system and much more. Most base functionality now exists for the core display - the task now is to polish this, and develop better the VR display.
 
 ## Possible Tasks
+We have three possible tasks this year. All are expected to take 175 hours (i.e. are short projects).
+
 ### 3D menu for AR/VR
 Phoenix currently supports (in a quite basic form) VR and AR and even with the limited functionality we have right now, this is a very exciting way to use the event display and it is something we would really like to improve.
 
