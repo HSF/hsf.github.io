@@ -32,6 +32,7 @@ layout: plain
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) University of Plovdiv Paisii Hilendarski
+* Radu Popescu [Radu Popescu](mailto:radu.popescu@cern.ch) CERN
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) CERN RWTH
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) imperialcollege
 * Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
