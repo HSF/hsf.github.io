@@ -35,6 +35,7 @@ layout: plain
 * Radu Popescu [Radu Popescu](mailto:radu.popescu@cern.ch) CERN
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) CERN RWTH
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) imperialcollege
+* Marco Rovere [Marco Rovere](mailto:marco.rovere@cern.ch) CERN
 * Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
 * Cedric Sefron[Cedric Sefron](mailto:cedric.sefron@cern.ch) CERN
 * Mayank Sharma[Mayank Sharma](mailto:mayank.sharma@cern.ch) CERN
