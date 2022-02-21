@@ -1,8 +1,11 @@
 ---
 title: Repository as a Service
 layout: gsoc_proposal
-project: ESCAPE
+project: ESCAPE-OSSR
 year: 2022
+difficulty: medium
+duration: 300
+mentor_avail: June-September
 organization: ESCAPE
 ---
 
@@ -14,12 +17,22 @@ research environment is composed of the ESCAPE services. In this context, the Op
 Science and Service Repository (OSSR) provides a trusted repository that will be accessible 
 through the ESFRI Science Analysis Platform (ESAP).
 
-The successful candidate will be integrated into the ESCAPE project to develop a JupyterLab  
+The successful candidate will be integrated into the ESCAPE project to develop a JupyterLab 
 extension to create an user friendly connection between the repository and the analysis platform 
-(the computing resources). This JupyterLab plugin will simplify the access to Zenodo (the Open Source 
-Repository), that provides an open archive archive for scientists to share their analysis software  
+(the computing resources). This plugin will simplify the access to Zenodo (the Open Source 
+Repository) that provides an open archive archive for scientists to share their analysis software  
 and data.
  
+
+## Task ideas and expected Results
+
+* Create a JupyterLab extension that connects the Jupyter environment and Zenodo (Repository) using the  
+eOSSR python library (display of repository entries).
+* Bring back the entry content to the Jupyter environment using the the developed extension.
+* Investigate the possibility of installing the different software entries available in the repository 
+and find solutions to the different software languages libraries.
+* Help defining the needed stages to publish back into the Zenodo and into the ESCAPE community.
+
 
 ## Technology:
  * Python, Web Technologies.
@@ -29,10 +42,11 @@ and data.
  * Experience with git, REST APIs and basic DevOps knowledge would be an asset.
 
 ## Mentors
- * ENRIQUE GARCIA [garcia@lapp.in2p3.fr](mailto:garcia@lapp.in2p3.fr) ESCAPE
- * Thomas Vuillaume [vuillaume@lapp.in2p3.fr](mailto:vuillaume@lapp.in2p3.fr) ESCAPE
+ * **[Enrique Garcia](mailto:garcia@lapp.in2p3.fr)**
+ * [Thomas Vuillaume](mailto:vuillaume@lapp.in2p3.fr)
 
 ## Links
  * [ESCAPE project](https://projectescape.eu/about-us)
  * [ESCAPE Open-source Scientific Software and Service Repository (OSSR)](http://purl.org/escape/ossr)
  * [ESCAPE OSSR content](https://zenodo.org/communities/escape2020)
+ * [eOSSR library](https://gitlab.in2p3.fr/escape2020/wp3/eossr/)
