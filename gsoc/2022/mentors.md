@@ -20,13 +20,13 @@ layout: plain
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) TUM
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
+* Gianmaria Del Monte[gianmaria.del.monte@cern.ch](mailto:gianmaria.del.monte@cern.ch) CERN
+* Daniel Müller[daniel.mueller@uni-muenster.de](mailto:daniel.mueller@uni-muenster.de) WWU
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN
+* Giuseppe Lo Presti[giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) imperialcollege
 * Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
 * Cedric Sefron[Cedric Sefron](mailto:cedric.sefron@cern.ch) CERN
 * Mayank Sharma[Mayank Sharma](mailto:mayank.sharma@cern.ch) CERN
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) imperialcollege
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
-* Giuseppe Lo Presti[giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
-* Daniel Müller[daniel.mueller@uni-muenster.de](mailto:daniel.mueller@uni-muenster.de) WWU
-* Gianmaria Del Monte[gianmaria.del.monte@cern.ch](mailto:gianmaria.del.monte@cern.ch) CERN
