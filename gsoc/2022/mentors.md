@@ -28,7 +28,7 @@ layout: plain
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton
 * Wim Lavrijsen [wlavrijsen@lbl.gov] LBL
-* Charles Leggett [cgleggett@lbl.gov] LBNL
+* Charles Leggett [cgleggett@lbl.gov](mailto:cgleggett@lbl.gov) LBNL
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
 * William Moses [wmoses@mit.edu](mailto:wmoses@mit.edu) MIT
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN

@@ -41,7 +41,7 @@ It is also possible to submit past projects on GPU (e.g. github link)
 ## Mentors
 
  * **[Beomki Yeo](mailto:beomki.yeo@berkeley.edu)** (LBNL)
- * [Charles Leggett](cgleggett@lbl.gov) (LBNL)
+ * [Charles Leggett](mailto:cgleggett@lbl.gov) (LBNL)
 
 ## Links
 
