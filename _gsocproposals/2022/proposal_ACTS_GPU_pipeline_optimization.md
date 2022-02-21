@@ -36,7 +36,7 @@ It is also possible to submit past projects on GPU (e.g. github link)
 
  * Strong C++ skills
  * Linux, Git, and Shell
- * Experience with any of GPU APIs (CUDA, SYCL, etc.) will be asset
+ * Experience with any of GPU APIs (CUDA, SYCL, etc.) will be advantageous
 
 ## Mentors
 
