@@ -1,6 +1,6 @@
 ---
 title: "Laboratoire de Physique des 2 infinis Irène Joliot-Curie (IJCLab)"
-author: "Julien Peloton"
+author: "Hadrien Grasland"
 layout: default
 organization: IJCLab
 logo: IJCLab-logo.jpeg
