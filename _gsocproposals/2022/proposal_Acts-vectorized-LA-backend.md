@@ -3,10 +3,12 @@ title: Vectorized linear algebra implementation for Acts
 layout: gsoc_proposal
 project: Acts
 year: 2022
-organization: CERN
 difficulty: medium
 duration: 350h
 mentor_avail: June-August
+organization: 
+  - CERN
+  - IJCLab
 ---
 
 ## Description
