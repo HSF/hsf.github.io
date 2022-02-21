@@ -6,6 +6,7 @@ layout: plain
 **Note for contributors:** entries must be sorted in **last name** alphabetic order
 
 ## Full Mentor List (Name, Email, Org)
+* Samuel Alfageme Sainz [samuel.alfageme.sainz@cern.ch](mailto:samuel.alfageme.sainz@cern.ch) CERN
 * Fawad Ali [m.fawaadali98@gmail.com](mailto:m.fawaadali98@gmail.com)
 * Guilherme Amadio [amadio@cern.ch](mailto:amadio@cern.ch) CERN
 * John Apostolakis [john.apostolakis@cern.ch](mailto:john.apostolakis@cern.ch) CERN
@@ -39,6 +40,7 @@ layout: plain
 * William Moses [wmoses@mit.edu](mailto:wmoses@mit.edu) MIT
 * Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Daniel Müller [daniel.mueller@uni-muenster.de](mailto:daniel.mueller@uni-muenster.de) WWU
+* Fabian Müller [fmueller@owncloud.com](mailto:fmueller@owncloud.com) ownCloud
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) University of Plovdiv Paisii Hilendarski
@@ -46,6 +48,7 @@ layout: plain
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Elizaveta Ragozina [elizaveta.ragozina@cern.ch](mailto:elizaveta.ragozina@cern.ch) CERN
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) CERN RWTH
+* Hannah von Reth [hannah.vonreth@owncloud.com](mailto:hannah.vonreth@owncloud.com) ownCloud
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) imperialcollege
 * Marco Rovere [Marco Rovere](mailto:marco.rovere@cern.ch) CERN
 * Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
