@@ -4,7 +4,7 @@ layout: gsoc_proposal
 project: Acts
 year: 2022
 difficulty: high
-duration: 300
+duration: 350
 mentor_avail: June-August
 organization:
   - LBNL
