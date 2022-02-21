@@ -4,34 +4,28 @@ layout: gsoc_proposal
 project: Acts
 year: 2022
 difficulty: high
-duration: 175
+duration: 300
 mentor_avail: June-August
 organization:
-  - LBNL
+  - LBL
 ---
 
 ## Description
 
-A Common Tracking Software ([Acts][Acts]) is a general tracking software toolkit for High Energy Physics experiments. 
-The Acts collaboration has launched several R&D lines ([vecmem][vecmem], [detray][detray], and [traccc][traccc]) 
-for GPU acceleration by parallelizing the track reconstruction. vecmem is a memory management toolkit which provides 
-users with convenient GPU interface. detray is a geometry builder which translates the CPU geometry into GPU one. 
-traccc incorporates the other R&D lines to demonstrate GPU tracking pipeline which includes hit clusterization, 
-seed finding, and Kalman filtering. 
+A Common Tracking Software ([Acts][Acts]) is a general tracking software toolkit for High Energy Physics experiments. In the upcoming High luminosity LHC experiments, the large number of particle interactions will significantly increase the track reconstruction time on CPUs. Therefore, the Acts collaboration has launched several GPU R&D lines ([vecmem][vecmem], [detray][detray], and [traccc][traccc]) 
+to accelerate the track reconstruction: [vecmem][vecmem] is a memory management toolkit which provides 
+users with convenient GPU interface. [detray][detray] is a geometry builder which translates the CPU geometry into GPU one. 
+[traccc][traccc] incorporates the other R&D lines to demonstrate GPU tracking pipeline which includes hit clusterization, 
+seed finding, and track fitting. 
 
-The goal of project will be the acceleration of [traccc][traccc] GPU pipeline with CUDA API. The performance can be optimized 
-by (1) selecting a proper caching allocator and (2) realizing multi-threaded environment with CUDA-MPS or Multi-Instance GPU (MIG).
-
-## Task Ideas
-
-* Benchmarking downstream caching allocators provided by [vecmem][vecmem] for [traccc][traccc] algorithms
-* Benchmarking the unified memory and device memory for CUDA memory allocation
-* Application of CUDA-MPS and MIG to the pipeline
+The goal of project will be the optimization of traccc GPU pipeline with CUDA API. The track reconstruction algorithms can be improved by multi-threading with CUDA-MPS and partitioning the GPU device with Multi-Instance GPU (MIG). The caching of event data model (EDM), which contains information on event, is also critical to the throughput. Their memory access or allocation in the GPU device can be optimized by using a proper caching allocator provided by vecmem. 
 
 ## Expected Results
 
-We are expected to observe the actual acceleration of GPU pipeline, especially for CUDA API. 
-The student is expected to create proper benchmark codes to demonstrate the performance.
+* Investigate how the throughput scales up with the number of threads used in CUDA-MPS.
+* Applying MIG to the modern NVIDIA GPUs.
+* Understand how the vecmem caching works in GPU and find the best caching allocator for EDM.
+* Create benchmarks codes for each tracking algorithm (hit clusterization, seed finding, and track fitting) to demonstrate the improvements from the above works
 
 ## Evaluation Task
 
@@ -41,12 +35,13 @@ It is also possible to submit past projects on GPU (e.g. github link)
 ## Requirements
 
  * Strong C++ skills
- * Experience with GPU APIs (CUDA, SYCL, etc.)
  * Linux, Git, and Shell scripting
+ * Experience with any of GPU APIs (CUDA, SYCL, etc.) will be asset
 
 ## Mentors
 
- * **[Beomki Yeo](mailto:beomki.yeo@berkeley.edu)** (LBNL)
+ * **[Beomki Yeo](mailto:beomki.yeo@berkeley.edu)** (LBL)
+ * [Charles Leggett](cgleggett@lbl.gov) (LBL)
 
 ## Links
 
