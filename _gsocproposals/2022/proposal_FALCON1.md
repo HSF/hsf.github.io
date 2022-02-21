@@ -7,6 +7,7 @@ organization:
 - CMU
 - Davidson
 - FSU
+- EPFL
 - Kentucky
 - CERN
 
@@ -28,6 +29,7 @@ Strong machine learning skills, good knowledge of C++ and Python. Interest in Ma
   * [Sitong An](mailto:ml4-sci@cern.ch) (Carnegie Mellon University and CERN)
   * [Abdulhakim Alnuqaydan](mailto:ml4-sci@cern.ch) (University of Kentucky)
   * [John Blue](mailto:ml4-sci@cern.ch) (Davidson College)
+  * [Ali Hariri](mailto:ml4-sci@cern.ch) (EPFL)
 
 Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
 
