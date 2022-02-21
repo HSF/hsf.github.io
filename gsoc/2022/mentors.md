@@ -14,6 +14,7 @@ layout: plain
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
 * Jakob Blomer [Jakob Blomer](mailto:jblomer@cern.ch) CERN
+* Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Eric Conte [eric.conte@iphc.cnrs.fr](mailto:eric.conte@iphc.cnrs.fr) IPHC
 * Tony Di Pilato [tony.dipilato@cern.ch](mailto:tony.dipilato@cern.ch) CERN CASUS
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) monashuniversity
@@ -26,7 +27,9 @@ layout: plain
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) TUM
 * Ioana Ifrim [Ioana Ifrim](mailto:ioana.ifrim@cern.ch) Princeton
+* Benedikt Kulmann [bkulmann@owncloud.com](mailto:bkulmann@owncloud.com) ownCloud
 * Baidyanath Kundu [baidyanath.kundu@cern.ch] Princeton
+* Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton
 * Wim Lavrijsen [wlavrijsen@lbl.gov] LBL
@@ -38,6 +41,7 @@ layout: plain
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) University of Plovdiv Paisii Hilendarski
 * Radu Popescu [Radu Popescu](mailto:radu.popescu@cern.ch) CERN
+* Elizaveta Ragozina [elizaveta.ragozina@cern.ch](mailto:elizaveta.ragozina@cern.ch) CERN
 * Wahid Redjeb [wahid.redjeb@cern.ch](mailto:wahid.redjeb@cern.ch) CERN RWTH
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) imperialcollege
 * Marco Rovere [Marco Rovere](mailto:marco.rovere@cern.ch) CERN
@@ -51,3 +55,4 @@ layout: plain
 * Beomki Yeo[Beomki Yeo](mailto:beomki.yeo@berkeley.edu) LBNL
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
 * Thomas Kuhr[Thomas Kuhr](mailto:Thomas.Kuhr@lmu.de) LMU
+
