@@ -16,6 +16,7 @@ layout: plain
 * Jakob Blomer [Jakob Blomer](mailto:jblomer@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Eric Conte [eric.conte@iphc.cnrs.fr](mailto:eric.conte@iphc.cnrs.fr) IPHC
+* Wouter Deconinck [wouter.deconinck@umanitoba.ca](mailto:wouter.deconinck@umanitoba.ca) Manitoba
 * Tony Di Pilato [tony.dipilato@cern.ch](mailto:tony.dipilato@cern.ch) CERN CASUS
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) monashuniversity
 * Benjamin Fuks [fuks@lpthe.jussieu.fr](mailto:fuks@lpthe.jussieu.fr) LPTHE
@@ -29,6 +30,7 @@ layout: plain
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) TUM
 * Ioana Ifrim [Ioana Ifrim](mailto:ioana.ifrim@cern.ch) Princeton
+* Sylvester Joosten [sjoosten@anl.gov](mailto:sjoosten@anl.gov) ANL
 * Benedikt Kulmann [bkulmann@owncloud.com](mailto:bkulmann@owncloud.com) ownCloud
 * Baidyanath Kundu [baidyanath.kundu@cern.ch] Princeton
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
