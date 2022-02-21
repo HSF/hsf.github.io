@@ -12,6 +12,7 @@ layout: plain
 * Jack Y. Araz [jack.araz@durham.ac.uk](mailto:jack.araz@durham.ac.uk) IPPP
 * Ishank Arora [ishank.arora@cern.ch](mailto:ishank.arora@cern.ch) CERN
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
+* Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
 * Jakob Blomer [Jakob Blomer](mailto:jblomer@cern.ch) CERN
 * Eric Conte [eric.conte@iphc.cnrs.fr](mailto:eric.conte@iphc.cnrs.fr) IPHC
 * Tony Di Pilato [tony.dipilato@cern.ch](mailto:tony.dipilato@cern.ch) CERN CASUS
