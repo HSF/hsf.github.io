@@ -30,7 +30,7 @@ layout: plain
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) TUM
 * Ioana Ifrim [Ioana Ifrim](mailto:ioana.ifrim@cern.ch) Princeton
-* Sylvester Joosten [sjoosten@anl.gov](sjoosten@anl.gov) ANL
+* Sylvester Joosten [sjoosten@anl.gov](mailto:sjoosten@anl.gov) ANL
 * Benedikt Kulmann [bkulmann@owncloud.com](mailto:bkulmann@owncloud.com) ownCloud
 * Baidyanath Kundu [baidyanath.kundu@cern.ch] Princeton
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
