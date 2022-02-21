@@ -20,19 +20,19 @@ through the ESFRI Science Analysis Platform (ESAP).
 The successful candidate will be integrated into the ESCAPE project to develop a JupyterLab 
 extension to create an user friendly connection between the repository and the analysis platform 
 (the computing resources). This plugin will simplify the access to Zenodo (the Open Source 
-Repository) that provides an open archive for scientists to share their analysis software  
+Repository) that provides an open archive for scientists to share their analysis software 
 and data.
  
 
 ## Task ideas and expected Results
 
 * Create a JupyterLab extension that connects the Jupyter environment and Zenodo (Repository) using the  
-eOSSR python library to display the repository entries.
+eOSSR python library to display the repository records.
 * Participate in the development of the eOSSR library to integrate the developed extension. 
-* Bring back the entry content to the Jupyter environment using the developed extension.
-* Investigate the possibility of installing the different software entries available in the repository 
+* Bring back the record content to the Jupyter environment using the developed extension.
+* Investigate the possibility of installing the different software records available in the repository 
 and find solutions to the different software languages libraries.
-* Help defining the needed stages to publish back into Zenodo and the ESCAPE community.
+* Define the needed stages to publish back into Zenodo and the ESCAPE community.
 
 
 ## Technology:
