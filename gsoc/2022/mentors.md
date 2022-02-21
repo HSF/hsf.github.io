@@ -61,4 +61,5 @@ layout: plain
 * Beomki Yeo[Beomki Yeo](mailto:beomki.yeo@berkeley.edu) LBNL
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
 * Thomas Kuhr[Thomas Kuhr](mailto:Thomas.Kuhr@lmu.de) LMU
+* Enrique Garcia [garcia@lapp.in2p3.fr](mailto:garcia@lapp.in2p3.fr) ESCAPE
 
