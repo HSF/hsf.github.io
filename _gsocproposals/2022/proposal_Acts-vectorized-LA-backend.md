@@ -30,6 +30,9 @@ We propose the development of a linear algebra plugin for ACTS, which makes use 
 ## Expected results
 Working prototype implementation that contains all necessary operations and performance statement
 
+## Evaluation Task
+Interested students please contact Joana (joana.niermann@cern.ch) in case of questions and for an evaluation task.
+
 ## Requirements
 C++, experience with code optimization/performance tools, such as perf or vtune, and vectorization would be an asset
 
