@@ -6,11 +6,13 @@ layout: plain
 **Note for contributors:** entries must be sorted in **last name** alphabetic order
 
 ## Full Mentor List (Name, Email, Org)
+* Fawad Ali [m.fawaadali98@gmail.com](mailto:m.fawaadali98@gmail.com)
 * Guilherme Amadio [amadio@cern.ch](mailto:amadio@cern.ch) CERN
 * John Apostolakis [john.apostolakis@cern.ch](mailto:john.apostolakis@cern.ch) CERN
 * Jack Y. Araz [jack.araz@durham.ac.uk](mailto:jack.araz@durham.ac.uk) IPPP
 * Ishank Arora [ishank.arora@cern.ch](mailto:ishank.arora@cern.ch) CERN
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
+* Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
 * Jakob Blomer [Jakob Blomer](mailto:jblomer@cern.ch) CERN
 * Eric Conte [eric.conte@iphc.cnrs.fr](mailto:eric.conte@iphc.cnrs.fr) IPHC
 * Tony Di Pilato [tony.dipilato@cern.ch](mailto:tony.dipilato@cern.ch) CERN CASUS
@@ -30,6 +32,7 @@ layout: plain
 * Wim Lavrijsen [wlavrijsen@lbl.gov] LBL
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
 * William Moses [wmoses@mit.edu](mailto:wmoses@mit.edu) MIT
+* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) University of Plovdiv Paisii Hilendarski
