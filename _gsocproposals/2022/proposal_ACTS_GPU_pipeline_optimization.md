@@ -23,9 +23,9 @@ The goal of project will be the optimization of traccc GPU pipeline with CUDA AP
 ## Expected Results
 
 * Investigate how the throughput scales up with the number of threads used in CUDA-MPS.
-* Applying MIG to the modern NVIDIA GPUs.
+* Applying MIG to the GPU pipeline with the high-end NVIDIA GPUs (A30 and A100).
 * Understand how the vecmem caching works in GPU and find the best caching allocator for EDM.
-* Create benchmarks codes for each tracking algorithm (hit clusterization, seed finding, and track fitting) to demonstrate the improvements from the above works
+* Create benchmark codes for each tracking algorithm (hit clusterization, seed finding, and track fitting) to demonstrate the improvements from the above works
 
 ## Evaluation Task
 
