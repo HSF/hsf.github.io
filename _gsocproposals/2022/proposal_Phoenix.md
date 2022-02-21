@@ -19,7 +19,7 @@ Visualising HEP event data is currently typically done per experiment (e.g. [VP1
 
 In the recent Advanced Computing and Analysis Techniques (ACAT) 2021 [conference](https://indico.cern.ch/event/855454/), two submissions cited Phoenix:
 * Open Data Detector (ACTS) [link](https://indico.cern.ch/event/855454/contributions/4596738/attachments/2352091/4013627/740_poster.pdf)
-* New Web Based Event Data and Geometry Visualisation for LHCb [link](https://indico.cern.ch/event/855454/contributions/4598428/attachments/2352310/4013170/572_Andreas-Pappas_ACAT2021_poster.pdf)
+* New Web Based Event Data and Geometry Visualisation for LHCb [link](https://indico.cern.ch/event/855454/contributions/4598428/attachments/2352310/4018397/572_AndreasPappas_ACAT-2021_poster.pdf)
 
 GSOC students in 2019 and 2020 ported Phoenix to angular, wrote and implemented a new menu system and much more. Most base functionality now exists for the core display - the task now is to polish this, and develop better the VR display.
 
@@ -35,7 +35,7 @@ Phoenix’s menu system was always intended to be extensible, and so it should b
 
 
 #### Possible sub-tasks
-* Investigate available open source menu packages (e.g. https://discourse.threejs.org/t/three-mesh-ui), and evaluate the feasibility of incorporating them in Phoenix.
+* Investigate available open source menu packages (e.g. https://github.com/felixmariotto/three-mesh-ui), and evaluate the feasibility of incorporating them in Phoenix.
 * Decide what functionality should be available in which mode and how it should be best presented.
 * Implement the above, and add the appropriate regression tests.
 * Add new functionality, such as the ability to scale the view etc.
