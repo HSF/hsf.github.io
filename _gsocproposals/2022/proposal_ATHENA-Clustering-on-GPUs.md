@@ -40,7 +40,7 @@ using SYCL.
    benchmark data sets provided by the mentors.
  * Identify the algorithm components that are most likely to benefit from GPU
    acceleration.
- * Develop a plan for the implementation of the identified algroithm componetns
+ * Develop a plan for the implementation of the identified algroithm components
    in SYCL.
  * Convert a first algorithm component, and test the achieved performance gain
    on a single target architecture.
