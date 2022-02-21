@@ -7,7 +7,7 @@ difficulty: high
 duration: 300
 mentor_avail: June-August
 organization:
-  - LBL
+  - LBNL
 ---
 
 ## Description
@@ -35,13 +35,13 @@ It is also possible to submit past projects on GPU (e.g. github link)
 ## Requirements
 
  * Strong C++ skills
- * Linux, Git, and Shell scripting
+ * Linux, Git, and Shell
  * Experience with any of GPU APIs (CUDA, SYCL, etc.) will be asset
 
 ## Mentors
 
- * **[Beomki Yeo](mailto:beomki.yeo@berkeley.edu)** (LBL)
- * [Charles Leggett](cgleggett@lbl.gov) (LBL)
+ * **[Beomki Yeo](mailto:beomki.yeo@berkeley.edu)** (LBNL)
+ * [Charles Leggett](cgleggett@lbl.gov) (LBNL)
 
 ## Links
 

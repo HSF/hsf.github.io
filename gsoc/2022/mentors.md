@@ -28,7 +28,7 @@ layout: plain
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) Princeton
 * Wim Lavrijsen [wlavrijsen@lbl.gov] LBL
-* Charles Leggett [cgleggett@lbl.gov] LBL
+* Charles Leggett [cgleggett@lbl.gov] LBNL
 * Javier Lopez-Gomez [Javier Lopez-Gomez](mailto:j.lopez@cern.ch) CERN
 * William Moses [wmoses@mit.edu](mailto:wmoses@mit.edu) MIT
 * Axel Naumann [Axel Naumann](mailto:Axel.Naumann@cern.ch) CERN
@@ -45,6 +45,6 @@ layout: plain
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) imperialcollege
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Vassil Vassilev [Vassil Vassilev](mailto:vvasilev@cern.ch) Princeton
-* Beomki Yeo[Beomki Yeo](mailto:beomki.yeo@berkeley.edu) LBL
+* Beomki Yeo[Beomki Yeo](mailto:beomki.yeo@berkeley.edu) LBNL
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
 * Thomas Kuhr[Thomas Kuhr](mailto:Thomas.Kuhr@lmu.de) LMU
