@@ -21,6 +21,7 @@ layout: plain
 * Tony Di Pilato [tony.dipilato@cern.ch](mailto:tony.dipilato@cern.ch) CERN CASUS
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) monashuniversity
 * Benjamin Fuks [fuks@lpthe.jussieu.fr](mailto:fuks@lpthe.jussieu.fr) LPTHE
+* Enrique Garcia [garcia@lapp.in2p3.fr](mailto:garcia@lapp.in2p3.fr) ESCAPE
 * Paul Gessinger [Paul Gessinger](mailto:paul.gessinger@cern.ch) CERN
 * Andrei Gheata [andrei.gheata@cern.ch](mailto:andrei.gheata@cern.ch) CERN
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
@@ -63,6 +64,7 @@ layout: plain
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) imperialcollege
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Vassil Vassilev [Vassil Vassilev](mailto:vvasilev@cern.ch) Princeton
+* Thomas Vuillaume [Thomas Vuillaume](mailto:vuillaume@lapp.in2p3.fr) ESCAPE
 * Beomki Yeo[Beomki Yeo](mailto:beomki.yeo@berkeley.edu) LBNL
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
 * Thomas Kuhr[Thomas Kuhr](mailto:Thomas.Kuhr@lmu.de) LMU
