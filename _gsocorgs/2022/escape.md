@@ -3,7 +3,7 @@ title: "ESCAPE"
 author: "Enrique Garcia"
 layout: default
 organization: ESCAPE
-logo: Escape-logo.jpg
+logo: Escape-logo.png
 description: |
   [ESCAPE](https://projectescape.eu/) mission is to establish a single 
   cluster of next generation European 

@@ -6,7 +6,8 @@ year: 2022
 difficulty: medium
 duration: 175
 mentor_avail: June-September
-organization: ESCAPE
+organization: 
+  - ESCAPE
 ---
 
 ## Description
