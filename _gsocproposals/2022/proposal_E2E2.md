@@ -31,6 +31,7 @@ C++, Python, PyTorch and some previous experience in Machine Learning.
 
   * [Davide DiCroce](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Shravan Chaudhari](mailto:ml4-sci@cern.ch) (New York University)
   * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Michael Andrews](mailto:ml4-sci@cern.ch) (Carnegie Mellon University)
 
