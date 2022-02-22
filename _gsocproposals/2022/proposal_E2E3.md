@@ -5,10 +5,9 @@ project: E2E
 year: 2022
 organization:
   - Alabama
-  - BITS Pilani Goa
   - Brown
   - CMU
-  - KGI
+  - New York University
 ---
 
 ## Description
@@ -31,8 +30,7 @@ C++, Python, PyTorch and some previous experience in Machine Learning.
 ## Mentors
 
   * [Davide DiCroce](mailto:ml4-sci@cern.ch) (University of Alabama)
-  * [Darya Dyachkova](mailto:ml4-sci@cern.ch) (KGI Minerva)
-  * [Shravan Chaudhari](mailto:ml4-sci@cern.ch) (BITS Pilani Goa)
+  * [Shravan Chaudhari](mailto:ml4-sci@cern.ch) (New York University)
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
   * [Michael Andrews](mailto:ml4-sci@cern.ch) (Carnegie Mellon University)
 
