@@ -4,11 +4,9 @@ layout: gsoc_proposal
 project: DeepFALCON
 year: 2022
 organization: 
-- CMU
 - Davidson
 - FSU
 - EPFL
-- Kentucky
 - CERN
 
 ---
@@ -26,8 +24,6 @@ Strong machine learning skills, good knowledge of C++ and Python. Interest in Ma
 ## Mentors 
   * [Harrison Prosper](mailto:ml4-sci@cern.ch) (Florida State University)
   * [Michelle Kuchera](mailto:ml4-sci@cern.ch) (Davidson College) 
-  * [Sitong An](mailto:ml4-sci@cern.ch) (Carnegie Mellon University and CERN)
-  * [Abdulhakim Alnuqaydan](mailto:ml4-sci@cern.ch) (University of Kentucky)
   * [John Blue](mailto:ml4-sci@cern.ch) (Davidson College)
   * [Ali Hariri](mailto:ml4-sci@cern.ch) (EPFL)
 
