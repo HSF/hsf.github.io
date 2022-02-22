@@ -5,9 +5,9 @@ project: CMS
 year: 2022
 organization:
   - Alabama
-  - BITS Pilani Goa
   - Brown
   - CMU
+  - New York University
 
 ---
 
