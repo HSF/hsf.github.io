@@ -31,7 +31,7 @@ C++, Python, PyTorch and some previous experience in Machine Learning.
 ## Mentors
 
   * [Davide DiCroce](mailto:ml4-sci@cern.ch) (University of Alabama)
-  * [Shravan Chaudhari](mailto:ml4-sci@cern.ch) (BITS Pilani Goa)
+  * [Shravan Chaudhari](mailto:ml4-sci@cern.ch) (New York University)
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
   * [Michael Andrews](mailto:ml4-sci@cern.ch) (Carnegie Mellon University)
 
