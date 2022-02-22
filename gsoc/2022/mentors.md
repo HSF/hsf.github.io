@@ -20,6 +20,7 @@ layout: plain
 * Wouter Deconinck [wouter.deconinck@umanitoba.ca](mailto:wouter.deconinck@umanitoba.ca) Manitoba
 * Tony Di Pilato [tony.dipilato@cern.ch](mailto:tony.dipilato@cern.ch) CERN CASUS
 * Ulrik Egede [ulrik.egede@monash.edu](mailto:ulrik.egede@monash.edu) monashuniversity
+* Renee Fatemi [Renee Fatemi](mailto:renee.fatemi@uky.edu) UKY
 * Benjamin Fuks [fuks@lpthe.jussieu.fr](mailto:fuks@lpthe.jussieu.fr) LPTHE
 * Enrique Garcia [garcia@lapp.in2p3.fr](mailto:garcia@lapp.in2p3.fr) ESCAPE
 * Paul Gessinger [Paul Gessinger](mailto:paul.gessinger@cern.ch) CERN
@@ -33,6 +34,7 @@ layout: plain
 * Lukas Heinrich [lukas.heinrich@cern.ch](mailto:lukas.heinrich@cern.ch) TUM
 * Ioana Ifrim [Ioana Ifrim](mailto:ioana.ifrim@cern.ch) Princeton
 * Sylvester Joosten [sjoosten@anl.gov](mailto:sjoosten@anl.gov) ANL
+* Thomas Kuhr[Thomas Kuhr](mailto:Thomas.Kuhr@lmu.de) LMU
 * Benedikt Kulmann [bkulmann@owncloud.com](mailto:bkulmann@owncloud.com) ownCloud
 * Baidyanath Kundu [baidyanath.kundu@cern.ch] Princeton
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
@@ -66,6 +68,6 @@ layout: plain
 * Vassil Vassilev [Vassil Vassilev](mailto:vvasilev@cern.ch) Princeton
 * Thomas Vuillaume [Thomas Vuillaume](mailto:vuillaume@lapp.in2p3.fr) ESCAPE
 * Beomki Yeo[Beomki Yeo](mailto:beomki.yeo@berkeley.edu) LBNL
+* Soon Yung Jun [Soon Yung Jun](mailto:syjun@fnal.gov) FNAL
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
-* Thomas Kuhr[Thomas Kuhr](mailto:Thomas.Kuhr@lmu.de) LMU
 
