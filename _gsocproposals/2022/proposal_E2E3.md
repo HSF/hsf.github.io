@@ -5,10 +5,9 @@ project: E2E
 year: 2022
 organization:
   - Alabama
-  - BITS Pilani Goa
   - Brown
   - CMU
-  - KGI
+  - New York University
 ---
 
 ## Description
