@@ -4,7 +4,7 @@ layout: gsoc_proposal
 project: ESCAPE-OSSR
 year: 2022
 difficulty: medium
-duration: 300
+duration: 175
 mentor_avail: June-September
 organization: ESCAPE
 ---
@@ -26,25 +26,31 @@ and data.
 
 ## Task ideas and expected Results
 
-* Create a JupyterLab extension that connects the Jupyter environment and Zenodo (Repository) using the  
-eOSSR python library to display the repository records.
-* Participate in the development of the eOSSR library to integrate the developed extension. 
-* Bring back the record content to the Jupyter environment using the developed extension.
-* Investigate the possibility of installing the different software records available in the repository 
-and find solutions to the different software languages libraries.
-* Define the needed stages to publish back into Zenodo and the ESCAPE community.
+* Create a JupyterLab extension to connect the Jupyter environment to Zenodo (the repository). 
+* Participate in the development of the eOSSR library to integrate the Jupyter extension. 
+* With the help of the eOSSR python library, display the repository records through the JupyterLab interface.
+* Bring back the record content to the working environment using the developed plugin.
+* Investigate how to install the different software records available in the repository and find solutions
+to the different software languages libraries.
+* Define the needed stages to publish back to Zenodo and the ESCAPE community.
+
+The student will learn to work in an Open Science environment and will get accustomed to the open
+publication process and tools. He or She will also learn about setting up a complete DevOps 
+environment, developing, testing and using continuous integration pipelines in all the software lifecycles to 
+provide high quality software. Code reviews and AGILE methods will be used to integrate the student and its
+work in the exiting project and framework.
 
 
 ## Technology:
  * Python, Web Technologies.
 
 ## Desirable Skills
- * Necessary knowledge: Python and Web technologies.
+ * Necessary knowledge: Python and web technologies.
  * Experience with git, REST APIs and basic DevOps knowledge would be an asset.
 
 ## Mentors
- * **[Enrique Garcia](mailto:garcia@lapp.in2p3.fr)** ESCAPE/LAPP-CNRS
- * [Thomas Vuillaume](mailto:vuillaume@lapp.in2p3.fr) ESCAPE/LAPP-CNRS
+ * **[Enrique Garcia](mailto:garcia@lapp.in2p3.fr)** (ESCAPE/LAPP-CNRS)
+ * [Thomas Vuillaume](mailto:vuillaume@lapp.in2p3.fr) (ESCAPE/LAPP-CNRS)
 
 ## Links
  * [ESCAPE project](https://projectescape.eu/about-us)
