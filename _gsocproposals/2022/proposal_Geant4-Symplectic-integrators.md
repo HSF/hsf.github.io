@@ -1,5 +1,5 @@
 ---
-title: Symplectic integrators for Geant4
+title: Geant4 - Symplectic integrators
 layout: gsoc_proposal
 project: Geant4
 year: 2022
@@ -13,13 +13,13 @@ organization:
 
 ## Description
 
-The [Geant4][geant4] toolkit is the basis of the particletransport applications used in High Energy Physics (HEP) experiments, at CERN, other laboratories worldwide and in a large number of diverse applications. It provides all the capabilities needed to simulate the interactions and energy deposition in setups including HEP and Nuclear physics detectors, particle accelerators, medical imaging and treatment devices based on X-rays or particle beams, and even the probing of large structures such as the pyramids using the muons in cosmic rays.
+The [Geant4][geant4] toolkit is the basis of the particle transport applications used in High Energy Physics (HEP) experiments, at CERN, other laboratories worldwide and in a large number of diverse applications. It provides all the capabilities needed to simulate the interactions and energy deposition in setups including HEP and Nuclear physics detectors, particle accelerators, medical imaging and treatment devices based on X-rays or particle beams, and even the probing of large structures such as the pyramids using the muons in cosmic rays.
 
 A key ability of Geant4 is the propagation of charged particles in electromagnetic fields.  A challenging application involves the tracking of particles in accelerators for a large number of turns. 
 
 The [g-2][g2] physics experiment at Fermilab seeks to uncover whether a yet undiscovered forces influences how the spin of the muon behaves.  To do this it measures the polarisation of the muon to seek new physics over thousands of revolutions in its custom accelerator ring.  To replicate this in Geant4, the toolkit must track muons for 5,000 turns with near-perfect energy conservation and no drift in particle momentum.
 
-This project aims to identify and implement a small number of methods which do not accumulate errors in energy and phase space volume over many integration steps. Some derive from the development of symplectic integrators applied also to the study of the long term evolution of the motion of planets and stars. Other candidate methods are borrowed from the particle-in-cell methods used to study plasmas, such as those at the center of active galaxies or in fusion reactors.
+This project aims to identify and implement a small number of methods which do not accumulate errors in energy and phase space volume over many integration steps. Some derive from the development of symplectic integrators, also applied to the study of the long term evolution of the motion of planets and stars. Other candidate methods are borrowed from the particle-in-cell methods used to study plasmas, such as those at the center of active galaxies or in fusion reactors.
 
 The project aims to implement into Geant4 methods with these characteristics - potentially one of each type.
 
@@ -28,6 +28,7 @@ The project aims to implement into Geant4 methods with these characteristics - p
  * Implement a low order (2<sup>nd</sup>) symplectic method specific for electromagnetic fields
  * Implement a higher order (3<sup>rd</sup>, 4<sup>th</sup>) symplectic method for electromagnetic fields
  * Identify alternative candidate integrators with different order and computational costs
+
 A key element of each task will be to benchmark the implemented method against the 'standard' integration methods in Geant4 (such as the Dormand-Prince 5th order Runge-Kutta method - as known as DoPri or DoPri5 in other tools) comparing accuracy and computing time performance. The setups will range from the simplest (a constant magnetic field) to models of realistic accelerator setups.
 
 ## Expected results
@@ -49,9 +50,9 @@ You will gain experience
 - to create reliable, validated code which will be used by a leading edge physics experiment.
 
 ## Mentors
-  * **[John Apostolakis](mailto:john.apostolakis@cern.ch)**
-  * [Soon Yung Jun](mailto:syjun@fnal.gov)
-  * [Renee Fatemi](mailto:renee.fatemi@uky.edu)
+  * **[John Apostolakis](mailto:john.apostolakis@cern.ch)** (CERN)
+  * [Soon Yung Jun](mailto:syjun@fnal.gov) (FNAL)
+  * [Renee Fatemi](mailto:renee.fatemi@uky.edu) (UKY)
 
 ## Links
   * [Geant4](https://cern.ch/geant4/) and its module to [propagate in magnetic fields][field_propagation]
