@@ -5,9 +5,9 @@ project: CMS
 year: 2022
 organization:
   - Alabama
-  - New York University
   - Brown
   - CMU
+  - New York University
 
 ---
 
