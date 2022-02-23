@@ -17,6 +17,8 @@ The field of Computer Vision has for years been dominated by Convolutional Neura
 perceptron to perform the desired classification. But recently this field has been incredibly revolutionized by the architecture of Vision Transformers (ViT), 
 which through the mechanism of self-attention has proven to obtain excellent results on many tasks.
 
+Please contact us once you have completed the prerequisite [challenges](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) designed for this project to give you a better idea of what you will be working on over the summer. Potential candidates can email their solutions to the challenges (Zip file containing Jupyter notebooks and trained machine learning models) along with their CV @ [ml4-sci@cern.ch](ml4-sci@cern.ch).
+
 ## Task ideas
  * Develop a transformer based algorithm for classification of high energy particles.
  * Test and benchmarking on GPUs
@@ -27,7 +29,8 @@ which through the mechanism of self-attention has proven to obtain excellent res
 
 
 ## Requirements
-C++, Python, PyTorch, Tensorflow and some previous experience in Machine Learning.
+ * Skills: C++, Python, PyTorch, Tensorflow and some previous experience in Machine Learning.
+ * [Link to the prerequisite challenges](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing).
 
 ## Mentors
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
