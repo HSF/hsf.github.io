@@ -26,8 +26,8 @@ _Kick-starters_: Diego Ciangottini (INFN, Perugia U, CMS), Alessandra Forti (Man
 
 All are welcome to join the group and participate in the discussions! Please join the
 
-* mailing list: https://groups.google.com/g/hsf-af-forum
-* Mattermost: https://mattermost.web.cern.ch/signup_user_complete/?id=ffib9ny91t8qbcdpeernf3sidy
+* [Mailing List](https://groups.google.com/g/hsf-af-forum)
+* [Mattermost Team](https://mattermost.web.cern.ch/signup_user_complete/?id=ffib9ny91t8qbcdpeernf3sidy)
 
 ## Meetings
 
