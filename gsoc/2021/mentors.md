@@ -47,7 +47,6 @@ layout: plain
 * Javier Lopez-Gomez [j.lopez@cern.ch](mailto:j.lopez@cern.ch) CERN
 * Giuseppe Lo Presti [giuseppe.lopresti@cern.ch](mailto:giuseppe.lopresti@cern.ch) CERN
 * Thomas Madlener [thomas.madlener@desy.de](mailto:thomas.madlener@desy.de) DESY
-* Olivier Mattelaer [olivier.mattelaer@uclouvain.be](mailto:olivier.mattelaer@uclouvain.be) UCLouvain
 * Lorenzo Moneta [Lorenzo.Moneta@cern.ch](mailto:Lorenzo.Moneta@cern.ch) CERN
 * William Moses [wmoses@mit.edu](mailto:wmoses@mit.edu) MIT
 * Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
