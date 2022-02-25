@@ -26,13 +26,12 @@ _Kick-starters_: Diego Ciangottini (INFN, Perugia U, CMS), Alessandra Forti (Man
 
 All are welcome to join the group and participate in the discussions! Please join the
 
-* mailing list: <hsf-AFforum-wg@googlegroups.com>
-* Mattermost:
-  * TBA
+* mailing list: https://groups.google.com/g/hsf-af-forum
+* Mattermost: https://mattermost.web.cern.ch/signup_user_complete/?id=ffib9ny91t8qbcdpeernf3sidy
 
 ## Meetings
 
-* [AF Forum Kick-off Meeting](https://indico.cern.ch/event/1131808) (March 25, 2022)
+* [AF Forum Kick-off Meeting](https://indico.cern.ch/event/1132360/) (March 25, 2022)
 * Related Links
   * [IRIS-HEP Analysis Grand Challenge Tools Workshop](https://indico.cern.ch/event/1076231) (3-4 Nov 2021)
   * [Future Analysis Systems and Facilities workshop](https://indico.cern.ch/event/960587) (26–27 Oct 2020)
@@ -48,4 +47,4 @@ For any further queries, please contact the current activity Coordinators:
 
 via the Coordinators mailing list:
 
-* <hsf-AFforum-wg-convenors@googlegroups.com>
+* <hsf-af-forum-convenors@googlegroups.com>
