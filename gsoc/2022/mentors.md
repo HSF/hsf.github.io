@@ -15,6 +15,7 @@ layout: plain
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Riccardo Maria Bianchi [riccardo.maria.bianchi@cern.ch](mailto:riccardo.maria.bianchi@cern.ch) University of Pittsburgh
 * Jakob Blomer [Jakob Blomer](mailto:jblomer@cern.ch) CERN
+* Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) UofGlasgow
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Eric Conte [eric.conte@iphc.cnrs.fr](mailto:eric.conte@iphc.cnrs.fr) IPHC
 * Wouter Deconinck [wouter.deconinck@umanitoba.ca](mailto:wouter.deconinck@umanitoba.ca) Manitoba
@@ -28,6 +29,7 @@ layout: plain
 * Hugo Gonzalez Labrador [hugo.gonzalez.labrador@cern.ch](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 * Hadrien Grasland [Hadrien Grasland](mailto:hadrien.grasland@ijclab.in2p3.fr) IJCLab
 * Enrico Guiraud [Enrico Guiraud](mailto:enrico.guiraud@cern.ch) CERN
+* Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
 * Bernhard Manfred Gruber [bernhard.manfred.gruber@cern.ch](mailto:bernhard.manfred.gruber@cern.ch) CERN
 * Nikolai Hartmann[Nikolai Hartmann](mailto:nikolai.hartmann@physik.uni-muenchen.de) LMU
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
@@ -70,4 +72,3 @@ layout: plain
 * Beomki Yeo[Beomki Yeo](mailto:beomki.yeo@berkeley.edu) LBNL
 * Soon Yung Jun [Soon Yung Jun](mailto:syjun@fnal.gov) FNAL
 * Anna Zaborowska[Anna Zaborowska](mailto:anna.zaborowska@cern.ch) CERN
-
