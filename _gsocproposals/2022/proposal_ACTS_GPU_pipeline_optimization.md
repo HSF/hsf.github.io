@@ -12,7 +12,7 @@ organization:
 
 ## Description
 
-A Common Tracking Software ([Acts][Acts]) is a general tracking software toolkit for High Energy Physics experiments. In the upcoming High luminosity LHC experiments, the large number of particle interactions will significantly increase the track reconstruction time on CPUs. Therefore, the Acts collaboration has launched several GPU R&D lines ([vecmem][vecmem], [detray][detray], and [traccc][traccc]) 
+A Common Tracking Software ([Acts][Acts]) is a general track reconstruction software toolkit for High Energy Physics experiments. In the upcoming High luminosity LHC experiments, the large number of particle interactions will significantly increase the track reconstruction time on CPUs. Therefore, the Acts collaboration has launched several GPU R&D lines ([vecmem][vecmem], [detray][detray], and [traccc][traccc]) 
 to accelerate the track reconstruction: [vecmem][vecmem] is a memory management toolkit which provides 
 users with convenient GPU interface. [detray][detray] is a geometry builder which translates the CPU geometry into GPU one. 
 [traccc][traccc] incorporates the other R&D lines to demonstrate GPU tracking pipeline which includes hit clusterization, 
