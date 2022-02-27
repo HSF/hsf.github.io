@@ -12,7 +12,7 @@ organization:
 
 ## Description
 
-Project Length: 175 hr.
+Total Project Length: 175 hours.
 
 One of the important aspects of searches for new physics at the [Large Hadron Collider (LHC)](https://home.cern/science/accelerators/large-hadron-collider) involves the identification and reconstruction of single particles, jets and event topologies of interest in collision events. The End-to-End Deep Learning (E2E) project in the CMS experiment focuses on the development  of these reconstruction and identification tasks with innovative deep learning approaches.   
 
