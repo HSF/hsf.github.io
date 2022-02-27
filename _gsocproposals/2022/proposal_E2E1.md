@@ -31,7 +31,7 @@ Please contact us once you have completed the prerequisite [challenges](https://
 
 ## Requirements
  * Skills: C++, Python, PyTorch and some previous experience in Machine Learning.
- * [Link to the prerequisite challenges](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing).
+ * Test: Please use [this link] to access the test for this project.(https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing).
 
 ## Mentors
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
