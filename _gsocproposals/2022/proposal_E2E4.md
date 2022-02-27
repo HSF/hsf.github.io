@@ -20,6 +20,7 @@ which through the mechanism of self-attention has proven to obtain excellent res
 Please contact us once you have completed the prerequisite [challenges](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) designed for this project to give you a better idea of what you will be working on over the summer. Potential candidates can email their solutions to the challenges (Zip file containing Jupyter notebooks and trained machine learning models) along with their CV @ [ml4-sci@cern.ch](ml4-sci@cern.ch).
 
 ## Task ideas
+ * Project Length: 175 hr.
  * Develop a transformer based algorithm for classification of high energy particles.
  * Test and benchmarking on GPUs
 
@@ -31,6 +32,7 @@ Please contact us once you have completed the prerequisite [challenges](https://
 ## Requirements
  * Skills: C++, Python, PyTorch, Tensorflow and some previous experience in Machine Learning.
  * Test: Please use [this link](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) to access the test for this project.
+
 
 ## Mentors
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
