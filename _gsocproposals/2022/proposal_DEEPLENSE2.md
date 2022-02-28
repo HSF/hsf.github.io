@@ -2,10 +2,12 @@
 title: Deep Regression Techniques for Decoding Dark Matter with Strong Gravitational Lensing 
 layout: gsoc_proposal
 project: DEEPLENSE
+project size: 175hr
 year: 2022
 organization:
   - Alabama
   - Brown
+  - Washington
 ---
 
 ## Description
@@ -29,13 +31,14 @@ Please use this [link](https://docs.google.com/document/d/1y9-F1Z8iz_GvVRL9lQmMK
 ## Mentors
   * [Michael Toomey](mailto:ml4-sci@cern.ch) (Brown University)
   * [Stephon Alexander](mailto:ml4-sci@cern.ch) (Brown University)
-  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Brandon Ames](mailto:ml4-sci@cern.ch) (University of Alabama)
-  * [Tyler Trupke](mailto:ml4-sci@cern.ch) (University of Alabama) 
+  * [Sanaz Kiyadeh](mailto:ml4-sci@cern.ch) (University of Alabama) 
+  * [Yurii Halychanskyi](mailto:ml4-sci@cern.ch)(University of Washington)
 
-Please DO NOT contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and include your CV and test results. The relevant mentors will then get in touch with you. 
+Please DO NOT contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and include **your CV** and **test results**. The relevant mentors will then get in touch with you. 
 
 
 ## Links
   * [Paper 1](https://arxiv.org/abs/2008.12731)
   * [Paper 2](https://arxiv.org/abs/1909.07346)
+  * [Paper 3](https://arxiv.org/abs/2112.12121)
