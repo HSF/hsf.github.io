@@ -12,6 +12,8 @@ organization:
 
 ## Description
 
+Total project length: 175 hours.
+
 Strong gravitational lensing is a promising probe of the substructure of dark matter to better understand its underlying nature. Deep learning methods have the potential to accurately identify images containing substructure, and differentiate [WIMP](https://en.wikipedia.org/wiki/Weakly_interacting_massive_particles) particle dark matter from other well motivated models, including vortex substructure of dark matter condensates and superfluids.
 
 This project will focus on further development of the DeepLense pipeline that combines state-of-the art of deep learning models with strong lensing simulations based on [lenstronomy](https://lenstronomy.readthedocs.io/en/latest/). The focus of this project is on using deep regression techniques for estimating dark matter properties, including population-level quantities and properties of dark matter particle candidates (e.g. CDM, WDM, axions, SIDM).
