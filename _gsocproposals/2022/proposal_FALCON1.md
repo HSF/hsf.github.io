@@ -8,7 +8,8 @@ organization:
 - FSU
 - EPFL
 - CERN
-
+- Middle East Technical University
+- Princess Sumaya University for Technology
 ---
 
 ## Description
