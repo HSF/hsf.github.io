@@ -7,8 +7,8 @@ organization:
  - Alabama
  - EPFL
  - Brown
- - KGI
-
+ - Middle East Technical University
+ - Princess Sumaya University for Technology
 
 ---
 
