@@ -32,6 +32,7 @@ Please use this [link](https://docs.google.com/document/d/1y9-F1Z8iz_GvVRL9lQmMK
 ## Mentors
   * [Marcos Tidball](mailto:ml4-sci@cern.ch) (Federal University of Rio Grande do Sul)
   * [Anna Parul](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Michael Toomey](mailto:ml4-sci@cern.ch) (Brown University)
   * [Pranath Reddy](mailto:ml4-sci@cern.ch) (BITS Pilani Hyderabad)
 
