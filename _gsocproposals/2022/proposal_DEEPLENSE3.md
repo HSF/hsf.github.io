@@ -2,11 +2,13 @@
 title: Equivariant Neural Networks for Dark Matter Morphology with Strong Gravitational Lensing 
 layout: gsoc_proposal
 project: DEEPLENSE
+project size: 175hr
 year: 2022
 organization:
   - Alabama
   - Brown
   - BITS Pilani Hyderabad
+  - Federal University of Rio Grande do Sul
 ---
 
 ## Description
@@ -28,7 +30,7 @@ Python, PyTorch and relevant past experience in Machine Learning.
 Please use this [link](https://docs.google.com/document/d/1y9-F1Z8iz_GvVRL9lQmMKlbq3ID3spiW0npe1s1fXwg/edit?usp=sharing) to access the test for this project. 
 
 ## Mentors
-  * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Marcos Tidball](mailto:ml4-sci@cern.ch) (Federal University of Rio Grande do Sul)
   * [Anna Parul](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Michael Toomey](mailto:ml4-sci@cern.ch) (Brown University)
   * [Pranath Reddy](mailto:ml4-sci@cern.ch) (BITS Pilani Hyderabad)
