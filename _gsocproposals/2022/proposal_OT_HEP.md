@@ -13,11 +13,16 @@ organization:
 ---
 
 ## Description
-Assuming particle jets to be considered as probability distributions, the concept of Optimal Transport (OT) could be very useful in quantifying a distance metric between such distributions. 
+The concept of Optimal Transport (OT) can be very useful in quantifying a distance metric between probability distributions. This project will focus on applying optimal transport methods to classification, anomaly detection and generative modeling tasks in particle physics.
 
 ## Task ideas and expected results
-  * Combining OT concepts with deep learning techniques for applications such as Graph Compairsion, Anomaly Detection and other HEP applications.
+Application of optimal transport techniques using deep learning for classification, anomaly detection and graph generative models in high energy physics.
 
+## Duration
+175 hrs
+
+## Test 
+To be announced
 
 ## Requirements
 Strong machine learning skills, good knowledge of C++ and Python. Interest in Machine Learning algorithms and applications.
