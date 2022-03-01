@@ -4,7 +4,6 @@ layout: gsoc_proposal
 project: LOX
 year: 2022
 organization:
-  - Alabama
   - JHUAPL
   - LANL
 
@@ -43,7 +42,6 @@ Python, C++, previous experience in Machine Learning or equivalent
   * [James P. Mastandrea](mailto:ml4-sci@cern.ch) (Johns Hopkins University Applied Physics Laboratory)
   * [Patrick Peplowski](mailto:ml4-sci@cern.ch) (Johns Hopkins University Applied Physics Laboratory)
   * [Aimee Hungerford](mailto:ml4-sci@cern.ch) (Los Alamos National Laboratories)
-  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama) 
 
 Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
 

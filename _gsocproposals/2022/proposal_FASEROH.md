@@ -4,7 +4,7 @@ layout: gsoc_proposal
 project: FASEROH
 year: 2022
 organization:
- - Alabama
+ - Kentucky
  - FSU
 ---
 
@@ -32,7 +32,7 @@ Please use this link to access the test for this project. Tests will be publishe
 
 
 ## Mentors
-  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Abdulhakim Alnuqaydan](mailto:ml4-sci@cern.ch) (University of Kentucky)
   * [Harrison Prosper](mailto:ml4-sci@cern.ch) (Florida State University)
 
 
