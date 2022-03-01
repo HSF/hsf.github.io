@@ -20,11 +20,12 @@ organization:
   * Extend and scale Graph VAEs to the multi-layer detectors.
 	 * Test various graph connectivities, pooling etc. to optimize the performance.
 
-## Duration 
-175 hrs
+## Duration
+
+Total project length: 175 hours.
 
 ## Test 
-[Tasks Link](https://docs.google.com/document/d/1D-4baai481dNyUHBPtTUSQjBT2Qfrw4s/edit?usp=sharing&ouid=103538884238549030751&rtpof=true&sd=true)
+Please use this [link](https://docs.google.com/document/d/1D-4baai481dNyUHBPtTUSQjBT2Qfrw4s/edit?usp=sharing&ouid=103538884238549030751&rtpof=true&sd=true) to access the test for this project. 
 
 
 ## Requirements
@@ -39,7 +40,7 @@ Strong machine learning skills, good knowledge of C++ and Python. Interest in Ma
   * [Amal Saif](mailto:ml4-sci@cern.ch) (Princess Sumaya University for Technology)
 
 
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
+Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
 
 
 ## Links

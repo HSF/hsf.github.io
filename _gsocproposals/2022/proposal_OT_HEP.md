@@ -17,14 +17,16 @@ organization:
 ## Description
 The concept of Optimal Transport (OT) can be very useful in quantifying a distance metric between probability distributions. This project will focus on applying optimal transport methods to classification, anomaly detection and generative modeling tasks in particle physics.
 
+## Duration
+
+Total project length: 175 hours.
+
 ## Task ideas and expected results
 Application of optimal transport techniques using deep learning for classification, anomaly detection and graph generative models in high energy physics.
 
-## Duration
-175 hrs
+## Test
 
-## Test 
-To be announced
+Please use this link to access the test for this project. Tests will be published in March.
 
 ## Requirements
 Strong machine learning skills, good knowledge of C++ and Python. Interest in Machine Learning algorithms and applications.
@@ -37,5 +39,5 @@ Strong machine learning skills, good knowledge of C++ and Python. Interest in Ma
   * [Sinan Gençoğlu](mailto:ml4-sci@cern.ch) (Middle East Technical University)
   * [Amal Saif](mailto:ml4-sci@cern.ch) (Princess Sumaya University for Technology)
 
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
+Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
 

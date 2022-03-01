@@ -32,7 +32,7 @@ Python, previous experience in Machine Learning.
 ## Test
 
 Please use this link to access the test for this project. Tests will be published in March.
-Please **DO NOT** contact mentors directly by email. Instead, please email[ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.:q!
+
 
 ## Mentors
   * [Jeremy Bailin](mailto:ml4-sci@cern.ch) (University of Alabama)
@@ -41,4 +41,4 @@ Please **DO NOT** contact mentors directly by email. Instead, please email[ml4-s
   * [Jianghao Huyan](mailto:ml4-sci@cern.ch) (University of South Carolina)
   * [Varsha Kulkarni](mailto:ml4-sci@cern.ch) (University of South Carolina)
 
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
+Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.

@@ -17,12 +17,20 @@ Planetary surfaces are observed as all electromagnetic wavelengths (e.g. radar, 
 
 We seek to study planetary surfaces by inputting maps of surfaces at all wavelengths available to discover the relationships between the measurements and to make predictions about chemistry that are not directly sampled by observations. This provides a way of studying the geologic history of a planet with existing data, which is valuable given the infrequent opportunities for new measurements by planetary spacecraft.
 
+## Duration
+
+Total project length: 175 hours.
+
 ## Task ideas
   * Implement a deep multi-objective regression model to predict the chemical composition of Mercury based on data collected by the Messenger mission.
 
 ## Expected results
   * Accurate models of albedo and chemical composition based on Messenger mission data
-   
+
+## Test
+
+Please use this link to access the test for this project. Tests will be published in March.
+
 ## Requirements 
 Python, previous experience in Machine Learning. 
 
@@ -33,4 +41,4 @@ Python, previous experience in Machine Learning.
   * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Jason Terry](mailto:ml4-sci@cern.ch) (University of Georgia)
  
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
+Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.

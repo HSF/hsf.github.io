@@ -17,14 +17,21 @@ Discovery of new physics requires the identification of rare signals against imm
 
 With this project we seek to implement Quantum Machine Learning methods for LHC HEP analysis based on Google TensorFlow Quantum (“TF Quantum is an open source library for quantum machine learning”). This will enhance the ability of the HEP community to use Quantum Machine Learning methods. In addition, if possible, we also would like to develop a common QML interface for HEP which can support different quantum frameworks such as TensorFlow Quantum.
 
+## Duration
+
+Total project length: 175 hours.
 
 ## Task ideas
   * Implement a Quantum Generative Adversarial Network (QGAN) method based on Google Tensorflow Quantum framework.
   * Apply the quantum machine learning method to one LHC flagship physics channel (e.g. double-Higgs production). Compare the quantum machine learning performance to the classical machine learning performance.
  
 ## Expected results
-  *Trained Quantum Generative Adversarial Network method based on Google TensorFlow Quantum framework.
+  * Trained Quantum Generative Adversarial Network method based on Google TensorFlow Quantum framework.
   * Successfully apply the Quantum Machine Learning method to LHC physics analyses and obtain performance benchmarks to compare to classical machine learning methods.
+  
+## Test
+
+Please use this link to access the test for this project. Tests will be published in March.
   
 ## Requirements 
   * Solid knowledge of machine learning and deep learning
@@ -48,4 +55,4 @@ With this project we seek to implement Quantum Machine Learning methods for LHC 
   * [TensorFlow Quantum](https://www.tensorflow.org/quantum/overview)
 
 
-Please DO NOT contact mentors directly by email, and instead please send project inquiries to [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title in the subject and relevant mentors will get in touch with you. 
+Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
