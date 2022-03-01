@@ -19,11 +19,7 @@ This project will focus on the development of end-to-end graph neural networks f
 Please contact us once you have completed the prerequisite [challenges](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) designed for this project to give you a better idea of what you will be working on over the summer. Potential candidates can email their solutions to the challenges (Zip file containing Jupyter notebooks and trained machine learning models) along with their CV @ [ml4-sci@cern.ch](ml4-sci@cern.ch). 
 
 ## Duration
-<<<<<<< HEAD
 Total project length: 175 hours. 
-=======
-175 hrs.  
->>>>>>> f20829f4b4a4083d8fe587849b32e47996b94dd6
 
 ## Task ideas
  * Development of end-to-end graph neural networks for low-momentum tau identification
