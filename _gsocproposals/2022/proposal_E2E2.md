@@ -16,8 +16,6 @@ One of the important aspects of searches for new physics at the [Large Hadron Co
 
 This project will focus on the development of end-to-end graph neural networks for particle (tau) identification and [CMSSW](https://github.com/cms-sw/cmssw) inference engine for use in reconstruction algorithms in offline and high-level trigger systems of the [CMS](https://home.cern/science/experiments/cms) experiment.
 
-Please contact us once you have completed the prerequisite [challenges](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) designed for this project to give you a better idea of what you will be working on over the summer. Potential candidates can email their solutions to the challenges (Zip file containing Jupyter notebooks and trained machine learning models) along with their CV @ [ml4-sci@cern.ch](ml4-sci@cern.ch). 
-
 ## Duration
 Total project length: 175 hours. 
 
