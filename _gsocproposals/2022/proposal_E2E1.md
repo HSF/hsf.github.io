@@ -20,7 +20,7 @@ This project will focus on the integration of E2E code with the [CMSSW](https://
 Please contact us once you have completed the prerequisite [challenges](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) designed for this project to give you a better idea of what you will be working on over the summer. Potential candidates can email their solutions to the challenges (Zip file containing Jupyter notebooks and trained machine learning models) along with their CV @ [ml4-sci@cern.ch](ml4-sci@cern.ch). 
 
 ## Duration
-175 hrs / 350 hrs.
+175 hrs / 350 hrs. 
 
 ## Task ideas
  * Integration/interface of E2E with the CMSSW inference engine
