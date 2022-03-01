@@ -21,7 +21,7 @@ Please contact us once you have completed the prerequisite [challenges](https://
 
 ## Duration
 
-175 hrs.
+Total project length: 175 hours.
 
 ## Task ideas
  * Develop a transformer based algorithm for classification of high energy particles.

@@ -18,7 +18,8 @@ This project will focus on the development of end-to-end deep learning regressio
 
 
 ## Duration
-175 hrs.
+
+Total project length: 175 hours.
 
 ## Task ideas
  * Development of end-to-end deep learning regression for particle property measurements
