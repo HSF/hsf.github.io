@@ -12,13 +12,14 @@ organization:
 
 ## Description
 
-Total project length: 175 hours. 
-
 One of the important aspects of searches for new physics at the [Large Hadron Collider (LHC)](https://home.cern/science/accelerators/large-hadron-collider) involves the identification and reconstruction of single particles, jets and event topologies of interest in collision events. The End-to-End Deep Learning (E2E) project in the CMS experiment focuses on the development  of these reconstruction and identification tasks with innovative deep learning approaches.   
 
 This project will focus on the development of end-to-end graph neural networks for particle (tau) identification and [CMSSW](https://github.com/cms-sw/cmssw) inference engine for use in reconstruction algorithms in offline and high-level trigger systems of the [CMS](https://home.cern/science/experiments/cms) experiment.
 
 Please contact us once you have completed the prerequisite [challenges](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) designed for this project to give you a better idea of what you will be working on over the summer. Potential candidates can email their solutions to the challenges (Zip file containing Jupyter notebooks and trained machine learning models) along with their CV @ [ml4-sci@cern.ch](ml4-sci@cern.ch). 
+
+## Duration
+175 hrs. 
 
 ## Task ideas
  * Development of end-to-end graph neural networks for low-momentum tau identification
@@ -28,10 +29,11 @@ Please contact us once you have completed the prerequisite [challenges](https://
  * Trained end-to-end graph neural network model for tau identification 
  * Benchmark of end-to-end GNN inference on gpu
 
-
 ## Requirements
  * Skills: C++, Python, PyTorch and some previous experience in Machine Learning.
- * Test: Please use [this link](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) to access the test for this project.
+
+## Test
+Please use [this link](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) to access the test for this project.
 
 ## Mentors
 
