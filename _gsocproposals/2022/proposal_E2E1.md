@@ -19,7 +19,7 @@ This project will focus on the integration of E2E code with the [CMSSW](https://
 
 
 ## Duration
-350 hrs.
+175 hrs / 350 hrs.
 
 ## Task ideas
  * Integration/interface of E2E with the CMSSW inference engine
