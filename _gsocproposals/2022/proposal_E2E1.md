@@ -30,12 +30,10 @@ Please contact us once you have completed the prerequisite [challenges](https://
  * Integrated code within CMSSW classes
  * Benchmark of end-to-end deep learning inference on cpu and gpu
 
-
 ## Requirements
  * Skills: C++, Python, PyTorch and some previous experience in Machine Learning.
 
-
-## Test 
+## Test
 Please use [this link](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz_S1CwgJf/view?usp=sharing) to access the test for this project.
 
 ## Mentors
