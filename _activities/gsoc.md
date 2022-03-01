@@ -65,23 +65,23 @@ For new projects wishing to join ML4SCI GSoC umbrella, please contact the admins
 <table class="table table-hover table-striped">
 
 <tr>
-<td>TBA February 2022</td>
-<td>Deadline to apply for ML4Sci project participation</td>
-</tr>
-
-<tr>
 <td>21 February 2022</td>
 <td>We will apply to GSoC as an umbrella organization</td>
 </tr>
 
 <tr>
-<td>TBA March 2022</td>
-<td>Deadline to finalize student evaluation tests</td>
+<td>4 March 2022</td>
+<td>Deadline to apply for ML4Sci project participation</td>
 </tr>
 
 <tr>
 <td>7 March 2022</td>
 <td>Accepted Orgs announced by Google</td>
+</tr>
+
+<tr>
+<td>10 March 2022</td>
+<td>Deadline to finalize student evaluation tests</td>
 </tr>
 
 <tr>
