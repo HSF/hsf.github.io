@@ -7,6 +7,7 @@ organization:
  - Alabama
  - Georgia
  - JHUAPL
+ - NTUA
 ---
 
 ## Description
@@ -40,5 +41,8 @@ Python, previous experience in Machine Learning.
   * [Patrick Peplowski](mailto:ml4-sci@cern.ch) (JHUAPL)
   * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Jason Terry](mailto:ml4-sci@cern.ch) (University of Georgia)
+  * [Giorgos Pipilis](mailto:ml4-sci@cern.ch) (NTUA)
+
+
  
 Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.

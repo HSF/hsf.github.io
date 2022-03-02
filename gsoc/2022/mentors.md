@@ -5,12 +5,12 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 
+  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
   * [Richard S. Miller](mailto:ml4-sci@cern.ch) (Johns Hopkins University Applied Physics Laboratory)
   * [James P. Mastandrea](mailto:ml4-sci@cern.ch) (Johns Hopkins University Applied Physics Laboratory)
   * [Patrick Peplowski](mailto:ml4-sci@cern.ch) (Johns Hopkins University Applied Physics Laboratory)
   * [Aimee Hungerford](mailto:ml4-sci@cern.ch) (Los Alamos National Laboratories)
-  * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Pranath Reddy](mailto:ml4-sci@cern.ch) (BITS Pilani Hyderabad)
   * [Michael Toomey](mailto:ml4-sci@cern.ch) (Brown University)
   * [Anna Parul](mailto:ml4-sci@cern.ch) ( University of Alabama)
@@ -52,6 +52,14 @@ layout: plain
   * [Charles Snider](mailto:ml4-sci@cern.ch) (Brown University)
   * [Steven Tobias](mailto:ml4-sci@cern.ch) (University of Leeds)
   * [Chenyu Zhang](mailto:ml4-sci@cern.ch) (Brown University)
+  * [Marcos Tidball](mailto:ml4-sci@cern.ch) (Federal University of Rio Grande do Sul)
+  * [Jeremy Quijano](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Sanaz Kiyadeh](mailto:ml4-sci@cern.ch) (University of Alabama)
+  * [Yurii Halychanskyi](mailto:ml4-sci@cern.ch) (University of Washington)
+  * [Sinan Gençoğlu](mailto:ml4-sci@cern.ch) (Middle East Technical University)
+  * [Amal Saif](mailto:ml4-sci@cern.ch) (Princess Sumaya University for Technology)
+  * [Purva Chaudhari](mailto:ml4-sci@cern.ch) (VIT)
+  * [Giorgos Pipilis](mailto:ml4-sci@cern.ch) (NTUA)
 
 
 

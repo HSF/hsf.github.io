@@ -8,6 +8,7 @@ organization:
   - Brown
   - CMU
   - New York University
+  - VIT
 
 ---
 
@@ -42,6 +43,7 @@ Please use [this link](https://drive.google.com/file/d/1QVf5_eOBPZCHPiUY3BfqmWAz
   * [Shravan Chaudhari](mailto:ml4-sci@cern.ch) (New York University)
   * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Michael Andrews](mailto:ml4-sci@cern.ch) (Carnegie Mellon University)
+  * [Purva Chaudhari](mailto:ml4-sci@cern.ch) (VIT)
 
 
 Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
