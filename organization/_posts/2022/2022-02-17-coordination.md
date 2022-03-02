@@ -15,10 +15,6 @@ HSF call for proposals was sent a few weeks ago. Deadline for project proposals 
 
 ## Working Group Updates
 
-### Data Analysis
-
-NTR
-
 ### Detector Simulation
 
 - Planned community meeting about GPU prototypes for simulation (AdePT, Celeritas) with leaders of those efforts: May 3-6, 2022 (15:00-19:00 CERN time)
@@ -26,20 +22,20 @@ NTR
 - MARS talk scheduled for March (Monday March 28th)
 
 ### Reconstruction and Software Trigger
+
 Next planned topical meetings:
 - March 9th, Patatrack and ACTS, jointly with Compute Accelerator Forum: <https://indico.cern.ch/event/1077574/> 
 - March 16th, 4D reconstruction (sPhenix & LHCb): <https://indico.cern.ch/event/1128087/>
 
 ### PyHEP
+
 - Paper prepared as input to the second phase of the LHCC review of HL-LHC computing, which took place in November 2021, is now on the arXiv: <https://arxiv.org/abs/2202.02194>.
 - Next topical meeting, Wed. March 2nd, is under preparation - waiting for confirmation from speaker.
 
 ### Software Tools and Packaging
 
-We had a joint meeting with the conveners of the Training WG. We discussed what kind of Spack training was feasible to develop and most appropriate for our community. Discussions between interested parties have begun.
-
-We have started discussion with the Frameworks WG to identify special topics on modern C++ about which we can coordinate inviting talks. This is inspired by the success of the PyHEP WG "module of the month" talks, but given the nature of C++ it may be more appropriate for this to be task-based rather than library-entity based. We have a meeting between WG conveners scheduled for next week.
-
+- We had a joint meeting with the conveners of the Training WG. We discussed what kind of Spack training was feasible to develop and most appropriate for our community. Discussions between interested parties have begun.
+- We have started discussion with the Frameworks WG to identify special topics on modern C++ about which we can coordinate inviting talks. This is inspired by the success of the PyHEP WG "module of the month" talks, but given the nature of C++ it may be more appropriate for this to be task-based rather than library-entity based. We have a meeting between WG conveners scheduled for next week.
 
 ### Event Generators
 
@@ -57,8 +53,8 @@ We have started discussion with the Frameworks WG to identify special topics on 
 ### Software Training
 
 - Regular weekly meetings at 16 pm CET Monday.
-- Next IRIS-HEP & HSF training March 28-30, https://indico.cern.ch/event/1112526/. Registration opening up early March.
-- Continue work on `matplotlib` training development, zero to 4-lepton Higgs plot (beta status), https://hsf-training.github.io/hsf-training-matplotlib/.
+- Next IRIS-HEP & HSF training March 28-30, <https://indico.cern.ch/event/1112526/>. Registration opening up early March.
+- Continue work on `matplotlib` training development, zero to 4-lepton Higgs plot (beta status), <https://hsf-training.github.io/hsf-training-matplotlib/>.
 - Joint meeting with Software Tools and Packaging meeting on training opportunities, resulting in plans for a `spack` user training (target: ready by summer) and potential future topics (tools to help debugging and improve bug reporting: e.g. interpreting gdb, perf, valgrind output).
 - Color-blindness friendly updates to website.
 
@@ -67,20 +63,9 @@ We have started discussion with the Frameworks WG to identify special topics on 
 
 ### General
 
-There are some slides posted that give a general overview of some of our other HSF activities (delayed from last week).
-
-### Visualisation
-
-### Event Delivery Forum
-
 ### Licensing
 
 We still need to conclude on the HepMC3 re-licensing!
-
-### Conditions Databases
-
-
-### Differentiable Computing
 
 ---
 
