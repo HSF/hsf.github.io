@@ -49,7 +49,7 @@ sufficiently quickly for the project.
 
 ## Evaluation Task
 
-The evaluation task comprises of manually translating a simple data model into a Julia representaiton. For details please contact the mentors.
+The evaluation task comprises of manually translating a simple data model into a Julia representation. For details please contact the mentors.
 
 If the candidate has prior experience in Julia they may submit this work as part
 of their evaluation.
