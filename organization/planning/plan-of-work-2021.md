@@ -6,14 +6,14 @@ layout: plain_toc
 
 ## Preamble
 
-* In the first few meetings of 2021 the HSF established some high-level
+In the first few meetings of 2021 the HSF established some high-level
 plans and goals for 2021. While none of these are cast in stone, we
 remain agile to adapt to new opportunities and circumstances throughout
-the year, they are a useful guide to our activities.*
+the year, they are a useful guide to our activities.
 
-* We encourage experiments and projects to take a look at these and
+We encourage experiments and projects to take a look at these and
 we welcome any suggestions about how to make the HSF more effective
-and useful for HEP.*
+and useful in HEP and for allied fields.
 
 ## Overall Activity and Coordination
 
