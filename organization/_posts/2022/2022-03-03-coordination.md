@@ -3,7 +3,7 @@ title: "HSF Coordination Meeting #224, 3 March 2022"
 layout: plain_toc
 ---
 
-Present/Contributing: Graeme Stewart, Serhan Mete, Stefan Roiser, Dorothea vom Bruch, Markus Diefenthaler, Efe Yazgan, Pere Mato, Ben Morgan, Nicole Skidmore, Kyle Knoepfel, Krzysztof Genser, Wouter Deconinck, Matti Kortelainen, Allie Hall, Josh McFayden, Mark Neubauer, Valentin Volkl, Alexander Moreno
+Present/Contributing: Graeme Stewart, Serhan Mete, Stefan Roiser, Dorothea vom Bruch, Markus Diefenthaler, Efe Yazgan, Pere Mato, Ben Morgan, Nicole Skidmore, Kyle Knoepfel, Krzysztof Genser, Wouter Deconinck, Matti Kortelainen, Allie Hall, Josh McFayden, Mark Neubauer, Valentin Volkl, Alexander Moreno, Pere Mato, Marc Paterno, Andi Salzburger, Liz Sexton-Kennedy, Kevin Pedro, Paul Laycock, Philippe Canal, Daniel Elvira, Valentin Volkl
 
 Apologies/Contributing: Eduardo Rodrigues, Benedikt Hegner
 
