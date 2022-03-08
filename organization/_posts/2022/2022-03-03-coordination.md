@@ -21,7 +21,7 @@ Draft presentation will be ready on Monday 7.
 
 23-25 May: <https://indico.cern.ch/e/aew2>
 
-**Registration is opened!** At the moment we have limited this to 80 in-person places.
+**Registration is open!** At the moment we have limited this to 80 in-person places.
 
 Thanks to the support of IRIS-HEP, CERN/HSF and IJCLab we do not require a registration fee - coffee/tea and lunches will be covered.
 
@@ -144,7 +144,7 @@ The text we wrote is [here](https://docs.google.com/document/d/1y45VSJeUZQnxgk7U
 
 ### Calendar
 
-Q. How do we setup the HSF calendar?
+Q. How do we set up the HSF calendar?
 
 - There is a normal Google Calendar, in which any events can be added directly; there is also an Indico sync script that added events from the HSF Indico area, see <https://github.com/HSF/merge2gcal> (this is far superior to adding things by hand...)
 
