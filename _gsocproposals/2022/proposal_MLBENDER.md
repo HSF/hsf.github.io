@@ -26,8 +26,9 @@ Total project length: 175 hours.
  
 ## Test
 
-Please use this link to access the test for this project. Tests will be published in March.
-   
+Please use [this link](https://docs.google.com/document/d/e/2PACX-1vQFS4M_MDcn8ROykYeH7fP12EMdOvnCH6vT9PUQjSHubSg6gabFA7BDKe8VqNeIZVVF6KNfIku2UAPr/pub) to access the test for this project.
+
+
 ## Requirements 
 Python, C++, and some previous experience in Machine Learning. 
 
