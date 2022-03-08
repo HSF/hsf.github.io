@@ -32,7 +32,7 @@ Total project length: 175 hours.
 
 ## Test
 
-Please use this link to access the test for this project. Tests will be published in March.
+Please use [this link](https://docs.google.com/document/d/e/2PACX-1vSeQWHXbf-87eCPcEj-LcYEcBpPKnqCYoU0uf7PH-ou_XRdcg_xtXaP4fzSY8b_FiGMIyqsLjDNWqZD/pub) to access the test for this project.
 
 ## Requirements 
   * Solid knowledge of machine learning and deep learning
