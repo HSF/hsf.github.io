@@ -26,7 +26,7 @@ Application of optimal transport techniques using deep learning for classificati
 
 ## Test
 
-Please use this [link](https://docs.google.com/document/d/1D-4baai481dNyUHBPtTUSQjBT2Qfrw4s/edit?usp=sharing&ouid=103538884238549030751&rtpof=true&sd=true
+Please use this [link](https://docs.google.com/document/d/1dPJjCSMi2wfr7eLbJVIaFe1e6kIXOHlR/edit?usp=sharing&ouid=103538884238549030751&rtpof=true&sd=true
 ) to access the test for this project.
 
 ## Requirements
