@@ -25,7 +25,7 @@ Python, C++ and some experience in Machine Learning sequence models.
 
 ## Test
 
-Please use this link to access the test for this project. Tests will be published in March.
+Please use this [link](https://docs.google.com/document/d/1eMtRPR-nH2NyituMBIDAZdmcCkZF2TyUFQp6zg-z5pA/edit) to access the test for this project.
 
 
 ## Mentors
