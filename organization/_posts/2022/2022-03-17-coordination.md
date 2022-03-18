@@ -55,9 +55,9 @@ In the Tuesday meeting there were a few questions:
   - No, we think that would over-complicate things and even defining what an analysis facility is for HEP is challenging
   - Simone: group needs to start with a problem statement, so that it can focus on the right questions
 
-The referees' summary statement was "The LHCC commends the CS bodies for their fundamental role in supporting the LHC experiments and welcome the initiatives of HSF and IRIS-HEP in accompanying the development of forums for the larger community to exchange on areas of mutual interest."
+The referees' summary statement was "The LHCC commends the CS bodies for their fundamental role in supporting the LHC experiments and welcomes the initiatives of HSF and IRIS-HEP in accompanying the development of forums for the larger community to exchange on areas of mutual interest."
 
-LHCC minuites will be published soon.
+LHCC minutes will be published soon.
 
 #### LHCC Bi-annual Report
 
@@ -129,7 +129,7 @@ We published the [plans for 2022](https://hepsoftwarefoundation.org/organization
 
 ### Data Analysis
 
-- Metadata paper (<http://arxiv.org/abs/2203.00463>) was accepted for publication in CSBS. We are working on addressing the comments from reviewers now, and will circulate a new draft in the next week.
+- [Metadata paper](http://arxiv.org/abs/2203.00463) was accepted for publication in CSBS. We are working on addressing the comments from reviewers now, and will circulate a new draft in the next week.
 - Started inviting speakers for a discussion about systematics. Goal is to overview what is currently done by the experiments, and then focus on future developments at the workshop in May
 
 ### Detector Simulation
