@@ -26,5 +26,5 @@ Minutes of the HSF Generator WG Meeting No:18 Thursday 24 March 2022 https://ind
         * Markus D.: EIC will have similar problems in a few years. What would you recommend for an experiment starting to work on these things?
             * Matthew G.: Why FxFx is much faster with similar accuracy needs to be understood. 
         * Alexander G.: Slide 2 plot: Sherpa prediction for 2.2.11 spot on with data, FxFx around 600 GeV there is some deviation? Where is it coming from?
-            * Matthew G.: We should not read into this too much. In the paper (updated) version FxFx gives a perfect description (with improving details)_ FxFx and Sherpa have comparable performance sometimes FxFx is even better.
-* Talk on "further Sherpa efficiency improvements" postponed to April, 7th. 
+            * Matthew G.: We should not read into this too much. In the paper (updated) version FxFx gives a perfect description (with improving details) FxFx and Sherpa have comparable performance sometimes FxFx is even better.
+* Lively discussion. Talk on "further Sherpa efficiency improvements" postponed to April, 7th, due to running late.  
