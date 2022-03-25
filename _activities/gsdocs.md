@@ -36,7 +36,7 @@ For candidate technical writers interested in our project proposals, please take
 <!---
 ### For HSF projects and mentors
 
- Detailed instructions for mentors and organizations on how to apply, including links to other relevant Season of Docs resources are [available here]({{ site.baseur l }}/gsdocs/guideline.html). Please use the administrators contact at the bottom of this page (not the general to ask us any questions concerning your application.
+ Detailed instructions for mentors and organizations on how to apply, including links to other relevant Season of Docs resources are [available here]({{ site.baseurl }}/gsdocs/guideline.html). Please use the administrators contact at the bottom of this page (not the general to ask us any questions concerning your application.
 -->
 
 ## Our {{page.current_year}} Project
@@ -45,7 +45,7 @@ For candidate technical writers interested in our project proposals, please take
 {% for proposal in sorted_proposals %}{% capture u_proposal_org %}{{ organization | upcase }}{% endcapture %}
 {%- assign strings = proposal.url | split: '/' -%}
 {%- assign proposal_year = strings[2] | plus: 0 -%}
-{%- if proposal_year == {{page.current_year}} %}
+{%- if proposal_year == page.current_year %}
 * [ {{ proposal.title }} ]( {{ proposal.url }} ) 
 {%- endif -%}
 {% endfor %}
