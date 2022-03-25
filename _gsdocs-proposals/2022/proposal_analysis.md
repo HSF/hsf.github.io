@@ -23,7 +23,7 @@ We are in the midst of an important project to address one of the major challeng
 
 
 ## Detailed project description
-* [Please see our full proposal draft here][GoogleSeasonOfDocsHSF.pdf]
+* [Please see our full proposal draft here](./GoogleSeasonOfDocsHSF.pdf)
 
 ## Mentors
 * David Lange [David.Lange@cern.ch](mailto:David.Lange@cern.ch) Princeton University
