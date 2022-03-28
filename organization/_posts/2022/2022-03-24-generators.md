@@ -3,9 +3,9 @@ title: "HSF Generator WG Meeting #18, 24 March 2022"
 layout: plain_toc
 ---
 
-Agenda: https://indico.cern.ch/event/1141896/
+Agenda: <https://indico.cern.ch/event/1141896/>
 
-* Discussion of ATLAS V+jets Modelling paper (PMGR-2021-01)
+* Discussion of ATLAS V+jets Modelling paper ([PMGR-2021-01](https://arxiv.org/abs/2112.09588))
     * V+Jets billions per final state produced in ATLAS. Dominant CPU sink is V+jets.
     * Sherpa2.2.11 0-2j@NLO+3-5jets@LO using MEPS@NLO + EW(virt) corrections, HTprime scale, no gluon colour/spin exact matching and analytic enhancement. --> ~375 HS06/event.
         * 200 million events --> 238 HS06 years (compared to 444 HS06 years for Sherpa2.2.1 with different settings). ==> Reduction of a factor of 2 in CPU resources with higher accuracy and better features: NLO QCD + NLO EW corr., on-the-fly weights...
