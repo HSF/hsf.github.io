@@ -1,9 +1,14 @@
-Minutes of the HSF Generator WG Meeting No:18 Thursday 24 March 2022 https://indico.cern.ch/event/1141896/?note=192096
+---
+title: "HSF Generator WG Meeting #18, 24 March 2022"
+layout: plain_toc
+---
+
+Agenda: https://indico.cern.ch/event/1141896/
 
 * Discussion of ATLAS V+jets Modelling paper (PMGR-2021-01)
     * V+Jets billions per final state produced in ATLAS. Dominant CPU sink is V+jets.
     * Sherpa2.2.11 0-2j@NLO+3-5jets@LO using MEPS@NLO + EW(virt) corrections, HTprime scale, no gluon colour/spin exact matching and analytic enhancement. --> ~375 HS06/event.
-            * 200 million events --> 238 HS06 years (compared to 444 HS06 years for Sherpa2.2.1 with different settings). ==> Reduction of a factor of 2 in CPU resources with higher accuracy and better features: NLO QCD + NLO EW corr., on-the-fly weights...
+        * 200 million events --> 238 HS06 years (compared to 444 HS06 years for Sherpa2.2.1 with different settings). ==> Reduction of a factor of 2 in CPU resources with higher accuracy and better features: NLO QCD + NLO EW corr., on-the-fly weights...
     * When settings similar FxFx and Sherpa has similar CPU times. However in Sherpa using event scale = scalar sum of outgoing particles reduces the accuracy.
     * Slicing: max(HT, PT^V) in six slices.
         * Samples are heavy flavor filtered --> x3 additional samples for each slice.
@@ -26,5 +31,6 @@ Minutes of the HSF Generator WG Meeting No:18 Thursday 24 March 2022 https://ind
         * Markus D.: EIC will have similar problems in a few years. What would you recommend for an experiment starting to work on these things?
             * Matthew G.: Why FxFx is much faster with similar accuracy needs to be understood. 
         * Alexander G.: Slide 2 plot: Sherpa prediction for 2.2.11 spot on with data, FxFx around 600 GeV there is some deviation? Where is it coming from?
-            * Matthew G.: We should not read into this too much. In the paper (updated) version FxFx gives a perfect description (with improving details) FxFx and Sherpa have comparable performance sometimes FxFx is even better.
-* Lively discussion. Talk on "further Sherpa efficiency improvements" postponed to April, 7th, due to running late.  
+            * Matthew G.: We should not read into this too much. In the paper (updated) version FxFx gives a perfect description (with improving details)_ FxFx and Sherpa have comparable performance sometimes FxFx is even better.
+* Lively discussion. Talk on "further Sherpa efficiency improvements" postponed to April, 7th, due to running late.
+
