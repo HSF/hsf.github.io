@@ -1,19 +1,22 @@
 ---
-title: Thermonuclear Supernova Classification via their Nuclear Signatures 
+title: Revealing the Identities of Thermonuclear Scenarios Using the Ultraviolet, Optical, and Infrared (UVOIR) Light Curves of Type-Ia Supernovae
 layout: gsoc_proposal
 project: LOX
 year: 2022
 organization:
   - JHUAPL
-  - LANL
 
 ---
 
 ## Description
 
-Thermonuclear supernovae (Type-Ia or SNeIa) are deeply connected to topics throughout astrophysics and cosmology. They are, however, an enigma. What are they? Why do they explode? How diverse is their population? The answers to these fundamental questions will have a far-reaching impact. SNeIa are governed by nuclear physics processes, and the emergent nuclear radiation produced by these cataclysmic events encodes details of their structure and dynamics. Future population studies enabled by next-generation space-based astrophysics investigations will seek to identify progenitor sub-classes based on the fundamental nuclear emissions. Ultimately, nuclear physics-based observations and analyses will deepen our understanding of the role these objects play in the Galaxy and beyond. 
+Thermonuclear, or Type-Ia, supernovae (SNeIa) are one of the premier probes of cosmology. During a supernova, 20–60% of a white dwarf’s mass is fused into a single radioactive isotope (56Ni) in just a few seconds. The ensuing 56Ni→56Co→56Fe decay chain powers a bright optical display that can be about 5 billion times brighter than the Sun. But clues that reveal the identity of the progenitor systems, and the physical conditions that govern these explosions, remain elusive.
 
-Classification of SNeIa based on a machine learning approach is appropriate, in part because the connections between nuclear physics observables and intrinsic parameters (e.g. progenitor type, mass, explosion dynamics, and distribution of radioactive material) can be complex. An extensive library of detailed supernova simulations facilitate the establishment of classification metrics in preparation for the future nuclear astrophysics investigations. The first step is a student evaluation exercise when you can apply a machine learning technique of your choice to the classification of supernovae based on the parameter dataspace described in the provided dataset. The specific approach is left to you, so feel free to impress us! Work should be clearly demonstrated in Jupyter Notebooks that address why the approach you chose is appropriate for this problem and how you validated your model. 
+These beacons of the Cosmos are governed by nuclear physics processes. However, most observations of these objects have been made at ultraviolet, optical, and infrared (UVOIR) wavelengths. These low-energy photons are reprocessed nuclear radiation. Light curves summarize the time-evolution of the photons that escape these cataclysmic events, and critical information may be encoded within them that reveals their identities.
+
+Over the next decade, tens of thousands of SNeIa are expected to be detected and monitored by both ground- and space-based instruments, and across a broad range of wavelengths. The critical new information they will provide will transform astrophysics, and our understanding of these enigmatic objects.
+
+Our goal is to use UVOIR light curves to characterize their defining characteristics, identify subclasses (if any), and ultimately the physics that governs them. This project will define and evaluate classification schemes for SNeIa using light curves at different wavelengths, and evaluate which metrics provide the most information content.
 
 
 ## Duration
@@ -22,27 +25,29 @@ Total project length: 175 hours.
 
 
 ## Task ideas
- * Identify ML and computational techniques suitable for SNeIa classification
- * Train the algorithm on a provided SNeIa simulation database 
- * Develop a SNeIa classification framework and/or routine 
+ * Identify ML and computational techniques for UVOIR-based SNeIa classification
+ * Evaluate performance of each technique and select the best one for this project
+ * Train the algorithm on a provided SNeIa simulation database, for predefined wavelength bands
+ * Develop a SNeIa classification framework and/or routine
+ * Evaluate classification performance for each wavelength band
+ * Compare and contrast the performance of your classification scheme to identify the most useful wavelength bands 
 
 
 ## Expected results
- * Project deliverable is a SNeIa classification routine, along with a study of performance. 
+ * Project deliverable is a SNeIa classification routine and a study of its performance. 
 
 ## Test
 
-Please use this link to access the test for this project. Tests will be published in March.
+Please use this [link](https://github.com/ML4SCI/ML4SCI_GSoC/tree/main/LOX) to access the test and relative data set for this project.
 
 ## Requirements
-Python, C++, previous experience in Machine Learning or equivalent 
+ * Python, C++, modest previous experience in Machine Learning or equivalent 
 
 ## Mentors
   * [Richard S. Miller](mailto:ml4-sci@cern.ch) (Johns Hopkins University Applied Physics Laboratory)
   * [James P. Mastandrea](mailto:ml4-sci@cern.ch) (Johns Hopkins University Applied Physics Laboratory)
   * [Patrick Peplowski](mailto:ml4-sci@cern.ch) (Johns Hopkins University Applied Physics Laboratory)
-  * [Aimee Hungerford](mailto:ml4-sci@cern.ch) (Los Alamos National Laboratories)
 
-Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
+Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) and [jamesgsoc2@gmail.com](jamesgsoc2@gmail.com) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
 
   
