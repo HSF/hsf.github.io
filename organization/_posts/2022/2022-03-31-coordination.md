@@ -57,13 +57,13 @@ GSoD, proposal has been made and [advertised](https://hepsoftwarefoundation.org/
 
 ### Talks
 
-Graeme and Alessandra gave a talks at the [SWIFT-HEP workshop](https://indico.cern.ch/event/1127798) last week - thanks for comments and improvements.
+Graeme and Alessandra gave talks at the [SWIFT-HEP workshop](https://indico.cern.ch/event/1127798) last week - thanks for comments and improvements.
 
 ## Working Group Updates
 
 ### Data Analysis
 
-- Final modifications to Metadata paper ongoing - will re-circulate to proponents
+- Final modifications to [Metadata paper](https://arxiv.org/abs/2203.00463) ongoing - will re-circulate to proponents
 - Discussing having a meeting on the 12th April focussing on Systematics
 
 ### Detector Simulation
@@ -71,7 +71,7 @@ Graeme and Alessandra gave a talks at the [SWIFT-HEP workshop](https://indico.ce
 - Held a meeting on MARS: <https://indico.cern.ch/event/1107097/>
 - Next meeting will be on Fast Calorimeter Simulation Challenge on April 11th
   - <https://indico.cern.ch/event/1140563/>
-  We will work to advertise this to all possibly interested community
+  We will work to advertise this to all possibly interested communities
 - HSF Detector Simulation on GPU Community Meeting (3-6 May) - see above
 - Expecting a session on DD4hep towards the end of May
 
@@ -116,7 +116,7 @@ Interesting presentations at Swift-HEP [workshop](https://indico.cern.ch/event/1
 ### Software Training
 
 - Software Carpentry workshop held on 28-30 of March ([link to Indico](https://indico.cern.ch/event/1112526/)).
-  - 58 participants registered. ~30 participants attending live.
+  - 58 participants registered. ~30 participants attended live.
   - Carpentries instructors covering the basics (Bash, Git, Python)
   - HEP community instructors for ROOT (E. Saavedra, V. Padulano and J. Rembser) and Uproot (J. Pivarski).
   - We will discuss the pre and post surveys and the aftermath in the next HSF Training meeting on Monday.
@@ -141,7 +141,7 @@ Benedikt contacted all HepMC3 authors for consent to move to LGPLv2.1-or-later i
 ### Conditions Databases
 
 Finally having the first meeting next week, Wednesday April 6th: <https://indico.cern.ch/event/1143958/>.
-We could delay the start time to 14:30 to be kinder to US colleagues, and Graeme seems to have pre-empted this :)
+We could delay the start time to 14:30 to be kinder to our US colleagues, and Graeme seems to have pre-empted this :)
 
 ---
 
@@ -149,7 +149,7 @@ We could delay the start time to 14:30 to be kinder to US colleagues, and Graeme
 
 ### Anaconda
 
-After deciding that Fermilab would not be considered as non-commercial, which led to a block on access to the Anaconda repositories being put in place at Fermilab and to a rash of PRs to make sure that there were alternatives, Anaconda seem to have changed their mind on this. Fermilab still considering how to react.
+After deciding that Fermilab would not be considered as non-commercial, which led to a block on access to the Anaconda repositories being put in place at Fermilab and to a rash of PRs to make sure that there were alternatives, Anaconda seem to have changed their mind on this. Fermilab is still considering how to react.
 
 ### HSF Mail in Spam?
 
