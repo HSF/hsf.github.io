@@ -42,13 +42,8 @@ Please use [this link](https://docs.google.com/document/d/e/2PACX-1vSeQWHXbf-87e
 
 
 ## Mentors
-  * [Rui Zhang](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
-  * [Shaojun Sun](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
-  * [Chen Zhou](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
-  * [Alkaid Cheng](mailto:ml4-sci@cern.ch) (University of Wisconsin Madison)
   * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Raphael Koh](mailto:ml4-sci@cern.ch) (University of Waterloo)
-  * [Wen Guan](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
 
 Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
