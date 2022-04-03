@@ -5,7 +5,6 @@ project: QMLHEP
 year: 2022
 organization:
  - Alabama
- - Wisconsin
  - Waterloo
  - Brown
 ---
