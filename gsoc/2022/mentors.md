@@ -58,7 +58,6 @@ layout: plain
   * [Yurii Halychanskyi](mailto:ml4-sci@cern.ch) (University of Washington)
   * [Sinan Gençoğlu](mailto:ml4-sci@cern.ch) (Middle East Technical University)
   * [Amal Saif](mailto:ml4-sci@cern.ch) (Princess Sumaya University for Technology)
-  * [Purva Chaudhari](mailto:ml4-sci@cern.ch) (VIT)
   * [Giorgos Pipilis](mailto:ml4-sci@cern.ch) (NTUA)
 
 
