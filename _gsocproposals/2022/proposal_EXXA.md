@@ -1,5 +1,5 @@
 ---
-title: Finding Exoplanets with Astronomical Observations
+title: Finding Exoplanets with Astronomical Observations [POPULAR PROJECT]
 layout: gsoc_proposal
 project: EXXA
 year: 2022
