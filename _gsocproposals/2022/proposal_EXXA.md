@@ -31,7 +31,7 @@ Total project length: 175 hours.
 
 ## Test
 
-No test required.
+Test will be published soon.
 
 
 ## Mentors
