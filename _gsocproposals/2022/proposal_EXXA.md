@@ -1,5 +1,5 @@
 ---
-title: Finding Exoplanets with Astronomical Observations [POPULAR PROJECT]
+title: Finding Exoplanets with Astronomical Observations
 layout: gsoc_proposal
 project: EXXA
 year: 2022
@@ -16,6 +16,8 @@ The purpose of this project is to use publicly available data from observations 
 An exoplanet is any planet not in our solar system. Since the early 1990s, thousands of exoplanets have been discovered. Exoplanets are identified through a variety of methods, including, but not limited to, transit light curve analysis, direct imaging, and radial velocity measurements. One of the most successful attempts was the Kepler Mission, which studied light curves of hundreds of thousands of stars and identified over 2,500 planets. Each detection technique is biased towards detecting different types of planets at different distances from stars, so a variety of methods is necessary to fully explore the exoplanetary parameter space.
 
 As is exemplified by the Kepler Mission, identifying exoplanets – using any method – relies on massive datasets and signals that can be subtle and noisy. In fact, the first exoplanet was observed many years before it was identified because the researchers did not originally notice it in the data. An unfortunate side effect of this delay was that the “first” discovered exoplanet was announced in the interim despite being observed years later. Machine learning may be a useful avenue for systematically, accurately, and quickly identifying planets and avoiding such situations. 
+
+This is a popular project.
 
 ## Duration
 
