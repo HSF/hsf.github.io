@@ -17,7 +17,7 @@ An exoplanet is any planet not in our solar system. Since the early 1990s, thous
 
 As is exemplified by the Kepler Mission, identifying exoplanets – using any method – relies on massive datasets and signals that can be subtle and noisy. In fact, the first exoplanet was observed many years before it was identified because the researchers did not originally notice it in the data. An unfortunate side effect of this delay was that the “first” discovered exoplanet was announced in the interim despite being observed years later. Machine learning may be a useful avenue for systematically, accurately, and quickly identifying planets and avoiding such situations. 
 
-This is a popular project.
+_This is a popular project._
 
 ## Duration
 
