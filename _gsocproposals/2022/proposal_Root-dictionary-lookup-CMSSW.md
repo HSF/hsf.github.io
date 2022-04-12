@@ -42,14 +42,14 @@ dictionaries that can not be found in the modules system. These dictionaries are
 present as the mainstream system is able to find them using a broader search.
 The modules setup in ROOT needs to be extended to include a dictionary extension
 to track dictionary<->module mappings for C++ entities that introduce synonyms
-rather than declarations (`using std::vector<A<B>> = MyVector` where the
+rather than declarations (`using MyVector = std::vector<A<B>>` where the
 dictionaries of A, B are elsewhere)
 
 
 ## Task ideas
 
 The project consists of the following tasks:
-  * If an alias declaration of kind `using std::vector<A<B>> = MyVector`, we
+  * If an alias declaration of kind `using MyVector = std::vector<A<B>>`, we
     should store the ODRHash of it in the respective dictionary file as a
     number attached to a special variable which can be retrieved at symbol
     scanning time.
