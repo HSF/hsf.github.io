@@ -20,7 +20,7 @@ Further Sherpa efficiency improvements by Enrico Bothmann:
     * EB: accepted in unweighting step. The gain depends on the distribution of weights. 
 * Andrea: are PDF variations similar in CMS and ATLAS?
     * EY: yes
-* Andrea: Why too much time is spent in clustering (without PDF varations)? is this parton shower? 
+* Andrea: Why too much time is spent in clustering (without PDF variations)? is this parton shower? 
     * EB: It starts from ME and interpret as in PS including emissions etc. It is a factorial problem. 
     * AV: is the clustering large because it is a merged setup? 
         * EB: yes the problem will be much smaller without merged setups.  And there may be other ways to cluster which may have linear scaling.
