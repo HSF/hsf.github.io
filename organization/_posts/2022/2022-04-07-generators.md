@@ -6,6 +6,7 @@ layout: plain_toc
 Agenda: <https://indico.cern.ch/event/1142647/>
 
 Further Sherpa efficiency improvements by Enrico Bothmann:
+
 * Further improvements on top of the factor of two that goes into Sherpa 2.2.12.
 * Calls to LHAPDF ~60% CPU time when on-the-fly weights / multiweigths are turned on.  
 * Switching to LHAPDF6.4.0 makes ATLAS V+jets setup 30% faster.
