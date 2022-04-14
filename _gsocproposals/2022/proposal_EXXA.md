@@ -33,7 +33,10 @@ Total project length: 175 hours.
 
 ## Test
 
-Test will be published soon.
+No evaluation test for this project, however, we encourage you to:
+  * submit your proposal by April 19
+  * submit an evaluation test for a different ML4SCI project to show your ML skills
+  * consider submitting an additional proposal for another ML4SCI project to increase your overall chances (this is a very popular project)
 
 
 ## Mentors
