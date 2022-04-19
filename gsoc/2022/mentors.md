@@ -62,7 +62,7 @@ layout: plain
 * Alex Richards [a.richards@imperial.ac.uk](mailto:a.richards@imperial.ac.uk) imperialcollege
 * Marco Rovere [Marco Rovere](mailto:marco.rovere@cern.ch) CERN
 * Dalila Salamani [Dalila Salamani](mailto:dalila.salamani@cern.ch) CERN
-* Cedric Sefron[Cedric Sefron](mailto:cedric.sefron@cern.ch) CERN
+* Cedric Serfon[Cedric Serfon](mailto:cedric.serfon@cern.ch) CERN
 * Mayank Sharma[Mayank Sharma](mailto:mayank.sharma@cern.ch) CERN
 * Garima Singh [Garima Singh](mailto:garima.singh@cern.ch) Princeton/CERN
 * Mark Smith [mark.smith1@imperial.ac.uk](mailto:mark.smith1@imperial.ac.uk) imperialcollege

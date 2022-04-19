@@ -13,3 +13,5 @@ description: |
   implement a functional link between the concerned ESFRI projects 
   and European Open Science Cloud (EOSC).
 ---
+
+{% include gsoc_proposal.ext %}
