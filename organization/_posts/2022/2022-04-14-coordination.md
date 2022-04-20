@@ -47,7 +47,7 @@ Authorship - propose to name those who helped write the paper, then "for the HSF
 
 ### Talks
 
-Graeme will give a talk on "Software Frameworks" in the [JENAS meeting](https://indico.cern.ch/event/1040535/) in Madrid 3-8 May ("frameworks" to be intepreted broadly as the whole data processing pipeline). Would like to highlight multi-experiment projects (like ACTS) and adaption to heterogeneous hardware (like Allen) as broad themes.
+Graeme will give a talk on "Software Frameworks" in the [JENAS meeting](https://indico.cern.ch/event/1040535/) in Madrid 3-8 May ("frameworks" to be interpreted broadly as the whole data processing pipeline). Would like to highlight multi-experiment projects (like ACTS) and adaption to heterogeneous hardware (like Allen) as broad themes.
 
 Meeting is primarily European, but see ICFA point below.
 
@@ -135,7 +135,7 @@ We have all but concluded on the HepMC3 re-licensing - time for the PR...
 
 The first meeting of the activity went ahead last week: <https://indico.cern.ch/event/1143958/>
 
-The idea of the meeting was to first see if we could agree on the definition of the problem(s) we are trying to solve, looking at workflows and use cases.  Very encouraging that we seemed to have concensus in the meeting, so there doesn't seem to be a pressing need to discuss "what we missed".  A preliminary strawman (and incomplete) list of requirements was discussed to kick off discussions.  Again we had encouraging consensus and positive contributions.  The idea is to now move on and write this up, i.e. attempt to write a short white paper defining the use cases and requirements.
+The idea of the meeting was to first see if we could agree on the definition of the problem(s) we are trying to solve, looking at workflows and use cases.  Very encouraging that we seemed to have consensus in the meeting, so there doesn't seem to be a pressing need to discuss "what we missed".  A preliminary strawman (and incomplete) list of requirements was discussed to kick off discussions.  Again we had encouraging consensus and positive contributions.  The idea is to now move on and write this up, i.e. attempt to write a short white paper defining the use cases and requirements.
 
 ## AOB
 
@@ -147,7 +147,7 @@ We have been contacted by Igor Slazyk about a [Norwegian summer school](https://
 
 Graeme put in a ticket with CERN about HSF email being mischaracterised as spam, which seems to have been a problem in the last few months. (There is little/no actual spam from HSF lists.)
 
-CERN IT have been active in trying to help with this, which relies on understanding why emails forwaded from users are not landing in the anti-spam training dashboard. However, Microsoft support seems a bit lacking for now...
+CERN IT have been active in trying to help with this, which relies on understanding why emails forwarded from users are not landing in the anti-spam training dashboard. However, Microsoft support seems a bit lacking for now...
 
 In the meantime we recommend:
 
