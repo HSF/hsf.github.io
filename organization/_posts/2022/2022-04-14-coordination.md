@@ -3,7 +3,7 @@ title: "HSF Coordination Meeting #227, 14 April 2022"
 layout: plain_toc
 ---
 
-Present/Contributing: Graeme Stewart, Markus Diefenthaler, Benedikt Hegner, Stefan Roiser, Efe Yazgan, Michel Jouvin, Allie Hall, Torre Wenaus, Paul Laycock, Krzysztof Genser, Liz Sexton-Kennedy, Marc Paterno, Matti Kortelainen, Dorothea vom Bruch, Eduardo Rodrigues
+Present/Contributing: Graeme Stewart, Markus Diefenthaler, Benedikt Hegner, Stefan Roiser, Efe Yazgan, Michel Jouvin, Allie Hall, Torre Wenaus, Paul Laycock, Krzysztof Genser, Liz Sexton-Kennedy, Marc Paterno, Matti Kortelainen, Dorothea vom Bruch, Eduardo Rodrigues, Kyle Knoepfel, David Lange, Kevin Pedro, Mason Proffitt, Michael Hernandez, Daniel Elvira, Jin Huang
 
 Apologies/Contributing: Serhan Mete, Andrea Valassi
 
@@ -72,7 +72,7 @@ Draft slides will appear next week...
 * After two topical meetings in March, Reco/Soft-Trigger group does not plan an event in April.
 * The May meeting will focus on Graphic Neural Network in tracking reco application. Date TBD with on-going discussion with potential speakers
 * We have been exchanging an idea with the organizers of the Streaming Workshop X (in particular Markus Diefenthaler) about the possibility of an HSF session at the workshop. The idea was welcomed by the organizer. Meanwhile, the conclusion is to have such a session in future Streaming Workshop, as this editing will focus on reorganizing the EIC streaming community after detector proposal selection. 
-* We aim to have 1-2 PID (RICH type) reconstruction. Reached out to a few potential speakers who prefer later in the year for such a meeting. We plan to also reach out to [RICH Pattern Recognition Challenges](https://agenda.infn.it/event/30966/) for a summary in our meeting. 
+* We aim to have 1-2 PID (RICH type) reconstruction meetings. Reached out to a few potential speakers who prefer later in the year for such a meeting. We plan to also reach out to [RICH Pattern Recognition Challenges](https://agenda.infn.it/event/30966/) for a summary in our meeting. 
 
 
 ### PyHEP
