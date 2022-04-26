@@ -5,7 +5,7 @@ author: Sabita Rao
 date: 02.12.2020
 year: 2020
 layout: blog_post
-logo: AllpixSquared-logo.png
+logo: ALLPIXSQUARED-logo.png
 intro: |
   If you're a technical writer, [GSoD](https://developers.google.com/season-of-docs) is where you want to be. As a newbie, you'll learn all about open source methodologies and tech. As a seasoned writer, you'll showcase your expertise while finetuning your skills. Either way, you'll challenge everything ranging from your laptop's processors to your own capabilities. An absolute bonus is the experience of working with incredible mentors in trendsetting organizations.
 ---
