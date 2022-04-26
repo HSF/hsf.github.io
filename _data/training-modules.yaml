@@ -171,3 +171,9 @@
   videos: ''
   webpage: https://swcarpentry.github.io/shell-novice/
   id: unix
+- description: A collection of packages for particle physics analyses in Python.
+  name: SciKit HEP
+  status: beta
+  videos: ''
+  webpage: https://hsf-training.github.io/hsf-training-scikit-hep-webpage/
+  id: scikithep
