@@ -135,7 +135,7 @@ We are always looking for volunteers from the community to help us with our trai
     Training events<br/>
     A list of training events both with and without HSF participation
   </a>
-  <a href="h/training/educators.html">
+  <a href="/training/educators.html">
     Training roles<br/>
     We have standardized the different roles your can fulfill at our events
   </a>
