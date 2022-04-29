@@ -82,7 +82,7 @@ Today's graduate students will be the young faculty members driving HEP research
 ## Learn with us
 
 <div class="big-link-container">
-  <a href="/Schools/events.html">
+  <a href="{{site.baseurl}}/Schools/events.html">
     Join an event!<br/>
     Discover new topics together with mentors and peers!
   </a>
@@ -116,7 +116,7 @@ Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum
     Write us!<br/>
     Discuss your ideas and reach a wide range of training enthusiasts.
   </a>
-  <a href="/training/community.html">
+  <a href="{{site.baseurl}}/training/community.html">
     The community<br/>
     Meet the people who work on our mission
   </a>
@@ -131,15 +131,15 @@ Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum
 We are always looking for volunteers from the community to help us with our training events.
 
 <div class="big-link-container">
-  <a href="/Schools/events.html">
+  <a href="{{site.baseurl}}/Schools/events.html">
     Training events<br/>
     A list of training events both with and without HSF participation
   </a>
-  <a href="/training/educators.html">
+  <a href="{{site.baseurl}}/training/educators.html">
     Training roles<br/>
     We have standardized the different roles your can fulfill at our events
   </a>
-  <a href="/training/howto-event.html">
+  <a href="{{site.baseurl}}/training/howto-event.html">
     How to organize a workshop<br/>
     Whether you work with us or not, these guidelines might help your organizing an awesome workshop!
   </a>
