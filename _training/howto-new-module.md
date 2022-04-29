@@ -17,11 +17,13 @@ Creating the repository and getting started
 
 Our training modules are mimicking the work of the [software carpentries](https://software-carpentry.org/), so we essentially follow their [guide](https://carpentries.github.io/lesson-example/) ("Setup" episode, "Creating a new Lesson" section) to set this up, but please be aware of the following changes:
 
-* Please use our version of the styles repository to get started, that is ``https://github.com/hsf-training/hsf-styles `` instead of ``https://github.com/carpentries/styles``
+* Please use our version of the styles repository to get started, that is ``https://github.com/hsf-training/hsf-styles`` instead of ``https://github.com/carpentries/styles``
 
 We have probably recommended you to directly create your repository in our [github organization](https://github.com/hsf-training) and already selected a name for it, but of course you can also start development in your private github.
 
 * Use ``git remote add template https://github.com/hsf-training/hsf-styles.git`` instead of the carpentry version
+
+**Please do not start from a plain copy (without history) of one of the repositories. Sharing the history with the styles repository is important to propagate changes later on.**
 
 After creating a new repository by importing the styles repository as described in the carpentry guide, this corresponds to the following commands:
 
