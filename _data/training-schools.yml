@@ -2,6 +2,13 @@
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
 - author: Sudhir Malik
+  date: 2022-04-21
+  deadline: ''
+  end_date: 2022-04-22
+  source: https://indico.cern.ch/event/1058838/
+  tags: HSF
+  title: Matplotlib Training (Virtual)
+- author: Sudhir Malik
   date: 2022-03-15
   deadline: ''
   end_date: 2022-03-17
@@ -9,10 +16,10 @@
   tags: []
   title: 4th HEP C++ Course and Hands-on Training - The Essentials
 - author: Sebastian Lopienski
-  date: 2022-08-28
-  deadline: 2022-04-17
-  end_date: 2022-09-10
-  source: https://csc.web.cern.ch/
+  date: 2022-09-04
+  deadline: 2022-05-08
+  end_date: 2022-09-17
+  source: https://indico.cern.ch/e/CSC-2022
   tags: []
   title: CERN School of Computing 2022
 - author: Sebastian Lopienski
