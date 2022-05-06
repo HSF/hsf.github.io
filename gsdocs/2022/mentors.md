@@ -1,5 +1,5 @@
 ---
-title: Summary of Mentors Season of Docs 2020
+title: Summary of Mentors Season of Docs 2022
 layout: plain
 ---
 
