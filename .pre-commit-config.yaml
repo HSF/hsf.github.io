@@ -15,6 +15,7 @@ repos:
     hooks:
     -   id: check-json
     -   id: check-yaml
+    -   id: check-case-conflict
 
 ci:
     autoupdate_schedule: monthly
