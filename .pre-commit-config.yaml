@@ -11,10 +11,11 @@ repos:
         args: ["-I", "codespell.txt"]
         types_or: ["markdown"]
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0
+    rev: v4.2.0
     hooks:
     -   id: check-json
     -   id: check-yaml
+    -   id: check-case-conflict
 
 ci:
     autoupdate_schedule: monthly
