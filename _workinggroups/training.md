@@ -109,20 +109,24 @@ Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum
 
 <div class="big-link-container">
   <a href="https://indico.cern.ch/category/10294/">
-    Meet us!<br/>
+    Talk to us!<br/>
     We meet weekly, usually on Monday at 16h00 CERN time.
+  </a>
+  <a href="https://join.slack.com/t/hsftraining/shared_invite/zt-18sa7y3s6-5QuNY0sSnlP6HSNvoFREkg">
+    Chat with us on Slack!<br/>
+    Brainstorm your ideas with us. 
+  </a>   
+  <a href="/training/community.html">
+    Meet the community!<br/>
+    Meet the people who work on our mission.
+  </a>
+  <a href="https://github.com/hsf-training/PyHEP-resources">
+    Browse our GitHub Organization!<br/>
+    Browse all of our training material. Issues & pull requests are always welcome!
   </a>
   <a href="https://groups.google.com/forum/#!forum/hsf-training-wg">
     Write us!<br/>
-    Discuss your ideas and reach a wide range of training enthusiasts.
-  </a>
-  <a href="/training/community.html">
-    The community<br/>
-    Meet the people who work on our mission
-  </a>
-  <a href="https://github.com/hsf-training/PyHEP-resources">
-    Github Organization<br/>
-    Browse all of our training material. Issues & pull requests are always welcome!
+    Use our public mailing list and reach a wide range of training enthusiasts.
   </a>
 </div>
 
