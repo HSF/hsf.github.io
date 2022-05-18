@@ -78,7 +78,7 @@ Ready to go? Post to arXiv was favoured.
 
 ### Talks
 
-Graeme gave talk on ["Sustainablity and future of software frameworks"](https://zenodo.org/record/6538707). The talk was well received with FA representatives, including the European Commission, present.
+Graeme gave talk on ["Sustainability and future of software frameworks"](https://zenodo.org/record/6538707). The talk was well received with FA representatives, including the European Commission, present.
 
 Thanks to everyone that gave inputs.
 
@@ -142,7 +142,7 @@ Future:
 
 ### General
 
-Next [Compute Acceletator Forum](https://indico.cern.ch/event/1073643/) meeting will be on June 8, with updates on CERN's GPU infrastucture and on SYCL.
+Next [Compute Accelerator Forum](https://indico.cern.ch/event/1073643/) meeting will be on June 8, with updates on CERN's GPU infrastructure and on SYCL.
 
 ---
 
@@ -166,7 +166,7 @@ The issue is now being escalated by CERN IT.
 
 #### Workaround
 
-Graeme setup shadow lists for the coordination group and WG convener group, viz., `hsf-coordination@cern.ch` and `hsf-wg-conveners@cern.ch`. *No intention to switch to these permanently*, but at least they can be used more reliabily to contact people until the problem is fixed.
+Graeme setup shadow lists for the coordination group and WG convener group, viz., `hsf-coordination@cern.ch` and `hsf-wg-conveners@cern.ch`. *No intention to switch to these permanently*, but at least they can be used more reliably to contact people until the problem is fixed.
 
 ### GPU Hackathon
 
