@@ -79,7 +79,7 @@
 - description: 'Make science prettier with beautiful plots!'
   name: Matplotlib for HEP
   repository: https://github.com/hsf-training/hsf-training-matplotlib
-  status: alpha
+  status: beta
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-matplotlib/
   id: matplotlib
