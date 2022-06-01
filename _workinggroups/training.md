@@ -22,7 +22,7 @@ The group aims to develop a training program that can be pursued by researchers 
   </a>
   <a href="{{site.baseurl}}/training/curriculum.html">
     Self study!<br/>
-    Everything at your own pace. No matter if you want to get a quick overview
+    Learn at your own pace. No matter if you want to get a quick overview
     or dive in the details, this is for you!
   </a>
 </div>
@@ -88,7 +88,7 @@ Today's graduate students will be the young faculty members driving HEP research
   </a>
   <a href="{{site.baseurl}}/training/curriculum.html">
     HSF Training center<br/>
-    Everything at your own pace. No matter if you want to get a quick overview
+    Learn at your own pace. No matter if you want to get a quick overview
     or dive in the details, this is for you!
   </a>
   <a href="https://hsf-training.github.io/analysis-essentials/">
