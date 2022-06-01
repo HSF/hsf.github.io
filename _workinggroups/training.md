@@ -117,8 +117,8 @@ Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum
     Brainstorm your ideas with us. 
   </a>   
   <a href="{{site.baseurl}}/training/community.html">
-    Meet the community!<br/>
-    Meet the people who work on our mission.
+    Join the community!<br/>
+    Join more than {{ site.profiles | size | divided_by: 10 | times: 10 }} people working on our mission.
   </a>
   <a href="https://github.com/hsf-training/PyHEP-resources">
     Browse our GitHub Organization!<br/>
