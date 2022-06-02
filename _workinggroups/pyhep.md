@@ -45,14 +45,37 @@ The **PyHEP workshops** are a series of workshops initiated by Eduardo Rodrigues
 with the aim to provide an environment to discuss and promote the usage of Python in the HEP community at large.
 
 {:.table .table-hover .table-condensed .table-striped}
-| *Workshop* | *Location*             | *Date*               | *Agenda link*                                                                 |
-| ---------- | ---------------------- | ---------------------| ----------------------------------------------------------------------------- |
-| PyHEP 2021 | Virtual workshop       | July 5-9, 2021       | [Indico](https://indico.cern.ch/e/PyHEP2021){:target="_pyhep2021_indico"}     |
-| PyHEP 2020 | Virtual workshop       | July 13-17, 2020     | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}     |
-| PyHEP 2019 | Abingdon, U.K.         | October 16-18, 2019  | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}     |
-| PyHEP 2018 | Sofia, Bulgaria        | July 7-8, 2018       | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
+| *Workshop* | *Location*             | *Date*                | *Agenda link*                                                                 |
+| ---------- | ---------------------- | ----------------------| ----------------------------------------------------------------------------- |
+| PyHEP 2021 | Virtual workshop       | September 12-16, 2022 | [Indico](https://indico.cern.ch/e/PyHEP2022){:target="_pyhep2022_indico"}     |
+| PyHEP 2021 | Virtual workshop       | July 5-9, 2021        | [Indico](https://indico.cern.ch/e/PyHEP2021){:target="_pyhep2021_indico"}     |
+| PyHEP 2020 | Virtual workshop       | July 13-17, 2020      | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}     |
+| PyHEP 2019 | Abingdon, U.K.         | October 16-18, 2019   | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}     |
+| PyHEP 2018 | Sofia, Bulgaria        | July 7-8, 2018        | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
 
 The advert and details on these workshops are given below.
+
+## PyHEP 2022
+
+PyHEP 2022 will be held as a *virtual* workshop on 12-16 September 2022.
+The workshop will be a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and inform the future evolution of 
+community activities. There will be ample time for discussion.
+
+PyHEP 2022 [agenda](https://indico.cern.ch/e/PyHEP2022){:target="_pyhep2022_indico"}
+will be composed of plenary sessions such as for example:
+
+1. Topical sessions
+2. Hands-on tutorials and lightning talks
+3. Presentations following up from topics discussed at PyHEP 2021
+
+### Organising Committee
+
+Eduardo Rodrigues - University of Liverpool (Chair)<br>
+Graeme A. Stewart - CERN<br>
+Jim Pivarski - Princeton University<br>
+Matthew Feickert - University of Wisconsin-Madison<br>
+Nikolai Hartmann - Ludwig-Maximilians-Universität Munich<br>
+Oksana Shadura - University of Nebraska-Lincoln
 
 ## PyHEP 2021
 
