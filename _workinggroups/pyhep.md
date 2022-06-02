@@ -47,7 +47,7 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 {:.table .table-hover .table-condensed .table-striped}
 | *Workshop* | *Location*             | *Date*                | *Agenda link*                                                                 |
 | ---------- | ---------------------- | ----------------------| ----------------------------------------------------------------------------- |
-| PyHEP 2021 | Virtual workshop       | September 12-16, 2022 | [Indico](https://indico.cern.ch/e/PyHEP2022){:target="_pyhep2022_indico"}     |
+| PyHEP 2022 | Virtual workshop       | September 12-16, 2022 | [Indico](https://indico.cern.ch/e/PyHEP2022){:target="_pyhep2022_indico"}     |
 | PyHEP 2021 | Virtual workshop       | July 5-9, 2021        | [Indico](https://indico.cern.ch/e/PyHEP2021){:target="_pyhep2021_indico"}     |
 | PyHEP 2020 | Virtual workshop       | July 13-17, 2020      | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}     |
 | PyHEP 2019 | Abingdon, U.K.         | October 16-18, 2019   | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}     |
