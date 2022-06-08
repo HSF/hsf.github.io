@@ -47,6 +47,10 @@ For further information, feel free to contact the HSF GSoC admins or join our op
 
 [![Gitter](https://badges.gitter.im/HSF/HSF-GSoC.svg)](https://gitter.im/HSF/HSF-GSoC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+### Student pages
+
+Student blogs are mandatory for CERN-HSF starting with 2022 GSoC edition! If you are a CERN-HSF student, please read this [blog]({{ site.baseurl }}/gsoc/2022/blogs.html)
+
 ### For Projects and Mentors
 
 Instructions for participating projects and mentors can be found [here]({{ site.baseurl }}/gsoc/guideline.html). The main differences compared to last year are that proposals have to be tuned for either 175-hour or 350h project length, and the target objectives must be well-defined deliverables.
