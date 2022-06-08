@@ -49,7 +49,7 @@ For further information, feel free to contact the HSF GSoC admins or join our op
 
 ### Student pages
 
-Student blogs are mandatory for CERN-HSF starting with 2022 GSoC edition! If you are a CERN-HSF student, please read this [blog]({{ site.baseurl }}/gsoc/2022/blogs.html)
+Student blogs are mandatory for CERN-HSF starting with 2022 GSoC edition! If you are a CERN-HSF student, please read this [blog]({{ site.baseurl }}/gsoc/2022/blogs.html).
 
 ### For Projects and Mentors
 
