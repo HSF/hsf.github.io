@@ -133,7 +133,7 @@ However, we would still like to progress towards a better solution for these lis
 
 ### GPU Hackathon 
 
-We have the oportunity to organise a dedicated GPU hackathon, from the `gpuhackathons.org` series at CERN. If interested and want to join with a team please contact Stefan. 
+We have the opportunity to organise a dedicated GPU hackathon, from the `gpuhackathons.org` series at CERN. If interested and want to join with a team please contact Stefan. 
 
 ### ESCAPE / EOSC-Future science projects meeting
 
