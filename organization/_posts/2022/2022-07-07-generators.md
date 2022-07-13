@@ -1,4 +1,6 @@
-yout: plain_toc
+---
+title: "HSF Generator WG Meeting #23, 7 July 2022"
+layout: plain_toc
 ---
 
 Agenda: <https://indico.cern.ch/event/1146150/>
