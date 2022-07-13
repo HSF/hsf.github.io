@@ -6,6 +6,7 @@ training_roles:
 - mentor
 training_years:
 - 2021
+- 2022
 github: michmx
 gravatar: null
 homepage: null
