@@ -22,6 +22,4 @@ training_years: [2022]              # in which years did you help out? (e.g. [20
 layout: educator
 ---
 
-<!-- Optional: Write something about yourself below the '- - >'.
 Hi! I'm Rayna. I'm an instructor with the [Carpentries](https://carpentries.org/). 
--->
