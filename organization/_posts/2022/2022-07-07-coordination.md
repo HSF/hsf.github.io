@@ -1,26 +1,24 @@
 ---
-title: "HSF Coordination Meeting #221, 20 January 2022"
+title: "HSF Coordination Meeting #221, 7 July 2022"
 layout: plain_toc
 ---
 
-# Attending
-
-Present/Contributing: 
+Present/Contributing:
 Graeme Stewart,
-Benedikt Hegner, 
+Benedikt Hegner,
 Stephan Hageboeck,
-Markus Diefenthaler, 
-Efe Yazgan, 
-Dorothea vom Bruch, 
-Mason Proffitt, 
-Josh McFayden, 
-Caterina Doglioni, 
-Krzysztof Genser, 
-Liz Sexton-Kennedy, 
-Paul Laycock, 
+Markus Diefenthaler,
+Efe Yazgan,
+Dorothea vom Bruch,
+Mason Proffitt,
+Josh McFayden,
+Caterina Doglioni,
+Krzysztof Genser,
+Liz Sexton-Kennedy,
+Paul Laycock,
 Eduardo Rodrigues
 
-Apologies/Contributing: 
+Apologies/Contributing:
 
 ## News, general matters, announcements
 
@@ -32,7 +30,7 @@ Outcomes and conclusions document is close to being released for comment.
 
 Following on from the email from Zach and Ale, Graeme and Liz met with Zach and discussed how to progress on this.
 
-We also want to discuss with Dan Katz and try to formulate best practice recommendations for software projects and experiments. There are quite some inconsistencies in what we cite and also if the citations are consistent with reproducibilty of the results (e.g., specific versions and tunes).
+We also want to discuss with Dan Katz and try to formulate best practice recommendations for software projects and experiments. There are quite some inconsistencies in what we cite and also if the citations are consistent with reproducibility of the results (e.g., specific versions and tunes).
 
 To be followed up after the summer.
 
@@ -67,10 +65,6 @@ Second meeting on 27th of July with speakers confirmed from CMS, Dune, Belle II.
     - 481 registrants so far.
 - No topical meeting organised for this month - too much happening in general. Next meeting unlikely to happen before October after PyHEP 2022 in mid September.
 
-### Software Tools and Packaging
-
-nothing to report
-
 ### Event Generators
 
 - WG meetings
@@ -86,16 +80,12 @@ nothing to report
         - 7th July: Event generation with Julia (today: <https://indico.cern.ch/event/1146150/>)
         - 1st Sept.: 1st AI/ML-focussed discussion -- overview talk for ML for generators (confirmed)
 
-### Frameworks
-
-nothing to report
-
 ### Software Training
 
 - Registrations now full for the next Software Carpentry workshop.
     - July 13-15, 2022, <https://indico.cern.ch/event/1159157/>.
-    - This time a HSF Training member will cover Python due to unavailability of instructors. Carpentries covering Bash and Git. 
-    
+    - This time a HSF Training member will cover Python due to unavailability of instructors. Carpentries covering Bash and Git.
+
 
 #### 5th HEP C++ Course and Hands-on Training
 
@@ -105,7 +95,7 @@ Registration will open 5 Sep, 9 am CEST
 
 A stub entry (clone of last meeting so far) is available at <https://indico.cern.ch/event/1172498/>
 
-In addition to this course we plan to hold "special training days" on s specific C++'20 topics, e.g. one training is in the works for "C++ concepts"
+In addition to this course we plan to hold "special training days" on specific C++20 topics, e.g. one training is in the works for "C++ concepts"
 
 ## Other Interest and Activity Areas
 
@@ -131,15 +121,15 @@ After an intervention (finally!) by Microsoft, the junking of HSF emails by the 
 
 However, we would still like to progress towards a better solution for these lists `@hepsoftwarefoundation.org`, which will require some support from a HEP laboratory to handle the email domain.
 
-### GPU Hackathon 
+### GPU Hackathon
 
 We have the opportunity to organise a dedicated GPU hackathon, from the `gpuhackathons.org` series at CERN. If interested and want to join with a team please contact Stefan. 
 
 ### ESCAPE / EOSC-Future science projects meeting
 
-- at CERN, 21-22/07: <https://indico.cern.ch/event/1173792/> 
-- Invited talk by analysis facilities (N. Skidmore) 
-- Join if you'd like to know what is going on (and register as we can provide coffee and cake :) 
+- At CERN, 21-22/07: <https://indico.cern.ch/event/1173792/>
+- Invited talk by analysis facilities (N. Skidmore)
+- Join if you'd like to know what is going on (and register as we can provide coffee and cake :)
 
 ### Next Meeting
 
