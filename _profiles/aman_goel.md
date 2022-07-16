@@ -1,4 +1,5 @@
 ---
+# Required:
 title: Aman Goel
 country: IN
 
@@ -17,6 +18,7 @@ email: aman.goel185@gmail.com
 training_roles: [instructor, mentor]
 training_years: [2021, 2022]
 
+# Don't modify the following setting
 layout: educator
 ---
 
