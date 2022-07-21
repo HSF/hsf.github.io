@@ -19,18 +19,18 @@ The [US Snowmass meeting in Seattle](https://indico.fnal.gov/event/22303) is wel
 
 ### Future Trends in Nuclear Physics Computing Workshop
 
-[Future Trends in Nuclear Physics Computing](https://indico.bnl.gov/event/15089/) will be 28-30 Setember at Stony Brook University. **Save the date!**
+[Future Trends in Nuclear Physics Computing](https://indico.bnl.gov/event/15089/) will be 28-30 September at Stony Brook University. **Save the date!**
 
 "Software design and development will constitute a cornerstone for the future success of the experimental program at the EIC. Moreover, the cost of the IT related components, from software development to storage systems and to distributed complex e-Infrastructures can rise considerably if a proper understanding and planning is not taken into account from the beginning in the design of the EIC. The planning must include AI and ML techniques, in particular for the compute-detector integration at the EIC, and training in these techniques. The 'Future Trends in Nuclear Physics Computing' workshop at CFNS provides an ideal forum to discuss these topics. The workshop report will provide guidance for the larger EIC community on software & computing and connect them to existing common efforts in the NP and HEP community."
 
-Noted that last workshops have benfited greatly from participation from HEP colleagues.
+Noted that last workshops have benefited greatly from participation from HEP colleagues.
 
 ## Working Group Updates
 
 ### Data Analysis
 
 - Second meeting on analysis training in HEP [next week on 27th](https://indico.cern.ch/event/1175097/).
-- Stephan now corresponding author of metadata paper. Hoping to benefit from open-access agreement with CERN.
+- Stephan is now the corresponding author of the metadata paper. Hoping to benefit from open-access agreement with CERN.
 
 ### Detector Simulation
 
@@ -40,7 +40,7 @@ Noted that last workshops have benfited greatly from participation from HEP coll
 ### Reconstruction and Software Trigger
 
 - Topical meeting on GNNs for Tracking:
-  - Probably missed the window for the pre-summer meeting (August attendence usually low), will arrange with speaker for a September timeslot
+  - Probably missed the window for the pre-summer meeting (August attendance usually low), will arrange with speaker for a September timeslot
 
 - **ACTS workshop**, September 26-30 at CERN, registration open
   - Website: <https://indico.cern.ch/event/1184037/>
@@ -48,7 +48,7 @@ Noted that last workshops have benfited greatly from participation from HEP coll
     - 2 general ACTS developer days of contributions & discussions
     - 1 tutorial day using the Open Data Detector
     - 1 day for break-outs with experiments: ATLAS, key4hep(?), EIC
-    - 1 overlfow day for topics picked up during the week (including mini-hackathons)
+    - 1 overflow day for topics picked up during the week (including mini-hackathons)
 
 ### PyHEP
 
@@ -63,7 +63,7 @@ Noted that last workshops have benfited greatly from participation from HEP coll
 
 ### Event Generators
 
-- Nothing new report. Next meetings in September on possible role of AI/ML for event generators (Sept. 1) and events generators in NP (Sept. 15).
+- Nothing new to report. Next meetings in September on the possible role of AI/ML for event generators (Sept. 1) and event generators in NP (Sept. 15).
 
 ### Frameworks
 
