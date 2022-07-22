@@ -83,7 +83,10 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
 Currently each part has its own cimpilible code. Our final goal is to integrate all of them into a command-line tool as well as a class of RNTuple. 
 
 ## Miscellaneous
-As a PhD student in experimental nuclear astrophysics, I have been using ROOT everyday for many years since nearly all experimental data are sotred in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctly looked for projects related to ROOT because I have always been dreaming to contribute to this wonderful opensource project. 
+As a PhD student in experimental nuclear astrophysics, I have been using ROOT everyday for many years since nearly all experimental data are sotred in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctly looked for projects related to ROOT because I have always been dreaming to contribute to this wonderful opensource project,  which is the most important infrastructure of high-energy physics. 
+
+As a heavy user of ROOT, I understad  the importance of ROOT's fundamental data structure, TTree, or RNTuple for ROOT v7. I was attracted by this TTree-To-RNtuple project because I know that this will be the most commonly-used tool among HEP scientists once ROOT v7 will be released. 
+
 
 
 
