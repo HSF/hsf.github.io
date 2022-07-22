@@ -85,7 +85,10 @@ Currently each part has its own cimpilible code. Our final goal is to integrate 
 ## Miscellaneous
 As a PhD student in experimental nuclear astrophysics, I have been using ROOT everyday for many years since nearly all experimental data are sotred in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctly looked for projects related to ROOT because I have always been dreaming to contribute to this wonderful opensource project,  which is the most important infrastructure of high-energy physics. 
 
-As a heavy user of ROOT, I understad  the importance of ROOT's fundamental data structure, TTree, or RNTuple for ROOT v7. I was attracted by this TTree-To-RNtuple project because I know that this will be the most commonly-used tool among HEP scientists once ROOT v7 will be released. 
+As mentioned in the beginning, TTree is the most important element of ROOT; a large amount of HEP data have been stored in TTree. Therefore, I was attracted by this TTree-To-RNtuple project because its deliverable  will be the most commonly-used tool among HEP scientists once ROOT v7 will be released. Wouldn't it be a nice thing that everyone uses the tool built by you?
+
+As a physicist without any computer sicence background, I meet a lot of troubles when I am working on this project. However, I am very lucky that I have the nicest mentor, Dr. Javier Gomez. No matter how simple or naive my questions are, he is always considerate and full of patience to me. For example, he explained explicitly to me that how the vector and array are stored in memory by drawing sketch, while others may just said "you should have known this".
+
 
 
 
