@@ -49,16 +49,16 @@ Based on the data types supported by TTree, this project is divided into 5 parts
       <td rowspan="5">Completed</td>
    </tr>
    <tr>
-      <td>std::array<T, N></td>
+      <td>std::array&lt;T, N></td>
    </tr>
    <tr>
-      <td>std::vector<T> and ROOT::RVec<T></td>
+      <td>std::vector&lt;T> and ROOT::RVec&lt;T></td>
    </tr>
    <tr>
-      <td>std::pair<T1, T2></td>
+      <td>std::pair&lt;T1, T2></td>
    </tr>
    <tr>
-      <td>std::tuple<T1, …, Tn></td>
+      <td>std::tuple&lt;T1, …, Tn></td>
    </tr>
    <tr>
       <td>Convert TTree containing user-defined classes</td>
@@ -67,7 +67,7 @@ Based on the data types supported by TTree, this project is divided into 5 parts
    </tr>
    <tr>
       <td rowspan="2">Convert TTree containing branches of nested types</td>
-      <td>std::vector<std::vector<T> ></td>
+      <td>std::vector&lt;std::vector&lt;T> ></td>
       <td rowspan="2">Expect by the end of Aug.</td>
    </tr>
    <tr>
