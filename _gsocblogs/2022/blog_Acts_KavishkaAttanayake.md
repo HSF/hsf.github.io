@@ -12,10 +12,11 @@ intro: |
 --- 
 
 ## Project Description
-Mentors: Beomki Yeo & Charles Leggett
+##### Mentors: Beomki Yeo & Charles Leggett
+
 Acts is a track reconstruction software toolkit for high energy physics experiments. With the increasing number of particle interactions in the HL-LHC 
-experiemnts in the future the track reconstruction time will also increase. GPU R&D is conducted under traccc, vecmem and detray to accelerate the track 
-reconstruction. Vecmem provides memory management tools for convinient GPU memory management and caching allocators, Detray is a geometry builder which 
+experimnts in the future the track reconstruction time will also increase. GPU R&D is conducted under traccc, vecmem and detray to accelerate the track 
+reconstruction. Vecmem provides memory management tools for convenient GPU memory management and caching allocators, Detray is a geometry builder which 
 translates the CPU geometry into GPU one (did not get my head around this one yet.) and finally Traccc demonstrates the gpu tracking pipeline.
 
 This project mainly focuses on improving the throughput of the Traccc pipeline. This is achieved by using CUDA-MPS or CUDA-MIG and utilizing caching 
