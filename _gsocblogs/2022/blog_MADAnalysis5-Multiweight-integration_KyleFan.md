@@ -9,7 +9,6 @@ logo: hsf_logo_angled.png [Use the same file name as in _gsocprojects/YEAR/proje
 intro: Midterm progress report
 
 
-Start your detailed article using markdown here…
 
 <p> 
 
