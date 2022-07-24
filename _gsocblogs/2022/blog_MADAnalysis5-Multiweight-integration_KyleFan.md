@@ -12,7 +12,7 @@ intro: Midterm progress report
 
 <p> 
 
-As of July 24th, 2022, with generous time and support from Jack and Bejamin, I have integrated multiweight container with the analysis platform. It currently fills in cutflows with multiweight data correctly. Changes are currently inside the multi_weight/multi_thread branch in my fork https://github.com/kfan326/madanalysis5/tree/multi_weight/multi_thread 
+As of July 24th, 2022, with generous time and support from Jack and Benjamin, I have integrated multiweight container with the analysis platform. It currently fills in cutflows with multiweight data correctly. Changes are currently inside the multi_weight/multi_thread branch in my fork https://github.com/kfan326/madanalysis5/tree/multi_weight/multi_thread 
   
 </p> 
 
