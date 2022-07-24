@@ -4,6 +4,7 @@ training_years:
 - 2019
 - 2020
 - 2021
+- 2022
 training_roles:
 - facilitator
 gravatar: null

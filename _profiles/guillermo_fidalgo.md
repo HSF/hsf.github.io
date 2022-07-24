@@ -15,8 +15,8 @@ linkedin: guillermo-fidalgo-rodríguez-26a272b9    # your linkedin ID (not full 
 email: guillermo.fidalgo@upr.edu
 
 # Training WG
-training_roles: [mentor]              # subset of [facilitator, instructor, mentor], can stay empty ([])
-training_years: [2021]              # in which years did you help out? (e.g. [2020, 2019])
+training_roles: [mentor, instructor]              # subset of [facilitator, instructor, mentor], can stay empty ([])
+training_years: [2021, 2022]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Don't modify the following setting
 layout: educator

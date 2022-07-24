@@ -8,6 +8,7 @@ training_years:
 - 2019
 - 2020
 - 2021
+- 2022
 github: masonproffitt
 gravatar: null
 homepage: null

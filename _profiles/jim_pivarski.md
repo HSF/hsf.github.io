@@ -7,6 +7,7 @@ training_roles:
 training_years:
 - 2019
 - 2020
+- 2022
 github: jpivarski
 gravatar: null
 homepage: null
