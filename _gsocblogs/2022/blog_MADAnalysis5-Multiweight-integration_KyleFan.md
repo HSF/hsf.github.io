@@ -1,12 +1,12 @@
 ---
 
-project: _gsocprojects/2022/project_MadAnalysis5.md
+project: MadAnalysis 5 Multiweight Integration
 title: Midterm evaluation blog post
 author: Kyle Fan
 date: 24.07.2022 
 year: 2022 
 layout: blog_post
-logo: hsf_logo_angled.png [Use the same file name as in _gsocprojects/YEAR/project_yourproject.md]
+logo: MadAnalysis5-logo.png
 intro: Midterm progress report
 
 ---
