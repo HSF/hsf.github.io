@@ -1,3 +1,5 @@
+---
+
 project: _gsocprojects/2022/project_MadAnalysis5.md
 title: Midterm evaluation blog post
 author: Kyle Fan
@@ -8,7 +10,7 @@ layout: blog_post
 logo: hsf_logo_angled.png [Use the same file name as in _gsocprojects/YEAR/project_yourproject.md]
 intro: Midterm progress report
 
-
+---
 
 <p> 
 
