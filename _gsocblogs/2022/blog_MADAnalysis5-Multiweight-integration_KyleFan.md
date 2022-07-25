@@ -3,7 +3,6 @@
 project: _gsocprojects/2022/project_MadAnalysis5.md
 title: Midterm evaluation blog post
 author: Kyle Fan
-//photo: blog_authors/JaneDoe.jpg [Optionally use this label and upload a squared format photo as images/blog_authors/FirstLast.jpg]
 date: 24.07.2022 
 year: 2022 
 layout: blog_post
