@@ -13,12 +13,12 @@ intro: |
 This is a blog as part of the mid-term evaluation of GSoC 2022 project: ROOT - Automatic conversion of data stored in TTree form to RNTuple.
 
 ## Overview of the project
-For the past 25 years, high-energy physics (HEP) data have been stored with columnar structures in TTree, the ROOT’s legacy columnar storage that has been used to store more than 1 exabyte of HEP data. As the main data structure of ROOT v7, RNTuple classes provide ROOT’s new, experimental, hight speed I/O subsystem for HEP data. Given that RNTuple is a complete backwards-incompatible redesign, the development of an automatic conversion tool that permits the migration of existing TTree data into RNTuple is a must. In this regard, both the schema (i.e., fields and their types) and the data will have to be migrated.
+For the past 25 years, high-energy physics (HEP) data have been stored with columnar structures in TTree, the ROOT’s legacy columnar storage that has been used to store more than 1 exabyte of HEP data. As the main data structure of ROOT v7, RNTuple classes provide ROOT’s new, experimental, high-speed I/O subsystem for HEP data. Given that RNTuple is a complete backward-incompatible redesign, the development of an automatic conversion tool that permits the migration of existing TTree data into RNTuple is a must. In this regard, both the schema (i.e., fields and their types) and the data will have to be migrated.
 
 ## Progress
-I started working on this project from June 11, 2022, right after the community-bonding period. The first two weeks were hands-on period. I began with the [existing code](https://github.com/jblomer/iotools) that are capable to convert TTree containing simple data types to RNTuple. After being familiar with RNTuple APIs, I created the project GitHub [repo](https://github.com/luozf14/TTreeToRNTuple) and started commiting my own code. The length of the project is decided to be 14 weeks, ending in the beginning of Oct. 
+I started working on this project on June 11, 2022, right after the community-bonding period. The first two weeks were a hands-on period. I began with the [existing code](https://github.com/jblomer/iotools/blob/master/gen_physlite.cxx) that is capable to convert TTree containing simple data types to RNTuple. After being familiar with RNTuple APIs, I created the project GitHub [repo](https://github.com/luozf14/TTreeToRNTuple) and started committing my own code. The length of the project is decided to be 14 weeks, ending at the beginning of Oct. 
 
-Based on the data types supported by TTree, the project is divided into 5 parts with increasing difficulties, from simple C++ variables to nested collections. The status are summarized in the table below. 
+Based on the data types supported by TTree, the project is divided into 5 parts with increasing difficulties, from simple C++ variables to nested collections. The status is summarized in the table below. 
 
 <table>
    <tr>
@@ -63,12 +63,12 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
    <tr>
       <td>Convert TTree containing user-defined classes</td>
       <td></td>
-      <td>Expect by the end of Jul.</td>
+      <td>Expected by the end of Jul.</td>
    </tr>
    <tr>
       <td rowspan="2">Convert TTree containing branches of nested types</td>
       <td>std::vector&lt;std::vector&lt;T> ></td>
-      <td rowspan="2">Expect by the end of Aug.</td>
+      <td rowspan="2">Expected by the end of Aug.</td>
    </tr>
    <tr>
       <td>…</td>
@@ -80,14 +80,14 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
    </tr>
 </table>
 
-Currently each part has its own cimpilible code. Our final goal is to integrate all of them into a command-line tool as well as a class of RNTuple. 
+The next step is to implement support for the missing cases shown in the table. For now, each part has its own compilable code. We will integrate all of them into a single program that can be run as a command line tool. It will also be used as a library for TTree-to-RNTuple conversion, hence we will be working on designing the API for the library upon the completion of the first 4 parts.
 
 ## Miscellaneous
-As a PhD student in experimental nuclear astrophysics, I have been using ROOT everyday for many years since nearly all experimental data are sotred in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctly looked for projects related to ROOT because I have always been dreaming to contribute to this wonderful opensource project,  which is the most important infrastructure of high-energy physics. 
+As a Ph.D. student in experimental nuclear astrophysics, I have been using ROOT every day for many years since nearly all experimental data are stored in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctively looked for projects related to ROOT because I have always been dreaming to participate ROOT project,  which is the most important infrastructure of high-energy physics. 
 
-As mentioned in the beginning, TTree is the most important element of ROOT; a large amount of HEP data have been stored in TTree. Therefore, I was attracted by this TTree-To-RNtuple project because its deliverable  will be the most commonly-used tool among HEP scientists once ROOT v7 will be released. Wouldn't it be a nice thing that everyone uses the tool built by you?
+As mentioned in the beginning, TTree is the most important element of ROOT; a large amount of HEP data have been stored in TTree. Therefore, I was attracted by this TTree-To-RNtuple project because its deliverable will be the most commonly used tool among HEP scientists once ROOT v7 will be released. It would be really cool if everyone uses your tool frequently.
 
-As a physicist without any computer sicence background, I meet a lot of troubles when I am working on this project. However, I am very lucky that I have the nicest mentor, Dr. Javier Gomez. No matter how simple or naive my questions are, he is always considerate and full of patience to me. For example, he explained explicitly to me that how the vector and array are stored in memory by drawing sketch, while others may just said "you should have known this".
+As a physicist without any computer sicence background, I meet a lot of troubles when I am working on this project. However, I am very lucky that I have the nicest mentor, Dr. Javier Lopez-Gomez. No matter how simple or naive my questions are, he is always considerate and full of patience to me. For example, he explained explicitly to me how the vector and array are stored in memory by drawing sketches, while others may just said "This is basic; you should have known it".
 
 
 
