@@ -76,7 +76,7 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
    <tr>
       <td>Tests and documentation</td>
       <td></td>
-      <td >Except in Sep.</td>
+      <td >Expected in Sep.</td>
    </tr>
 </table>
 
