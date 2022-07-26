@@ -2,7 +2,7 @@
 project: Acts
 title: Acts GPU R&D - Optimization of GPU tracking pipeline
 author: Kavishka Attanayake
-date: 20.07.2022
+date: 26.07.2022
 year: 2022
 layout: blog_post
 logo: ACTSlogo.gif
@@ -47,7 +47,7 @@ Moreover, my mentors provided access to a server at Lawrence Berkeley National L
 > Ending on 14.07.2022
 
 Modified the PR-206 to fit in with the latest version and added suggested changes, this was merged in [PR-209]( https://github.com/acts-project/traccc/pull/209 ).
-Tests were done with using caching allocators, and there were issues along the way ([issue with contiguous memory resource](https://github.com/acts-project/vecmem/issues/180) and issue with [binary page memory resource]( https://github.com/acts-project/vecmem/issues/182 )), Once the issues were by the Vecmem developers. I carried out benchmarks with using contiguous memory resource and got expected results. Sadly, binary page memory resource does not perform as much as expected. Therefore, using caching allocators will be postponed. Meanwhile, a way to use Contiguous memory resource as an alternative will be explored. Prepared the bash scripts and modified the CUDA algorithm to be suitable for benchmarking and comparing against the CPU algorihtm.
+Tests were done using caching allocators, and there were issues along the way ([issue with contiguous memory resource](https://github.com/acts-project/vecmem/issues/180) and issue with [binary page memory resource]( https://github.com/acts-project/vecmem/issues/182 )), Once the issues were fixed by the Vecmem developers. I carried out benchmarks with using contiguous memory resource and got expected results. Sadly, using binary page memory resource did worse than using any caching allocation at all. Therefore, benchmarking throughput with caching allocators was postponed. Meanwhile, a way to use Contiguous memory resource as an alternative will be explored. In addtion, prepared the bash scripts and modified the CUDA algorithm to be suitable for benchmarking and comparing against the CPU algorihtm.
 
 #### Weeks 9-10
 > Ending on 28.07.2022
