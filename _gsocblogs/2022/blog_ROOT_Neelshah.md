@@ -76,7 +76,7 @@ The above bug was noticed by me when i was building Root on my local computer. T
 
 #### 2) Fixed some spelling Errors and indentation issues in the operators.
 
-There were some speling errors and indentation issues in some operators like Pool, Conv, Reshape, Slice, Batch Normalization, Add and Gemm. I fixed them in these 2 PRs.
+There were some spelling errors and indentation issues in some operators like Pool, Conv, Reshape, Slice, Batch Normalization, Add and Gemm. I fixed them in these 2 PRs.
 
 - **PR Status**:-
 
@@ -92,9 +92,9 @@ This improvement was added by my mentor Lorenzo Moneta in his PR , the link to m
 
 #### 4) Finalise the **Leaky Relu PR** which was sent during Community Bonding Period. 
 I have written a detailed blog for the Leaky Relu Operator implementation as well. [Here](https://gist.github.com/Neel-Shah-29/f0371566ca1e24a6b3a9b4097cdd44db) you can find the detailed description of the Operator.
-Here, I will provide a breif Description about it.
+Here, I will provide a brief Description about it.
 
-- **Defination** :- [Leaky Relu ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#LeakyRelu)
+- **Definition** :- [Leaky Relu ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#LeakyRelu)
 
 - **Code snippet of Implementation** :-
 ```C++
@@ -132,7 +132,7 @@ It was general for all SOFIE operators not having a weight tensor. It is resolve
 
 #### 5) Fix the implementation of **Max Pool ONNX Operator for 1D and 3D cases.**
 
-- **Defination** :- [Max-Pool ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#MaxPool)
+- **Definition** :- [Max-Pool ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#MaxPool)
 
 - MaxPool ONNX Operator was only supported for the 2D case, i.e 4d tensors but i need to extend its support for the 1D and 3D cases as well.
 
@@ -154,7 +154,7 @@ It was general for all SOFIE operators not having a weight tensor. It is resolve
 
 #### 6) Implemented all the 4 Basic Binary Operators:- Add,Sub,Mul and Div with the corresponding Unit Tests.
 
-- **Defination** :- 
+- **Definition** :- 
  1. [Add ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Add)
  2. [Sub ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Sub)
  3. [Mul ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Mul)
@@ -195,7 +195,7 @@ struct BinaryOperatorTrait<T, Div> {
 };
 ```
 
-Now in the `Generate` function we implement the defination of operators, since we used the traits we just need to perform the operations between the 2 tensors using `BinaryOperatorTrait<T,Op>::Op()`
+Now in the `Generate` function we implement the definition of operators, since we used the traits we just need to perform the operations between the 2 tensors using `BinaryOperatorTrait<T,Op>::Op()`
 
 ```C++
    std::string Generate(std::string OpName){
@@ -290,7 +290,7 @@ std::vector<size_t>  UTILITY::Multidirectional_broadcast(std::vector<size_t> inp
 
 #### 7) Implemented the Tanh ONNX operator with the corresponding unit tests.
 
-- **Defination:-** [Tanh ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Tanh)
+- **Definition:-** [Tanh ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Tanh)
 
 - Code demonstrating the implementation of Tanh function in the `Generate` function.
 ```C++
@@ -323,7 +323,7 @@ std::string Generate(std::string OpName){
 
 #### 8) Implemented the Neg ONNX operator with the corresponding unit tests.
 
-- **Defination:-** [Neg ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Neg)
+- **Definition:-** [Neg ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Neg)
 
 - Code demonstrating the implementation of Tanh function in the `Generate` function.
 ```C++
