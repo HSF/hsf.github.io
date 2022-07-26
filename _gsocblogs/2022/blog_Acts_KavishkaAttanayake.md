@@ -52,8 +52,11 @@ Tests were done using caching allocators, and there were issues along the way ([
 #### Weeks 9-10
 > Ending on 28.07.2022
 
-Benchmarked overall throughput for the CPU algorithm and CUDA algorithm with and without MPS [logs available here]( https://drive.google.com/drive/folders/15QFPNNwgh75RoRZ2au2_WybCuIMbUQpQ ). A significant improvement was not observable, since CUDA kernel execution only takes up ~10% of the entire process. As adviced by my mentors I started benchmarking kernel level throughput with and without MPS. Currently I have completed benchmarking and in the process of analyzing the kernel execution times.
+Benchmarked overall throughput for the CPU algorithm and CUDA algorithm with and without MPS [logs available here]( https://drive.google.com/drive/folders/15QFPNNwgh75RoRZ2au2_WybCuIMbUQpQ ). Speed up by using MPS can be expected only from this kernel execution portion .Therefore, significant improvement was not observable by using MPS, since CUDA kernel execution only takes up ~10% of the entire process. As adviced by my mentors I started benchmarking kernel level throughput with and without MPS. Currently I have completed benchmarking and in the process of analyzing the kernel execution times. After this analysis it will provide more insight into how number of processes will effect the individual kernel throughput.
 
+Following are two comparisions between using MPS and not using MPS each process computes 10 and 150 events respectively. X axis is the number of processes that are running concurrently. Y axis is the throughput in events/second
 
+![10_events](https://user-images.githubusercontent.com/58067288/181102393-bf893de6-492d-4c5c-8187-3c3db2eeff49.jpg)
+![150_events](https://user-images.githubusercontent.com/58067288/181108051-5f3bdd22-6d23-46cc-b764-4ccb6661a169.jpg)
 
 
