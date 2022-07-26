@@ -17,19 +17,19 @@ Hence, the aim of this project is to implement multiple methods which do not acc
 
 ## Getting Into The Program
 
-After going through the list of project proposal, I decided upon the project which I was going to apply pretty early. I was really interested in the physics behind these integrator as well as had some prior experience of working on implementing them. I mailed the mentors with my interest in the project, following which I received a qualification task. I submitted my solution to the task and after that, worked with my mentors to develop a project proposal. The Projects were announced in May and I was selected!
+After going through the list of projects, I decided upon the one I was going to apply, pretty early on. I was really interested in the physics behind the symplectic integrator. I also had some prior experience of working on implementing them. I mailed the mentors with my interest in the project, following which I received a qualification task. I submitted my solution to the task and after that, worked with my mentors to develop a project proposal. The projects were announced in may and I was selected!
 
 ## Starting Off - The Community Bonding Period
 
-This was a very essential period. I had my first meet with my mentors and got to know a bit about their works. We figured out the logistics of how we'll be planning out the 3 month long coding period. I also got to attend the GSOC'22 Global Summit and learnt about the importance of open source. The rest of the community bonding period was utilized on brushing up my basics as well as learning to use the Geant4 toolkit.
+This was a very essential period. I had my first meet with my mentors and I got to know a bit about their works. We figured out the logistics of how we'll be planning out the 3 month long coding period. I also got to attend the GSOC'22 Global Summit and learnt about the importance of open source. The rest of the community bonding period was utilized on brushing up my basics as well as learning to use the Geant4 toolkit.
 
 ## Coding Period - Kick Off
 
-Before starting work on the actual methods, it was important develop up a test bed application that could be used to test the steppers and driver. Hence, I started off my coding period by implementing a geant4 application to track a particle in a geometry initialized with a magnetic field. This was really interesting and exciting for me as I had done my homework during the community bonding period. The test bed is comprised of a dectector constructor class, a physics list class and a primary action generator class. The magnetic field of the geometry and the stepper used for tracking the particle can defined in the detector constructor. The physics list is used to define various particles and physical processes. Finally, the primary generator was used to initialize the particle. I utilized the test bed to test out various steppers already present in the codebase to profile them.
+Before starting work on the actual methods, it was important develop up a test bed application that could be used to test the steppers and drivers. Hence, I started off my coding period by implementing a geant4 application to track a particle in a geometry initialized with a magnetic field. This was really interesting and exciting for me as I had done my homework during the community bonding period. The test bed is comprised of a dectector constructor class, a physics list class and a primary action generator class. The magnetic field of the geometry and the stepper used for tracking the particle can defined in the detector constructor. The physics list is used to define various particles and physical processes. Finally, the primary generator was used to initialize the particle. I utilized the test bed to test out various steppers already present in the codebase to profile them.
 
 ## First Method
 
-After implementing the above applicaton, we started deliberating on the first method that we'll implement. We ultimately decided on the Boris Algorithm for its excellent performance in electromagnetic field. The same was implemented by using the familiar Driver and Stepper design used in Geant4. The stepper(`G4BorisScheme`) implements the actual Boris Algorithm and driver(`G4BorisDriver`) is used to manage the stepper.
+After implementing the above applicaton, we started deliberating on the first method that we'll implement. We ultimately decided on the Boris Algorithm for its excellent performance in electromagnetic field. The same was implemented by using the familiar driver and dtepper design used in Geant4. The stepper(`G4BorisScheme`) implements the actual Boris Algorithm and the driver(`G4BorisDriver`) is used to manage the stepper.
 
 ## Some Links
 
