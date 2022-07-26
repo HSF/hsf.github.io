@@ -6,7 +6,7 @@ photo: Add
 date: 20.07.2022
 year: 2022
 layout: blog_post
-logo: Add
+logo: ACTSlogo.gif
 intro: |
   This blog summarizes what progress I have achieved, what I have learnt and my experiences during the GSoC period
 --- 
