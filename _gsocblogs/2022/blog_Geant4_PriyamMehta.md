@@ -12,7 +12,7 @@ intro: |
 
 # Inference Optimization pipeline
 
-KubeFlow was the platform of choice for making a reproducible and scalable machine learning inference pipeline for the `g4fastsim` inference project. CERN IT Department has built [ml.cern.ch](https://ml.cern.ch) which is KubeFlow service accessible to all CERN members and was used for building the pipeline.
+KubeFlow was the platform of choice for making a reproducible and scalable machine learning inference pipeline for the `g4fastsim` inference project. CERN IT Department has built `ml.cern.ch` which is KubeFlow service accessible to all CERN members and was used for building the pipeline.
 
 `g4fastsim` is broken into 2 parts - `Training` and `Inference`. Inference Optimization Pipeline is aimed at reducing memory footprint of the ML model by performing various types of hardware-specific quantizations and graph optimizations.
 
@@ -29,7 +29,7 @@ Below image represents an overview of the approach taken to build inference opti
 
 ## KubeFlow Pipeline
 
-The pipeline can be found on [ml.cern.ch](https://ml.cern.ch) under the name of `Geant4-Model-Optimization-Pipeline`. 
+The pipeline can be found on `ml.cern.ch` under the name of `Geant4-Model-Optimization-Pipeline`. 
 ![Kubeflow_inference_optimization_pipeline](https://user-images.githubusercontent.com/47216475/181238125-0ab307b7-c38c-4a37-9314-dce87ebd2344.jpg)
 
 -   `FullSimMacroHandler`, `OnnxFastSimNoEPMacroHandler` - Macro Handler components which output a macro file that gets passed to the respective `Par04`s.
