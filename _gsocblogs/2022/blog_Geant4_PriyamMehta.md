@@ -7,7 +7,7 @@ year: 2022
 layout: blog_post
 logo: Geant4-logo.png
 intro: |
-  A KubeFlow pipeline for performing inference optimization using different ONNXRuntime Execution Providers. 
+  A KubeFlow pipeline for performing inference optimization using different ONNXRuntime Execution Providers.
 ---
 
 # Inference Optimization pipeline
@@ -26,6 +26,15 @@ The Inference pipeline is broken down into 5 main components:
 Below image represents an overview of the approach taken to build inference optimization kubeflow pipeline:
 
 ![InfOptim-Workflow](https://user-images.githubusercontent.com/47216475/181238053-08cd0c9f-75ee-4e29-b41d-5f6ea81858fa.jpg)
+
+## Why?
+The calorimeter is a crucial detector device used in Large Hadron Collider (LHC) research at CERN in Geneva to measure the energy of particles. The calorimeter's material is affected by these particles' electromagnetic and/or hadronic interactions, which result in secondary particle or shower cascades. Simulation techniques are used to properly simulate all particle interactions with matter in order to characterize the showering process. The Geant4 toolset serves as the foundation for a thorough and precise simulation. The simulation is innately sluggish and a bottleneck for physics analysis since it is constrained by the demand for precision. The quantity of necessary simulated events will also rise due to the impending high luminosity upgrade of the LHC, which will have more complicated events and a significantly higher trigger rate.
+
+In order to simulate the calorimeter's reaction to specific particles, machine learning (ML) approaches like generative modeling are utilized as quick simulation alternatives. Five steps make up the pipeline of a quick simulation solution: data preparation, ML model creation, validation, inference, and optimization. We can do data cleaning, scaling, and encoding, as well as construct a proper representation of showers, thanks to the preprocessing module. The generative model then uses the preprocessed data for training. Techniques like Automatic Machine Learning (AutoML) are used to find the ideal collection of model hyperparameters. Comparing various ML metrics and physical variables between the input and output data forms the basis of the validation component.
+
+The model is transformed into a format that may be utilized for inference in C++ after training and validation. This enables its direct application inside the confines of physics investigations. The memory footprint of the model at inference time is further decreased using the optimization component. In addition, optimization methods are also applied during training to lower the number of trainable parameters. The objective of this project is to use the open-source platform Kubeflow to improve the machine learning pipeline for the rapid simulation technique, with a particular emphasis on reducing the model's memory footprint during inference.
+
+For in-depth details regarding the entire `g4fastsim` project, please go to this website: https://g4fastsim.web.cern.ch/
 
 ## KubeFlow Pipeline
 
