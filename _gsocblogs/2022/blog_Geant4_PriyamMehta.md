@@ -1,3 +1,15 @@
+---
+project: Geant4
+title: Geant4-FastSim - Memory footprint optimization for ML fast shower simulation
+author: Priyam Mehta
+date: 27.07.2022
+year: 2022
+layout: blog_post
+logo: Geant4-logo.png
+intro: |
+  A KubeFlow pipeline for performing inference optimization using different ONNXRuntime Execution Providers. 
+---
+
 # Inference Optimization pipeline
 
 KubeFlow was the platform of choice for making a reproducible and scalable machine learning inference pipeline for the `g4fastsim` inference project. CERN IT Department has built [ml.cern.ch](https://ml.cern.ch) which is KubeFlow service accessible to all CERN members and was used for building the pipeline.
