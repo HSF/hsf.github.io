@@ -2,44 +2,108 @@
 
 KubeFlow was the platform of choice for making a reproducible and scalable machine learning inference pipeline for the `g4fastsim` inference project. CERN IT Department has built [ml.cern.ch](https://ml.cern.ch) which is KubeFlow service accessible to all CERN members and was used for building the pipeline.
 
-`g4fastsim` is broken into 2 parts - `Training` and `Inference`. Inference Pipeline is aimed at reducing memory footprint of the ML model from performing various 
+`g4fastsim` is broken into 2 parts - `Training` and `Inference`. Inference Optimization Pipeline is aimed at reducing memory footprint of the ML model by performing various types of hardware-specific quantizations and graph optimizations.
 
-The Inference pipeline is broken down into 3 main components:
+The Inference pipeline is broken down into 5 main components:
+* MacroHandler
+* InputChecker
 * Inference
 * Benchmark
 * Optimization
 
-Below given image gives an overview of how the pipeline is being built:
+Below image represents an overview of the approach taken to build inference optimization kubeflow pipeline:
 
-![InfOptim-Workflow](https://user-images.githubusercontent.com/47216475/181177926-1230f534-7eb8-4e01-a4ea-ecbff078e8c8.jpg)
+![InfOptim-Workflow](https://user-images.githubusercontent.com/47216475/181238053-08cd0c9f-75ee-4e29-b41d-5f6ea81858fa.jpg)
+
+## KubeFlow Pipeline
+
+The pipeline can be found on [ml.cern.ch](https://ml.cern.ch) under the name of `Geant4-Model-Optimization-Pipeline`. 
+![Kubeflow_inference_optimization_pipeline](https://user-images.githubusercontent.com/47216475/181238125-0ab307b7-c38c-4a37-9314-dce87ebd2344.jpg)
+
+-   `FullSimMacroHandler`, `OnnxFastSimNoEPMacroHandler` - Macro Handler components which output a macro file that gets passed to the respective `Par04`s.
+-   `FullSim`, `OnnxFastSimNoEP` - `Par04`s which use Full Simulation and `ONNXRuntime` without any execution providers respectively.
+-   `FullSimV/SOnnxFastSimNoEP` - Benchmark component that takes in inputs from `FullSim` and `OnnxFastSimNoEP` and compares them for similarity check.
+
+> :green_book: A memory arena is a large, contiguous piece of memory that you allocate once and then use to manage memory manually by handing out parts of that memory. To understand `arena` in relation to memory, check out this [stack overflow post](https://stackoverflow.com/questions/12825148/what-is-the-meaning-of-the-term-arena-in-relation-to-memory)
+
+### Parameters
+* `fullSimJsonlUrl` - Url of FullSim Jsonl file which generates macro file for full sim inference
+* `fastSimJsonlUrl` - Url of FastSim Jsonl file which generates macro file for fast sim inference
+* `jsonlSavePath` - Path where JSONL file will be saved after downloading, inside the docker container
+* `particleEnergy` - Energy of the particle
+* `particleAngle` - Angle of the particle.
+* `setSizeLatentVector` - Dimension of the latent vector (encoded vector in a Variational Autoencoder model)
+* `setSizeConditionVector` - Size of the condition vector (energy, angle and geometry)
+* `setModelPathName` - Path of the `ONNX` model to be used for Fast Sim
+* `setProfileFlag` - Whether to perform profiling during inference using `ONNXRuntime`.
+* `setOptimizationFlag` - Whether to perform graph optimization on the model when using `ONNXRuntime`.
+* `setDnnlFlag` - Whether to use `oneDNN` Execution Provider as compute backend when using `ONNXRuntime`.
+* `setOpenVINOFlag` - Whether to use `OpenVINO` Execution Provider as compute backend when using `ONNXRuntime`.
+* `setCudaFlag` - Whether to use `CUDA` Execution Provider as compute backend when using `ONNXRuntime`.
+* `setTensorrtFlag` - Whether to use `TensorRT` Execution Provider as compute backend when using `ONNXRuntime`.
+* `setInferenceLibrary` - Whether to use `ONNXRuntime` or `LWTNN` for inference in FastSim
+* `setFileName` - Name of the the output `.root` file.
+* `beamOn` - Number of events to run
+* `yLogScale` - Whether to set a log scale on the y-axis of full and fast simulation comparison plots.
+* `saveFig` - Whether to save plots in `Benchmark` component
+* `eosDirectory` - Path of the EOS directory where output plots will be saved.
+
+#### oneDNN
+* `setDnnlEnableCpuMemArena` - Whether to enable memory arena when using `oneDNN` Execution Provider.
+
+#### CUDA
+* `setCudaDeviceId` - ID of the device on which to run `CUDA` Execution Provider.
+* `setCudaGpuMemLimit` - GPU Memory Limit when using `CUDA` Execution Provider.
+* `setCudaArenaExtendedStrategy` - Strategy to use for extending memory arena. For more details, go [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#arena_extend_strategy)
+* `setCudaCudnnConvAlgoSearch` - Type of search done for finding which `cuDNN` convolution algorithm to use. For more details, go [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cudnn_conv_algo_search)
+* `setCudaDoCopyInDefaultStream` - Whether to perform data copying operation from host to device and viceversa in default stream or separate streams. For more details, check [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#do_copy_in_default_stream)
+* `setCudaCudnnConvUseMaxWorkspace` - Amount of memory to use when querying `cuDNN` to find the most optimal convolution algorithm. Lower value will result in sub-optimal querying and higher value will lead to higher peak memory usage. For more details, chech [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cudnn_conv_use_max_workspace).
+
+#### TensorRT
+* `setTrtDeviceId` - ID of device on which to run `TensorRT` Execution Provider
+* `setTrtMaxWorksapceSize` - Maximum memory usage of TensorRT Engine.
+* `setTrtMaxPartitionIterations` - Maximum no.of iterations allowed while partitioning the model for TensorRT
+* `setTrtMinSubgraphSize` - Minimum node size in a subgraph after partitioning.
+* `setTrtFp16Enable` - Whether to enable FP16 computation in TensorRT
+* `setTrtInt8Enable` - Whether to enable INT8 computation in TensorRT
+* `setTrtInt8UseNativeCalibrationTable` - Select what calibration table is used for non-QDQ (Quantize- DeQuantize) models in INT8 mode. If 1, native TensorRT generated calibration table is used; if 0, ONNXRUNTIME tool generated calibration table is used.
+* `setTrtEngineCacheEnable` - Enable TensorRT engine caching. The purpose of using engine caching is to save engine build time in the case that TensorRT may take long time to optimize and build engine.
+> :warning: Each engine is created for specific settings such as model path/name, precision (FP32/FP16/INT8 etc), workspace, profiles etc, and specific GPUs and it’s not portable, so it’s essential to make sure those settings are not changing, otherwise the engine needs to be rebuilt and cached again.
+> 
+> :warning: Please clean up any old engine and profile cache files (.engine and .profile) if any of the following changes:
+> * Model changes (if there are any changes to the model topology, opset version, operators etc.)
+> * ORT version changes (i.e. moving from ORT version 1.8 to 1.9)
+> * TensorRT version changes (i.e. moving from TensorRT 7.0 to 8.0)
+> * Hardware changes. (Engine and profile files are not portable and optimized for specific Nvidia hardware)
+* `setTrtEngineCachePath` -  Specify path for TensorRT engine and profile files if `setTrtEngineCacheEnable` is True, or path for INT8 calibration table file if `setTrtInt8Enable` is True.
+* `setTrtDumpSubgraphs` - Dumps the subgraphs that are transformed into TRT engines in onnx format to the filesystem. This can help debugging subgraphs.
+
+#### OpenVINO
+* `setOVDeviceType` - Type of device to run `OpenVINO` Execution Provider on
+* `setOVDeviceId` - ID of the device to run `OpenVINO` Execution Provider on
+* `setOVEnableVpuFastCompile` -  During initialization of the VPU device with compiled model, Fast-compile may be optionally enabled to speeds up the model’s compilation to VPU device specific format.
+* `setOVNumOfThreads` - No.of threads to use while performing computation using `OpenVINO` Execution Provider
+* `setOVUseCompiledNetwork` - It can be used to directly import pre-compiled blobs if exists or dump a pre-compiled blob at the executable path. 
+* `setOVEnableOpenCLThrottling` - This option enables OpenCL queue throttling for GPU devices (reduces CPU utilization when using GPU).
+
 
 ## MacroHandler
 
-`par04` or Inference component takes in input as a Macro file. This macro file contains the command in the exact order they are supposed to be run. Normally, if we want to change a macro file we will have to change the `.mac` file, upload it to gitlab, EOS or someplace from where it will be downloaded and pass the URL in KubeFlow Run UI Dashboard. This will become a tedious process.
+`Par04` takes in input a macro file. This macro file contains a list of commands in the order they are to be run. Normally, if we want to change a macro file we will have to change the `.mac` file, upload it to gitlab, EOS or someplace from where it will be downloaded and pass the URL in KubeFlow Run UI Dashboard. This will become a tedious process.
 
-MacroHandler component solves this issue by generating a `.mac` file based on the inputs from the KubeFlow Run UI.
+`MacroHandler` component is implemented to solve this issue by generating a `.mac` file based on the inputs from the KubeFlow Run UI. 
 
-The input to this component will be a `.jsonl` file containing `jsonlines`, where each `jsonline` contain 2 keys - `command` and `value`. An example of `.jsonl` macro file can be seen [here](https://gitlab.cern.ch/prmehta/geant4_par04/-/blob/master/pipelines/model-optimization/macros/examplePar04_onnx.jsonl).
+The input to `MacroHandler` component is a `.jsonl` file containing `jsonlines`, where each `jsonline` contain 2 keys - `command` and `value`. An example of `.jsonl` macro file can be seen [here](https://gitlab.cern.ch/prmehta/geant4_par04/-/blob/master/pipelines/model-optimization/macros/examplePar04_onnx.jsonl).
 
-`.jsonl` file will be converted to `.mac` file after value modifications and passed to the respective `par04` or inference component.
+`.jsonl` file is converted to `.mac` file after value modifications and passed to the respective `Par04` components. 
+> **Eg:** As per the pipeline image above, the output of `FullSimMacroHandler` component will be passed to `FullSim` and output of `OnnxFastSimNoEPMacroHandler` component will be passed to `OnnxFastSimNoEP`.
 
 > ***This component is specifically designed for KubeFlow usage***
 
-## Inference
-
-Inference Component is a C++ program which takes in an ONNX model as an input, performs inference using it and outputs a `.root` file containing the simulated physics quantities which can be used downstream for analysis of particle showers. 
-
-Inference component currently supports 2 libraries - `ONNXRuntime` and `LWTNN`. Support for `PyTorch` is on the way. The inference optimization pipeline currently being built is geared towards using `ONNXRuntime`. The ONNX model will optimized using different execution providers with GPU based being a priority - 
-* ***Nvidia TensorRT*** - GPU
-* ***Nvidia CUDA*** - GPU
-* ***Intel oneDNN*** - CPU
-
-> *Support for **Intel OpenVINO** is currently on halt due to compatibility issues.*
-
 ### Macro file
 
-The inference takes a macro file as an input. This macrofile contains Geant4 as well as custom commands for manipulating the simulation process.
-An example of the macrofile has been shared below. It uses `CUDA` backend for performing inference in `ONNXRuntime`.
+This macro file contains Geant4 commands as well as custom commands for manipulating the simulation process.
+An example of the macro file can be seen below. It uses `CUDA` backend for performing inference in `ONNXRuntime`.
 ```bash
 #  examplePar04_onnx.mac
 #
@@ -104,11 +168,29 @@ An example of the macrofile has been shared below. It uses `CUDA` backend for pe
 /run/beamOn 100
 ```
 
-There are lots of additional commands which can be used for further manipulation. A detailed example of macrofile for `ONNXRuntime` can be viewed [here](https://gitlab.cern.ch/prmehta/geant4_par04/-/blob/master/examplePar04_onnx.mac).
+There are additional commands which can be used to configure the settings of each execution provider. A detailed example of macro file for `ONNXRuntime` can be viewed [here](https://gitlab.cern.ch/prmehta/geant4_par04/-/blob/master/examplePar04_onnx.mac).
+
+## InputChecker
+
+KubeFlow passes all the parameters as string from its run UI. In order to debug type issues a small input checker component is build which will output the value of every KubeFlow UI parameter and its value type.
+This an independent component of the pipeline.
+
+> ***This component is specifically designed for KubeFlow usage***
+
+## Inference
+
+`Par04` is a C++ application which takes in as input an ONNX model, performs inference using it and outputs a `.root` file containing the simulated physics quantities which can be used for downstream analysis of particle showers. 
+
+`Par04` currently supports 3 libraries - `ONNXRuntime`, `LWTNN` and `PyTorch`. The inference optimization pipeline currently being built is geared towards using `ONNXRuntime`. The execution providers that will be investigated for optimizing the ONNX model are - 
+* ***Nvidia TensorRT*** - GPU
+* ***Nvidia CUDA*** - GPU
+* ***Intel oneDNN*** - CPU
+* ***Intel OpenVINO*** - CPU
+> *Support for **Intel OpenVINO** is currently on halt due to compatibility issues.*
 
 ### Output .root file
 
-The output of the inference component will be a `.root` file which can be opened using `TSystem` (C++) and `uproot` (python). The `.root` file contains the following data:
+The output of `Par04` is a `.root` file which can be opened using `TSystem` (C++) and `uproot` (python). The `.root` file contains the following structure:
 
 ```text
 output_file.root
@@ -135,13 +217,19 @@ output_file.root
 └── transSecondMoment;1
 ```
 
-For better understanding of physics quantity refer [this](https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/Examples/extended/Par04.html#output-data).
+More details on these quantities are explained in this [link](https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/Examples/extended/Par04.html#output-data).
 
-`CPUResMem`, `CPUVirMem`, `GPUMem` were added in this update and will be visible in the `geant4` docs after a couple of updates.
+`CPUResMem`, `CPUVirMem`, `GPUMem` are added into the updated version of the `Par04` application:
+`CPUResMem` - Resident Memory used by the inference of the `Par04` application
+`CPUVirMem` - Virtual Memory used by the inference of the `Par04` application
+`GPUMem` - GPU Memory used by the inference of the `Par04` application
+More details on Resident and Virtual Memory can be found [here](https://stackoverflow.com/questions/7880784/what-is-rss-and-vsz-in-linux-memory-management)
 
 ### Dependencies
 
-`par04` has a number of optional dependencies which can be added to customise it for different host hardware and usecase.
+`Par04` has a number of optional dependencies which can be added to customise it for different host hardware and usecase. 
+
+> Running FastSim in `Par04` will require `ONNXRuntime`.
 
 #### Mandatory
 - `Geant4` - A platform for simulation of the passage of particles through matter.
@@ -153,31 +241,30 @@ For better understanding of physics quantity refer [this](https://geant4-userdoc
 
 - `TensorRT` - Machine learning framework developed by Nvidia for optimizing ML model deployment on Nvidia GPUs. It is built on top of CUDA.
 
-- `oneDNN` - Machine learning library which optimized model deployment on Intel hardware. It is part of oneAPI - a cross platform performance library for deep learning applications.
+- `oneDNN` - Machine learning library which optimizes model deployment on Intel hardware. It is part of oneAPI - a cross platform performance library for deep learning applications.
 
 - `OpenVINO` - Machine Learning toolkit facilitating optimization of deep learning models from a framework and deployment on Intel Hardware.
-  - Currently, `OpenVINO`'s integration is on halt due to compatibility issues.
 
-- `ROOT` - An object oriented library developed by CERN for for particle physics data analysis. It is also used for Astronomy and data mining.
-  - In `par04`, `ROOT` is used to get host memory usage.
+- `ROOT` - An object oriented library developed by CERN for for particle physics data analysis.
+  - In `Par04`, `ROOT` is used to get host memory usage.
 
-- `Valgrind` - Valgrind is a programming tool for memory debugging, memory leak detection, and profiling.
-  - In `par04`, `Valgrind` is used for function call profiling of inference block.
+- `Valgrind` - Valgrind is a applicationming tool for memory debugging, memory leak detection, and profiling.
+  - In `Par04`, `Valgrind` is used for function call profiling of inference block.
 
 ### Run Inference
 
-To run `par04` simulation program, follow the below given steps:
+To run `Par04` simulation application, follow the below given steps:
 
 1. Clone the git repo
 ```bash
 git clone --recursive https://gitlab.cern.ch/prmehta/geant4_par04.git
 ```
-2. Build the program
+2. Build the application
 ```bash
 cmake -DCMAKE_BUILD_TYPE="Debug" -DCMAKE_CXX_FLAGS_DEBUG="-ggdb3" <source folder>
 ```
 
-If you want build `par04` using dependencies, then use the `DCMAKE_PREFIX_PATH` flag.
+If you want build `Par04` using dependencies, then use the `DCMAKE_PREFIX_PATH` flag.
 ```bash
 cmake -DCMAKE_BUILD_TYPE="Debug" \
     -DCMAKE_PREFIX_PATH="/opt/valgrind/install;/opt/root/src/root;/opt/geant4/install;/opt/onnxruntime/install;/opt/onnxruntime/data;/usr/local/cuda;" \
@@ -185,7 +272,7 @@ cmake -DCMAKE_BUILD_TYPE="Debug" \
     <source folder>
 ```
 
-3. Install the program - go into the directory where program was build and run
+3. To build and install the application, go into the build directory and run
 ```bash
 make -j`nproc`
 make install
@@ -198,28 +285,39 @@ make install
 
 > :warning: Make sure to add path to dependencies in `PATH` and `LD_LIBRARY_PATH` respectively
 
-Checkout [dependencies section](#dependencies) for more info on customising `par04` for your purpose.
+Checkout [dependencies section](#dependencies) for more info on customising `Par04` for your purpose.
 
 #### Flags
-- `-m` - Macrofile path
+- `-m` - macro file path
 - `-k` - Whether it is kubeflow deployment or not. Adding `-k` will indicate `True`.
 - `-g` - Whether to enable GPU memory usage collection or not.
 - `-o` - Name of the output file. Make sure it ends with `.root`.
 - `-do` - Path of the directory where output file will be saved.
 
-> :warning: `-o` and `-do` will only be used when `-k` is set as these 2 flags are KubeFlow deployment specifc. They are added to make the Inference component compatible with KubeFlow's data passing mechanism. Inorder to make KubeFlow component's reusable, KubeFlow recommends allowing the KubeFlow sdk to generate paths at compile time.
+> :warning: `-o` and `-do` will only be used when `-k` is set as these 2 flags are KubeFlow deployment specifc. They are added to make the `Par04` compatible with KubeFlow's data passing mechanism. In order to make KubeFlow component's reusable, KubeFlow recommends allowing the KubeFlow sdk to generate paths at compile time.
 > 
-> The paths generated can or cannot be present in the docker container, so, we need to handle both the cases and when path is not present, then our code should auto generate the directories as the per the path.
+> The paths generated can or cannot be present in the docker container, so, we need to handle both the cases and when path is not present, then our code should auto generate the directories as the per the path. In order to understand KubeFlow's data passing mechanism, please refer to [this guide](https://www.kubeflow.org/docs/components/pipelines/sdk-v2/v2-component-io/#review-and-update-inputsoutputs-placeholders-if-applicable).
 > 
-> If you are using `par04` as a standalone program, you can also use `/analysis/setFileName` in Macrofile to set the filename.
+> If you are using `Par04` as a standalone application, you can also use `/analysis/setFileName` in macro file to set the filename.
 
 ## Benchmark
 
-The benchmark component is built for comparing the output of different `par04` runs. Currently, it supports `2` output files and the plan to support 3 files is in roadmap. The current benchmark component is tailored a lot towards using in a pipeline rather than a standalone program.
+The benchmark component is built for comparing the output of different `Par04` runs. Currently, it supports `2` output files and the plan to support 3 files is in roadmap. The current benchmark component is tailored a lot towards using in a pipeline rather than a standalone application. 
 
-The output of benchmark component will be plots, lots of plots, which will help with comparison as well as a `.json` file which will contain Jensen Shannon Divergence values for different physics quantity histograms.
+> :warning: If you are running `benchmark.py` as a standalone script, make sure the output `.root` filenames of Full Sim and Fast Sim(s) is same and both are in different folders.
+> ```
+> .
+> ├── FastSim
+> │   └── output.root
+> └── FullSim
+>     └── output.root
+> ```
 
-It is a full python component and requires the following dependencies:
+The output of the benchmark component is a set of plots which will help with comparison between Full Sim and Fast Sim(s) as well as a `.json` file which will contain Jensen Shannon Divergence values for different physics quantity histograms.
+
+> For more details on Jensen Shannon Divergence, refer to this [link](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.jensenshannon.html)
+
+`Benchmark` is a python component and requires the following dependencies:
 -   `scipy`
 -   `uproot`
 -   `numpy`
@@ -228,7 +326,7 @@ It is a full python component and requires the following dependencies:
 
 ### Run Benchmark
 
-1.  To run `Benchmark`, clone the `par04` repository
+1.  To run `Benchmark`, clone the `Par04` repository
 ```bash
 git clone --recursive https://gitlab.cern.ch/prmehta/geant4_par04.git
 ```
@@ -244,101 +342,19 @@ python3 benchmark.py \
     --rootFilename <Filename of the output root file> \
     --truthE <Energy of the particles> \
     --truthAngle <Angle of the particles> \
-    --yLogScale <Whether to scale the y-axis using log> \
+    --yLogScale <Whether to set a log scale on the y-axis of full and fast simulation comparison plots.> \
     --saveFig <Whether to save the plots> \
     --eosDirectory <EOS directory path where you want to save the files> \
     --eosSaveFolderPath <EOS folder inside the EOS directory where you want to save the output> \
     --saveRootDir <Directory path inside docker container where you want the data to be saved for further passing>
 ```
-> :warning: If you are running `benchmark.py` as a standalone program, make sure the output filename of both the runs is same and both are in different folders. There values will be passed to `input_path_A`, `input_path_B` and `rootFilename`.
 
 > :warning: If you are running `Benchmark` as a kubeflow component, use `runBenchmark.sh`. It performs Kerberos authentication for EOS access and then runs `benchmark.py`. Everytime a Kubeflow component is created it needs to authenticate itself for EOS access, it is not feasible to do it manually and `runBenchmark.sh` takes care of that.
 > 
 > Before running a pipeline which requires EOS access, make sure your `krb-secret` is up-to-date and also run `kinit CERN_ID`. If you want to renew your `krb-secret` perform the steps mentioned [here](https://gitlab.cern.ch/ai-ml/examples/-/tree/master/pipelines/argo-workflows/access_eos).
 
 An example plot is given below:
-
-![transProfile_1_E_10_GeV_A_90](https://user-images.githubusercontent.com/47216475/181178000-328c5f36-9e71-475e-965f-80b94eb652d1.jpg)
-
-## InputChecker
-
-KubeFlow passes all the parameters as string from its run UI. In order to debug type issues a small input checker component is build which will output the value of every parameter and the values type.
-This is not a crucial component and can be eliminated altogether.
-
-> ***This component is specifically designed for KubeFlow usage***
-
-## Pipeline:
-
-The pipeline can be found on [ml.cern.ch](https://ml.cern.ch) under the name of `Geant4-Model-Optimization-Pipeline`. 
-![Kubeflow_inference_optimization_pipeline](https://user-images.githubusercontent.com/47216475/181178052-004f7dfa-7d1b-4f31-afaa-7361e89d0d51.jpg)
-
-
--   `FullSimMacroHandler`, `OnnxFastSimNoEPMacroHandler` - Macro Handler components which output a macro file that gets passed to the respective Inference components.
--   `FullSim`, `OnnxFastSimNoEP` - Inference components which use Full Simulation and `ONNXRuntime` without any execution providers respectively.
--   `FullSimV/SOnnxFastSimNoEP` - Benchmark component that takes in inputs from `FullSim` and `OnnxFastSimNoEP` and compares them for similarity check.
-
-> :green_book: To understand `arena` in relation to memory, check out this [stack overflow post](https://stackoverflow.com/questions/12825148/what-is-the-meaning-of-the-term-arena-in-relation-to-memory)
-
-### Parameters:
-* `fullSimJsonlUrl` - Url of FullSim Jsonl file which generates macrofile for full sim inference
-* `fastSimJsonlUrl` - Url of FastSim Jsonl file which generates macrofile for fast sim inference
-* `jsonlSavePath` - Path where JSONL file will be saved after downloading, inside the docker container
-* `particleEnergy` - Energy of the particle
-* `particleAngle` - Angle of the particle.
-* `setSizeLatentVector` - Dimension of the latent vector (encoded vector in a Variational Autoencoder model)
-* `setSizeConditionVector` - Size of the condition vector (energy, angle and geometry)
-* `setModelPathName` - Path of the `ONNX` model to be used for Fast Sim
-* `setProfileFlag` - Whether to perform profiling during inference using `ONNXRuntime`.
-* `setOptimizationFlag` - Whether to perform graph optimization on the model when using `ONNXRuntime`.
-* `setDnnlFlag` - Whether to use `oneDNN` Execution Provider as compute backend when using `ONNXRuntime`.
-* `setOpenVINOFlag` - Whether to use `OpenVINO` Execution Provider as compute backend when using `ONNXRuntime`.
-* `setCudaFlag` - Whether to use `CUDA` Execution Provider as compute backend when using `ONNXRuntime`.
-* `setTensorrtFlag` - Whether to use `TensorRT` Execution Provider as compute backend when using `ONNXRuntime`.
-* `setInferenceLibrary` - Whether to use `ONNXRuntime` or `LWTNN` for inference in FastSim
-* `setFileName` - Name of the the output `.root` file.
-* `beamOn` - No.of Events to run
-* `yLogScale` - Whether to set y scale of plot to `log`.
-* `saveFig` - Whether to save plots in `Benchmark` component
-* `eosDirectory` - Path of the EOS directory where output plots will be saved.
-
-#### oneDNN
-* `setDnnlEnableCpuMemArena` - Whether to enable memory arena when using `oneDNN` Execution Provider.
-
-#### CUDA
-* `setCudaDeviceId` - ID of the device on which to run `CUDA` Execution Provider.
-* `setCudaGpuMemLimit` - GPU Memory Limit when using `CUDA` Execution Provider.
-* `setCudaArenaExtendedStrategy` - Strategy to use for extending memory arena. For more details, go [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#arena_extend_strategy)
-* `setCudaCudnnConvAlgoSearch` - Type of search done for finding which `cuDNN` convolution algorithm to use. For more details, go [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cudnn_conv_algo_search)
-* `setCudaDoCopyInDefaultStream` - Whether to perform data copying operation from host to device and viceversa in default stream or separate streams. For more details, check [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#do_copy_in_default_stream)
-* `setCudaCudnnConvUseMaxWorkspace` - Amount of memory to use when querying `cuDNN` to find the most optimal convolution algorithm. Lower value will result in sub-optimal querying and higher value will lead to higher peak memory usage. For more details, chech [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cudnn_conv_use_max_workspace).
-
-#### TensorRT
-* `setTrtDeviceId` - ID of device on which to run `TensorRT` Execution Provider
-* `setTrtMaxWorksapceSize` - Maximum memory usage of TensorRT Engine.
-* `setTrtMaxPartitionIterations` - Maximum no.of iterations allowed while partitioning the model for TensorRT
-* `setTrtMinSubgraphSize` - Minimum node size in a subgraph after partitioning.
-* `setTrtFp16Enable` - Whether to enable FP16 computation in TensorRT
-* `setTrtInt8Enable` - Whether to enable INT8 computation in TensorRT
-* `setTrtInt8UseNativeCalibrationTable` - Select what calibration table is used for non-QDQ (Quantize- DeQuantize) models in INT8 mode. If 1, native TensorRT generated calibration table is used; if 0, ONNXRUNTIME tool generated calibration table is used.
-* `setTrtEngineCacheEnable` - Enable TensorRT engine caching. The purpose of using engine caching is to save engine build time in the case that TensorRT may take long time to optimize and build engine.
-> :warning: Each engine is created for specific settings such as model path/name, precision (FP32/FP16/INT8 etc), workspace, profiles etc, and specific GPUs and it’s not portable, so it’s essential to make sure those settings are not changing, otherwise the engine needs to be rebuilt and cached again.
-> 
-> :warning: Please clean up any old engine and profile cache files (.engine and .profile) if any of the following changes:
-> * Model changes (if there are any changes to the model topology, opset version, operators etc.)
-> * ORT version changes (i.e. moving from ORT version 1.8 to 1.9)
-> * TensorRT version changes (i.e. moving from TensorRT 7.0 to 8.0)
-> * Hardware changes. (Engine and profile files are not portable and optimized for specific Nvidia hardware)
-* `setTrtEngineCachePath` -  Specify path for TensorRT engine and profile files if `setTrtEngineCacheEnable` is True, or path for INT8 calibration table file if `setTrtInt8Enable` is True.
-* `setTrtDumpSubgraphs` - Dumps the subgraphs that are transformed into TRT engines in onnx format to the filesystem. This can help debugging subgraphs.
-
-#### OpenVINO
-* `setOVDeviceType` - Type of device to run `OpenVINO` Execution Provider on
-* `setOVDeviceId` - ID of the device to run `OpenVINO` Execution Provider on
-* `setOVEnableVpuFastCompile` -  During initialization of the VPU device with compiled model, Fast-compile may be optionally enabled to speeds up the model’s compilation to VPU device specific format.
-* `setOVNumOfThreads` - No.of threads to use while performing computation using `OpenVINO` Execution Provider
-* `setOVUseCompiledNetwork` - It can be used to directly import pre-compiled blobs if exists or dump a pre-compiled blob at the executable path. 
-* `setOVEnableOpenCLThrottling` - This option enables OpenCL queue throttling for GPU devices (reduces CPU utilization when using GPU).
-
+![transProfile_1_E_10_GeV_A_90](https://user-images.githubusercontent.com/47216475/181238180-1fae86f8-44d9-4d41-8558-529d1fdef37a.jpg)
 
 ## Optimizations
 
