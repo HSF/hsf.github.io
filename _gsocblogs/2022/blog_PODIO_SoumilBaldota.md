@@ -12,7 +12,7 @@ intro: Midterm progress report
 ---
 
 
-In the community bonding period, with the help of Thomas and Benedikt, I setup my development environment and began to work on a prototype for the Interface which described how the generated code would look like. The prototype was created for classes with one to one relations, one to many relations and vector members. Then I made unittests for the prototype and added them to github actions for continuos integration. 
+In the community bonding period, with the help of Thomas and Benedikt, I setup my development environment and began to work on a prototype for the Interface which described how the generated code would look like. The prototype was created for classes with one to one relations, one to many relations and vector members. Then I made unittests for the prototype and added them to github actions for continuous integration. 
 
 The prototype can be found at the below link
 
