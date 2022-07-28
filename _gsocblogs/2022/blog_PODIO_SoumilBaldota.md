@@ -41,6 +41,6 @@ Adding the necessary preprocessing logic for julia code generation to [podio_cla
 Currently some of the code generation works but still needs some fixes and additional features.
 
 *Issues I am facing:*
-Mutually recursive type declarations which exist in seperate files. This has been a long standing [issue](https://github.com/JuliaLang/julia/issues/269) on the Julia github.
+Mutually recursive type declarations which exist in separate files. This has been a long standing [issue](https://github.com/JuliaLang/julia/issues/269) on the Julia github.
 I have found some workarounds namely by using Parameteric Types and Abstract types in Julia and currently am trying to find a suitable one, hence it requires some additional work.
 
