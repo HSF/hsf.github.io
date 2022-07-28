@@ -1,6 +1,6 @@
 ---
 project: Phoenix
-title: Revamping the testing infrastructure at Phoenix | Mid term progress report
+title: Revamped Testing Infrastructure for Phoenix
 author: Mohammad Humayun Khan
 photo: blog_authors/MohammadHumayunKhan.jpg
 date: 26.07.2022
@@ -8,7 +8,7 @@ year: 2022
 layout: blog_post
 logo: phoenix-logo.png
 intro: |
-  Hi all, I hope everyone is doing good. I'm Humayun and for the past couple of months, I've been working on the project Phoenix at CERN-HSF. This project aims to introduce a new testing strategy so that we encourage testing, especially Behaviour-driven Development here, at Phoenix.
+  Hi all, I hope everyone is doing good. I'm Humayun and for the past couple of months, I've been working on the project Phoenix at CERN-HSF as GSoC contributor. This project aims to introduce a new testing strategy so that we encourage testing, especially Behaviour-driven Development at Phoenix.
 ---
 
 ### Community Bonding Period
@@ -43,4 +43,4 @@ Currently, I am doing the migration of the unit tests inside [phoenix-ng](https:
 
 So, this is a short report of all the work that has been done in this project till the midterm evaluation. If you want to read in detail about the same, you can visit [my repo on GitHub](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/PROGRESS.md).
 
-Thanks a lot for reading and please feel free to connect over [LinkedIn](https://www.linkedin.com/in/damianarado/) or [GitHub](https://github.com/DamianArado/). Have a great week ahead!  ^_^
+Thanks a lot for reading and please feel free to connect over [GitHub](https://github.com/DamianArado/). Have a great week ahead!  ^_^
