@@ -18,7 +18,7 @@ In the community bonding period, with the help of Thomas and Benedikt, I setup m
 
 *Issues raised:*
 [clang-tidy](https://github.com/AIDASoft/podio/issues/297)
-[pylint](ps://github.com/AIDASoft/podio/issues/298)
+[pylint](https://github.com/AIDASoft/podio/issues/298)
 
 *Pull Requests:*
 [Replace obj_needs_destructor by more general concept](https://github.com/AIDASoft/podio/pull/291)
