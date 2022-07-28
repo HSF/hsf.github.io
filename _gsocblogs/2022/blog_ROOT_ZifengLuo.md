@@ -16,7 +16,7 @@ This is a blog as part of the mid-term evaluation of GSoC 2022 project: ROOT - A
 For the past 25 years, high-energy physics (HEP) data have been stored with columnar structures in TTree, the ROOT’s legacy columnar storage that has been used to store more than 1 exabyte of HEP data. As the main data structure of ROOT v7, RNTuple classes provide ROOT’s new, experimental, high-speed I/O subsystem for HEP data. Given that RNTuple is a complete backward-incompatible redesign, the development of an automatic conversion tool that permits the migration of existing TTree data into RNTuple is a must. In this regard, both the schema (i.e., fields and their types) and the data will have to be migrated.
 
 ## Progress
-I started working on this project on June 11, 2022, right after the community-bonding period. The first two weeks were a hands-on period. I began with the [existing code](https://github.com/jblomer/iotools/blob/master/gen_physlite.cxx) that is capable to convert TTree containing simple data types to RNTuple. After being familiar with RNTuple APIs, I created the project GitHub [repo](https://github.com/luozf14/TTreeToRNTuple) and started committing my own code. The length of the project is decided to be 14 weeks, ending at the beginning of Oct. 
+I started working on this project on June 11, 2022, right after the community-bonding period. The first two weeks were a hands-on period. I began with the [existing code](https://github.com/jblomer/iotools/blob/master/gen_physlite.cxx) that is capable to convert TTree containing simple data types to RNTuple. After being familiar with RNTuple APIs, I created the project GitHub [repo](https://github.com/luozf14/TTreeToRNTuple) and started committing my own code. The length of the project is decided to be 14 weeks, ending at the beginning of October. 
 
 Based on the data types supported by TTree, the project is divided into 5 parts with increasing difficulties, from simple C++ variables to nested collections. The status is summarized in the table below. 
 
@@ -41,7 +41,7 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
    </tr>
    <tr>
       <td>Multidimensional array (e.g., int myArry[16][8])</td>
-      <td>Need RNtuple feature support</td>
+      <td>Need RNTuple feature support</td>
    </tr>
    <tr>
       <td rowspan="5">Convert TTree containing STL types and collections </td>
@@ -63,7 +63,7 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
    <tr>
       <td>Convert TTree containing user-defined classes</td>
       <td>Any user-defined class with dictionary</td>
-      <td>Completed <a href="https://github.com/luozf14/TTreeToRNTuple/blob/main/src/ConverterUserDefClass.cxx">[Code]</a></td>
+      <td>Partially completed <a href="https://github.com/luozf14/TTreeToRNTuple/blob/main/src/ConverterUserDefClass.cxx">[Code]</a></td>
    </tr>
    <tr>
       <td rowspan="2">Convert TTree containing branches of nested types</td>
@@ -80,15 +80,23 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
    </tr>
 </table>
 
-The next step is to implement support for the missing cases shown in the table. For now, each part has its own compilable code. We will integrate all of them into a single program that can be run as a command line tool. It will also be used as a library for TTree-to-RNTuple conversion, hence we will be working on designing the API for the library upon the completion of the first 4 parts.
+Thanks to the [development](https://github.com/jblomer/iotools) that has been done by the ROOT I/O team, there are some programs that work as good references for me. I extended the ``gen_physlite`` program to be capable of converting TTree containing fixed-length arrays as well as variable-sized arrays. However, due to the limitation of data types supported by the current-stage RNTuple, the conversion tool is not able to deal with the multi-dimensional array. I/O team decided to mark this function as to-do until RNTuple supports multi-dimensional arrays.
+
+For TTree containing STL containers, there is no good reference. The existing ``gen_atlas`` program is dedicated to std::vector\<T\> with some specific types. I not only extended it to deal with std::vector\<T\> with all RNTuple-supported data types but also included all other STL containers supported by RNTuple (see table above).
+
+A dictionary consists of a C++ source file, which contains the type information needed by Cling and ROOT's I/O subsystem. RNTuple supports class that has a dictionary whose persistent members are themselves types with RNTuple I/O support. Currently, my code is able to migrate data stored in TTree containing user-defined classes with compiled dictionary embedded in library ``xx.so``, i.e., to do the conversion, the corresponding library must be existing. However, TTree has a feature that when it stores a class, the dictionary is also stored automatically. Hence, the next step is to find a way to load the dictionary from TTree in case the library does not exist.
+
+Converting TTree containing branches of nested types is the most difficult part, and it is expected to be complete by the end of August. Upon completion of this, we will integrate all parts into a single program that can be run as a command line tool. It will also be used as a library for TTree-to-RNTuple conversion, hence we will be working on designing the API for the library upon the completion of the first 4 parts.
+
+## Self evaluation
+
 
 ## Miscellaneous
-As a Ph.D. student in experimental nuclear astrophysics, I have been using ROOT every day for many years since nearly all experimental data are stored in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctively looked for projects related to ROOT because I have always been dreaming to participate ROOT project,  which is the most important infrastructure of high-energy physics. 
+As a Ph.D. student in experimental nuclear astrophysics, I have been using ROOT every day for many years since nearly all experimental data are stored in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctively looked for projects related to ROOT because I have always been dreaming to participate in ROOT project,  which is the most important infrastructure of high-energy physics. 
 
 As mentioned in the beginning, TTree is the most important element of ROOT; a large amount of HEP data have been stored in TTree. Therefore, I was attracted by this TTree-To-RNtuple project because its deliverable will be the most commonly used tool among HEP scientists once ROOT v7 will be released. It would be really cool if everyone uses your tool frequently.
 
-As a physicist without any computer sicence background, I meet a lot of troubles when I am working on this project. However, I am very lucky that I have the nicest mentor, Dr. Javier Lopez-Gomez. No matter how simple or naive my questions are, he is always considerate and full of patience to me. For example, he explained explicitly to me how the vector and array are stored in memory by drawing sketches, while others may just said "This is basic; you should have known it".
-
+As a physicist without any computer science background, I meet a lot of troubles when I am working on this project. However, I am very lucky that I have the nicest mentor, Dr. Javier Lopez-Gomez. No matter how simple or naive my questions are, he is always considerate and full of patience to me. For example, he explained explicitly to me how the vector and array are stored in memory by drawing sketches, while others may just say "This is basic; you should have known it".
 
 
 
