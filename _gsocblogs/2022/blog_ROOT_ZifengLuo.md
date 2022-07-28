@@ -29,12 +29,12 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
    <tr>
       <td >Convert TTree containing simple variables </td>
       <td>int, float, bool, ...</td>
-      <td>Completed</td>
+      <td>Completed <a href="https://github.com/luozf14/TTreeToRNTuple/blob/main/src/ConverterSimple.cxx">[Code]</a></td>
    </tr>
    <tr>
       <td rowspan="3">Convert TTree containing arrays</td>
       <td>Fixed-length array</td>
-      <td rowspan="2">Completed</td>
+      <td rowspan="2">Completed <a href="https://github.com/luozf14/TTreeToRNTuple/blob/main/src/ConverterArray.cxx">[Code]</a></td>
    </tr>
    <tr>
       <td>Variable-sized array</td>
@@ -46,7 +46,7 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
    <tr>
       <td rowspan="5">Convert TTree containing STL types and collections </td>
       <td>std::string</td>
-      <td rowspan="5">Completed</td>
+      <td rowspan="5">Completed <a href="https://github.com/luozf14/TTreeToRNTuple/blob/main/src/ConverterSTLContainer.cxx">[Code]</a></td>
    </tr>
    <tr>
       <td>std::array&lt;T, N></td>
@@ -62,8 +62,8 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
    </tr>
    <tr>
       <td>Convert TTree containing user-defined classes</td>
-      <td></td>
-      <td>Expected by the end of Jul.</td>
+      <td>Any user-defined class with dictionary</td>
+      <td>Completed <a href="https://github.com/luozf14/TTreeToRNTuple/blob/main/src/ConverterUserDefClass.cxx">[Code]</a></td>
    </tr>
    <tr>
       <td rowspan="2">Convert TTree containing branches of nested types</td>
