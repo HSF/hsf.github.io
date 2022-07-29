@@ -88,6 +88,9 @@ A dictionary consists of a C++ source file, which contains the type information 
 
 Converting TTree containing branches of nested types is the most difficult part, and it is expected to be complete by the end of August. Upon completion of this, we will integrate all parts into a single program that can be run as a command line tool. It will also be used as a library for TTree-to-RNTuple conversion, hence we will be working on designing the API for the library upon the completion of the first 4 parts.
 
+## Self evaluation
+The project was initially carried out according to the timeline in the proposal. The first part "Convert TTree containing simple variables" went well and was completed on time. But the second part took two weeks longer than what was expected in the proposal. I met problems when dealing with variable-sized arrays: a) I didn't know how to migrate data of different types (e.g., int, float, ...) in a generic way instead of emulating cases; b) it was difficult to get the length of an array in each entry. My mentor Dr. Javier Lopez-Gomez helped me solve these problems. The third and fourth parts went well accordingly. Overall, the project is 2 weeks behind the initial schedule. But the proposal was based on a 12-week length, and we have extended it to 14 weeks. Therefore, the project is expected to be completed on time.
+
 ## Miscellaneous
 As a Ph.D. student in experimental nuclear astrophysics, I have been using ROOT every day for many years since nearly all experimental data are stored in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctively looked for projects related to ROOT because I have always been dreaming to participate in ROOT project,  which is the most important infrastructure of high-energy physics. 
 
