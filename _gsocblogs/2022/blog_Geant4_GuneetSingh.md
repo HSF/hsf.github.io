@@ -37,7 +37,7 @@ The project's objective is to use Kubeflow, whose instance is hosted at [ml.cern
 - **Validations of Results through Visualisations**
 
 
-## Exisitng ML Code Base
+## Current ML Code Base
 
 Before beginning the discussion about the Kubeflow Component Creation, it is important to look at the python code base which will later be reformatted according to kubeflow pipeline generation requirements
 ```
@@ -135,7 +135,7 @@ input_parameters_comp = create_component_from_func(
     base_image='python:3.7')
 
 ##  Preprocessing of Data
-In the original code base the preprocess.py consisted of the following functions `preprocess` ,` get_condition_arrays ` and `load_showers` However when structuring the preprocess component only the   `preprocess` was kept a part of the component as it served the purpose of generating `energies_train, cond_e_train, cond_angle_train, cond_geo_train.`. In kubeflow these variables cant be directly passed into the downstream components therefore it was important to first save them in `EOS` and return their paths as outputs from this components. Also the preprocess uses the global variables from the input parameters above which leads to our first basic Kubeflow Connection between two components. The following discussion can be well understood in the `Demonstration section`.
+In the original code base the preprocess.py consisted of the following functions `preprocess` ,` get_condition_arrays ` and `load_showers` However when structuring the preprocess component only the   `preprocess` was kept a part of the component as it served the purpose of generating `energies_train, cond_e_train, cond_angle_train, cond_geo_train.`. In kubeflow these variables can not be directly passed into the downstream components therefore it was important to first save them in `EOS` and return their paths as outputs from this components. Also the preprocess uses the global variables from the input parameters above which leads to our first basic Kubeflow Connection between two components. The following discussion can be well understood in the `Demonstration section`.
 >**Component creation of this function**:
 preprocess_comp = create_component_from_func(
 func=preprocess,
@@ -149,7 +149,7 @@ input_parameters_comp = create_component_from_func(
     base_image='python:3.7')
 
 ## Model Setup
-The core component of any ML workflow is the model architecture definition and training. At first the aim was to pickle the Model definition and reload it into a training component and carry on the other implementations from that point however it was not possible because python pickle module faces lots of errors while pickling nested class structure and objects because of which it was not able to pickle the Model definition which consisted of `VAE, VAEHandler, Sampling Layer and Reparameterizr layer`. Due to this it became difficult to construct a modular pipeline and the component was restructured in a way that the Class definition, Instantiation as well as training was combined and the Model was saved in the EOS at specified location. This component was connected with all the previously discussed components since it required the outputs from all the above corresponding components. CERN Base image tends to use `TF2.1` which was different from the development environment of the FastSim project hence it was important to create our custom image and push it to the registry so that it could be accessed inside the pod assigned to us for the devlopment.The detailed steps have been discussed in the `Containerizing your components`. The below code snippet shows a custom image that was created by me which include `TF2.8`
+The core component of any ML workflow is the model architecture definition and training. At first the aim was to pickle the Model definition and reload it into a training component and carry on the other implementations from that point however it was not possible because python pickle module faces lots of errors while pickling nested class structure and objects because of which it was not able to pickle the Model definition which consisted of `VAE, VAEHandler, Sampling Layer and Reparameterizr layer`. Due to this it became difficult to construct a modular pipeline and the component was restructured in a way that the Class definition, Instantiation as well as training was combined and the Model was saved in the EOS at specified location. This component was connected with all the previously discussed components since it required the outputs from all the above corresponding components. CERN Base image tends to use `TF2.1` which was different from the development environment of the FastSim project hence it was important to create our custom image and push it to the registry so that it could be accessed inside the pod assigned to us for the development.The detailed steps have been discussed in the `Containerizing your components`. The below code snippet shows a custom image that was created by me which include `TF2.8`
 >**Component creation of this function**:
 input_parameters_comp = create_component_from_func(
 func=input_parameters,
@@ -278,12 +278,12 @@ def preprocess_new(nCells_z:int,nCells_r:int,nCells_phi:int,original_dim:int,min
     np.save(condGeo_train_location,condGeo_Train)
     return energies_train_location,condE_train_location,condAngle_train_location,condGeo_train_location
 ```
->In the case of python files the variables will be easily accessible in a different file in same repo. However when we talk about Kubeflow Components, these dont have shared memories and are individual Entities. Also in Kubeflow we cant transfer arrays, list ,dictionaries, dataframes, etc like we pass str,int,bool or float. Therefore the best way is to save the variable data at a location which in our case is `EOS` and access it in another component by loading it from the memory.
+>In the case of python files the variables will be easily accessible in a different file in same repo. However when we talk about Kubeflow Components, these dont have shared memories and are individual Entities. Also in Kubeflow we can not transfer arrays, list ,dictionaries, dataframes, etc like we pass str,int,bool or float. Therefore the best way is to save the variable data at a location which in our case is `EOS` and access it in another component by loading it from the memory.
 ## Interacting with Class definitions and instantiations in Kubeflow
 - The model.py file, as seen [here](https://github.com/DalilaSalamani/MLFastSim/blob/main/core/model.py) shows the definition of a Model Class and its functions. 
 - The Model Architecture Class can be handled by first defining model class ,followed by instantiating, training and saving in one single component.
 - Another way of handling class is saving the class definition in the memory as pickle or a dill object in one component and loading this saved object in other component to instantiate it and use its functions
-- The probelm in the latter case, is that pickle fails to handle nested class structure which will generally be encountered in actual scenarios thus, it's better to former technique were from definition to training and saving is happening in a single component.
+- The problem in the latter case, is that pickle fails to handle nested class structure which will generally be encountered in actual scenarios thus, it's better to former technique were from definition to training and saving is happening in a single component.
 - You can click [**here**](https://gitlab.cern.ch/gkohli/mlfastsim-kubeflow-pipeline/-/blob/master/Pipeline_Components/Model_Setup/model.py) to see the Kubeflow implementation of Model setup.
 
 ## Loading saved Model in other component.
