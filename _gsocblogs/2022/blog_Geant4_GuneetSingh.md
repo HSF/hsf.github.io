@@ -423,9 +423,9 @@ krb\_secret\_volume\_mount = k8s\_client.V1VolumeMount(name=krb\_secret\_volume.
 # Running our Kubeflow Pipeline
 ***
 ## Through Notebook Format
-`Step1` Access ml.cern.ch
+`Step1` Open Kubeflow Dashboard
 
-`Step2` Open the Kubeflow Dashboard > Go to Notebooks > Create an instance > Open the jupyter 
+`Step2`  Go to Notebooks > Create an instance > Open the jupyter 
 
 `Step3` `!git clone https://gitlab.cern.ch/gkohli/mlfastsim-kubeflow-pipeline.git`
 
