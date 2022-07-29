@@ -18,7 +18,7 @@ For the past 25 years, high-energy physics (HEP) data have been stored with colu
 ## Progress
 I started working on this project on June 11, 2022, right after the community-bonding period. The first two weeks were a hands-on period. I began with the [existing code](https://github.com/jblomer/iotools/blob/master/gen_physlite.cxx) that is capable to convert TTree containing simple data types to RNTuple. After being familiar with RNTuple APIs, I created the project GitHub [repo](https://github.com/luozf14/TTreeToRNTuple) and started committing my own code. The length of the project is decided to be 14 weeks, ending at the beginning of October. 
 
-Based on the data types supported by TTree, the project is divided into 5 parts with increasing difficulties, from simple C++ variables to nested collections. The status is summarized in the table below. 
+Based on the data types supported by TTree, the project is divided into 7 parts with increasing difficulties, from simple C++ variables to nested collections. The status is summarized in the table below. 
 
 <table>
    <tr>
@@ -74,9 +74,17 @@ Based on the data types supported by TTree, the project is divided into 5 parts 
       <td>…</td>
    </tr>
    <tr>
+      <td rowspan="2">Integration</td>
+      <td>Integrate the 5 parts above into one command line tool</td>
+      <td rowspan="2">Expected by mid September</td>
+   </tr>
+   <tr>
+      <td>A reusable library for TTree-to-RNTuple conversion as part of RNTuple module </td>
+   </tr>
+   <tr>
       <td>Tests and documentation</td>
       <td></td>
-      <td >Expected in Sep.</td>
+      <td >Expected by the end of September</td>
    </tr>
 </table>
 
@@ -86,10 +94,10 @@ For TTree containing STL containers, there is no good reference. The existing ``
 
 A dictionary consists of a C++ source file, which contains the type information needed by Cling and ROOT's I/O subsystem. RNTuple supports class that has a dictionary whose persistent members are themselves types with RNTuple I/O support. Currently, my code is able to migrate data stored in TTree containing user-defined classes with compiled dictionary embedded in library ``xx.so``, i.e., to do the conversion, the corresponding library must be existing. However, TTree has a feature that when it stores a class, the dictionary is also stored automatically. Hence, the next step is to find a way to load the dictionary from TTree in case the library does not exist.
 
-Converting TTree containing branches of nested types is the most difficult part, and it is expected to be complete by the end of August. Upon completion of this, we will integrate all parts into a single program that can be run as a command line tool. It will also be used as a library for TTree-to-RNTuple conversion, hence we will be working on designing the API for the library upon the completion of the first 4 parts.
+Converting TTree containing branches of nested types is the most difficult part, and it is expected to be complete by the end of August. Upon completion of this, we will integrate all parts into a single program that can be run as a command line tool. It will also be used as a library for TTree-to-RNTuple conversion, hence we will be working on designing the API for the library upon the completion of the first 5 parts.
 
 ## Self evaluation
-The project was initially carried out according to the timeline in the proposal. The first part "Convert TTree containing simple variables" went well and was completed on time. But the second part took two weeks longer than what was expected in the proposal. I met problems when dealing with variable-sized arrays: a) I didn't know how to migrate data of different types (e.g., int, float, ...) in a generic way instead of emulating cases; b) it was difficult to get the length of an array in each entry. My mentor Dr. Javier Lopez-Gomez helped me solve these problems. The third and fourth parts went well accordingly. Overall, the project is 2 weeks behind the initial schedule. But the proposal was based on a 12-week length, and we have extended it to 14 weeks. Therefore, the project is expected to be completed on time.
+The project was initially carried out according to the timeline in the proposal. The first part "Convert TTree containing simple variables" went well and was completed on time. But the second part took two weeks longer than what was expected in the proposal. I met problems when dealing with variable-sized arrays: a) I didn't know how to migrate data of different types (e.g., int, float, ...) in a generic way instead of emulating cases; b) it was difficult to get the length of an array in each entry. My mentor Dr. Javier Lopez-Gomez helped me solve these problems. The third and fourth parts went well accordingly. For now, the project is 2 weeks behind the initial schedule. The test and documentation are now expected to be completed by the end of September, which is around 2 months later than the proposal. The reason is that I underestimated the difficulties when writing the proposal. But since the final evaluation is scheduled for early October, I believe the project can be completed on time.
 
 ## Miscellaneous
 As a Ph.D. student in experimental nuclear astrophysics, I have been using ROOT every day for many years since nearly all experimental data are stored in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctively looked for projects related to ROOT because I have always been dreaming to participate in ROOT project,  which is the most important infrastructure of high-energy physics. 
