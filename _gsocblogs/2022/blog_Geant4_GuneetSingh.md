@@ -424,14 +424,23 @@ krb\_secret\_volume\_mount = k8s\_client.V1VolumeMount(name=krb\_secret\_volume.
 ***
 ## Through Notebook Format
 `Step1` Access ml.cern.ch
+
 `Step2` Open the Kubeflow Dashboard > Go to Notebooks > Create an instance > Open the jupyter 
+
 `Step3` `!git clone https://gitlab.cern.ch/gkohli/mlfastsim-kubeflow-pipeline.git`
+
 `Step4`  Open Base_Pipeline_Geant4FastSim.ipynb 
+
 `Step5` Goto `Terminal` and follow `Step2 to Step4` discussed in `Memory Management using EOS` Section
+
 `Step6` Try `cd /eos/users/`, if working your instance can access `EOS` and now you are good to go 
+
 `Step7` In the Notebook change the directory path in the Input_Component and run  all the cells
+
 `Step8` The notebook would automatically run the pipeline in the backend.
+
 `Step9` In the last cell click on `Experiment Details` to see the Pipeline in action 
+
 `Step10` All the outputs will get saved in your specified memory location
 
 ## Through Python Command Line
