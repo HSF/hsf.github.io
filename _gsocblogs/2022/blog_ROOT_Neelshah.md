@@ -38,7 +38,7 @@ Again I have written a very detailed blog on Community Bonding Period [here](htt
 
 - I built and set up the Root environment in my laptop as required. [Here](https://root.cern/install/build_from_source/) is the link to build Root from source.
 
-- Finalised the evaluation dates so that i get enough time to complete my long term project. I chose a 16 weeks project after discussing with the mentor as my college reopens from July 18 and i will get less time to devote after that. 
+- Finalised the evaluation dates so that I get enough time to complete my long-term project. I chose a 16 weeks project after discussing with the mentor as my college reopens on July 18 and I will get less time to devote after that. 
 
 - I have also contributed to fusing of Add and the MatMul operators in a Gemm Operator
  Our task was to Implement the capability to parse the MatMul and Add operators together and fuse them in a Gemm operator in the TMVA SOFIE parser (RModelParser_ONNX.cxx) .
