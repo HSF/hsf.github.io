@@ -15,7 +15,7 @@ intro: |
 
 ## Pre-GSOC Period
 Getting into GSOC was my dream since my college years, On May 20, I was so delighted when I got into my preferred Project in one of the most competitive Organisations. I will forever remember those sleepless nights spent solving those tasks, debugging, and building the project !!
-I have prepared a detailed blog on how did i got into GSOC 2022 at CERN HSF in detail [here](https://gist.github.com/Neel-Shah-29/3f04f05a8a353605068e32e55a5093c1)
+I have prepared a detailed blog on how I got into GSOC 2022 at CERN HSF in detail [here](https://gist.github.com/Neel-Shah-29/3f04f05a8a353605068e32e55a5093c1)
 
 
 ## Community Bonding Period
