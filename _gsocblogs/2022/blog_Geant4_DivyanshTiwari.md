@@ -7,12 +7,12 @@ year: 2022
 layout: blog_post
 logo: Geant4-logo.png
 intro: |
-  Implementing Symplectic Integrators 
+  Hello Everyone! This is Divyansh. I was accepted to take part in GSoC 2022 under CERN-HSF and I am contributing to Geant4. My project is about implementing symplectic integrators into the Geant4 codebase. 
 ---
 
 ## Introduction
 
-Hello Everyone! This is Divyansh. I was accepted to take part in GSoC 2022 under CERN-HSF and I am contributing to Geant4. My project is about implementing symplectic integrators into the Geant4 codebase. Many applications require the use of integrator method that preserve evergy over the course of a simulation.
+Many applications require the use of integrator method that preserve evergy over the course of a simulation.
 Hence, the aim of this project is to implement multiple methods which do not accumulate errors in energy and phase space volume over a large number of integration steps.A famous class of methods which fulfill the above criteria are the symplectic integrators.
 
 ## Getting Into The Program
@@ -25,11 +25,11 @@ This was a very essential period. I had my first meet with my mentors and I got 
 
 ## Coding Period - Kick Off
 
-Before starting work on the actual methods, it was important develop up a test bed application that could be used to test the steppers and drivers. Hence, I started off my coding period by implementing a geant4 application to track a particle in a geometry initialized with a magnetic field. This was really interesting and exciting for me as I had done my homework during the community bonding period. The test bed is comprised of a detector constructor class, a physics list class and a primary action generator class. The magnetic field of the geometry and the stepper used for tracking the particle can defined in the detector constructor. The physics list is used to define various particles and physical processes. Finally, the primary generator was used to initialize the particle. I utilized the test bed to test out various steppers already present in the codebase to profile them.
+Before starting work on the actual methods, it was important to develop a testbed application that could be used to test the steppers and drivers. Hence, I started off my coding period by implementing a geant4 application to track a particle in a geometry initialized with a magnetic field. This was really interesting and exciting for me as I had done my homework during the community bonding period. The testbed is comprised of a detector constructor class, a physics list class and a primary action generator class. The magnetic field of the geometry and the stepper used for tracking the particle can be defined in the detector constructor. The physics list is used to define various particles and physical processes. Finally, the primary generator was used to initialize the particle. I utilized the test bed to test out various steppers already present in the codebase to profile them.
 
 ## First Method
 
-After implementing the above application, we started deliberating on the first method that we'll implement. We ultimately decided on the Boris Algorithm for its excellent performance in electromagnetic field. The same was implemented by using the familiar driver and dtepper design used in Geant4. The stepper(`G4BorisScheme`) implements the actual Boris Algorithm and the driver(`G4BorisDriver`) is used to manage the stepper.
+After implementing the above application, we started deliberating on the first method that we'll implement. We ultimately decided on the Boris Algorithm for its simplicity and wide use. The same was implemented by using the familiar driver and dtepper design used in Geant4. The stepper(`G4BorisScheme`) implements the actual Boris Algorithm and the driver(`G4BorisDriver`) is used to manage the stepper.
 
 ## Some Links
 
