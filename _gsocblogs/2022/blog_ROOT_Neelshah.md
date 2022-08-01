@@ -78,7 +78,7 @@ if (fInitializedTensors.empty()) return;
 
 - **Definition** \: [Max-Pool ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#MaxPool)
 
-- MaxPool ONNX Operator was only supported for the 2D case, i.e 4d tensors but i need to extend its support for the 1D and 3D cases as well.
+- MaxPool ONNX Operator was only supported for the 2D case, i.e 4d tensors but I need to extend its support for the 1D and 3D cases as well.
 
 - Earlier it was giving a runtime error for 1d and 3d cases of Max Pool operator.
 
