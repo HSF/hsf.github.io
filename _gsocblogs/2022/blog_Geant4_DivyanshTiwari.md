@@ -12,7 +12,7 @@ intro: |
 
 ## Introduction
 
-Many applications require the use of integrator method that preserve evergy over the course of a simulation.
+Many applications require the use of an integration method that preserves the energy over the course of a simulation.
 Hence, the aim of this project is to implement multiple methods which do not accumulate errors in energy and phase space volume over a large number of integration steps.A famous class of methods which fulfill the above criteria are the symplectic integrators.
 
 ## Getting Into The Program
