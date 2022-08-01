@@ -8,7 +8,7 @@ year: 2022
 layout: blog_post
 logo: cernbox-logo.png
 intro: |
-  A OCM (Open Cloud Mesh) and WebDAV file sharing service to faciliate sharing of data across the Sciencemesh.
+  A OCM (Open Cloud Mesh) and WebDAV file sharing service to facilitate sharing of data across the Sciencemesh.
 ---
 
 ## Introduction
