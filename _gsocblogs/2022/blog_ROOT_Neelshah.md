@@ -169,7 +169,7 @@ CASE-2 \: We look then to the shape values, and if they are equal result is same
 ## Proposal Link \: [Inference Code Generation for Deep Learning models](https://docs.google.com/document/d/1tvTY9Rq5j0XW8KFfvkWHWlmE__-94h-Nj0tCkMjYnzs/edit?usp=sharing)
 
 ## Conclusion
-I enjoyed a lot working with these project! I would like to really thank my mentors **Lorenzo Moneta, Sitong An, Omar, Ahmat Hamdan and Sanjiban Sengupta** for always being a great support for me. Whenever i wanted any help or guidance, they were always with me! I am very proud to be associated with so many bright minds surrounded by me, and every single day i learn something new from them. At the end i am able to achieve all of my success because of the best wishes of my parents, seniors and friends so a big thanks to them as well.
+I enjoyed a lot working on this project! I would like to really thank my mentors **Lorenzo Moneta, Sitong An, Omar, Ahmat Hamdan, and Sanjiban Sengupta** for always being a great support for me. Whenever I wanted any help or guidance, they were always with me! I am very proud to be associated with so many bright minds surrounding me, and every single day I learn something new from them. In the end, I am able to achieve all of my success because of the best wishes of my parents, seniors, and friends so a big thanks to them as well.
 
 Hope you all enjoyed reading my blog and learnt a lot.
 
