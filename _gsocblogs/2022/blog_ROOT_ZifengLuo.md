@@ -6,7 +6,7 @@ author: Zifeng Luo
 date: July 20, 2022
 year: 2022
 layout: blog_post
-logo: ROOT_logo.png
+logo: ROOT-logo.png
 intro: |
   This project consists of the implementation of an automatic conversion tool that migrates both the schema (i.e. fields and their types) and the data of a TTree to RNTuple.
 ---

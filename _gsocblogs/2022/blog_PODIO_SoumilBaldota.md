@@ -6,7 +6,7 @@ author: Soumil Baldota
 date: 28.07.2022 
 year: 2022 
 layout: blog_post
-logo: podio-logo.png
+logo: hsf_logo_angled.png
 intro: Midterm progress report
 
 ---
