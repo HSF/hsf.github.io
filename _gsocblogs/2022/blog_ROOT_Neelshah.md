@@ -8,7 +8,7 @@ year: 2022
 layout: blog_post 
 logo: ROOT-logo.png 
 intro: |
-Currently, we are developing a fast inference system in TMVA, called SOFIE, that takes takes ONNX model as input and produces compilation-ready standalone C++ scripts as output. These scripts will then provide users an easy way to deploy their deep learning models in their physics software and analysis frameworks. This project will focus on development of some missing deep learning operations which will allow to build more complex networks within TMVA. Specifically, we propose to implement the inference functionality of some ONNX operators in the code generation format. 
+   Currently, we are developing a fast inference system in TMVA, called SOFIE, that takes ONNX model as input and produces compilation-ready standalone C++ scripts as output. These scripts will then provide users an easy way to deploy their deep learning models in their physics software and analysis frameworks. This project focuses on the development of some missing deep learning operations which will allow to build more complex networks within TMVA. Specifically, we propose to implement the inference functionality of some ONNX operators in the code generation format. 
 ---
 
 # Mid Evaluation Blog for GSOC 2022
