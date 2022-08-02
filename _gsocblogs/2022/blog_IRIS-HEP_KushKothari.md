@@ -1,6 +1,6 @@
 ---
 project: IRIS-HEP
-title: Uproot + Dask: Blog 1
+title: "Uproot + Dask: Blog 1"
 author: Kush Kothari
 date: 25.07.2022
 year: 2022
