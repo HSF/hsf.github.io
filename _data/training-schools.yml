@@ -1,6 +1,13 @@
 # Sorted by ascending date => New events go on top
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
+- author: Guillermo Fidalgo
+  date: 2022-10-03
+  deadline: 2022-09-04
+  end_date: 2022-10-08
+  source: https://agenda.infn.it/event/31877/
+  tags: []
+  title: ESC22 EFFICIENT SCIENTIFIC COMPUTING 
 - author: Sudhir Malik
   date: 2022-07-13
   deadline: ''

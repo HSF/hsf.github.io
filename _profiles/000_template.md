@@ -22,6 +22,4 @@ training_years: []              # in which years did you help out? (e.g. [2020, 
 layout: educator
 ---
 
-<!-- Optional: Write something about yourself below the '- - >'.
-You can use Markdown syntax to style this page.
--->
+<!-- Optional: Delete this line and write something about yourself (markdown supported) -->

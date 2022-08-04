@@ -13,11 +13,11 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### Basics
 
-{% include list_of_selected_training_modules.html ids="unix,git,python,ssh,ml" %}
+{% include list_of_selected_training_modules.html ids="unix,git,python,ssh,ml,matplotlib" %}
 
 ### Software Development and Deployment
 
-{% include list_of_selected_training_modules.html ids="git,cicd,cicdgithub,docker,testingpython" %}
+{% include list_of_selected_training_modules.html ids="git,cicd,cicdgithub,docker,singularity,testingpython" %}
 
 ### C++ corner
 

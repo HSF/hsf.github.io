@@ -10,23 +10,23 @@ year: 2022
 {% assign blog_intro = blog.intro | strip_newlines | markdownify %}
 <div class="blog-header" style="text-align: left">
   <div class="row">
-    <div class="col-md-2">
-      <img src="/images/{{ blog.logo }}" alt="{{ blog.project }}" width="100px">
+    <div class="col-sm-2">
+      <img src="/images/{{ blog.logo }}" alt="{{ blog.project }}" width="80px">
     </div>
-    <div class="col-md-7" style="text-align: left;">
-      <h1>{{ blog.title }}</h1>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>{{ blog.title }}</h2>
     </div> 
-    <div class="col-md-2" style="vertical-align: bottom;">
+    <div class="col-sm-3" style="text-align: center;">
       {% if blog.photo %}
       <img src="/images/{{ blog.photo }}" alt="{{ blog.author }}" width="100px">
       {% endif %}
-      <p style="font-weight: bold; text-align: center;"> by: {{ blog.author }}</p> 
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> {{ blog.author }}</p> 
     </div>
   </div>
 </div>
 {{blog_intro}}
 
-[ Read more ... ]( {{ blog.url }} )
+[ <span style="color:blue">Read more ...</span> ]( {{ blog.url }} )
 <hr>
 {%- endif -%}
 {% endfor %}
