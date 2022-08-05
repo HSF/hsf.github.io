@@ -7,7 +7,7 @@ year: 2022
 layout: blog_post
 logo: OSSR-logo.png
 intro: |
-This blog entails my progress, learning and experience acquired during the GSoC period.
+ This blog entails my progress, learning and experience acquired during the GSoC period.
 ---
 
 ## Project Brief
@@ -30,7 +30,8 @@ sample extensions that mirror the required functionality. I also worked to const
 ### Personal Experience
 
 It has been a great learning experience, and I look forward to making more significant contributions. I am grateful to my mentors for their support and guidance. <br />
-Project Repository - https://gitlab.in2p3.fr/escape2020/wp3/ossr-jupyterlab-extension <br />
-Project Proposal - https://hepsoftwarefoundation.org/gsoc/2022/proposal_ESCAPE-repository-as-a-service.html
+Project [Repository](https://gitlab.in2p3.fr/escape2020/wp3/ossr-jupyterlab-extension) <br />
+Project [Proposal](https://hepsoftwarefoundation.org/gsoc/2022/proposal_ESCAPE-repository-as-a-service.html) <br />
+[Commits](https://gitlab.in2p3.fr/escape2020/wp3/ossr-jupyterlab-extension/-/commits/master)
 
 
