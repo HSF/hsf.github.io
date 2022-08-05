@@ -57,11 +57,11 @@ factory = TMVA.Factory(
 )
 ```
 
-### [PR 2](https://github.com/root-project/root/compare/master...Harshalzzzzzzz:root:hist-pythonizations) 
+### [PR 2](https://github.com/root-project/root/compare/master...Harshalzzzzzzz:root:hist-pythonizations 
 - Added pythonizations for TGraph and Hist methods, functions to create Histograms objects (TH1, TH2, TH3) from NumPy arrays and TGraph's objects from NumPy.
 
 
 ## Relevant Links
 
- - [Project Proposal]([https://docs.google.com/presentation/d/15zMAqtXGF_JnOSiL8Pe5A9m1hezotmRIGW_Dgp9ZJHQ/edit#slide=id.p](https://docs.google.com/document/d/1Ss_nWnIUPxGdg4l5dX3RK5670iRZjSujFoIwUAkM4FA/edit?usp=sharing))
+ - [Project Proposal](https://docs.google.com/presentation/d/15zMAqtXGF_JnOSiL8Pe5A9m1hezotmRIGW_Dgp9ZJHQ/edit#slide=id.p)
  - [Merged Contributions](https://bit.ly/merged_contributions)
