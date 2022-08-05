@@ -63,5 +63,5 @@ factory = TMVA.Factory(
 
 ## Relevant Links
 
- - [Project Proposal](https://docs.google.com/presentation/d/15zMAqtXGF_JnOSiL8Pe5A9m1hezotmRIGW_Dgp9ZJHQ/edit#slide=id.p)
+ - [Project Presentation](https://docs.google.com/presentation/d/15zMAqtXGF_JnOSiL8Pe5A9m1hezotmRIGW_Dgp9ZJHQ/edit#slide=id.p)
  - [Merged Contributions](https://bit.ly/merged_contributions)
