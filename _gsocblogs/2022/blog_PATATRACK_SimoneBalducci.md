@@ -28,6 +28,6 @@ The list of the commits can be found here: https://github.com/SimonB00/clue/comm
 ## Next steps
 Once the binding will be fully implemented, the code will be tested. In particular, the performance of the code will be compared to those of similar 
 algorithms, like HDBScan. 
-In the end the algorithm will be deploied as a Python library, making it available worldwide.
+In the end the algorithm will be deployed as a Python library, making it available for the general public.
 
 The proposal can be found at the link: https://summerofcode.withgoogle.com/programs/2022/projects/h8Np6Hjm
