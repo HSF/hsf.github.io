@@ -17,7 +17,7 @@ technologies) are an important area of work.
 [Mandate]({{ site.baseurl }}/organization/working-group-mandates.html).
 
 The group's meeting page is [in Indico](https://indico.cern.ch/category/10916/) and
-discussions are held on the [hsf-simulation](https://groups.google.com/forum/#%21forum/hsf-simulation) list.
+discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-simulation) list.
 
 ## Conveners
 
