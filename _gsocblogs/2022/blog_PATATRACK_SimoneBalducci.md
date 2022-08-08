@@ -18,7 +18,7 @@ The aim of the project I'm working on is to generalize the CLUE clustering algor
 2 dimensions. The following goal is to create a Python binding for the algorithm and deploy it as a Python library.
   
 ## Results obtained
-So far, the generalization of the code has beet fully implemented. Also, in order to make the algorithm more general it has been made independent of the
+So far, the generalization of the code has been fully implemented. Also, in order to make the algorithm more general it has been made independent of the
 geometric properties of the detector.
 The Algorithm has been tested and it has been asserted that it works as expected. The output has been compared to that produced by the original algorithm,
 and the two are compatible.
