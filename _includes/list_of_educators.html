@@ -15,8 +15,7 @@ We need to keep track of how many educators are skipped in order to have the
 proper index for the table column. -->
 {% assign skipped = 0 %}
 {% for person in site.profiles| sort:"title" %}
-{% assign nroles = person.training_roles.size %}
-{% unless person.training_years contains loopyear and nroles >= 1 %}
+{% unless person.training_years contains loopyear %}
 {% assign skipped = skipped | plus: -1 %}
 {% continue %}
 {% endunless %}
