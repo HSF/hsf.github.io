@@ -15,7 +15,7 @@ linkedin:     # your linkedin ID (not full url, i.e. the last bit of the url to 
 email:
 
 # Training WG
-training_roles: []              # subset of [facilitator, instructor, mentor], can stay empty ([])
+training_roles: []              # subset of [instructor, mentor, facilitator, material], can stay empty ([])
 training_years: []              # in which years did you help out? (e.g. [2020, 2019])
 
 # Don't modify the following setting
