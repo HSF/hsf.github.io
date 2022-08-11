@@ -8,7 +8,7 @@ training_years:
 - 2022
 github: mambelli
 gravatar: null
-homepage: [https://www.linkedin.com/in/marco-mambelli-53640a1/](https://www.linkedin.com/in/marco-mambelli-53640a1/)
+homepage:
 twitter: null
 gitlab: null
 bitbucket: null
