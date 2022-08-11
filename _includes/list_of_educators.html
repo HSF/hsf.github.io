@@ -5,7 +5,7 @@ The first year is hard coded here. -->
 {% assign firstyear = 2019 %}
 {% assign currentyear = site.time | date: '%Y' %}
 {% for loopyear in (firstyear..currentyear) reversed %}
-<h3> {{ loopyear }} </h3>
+<h3 id="{{ loopyear }}"> {{ loopyear }} </h3>
 
 <!-- Now we loop through the educators, sorted by their full names and
 pick out the ones who trained in $loopyear.
