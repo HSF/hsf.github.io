@@ -36,7 +36,7 @@ Either
 ### Working group specific settings
 
 * To be listed as "educator" on the [training community page]({{ site.baseurl }}/training/community.html) or the [educators page]({{ site.baseurl }}/training/educators.html):
-  * Set the `training_roles` field: Zero or more of `instructor`, `mentor`, `facilitator`, `material`. The first three ``training_roles`` are explained [here]({{ site.baseurl }}/training/educators.html). Valid examples: ``[]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets). Please keep the order of the roles as we just mentioned them. 
+  * Set the `training_roles` field: Zero or more of `instructor`, `mentor`, `facilitator`, `material`. The first three ``training_roles`` are explained [here]({{ site.baseurl }}/training/educators.html). Valid examples: ``[]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets).
   * Set the `training_years` field: This should be a list of years that you were actively contributing to the HSF Training efforts. Valid examples: `[2012]` , ``[2012, 2014]``. **Invalid**: ``["2012"]``.
 
 ### Example
