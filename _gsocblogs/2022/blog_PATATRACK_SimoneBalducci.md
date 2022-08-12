@@ -13,7 +13,7 @@ intro: |
 ---
   
 ## Introduction
-Hello, I am Simone and i am curretly working with the Patatrack team. The github repo for the project can be found here: https://github.com/SimonB00/clue.
+Hello, I am Simone and i am currently working with the Patatrack team. The github repo for the project can be found here: https://github.com/SimonB00/clue.
 The aim of the project I'm working on is to generalize the CLUE clustering algorithm to N dimensions, since it was initially designed to work in 
 2 dimensions. The following goal is to create a Python binding for the algorithm and deploy it as a Python library.
   
