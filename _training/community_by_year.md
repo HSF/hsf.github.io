@@ -4,10 +4,17 @@ layout: plain
 ---
 
 To fulfill our mission, we rely on active community members to support us in various ways.
-
 We would like to thank everyone for their time, energy and dedication!
 
-If you contributed to HSF training, but don't find yourself in the list below for the appropriate years (or spot some outdated information), see [this page]({{ site.baseurl }}/howto-profile.html) for how to fix this. 
-See [here]({{ site.baseurl }}/training/community) for a flat list of everyone.
+<div class="big-link-container">
+  <a href="{{ site.baseurl }}/training/community">
+    Show flat list<br/>
+    Show community without grouping by year
+  </a>
+  <a href="{{ site.baseurl }}/howto-profile.html">
+    Add/update my profile!<br/>
+    If you made contributions, don't hesitate to add yourself!
+  </a>
+</div>
 
 {% include list_of_educators.html %}
