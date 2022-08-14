@@ -5,6 +5,7 @@ training_years:
 - 2021
 training_roles:
 - facilitator
+- material
 gravatar: null
 github: roiser
 gitlab: roiser
