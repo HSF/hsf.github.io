@@ -5,6 +5,8 @@ training_roles:
 - facilitator
 - mentor
 training_years:
+- 2022
+- 2021
 - 2020
 - 2019
 github: graeme-a-stewart
