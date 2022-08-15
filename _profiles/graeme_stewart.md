@@ -11,7 +11,7 @@ training_years:
 - 2019
 github: graeme-a-stewart
 gravatar: null
-homepage: https://profiles.web.cern.ch/660400
+homepage: null
 twitter: graemeastewart
 gitlab: null
 bitbucket: null
