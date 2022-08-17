@@ -6,11 +6,13 @@ training_roles:
 - mentor
 - material
 training_years:
+- 2022
+- 2021
 - 2020
 - 2019
 github: graeme-a-stewart
 gravatar: null
-homepage: https://profiles.web.cern.ch/660400
+homepage: null
 twitter: graemeastewart
 gitlab: null
 bitbucket: null
