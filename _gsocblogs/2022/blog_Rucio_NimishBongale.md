@@ -1,18 +1,20 @@
-**project:** HSF Rucio WebUI
-**title:** Rucio WebUI Midterm Progress Report 
-**author:** Nimish Bongale
-**photo:** blog_authors/NimishBongale.jpeg
-**date:** 18.08.2022 
-**year:** 2022
-**layout:** blog_post
-**logo:** RUCIO-logo.jpg
-**intro:** |Let’s have a look at my progress, learning, and overall experience during the GSoC 2022 period, shall we?
-`---`
+---
+project: HSF Rucio WebUI
+title: Rucio WebUI Midterm Progress Report 
+author: Nimish Bongale
+photo: blog_authors/NimishBongale.jpeg
+date: 18.08.2022 
+year: 2022
+layout: blog_post
+logo: RUCIO-logo.jpg
+intro: Let’s have a look at my progress, learning, and overall experience during the GSoC 2022 period, shall we?
+---
 
 ## Project Synopsis
 
 ### Mentors: Mayank Sharma, Martin B, Mario Lassnig
 ### Project Proposal link: [https://summerofcode.withgoogle.com/proposals/details/U9JdPuHt](https://summerofcode.withgoogle.com/proposals/details/U9JdPuHt)
+### Live storybook deployment: [https://rucio.cern.ch/webui](https://rucio.cern.ch/webui)
 
 Rucio has proven its potential to be used for providing functionality to scientific collaborations to organize, manage, monitor, and access their distributed data and dataflows across heterogeneous infrastructures. What it needs is a revamped user-friendly UI. This will not only encourage existing users to get a feel of how Rucio continues to grow and reach new milestones but also increase the adoption of the Rucio WebUI. The desired outcomes of my stint would not only involve a complete revamp of the existing UI by building a UI library of our own but also presenting users with a new & intuitive dashboard, keeping the core functionality of Rucio in mind. Rucio also supports multiple types of users and their specific workflows. The first task would involve migrating the WEBUI to a pure REST’ful architecture would require identifying and implementing new REST endpoints on the Rucio Server and developing a dynamic cross-platform ReactJS application capable of consuming the REST API directly. The second task is to improve the overall user experience for different ‌users. The new dashboard would allow users to get a quick overview of the relevant activity and provide quick access to frequently used functionalities.
 
@@ -31,7 +33,7 @@ Rucio has proven its potential to be used for providing functionality to scienti
 - Understand Rucio WebUI in greater depth and their existing components.
 - Get a sample storybook running and deployed.
 - Interact with mentors and other team members, and establish a rapport.
-- Learn storybookjs & nextjs
+- Learn StorybookJS & NextJS
 
 ---
 
@@ -54,7 +56,7 @@ Rucio has proven its potential to be used for providing functionality to scienti
 ---
 
 - Get complete approval for the site contents.
-- Work on more UI components.
+- Work on more UI components within StorybookJS.
 - Implement environment variable wrappers, fetch API calls.
 
 ---
