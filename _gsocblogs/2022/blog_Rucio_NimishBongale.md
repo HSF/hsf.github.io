@@ -18,9 +18,7 @@ intro: Let’s have a look at my progress, learning, and overall experience dur
 
 Rucio has proven its potential to be used for providing functionality to scientific collaborations to organize, manage, monitor, and access their distributed data and dataflows across heterogeneous infrastructures. What it needs is a revamped user-friendly UI. This will not only encourage existing users to get a feel of how Rucio continues to grow and reach new milestones but also increase the adoption of the Rucio WebUI. The desired outcomes of my stint would not only involve a complete revamp of the existing UI by building a UI library of our own but also presenting users with a new & intuitive dashboard, keeping the core functionality of Rucio in mind. Rucio also supports multiple types of users and their specific workflows. The first task would involve migrating the WEBUI to a pure REST’ful architecture would require identifying and implementing new REST endpoints on the Rucio Server and developing a dynamic cross-platform ReactJS application capable of consuming the REST API directly. The second task is to improve the overall user experience for different ‌users. The new dashboard would allow users to get a quick overview of the relevant activity and provide quick access to frequently used functionalities.
 
-## Timeline
-
-### Community Bonding Period
+## Community Bonding Period
 
 - Understand Rucio as an organisation, its work and related ethics.
 - Have a look at Rucio’s GitHub repositories (mainly rucio/rucio) & (rucio/webui) and understand the code structure.
@@ -28,7 +26,7 @@ Rucio has proven its potential to be used for providing functionality to scienti
 - Interact with Mentors and establish the basic ideas regarding the project in question.
 - Further research about the project's needs, and ponder its potential impact after implementation.
 
-### Coding period
+## Coding Period
 
 - Understand Rucio WebUI in greater depth and their existing components.
 - Get a sample storybook running and deployed.
@@ -66,7 +64,7 @@ Rucio has proven its potential to be used for providing functionality to scienti
 - Make progress on the backend side of things, make connections.
 - Progress on the auth workflows and complete the major ones.
 
-### Personal Experience
+## Personal Experience
 
 It's been a great while so far contributing to the Rucio webui project under GSoC 2022. In the past couple of months, I've been able to understand Rucio, it's associated auth mechanisms, and complex workflows which are essential in developing a user-friendly UI. Learning from the deficits of the old webui has been key in bettering my understanding on an a comprehensive level. This has led to the development of a new up-to-the-standard UI library that is custom to Rucio while standing upon ui libraries like Bulma and Primer. Here is a gist of things I was able to do so far: <br />
 
