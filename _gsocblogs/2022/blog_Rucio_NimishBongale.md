@@ -1,5 +1,5 @@
 ---
-project: HSF Rucio WebUI
+project: Rucio
 title: Rucio WebUI Midterm Progress Report 
 author: Nimish Bongale
 photo: blog_authors/NimishBongale.jpeg
