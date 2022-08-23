@@ -4,6 +4,7 @@ country: CH
 training_roles:
 - facilitator
 - mentor
+- material
 training_years:
 - 2022
 - 2021
