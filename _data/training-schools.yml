@@ -6,7 +6,8 @@
   deadline: 2022-10-10
   end_date: 2022-10-13
   source: https://indico.cern.ch/event/1172498/
-  tags: HSF
+  tags:
+  - HSF
   title: 5th HEP C++ Course and Hands-on Training - Advanced C++
 - author: Guillermo Fidalgo
   date: 2022-10-03
@@ -27,7 +28,8 @@
   deadline: ''
   end_date: 2022-07-15
   source: https://indico.cern.ch/event/1159157/
-  tags: HSF
+  tags:
+  - HSF
   title: Software Carpentry (Virtual)
 - author: Sebastian Lopienski
   date: 2022-06-19
@@ -49,14 +51,16 @@
   deadline: ''
   end_date: 2022-04-22
   source: https://indico.cern.ch/event/1058838/
-  tags: HSF
+  tags:
+  - HSF
   title: Matplotlib Training (Virtual)
 - author: Sudhir Malik
   date: 2022-03-28
   deadline: ''
   end_date: 2022-03-30
   source: https://indico.cern.ch/event/1112526/
-  tags: HSF
+  tags:
+  - HSF
   title: Software Carpentry (Virtual)
 - author: Sudhir Malik
   date: 2022-03-15
@@ -70,7 +74,8 @@
   deadline: ''
   end_date: 2021-12-15
   source: https://indico.cern.ch/event/1097111/
-  tags: HSF
+  tags:
+  - HSF
   title: Software Carpentry (Virtual)
 - author: Sebastian Lopienski
   date: 2021-10-10
@@ -84,7 +89,8 @@
   deadline: ''
   end_date: 2021-08-27
   source: https://indico.cern.ch/event/1058873/
-  tags: HSF
+  tags:
+  - HSF
   title: Software Carpentry (Virtual)
 - author: Kilian Lieret
   date: 2021-07-17
@@ -105,42 +111,48 @@
   deadline: ''
   end_date: 2021-02-20
   source: https://indico.cern.ch/event/1001128/
-  tags: HSF
+  tags:
+  - HSF
   title: GitHub CI/CD Training
 - author: Michel Villanueva
   date: 2021-01-22
   deadline: ''
   end_date: 2021-01-22
   source: https://indico.cern.ch/event/997485/
-  tags: HSF
+  tags:
+  - HSF
   title: HSF Training Hackathon Follow-up
 - author: Michel Villanueva
   date: 2021-01-18
   deadline: ''
   end_date: 2021-01-22
   source: https://indico.cern.ch/event/979067/
-  tags: HSF
+  tags:
+  - HSF
   title: 2nd HEP C++ Course and Hands-on Training
 - author: Kilian Lieret
   date: 2020-12-16
   deadline: ''
   end_date: 2020-12-18
   source: https://indico.cern.ch/event/975487/
-  tags: HSF
+  tags:
+  - HSF
   title: HSF Training Hackathon
 - author: Kilian Lieret
   date: 2020-11-02
   deadline: ''
   end_date: 2020-11-09
   source: https://indico.cern.ch/event/958112/
-  tags: HSF
+  tags:
+  - HSF
   title: ML + GPU Training
 - author: Kilian Lieret
   date: 2020-10-12
   deadline: ''
   end_date: 2020-10-16
   source: https://indico.cern.ch/event/946584/
-  tags: HSF
+  tags:
+  - HSF
   title: C++ Course and Hands-on Training
 - author: Kilian Lieret
   date: 2020-09-28
@@ -182,7 +194,8 @@
   deadline: 2020-07-14
   end_date: 2020-07-30
   source: https://indico.cern.ch/event/934651/
-  tags: HSF
+  tags:
+  - HSF
   title: Virtual Docker Training
 - author: Guillermo Fidalgo
   date: 2020-07-13
@@ -196,7 +209,8 @@
   deadline: 2020-03-31
   end_date: 2020-07-10
   source: https://opensciencegrid.org/user-school-2020/
-  tags: HSF
+  tags:
+  - HSF
   title: OSG User School 2020
 - author: Kilian Lieret
   date: 2020-06-22
@@ -224,28 +238,32 @@
   deadline: ''
   end_date: 2020-06-04
   source: https://indico.cern.ch/event/904759/
-  tags: HSF
+  tags:
+  - HSF
   title: Virtual Pipelines Training
 - author: Kilian Lieret
   date: 2020-04-28
   deadline: ''
   end_date: 2020-04-30
   source: https://indico.cern.ch/event/867700/
-  tags: HSF
+  tags:
+  - HSF
   title: Alpaka Parallel Programming - Advanced Training Hackathon
 - author: Kilian Lieret
   date: 2020-04-27
   deadline: ''
   end_date: 2020-04-27
   source: https://indico.cern.ch/event/858758/
-  tags: HSF
+  tags:
+  - HSF
   title: Alpaka Parallel Programming - Taster Session and Basic Tutorial
 - author: Kilian Lieret
   date: 2020-03-24
   deadline: ''
   end_date: 2020-03-27
   source: https://indico.cern.ch/event/882660/
-  tags: HSF
+  tags:
+  - HSF
   title: Software Carpentry at CERN [**POSTPONED/CANCELLED**]
 - author: Guillermo Fidalgo
   date: 2020-03-23
@@ -282,7 +300,8 @@
   deadline: ''
   end_date: 2020-02-25
   source: https://indico.cern.ch/event/875393/
-  tags: HSF
+  tags:
+  - HSF
   title: CSU Summer Student Computing/Analysis Training 2020
 - author: Guillermo Fidalgo
   date: 2020-01-13
@@ -352,7 +371,8 @@
   deadline: ''
   end_date: 2019-07-26
   source: http://codas-hep.org/
-  tags: HSF
+  tags:
+  - HSF
   title: CoDaS-HEP School (Computational and Data Science Training for High Energy
     Physics) at Princeton University
 - author: Guillermo Fidalgo
