@@ -1,7 +1,7 @@
 ---
 
-project: Dataset-manipulation tools for simulated collider events
-title: Midterm evaluation blog post
+project: MCnet
+title: Dataset-manipulation tools for simulated collider events
 author: Kalp Shah
 date: 9.08.2022 
 year: 2022 
@@ -47,6 +47,6 @@ For pilemc, the tasks remaining are :
 
 ## Links
 
-The codes are dataset manipulation are present here : https://github.com/Blizzard57/data-manipulation
+The codes for dataset manipulation are available [here](https://github.com/Blizzard57/data-manipulation)
 
-The codes for pilemc are present here : https://gitlab.com/hepcedar/pilemc
+The codes for pilemc are present [here](https://gitlab.com/hepcedar/pilemc)
