@@ -43,7 +43,7 @@ For pilemc, the tasks remaining are :
 - Implement additions to the program that allow different modes of operation for memory allocation. The possible modes being :
     - Load the entire file into memory at once
     - Sample events from the file and close it as per requirement
-- Change the working of the pile up files from cross sections to bias value ($\mu$)
+- Change the working of the pile-up files from cross sections to bias value (&mu;)
 
 ## Links
 
