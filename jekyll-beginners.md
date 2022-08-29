@@ -19,7 +19,7 @@ GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
 
 ## Content Format
 
-Jekyll expect the web site contents to be written in [Markdown](https://guides.github.com/features/mastering-markdown/) with 
+Jekyll expect the web site contents to be written in [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) with 
 a special section at the beginning of the file called `frontmatter`. This section contains attribute definitions used to render the file. It is delimited by a pair of `---` lines. A typical frontmatter section is:
 
 ```
