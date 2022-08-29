@@ -72,7 +72,7 @@ Make sure that your github link works or that you've added your gravatar ID.
 Perhaps one of these links might help you:
 
 * [short tutorial on from github](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
-* [a bit more overbose explanation on help.github](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+* [a bit more overbose explanation on help.github](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 If it doesn't, don't hesitate to ask us :)
 
