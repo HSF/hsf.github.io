@@ -4,7 +4,7 @@ country: US
 training_roles:
 - instructor
 - mentor
-- material
+- author
 training_years:
 - 2022
 github: mambelli

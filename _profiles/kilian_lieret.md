@@ -5,7 +5,7 @@ training_roles:
 - instructor
 - mentor
 - facilitator
-- material
+- author
 training_years:
 - 2020
 - 2021

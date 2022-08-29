@@ -4,7 +4,7 @@ country: DE
 training_roles:
 - facilitator
 - mentor
-- material
+- author
 training_years:
 - 2021
 - 2022

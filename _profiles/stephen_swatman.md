@@ -13,7 +13,7 @@ email: stephen@v25.nl
 training_roles:
 - instructor
 - mentor
-- material
+- author
 training_years:
 - 2020
 - 2021

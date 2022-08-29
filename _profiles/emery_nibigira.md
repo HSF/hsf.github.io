@@ -6,7 +6,7 @@ training_years:
 training_roles:
 - facilitator
 - instructor
-- material
+- author
 gravatar: null
 github: enibigir
 gitlab: enibigir
