@@ -84,20 +84,24 @@ This method can be used to convert a GoogleDoc document to markdown. To do it, u
 
 ## Linking to other subpages
 
+{% raw %}
 Please prefix `{{ site.baseurl }}` in your markdown links, for example
 
 ```
 [link text]({{ site.baseurl}}/workinggroups/dataanalysis.html)
 ```
+{% endraw %}
 
 ### Inserting images
 
 To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Then in the page where you want to insert
 it, add the following line:
 
+{% raw %}
 ```
 ![Replacement text]({{ site.baseurl }}/images/file){:height="400px" width="600px" .centered-image}
 ```
+{% endraw %}
 
 where:
 
