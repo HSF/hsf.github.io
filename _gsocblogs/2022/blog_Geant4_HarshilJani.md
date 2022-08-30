@@ -1,6 +1,6 @@
 ---
 project: Geant4
-title: Community Bonding Period 
+title: Geant4 - Performance Data Visualization using d3.js 
 author: Harshil Jani
 photo: blog_authors/HarshilJani.jpg
 date: 12.06.2022
