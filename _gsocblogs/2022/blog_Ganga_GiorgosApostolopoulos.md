@@ -77,10 +77,10 @@ The goals until the end of the coding period are following:
 ## My Personal Experience So Far
 
 I have only good things to say for my first half of this year GSoC program. Working for an organization like CERN has been
-a lifelong dream of mine and the experience has not dissapointed. I have already learnt a great deal and really enjoy
+a lifelong dream of mine and the experience has not disappointed. I have already learnt a great deal and really enjoy
 working with the Ganga team.
 
-I am really looking forward to the latter half of my time at this year's GSoC!
+I am very much looking forward to the latter half of my time at this year's GSoC!
 
 ---
 
