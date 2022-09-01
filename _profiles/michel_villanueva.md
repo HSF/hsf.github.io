@@ -4,8 +4,10 @@ country: DE
 training_roles:
 - facilitator
 - mentor
+- material
 training_years:
 - 2021
+- 2022
 github: michmx
 gravatar: null
 homepage: null

@@ -3,6 +3,7 @@ title: Giordon Stark
 country: US
 training_roles:
 - instructor
+- material
 training_years:
 - 2020
 github: kratsg

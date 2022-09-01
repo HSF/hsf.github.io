@@ -4,9 +4,11 @@ country: US
 training_roles:
 - facilitator
 - instructor
+- material
 training_years:
 - 2019
 - 2020
+- 2022
 github: jpivarski
 gravatar: null
 homepage: null

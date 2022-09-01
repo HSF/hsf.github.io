@@ -1,27 +1,20 @@
 # Sorted by ascending date => New events go on top
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
-- author: Sudhir Malik
-  date: 2022-07-13
-  deadline: ''
-  end_date: 2022-07-15
-  source: https://indico.cern.ch/event/1159157/
-  tags: HSF
-  title: Software Carpentry (Virtual)
-- author: Sudhir Malik
-  date: 2022-04-21
-  deadline: ''
-  end_date: 2022-04-22
-  source: https://indico.cern.ch/event/1058838/
-  tags: HSF
-  title: Matplotlib Training (Virtual)
-- author: Sudhir Malik
-  date: 2022-03-15
-  deadline: ''
-  end_date: 2022-03-17
-  source: https://indico.cern.ch/event/1119339/
+- author: Kilian Lieret
+  date: 2022-10-11
+  deadline: 2022-10-10
+  end_date: 2022-10-13
+  source: https://indico.cern.ch/event/1172498/
+  tags: hsf
+  title: 5th HEP C++ Course and Hands-on Training - Advanced C++
+- author: Guillermo Fidalgo
+  date: 2022-10-03
+  deadline: 2022-09-04
+  end_date: 2022-10-08
+  source: https://agenda.infn.it/event/31877/
   tags: []
-  title: 4th HEP C++ Course and Hands-on Training - The Essentials
+  title: ESC22 EFFICIENT SCIENTIFIC COMPUTING
 - author: Sebastian Lopienski
   date: 2022-09-04
   deadline: 2022-05-08
@@ -29,6 +22,13 @@
   source: https://indico.cern.ch/e/CSC-2022
   tags: []
   title: CERN School of Computing 2022
+- author: Sudhir Malik
+  date: 2022-07-13
+  deadline: ''
+  end_date: 2022-07-15
+  source: https://indico.cern.ch/event/1159157/
+  tags: HSF
+  title: Software Carpentry (Virtual)
 - author: Sebastian Lopienski
   date: 2022-06-19
   deadline: 2022-03-13
@@ -42,12 +42,34 @@
   end_date: 2022-05-07
   source: https://indico.cern.ch/e/tCSC-2022
   tags: []
-  title: Thematic CERN School of Computing on *"Scientific Software for Heterogeneous Architectures"*
+  title: Thematic CERN School of Computing on *"Scientific Software for Heterogeneous
+    Architectures"*
+- author: Sudhir Malik
+  date: 2022-04-21
+  deadline: ''
+  end_date: 2022-04-22
+  source: https://indico.cern.ch/event/1058838/
+  tags: HSF
+  title: Matplotlib Training (Virtual)
 - author: Sudhir Malik
   date: 2022-03-28
   deadline: ''
   end_date: 2022-03-30
   source: https://indico.cern.ch/event/1112526/
+  tags: HSF
+  title: Software Carpentry (Virtual)
+- author: Sudhir Malik
+  date: 2022-03-15
+  deadline: ''
+  end_date: 2022-03-17
+  source: https://indico.cern.ch/event/1119339/
+  tags: []
+  title: 4th HEP C++ Course and Hands-on Training - The Essentials
+- author: Sudhir Malik
+  date: 2021-12-13
+  deadline: ''
+  end_date: 2021-12-15
+  source: https://indico.cern.ch/event/1097111/
   tags: HSF
   title: Software Carpentry (Virtual)
 - author: Sebastian Lopienski
@@ -57,13 +79,6 @@
   source: https://indico.cern.ch/e/tCSC-autumn-2021
   tags: []
   title: Thematic CERN School of Computing (tCSC autumn 2021)
-- author: Sudhir Malik
-  date: 2021-12-13
-  deadline: ''
-  end_date: 2021-12-15
-  source: https://indico.cern.ch/event/1097111/
-  tags: HSF
-  title: Software Carpentry (Virtual)
 - author: Sudhir Malik
   date: 2021-08-25
   deadline: ''
