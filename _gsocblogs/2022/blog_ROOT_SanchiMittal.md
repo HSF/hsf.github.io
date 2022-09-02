@@ -30,27 +30,27 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 	-  Development of tests and tutorial example
 
 ## Community Bonding Period
-During the community bonding, I made sure to plan out the to-do's for the project and discuss, modify and reiterate over my project.  I familiarized myself with ROOT, TMVA, RDataFrames, RTensor, TTrees and other needed datastrucutres and tools via tutorials, to get a headstart before the coding period. After finalizing, I communicated the revised expected project goals and timeline to my mentors via a powerpoint presentation, and it was finalized to begin the coding.
+During the community bonding, I made sure to plan out the to-do's for the project and discuss, modify and reiterate over my project ideas.  I familiarized myself with ROOT, TMVA, RDataFrame, RTensor, TTree and other needed datastrucutres and tools via tutorials, to get a headstart before the coding period. After finalizing, I communicated the revised expected project goals and timeline to my mentors via a powerpoint presentation, and it was finalized to begin the coding.
 
 
 ## Implementing the Prototype
-It has been evident while working that this project for developing the Batch Generator is something experimental and would require researching into different approaches before implementing or directly packaginf it into TMVA. Thus, I have been working in a stand-alone repository over [here](https://github.com/tmvadnn/tmva-batch-generator), where I make pull requests for the experimental prototype. 
+It has been evident while working that this project for developing the Batch Generator is something experimental and would require researching into different approaches before implementing or directly packaging it into TMVA. Thus, I have been working in a stand-alone repository over [here](https://github.com/tmvadnn/tmva-batch-generator), where I make pull requests for the experimental prototype. 
 
 1.  The first aim was to have a basic batch generator, for which I started with a basic for loop in Python. This turned out to be both memory and time-inefficient. 
 	- [Link to Code](https://github.com/SanchiMittal/root/commit/8b63ff3d13acc385df064b970a84a198f69ba336)
-2. In the second approach, I decided to write a functor for the batch generator, while replacing the for-loop using the RTensor::Slice method. This made it time-efficient, but definitely data-copying still left it memory inefficient.
+2. In the second approach, I decided to write a functor for the batch generator, while replacing the for-loop using the RTensor::Slice method. This made it time-efficient, but definitely data-copying still left it memory-inefficient.
 	- [Link to Code](https://github.com/tmvadnn/tmva-batch-generator/pull/2/commits/34c6fd5e86dae48a2101ea4219b113e47c4729fb)
 
 3. In the third approach, I have replaced this slice method, removing the extra copying actions from the memory. I discovered that initializing the RTensor directly as a 'view' would help us achieve this goal.
  	- [Link to Code](https://github.com/tmvadnn/tmva-batch-generator/pull/2/commits/34c6fd5e86dae48a2101ea4219b113e47c4729fb)
 
-4. The next approach is where I am trying to further optimize the memory operations by replacing the AsTensor method by a template functor, such that an RTensor can be created out of a TTree / RDataframe without the need to copy the data while creation of the batches. This development can be followed in the PR below.
+4. The next approach is where I am trying to further optimize the memory operations by replacing the AsTensor() method by a template functor, such that an RTensor can be created out of a TTree / RDataframe without the need to copy the data while creation of the batches. This development can be followed in the PR below.
 	 - [Link to Code](https://github.com/tmvadnn/tmva-batch-generator/pull/2)
 
 ## Conclusion
 I would like to express my gratitude to my mentors **Lorenzo Moneta, Omar Zapata, Sanjiban Sengupta and Sitong An**, for they have been extremely supportive with guidance and helping me put my efforts into the right direction, since the beginning of the program.
 
-I would like highlight the goals of the project for the remaining half of the program as follows:
+I would like to highlight the goals of the project for the remaining half of the program as follows:
  - Upcoming:
 	 - Pythonization of the Batch Generator 
 	 - Merging and Documenting the Batch Generator into the ROOT TMVA codebase.
