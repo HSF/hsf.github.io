@@ -16,7 +16,7 @@ intro: |
 
 Through this blog, I'll be going over the work that I have done by this middle point in time as a contributor for GSoC 2022 program with CERN-HSF under the project "ROOT - Machine Learning Developments : Batch Generator for training machine learning models".
 
-![enter image description here](https://hepsoftwarefoundation.org/images/CERN-HSF-GSoC-logo.png)
+![CERN-HSF-GSoC-logo](https://hepsoftwarefoundation.org/images/CERN-HSF-GSoC-logo.png)
 
 ## Introduction
 I'm a recent Computer Science and Engineering graduate, who'd always had a keen sense of amazement for Physics and Science in general. That's why, I was extremely elated when I got this opportunity via Google Summer of Code to make a contribution towards the High Energy Physics experimentations and the study of the universe, while utilising the skills and knowledge of my domain, that is Computer Science.
