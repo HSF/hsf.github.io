@@ -4,7 +4,7 @@ country: US
 training_roles:
 - facilitator
 - instructor
-- material
+- author
 training_years:
 - 2019
 - 2020

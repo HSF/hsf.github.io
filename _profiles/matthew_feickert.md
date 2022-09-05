@@ -3,7 +3,7 @@ title: Matthew Feickert
 country: US
 training_roles:
 - instructor
-- material
+- author
 training_years:
 - 2020
 github: matthewfeickert
