@@ -17,8 +17,12 @@ year: 2022
       <h2>{{ blog.title }}</h2>
     </div> 
     <div class="col-sm-3" style="text-align: center;">
-      {% if blog.photo %}
-      <img src="/images/{{ blog.photo }}" alt="{{ blog.author }}" width="100px">
+      {% if blog.avatar %}
+      <img src="{{ blog.avatar }}" alt="{{ blog.author }}" width="100px">
+      {% else %}
+        {% if blog.photo %}
+        <img src="/images/{{ blog.photo }}" alt="{{ blog.author }}" width="100px">
+        {% endif %}
       {% endif %}
       <p style="font-weight: bold; text-align: center; font-style: oblique;"> {{ blog.author }}</p> 
     </div>
