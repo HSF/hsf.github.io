@@ -3,11 +3,12 @@
 project: HSF
 title: Interfacing PODIO with Julia
 author: Soumil Baldota
+avatar: https://avatars.githubusercontent.com/u/71919921?s=400&v=4
 date: 4.09.2022 
 year: 2022 
 layout: blog_post
 logo: podio-logo.png
-intro: Final progress report
+intro: Interfacing PODIO to auto-generate Julia code along side C++ and Python
 
 ---
 **About Me**
