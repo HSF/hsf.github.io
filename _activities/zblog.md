@@ -8,7 +8,7 @@ layout: default
 
 ## Introduction
 
-This is a collection of blog posts from GSoC students who collaborated with ML4SCI.
+This is a collection of blog posts from GSoC students who worked with ML4SCI.
 
 
 ### Google Summer of Code 2021
@@ -36,7 +36,7 @@ This is a collection of blog posts from GSoC students who collaborated with ML4S
   </tr>
 
   <tr>
-    <td><a href="https://medium.com/@yuriihalyc/gsoc-2021-with-ml4sci-deep-regression-for-exploring-dark-matter-32691c46adfa" target="_blank"> </a>"GSOC 2021 with ML4SCI | Deep Regression for Exploring Dark Matter" by Yurii Halychanskyi</td>
+    <td><a href="https://medium.com/@yuriihalyc/gsoc-2021-with-ml4sci-deep-regression-for-exploring-dark-matter-32691c46adfa" target="_blank">"GSOC 2021 with ML4SCI | Deep Regression for Exploring Dark Matter" by Yurii Halychanskyi</a></td>
   </tr>
 
   <tr>
