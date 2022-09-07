@@ -1,5 +1,5 @@
 ---
-title: "Hackathon"
+title: "Hackathon 2021"
 author: "Emanuele Usai"
 layout: default
 ---
