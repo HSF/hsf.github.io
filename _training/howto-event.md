@@ -20,7 +20,7 @@ layout: plain_toc
 </style>
 **Great!** We gladly welcome anyone who is interested in helping bootstrap the education of the HEP community.  At this point in time, we as a group have accrued a fair bit of experience and offer to work with you to make your event as effective and efficient as possible. We aim to do this in a way that stays coherent with the approach and "philosophy" of the HSF-Training group so as to make the tools and techniques that are developed persistent, re-useable, and broadly accessible. 
 
-If you have an inkling that you are keen to do this, you should start by joining the [Awesome WS Mattermost workspace](https://mattermost.web.cern.ch/signup_user_complete/?id=t9zkdocffbbozqcdy193myre8y) and pinging the ``@TownSquare`` channel or joining the next [HSF Training Weekly Meeting](https://indico.cern.ch/category/10294/) and just speaking up to brainstorm your idea.  We don't bite, reach out and say _"Hi!"_.
+If you have an inkling that you are keen to do this, go to [our top page]( {{site.baseurl}} / workinggroups/training.html) and ping us or join our weekly meetings. We don't bite, reach out and say _"Hi!"_.
 
 <figure class="centered-figure">
 <img src="{{ '/images/training/analysis_preservation_bootcamp_participants.jpg' | relative_url }}">
@@ -159,7 +159,7 @@ It is important to have a common and shared point of documenting the development
 Depending on your desired participant recruitment, we can help advertise your event by publicizing it on the [hsf-training-wg google group](mailto:hsf-training-wg@googlegroups.com), [our list of training events](https://hepsoftwarefoundation.org/Schools/events.html) and other HSF fora.  Beyond this, we have compiled a suite of communication pathways that can broadly reach large communities within various experimental collaborations.  As these are event-specific, once you are ready to advertise the event, just ask the conveners for this list of emails.
 
 ## Code of Conduct
-Your participation in HSF and subsequently the participation of educators and participants in your event are contingent on your and their agreement to behave according to a [code of conduct](https://frameshiftconsulting.com/code-of-conduct-book/).  By default, HSF-Training follows the [CERN Code of Conduct](https://hr-dep.web.cern.ch/content/code-of-conduct) and you should make it abundantly aware to anyone participating in the event that they are agreeing to follow this code.  And **_you_**, as the facilitator are responsible for enforcing this code of conduct.  Do not hesitate to ask the conveners if you are unsure of what this entails.
+Your participation in HSF and subsequently the participation of educators and participants in your event are contingent on your and their agreement to behave according to a [code of conduct](https://frameshiftconsulting.com/code-of-conduct-book/).  By default, HSF-Training follows the [CERN Code of Conduct](https://hr.web.cern.ch/codeofconduct) and you should make it abundantly aware to anyone participating in the event that they are agreeing to follow this code.  And **_you_**, as the facilitator are responsible for enforcing this code of conduct.  Do not hesitate to ask the conveners if you are unsure of what this entails.
 
 We have found that in addition to protecting participants from harm, an addition to the code of conduct that facilitates education is to stress the concept that **_"There is no such thing as a stupid question."_**.
 

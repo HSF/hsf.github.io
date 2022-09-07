@@ -30,14 +30,14 @@ The group aims to develop a training program that can be pursued by researchers 
 ## Sitemap
 
 * I'm a student and want to **learn** about HEP Software:
-  * [The HSF training curriculum]({{site.baseurl}}/training/curriculum.html)
+  * [The HSF training center]({{site.baseurl}}/training/curriculum.html)
   * [List of upcoming training events]({{site.baseurl}}/Schools/events.html)
 * I want to **teach** software:
   * Training events:
     * [How to organize a software training event]({{site.baseurl}}/training/howto-event.html)
     * [The different roles in an HSF-training event]({{site.baseurl}}/training/educators.html)
   * Training modules:
-    * [The HSF training curriculum]({{site.baseurl}}/training/curriculum.html)
+    * [The HSF training center]({{site.baseurl}}/training/curriculum.html)
     * [Guidelines for HSF training content]({{site.baseurl}}/training/module-guidelines.html)
     * [How to create a HSF training module from scratch]({{site.baseurl}}/training/howto-new-module.html)
     * [How to update a carpentry-style module with the HSF style]({{site.baseurl}}/training/howto-update-module-style.html)
