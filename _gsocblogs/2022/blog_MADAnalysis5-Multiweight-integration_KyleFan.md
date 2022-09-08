@@ -79,9 +79,9 @@ if (MET<=250.)
 
 <p> 
 The Cutflow database has 3 tables 
-	- Cutflow 
-	- Weights 
-	- WeightDefinition 
+	* Cutflow 
+	* Weights 
+	* WeightDefinition 
 
 the Cutflow table contains a list of region name and cut name instances in the analysis. The Weights table contain all weight informatio, each weight row is uniquely identified by region name, cut name and weight id. The WeightDefinition table contains the name or description of the weights which are identified by their numerical ID. 
 
