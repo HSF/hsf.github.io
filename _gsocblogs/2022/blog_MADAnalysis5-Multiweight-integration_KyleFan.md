@@ -66,4 +66,9 @@ if (MET<=250.)
 	Manager()->SetCurrentEventWeight(EvMultiweight *= 0.80); //multiplication operator to scale all weight values by a float
   }
 ```
+## Multiweight output files
+
+<p>
+	The multiweight feature will produce two new files (one for Cutflows and the other for Histograms). The output location will be in their respective SAF output directory. The cutfow file will be named "cutflows.db" and the histogram file will be named histo.db.
 	
+</p>
