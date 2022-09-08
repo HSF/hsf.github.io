@@ -26,7 +26,7 @@ After discussions with Jack and Benjamin, we have decided to implement the next 
 ---
 
 project: MadAnalysis 5 Multiweight Integration
-title: Midterm evaluation blog post
+title: Final evaluation blog post
 author: Kyle Fan
 date: 08.09.2022 
 year: 2022 
