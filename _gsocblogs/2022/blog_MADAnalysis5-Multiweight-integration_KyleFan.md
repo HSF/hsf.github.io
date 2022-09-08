@@ -95,6 +95,22 @@ select * from WeightDefinition; // lists the weight definition for each weight
 
 // note that you can select the columns individually instead of all of them by replace "*" with "column_name_1,.....,column_name_n" the where clause allows you to filter the rows based on a value for a column, in the above case weight id = 1
 ```
+## Histogram database schema
+
+The Histogram database has 3 tables
+- HistoDescription
+- Statistics
+- Data
+
+<p>
+	The HistoDescription table lists the name of the histograms associated with the analysis and their restrictive attributes(number of bins, minimum value, maximum value, associated regions). The Statistics table lists the statistical data associated with each Histogram/weight pair. The Data table contains the positive and negative values of each histogram bin. Examples of basic queries are shown below.
+</p>
+
+```
+select * from HistoDescription; // list all the histograms associated with the analysis and their general description
+select * from Statistics where id = 1; // list all Histogram stats for weight id 1
+select * from Data where id = 1; // List all bins including underflow/overflow for weight id 1
+```
 	
 
 
