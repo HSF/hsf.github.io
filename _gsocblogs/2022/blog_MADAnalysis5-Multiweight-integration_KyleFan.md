@@ -3,6 +3,7 @@
 project: MadAnalysis 5 Multiweight Integration
 title: Midterm evaluation blog post
 author: Kyle Fan
+avatar: https://media-exp1.licdn.com/dms/image/C5603AQGAetpdDTyWpw/profile-displayphoto-shrink_400_400/0/1601600208148?e=1668038400&v=beta&t=07z5OJob-in-RdIQv8EjkE9IT4ZZjhnk98eJv1_xL38
 date: 24.07.2022 
 year: 2022 
 layout: blog_post
