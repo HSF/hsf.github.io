@@ -71,7 +71,7 @@ if (MET<=250.)
 ## Multiweight output files
 
 <p>
-The multiweight feature will produce two new files (one for Cutflows and the other for Histograms). The output location will be in their respective SAF output directory. The cutflow file will be named "cutflows.db" and the histogram file will be named "histo.db". These are SQLite3 files and can be transferred, stored, compressed and accessed independently of MADAnalysis 5. Users who are familiar with the basics of SQL quieries can access the files through the terminal by the command: sqlite3 "file name"	
+The multiweight feature will produce two new files (one for Cutflows and the other for Histograms). The output location will be in their respective SAF output directory. The cutflow file will be named "cutflows.db" and the histogram file will be named "histo.db". These are SQLite3 files and can be transferred, stored, compressed and accessed independently of MADAnalysis 5. Users who are familiar with the basics of SQL queries can access the files through the terminal by the command: sqlite3 "file name"	
 </p>
 
 ## Cutflow database schema and basic queries
