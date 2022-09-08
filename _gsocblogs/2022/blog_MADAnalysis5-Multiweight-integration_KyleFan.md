@@ -23,7 +23,7 @@ After discussions with Jack and Benjamin, we have decided to implement the next 
 
 </p>
 
-#Final Evaluation blog post September 8th, 2022. (User guide for current version)
+## Final Evaluation blog post September 8th, 2022. (User guide for current version)
 
 <p>
 
@@ -34,7 +34,11 @@ Draft pull request can be found here [multiweight_integration](https://github.co
 <p>
 
 To use the multiweight feature, please update your analysis files to pass in the multiweight container in the execute function. An example is shown below. Notice the Manage()->InitializeForNewEvent() function must pass in two parameters, namely the MAdouble64 value and the WeightCollection.GetWeights() container, the current implementation will run both side by side until numerical validation is complete, at which time the single value implementation will be deprecated. The WeightCollection object is a general container for holding the weight values as well as providing operators such as addition, subtraction, multiplication, division, and assignment. The GetWeights() method is used to obtain the actual std::map<int, double> weights.
-  '''
+ 
+</p>
+
+'''
+	
   
   bool atlas_susy_2018_31::Execute(SampleFormat& sample, const EventFormat& event)
 {
@@ -55,7 +59,6 @@ To use the multiweight feature, please update your analysis files to pass in the
 
   '''
  
-</p>
 
 
 
