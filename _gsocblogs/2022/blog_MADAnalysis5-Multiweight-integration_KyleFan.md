@@ -24,11 +24,11 @@ After discussions with Jack and Benjamin, we have decided to implement the next 
 </p>
 
 
-## User guide for multiweight integration - Final evaluation blog post
+## User guide for multiweight integration - Final evaluation blog post September 8th, 2022.
 
 <p>
 
-Draft pull request can be found here [multiweight_integration](https://github.com/MadAnalysis/madanalysis5/pull/125). Current version does not yet have interface/install scripts for SQLite3, it will be included in the final Pull Request. MacOS users will have it installed by default and do not need to be concerened, Linux users will need to install SQlite3 to use the current version.
+Draft pull request can be found here [multiweight_integration](https://github.com/MadAnalysis/madanalysis5/pull/125). Current version does not yet have interface/install scripts for SQLite3, it will be included in the final Pull Request. MacOS users will have it installed by default and do not need to be concerened with it's installation, Linux users will need to install SQlite3 to use the current version.
  
 </p>
 
