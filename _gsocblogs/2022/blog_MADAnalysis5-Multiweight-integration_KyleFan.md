@@ -84,10 +84,17 @@ The Cutflow database has 3 tables
 - WeightDefinition 
 
 <p>
-The Cutflow table contains a list of region name and cut name instances in the analysis. The Weights table contain all weight informatio, each weight row is uniquely identified by region name, cut name and weight id. The WeightDefinition table contains the name or description of the weights which are identified by their numerical ID. 
+The Cutflow table contains a list of region name and cut name instances in the analysis. The Weights table contain all weight information, each weight row is uniquely identified by region name, cut name and weight id. The WeightDefinition table contains the name or description of the weights which are identified by their numerical ID. Some basic queries are shown below.
 </p>
 
+```
+select * from Cutflow; // lists all region and their associated cuts in this analysis
+select * from Weights; // lists all Cutflow data (# of positive/negative entries, positive sum, negative sum, positive squared sum, negative squared sum)
+select * from Weights where id = 1; //same as above but only give the entry where weight id = 1, this is the same data as the SAF file for the non multiweight implementation
+select * from WeightDefinition; // lists the weight definition for each weight
 
+// note that you can select the columns individually instead of all of them by replace "*" with "column_name_1,.....,column_name_n" the where clause allows you to filter the rows based on a value for a column, in the above case weight id = 1
+```
 	
 
 
