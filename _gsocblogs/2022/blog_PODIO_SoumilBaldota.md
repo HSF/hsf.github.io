@@ -7,7 +7,7 @@ avatar: https://avatars.githubusercontent.com/u/71919921?s=400&v=4
 date: 4.09.2022 
 year: 2022 
 layout: blog_post
-logo: podio-logo.png
+logo: hsf_logo_angled.png
 intro: Interfacing PODIO to auto-generate Julia code along side C++ and Python
 
 ---
@@ -51,9 +51,44 @@ After Julia type was added I made some [unittests](https://github.com/AIDASoft/p
 
 Following the addition of the attributes necessary for building the includes required to feed new templates that will generate Julia code. There is actual preprocessing required for building these includes required by our [Constructor](https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/templates/Constructor.jl.jinja2) and the [MutableStruct](https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/templates/MutableStruct.jl.jinja2) templates(covered further in the blog). This preprocessing is done by the [**preprocess_for_julia**](https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/podio_class_generator.py#L295-L320) function. This functions fills our includes dictionary passed to the templates.
 
-Mutually Recursive Type Declarations in Julia required the use of Parametric types which required the list of parameters required by each Constructor. This data is processed by the [**get_julia_params**](https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/podio_class_generator.py#L286-L293)
+Mutually Recursive Type Declarations which are solved easily using forward declarations in C++ required the use of either Parametric types or Abstract Types in Julia([long standing issue](https://github.com/JuliaLang/julia/issues/269)), For the purpose of code generation and cleaner approach we chose to use the parameteric approach. This required the list of parameters required by each Constructor. This data is processed by the [**get_julia_params**](https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/podio_class_generator.py#L286-L293)
+The Parameteric Types are used by the [Datatypes](https://github.com/AIDASoft/podio/blob/a8efda986f776892e90e7aafa4958aaf18a1e6c7/doc/templates.md?plain=1#L84), which have one to one and one to many relations and are not used by the [Components](https://github.com/AIDASoft/podio/blob/a8efda986f776892e90e7aafa4958aaf18a1e6c7/doc/templates.md?plain=1#L75) as they do not have any Cyclic Relations that could cause an infinte inclusion loop, Similarly Types with pure VectorMemberRelations also do not need a Parameteric Type.
 
-Wrapping the modules generated in parent namespaces required the collection of children in each namespace this is handled by the function [**get_namespace_dict**](https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/podio_class_generator.py#L107-L115). 
+The Datatypes described by the yaml input are allowed to have a namespaces. These namespaces have been implemented with the help of modules and Submodules in Julia. So for to emulate the namespaces we have grouped the code into modules, such that each Type is wrapped in its own module. For Example the MCParticle Constructor would be a part of the MCParticleModule. the modules generated in parent namespaces required the collection of children in each namespace this is handled by the function [**get_namespace_dict**](https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/podio_class_generator.py#L107-L115). 
+
+
+**Usage Of EDM4hep**
+
+```julia
+include("MCParticleCollection.jl") # to include the MCParticleCollection or the MCParticle directly.
+
+# or to just use the MCParticle alone.
+
+include("MCParticle.jl")
+using .MCParticleModule: MCParticle
+
+mcp1 = MCParticle()
+mcp1.PDG = 2212
+mcp1.mass = 0.938
+mcp1.momentumAtEndpoint = [0.0,0.0,7000.0]
+mcp1.generatorStatus=3
+
+mcp2 = MCParticle()
+mcp2.PDG = 1
+mcp2.mass = 0.0
+mcp2.generatorStatus=3
+mcp2.momentumAtEndpoint = [0.750,-1.569,32.191]
+push!(mcp2.parents,mcp1)
+
+mcpc = MCParticleCollection()
+push!(mcpc, mcp1)
+push!(mcpc, mcp2)
+
+```
+
+For more Usage Examples look at [unittests for Julia](https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/tests/unittest.jl)
+
+
 
 **Templates**
 - [MutableStuct.jl.jinja2 template](https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/templates/MutableStruct.jl.jinja2) is used for generation of Structs which use the includes_jl and params_jl dictionaries created while preprocessing. 
@@ -73,4 +108,4 @@ Wrapping the modules generated in parent namespaces required the collection of c
 - Vector Members
 - Relations
 
-This was added to CI of the repo by Thomas.
+The unit test suite covering the Julia code generation of the example datamodel was added to the test setup with the help of the mentors. This setup is also run in the CI workflows if a suitable Julia version is detected.
