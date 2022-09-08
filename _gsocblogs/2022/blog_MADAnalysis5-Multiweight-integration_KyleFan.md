@@ -37,10 +37,8 @@ To use the multiweight feature, please update your analysis files to pass in the
  
 </p>
 
-'''
-	
   
-  bool atlas_susy_2018_31::Execute(SampleFormat& sample, const EventFormat& event)
+`bool atlas_susy_2018_31::Execute(SampleFormat& sample, const EventFormat& event)
 {
   // Event weight
   MAdouble64 EvWeight;
@@ -52,12 +50,11 @@ To use the multiweight feature, please update your analysis files to pass in the
   else if(event.mc()->weight()!=0.) {
 	  EvWeight=event.mc()->weight();
 	  EvMultiweight=event.mc()->multiweights();
-  }
-  else { return false;}
+ } else { return false;}
  
-  Manager()->InitializeForNewEvent(EvWeight, EvMultiweight.GetWeights());
+ Manager()->InitializeForNewEvent(EvWeight, EvMultiweight.GetWeights());`
 
-  '''
+  
  
 
 
