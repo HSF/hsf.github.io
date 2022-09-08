@@ -55,3 +55,15 @@ bool atlas_susy_2018_31::Execute(SampleFormat& sample, const EventFormat& event)
  
  Manager()->InitializeForNewEvent(EvWeight, EvMultiweight.GetWeights());
 ```
+<p>
+	An example of operator usage is shown below. 
+</p>
+
+```
+if (MET<=250.) 
+  {	
+	Manager()->SetCurrentEventWeight(EvWeight*0.80); 
+	Manager()->SetCurrentEventWeight(EvMultiweight *= 0.80); //multiplication operator to scale all weight values by a float
+  }
+```
+	
