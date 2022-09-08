@@ -16,6 +16,14 @@
   source: https://agenda.infn.it/event/31877/
   tags: []
   title: ESC22 EFFICIENT SCIENTIFIC COMPUTING
+- author: Kilian Lieret
+  date: 2022-09-28
+  deadline: 2022-09-25
+  end_date: 2022-09-30
+  source: https://indico.cern.ch/event/1190572/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Software Basics Training
 - author: Sebastian Lopienski
   date: 2022-09-04
   deadline: 2022-05-08
