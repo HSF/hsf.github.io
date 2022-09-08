@@ -30,7 +30,7 @@ After discussions with Jack and Benjamin, we have decided to implement the next 
 
 <p>
 
-Draft pull request can be found here [multiweight_integration](https://github.com/MadAnalysis/madanalysis5/pull/125). Current version does not yet have interface/install scripts for SQLite3, it will be included in the final Pull Request. MacOS users will have it installed by default and do not need to be concerened with it's installation, Linux users will need to install SQlite3 to use the multiweight feature.
+Draft pull request can be found here [multiweight_integration](https://github.com/MadAnalysis/madanalysis5/pull/125). Current version does not yet have interface/install scripts for SQLite3, it will be included in the final Pull Request. MacOS users will have it installed by default and do not need to be concerned with it's installation, Linux users will need to install SQlite3 to use the multiweight feature.
  
 </p>
 
@@ -71,7 +71,7 @@ if (MET<=250.)
 ## Multiweight output files
 
 <p>
-The multiweight feature will produce two new files (one for Cutflows and the other for Histograms). The output location will be in their respective SAF output directory. The cutflow file will be named "cutflows.db" and the histogram file will be named "histo.db". These are SQLite3 files and can be transfered, stored, compressed and accessed independently of MADAnalysis 5. Users who are familiar with the basics of SQL quieries can access the files through the terminal by the command: sqlite3 "file name"	
+The multiweight feature will produce two new files (one for Cutflows and the other for Histograms). The output location will be in their respective SAF output directory. The cutflow file will be named "cutflows.db" and the histogram file will be named "histo.db". These are SQLite3 files and can be transferred, stored, compressed and accessed independently of MADAnalysis 5. Users who are familiar with the basics of SQL quieries can access the files through the terminal by the command: sqlite3 "file name"	
 </p>
 
 ## Cutflow database schema and basic queries
