@@ -23,20 +23,8 @@ After discussions with Jack and Benjamin, we have decided to implement the next 
 
 </p>
 
----
 
-project: MadAnalysis 5 Multiweight Integration
-title: Final evaluation blog post
-author: Kyle Fan
-date: 08.09.2022 
-year: 2022 
-layout: blog_post
-logo: MadAnalysis5-logo.png
-intro: Final Evaluation blog post
-
----
-
-## User guide for multiweight integration
+## User guide for multiweight integration - Final evaluation blog post
 
 <p>
 
