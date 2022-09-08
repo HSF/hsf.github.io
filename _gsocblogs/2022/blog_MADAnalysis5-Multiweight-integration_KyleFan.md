@@ -23,3 +23,39 @@ After discussions with Jack and Benjamin, we have decided to implement the next 
 
 </p>
 
+#Final Evaluation blog post September 8th, 2022. (User guide for current version)
+
+<p>
+
+Draft pull request can be found here [multiweight_integration](https://github.com/MadAnalysis/madanalysis5/pull/125). Current version does not yet have interface/install scripts for SQLite3, it will be included in the final Pull Request. MacOS users will have it installed by default and do not need to be concerened, Linux users will need to install SQlite3 to use the current version.
+ 
+</p>
+
+<p>
+
+To use the multiweight feature, please update your analysis files to pass in the multiweight container in the execute function. An example is shown below. Notice the Manage()->InitializeForNewEvent() function must pass in two parameters, namely the MAdouble64 value and the WeightCollection.GetWeights() container, the current implementation will run both side by side until numerical validation is complete, at which time the single value implementation will be deprecated. The WeightCollection object is a general container for holding the weight values as well as providing operators such as addition, subtraction, multiplication, division, and assignment. The GetWeights() method is used to obtain the actual std::map<int, double> weights.
+  '''
+  
+  bool atlas_susy_2018_31::Execute(SampleFormat& sample, const EventFormat& event)
+{
+  // Event weight
+  MAdouble64 EvWeight;
+  WeightCollection EvMultiweight;
+  if(Configuration().IsNoEventWeight()) {
+	  EvWeight=1.;
+	  EvMultiweight=1.;
+  }
+  else if(event.mc()->weight()!=0.) {
+	  EvWeight=event.mc()->weight();
+	  EvMultiweight=event.mc()->multiweights();
+  }
+  else { return false;}
+ 
+  Manager()->InitializeForNewEvent(EvWeight, EvMultiweight.GetWeights());
+
+  '''
+ 
+</p>
+
+
+
