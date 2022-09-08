@@ -111,8 +111,11 @@ select * from HistoDescription; // list all the histograms associated with the a
 select * from Statistics where id = 1; // list all Histogram stats for weight id 1
 select * from Data where id = 1; // List all bins including underflow/overflow for weight id 1
 ```
-	
+## Continued work
 
+The next milestone for this project is to enable multi-threading and optimize the program for performance. Profiling will be used to identify the most compute critical sections of the program that may benefit from optimizations. As mentioned in the Mid-term blog, SIMD multi-threading will be used to parallelize the program, the current plan is to duplicate the Cutflow and Histogramming datastructures for N cores, then synchronize and collect the N "shards" of data with one core. I believe this to be the most performant way of parallelization since the datastructures themselves are not very memory hungry, duplicating them N times will not exponentially increase memory usage.
+
+Additional milestone after multi-threading is complete will likely be working on a CI pipeline so that logic and numerical validation can be completed automatically with each update, this will save significant time that developers would need to spend on validation after each update.
 
 
 
