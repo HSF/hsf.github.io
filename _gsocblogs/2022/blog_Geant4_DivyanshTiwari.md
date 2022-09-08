@@ -29,10 +29,27 @@ Before starting work on the actual methods, it was important to develop a testbe
 
 ## First Method
 
-After implementing the above application, we started deliberating on the first method that we'll implement. We ultimately decided on the Boris Algorithm for its simplicity and wide use. The same was implemented by using the familiar driver and dtepper design used in Geant4. The stepper(`G4BorisScheme`) implements the actual Boris Algorithm and the driver(`G4BorisDriver`) is used to manage the stepper.
+After implementing the above application, we started deliberating on the first method that we'll implement. We ultimately decided on the Boris Algorithm for its simplicity and wide use. The same was implemented by using the familiar driver and stepper design in Geant4. The stepper(`G4BorisScheme`) implements the actual Boris Algorithm and the driver(`G4BorisDriver`) is used to manage the stepper.
+
+## Second Method
+
+The Boris method is a second order method. This means that the magnitude of the numerical error is going to vary as the square of the step size of the integration. To improve upon this, we decided to implement a higher order method to reduce the error due to the step size.Boris-SDC is fundamentally a collocation method solved via spectral deferred corrections, using the same trick as the Boris algorithm to avoid an implicit velocity
+dependence. In such methods, we establish interpolating polynomial that satisfy the fundamental ODE equation and then integrate these polynomial via quadratures.Furthermore, the method uses Spectral Deferred Corrections to make converging approximations of the  collocation solution.
+
+## Implementing Boris-SDC
+
+In order to understand and implement the method, I studied the thesis by Kristoffer Smedt on High-Order Particle Integration for Particle-In-Cell Schemes.
+The method was implemented in a similar style to the original Boris method. The stepper(`G4BorisSDC`) implements the actual algorithm and the driver(`G4BorisDriverSDC`) is used to manage the stepper.The method still requires some correction.
+
+## Overall Experience
+
+I had an absolutely wonderful experience this summer. This wan a highly educative opportunity and I learnt a lot about open source.It gave me an insight into how large projects are maintained .I would like to express my gratitude to my mentors John Apostolakis, Soon Jung Yun and Renee Fatemi, for they have been extremely supportive and helpful throughout the program.
 
 ## Some Links
 
 1. [Mid-Term Report](https://docs.google.com/document/d/1LMNU8qvVKALE9EH1Hc5ROZeL-fl60gFf81KE4QsBj0M/edit?usp=sharing)
 2. [Project Proposal](https://docs.google.com/document/d/1gLeoJs8HuCoLsN0AeceiVCH1QyNXHK9V3zmpyA0v0QM/edit?usp=sharing)
-3. [Merge Request](https://gitlab.cern.ch/geant4/geant4-dev/-/merge_requests/2930)
+3. [Merge Request-1](https://gitlab.cern.ch/geant4/geant4-dev/-/merge_requests/2930)
+4. [Merge Request-2](https://gitlab.cern.ch/geant4/geant4-dev/-/merge_requests/3029)
+5. [Thesis Used](https://etheses.whiterose.ac.uk/22831/1/Smedt%20Thesis%20Final%20v2.pdf)
+6. [Work Product Submission](https://docs.google.com/document/d/1p941HeP66Ubo56jffXnzlNsHEQRv72bfRCRtRul1x6U/edit?usp=sharing)
