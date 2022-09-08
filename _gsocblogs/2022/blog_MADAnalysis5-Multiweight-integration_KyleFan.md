@@ -71,8 +71,7 @@ if (MET<=250.)
 ## Multiweight output files
 
 <p>
-	The multiweight feature will produce two new files (one for Cutflows and the other for Histograms). The output location will be in their respective SAF output directory. The cutflow file will be named "cutflows.db" and the histogram file will be named "histo.db". These are SQLite3 files and can be transfered, stored, compressed and accessed independently of MADAnalysis 5. Users who are familiar with the basics of SQL quieries can access the files through the terminal by the command: sqlite3 "file name"
-	
+The multiweight feature will produce two new files (one for Cutflows and the other for Histograms). The output location will be in their respective SAF output directory. The cutflow file will be named "cutflows.db" and the histogram file will be named "histo.db". These are SQLite3 files and can be transfered, stored, compressed and accessed independently of MADAnalysis 5. Users who are familiar with the basics of SQL quieries can access the files through the terminal by the command: sqlite3 "file name"	
 </p>
 
 ## Cutflow database schema and basic queries
@@ -103,7 +102,8 @@ The Histogram database has 3 tables
 - Data
 
 <p>
-	The HistoDescription table lists the name of the histograms associated with the analysis and their restrictive attributes(number of bins, minimum value, maximum value, associated regions). The Statistics table lists the statistical data associated with each Histogram/weight pair. The Data table contains the positive and negative values of each histogram bin. Examples of basic queries are shown below.
+
+The HistoDescription table lists the name of the histograms associated with the analysis and their restrictive attributes(number of bins, minimum value, maximum value, associated regions). The Statistics table lists the statistical data associated with each Histogram/weight pair. The Data table contains the positive and negative values of each histogram bin. Examples of basic queries are shown below.
 </p>
 
 ```
