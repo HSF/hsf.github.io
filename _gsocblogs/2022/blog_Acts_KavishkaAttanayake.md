@@ -91,13 +91,13 @@ The plot below shows a throughput comparison between multicore CPU and CUDA-MPS.
 
 #### Kernel level benchmarks
 
-The following is a single kernel execution time plot for spacepoint formation kernel against the number of concurrently running processes.
+The following is a single kernel execution time plot for the spacepoint formation kernel against the number of concurrently running processes.
 ![form_spacepoints](https://user-images.githubusercontent.com/58067288/189314421-87f4c0ac-391b-445b-be53-1b2647f811b5.png)
 
 
 The sudden increase in times from 2 to 3 processes can be explained as there are 2 GPUs and introducing a third process can cause a single GPU to work almost twice as long stretching the wait time for all 3 processes. Similar case when there are 4 processes, now each GPU works twice as long. However this trend does not continue over when the number of processes increase further, this can be explained as a one time overhead as GPU context switching is introduced for the first time.
 
-### Conclution
+### Conclusion
 
 This concludes my GSoC adventure, I got the opportunity to contribute to CERN as well as learn CUDA further. Moreover the interaction with my mentors was helpful to improve my soft skills too!
 
