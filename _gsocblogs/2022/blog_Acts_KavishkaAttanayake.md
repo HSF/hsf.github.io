@@ -70,4 +70,39 @@ Following are two comparisons between using MPS and not using MPS each process c
 ![150_events](https://user-images.githubusercontent.com/58067288/181108051-5f3bdd22-6d23-46cc-b764-4ccb6661a169.jpg)
 
 
+#### Weeks 11-14
+> Ending on 25.08.2022
+
+The plots on the kernel level execution were cluttered as there was no synchronization before each kernel execution among the concurrent processes. During the first two weeks, I worked on using shared memory to implement inter process communication to synchronize the concurrent processes and obtained the execution times. However, interpreting the results required help from my mentors, this will be discussed later. 
+Moreover, benchmarks were carried out on the overall pipeline using vecmem caching allocators and multiple memory resources. Similar benchmarks were conducted to find how many events per process would give the peak throughput. The results will be discussed below. I was given the opportunity to present my progress and contributions at the ACTS parallelization group meeting as well.
+
+### Results
+#### Throughput benchmarks
+Comparison between different memory resources is shown below.
+
+![mem_res_mps_comparision](https://user-images.githubusercontent.com/58067288/189314296-e8d48284-69ab-4b9a-9664-36eb237fdba4.jpg)
+
+
+By utilizing contiguous memory resource with CUDA pinned memory upstream, the effect of CUDA mps is significant compared to when using only managed memory(see the plots under week 9-10).
+![c_mr_mps_comp](https://user-images.githubusercontent.com/58067288/189314610-236667f5-956b-465f-aa68-ab5d6e12321c.png)
+
+The plot below shows a throughput comparison between multicore CPU and CUDA-MPS.
+![mps_cuda_cpu](https://user-images.githubusercontent.com/58067288/189314831-08131ba8-1f8d-4da2-a683-965f503f387b.png)
+
+#### Kernel level benchmarks
+
+The following is a single kernel execution time plot for spacepoint formation kernel against the number of concurrently running processes.
+![form_spacepoints](https://user-images.githubusercontent.com/58067288/189314421-87f4c0ac-391b-445b-be53-1b2647f811b5.png)
+
+
+The sudden increase in times from 2 to 3 processes can be explained as there are 2 GPUs and introducing a third process can cause a single GPU to work almost twice as long stretching the wait time for all 3 processes. Similar case when there are 4 processes, now each GPU works twice as long. However this trend does not continue over when the number of processes increase further, this can be explained as a one time overhead as GPU context switching is introduced for the first time.
+
+### Conclution
+
+This concludes my GSoC adventure, I got the opportunity to contribute to CERN as well as learn CUDA further. Moreover the interaction with my mentors was helpful to improve my soft skills too!
+
+
+
+
+
 
