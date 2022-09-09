@@ -2,7 +2,7 @@
 project: IRIS-HEP
 title: "Uproot + Dask: Blog 1"
 author: Kush Kothari
-date: 25.07.2022
+date: 09.09.2022
 year: 2022
 layout: blog_post
 logo: iris-hep-logo.png
@@ -13,7 +13,7 @@ intro: |
 ### Introduction
 Hello peeps, this is Kush Kothari, a CS student from Mumbai, India. This is going to be a short report on my work on Uproot. The primary project goal is to upgrade Uproot to use AwkwardArrays v2 and to create the `uproot.dask` function. This function is a reimplementation of `uproot.lazy`, and now uses Dask's ability to delay a task's computation. This project is a major revamp of the structure and codebase of Uproot and the changes will result in a new major version of Uproot, i.e. Uproot v5.
 
-The work I did over the past 6 weeks is majorly split over 6 Pull Requests into Uproot.
+The work I did over the past 12 weeks is majorly split over 11 Pull Requests into Uproot.
 
 ### Dask Arrays
 [This PR](https://github.com/scikit-hep/uproot5/pull/578) begun as the evaluation task for GSoC and was continued into the coding period. It introduces the `uproot.dask` function using the Dask Array collection. Setting `library=np` makes the function return a Python dict of dask-arrays, each representing a single TBranch of the root file. These dask-arrays are computed into Numpy arrays on calling `.compute()`. This also implements some features previously present in `uproot.lazy` like the `step_size` parameter that can be used to control the size of chunks in the dask arrays.
@@ -32,3 +32,28 @@ This was a major one. All instances of awkward usage in Uproot were upgraded to 
 
 ### Dask-Awkward Support
 Currently, a work-in-progress, [this PR](https://github.com/scikit-hep/uproot5/pull/652) extends the `uproot.dask` function to use the newly developed [dask_awkward](https://github.com/ContinuumIO/dask-awkward) collection. While a basic working model is ready, I am currently working on optimizing the Dask graph with the help of Douglas Davis, the maintainer of [dask_awkward](https://github.com/ContinuumIO/dask-awkward).
+
+## Post Midterm Period
+
+### Post-midterm Dask-Awkward Optimization
+After referring to code from [dask_awkward](https://github.com/ContinuumIO/dask-awkward) and some internal helper functions in dask, the `from_map` optimization was implemented for `library='ak'`. During this time, after some discussion with the Uproot and Dask-Awkward team and it was decided that a similar `Blockwise`optimization would be needed for dask numpy arrays too.
+
+### Blockwise Optimization
+[#679](https://github.com/scikit-hep/uproot5/pull/679) introduces a new Blockwise implementation for the dask array collection. This involved implementing a `from_map` function that was not yet present in the `dask.array` module. The `from_map` function now took a callable object that bijectively mapped function calls to chunks in the arrays.
+
+[#703](https://github.com/scikit-hep/uproot5/pull/703) further used the same optimization for all code-paths.
+
+### Empty TBranches
+[Issue #697](https://github.com/scikit-hep/uproot5/issues/697) showed that the existing code failed when TBranches were empty. The issue turned out to be in the code that calculated the typetracer array, which was then used by dask-awkward.
+
+[#700](https://github.com/scikit-hep/uproot5/pull/700) Fixed this and added tests for the same.
+
+### Documentation
+Documentation for the work done is in progress in [#702](https://github.com/scikit-hep/uproot5/pull/702). This PR may not be merged until December 2022, the target release date for Uproot v5. The documentation involves the `uproot.dask` docstring and the Getting Started Guide.
+
+### PyHEP 2022 Lighting Talk
+The developments with `uproot.dask` will be demonstrated in a PyHEP lightning talk. The code for this talk will be [uploaded here](https://github.com/kkothari2001/PyHEP2022-uproot.dask).
+
+## Future Work
+- Have `library='ak'` only read TBranches that are used in the dask-graph. This is currently underway and will be done over the next few weeks.
+- Implementing `library='pd'`. This will have to wait for some progress in the corresponding awkward-pandas project.
