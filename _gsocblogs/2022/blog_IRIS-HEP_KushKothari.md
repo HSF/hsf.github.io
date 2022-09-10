@@ -1,7 +1,8 @@
 ---
 project: IRIS-HEP
-title: "Uproot + Dask: Blog 1"
+title: "Uproot + Dask"
 author: Kush Kothari
+avatar: https://avatars.githubusercontent.com/u/53650538?s=400&v=4
 date: 09.09.2022
 year: 2022
 layout: blog_post
