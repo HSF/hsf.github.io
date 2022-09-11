@@ -3,7 +3,7 @@
 project: MadAnalysis 5 Multiweight Integration
 title: MADAnalysis 5 Multiweight integration
 author: Kyle Fan
-photo: https://avatars.githubusercontent.com/u/25071468?s=400&u=4a9c3d16631b63f5fea28cc2738b77dbaaa5fa37&v=4
+avatar: https://avatars.githubusercontent.com/u/25071468?s=400&u=4a9c3d16631b63f5fea28cc2738b77dbaaa5fa37&v=4
 date: 24.07.2022 
 year: 2022 
 layout: blog_post
