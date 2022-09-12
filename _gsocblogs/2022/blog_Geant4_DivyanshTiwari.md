@@ -2,7 +2,7 @@
 project: Geant4
 title: Symplectic Integrators
 author: Divyansh Tiwari
-avatar:https://avatars.githubusercontent.com/u/81478940?s=400&v=4
+avatar: https://avatars.githubusercontent.com/u/81478940?s=400&v=4
 date: 27.07.2022
 year: 2022
 layout: blog_post
