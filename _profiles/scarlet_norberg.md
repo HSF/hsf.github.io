@@ -3,8 +3,10 @@ title: Scarlet Norberg
 country: US
 training_roles:
 - facilitator
+- mentor
 training_years:
 - 2019
+- 2022
 github: scarletnorberg
 gravatar: null
 homepage: null

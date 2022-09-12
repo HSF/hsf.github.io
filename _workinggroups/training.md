@@ -22,7 +22,7 @@ The group aims to develop a training program that can be pursued by researchers 
   </a>
   <a href="{{site.baseurl}}/training/curriculum.html">
     Self study!<br/>
-    Everything at your own pace. No matter if you want to get a quick overview
+    Learn at your own pace. No matter if you want to get a quick overview
     or dive in the details, this is for you!
   </a>
 </div>
@@ -30,14 +30,14 @@ The group aims to develop a training program that can be pursued by researchers 
 ## Sitemap
 
 * I'm a student and want to **learn** about HEP Software:
-  * [The HSF training curriculum]({{site.baseurl}}/training/curriculum.html)
+  * [The HSF training center]({{site.baseurl}}/training/curriculum.html)
   * [List of upcoming training events]({{site.baseurl}}/Schools/events.html)
 * I want to **teach** software:
   * Training events:
     * [How to organize a software training event]({{site.baseurl}}/training/howto-event.html)
     * [The different roles in an HSF-training event]({{site.baseurl}}/training/educators.html)
   * Training modules:
-    * [The HSF training curriculum]({{site.baseurl}}/training/curriculum.html)
+    * [The HSF training center]({{site.baseurl}}/training/curriculum.html)
     * [Guidelines for HSF training content]({{site.baseurl}}/training/module-guidelines.html)
     * [How to create a HSF training module from scratch]({{site.baseurl}}/training/howto-new-module.html)
     * [How to update a carpentry-style module with the HSF style]({{site.baseurl}}/training/howto-update-module-style.html)
@@ -88,7 +88,7 @@ Today's graduate students will be the young faculty members driving HEP research
   </a>
   <a href="{{site.baseurl}}/training/curriculum.html">
     HSF Training center<br/>
-    Everything at your own pace. No matter if you want to get a quick overview
+    Learn at your own pace. No matter if you want to get a quick overview
     or dive in the details, this is for you!
   </a>
   <a href="https://hsf-training.github.io/analysis-essentials/">
@@ -109,20 +109,24 @@ Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum
 
 <div class="big-link-container">
   <a href="https://indico.cern.ch/category/10294/">
-    Meet us!<br/>
+    Talk to us!<br/>
     We meet weekly, usually on Monday at 16h00 CERN time.
+  </a>
+  <a href="https://join.slack.com/t/hsftraining/shared_invite/zt-18sa7y3s6-5QuNY0sSnlP6HSNvoFREkg">
+    Chat with us on Slack!<br/>
+    Brainstorm your ideas with us. 
+  </a>   
+  <a href="{{site.baseurl}}/training/community.html">
+    Join the community!<br/>
+    Join more than {{ site.profiles | size | divided_by: 10 | times: 10 }} people working on our mission.
+  </a>
+  <a href="https://github.com/hsf-training/PyHEP-resources">
+    Browse our GitHub Organization!<br/>
+    Browse all of our training material. Issues & pull requests are always welcome!
   </a>
   <a href="https://groups.google.com/forum/#!forum/hsf-training-wg">
     Write us!<br/>
-    Discuss your ideas and reach a wide range of training enthusiasts.
-  </a>
-  <a href="{{site.baseurl}}/training/community.html">
-    The community<br/>
-    Meet the people who work on our mission
-  </a>
-  <a href="https://github.com/hsf-training/PyHEP-resources">
-    Github Organization<br/>
-    Browse all of our training material. Issues & pull requests are always welcome!
+    Use our public mailing list and reach a wide range of training enthusiasts.
   </a>
 </div>
 
