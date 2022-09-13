@@ -2,7 +2,7 @@
 project: CERNBox
 title: Etherpad plugin as a ScienceMeshDocs editor
 author: Mohammad Warid
-date: 29.07.2022
+date: 13.09.2022
 year: 2022
 layout: blog_post
 logo: cernbox-logo.png
@@ -46,7 +46,33 @@ This implementation served well for the project which meant that the metadata ca
 
 Currently, I am investigating the WOPI server functionality for receiving the metadata and handling it, after which, I will move towards testing the complete workflow.
 
+# Post Midterm Period
+
+## Support for multi-user collaboration
+The main goal for the project was an in-app workflow, targeted to onboard new users over the etherpad each possessing a unique ID. This was achieved by fetching query parameters from a custom `/setEFSSMetadata` endpoint, thereby passing successful or error based responses to the wopiserver, which then allocated a new url to serve the etherpad user. 
+The endpoint was protected against validation checks for bogus inputs like invalid `padID` and `API` key.
+
+## Debouncing padUpdate event
+The `padUpdate` event in etherpad is supposed to fire on every new change to the etherpad. This is more noticeable when dealing with every keystroke event. To lower the amount of `pending 202` requests at the wopiserver’s end, the `padUpdate` event was debounced by a factor of 3000 milliseconds. After this implementation, only the latest updated change was taken into account. 
+
+## Triggering close event on window close or when user leaves the collaborative pad
+In etherpad, if the user leaves or closes the browser tab, the     `userLeave` event is invoked. This was passed down to the wopsiserver as a `URL` parameter. The user content that existed inside the database was also cleared.
+
+## User Notifications
+The deliverables to this task were notifying users about ongoing events happening behind the scenes of the wopiserver and the etherpad lite client application. 
+- The wopiserver can send responses containing parameters like the message, delay, statusCode etc.
+To create a seamless user experience, the task was to generate appropriate notifications using the intercepted data.
+- The main issue was integrating the client-side application (Etherpad UI) with the server-side application (Etherpad backend). Since client-side applications cannot access server-side properties and vice versa (for example, the window object, etc.), this implementation is currently attempted as a websocket request-response cycle using suitable etherpad APIs.
+- The notifications should be sent from the server side, where the client receives them and extracts the notification data ( message, delay and statusCode) to invoke appropriate notification popups using `ejs` templates.
+- Here, the sending of data from the server side is obtained through web sockets which is intercepted at the client side for displaying notification popups. The documentation of etherpad is inconsistent with handling data functionality at the client side without any examples. This was a substantial limitation in the achievement of this task.
+
+## NPM package release and github actions workflow
+- To test the packages by different users, the package was published to the NPM registry. Along with that basic github actions workflows were set up to auto-publish a new version over to NPM by tagging a package release.
+
+## Future Work
+- I’ll try to assist with future code contributions and development of the package, enabling the needful integration of the etherpad with the wopiserver.
+
 ## Personal Experience
-So far it has been an enriching experience with a great learning curve that I have enjoyed, and am looking forward to make more meaningful contributions. I am extremely grateful for all the support and guidance I have been receiving from my mentors especially Giuseppe to familiarise me upon great software engineering practices that I never knew of before.
+It has been an enriching experience with a great learning curve that I have enjoyed. I am extremely grateful for all the support and guidance I have received from my mentors especially Giuseppe to familiarise me upon great software engineering practices that I never knew of before.
 Project repository - https://github.com/waridrox/ep_sciencemesh
 Link to Project idea - https://hepsoftwarefoundation.org/gsoc/2022/proposal_CERNBox-Etherpad.html
