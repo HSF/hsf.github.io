@@ -2,7 +2,7 @@
 project: Acts
 title: Acts GPU R&D - Optimization of GPU tracking pipeline
 author: Kavishka Attanayake
-photo: blog_authors/KavishkaAttanayke.jpeg
+photo: blog_authors/KavishkaAttanayake.jpeg
 date: 26.07.2022
 year: 2022
 layout: blog_post
