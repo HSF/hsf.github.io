@@ -12,6 +12,10 @@ intro: Final blog post, Multiweight-integration User Guide and continued work pl
 
 ---
 
+## Multiweight Integration
+This feature update will give users the ability to track theoretical uncertainties during analysis. 
+
+
 ## Midterm Evaluation
 
 <p> 
@@ -112,6 +116,10 @@ select * from HistoDescription; // list all the histograms associated with the a
 select * from Statistics where id = 1; // list all Histogram stats for weight id 1
 select * from Data where id = 1; // List all bins including underflow/overflow for weight id 1
 ```
+## When SQLite3 is unavailable
+Without SQLite3, the program will not be able to output the multidimensional data and thus, will continue to output in existing SAF format. A feature will be added to merge weight information based on the weight description. Plots will also be generated automatically during normal mode based on the merged weight information.
+
+
 ## Continued work
 
 The next milestone for this project is to enable multi-threading and optimize the program for performance. Profiling will be used to identify the most compute critical sections of the program that may benefit from optimizations. As mentioned in the Mid-term blog, SIMD multi-threading will be used to parallelize the program, the current plan is to duplicate the Cutflow and Histogramming datastructures for N cores, then synchronize and collect the N "shards" of data with one core. I believe this to be the most performant way of parallelization since the datastructures themselves are not very memory hungry, duplicating them N times will not exponentially increase memory usage.
