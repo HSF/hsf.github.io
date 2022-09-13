@@ -37,7 +37,7 @@ Draft pull request can be found here [multiweight_integration](https://github.co
 
 <p>
 
-To use the multiweight feature, please update your analysis files to pass in the multiweight container in the execute function. An example is shown below. Notice the Manage()->InitializeForNewEvent() function must pass in two parameters: the MAdouble64 weight value and the WeightCollection.GetWeights() container. The current implementation will run both side by side until numerical validation is complete, at which time the single weight implementation will be deprecated. The WeightCollection object is a general container for holding the weight values as well as providing operators such as addition, subtraction, multiplication, division, and assignment. The GetWeights() method is used to obtain the actual std::map<int, double> weights.
+To use the multiweight feature, please update your analysis files to pass in the multiweight container in the execute function. An example is shown below. Notice the `Manage()->InitializeForNewEvent()` function must pass in two parameters: the `MAdouble64 weight` value and the `WeightCollection.GetWeights()` container. The current implementation will run both side by side until numerical validation is complete, at which time the single-weight implementation will be deprecated. The WeightCollection object is a general container for holding the weight values as well as providing operators such as addition, subtraction, multiplication, division, and assignment. The `GetWeights()` method is used to obtain the actual `std::map<int, double> weights`.
  
 </p>
 
