@@ -2,12 +2,13 @@
 project: CERNBox
 title: Etherpad plugin as a ScienceMeshDocs editor
 author: Mohammad Warid
+photo: blog_authors/MohammadWarid.jpg
 date: 13.09.2022
 year: 2022
 layout: blog_post
 logo: cernbox-logo.png
 intro: |
-  An Etherpad plugin to support collaborative sync share across ScienceMesh
+  An Etherpad plugin to support collaborative sync share across ScienceMesh Platform
 ---
 
 # Introduction:
@@ -49,11 +50,11 @@ Currently, I am investigating the WOPI server functionality for receiving the me
 # Post Midterm Period
 
 ## Support for multi-user collaboration
-The main goal for the project was an in-app workflow, targeted to onboard new users over the etherpad each possessing a unique ID. This was achieved by fetching query parameters from a custom `/setEFSSMetadata` endpoint, thereby passing successful or error based responses to the wopiserver, which then allocated a new url to serve the etherpad user. 
+The main goal for the project was an `open file in app` workflow, targeted to enable users of a cloud storage opening and working with their files into Etherpad, each possessing a unique ID. This was achieved by fetching query parameters from a custom `/setEFSSMetadata` endpoint, thereby passing successful or error based responses to the wopiserver, which then allocated a new url to serve the etherpad user. 
 The endpoint was protected against validation checks for bogus inputs like invalid `padID` and `API` key.
 
 ## Debouncing padUpdate event
-The `padUpdate` event in etherpad is supposed to fire on every new change to the etherpad. This is more noticeable when dealing with every keystroke event. To lower the amount of `pending 202` requests at the wopiserver’s end, the `padUpdate` event was debounced by a factor of 3000 milliseconds. After this implementation, only the latest updated change was taken into account. 
+The `padUpdate` event in etherpad is supposed to fire on every new change to the etherpad. This is more noticeable when dealing with every keystroke event. To lower the amount of requests at the wopiserver’s end, the `padUpdate` event was debounced by a factor of 3000 milliseconds. After this implementation, only the latest updated change was taken into account. 
 
 ## Triggering close event on window close or when user leaves the collaborative pad
 In etherpad, if the user leaves or closes the browser tab, the     `userLeave` event is invoked. This was passed down to the wopsiserver as a `URL` parameter. The user content that existed inside the database was also cleared.
