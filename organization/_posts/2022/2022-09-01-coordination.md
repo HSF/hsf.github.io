@@ -1,5 +1,5 @@
 ---
-title: "HSF Coordination Meeting #233, 1 September 2022"
+title: "HSF Coordination Meeting #234, 1 September 2022"
 layout: plain_toc
 ---
 
@@ -53,7 +53,7 @@ Planning fall meetings!
 
 Continue with the topic list for the year and planning the fall meeting series. Topics include:
 
-- GNN tracking 
+- GNN tracking
 - RICH-PID reco
 - b-tagging
 
@@ -69,7 +69,7 @@ Further suggestions are always welcome.
 
 Plans for the rest of the year
 
-- Need to try to think about how to increase meeting attendance/engagement. 
+- Need to try to think about how to increase meeting attendance/engagement.
   - It had dropped off in the last few meetings before the summer
   - Possibly partly related to email issues, also perhaps due to extending the meetings to more diverse topics, such as Neutrino and Nuclear physics?
 
@@ -100,7 +100,7 @@ Plans for the rest of the year
 - Talks at "PyHEP", "Sustainable HEP" about Training
 - Matplotlib hackathon happened on July 25 <https://indico.cern.ch/event/1183547/>
   - Matplotlib developer (Tom Caswell) is interested to make sure we are teaching "best practice"
-  - Yes, Tom commented that during the training event. We opened a ticket based on one of his comments. 
+  - Yes, Tom commented that during the training event. We opened a ticket based on one of his comments.
 - Look forward from other WGs to collaborate with training WG on their topic related trainings
 - Join our hackathons to improve material taught
 
