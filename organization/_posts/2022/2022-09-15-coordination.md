@@ -111,7 +111,7 @@ Other topic of interests: particle flow jet reco, reconstruction on AI chips (e.
 ### Software Training
 
 - HSF Training Containerization hackathon on September 6
-- PyHEP 2022 [Talk "Teaching Python the Sustainable Way: Lessons Learned at HSF Training"](https://indico.cern.ch/event/1150631/timetable/#20220912.detailed) (September 12) and Hackathon on matplotlib and scikit-hep tools
+- PyHEP 2022 [Talk "Teaching Python the Sustainable Way: Lessons Learned at HSF Training"](https://indico.cern.ch/event/1150631/timetable/#38-teaching-python-the-sustain) (September 12) and Hackathon on matplotlib and scikit-hep tools
 - Please advertise the next training event [HSF/IRIS-HEP Software Basics Training (Virtual)](https://indico.cern.ch/event/1190572/) (September 28-30)
   - Next ones planned ([7 May - 19 May, 2023](https://indico.cern.ch/event/1190821/) and [08 Feb - 10 Feb, 2023](https://indico.cern.ch/event/1190820/))
 - HSF Training is now on twitter as well! Please follow [@HSFTraining](https://twitter.com/hsftraining)
