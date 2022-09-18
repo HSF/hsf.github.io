@@ -44,7 +44,7 @@ The WLCG Software Report for the RRB (2022-H2) is available [here](https://docs.
 
 Twitter goes at speed for the HSF!
 
-We have a new training dedicated twitter: [@hsftraining](https://twitter.com/HsfTraining). We encourage you to follow this and the main HSF twitter, [@hepsoftfound](https://twitter.com/hepsoftfound).
+We have a new training dedicated twitter account: [@hsftraining](https://twitter.com/HsfTraining). We encourage you to follow this and the main HSF twitter, [@hepsoftfound](https://twitter.com/hepsoftfound).
 
 The HSF homepage was updated with a feed from twitter for more visibility.
 
