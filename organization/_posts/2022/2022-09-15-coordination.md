@@ -28,7 +28,7 @@ LHCC Feedback:
 - ROOT: Significant challenges due to departure / time reduction of key people, for instance end of fellowship for inventor of RDataFrame, departure of CernVM LD affecting RNTuple development -> CERN is willing to hire new collaborators
 - EU grant SYCLOPS as partner (~ 450 k€ for ROOT) - RDataFrame offloading (GPU and possibly other accelerators)
 - CernVM File System: a talented staff left to industry -> position is reopened
-- Collaboration with private companies: one fellow funded from Jumptrading
+- Collaboration with private companies: one fellow funded from Jump Trading
 
 #### Training & attracting young talents
 
