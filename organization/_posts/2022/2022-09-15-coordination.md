@@ -99,7 +99,7 @@ Other topic of interests: particle flow jet reco, reconstruction on AI chips (e.
 
 - Very nice talk from Anja Butter (and well attended meeting) on ML for generators at [last meeting](https://indico.cern.ch/event/1180220/)
 - Next meeting: Electron Ion Collider and Nuclear Physics Generators by Markus D., Oct, 6th. ([Agenda](https://indico.cern.ch/event/1200496/)).
-- Discussing next topics for the meetings until the end of the year. May follow up on ML for generators.
+- Discussing the next topics for the meetings until the end of the year. May follow up on ML for generators.
   - Possibly driven in part by key discussion topics from Snowmass
 - Co-host MC4EIC (Nov., 16-18)
 
