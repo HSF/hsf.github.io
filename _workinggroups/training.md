@@ -27,30 +27,11 @@ The group aims to develop a training program that can be pursued by researchers 
   </a>
 </div>
 
-## Sitemap
 
-* I'm a student and want to **learn** about HEP Software:
-  * [The HSF training center]({{site.baseurl}}/training/curriculum.html)
-  * [List of upcoming training events]({{site.baseurl}}/Schools/events.html)
-* I want to **teach** software:
-  * Training events:
-    * [How to organize a software training event]({{site.baseurl}}/training/howto-event.html)
-    * [The different roles in an HSF-training event]({{site.baseurl}}/training/educators.html)
-  * Training modules:
-    * [The HSF training center]({{site.baseurl}}/training/curriculum.html)
-    * [Guidelines for HSF training content]({{site.baseurl}}/training/module-guidelines.html)
-    * [How to create a HSF training module from scratch]({{site.baseurl}}/training/howto-new-module.html)
-    * [How to update a carpentry-style module with the HSF style]({{site.baseurl}}/training/howto-update-module-style.html)
-* I want to learn more **about the HSF Training WG**:
-  * [Our mission]({{site.baseurl}}/workinggroups/training.html#our-mission)
-  * [HSF training White paper](https://arxiv.org/abs/1807.02875)
-  * [List of HEP training events](https://indico.cern.ch/category/11386/)
-  * The Community
-    * [The HSF training community]({{site.baseurl}}/training/community.html)
-    * [Participating & Contributing]({{site.baseurl}}/workinggroups/training.html#how-to-participate-and-contribute)
-    * [Convenors]({{site.baseurl}}/workinggroups/training.html#conveners)
-* **Meta**:
-  * [How to add your profile to the HSF training community pages]({{site.baseurl}}/howto-profile.html)
+## News
+
+<a class="twitter-timeline" style="margin: auto" data-width="100%" data-height="500" href="https://twitter.com/HSFTraining?ref_src=twsrc%5Etfw">Tweets from @HSFTraining</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Our mission
 
