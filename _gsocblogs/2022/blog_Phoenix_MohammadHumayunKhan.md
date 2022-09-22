@@ -15,7 +15,7 @@ intro: |
 
 > 20.05.2022 - 12.06.2022
 
-This started with an introductory video call between me and my mentors, Edward Moyse and Fawad Ali in which we got to know each other and the work we do. It was really good to know about their experience in open-source software development and I straightaway knew that this summer would be quite exciting and even a better learning experience for me. 
+This started with an introductory video call between me and my mentors, Edward Moyse and Fawad Ali in which we got to know each other and the work we do. It was really good to know about their experience in open-source software development and I straight away knew that this summer would be quite exciting and even a better learning experience for me. 
 
 Community Bonding, in general, is all about reading the technologies that you are going to use in your project, figuring out any issues that may occur beforehand, setting up the development environment, dividing and finalizing the project milestones into deliverables, and making sure you and the mentor(s) agree on it.
 
