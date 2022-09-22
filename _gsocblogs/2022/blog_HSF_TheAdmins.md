@@ -3,6 +3,7 @@ project: HSF
 title: Writing a blog about your project with HSF in GSoC
 author: Andrei Gheata
 [//]: # (photo: blog_authors/FirstLast.jpg)
+avatar: https://avatars.githubusercontent.com/u/18400453?s=400&v=4
 date: 08.06.2022
 year: 2022
 layout: blog_post
@@ -28,9 +29,10 @@ We are still experimenting this year, so there are no formal rules. The idea is 
 
 ---
 **project:** HSF _<span style="color:grey"> [replace with the project label as in _gsocprojects/YEAR/project_yourproject.md]</span>_<br/>
-**title:** Your article title<br/>
+**title:** Your article title. This is generally your project name.<br/>
 **author:** Jane Doe<br/>
-**photo:** blog_authors/JaneDoe.jpg _<span style="color:grey"> [Optionally use this label and upload a squared format photo as images/blog_authors/FirstLast.jpg]</span>_<br/>
+**photo:** blog_authors/JaneDoe.jpg _<span style="color:grey"> [Upload a squared format photo or avatar in the folder images/blog_authors/FirstLast.jpg]</span>_<br/>
+**avatar:** https://avatars.githubusercontent.com/u/[user_id]?s=400&v=4 _<span style="color:grey"> [Use a web-based avatar instead of a photo. To use your github avatar, go to your github profile and copy the address of your avatar image, then paste it after the label, changing the size value to s=400]</span>_<br/>
 **date:** 16.05.2022 _<span style="color:grey"> [Use the date when you wrote the article]</span>_<br/>
 **year:** 2022 _<span style="color:grey"> [Make sure the year is the current one]</span>_<br/>
 **layout:** blog_post<br/>
