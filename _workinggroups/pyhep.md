@@ -77,6 +77,14 @@ Matthew Feickert - University of Wisconsin-Madison<br>
 Nikolai Hartmann - Ludwig-Maximilians-Universität Munich<br>
 Oksana Shadura - University of Nebraska-Lincoln
 
+### Sponsors
+
+The event is kindly sponsored by
+
+![PSF]({{ site.baseurl }}/images/pyhep/PSF_logo.png){:height="60px"}
+![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![UoL]({{ site.baseurl }}/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
+
 ## PyHEP 2021
 
 PyHEP 2021 was held as a *virtual* workshop on 5-9 July 2021.

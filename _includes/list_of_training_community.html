@@ -22,6 +22,7 @@
 <div class="medium-3 columns">
 <div class="team-member anchor-offset" id="{{ person.github }}">
 <a href="{{ person.url }}">{% include profile_avatar.html %}</a>
+{% include educator_badges.html %}
 <h3><a href="{{ person.url }}">{{ person.title }}</a></h3>
 {% include profile_social.html %}
 </div>

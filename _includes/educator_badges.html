@@ -1,6 +1,16 @@
 <!-- badges for educator roles -->
+{% assign roles_lower_case = person.training_roles | join: '~~~' | downcase | split: '~~~' %}
 <ul class="list-inline">
-{% for role in person.training_roles %}
-<li><span class="badge badge-secondary">{{ role | capitalize }}</span></li>
-{% endfor %}
+{% if roles_lower_case contains "mentor" %}
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+{% endif %}
+{% if roles_lower_case contains "instructor" %}
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+{% endif %}
+{% if roles_lower_case contains "facilitator" %}
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+{% endif %}
+{% if roles_lower_case contains "author" %}
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+{% endif %}
 </ul>
