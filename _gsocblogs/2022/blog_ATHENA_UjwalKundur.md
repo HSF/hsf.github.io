@@ -106,7 +106,7 @@ I was pretty new to C++ when I started and working on the project helped me lear
 
 However, the final results were pretty disappointing. SYCL code performed worse than "normal" sequential code at varying workloads. Why? No GPU support - During this time I realized that the Intel provided OneAPI containers that oneapi_jug_xl was based on did not provide **CUDA** as a backend as it was still in experimental stage. This was another blow to an already difficult project. This meant we had to re-evaluate the entire SYCL setup and it was agreed upon that this was out of scope of the current project.
 
-Since we had no access to AMD GPUs - which support OpenCL by default (the GPGPU scene is dominated by NVidia and CUDA), I had to settle for performance comparisions of both SYCL and Non-SYCL code on the same AMD EPYC 32-core CPU used in Compute Canada's HPC systems. Hence, the comparision results you see below are sub-par and show poor performance on SYCL's part. However, I believe that given proper hardware, software stack and tuning, many algorithms in Juggler will greatly benefit from SYCL support.
+Since we had no access to AMD GPUs - which support OpenCL by default (the GPGPU scene is dominated by NVidia and CUDA), I had to settle for a performance comparison of SYCL and Non-SYCL code on the same AMD EPYC 32-core CPU used in Compute Canada's HPC systems. Hence, the comparison results you see below are sub-par and show poor performance on SYCL's part. However, I believe that given proper hardware, software stack and tuning, many algorithms in Juggler will greatly benefit from SYCL support.
 
 ![Wall-Time Cmpr](https://github.com/Ajax-Light/GSoC-cernhsf-final/raw/master/reports/WallTime-compare.png)
 
@@ -133,6 +133,6 @@ Ujwal.
 
 ---
 
-Reach out to me at: ujwal.kundur@gmail.com \|\| [GitHub](https://github.com/Ajax-Light) \|\| [LinkedIn](https://www.linkedin.com/in/ujwal-kundur/)
+Reach out to me at: ujwal.kundur@gmail.com \|\| [GitHub](https://github.com/Ajax-Light)
 
 ---
