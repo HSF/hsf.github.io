@@ -208,7 +208,7 @@ To design any pipeline, the following steps are essential:
 - This component submits the Katib Yaml automatically and communicates with a dockerized model training setup.
 - It saves the weights of the best model trained.
 - A UI dashboard summarises all experiments that Katib ran
-- A detailed discussion about the Katib Setup and its component construction can be found in Katib secton.
+- A detailed discussion about the Katib Setup and its component construction can be found in Katib section.
 
 
 ## Generate Component
@@ -654,7 +654,7 @@ krb_secret_volume_mount = k8s_client.V1VolumeMount(name=krb_secret_volume.name, 
 ## Katib 
 >Katib is a hyperparameter tuning framework that comes with Kubeflow. It provides scalability through k8s environment as it 
 > can run multiple trials in parallel. Katib is a host of various powerful algorithms that can be added in our workflow 
-> such as **NAS**, **Bayesian Optimisation**,**Grid Search**,etc. The Katib experiments are parallely run on GPUs
+> such as **NAS**, **Bayesian Optimisation**,**Grid Search**,etc. The Katib experiments are parallelly run on GPUs
 > and would strongly depend on the resource allocated to your namespace
 >
 
