@@ -244,7 +244,7 @@ np.concat() part was already implemented previously in the concat operator , i n
 | :---        |    :----:   |          ---: |
 | Extend Concat ONNX Operator to implement stack functionality as the ONNX ConcatFromSequence operator | [#11317](https://github.com/root-project/root/pull/11317)       | <img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor"> |
 
-## Some Useful Blogs written by me.
+## Some Useful Blogs and Important Links
 1) [Python Tutorials for various C files of Tutorials/TMVA](https://gist.github.com/Neel-Shah-29/7e46bee55f7c09a18e94696a0a3e5ccf)
 2) [Documentation on RModelParser_ONNX.cxx](https://gist.github.com/Neel-Shah-29/5c1399ccd23903928128822c6f3e0957)
 3) [Getting into GSOC 2022](https://gist.github.com/Neel-Shah-29/3f04f05a8a353605068e32e55a5093c1)
@@ -252,6 +252,7 @@ np.concat() part was already implemented previously in the concat operator , i n
 5) [Implementing the Operators in Sofie](https://gist.github.com/Neel-Shah-29/f0371566ca1e24a6b3a9b4097cdd44db)
 6) [Final Evaluation Detailed Report](https://gist.github.com/Neel-Shah-29/d51a9038dd07ef096127a62a92113fa0)
 7) [Final Project Presentation](https://docs.google.com/presentation/d/1VdOEkNsFcaBAo15kjVDRtJ_BWvVh9E6KgKzzrmkr1NQ/edit?usp=sharing)
+8) [GSOC Project Page](https://summerofcode.withgoogle.com/programs/2022/projects/vEuHzl6G)
 
 ## Proposal Link \: [Inference Code Generation for Deep Learning models](https://docs.google.com/document/d/1tvTY9Rq5j0XW8KFfvkWHWlmE__-94h-Nj0tCkMjYnzs/edit?usp=sharing)
 
