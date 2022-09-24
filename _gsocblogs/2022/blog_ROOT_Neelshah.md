@@ -209,6 +209,7 @@ Note that the `fOutput_shape` is determined by `fOutput_shape = { size_t(fEnd - 
 Max Operator calculates element-wise max of each of the input tensors (with Numpy-style broadcasting support). It also supports multi-directional broadcasting but currently we have support for only the input and output tensors of same length.
 
 - **PR Status**\:
+- 
 | Pull Request| PR Number |   Status     |
 | :---        |    :----:   |          ---: |
 | Max ONNX Operator | [#11198](https://github.com/root-project/root/pull/11198)       | <img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor"> |
