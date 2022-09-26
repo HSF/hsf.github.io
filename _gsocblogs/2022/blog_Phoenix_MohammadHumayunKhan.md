@@ -57,8 +57,8 @@ This culminated in the end of the GSoC project timeline for me but I would be gl
 
 #### Relevant Links
 
-- Project Work Summary: https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/SUMMARY.md
-- Project Roadmap: https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/ROADMAP.md
-- Project Progress: https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/PROGRESS.md
+- [Project Work Summary](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/SUMMARY.md)
+- [Project Roadmap](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/ROADMAP.md)
+- [Detailed Progress Report](https://github.com/DamianArado/GSoC-2022-Phoenix/blob/main/PROGRESS.md)
 
 Thanks a lot for reading and I wish you a great year ahead.
