@@ -1,13 +1,23 @@
 ---
 project: ATHENA
-title: A foray into HPC and Hardware Accelerators
+title: Electromagnetic Cluster Finding on GPUs
 author: Ujwal Kundur
+avatar: https://avatars.githubusercontent.com/u/54140487?s=400&u=75e8458ece81adfb9b12bca1aaaa2aa23f4c6b1a&v=4
 date: 22.07.2022
 year: 2022
 layout: blog_post
 logo: ATHENA-logo.png
 intro: |
-  Parallelizing the IslandCluster Algorithm for the EIC ECAL, a progress report.
+  Parallelizing the IslandCluster Algorithm for the EIC ECAL - A foray into HPC and Hardware Accelerators.
+---
+
+---
+
+### Code Contributions
+
+1. [Container with SYCL Support](https://eicweb.phy.anl.gov/containers/eic_container/-/merge_requests/306)
+2. [SYCL Enabled IslandClustering](https://eicweb.phy.anl.gov/EIC/juggler/-/merge_requests/469)
+
 ---
 
 ## Introduction
@@ -57,12 +67,67 @@ Now I could move onto the actual C++ code!
 My satisfaction with having a working container lasted but a few days. Intel's **VTune** Profiler which was meant to guide my optimization / parallelization efforts doesn't work with Python in containers as detailed in their [Docs](https://www.intel.com/content/www/us/en/develop/documentation/vtune-cookbook/top/configuration-recipes/profiling-in-docker-container.html).
 Why Python? The reconstruction algorithms are executed by the *Gaudi framework* which has up-to-date Python bindings, but the C++ Invocations and Documentation is dated and I could not make it work without Python bindings. This was unexpected and we are still trying to sort this out.
 
-My mentor, Dr. Wouter Deconinck was kind enough to grant me access to Compute Canada's HPC facilities for testing on a full blown Linux environment.
-I'll have figured out a way to Profile and hopefully finish Porting the Algorithm by mid-August and maybe I could write about how we solved the current problem in my final post.
+My mentor, Dr. Wouter Deconinck, was kind enough to grant me access to Compute Canada's HPC facilities for testing on a full-blown Linux environment.
+I'll have figured out a way to Profile and hopefully finish porting the Algorithm by mid-August.
 
-It has been a great learning experience and I'm really grateful to have awesome mentors and a cool community which I can be a part of. So Thanks CERN-HSF!!
+#### Post Midterm
 
-If you've reached the bottom of this page, Thank You! See you in a month,
+---
+
+## Turning Point
+
+> 1.08.2022 - 23.08.2022
+
+This period was by far the most gruelling. Without VTune, I had no guidance as to which functions I should be focusing on. While I tried reading documentation and looked up quite a few videos and articles on the web, I could not make progress.
+
+My mentors helped me here by providing an alternative build plan which enabled me to directly use **Juggler** (the algorithm library which IslandCluster is a part of) without the *Gaudi Framework*. This was possible due to the **PODIO** package, which allows read / write to ROOT files.
+
+With a bit of tweaking, tuning and reading lots of documentation, I arrived at the following workflow:
+
+1. Generate Events using an existing script used for benchmarking - [`gen_particles.py`](https://eicweb.phy.anl.gov/EIC/benchmarks/reconstruction_benchmarks/-/blob/master/benchmarks/clustering/scripts/gen_particles.py)
+
+2. Simulate particle interactions with `ddsim`
+
+3. Use Gaudi to run the initial Hit Digitization + Cell-ID mapping and output the Digitized and Reconstructed hits for clustering as a ROOT file.
+
+My test program kicks in here and reads this ROOT file and outputs the result of IslandClustering. There were a few linking errors with ROOT and I had to (again) look up documentation and use an arcane flag `-Wl,--copy-dt-needed-entries` to instruct the linker to look up symbols recursively across libraries.
+
+It took us a whole month to reach this point and I was really happy when the hard work paid off.
+
+This testing code was used for the remainder of the project and enabled me to profile and parallelize the Algorithm properly without interference. The Testing code can be found in my repo [here](https://github.com/Ajax-Light/GSoC-cernhsf-final).
+
+## Sick SYCL Code
+
+> 23.08.2022 - 23.09.2022
+
+As a lot of time was spent trying to get stuff to work, I didn't really have any Code contributions to show. With the final submission dates looming and nothing to show, I had to request an extension by 2 weeks which was approved by both my mentor and Org-Admin. This was a life-saver and I had enough time to work on the C++ / SYCL side of things.
+
+I was pretty new to C++ when I started and working on the project helped me learn a lot about the language features. Learning SYCL taught me to think in terms of parallelism and performance. After spending a good few weeks reading research papers and parallel algorithms to replicate a DFS done as a part of IslandCluster, I came up with a simple algorithm to emulate hit assignments, which I detail in the code. This period again, was very taxing mentally as I had to learn a lot of things quickly but I am all the better for it.
+
+However, the final results were pretty disappointing. SYCL code performed worse than "normal" sequential code at varying workloads. Why? No GPU support - During this time I realized that the Intel provided OneAPI containers that oneapi_jug_xl was based on did not provide **CUDA** as a backend as it was still in experimental stage. This was another blow to an already difficult project. This meant we had to re-evaluate the entire SYCL setup and it was agreed upon that this was out of scope of the current project.
+
+Since we had no access to AMD GPUs - which support OpenCL by default (the GPGPU scene is dominated by NVidia and CUDA), I had to settle for a performance comparison of SYCL and Non-SYCL code on the same AMD EPYC 32-core CPU used in Compute Canada's HPC systems. Hence, the comparison results you see below are sub-par and show poor performance on SYCL's part. However, I believe that given proper hardware, software stack and tuning, many algorithms in Juggler will greatly benefit from SYCL support.
+
+![Wall-Time Cmpr](https://github.com/Ajax-Light/GSoC-cernhsf-final/raw/master/reports/WallTime-compare.png)
+
+The SYCLized code was merged into master, Merge Request [here](https://eicweb.phy.anl.gov/EIC/juggler/-/merge_requests/469).
+
+## Conclusion
+
+Few things which remain to be worked on are:
+
+* Smaller image size for `oneapi_jug_xl`
+* Adding `CUDA` support to the oneapi containers
+* Further optimizations and tuning for the SYCLized `IslandCluster` Algorithm
+
+While the project has been *way*, *way* harder to work on than I had initially anticipated, it was incredibly rewarding and I'm grateful to have had the opportunity to contribute to such an exotic project and work with amazing people in a completely different discipline from mine.
+
+I cannot thank my mentors, Dr. Wouter Deconinck and Sylvester Joosten enough for their help and for being so patient with me even when I bombard them with questions :)
+
+I hope to continue contributing to Juggler and the EIC Software after GSoC as well and am looking forward to see the software in action in the near future.
+
+If you've reached the bottom of this page, Thank You!
+
 Cheers,
 Ujwal.
 
