@@ -1,7 +1,8 @@
 ---
 project: Geant4
-title: Geant4-FastSim - Geant4-FastSim - Building an ML pipeline for fast shower simulation
+title: Geant4-FastSim - Building an ML pipeline for fast shower simulation
 author: Guneet Singh Kohli
+photo: blog_authors/GuneetSingh.jpg
 date: 29.07.2022
 year: 2022
 layout: blog_post
@@ -9,7 +10,23 @@ logo: Geant4-logo.png
 intro: |
   A KubeFlow pipeline for training ML Fast Simulation in Geant4.
 ---
+# Introduction:
+Hi, I am Guneet Singh a recent Computer Science graduate who participated in GSoC 2022 and was a part of Geant4 team to build an end to end Kubeflow Pipeline for training ML Fast Simulation. The project was completed over the summer and the outcomes of the project have been highlighted in the next section.
 
+This report is an indepth documentation for beginners and intermdediate level experts in Kubeflow to get started. The report first discusses the problem statement and what were the tasks that had to be completed. In the next part I have discussed about Kubeflow and the conversion of an existing Python project to a Kubeflow working pipeline supported with code snippets and screenshots. The later part of the report focusses on a step by step procedure to work with your pipelines on Kubeflow and use its powerful hyperparameter tuning tool called Katib.
+
+This documentation would make sure that someone who is new to Kubeflow in Geant4 team or any other team in CERN can easily start creating pipelines and use the CERN GPU resources. I have also added personal tips and tricks to make it descriptive so that the user doesn't get lost in the vastness of the topic online and use their time to focus more on the experimentations. It also provides some guidance in handling docker images though the user is expected to have some basic familiarity with the docker concepts.
+
+# Outcomes from GSOC 2022
+1. Persistent Memory setup and configuration with EOS in Kubeflow Pipeline
+2. Reformatted the python code into Kubflow function format
+3. One click pipeline implementation with all the Kubeflow workflow abstracted
+4. Refactoring the training loop to handle large amount of data
+5. Experimented with different float precisions, number of events, max/ min angle and energy to determine the maximum data handling capabilities of the pipeline with 8GB CPU
+6. Katib Hyperparameter tuning integration into Pipeline
+7. Submitting and configuring the Pipeline setup and Katib YAML automatically into Kubeflow Dashboard without user involvement
+8. Well Designed Documented Code written to help users implement Kubeflow methodology for different workflows.
+9. In detail documentation to understand and adopt Kubeflow Workflow
 # Problem Statement:
 
 In Large Hadron Collider (LHC) experiments at CERN in Geneva, the calorimeter is a crucial detector technology to measure the energy of particles. These particles interact electromagnetically and/or hadronically with the material of the calorimeter, creating cascades of secondary particles or showers. Describing the showering process relies on simulation methods describing all particle interactions with matter. A detailed and accurate simulation is based on the Geant4 toolkit. Constrained by the need for precision, the simulation is inherently slow and constitutes a bottleneck for physics analysis. Furthermore, with the upcoming high luminosity upgrade of the LHC with more complex events and a much-increased trigger rate, the amount of required simulated events will increase. Machine Learning (ML) techniques such as generative modeling are used as fast simulation alternatives to learn to generate showers in a calorimeter, i.e., simulating the calorimeter response to certain particles. The pipeline of a fast simulation solution can be categorized into five components: data preprocessing, ML model design, validation, inference, and optimization. The preprocessing module allows us to derive a suitable representation of showers and to perform data cleaning, scaling, and encoding. The preprocessed data is then used by the generative model for training. To search for the best set of hyperparameters of the model, techniques such as Automatic Machine Learning (AutoML) are used. The validation component is based on comparing different ML metrics and physics quantities between the input and generated data. The aim of this project is to optimize the ML pipeline of the fast simulation approach using the open-source platform Kubeflow. Furthermore, a byproduct of this project is that the student will gain expertise in cutting-edge ML techniques and learn to use them in the context of high granularity image generation and fast simulation. Moreover, this project can serve as a baseline for future ML pipelines for all experiments at CERN.You can check furthe details [**here**](https://g4fastsim.web.cern.ch/).
@@ -798,16 +815,7 @@ YAML files for each python component which will be a part of the Kubeflow Pipeli
 
 `STEP10`: To check the results open the `runs` tab to see final pipeline graphs and `AutoML` tab to access the Katib Hyper Parameter Tuning 
 
-# Outcomes from GSOC 2022
-1. Persistent Memory setup and configuration with EOS in Kubeflow Pipeline
-2. Reformatted the python code into Kubflow function format
-3. One click pipeline implementation with all the Kubeflow workflow abstracted
-4. Refactoring the training loop to handle large amount of data
-5. Experimented with different float precisions, number of events, max/ min angle and energy to determine the maximum data handling capabilities of the pipeline with 8GB CPU
-6. Katib Hyperparameter tuning integration into Pipeline
-7. Submitting and configuring the Pipeline setup and Katib YAML automatically into Kubeflow Dashboard without user involvement
-8. Well Designed Documented Code written to help users implement Kubeflow methodology for different workflows.
-9. In detail documentation to understand and adopt Kubeflow Workflow
+
 
 
 
