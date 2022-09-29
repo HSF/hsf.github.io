@@ -206,7 +206,7 @@ Note that the `fOutput_shape` is determined by `fOutput_shape = { size_t(fEnd - 
 
 - **Definition\:** [Max ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Max)
 
-Max Operator calculates element-wise max of each of the input tensors (with Numpy-style broadcasting support). It also supports multi-directional broadcasting but currently we have support for only the input and output tensors of same length.
+Max Operator calculates element-wise max of each of the input tensors (with Numpy-style broadcasting support). It also supports multi-directional broadcasting as well.
 
 - **PR Status**\:
 - 
