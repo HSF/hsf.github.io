@@ -174,27 +174,25 @@ To design any pipeline, the following steps are essential:
 - Original `Preprocess Python Function` has been implemented [here](https://github.com/DalilaSalamani/MLFastSim/blob/f8ecea36d2f7bd55cd406c452bdb5248088d058d/preprocess.py)
 - Refactored `Preprocess Kubeflow Function` focuses on how transferring of variables between components take place. [Check here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/preprocess.py)
 
-> - In Python files the variables are accessible to different files in same repo. 
 > 
 > - In Kubeflow we can not transfer arrays, list ,dictionaries, dataframes, etc. like we pass str,int,bool or float. 
 > 
 > - Each Kubeflow component lives and executes in different containers.
 >
-> - To establish the connection between these components we use persistent memory (EOS) to store large data structures or data
-> and pass the location path of these from component to another which can be observed in the last part of code snippet above
+> - To establish the connection between components we use persistent memory (EOS) to store large data
+> and pass the location path from one component to another.
 > 
 
 ### Interacting with Class definitions and instantiations in Kubeflow
 - The model.py file, as seen [here](https://github.com/DalilaSalamani/MLFastSim/blob/main/core/model.py) shows the definition of a Model Class and its functions. 
 - The Model Architecture Class can be handled by first defining model class ,followed by instantiating, training and saving in one single component.
 - Another way of handling class is saving the class definition in the memory as pickle or a dill object in one component and loading this saved object in other component to instantiate it and use its functions
-- The problem in the latter case, is that pickle fails to handle nested class structure.Thus it's better to define , instantiate, train and save the model in a single component to avoid complexities.
+- The problem in the latter case, is that pickle fails to handle nested class structure.Thus, it's better to define , instantiate, train and save the model in a single component to avoid complexities.
 - You can click [**here**](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/model_setup.py) to see the Kubeflow implementation of Model setup.
 
 ### Loading saved Model in other component.
 - The Model trained by the `Model_Setup` component has to be loaded in the `Generate Component`
 - To generate showers after the model training a sampling from the distribution of the latent space is performed for which we require the decoder from the trained model
-- To load the weights from the memory, an object of the Model class will be required
 - To create the object, the model class needs to be defined and instantiated again in the calling component 
 - Once object is created successfully, it is capable to load the saved weights from the `EOS`
 - To understand the execution of such case, check my repo [**here**](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/generate.py).
