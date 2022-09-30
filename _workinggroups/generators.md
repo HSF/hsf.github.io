@@ -50,7 +50,7 @@ in [Overleaf](https://www.overleaf.com/1326158343ftxgrxxcspxg)
 [agenda](https://indico.cern.ch/event/778521),
 [minutes]({{ site.baseurl }}/organization/2018/12/11/generators.html),
 HSF meeting [report]({{ site.baseurl }}/organization/2018/12/13/coordination.html)
-- (2018) Computing Workshop, CERN, 26-28 November 2018: 
+- (2018) Computing Workshop, CERN, 26 November 2018 - 28 November 2018: 
 [agenda](https://indico.cern.ch/event/751693),
 [minutes]({{ site.baseurl }}/organization/2018/11/26/generators.html)
 - (2017) Generator and theory CWP chapter draft:
@@ -66,7 +66,7 @@ on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-C
 - Efe Yazgan, CMS and National Taiwan University (2020-2022)
 - Josh McFayden, ATLAS and University of Sussex (2018-2022)
 
-All convenors can be reached [by email](mailto:hsf-generator-wg-convenors@googlegroups.com). <!-- markdown-link-check-disable-line -->
+All convenors can be reached [by email](mailto:hsf-generator-wg-convenors@googlegroups.com) <!-- markdown-link-check-disable-line -->
 
 #### Former convenors
 
