@@ -11,42 +11,36 @@ intro: |
   A KubeFlow pipeline for training ML Fast Simulation in Geant4.
 ---
 # Introduction:
-Hi, I am Guneet Singh a recent Computer Science graduate who participated in GSoC 2022 and was a part of Geant4 team to build an end to end Kubeflow Pipeline for training ML Fast Simulation. The project was completed over the summer and the outcomes of the project have been highlighted in the next section.
+Hi, I am Guneet Singh a recent Computer Science graduate who participated in GSoC 2022 and was a part of Geant4 fast simulation group to build an end to end Kubeflow Pipeline for training machine learning based model for fast shower simulation. The project was completed over the summer and the outcomes of the project have been highlighted in the next section.
 
-This report is an indepth documentation for beginners and intermdediate level experts in Kubeflow to get started. The report first discusses the problem statement and what were the tasks that had to be completed. In the next part I have discussed about Kubeflow and the conversion of an existing Python project to a Kubeflow working pipeline supported with code snippets and screenshots. The later part of the report focuses on a step by step procedure to work with your pipelines on Kubeflow and use its powerful hyperparameter tuning tool called Katib. 
-> All the mentioned points have been made in reference to the code prepared for the ML Fast Simulation Pipeline.
-
-This documentation would make sure that someone who is new to Kubeflow in Geant4 team or any other team in CERN can easily start creating pipelines and use the CERN GPU resources. I have also added personal tips and tricks to make it descriptive so that the user doesn't get lost in the vastness of the topic online and use their time to focus more on the experimentations. It also provides some guidance in handling docker images though the user is expected to have some basic familiarity with the docker concepts.
-
+The project's objective is to use Kubeflow to handle the development of a scalable ML Pipeline for the ML FastSimulation in Geant4. The Training would be used to generate an optimised tuned generative  model which will later be used to perform Inference in Geant4. Motivation behind using Kubeflow ML pipelines is as follows:
+- Utilise power of Kubernetes to run ML jobs
+- Support for the entire lifecycle of ML applications
+- Training, inference, deployment
+- Katib powered hyperparameter tuning 
+- Open source, wide community support
+> Kubeflow is a free, open-source machine learning platform that makes it possible for machine learning pipelines to orchestrate complicated workflows running on Kubernetes.
 # Outcomes from GSOC 2022
-1. Persistent Memory setup and configuration with EOS in Kubeflow Pipeline
-2. Reformatted the python code into Kubflow function format
+1. Experimented with different float precisions, number of events, max/ min angle and energy to determine the maximum data handling capabilities of the pipeline with 8GB CPU
+2. Reformatted the python code into Kubeflow function format
 3. One click pipeline implementation with all the Kubeflow workflow abstracted
-4. Refactoring the training loop to handle large amount of data
-5. Experimented with different float precisions, number of events, max/ min angle and energy to determine the maximum data handling capabilities of the pipeline with 8GB CPU
+4. Persistent Memory setup and configuration with EOS in Kubeflow Pipeline
+5. Refactoring the training loop to handle large amount of data
 6. Katib Hyperparameter tuning integration into Pipeline
 7. Submitting and configuring the Pipeline setup and Katib YAML automatically into Kubeflow Dashboard without user involvement
 8. Well Designed Documented Code written to help users implement Kubeflow methodology for different workflows.
 9. In detail documentation to understand and adopt Kubeflow Workflow
 # Problem Statement:
 
-In Large Hadron Collider (LHC) experiments at CERN in Geneva, the calorimeter is a crucial detector technology to measure the energy of particles. These particles interact electromagnetically and/or hadronically with the material of the calorimeter, creating cascades of secondary particles or showers. Describing the showering process relies on simulation methods describing all particle interactions with matter. A detailed and accurate simulation is based on the Geant4 toolkit. Constrained by the need for precision, the simulation is inherently slow and constitutes a bottleneck for physics analysis. Furthermore, with the upcoming high luminosity upgrade of the LHC with more complex events and a much-increased trigger rate, the amount of required simulated events will increase. Machine Learning (ML) techniques such as generative modeling are used as fast simulation alternatives to learn to generate showers in a calorimeter, i.e., simulating the calorimeter response to certain particles. The pipeline of a fast simulation solution can be categorized into five components: data preprocessing, ML model design, validation, inference, and optimization. The preprocessing module allows us to derive a suitable representation of showers and to perform data cleaning, scaling, and encoding. The preprocessed data is then used by the generative model for training. To search for the best set of hyperparameters of the model, techniques such as Automatic Machine Learning (AutoML) are used. The validation component is based on comparing different ML metrics and physics quantities between the input and generated data. The aim of this project is to optimize the ML pipeline of the fast simulation approach using the open-source platform Kubeflow. Furthermore, a byproduct of this project is that the student will gain expertise in cutting-edge ML techniques and learn to use them in the context of high granularity image generation and fast simulation. Moreover, this project can serve as a baseline for future ML pipelines for all experiments at CERN.You can check furthe details [**here**](https://g4fastsim.web.cern.ch/).
-# ML FastSim in Geant4 Training Pipeline
+In Large Hadron Collider (LHC) experiments at CERN in Geneva, the calorimeter is a crucial detector technology to measure the energy of particles. These particles interact electromagnetically and/or hadronically with the material of the calorimeter, creating cascades of secondary particles or showers. Describing the showering process relies on simulation methods describing all particle interactions with matter. A detailed and accurate simulation is based on the Geant4 toolkit. Constrained by the need for precision, the simulation is inherently slow and constitutes a bottleneck for physics analysis. Furthermore, with the upcoming high luminosity upgrade of the LHC with more complex events and a much-increased trigger rate, the amount of required simulated events will increase. Machine Learning (ML) techniques such as generative modeling are used as fast simulation alternatives to learn to generate showers in a calorimeter, i.e., simulating the calorimeter response to certain particles. The pipeline of a fast simulation solution can be categorized into five components: data preprocessing, ML model design, validation, inference, and optimization. The preprocessing module allows us to derive a suitable representation of showers and to perform data cleaning, scaling, and encoding. The preprocessed data is then used by the generative model for training. To search for the best set of hyperparameters of the model, techniques such as Automatic Machine Learning (AutoML) are used. The validation component is based on comparing different ML metrics and physics quantities between the input and generated data. The aim of this project is to optimize the ML pipeline of the fast simulation approach using the open-source platform Kubeflow. You can check further details [**here**](https://g4fastsim.web.cern.ch/).
+# ML FastSim Training Pipeline
 ***
-The project's objective is to use Kubeflow to handle the development of a scalable ML Pipeline for the ML FastSimulation in Geant4. The Training would be used to generate an optimised tuned generative model which will later be connected with Inference. Motivation behind using Kubeflow ML pipelines is as follows:
-- Utilise power of Kubernetes to run ML jobs
-- Support for the entire lifecycle of ML applications
-- Training, inference, deployment
-- Katib powered hyperparameter tuning 
-- Open source, wide community support
 
-## The ML FastSim in Geant4  components
+The ML FastSim in Geant4  components
 - **Training** 
 - **Inference**
 
->Training a  pipeline involves preparing an ML workflow that can be broken down into individual functionalities through which respective Pipeline components can be derived and made into a separate entity. Some basic functionalities are Input Parameters, Preprocessing, Exploratory Data Analysis, Model Hyperparameters, Model architecture definition, Model Instantiation and training, Model Validation, Tuning and many more based on the type of projects we are dealing with.
-
-## The ML FastSimulation (Training) in Geant4 can be broken down into the following functional components
+The ML FastSimulation (Training) in Geant4 can be broken down into the following functional components:
 - **Input Parameters**
 - **Preprocessing of Data**
 - **Model Parameters**
@@ -56,7 +50,7 @@ The project's objective is to use Kubeflow to handle the development of a scalab
 - **Validations of Results through Visualisations**
 
 
-## Par04 Project Structure
+**ML FastSim project**
 
 Before beginning the discussion about the Kubeflow Component Creation, it is important to look at the python code base which will later be reformatted according to kubeflow pipeline generation requirements
 ```
@@ -78,7 +72,7 @@ Before beginning the discussion about the Kubeflow Component Creation, it is imp
 ```
 >The Full codebase can be found [here.](https://github.com/DalilaSalamani/MLFastSim)
 
-## Refactored Par04 Project into Kubeflow Pipeline
+**Refactored ML FastSim project into Kubeflow Pipeline**
 ```
 |---main.py
 |---configuration.py
@@ -103,78 +97,16 @@ Before beginning the discussion about the Kubeflow Component Creation, it is imp
 - Training Docker: Directory containing the model training script with docker setup for its integration into the pipeline
 - Configuration File: Defines and initialised the constant variables to be used in the pipeline. All the components digest the variables through this configuration file
 - Katib YAML Template: Pipeline Components: Directory containing original python components refactored in Kubeflow functions 
-Training Docker: Directory containing the model training script with docker setup for its integration into the pipeline
-Configuration File: Defines and initialised the constant variables to be used in the pipeline. All the components digest the variables through this configuration file
-Katib YAML Template: A yaml template has been prepared which is edited at runtime by the code. This makes Katib integration smooth and automated.
-Generate YAML file : A file to process the refactored kubeflow python scripts into kubeflow components yaml
-Main file to encapsulate the logic and generate results.
-Curating the components YAML together into a Pipeline and submitting it automatically to the Kubeflow Dashboard
-Configure the EOS memory with the components
-Configure the resource allocation of all the components
-A yaml template has been prepared which is edited at runtime by the code. This makes Katib integration smooth and automated.
+- Training Docker: Directory containing the model training script with docker setup for its integration into the pipeline
+- Configuration File: Defines and initialised the constant variables to be used in the pipeline. All the components digest the variables through this configuration file
+- Katib YAML Template: A yaml template has been prepared which is edited at runtime by the code. This makes Katib integration smooth and automated.
 - Generate YAML file : A file to process the refactored kubeflow python scripts into kubeflow components yaml
 - Main file to encapsulate the logic and generate results.
   - Curating the components YAML together into a Pipeline and submitting it automatically to the Kubeflow Dashboard
   - Configure the EOS memory with the components
   - Configure the resource allocation of all the components
 
-# Kubeflow
-***
-
-## What is Kubeflow?
->Kubeflow is a free, open-source machine learning platform that makes it possible for machine learning pipelines to orchestrate complicated workflows running on Kubernetes. Kubeflow was first released in 2017, built by developers from Google, Cisco, IBM, Red Hat, and more.The “Kube” in Kubeflow comes from the server orchestration tool Kubernetes. Kubeflow runs on Kubernetes clusters either locally or in the cloud, easily enabling the power of training machine learning models on multiple computers, accelerating the time to train a model. “Flow” was given to signal that Kubeflow sits among other workflow schedulers like ML Flow, FBLearner Flow, and Airflow.
-## Why Kubeflow ?
-- Have separate environments and resources configured for each component in the pipeline
-- Leverage the power of Katib for smooth hyperparameter tuning. Use algorithms like NAS, grid search etc.
-- Run multiple pipelines together without affecting each other resource requirements
-- Allows to use dedicated (GPU) resources at **CERN** **_(ml.cern.ch)_**
-- Has a DSL (Domain Specific Language) compiler that transforms pipeline’s python code into a static configuration (YAML) 
-
-## Kubeflow Pipeline
-Kubeflow Pipelines is the Kubeflow extension that provides the tools to create machine learning workflows. Basically these workflows are chains of tasks designed in the form of graphs and that are represented as Directed Acyclic Graphs (DAGs). Each node of the graph is called a component, where that component represents a self-contained task which lives inside a docker container
-
-## Kubeflow Elements
-The following section mentions about some of the common Kubeflow SDK functions and packages that are constantly used while creating a Kubeflow Pipeline. These elements are native to Kubeflow and help in building the pipeline with ease.
-
-### Kubeflow Packages
-- [`kfp.Client`](https://www.kubeflow.org/docs/components/pipelines/sdk/sdk-overview/#:~:text=the%20boolean%20expression.-,kfp.Client,-contains%20the%20Python) contains the Python client libraries for the Kubeflow Pipelines API.
-- [`kfp.dsl`](https://kubeflow-pipelines.readthedocs.io/en/stable/source/kfp.dsl.html) contains the domain-specific language (DSL) that you can use to define and interact with pipelines and components. 
-- [`kfp.components`](https://www.kubeflow.org/docs/components/pipelines/sdk/sdk-overview/#:~:text=resources%20for%20execution.-,kfp.components,-includes%20classes%20and) includes classes and methods for interacting with pipeline components.
-- [`kfp.compiler`](https://www.kubeflow.org/docs/components/pipelines/sdk/sdk-overview/#:~:text=the%20following%20packages%3A-,kfp.compiler,-includes%20classes%20and) includes classes and methods for compiling pipeline Python DSL into a workflow yaml spec.
-
-### Kubeflow functions
->Note : The Kubeflow Pipeline SDK currently have two versions: v1 and v2. The current pipeline developed in the project was done using v1 but for future reference it is important to consider the migration to stable v2 version as well.
-- `kfp.components.create_component_from_func` Converts a user defined Python function to a Kubeflow component. The following [example](https://kubeflow-pipelines.readthedocs.io/en/1.8.13/source/kfp.components.html#:~:text=in%20a%20container.-,Examples,-The%20function%20name) explains about the given function in details. 
-- `kfp.components.create_component_from_func_v2` Converts a Python function to a component for the v2 version of kubeflow SDK.
-- `kfp.compiler.Compiler.compile` Compiles your Python DSL code into a single static configuration (in YAML format) that the Kubeflow Pipelines service can process.
-- `kfp.dsl.component` It is a decorator for DSL functions that returns a pipeline component.
-- `kfp.dsl.VolumeOp` Represents a pipeline task (op) which creates a new PersistentVolumeClaim (PVC). It aims to make the common case of creating a PersistentVolumeClaim fast.
-- `kfp.Client.create_experiment` Creates a pipeline experiment and returns an experiment object.
-- `kfp.Client.run_pipeline` It runs a pipeline and returns a run object.
-- `kfp.Client.create_run_from_pipeline_func` Compiles a pipeline function and submits it for execution on Kubeflow Pipelines.
-- `kfp.Client.create_run_from_pipeline_package` Runs a local pipeline package on Kubeflow Pipelines.
-- `kfp.Client.upload_pipeline` Uploads a local file to create a new pipeline in Kubeflow Pipelines.
-- `kfp.Client.upload_pipeline_version` It uploads a local file to create a pipeline version
-
-### Kubeflow Pipelines CLI Interactions
-- [`kubectl`](https://kubernetes.io/docs/reference/kubectl/) Kubernetes provides a command line tool for communicating with a Kubernetes cluster's control plane, using the Kubernetes API.
-  -  `kubectl get pods` Returns the list of the pods living inside your namespace
-  - `kubectl describe pod <pod_name>` Describes the pod specifications and configurations
-  - `kubectl get pod POD_NAME -oyaml` To get the pod YAML
-  - `kubectl logs <Katib Job Pod Name> -c training-container` Describes the details about the Katib experiment running
-  - `kubectl delete pod <pod_name>` Delete a Pod in your namespace
-  - `kubectl top pod` Display Resource usage
->Note: For more kubectl commands visit this amazing [cheatsheet](https://www.bluematador.com/learn/kubectl-cheatsheet) by **BlueMatador**
-- [`kfp diagnose_me`](https://www.kubeflow.org/docs/components/pipelines/sdk/sdk-overview/#:~:text=kfp%20diagnose_me%20runs%20environment%20diagnostic) Runs environment diagnostic
-- `kfp pipeline <COMMAND>` provides the following commands to help you manage pipelines
-  - `get`  Gets detailed information about a Kubeflow pipeline from your Kubeflow Pipelines cluster
-  - `list`  Lists the pipelines that have been uploaded to your Kubeflow Pipelines cluster.
-  - `upload`  Uploads a pipeline to your Kubeflow Pipelines cluster.
-- `kfp run <COMMAND>` provides the following commands to help you manage pipeline runs:
-  - `get` - Displays the details of a pipeline run.
-  - `list` - Lists recent pipeline runs.
-  - `submit` - Submits a pipeline run.
-
+    
 # Kubeflow Pipeline Preparation
 ***
 
@@ -192,13 +124,7 @@ To design any pipeline, the following steps are essential:
 * Custom Docker Images can be created if the standard images doesn't fulfill the requirement
 * Creation of Docker Images and custom environments for the components have discussed in later sections
 * CERN employs the use of EOS for its memory management. EOS will be used as persistent memory for our kubeflow pipelines
-* The setup of EOS in the Kubeflow has been discussed in `Memory Management Section`.
-* Kubeflow Visualisations Tool is great for visualising classification models and basic regression metrics.
-* Create an HTML page or a Markdown File to showcase your visualizations through Kubeflow because the UI is still incapable of handling the complex visualizations implicitly.
-* Kubeflow also provides a powerful tool called Kale which can convert any standard jupyter notebook into a kubeflow pipeline without writing a single line of code. 
->Kale is sometimes not preferred since it doesn't offer great control over the workflow and eventually would not help in moving ahead with complex code bases 
->
-> However if the code logic is simple Kale can act as a quick problem solver by creating a End to End Pipeline through Kubeflow UI.
+* Kubeflow also provides a powerful tool called Kale which can convert any standard jupyter notebook into a kubeflow pipeline without writing a single line of code.
 * Your component’s goal may be to create a dataset in an external service, such as a BigQuery table. In this case, it may make sense for the component to output an identifier for the produced data, such as a table name, instead of the data itself.
 * Since input and output paths are passed in as command-line arguments, your component’s code must be able to read inputs from the command line. If your component is built with Python, libraries such as argparse and absl.flags make it easier to read your component’s inputs.
 * Your component’s code can be implemented in any language, so long as it can run in a container image.
@@ -248,192 +174,19 @@ To design any pipeline, the following steps are essential:
 > All the examples demonstrates different use cases which are intensively required in any ML workflow. 
 > In reference to the discussion in `Kubeflow Pipeline Preparation` the upcoming points would help in grasping those suggestions and understand the blockers usually faced and how to solve them.
 
-## Setting up a configuration file for initialising all the global variables that would be used throughout the project
+- Setting up a configuration file for initialising all the global variables that would be used throughout the project
+- Configuration file can be found [here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/configuration.py)
 
-```
-nCells_z = 45
-nCells_r =  18
-nCells_phi = 50
-min_energy = 1
-max_energy = 1
-min_angle = 50
-max_angle = 50
-init_dir = '/eos/user/g/gkohli/'
-checkpoint_dir = '/eos/user/g/gkohli/checkpoint/'
-conv_dir = '/eos/user/g/gkohli/conversion/'
-valid_dir = '/eos/user/g/gkohli/validation/'
-gen_dir = '/eos/user/g/gkohli/generation/'
-save_dir = '/eos/user/g/gkohli/visualisations/'
-Katib_files = '/eos/user/g/gkohli/Katib_test/'
-batch_size = 100
-intermediate_dim1 = 100
-intermediate_dim2 = 50
-intermediate_dim3 = 20
-intermediate_dim4 = 14
-latent_dim = 10
-epsilon_std = 1
-mu = 0
-epochs = 100
-lr = 0.001
-outActiv = 'sigmoid'
-validation_split = 0.05
-wkl = 0.5
-ki = 'RandomNormal'
-bi = 'Zeros'
-earlyStop = True
-name_experiment = 'demo-test1'
-
-```
- ## Identifying the First Component of the Pipeline
+ ### Identifying the First Component of the Pipeline
 - The first section of any Pipeline would aim to initialise the variables that will be required throughout the pipeline
-- In our case the first component was `Input Parameters` 
+- In our case the first component was `Input Parameters` about which had discussed in previous section.
 - This component digest all the parameters from the configuration.py file
 
-```
-def input_parameters(nCells_z: int, nCells_r: int, nCells_phi: int, min_energy: int, max_energy: int, min_angle: int,
-                     max_angle: int, init_dir: str, checkpoint_dir: str, valid_dir: str, gen_dir: str, save_dir: str,
-                     Katib_files: str) \
-        -> NamedTuple('Variable_Details',
-                      [('nCells_z', int), ('nCells_r', int), ('nCells_phi', int), ('original_dim', int),
-                       ('min_energy', int), ('max_energy', int), ('min_angle', int), ('max_angle', int),
-                       ('init_dir', str), ('checkpoint_dir', str), ('conv_dir', str), ('valid_dir', str),
-                       ('gen_dir', str), ('save_dir', str), ('Katib_files', str)]):
-    """
-    Handling Input Parameters of the project
-    :return: The global input variables
-    """
-    nCells_z, nCells_r = nCells_z, nCells_r
-    nCells_phi = nCells_phi
-    min_energy = min_energy
-    max_energy = max_energy
-    min_angle = min_angle
-    max_angle = max_angle
-    init_dir = init_dir
-    checkpoint_dir = checkpoint_dir
-    conv_dir = '<USE IF REQUIRED>'
-    valid_dir = valid_dir
-    gen_dir = gen_dir
-    save_dir = save_dir
-    Katib_files = Katib_files
 
-    return (nCells_z, nCells_r, nCells_phi, nCells_z * nCells_r * nCells_phi, min_energy, max_energy,
-            min_angle, max_angle, init_dir, checkpoint_dir, conv_dir, valid_dir, gen_dir, save_dir, Katib_files)
-```
+### Transferring variables which are not string, integer, boolean or float
+- Original `Preprocess Python Function` has been implemented [here](https://github.com/DalilaSalamani/MLFastSim/blob/f8ecea36d2f7bd55cd406c452bdb5248088d058d/preprocess.py)
+- Refactored `Preprocess Kubeflow Function` focuses on how transferring of variables between components take place. [Check here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/preprocess.py)
 
-
-## Transferring variables which are not string, integer, boolean or float
-
-### Preprocess Python function
-```
-def preprocess():
-    energies_train = []
-    cond_e_train = []
-    cond_angle_train = []
-    cond_geo_train = []
-    # This example is trained using 2 detector geometries
-    for geo in ["SiW", "SciPb"]:
-        dir_geo = INIT_DIR + geo + "/"
-        # loop over the angles in a step of 10
-        for angle_particle in range(MIN_ANGLE, MAX_ANGLE + 10, 10):
-            f_name = f"{geo}_angle_{angle_particle}.h5"
-            f_name = dir_geo + f_name
-            # read the HDF5 file
-            h5 = h5py.File(f_name, "r")
-            # loop over energies from min_energy to max_energy
-            energy_particle = MIN_ENERGY
-            while energy_particle <= MAX_ENERGY:
-                # scale the energy of each cell to the energy of the primary particle (in MeV units)
-                events = np.array(h5[f"{energy_particle}"]) / (energy_particle * 1000)
-                energies_train.append(events.reshape(len(events), ORIGINAL_DIM))
-                # build the energy and angle condition vectors
-                cond_e_train.append([energy_particle / MAX_ENERGY] * len(events))
-                cond_angle_train.append([angle_particle / MAX_ANGLE] * len(events))
-                # build the geometry condition vector (1 hot encoding vector)
-                if geo == "SiW":
-                    cond_geo_train.append([[0, 1]] * len(events))
-                if geo == "SciPb":
-                    cond_geo_train.append([[1, 0]] * len(events))
-                energy_particle *= 2
-    # return numpy arrays
-    energies_train = np.concatenate(energies_train)
-    cond_e_train = np.concatenate(cond_e_train)
-    cond_angle_train = np.concatenate(cond_angle_train)
-    cond_geo_train = np.concatenate(cond_geo_train)
-    return energies_train, cond_e_train, cond_angle_train, cond_geo_train
-```
-### Preprocess Kubeflow Function
-```
-def preprocess_new(nCells_z: int, nCells_r: int, nCells_phi: int, original_dim: int, min_energy: int, max_energy: int,
-                   min_angle: int, max_angle: int, init_dir: str, checkpoint_dir: str, conv_dir: str, valid_dir: str,
-                   gen_dir: str) -> NamedTuple('Variable_Details',
-                                               [('energies_train_location', str), ('condE_train_location', str),
-                                                ('condAngle_train_location', str), ('condGeo_train_location', str)]):
-    """
-    Helps in preprocessing the input data for the VAE
-    :param nCells_z:
-    :param nCells_r:
-    :param nCells_phi:
-    :param original_dim:
-    :param min_energy: Min energy in the training data
-    :param max_energy: Max energy in the training data
-    :param min_angle: Min angle in the training data
-    :param max_angle: Max angle in the training data
-    :param init_dir: Directory where all your corresponding results will be saved
-    :param checkpoint_dir: Saving the training checkpoints
-    :param conv_dir: Directory to save the converted model
-    :param valid_dir: Saving the validation results
-    :param gen_dir: Saving to generate model
-    :return: Returns the path of the training files locations
-    """
-    import h5py
-    import numpy as np
-    import os
-    import shutil
-    energies_Train = []
-    condE_Train = []
-    condAngle_Train = []
-    condGeo_Train = []
-    training_data_inputs = init_dir + 'Intermediate_Train'
-    shutil.rmtree(training_data_inputs)
-    os.mkdir(training_data_inputs)
-    # This example is trained using 2 detector geometries
-    for geo in ['SciPb']:
-        dirGeo = init_dir + geo + '/'
-        # loop over the angles in a step of 10
-        for angleParticle in range(min_angle, max_angle + 10, 10):
-            fName = '%s_angle_%s.h5' % (geo, angleParticle)
-            fName = dirGeo + fName
-            h5 = h5py.File(fName)
-            energyParticle = min_energy
-            while energyParticle <= max_energy:
-                # scale the energy of each cell to the energy of the primary particle (in MeV units) 
-                events = np.array(h5['%s' % energyParticle]) / (energyParticle * 1000)
-                energies_Train.append(events.reshape(len(events), original_dim))
-                # build the energy and angle condition vectors
-                condE_Train.append([energyParticle / max_energy] * len(events))
-                condAngle_Train.append([angleParticle / max_angle] * len(events))
-                # build the geometry condition vector (1 hot encoding vector)
-                if geo == 'SiW':
-                    condGeo_Train.append([[0, 1]] * len(events))
-                if geo == 'SciPb':
-                    condGeo_Train.append([[1, 0]] * len(events))
-                energyParticle *= 2
-    # return numpy arrays 
-    energies_Train = np.concatenate(energies_Train)
-    condE_Train = np.concatenate(condE_Train)
-    condAngle_Train = np.concatenate(condAngle_Train)
-    condGeo_Train = np.concatenate(condGeo_Train)
-    energies_train_location = training_data_inputs + '/energies_train.npy'
-    np.save(energies_train_location, energies_Train)
-    condE_train_location = training_data_inputs + '/condE_train.npy'
-    np.save(condE_train_location, condE_Train)
-    condAngle_train_location = training_data_inputs + '/condAngle_train.npy'
-    np.save(condAngle_train_location, condAngle_Train)
-    condGeo_train_location = training_data_inputs + '/condGeo_train.npy'
-    np.save(condGeo_train_location, condGeo_Train)
-    return energies_train_location, condE_train_location, condAngle_train_location, condGeo_train_location
-
-```
 > - In Python files the variables are accessible to different files in same repo. 
 > 
 > - In Kubeflow we can not transfer arrays, list ,dictionaries, dataframes, etc. like we pass str,int,bool or float. 
@@ -443,14 +196,15 @@ def preprocess_new(nCells_z: int, nCells_r: int, nCells_phi: int, original_dim: 
 > - To establish the connection between these components we use persistent memory (EOS) to store large data structures or data
 > and pass the location path of these from component to another which can be observed in the last part of code snippet above
 > 
-## Interacting with Class definitions and instantiations in Kubeflow
+
+### Interacting with Class definitions and instantiations in Kubeflow
 - The model.py file, as seen [here](https://github.com/DalilaSalamani/MLFastSim/blob/main/core/model.py) shows the definition of a Model Class and its functions. 
 - The Model Architecture Class can be handled by first defining model class ,followed by instantiating, training and saving in one single component.
 - Another way of handling class is saving the class definition in the memory as pickle or a dill object in one component and loading this saved object in other component to instantiate it and use its functions
 - The problem in the latter case, is that pickle fails to handle nested class structure.Thus it's better to define , instantiate, train and save the model in a single component to avoid complexities.
 - You can click [**here**](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/model_setup.py) to see the Kubeflow implementation of Model setup.
 
-## Loading saved Model in other component.
+### Loading saved Model in other component.
 - The Model trained by the `Model_Setup` component has to be loaded in the `Generate Component`
 - To generate showers after the model training a sampling from the distribution of the latent space is performed for which we require the decoder from the trained model
 - To load the weights from the memory, an object of the Model class will be required
@@ -458,118 +212,13 @@ def preprocess_new(nCells_z: int, nCells_r: int, nCells_phi: int, original_dim: 
 - Once object is created successfully, it is capable to load the saved weights from the `EOS`
 - To understand the execution of such case, check my repo [**here**](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/generate.py).
 
-## Conversion of 'Kubeflow Python Functions' to 'Kubeflow Components'
+### Conversion of 'Kubeflow Python Functions' to 'Kubeflow Components'
 The python function formatted according to Kubeflow requirements become **components** by using the `kfp.components` package which contains inbuilt function to convert python functions to components and store them in YAML format.
 To generate YAML files of all the components check my repo [**here**](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/generate_yaml.py )
 
-## Connecting the Components using DSL package
-The snippet below shows how the kubeflow components are brought together and connected into a single pipeline. The `components.dsl` package provides functions for components connections and pipeline formulation.
-```
-@dsl.pipeline(
-    name='ML first',
-    description='ML first).'
-)
-def ml_pipeline_first(nCells_z=configuration.nCells_z, nCells_r=configuration.nCells_r,
-                      nCells_phi=configuration.nCells_phi, min_energy=configuration.min_energy,
-                      max_energy=configuration.max_energy, min_angle=configuration.min_angle,
-                      max_angle=configuration.max_angle, init_dir=configuration.init_dir,
-                      checkpoint_dir=configuration.checkpoint_dir, valid_dir=configuration.valid_dir,
-                      gen_dir=configuration.gen_dir, save_dir=configuration.save_dir,
-                      Katib_files=configuration.Katib_files, batch_size=configuration.batch_size,
-                      intermediate_dim1=configuration.intermediate_dim1,
-                      intermediate_dim2=configuration.intermediate_dim2,
-                      intermediate_dim3=configuration.intermediate_dim3,
-                      intermediate_dim4=configuration.intermediate_dim4,
-                      latent_dim=configuration.latent_dim, epsilon_std=configuration.epsilon_std, mu=configuration.mu,
-                      epochs=configuration.epochs, lr=configuration.lr, outActiv=configuration.outActiv,
-                      validation_split=configuration.validation_split, wkl=configuration.wkl, ki=configuration.ki,
-                      bi=configuration.bi, earlyStop=configuration.earlyStop,
-                      name_experiment=configuration.name_experiment):
-    """
-    Function to curate the Kubeflow component by connecting through the data flow between each other
-    """
-    data_dir = input_parameters_comp(nCells_z, nCells_r, nCells_phi, min_energy, max_energy, min_angle, max_angle,
-                                     init_dir, checkpoint_dir, valid_dir, gen_dir, save_dir, Katib_files) \
-        .add_volume(krb_secret_volume) \
-        .add_volume_mount(krb_secret_volume_mount) \
-        .add_volume(eos_volume) \
-        .add_volume_mount(eos_volume_mount)
-
-    model_instantations = model_input_parameters_comp(data_dir.outputs['original_dim'],
-                                                      data_dir.outputs['checkpoint_dir'],
-                                                      batch_size, intermediate_dim1, intermediate_dim2,
-                                                      intermediate_dim3, intermediate_dim4, latent_dim, epsilon_std, mu,
-                                                      epochs, lr, outActiv, validation_split,
-                                                      wkl, ki, bi, earlyStop) \
-        .add_volume(krb_secret_volume) \
-        .add_volume_mount(krb_secret_volume_mount) \
-        .add_volume(eos_volume) \
-        .add_volume_mount(eos_volume_mount)
-    preprocessed_input = preprocess_comp(data_dir.outputs['nCells_z'], data_dir.outputs['nCells_r'],
-                                         data_dir.outputs['nCells_phi'], data_dir.outputs['original_dim'],
-                                         data_dir.outputs['min_energy'], data_dir.outputs['max_energy'],
-                                         data_dir.outputs['min_angle'], data_dir.outputs['max_angle'],
-                                         data_dir.outputs['init_dir'], data_dir.outputs['checkpoint_dir'],
-                                         data_dir.outputs['conv_dir'], data_dir.outputs['valid_dir'],
-                                         data_dir.outputs['gen_dir']) \
-        .add_volume(krb_secret_volume) \
-        .add_volume_mount(krb_secret_volume_mount) \
-        .add_volume(eos_volume) \
-        .add_volume_mount(eos_volume_mount)
-
-    model_setup = model_setup_comp(model_instantations.outputs['batch_size'],
-                                   model_instantations.outputs['original_dim'],
-                                   model_instantations.outputs['intermediate_dim1'],
-                                   model_instantations.outputs['intermediate_dim2'],
-                                   model_instantations.outputs['intermediate_dim3'],
-                                   model_instantations.outputs['intermediate_dim4'],
-                                   model_instantations.outputs['latent_dim'],
-                                   model_instantations.outputs['epsilon_std'],
-                                   model_instantations.outputs['mu'], model_instantations.outputs['epochs'],
-                                   model_instantations.outputs['lr'], model_instantations.outputs['outActiv'],
-                                   model_instantations.outputs['validation_split'],
-                                   model_instantations.outputs['wReco'],
-                                   model_instantations.outputs['wkl'], model_instantations.outputs['ki'],
-                                   model_instantations.outputs['bi'], model_instantations.outputs['earlyStop'],
-                                   model_instantations.outputs['checkpoint_dir'],
-                                   preprocessed_input.outputs['energies_train_location'],
-                                   preprocessed_input.outputs['condE_train_location'],
-                                   preprocessed_input.outputs['condAngle_train_location'],
-                                   preprocessed_input.outputs['condGeo_train_location'],
-                                   data_dir.outputs['Katib_files'], name_experiment) \
-        .add_volume(krb_secret_volume) \
-        .add_volume_mount(krb_secret_volume_mount) \
-        .add_volume(eos_volume) \
-        .add_volume_mount(eos_volume_mount)
-
-    generate = generate_comp(model_setup.outputs['best_model'], data_dir.outputs['max_energy'],
-                             model_instantations.outputs['checkpoint_dir'],
-                             data_dir.outputs['gen_dir'],
-                             model_instantations.outputs['batch_size'], model_instantations.outputs['original_dim'],
-                             model_instantations.outputs['latent_dim'], model_instantations.outputs['epsilon_std'],
-                             model_instantations.outputs['mu'], model_instantations.outputs['epochs'],
-                             model_instantations.outputs['lr'], model_instantations.outputs['outActiv'],
-                             model_instantations.outputs['validation_split'], model_instantations.outputs['wReco'],
-                             model_instantations.outputs['wkl'], model_instantations.outputs['ki'],
-                             model_instantations.outputs['bi'], model_instantations.outputs['earlyStop']) \
-        .add_volume(krb_secret_volume) \
-        .add_volume_mount(krb_secret_volume_mount) \
-        .add_volume(eos_volume) \
-        .add_volume_mount(eos_volume_mount)
-
-    validate = validate_comp(generate.outputs['generate_data'], data_dir.outputs['nCells_z'],
-                             data_dir.outputs['nCells_r'], data_dir.outputs['nCells_phi'],
-                             data_dir.outputs['save_dir'], data_dir.outputs['max_energy'],
-                             model_instantations.outputs['checkpoint_dir'], data_dir.outputs['init_dir'],
-                             data_dir.outputs['gen_dir'], data_dir.outputs['save_dir'],
-                             model_instantations.outputs['original_dim'], data_dir.outputs['valid_dir']) \
-        .add_volume(krb_secret_volume) \
-        .add_volume_mount(krb_secret_volume_mount) \
-        .add_volume(eos_volume) \
-        .add_volume_mount(eos_volume_mount)
-
-```
-
+### Connecting the Components using DSL package
+The [following file](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/main.py#:~:text=def%20ml_pipeline_first) below shows how the kubeflow components are brought together and connected into a single pipeline. The `components.dsl` package provides functions for components connections and pipeline formulation.
+In the `ml_pipeline_first` function the components are stitched together logically.
 > Observe the passing of arguments from one component to another, which establishes the link among the components, and defines the workflow.
 
 # Containerizing your components
@@ -655,19 +304,8 @@ krb_secret_volume_mount = k8s_client.V1VolumeMount(name=krb_secret_volume.name, 
 # Large Data Handling
 ***
 ![data_loading drawio](https://user-images.githubusercontent.com/43180442/191947915-b36ef6b9-2253-402f-8f73-97e3e73c8348.png)
-
-
-- The training data used in the model training was approximately 40 GB stored in `h5` format
-- The preprocessing component loaded the h5 files and saved individual arrays of 3.2 GB each
-- A single large array corresponded to a Single Energy at Single Angle for a particular geometry
-- The energies ranged from 1 to 1024 MeV and angle ranged from 50 to 90 for 2 different geometries `SciPb` and `SiW`
-- This lead to generate 11 numpy arrays for 10000 events each for a single angle
-- Thus total 55 numpy arrays _(each array was 3.2 GB)_ of 10000 events each were present for a single geometry
-- To handle such a massive data in a 8GB RAM, the data was loaded batch wise
-- Each numpy array was loaded into the memory and was fed into training with batch size of 50
-- Once training completed the next numpy array was loaded and the sequence followed
-- After loading the numpy array and training the model over it, the array was set to none and deleted so that the CPU memory was completely free to handle the next batch 
-- Once all batches were trained the model was saved and stored in the memory
+> The Original Data was trained on a 240 GB RAM. Thus, it was important to refactor the code to handle ~175 GB worth of data in 8 GB RAM
+> through batch loading, progressive training and appropriate cache management. Detailed Discussion is available [here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/tree/large_data_handle)
 
 ## Katib 
 >Katib is a hyperparameter tuning framework that comes with Kubeflow. It provides scalability through k8s environment as it 
@@ -685,25 +323,6 @@ krb_secret_volume_mount = k8s_client.V1VolumeMount(name=krb_secret_volume.name, 
 - The Katib Experiments will soon be visible on the AutoML Experiments
 
 ### Understanding Katib YAML
-For this section we are going to use the Katib YAML from [here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/katib.yaml)
-as a reference. 
-
-
-- `metadata`: Includes the name of the experiment and the namespace where it will run
-- `spec`: Defines the Specifications of the Katib Experiment which is to be created. It includes:
-  - `Objective`: objectiveMetricName you want to tune. Do you want to maximize/minimize it ? What is the goal value which would confirm the success of the experiment
-  - `algorithm`: Which algo to use for Hyperparameter Tuning
-  - `TrialCounts`: Defining the number of experiments you want to run. 
-    - `parameters`: Specifying the parameters you want to tune
-      - `name`: Name of the Parameter
-      - `parameterType`: Datatype 
-      - `feasibleSpace`: Range in from which you want to select the parameter
-- `trialSpec`: Defines the specification of the 
-  - `spec`: Define a specs for the container where the dockerized training setup will be pulled into the container and run in the form of Katib Experiment
-  - `resources`: Define the resources to be allocated to the container
-  - `image` : Docker image of the training setup
-  - `command`: Commands to run the model training script from inside the docker
-
 > For indepth understanding of Katib YAML visit the [official documentation](https://www.kubeflow.org/docs/components/katib/trial-template/)
 
 ### Creating Docker Images of Model Training
@@ -761,11 +380,11 @@ Following steps would help in creating a custom image for a component
 ![Docker_Setup](https://user-images.githubusercontent.com/43180442/191949913-6f2e8ba4-53b0-40a0-bc9b-fdd78a3a6a5d.png)
 
 
-The Image above explains the Setup of Katib when we want to execute it from inside our Kubeflow Pipeline.
-Katib and the pipeline we run on different pods. To establish a communication the KATIB Pod is initiated from inside the 
-Kubeflow Pipeline. The Component waits for Katib to complete its execution and yield the best model.
-The Best model is then extracted and passed onto the further components of the pipeline.
-To understand the execution please check out the preparation of a KATIB Component from inside a Kubeflow Pipeline [here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/katib_setup.py).
+- The Image above explains the Setup of Katib when we want to execute it from inside our Kubeflow Pipeline.
+- Katib and the pipeline we run on different pods. To establish a communication the KATIB Pod is initiated from inside the 
+- Kubeflow Pipeline. The Component waits for Katib to complete its execution and yield the best model.
+- The Best model is then extracted and passed onto the further components of the pipeline.
+- To understand the execution please check out the preparation of a KATIB Component from inside a Kubeflow Pipeline [here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/katib_setup.py).
 
 #### Features of the created Katib Setup
 - Automatically submits the YAML file to the Kubeflow Dashboard and create the KATIB Pods without user interference
