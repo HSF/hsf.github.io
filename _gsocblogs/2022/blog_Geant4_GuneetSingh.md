@@ -252,20 +252,15 @@ CMD ["sh", "-c", \
 
 # Memory Management using EOS
 ***
+`Step1`: Open Terminal and enter `kinit <CERN-USER-ID>`
 
-`Step1`:  ```$ git clone https://gitlab.cern.ch/ai-ml/examples.git```
-
-`Step2`: Navigate to examples/pipelines/argo-workflows/access\_eos and login to Kerberos with kinit by typing:
-`$ kinit <CERN-USER-ID>`
-
-`Step3`: Delete existing Kerberos Secret:
+`Step2`: Delete existing Kerberos Secret:
 `kubectl delete secret krb-secret`
 
-`Step4`: Create a new general Kerberos Secret:
+`Step3`: Create a new general Kerberos Secret:
+`kubectl create secret generic krb-secret --from-file=/tmp/krb5cc_1000`
 
-```kubectl create secret generic krb-secret --from-file=/tmp/krb5cc_1000```
-
-`Step5`: Configure EOS in the Pipeline Code. Mounting Kerberos and EOS to the kubeflow environment
+`Step4`: Configure EOS in the Pipeline Code. Mounting Kerberos and EOS to the kubeflow environment
 ```
 eos_host_path = k8s_client.V1HostPathVolumeSource(path='/var/eos')
 eos_volume = k8s_client.V1Volume(name='eos', host_path=eos_host_path)
@@ -276,7 +271,7 @@ krb_secret_volume = k8s_client.V1Volume(name='krb-secret-vol', secret=krb_secret
 krb_secret_volume_mount = k8s_client.V1VolumeMount(name=krb_secret_volume.name, mount_path='/secret/krb-secret-vol')
 ```
 
-`Step 6`: To add the volumes so that EOS is accessible through each component, we add the following to each of the function components created using the kfp sdk:
+`Step5`: To add the volumes so that EOS is accessible through each component, we add the following to each of the function components created using the kfp sdk:
 
 ```
         .add_volume(krb_secret_volume) \
@@ -284,7 +279,7 @@ krb_secret_volume_mount = k8s_client.V1VolumeMount(name=krb_secret_volume.name, 
         .add_volume(eos_volume) \
         .add_volume_mount(eos_volume_mount)
 ```
-`Step7`: Once the above setup completes, we can access publicly visible files from the EOS.
+`Step6`: Once the above setup completes, we can access publicly visible files from the EOS.
 
 # Large Data Handling
 ***
@@ -299,14 +294,6 @@ krb_secret_volume_mount = k8s_client.V1VolumeMount(name=krb_secret_volume.name, 
 > and would strongly depend on the resource allocated to your namespace
 >
 
-### How to run Katib experiments from Kubeflow Dashboards
-- Open the Kubeflow Dashboard at ml.cern.ch
-- Go the **AutoML Experiments** tab on the left hand of the screen
-- Click on `+ New Experiment`
-- Go to the lower part of the screen and click on `Edit and submit YAML`
-- Paste your YAML and submit it
-- The Katib Experiments will soon be visible on the AutoML Experiments
-
 ### Understanding Katib YAML
 > For indepth understanding of Katib YAML visit the [official documentation](https://www.kubeflow.org/docs/components/katib/trial-template/)
 
@@ -314,45 +301,7 @@ krb_secret_volume_mount = k8s_client.V1VolumeMount(name=krb_secret_volume.name, 
 Dockerizing the components is an essential step in Kubeflow Pipeline construction 
 This helps in setting up different environments and resources for each component of a pipeline
 It is also necessary if we want KATIB to attach with our model training setup since KATIB runs this image multiple times in parallel
-Following steps would help in creating a custom image for a component
->Note:Use of VS Code for Docker Related Workflow is suggested
-
-`STEP1`: Open VS Code and add your training script
-
-`STEP2`: Get the `krb5.conf` file from the [repo](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/training_docker/krb5.conf)
-
-`STEP3`: Refactor the training script to accept arguments through args parser
-
-> For reference our Dockerized Model Setup and Training can be found [here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/tree/master/training_docker)
-
-`STEP4`: Create a Dockerfile
-
-`STEP5`: In the Dockerfile define the Base Image, set up the krb configuration for EOS access, add the command to run the training script and pip install the requirements 
-
-> Note: krb configuration inside Dockerfile looks as follows:
-> ```commandline
-> ENV DEBIAN_FRONTEND=noninteractive
-> RUN apt-get -qq update && \
->    apt-get -yqq install libpam-krb5 krb5-user && \
->    apt-get -yqq clean && \
->    apt-get install -y --no-install-recommends \
->        ca-certificates bash-completion tar less \
->        python3-pip python-setuptools build-essential python-dev \
->        python3-wheel && \
->    rm -rf /var/lib/apt/lists/*
-> COPY krb5.conf /etc/krb5.conf
-
-`STEP6`: Once the files are in place open Terminal
-
-`STEP7`: Run `sudo chmod 666 /var/run/docker.sock`
-
-`STEP8`: Run `docker login gitlab-registry.cern.ch` and enter your credentials
-
-`STEP9`: Run `docker build . -f Dockerfile -t <your_repo_name>:<image_tag>`
-
-`STEP10`: Run `docker push <your_repo_name>:<image_tag>`
-
-`STEP11`: Your script is now Dockerized and can be found in the gitlab registry under your repo
+The steps to create a docker image can be found in the Katib Readme [here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline)
 
 ### Refactoring training script for Katib 
 - To understand the training module refactored into docker image for katib, observe the [model_setup](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/training_docker/main.py) function.
