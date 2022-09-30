@@ -79,7 +79,7 @@ We met [last week](https://indico.cern.ch/event/1196608/) to hear from David Law
     - Final day: PyROOT and Scikit-HEP taught by our community
   - 80 registrants, but only O(25) participants (unusually high attrition rate, usually we have 50%). Very basic training: is it something to review? Is it still useful?
   - Really good participation in the lectures though
-- Please follow us on [twitter @HSFTraining](twitter.com/hsftraining)
+- Please follow us on [twitter @HSFTraining](https://twitter.com/hsftraining)
 - Hacktoberfest participation planned (see below)
 
 #### 5th HEP C++ Course and Hands-on Training
