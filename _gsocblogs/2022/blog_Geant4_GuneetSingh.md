@@ -161,6 +161,7 @@ To design any pipeline, the following steps are essential:
 > All the examples demonstrates different use cases which are intensively required in any ML workflow. 
 > In reference to the discussion in `Kubeflow Pipeline Preparation` the upcoming points would help in grasping those suggestions and understand the blockers usually faced and how to solve them.
 
+### Configuration file
 - Setting up a configuration file for initialising all the global variables that would be used throughout the project
 - Configuration file can be found [here](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/configuration.py)
 
@@ -184,7 +185,6 @@ To design any pipeline, the following steps are essential:
 > 
 
 ### Interacting with Class definitions and instantiations in Kubeflow
-- The model.py file, as seen [here](https://github.com/DalilaSalamani/MLFastSim/blob/main/core/model.py) shows the definition of a Model Class and its functions. 
 - The Model Architecture Class can be handled by first defining model class ,followed by instantiating, training and saving in one single component.
 - Another way of handling class is saving the class definition in the memory as pickle or a dill object in one component and loading this saved object in other component to instantiate it and use its functions
 - The problem in the latter case, is that pickle fails to handle nested class structure.Thus, it's better to define , instantiate, train and save the model in a single component to avoid complexities.
@@ -192,7 +192,7 @@ To design any pipeline, the following steps are essential:
 
 ### Loading saved Model in other component.
 - The Model trained by the `Model_Setup` component has to be loaded in the `Generate Component`
-- To generate showers after the model training a sampling from the distribution of the latent space is performed for which we require the decoder from the trained model
+- To generate showers after the model training a sampling from the distribution of the latent space is performed using decoder of trained model.
 - To create the object, the model class needs to be defined and instantiated again in the calling component 
 - Once object is created successfully, it is capable to load the saved weights from the `EOS`
 - To understand the execution of such case, check my repo [**here**](https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/generate.py).
