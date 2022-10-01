@@ -2,6 +2,9 @@
   "ignorePatterns": [
     {
       "pattern": "/assets/CWP-Charge-HSF.pdf"
+    },
+    {
+        "pattern": "mailto:.*"
     }
   ],
   "replacementPatterns": [

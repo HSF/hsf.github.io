@@ -54,7 +54,7 @@ use of Docker containers to allow non-experts in a particular tool to
 rapidly evaluate each tool for features, ease of use and flexibility.
 
 Documentation for these *test drive* setups is in the group's
-[GitHib](https://github.com/HSF/packaging) repository.
+[Github](https://github.com/HSF/packaging) repository.
 
 ### Conveners
 

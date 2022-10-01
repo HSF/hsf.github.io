@@ -36,7 +36,7 @@ Either
 ### Working group specific settings
 
 * To be listed as "educator" on the [training community page]({{ site.baseurl }}/training/community.html) or the [educators page]({{ site.baseurl }}/training/educators.html):
-  * Set the `training_roles` field: The ``training_roles`` are explained [here]({{ site.baseurl }}/training/educators.html). Valid examples: ``[]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets). Please keep the order of the roles as they are in the template. 
+  * Set the `training_roles` field: Zero or more of `instructor`, `mentor`, `facilitator`, `author`. The first three ``training_roles`` are explained [here]({{ site.baseurl }}/training/educators.html). You are an `author` if you've made not-completely-trivial contributions to our training material. Valid examples: ``[]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets).
   * Set the `training_years` field: This should be a list of years that you were actively contributing to the HSF Training efforts. Valid examples: `[2012]` , ``[2012, 2014]``. **Invalid**: ``["2012"]``.
 
 ### Example
@@ -71,8 +71,8 @@ Make sure that your github link works or that you've added your gravatar ID.
 
 Perhaps one of these links might help you:
 
-* [short forking tutorial on guides.github](https://guides.github.com/activities/forking/)
-* [a bit more overbose explanation on help.github](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+* [short tutorial on from github](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
+* [a bit more overbose explanation on help.github](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 If it doesn't, don't hesitate to ask us :)
 

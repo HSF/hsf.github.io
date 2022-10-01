@@ -19,7 +19,7 @@ GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
 
 ## Content Format
 
-Jekyll expect the web site contents to be written in [Markdown](https://guides.github.com/features/mastering-markdown/) with 
+Jekyll expect the web site contents to be written in [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) with 
 a special section at the beginning of the file called `frontmatter`. This section contains attribute definitions used to render the file. It is delimited by a pair of `---` lines. A typical frontmatter section is:
 
 ```
@@ -84,20 +84,24 @@ This method can be used to convert a GoogleDoc document to markdown. To do it, u
 
 ## Linking to other subpages
 
+{% raw %}
 Please prefix `{{ site.baseurl }}` in your markdown links, for example
 
 ```
 [link text]({{ site.baseurl}}/workinggroups/dataanalysis.html)
 ```
+{% endraw %}
 
 ### Inserting images
 
 To insert an image, add it (as a PNG or JPEG file) to the `images` directory. Then in the page where you want to insert
 it, add the following line:
 
+{% raw %}
 ```
 ![Replacement text]({{ site.baseurl }}/images/file){:height="400px" width="600px" .centered-image}
 ```
+{% endraw %}
 
 where:
 
