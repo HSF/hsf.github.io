@@ -83,7 +83,7 @@ The pipeline can be found on ml.cern.ch under the name of `Geant4-Model-Optimiza
 * `setCudaArenaExtendedStrategy` - Strategy to use for extending memory arena. For more details, go [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#arena_extend_strategy)
 * `setCudaCudnnConvAlgoSearch` - Type of search done for finding which `cuDNN` convolution algorithm to use. For more details, go [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cudnn_conv_algo_search)
 * `setCudaDoCopyInDefaultStream` - Whether to perform data copying operation from host to device and viceversa in default stream or separate streams. For more details, check [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#do_copy_in_default_stream)
-* `setCudaCudnnConvUseMaxWorkspace` - Amount of memory to use when querying `cuDNN` to find the most optimal convolution algorithm. Lower value will result in sub-optimal querying and higher value will lead to higher peak memory usage. For more details, chech [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cudnn_conv_use_max_workspace).
+* `setCudaCudnnConvUseMaxWorkspace` - Amount of memory to use when querying `cuDNN` to find the most optimal convolution algorithm. Lower value will result in sub-optimal querying and higher value will lead to higher peak memory usage. For more details, check [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cudnn_conv_use_max_workspace).
 
 #### TensorRT
 * `setTrtDeviceId` - ID of device on which to run `TensorRT` Execution Provider
@@ -399,7 +399,7 @@ python3 benchmark.py \
     --ep "Cpu, Optimized Cpu" or "Cpu, Cuda" etc.
 ```
 
-> :warning: If you are running `Benchmark` as a kubeflow component, use `runBenchmark.sh`. It performs Kerberos authentication for EOS access and then runs `benchmark.py`. Everytime a Kubeflow component is created it needs to authenticate itself for EOS access, it is not feasible to do it manually and `runBenchmark.sh` takes care of that.
+> :warning: If you are running `Benchmark` as a kubeflow component, use `runBenchmark.sh`. It performs Kerberos authentication for EOS access and then runs `benchmark.py`. Every time a Kubeflow component is created it needs to authenticate itself for EOS access, it is not feasible to do it manually and `runBenchmark.sh` takes care of that.
 > 
 > Before running a pipeline which requires EOS access, make sure your `krb-secret` is up-to-date and also run `kinit CERN_ID`. If you want to renew your `krb-secret` perform the steps mentioned [here](https://gitlab.cern.ch/ai-ml/examples/-/tree/master/pipelines/argo-workflows/access_eos).
 
@@ -514,7 +514,7 @@ The description for all the keys are JSON given below:
 
 For detailed read on ONNXRuntime Quantization, refer https://onnxruntime.ai/docs/performance/quantization.html
 
-- `quant_format` - Type of quantization format to use. Supported [`QDQ`, `QOperator`]. Perferred, `QOQ` as it gives good performance to accuracy tradeoff. ONNXRuntime suggests to use `QDQ` on x86 CPU and `QOperator` for arm64 CPU.
+- `quant_format` - Type of quantization format to use. Supported [`QDQ`, `QOperator`]. Preferred, `QOQ` as it gives good performance to accuracy tradeoff. ONNXRuntime suggests to use `QDQ` on x86 CPU and `QOperator` for arm64 CPU.
 - `op_types_to_quantize` - List of operations to quantize. Only the operations listed here will be quantized in the model.
 - `per_channel` - Whether to perform `per_channel` quantization or not.
 - `reduce_range` - Whether to perform `7bit` quantization or not.
