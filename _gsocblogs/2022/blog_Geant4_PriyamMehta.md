@@ -41,8 +41,6 @@ Below image represents an overview of the approach taken to build inference opti
 The pipeline can be found on ml.cern.ch under the name of `Geant4-Model-Optimization-Pipeline`. 
 ![Complete-pipeline](https://user-images.githubusercontent.com/47216475/193470743-b680df2c-fce9-477f-8db7-f9cce5be755c.svg)
 
-![](/img/ML_Deployment/Kubeflow_Inference_Optimization_Pipeline/Complete-pipeline.svg)
-
 -   `Model Loader` - Model Loader component that acts as a central reppository for non-optimized model. The model gets downloaded and stored here.
 -   `MacroHandlers` - Macro Handler components which output a macro file that gets passed to the respective `Par04`s.
 -   `Inference` - `Par04`s which use Full Simulation and `ONNXRuntime` CPU and CUDA Execution providers for inference.
