@@ -2,6 +2,7 @@
 project: Geant4
 title: Geant4-FastSim - Memory footprint optimization for ML fast shower simulation
 author: Priyam Mehta
+photo: blog_author/PriyamMehta.png
 date: 27.07.2022
 year: 2022
 layout: blog_post
