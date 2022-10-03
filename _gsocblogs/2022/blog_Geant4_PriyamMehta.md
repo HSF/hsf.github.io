@@ -24,7 +24,7 @@ For in-depth details regarding the entire `g4fastsim` project, please go to this
 
 KubeFlow was the platform of choice for making a reproducible and scalable machine learning inference pipeline for the `g4fastsim` inference project. CERN IT Department has built ml.cern.ch which is KubeFlow service accessible to all CERN members and was used for building the pipeline.
 
-`g4fastsim` is broken into 2 parts - `Training` and `Inference`. The inference application is named `Par04`. `Par04` example can perform inference usig both fullsim, Geant4 native applicationInference Optimization Pipeline is aimed at reducing memory footprint of the ML model by performing various types of hardware-specific quantizations and graph optimizations.
+`g4fastsim` is broken into 2 parts - `Training` and `Inference`. The inference application is named `Par04`. `Par04` example can perform inference usig both fullsim, Geant4 native api, and fastsim, using different Machine Learning frameworks like ONNXRuntime, LWTNN and LibTorch. Inference Optimization Pipeline is aimed at reducing memory footprint of the ML model by performing various types of hardware-specific quantizations and graph optimizations in ONNXRuntime.
 
 The pipeline can be found on ml.cern.ch under the name of `Geant4-Model-Optimization-Pipeline`. 
 ![Complete-pipeline](https://user-images.githubusercontent.com/47216475/193470743-b680df2c-fce9-477f-8db7-f9cce5be755c.svg)
