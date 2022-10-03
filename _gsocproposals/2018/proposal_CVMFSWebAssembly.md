@@ -32,7 +32,7 @@ of this project is to prototype a CernVM-FS backend for emscripten.
 The emscripten JavaScript sources should be extended by a custom, new file system implementation.
 The new file system implementation should be able to understand CernVM-FS repositories
 and to load data from them. That will require, amongst other things, getting information
-from sqlite files and zlib decompression implemented in JaveScript (or compiled from C into JavaScript/wasm).
+from sqlite files and zlib decompression implemented in JavaScript (or compiled from C into JavaScript/wasm).
 
 
 ## Expected results
