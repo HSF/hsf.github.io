@@ -24,19 +24,7 @@ For in-depth details regarding the entire `g4fastsim` project, please go to this
 
 KubeFlow was the platform of choice for making a reproducible and scalable machine learning inference pipeline for the `g4fastsim` inference project. CERN IT Department has built ml.cern.ch which is KubeFlow service accessible to all CERN members and was used for building the pipeline.
 
-`g4fastsim` is broken into 2 parts - `Training` and `Inference`. Inference Optimization Pipeline is aimed at reducing memory footprint of the ML model by performing various types of hardware-specific quantizations and graph optimizations.
-
-The Inference pipeline is broken down into 5 main components:
-* MacroHandler
-* InputChecker
-* Inference
-* Benchmark
-* Optimization
-
-Below image represents an overview of the approach taken to build inference optimization kubeflow pipeline:
-
-## KubeFlow Pipeline![InfOptim-Workflow](https://user-images.githubusercontent.com/47216475/193470697-7d473698-e5a2-4781-8743-8aae9f515002.jpg)
-
+`g4fastsim` is broken into 2 parts - `Training` and `Inference`. The inference application is named `Par04`. `Par04` example can perform inference usig both fullsim, Geant4 native applicationInference Optimization Pipeline is aimed at reducing memory footprint of the ML model by performing various types of hardware-specific quantizations and graph optimizations.
 
 The pipeline can be found on ml.cern.ch under the name of `Geant4-Model-Optimization-Pipeline`. 
 ![Complete-pipeline](https://user-images.githubusercontent.com/47216475/193470743-b680df2c-fce9-477f-8db7-f9cce5be755c.svg)
@@ -49,80 +37,6 @@ The pipeline can be found on ml.cern.ch under the name of `Geant4-Model-Optimiza
 
 > :green_book: A memory arena is a large, contiguous piece of memory that you allocate once and then use to manage memory manually by handing out parts of that memory. To understand `arena` in relation to memory, check out this [stack overflow post](https://stackoverflow.com/questions/12825148/what-is-the-meaning-of-the-term-arena-in-relation-to-memory)
 
-### Parameters
-* `fullSimDetectionConstructionMacUrl` - Url of FullSim .mac file for detector construction
-* `fastSimDetectionConstructionMacUrl` - Url of FastSim .mac file for detector construction
-* `fullSimInferenceJsonlUrl` - Url of FullSim Jsonl file which generates macro file (.mac) for full sim inference
-* `fastSimInferenceJsonlUrl` - Url of FastSim Jsonl file which generates macro file (.mac) for fastsim inference
-* `particleEnergy` - Energy of the particle
-* `particleAngle` - Angle of the particle.
-* `setSizeLatentVector` - Dimension of the latent vector (encoded vector in a Variational Autoencoder model)
-* `setSizeConditionVector` - Size of the condition vector (energy, angle and geometry)
-* `setModelPathName` - Path of the `ONNX` model to be used for Fast Sim
-* `setProfileFlag` - Whether to perform profiling during inference using `ONNXRuntime`.
-* `setOptimizationFlag` - Whether to perform graph optimization on the model when using `ONNXRuntime`.
-* `setDnnlFlag` - Whether to use `oneDNN` Execution Provider as compute backend when using `ONNXRuntime`.
-* `setOpenVINOFlag` - Whether to use `OpenVINO` Execution Provider as compute backend when using `ONNXRuntime`.
-* `setCudaFlag` - Whether to use `CUDA` Execution Provider as compute backend when using `ONNXRuntime`.
-* `setTensorrtFlag` - Whether to use `TensorRT` Execution Provider as compute backend when using `ONNXRuntime`.
-* `setInferenceLibrary` - Whether to use `ONNXRuntime` or `LWTNN` for inference in FastSim
-* `setFileName` - Name of the the output `.root` file.
-* `beamOn` - Number of events to run
-* `yLogScale` - Whether to set a log scale on the y-axis of full and fast simulation comparison plots.
-* `saveFig` - Whether to save plots in `Benchmark` component
-* `eosDirectory` - Path of the EOS directory where output plots will be saved.
-
-#### oneDNN
-* `setDnnlEnableCpuMemArena` - Whether to enable memory arena when using `oneDNN` Execution Provider.
-
-#### CUDA
-* `setCudaDeviceId` - ID of the device on which to run `CUDA` Execution Provider.
-* `setCudaGpuMemLimit` - GPU Memory Limit when using `CUDA` Execution Provider.
-* `setCudaArenaExtendedStrategy` - Strategy to use for extending memory arena. For more details, go [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#arena_extend_strategy)
-* `setCudaCudnnConvAlgoSearch` - Type of search done for finding which `cuDNN` convolution algorithm to use. For more details, go [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cudnn_conv_algo_search)
-* `setCudaDoCopyInDefaultStream` - Whether to perform data copying operation from host to device and viceversa in default stream or separate streams. For more details, check [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#do_copy_in_default_stream)
-* `setCudaCudnnConvUseMaxWorkspace` - Amount of memory to use when querying `cuDNN` to find the most optimal convolution algorithm. Lower value will result in sub-optimal querying and higher value will lead to higher peak memory usage. For more details, check [here](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cudnn_conv_use_max_workspace).
-
-#### TensorRT
-* `setTrtDeviceId` - ID of device on which to run `TensorRT` Execution Provider
-* `setTrtMaxWorksapceSize` - Maximum memory usage of TensorRT Engine.
-* `setTrtMaxPartitionIterations` - Maximum no.of iterations allowed while partitioning the model for TensorRT
-* `setTrtMinSubgraphSize` - Minimum node size in a subgraph after partitioning.
-* `setTrtFp16Enable` - Whether to enable FP16 computation in TensorRT
-* `setTrtInt8Enable` - Whether to enable INT8 computation in TensorRT
-* `setTrtInt8UseNativeCalibrationTable` - Select what calibration table is used for non-QDQ (Quantize- DeQuantize) models in INT8 mode. If 1, native TensorRT generated calibration table is used; if 0, ONNXRUNTIME tool generated calibration table is used.
-* `setTrtEngineCacheEnable` - Enable TensorRT engine caching. The purpose of using engine caching is to save engine build time in the case that TensorRT may take long time to optimize and build engine.
-> :warning: Each engine is created for specific settings such as model path/name, precision (FP32/FP16/INT8 etc), workspace, profiles etc, and specific GPUs and it’s not portable, so it’s essential to make sure those settings are not changing, otherwise the engine needs to be rebuilt and cached again.
-> 
-> :warning: Please clean up any old engine and profile cache files (.engine and .profile) if any of the following changes:
-> * Model changes (if there are any changes to the model topology, opset version, operators etc.)
-> * ORT version changes (i.e. moving from ORT version 1.8 to 1.9)
-> * TensorRT version changes (i.e. moving from TensorRT 7.0 to 8.0)
-> * Hardware changes. (Engine and profile files are not portable and optimized for specific Nvidia hardware)
-* `setTrtEngineCachePath` -  Specify path for TensorRT engine and profile files if `setTrtEngineCacheEnable` is True, or path for INT8 calibration table file if `setTrtInt8Enable` is True.
-* `setTrtDumpSubgraphs` - Dumps the subgraphs that are transformed into TRT engines in onnx format to the filesystem. This can help debugging subgraphs.
-
-#### OpenVINO
-* `setOVDeviceType` - Type of device to run `OpenVINO` Execution Provider on
-* `setOVDeviceId` - ID of the device to run `OpenVINO` Execution Provider on
-* `setOVEnableVpuFastCompile` -  During initialization of the VPU device with compiled model, Fast-compile may be optionally enabled to speeds up the model’s compilation to VPU device specific format.
-* `setOVNumOfThreads` - No.of threads to use while performing computation using `OpenVINO` Execution Provider
-* `setOVUseCompiledNetwork` - It can be used to directly import pre-compiled blobs if exists or dump a pre-compiled blob at the executable path. 
-* `setOVEnableOpenCLThrottling` - This option enables OpenCL queue throttling for GPU devices (reduces CPU utilization when using GPU).
-
-#### Optimization
-* `enable_cpu_optimization` - Whether to enable CPU Optimization
-* `cpu_optimization_json_url` - URL of JSON containing optimization configs to be used for CPU optimization. 
-* `cpu_optim_model_eos_save_path` - Path in EOS where to save the CPU optimized model.
-* `enable_cuda_optimization` - Whether to enable CUDA Optimization
-* `cuda_optimization_json_url` - URL of JSON containing optimization configs to be used for CUDA optimization.
-* `cuda_optim_model_eos_save_path` - Path in EOS where to save the CUDA optimized model.
-* `enable_onednn_optimization` - Whether to enable oneDNN Optimization
-* `onednn_optimization_json_url` - URL of JSON containing optimization configs to be used for oneDNN optimization.
-* `onednn_optim_model_eos_save_path` - Path in EOS where to save the oneDNN optimized model.
-* `enable_tensorrt_optimization` - Whether to enable TensorRT Optimization
-* `tensorrt_optimization_json_url` - URL of JSON containing optimization configs to be used for TensorRT optimization.
-* `tensorrt_optim_model_eos_save_path` - Path in EOS where to save the TensorRT optimized model.
 ## MacroHandler
 
 `Par04` takes in input a macro file. This macro file contains a list of commands in the order they are to be run. Normally, if we want to change a macro file we will have to change the `.mac` file, upload it to gitlab, EOS or someplace from where it will be downloaded and pass the URL in KubeFlow Run UI Dashboard. This will become a tedious process.
@@ -138,56 +52,8 @@ The input to `MacroHandler` component is a `.jsonl` file containing `jsonlines`,
 
 ### Macro file
 
-This macro file contains Geant4 commands as well as custom commands for manipulating the simulation process.
-An example of the macro file can be seen below. It uses `CUDA` backend for performing inference in `ONNXRuntime`.
+Some Geant4 commands as well as custom commands for manipulating the simulation process are shown below.
 ```bash
-#  examplePar04_onnx.mac
-#
-# Detector Construction 
-/Par04/detector/setDetectorInnerRadius 80 cm
-/Par04/detector/setDetectorLength 2 m
-/Par04/detector/setNbOfLayers 90
-/Par04/detector/setAbsorber 0 G4_W 1.4 mm true
-/Par04/detector/setAbsorber 1 G4_Si 0.3 mm true
-## 2.325 mm of tungsten =~ 0.25 * 9.327 mm = 0.25 * R_Moliere
-/Par04/mesh/setSizeOfRhoCells 2.325 mm
-## 2 * 1.4 mm of tungsten =~ 0.65 X_0
-/Par04/mesh/setSizeOfZCells 3.4 mm
-/Par04/mesh/setNbOfRhoCells 18
-/Par04/mesh/setNbOfPhiCells 50
-/Par04/mesh/setNbOfZCells 45
-
-# Initialize
-/run/numberOfThreads 1
-/run/initialize
-
-/gun/energy 10 GeV
-/gun/position 0 0 0
-/gun/direction 0 1 0
-
-# Inference Setup
-## dimension of the latent vector (encoded vector in a Variational Autoencoder model)
-/Par04/inference/setSizeLatentVector 10
-## size of the condition vector (energy, angle and geometry)  
-/Par04/inference/setSizeConditionVector 4
-## path to the model which is set to download by cmake
-/Par04/inference/setModelPathName ./MLModels/Generator.onnx
-/Par04/inference/setProfileFlag 1
-/Par04/inference/setOptimizationFlag 0
-/Par04/inference/setCudaFlag 1
-
-# cuda options
-/Par04/inference/cuda/setDeviceId 0
-/Par04/inference/cuda/setGpuMemLimit 2147483648
-/Par04/inference/cuda/setArenaExtendedStrategy kSameAsRequested
-/Par04/inference/cuda/setCudnnConvAlgoSearch DEFAULT
-/Par04/inference/cuda/setDoCopyInDefaultStream 1
-/Par04/inference/cuda/setCudnnConvUseMaxWorkspace 1
-
-/Par04/inference/setInferenceLibrary ONNX
-
-## set mesh size for inference == mesh size of a full sim that
-## was used for training; it coincides with readout mesh size
 /Par04/inference/setSizeOfRhoCells 2.325 mm
 /Par04/inference/setSizeOfZCells 3.4 mm
 /Par04/inference/setNbOfRhoCells 18
@@ -525,8 +391,3 @@ For detailed read on ONNXRuntime Quantization, refer https://onnxruntime.ai/docs
 - `for_tensorrt` - If this optimization is for tensorrt or not. If set to `True`, only the calibration table will be created. TensorRT performs it own graph optimization and quantization. Hence, TensorRT optimization can only be performed dynamically in ONNXRuntime. The path of calibration table generated can be given as input to ONNXRuntime Session, TensorRT will use this Calibration cache to optimize the model at runtime.
 
 > :warning: Optimization Config JSON can be changed as per the need but currently, these are the supported params. Any additional params added to JSON will be ignored.
-
-
-## Complete Pipeline Image
-
-![current_gsoc_pipeline](https://user-images.githubusercontent.com/47216475/193470939-772c8171-8d4d-490e-a01c-31636e0d7d3f.png)
