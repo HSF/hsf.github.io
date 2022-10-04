@@ -11,7 +11,7 @@ intro: |
    Currently, we are developing a fast inference system in TMVA, called SOFIE, that takes ONNX model as input and produces compilation-ready standalone C++ scripts as output. These scripts will then provide users an easy way to deploy their deep learning models in their physics software and analysis frameworks. This project focuses on the development of some missing deep learning operations which will allow to build more complex networks within TMVA. Specifically, we propose to implement the inference functionality of some ONNX operators in the code generation format. 
 ---
 
-# Mid Evaluation Blog for GSOC 2022
+# Final Evaluation Blog for GSOC 2022
 
 ## Pre-GSOC Period
 Getting into GSOC was my dream since my college years, On May 20, I was so delighted when I got into my preferred Project in one of the most competitive Organisations. I will forever remember those sleepless nights spent solving those tasks, debugging, and building the project !!
@@ -49,6 +49,10 @@ This improvement was added by my mentor Lorenzo Moneta in his PR , the link to m
 [PR](https://github.com/root-project/root/pull/10415).
 
 **Pro-Tip** \: Use this Period very well to connect with your mentors, other Gsoc Candidates and the organisation as a whole!
+
+## Flowchart to Generate the Code in SOFIE
+![Untitled Diagram drawio(2)](https://user-images.githubusercontent.com/84740927/192113032-1fbe4f4f-fcb9-4974-8878-ed85b97c69f8.png)
+
 
 ## Coding Period 
 
@@ -118,12 +122,12 @@ CASE-3\: The tensors that have too few dimensions can have their shapes prepende
 
 So the algorithm should do: 
 ```
-CASE-1\: Check if tensor have same shape - nothing special to do, we already supported it.
+CASE-1 : Check if tensor have same shape - nothing special to do, we already supported it.
 
 CASE-2 and CASE-3 \: If shape is different we call the multi-directional broadcasting function.
 
-CASE-3 \: if shapeA .size() < shapeB.size() we insert in the shape vector values of 1 at the beginning of the tensor until shapeA.size() == shapeB.size()
-CASE-2 \: We look then to the shape values, and if they are equal result is same, if shapeA[i] not equal to shapeB[i] we have the result shape equal to shapeA[i] if shapeB[i] = 1 or shapeB[i] if shapeA[i] = 1.
+CASE-3 : if shapeA .size() < shapeB.size() we insert in the shape vector values of 1 at the beginning of the tensor until shapeA.size() == shapeB.size()
+CASE-2 : We look then to the shape values, and if they are equal result is same, if shapeA[i] not equal to shapeB[i] we have the result shape equal to shapeA[i] if shapeB[i] = 1 or shapeB[i] if shapeA[i] = 1.
 ```
 
 - **PR Status**\:
@@ -158,15 +162,108 @@ CASE-2 \: We look then to the shape values, and if they are equal result is same
 | :---        |    :----:   |          ---: |
 | Neg ONNX Operator | [#10946](https://github.com/root-project/root/pull/10946)       | <img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor"> |
 
-## Some Useful Blogs written by me.
-1) [Python Tutorials for various C files of Tutorials/TMVA](https://gist.github.com/Neel-Shah-29/7e46bee55f7c09a18e94696a0a3e5ccf)
-2) [Documentation on RModelParser_ONNX.cxx](https://gist.github.com/Neel-Shah-29/5c1399ccd23903928128822c6f3e0957)
-3) [Getting into GSOC 2022](https://gist.github.com/Neel-Shah-29/3f04f05a8a353605068e32e55a5093c1)
-4) [All about Community Bonding Period](https://gist.github.com/Neel-Shah-29/b2c887adaa118ba68b42e324d3b2a47a)
-5) [Implementing the Operators in Sofie](https://gist.github.com/Neel-Shah-29/f0371566ca1e24a6b3a9b4097cdd44db)
-6) [Mid Evaluation Detailed Report](https://gist.github.com/Neel-Shah-29/d51a9038dd07ef096127a62a92113fa0)
+#### 6) Implemented the Pow ONNX Operator
 
-## Proposal Link \: [Inference Code Generation for Deep Learning models](https://docs.google.com/document/d/1tvTY9Rq5j0XW8KFfvkWHWlmE__-94h-Nj0tCkMjYnzs/edit?usp=sharing)
+- **Definition\:** [Pow ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Pow)
+
+I have implemented the multi-directional broadcasting for broadcasting the shapes of output tensors. Currently its only supported for input and output tensors having same length.
+
+- **PR Status**\:
+
+| Pull Request| PR Number |   Status     |
+| :---        |    :----:   |          ---: |
+| Pow ONNX Operator | [#10971](https://github.com/root-project/root/pull/10971)       | <img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor"> |
+
+#### 7) Implemented the Cast ONNX Operator
+
+- **Definition\:** [Cast ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Cast)
+
+- First SOFIE was only supporting `ETensorType::FLOAT` input and output tensors now the code was implemented so that it can support for other datatypes as well like `ETensorType::INT16`, `ETensorType::INT32`, `ETensorType::INT64`, `ETensorType::UINT16`, `ETensorType::UINT32`, `ETensorType::UINT64` and `ETensorType::DOUBLE`.
+
+Here `fAttrType` is the data type to which the elements of the input tensor are cast.
+
+- **PR Status**\:
+
+| Pull Request| PR Number |   Status     |
+| :---        |    :----:   |          ---: |
+| Cast ONNX Operator | [#11033](https://github.com/root-project/root/pull/11033)       | <img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor"> |
+
+#### 8) Implemented the Shape ONNX Operator
+
+- **Definition\:** [Shape ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Shape)
+
+Shape Operator takes a tensor as input and outputs an 1D int64 tensor containing the shape of the input tensor.
+
+Note that the `fOutput_shape` is determined by `fOutput_shape = { size_t(fEnd - fStart) + 1};`, where `fStart` and `fEnd` are Optional Attributes denoting the Start and end position of input tensor shape, it is used to compute a slice of the input tensor's shape.
+
+- **PR Status**\:
+
+| Pull Request| PR Number |   Status     |
+| :---        |    :----:   |          ---: |
+| Shape ONNX Operator | [#11086](https://github.com/root-project/root/pull/11086)       | <img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor"> |
+
+#### 9) Implemented the Max ONNX Operator
+
+- **Definition\:** [Max ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#Max)
+
+Max Operator calculates element-wise max of each of the input tensors (with Numpy-style broadcasting support). It also supports multi-directional broadcasting as well.
+
+- **PR Status**\:
+- 
+| Pull Request| PR Number |   Status     |
+| :---        |    :----:   |          ---: |
+| Max ONNX Operator | [#11198](https://github.com/root-project/root/pull/11198)       | <img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor"> |
+
+#### 10) Implemented the Reduce ONNX Operators: ReduceMean, ReduceSumSquare, ReduceProd
+
+- **Definition\:** 
+1. [ReduceMean ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#ReduceMean)
+It computes the mean of the input tensor's element along the provided axes. The dimension can be reduced or can be of same rank according to the values of attributes provided.
+2. [ReduceSumSquare ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#reducesumsquare)
+It computes the sum square of the input tensor's element along the provided axes.The dimension can be reduced or can be of same rank according to the values of attributes provided.
+3. [ReduceProd ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#reduceprod)
+It computes the product of the input tensor's element along the provided axes.The dimension can be reduced or can be of same rank according to the values of attributes provided.
+
+- **PR Status**\:
+
+| Pull Request| PR Number |   Status     |
+| :---        |    :----:   |          ---: |
+| Reduce ONNX Operators | [#11258](https://github.com/root-project/root/pull/11258)       | <img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor"> |
+
+#### 11) Extend Concat ONNX Operator to implement stack functionality as the ONNX ConcatFromSequence operator
+
+- **Definition\:** [ConcatFromSequence ONNX Documentation](https://github.com/onnx/onnx/blob/main/docs/Operators.md#ConcatFromSequence)
+
+Concatenate a sequence of tensors into a single tensor. All input tensors must have the same shape, except for the dimension size of the axis to concatenate on. By default 'new_axis' is 0, the behavior is similar to numpy.concatenate(). When 'new_axis' is 1, the behavior is similar to numpy.stack().
+
+np.concat() part was already implemented previously in the concat operator , i need to extend the support so it could support np.stack() functionality as well. This was required for GNN testing.
+
+- **PR Status**\:
+
+| Pull Request| PR Number |   Status     |
+| :---        |    :----:   |          ---: |
+| Extend Concat ONNX Operator to implement stack functionality as the ONNX ConcatFromSequence operator | [#11317](https://github.com/root-project/root/pull/11317)       | <img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&logo=appveyor"> |
+
+## Some Useful Blogs and Important Links
+1) [Python Tutorials for various C files of Tutorials/TMVA](https://gist.github.com/Neel-Shah-29/7e46bee55f7c09a18e94696a0a3e5ccf)
+
+2) [Documentation on RModelParser_ONNX.cxx](https://gist.github.com/Neel-Shah-29/5c1399ccd23903928128822c6f3e0957)
+
+3) [Getting into GSOC 2022](https://gist.github.com/Neel-Shah-29/3f04f05a8a353605068e32e55a5093c1)
+
+4) [All about Community Bonding Period](https://gist.github.com/Neel-Shah-29/b2c887adaa118ba68b42e324d3b2a47a)
+
+5) [Implementing the Operators in Sofie](https://gist.github.com/Neel-Shah-29/f0371566ca1e24a6b3a9b4097cdd44db)
+
+6) [Final Evaluation Detailed Report](https://gist.github.com/Neel-Shah-29/d51a9038dd07ef096127a62a92113fa0)
+
+7) [Final Project Presentation](https://docs.google.com/presentation/d/1VdOEkNsFcaBAo15kjVDRtJ_BWvVh9E6KgKzzrmkr1NQ/edit?usp=sharing)
+
+8) [GSOC Project Page](https://summerofcode.withgoogle.com/programs/2022/projects/vEuHzl6G)
+
+
+## Proposal Link \: 
+[Inference Code Generation for Deep Learning models](https://docs.google.com/document/d/1tvTY9Rq5j0XW8KFfvkWHWlmE__-94h-Nj0tCkMjYnzs/edit?usp=sharing)
 
 ## Conclusion
 I enjoyed a lot working on this project! I would like to really thank my mentors **Lorenzo Moneta, Sitong An, Omar, Ahmat Hamdan, and Sanjiban Sengupta** for always being a great support for me. Whenever I wanted any help or guidance, they were always with me! I am very proud to be associated with so many bright minds surrounding me, and every single day I learn something new from them. In the end, I am able to achieve all of my success because of the best wishes of my parents, seniors, and friends so a big thanks to them as well.
