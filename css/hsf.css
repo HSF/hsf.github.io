@@ -379,4 +379,6 @@ body {
   .big-link-container {
      grid-template-columns: 1fr;
   }
+  .big-link-container a {
+    min-height: 0;
 }
