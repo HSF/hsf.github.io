@@ -372,3 +372,11 @@ body {
 .training table tr th :last-child, .training table tr td :last-child {
   margin-bottom: 0;
 }
+
+/* Media Queries  */
+
+@media (max-width: 620px) {
+  .big-link-container {
+     grid-template-columns: 1fr;
+  }
+}
