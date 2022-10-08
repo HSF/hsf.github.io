@@ -3,7 +3,7 @@
 project: PATATRACK
 title: Implementation of a Python library that generalizes the CLUE clustering algorithm
 author: Simone Balducci
-date: 04.10.2022
+date: 08.10.2022
 year: 2022
 layout: blog_post
 logo: PATATRACK-logo.png
