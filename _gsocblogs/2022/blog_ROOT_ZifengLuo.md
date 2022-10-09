@@ -141,6 +141,16 @@ The tool can be used as a command-line tool as well as a C++ library. More detai
   conversion->Convert();
   ```
 
+## Known issues and Future work
+- \[Issue\] Multidimensional array such as `int myArray[10][20]` is not supported by RNTuple at current stage. However, since all C++ arrays are stored as 1D array in memory, multidimensional array can still be converted into `std::array<T, N/*total number of elements*/>` (if it is fixed-size, e.g., `int myArray[10][20]`) or `std::vector<T>` (if it is variable-size, e.g., `int myArray[10][n]`). We will wait until RNTuple natively supports multidimensional array to implement proper conversion. 
+- \[Issue\] This tool does not work stably with `ROOT::RVec<T>`. When the number of entries of the TTree containing `ROOT::RVec<T>` exceeds 1e5, the conversion will probably crash. This may due to the limit of life time of `ROOT::RVec<T>` object. We will fix this issue in the future.
+- \[Future\] Instead of printing messages before the conversion -such as the one below-, provide a means to notify user code of certain events (much like the callback currently used for notifying progress). In principle, this should be achieved via the well-known observer pattern.
+```
+In input file '/tmp/TestFile.root' detect leaf name: simpleClass; leaf type: SimpleClass; leaf title: simpleClass; leaf length: 1; leaf type size: 0
+Add field: x; field type name: std::array<float,3>
+```
+- \[Future\] The interface of the library is rather simple now. Improvements will be made in the future. 
+
 ## Self evaluation
 The project was initially carried out according to the timeline in the proposal. The first part "Convert TTree containing simple variables" went well and was completed on time. But the second part took two weeks longer than what was expected in the proposal. I met problems when dealing with variable-sized arrays: a) I didn't know how to migrate data of different types (e.g., `int`, `float`, ...) in a generic way instead of emulating cases; b) it was difficult to get the length of an array in each entry. My mentor Dr. Javier Lopez-Gomez helped me solve these problems. The third and fourth parts went well accordingly. Due to some personal issues from both my mentor and I, the project was delayed a bit in August and early September. But finally we managed to make it and complete the rest of the parts. For now the tool is coded independently from the root-project. We may integrate it into ROOT in the post-GSoC period. 
 
