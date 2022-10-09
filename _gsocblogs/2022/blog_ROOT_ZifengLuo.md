@@ -36,14 +36,14 @@ Based on the data types supported by TTree, the project is divided into 7 parts 
    <tr>
       <td rowspan="3">Convert TTree containing arrays</td>
       <td>Fixed-length 1D array</td>
-      <td>Completed. Mapped to <code>std::array&lt;T, N></code> (e.g., <code>int arry[10]</code>-><code>std::array&lt;int,10></code>)</td>
+      <td>Completed. Mapped to <code>std::array&lt;T, N></code> (e.g., <code>int myArray[10]</code>-><code>std::array&lt;int,10></code>)</td>
    </tr>
    <tr>
       <td>Variable-sized 1D array</td>
-      <td>Completed. Mapped to <code>std::vector&lt;T></code> (e.g., <code>int arry[N]</code>-><code>std::vector&lt;int></code>)</td>
+      <td>Completed. Mapped to <code>std::vector&lt;T></code> (e.g., <code>int myArray[N]</code>-><code>std::vector&lt;int></code>)</td>
    </tr>
    <tr>
-      <td>Multidimensional array (e.g., <code>int myArry[16][8]</code>)</td>
+      <td>Multidimensional array (e.g., <code>int myArray[16][8]</code>)</td>
       <td>Depending on if the size is variable, currently it is mapped to 1D <code>std::array&lt;T, N></code> (fixed-size) or <code>std::vector&lt;T></code> (variable-size). In order to map it to corresponding dimensional vector, native RNTuple feature support is needed.</td>
    </tr>
    <tr>
