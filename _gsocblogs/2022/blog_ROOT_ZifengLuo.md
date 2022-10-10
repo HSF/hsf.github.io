@@ -49,7 +49,7 @@ Based on the data types supported by TTree, the project is divided into 7 parts 
    <tr>
       <td rowspan="5">Convert TTree containing STL types and collections </td>
       <td><code>std::string</code></td>
-      <td rowspan="5">Completed. All types are one-to-one mapped except types that are not supported by RNTuple I/O. For example, <code>std::set&lt;T></code> will cause program crash. However, conversion of TTree containing branches of <code>ROOT::RVec&lt;T></code> is not stable in current stage (see section <b>Known issues and Future work</b>).</td>
+      <td rowspan="5">Completed. All types are one-to-one mapped except types that are not supported by RNTuple I/O. For example, <code>std::set&lt;T></code> will not work. However, conversion of TTree containing branches of <code>ROOT::RVec&lt;T></code> is not stable in current stage (see section <b>Known issues and Future work</b>).</td>
    </tr>
    <tr>
       <td><code>std::array&lt;T, N></code></td>
