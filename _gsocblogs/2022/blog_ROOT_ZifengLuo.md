@@ -2,7 +2,7 @@
 project: ROOT
 title: Automatic conversion of data stored in TTree form to RNTuple
 author: Zifeng Luo
-photo: blog_authors/ZifengLuo.jpg
+photo: blog_authors/ZifengLuo.jpeg
 date: October 04, 2022
 year: 2022
 layout: blog_post
