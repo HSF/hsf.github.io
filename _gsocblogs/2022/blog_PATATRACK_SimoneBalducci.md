@@ -1,12 +1,12 @@
 ---
 
-project: PATATRACK
+project: Patatrack
 title: Implementation of a Python library that generalizes the CLUE clustering algorithm
 author: Simone Balducci
 date: 08.10.2022
 year: 2022
 layout: blog_post
-logo: PATATRACK-logo.png
+logo: patatrack-logo.png
 intro: |
   Description of the progress obtained in generalizing the CLUE clustering algorithm to N dimensions and binding it with Python.
 
