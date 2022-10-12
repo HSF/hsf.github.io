@@ -23,8 +23,8 @@
   name: HEP C++ Course
   repository: https://github.com/hsf-training/cpluspluscourse
   status: stable
-  videos: https://indico.cern.ch/event/979067/
-  webpage: https://indico.cern.ch/event/979067/
+  videos: https://github.com/hsf-training/cpluspluscourse#-video-recordings--events
+  webpage: https://github.com/hsf-training/cpluspluscourse#-getting-the-latest-pdf
   id: hepcpp
 - description: 'A brand new C++ course that is currently in development.'
   name: Basic Modern C++
