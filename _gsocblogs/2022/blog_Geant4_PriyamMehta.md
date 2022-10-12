@@ -29,7 +29,7 @@ KubeFlow was the platform of choice for making a reproducible and scalable machi
 The pipeline can be found on ml.cern.ch under the name of `Geant4-Model-Optimization-Pipeline`. 
 <img src="https://user-images.githubusercontent.com/47216475/193470743-b680df2c-fce9-477f-8db7-f9cce5be755c.svg" alt="Complete-pipeline" width="100%">
 
--   `Model Loader` - Model Loader component that acts as a central reppository for non-optimized model. The model gets downloaded and stored here.
+-   `Model Loader` - Model Loader component that acts as a central repository for non-optimized model. The model gets downloaded and stored here.
 -   `MacroHandlers` - Macro Handler components which output a macro file that gets passed to the respective `Par04`s.
 -   `Inference` - `Par04`s which use Full Simulation and `ONNXRuntime` CPU and CUDA Execution providers for inference.
 -   `Benchmark` - Benchmark component that takes in 3 .root files as input and generates comparison plots through them.
@@ -382,8 +382,8 @@ For detailed read on ONNXRuntime Quantization, refer https://onnxruntime.ai/docs
 - `op_types_to_quantize` - List of operations to quantize. Only the operations listed here will be quantized in the model.
 - `per_channel` - Whether to perform `per_channel` quantization or not.
 - `reduce_range` - Whether to perform `7bit` quantization or not.
-- `activation_type` - Which `INT8` quantization to perform on activations. Supported [`int8`, `uint8`]. Peferred, `int8` as it is more versatile and works on a wide array of models.
-- `weight_type` - Which `INT8` quantization to perform on model weights. Supported [`int8`, `uint8`]. Peferred, `int8` as it is more versatile and works on a wide array of models.
+- `activation_type` - Which `INT8` quantization to perform on activations. Supported [`int8`, `uint8`]. Preferred, `int8` as it is more versatile and works on a wide array of models.
+- `weight_type` - Which `INT8` quantization to perform on model weights. Supported [`int8`, `uint8`]. Preferred, `int8` as it is more versatile and works on a wide array of models.
 - `nodes_to_quantize` - List of nodes to quantize. Specify exact node names of the .onnx model. Only the nodes present in the list will be quantized. If empty, all nodes will be quanized.
 - `nodes_to_exclude` - List of nodes to exclude. Specify exact node names of the .onnx model. Only the nodes present in the list will be exclued. If empty, no nodes will be excluded.
 - `use_external_data_format` -  Saving models > 2GB creates problems in ONNXRuntime. It is preferred to set this option to `True` if dealing with models > 2GB.
