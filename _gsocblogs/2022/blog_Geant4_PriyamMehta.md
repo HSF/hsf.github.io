@@ -2,7 +2,7 @@
 project: Geant4
 title: Geant4-FastSim - Memory footprint optimization for ML fast shower simulation
 author: Priyam Mehta
-photo: blog_author/PriyamMehta.png
+photo: blog_authors/PriyamMehta.png
 date: 27.07.2022
 year: 2022
 layout: blog_post
@@ -27,7 +27,7 @@ KubeFlow was the platform of choice for making a reproducible and scalable machi
 `g4fastsim` is broken into 2 parts - `Training` and `Inference`. The inference application is named `Par04`. `Par04` example can perform inference using both fullsim, Geant4 native api, and fastsim, using different Machine Learning frameworks like ONNXRuntime, LWTNN and LibTorch. Inference Optimization Pipeline is aimed at reducing memory footprint of the ML model by performing various types of hardware-specific quantizations and graph optimizations in ONNXRuntime.
 
 The pipeline can be found on ml.cern.ch under the name of `Geant4-Model-Optimization-Pipeline`. 
-![Complete-pipeline](https://user-images.githubusercontent.com/47216475/193470743-b680df2c-fce9-477f-8db7-f9cce5be755c.svg)
+<img src="https://user-images.githubusercontent.com/47216475/193470743-b680df2c-fce9-477f-8db7-f9cce5be755c.svg" alt="Complete-pipeline" width="100%">
 
 -   `Model Loader` - Model Loader component that acts as a central reppository for non-optimized model. The model gets downloaded and stored here.
 -   `MacroHandlers` - Macro Handler components which output a macro file that gets passed to the respective `Par04`s.
@@ -268,7 +268,7 @@ python3 benchmark.py \
 > Before running a pipeline which requires EOS access, make sure your `krb-secret` is up-to-date and also run `kinit CERN_ID`. If you want to renew your `krb-secret` perform the steps mentioned [here](https://gitlab.cern.ch/ai-ml/examples/-/tree/master/pipelines/argo-workflows/access_eos).
 
 An example plot is given below:
-![transProfile_1_E_10_GeV_A_90](https://user-images.githubusercontent.com/47216475/193470831-036da729-c218-4704-b5d1-f90f92d253d5.png)
+<img src="https://user-images.githubusercontent.com/47216475/193470831-036da729-c218-4704-b5d1-f90f92d253d5.png" alt="transProfile_1_E_10_GeV_A_90" width="100%">
 
 ## Optimizations
 
@@ -305,9 +305,9 @@ In brief, `basic` adds hardware agnostic optimizations, `extended` applies graph
 
 ONNXRuntime has a very rich `INT8` quantization API. Our experiments showed considerable reduction in CPU and GPU memory usage for CPU and CUDA Execution Providers respectively with no to very little accuracy drop. Quantization is very dependent on Calirabtion data / representative data, its quality and quantity both. 
 
-![longProfile_1_E_10_GeV_A_90](https://user-images.githubusercontent.com/47216475/193470906-14b7e250-99e4-4420-a111-8adf890d3c42.png)
+<img src="https://user-images.githubusercontent.com/47216475/193470906-14b7e250-99e4-4420-a111-8adf890d3c42.png" alt="longProfile_1_E_10_GeV_A_90" width="100%">
 
-![CPUResMem_E_10_GeV_A_90](https://user-images.githubusercontent.com/47216475/193470912-5ece798b-b91c-4d40-ba81-de1688fb8f79.png)
+<img src="https://user-images.githubusercontent.com/47216475/193470912-5ece798b-b91c-4d40-ba81-de1688fb8f79.png" alt="CPUResMem_E_10_GeV_A_90" width="100%">
 
 ### Config JSON
 
