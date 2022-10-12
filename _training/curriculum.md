@@ -21,7 +21,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### C++ corner
 
-{% include list_of_selected_training_modules.html ids="hepcpp,moderncpp,cmake"%}
+{% include list_of_selected_training_modules.html ids="hepcpp,cmake"%}
 
 ### Machine learning and other analysis tools
 
@@ -29,15 +29,15 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### HEP specific tools
 
-{% include list_of_selected_training_modules.html ids="uproot,scikithep" %}
+{% include list_of_selected_training_modules.html ids="scikithep" %}
 
 ### Miscellaneous
 
 {% include list_of_selected_training_modules.html ids="simpleanalysis" %}
 
-### Planned or in early development
+### Planned, in early development, or archived
 
-{% include list_of_selected_training_modules.html ids="root,advancedgit,grid,parallel,alpaka,yadagereana,doc,generators" %}
+{% include list_of_selected_training_modules.html ids="uproot,root,advancedgit,grid,parallel,alpaka,yadagereana,doc,generators" %}
 
 ## Further reads
 
