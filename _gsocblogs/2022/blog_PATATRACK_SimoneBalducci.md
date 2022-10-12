@@ -14,7 +14,7 @@ intro: |
 
 ## Introduction
 Hello, I am Simone and I am currently working with the Patatrack team.  
-The github repo for the project can be found here: https://github.com/SimonB00/clue.  
+The github repo for the project can be found [here](https://github.com/SimonB00/clue).  
 The aim of the project I'm working on is to generalize the CLUE clustering algorithm to N dimensions, since it was initially designed to work in
 2 dimensions. The following goal is to create a Python binding for the algorithm and deploy it as a Python library.
 
@@ -23,7 +23,7 @@ So far, the generalization of the code has been fully implemented. Also, in orde
 geometric properties of the detector.  
 The Algorithm has been tested and it has been asserted that it works as expected. The output has been compared to that produced by the original algorithm,
 and the two are compatible.  
-The list of the commits can be found here: https://github.com/SimonB00/clue/commits/main
+The list of the commits can be found [here](https://github.com/SimonB00/clue/commits/main).
 
 ## The binding of the code
 The CLUE algorithm has been binded into a python module created with pybind11.  
@@ -31,7 +31,7 @@ A problem that had to be solved was that the ClusteringAlgo is templated, where 
 The problem has been solved by writing several functions that execute the code for 10 possible dimensions, and the function mainRun, which is the the function that was eventually binded, runs the correct function depending on the number of dimensions that is passed in input.
 
 ## The clusterer class
-The library contains a class named clusterer (https://github.com/SimonB00/CLUEstering/blob/main/CLUEstering/CLUEstering.py) that reads the data, runs clue from the binded method in the pybind module and plots the data both in input and output, highlighting the different clusters and the ouliers in output. The output data can also be saved on csv files.  
+The library contains a class named clusterer ([CLUEstering.py](https://github.com/SimonB00/CLUEstering/blob/main/CLUEstering/CLUEstering.py)) that reads the data, runs clue from the binded method in the pybind module and plots the data both in input and output, highlighting the different clusters and the ouliers in output. The output data can also be saved on csv files.  
 The input data can either be from a csv file, a pandas dataframe, python lists or numpy arrays.  
 The library also contains the method makeBlobs, which generates several 2D or 3D blobs and is intended as an easy way for the users to test the algorithm.
 ```
@@ -50,7 +50,7 @@ Building the wheel locally (thus using a source distribution instead of a source
 
 ![plot](https://github.com/SimonB00/clue/blob/main/images/blobwithnoise.png)
 
-
-The proposal can be found at the link: https://summerofcode.withgoogle.com/programs/2022/projects/h8Np6Hjm  
-The link pypi of the library: https://pypi.org/project/CLUEstering/  
-The github repo of the library: https://github.com/cms-patatrack/CLUEstering
+Useful links:  
+[Link for the proposal](https://summerofcode.withgoogle.com/programs/2022/projects/h8Np6Hjm)  
+[Link for the library on pypi](https://pypi.org/project/CLUEstering/)  
+[Github repo of the library](https://github.com/cms-patatrack/CLUEstering)
