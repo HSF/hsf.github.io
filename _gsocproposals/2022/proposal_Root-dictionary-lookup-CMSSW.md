@@ -32,7 +32,7 @@ information about the particle collisions at the detector. CMSSW uses the
 [ROOT](https://root.cern/) framework to provide support for data storage and
 processing. ROOT relies on Cling, Clang, LLVM for building automatically
 efficient I/O representation of the necessary C++ objects. The I/O properties of
-each object is described in a compileable C++ file called a /dictionary/. ROOT's
+each object is described in a compilable C++ file called a /dictionary/. ROOT's
 I/O dictionary system
 [relies on C++ modules](https://github.com/root-project/root/blob/master/README/README.CXXMODULES.md)
 to improve the overall memory footprint when being used.
