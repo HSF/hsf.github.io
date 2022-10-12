@@ -48,7 +48,7 @@ The library has been called "CLUEstering" and has been officially uploaded to py
 When a user downloads the library with the command "pip install CLUEstering", the wheel is built and the binding module is compiled locally, generating che .so file for the particular architecture of the user's machine.  
 Building the wheel locally (thus using a source distribution instead of a source distribution) makes the installation slower, but is necessary, because the .so file has to be generated on the machine, otherwise the binded module wouldn't work.
 
-![plot](https://github.com/SimonB00/clue/blob/main/images/blobwithnoise.png)
+![plot](https://raw.githubusercontent.com/SimonB00/GSOC_CLUE/main/images/blobwithnoise.png)
 
 Useful links:  
 [Link for the proposal](https://summerofcode.withgoogle.com/programs/2022/projects/h8Np6Hjm)  
