@@ -52,7 +52,7 @@ We are approaching the end of the year, where we usually rotate the conveners:
 
 Please try and book meetings in Indico at least 2 weeks in advance!
 
-That way they go into the calendar early and they will be included in the weekly email annoucement that goes to HSF Forum.
+That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
 
 ### Data Analysis
 
