@@ -70,26 +70,20 @@ That way they go into the calendar early and they will be included in the weekly
 
 Continue to put together the fall meeting lineup:
 
-- Oct 19th: GNN tracking, Charline Rougier: https://indico.cern.ch/event/1210410/
+- Oct 19th: GNN tracking, Charline Rougier: <https://indico.cern.ch/event/1210410/>
 - Nov: RICH PID reconstruction. speakers confirmed, Finalizing dates, tentatively November 23rd
 - Dec: KFParticle + HF tagging: Reaching out to speakers
-
 
 ### PyHEP
 
 NTR this week - PyHEP report to come.
-
-
 ### Software Tools and Packaging
     
-Will do a punch lunch (lunchtime meeting) with https://www.punch4nfdi.de/ on packaging later in the year
+Will do a punch lunch (lunchtime meeting) with <https://www.punch4nfdi.de/> on packaging later in the year
 - confirmed for Nov 3rd
-- https://indico.desy.de/category/897/
+- <https://indico.desy.de/category/897/>
 
 Still lining up spack talks
-
-
-
 ### Event Generators
 
 - Meeting last week with talk from Marcus on EIC/Nuclear physics
@@ -98,7 +92,6 @@ Still lining up spack talks
     - Review from Snowmass (will contact Josh Isaacson, Stefan Hoeche, et al.)
     - Follow up on generators with ML (e.g. hadronization).
     - Dedicated meeting on MC tuning - relevant across different areas (LHC, Nuclear, Neutrino), also a heavily software-focused activity, and something with potential for ML applications
-
 
 ### Frameworks
 
@@ -112,9 +105,7 @@ Conveners are at the IRIS-HEP retreat. More news to follow...
 
 C++ Advanced training is happening now!
 
-
 ## Other Interest and Activity Areas
-
 
 ### Compute Accelerator Forum
 
@@ -128,9 +119,7 @@ After the Future Trends workshop, we will start planning the next meetings soon.
 
 ### Analysis Facilities
 
-Meeting today!
-
-
+Meeting today, on [IceCube's analysis facility](https://indico.cern.ch/event/1211255/)
 
 ## AOB
 
@@ -163,5 +152,3 @@ We seem to have had some issues with email delivery again. The weekly announceme
 ### Next Meeting
 
 Our next coordination meeting is on 27 October.
-
-
