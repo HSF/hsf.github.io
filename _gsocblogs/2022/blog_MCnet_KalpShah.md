@@ -32,7 +32,7 @@ On the other hand, progress on the pile up tool was made. The tool is called pil
 The pilemc code is written in python, which allows for adding pileup to a signal file. The following feaures were implemented :
 
 - A memory efficient event finder is used which first seeks the event and then sends the event to the main pilemc code
-- As the event has to be composed using the signal vertex and particles combined with the pile up vertex and particles. Thus, a custom event composer is required which combines them into a single event whcih can then be added to the output file
+- As the event has to be composed using the signal vertex and particles combined with the pile-up vertex and particles. Thus, a custom event composer is required which combines them into a single event which can then be added to the output file
 
 ## Links
 
