@@ -929,7 +929,7 @@ Samir: if we want to increase collaboration with others, not clear that they all
 
 Andy: supportive of HSF being able of taking ownership of IPR but skeptical that existing big projects with huge IPR are good gunieapigs.
 
-Markus: any Foundation would be established under a national law; would US institutes/agencies agree to give IP to a foundation under EU/CH law, or viceversa?
+Markus: any Foundation would be established under a national law; would US institutes/agencies agree to give IP to a foundation under EU/CH law, or vice-versa?
 
 ### HSF governance
 

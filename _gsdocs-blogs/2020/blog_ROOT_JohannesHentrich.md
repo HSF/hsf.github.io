@@ -13,7 +13,7 @@ intro: |
 
 The documentation is constantly evolving, as is the underlying software. But readers' demands on documentation also change. Therefore, it is not only necessary to know exactly the status quo of the documentation and the software, but also how the users use it. Only with this knowledge can the following project goals be defined.
 
-## Making the ROOT documentation more accesssible
+## Making the ROOT documentation more accessible
 
 As it turned out, even for physicists it is not easy to deal with ROOT. Especially the beginning is difficult. Therefore, the focus was set on making the first steps with ROOT as easy as possible for non-ROOT users. The goal was to enable the reader (in the majority physicists) to use ROOT immediately for his daily scientific work. Thus, other user groups were only considered to a limited extent.
 
