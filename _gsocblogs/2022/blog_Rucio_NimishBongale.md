@@ -35,7 +35,7 @@ Rucio has proven its potential to be used for providing functionality to scienti
 - Generate Lighthouse reports.
 - Write a blog post summarizing everything, and about my performance cum involvement in Rucio.
 - Seek daily approvals until everything is finalised.
-- Go code upteen times for any miniscule errors.
+- Go code upteen times for any minuscule errors.
 - Clean code, make sure everything is properly linted and ready before the final closing commits.
 - Publish my endterm blog post, rounding up my wholesome journey.
 - Seek final approval.
@@ -54,13 +54,13 @@ In total 8 pages were created as a part of this endeavour.
 
 #### Login Page
 
-The Login page serves as the entry point to the entire application. It makes use of the custom built Form component, which supports field validation. It handles multiple auth mechanisms such as Username/Password, x509 ceritficate, OIDC & OIDC PKCE. A successful sign in leads us to the Home page, while the user is notified in case of an unsuccesful one.
+The Login page serves as the entry point to the entire application. It makes use of the custom built Form component, which supports field validation. It handles multiple auth mechanisms such as Username/Password, x509 ceritficate, OIDC & OIDC PKCE. A successful sign in leads us to the Home page, while the user is notified in case of an unsuccessful one.
 
 ![Login](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Login.png)
 
 #### Dashboard/Home Page
 
-The Dashboard is the newest addition to the Rucio WebUI. This view currently supports displaying the most recent rules & RSEs along with their respective usages and quotas. On the left is the new redesigned (decluttered) Navbar, which supports easy navigation between mutliple views.
+The Dashboard is the newest addition to the Rucio WebUI. This view currently supports displaying the most recent rules & RSEs along with their respective usages and quotas. On the left is the new redesigned (decluttered) Navbar, which supports easy navigation between multiple views.
 
 ![Home](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Home.png)
 
@@ -142,7 +142,7 @@ Thankfully for us, CRA (Create React App) internally uses webpack, which is leve
 
 #### REST'ful approach
 
-The old WebUI had a direct DB dependency, which is a security debt. With the new WebUI 2.0, this direct DB depedency is completely removed, owing to its REST'ful architecture.
+The old WebUI had a direct DB dependency, which is a security debt. With the new WebUI 2.0, this direct DB dependency is completely removed, owing to its REST'ful architecture.
 
 ### Key features
 
@@ -154,7 +154,7 @@ Storybook is great for documenting UI components. The same was used to document 
 
 #### Rest API Wrapper
 
-The brower `fetch` api is wrapped around with 5 utility functions, namely `getData`, `postData`, `putData`, `deleteData` and `streamData`. Furthermore, the server base url & Rucio auth token are automatically inserted into the request, making things look much cleaner in the React pages.
+The browser `fetch` api is wrapped around with 5 utility functions, namely `getData`, `postData`, `putData`, `deleteData` and `streamData`. Furthermore, the server base url & Rucio auth token are automatically inserted into the request, making things look much cleaner in the React pages.
 
 #### Rucio Client
 
@@ -176,7 +176,7 @@ Some exceptions thrown by either the code or received in response from the serve
 
 The left side bar navigation brings in a new dashboard-like flavour to the WebUI. The Search bar on top has been preserved as is in terms of functionality.
 
-#### Proctected Routes
+#### Protected Routes
 
 `react-router-dom` has been configured to handle protected routes, and allow only authenticated users to access certain protected routes. In case of an invalid access the user is redirected to the Login page.
 
@@ -204,7 +204,7 @@ Types, Models, Exceptions & REST Wrapper not only gave birth to the `RucioClient
 
 #### Code Quality
 
-On top of type checking, variable usages are null-safed, object and array destructing is in place whereever necessary and exceptions are handled appropriately.
+On top of type checking, variable usages are null-safed, object and array destructing is in place wherever necessary and exceptions are handled appropriately.
 
 #### Unit Testing
 
