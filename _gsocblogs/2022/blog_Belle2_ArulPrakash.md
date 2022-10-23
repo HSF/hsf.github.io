@@ -40,7 +40,7 @@ These are the things that can be improved upon, in the existing system.
  
  Two of the key tech that will feature throughout the work are CherryPy and GitLab, so a good amount of time was spent understanding and then getting hands dirty with trying and testing the integration of the two, which is key for the bulk of the improvements planned. With that, the first task undertaken was to extend details displayed along with plots of validation runs to include a list of relevant issues. A couple of features have also been added that would allow the reviewer of the results to directly create issues from the plot display window or update existing relevant issues in GitLab. 
  
-![Linked issue and update option](https://github.com/alexverus/GSoC2022/blob/3d3032e945dac8281c7b342f8b74bb9864a7bc73/Plot.PNG?raw=true&s=800)
+![Linked issue and update option](https://github.com/alexverus/GSoC2022/blob/3d3032e945dac8281c7b342f8b74bb9864a7bc73/Plot.PNG?raw=true)
  
  #### Plot/logfile endpoints
  
@@ -50,7 +50,7 @@ These are the things that can be improved upon, in the existing system.
  
  Many of the validation scripts depend on simulated event data files, which require effort, time and space to produce on store. Whilst there is reuse of datafiles across a module, there might still be some degeneracy when looking at the full set of datafiles used by all the modules. A new page has now been added to the validation server which will display all the datafiles produced by the validation steering scripts by all the modules. The datafiles will be downloadable from the validation page and metadata of the file can also be viewed. This along with the information about the steering file responsible for the generation all available at a single point should potentially help reuse of the existing datafiles across different modules.  
  
-![Data files page](https://github.com/alexverus/GSoC2022/blob/3d3032e945dac8281c7b342f8b74bb9864a7bc73/Data_files.PNG?raw=true&s=800) 
+![Data files page](https://github.com/alexverus/GSoC2022/blob/3d3032e945dac8281c7b342f8b74bb9864a7bc73/Data_files.PNG?raw=true) 
 
 ### Tools Used
 
