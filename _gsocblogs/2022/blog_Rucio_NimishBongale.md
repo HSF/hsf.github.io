@@ -86,19 +86,19 @@ As the name suggests, this page enlists all the rules associated to a given acco
 
 Central to the functionality of the Rucio WebUI is the ability to create rules with just a few clicks.Once a rule is created, the rule automatically reflects in the List Rules page, owing to the implementation of the global store using the React Context API.
 
-Step 1:
+**Step 1:**
 
 ![Create Rules](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/RuleDef.png)
 
-Step 2:
+**Step 2:**
 
 ![Step 2](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Step2.png)
 
-Step 3:
+**Step 3:**
 
 ![Step 3](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Step3.png)
 
-Step 4:
+**Step 4:**
 
 ![Step 4](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Step4.png)
 
@@ -216,107 +216,61 @@ a11y plays a pivotal role in determining if an application caters to audience of
 
 ### Relevant PRs
 
-- [Code Refactoring](https://github.com/rucio/webui/pull/98)
+- [Rucio Dashboard](https://github.com/rucio/webui/pull/104)
 
-#98 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged 4 days ago
+- [Code Refactoring](https://github.com/rucio/webui/pull/98)
 
 - [PKCE POC complete](https://github.com/rucio/webui/pull/95)
 
-#95 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged 24 days ago
-
 - [Rucio Client Module](https://github.com/rucio/webui/pull/91)
-
-#91 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged 28 days ago [Approved](https://github.com/rucio/webui/pull/91#partial-pull-merging)
 
 - [Custom Exceptions and Models implementation](https://github.com/rucio/webui/pull/90)
 
-#90 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 22 Sep [Approved](https://github.com/rucio/webui/pull/90#partial-pull-merging)
-
 - [Custom Exceptions and Models implementation](https://github.com/rucio/webui/pull/89)
-
-#89 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was closed on 19 Sep [Approved](https://github.com/rucio/webui/pull/89#partial-pull-merging)
 
 - [Feature 70 multiple OIDC provider support](https://github.com/rucio/webui/pull/88)
 
-#88 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 15 Sep [Approved](https://github.com/rucio/webui/pull/88#partial-pull-merging)
-
 - [Modify public folder as per latest web standards](https://github.com/rucio/webui/pull/80)
-
-#80 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 5 Sep [Approved](https://github.com/rucio/webui/pull/80#partial-pull-merging)
 
 - [Replaced localStorage with sessionStorage, "any" with "unknown"](https://github.com/rucio/webui/pull/76)
 
-#76 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 5 Sep
-
 - [Removed .env, package-lock.json .gitignore entry](https://github.com/rucio/webui/pull/69)
-
-#69 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 5 Sep [Approved](https://github.com/rucio/webui/pull/69#partial-pull-merging)
 
 - [OIDC POC Complete](https://github.com/rucio/webui/pull/68)
 
-#68 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 31 Aug [Approved](https://github.com/rucio/webui/pull/68#partial-pull-merging)
-
 - [Keyboard navigation, accessibility, miscellaneous fixes](https://github.com/rucio/webui/pull/65)
-
-#65 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 15 Sep [Approved](https://github.com/rucio/webui/pull/65#partial-pull-merging)
 
 - [Feature 52 alert notifications](https://github.com/rucio/webui/pull/55)
 
-#55 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 27 Jul [Approved](https://github.com/rucio/webui/pull/55#partial-pull-merging)
-
 - [Feature 53 initial auth workflow](https://github.com/rucio/webui/pull/54)
-
-#54 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 25 Aug [Approved](https://github.com/rucio/webui/pull/54#partial-pull-merging)
 
 - [Feature 47 login unit test cases](https://github.com/rucio/webui/pull/51)
 
-#51 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 23 Aug [Approved](https://github.com/rucio/webui/pull/51#partial-pull-merging)
-
 - [Create REST API wrapper utility](https://github.com/rucio/webui/pull/50)
-
-#50 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 21 Jul [Approved](https://github.com/rucio/webui/pull/50#partial-pull-merging)
 
 - [Feature 46 add org logos](https://github.com/rucio/webui/pull/49)
 
-#49 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 21 Jul [Approved](https://github.com/rucio/webui/pull/49#partial-pull-merging)
-
 - [Frontend Login Infrastructure complete](https://github.com/rucio/webui/pull/45)
-
-#45 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 11 Jul [Approved](https://github.com/rucio/webui/pull/45#partial-pull-merging)
 
 - [Feature 37 Implement environment layer, add OIDC configuration, other cleanup](https://github.com/rucio/webui/pull/43)
 
-#43 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 7 Jul [Approved](https://github.com/rucio/webui/pull/43#partial-pull-merging)
-
 - [Feature 38 client side routing](https://github.com/rucio/webui/pull/40)
-
-#40 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 1 Jul
 
 - [Feature 36 CI for React app](https://github.com/rucio/webui/pull/39)
 
-#39 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 1 Jul
-
 - [Feature 10 login page](https://github.com/rucio/webui/pull/35)
-
-#35 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 27 Jun
 
 - [Feature 10 login page components](https://github.com/rucio/webui/pull/34)
 
-#34 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 27 Jun
-
 - [Custom CI/CD pipeline replacing third party gh action](https://github.com/rucio/webui/pull/33)
 
-#33 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was merged on 20 Jun [Approved](https://github.com/rucio/webui/pull/33#partial-pull-merging)
-
 - [Feature 13 custom cicd replace third party gh action](https://github.com/rucio/webui/pull/32)
-
-#32 by [nimishbongale](https://github.com/rucio/webui/issues?q=is%3Apr+author%3Animishbongale) was closed on 11 Jun
 
 - [Initial Setup of Storybook, React App, CICD deploy to GitHub pages](https://github.com/rucio/webui/pull/16)
 
 ### Key Takeaways
 
-- Having the right mentors are key to any project, a huge shoutout to @Mayank!
+- Having the right mentors are key to any project - a huge shoutout to @Mayank, @Martin & @Cedric! (special mention to @Valentina for parterning with me on this project!)
 - Creating an OSS project from scratch having a huge impact has been a dream of mine, and I think I very well might've done it!
 - Rethinking UI really requires you to step out of your developer shoes and don the product hat.
 - Being passionate about something really drives you to do it consistently.
