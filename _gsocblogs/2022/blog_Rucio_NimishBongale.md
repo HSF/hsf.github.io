@@ -14,7 +14,7 @@ intro: The Rucio WebUI 2.0 we've all been looking forward to is finally here...
 
 ### Mentors: Mayank Sharma, Martin B, Mario Lassnig
 
-### Project Proposal link: [https://summerofcode.withgoogle.com/programs/2022/projects/1ps6wuOz](https://summerofcode.withgoogle.com/programs/2022/projects/1ps6wuOz)
+[Project Proposal](https://summerofcode.withgoogle.com/programs/2022/projects/1ps6wuOz)
 
 ### Live storybook deployment: [https://rucio.cern.ch/webui](https://rucio.cern.ch/webui)
 
