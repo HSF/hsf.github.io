@@ -56,31 +56,31 @@ In total 8 pages were created as a part of this endeavour.
 
 The Login page serves as the entry point to the entire application. It makes use of the custom built Form component, which supports field validation. It handles multiple auth mechanisms such as Username/Password, x509 ceritficate, OIDC & OIDC PKCE. A successful sign in leads us to the Home page, while the user is notified in case of an unsuccessful one.
 
-![Login](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Login.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Login.png" alt="Login" width="100%">
 
 #### Dashboard/Home Page
 
 The Dashboard is the newest addition to the Rucio WebUI. This view currently supports displaying the most recent rules & RSEs along with their respective usages and quotas. On the left is the new redesigned (decluttered) Navbar, which supports easy navigation between multiple views.
 
-![Home](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Home.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Home.png" alt="Home" width="100%">
 
 #### DID Metadata Page
 
 The DID Metadata page displays the different attributes associated to a DID, which a user can request to be shown by clicking an info button.
 
-![DID Metadata](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/DIDMetadata.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/DIDMetadata.png" alt="DID Metadata" width="100%">
 
 #### Rule Metadata Page
 
 The Rule Metadata page displays the different attributes associated to a Rule, which a user can request to be shown by clicking on the scopename in blue.
 
-![Rule Metadata](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/RuleMetadata.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/RuleMetadata.png" alt="Rule Metadata" width="100%">
 
 #### List Rules Page
 
 As the name suggests, this page enlists all the rules associated to a given account, and provides options to take actions on them. This is largely enabled by the Table component and different filters provided at the top. Also present on the view are buttons to delete and create new rules, which redirects us to the Rule Definition page.
 
-![List Rules](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/ListRules.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/ListRules.png" alt="List Rules" width="100%">
 
 #### Rule Definition / Create Rules Page
 
@@ -88,37 +88,37 @@ Central to the functionality of the Rucio WebUI is the ability to create rules w
 
 **Step 1:**
 
-![Create Rules](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/RuleDef.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/RuleDef.png" alt="Rule Definition" width="100%">
 
 **Step 2:**
 
-![Step 2](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Step2.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Step2.png" alt="Step 2" width="100%">
 
 **Step 3:**
 
-![Step 3](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Step3.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Step3.png" alt="Step 3" width="100%">
 
 **Step 4:**
 
-![Step 4](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Step4.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Step4.png" alt="Step 4" width="100%">
 
 #### Search Page
 
 On every page of the new WebUI, there is a Header containing the Rucio logo, on the click of which the collapsible drawer Navbar expands. To the right we have an option to log out of the UI. In the centre we have a Search field, which allows us to search for DIDs / RSEs from anywhere within the application. This redirects us to the Search page, containing tables to show the relevant information.
 
-![Search](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Search.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Search.png" alt="Search" width="100%">
 
 #### Error Boundary Page
 
 The Error Boundary page serves a good purpose, that in the advent of an error/exception, it gracefully shows the error in a separate page, which signals to the user that there is an issue with the application at the moment. Without Error boundaries, the webpage would throw up a plain white screen as React unmounts the entire DOM. The Error boundaries serve another purpose - a component backed try-catch allowing us to log any anomalies into a monitoring service.
 
-![Error Boundary](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/ErrorBoundary.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/ErrorBoundary.png" alt="Error Boundary" width="100%">
 
 #### Not Found Page
 
 If a user accidentally tries to access a route which is not configured, then a Not-Found (404) page is shown.
 
-![Not found](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/404.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/404.png" alt="Not found" width="100%">
 
 ### Key Stack Upgrades
 
@@ -150,7 +150,7 @@ The old WebUI had a direct DB dependency, which is a security debt. With the new
 
 Storybook is great for documenting UI components. The same was used to document and build close to 15 different components, ranging from input fields to cards to tables.
 
-![Storybook](https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Storybook.png)
+<img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Storybook.png" alt="Storybook" width="100%">
 
 #### Rest API Wrapper
 
