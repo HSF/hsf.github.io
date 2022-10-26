@@ -2,7 +2,7 @@
 project: Acts 
 title: Vectorized Linear Algebra Implementation for Acts
 author: Tirthankar Mazumder
-avatar: https://avatars.githubusercontent.com/u/wermos?s=400&v=4
+avatar: https://avatars.githubusercontent.com/u/63574588?s=400&v=4
 date: 3.10.2022
 year: 2022
 layout: blog_post
