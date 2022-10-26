@@ -32,7 +32,6 @@ One of the main things we need, to efficiently figure out what to improve first,
 #### Investigating Matrix Math Libraries
 Then, my mentors and I spent a lot of time testing out 3 possible math backend alternatives (the custom-made `fast5x5`, [`blaze`](https://bitbucket.org/blaze-lib/blaze/src/master/), and [`Fastor`](https://github.com/romeric/Fastor) in a repository of mine called [Fast 5×5](https://github.com/wermos/Fast5x5) and comparing their performance to that of [`Eigen`](https://eigen.tuxfamily.org/index.php?title=Main_Page). This repository was something I forked from some [prior work done on this front](https://gitlab.in2p3.fr/CodeursIntensifs/Fast5x5).
 
-
 #### How Matrix Math Libraries Work
 All matrix math libraries use something called [SIMD](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data) (short for Single Instruction, Multiple Data) to achieve a speed-up compared to a naïve implementation.
 
@@ -44,7 +43,10 @@ Let's take the example of adding two 4-dimensional vectors together. The naïve 
 
 <br/>In the same vein, libraries like `Eigen`, `blaze`, `Fastor`, and `fast5x5` use SIMD instructions to create optimized routines for tasks like matrix multiplication.
 
+##### My Project
 However, it was found that the performance of Eigen, which is the library that ACTS uses for matrix computations, could be improved. As a proof-of-concept, the Fast5×5 project was created to demonstrate this. The Fast5×5 library which uses [`xsimd`](https://github.com/xtensor-stack/xsimd/) under the hood for a compiler-agnostic way of exposing SIMD intrinsics.
+
+Therefore, my GSoC project is primarily about investigating how much of a performance we stand to gain by switching matrix libraries in these projects ([detray](https://github.com/acts-project/detray), [traccc](https://github.com/acts-project/traccc), and ACTS).
 
 #### Work Summary
 Once we started with the GSoC project, my mentors asked me to look at the [original Fast5×5 repository](https://gitlab.in2p3.fr/CodeursIntensifs/Fast5x5) and get an idea of where we stand with respect to the prior work in this project. I improved the repository in many ways, including (but not limited to)
