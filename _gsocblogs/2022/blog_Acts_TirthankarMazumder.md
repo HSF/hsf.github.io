@@ -38,7 +38,65 @@ Once we started with the GSoC project, my mentors asked me to look at the [origi
 - adding `xsimd` and `Eigen` as Git submodules instead of requiring the end user to have these libraries already installed in their system. This has the added advantage of allowing us to easily switch between versions of `Eigen` and `xsimd` as maintainers of those repositories continue to make bugfixes and improvements. This was done in [`21aad0e`](https://github.com/wermos/Fast5x5/commit/21aad0e2a38425e0c959b259359e6e67084ec282)
 - updating `Eigen` (first in [`18dbd4e`](https://github.com/wermos/Fast5x5/commit/18dbd4eab48ed6dcda108c4545632e9d431d6305), and then in [`0e702b0`](https://github.com/wermos/Fast5x5/commit/0e702b0607c28631a24875d94aa1a5acb80a5554)) and `xsimd` (in [`e1e1c71`](https://github.com/wermos/Fast5x5/commit/e1e1c71aed01d2aee8e24a8b63bcf4360916df81)). The original Fast5×5 project had not been touched since 2019. In the 3 years since then, all these libraries had undergone some major version releases.
 - changing the benchmarking method from using `/usr/bin/time` to using Google Benchmark. Using a simple timer like `/usr/bin/time` is good for a first-order approxmiation, but not good for an in-depth analysis. Any specific run of a benchmark might be very fast due to that process being the only thing running on the system, or very slow due to many background tasks simultaneously running on the system. For this reason, using a library dedicated to micro-benchmarks like Google Benchmark is the best way to get reliable data. I did this in commit [`d5b40f4`](https://github.com/wermos/Fast5x5/commit/d5b40f478668863102f0c03e98d9918af1e2e2b5).
-- changing the way the random matrix generation works in [`ff821df`](https://github.com/wermos/Fast5x5/commit/ff821df8906a226749408e24b40e627d21fa3894) to use a random-number-generator. The original Fast 5×5 code used index-based operations to fill up the matrix, which is not the best way to generate reliable benchmarking data.
+- changing the way the random matrix generation works in [`ff821df`](https://github.com/wermos/Fast5x5/commit/ff821df8906a226749408e24b40e627d21fa3894) to use a random-number-generator. The original Fast 5×5 code used index-based operations to fill up the matrix, which is not the best way to generate reliable benchmarking data. The original code did the following for generating the matrices:
+
+```cpp
+float a[SIZE * SIZE];
+float b[SIZE * SIZE];
+
+// the BaseMatrix data type in fast5x5.hpp has a constructor
+// that takes in C-style arrays. So, the code simply filled
+// up two arrays and then made two BaseMatrix objects out
+// of them.
+
+for (int i = 0; i < SIZE; i++) {
+    for (int j = 0; j < SIZE; j++) {
+        a[i * SIZE + j] = i + j;
+    }
+}
+
+for (int i = 0; i < SIZE; i++) {
+    for (int j = 0; j < SIZE; j++) {
+        float val;
+        if (i == 0 && j == 1) val = -1;
+        else if (i == 1 && j == 0) val = 1;
+        else if (i > 1 && i == j && i % 2) val = -1;
+        else if (i > 1 && i == j && !(i % 2)) val = 1;
+        else val = 0;
+        b[i * SIZE + j] = val;
+    }
+}
+```
+
+I rewrote the matrix generation code using the random number generators in the `<random>` header, and mimicked `Eigen`'s `Random()` implementation, which ge
+nerates a random float in the range [-1, 1]:
+```cpp
+// random.hpp
+#include <random>
+#include <limits>
+
+inline float randomFloat(float min, float max) {
+    // Returns a random real in [min, max].
+    static std::uniform_real_distribution<float> distribution(
+        min, std::nextafter(max,
+            std::numeric_limits<float>::infinity()
+            )
+        );
+
+    static std::mt19937_64 generator;
+
+    return distribution(generator);
+}
+
+// this is the matrix generation code
+float a[SIZE * SIZE];
+
+for (int i = 0; i < SIZE; i++) {
+    for (int j = 0; j < SIZE; j++) {
+        a[i * SIZE + j] = randomFloat(-1.0, 1.0);
+    }
+}
+```
 
 For the comprehensive list of changes and improvements, be sure to check out my [blog post](https://wermos.github.io/blog/gsoc/gsoc-the-work-so-far/) dedicated to the work I did!
 
