@@ -84,7 +84,9 @@ As the name suggests, this page enlists all the rules associated to a given acco
 
 #### Rule Definition / Create Rules Page
 
-Central to the functionality of the Rucio WebUI is the ability to create rules with just a few clicks.Once a rule is created, the rule automatically reflects in the List Rules page, owing to the implementation of the global store using the React Context API.
+Central to the functionality of the Rucio WebUI is the ability to create rules with just a few clicks. Once a rule is created, the rule automatically reflects in the List Rules page, owing to the implementation of the global store using the React Context API.
+
+Thanks to the foundational work done by @Valentina for this page, I was able to get the end-to-end flow working post some refactoring. This included swapping out direct `fetch` calls with `RucioClient`, stronger type definitions, and CSS changes.
 
 **Step 1:**
 
@@ -146,9 +148,19 @@ The old WebUI had a direct DB dependency, which is a security debt. With the new
 
 ### Key features
 
+#### Authentication
+
+The new WebUI 2.0 supports several authentication mechanisms. In the older UI, x509 authentication was pretty straightforward, as gaining access to the TLS socket could be done via the UI itself, but since the newer UI we follow a REST'ful mechanism, this was a bit of a challenge. Eventually, this was handled with a different deployment strategy.
+
+The OIDC mechanism was handled effectively thanks to a couple of readily avaible open source npm projects. As a improvement, the newer UI supports OIDC PKCE, which is a preferred alternative over security concerns and not having to embed values of client secret in the envrironment variables.
+
+The Username / Password auth was the one which was cracked first. There were some CORS issues faced during the implementation, which required server side changes.
+
 #### Storybook Components (x15)
 
 Storybook is great for documenting UI components. The same was used to document and build close to 15 different components, ranging from input fields to cards to tables.
+
+Thanks to @Valentina, several of these components were built by looking at the previous foundational components built by me. During the refactoring, some tweaks were added in to make all the components look more in sync.
 
 <img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Storybook.png" alt="Storybook" width="100%">
 
@@ -276,4 +288,11 @@ a11y plays a pivotal role in determining if an application caters to audience of
 - Being passionate about something really drives you to do it consistently.
 - While the GSoC period ends here, contributing to OSS should continue!
 
-That's it for now folks. Adios!
+### Pending Tasks
+
+- While the High priority pages were migrated, the Medium and Low priority pages are yet to be migrated.
+- There may also be some more thought put into how the token refresh should happen.
+- The Logout mechanism implemented currently is very simple, but there would be additional complexities coming in once we get some input from our users.
+- Accessibility and Responsiveness would require multiple iterations as and when new views are implemented.
+
+**That's it for now folks. Adios!**
