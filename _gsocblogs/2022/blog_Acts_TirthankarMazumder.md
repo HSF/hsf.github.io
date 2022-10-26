@@ -39,7 +39,7 @@ Let's take the example of adding two 4-dimensional vectors together. The naïve 
 
 <center><a href="https://commons.wikimedia.org/wiki/File:SIMD2.svg#/media/File:SIMD2.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/SIMD2.svg/400px-SIMD2.svg.png" alt="SIMD2.svg"></a></center>
 
-<center><caption>Pictorial Depiction of a SIMD register <br/>(Picture Credits: Wikipedia, courtesy of <a href="https://commons.wikimedia.org/w/index.php?title=User:Vadikus">Vadikus</a>)</caption></center>
+<center><caption>Representation of a SIMD register <br/>(Picture Credits: Wikipedia, courtesy of <a href="https://commons.wikimedia.org/w/index.php?title=User:Vadikus">Vadikus</a>)</caption></center>
 
 <br/>In the same vein, libraries like `Eigen`, `blaze`, `Fastor`, and `fast5x5` use SIMD instructions to create optimized routines for tasks like matrix multiplication.
 
