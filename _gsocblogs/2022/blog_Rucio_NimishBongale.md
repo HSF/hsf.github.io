@@ -86,7 +86,7 @@ As the name suggests, this page enlists all the rules associated to a given acco
 
 Central to the functionality of the Rucio WebUI is the ability to create rules with just a few clicks. Once a rule is created, the rule automatically reflects in the List Rules page, owing to the implementation of the global store using the React Context API.
 
-Thanks to the foundational work done by @Valentina for this page, I was able to get the end-to-end flow working post some refactoring. This included swapping out direct `fetch` calls with `RucioClient`, stronger type definitions, and CSS changes.
+Thanks to the foundational work done by [@elizabethh777](https://github.com/elizabethh777) for this page, I was able to get the end-to-end flow working post some refactoring. This included swapping out direct `fetch` calls with `RucioClient`, stronger type definitions, and CSS changes.
 
 **Step 1:**
 
@@ -160,7 +160,7 @@ The Username / Password auth was the one which was cracked first. There were som
 
 Storybook is great for documenting UI components. The same was used to document and build close to 15 different components, ranging from input fields to cards to tables.
 
-Thanks to @Valentina, several of these components were built by looking at the previous foundational components built by me. During the refactoring, some tweaks were added in to make all the components look more in sync.
+Thanks to [@elizabethh777](https://github.com/elizabethh777), several of these components were built by looking at the previous foundational components built by me. During the refactoring, some tweaks were added in to make all the components look more in sync.
 
 <img src="https://raw.githubusercontent.com/nimishbongale/webui/feature-add-snapshots/public/Storybook.png" alt="Storybook" width="100%">
 
@@ -282,7 +282,7 @@ a11y plays a pivotal role in determining if an application caters to audience of
 
 ### Key Takeaways
 
-- Having the right mentors are key to any project - a huge shoutout to @Mayank, @Martin & @Cedric! (special mention to @Valentina for parterning with me on this project!)
+- Having the right mentors are key to any project - a huge shoutout to [@maany](https://github.com/maany), @Martin & @Cedric! (special mention to [@elizabethh777](https://github.com/elizabethh777) for parterning with me on this project!)
 - Creating an OSS project from scratch having a huge impact has been a dream of mine, and I think I very well might've done it!
 - Rethinking UI really requires you to step out of your developer shoes and don the product hat.
 - Being passionate about something really drives you to do it consistently.
