@@ -44,7 +44,7 @@ Let's take the example of adding two 4-dimensional vectors together. The naïve 
 
 <br/>In the same vein, libraries like `Eigen`, `blaze`, `Fastor`, and `fast5x5` use SIMD instructions to create optimized routines for tasks like matrix multiplication.
 
-However, it was found that the performance of Eigen, which is the library that ACTS uses for matrix computations, could be improved. As a proof-of-concept, the Fast5×5 project was created, to demonstrate this. The Fast5×5 library, which uses [`xsimd`](https://github.com/xtensor-stack/xsimd/) under the hood for a compiler-agnostic way of exposing SIMD intrinsics.
+However, it was found that the performance of Eigen, which is the library that ACTS uses for matrix computations, could be improved. As a proof-of-concept, the Fast5×5 project was created to demonstrate this. The Fast5×5 library which uses [`xsimd`](https://github.com/xtensor-stack/xsimd/) under the hood for a compiler-agnostic way of exposing SIMD intrinsics.
 
 #### Work Summary
 Once we started with the GSoC project, my mentors asked me to look at the [original Fast5×5 repository](https://gitlab.in2p3.fr/CodeursIntensifs/Fast5x5) and get an idea of where we stand with respect to the prior work in this project. I improved the repository in many ways, including (but not limited to)
