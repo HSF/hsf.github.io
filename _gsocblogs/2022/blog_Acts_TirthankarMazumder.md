@@ -1,6 +1,6 @@
 ---
 project: Acts 
-title: Vectorized Linear Algebra Implementation for Acts
+title: Acts — Vectorized Linear Algebra Implementation
 author: Tirthankar Mazumder
 avatar: https://avatars.githubusercontent.com/u/63574588?s=400&v=4
 date: 3.10.2022
