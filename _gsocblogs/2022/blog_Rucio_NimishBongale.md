@@ -152,7 +152,7 @@ The old WebUI had a direct DB dependency, which is a security debt. With the new
 
 The new WebUI 2.0 supports several authentication mechanisms. In the older UI, x509 authentication was pretty straightforward, as gaining access to the TLS socket could be done via the UI itself, but since the newer UI we follow a REST'ful mechanism, this was a bit of a challenge. Eventually, this was handled with a different deployment strategy.
 
-The OIDC mechanism was handled effectively thanks to a couple of readily avaible open source npm projects. As a improvement, the newer UI supports OIDC PKCE, which is a preferred alternative over security concerns and not having to embed values of client secret in the envrironment variables.
+The OIDC mechanism was handled effectively thanks to a couple of readily available open source npm projects. As a improvement, the newer UI supports OIDC PKCE, which is a preferred alternative over security concerns and not having to embed values of client secret in the environment variables.
 
 The Username / Password auth was the one which was cracked first. There were some CORS issues faced during the implementation, which required server side changes.
 
