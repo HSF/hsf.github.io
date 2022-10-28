@@ -8,7 +8,7 @@ year: 2022
 layout: blog_post
 logo: ACTSlogo.gif
 intro: |
-  This blog is about my experiences and what I learned during my GSoC project, which involved adding a new math backend to algebra-plugins, to make Acts faster.
+  This blog is about my experiences and what I learned during my GSoC project, which involved adding a new math backend to algebra-plugins, to make ACTS faster.
 ---
 
 Hi everyone! Since starting this year, blogs are mandatory for all CERN-HSF contributors, I decided to take this time to make my own blog. I have written about my journey extensively there. Do [give it a visit](https://wermos.github.io/blog/)!
@@ -35,7 +35,7 @@ Then, my mentors and I spent a lot of time testing out 3 possible math backend a
 #### How Matrix Math Libraries Work
 All matrix math libraries use something called [SIMD](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data) (short for Single Instruction, Multiple Data) to achieve a speed-up compared to a naïve implementation.
 
-Let's take the example of adding two 4-dimensional vectors together. The naïve way of doing it is to take one element from each vector, add it, and then store the result in the result vector. This takes 4 instructions to complete. However, with a SIMD ISA ([Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)) all one needs to do is load the 4 elements of each vector into a SIMD register, add them, and store the result in a result vector. This takes just 1 instruction to complete.
+Let's take the example of adding two 4-dimensional vectors together. The naïve way of doing it is to take one element from each vector, add it, and then store the result in the result vector. This takes 4 add instructions to complete. However, with a SIMD ISA ([Instruction Set Architecture](https://en.wikipedia.org/wiki/Instruction_set_architecture)) all one needs to do is load the 4 elements of each vector into a SIMD register, add them, and store the result in a result vector. This takes just 1 add instruction to complete.
 
 <center><a href="https://commons.wikimedia.org/wiki/File:SIMD2.svg#/media/File:SIMD2.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/SIMD2.svg/400px-SIMD2.svg.png" alt="SIMD2.svg"></a></center>
 
