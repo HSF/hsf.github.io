@@ -9,7 +9,7 @@ redirect_from:
 excerpt: none
 ---
 
-<img src="{{site.baseurl}}/images/training/analysis_preservation_bootcamp_participants.jpg" style="float: right; max-width: 30%; margin-left: 20px;">
+<img src="{{site.baseurl}}/images/training/analysis_preservation_bootcamp_participants.jpg" style="float: right; width: 90vw; max-width:320px; margin-left: 20px;margin-bottom: 20px;">
 
 The HSF Training Working Group aims to help the research community to provide training in the computing skills needed for researchers to produce high quality and sustainable software. The group works with experiment training groups, HEP initiatives (such as [IRIS-HEP](https://iris-hep.org/) and [FIRST-HEP](https://first-hep.org/)) and organisations like [Software Carpentry](https://software-carpentry.org/) to coordinate training activities.
 
@@ -35,7 +35,7 @@ The group aims to develop a training program that can be pursued by researchers 
 
 ## Our mission
 
-<img src="{{site.baseurl}}/images/training/instructor_mentor_small.jpg" style="float: right; max-width: 30%; margin-left: 20px;">
+<img src="{{site.baseurl}}/images/training/instructor_mentor_small.jpg" style="float: right; width: 90vw; max-width:320px; margin-left: 20px;margin-bottom: 20px;">
 
 The long term sustainability of the research software ecosystem is important for HEP as [HL-LHC](https://home.cern/science/accelerators/high-luminosity-lhc) and other facilities of the 2020s will be relevant through at least the 2030s. Meeting this challenge requires a workforce with a combination of HEP domain knowledge and advanced software skills.
 
