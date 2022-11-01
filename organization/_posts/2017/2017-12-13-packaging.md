@@ -19,7 +19,7 @@ layout: meetings
   * Gentoo Prefix environments - non-root installs, can support macOS
 * Portage for LCG
   * No setup (inc `LD_LIBRARY_PATH`)
-  * Only dependendency is kernel, single install for all Linux, multiple compilers
+  * Only dependency is kernel, single install for all Linux, multiple compilers
   * Maybe support macOS
   * Could be deployed through CVMFS
 * Usage examples demonstrated
