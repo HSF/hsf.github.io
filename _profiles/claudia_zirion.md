@@ -1,16 +1,16 @@
 ---
 # Required:
-title: "Claudia Zirión Martínez"     # first (middle) last
-country: MX              # your country of residence (2 capital letters, e.g. US, GB, DE)
+title: Claudia Zirión Martínez      
+country: MX              
 
 # Optional (please add github or gravatar for your picture)
-github: Czirion      # your github ID (not full url)
-twitter: ClauZirion     # your twitter ID (not full URL, no leading '@')
+github: Czirion       
+twitter: ClauZirion     
 email: claudia.zirion@cinvestav.mx
 
 # Training WG
-training_roles: [instructor]              # subset of [facilitator, instructor, mentor], can stay empty ([])
-training_years: [2022]              # in which years did you help out? (e.g. [2020, 2019])
+training_roles: [instructor]              
+training_years: [2022]               
 
 # Don't modify the following setting
 layout: educator
