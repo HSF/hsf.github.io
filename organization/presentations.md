@@ -3,10 +3,10 @@ title: "HSF Presentations"
 layout: plain
 ---
 
-# 2022
+## 2022
 
-* [Software and Computing R&D](https://indico.cern.ch/event/949705/contributions/4575453/), [30th International Symposium on Lepton Photon Interactions at High Energies](https://indico.cern.ch/event/949705/), 14 January 2022, Graeme A Stewart
 * [HEP Software Foundation and Software Project R&D](https://indico.cern.ch/event/1127798/contributions/4782002/attachments/2413160/4131126/HSF%20and%20R%26D%20Projects%20Update%20-%20SWIFT-HEP%202022-03.pdf), [SWIFT-HEP Meeting](https://indico.cern.ch/event/1127798/), 24 March 2022, Graeme A Stewart
+* [Software and Computing R&D](https://indico.cern.ch/event/949705/contributions/4575453/), [30th International Symposium on Lepton Photon Interactions at High Energies](https://indico.cern.ch/event/949705/), 14 January 2022, Graeme A Stewart
 
 ## 2021
 
