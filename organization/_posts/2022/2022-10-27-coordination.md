@@ -24,7 +24,7 @@ If you want to join the search committee, please let us know.
 
 Please try and book meetings in Indico at least 2 weeks in advance!
 
-That way they go into the calendar early and they will be included in the weekly email annoucement that goes to HSF Forum.
+That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
 
 ### Data Analysis
 
@@ -34,9 +34,9 @@ That way they go into the calendar early and they will be included in the weekly
 ### Detector Simulation
 
 * Next Session on October 31st: A talk on FLUKA.CERN Overview by Francesco Cerutti (CERN) 
-https://indico.cern.ch/event/1196629
+<https://indico.cern.ch/event/1196629>
 * Another session on November 28th will be devoted to Differentiable Simulation
-https://indico.cern.ch/event/1212880
+<https://indico.cern.ch/event/1212880>
 * A future session (likely on December 12 or in early 2023) will be on varying Geant4 parameters
 
 ### Reconstruction and Software Trigger
@@ -47,10 +47,6 @@ Pinging potential speakers for the last two meetings in our 2023 plan, RICH and 
 ### PyHEP
 - Next topical meeting in preparation/discussion, for November 9th (exceptionally not the first Wed. of the month). In fact it should be on "Julia in HEP" as colleagues are finaling their "Julia for HEP" report and several points worth discussing have been identified. Useful to use a PyHEP slot given the many PyHEP colleagues involved in the report.
 - PyHEP 2022 workshop "post-mortem" to be held soon. We will then report back.
-
-### Software Tools and Packaging
-    
-nothing reported
 
 ### Event Generators
 
@@ -64,25 +60,6 @@ Following up directly on previous workshops, the workshop agenda is made around 
 Efe, Josh, and Markus are part of the organization of the MC4EIC.
 We are waiting for a final word on Fermilab if MC4EIC can be a hybrid workshop hosted at Fermilab or a remote workshop only.
 We will then announce the workshop formally and add it on the HSF calendar. The dates are fixed: November 16–18. 
-
-### Frameworks
-
-Nothing to report.
-
-### Software Training
-
-Nothing to report
-
-## Other Interest and Activity Areas
-
-### Compute Accelerator Forum
-
-Nothing to report
-
-### Software and Computing Roundtable
-
-Nothing to report
-
 
 ## AOB
 
