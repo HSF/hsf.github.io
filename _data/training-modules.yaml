@@ -26,13 +26,6 @@
   videos: https://github.com/hsf-training/cpluspluscourse#-video-recordings--events
   webpage: https://github.com/hsf-training/cpluspluscourse#-getting-the-latest-pdf
   id: hepcpp
-- description: 'A brand new C++ course that is currently in development.'
-  name: Basic Modern C++
-  repository: https://github.com/hsf-training/hsf-training-cpp-webpage
-  status: alpha
-  videos: ''
-  webpage: https://hsf-training.github.io/hsf-training-cpp-webpage
-  id: moderncpp
 - description: 'Building code is hard. <code>CMake</code> makes it easier.'
   name: 'Build systems:  <code>cmake</code>'
   repository: https://github.com/hsf-training/hsf-training-cmake-webpage

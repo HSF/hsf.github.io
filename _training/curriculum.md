@@ -37,7 +37,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### Planned, in early development, or archived
 
-{% include list_of_selected_training_modules.html ids="uproot,moderncpp,root,advancedgit,grid,parallel,alpaka,yadagereana,doc,generators" %}
+{% include list_of_selected_training_modules.html ids="uproot,root,advancedgit,grid,parallel,alpaka,yadagereana,doc,generators" %}
 
 ## Further reads
 
