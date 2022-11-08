@@ -5,12 +5,12 @@
   videos: ''
   webpage: http://swcarpentry.github.io/git-novice
   id: git
-- description: 'Working with branches and more.'
+- description: 'Learn to work with branches and more with this interactive webpage.'
   name: Advanced git
-  repository: https://github.com/hsf-training/hsf-training-advanced-git-webpage/
-  status: alpha
+  repository: https://github.com/pcottle/learnGitBranching
+  status: stable
   videos: ''
-  webpage: ''
+  webpage: https://learngitbranching.js.org/?locale=en_US
   id: advancedgit
 - description: 'Get started with an incredibly popular programming language.'
   name: Programming with python
@@ -49,10 +49,10 @@
   id: grid
 - description: 'The most famous data analysis framework used in HEP.'
   name: <code>ROOT</code>
-  repository: ''
-  status: alpha
+  repository: 'https://github.com/root-project/software-carpentry'
+  status: stable
   videos: ''
-  webpage: ''
+  webpage: 'https://github.com/root-project/software-carpentry'
   id: root
 - description: Reading and writing ROOT files without having to install ROOT.
   name: <code>uproot</code>
