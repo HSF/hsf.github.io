@@ -38,7 +38,7 @@ proper index for the table column. -->
 </div>
 
 {% if column == 0 %}
-</div>
+</div> 
 {% endif %}
 
 {% endfor %}
@@ -46,7 +46,13 @@ proper index for the table column. -->
 {% unless column == 0 %}
 <!-- The last </div> never happened, because we ended short of a full last column. -->
 <!-- Small bug: If there is no educator for a whole year, then this will still get displayed.... -->
+
+{% assign newyear = newyear % }
+{% assign neweducator = neweducator %}
+{% if newyear & neweducator %}
 </div>
+{% endif %}
+
 {% endunless %}
 {% endfor %}
 
