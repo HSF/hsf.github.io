@@ -192,3 +192,10 @@
   videos: ""
   webpage: "https://moelf.github.io/HSF_Julia_Tutorial/dev/notebooks/unroot_tutorial/"
   repository: "https://github.com/Moelf/HSF_Julia_Tutorial"
+- description: Advanced bits of python (testing, debugging, logging, and more)
+  id: levelupyourpython
+  name: Level up your python
+  status: stable
+  videos: ''
+  webpage: https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html
+  repository: https://github.com/henryiii/level-up-your-python
