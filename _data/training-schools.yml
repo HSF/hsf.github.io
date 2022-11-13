@@ -2,6 +2,14 @@
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
 - author: Kilian Lieret
+  date: 2023-01-16
+  deadline: ''
+  end_date: 2023-01-20
+  source: https://indico.cern.ch/event/1219810/
+  tags:
+  - HSF
+  title: Analysis Preservation Workshop
+- author: Kilian Lieret
   date: 2022-10-11
   deadline: 2022-10-10
   end_date: 2022-10-13
