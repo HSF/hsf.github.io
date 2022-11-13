@@ -17,7 +17,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### Software Development and Deployment
 
-{% include list_of_selected_training_modules.html ids="git,advancedgit,cicd,cicdgithub,docker,singularity,testingpython" %}
+{% include list_of_selected_training_modules.html ids="git,advancedgit,cicd,cicdgithub,docker,singularity,testingpython,levelupyourpython" %}
 
 ### C++ corner
 
@@ -29,7 +29,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### HEP specific tools
 
-{% include list_of_selected_training_modules.html ids="scikithep,root" %}
+{% include list_of_selected_training_modules.html ids="scikithep,root,unroot" %}
 
 ### Miscellaneous
 
@@ -37,7 +37,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### Planned, in early development, or archived
 
-{% include list_of_selected_training_modules.html ids="uproot,moderncpp,grid,parallel,alpaka,yadagereana,doc,generators" %}
+{% include list_of_selected_training_modules.html ids="uproot,grid,parallel,alpaka,yadagereana,doc,generators" %}
 
 ## Further reads
 

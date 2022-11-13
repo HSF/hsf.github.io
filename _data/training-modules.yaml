@@ -26,13 +26,6 @@
   videos: https://github.com/hsf-training/cpluspluscourse#-video-recordings--events
   webpage: https://github.com/hsf-training/cpluspluscourse#-getting-the-latest-pdf
   id: hepcpp
-- description: 'A brand new C++ course that is currently in development.'
-  name: Basic Modern C++
-  repository: https://github.com/hsf-training/hsf-training-cpp-webpage
-  status: alpha
-  videos: ''
-  webpage: https://hsf-training.github.io/hsf-training-cpp-webpage
-  id: moderncpp
 - description: 'Building code is hard. <code>CMake</code> makes it easier.'
   name: 'Build systems:  <code>cmake</code>'
   repository: https://github.com/hsf-training/hsf-training-cmake-webpage
@@ -178,10 +171,24 @@
   webpage: https://hsf-training.github.io/hsf-training-scikit-hep-webpage/
   id: scikithep
   repository: https://github.com/hsf-training/hsf-training-scikit-hep-webpage
-- description: Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>. 
+- description: Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>.
   name: Singularity
   status: alpha
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-singularity-webpage/
   id: singularity
   repository: https://github.com/hsf-training/hsf-training-singularity-webpage
+- name: <code>UnROOT</code>
+  description: Open <code>ROOT</code> files in <a href="https://julialang.org/">Julia</a>!
+  id: unroot
+  status: beta
+  videos: ""
+  webpage: "https://moelf.github.io/HSF_Julia_Tutorial/dev/notebooks/unroot_tutorial/"
+  repository: "https://github.com/Moelf/HSF_Julia_Tutorial"
+- description: Advanced bits of python (testing, debugging, logging, and more)
+  id: levelupyourpython
+  name: Level up your python
+  status: stable
+  videos: ''
+  webpage: https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html
+  repository: https://github.com/henryiii/level-up-your-python
