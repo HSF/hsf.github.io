@@ -13,15 +13,15 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### Basics
 
-{% include list_of_selected_training_modules.html ids="unix,git,python,ssh,ml,matplotlib" %}
+{% include list_of_selected_training_modules.html ids="unix,git,python,ssh,ml,matplotlib,root" %}
 
 ### Software Development and Deployment
 
-{% include list_of_selected_training_modules.html ids="git,cicd,cicdgithub,docker,singularity,testingpython" %}
+{% include list_of_selected_training_modules.html ids="git,advancedgit,cicd,cicdgithub,docker,singularity,testingpython,levelupyourpython" %}
 
 ### C++ corner
 
-{% include list_of_selected_training_modules.html ids="hepcpp,moderncpp,cmake"%}
+{% include list_of_selected_training_modules.html ids="hepcpp,cmake"%}
 
 ### Machine learning and other analysis tools
 
@@ -29,15 +29,15 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### HEP specific tools
 
-{% include list_of_selected_training_modules.html ids="uproot,scikithep" %}
+{% include list_of_selected_training_modules.html ids="scikithep,root,unroot" %}
 
 ### Miscellaneous
 
 {% include list_of_selected_training_modules.html ids="simpleanalysis" %}
 
-### Planned or in early development
+### Planned, in early development, or archived
 
-{% include list_of_selected_training_modules.html ids="root,advancedgit,grid,parallel,alpaka,yadagereana,doc,generators" %}
+{% include list_of_selected_training_modules.html ids="uproot,grid,parallel,alpaka,yadagereana,doc,generators" %}
 
 ## Further reads
 

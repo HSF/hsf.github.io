@@ -17,36 +17,25 @@ This project aims to make the process of performing any form of modification to 
 
 The scope of the project changed during the middle, and implementation of a pileup tool was added to it. It is a tool that generates signal events superimposed with min-bias events, resulting in an event-generator-level approximation to the presence of pileup in high-luminosity collisions.
 
-## Progress
+## Work Done
 
 It was decided to split the modification toolkit as a collection of small python programs that perform a particular task which can then be used together for performing a combination type process. Till the mid-evaluation, the functions that are implemented are the following :
 
 - Conversion of file formats
-- Slicing out the top n events from the file, equivalent to the `head` command
-- Slicing out the top n events from the file, equivalent to the `tail` command
+- Slicing out the top n events from a HepMC3 file, equivalent to the `head` command
+- Slicing out the top n events from a HepMC3 file, equivalent to the `tail` command
+- Cutting out any range of particles from a HepMC3 file 
+- Merging of different HepMC3 files to a single file
 
 On the other hand, progress on the pile up tool was made. The tool is called pilemc which was previously a C++ tool last updated in 2015.
 
-The pilemc code is to be rewritten in python. Most of the algorithm is implemented except the case when a signal file is not provided.
+The pilemc code is written in python, which allows for adding pileup to a signal file. The following feaures were implemented :
 
-## Work Left
-
-For the dataset manipulations, the following functionality is remaining :
-
-- Merging of Files
-- Filtering of events
-
-Another task that is remaining is to provide the same functionality as a python library.
-
-For pilemc, the tasks remaining are :
-- Complete the replication in python
-- Implement additions to the program that allow different modes of operation for memory allocation. The possible modes being :
-    - Load the entire file into memory at once
-    - Sample events from the file and close it as per requirement
-- Change the working of the pile-up files from cross sections to bias value (&mu;)
+- A memory efficient event finder is used which first seeks the event and then sends the event to the main pilemc code
+- As the event has to be composed using the signal vertex and particles combined with the pile-up vertex and particles. Thus, a custom event composer is required which combines them into a single event which can then be added to the output file
 
 ## Links
 
-The codes for dataset manipulation are available [here](https://github.com/Blizzard57/data-manipulation)
+The event manipulation tools are present in the bin folder of the [MCutils repository](https://gitlab.com/hepcedar/mcutils/-/tree/manip-tools/)
 
 The codes for pilemc are present [here](https://gitlab.com/hepcedar/pilemc)

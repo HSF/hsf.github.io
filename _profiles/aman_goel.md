@@ -15,7 +15,7 @@ linkedin: amangoel185
 email: aman.goel185@gmail.com
 
 # Training WG
-training_roles: [instructor, mentor, material]
+training_roles: [instructor, mentor, author]
 training_years: [2021, 2022]
 
 # Don't modify the following setting

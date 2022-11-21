@@ -3,7 +3,8 @@ project: Belle2
 title: Advanced Belle II Software Validation
 author: Arul Prakash
 [//]: # (photo: blog_authors/FirstLast.jpg)
-date: 28.07.2022
+avatar: https://avatars.githubusercontent.com/u/19401461?s=400&v=4
+date: 21.10.2022
 year: 2022
 layout: blog_post
 logo: belle2-logo.png
@@ -25,19 +26,60 @@ These are the things that can be improved upon, in the existing system.
  * Provide developers with more information about failures found to help with root cause analysis. 
 
 
-### Journey so far
+### Project Progression
 
- #### Local base
- Initial days were spent setting up the basf2 software in the local system to be able to run the validation tool, host a local validation server and as well as to develop the code. Relevant data files were also obtained that are necessary inputs for certain validation modules. Finally, a Gitlab project was set up to mimic the production project and to be a playing field to test initial implementations. 
+#### Local base
+ 
+ Initial days were spent setting up the basf2 software in the local system to be able to run the validation tool, host a local validation server and as well as to develop the code. Relevant data files were also obtained that are necessary inputs for certain validation modules. Finally, a GitLab project was set up to mimic the production project and to be a playing field to test initial implementations. 
 
- #### Code review 
- Whilst the base was being built on the sideline the existing implementation review was underway. The first aim was to get a birdseye view of the overall system and then do a deep dive into the relevant modules, and identify the modules of interest. Time was also spent familiarizing myself with the software development and coding conventions. 
+#### Code review 
+ 
+ Whilst the base was being built on the sideline the existing implementation review was underway. The first aim was to get a birds-eye view of the overall system and then do a deep dive into the relevant modules, and identify the modules of interest. Time was also spent familiarizing myself with the software development and coding conventions. 
 
- #### CherrPy meets Gitlab
- Two of the key tech that will feature throughout the work are CherryPy and Gitlab, so a good amount of time was spent understanding and then getting hands dirty with trying and testing the integration of the two, which is key for the bulk of the improvements planned. With that, the first task undertaken was to extend details displayed along with plots of validation runs to include a list of relevant issues. A couple of features have also been added that would allow the reviewer of the results to directly create issues from the plot display window or update existing relevant issues in Gitlab. 
+#### CherrPy meets GitLab
+ 
+ Two of the key tech that will feature throughout the work are CherryPy and GitLab, so a good amount of time was spent understanding and then getting hands dirty with trying and testing the integration of the two, which is key for the bulk of the improvements planned. With that, the first task undertaken was to extend details displayed along with plots of validation runs to include a list of relevant issues. A couple of features have also been added that would allow the reviewer of the results to directly create issues from the plot display window or update existing relevant issues in GitLab. 
+ 
+<img src="https://github.com/alexverus/GSoC2022/blob/3d3032e945dac8281c7b342f8b74bb9864a7bc73/Plot.PNG?raw=true" alt="linked_issue_update" width = "100%">
+ 
+#### Plot/logfile endpoints
+ 
+ As a part of validation run result processing, emails are sent out for failed scripts/plots to the respective module owners. Apart from a brief summary regarding the plot/script responsible for the future, only links to the homepage of the validation was provided, forcing people to scour through the results to find the image of the failed plot/log file of the failed script. Modifications made to the mail-utils now will allow the mail-bot to include direct links to the relevant plots/script log files making it easier for the module owners to inspect and analyse what went wrong. 
+ 
+#### Consolidate and display datafiles
+ 
+ Many of the validation scripts depend on simulated event data files, which require effort, time and space to produce on store. Whilst there is reuse of datafiles across a module, there might still be some degeneracy when looking at the full set of datafiles used by all the modules. A new page has now been added to the validation server which will display all the datafiles produced by the validation steering scripts by all the modules. The datafiles will be downloadable from the validation page and metadata of the file can also be viewed. This along with the information about the steering file responsible for the generation all available at a single point should potentially help reuse of the existing datafiles across different modules.  
+ 
+<img src="https://github.com/alexverus/GSoC2022/blob/3d3032e945dac8281c7b342f8b74bb9864a7bc73/Data_files.PNG?raw=true" alt="datafiles_page" width = "100%">
 
-### Perosnal experience
-So far it has been a learning ordeal that I have thoroughly enjoyed, and am looking forward to stepping up and making more meaningful contributions. I am extremely grateful for all the support I have been receiving from my mentors. I was provided with the platform to explore new ideas. An added bonus was being able to take part in the regular software development meeting to get to know about the other work being done as well and present and receive feedback on my  implementation as well. Overall an enriching experience so far, and having had a foretaste I'm sure of the same if not more in the second half of the stint. 
+### Tools Used
+
+  * `Python 3`
+  * `CherryPy`
+  * `Ractive.js`
+  * `GitLab API`
+  
+### Lessons Learnt
+
+  * Identify new external dependencies your code changes require and make sure to communicate those to the respective responsible people in the early stages of the development rather than waiting till your done with your development. 
+
+  * Reviewing and testing code thoroughly for backward compatibility is an additional way to catch bugs and exceptions. 
+
+### Future Work
+
+  * Assign issues created in GitLab to the responsible person.
+  
+  * Assess if search functionality could further help enhance the validation page. 
+  
+  * Track the number of days an issue has been open and how the respective plots have changed in the subsequent validation runs.  
+
+### GSoC Experience
+The entire experience has been a learning ordeal that I have thoroughly enjoyed, and am looking forward to continue making more meaningful contributions, both to Belle2 and to the Open Source community. I am extremely grateful for all the support I have been receiving from my mentors. I was provided with the platform to explore new ideas. An added bonus was being able to take part in the regular software development meeting to get to know about the other work being done as well and present and receive feedback on my implementation as well. I faced no hiccups, with my mentors taking care of any and all of my administrative needs as well as any questions I might have. Thanks to my main mentor scheduling regular meetings, I was able to stay on top of my work and never get hung up on any road blocks.
 
 #### Links
  * [Project proposal](https://hepsoftwarefoundation.org/gsoc/2022/proposal_Belle2Validation.html)
+ * [PR1](https://github.com/belle2/basf2/commit/24d1f180b91b40a9ee47af7d86ee47e11a18bc93)
+ * [PR2](https://stash.desy.de/projects/B2/repos/basf2/pull-requests/1296/overview)[^1]
+ * [PR3](https://stash.desy.de/projects/B2/repos/basf2/pull-requests/1399/overview)[^1]
+ 
+ [^1]: These are Belle II internal repository pull request links, currently under review. Public GitHib pull request links will be updated when merged. 

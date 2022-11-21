@@ -3,7 +3,7 @@ title: Henry Schreiner
 country: US
 training_roles:
 - instructor
-- material
+- author
 training_years:
 - 2019
 - 2020
