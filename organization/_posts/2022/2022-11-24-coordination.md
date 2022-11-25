@@ -54,7 +54,7 @@ In January we will have a review of the year gone, as well as looking forward to
 
 *Reminder:* Please try and book meetings in Indico at least 2 weeks in advance!
 
-That way they go into the calendar early and they will be included in the weekly email annoucement that goes to HSF Forum.
+That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
 
 ### Data Analysis
 
@@ -114,7 +114,7 @@ We are still working on a meeting in December and aim for a tuning tutorial in F
 
 #### C++ Course and Hands-on Training
 
-(Sudhir on behalf of C++ team)- 5th HEP C++ Course, post-training discussion (Advance the HEP C++ Course - monthly jour fixe) https://indico.cern.ch/event/1203350/  Please have a look at slides - https://indico.cern.ch/event/1203350/contributions/5060368/attachments/2548822/4389866/20221116-HepCppCourse-5thCoursePostTraining.pdf
+(Sudhir on behalf of C++ team)- 5th HEP C++ Course, post-training discussion (Advance the HEP C++ Course - fixed monthly meeting) https://indico.cern.ch/event/1203350/  Please have a look at slides - https://indico.cern.ch/event/1203350/contributions/5060368/attachments/2548822/4389866/20221116-HepCppCourse-5thCoursePostTraining.pdf
 
 - How many people have been trained to date?
   - Registration has been 75-100 for each course, so 375-500, *but there is attrition!*
