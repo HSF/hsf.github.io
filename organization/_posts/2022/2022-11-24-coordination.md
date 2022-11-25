@@ -5,7 +5,7 @@ layout: plain_toc
 
 ## Attending
 
-Present/Contributing: Graeme Stewart, Benedikt Hegner, Ben Morgan, Efe Yazgan, Paul Laycock, Eduardo Rodrigues, Wouter Deconic, Sudhir Malik, Valentin Volkl, Michael Hernendez
+Present/Contributing: Graeme Stewart, Benedikt Hegner, Ben Morgan, Efe Yazgan, Paul Laycock, Eduardo Rodrigues, Wouter Deconinck, Sudhir Malik, Valentin Volkl, Michael Hernendez
 
 Apologies/Contributing: Markus Diefenthaler, Josh McFayden, Nicole Skidmore
 
