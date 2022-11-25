@@ -78,7 +78,7 @@ That way they go into the calendar early and they will be included in the weekly
 - [Next topical meeting](https://indico.cern.ch/event/1222913/) is taking place Wednesday December 7th. The tool RootInteractive, from ALICE colleagues, will be presented.
 - We plan to organise in 2023 some of the meetings jointly with IRIS-HEP, given the regular overap in terms of topics presented and meeting attendees.
 
-Benedikt - is the Python 3.11 speed-up "real" in HEP use cases? See talk from [Henry at PyHEP](https://indico.cern.ch/event/1150631/timetable/#34-whats-new-in-python-311). Caution - this is speed-up of CPython, would not necessarily be reflected in code using pandas, numpy heavily.
+Benedikt - is the Python 3.11 speed-up "real" in HEP use cases? See talk from [Henry at PyHEP](https://indico.cern.ch/event/1150631/timetable/#34-whats-new-in-python-311). Caution - this is speed-up of CPython, would not necessarily be reflected in code using pandas, numpy heavily. <!-- markdown-link-check-disable-line -->
 
 ### Event Generators
 
