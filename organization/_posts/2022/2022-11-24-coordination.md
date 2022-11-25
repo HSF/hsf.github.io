@@ -18,10 +18,10 @@ Apologies/Contributing: Markus Diefenthaler, Josh McFayden, Nicole Skidmore
 
 - A history of work and development in this area (see [Dan's opening talk](https://indico.cern.ch/event/1211229/contributions/5120849/attachments/2551669/4397173/software%20citation%20introduction.pdf))
   - A lot of good background to get to the current "state-of-the-art"
-- What purpose do we forsee for software citations - it is for recognition? reproducibility? These are different things.
+- What purpose do we foresee for software citations - it is for recognition? reproducibility? These are different things.
 - What should we be citing? Academic articles? Software DOIs? Something in-between, like JOSS papers?
   - Should follow the recommendations of the software's authors, usually
-  - Distinction between conference proceedings and journal articles is made in HEP (unlike CS); even refereed proceedings seem underweighted
+  - Distinction between conference proceedings and journal articles is made in HEP (unlike CS); even refereed proceedings seem under-weighted
   - Some feedback from RSEs (not specifically HEP) is that they do not want to write journal articles!
 - Experiments do have editorial guidance on what to cite, which varies from experiment to experiment
   - There would be value in having a set of overarching guidelines (e.g., curated by the HSF); which also gives software package authors a ~single point of contact
@@ -61,63 +61,61 @@ That way they go into the calendar early and they will be included in the weekly
 - Abstract for a talk on experiment training and on-boarding submitted to CHEP - this talk will accompany the paper that was discussed last time. All paper contributors are added as talk authors
 - Still need to establish a timeline for the paper given everyone's busy work-loads
 
-
 ### Detector Simulation
 
 - Next meeting on 28th November on Differentiable Computing for Simulation
-    - <https://indico.cern.ch/event/1212880/>
+  - <https://indico.cern.ch/event/1212880/>
 - Last meeting of the year on 12th December covering Geant4 Physics Model Parameter variation
-    - <https://indico.cern.ch/event/1216295/>
+  - <https://indico.cern.ch/event/1216295/>
 - Anticipate Geant4 Technical Forum in early December covering latest 11.1 release
-
-
 
 ### Reconstruction and Software Trigger
 
-- Topical meeting on PID with RICH detectors yesterday, focusing on LHCb and EIC: https://indico.cern.ch/event/1218610/
+- Topical meeting on PID with RICH detectors yesterday, focusing on LHCb and EIC: <https://indico.cern.ch/event/1218610/>
 
 ### PyHEP
 
 - [Next topical meeting](https://indico.cern.ch/event/1222913/) is taking place Wednesday December 7th. The tool RootInteractive, from ALICE colleagues, will be presented.
-- We plan to organise in 2023 some of the meetings jointly with IRIS-HEP, given the regular overap in terms of topics presented and meeting attendees. 
+- We plan to organise in 2023 some of the meetings jointly with IRIS-HEP, given the regular overap in terms of topics presented and meeting attendees.
 
-Benedikt - is the Python 3.11 speed-up real? See talk from Henry at PyHEP. Caution - this is speed-up of CPython, would nto necessarily be reflected in code using pandas, numpy heavily.
+Benedikt - is the Python 3.11 speed-up "real" in HEP use cases? See talk from [Henry at PyHEP](https://indico.cern.ch/event/1150631/timetable/#34-whats-new-in-python-311). Caution - this is speed-up of CPython, would not necessarily be reflected in code using pandas, numpy heavily.
 
 ### Event Generators
 
-HSF co-organized with CTEQ, EICUserGroup, and MCnet [MC4EIC](https://indico.bnl.gov/event/17608/), a workshop on event simulation for the EIC. The workshop covered: 
-- In-depth reports on the precision of foreseen measurements and the related MC event generator (MCEG) needs: Inclusive deep-inelastic scattering (DIS), semi-inclusive DIS, exclusive processes, jets and heavy flavor, BSM. 
-- Status of MCEG projects and the thrust of future R&D: Herwig, Phythia, Sherpa, BeAGLE, CASCADE, eHIJING, ePIC, eSTARlight, MadGraph5 aMC@NLO, MLEG, and SARTRE. 
-- Connection between formal QCD theory and its implementation in MCEGs: 
-  - Is there a QCD-based computational framework that allows easy implementation of new theoretical developments, while also making MCEGs predictive and versatile enough to be used successfully by experiments? 
+HSF co-organized with CTEQ, EICUserGroup, and MCnet [MC4EIC](https://indico.bnl.gov/event/17608/), a workshop on event simulation for the EIC. The workshop covered:
+
+- In-depth reports on the precision of foreseen measurements and the related MC event generator (MCEG) needs: Inclusive deep-inelastic scattering (DIS), semi-inclusive DIS, exclusive processes, jets and heavy flavor, BSM.
+- Status of MCEG projects and the thrust of future R&D: Herwig, Phythia, Sherpa, BeAGLE, CASCADE, eHIJING, ePIC, eSTARlight, MadGraph5 aMC@NLO, MLEG, and SARTRE.
+- Connection between formal QCD theory and its implementation in MCEGs:
+  - Is there a QCD-based computational framework that allows easy implementation of new theoretical developments, while also making MCEGs predictive and versatile enough to be used successfully by experiments?
   - How can we make use of existing expertise, experience and technology to advance the construction of MCEGs for the EIC? 
   - What measurements will be essential for tuning the MCEGs?
 
-A workshop report is in preparation. 
+A workshop report is in preparation.
 
-We are still working on a meeting in December and aim for a tuning tutorial in February. 
+We are still working on a meeting in December and aim for a tuning tutorial in February.
 
 ### Software Training
 
 - Upcoming data preservation training week: Jan 16 - 20, 2023, on topics of docker, singularity, CI/CD etc.
-    - modified format: self-training with videos followed by discussion by experiment experts
+  - modified format: self-training with videos followed by discussion by experiment experts
 - Data preservation hackathon: Wed 7 Dec
-    - focus on getting training materials ready for training week
-    - <https://indico.cern.ch/event/1224647/>
-- Attended OERSI Training Bazaar where similar challenges were discussed (instructor pool, retention and attrition of participants)
-    - <https://www.eventbrite.co.uk/e/eussi-training-bazaar-tickets-440454480207>
-    - [Link to the slides](https://docs.google.com/presentation/d/1dTUSyJAEZoOy65Yp6bpD_GudrRZq2eT5thsce1DPPSc/edit?usp=sharing).
-    - Graeme - We said we would like to cooperate on developing trainign materials. Particularly in less popular areas, like C++. Remains to be see if anything concrete comes from that.
-    - Ben - Midlands RSE group were interested in this also
+  - focus on getting training materials ready for training week
+  - <https://indico.cern.ch/event/1224647/>
+- Attended EuSSI Training Bazaar where similar challenges were discussed (instructor pool, retention and attrition of participants)
+  - <https://www.eventbrite.co.uk/e/eussi-training-bazaar-tickets-440454480207>
+  - [HSF talk given by Michael](https://docs.google.com/presentation/d/1dTUSyJAEZoOy65Yp6bpD_GudrRZq2eT5thsce1DPPSc/edit?usp=sharing).
+  - Graeme - We said we would like to cooperate on developing training materials. Particularly in less popular areas, like C++. Remains to be see if anything concrete comes from that.
+  - Ben - Midlands RSE group were interested in this also
 - Submitting multiple CHEP abstracts on sustainability of training efforts.
-
 
 #### C++ Course and Hands-on Training
 
-(Sudhir on behalf of C++ team)- 5th HEP C++ Course, post-training discussion (Advance the HEP C++ Course - fixed monthly meeting) https://indico.cern.ch/event/1203350/  Please have a look at slides - https://indico.cern.ch/event/1203350/contributions/5060368/attachments/2548822/4389866/20221116-HepCppCourse-5thCoursePostTraining.pdf
+- (Sudhir on behalf of C++ team)- 5th HEP C++ Course, post-training discussion (Advance the HEP C++ Course - fixed monthly meeting) <https://indico.cern.ch/event/1203350/>
+  - Please have a look at [slides](https://indico.cern.ch/event/1203350/contributions/5060368/attachments/2548822/4389866/20221116-HepCppCourse-5thCoursePostTraining.pdf)
 
 - How many people have been trained to date?
-  - Registration has been 75-100 for each course, so 375-500, *but there is attrition!*
+  - Registration has been 75-100 for each course, so 375-500, *but there is attrition wrt. original registration numbers*
 
 ## Other Interest and Activity Areas
 
@@ -133,7 +131,7 @@ We are still working on a meeting in December and aim for a tuning tutorial in F
 
 ### Software and Computing Roundtable
 
-The Software and Computing Roundtable restarts on Dec. 13 with an update on EIC Software. There will be presentations on the [EIC Software: Statement of Principles](https://eic.github.io/activities/principles.html) and the software stack. The "Year in Review" event with contributions from the HEP Software Foundation, Brookhaven National Laboratory, and Jefferson Lab will be on Jan. 17. 
+The Software and Computing Roundtable restarts on Dec. 13 with an update on EIC Software. There will be presentations on the [EIC Software: Statement of Principles](https://eic.github.io/activities/principles.html) and the software stack. The "Year in Review" event with contributions from the HEP Software Foundation, Brookhaven National Laboratory, and Jefferson Lab will be on Jan. 17.
 
 ## AOB
 
@@ -152,7 +150,6 @@ We started filling in the calendar for 2023.
 - [x] CHEP and other conferences...
 
 Should now be done!
-
 
 ### Next Meeting
 
