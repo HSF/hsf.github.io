@@ -30,7 +30,7 @@ Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning too
 	-  Development of tests and tutorial example
 
 ## Community Bonding Period
-During the community bonding, I made sure to plan out the to-do's for the project and discuss, modify and reiterate over my project ideas.  I familiarized myself with ROOT, TMVA, RDataFrame, RTensor, TTree and other needed data strucutres and tools via tutorials, to get a headstart before the coding period. After finalizing, I communicated the revised expected project goals and timeline to my mentors via a powerpoint presentation, and it was finalized to begin the coding.
+During the community bonding, I made sure to plan out the to-do's for the project and discuss, modify and reiterate over my project ideas.  I familiarized myself with ROOT, TMVA, RDataFrame, RTensor, TTree and other needed data structures and tools via tutorials, to get a headstart before the coding period. After finalizing, I communicated the revised expected project goals and timeline to my mentors via a powerpoint presentation, and it was finalized to begin the coding.
 
 
 ## Implementing the Prototype
@@ -57,7 +57,7 @@ It has been evident while working that this project for developing the Batch Gen
 
 
 ## Future Scope
-It has been a great learning experice while working on the batch generator project. I plan on continuing to contribute for the improvement of this project in the future as well, some of the points under future scope are listed below:
+It has been a great learning experience while working on the batch generator project. I plan on continuing to contribute for the improvement of this project in the future as well, some of the points under future scope are listed below:
 - Further optimization of the memory intensive code wherever possible.
 - Facilitating multi-threading over GPUs.
 
