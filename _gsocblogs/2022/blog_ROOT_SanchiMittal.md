@@ -12,9 +12,9 @@ intro: |
 ---
 
 
-# Sanchi's Final Blog for GSoC 2022
+# Sanchi's Final Evaluation Blog for GSoC 2022
 
-Through this blog, I'll be going over the work that I have done by this middle point in time as a contributor for GSoC 2022 program with CERN-HSF under the project "ROOT - Machine Learning Developments : Batch Generator for training machine learning models".
+Through this blog, I'll be going over the work that I have done as a contributor for GSoC 2022 program with CERN-HSF under the project "ROOT - Machine Learning Developments : Batch Generator for training machine learning models".
 
 <div align="center">
 ![CERN]({{ site.baseurl }}/images/CERN-HSF-GSoC-logo.png){:height="100px"} Google Summer of Code 2022
