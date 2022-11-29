@@ -12,11 +12,13 @@ intro: |
 ---
 
 
-# Sanchi's Midterm Blog for GSoC 2022
+# Sanchi's Final Blog for GSoC 2022
 
 Through this blog, I'll be going over the work that I have done by this middle point in time as a contributor for GSoC 2022 program with CERN-HSF under the project "ROOT - Machine Learning Developments : Batch Generator for training machine learning models".
 
+<div align="center">
 ![CERN]({{ site.baseurl }}/images/CERN-HSF-GSoC-logo.png){:height="100px"} Google Summer of Code 2022
+</div>
 
 ## Introduction
 I'm a recent Computer Science and Engineering graduate, who'd always had a keen sense of amazement for Physics and Science in general. That's why, it was like a dream come true when I got this opportunity via Google Summer of Code to make a contribution towards the High Energy Physics experimentations and the study of the universe, while utilising the skills and knowledge of my domain, that is Computer Science.
@@ -40,12 +42,10 @@ It has been evident while working that this project for developing the Batch Gen
 	- [Link to Code](https://github.com/SanchiMittal/root/commit/8b63ff3d13acc385df064b970a84a198f69ba336)
 2. In the second approach, I decided to write a functor for the batch generator, while replacing the for-loop using the RTensor::Slice method. This made it time-efficient, but definitely data-copying still left it memory-inefficient.
 	- [Link to Code](https://github.com/tmvadnn/tmva-batch-generator/pull/2/commits/34c6fd5e86dae48a2101ea4219b113e47c4729fb)
-
 3. In the third approach, I have replaced this slice method, removing the extra copying actions from the memory. I discovered that initializing the RTensor directly as a 'view' would help us achieve this goal.
  	- [Link to Code](https://github.com/tmvadnn/tmva-batch-generator/pull/4/commits/94dcf93b8ee9f97b434fcacc1663a5c2171cbb9a)
-
 4. The next approach is where I have further optimized the memory operations by replacing the AsTensor() method by a template functor, such that an RTensor can be created out of a TTree / RDataframe without the need to copy the data while creation of the batches. 
-	 - [Link to Code](https://github.com/tmvadnn/tmva-batch-generator/pull/4/commits/93ec68c86f5e01be01eee2e84f77cf228a3ba31d)
+	- [Link to Code](https://github.com/tmvadnn/tmva-batch-generator/pull/4/commits/93ec68c86f5e01be01eee2e84f77cf228a3ba31d)
 5. As a next step, I have eliminated the recursive nature of the generator template functor using an interesting approach of using column sequence as parameter pack, for which I have added a separate dataloader for conversion from RDataFrame to RTensor.
 	- [Link to Code](https://github.com/tmvadnn/tmva-batch-generator/pull/4/commits/536ebf315c4187c461dd50a3f9a6bfb36b4d0907)
 6. Additional useful features like random_shuffle and drop_last for the DataLoader are also added that can be found below.
