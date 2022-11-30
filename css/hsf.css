@@ -373,6 +373,20 @@ body {
   margin-bottom: 0;
 }
 
+figure.centered-figure {
+    text-align: center
+}
+.centered-figure > img {
+    width:80%;
+    max-width: 600px
+}
+.centered-figure > figcaption {
+    width:80%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* Media Queries  */
 
 @media (max-width: 620px) {

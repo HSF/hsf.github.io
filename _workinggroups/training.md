@@ -88,7 +88,7 @@ The easiest way to get in touch are our weekly meetings, usually held at 16h00 C
 
 Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum/hsf-training-wg) dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided!
 
-<div class="big-link-container">
+<div class="big-link-container" style="margin-bottom: 1em">
   <a href="https://indico.cern.ch/category/10294/">
     Talk to us!<br/>
     We meet weekly, usually on Monday at 16h00 CERN time.
@@ -111,6 +111,13 @@ Everybody is welcome to join the [forum](https://groups.google.com/forum/#!forum
   </a>
 </div>
 
+<figure class="centered-figure" style="margin-bottom: 1em">
+  <img src="{{ '/images/training/training_statistics.png' | relative_url }}" alt="Facilitator" style="max-width: 550px">
+  <figcaption>
+    The number of commits in our repository and the number of registered learners closely follows the number of our educators.
+    You, too, can  make a difference!
+  </figcaption>
+</figure>
 ## Training events
 
 We are always looking for volunteers from the community to help us with our training events.
