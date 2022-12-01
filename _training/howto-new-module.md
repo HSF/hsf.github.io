@@ -8,39 +8,14 @@ If...
 * you want to create a new carpentry-style training lesson from scratch (or from material that is in another format)
 * you have talked to us about it
 
-then this is for you! If you already have a module of some kind and want to update it with the HSF style, see [here]({{ site.baseurl }}/training/howto-update-module-style.html).
+then this is for you!
 
 Creating the repository and getting started
 -------------------------------------------
 
 **We recommend you to let us do this part, so that you can start with the content right away!**
 
-Our training modules are mimicking the work of the [software carpentries](https://software-carpentry.org/), so we essentially follow their [guide](https://carpentries.github.io/lesson-example/) ("Setup" episode, "Creating a new Lesson" section) to set this up, but please be aware of the following changes:
-
-* Please use our version of the styles repository to get started, that is ``https://github.com/hsf-training/hsf-styles`` instead of ``https://github.com/carpentries/styles``
-
-We have probably recommended you to directly create your repository in our [github organization](https://github.com/hsf-training) and already selected a name for it, but of course you can also start development in your private github.
-
-* Use ``git remote add template https://github.com/hsf-training/hsf-styles.git`` instead of the carpentry version
-
-**Please do not start from a plain copy (without history) of one of the repositories. Sharing the history with the styles repository is important to propagate changes later on.**
-
-After creating a new repository by importing the styles repository as described in the carpentry guide, this corresponds to the following commands:
-
-```bash
-# Starting from your important repository
-git clone git@github.com:hsf-training/hsf-training-advanced-git-webpage.git
-cd hsf-training-advanced-git-webpage
-git checkout gh-pages
-# For updating the style later
-git remote add template https://github.com/hsf-training/hsf-styles.git
-git config --local remote.template.tagOpt --no-tags
-# Initialize blank content
-python3 bin/lesson_initialize.py
-# Add everything to git
-git add .
-git commit -m "Initial version"
-```
+Simply follow the instructions in our [cookiecutter repository](https://github.com/hsf-training/carpentry-cookiecutter).
 
 Resources
 ----------
@@ -62,13 +37,6 @@ What to not edit
 ----------------
 
 * If you improve the HSF style and other general parts of the page, please commit your changes to the HSF style repository and then pull your changes from there (this way, all other modules benefit from the changes as well)
-
-Additional steps
-----------------
-
-* Set the ``gh-pages`` branch as the default branch (``Settings`` > ``Branches`` > ``Default branch``)
-
-* [optional] Enabling **continuous integration** with Travis. This means that every time you push to the gihub repository, a series of checks are performed that make sure that everything looks good (e.g. no spelling mistakes, etc.). Everything is set up already in ``travis.yml``, so you only need to go to your travis account and add the repository to be built. Then update the link in the build status badge of the readme.
 
 FAQ
 ---

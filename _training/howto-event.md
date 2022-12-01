@@ -276,5 +276,4 @@ There are a few logistical items that the facilitator (i.e. you) should bear in 
 * Creating content:
   * [Guidelines for HSF training content](https://hepsoftwarefoundation.org/training/module-guidelines.html)
   * [How to create a HSF training module from scratch](https://hepsoftwarefoundation.org/training/howto-new-module.html)
-  * [How to update a carpentry-style module with the HSF style](https://hepsoftwarefoundation.org/training/howto-update-module-style.html)
 
