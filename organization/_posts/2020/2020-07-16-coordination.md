@@ -122,7 +122,7 @@ developers after the summer break.
 * New content:
   * Emery to prepare second version of CI/CD module using github + travis (for CMS)
   * Started blank repository for ALPAKA module
-  * Started pages [how to create new hsf training module](https://hepsoftwarefoundation.org/training/howto-new-module) and similar
+  * Started pages [how to create new hsf training module](https://github.com/hsf-training/carpentry-cookiecutter) and similar
 * Discussions on minimum requirements to call a training event an “HSF training” event (probably very loose, because it's usually a win-win situation)
 
 ### Event generators
