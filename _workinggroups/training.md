@@ -131,7 +131,7 @@ We are always looking for volunteers from the community to help us with our trai
     Training roles<br/>
     We have standardized the different roles your can fulfill at our events
   </a>
-  <a href="{{site.baseurl}}/training/howto-event.html">
+  <a href="https://github.com/hsf-training/carpentry-cookiecutter">
     How to organize a workshop<br/>
     Whether you work with us or not, these guidelines might help your organizing an awesome workshop!
   </a>
