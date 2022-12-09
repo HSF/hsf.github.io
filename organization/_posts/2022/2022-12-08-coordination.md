@@ -92,7 +92,7 @@ That way they go into the calendar early and they will be included in the weekly
 ### Software Training
 
 - Couple of abstracts submitted to CHEP (in addition to the one in collaboration with Analysis WG)
-  - "Train to sustain", about the effort for training people on writting sustainable software.
+  - "Train to sustain", about the effort for training people on writing sustainable software.
   - "Building a Global HEP Software Training Community", about coordination between different training initiatives while building a training center.
 - Analysis preservation training hackathon held on Dec 7.
   - Preparation for a training event early next year (Jan 16-21, 2023): <https://indico.cern.ch/event/1219810/>
