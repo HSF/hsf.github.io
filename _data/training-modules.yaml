@@ -173,7 +173,7 @@
   repository: https://github.com/hsf-training/hsf-training-scikit-hep-webpage
 - description: Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>.
   name: Singularity
-  status: alpha
+  status: beta
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-singularity-webpage/
   id: singularity
