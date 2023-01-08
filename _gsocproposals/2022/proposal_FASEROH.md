@@ -26,9 +26,9 @@ Total project length: 175 hours.
 ## Requirements 
 Python, previous experience in Machine Learning. 
 
-## Test
+<!-- ## Test
 
-Please use this [link](https://docs.google.com/document/d/1eMtRPR-nH2NyituMBIDAZdmcCkZF2TyUFQp6zg-z5pA/edit) to access the test for this project.
+Please use this [link](https://docs.google.com/document/d/1eMtRPR-nH2NyituMBIDAZdmcCkZF2TyUFQp6zg-z5pA/edit) to access the test for this project. -->
 
 
 ## Mentors

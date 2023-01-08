@@ -36,9 +36,9 @@ Total project length: 175 hours.
 ## Expected results
  * Project deliverable is a SNeIa classification routine and a study of its performance. 
 
-## Test
+<!-- ## Test
 
-Please use this [link](https://github.com/ML4SCI/ML4SCI_GSoC/tree/main/LOX) to access the test and relative data set for this project.
+Please use this [link](https://github.com/ML4SCI/ML4SCI_GSoC/tree/main/LOX) to access the test and relative data set for this project. -->
 
 ## Requirements
  * Python, C++, modest previous experience in Machine Learning or equivalent 

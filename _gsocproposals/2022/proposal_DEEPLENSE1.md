@@ -1,4 +1,4 @@
----
+ ---
 title: Gravitational Lens Finding for Dark Matter Substructure Pipeline
 layout: gsoc_proposal
 project: DEEPLENSE
@@ -29,8 +29,8 @@ Total project length: 175/350 hours.
 ## Requirements
 Python, PyTorch and relevant past experience in Machine Learning. 
 
-## Test
-Please use this [link](https://docs.google.com/document/d/1y9-F1Z8iz_GvVRL9lQmMKlbq3ID3spiW0npe1s1fXwg/edit?usp=sharing) to access the test for this project. 
+<!-- ## Test
+Please use this [link](https://docs.google.com/document/d/1y9-F1Z8iz_GvVRL9lQmMKlbq3ID3spiW0npe1s1fXwg/edit?usp=sharing) to access the test for this project.  -->
 
 ## Mentors
   * [Anna Parul](mailto:ml4-sci@cern.ch) (University of Alabama)

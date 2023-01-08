@@ -28,9 +28,9 @@ Total project length: 175 hours.
 ## Expected results
   * Accurate models of albedo and chemical composition based on Messenger mission data
 
-## Test
+<!-- ## Test
 
-Please use [this link](https://drive.google.com/file/d/1QoxSdeL0JOqJJKCea75AwIyaujIV8gxB/view?usp=sharing) to access the test for this project.
+Please use [this link](https://drive.google.com/file/d/1QoxSdeL0JOqJJKCea75AwIyaujIV8gxB/view?usp=sharing) to access the test for this project. -->
 
 ## Requirements 
 Python, previous experience in Machine Learning. 
