@@ -7,6 +7,7 @@ training_years:
 training_roles:
 - instructor
 - mentor
+- author
 gravatar: null
 github: bernhardmgruber
 gitlab: null

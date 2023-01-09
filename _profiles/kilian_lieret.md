@@ -10,6 +10,7 @@ training_years:
 - 2020
 - 2021
 - 2022
+- 2023
 github: klieret
 homepage: https://lieret.net
 gitlab: klieret

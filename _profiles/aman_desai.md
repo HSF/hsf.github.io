@@ -13,7 +13,7 @@ email: amanmukeshdesai@gmail.com
 
 # Training WG
 training_roles: [author]              # subset of [facilitator, instructor, mentor], can stay empty ([])
-training_years: [2022]              # in which years did you help out? (e.g. [2020, 2019])
+training_years: [2022, 2023]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Don't modify the following setting
 layout: educator
