@@ -7,6 +7,7 @@ training_roles:
 - author
 training_years:
 - 2022
+- 2023
 github: mambelli
 gravatar: null
 homepage:
