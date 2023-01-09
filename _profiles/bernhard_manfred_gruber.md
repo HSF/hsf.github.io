@@ -2,8 +2,10 @@
 title: Bernhard Manfred Gruber
 training_years:
 - 2021
+- 2022
 training_roles:
 - mentor
+- author
 gravatar: null
 github: bernhardmgruber
 gitlab: null

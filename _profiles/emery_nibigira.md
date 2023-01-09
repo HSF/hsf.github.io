@@ -3,6 +3,7 @@ title: Emery NIBIGIRA
 training_years:
 - 2020
 - 2021
+- 2023
 training_roles:
 - facilitator
 - instructor

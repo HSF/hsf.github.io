@@ -8,6 +8,7 @@ training_roles:
 training_years:
 - 2021
 - 2022
+- 2023
 github: michmx
 gravatar: null
 homepage: null
