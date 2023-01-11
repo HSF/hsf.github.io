@@ -8,7 +8,7 @@ redirect_from:
 The PyHEP working group brings together a community of developers and users of Python in Particle Physics, with the aim of improving
 the sharing of knowledge and expertise. It embraces the broad community, from HEP to the Astroparticle and Intensity Frontier communities.
 
-The group is currently coordinated by Eduardo Rodrigues (LHCb, University of Liverpool), Oksana Shadura (IRIS-HEP, University of Nebraska) and Jim Pivarski (CMS, Princeton).
+The group is currently coordinated by Eduardo Rodrigues (LHCb, University of Liverpool), Oksana Shadura (IRIS-HEP, University of Nebraska), Jim Pivarski (CMS, Princeton), and Matthew Feickert (ATLAS and IRIS-HEP, University of Wisconsin-Madison).
 
 All coordinators can be reached at <hsf-pyhep-organisation@googlegroups.com>.
 
