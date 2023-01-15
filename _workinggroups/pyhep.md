@@ -8,7 +8,12 @@ redirect_from:
 The PyHEP working group brings together a community of developers and users of Python in Particle Physics, with the aim of improving
 the sharing of knowledge and expertise. It embraces the broad community, from HEP to the Astroparticle and Intensity Frontier communities.
 
-The group is currently coordinated by Eduardo Rodrigues (LHCb, University of Liverpool), Oksana Shadura (IRIS-HEP, University of Nebraska), Jim Pivarski (CMS and IRIS-HEP, Princeton), and Matthew Feickert (ATLAS and IRIS-HEP, University of Wisconsin-Madison).
+# Conveners
+
+* Eduardo Rodrigues (LHCb, University of Liverpool)
+* Oksana Shadura (IRIS-HEP, University of Nebraska)
+* Jim Pivarski (CMS and IRIS-HEP, Princeton)
+* Matthew Feickert (ATLAS and IRIS-HEP, University of Wisconsin-Madison)
 
 All coordinators can be reached at <hsf-pyhep-organisation@googlegroups.com>.
 
@@ -20,7 +25,7 @@ and by means of the following communication channels:
 * [Gitter channel PyHEP](https://gitter.im/HSF/PyHEP){:target="_pyhep_gitter_channel} for any informal exchanges.
 * [GitHub repository of resources](https://github.com/hsf-training/PyHEP-resources){:target="_pyhep_resources_repo"},
   e.g., Python libraries of interest to Particle Physics.
-* Twitter Handle: #PyHEP
+* PyHEP Workshop Twitter handle: [@PyHEPConf](https://twitter.com/PyHEPConf)
 
 Extra Gitter channels have been created by and for the benefit of the community:
 
@@ -221,6 +226,6 @@ The event was kindly sponsored by
 
 # Previous conveners
 
-- Ben Krikler (LZ, CMS) 2019-2021
+- Ben Krikler (LZ, CMS), 2019-2021
 - Chris Tunnell (XENON1T), 2019
 - Graeme Stewart (CERN EP-SFT), 2018
