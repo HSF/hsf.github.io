@@ -82,6 +82,6 @@ create a file for your organization and edit its contents as appropriate.
 
 Organization logos should be called `ORGANIZATION-logo.png` and be less than 100kB in size.
 
-## HSF GSoC Mentor Guideline 2022
+## HSF GSoC Mentor Guideline 2023
 
-[2022 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/1wfkPyPmfK6RlV4FCLTEFwdx9FmSSruH5DN4QeGlhHJg/edit?usp=sharing)
+[2022 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/1bEkKj2UtTyumYFT96Uxgbj3F0W_Td-mw1cvO4vlx5d8/edit?usp=sharing)
