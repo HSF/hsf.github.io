@@ -84,4 +84,4 @@ Organization logos should be called `ORGANIZATION-logo.png` and be less than 100
 
 ## HSF GSoC Mentor Guideline 2023
 
-[2022 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/1bEkKj2UtTyumYFT96Uxgbj3F0W_Td-mw1cvO4vlx5d8/edit?usp=sharing)
+[2023 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/1bEkKj2UtTyumYFT96Uxgbj3F0W_Td-mw1cvO4vlx5d8/edit?usp=sharing)
