@@ -8,6 +8,7 @@ training_roles:
 - facilitator
 - instructor
 - author
+- mentor
 gravatar: null
 github: enibigir
 gitlab: enibigir
