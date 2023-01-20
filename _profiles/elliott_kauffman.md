@@ -10,8 +10,8 @@ linkedin: elliott-kauffman-673314160    # your linkedin ID (not full url, i.e. t
 email:
 
 # Training WG
-training_roles: [instructor]              # subset of [instructor, mentor, facilitator, author], can stay empty ([])
-training_years: [2022]              # in which years did you help out? (e.g. [2020, 2019])
+training_roles: [instructor, mentor]              # subset of [instructor, mentor, facilitator, author], can stay empty ([])
+training_years: [2022, 2023]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Don't modify the following setting
 layout: educator

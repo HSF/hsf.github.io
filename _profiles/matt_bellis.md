@@ -7,6 +7,7 @@ training_roles:
 training_years:
 - 2019
 - 2020
+- 2023
 github: mattbellis
 gravatar: null
 homepage: https://www.siena.edu/faculty-and-staff/person/matt-bellis/
