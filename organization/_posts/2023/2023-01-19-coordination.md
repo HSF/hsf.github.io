@@ -27,7 +27,7 @@ We have confirmed with WLCG colleagues and LHC computing coordinators the two to
   - Based on the findings of the AFF group (which we asked to draw conclusions after 12-18 months of work).
   - How do workloads evolve? How do sites adapt their offerings? What are the benchmarks of success?
 - Non-x86 Computing
-  - Increasingly diverse computing architectures at sites, both in CPU flavours (ARM, PowerPC) and accelartors (GPUs, mainly, from different stables).
+  - Increasingly diverse computing architectures at sites, both in CPU flavours (ARM, PowerPC) and accelerators (GPUs, mainly, from different stables).
   - Readiness of experiments to adapt to this new environment, covering development, building, validation, workflow management, etc.
 
 Still to follow-up on remote participation options (the CHEP venue contract was signed pre-COVID), but we do hope people come in-person.
@@ -46,7 +46,7 @@ Google Summer of Code for 2023 is starting!
 
 This year Benedikt will head up the organising team. After many years Andrei and Antoine step down. *Huge thanks to them for their work!*
 
-**We therefore urgently need two people to join Benedikt at the helm of GSoC for the HSF.** This is a very valuable service for the community and it much appreciated by all of us, so please consider volunteering.
+**We therefore urgently need two people to join Benedikt at the helm of GSoC for the HSF.** This is a very valuable service for the community and it is much appreciated by all of us, so please consider volunteering.
 
 **For projects** we need to have proposals available by *7 February* - it's not long. Please start thinking about this now!
 
@@ -60,7 +60,7 @@ We are proceeding well with WG convenerships for 2023. A few WGs are not quite c
 
 We are very grateful to all the conveners, continuing, joining or stepping down, for their contribution to the community through the HSF. **Thank you!** We hope that outgoing conveners remain active in the groups, even if relieved of specific responsibilities.
 
-Today we shall review 2022 and discuss plans for 2023 with 4 of the groups. The other WGs we shall cover next meeting.
+Today we shall review 2022 and discuss plans for 2023 with 4 of the groups. The other WGs we shall cover at the next meeting.
 
 #### General HSF Activities
 
@@ -70,7 +70,7 @@ See slides attached to the [agenda](https://indico.cern.ch/event/1225007/).
 
 *Reminder:* Please try and book meetings in Indico at least 2 weeks in advance!
 
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
+That way they go into the calendar early and they will be included in the weekly email announcement that goes to the HSF Forum.
 
 ### Data Analysis
 
@@ -134,7 +134,7 @@ See slides attached to the [agenda](https://indico.cern.ch/event/1225007/).
 
 Standards would be very interesting. No detailed discussions yet on APIs or specific needs. This came out of an MC4EIC discussion, where specific nuclear generators are used, but they lack many important features found in generators like Sherpa and MG5 (matching, merging, ...).
 
-Workshop on computational efficiency in generators would be welcome again. CMS meeting that discussed this, so there is interest. But how can we engage them better.
+Workshop on computational efficiency in generators would be welcome again. CMS meeting that discussed this, so there is interest. But how can we engage them better?
 
 Our mailing lists might well be a bit tired now, given their origins in the CWP process.
 
