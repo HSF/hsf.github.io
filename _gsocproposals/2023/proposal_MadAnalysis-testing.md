@@ -23,11 +23,11 @@ directly within the core of the analysis framework. This opens unlimited possibi
 level of complexity that can be reached by the analysis, which is only limited by the programming skills 
 and the originality of the user.
 
-Validation is an essential ingredient of software development. The current testing and validation structure of MadAnalysis relies on legacy code and is done on private servers. Only a fraction of validation has been implemented to be executed actively on GitHub. We want to extend this implementation and implement a separate function-based testing environment which can be executed within GitHub's CI/CD workflow. This project will allow the contributor to learn an essential ingredient of software development where s/he will create a GitHub-based testing module which can work efficiently and effectively within CI/CD workflow. This project will involve identifying mathematical functions that need testing, creating an efficient module for limited resources provided by GitHub and deploying validated software.
+Validation is an essential ingredient of software development. The current testing and validation structure of MadAnalysis relies on legacy code that is executed on private servers. Only a fraction of the validation process has been implemented to be run on GitHub. We want to extend this, and implement a separate function-based testing environment which can be executed within GitHub's CI/CD workflow. This project will allow the contributor to learn an essential ingredient of software development trough the creation of a GitHub-based testing module which can work efficiently and effectively within the CI/CD workflow. This project will involve the identification of functions that need testing, the creation of an efficient module taking into account the limited resources provided by GitHub, and the deployment of validated software.
 
 ## Task ideas
 
-This project will involve designing a `C++` based unit test module and execution of this module within GitHub workflows. Thus we expect contributors to have a good understanding of C++ unit tests and working knowledge of GitHub's CI/CD workflows.
+This project will target the design of a `C++` based unit test module and its execution of this module within the GitHub workflow. We therefore expect contributors to have a good understanding of C++ unit tests and some working knowledge of GitHub's CI/CD workflows.
 
 
 ## Expected results & Milestones
@@ -41,7 +41,7 @@ This project will involve designing a `C++` based unit test module and execution
 
 * Strong C++ skills
 * Python
-* strong knowledge on git and GitHub especially CI/CD workflows
+* Strong knowledge on Git and GitHub (especially CI/CD workflows)
 
 
 ## Mentors
