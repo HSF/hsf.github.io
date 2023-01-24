@@ -1,5 +1,5 @@
 ---
-title: MadAnalysis 5 - Integration of theoretical uncertainty calculation with multiweight integration
+title: MadAnalysis5 - Improving the validation environment
 layout: gsoc_proposal
 project: MadAnalysis5
 year: 2023
