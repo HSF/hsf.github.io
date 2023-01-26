@@ -19,6 +19,7 @@ proper index for the table column. -->
 {% unless person.training_years contains loopyear %}
 {% assign skipped = skipped | plus: -1 %}
 {% continue %}
+{% endunless %}
 {% else %}
 {% assign educators_added = true %}
 {% endif %}
