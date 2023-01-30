@@ -25,7 +25,7 @@ and the originality of the user.
 
 ## Task ideas
 
-Multi-dimensional histograms are an essential tool for multivariate analyses. Currently MadAnalysis is only equiped with methods allowing for one-dimensional histograms. This project aims at designing a 2D histogram generator in C++, a histogram writer using SQL, and our local human readable output format. Finally, a Python-based plot generator will be designed, allowing our user to plot 2D histograms in a fully automated manner.
+Multi-dimensional histograms are an essential tool for multivariate analyses. Currently MadAnalysis is only equipped with methods allowing for one-dimensional histograms. This project aims at designing a 2D histogram generator in C++, a histogram writer using SQL, and our local human readable output format. Finally, a Python-based plot generator will be designed, allowing our user to plot 2D histograms in a fully automated manner.
 
 ## Expected results & Milestones
 
