@@ -46,7 +46,7 @@ also include more physics-oriented work for a suitable candidate.
  * Familiarise with the LHAPDF framework from interface to calculation components;
  * Familiarise with current LHAPDF CI tests and the GitLab config system;
  * Design and present a new proposal of CI tests to provide feature coverage,
-   with a CPU-efficient test schedule, targetting of change-driven tests, and
+   with a CPU-efficient test schedule, targeting of change-driven tests, and
    a full-suite pre-release test-set;
  * Set up a Mac-based CI test worker, either virtual or physical, and incorporate
    in the test system;
