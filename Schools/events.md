@@ -3,9 +3,12 @@ layout: plain
 title: HEP Software Training Events
 ---
 
-## Current and Upcoming Training Events
+{% capture list_of_upcoming_schools %}{% include list_of_upcoming_schools.md %}{% endcapture %}
+{% if list_of_upcoming_schools != "" %}
+  ## Current and Upcoming Training Events
 
-{% include list_of_upcoming_schools.md %}
+  {{ list_of_upcoming_schools }}
+{% endif %}
 
 ## Past Events
 
