@@ -2,6 +2,14 @@
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
 - author: Kilian Lieret
+  date: 2023-03-06
+  deadline: ''
+  end_date: 2023-03-10
+  source: https://indico.cern.ch/event/1229412/
+  tags:
+  - HSF
+  title: 6th HEP C++ Course and Hands-on Training - The Essentials
+- author: Kilian Lieret
   date: 2023-01-16
   deadline: ''
   end_date: 2023-01-20
