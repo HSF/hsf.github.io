@@ -137,10 +137,13 @@ We are always looking for volunteers from the community to help us with our trai
   </a>
 </div>
 
+{% capture list_of_upcoming_schools %}{% include list_of_upcoming_schools.md %}{% endcapture %}
+{% capture test %}{{ list_of_upcoming_schools | strip }}{% endcapture %}
+{% if test  != "" %}
 Upcoming schools:
 
-{% include list_of_upcoming_schools.md %}
-
+{{ list_of_upcoming_schools }}
+{% endif %}
 ## Conveners
 
 - Wouter Deconinck (EIC, University of Manitoba)
