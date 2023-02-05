@@ -1,13 +1,13 @@
 ---
-title: Quantum Graph Neural Networks for High Energy Physics Analysis at the LHC
+title: Quantum transformer for High Energy Physics Analysis at the LHC
 layout: gsoc_proposal
 project: QMLHEP
 year: 2023
 organization:
  - Alabama
+ - Wisconsin
  - Waterloo
  - Brown
- - Wisconsin
 ---
 
 ## Description
@@ -22,19 +22,18 @@ With this project we seek to implement Quantum Machine Learning methods for LHC 
 Total project length: 175 hours.
 
 ## Task ideas
-  * Implement a Quantum Graph Neural Network (QGNN) method based on a suitable framework e.g. Pennylane. 
-  * Apply the quantum machine learning method to a benchmark high-energy physics analysis and benchmark the quantum machine learning performance compared to classical machine learning methods
-
+  * Implement a quantum transformer architecture.
+  * Benchmark the trained model on selected tasks by e.g. employing a hybrid vision transformer.
+ 
 ## Expected results
-  * Trained Quantum Graph Neural Network with e.g. Pennylane framework.
-  * Apply the Quantum Machine Learning method to LHC physics analysis and compare to classical machine learning methods.
+  * Trained quantum transformer model.
+  * Benchmark of the performance on a HEP dataset compared against a classical reference model
   
-
 <!-- ## Test
 
 Please use [this link](https://docs.google.com/document/d/e/2PACX-1vSeQWHXbf-87eCPcEj-LcYEcBpPKnqCYoU0uf7PH-ou_XRdcg_xtXaP4fzSY8b_FiGMIyqsLjDNWqZD/pub) to access the test for this project. -->
-
-## Requirements 
+  
+## Requirements
   * Solid knowledge of machine learning and deep learning
   * Knowledge of quantum mechanics desired
   * Strong python skills
@@ -42,7 +41,7 @@ Please use [this link](https://docs.google.com/document/d/e/2PACX-1vSeQWHXbf-87e
 
 ## Mentors
   * [Rui Zhang](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
-  * [Alkaid Cheng](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
+  * [Alkaid Cheng](mailto:ml4-sci@cern.ch) (University of Wisconsin Madison)
   * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Raphael Koh](mailto:ml4-sci@cern.ch) (University of Waterloo)
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
@@ -50,10 +49,8 @@ Please use [this link](https://docs.google.com/document/d/e/2PACX-1vSeQWHXbf-87e
 ## Links
   * [HL-LHC](https://hilumilhc.web.cern.ch)
   * [LHC](https://home.cern/science/accelerators/large-hadron-collider)
-  * [Pennylane](https://pennylane.ai)
-  * [Paper 1](https://arxiv.org/abs/2201.05158)
-  * [Paper 2](https://arxiv.org/abs/2103.10837)
-  * [Paper 3](https://arxiv.org/abs/2112.06088)
-  * [Paper 4](https://arxiv.org/abs/1909.12264)
+  * [TensorFlow Quantum](https://www.tensorflow.org/quantum/overview)
+  * [Paper 1](https://arxiv.org/abs/2110.06510)
+  * [Paper 2](https://arxiv.org/abs/2209.08167)
 
 Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
