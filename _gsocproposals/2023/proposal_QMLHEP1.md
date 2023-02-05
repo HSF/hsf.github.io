@@ -15,44 +15,41 @@ The ambitious [HL-LHC](https://hilumilhc.web.cern.ch) program will require enorm
 
 Discovery of new physics requires the identification of rare signals against immense backgrounds. Development of machine learning methods will greatly enhance our ability to achieve this objective. However, with this ever-growing volume of data in the near future, current machine learning algorithms will require large computing resources and excessive computing time to achieve good performance. Quantum Computing in Qubit platform, where qubits are used instead of bits in classical computer, has the potential to improve the time complexity of classical algorithms.
 
-With this project we seek to implement Quantum Machine Learning methods for LHC HEP analysis based on Google TensorFlow Quantum (“TF Quantum is an open source library for quantum machine learning”). This will enhance the ability of the HEP community to use Quantum Machine Learning methods. In addition, if possible, we also would like to develop a common QML interface for HEP which can support different quantum frameworks such as TensorFlow Quantum.
+With this project we seek to implement Quantum Machine Learning methods for LHC HEP analysis based on e.g. the Pennylane framework. This will enhance the ability of the HEP community to use Quantum Machine Learning methods.
 
 ## Duration
 
 Total project length: 175 hours.
 
 ## Task ideas
-  * Implement a Quantum Generative Adversarial Network (QGAN) method based on Google Tensorflow Quantum framework.
+  * Implement a Quantum Generative Adversarial Network (QGAN) based on a suitable framework, e.g. Pennylane. See e.g. papers for possible models under ‘Links’
+  * Verify that it works and no mode collapse happens using the MNIST dataset.
   * Apply the quantum machine learning method to one LHC flagship physics channel (e.g. double-Higgs production). Compare the quantum machine learning performance to the classical machine learning performance.
  
 ## Expected results
-  * Trained Quantum Generative Adversarial Network method based on Google TensorFlow Quantum framework.
-  * Successfully apply the Quantum Machine Learning method to LHC physics analyses and obtain performance benchmarks to compare to classical machine learning methods.
-  
+  * Trained Quantum Generative Adversarial Network method based on e.g. Pennylane framework.
+  * Successfully apply the Quantum Machine Learning method to LHC physics analyses and obtain performance benchmarks to compare to classical machine learning methods. 
 <!-- ## Test
 
 Please use [this link](https://docs.google.com/document/d/e/2PACX-1vSeQWHXbf-87eCPcEj-LcYEcBpPKnqCYoU0uf7PH-ou_XRdcg_xtXaP4fzSY8b_FiGMIyqsLjDNWqZD/pub) to access the test for this project. -->
   
 ## Requirements 
   * Solid knowledge of machine learning and deep learning
-  * Some knowledge of quantum mechanics desired
-  * Familiarity with c/c++
+  * Knowledge of quantum mechanics
   * Strong python skills
-
+  * Ability to work independently and proactive on a research project
 
 ## Mentors
   * [Rui Zhang](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
-  * [Shaojun Sun](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
-  * [Chen Zhou](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
   * [Sergei Gleyzer](mailto:ml4-sci@cern.ch) (University of Alabama)
   * [Raphael Koh](mailto:ml4-sci@cern.ch) (University of Waterloo)
-  * [Wen Guan](mailto:ml4-sci@cern.ch) (University of Wisconsin-Madison)
   * [Emanuele Usai](mailto:ml4-sci@cern.ch) (Brown University)
 
 ## Links
   * [HL-LHC](https://hilumilhc.web.cern.ch)
   * [LHC](https://home.cern/science/accelerators/large-hadron-collider)
-  * [TensorFlow Quantum](https://www.tensorflow.org/quantum/overview)
-
+  * [Pennylane](https://pennylane.ai)
+  * [Paper 1](https://arxiv.org/abs/2105.00080) 
+  * [Paper 2](https://arxiv.org/abs/2210.16857)
 
 Please **DO NOT** contact mentors directly by email. Instead, please email [ml4-sci@cern.ch](mailto:ml4-sci@cern.ch) with Project Title and **include your CV** and **test results**. The mentors will then get in touch with you.
