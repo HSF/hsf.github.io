@@ -38,7 +38,7 @@ Interested students please contact [Thomas and Giacomo](mailto:Thomas.Kuhr@lmu.d
  * Typescript, Angular, Web programming, knowledge of C++ and the ROOT event display would be an advantage.
 
 ## Mentors
- * [Thomas Kuhr](mailto:Thomas.Kuhr@lmu.de) LMU
+ * **[Thomas Kuhr](mailto:Thomas.Kuhr@lmu.de)** LMU
  * [Giacomo De Pietro](mailto:giacomo.pietro@kit.edu) KIT
 
 ## Links
