@@ -17,7 +17,7 @@ organization:
 It is currently used in the CMS and CLIC event reconstruction software for clustering calorimetric hits in two dimensions (x,y) based on their energy.
 CLUE is implemented in C++ and can execute on CPU and GPUs thanks to the [Alpaka][alpakapaper] performance portability library. CLUE has been generalized to k-dimensions and has been wrapped as python library ([CLUEstering][pyclue]) to become more beneficial for the scientific community. 
 The current Python integration does not support Alpaka, and therefore GPU offloading can't be exploited. 
-For this reason having Alpaka integrated in the Python library would be extremely useful to add support to parallel backend and heterogeneous devices as GPUs and FPGAs.  
+For this reason having Alpaka integrated in the Python library would be extremely useful to add support to parallel backend and heterogeneous devices such as GPUs and FPGAs.  
 
 ## Expected Results
 
