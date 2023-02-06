@@ -6,7 +6,7 @@ layout: plain
 **Note for contributors:** entries must be sorted in **last name** alphabetic order
 
 ## Full Mentor List (Name, Email, Org)
-* Claire Antel [claire.antel@cern.ch](mailto:claire.antel@cern.ch) CERN
+* Claire Antel [claire.antel@cern.ch](mailto:claire.antel@cern.ch) UNIGE
 * Jack Y. Araz [jack.araz@durham.ac.uk](mailto:jack.araz@durham.ac.uk) IPPP
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Luca Canali [luca.canali@cern.ch](mailto:luca.canali@cern.ch) CERN
@@ -15,6 +15,7 @@ layout: plain
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Thomas Kuhr [Thomas.Kuhr@lmu.de](mailto:Thomas.Kuhr@lmu.de) LMU
 * Jose Carlos Luna [jose.carlos.luna@cern.ch](mailto:jose.carlos.luna@cern.ch) CERN
+* Brian Petersen [brian.petersen@cern.ch](mailto:brian.petersen@cern.ch) CERN
 * Giacomo De Pietro [giacomo.pietro@kit.edu](mailto:giacomo.pietro@kit.edu) KIT
 * Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
 * Dalila Salamani [dalila.salamani@cern.ch](mailto:dalila.salamani@cern.ch) CERN

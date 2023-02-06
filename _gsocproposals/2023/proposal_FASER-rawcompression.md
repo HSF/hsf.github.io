@@ -5,9 +5,9 @@ layout: gsoc_proposal
 year: 2023
 difficulty: medium
 duration: 175
-mentor_avail: June-October
+mentor_avail: June-September
 organization:
-  - Geneva University
+  - UNIGE
   - CERN
 ---
 
@@ -18,7 +18,7 @@ During proton running, the FASER experiment records up to 1500 events per second
 FASER currently records its data as raw bit stream to disk but is hitting storage space limitations. The project aim is to explore methods of real-time data compression to reduce FASER's output data size.
 
 ## Task ideas
-The project will explore the use of standard C++ compression libraries to compress raw data read out of the FASER detector in real-time and decompress data for event analysis. The task will need to explore the best method of implementation, considering at which level of event building data compression can be most effectively implemented. It will need to be ensured that the implementation causes no undue bottlenecks during data acquisition, and that data can be easily decompressed for physics analysis.
+The project will explore the use of standard C++ compression libraries and targeted custom algorithms to compress raw data read out of the FASER detector in real-time and decompress data for event analysis. The task will need to explore the best method of implementation, considering at which level of event building data compression can be most effectively implemented. It will need to be ensured that the implementation causes no undue bottlenecks during data acquisition, and that data can be easily decompressed for physics analysis.
 
 ## Expected results
  * Determine a suitable C++ library/method for data compression and decompression in the context of FASER's DAQ model.
@@ -26,13 +26,14 @@ The project will explore the use of standard C++ compression libraries to compre
  * Test final implementation methods on the full FASER DAQ system by running high event rate tests to measure and compare recording speed and verify no bottlenecks in throughput are caused.
 
 ## Evaluation Task
-Please contact [Claire Antel](mailto:claire.antel@cern.ch) for more details.
+Please contact [Claire Antel](mailto:claire.antel@cern.ch) and [Brian Petersen](mailto:brian.petersen@cern.ch) for more details.
 
 ## Requirements
  * Good knowledge of C++
 
 ## Mentors
  * **[Claire Antel](mailto:claire.antel@cern.ch)**
+ * [Brian Petersen](mailto:brian.petersen@cern.ch)
 
 ## Links
 * [FASER DAQ git repo](https://gitlab.cern.ch/faser/online/faser-daq)
