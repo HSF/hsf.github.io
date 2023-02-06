@@ -21,7 +21,7 @@ on each chunk of data.
 Moreover, efficient software algorithms are crucial for the real-time data selection (trigger)
 systems in LHC experiments,
 as the initial data analysis necessary to select interesting collision events
-is executed on a computing farm located at CERN that with finite CPU resources.
+is executed on a computing farm located at CERN that has finite CPU resources.
 
 The questions we want to start answering in this work are:
    * can small efficiency improvements in the software of Large Hadron Collider experiments
