@@ -32,7 +32,7 @@ The expected result is a genuine Julia package that provides the functionality o
 Interested students please contact [Pere](mailto:Pere.Mato@cern.ch) and [Philippe](mailto:philippe.gras@cern.ch) for more details and an evaluation task.
 
 ## Requirements
- * Good knowledge of C++ and Julia is required. Experience with some of the widely used HEP libraries (e.g. ROOT, Geant4) would be an advantage, as well as experience of Julia packages as C++Wrap.
+ * Good knowledge of C++ and some experience in Julia is required. Experience with some of the widely used HEP libraries (e.g. ROOT, Geant4) would be an advantage, as well as some experience of Julia packages such as C++Wrap.
 
 ## Mentors
  * **[Pere Mato](mailto:pere.mato@cern.ch)** CERN
