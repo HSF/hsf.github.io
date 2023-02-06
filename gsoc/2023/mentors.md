@@ -10,6 +10,8 @@ layout: plain
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Benjamin Fuks [fuks@lpthe.jussieu.fr](mailto:fuks@lpthe.jussieu.fr) LPTHE
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
+* Thomas Kuhr [Thomas.Kuhr@lmu.de](mailto:Thomas.Kuhr@lmu.de) LMU
+* Giacomo De Pietro [giacomo.pietro@kit.edu](mailto:giacomo.pietro@kit.edu) KIT
 * Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
 * Dalila Salamani [dalila.salamani@cern.ch](mailto:dalila.salamani@cern.ch) CERN
 * Anna Zaborowska [anna.zaborowska@cern.ch](mailto:anna.zaborowska@cern.ch) CERN
