@@ -21,9 +21,9 @@ Furthermore, a byproduct of this project is that the student will get to work wi
 
 ## First Steps
 
-1. Understand how transformers work and how the original transformer architecture is modified for images.
+1. Understand how transformers work and how the original transformer architecture is adapted for images.
 2. Understand the [shower data](https://zenodo.org/record/6366324#.Y-DJ9ezMKdY).
-3. Think of modifications that can bring benefit when using transformers for shower data.
+3. Propose modifications that can bring benefit when using transformers for shower data.
 
 ## Project Milestones
 * Survey promising transformer-based architectures.
@@ -46,7 +46,6 @@ Python and ML exercises.
 ## Mentors
 * **[Dalila Salamani](mailto:dalila.salamani@cern.ch)** (CERN)
 * [Piyush Raikwar](mailto:piyush.raikwar@cern.ch) (CERN)
-* [Anna Zaborowska](mailto:anna.zaborowska@cern.ch) (CERN)
 
 ## Links
 * [Repo](https://gitlab.cern.ch/praikwar/ml4fastsim/-/tree/pytorch_port)
