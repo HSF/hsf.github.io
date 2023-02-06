@@ -11,10 +11,8 @@ organization:
   - CERN
 ---
 
-
 ## Description
-The [FASER experiment](https://arxiv.org/abs/2207.11427) is an LHC experiment located in a tunnel parallel to the LHC ring and is considerably smaller and low-budget compared to the titan LHC experiments such as ATLAS and CMS. The experiment seeks to detect new long-lived particles that have travelled half a kilometer from a LHC proton-proton collision site, escaping the major ATLAS experiment undetected. The only other proton collision "background" particles reaching FASER's faraway location are muons and neutrinos.
-During proton running, the FASER experiment records up to 1500 events per second using an open source data acquisiton (DAQ) software framework developed at CERN. The DAQ software receives dedicated data fragments from subcomponents on the detector, packs them into a single event and writes completed events to file.
+During proton collisions at the LHC, the FASER experiment records up to 1500 events per second using an open source data acquisiton (DAQ) software framework developed at CERN. The DAQ software receives dedicated data fragments from subcomponents on the detector, packs them into a single event and writes completed events to file.
 FASER currently records its data as raw bit stream to disk but is hitting storage space limitations. The project aim is to explore methods of real-time data compression to reduce FASER's output data size.
 
 ## Task ideas
