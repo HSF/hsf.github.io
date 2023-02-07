@@ -25,6 +25,7 @@ layout: plain
 * Baidyanath Kundu [baidyanath.kundu@cern.ch](mailto:baidyanath.kundu@cern.ch) CompRes
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
+* Kilian Lieret [kl5675@princeton.edu](mailto:kl5675@princeton.edu) Princeton
 * Jose Carlos Luna [jose.carlos.luna@cern.ch](mailto:jose.carlos.luna@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes
 * Brian Petersen [brian.petersen@cern.ch](mailto:brian.petersen@cern.ch) CERN
