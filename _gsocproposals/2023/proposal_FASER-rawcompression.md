@@ -1,6 +1,6 @@
 ---
 project: FASER
-title: Real-time data compression for the FASER experiment
+title: Real-time lossless data compression for the FASER experiment
 layout: gsoc_proposal
 year: 2023
 difficulty: medium
@@ -16,10 +16,10 @@ During proton collisions at the LHC, the FASER experiment records up to 1500 eve
 FASER currently records its data as raw bit stream to disk but is hitting storage space limitations. The project aims is to explore methods of real-time data compression to reduce FASER's output data size.
 
 ## Task ideas
-The task is to make use of standard C++ compression libraries and targeted custom algorithms to compress raw data read out of the FASER detector in real-time and decompress data for event analysis. One will need to explore the best method of implementation, considering at which level of event building data compression can be most effectively implemented. It will need to be ensured that the implementation causes no undue bottlenecks during data acquisition, and that data can be easily decompressed for physics analysis.
+The task is to make use of state-of-the-art lossless C++ compression libraries and targeted custom algorithms to compress raw data read out of the FASER detector in real-time and decompress data for event analysis. One will need to explore the best method of implementation, considering at which level of event building data compression can be most effectively implemented. It will need to be ensured that the implementation causes no undue bottlenecks during data acquisition, and that data can be easily decompressed for physics analysis.
 
 ## Expected results
- * Determine a suitable C++ library/method for data compression and decompression in the context of FASER's DAQ model.
+ * Determine a suitable C++ library/method for lossless data compression and decompression in the context of FASER's DAQ model.
  * Study ways of most effective data compression, acquiring knowledge of how the FASER data recording stream works at different levels.
  * Test final implementation methods on the full FASER DAQ system by running high event rate tests to measure and compare recording speed and verify no bottlenecks in throughput are caused.
 
