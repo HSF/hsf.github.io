@@ -12,3 +12,5 @@ arithmetics
 espace
 commends
 ro
+Parth
+CompRes
