@@ -9,6 +9,7 @@ layout: plain
 * Claire Antel [claire.antel@cern.ch](mailto:claire.antel@cern.ch) UNIGE
 * Jack Y. Araz [jack.araz@durham.ac.uk](mailto:jack.araz@durham.ac.uk) IPPP
 * Parth Arora [partharora99160808@gmail.com](mailto:partharora99160808@gmail.com) CompRes
+* Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Jakob Blomer [jakob.blomer@cern.ch](mailto:jakob.blomer@cern.ch) CERN
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Luca Canali [luca.canali@cern.ch](mailto:luca.canali@cern.ch) CERN
@@ -22,6 +23,7 @@ layout: plain
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Thomas Kuhr [Thomas.Kuhr@lmu.de](mailto:Thomas.Kuhr@lmu.de) LMU
 * Baidyanath Kundu [baidyanath.kundu@cern.ch](mailto:baidyanath.kundu@cern.ch) CompRes
+* Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
 * Jose Carlos Luna [jose.carlos.luna@cern.ch](mailto:jose.carlos.luna@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes
