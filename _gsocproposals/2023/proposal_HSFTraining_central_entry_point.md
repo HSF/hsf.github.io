@@ -30,7 +30,7 @@ This project is about creating a new training center that turns the static page 
 * Adapt the data sources to read from yaml files that point to arbitrary web content (rather than reading Jupyter notebooks of a single repository)
 * Change the side menus based on the new content listed
 * Adapt the design to that of the HSF
-* Help to beploy a first version of the website
+* Help to deploy a first version of the website
 * Ensure that there is sufficient documentation for continued maintenance after the internship ends
 
 **Stretch goals:**
