@@ -19,4 +19,3 @@ layout: plain
 * Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
 * Dalila Salamani [dalila.salamani@cern.ch](mailto:dalila.salamani@cern.ch) CERN
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
-* Anna Zaborowska [anna.zaborowska@cern.ch](mailto:anna.zaborowska@cern.ch) CERN
