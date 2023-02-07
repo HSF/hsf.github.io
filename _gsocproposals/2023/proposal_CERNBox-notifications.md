@@ -27,7 +27,7 @@ This Student Proposal aims to extend the capabilities of Reva’s notification s
 * Provide a richer set of actions for the notification API (filters, delayed actions, metrics)
 * Create documentation for the new features
 
-Any ideas the student comes up while working on the project are welcome!
+Any ideas the student comes up with while working on the project are welcome!
 
 
 ## Expected results
