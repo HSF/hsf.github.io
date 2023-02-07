@@ -35,6 +35,4 @@ Please contact [Claire Antel](mailto:claire.antel@cern.ch) and [Brian Petersen](
 
 ## Links
 * [FASER DAQ git repo](https://gitlab.cern.ch/faser/online/faser-daq)
-* [FASER DAQ docs](https://faserdaq.web.cern.ch/faserdaq/)
 * [Publication on FASER TDAQ system](https://arxiv.org/abs/2110.15186)
-
