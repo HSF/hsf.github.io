@@ -47,7 +47,8 @@ The scope and extent of the improvements will be tailored to the skills / availa
 
 
 ## Mentors
-* **[Javier Ferrer](mailto:javier.ferrer@cern.ch)**
+* **[Javier Ferrer](mailto:javier.ferrer@cern.ch)** CERN
+* [Hugo Gonzalez Labrador](mailto:hugo.gonzalez.labrador@cern.ch) CERN
 
 
 ## Links
