@@ -16,6 +16,7 @@ layout: plain
 * Wouter Deconinck [wouter.deconinck@umanitoba.ca](mailto:wouter.deconinck@umanitoba.ca) UManitoba
 * Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) UofManchester
 * Alexander Ekman [alexander.ekman@hep.lu.se](mailto:alexander.ekman@hep.lu.se) LundU
+* Javier Ferrer [javier.ferrer@cern.ch](mailto:javier.ferrer@cern.ch) CERN
 * Benjamin Fuks [fuks@lpthe.jussieu.fr](mailto:fuks@lpthe.jussieu.fr) LPTHE
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Thomas Kuhr [Thomas.Kuhr@lmu.de](mailto:Thomas.Kuhr@lmu.de) LMU
