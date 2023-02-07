@@ -26,12 +26,14 @@ layout: plain
 * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
 * Jose Carlos Luna [jose.carlos.luna@cern.ch](mailto:jose.carlos.luna@cern.ch) CERN
+* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes
 * Brian Petersen [brian.petersen@cern.ch](mailto:brian.petersen@cern.ch) CERN
 * Giacomo De Pietro [giacomo.pietro@kit.edu](mailto:giacomo.pietro@kit.edu) KIT
 * Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
 * Dalila Salamani [dalila.salamani@cern.ch](mailto:dalila.salamani@cern.ch) CERN
+* Juraj Smiesko [juraj.smiesko@cern.ch](mailto:juraj.smiesko@cern.ch) CERN
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
