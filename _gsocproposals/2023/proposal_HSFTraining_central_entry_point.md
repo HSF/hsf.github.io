@@ -43,5 +43,5 @@ A deployed training center webpage with basic filters. See the "core goals" sect
 
 ## Mentors
 
-* Kilian Lieret (Princeton University, IRIS-HEP)
+* Kilian Lieret [kl5675@princeton.edu](mailto:kl5675@princeton.edu) Princeton University
 * TBD
