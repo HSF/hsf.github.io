@@ -43,7 +43,7 @@ Required: Good knowledge of UNIX, Python, matplotlib, Pytorch, Pandas, ROOT, and
 ​
 ## Mentors
    * ***[Alexander Ekman](mailto:alexander.ekman@hep.lu.se)***
-   * [Caterina Doglioni](caterina.doglioni@cern.ch) as backup mentor
+   * [Caterina Doglioni](mailto:caterina.doglioni@cern.ch) as backup mentor
 
 ## Links
 
