@@ -6,6 +6,7 @@ layout: plain
 **Note for contributors:** entries must be sorted in **last name** alphabetic order
 
 ## Full Mentor List (Name, Email, Org)
+* Claire Antel [claire.antel@cern.ch](mailto:claire.antel@cern.ch) UNIGE
 * Jack Y. Araz [jack.araz@durham.ac.uk](mailto:jack.araz@durham.ac.uk) IPPP
 * Parth Arora [partharora99160808@gmail.com](mailto:partharora99160808@gmail.com) CompRes
 * Jakob Blomer [jakob.blomer@cern.ch](mailto:jakob.blomer@cern.ch) CERN
@@ -21,6 +22,7 @@ layout: plain
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
 * Jose Carlos Luna [jose.carlos.luna@cern.ch](mailto:jose.carlos.luna@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes
+* Brian Petersen [brian.petersen@cern.ch](mailto:brian.petersen@cern.ch) CERN
 * Giacomo De Pietro [giacomo.pietro@kit.edu](mailto:giacomo.pietro@kit.edu) KIT
 * Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
