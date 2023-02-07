@@ -35,7 +35,7 @@ Interested students please contact the mentors for more details and an evaluatio
 
 ## Mentors
  * **[Wouter Deconinck](mailto:wouter.deconinck@umanitoba.ca)** UManitoba
- * [Andre Sailer](mailto:andre.sailer@cern.ch) CERN
+ * [Andre Sailer](mailto:andre.philippe.sailer@cern.ch) CERN
 
 ## Links
 - https://dd4hep.web.cern.ch/dd4hep/
