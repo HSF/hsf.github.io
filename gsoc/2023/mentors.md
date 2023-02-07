@@ -8,6 +8,7 @@ layout: plain
 ## Full Mentor List (Name, Email, Org)
 * Jack Y. Araz [jack.araz@durham.ac.uk](mailto:jack.araz@durham.ac.uk) IPPP
 * Parth Arora [partharora99160808@gmail.com](mailto:partharora99160808@gmail.com) CompRes
+* Jakob Blomer [jakob.blomer@cern.ch](mailto:jakob.blomer@cern.ch) CERN
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Luca Canali [luca.canali@cern.ch](mailto:luca.canali@cern.ch) CERN
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
@@ -26,4 +27,5 @@ layout: plain
 * Dalila Salamani [dalila.salamani@cern.ch](mailto:dalila.salamani@cern.ch) CERN
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
+* Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
 
