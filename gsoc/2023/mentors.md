@@ -15,6 +15,7 @@ layout: plain
 * Diogo Castro [diogo.castro@cern.ch](mailto:diogo.castro@cern.ch) CERN
 * Wouter Deconinck [wouter.deconinck@umanitoba.ca](mailto:wouter.deconinck@umanitoba.ca) UManitoba
 * Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) UofManchester
+* Alexander Ekman [alexander.ekman@hep.lu.se](mailto:alexander.ekman@hep.lu.se) LundU
 * Benjamin Fuks [fuks@lpthe.jussieu.fr](mailto:fuks@lpthe.jussieu.fr) LPTHE
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Thomas Kuhr [Thomas.Kuhr@lmu.de](mailto:Thomas.Kuhr@lmu.de) LMU
@@ -30,4 +31,3 @@ layout: plain
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
-
