@@ -1,7 +1,7 @@
 ---
 title: A new Training Center Website
 layout: gsoc_proposal
-project: hsf
+project: HSF
 year: 2023
 organization:
 - princeton
