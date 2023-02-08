@@ -22,4 +22,4 @@ training_years: []              # in which years did you help out? (e.g. [2020, 
 layout: educator
 ---
 
-<!-- Optional: Delete this line and write something about yourself (markdown supported) -->
+<!-- Optional: Write something about yourself below this comment. Markdown styling is supported. -->
