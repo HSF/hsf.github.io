@@ -1,5 +1,4 @@
 ---
-project: HSF
 title: RooFit - Pythonic interaction with the RooWorkspace
 layout: gsoc_proposal
 project: ROOT
@@ -46,7 +45,7 @@ Good knowledge of Python and C++.
   * [ROOT](https://root.cern/)
   * [RooFit](https://root.cern/topical/#roofit)
   * [RooFit tutorials](https://root.cern/doc/master/group__tutorial__roofit.html) in C++ and Python
-    Look in paricular at the tutorials that **demonstrates the current way to interact with the RooWorkspace**:
+    Look in particular at the tutorials that **demonstrate the current way to interact with the RooWorkspace**:
     1. [Basic use of the RooWorkspace factory language](https://root.cern/doc/master/rf511__wsfactory__basic_8py.html)
     2. [Illustration of operator expressions in the workspace factory syntax](https://root.cern/doc/master/rf512__wsfactory__oper_8py.html)
   * Latest [presentation on the JSON serialization standard](https://docs.google.com/presentation/d/1tJeojfrc05cmc3PR3tk_t_3akng4Z0gciHH1VKHTXKA/edit#slide=id.p) (from the [(Re)interpretation of the LHC results for new physics](https://indico.cern.ch/event/1197680/) workshop)

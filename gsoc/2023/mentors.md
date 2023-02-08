@@ -27,8 +27,8 @@ layout: plain
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
 * Kilian Lieret [kl5675@princeton.edu](mailto:kl5675@princeton.edu) Princeton
 * Jose Carlos Luna [jose.carlos.luna@cern.ch](mailto:jose.carlos.luna@cern.ch) CERN
-* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Lorenzo Moneta [lorenzo.moneta@cern.ch](mailto:lorenzo.moneta@cern.ch) CERN
+* Edward Moyse [edward.moyse@cern.ch](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes
 * Brian Petersen [brian.petersen@cern.ch](mailto:brian.petersen@cern.ch) CERN
 * Giacomo De Pietro [giacomo.pietro@kit.edu](mailto:giacomo.pietro@kit.edu) KIT
