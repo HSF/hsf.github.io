@@ -13,12 +13,12 @@ mentor_avail: May-October
 
 ## Description
 
-There is a large number of training resources for newcomers in the field of High Energy Physics. The [HSF Training group](https://hepsoftwarefoundation.org/workinggroups/training.html) together with [IRIS-HEP](https://iris-hep.org/) has started to compile a curriculum of such training modules that helps to get beginners up to speed quickly. However, the [current listing](https://hepsoftwarefoundation.org/training/curriculum.html) in the form of a static table is quickly becoming overwhelming, and we cannot include many resources because of space limitations. 
-This project is about creating a new training center that turns the static page into a dynamic list of training content that can be filtered by attributes such as programming language, common tasks, type of training, HEP experiment, etc. The candidate can start with the code of <https://learn.astropy.org/> (an unrelated training website of a popular astrophysics package) and change the underlying data sources: rather than being based on a series of Jupyter notebooks, configuration files should allow listing arbitrary content. 
+There is a large number of training resources for newcomers in the field of High Energy Physics. The [HSF Training group](https://hepsoftwarefoundation.org/workinggroups/training.html) together with [IRIS-HEP](https://iris-hep.org/) has started to compile a curriculum of such training modules that helps to get beginners up to speed quickly. However, the [current listing](https://hepsoftwarefoundation.org/training/curriculum.html) in the form of a static table is quickly becoming overwhelming, and we cannot include many resources because of space limitations.
+This project is about creating a new training center that turns the static page into a dynamic list of training content that can be filtered by attributes such as programming language, common tasks, type of training, HEP experiment, etc. The candidate can start with the code of <https://learn.astropy.org/> (an unrelated training website of a popular astrophysics package) and change the underlying data sources: rather than being based on a series of Jupyter notebooks, configuration files should allow listing arbitrary content.
 
 ## Requirements
 
-* Typescript
+* JavaScript
 * HTML
 * web development basics
 
