@@ -16,8 +16,8 @@ mentor_avail: May-October
 In the GNN tracking project, we use [graph neural networks][gnn-wiki] (GNNs) to reconstruct trajectories ("tracks") of elementary particles traveling through a detector. 
 This task is called ["tracking"][tracking-wiki] and is different from many other problems that involve trajectories: 
 
-* there are several thousand particles that need to be tracked at once, 
-* there is no time information (the particles travel too fast), 
+* there are several thousand particles that need to be tracked at once,
+* there is no time information (the particles travel too fast),
 * we do not observe a continuous trajectory but instead only around five points ("hits") along the way in different detector layers.
 
 The task can be described as a combinatorically very challenging "connect-the-dots" problem, essentially turning a cloud of points (hits) in 3D space into a set of O(1000) trajectories.
@@ -26,7 +26,7 @@ Expressed differently, each hit (containing not much more than the x/y/z coordin
 A conceptually simple way to turn this problem into a machine learning task is to create a fully connected graph of all points and then train an edge classifier to reject any edge that doesn't connect points that belong to the same particle. 
 In this way, only the individual trajectories remain as components of the initial fully connected graph.
 However, this strategy does not seem to lead to perfect results in practice.
-The approach of this project uses this strategy only as the first step to arrive at "small" graphs. 
+The approach of this project uses this strategy only as the first step to arrive at "small" graphs.
 It then projects all hits into a learned latent space with the model learning to place hits of the same particle close to each other, such that the hits belonging to the same particle form clusters.
 
 The project code together with documentation and a reading list is available on [github][ghorganization] and uses [pytorch geometric][pyg].
@@ -48,7 +48,7 @@ Area 2: Machine learning & statistics
 * Investigate different model architectures
 * Investigate use of different clustering algorithms
 * Run side-studies for variations of the existing architecture
-* Run hyperparameter optimizations using 
+* Run hyperparameter optimizations
 
 Of course, students can also mix tasks from both areas.
 Many of the concrete tasks are collected as [issues in the main GNN Tracking repository][issues].
@@ -77,7 +77,7 @@ For area 1:
 
 For area 2:
 
-* Increased overall efficiency/performance of the model 
+* Increased overall efficiency/performance of the model
 * Detailed writeup of different architectures/algorithms and corresponding results
 * Code available for every side-study, ideally in the main repository as a model that can be switched out with the current one, alternatively as a verbose Jupyter notebook.
 
