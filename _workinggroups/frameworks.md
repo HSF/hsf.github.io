@@ -46,14 +46,15 @@ discussions are held on the [hsf-tech-forum](https://groups.google.com/forum/#%2
 
 The group conveners are:
 
+- Nathan Brei, EIC and JLab
 - Benedikt Hegner, Key4hep and CERN
 - Kyle Knoepfel, Neutrino Platform and Fermilab
-- Matti Kortelainen, CMS and Fermilab
 - Vakho Tsulaia, ATLAS and LBNL
 
-[Email the WG Conveners](mailto:benedikt.hegner@cern.ch,knoepfel@fnal.gov,matti.kortelainen@cern.ch,vakhtang.tsulaia@cern.ch). <!-- markdown-link-check-disable-line -->
+[Email the WG Conveners](mailto:benedikt.hegner@cern.ch,knoepfel@fnal.gov,nbrei@jlab.org,vakhtang.tsulaia@cern.ch). <!-- markdown-link-check-disable-line -->
 
 ### Former Conveners
 
 - Chris Jones, FNAL 2020-2021
+- Matti Kortelainen, FNAL 2022
 - Attila Krasznahorkay, CERN 2020-2021
