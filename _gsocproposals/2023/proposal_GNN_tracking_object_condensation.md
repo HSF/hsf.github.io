@@ -92,7 +92,7 @@ Example outcomes for area 2:
 ## Mentors
 
 * Kilian Lieret [kl5675@princeton.edu](mailto:kl5675@princeton.edu) Princeton University
-* TBD
+* Gage deZoort [jdezoort@princeton.edu](mailto:jdezoort@princeton.edu) Princeton University
 
 [SLURM]: https://slurm.schedmd.com/overview.html
 [raytune]: https://docs.ray.io/en/latest/tune/index.html
