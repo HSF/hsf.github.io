@@ -58,7 +58,7 @@ Today's graduate students will be the young faculty members driving HEP research
 ## Learn with us
 
 <div class="big-link-container">
-  <a href="{{site.baseurl}}/Schools/events.html">
+  <a href="{{site.baseurl}}/Schools/events-this-is-broken.html">
     Join an event!<br/>
     Discover new topics together with mentors and peers!
   </a>
