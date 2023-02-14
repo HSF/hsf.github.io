@@ -101,6 +101,6 @@ Example outcomes for area 2:
 [ghorganization]: https://github.com/gnn-tracking
 [pyg]: https://pytorch-geometric.readthedocs.io/
 [tracking-wiki]: https://en.wikipedia.org/wiki/Tracking_(particle_physics)
-[gnn-wiki]: https://en.wikipedia.org/wiki/Graph_neural_network]
+[gnn-wiki]: https://en.wikipedia.org/wiki/Graph_neural_network
 [acts]: https://github.com/acts-project/acts
 [kalman]: https://en.wikipedia.org/wiki/Kalman_filter
