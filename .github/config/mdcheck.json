@@ -26,7 +26,7 @@
       "replacement": "/_site/$1"
     }
   ],
-  "projectBaseUrl": "/__w/hsf.github.io/"
+  "projectBaseUrl": "/__w/hsf.github.io/",
   "timeout": "20s",
   "retryOn429": true,
   "retryCount": 5,
