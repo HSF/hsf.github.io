@@ -19,13 +19,14 @@
   "replacementPatterns": [
     {
       "pattern": "^/(.*)",
-      "replacement": "https://hepsoftwarefoundation.org/$1"
+      "replacement": "/_site/$1"
     },
     {
       "pattern": "^\\s*{{\\s*site.baseurl\\s*}}\\s*/(.*)",
-      "replacement": "https://hepsoftwarefoundation.org/$1"
+      "replacement": "/_site/$1"
     }
   ],
+  "projectBaseUrl": "/__w/hsf.github.io/"
   "timeout": "20s",
   "retryOn429": true,
   "retryCount": 5,
