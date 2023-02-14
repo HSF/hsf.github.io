@@ -24,7 +24,7 @@ We are aiming for a specific audience and hence our central vision is to work to
 
 As a central place to collaborate, we have the [hsf-training github organization](https://github.com/hsf-training) as central repository to collect and host different software training modules.
 
-## Further reads
+## Additional material
 
 * [explanation of the different roles in a training event]({{ site.baseurl }}/training/educators.html)
 * [how to organize a successful workshop]({{ site.baseurl }}/training/howto-event.html)
