@@ -26,11 +26,11 @@ well-defined set of problems.
 
 ## Conveners 
 
-- Allison Hall, CMS and FNAL
-- Stephan Hageboeck, ATLAS and CERN
 - Nicola Skidmore, LHCb and University of Manchester
+- Alexander Held, ATLAS and University of Wisconsin–Madison
+- Nick Smith, CMS and Fermilab
 
-Contact the [convenors by email](mailto:ahall@fnal.gov,stephan.hageboeck@cern.ch,nicola.skidmore@cern.ch) <!-- markdown-link-check-disable-line -->
+Contact the [convenors by email](mailto:nicola.skidmore@cern.ch,alexander.held@cern.ch,nick.smith@cern.ch) <!-- markdown-link-check-disable-line -->
 
 ### Former Convenors
 
@@ -39,3 +39,5 @@ Contact the [convenors by email](mailto:ahall@fnal.gov,stephan.hageboeck@cern.ch
 - Paul Laycock (Belle II), 2019-2020
 - Chris Burr (LHCb), 2020
 - TJ Khoo (ATLAS), 2020-2021
+- Allison Hall (CMS) 2021-2022
+- Stephan Hageboeck (ATLAS) 2021-2022
