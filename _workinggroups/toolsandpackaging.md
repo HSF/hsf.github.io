@@ -60,11 +60,12 @@ Documentation for these *test drive* setups is in the group's
 
 The group is currently coordinated by:
 
-- Alaettin Serhan Mete (ATLAS and ANL)
-- Marc Paterno (DUNE and Fermilab)
-- Valentin Volkl (FCC and CERN)
 
-All the coordinators can be reached [by email](mailto:serhanmete@gmail.com,paterno@fnal.gov,valentin.volkl@cern.ch). <!-- markdown-link-check-disable-line -->
+- Valentin Volkl (FCC and CERN)
+- Patrick Gartung (Fermilab)
+- Henry Schreiner (IRIS-HEP / Princeton)
+
+All the coordinators can be reached [by email](mailto:henryschreineriii@gmail.com,gartung@fnal.gov,valentin.volkl@cern.ch). <!-- markdown-link-check-disable-line -->
 
 ### Activities
 
@@ -80,3 +81,5 @@ All the coordinators can be reached [by email](mailto:serhanmete@gmail.com,pater
 - Martin Ritter (Belle II), 2018-2020
 - Giulio Eulisse (ALICE), 2018
 - Mircho Rozodov (CMS), 2021
+- Alaettin Serhan Mete (ATLAS and ANL), 2021-2022
+- Marc Paterno (DUNE and Fermilab), 2021-2022
