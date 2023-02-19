@@ -32,7 +32,7 @@ By the end of GSoC’23 we expect that the student has developed the necessary c
 
 ## Evaluation task
 
-Interested students please contact Mario and Martin directly for the evaluation, which includes setting up the Rucio development environment using the Kubernetes & Docker-based tutorial. Then, a low-difficulty development task will have to be implemented and the according pull request will have to be submitted. The pull request must pass the CI/CD pipeline.
+Interested students should contact Mario and Martin directly for the evaluation, which includes setting up the Rucio development environment using the Kubernetes & Docker-based tutorials. Then, a low-difficulty development task will have to be implemented, and the corresponding pull request will have to be submitted. The pull request must pass the CI/CD pipeline.
 
 ## Requirements
 
