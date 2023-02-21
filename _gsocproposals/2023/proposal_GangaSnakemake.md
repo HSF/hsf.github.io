@@ -19,13 +19,13 @@ The large scale processing of data is often only one part of a long processing c
 ## Task ideas
  * Explore the relative benfits of interfacing Ganga with snakemake using the [foreign workflow management system](https://snakemake.readthedocs.io/en/stable/snakefiles/foreign_wms.html) versus creating a new [cloud execution backend](https://snakemake.readthedocs.io/en/stable/project_info/contributing.html#contributing-a-new-cluster-or-cloud-execution-backend).
  * Modify Ganga to work in a mode where it easily act as a client for snakemake.
- * Implement intelligent code in Ganga that can ensure that intermittant failures in the processing are recovered from in a grceful way.
+ * Implement intelligent code in Ganga that can ensure that intermittent failures in the processing are recovered from in a grceful way.
  * Develop continuous integration tests that can ensure that the integration with snakemake is always functional.
 
 ## Expected results
 For the scientific users of Ganga, they will be able to integrate their large scale data processing into their overall snakemake workflow.
 
-As a student, you will gain experience with the challenges of large scale computing where some tasks of a large processing chain might take several days to process, have intermittant failures and have thousands of task processing in parallel. You will work as part of a small team that carries out the developments and support for Ganga.
+As a student, you will gain experience with the challenges of large scale computing where some tasks of a large processing chain might take several days to process, have intermittent failures and have thousands of task processing in parallel. You will work as part of a small team that carries out the developments and support for Ganga.
 
 ## Evaluation Task
 Interested students please contact Ulrik (see contact below) to ask questions and for an evaluation task.
