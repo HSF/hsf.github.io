@@ -2,9 +2,10 @@
 title: "Season of Docs"
 author: "Andrei Gheata"
 layout: default
+current_year: 2022
 ---
 
-# ![CERN]({{ site.baseurl }}/images/CERN-HSF-GSdocs-logo.png){:height="100px"} Season of Docs 2020
+# ![CERN]({{ site.baseurl }}/images/CERN-HSF-GSdocs-logo.png){:height="100px"} Season of Docs {{page.current_year}}
 
 ## Introduction
 
@@ -24,12 +25,7 @@ To answer these questions, particle physicists build software to simulate and an
 
 Since 2011, CERN has participated in other Google initiatives such as Google Summer of Code (GSoC), first as a small organization (CERN-SFT) and later as an umbrella organization (CERN-HSF) to involve the high-energy physics community. Given the good results in the past under the GSoC program, CERN-HSF is eager to participate in this year and future editions of Season of Docs.
 
-
-## Season of Docs 2020
-
-In 2020 CERN-HSF participated as an umbrella organization, project proposals are listed [below](#projects-in-2020).
-
-### Blogs from participants
+### Blogs from previous participants
 
 Technical writer [blogs]({{ site.baseurl }}/gsdocs/2020/blogs.html)
 
@@ -37,27 +33,37 @@ Technical writer [blogs]({{ site.baseurl }}/gsdocs/2020/blogs.html)
 
 For candidate technical writers interested in our project proposals, please take your time to first read them thoroughly and visit the links they advertise. In case the content attracts your interest and you have ideas on how you may contribute, contact by mail directly the mentors listed at the end of each proposal. Please introduce yourself and attach your curriculum, which must contain references to some of your notable technical writing contributions. Note that all our projects require some previous experience in this area.
 
+<!---
 ### For HSF projects and mentors
 
-Detailed instructions for mentors and organizations on how to apply, including links to other relevant Season of Docs resources are [available here]({{ site.baseurl }}/gsdocs/guideline.html). Please use the administrators contact at the bottom of this page (not the general to ask us any questions concerning your application.
+ Detailed instructions for mentors and organizations on how to apply, including links to other relevant Season of Docs resources are [available here]({{ site.baseurl }}/gsdocs/guideline.html). Please use the administrators contact at the bottom of this page (not the general to ask us any questions concerning your application.
+-->
 
-## Projects in 2020
+## Our {{page.current_year}} Project
 
-{% assign current_year = "2020" %}
-{% include gsdocs_project_list.ext year=current_year %}
+{% assign sorted_proposals = site.gsdocs-proposals | sort: 'title' %}
+{% for proposal in sorted_proposals %}{% capture u_proposal_org %}{{ organization | upcase }}{% endcapture %}
+{%- assign strings = proposal.url | split: '/' -%}
+{%- assign proposal_year = strings[2] | plus: 0 -%}
+{%- if proposal_year == page.current_year %}
+* [ {{ proposal.title }} ]( {{ proposal.url }} ) 
+{%- endif -%}
+{% endfor %}
 
-## Participating Organizations in 2020
+###  {{page.current_year}} Mentors (Name, Email, Org)
 
-{% include gsdocs_organization_list.ext year=current_year %}
+* David Lange [David.Lange@cern.ch](mailto:David.Lange@cern.ch) Princeton University
+* Vassil Vassilev [Vassil.Vassilev@cern.ch](mailto:Vassil.Vassilev@cern.ch) Princeton University
+* Andy Buckley [andy.buckley@cern.ch](mailto:andy.buckley@cern.ch) University of Glasgow
 
-## Summary
+<!---
+We have one project, so just remove the indirection for {{page.current_year}}
+[HSF GSoD Projects]({{ site.baseurl }}/gsdocs/2022/summary.html)
 
-[Full list of Proposal Ideas]({{ site.baseurl }}/gsdocs/2020/summary.html)
-
-[Full list of Mentors]({{ site.baseurl }}/gsdocs/2020/mentors.html)
-
+[Full list of Mentors]({{ site.baseurl }}/gsdocs/2022/mentors.html)
+ -->
 ---
 
-*HSF Season of Docs Administrators*: Andrei Gheata, Antoine Pérus and Xavier Valls.
+*HSF Season of Docs Administrators*: David Lange.
 
-[Contact administrators](mailto:hsf-gsdocs-admin@googlegroups.com) / [General e-mail for mentors](mailto:hep-software-foundation-google-season-of-docs@googlegroups.com)
+[Contact administrators](mailto:david.lange@cern.ch) / [General e-mail for mentors](mailto:hsf-gsod-mentors-{{page.current_year}}@cern.ch)

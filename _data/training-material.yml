@@ -1,10 +1,26 @@
 # Please keep this file in reverse chronological order:
 # Newest things go on top!
+- title: HSF / IRIS-HEP Training Activities (Coordinated Ecosystems Workshop)
+  data: 2022-11-7
+  url: https://indico.cern.ch/event/1203733/timetable/#33-hsf-iris-hep-training-activ
+  type: talk
+- title: Training Challenge (IRIS-HEP retreat)
+  url: https://indico.cern.ch/event/1196111/timetable/#21-training-challenge
+  type: talk
+  date: 2022-10-12
+- title: 'Teaching Python the Sustainable Way: Lessons Learned at HSF Training (pyHEP 22)'
+  url: https://indico.cern.ch/event/1150631/timetable/#38-teaching-python-the-sustain
+  type: talk
+  date: 2022-09-12
+- title: Sustainable Software Training Delivery at the HEP Software Foundation
+  url: https://indico.cern.ch/event/1160140/contributions/5014539/
+  type: talk
+  date: 2022-09-05
 - title: Software Training in HEP
   date: 2021-02-28
   url: https://arxiv.org/abs/2103.00659
   type: paper
-  note: Submitted to CSBS.
+  note: Published in CSBS
 - title: Software Training and Sustainable HEP
   date: 2021-06-29
   url: https://indico.cern.ch/event/1004432/contributions/4377762/

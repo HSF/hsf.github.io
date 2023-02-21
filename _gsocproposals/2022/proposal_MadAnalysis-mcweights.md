@@ -1,7 +1,7 @@
 ---
 title: MadAnalysis 5 - Integration of theoretical uncertainty calculation with multiweight integration
 layout: gsoc_proposal
-project: MadAnalysis 5
+project: MadAnalysis5
 year: 2022
 difficulty: medium
 duration: 350

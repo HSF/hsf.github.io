@@ -5,7 +5,7 @@ The first year is hard coded here. -->
 {% assign firstyear = 2019 %}
 {% assign currentyear = site.time | date: '%Y' %}
 {% for loopyear in (firstyear..currentyear) reversed %}
-<h3> {{ loopyear }} </h3>
+<h3 id="{{ loopyear }}"> {{ loopyear }} </h3>
 
 <!-- Now we loop through the educators, sorted by their full names and
 pick out the ones who trained in $loopyear.
@@ -14,11 +14,14 @@ github.com.com/carpentries/carpentries.org/gh-pages/_includes/community_profiles
 We need to keep track of how many educators are skipped in order to have the
 proper index for the table column. -->
 {% assign skipped = 0 %}
+{% assign educators_added = false %}
 {% for person in site.profiles| sort:"title" %}
-{% assign nroles = person.training_roles.size %}
-{% unless person.training_years contains loopyear and nroles >= 1 %}
+{% unless person.training_years contains loopyear %}
 {% assign skipped = skipped | plus: -1 %}
 {% continue %}
+
+{% else %}
+{% assign educators_added = true %}
 {% endunless %}
 
 {% assign column = forloop.index | plus: skipped | modulo: 4 %}
@@ -44,9 +47,8 @@ proper index for the table column. -->
 
 {% endfor %}
 
-{% unless column == 0 %}
+{% unless column == 0 or educators_added == false %}
 <!-- The last </div> never happened, because we ended short of a full last column. -->
-<!-- Small bug: If there is no educator for a whole year, then this will still get displayed.... -->
 </div>
 {% endunless %}
 {% endfor %}

@@ -3,8 +3,11 @@ title: Giordon Stark
 country: US
 training_roles:
 - instructor
+- author
+- mentor
 training_years:
 - 2020
+- 2023
 github: kratsg
 gravatar: null
 homepage: https://giordonstark.com/

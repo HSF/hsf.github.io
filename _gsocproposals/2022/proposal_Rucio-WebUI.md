@@ -58,7 +58,7 @@ By the end of GSoC'22 we expect a Rucio WebUI ReactJS application that
 
 ## Mentors
  * **[Mayank Sharma](mailto:mayank.sharma@cern.ch)**
- * [Cedric Sefron](mailto:cedric.sefron@cern.ch)
+ * [Cedric Serfon](mailto:cedric.serfon@cern.ch)
  * [Martin Barisits](mailto:martin.barisits@cern.ch)
 
 ## Links

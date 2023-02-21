@@ -5,12 +5,12 @@
   videos: ''
   webpage: http://swcarpentry.github.io/git-novice
   id: git
-- description: 'Working with branches and more.'
+- description: 'Learn to work with branches and more with this interactive webpage.'
   name: Advanced git
-  repository: https://github.com/hsf-training/hsf-training-advanced-git-webpage/
-  status: alpha
+  repository: https://github.com/pcottle/learnGitBranching
+  status: stable
   videos: ''
-  webpage: ''
+  webpage: https://learngitbranching.js.org/?locale=en_US
   id: advancedgit
 - description: 'Get started with an incredibly popular programming language.'
   name: Programming with python
@@ -23,16 +23,9 @@
   name: HEP C++ Course
   repository: https://github.com/hsf-training/cpluspluscourse
   status: stable
-  videos: https://indico.cern.ch/event/979067/
-  webpage: https://indico.cern.ch/event/979067/
+  videos: https://github.com/hsf-training/cpluspluscourse#-video-recordings--events
+  webpage: https://github.com/hsf-training/cpluspluscourse#-getting-the-latest-pdf
   id: hepcpp
-- description: 'A brand new C++ course that is currently in development.'
-  name: Basic Modern C++
-  repository: https://github.com/hsf-training/hsf-training-cpp-webpage
-  status: alpha
-  videos: ''
-  webpage: https://hsf-training.github.io/hsf-training-cpp-webpage
-  id: moderncpp
 - description: 'Building code is hard. <code>CMake</code> makes it easier.'
   name: 'Build systems:  <code>cmake</code>'
   repository: https://github.com/hsf-training/hsf-training-cmake-webpage
@@ -49,10 +42,10 @@
   id: grid
 - description: 'The most famous data analysis framework used in HEP.'
   name: <code>ROOT</code>
-  repository: ''
-  status: alpha
+  repository: 'https://github.com/root-project/software-carpentry'
+  status: stable
   videos: ''
-  webpage: ''
+  webpage: 'https://github.com/root-project/software-carpentry'
   id: root
 - description: Reading and writing ROOT files without having to install ROOT.
   name: <code>uproot</code>
@@ -79,7 +72,7 @@
 - description: 'Make science prettier with beautiful plots!'
   name: Matplotlib for HEP
   repository: https://github.com/hsf-training/hsf-training-matplotlib
-  status: alpha
+  status: beta
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-matplotlib/
   id: matplotlib
@@ -171,3 +164,31 @@
   videos: ''
   webpage: https://swcarpentry.github.io/shell-novice/
   id: unix
+- description: A collection of packages for particle physics analyses in Python.
+  name: Scikit-HEP
+  status: stable
+  videos: ''
+  webpage: https://hsf-training.github.io/hsf-training-scikit-hep-webpage/
+  id: scikithep
+  repository: https://github.com/hsf-training/hsf-training-scikit-hep-webpage
+- description: Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>.
+  name: Singularity
+  status: beta
+  videos: ''
+  webpage: https://hsf-training.github.io/hsf-training-singularity-webpage/
+  id: singularity
+  repository: https://github.com/hsf-training/hsf-training-singularity-webpage
+- name: <code>UnROOT</code>
+  description: Open <code>ROOT</code> files in <a href="https://julialang.org/">Julia</a>!
+  id: unroot
+  status: beta
+  videos: ""
+  webpage: "https://moelf.github.io/HSF_Julia_Tutorial/dev/notebooks/unroot_tutorial/"
+  repository: "https://github.com/Moelf/HSF_Julia_Tutorial"
+- description: Advanced bits of python (testing, debugging, logging, and more)
+  id: levelupyourpython
+  name: Level up your python
+  status: stable
+  videos: ''
+  webpage: https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html
+  repository: https://github.com/henryiii/level-up-your-python

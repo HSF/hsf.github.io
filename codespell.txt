@@ -11,3 +11,6 @@ lightening
 arithmetics
 espace
 commends
+ro
+parth
+compres

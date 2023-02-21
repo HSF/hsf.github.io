@@ -1,5 +1,5 @@
 ---
-project: MadAnalysis 5
+project: MadAnalysis5
 layout: default
 logo: MadAnalysis5-logo.png
 description: |
