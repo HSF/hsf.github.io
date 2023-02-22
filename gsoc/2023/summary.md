@@ -1,8 +1,10 @@
 ---
-title: Summary of GSoC 2023 Projects and Supervisors
+title: Summary of GSoC 2023 Proposals
 layout: plain
 year: 2023
 ---
+
+[Click here for an overview of the GSoC program at HSF.]({{ site.baseurl }}/activities/gsoc.html)
 
 ## Full List of Proposals
 
