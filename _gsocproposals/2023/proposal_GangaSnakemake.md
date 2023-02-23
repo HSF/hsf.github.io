@@ -1,11 +1,11 @@
 ---
 project: Ganga
-title: A concurrency model for the monitoring in Ganga
+title: Interfacing Ganga with the Snakemake system
 layout: gsoc_proposal
 year: 2023
 difficulty: medium
 duration: 350
-mentor_avail: June-August
+mentor_avail: May-November
 organization:
   - ImperialCollege
   - MonashUniversity
