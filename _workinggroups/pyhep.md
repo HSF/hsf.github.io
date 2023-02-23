@@ -66,11 +66,11 @@ The advert and details on these workshops are given below.
 
 This year 2 events will be held:
 
-PyHEP 2023, on October 9‒12, is a continuation of the free, online, workshop series that has been bringing
-Python developers and physicists together these past five years.
+PyHEP 2023, on October 9‒12, is a continuation of the free, online, workshop series, which has been bringing
+Python HEP developers and physicists together these past five years.
 
-PyHEP.dev 2023 is new this year, intended for Python HEP software developers to plan convergent roadmaps for the following year.
-It will be held in person at Princeton University, Princeton, New Jersey (USA), on July 25‒28.
+PyHEP.dev 2023 is new this year, intended for Python HEP software developers to plan a coherent roadmap and make priorities for the upcoming year.
+It will be held in-person at Princeton University, Princeton, New Jersey (USA), on July 25‒28.
 It will include presentations by participants, but the focus will be on birds-of-a-feather style group discussions.
 Attendance is limited to 45 participants.
 
