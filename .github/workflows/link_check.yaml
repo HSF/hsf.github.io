@@ -21,6 +21,6 @@ jobs:
         uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
           config-file: '.github/config/mdcheck.json'
-          check-modified-files-only: 'yes'
+          check-modified-files-only: 'no'
           use-verbose-mode: 'yes'
           base-branch: 'main'
