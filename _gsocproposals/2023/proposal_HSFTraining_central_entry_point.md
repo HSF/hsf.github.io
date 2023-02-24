@@ -46,4 +46,5 @@ A deployed training center webpage with basic filters. See the "core goals" sect
 ## Mentors
 
 * Kilian Lieret [kl5675@princeton.edu](mailto:kl5675@princeton.edu) Princeton University
-* TBD
+
+Please include the mailing list [hsf-training-center-gsoc@googlegroups.com](mailto:hsf-training-center-gsoc@googlegroups.com) in CC.
