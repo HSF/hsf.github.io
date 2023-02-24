@@ -47,4 +47,4 @@ A deployed training center webpage with basic filters. See the "core goals" sect
 
 * Kilian Lieret [kl5675@princeton.edu](mailto:kl5675@princeton.edu) Princeton University
 
-Please include the mailing list [hsf-training-center-gsoc@googlegroups.com](mailto:hsf-training-center-gsoc@googlegroups.com) in CC.
+For this project only, please include the mailing list [hsf-training-center-gsoc@googlegroups.com](mailto:hsf-training-center-gsoc@googlegroups.com) in CC.
