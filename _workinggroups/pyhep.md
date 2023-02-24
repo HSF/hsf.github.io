@@ -30,7 +30,7 @@ and by means of the following communication channels:
 Extra Gitter channels have been created by and for the benefit of the community:
 
 * [PyHEP-newcomers](https://gitter.im/HSF/PyHEP-newcomers){:target="_pyhep_newcomers_gitter_channel} for newcomers support (very low entry threshold).
-* [PyHEP-fitting](https://gitter.im/HSF/PyHEP-fitting){:target="_pyhep_fitting_gitter_channel} for 
+* [PyHEP-fitting](https://gitter.im/HSF/PyHEP-fitting){:target="_pyhep_fitting_gitter_channel} for
 discussions around fitting.
 * [PyHEP-histogramming](https://gitter.im/HSF/PyHEP-histogramming){:target="_pyhep_histogramming_gitter_channel} for discussions around histogramming.
 * [mpl-hep](https://gitter.im/HSF/mpl-hep){:target="_mpl_hep_gitter_channel} for Matplotlib proposals related to Particle Physics.
@@ -42,7 +42,7 @@ discussions around fitting.
   but with a spirit adapted to our needs: presentations with a focus on libraries relevant to data analysis in Particle Physics, either from the Data Science domain or HEP domain specific.
 * **Annual PyHEP workshops**, see details below.
 
-The meetings are since 2020 recorded and all videos are available as [HSF YouTube playlists](https://www.youtube.com/c/HEPSoftwareFoundation/playlists). 
+The meetings are since 2020 recorded and all videos are available as [HSF YouTube playlists](https://www.youtube.com/c/HEPSoftwareFoundation/playlists).
 
 # PyHEP Series of Workshops
 
@@ -50,20 +50,43 @@ The **PyHEP workshops** are a series of workshops initiated by Eduardo Rodrigues
 with the aim to provide an environment to discuss and promote the usage of Python in the HEP community at large.
 
 {:.table .table-hover .table-condensed .table-striped}
-| *Workshop* | *Location*             | *Date*                | *Agenda link*                                                                 |
-| ---------- | ---------------------- | ----------------------| ----------------------------------------------------------------------------- |
-| PyHEP 2022 | Virtual workshop       | September 12-16, 2022 | [Indico](https://indico.cern.ch/e/PyHEP2022){:target="_pyhep2022_indico"}     |
-| PyHEP 2021 | Virtual workshop       | July 5-9, 2021        | [Indico](https://indico.cern.ch/e/PyHEP2021){:target="_pyhep2021_indico"}     |
-| PyHEP 2020 | Virtual workshop       | July 13-17, 2020      | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}     |
-| PyHEP 2019 | Abingdon, U.K.         | October 16-18, 2019   | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}     |
-| PyHEP 2018 | Sofia, Bulgaria        | July 7-8, 2018        | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}   |
+| *Workshop*     | *Location*             | *Date*                | *Agenda link*                                                                         |
+| -------------- | ---------------------- | ----------------------| ------------------------------------------------------------------------------------- |
+| PyHEP 2023     | Online workshop        | October 9-12, 2023    | [Indico](https://indico.cern.ch/e/PyHEP2023){:target="_pyhep2023_indico"}             |
+| PyHEP 2023.dev | Princeton, NJ, USA     | July 25-28, 2023      | [Indico](https://indico.cern.ch/e/PyHEP2023.dev){:target="_pyhep2023_dev_indico"}     |
+| PyHEP 2022     | Online workshop        | September 12-16, 2022 | [Indico](https://indico.cern.ch/e/PyHEP2022){:target="_pyhep2022_indico"}             |
+| PyHEP 2021     | Online workshop        | July 5-9, 2021        | [Indico](https://indico.cern.ch/e/PyHEP2021){:target="_pyhep2021_indico"}             |
+| PyHEP 2020     | Online workshop        | July 13-17, 2020      | [Indico](https://indico.cern.ch/e/PyHEP2020){:target="_pyhep2020_indico"}             |
+| PyHEP 2019     | Abingdon, U.K.         | October 16-18, 2019   | [Indico](https://indico.cern.ch/e/PyHEP2019){:target="_pyhep2019_indico"}             |
+| PyHEP 2018     | Sofia, Bulgaria        | July 7-8, 2018        | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}           |
 
 The advert and details on these workshops are given below.
+
+## PyHEP 2023 & PyHEP.dev 2023
+
+This year 2 events will be held:
+
+PyHEP 2023, on October 9‒12, is a continuation of the free, online, workshop series, which has been bringing
+Python HEP developers and physicists together these past five years.
+
+PyHEP.dev 2023 is new this year, intended for Python HEP software developers to plan a coherent roadmap and make priorities for the upcoming year.
+It will be held in-person at Princeton University, Princeton, New Jersey (USA), on July 25‒28.
+It will include presentations by participants, but the focus will be on birds-of-a-feather style group discussions.
+Attendance is limited to 45 participants.
+
+### Organising Committee
+
+Eduardo Rodrigues - University of Liverpool (Chair)<br>
+Graeme A. Stewart - CERN<br>
+Jim Pivarski - Princeton University<br>
+Matthew Feickert - University of Wisconsin-Madison<br>
+Nikolai Hartmann - Ludwig-Maximilians-Universität Munich<br>
+Oksana Shadura - University of Nebraska-Lincoln
 
 ## PyHEP 2022
 
 PyHEP 2022 will be held as a *virtual* workshop on 12-16 September 2022.
-The workshop will be a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and inform the future evolution of 
+The workshop will be a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and inform the future evolution of
 community activities. There will be ample time for discussion.
 
 PyHEP 2022 [agenda](https://indico.cern.ch/e/PyHEP2022){:target="_pyhep2022_indico"}
