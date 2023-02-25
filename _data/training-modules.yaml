@@ -174,7 +174,7 @@
 - description: Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>.
   name: Singularity
   status: beta
-  videos: ''
+  videos: 'https://www.youtube.com/watch?v=g0cCErlveiI&list=PLKZ9c4ONm-VkxWW98Gcn9H6WwykMiqtnF'
   webpage: https://hsf-training.github.io/hsf-training-singularity-webpage/
   id: singularity
   repository: https://github.com/hsf-training/hsf-training-singularity-webpage
