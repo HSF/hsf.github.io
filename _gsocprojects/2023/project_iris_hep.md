@@ -1,5 +1,5 @@
 ---
-project: iris-hep
+project: iris_hep
 title: IRIS-HEP
 layout: default
 logo: iris-hep-logo.png
