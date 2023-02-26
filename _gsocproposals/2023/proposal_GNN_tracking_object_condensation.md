@@ -1,7 +1,7 @@
 ---
 title: Graph Neural Networks for Charged Particle Tracking
 layout: gsoc_proposal
-project: iris-hep
+project: iris_hep
 year: 2023
 organization:
 - princeton
