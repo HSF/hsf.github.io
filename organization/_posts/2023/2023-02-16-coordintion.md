@@ -45,7 +45,7 @@ Liz and Graeme were in discussions with the LHCC Referees (and the LHC Computing
 
 The referees also indicated they would like to focus on *Analysis Facilities* in *June*, which is excellent timing given the pre-CHEP workshop.
 
-The WLCG 6-monthly report is due for 20 March. Liz and Graeme can prepare 1/2 page on HSF activities, but if you would like us to highlight anything in particular, please let us know. (Ref: [inputs from 2022H2](https://wlcg-docs.web.cern.ch/reporting/status_progress/Quarterly-Reports/2022/2022H2/Software%202022-H2.pdf).)
+The WLCG 6-monthly report is due for 20 March. Liz and Graeme can prepare 1/2 page on HSF activities, but if you would like us to highlight anything in particular, please let us know. (Ref: [inputs from 2022H2](https://wlcg-docs.web.cern.ch/reporting/status_progress/Quarterly-Reports/2022/2022H2/SOFTWARE-2022H2.pdf).)
 
 ## Working Group Updates
 
