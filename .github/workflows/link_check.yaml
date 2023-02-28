@@ -21,3 +21,4 @@ jobs:
           config-file: '.github/config/mdcheck.json'
           check-modified-files-only: 'yes'
           use-verbose-mode: 'yes'
+          base-branch: 'main'
