@@ -94,6 +94,26 @@ Example outcomes for area 2:
 * Kilian Lieret [kl5675@princeton.edu](mailto:kl5675@princeton.edu) Princeton University
 * Gage deZoort [jdezoort@princeton.edu](mailto:jdezoort@princeton.edu) Princeton University
 
+Please see the instructions below for the phase 1 application.
+
+## Phase 1 Application
+
+Please send us your CV and motivation for this project.
+
+We also have a qualification task to make a fair selection of candidates. It should take you no more than 1-2 days to complete (depending on prior knowledge). 
+
+**For fairness, you will have 48h to send us your solutions after you receive the instructions.** 
+
+We understand that your schedule might be busy, so we proceed as follows:
+
+1. Send us a start date and time **in Eastern Time zone (EST)**. Please let us know **1-2 working days in advance** to ensure we can schedule the email in time. Your submission should be completed by Mar 12, so the **latest start date is Mar 10**.
+2. We will send a quick confirmation email within 1-2 working days.
+3. The email with the qualification task instructions will be sent at the time specified in step 1.
+4. You work for 1-2 days and submit your results (we will take into account if you submit after 1 or 2 days)
+5. We will confirm receiving your solutions within 1-2 working days.
+6. We will announce the result of this phase 1 selection on Mar 14.
+
+
 [SLURM]: https://slurm.schedmd.com/overview.html
 [raytune]: https://docs.ray.io/en/latest/tune/index.html
 [issues]: https://github.com/gnn-tracking/gnn_tracking/issues
