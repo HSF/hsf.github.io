@@ -100,16 +100,16 @@ Please see the instructions below for the phase 1 application.
 
 Please send us your CV and motivation for this project.
 
-We also have a qualification task to make a fair selection of candidates. It should take you no more than 1-2 days to complete (depending on prior knowledge). 
+We also have a qualification task to make a fair selection of candidates. It should take you no more than 1-2 days to complete (depending on prior knowledge).
 
-**For fairness, you will have 48h to send us your solutions after you receive the instructions.** 
+**For fairness, you will have 48h to send us your solutions after you receive the instructions.**
 
 We understand that your schedule might be busy, so we proceed as follows:
 
 1. Send us a start date and time **in Eastern Time zone (EST)**. Please let us know **1-2 working days in advance** to ensure we can schedule the email in time. Your submission should be completed by Mar 12, so the **latest start date is Mar 10**.
 2. We will send a quick confirmation email within 1-2 working days.
 3. The email with the qualification task instructions will be sent at the time specified in step 1.
-4. You work for 1-2 days and submit your results (we will take into account if you submit after 1 or 2 days)
+4. You work for 1-2 days and submit your results (submissions after 1 or 2 days will be evaluated separately, so that the speed of completion is taken into account).
 5. We will confirm receiving your solutions within 1-2 working days.
 6. We will announce the result of this phase 1 selection on Mar 14.
 
