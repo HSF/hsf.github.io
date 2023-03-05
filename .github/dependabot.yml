@@ -5,3 +5,8 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+  # Maintain dependencies for Ruby Gems
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
