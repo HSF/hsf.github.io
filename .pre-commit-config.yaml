@@ -8,7 +8,7 @@ repos:
     rev: 'v2.2.2'
     hooks:
     -   id: codespell
-        args: ["-I", "codespell.txt"]
+        args: ["-I", ".github/config/codespell.txt"]
         types_or: ["markdown"]
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
