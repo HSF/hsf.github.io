@@ -192,3 +192,10 @@
   videos: ''
   webpage: https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html
   repository: https://github.com/henryiii/level-up-your-python
+- description: Run containerised data analysis pipelines on remote compute clouds.
+  id: reana
+  name: Reproducible analyses with REANA
+  status: beta
+  videos: ''
+  webpage: https://hsf-training.github.io/hsf-training-reana-webpage/
+  repository: https://github.com/hsf-training/hsf-training-reana-webpage
