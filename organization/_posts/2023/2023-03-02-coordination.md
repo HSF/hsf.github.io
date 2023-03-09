@@ -73,7 +73,7 @@ We could certainly do with re-advertising the lists as part of a re-engagement d
 
 *Reminder:* Please try and book meetings in Indico at least 2 weeks in advance!
 
-That way they go into the calendar early and they will be included in the weekly email annoucement that goes to HSF Forum.
+That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
 
 ### Data Analysis
 
@@ -102,18 +102,12 @@ Are these courses local or residential? Need to explore resources and rediscuss 
 
 If you want stay informed about upcoming courses please sign up at <https://indico.cern.ch/e/HepCppInfo>. Announcements of new courses will be sent to registrants. 
 
-### Software Tools and Packaging
-
-
 ### Detector Simulation
 
 In the process of organizing sessions on:
 - Geant4 cut tuning as done by experiments
 - Overview of external (not Geant4) physics model developments
 - Geant4 hadronic physics models and connections with event generators
-
-### Reconstruction and Software Trigger
-
 
 ### PyHEP
 
