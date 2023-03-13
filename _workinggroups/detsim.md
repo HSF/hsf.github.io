@@ -21,9 +21,9 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 
 ## Conveners
 
-- Ben Morgan (ATLAS, Geant4, University of Warwick)
-- Kevin Pedro (CMS, Fermilab)
+- John Chapman (ATLAS, University of Cambridge)
 - Krzysztof Genser (Mu2e, Geant4, Fermilab)
+- Sandro Wenzel (ALICE, CERN)
 
 [Email the conveners](mailto:Ben.Morgan@warwick.ac.uk,kpedro88@gmail.com,genser@fnal.gov).
 
@@ -33,3 +33,5 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 - Gloria Corti (LHCb), 2019-2020
 - Philippe Canal (CMS), 2020
 - Witek Pokorski (Geant4), 2019-2020
+- Ben Morgan (ATLAS, Geant4, University of Warwick), 2021-2022
+- Kevin Pedro (CMS, Fermilab), 2021-2022
