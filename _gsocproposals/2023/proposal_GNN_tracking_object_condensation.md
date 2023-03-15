@@ -98,6 +98,10 @@ Please see the instructions below for the phase 1 application.
 
 ## Phase 1 Application
 
+<div class="alert alert-warning" role="alert">
+  Phase 1 has concluded. Unfortunately, we do not take any applications anymore.
+</div>
+
 Please send us your CV and motivation for this project.
 
 We also have a qualification task to make a fair selection of candidates. It should take you no more than 1-2 days to complete (depending on prior knowledge).

@@ -54,7 +54,7 @@ Please see the instructions below for the phase 1 application.
 ## Phase 1 Application
 
 <div class="alert alert-warning" role="alert">
-  Please note that this project receives unusually many applications, so the competition will be strong, and it might make sense to consider other projects as well.
+  Phase 1 has concluded. Unfortunately, we do not take any applications anymore.
 </div>
 
 Please send us your CV and motivation for this project.
