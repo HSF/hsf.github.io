@@ -23,7 +23,7 @@ layout: plain
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Thomas Kuhr [Thomas.Kuhr@lmu.de](mailto:Thomas.Kuhr@lmu.de) LMU
 * Baidyanath Kundu [baidyanath.kundu@cern.ch](mailto:baidyanath.kundu@cern.ch) CompRes
-* Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
+ * Mario Lassnig [mario.lassnig@cern.ch](mailto:mario.lassnig@cern.ch) CERN
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
 * Kilian Lieret [kl5675@princeton.edu](mailto:kl5675@princeton.edu) Princeton
 * Jose Carlos Luna [jose.carlos.luna@cern.ch](mailto:jose.carlos.luna@cern.ch) CERN
@@ -36,6 +36,7 @@ layout: plain
 * Jonas Rembser[jonas.rembser@cern.ch](mailto:jonas.rembser@cern.ch) CERN
 * Andre Sailer [andre.philippe.sailer@cern.ch](mailto:andre.philippe.sailer@cern.ch) CERN
 * Dalila Salamani [dalila.salamani@cern.ch](mailto:dalila.salamani@cern.ch) CERN
+* Sanjiban Sengupta [sanjiban.sg@gmail.com](mailto:sanjiban.sg@gmail.com) CERN
 * Juraj Smiesko [juraj.smiesko@cern.ch](mailto:juraj.smiesko@cern.ch) CERN
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
