@@ -10,6 +10,9 @@ organization:
   - UNIGE
   - CERN
 ---
+<div class="alert alert-warning" role="alert">
+NOTE: This project is no longer accepting any further applications. We hope you find another suitable project elsewhere!
+</div>
 
 ## Description
 During proton collisions at the LHC, the FASER experiment records up to 1500 events per second using an open source data acquisition (DAQ) software framework developed at CERN. The DAQ software receives dedicated data fragments from subcomponents on the detector, packs them into a single event and writes completed events to file.
