@@ -21,7 +21,7 @@
   id: python
 - description: 'A full introduction to C++ based on a series of slides and exercises.'
   name: HEP C++ Course
-  repository: https://github.com/hsf-training/cpluspluscourse
+  repository: https://hepsoftwarefoundation.org/t/cpp
   status: stable
   videos: https://github.com/hsf-training/cpluspluscourse#-video-recordings--events
   webpage: https://github.com/hsf-training/cpluspluscourse#-getting-the-latest-pdf
@@ -31,7 +31,7 @@
   repository: https://github.com/hsf-training/hsf-training-cmake-webpage
   status: stable
   videos: ''
-  webpage: https://hsf-training.github.io/hsf-training-cmake-webpage/
+  webpage: https://hepsoftwarefoundation.org/t/cmake
   id: cmake
 - description: ''
   name: Distributed file systems and grid computing
@@ -71,7 +71,7 @@
   id: testingpython
 - description: 'Make science prettier with beautiful plots!'
   name: Matplotlib for HEP
-  repository: https://github.com/hsf-training/hsf-training-matplotlib
+  repository: https://hepsoftwarefoundation.org/t/mpl
   status: beta
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-matplotlib/
@@ -89,28 +89,21 @@
   repository: https://github.com/hsf-training/hsf-training-docker
   status: stable
   videos: https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj
-  webpage: https://hsf-training.github.io/hsf-training-docker/index.html
+  webpage: https://hepsoftwarefoundation.org/t/docker
   id: docker
-- description: E.g. <code>yadage</code> and <code>reana</code>
-  name: Workflows &amp; reproducibility
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: yadagereana
 - description: 'Get behind the buzzword and teach machines to work for you intelligently!'
   name: Machine learning
   repository: https://github.com/hsf-training/hsf-training-ml-webpage
   status: stable
   videos: https://www.youtube.com/playlist?list=PLKZ9c4ONm-VmHsMKImIDEMsZI1Vp0UY-Z
-  webpage: https://hsf-training.github.io/hsf-training-ml-webpage
+  webpage: https://hepsoftwarefoundation.org/t/ml
   id: ml
 - description: 'Speed up your machine learning using massive parallelization!'
   name: Machine learning on GPU
   repository: https://github.com/hsf-training/hsf-training-ml-gpu-webpage
   status: stable
   videos: https://www.youtube.com/playlist?list=PLKZ9c4ONm-VnfKk7XrVUa-V42lUdMrB6M
-  webpage: https://hsf-training.github.io/hsf-training-ml-gpu-webpage
+  webpage: https://hepsoftwarefoundation.org/t/ml-gpu
   id: gpuml
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and
     deployment</a> with <a href="https://about.gitlab.com/">gitlab</a>.
@@ -118,7 +111,7 @@
   repository: https://github.com/hsf-training/hsf-training-cicd
   status: stable
   videos: https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb
-  webpage: https://hsf-training.github.io/hsf-training-cicd/
+  webpage: https://hepsoftwarefoundation.org/t/cicd-gitlab
   id: cicd
 - description: <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and
     deployment</a> with <a href="https://github.com/features/actions">github actions</a>.
@@ -126,7 +119,7 @@
   repository: https://github.com/hsf-training/hsf-training-cicd-github
   status: stable
   videos: https://www.youtube.com/watch?v=-Xd5D6xKugk&list=PLKZ9c4ONm-Vl3kwsjrNRlPYNQFbPO2no4
-  webpage: https://hsf-training.github.io/hsf-training-cicd-github/
+  webpage: https://hepsoftwarefoundation.org/t/cicd-github
   id: cicdgithub
 - description: <code>sphinx</code>, <code>doxygen</code>, etc.
   name: Documentation
@@ -155,7 +148,7 @@
   repository: https://github.com/hsf-training/hsf-training-ssh-webpage/
   status: alpha
   videos: ''
-  webpage: https://hsf-training.github.io/hsf-training-ssh-webpage/
+  webpage: https://hepsoftwarefoundation.org/t/ssh
   id: ssh
 - description: A guide through the basics of the file systems and the shell.
   name: The UNIX Shell
@@ -168,7 +161,7 @@
   name: Scikit-HEP
   status: stable
   videos: ''
-  webpage: https://hsf-training.github.io/hsf-training-scikit-hep-webpage/
+  webpage: https://hepsoftwarefoundation.org/t/scikit-hep
   id: scikithep
   repository: https://github.com/hsf-training/hsf-training-scikit-hep-webpage
 - description: Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>.
@@ -198,4 +191,4 @@
   status: beta
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-reana-webpage/
-  repository: https://github.com/hsf-training/hsf-training-reana-webpage
+  repository: https://hepsoftwarefoundation.org/t/reana
