@@ -2,6 +2,13 @@
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
 - author: Kilian Lieret
+  date: 2023-08-07
+  deadline: 2023-04-17
+  end_date: 2023-08-11
+  source: https://osg-htc.org/user-school-2023/
+  tags: []
+  title: OSG User School 2023
+- author: Kilian Lieret
   date: 2023-03-06
   deadline: ''
   end_date: 2023-03-10
