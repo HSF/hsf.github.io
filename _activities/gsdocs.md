@@ -28,7 +28,7 @@ Since 2011, CERN has participated in other Google initiatives such as Google Sum
 ### Previous HSF Season of Docs Results 
 
   * 2020 Season of Docs Technical writer [blogs]({{ site.baseurl }}/gsdocs/2020/blogs.html)
-  * 2022 Season of Docs [summary](/gsdocs/2022/summary.pdf)
+  * 2022 Season of Docs [summary]({{ site.baseurl }}/gsdocs/2022/Outcome.pdf)
   
 ### For technical writers
 
