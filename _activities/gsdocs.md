@@ -47,7 +47,7 @@ For candidate technical writers interested in our project proposal, please take 
 
 ###  {{page.current_year}} Mentors (Name, Email, Org)
 
-* David Lange [Valentin.Volkl@cern.ch](mailto:Valentin.Volkl@cern.ch) CERN
+* Valentin Volkl [Valentin.Volkl@cern.ch](mailto:Valentin.Volkl@cern.ch) CERN
 * Jakob Blomer [Jakob.Blomer@cern.ch](mailto:Jakob.Blomer@cern.ch) CERN
 
 * HSF Season of Docs Administrators*: Valentin Volkl.
