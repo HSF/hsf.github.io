@@ -14,3 +14,7 @@ commends
 ro
 parth
 compres
+slac
+caf
+gage
+gauge
