@@ -18,7 +18,7 @@ and useful for HEP.
 ### Reference Presentations
 
 * See the slides that were presented at HSF Coordination meetings on [19 January](https://indico.cern.ch/event/1225007/),
-[2 February](https://indico.cern.ch/event/1225008/), [16 February](https://indico.cern.ch/event/1225009/) 
+[2 February](https://indico.cern.ch/event/1225008/), [16 February](https://indico.cern.ch/event/1225009/)
 and [30 March](https://indico.cern.ch/event/1225012/)
 
 ### Previous Plans
@@ -35,7 +35,7 @@ and [30 March](https://indico.cern.ch/event/1225012/)
   year by default).
 * The [Compute Accelerator Forum]({{ site.baseurl
   }}/meetings/compute-accelerator-forum.html), co-organised with SIDIS and
-  openlab, has established itself as a strong series of meetings with good turnout, 
+  openlab, has established itself as a strong series of meetings with good turnout,
   focusing on new compute architectures. We shall continue to find interesting topics to present.
   * As there is a significant cross-over with the WG activities in many places, we should
     consider joint organised meetings when appropriate
@@ -88,9 +88,9 @@ See below for PyHEP and Generators workshop ideas.
 * Targeting as always the broader audience of developers and physicists:
   * Idea of connecting Python users in HEP
 
-#### PyHEP Dev Workshop - New this year!
+#### PyHEP Dev Workshop
 
-* [In person workshop for Python package developers](https://indico.cern.ch/event/1234156) @ Princeton, USA
+* New this year: [In person workshop for Python package developers](https://indico.cern.ch/event/1234156) @ Princeton, USA
   * 25-29 July, at Princeton, aiming for ~40 people
 * *Idea to get developers getting their software products to work together as a coherent ecosystem*
 
@@ -201,7 +201,7 @@ separate indico agenda
   * Open data initiatives: Open data for reco studies (open thread by former conveners)
   * Biased triggering and missed physics:
     * Experiment TDAQ design and trigger/reco biases
-    * Strategies to “leave no stone unturned” 
+    * Strategies to “leave no stone unturned”
   * Sustainability: Impact, indicators, better practices
   * Focus on small/medium-sized experiments, e.g. Common DAQ/software frameworks
   * Lessons learned” from new/upgraded experiments after 1-2 years of data-taking
