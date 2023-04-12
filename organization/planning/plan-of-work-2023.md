@@ -206,7 +206,7 @@ separate indico agenda
   * Focus on small/medium-sized experiments, e.g. Common DAQ/software frameworks
   * Lessons learned” from new/upgraded experiments after 1-2 years of data-taking
 
-* Have a kick-off meeting in April (26?)
+* Have a [kick-off meeting](https://indico.cern.ch/event/1273894/) - confirmed for 26 April
   * Introduction to the group
     * Highlight differences & commonalities among experiments
     * WG as place where to discuss issues that someone else may have already solved
