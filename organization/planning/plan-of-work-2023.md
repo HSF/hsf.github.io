@@ -91,8 +91,8 @@ See below for PyHEP and Generators workshop ideas.
 #### PyHEP Dev Workshop
 
 * New this year: [In person workshop for Python package developers](https://indico.cern.ch/event/1234156) @ Princeton, USA
-  * 25-29 July, at Princeton, aiming for ~40 people
-* *Idea to get developers getting their software products to work together as a coherent ecosystem*
+  * 25-29 July, at Princeton, aiming for ~50 people
+* *Idea to get developers getting their software products to work together as a coherent ecosystem, and plan a coherent roadmap and make priorities for the upcoming year*
 
 #### Topical Meetings for 2023
 
@@ -102,7 +102,7 @@ See below for PyHEP and Generators workshop ideas.
   * To introduce users to new packages?
     * Now harder to find packages that are at a stage where there is a package that is on the verge of becoming mature
   * To connect to various working groups, analysis groups, experiments to connect users?
-  *Possible to have better overlap with training working group as well
+  * Possible to have better overlap with training working group as well
 
 ### Detector Simulation
 
