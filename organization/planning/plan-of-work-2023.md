@@ -195,15 +195,11 @@ separate indico agenda
 
 ### Reconstruction and Software Triggers
 
-* Hot topics?
-  * 2021 survey showed 4D reco and heterogeneous computing - still relevant today
-* New topics
-  * Open data initiatives: Open data for reco studies (open thread by former conveners)
+* Topics
   * Biased triggering and missed physics:
     * Experiment TDAQ design and trigger/reco biases
     * Strategies to “leave no stone unturned”
   * Sustainability: Impact, indicators, better practices
-  * Focus on small/medium-sized experiments, e.g. Common DAQ/software frameworks
   * Lessons learned” from new/upgraded experiments after 1-2 years of data-taking
 
 * Have a [kick-off meeting](https://indico.cern.ch/event/1273894/) - confirmed for 26 April
