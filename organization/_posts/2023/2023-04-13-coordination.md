@@ -24,7 +24,7 @@ We got some LHC experiment feedback - see [presentation](https://indico.cern.ch/
 
 - Nick Styles: HSF is useful, but ATLAS concerns that WG interests not well aligned with experiments
   - Valid concern, though HSF is wider than LHC experiments (feedback on important topics **always** welcomed)
-- Pere Mato: feedback was via SFT and we wanted to know if the SFT effort that goes to the HSF was appreciated
+- Pere Mato: feedback was via SFT and we wanted to know if the SFT effort that goes to the HSF is thought to be well used
 - Nick Styles - is the HSF really a foundation? No assignable resources and activities are best-effort
   - True that we had more foundation-like ideas in the early days (modeled on the Apache Software Foundation)
   - While effort is 'best-effort', people contribute to HSF to enhance things they would be hoping to do anyway
@@ -33,11 +33,11 @@ We got some LHC experiment feedback - see [presentation](https://indico.cern.ch/
   - At the moment not really keen to change the name, even if 'forum' is more what we do
     - We have an identity well established
     - We don't want to preclude different feature activities
-    - Explain better what we do (see website revamp ideas below)
+    - We should explain better what we do (see website revamp ideas below)
 
 ### Pre-CHEP Workshop
 
-This is pretty much all ready to go now. See [indico](https://indico.cern.ch/e/wlcg-hsf23) for final agenda. The Zoom link will be created soon, but still it's YMMV for dicussions.
+This is pretty much all ready to go now. See [indico](https://indico.cern.ch/e/wlcg-hsf23) for final agenda. The Zoom link will be created soon, should be ok for presentations, but still it's YMMV for dicussions.
 
 We plan to circulate the AFF report and a list of topical questions in advance to that we know what we are trying to achieve.
 
@@ -98,7 +98,7 @@ C++ course in the UK:
 
 ### Detector Simulation
 
-- A talk on Geant4 physics models and event generators tentatively scheduled for June 5th <https://indico.cern.ch/event/1276128/>
+- A talk on Geant4 physics models and event generators tentatively scheduled for June 5th: <https://indico.cern.ch/event/1276128/>
 
 ### Reconstruction and Software Trigger
 
