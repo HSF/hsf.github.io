@@ -28,7 +28,7 @@ We got some LHC experiment feedback - see [presentation](https://indico.cern.ch/
 - Nick Styles - is the HSF really a foundation? No assignable resources and activities are best-effort
   - True that we had more foundation-like ideas in the early days (modeled on the Apache Software Foundation)
   - While effort is 'best-effort', people contribute to HSF to enhance things they would be hoping to do anyway
-    - So little risk that activites go away
+    - So little risk that activities go away
     - Albeit that there is limited capacity to ask the HSF for things
   - At the moment not really keen to change the name, even if 'forum' is more what we do
     - We have an identity well established
@@ -37,7 +37,7 @@ We got some LHC experiment feedback - see [presentation](https://indico.cern.ch/
 
 ### Pre-CHEP Workshop
 
-This is pretty much all ready to go now. See [indico](https://indico.cern.ch/e/wlcg-hsf23) for final agenda. The Zoom link will be created soon, should be ok for presentations, but still it's YMMV for dicussions.
+This is pretty much all ready to go now. See [indico](https://indico.cern.ch/e/wlcg-hsf23) for final agenda. The Zoom link will be created soon, should be ok for presentations, but still it's YMMV for discussions.
 
 We plan to circulate the AFF report and a list of topical questions in advance to that we know what we are trying to achieve.
 
