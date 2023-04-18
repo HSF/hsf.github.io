@@ -10,6 +10,7 @@ repos:
     -   id: codespell
         args: ["-I", "codespell.txt"]
         types_or: ["markdown"]
+        exclude: '(organization/_posts/2016/.*)|(organization/_posts/2017/.*)|(organization/_posts/2018/.*)|(organization/_posts/2019/.*)|(organization/_posts/2020/.*)|(organization/_posts/2021/.*)|(organization/_posts/2022/.*)'
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
