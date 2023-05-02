@@ -22,7 +22,7 @@ Speaker: S. Hoeche
 Stefan presents the slides describing the answers from the Sherpa team to the question received for the second phase of the LHCC review of HL-LHC computing.
 - One issue being addressed is that the framework is somewhat monolithic. For instance will separate ME part (a bit like Madgraph) and the PS part.
 - Help from HSF/experiments
-    - Restructing framework
+    - Restructuring framework
     - Porting of code to GPUs
 - We have a big CPU bottleneck. 
     - Partly due to the fact that it's often run with several variations (eg three pdfs). One inefficiency is that these variations were done before the unweighting procedure, so for events that would be thrown away anyway.
