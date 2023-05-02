@@ -14,3 +14,5 @@ commends
 ro
 parth
 compres
+slac
+caf
