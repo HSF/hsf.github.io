@@ -16,6 +16,14 @@
   tags: []
   title: CODAS-HEP 2023
 - author: Kilian Lieret
+  date: 2023-05-18
+  deadline: ''
+  end_date: 2023-05-19
+  source: https://indico.cern.ch/event/1281805/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Software Basics Training (Virtual)
+- author: Kilian Lieret
   date: 2023-03-06
   deadline: ''
   end_date: 2023-03-10
