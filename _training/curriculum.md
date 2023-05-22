@@ -3,6 +3,8 @@ title: HSF Software Training Center
 layout: plain
 ---
 
+<script defer data-domain="hepsoftwarefoundation.org" src="https://views.scientific-python.org/js/script.js"></script>
+
 ## Idea
 
 Training in software and computing are essential ingredients for the success of any HEP experiment. As most experiments have similar basic prerequisites (Unix shell, Python, C++, …) we want to join our efforts and create one introductory software training curriculum that serves HEP newcomers the software skills needed as they enter the field, and in parallel, instill best practices for writing software.
