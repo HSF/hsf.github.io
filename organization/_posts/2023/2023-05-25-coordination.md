@@ -29,7 +29,7 @@ The next LHCC week is 5-9 June. For software, the referees asked us to report on
 
 Alessandra Forti, one of the Analysis Facilities Forum co-conveners, will present: [draft slides](https://docs.google.com/presentation/d/1lEjP4l2DZmT80BfADbd7CSSn7ryw9OmnnEyVLngWrDI/edit?usp=sharing). Please comment on them by Monday 29 June, as they need to be posted for the referees by this date.
 
-There will be some further dedicated discussion on the presetation at the [Architects Forum meeting](https://indico.cern.ch/event/1251045/), Thursday 1 June at 14h CEST.
+There will be some further dedicated discussion on the presentation at the [Architects Forum meeting](https://indico.cern.ch/event/1251045/), Thursday 1 June at 14h CEST.
 
 ### Google Summer of Code, 2023
 
@@ -86,7 +86,7 @@ As mentioned above, there is a [joint ECFA/AaPEC/NuPEC meeting](https://agenda.i
 
 ### Detector Simulation
 
-- Talk on Geant4 physics models and event generators scheduled for June 5th: <https://indico.cern.ch/event/1276128/> annoucements/invites sent out
+- Talk on Geant4 physics models and event generators scheduled for June 5th: <https://indico.cern.ch/event/1276128/> announcements/invites sent out
 - Still following up on possible contributions on Geant4 cuts/optimizations implemented by experiments (Two identified)
 - Still following up on possible contributions on Geant4 Physics extensions that experiments have developed (One identified)
 
@@ -117,7 +117,7 @@ As mentioned above, there is a [joint ECFA/AaPEC/NuPEC meeting](https://agenda.i
 
 Nice papers at CHEP showing good progress in using Julia and a lot of potential. We'd like to organise more activities here, so there is a [planning meeting next week](https://indico.cern.ch/event/1290359/), Tuesday 30 May, 16h CEST. Open to all!
 
-The paper on *Potential of the Julia programming language for high energy physics computing* is now bascially complete and ready for CSBS submission. The paper can be endorsed (there was a call on the `hsf-julia-for-hep-report@cern.ch` list), but the deadline is today.
+The paper on *Potential of the Julia programming language for high energy physics computing* is now basically complete and ready for CSBS submission. The paper can be endorsed (there was a call on the `hsf-julia-for-hep-report@cern.ch` list), but the deadline is today.
 
 ### Compute Accelerator Forum
 
