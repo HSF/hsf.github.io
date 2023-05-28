@@ -21,13 +21,13 @@ The [pre-CHEP workshop](https://indico.cern.ch/event/1230126/) had 150 people at
 
 *Analysis Facilities:** presentation of what we have learned about AFs from the Analysis Facilities Forum. Key topics, such as AAI, DOMA, site "toolkit" (or "substrate") as well as analyst needs were discussed. The AFF conveners released the first draft of their [Analysis Facilities White Paper](https://docs.google.com/document/d/1Pn9KWG-tGQ20OaNFUVlXLQddC7vFsQnu2EHR4DBfTjo/edit?usp=sharing), which is still very much open for comments. See below for LHCC slides. Still a lot of open questions - very nice work by the forum conveners to bring all of this into the open for discussion. The White Paper will be informed by the workshop itself and the draft comments are being discussed and incorporated.
 
-*Non-x86 Architectures:** presentations on power advantages of ARM (36% power savings on HEPScore workloads), along with the experiments' experience of porting to ARM (ATLAS) and POWER9 (CMS), which is relatively strightforward. Progress in porting some middleware components and in running multi-arch jobs in the production systems - helped by increased availability at CERN and in the cloud. Some process is needed by which these resources can be pledged to be defined - this is something that will be discussed within WLCG (HSF can help). For GPU, 3/4 experiments using these at HLT in Run3, which improved efficiency, cost savings, etc (good talks from ALICE and CMS). Workloads do require significant tuning. No real experience of running mixed CPU/GPU workloads on WLCG - sites that have GPUs can help here, and we (HSF) can facilitate the process with the training. More discussion expected at the [JENA computing workshop](https://agenda.infn.it/event/34738/). There is a [summary document](https://docs.google.com/document/d/1U8GDHhUrkhvJT6qTYl221QVsfaK8amiNSI5ktm5Aekk/edit?usp=sharing) is available (which can be commented on!). 
+*Non-x86 Architectures:** presentations on power advantages of ARM (36% power savings on HEPScore workloads), along with the experiments' experience of porting to ARM (ATLAS) and POWER9 (CMS), which is relatively strightforward. Progress in porting some middleware components and in running multi-arch jobs in the production systems - helped by increased availability at CERN and in the cloud. Some process is needed by which these resources can be pledged to be defined - this is something that will be discussed within WLCG (HSF can help). For GPU, 3/4 experiments using these at HLT in Run3, which improved efficiency, cost savings, etc (good talks from ALICE and CMS). Workloads do require significant tuning. No real experience of running mixed CPU/GPU workloads on WLCG - sites that have GPUs can help here, and we (HSF) can facilitate the process with the training. More discussion expected at the [JENA computing workshop](https://agenda.infn.it/event/34738/). There is a [summary document](https://docs.google.com/document/d/1U8GDHhUrkhvJT6qTYl221QVsfaK8amiNSI5ktm5Aekk/edit?usp=sharing) available (which can be commented on!). 
 
 ### LHCC
 
 The next LHCC week is 5-9 June. For software, the referees asked us to report on the future role of *Analysis Facilities*. There will be a special 1 hour session on Monday 5 June as this is a big topic.
 
-Alessandra Forti, one of the Analysis Facilities Forum co-conveners, will present: [draft slides](https://docs.google.com/presentation/d/1lEjP4l2DZmT80BfADbd7CSSn7ryw9OmnnEyVLngWrDI/edit?usp=sharing). Please comment on them by Monday 29 June, as they need to be posted for the referees by this date.
+Alessandra Forti, one of the Analysis Facilities Forum co-conveners, will present: [draft slides](https://docs.google.com/presentation/d/1lEjP4l2DZmT80BfADbd7CSSn7ryw9OmnnEyVLngWrDI/edit?usp=sharing). Please comment on them by Monday 29 May, as they need to be posted for the referees by this date.
 
 There will be some further dedicated discussion on the presentation at the [Architects Forum meeting](https://indico.cern.ch/event/1251045/), Thursday 1 June at 14h CEST.
 
@@ -39,7 +39,7 @@ Could have an HSF kick-off for all of the students? This would help foster a sen
 
 ### JENA Computing Meeting
 
-As mentioned above, there is a [joint ECFA/AaPEC/NuPEC meeting](https://agenda.infn.it/event/34738/) to discuss software and computing strategies for European science in Bologna, 12-14 June. JENA
+As mentioned above, there is a [joint ECFA/AaPEC/NuPEC (JENA) meeting](https://agenda.infn.it/event/34738/) to discuss software and computing strategies for European science in Bologna, 12-14 June.
 
 - This was an outcome of discussions with the funding agencies at the last JENA Symposium in Madrid
   - Registration now seems to be generally open
@@ -55,7 +55,7 @@ As mentioned above, there is a [joint ECFA/AaPEC/NuPEC meeting](https://agenda.i
 - Would like to have a meeting series dedicated to open data end of June
   - Recent developments in LHCb
   - Common issues amongst experiments
-- Considering moving the meeting time to Monday 1500 - does this clash with anything?
+- Considering moving the meeting time to Monday 15h00 - does this clash with anything?
   - We don't think so
 
 ### Software Training
@@ -78,7 +78,7 @@ As mentioned above, there is a [joint ECFA/AaPEC/NuPEC meeting](https://agenda.i
   - Anyone from this meeting wants to come and help as demonstrator for hands-on exercises? We have good curry :) 
     - we will send the call to the appropriate mailing list
   - Announcement imminent, lots of bureaucracy needed for the fee payment (to pay for coffee breaks and said curry)
-    - Full scholarships by Swift-HEP (including accommodation) for UK students who can't otherwise afford this
+    - Full scholarships by SWIFT-HEP (including accommodation) for UK students who can't otherwise afford this
 
 ### Software Tools and Packaging
 
@@ -138,6 +138,6 @@ Benedikt started an [issue in GitHub](https://github.com/HSF/hsf.github.io/issue
 
 ### Next Meeting
 
-The next meeting will be, on [8 June](https://indico.cern.ch/event/1225017/)
+The next meeting will be on [8 June](https://indico.cern.ch/event/1225017/)
 
 Please [sign up](https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit) for chairing this or one of the future coordination meetings.
