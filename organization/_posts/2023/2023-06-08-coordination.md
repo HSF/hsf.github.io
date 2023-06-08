@@ -73,7 +73,6 @@ Want to have an early meeting with the students, not just at the end of the codi
   - Analysis Preservation training workshop: mid-September
   - Matplotlib training workshop: mid-October
 
-
 ### Software Tools and Packaging
 
 - Hope to have Adam Stewart, the person who maintains Python package packaging in Spack, come to CERN in September and give a talk. He is starting a postdoc at Techical Univerity of Munich.
@@ -81,7 +80,7 @@ Want to have an early meeting with the students, not just at the end of the codi
 ### Detector Simulation
 
 - Held a meeting dedicated to Geant4 physics models and event generators on June 5th: <https://indico.cern.ch/event/1276128/>
-   - Quite good attendance, 19 people in total; Both from the detector simulation and generator community. (Several other meetings prevented more people from attending.)
+  - Quite good attendance, 19 people in total; Both from the detector simulation and generator community. (Several other meetings prevented more people from attending.)
 - Still following up on possible contributions on Geant4 cuts/optimizations implemented by experiments (Two identified)
 - Still following up on possible contributions on Geant4 Physics extensions that experiments have developed (One identified)
 
