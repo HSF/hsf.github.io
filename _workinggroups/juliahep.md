@@ -5,8 +5,8 @@ redirect_from:
   - /activities/juliahep.html
 ---
 
-The JuliaHEP working group brings together a community of developers and users of Python in Particle Physics, with the aim of improving
-the sharing of knowledge and expertise, as well as unify effort in developing Julia packages useful for the community.
+The JuliaHEP working group brings together a community of developers and users of [Julia](https://julialang.org) in Particle Physics, 
+with the aim of improving the sharing of knowledge and expertise, as well as unify effort in developing Julia packages useful for the community.
 
 # Conveners
 
@@ -32,5 +32,5 @@ The JuliaHEP organisation website is http://www.juliahep.org/.
 
 We plan for a series of **JuliaHEP workshops** with the aim to provide an environment to discuss and promote the usage of Julia in the HEP community at large.
 
-The first [workshop](https://indico.cern.ch/event/1292759/) is plan for 6-9 November 2023 at ECAP (Erlangen Centre for Astroparticle Physics). 
+The first [workshop](https://indico.cern.ch/event/1292759/) is planned for 6-9 November 2023 at ECAP (Erlangen Centre for Astroparticle Physics). 
 
