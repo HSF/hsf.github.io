@@ -75,7 +75,7 @@ Want to have an early meeting with the students, not just at the end of the codi
 
 ### Software Tools and Packaging
 
-- Hope to have Adam Stewart, the person who maintains Python package packaging in Spack, come to CERN in September and give a talk. He is starting a postdoc at Techical Univerity of Munich.
+- Hope to have Adam Stewart, the person who maintains Python package packaging in Spack, come to CERN in September and give a talk. He is starting a postdoc at Technical University of Munich.
 
 ### Detector Simulation
 
