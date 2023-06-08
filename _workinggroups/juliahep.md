@@ -20,7 +20,7 @@ All coordinators can be reached at <hsf-juliahep-organisation@googlegroups.com>.
 # Getting Involved
 
 Everyone is welcome to join the community and participate, contribute, to the organised meetings.
-The JuliaHEP organisation website is http://www.juliahep.org/.
+The JuliaHEP organisation website is <http://www.juliahep.org/>.
 
 
 # Group Activities
