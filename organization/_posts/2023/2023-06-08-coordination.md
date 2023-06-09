@@ -37,7 +37,7 @@ To demonstrate the new analysis facility concepts work, they need to be tested o
 
 - The exact parameters of this document will come later, in consultation with the LHCC's HL-LHC review committee.
 
-*Long discussion on this point, we conclude that the LHCC are positive about the R&D and would like to get more formal engagement from the experiments, folding these studies into HL-LHC planning. We think the "concerns" are not new, but this actually means that we are investigating the right topics and sending the right messages.*
+*Long discussion on this point, we conclude that the LHCC are positive about the R&D and would like to get more formal engagement from the experiments, folding these studies into HL-LHC planning. We think the concerns raised by the LHCC (balance R&D against production; establish clear use cases and needs) are not new, but this actually means that we are investigating the right topics and sending the right messages.*
 
 ### Google Summer of Code, 2023
 
