@@ -35,6 +35,10 @@ Current WG conveners:
 Everyone is welcome to participate and contribute on the forum and to the ongoing meetings. For more information, contact us or
 follow our mailing list on google groups [hsf-recotrigger](https://groups.google.com/forum/#!forum/hsf-recotrigger).
 
+## Recent activities
+
+- 2023 Kick-Off Meeting (including recording): [indico link](https://indico.cern.ch/event/1273894/)
+
 ## Group activities
 
 - Reconstruction+Trigger group meetings: [agendas](https://indico.cern.ch/category/10917/) 
