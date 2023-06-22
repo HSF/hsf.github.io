@@ -85,7 +85,7 @@ Remember we have the ability to put event banners on the HSF website. All it req
 
 ### JuliaHEP
 
-- The JuliaHEP workshop annoucement was made:
+- The JuliaHEP workshop announcement was made:
 
 ```txt
 The first ever Julia HEP Workshop is now open for
