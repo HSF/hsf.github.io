@@ -29,7 +29,7 @@ If you are interested in joining one of these WGs, please email Graeme, Simone a
 
 ### Google Summer of Code, 2023
 
-- Representative for the mentors submit to be decided.
+- Representative for the mentors summit to be decided.
 
 ## Working Group Updates
 
