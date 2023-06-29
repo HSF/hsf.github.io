@@ -22,3 +22,4 @@ Then you will have the ability to view events in the community calendar and, if 
 
 Please ask to join one of the editing groups if you would like to add events
 for your experiment or community.
+Events in HSF working groups indico categories should be synced automatically. 
