@@ -30,8 +30,8 @@ The group aims to develop a training program that can be pursued by researchers 
 
 ## News
 
-<a class="twitter-timeline" style="margin: auto" data-width="100%" data-height="500" href="https://twitter.com/HSFTraining?ref_src=twsrc%5Etfw">Tweets from @HSFTraining</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+Recent news are announced on [twitter](https://twitter.com/HSFTraining) and
+on our [forum/mailing list](https://groups.google.com/forum/#!forum/hsf-training-wg).
 
 ## Our mission
 
