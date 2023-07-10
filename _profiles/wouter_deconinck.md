@@ -11,7 +11,7 @@ linkedin: wouterdeconinck
 email: wouter.deconinck@umanitoba.ca
 
 # Training WG
-training_roles: [facilitator, mentor, instructor]
+training_roles: [facilitator, mentor, instructor, author]
 training_years: [2022, 2023]
 
 # Don't modify the following setting
