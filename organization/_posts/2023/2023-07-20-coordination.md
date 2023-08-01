@@ -25,9 +25,9 @@ Apologies/Contributing: Stefan Roiser, Efe Yazgan
 
 WLCG has decided to change the setup for its software liaisons, who will now be *WLCG Software Representatives*. Some of the most central projects are largely driven through EP-SFT at CERN (ROOT, Geant4, CVMFS) and so the natural representaive there is the chair of the *Architects' Forum* group in SFT, *ex officio* (currently Predrag Buncic).
 
-There are many other important common software projects (e.g., generators, native Python ecosystem) that should also have a voice and representation and so the MB will consider nominations for a second software representative with good links to those projects. The HSF can propose a name for this role - *volunteers would be excellent*. This should be by 15 August(?) - Graeme will follow-up with Simone. *It would be strongly favoured to have a non-CERN person take this second position.*
+There are many other important common software projects (e.g., generators, native Python ecosystem) that should also have a voice and representation and so the Management Board will consider nominations for a second software representative with good links to those projects. The HSF can propose a name for this role - *volunteers would be excellent*. This should be by 15 August(?) - Graeme will follow-up with Simone. *It would be strongly favoured to have a non-CERN person take this second position.*
 
-Practically, Liz moves to CMS Offline Computing Coordinator role for the September LHCC and Predrag will join as AF Chair then. For the second representative, Graeme will stay on until a new person is appointed, so will also cover the September LHCC.
+Practically, Liz moves to CMS Offline Computing Coordinator role for the September LHCC and Predrag will join as Architect Forum Chair then. For the second representative, Graeme will stay on until a new person is appointed, so will also cover the September LHCC.
 
 #### September LHCC
 
