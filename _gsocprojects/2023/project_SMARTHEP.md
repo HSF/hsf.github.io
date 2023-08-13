@@ -7,4 +7,5 @@ description: |
 summary: |
   SMARTHEP is an European Training Network involving LHC experiments and industry. We develop efficient software and machine learning algorithms on heterogeneous computing architectures to advance real-time analysis.
 ---
+
 {% include gsoc_project.ext %}

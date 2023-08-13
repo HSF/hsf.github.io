@@ -3,8 +3,9 @@ title: "Community by years"
 layout: plain
 ---
 
-To fulfill our mission, we rely on active community members to support us in various ways.
-We would like to thank everyone for their time, energy and dedication!
+To fulfill our mission, we rely on active community members to support us in
+various ways. We would like to thank everyone for their time, energy and
+dedication!
 
 <div class="big-link-container">
   <a href="{{ site.baseurl }}/training/community">

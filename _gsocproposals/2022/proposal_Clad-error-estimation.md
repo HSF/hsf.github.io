@@ -1,5 +1,6 @@
 ---
-title: Broaden the Scope for the Floating-Point Error Estimation Framework in Clad
+title:
+  Broaden the Scope for the Floating-Point Error Estimation Framework in Clad
 layout: gsoc_proposal
 project: Compiler-Research
 year: 2022
@@ -20,27 +21,28 @@ code transformation. The AD library is able to differentiate non-trivial
 functions, to find a partial derivative for trivial cases and has good unit test
 coverage.
 
-Clad also possesses the capabilities of annotating given source code with 
-floating-point error estimation code. This allows Clad to compute any 
-floating-point related errors in the given function on the fly. This allows 
-Clad to reason about the numerical stability of the given 
-function and also analyze the sensitivity of the variables involved.
+Clad also possesses the capabilities of annotating given source code with
+floating-point error estimation code. This allows Clad to compute any
+floating-point related errors in the given function on the fly. This allows Clad
+to reason about the numerical stability of the given function and also analyze
+the sensitivity of the variables involved.
 
-The idea behind this project is to develop benchmarks and improve the 
-floating-point error estimation framework as necessary. Moreover, find 
-compelling real-world use-cases of the tool and investigate the possibility 
-of performing lossy compression with it.
+The idea behind this project is to develop benchmarks and improve the
+floating-point error estimation framework as necessary. Moreover, find
+compelling real-world use-cases of the tool and investigate the possibility of
+performing lossy compression with it.
 
 ## Task ideas
 
 The project consists of the following tasks:
-  * Add support for differentiation with respect to multidimensional arrays
-    (and pointers) in the reverse mode.
-  * Add support for differentiation with respect to multidimensional arrays
-    (and pointers) in the forward mode.
-  * Extend the unit test coverage.
-  * Develop tutorials and documentation.
-  * Present the work at the relevant meetings and conferences.
+
+- Add support for differentiation with respect to multidimensional arrays (and
+  pointers) in the reverse mode.
+- Add support for differentiation with respect to multidimensional arrays (and
+  pointers) in the forward mode.
+- Extend the unit test coverage.
+- Develop tutorials and documentation.
+- Present the work at the relevant meetings and conferences.
 
 ## Technology
 
@@ -48,16 +50,17 @@ C/C++, Clang, LLVM
 
 ## Desirable Skills
 
- * Necessary knowledge: C++ programming; data structures and algorithms.
- * Intermediate knowledge of automatic differentiation;
- * Basic knowledge of Clang and LLVM
- * Experience with Clad would be an asset.
+- Necessary knowledge: C++ programming; data structures and algorithms.
+- Intermediate knowledge of automatic differentiation;
+- Basic knowledge of Clang and LLVM
+- Experience with Clad would be an asset.
 
 ## Expected results
 
 On successful completion of the project, the framework should have a
 sufficiently large set of benchmarks and example usages. Moreover, the framework
 should be able to run the following code as expected:
+
 ```cpp
 #include <iostream>
 #include "clad/Differentiator/Differentiator.h"
@@ -97,21 +100,23 @@ in order to maximize your chances to get selected:
 The mentors are interested in working with all candidates but unfortunately the
 rules allow only one to be selected. There are a few tasks which give bonus
 points to candidate's application:
- * Submit a valid bug -- demonstrates that the candidate has completed step 2
-   and 3 from the previous section.
- * Fix a bug -- demonstrates the technical skills of the candidate and shows
-   he/she can work independently on the project. The mentors can suggest looking
-   into these [good first issues](https://github.com/vgvassilev/clad/labels/good%20first%20issue).
-   Fixing one issue may be enough to become a successful candidate.
+
+- Submit a valid bug -- demonstrates that the candidate has completed step 2 and
+  3 from the previous section.
+- Fix a bug -- demonstrates the technical skills of the candidate and shows
+  he/she can work independently on the project. The mentors can suggest looking
+  into these
+  [good first issues](https://github.com/vgvassilev/clad/labels/good%20first%20issue).
+  Fixing one issue may be enough to become a successful candidate.
 
 ## Mentors
- * **[Garima Singh](mailto:garima.singh@cern.ch)** (Princeton/CERN)
- * [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
+
+- **[Garima Singh](mailto:garima.singh@cern.ch)** (Princeton/CERN)
+- [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
 
 ## Links
 
 [Compiler-Research](https://compiler-research.org)
 [clad](https://github.com/vgvassilev/clad)
-[clang-repl](https://root.cern/blog/cling-in-llvm/)
-[llvm](https://llvm.org/)
+[clang-repl](https://root.cern/blog/cling-in-llvm/) [llvm](https://llvm.org/)
 [clang](https://clang.llvm.org/)

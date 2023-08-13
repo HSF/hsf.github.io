@@ -2,13 +2,13 @@
 title: Jim Pivarski
 country: US
 training_roles:
-- facilitator
-- instructor
-- author
+  - facilitator
+  - instructor
+  - author
 training_years:
-- 2019
-- 2020
-- 2022
+  - 2019
+  - 2020
+  - 2022
 github: jpivarski
 gravatar: null
 homepage: null

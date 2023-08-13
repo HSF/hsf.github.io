@@ -1,23 +1,29 @@
 repos:
--   repo: https://github.com/klieret/jekyll-relative-url-check
+  - repo: https://github.com/klieret/jekyll-relative-url-check
     rev: v2.0.1
     hooks:
-    -   id: jekyll-relative-url-check-html
-    -   id: jekyll-relative-url-check-markdown
--   repo: https://github.com/codespell-project/codespell
-    rev: 'v2.2.5'
+      - id: jekyll-relative-url-check-html
+      - id: jekyll-relative-url-check-markdown
+  - repo: https://github.com/codespell-project/codespell
+    rev: "v2.2.5"
     hooks:
-    -   id: codespell
+      - id: codespell
         args: ["-I", "codespell.txt"]
         types_or: ["markdown"]
-        exclude: '(organization/_posts/2016/.*)|(organization/_posts/2017/.*)|(organization/_posts/2018/.*)|(organization/_posts/2019/.*)|(organization/_posts/2020/.*)|(organization/_posts/2021/.*)|(organization/_posts/2022/.*)'
--   repo: https://github.com/pre-commit/pre-commit-hooks
+        exclude: "(organization/_posts/2016/.*)|(organization/_posts/2017/.*)|(organization/_posts/2018/.*)|(organization/_posts/2019/.*)|(organization/_posts/2020/.*)|(organization/_posts/2021/.*)|(organization/_posts/2022/.*)"
+  - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
-    -   id: check-json
-    -   id: check-yaml
-    -   id: check-case-conflict
+      - id: check-json
+      - id: check-yaml
+      - id: check-case-conflict
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: "v3.0.0"
+    hooks:
+      - id: prettier
+        types_or: [yaml, markdown, scss, javascript, json]
+        args: [--prose-wrap=always]
 
 ci:
-    autoupdate_schedule: monthly
-
+  autoupdate_schedule: monthly

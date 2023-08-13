@@ -2,13 +2,13 @@
 title: Mason Proffitt
 country: FR
 training_roles:
-- instructor
-- mentor
+  - instructor
+  - mentor
 training_years:
-- 2019
-- 2020
-- 2021
-- 2022
+  - 2019
+  - 2020
+  - 2021
+  - 2022
 github: masonproffitt
 gravatar: null
 homepage: null

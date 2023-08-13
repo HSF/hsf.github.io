@@ -9,5 +9,4 @@ description: |
   critical infrastructure to small and large HEP collaborations.
 ---
 
-
 {% include gsoc_project.ext %}

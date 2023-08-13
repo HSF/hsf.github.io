@@ -1,13 +1,13 @@
 ---
 title: Sudhir Malik
 training_years:
-- 2019
-- 2020
-- 2021
-- 2022
-- 2023
+  - 2019
+  - 2020
+  - 2021
+  - 2022
+  - 2023
 training_roles:
-- facilitator
+  - facilitator
 gravatar: null
 github: fatala22
 gitlab: null

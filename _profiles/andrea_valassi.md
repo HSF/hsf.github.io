@@ -1,10 +1,10 @@
 ---
 title: Andrea Valassi
 training_years:
-- 2020
-- 2021
+  - 2020
+  - 2021
 training_roles:
-- mentor
+  - mentor
 gravatar: null
 github: valassi
 gitlab: null

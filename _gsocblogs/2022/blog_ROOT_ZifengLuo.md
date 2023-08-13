@@ -10,17 +10,39 @@ logo: ROOT-logo.png
 intro: |
   This project consists of the implementation of an automatic conversion tool that migrates both the schema (i.e. fields and their types) and the data of a TTree to RNTuple.
 ---
-This is a blog as part of the final evaluation of GSoC 2022 project: ROOT - Automatic conversion of data stored in TTree form to RNTuple.
+
+This is a blog as part of the final evaluation of GSoC 2022 project: ROOT -
+Automatic conversion of data stored in TTree form to RNTuple.
 
 ## Overview of the project
-For the past 25 years, high-energy physics (HEP) data have been stored with columnar structures in TTree, the ROOT’s legacy columnar storage that has been used to store more than 1 exabyte of HEP data. As the main data structure of ROOT v7, RNTuple classes provide ROOT’s new, experimental, high-speed I/O subsystem for HEP data. Given that RNTuple is a complete backward-incompatible redesign, the development of an automatic conversion tool that permits the migration of existing TTree data into RNTuple is a must. In this regard, both the schema (i.e., fields and their types) and the data will have to be migrated.
 
-The goal of this project is to develop a TTree-to-RNTuple conversion tool which works in form of a C++ library as well as a command-line tool.
+For the past 25 years, high-energy physics (HEP) data have been stored with
+columnar structures in TTree, the ROOT’s legacy columnar storage that has been
+used to store more than 1 exabyte of HEP data. As the main data structure of
+ROOT v7, RNTuple classes provide ROOT’s new, experimental, high-speed I/O
+subsystem for HEP data. Given that RNTuple is a complete backward-incompatible
+redesign, the development of an automatic conversion tool that permits the
+migration of existing TTree data into RNTuple is a must. In this regard, both
+the schema (i.e., fields and their types) and the data will have to be migrated.
+
+The goal of this project is to develop a TTree-to-RNTuple conversion tool which
+works in form of a C++ library as well as a command-line tool.
 
 ## Approach
-I started working on this project on June 11, 2022, right after the community-bonding period. The first two weeks were a hands-on period. I began with the [existing code](https://github.com/jblomer/iotools/blob/master/gen_physlite.cxx) that is capable to convert TTree containing simple data types to RNTuple. After being familiar with RNTuple APIs, I created the project GitHub [repo](https://github.com/luozf14/TTreeToRNTuple) and started committing my code. The length of the project is decided to be 14 weeks, ending at the beginning of October. 
 
-Based on the data types supported by TTree, the project is divided into 7 parts with increasing difficulties, from simple C++ variables to nested collections. The status is summarized in the table below. 
+I started working on this project on June 11, 2022, right after the
+community-bonding period. The first two weeks were a hands-on period. I began
+with the
+[existing code](https://github.com/jblomer/iotools/blob/master/gen_physlite.cxx)
+that is capable to convert TTree containing simple data types to RNTuple. After
+being familiar with RNTuple APIs, I created the project GitHub
+[repo](https://github.com/luozf14/TTreeToRNTuple) and started committing my
+code. The length of the project is decided to be 14 weeks, ending at the
+beginning of October.
+
+Based on the data types supported by TTree, the project is divided into 7 parts
+with increasing difficulties, from simple C++ variables to nested collections.
+The status is summarized in the table below.
 
 <table>
    <tr>
@@ -92,17 +114,41 @@ Based on the data types supported by TTree, the project is divided into 7 parts 
    </tr>
 </table>
 
-*see section **Known issues and Future work**.
+\*see section **Known issues and Future work**.
 
-Thanks to the [development](https://github.com/jblomer/iotools) that has been done by the ROOT I/O team, there are some programs that work as good references for me. I extended the ``gen_physlite`` program to be capable of converting TTree containing fixed-length arrays as well as variable-sized arrays. However, due to the limitation of data types supported by the current-stage RNTuple, the conversion tool is not able to deal with the multi-dimensional array. For now such array is converted into 1D `std::array<T, N>` (fixed-size) or `std::vector<T>` (variable-size). I/O team decided to mark this function as to-do until RNTuple supports multi-dimensional arrays.
+Thanks to the [development](https://github.com/jblomer/iotools) that has been
+done by the ROOT I/O team, there are some programs that work as good references
+for me. I extended the `gen_physlite` program to be capable of converting TTree
+containing fixed-length arrays as well as variable-sized arrays. However, due to
+the limitation of data types supported by the current-stage RNTuple, the
+conversion tool is not able to deal with the multi-dimensional array. For now
+such array is converted into 1D `std::array<T, N>` (fixed-size) or
+`std::vector<T>` (variable-size). I/O team decided to mark this function as
+to-do until RNTuple supports multi-dimensional arrays.
 
-For TTree containing STL containers, there is no good reference. The existing ``gen_atlas`` program is dedicated to `std::vector<T>` with some specific types. However, thanks to ``TClass::GetClass()``, I not only extended ``gen_atlas`` to be capable to deal with `std::vector<T>` with all RNTuple-supported data types but also included all other STL containers supported by RNTuple (see table above). 
+For TTree containing STL containers, there is no good reference. The existing
+`gen_atlas` program is dedicated to `std::vector<T>` with some specific types.
+However, thanks to `TClass::GetClass()`, I not only extended `gen_atlas` to be
+capable to deal with `std::vector<T>` with all RNTuple-supported data types but
+also included all other STL containers supported by RNTuple (see table above).
 
-A dictionary consists of a C++ source file, which contains the type information needed by Cling and ROOT's I/O subsystem. RNTuple supports class that has a dictionary whose persistent members are themselves types with RNTuple I/O support. This tool can migrate data stored in TTree containing branches of user-defined classes with compiled dictionary embedded in library `xx.so` or `xx.a`, i.e., to do the conversion, the corresponding library must be existing. 
+A dictionary consists of a C++ source file, which contains the type information
+needed by Cling and ROOT's I/O subsystem. RNTuple supports class that has a
+dictionary whose persistent members are themselves types with RNTuple I/O
+support. This tool can migrate data stored in TTree containing branches of
+user-defined classes with compiled dictionary embedded in library `xx.so` or
+`xx.a`, i.e., to do the conversion, the corresponding library must be existing.
 
-Nested types are more difficult to be converted since most of the time ROOT does not provide compiled CollectionProxy for those nested types. From TTree side, one needs to generate the dictionaries of the nested types so that their values can be retrieved, while there is no problem for RNTuple side to create fields of nested types thanks to ``TClass::GetClass()``. Currently, this tool is capable to convert TTree containing nested types if user generate and import the corresponding dictionaries.
+Nested types are more difficult to be converted since most of the time ROOT does
+not provide compiled CollectionProxy for those nested types. From TTree side,
+one needs to generate the dictionaries of the nested types so that their values
+can be retrieved, while there is no problem for RNTuple side to create fields of
+nested types thanks to `TClass::GetClass()`. Currently, this tool is capable to
+convert TTree containing nested types if user generate and import the
+corresponding dictionaries.
 
-The tool can be used as a command-line tool as well as a C++ library. More details can bee seen in the next section.
+The tool can be used as a command-line tool as well as a C++ library. More
+details can bee seen in the next section.
 
 ## Usage
 
@@ -125,7 +171,7 @@ The tool can be used as a command-line tool as well as a C++ library. More detai
   int compressionLevel = 0;
   std::vector<std::string> dictionary = {"UserClass.so"};
   std::vector<std::string> subBranches = {"userClass", "branch1", "branch2"};
-  
+
   // convert
   std::unique_ptr<TTreeToRNTuple> conversion = std::make_unique<TTreeToRNTuple>(inputFile, outputFile, treeName);
   conversion->SetCompressionAlgoLevel(compressionAlgo, compressionLevel);
@@ -142,24 +188,73 @@ The tool can be used as a command-line tool as well as a C++ library. More detai
   ```
 
 ## Known issues and Future work
-- \[Issue\] Multidimensional array such as `int myArray[10][20]` is not supported by RNTuple at current stage. However, since all C++ arrays are stored as 1D array in memory, multidimensional array can still be converted into `std::array<T, N/*total number of elements*/>` (if it is fixed-size, e.g., `int myArray[10][20]`) or `std::vector<T>` (if it is variable-size, e.g., `int myArray[10][n]`). We will wait until RNTuple natively supports multidimensional array to implement proper conversion. 
-- \[Issue\] This tool does not work stably with `ROOT::RVec<T>`. When the number of entries of the TTree containing `ROOT::RVec<T>` exceeds 1e5, the conversion will probably crash. This may due to the limit of life time of `ROOT::RVec<T>` object. We will fix this issue in the future.
-- \[Future\] Instead of printing messages before the conversion -such as the one below-, provide a means to notify user code of certain events (much like the callback currently used for notifying progress). In principle, this should be achieved via the well-known observer pattern.
+
+- \[Issue\] Multidimensional array such as `int myArray[10][20]` is not
+  supported by RNTuple at current stage. However, since all C++ arrays are
+  stored as 1D array in memory, multidimensional array can still be converted
+  into `std::array<T, N/*total number of elements*/>` (if it is fixed-size,
+  e.g., `int myArray[10][20]`) or `std::vector<T>` (if it is variable-size,
+  e.g., `int myArray[10][n]`). We will wait until RNTuple natively supports
+  multidimensional array to implement proper conversion.
+- \[Issue\] This tool does not work stably with `ROOT::RVec<T>`. When the number
+  of entries of the TTree containing `ROOT::RVec<T>` exceeds 1e5, the conversion
+  will probably crash. This may due to the limit of life time of `ROOT::RVec<T>`
+  object. We will fix this issue in the future.
+- \[Future\] Instead of printing messages before the conversion -such as the one
+  below-, provide a means to notify user code of certain events (much like the
+  callback currently used for notifying progress). In principle, this should be
+  achieved via the well-known observer pattern.
+
 ```
 In input file '/tmp/TestFile.root' detect leaf name: simpleClass; leaf type: SimpleClass; leaf title: simpleClass; leaf length: 1; leaf type size: 0
 Add field: x; field type name: std::array<float,3>
 ```
-- \[Future\] The interface of the library is rather simple now. Improvements will be made in the future. 
+
+- \[Future\] The interface of the library is rather simple now. Improvements
+  will be made in the future.
 
 ## Self evaluation
-The project was initially carried out according to the timeline in the proposal. The first part "Convert TTree containing simple variables" went well and was completed on time. But the second part took two weeks longer than what was expected in the proposal. I met problems when dealing with variable-sized arrays: a) I didn't know how to migrate data of different types (e.g., `int`, `float`, ...) in a generic way instead of emulating cases; b) it was difficult to get the length of an array in each entry. My mentor Dr. Javier Lopez-Gomez helped me solve these problems. The third and fourth parts went well accordingly. Due to some personal issues from both my mentor and I, the project was delayed a bit in August and early September. But finally we managed to make it and complete the rest of the parts. For now the tool is coded independently from the root-project. We may integrate it into ROOT in the post-GSoC period. 
+
+The project was initially carried out according to the timeline in the proposal.
+The first part "Convert TTree containing simple variables" went well and was
+completed on time. But the second part took two weeks longer than what was
+expected in the proposal. I met problems when dealing with variable-sized
+arrays: a) I didn't know how to migrate data of different types (e.g., `int`,
+`float`, ...) in a generic way instead of emulating cases; b) it was difficult
+to get the length of an array in each entry. My mentor Dr. Javier Lopez-Gomez
+helped me solve these problems. The third and fourth parts went well
+accordingly. Due to some personal issues from both my mentor and I, the project
+was delayed a bit in August and early September. But finally we managed to make
+it and complete the rest of the parts. For now the tool is coded independently
+from the root-project. We may integrate it into ROOT in the post-GSoC period.
 
 ## Miscellaneous
-As a Ph.D. student in experimental nuclear astrophysics, I have been using ROOT every day for many years because nearly all experimental data are stored in ROOT's legacy storage, TTree. When I heard about GSoC from friends, I instinctively looked for projects related to ROOT because I have always been dreaming to participate in the ROOT project,  which is the most important infrastructure of high-energy physics. 
 
-As mentioned in the beginning, TTree is the most important element of ROOT; a large amount of HEP data have been stored in TTree. Therefore, I was attracted by this TTree-To-RNTuple project because its deliverable will be the most commonly used tool among HEP scientists once ROOT v7 will be released. It would be cool if everyone uses your tool frequently.
+As a Ph.D. student in experimental nuclear astrophysics, I have been using ROOT
+every day for many years because nearly all experimental data are stored in
+ROOT's legacy storage, TTree. When I heard about GSoC from friends, I
+instinctively looked for projects related to ROOT because I have always been
+dreaming to participate in the ROOT project, which is the most important
+infrastructure of high-energy physics.
 
-As a physicist without any computer science background, I meet a lot of troubles when I am working on this project. However, I am very lucky that I have the nicest mentor, Dr. Javier Lopez-Gomez. No matter how simple or naive my questions are, he is always considerate and full of patience to me. For example, he explained explicitly to me how the vector and array are stored in memory by drawing sketches, while others may just say "This is basic; you should have known it".
+As mentioned in the beginning, TTree is the most important element of ROOT; a
+large amount of HEP data have been stored in TTree. Therefore, I was attracted
+by this TTree-To-RNTuple project because its deliverable will be the most
+commonly used tool among HEP scientists once ROOT v7 will be released. It would
+be cool if everyone uses your tool frequently.
+
+As a physicist without any computer science background, I meet a lot of troubles
+when I am working on this project. However, I am very lucky that I have the
+nicest mentor, Dr. Javier Lopez-Gomez. No matter how simple or naive my
+questions are, he is always considerate and full of patience to me. For example,
+he explained explicitly to me how the vector and array are stored in memory by
+drawing sketches, while others may just say "This is basic; you should have
+known it".
 
 ## Summary
-This is my first time participating in an open-source project. I learned a lot about collaboration in the field of computer science. Things go a little differently from the initial timeline, but the progress is within expectation. It has been a great learning experience and I'm grateful to have an awesome mentor and to be able to meet with the "real and alive" ROOT team.
+
+This is my first time participating in an open-source project. I learned a lot
+about collaboration in the field of computer science. Things go a little
+differently from the initial timeline, but the progress is within expectation.
+It has been a great learning experience and I'm grateful to have an awesome
+mentor and to be able to meet with the "real and alive" ROOT team.

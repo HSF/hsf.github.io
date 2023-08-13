@@ -18,13 +18,12 @@ Symbolic differentiation and Numerical differentiation (the method of finite
 differences). Clad is based on Clang which provides the necessary facilities for
 code transformation. The AD library is able to differentiate non-trivial
 functions, to find a partial derivative for trivial cases and has good unit test
-coverage. Enzyme is a prominent autodiff framework which works on LLVM IR. 
+coverage. Enzyme is a prominent autodiff framework which works on LLVM IR.
 
 Clad and Enzyme can be considered as a C++ frontend and a backend automatic
 differentiation framework. In many cases, when clad needs to fall back to
 numeric differentiation it can try configuring and using Enzyme to perform the
 automatic differentiation on lower level.
-
 
 ## Task ideas and expected results
 
@@ -53,21 +52,25 @@ in order to maximize your chances to get selected:
 The mentors are interested in working with all candidates but unfortunately the
 rules allow only one to be selected. There are a few tasks which give bonus
 points to candidate's application:
- * Submit a valid bug -- demonstrates that the candidate has completed step 2
-   and 3 from the previous section.
- * Fix a bug -- demonstrates the technical skills of the candidate and shows
-   he/she can work independently on the project. The mentors can suggest looking
-   into these [good first issues](https://github.com/vgvassilev/clad/labels/good%20first%20issue).
-   Fixing one issue may be enough to become a successful candidate.
+
+- Submit a valid bug -- demonstrates that the candidate has completed step 2 and
+  3 from the previous section.
+- Fix a bug -- demonstrates the technical skills of the candidate and shows
+  he/she can work independently on the project. The mentors can suggest looking
+  into these
+  [good first issues](https://github.com/vgvassilev/clad/labels/good%20first%20issue).
+  Fixing one issue may be enough to become a successful candidate.
 
 ## Mentors
-  * **[William Moses](mailto:wmoses@mit.edu)** (MIT)
-  * [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
+
+- **[William Moses](mailto:wmoses@mit.edu)** (MIT)
+- [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
 
 ## Links
-  * [clad](https://github.com/vgvassilev/clad)
-  * [clad gsoc page](https://github.com/vgvassilev/clad/wiki/GSoC-2022)
-  * [enzyme](https://github.com/EnzymeAD/Enzyme)
-  * [enzyme web](https://enzyme.mit.edu)
-  * [clang](http://clang.llvm.org/)
-  * [llvm](http://llvm.org/)
+
+- [clad](https://github.com/vgvassilev/clad)
+- [clad gsoc page](https://github.com/vgvassilev/clad/wiki/GSoC-2022)
+- [enzyme](https://github.com/EnzymeAD/Enzyme)
+- [enzyme web](https://enzyme.mit.edu)
+- [clang](http://clang.llvm.org/)
+- [llvm](http://llvm.org/)

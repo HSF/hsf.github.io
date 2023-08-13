@@ -1,9 +1,9 @@
 ---
 title: Gianluca Bianco
 training_years:
-- 2021
+  - 2021
 training_roles:
-- mentor
+  - mentor
 gravatar: null
 github: JustWhit3
 gitlab: gbianco

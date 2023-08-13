@@ -10,5 +10,4 @@ description: |
   CernVM-FS provides a mission critical infrastructure to small and large HEP collaborations.
 ---
 
-
 {% include gsoc_project.ext %}

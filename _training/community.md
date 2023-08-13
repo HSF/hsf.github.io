@@ -3,9 +3,9 @@ title: "The HSF Training Community"
 layout: plain
 ---
 
-To fulfill our mission, we rely on active community members to support us in various ways.
-We would like to thank everyone for their time, energy and dedication!
-
+To fulfill our mission, we rely on active community members to support us in
+various ways. We would like to thank everyone for their time, energy and
+dedication!
 
 <div class="big-link-container">
   <a href="{{ site.baseurl }}/training/community_by_year">
@@ -19,4 +19,3 @@ We would like to thank everyone for their time, energy and dedication!
 </div>
 
 {% include list_of_training_community.html %}
-

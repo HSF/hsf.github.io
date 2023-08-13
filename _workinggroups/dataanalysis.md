@@ -3,8 +3,8 @@ title: Data Analysis
 layout: plain
 ---
 
-Building on previous work, the Data Analysis Working Group aims to eliminate
-the time spent by physicists working on monotonous and laborious tasks while
+Building on previous work, the Data Analysis Working Group aims to eliminate the
+time spent by physicists working on monotonous and laborious tasks while
 performing physics analysis, and to make the publication of physics results
 efficient both in terms of human and computing resources.
 
@@ -18,19 +18,23 @@ success.
 As a close second priority, the group will work with pioneers of technology,
 both inside and outside of the HEP community. The goal is to build bridges
 between physics analysis experts and technical innovators, fostering
-collaboration between these two communities to produce optimal solutions to a 
+collaboration between these two communities to produce optimal solutions to a
 well-defined set of problems.
 
 - [Meetings](https://indico.cern.ch/category/10914) (Indico)
-- [Forum](https://groups.google.com/forum/#!forum/hsf-analysis-wg) (Mailing list)
+- [Forum](https://groups.google.com/forum/#!forum/hsf-analysis-wg) (Mailing
+  list)
 
-## Conveners 
+## Conveners
 
 - Nicola Skidmore, LHCb and University of Manchester
 - Alexander Held, ATLAS and University of Wisconsin–Madison
 - Nick Smith, CMS and Fermilab
 
-Contact the [convenors by email](mailto:nicola.skidmore@cern.ch,alexander.held@cern.ch,nick.smith@cern.ch) <!-- markdown-link-check-disable-line -->
+Contact the
+[convenors by email](mailto:nicola.skidmore@cern.ch,alexander.held@cern.ch,nick.smith@cern.ch)
+
+<!-- markdown-link-check-disable-line -->
 
 ### Former Convenors
 

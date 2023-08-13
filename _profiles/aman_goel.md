@@ -22,4 +22,8 @@ training_years: [2021, 2022]
 layout: educator
 ---
 
-Hi, I am Aman! My pronouns are (he/him). I am an IRIS-HEP Fellow and a recent graduate in Computer Science and Mathematics from the University of Delhi. I am passionate about Research Software, Open Science, Physics, and Astronomy! I am also always keen to learn more about everything from Ethics of Technology to Climate Change and Sustainability.
+Hi, I am Aman! My pronouns are (he/him). I am an IRIS-HEP Fellow and a recent
+graduate in Computer Science and Mathematics from the University of Delhi. I am
+passionate about Research Software, Open Science, Physics, and Astronomy! I am
+also always keen to learn more about everything from Ethics of Technology to
+Climate Change and Sustainability.

@@ -2,10 +2,10 @@
 title: Diego Garfias Gallegos (he/his)
 country: MX
 training_roles:
-- instructor
-- mentor
+  - instructor
+  - mentor
 training_years:
-- 2022
+  - 2022
 github: Bedxxe
 gravatar: null
 homepage: https://github.com/Bedxxe
@@ -22,8 +22,10 @@ layout: educator
 You can use Markdown syntax to style this page.
 -->
 
-Hello everyone! I am a Ph.D. student at Duke University tackling questions regarding Holobiont Ecology and Evolution. My main project is trying to disentangle how biotic
-and abiotic factors are shaping the metabolic and taxonomic diversity of the liche
-holobiont. I love art in all its expressions, I enjoy a lot listen to Debussy, the
-paintings of Hokusai, and anime. I love to try to share with people what I have
-learned until now and create collaborations.
+Hello everyone! I am a Ph.D. student at Duke University tackling questions
+regarding Holobiont Ecology and Evolution. My main project is trying to
+disentangle how biotic and abiotic factors are shaping the metabolic and
+taxonomic diversity of the liche holobiont. I love art in all its expressions, I
+enjoy a lot listen to Debussy, the paintings of Hokusai, and anime. I love to
+try to share with people what I have learned until now and create
+collaborations.

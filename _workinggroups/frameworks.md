@@ -39,8 +39,9 @@ and encouraging long term sustainability of framework software.
 
 ## Meetings and Mailing List
 
-The group's meeting page is [in Indico](https://indico.cern.ch/category/10287/) and
-discussions are held on the [hsf-tech-forum](https://groups.google.com/forum/#%21forum/hsf-tech-forum) list.
+The group's meeting page is [in Indico](https://indico.cern.ch/category/10287/)
+and discussions are held on the
+[hsf-tech-forum](https://groups.google.com/forum/#%21forum/hsf-tech-forum) list.
 
 ## Conveners
 
@@ -51,7 +52,9 @@ The group conveners are:
 - Kyle Knoepfel, Neutrino Platform and Fermilab
 - Vakho Tsulaia, ATLAS and LBNL
 
-[Email the WG Conveners](mailto:benedikt.hegner@cern.ch,knoepfel@fnal.gov,nbrei@jlab.org,vakhtang.tsulaia@cern.ch). <!-- markdown-link-check-disable-line -->
+[Email the WG Conveners](mailto:benedikt.hegner@cern.ch,knoepfel@fnal.gov,nbrei@jlab.org,vakhtang.tsulaia@cern.ch).
+
+<!-- markdown-link-check-disable-line -->
 
 ### Former Conveners
 

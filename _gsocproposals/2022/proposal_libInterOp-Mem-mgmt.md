@@ -1,5 +1,7 @@
 ---
-title: Implement libInterOp API exposing memory, ownership and thread safety information
+title:
+  Implement libInterOp API exposing memory, ownership and thread safety
+  information
 layout: gsoc_proposal
 project: Compiler-Research
 year: 2022
@@ -37,12 +39,13 @@ compiled with Clang.
 ## Task ideas
 
 There are several foreseen tasks:
-  * Collect and categorize possible exposed interop information kinds
-  * Write one or more facilities to extract necessary implementation details
-  * Design a language-independent interface to expose this information
-  * Integrate the work in clang-repl and Cling
-  * Implement and demonstrate its use in cppyy as an exemplar
-  * Present the work at the relevant meetings and conferences.
+
+- Collect and categorize possible exposed interop information kinds
+- Write one or more facilities to extract necessary implementation details
+- Design a language-independent interface to expose this information
+- Integrate the work in clang-repl and Cling
+- Implement and demonstrate its use in cppyy as an exemplar
+- Present the work at the relevant meetings and conferences.
 
 ## Technology
 
@@ -50,17 +53,17 @@ C/C++, Python, Clang, LLVM, Cling, Clang-Repl
 
 ## Desirable Skills
 
- * Necessary knowledge: C++ programming; data structures and algorithms.
- * Basic knowledge of Clang and LLVM
- * Basic knowledge of Python;
- * Experience with GPU programming would be an asset.
+- Necessary knowledge: C++ programming; data structures and algorithms.
+- Basic knowledge of Clang and LLVM
+- Basic knowledge of Python;
+- Experience with GPU programming would be an asset.
 
 ## Expected results
 
-  Develop a facility which is able to detect memory allocation and deletion
-  patterns and provide an API able to expose this information to users. If time
-  permits develop facilities which capture information such as ownership
-  transfer, thread safety and side-effects.
+Develop a facility which is able to detect memory allocation and deletion
+patterns and provide an API able to expose this information to users. If time
+permits develop facilities which capture information such as ownership transfer,
+thread safety and side-effects.
 
 ## Candidate Guidelines and Evaluation
 
@@ -77,17 +80,20 @@ in order to maximize your chances to get selected:
 The mentors are interested in working with all candidates but unfortunately the
 rules allow only one to be selected. There are a few tasks which give bonus
 points to candidate's application:
- * Submit a valid bug -- demonstrates that the candidate has completed step 2
-   and 3 from the previous section.
- * Fix a bug -- demonstrates the technical skills of the candidate and shows
-   he/she can work independently on the project. The mentors can suggest looking
-   at the bugtracker[here](https://bitbucket.org/wlav/cppyy/issues?status=new&status=open).
-   Fixing one issue may be enough to become a successful candidate.
+
+- Submit a valid bug -- demonstrates that the candidate has completed step 2 and
+  3 from the previous section.
+- Fix a bug -- demonstrates the technical skills of the candidate and shows
+  he/she can work independently on the project. The mentors can suggest looking
+  at the
+  bugtracker[here](https://bitbucket.org/wlav/cppyy/issues?status=new&status=open).
+  Fixing one issue may be enough to become a successful candidate.
 
 ## Mentors
- * **[Baidyanath Kundu](mailto:baidyanath.kundu@cern.ch)** (Princeton)
- * [Wim Lavrijsen](mailto:wlavrijsen@lbl.gov) (LBL)
- * [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
+
+- **[Baidyanath Kundu](mailto:baidyanath.kundu@cern.ch)** (Princeton)
+- [Wim Lavrijsen](mailto:wlavrijsen@lbl.gov) (LBL)
+- [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
 
 ## Links
 
@@ -95,6 +101,5 @@ points to candidate's application:
 [libInterOp](https://compiler-research.org/libinterop/)
 [clang-repl](https://root.cern/blog/cling-in-llvm/)
 [cling](https://github.com/root-project/cling)
-[cppyy](https://cppyy.readthedocs.io/en/latest/)
-[llvm](https://llvm.org/)
+[cppyy](https://cppyy.readthedocs.io/en/latest/) [llvm](https://llvm.org/)
 [clang](https://clang.llvm.org/)

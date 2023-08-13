@@ -2,9 +2,9 @@
 title: Philipp Gadow
 country: DE
 training_roles:
-- mentor
+  - mentor
 training_years:
-- 2020
+  - 2020
 github: philippgadow
 homepage: https://pgadow.de
 gitlab: pgadow
@@ -13,4 +13,6 @@ twitter: philippgadow
 linkedin: philipp-gadow-6610b5136
 layout: educator
 ---
-Hi, I'm Philipp. I'm a PhD student for the ATLAS experiment and joined the HSF training group in 2020.
+
+Hi, I'm Philipp. I'm a PhD student for the ATLAS experiment and joined the HSF
+training group in 2020.

@@ -1,9 +1,9 @@
 ---
 title: Maximilian Horzela
 training_years:
-- 2020
+  - 2020
 training_roles:
-- mentor
+  - mentor
 gravatar: null
 github: HerrHorizontal
 gitlab: mhorzela
@@ -15,4 +15,5 @@ linkedin: null
 email: null
 layout: educator
 ---
+
 Hi I'm Maximilian. I am a PhD student at CMS and GridKA. I joined HSF in 2020.

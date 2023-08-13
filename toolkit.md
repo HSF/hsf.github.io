@@ -6,7 +6,9 @@ layout: default
 
 # (DRAFT) Projects' Toolkit
 
-This area of the HSF website aims to offer guidance to new or existing projects as they progress through their lifecycle, with pointers to activities within HSF that are useful along the way.
+This area of the HSF website aims to offer guidance to new or existing projects
+as they progress through their lifecycle, with pointers to activities within HSF
+that are useful along the way.
 
 ## Contents
 

@@ -11,7 +11,7 @@ description: |
   of the quarks and gluons that make up the protons and neutrons of nuclei. The force that 
   holds quarks together, carried by the gluons, is the strongest force in Nature. The EIC will 
   allow us to study this “strong nuclear force” and the role of gluons in the matter within and 
-  all around us. 
+  all around us.
 ---
 
 {% include gsoc_proposal.ext %}

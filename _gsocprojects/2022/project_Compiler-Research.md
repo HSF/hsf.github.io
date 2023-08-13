@@ -8,4 +8,3 @@ description: |
 ---
 
 {% include gsoc_project.ext %}
-
