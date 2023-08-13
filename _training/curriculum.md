@@ -43,7 +43,7 @@ See [below](#bkginfo) for more information about the modules listed here.
 
 Training in software and computing are essential ingredients for the success of any HEP experiment. As most experiments have similar basic prerequisites (Unix shell, Python, C++, …) we want to join our efforts and create one introductory software training curriculum that serves HEP newcomers the software skills needed as they enter the field, and in parallel, instill best practices for writing software.
 
-The curriculum is comprised of a set of standardized *modules*, so that learners students can focus on what is most relevant to them.
+The curriculum is comprised of a set of *modules* (developed by HSF, Software Carpentries, and other organization), so that learners students can focus on what is most relevant to them.
 
 * Show all modules in a table (mostly for administrative purposes): [click here]({{site.baseurl}}/training/curriculum_table.html)
 * I want to **contribute** or **teach**:
