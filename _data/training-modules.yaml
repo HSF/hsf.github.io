@@ -108,7 +108,7 @@
 - description: E.g. <code>yadage</code> and <code>reana</code>
   name: Workflows &amp; reproducibility
   repository: ''
-  status: alpha
+  status: stable
   videos: ''
   webpage: ''
   id: yadagereana
