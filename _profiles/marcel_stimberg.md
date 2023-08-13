@@ -13,9 +13,8 @@ linkedin: null
 email: marcel.stimberg@inserm.fr
 
 # Training WG
-training_roles: ["instructor"]              # subset of [facilitator, instructor, mentor], can stay empty ([])
-training_years: [2021]              # in which years did you help out? (e.g. [2020, 2019])
+training_roles: ["instructor"] # subset of [facilitator, instructor, mentor], can stay empty ([])
+training_years: [2021] # in which years did you help out? (e.g. [2020, 2019])
 
 layout: educator
 ---
-

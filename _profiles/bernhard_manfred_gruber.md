@@ -1,13 +1,13 @@
 ---
 title: Bernhard Manfred Gruber
 training_years:
-- 2021
-- 2022
-- 2023
+  - 2021
+  - 2022
+  - 2023
 training_roles:
-- instructor
-- mentor
-- author
+  - instructor
+  - mentor
+  - author
 gravatar: null
 github: bernhardmgruber
 gitlab: null

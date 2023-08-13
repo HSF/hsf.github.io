@@ -5,7 +5,12 @@ layout: plain_toc
 
 ## Attending
 
-Present/Contributing: Graeme Stewart, Krzysztof Genser, Oksana Shadura, Marc Paterno, Torre Wenaus, Nicole Skidmore, Liz Sexton-Kennedy, Dorothea vom Bruch, Kyle Knoepfel, Markus Diefenthaler, Efe Yazgan, Valentin Volkl, Stefan Roiser, Matti Kortelainen , Patrick Gartung, John Chapman, Juraj Smiesko, Matthew Feikert, Nathan Brei, Nick Smith, Paul Laycock, Philippe Canal, Vakho Tsulaia, Allie Hall, Ben Morgan, Caterina Doglioni, Jim Pivarski
+Present/Contributing: Graeme Stewart, Krzysztof Genser, Oksana Shadura, Marc
+Paterno, Torre Wenaus, Nicole Skidmore, Liz Sexton-Kennedy, Dorothea vom Bruch,
+Kyle Knoepfel, Markus Diefenthaler, Efe Yazgan, Valentin Volkl, Stefan Roiser,
+Matti Kortelainen , Patrick Gartung, John Chapman, Juraj Smiesko, Matthew
+Feikert, Nathan Brei, Nick Smith, Paul Laycock, Philippe Canal, Vakho Tsulaia,
+Allie Hall, Ben Morgan, Caterina Doglioni, Jim Pivarski
 
 Apologies/Contributing: Benedikt Hegner, Eduardo Rodrigues
 
@@ -17,50 +22,76 @@ Apologies/Contributing: Benedikt Hegner, Eduardo Rodrigues
 
 Is now available on [arXiv:2212.04889](https://arxiv.org/abs/2212.04889).
 
-N.B. We should continue to occasionally review progress on the outcomes and follow-up points.
+N.B. We should continue to occasionally review progress on the outcomes and
+follow-up points.
 
 ### Pre-CHEP Workshop
 
-We have confirmed with WLCG colleagues and LHC computing coordinators the two topics for a [pre-CHEP workshop](https://indico.cern.ch/e/wlcg-hsf23) on 6-7 May 2023 in Norfolk, VA.
+We have confirmed with WLCG colleagues and LHC computing coordinators the two
+topics for a [pre-CHEP workshop](https://indico.cern.ch/e/wlcg-hsf23) on 6-7 May
+2023 in Norfolk, VA.
 
 - Analysis Facilities
-  - Based on the findings of the AFF group (which we asked to draw conclusions after 12-18 months of work).
-  - How do workloads evolve? How do sites adapt their offerings? What are the benchmarks of success?
+  - Based on the findings of the AFF group (which we asked to draw conclusions
+    after 12-18 months of work).
+  - How do workloads evolve? How do sites adapt their offerings? What are the
+    benchmarks of success?
 - Non-x86 Computing
-  - Increasingly diverse computing architectures at sites, both in CPU flavours (ARM, PowerPC) and accelerators (GPUs, mainly, from different stables).
-  - Readiness of experiments to adapt to this new environment, covering development, building, validation, workflow management, etc.
+  - Increasingly diverse computing architectures at sites, both in CPU flavours
+    (ARM, PowerPC) and accelerators (GPUs, mainly, from different stables).
+  - Readiness of experiments to adapt to this new environment, covering
+    development, building, validation, workflow management, etc.
 
-Still to follow-up on remote participation options (the CHEP venue contract was signed pre-COVID), but we do hope people come in-person.
+Still to follow-up on remote participation options (the CHEP venue contract was
+signed pre-COVID), but we do hope people come in-person.
 
-Scientific organising committee will meet next Monday (HSF AFF coordinators + WLCG people).
+Scientific organising committee will meet next Monday (HSF AFF coordinators +
+WLCG people).
 
 ### Letter of Cooperation Request
 
-Graeme and Mike Sokoloff discussed after our December 8 meeting and Mike prepared an [abbreviated public text](https://drive.google.com/file/d/1plY9AkUIg1IKX1N5UPcDfWMVFb3ifi7L/view?usp=share_link) of the NSF proposal to develop massively parallel and high-dimensional fitters.
+Graeme and Mike Sokoloff discussed after our December 8 meeting and Mike
+prepared an
+[abbreviated public text](https://drive.google.com/file/d/1plY9AkUIg1IKX1N5UPcDfWMVFb3ifi7L/view?usp=share_link)
+of the NSF proposal to develop massively parallel and high-dimensional fitters.
 
-With that in place we signed the [letter of cooperation](https://docs.google.com/document/d/1wnrbIw4Dv_VgWOleBRkbRddaFAtQ2wRnmqUMrftfnBg/edit?usp=share_link) (in the very standardised NSF format!).
+With that in place we signed the
+[letter of cooperation](https://docs.google.com/document/d/1wnrbIw4Dv_VgWOleBRkbRddaFAtQ2wRnmqUMrftfnBg/edit?usp=share_link)
+(in the very standardised NSF format!).
 
 ### Google Summer of Code, 2023
 
 Google Summer of Code for 2023 is starting!
 
-This year Benedikt will head up the organising team. After many years Andrei and Antoine step down. *Huge thanks to them for their work!*
+This year Benedikt will head up the organising team. After many years Andrei and
+Antoine step down. _Huge thanks to them for their work!_
 
-**We therefore urgently need two people to join Benedikt at the helm of GSoC for the HSF.** This is a very valuable service for the community and it is much appreciated by all of us, so please consider volunteering.
+**We therefore urgently need two people to join Benedikt at the helm of GSoC for
+the HSF.** This is a very valuable service for the community and it is much
+appreciated by all of us, so please consider volunteering.
 
-**For projects** we need to have proposals available by *7 February* - it's not long. Please start thinking about this now!
+**For projects** we need to have proposals available by _7 February_ - it's not
+long. Please start thinking about this now!
 
-Programme allows for long/short contributions. GSoC people do not have to be students any more. However, note we had our highest failure rate last year (5/27), so we probably need to put extra effort into the pre-selection process.
+Programme allows for long/short contributions. GSoC people do not have to be
+students any more. However, note we had our highest failure rate last year
+(5/27), so we probably need to put extra effort into the pre-selection process.
 
 ## Working Group Updates
 
 ### General
 
-We are proceeding well with WG convenerships for 2023. A few WGs are not quite concluded yet (Data Analysis and Software Trigger and Reco), but should converge soon.
+We are proceeding well with WG convenerships for 2023. A few WGs are not quite
+concluded yet (Data Analysis and Software Trigger and Reco), but should converge
+soon.
 
-We are very grateful to all the conveners, continuing, joining or stepping down, for their contribution to the community through the HSF. **Thank you!** We hope that outgoing conveners remain active in the groups, even if relieved of specific responsibilities.
+We are very grateful to all the conveners, continuing, joining or stepping down,
+for their contribution to the community through the HSF. **Thank you!** We hope
+that outgoing conveners remain active in the groups, even if relieved of
+specific responsibilities.
 
-Today we shall review 2022 and discuss plans for 2023 with 4 of the groups. The other WGs we shall cover at the next meeting.
+Today we shall review 2022 and discuss plans for 2023 with 4 of the groups. The
+other WGs we shall cover at the next meeting.
 
 #### General HSF Activities
 
@@ -68,9 +99,10 @@ See slides attached to the [agenda](https://indico.cern.ch/event/1225007/).
 
 #### Meetings
 
-*Reminder:* Please try and book meetings in Indico at least 2 weeks in advance!
+_Reminder:_ Please try and book meetings in Indico at least 2 weeks in advance!
 
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to the HSF Forum.
+That way they go into the calendar early and they will be included in the weekly
+email announcement that goes to the HSF Forum.
 
 ### Data Analysis
 
@@ -132,11 +164,17 @@ PyHEPdev looks like a great initiative.
 
 See slides attached to the [agenda](https://indico.cern.ch/event/1225007/).
 
-Standards would be very interesting. No detailed discussions yet on APIs or specific needs. This came out of an MC4EIC discussion, where specific nuclear generators are used, but they lack many important features found in generators like Sherpa and MG5 (matching, merging, ...).
+Standards would be very interesting. No detailed discussions yet on APIs or
+specific needs. This came out of an MC4EIC discussion, where specific nuclear
+generators are used, but they lack many important features found in generators
+like Sherpa and MG5 (matching, merging, ...).
 
-Workshop on computational efficiency in generators would be welcome again. CMS meeting that discussed this, so there is interest. But how can we engage them better?
+Workshop on computational efficiency in generators would be welcome again. CMS
+meeting that discussed this, so there is interest. But how can we engage them
+better?
 
-Our mailing lists might well be a bit tired now, given their origins in the CWP process.
+Our mailing lists might well be a bit tired now, given their origins in the CWP
+process.
 
 ### Frameworks
 
@@ -148,7 +186,8 @@ Our mailing lists might well be a bit tired now, given their origins in the CWP 
 
 See slides attached to the [agenda](https://indico.cern.ch/event/1225007/).
 
-New language feature presentations were very popular last year - they are certainly cross-cutting and of general interest.
+New language feature presentations were very popular last year - they are
+certainly cross-cutting and of general interest.
 
 ### Software Training
 
@@ -164,15 +203,21 @@ New language feature presentations were very popular last year - they are certai
 ### Compute Accelerator Forum
 
 - 2023 Calendar
+
   - [Madgraph5_aMC@NLO](https://indico.cern.ch/event/1207838/), 8 February
   - [Hepix Benchmarking](https://indico.cern.ch/event/1207839/), 8 March
 
-- Do get in touch with Graeme, Ben, Stefan if you have an idea or a topic to present
+- Do get in touch with Graeme, Ben, Stefan if you have an idea or a topic to
+  present
 
 ### Software and Computing Roundtable
 
-- The ["Year in Review" event](https://indico.jlab.org/event/675/#b-3493-year-in-review-and-2023) with contributions from the HEP Software Foundation, Brookhaven National Laboratory, and Jefferson Lab was on Tuesday,
-  - Graeme gave the HSF talk, summarising events and workshops that we had last year, GSoC, Training, etc.
+- The
+  ["Year in Review" event](https://indico.jlab.org/event/675/#b-3493-year-in-review-and-2023)
+  with contributions from the HEP Software Foundation, Brookhaven National
+  Laboratory, and Jefferson Lab was on Tuesday,
+  - Graeme gave the HSF talk, summarising events and workshops that we had last
+    year, GSoC, Training, etc.
 
 ---
 
@@ -180,4 +225,5 @@ New language feature presentations were very popular last year - they are certai
 
 ### Next Meeting
 
-The next meeting will be on [2 February](https://indico.cern.ch/event/1225008/). We shall complete our overview of 2022 and planning for 2023.
+The next meeting will be on [2 February](https://indico.cern.ch/event/1225008/).
+We shall complete our overview of 2022 and planning for 2023.

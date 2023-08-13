@@ -2,9 +2,9 @@
 title: Stewart Martin-Haugh
 country: GB
 training_roles:
-- mentor
+  - mentor
 training_years:
-- 2020
+  - 2020
 github: StewMH
 gravatar: null
 homepage: https://www.ppd.stfc.ac.uk/Pages/Stewart-Martin-Haugh.aspx

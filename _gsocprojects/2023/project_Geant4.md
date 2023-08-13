@@ -15,4 +15,3 @@ summary: |
 ---
 
 {% include gsoc_project.ext %}
-

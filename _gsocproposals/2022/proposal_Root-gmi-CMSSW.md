@@ -41,18 +41,17 @@ One source of performance loss is the need for symbol lookups across the very
 large set of CMSSW modules. ROOT needs to be improved to optimize this lookup so
 that it does not pull all modules defining namespace `edm` on `edm::X` lookups.
 
-
-
 ## Task ideas
 
 The project consists of the following tasks:
-  * Develop an extension to the `GlobalModuleIndex` infrastructure in clang
-    which keeps track of the `DeclKind` of the identifiers so that we can
-    later ignore the identifiers that declare a namespace.
-  * Track down the test failures of CMSSW and check if the proposed
-    implementation works.
-  * Develop tutorials and documentation.
-  * Present the work at the relevant meetings and conferences.
+
+- Develop an extension to the `GlobalModuleIndex` infrastructure in clang which
+  keeps track of the `DeclKind` of the identifiers so that we can later ignore
+  the identifiers that declare a namespace.
+- Track down the test failures of CMSSW and check if the proposed implementation
+  works.
+- Develop tutorials and documentation.
+- Present the work at the relevant meetings and conferences.
 
 ## Technology
 
@@ -60,9 +59,9 @@ C/C++, Clang, LLVM, ROOT
 
 ## Desirable Skills
 
- * Necessary knowledge: C++ programming; data structures and algorithms.
- * Basic knowledge of Clang and LLVM
- * Experience with ROOT would be an asset.
+- Necessary knowledge: C++ programming; data structures and algorithms.
+- Basic knowledge of Clang and LLVM
+- Experience with ROOT would be an asset.
 
 ## Expected results
 
@@ -84,15 +83,16 @@ in order to maximize your chances to get selected:
 For an evaluation task please contact the mentors.
 
 ## Mentors
- * **[Alexander Penev](mailto:alexander.p.penev@gmail.com)** (University of Plovdiv Paisii Hilendarski)
- * [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
- * [David Lange](mailto:david.lange@cern.ch) (Princeton)
+
+- **[Alexander Penev](mailto:alexander.p.penev@gmail.com)** (University of
+  Plovdiv Paisii Hilendarski)
+- [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
+- [David Lange](mailto:david.lange@cern.ch) (Princeton)
 
 ## Links
 
 [ROOT](https://github.com/root-project/root)
 [CMSSW](https://github.com/cms-sw/cmssw/)
 [Compiler-Research](https://compiler-research.org)
-[clad](https://github.com/vgvassilev/clad)
-[llvm](https://llvm.org/)
+[clad](https://github.com/vgvassilev/clad) [llvm](https://llvm.org/)
 [clang](https://clang.llvm.org/)

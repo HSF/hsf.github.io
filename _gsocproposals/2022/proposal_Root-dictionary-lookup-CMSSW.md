@@ -45,18 +45,17 @@ to track dictionary<->module mappings for C++ entities that introduce synonyms
 rather than declarations (`using MyVector = std::vector<A<B>>` where the
 dictionaries of A, B are elsewhere)
 
-
 ## Task ideas
 
 The project consists of the following tasks:
-  * If an alias declaration of kind `using MyVector = std::vector<A<B>>`, we
-    should store the ODRHash of it in the respective dictionary file as a
-    number attached to a special variable which can be retrieved at symbol
-    scanning time.
-  * Track down the test failures of CMSSW and check if the proposed
-    implementation works.
-  * Develop tutorials and documentation.
-  * Present the work at the relevant meetings and conferences.
+
+- If an alias declaration of kind `using MyVector = std::vector<A<B>>`, we
+  should store the ODRHash of it in the respective dictionary file as a number
+  attached to a special variable which can be retrieved at symbol scanning time.
+- Track down the test failures of CMSSW and check if the proposed implementation
+  works.
+- Develop tutorials and documentation.
+- Present the work at the relevant meetings and conferences.
 
 ## Technology
 
@@ -64,9 +63,9 @@ C/C++, Clang, LLVM, ROOT
 
 ## Desirable Skills
 
- * Necessary knowledge: C++ programming; data structures and algorithms.
- * Basic knowledge of Clang and LLVM
- * Experience with ROOT would be an asset.
+- Necessary knowledge: C++ programming; data structures and algorithms.
+- Basic knowledge of Clang and LLVM
+- Experience with ROOT would be an asset.
 
 ## Expected results
 
@@ -87,15 +86,16 @@ in order to maximize your chances to get selected:
 For an evaluation task please contact the mentors.
 
 ## Mentors
- * **[Vassil Vassilev](mailto:vvasilev@cern.ch)** (Princeton)
- * [Alexander Penev](mailto:alexander.p.penev@gmail.com) (University of Plovdiv Paisii Hilendarski)
- * [David Lange](mailto:david.lange@cern.ch) (Princeton)
+
+- **[Vassil Vassilev](mailto:vvasilev@cern.ch)** (Princeton)
+- [Alexander Penev](mailto:alexander.p.penev@gmail.com) (University of Plovdiv
+  Paisii Hilendarski)
+- [David Lange](mailto:david.lange@cern.ch) (Princeton)
 
 ## Links
 
 [ROOT](https://github.com/root-project/root)
 [CMSSW](https://github.com/cms-sw/cmssw/)
 [Compiler-Research](https://compiler-research.org)
-[clad](https://github.com/vgvassilev/clad)
-[llvm](https://llvm.org/)
+[clad](https://github.com/vgvassilev/clad) [llvm](https://llvm.org/)
 [clang](https://clang.llvm.org/)

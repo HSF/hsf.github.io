@@ -6,5 +6,4 @@ description: |
   [CMS](http://cms.cern/) is a high-energy physics experiment at the LHC.
 ---
 
-
 {% include gsoc_project.ext %}

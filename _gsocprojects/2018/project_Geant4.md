@@ -7,5 +7,4 @@ description: |
   using Monte Carlo methods.
 ---
 
-
 {% include gsoc_project.ext %}

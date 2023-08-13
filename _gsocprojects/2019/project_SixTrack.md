@@ -27,8 +27,6 @@ summary: |
   of high energy particles in accelerators. It has been used in the design and optimization of
   the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be
   installed in the next decade.
-
 ---
-
 
 {% include gsoc_project.ext %}

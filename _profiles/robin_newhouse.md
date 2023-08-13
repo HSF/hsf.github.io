@@ -2,9 +2,9 @@
 title: Robin Newhouse
 country: CA
 training_roles:
-- mentor
+  - mentor
 training_years:
-- 2020
+  - 2020
 github: robinnewhouse
 gravatar: 19b484d43646573791323ef5f370a478
 homepage: https://rnewhous.web.cern.ch/rnewhous/

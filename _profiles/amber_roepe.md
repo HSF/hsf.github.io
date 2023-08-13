@@ -2,10 +2,10 @@
 title: Amber Roepe (she/her)
 country: US
 training_roles:
-- instructor
-- mentor
+  - instructor
+  - mentor
 training_years:
-- 2020
+  - 2020
 github: aroepe
 gravatar: null
 homepage: https://nhn.ou.edu/~roepe
@@ -22,4 +22,6 @@ layout: educator
 You can use Markdown syntax to style this page.
 -->
 
-Hi! I'm a PhD student at the University of Oklahoma. My research focuses on searching for Long-Lived Particles and optimizing the ATLAS Large Radius Tracking algorithms for Run 3 and Run 4.
+Hi! I'm a PhD student at the University of Oklahoma. My research focuses on
+searching for Long-Lived Particles and optimizing the ATLAS Large Radius
+Tracking algorithms for Run 3 and Run 4.

@@ -1,14 +1,14 @@
 ---
 title: Emery NIBIGIRA
 training_years:
-- 2020
-- 2021
-- 2023
+  - 2020
+  - 2021
+  - 2023
 training_roles:
-- facilitator
-- instructor
-- author
-- mentor
+  - facilitator
+  - instructor
+  - author
+  - mentor
 gravatar: null
 github: enibigir
 gitlab: enibigir
@@ -21,4 +21,7 @@ email: emery.nibigira@cern.ch
 layout: educator
 ---
 
-I am currently working as a member of the CMS collaboration. I am involved with tracking detector commissioning, Beam test, Code development, Data Acquisition. As well as Simulation and Data Analysis in the context of searches for New Physics.
+I am currently working as a member of the CMS collaboration. I am involved with
+tracking detector commissioning, Beam test, Code development, Data Acquisition.
+As well as Simulation and Data Analysis in the context of searches for New
+Physics.

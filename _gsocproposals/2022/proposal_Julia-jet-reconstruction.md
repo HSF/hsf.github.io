@@ -7,7 +7,7 @@ difficulty: medium
 duration: 350
 mentor_avail: June-July, September-October
 organization:
-    - CERN
+  - CERN
 ---
 
 # Description
@@ -22,8 +22,8 @@ speed is paramount; and **Python**, for interactivity and ease of development
 (often used as 'glue' between high-performance code modules). Recently there has
 been [increasing interest][SCRoundtable] in [**Julia**][julialang] as an
 alternative/additional language for HEP. This could offer the convenience
-features of Python, but the optimal runtime speed of C++
-([Julia in HEP Paper][JuliaHEPPaper], [Julia HEP Github][JHEPGH]).
+features of Python, but the optimal runtime speed of C++ ([Julia in HEP
+Paper][JuliaHEPPaper], [Julia HEP Github][JHEPGH]).
 
 In order to continue this investigation, this project will re-implement some
 important algorithms for HEP in Julia, with the aim of assessing developer
@@ -39,13 +39,14 @@ convenience and runtime performance compared to standard implementations in C++.
 The passage of high-energy particles through detectors like ATLAS and CMS at
 CERN frequently results in showers of secondary particles that form a cascade,
 which is captured in the calorimeters of these experiments. These particle
-cascades are called [*jets*][jethep] and it is extremely important to
+cascades are called [_jets_][jethep] and it is extremely important to
 reconstruct the energy of the primary particle from the calorimeter
 measurements.
 
 Over the years the community have developed several well-tested algorithms for
-doing this. One of the most popular is the [*anti-kt* algorithm][antikt], which
-has a community standard implementation as part of the [FastJet package][fastjet]. <!-- markdown-link-check-disable-line -->
+doing this. One of the most popular is the [_anti-kt_ algorithm][antikt], which
+has a community standard implementation as part of the [FastJet
+package][fastjet]. <!-- markdown-link-check-disable-line -->
 
 ## Task ideas and expected results
 
@@ -67,8 +68,10 @@ sufficiently quickly for the project.
 
 The task has many possible extensions that the candidate could tackle:
 
-* Implement additional algorithms for jet reconstruction (longitudinally invariant kt; longitudinally invariant inclusive Cambridge/Aachen)
-* Integration into the [Key4hep][key4hep] software stack, using the [EDM4hep][edm4hep] data model
+- Implement additional algorithms for jet reconstruction (longitudinally
+  invariant kt; longitudinally invariant inclusive Cambridge/Aachen)
+- Integration into the [Key4hep][key4hep] software stack, using the
+  [EDM4hep][edm4hep] data model
 
 ## Evaluation Task
 
@@ -80,28 +83,28 @@ of their evaluation.
 
 ## Mentors
 
-* **[Benedikt Hegner](mailto:Benedikt.Hegner@cern.ch)** (CERN)
-* [Graeme A Stewart](mailto:graeme.andrew.stewart@cern.ch) (CERN)
+- **[Benedikt Hegner](mailto:Benedikt.Hegner@cern.ch)** (CERN)
+- [Graeme A Stewart](mailto:graeme.andrew.stewart@cern.ch) (CERN)
 
 ## Links
 
 ### Julia
 
-* [Julia Programming Language][Julialang]
-* [Julia in HEP Github][JHEPGH]
-* [S&C Roundtable Meeting on Programming Languages][SCRoundtable]
-* [HSF Julia Mini-Workshop][HSFJulia]
+- [Julia Programming Language][Julialang]
+- [Julia in HEP Github][JHEPGH]
+- [S&C Roundtable Meeting on Programming Languages][SCRoundtable]
+- [HSF Julia Mini-Workshop][HSFJulia]
 
 ### Jets and Reconstruction Algorithms
 
-* [Jets in HEP][jethep]
-* [The anti-kt jet clustering algorithm][antikt]
-* [FastJet][fastjet] <!-- markdown-link-check-disable-line -->
+- [Jets in HEP][jethep]
+- [The anti-kt jet clustering algorithm][antikt]
+- [FastJet][fastjet] <!-- markdown-link-check-disable-line -->
 
 ### HEP Software Stacks
 
-* [Key4hep][key4hep]
-* [EMD4hep][edm4hep]
+- [Key4hep][key4hep]
+- [EMD4hep][edm4hep]
 
 [Julialang]: https://julialang.org/
 [SCRoundtable]: https://indico.jlab.org/event/505/#day-2022-02-08

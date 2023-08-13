@@ -8,11 +8,13 @@ layout: default
 
 ## Introduction
 
-[Season of Docs](https://developers.google.com/season-of-docs/) is a program that brings technical writers and open source projects together for a few months to work on open source documentation.
+[Season of Docs](https://developers.google.com/season-of-docs/) is a program
+that brings technical writers and open source projects together for a few months
+to work on open source documentation.
 
-Particle physics is an exciting field where large collaborations of scientists collect
-and analyze petabytes data from high-energy physics experiments, such as the Large Hadron Collider,
-hosted at the CERN laboratory in Geneva, Switzerland.
+Particle physics is an exciting field where large collaborations of scientists
+collect and analyze petabytes data from high-energy physics experiments, such as
+the Large Hadron Collider, hosted at the CERN laboratory in Geneva, Switzerland.
 Some of the questions that we collectively ask are:
 
 - what are the fundamental blocks that make up our Universe?
@@ -20,15 +22,19 @@ Some of the questions that we collectively ask are:
 - what is the nature of the asymmetry between matter and antimatter?
 - what was early Universe like?
 
-To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
+To answer these questions, particle physicists build software to simulate and
+analyze what happens in particle physics detectors.
 
-Since 2011, CERN has participated in other Google initiatives such as Google Summer of Code (GSoC), first as a small organization (CERN-SFT) and later as an umbrella organization (CERN-HSF) to involve the high-energy physics community. Given the good results in the past under the GSoC program, CERN-HSF is eager to participate in this first edition of Season of Docs.
-
+Since 2011, CERN has participated in other Google initiatives such as Google
+Summer of Code (GSoC), first as a small organization (CERN-SFT) and later as an
+umbrella organization (CERN-HSF) to involve the high-energy physics community.
+Given the good results in the past under the GSoC program, CERN-HSF is eager to
+participate in this first edition of Season of Docs.
 
 ### Season of Docs 2019
 
-In 2019 CERN-HSF is planning to apply as an umbrella organization, project proposals are listed [below](#projects-in-2019).
-
+In 2019 CERN-HSF is planning to apply as an umbrella organization, project
+proposals are listed [below](#projects-in-2019).
 
 ## Projects in 2019
 
@@ -47,7 +53,8 @@ In 2019 CERN-HSF is planning to apply as an umbrella organization, project propo
 
 ---
 
-*HSF Season of Docs Administrators*: Andrei Gheata, Antoine Pérus and Javier Cervantes Villanueva.
+_HSF Season of Docs Administrators_: Andrei Gheata, Antoine Pérus and Javier
+Cervantes Villanueva.
 
 [Contact us](mailto:hsf-gsdocs-admin@googlegroups.com)
 [General e-mail](mailto:hep-software-foundation-google-season-of-docs@googlegroups.com)

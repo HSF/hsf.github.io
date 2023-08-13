@@ -8,23 +8,24 @@ organization: Princeton
 
 # Description
 
-In mathematics and computer algebra, automatic differentiation (AD) is a set of techniques
-to numerically evaluate the derivative of a function specified by a computer program. Automatic
-differentiation is an alternative technique to Symbolic differentiation and Numerical
-differentiation (the method of finite differences). [CLAD](https://github.com/vgvassilev/clad)
-is based on Clang which will provide the necessary facilities for code transformation.
-The AD library is able to differentiate non-trivial functions, to find a partial derivative for
+In mathematics and computer algebra, automatic differentiation (AD) is a set of
+techniques to numerically evaluate the derivative of a function specified by a
+computer program. Automatic differentiation is an alternative technique to
+Symbolic differentiation and Numerical differentiation (the method of finite
+differences). [CLAD](https://github.com/vgvassilev/clad) is based on Clang which
+will provide the necessary facilities for code transformation. The AD library is
+able to differentiate non-trivial functions, to find a partial derivative for
 trivial cases and has good unit test coverage.
 
-
 ## Task ideas and expected results:
-  * The student should teach AD how to generate generate gradients computation in one function
-  for a given function to differentiate.
-  * The implementation should be very well-tested and documented. The student should prepare a
-  final poster of the work and be ready to present it.
+
+- The student should teach AD how to generate generate gradients computation in
+  one function for a given function to differentiate.
+- The implementation should be very well-tested and documented. The student
+  should prepare a final poster of the work and be ready to present it.
 
 **Requirements**: Advanced C++, Clang abstract syntax tree (AST), basic math.
 
-**Mentors**: 
+**Mentors**:
 
-  *  [Vassil Vassilev](mailto:sft-gsoc@cern.ch)
+- [Vassil Vassilev](mailto:sft-gsoc@cern.ch)

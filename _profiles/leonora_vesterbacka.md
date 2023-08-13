@@ -2,10 +2,10 @@
 title: Leonora Vesterbacka
 country: SE
 training_roles:
-- facilitator
-- mentor
+  - facilitator
+  - mentor
 training_years:
-- 2020
+  - 2020
 github: leonoravesterbacka
 gitlab: mvesterb
 linkedin: leonora-vesterbacka
@@ -15,4 +15,6 @@ bitbucket: null
 orcid: null
 layout: educator
 ---
-Hi, I'm Leonora. I'm a Postdoc at NYU working on the ATLAS experiment. I have been involved in these trainings since the start of 2020.
+
+Hi, I'm Leonora. I'm a Postdoc at NYU working on the ATLAS experiment. I have
+been involved in these trainings since the start of 2020.

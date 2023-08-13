@@ -5,7 +5,7 @@ logo: ATHENA-logo.png
 description: |
   The [ATHENA collaboration](https://athena-eic.org) is developing a forward-looking 
   community-focused software environment for future experiments at the Electron-Ion 
-  Collider. 
+  Collider.
 summary: |
   Based on widely-used community components (DD4hep, Gaudi, ACTS, EDM4hep) and in 
   close collaboration with the key4HEP project, the ATHENA software environment is 

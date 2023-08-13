@@ -1,9 +1,9 @@
 ---
 title: Robert Langenberg
 training_years:
-- 2020
+  - 2020
 training_roles:
-- mentor
+  - mentor
 gravatar: null
 github: null
 gitlab: null

@@ -1,57 +1,60 @@
-- description: 'Track code changes, undo mistakes, collaborate. This module is a must.'
+- description:
+    "Track code changes, undo mistakes, collaborate. This module is a must."
   name: Version controlling with git
   repository: https://github.com/swcarpentry/git-novice
   status: stable
-  videos: ''
+  videos: ""
   webpage: http://swcarpentry.github.io/git-novice
   id: git
-- description: 'Learn to work with branches and more with this interactive webpage.'
+- description:
+    "Learn to work with branches and more with this interactive webpage."
   name: Advanced git
   repository: https://github.com/pcottle/learnGitBranching
   status: stable
-  videos: ''
+  videos: ""
   webpage: https://learngitbranching.js.org/?locale=en_US
   id: advancedgit
-- description: 'Get started with an incredibly popular programming language.'
+- description: "Get started with an incredibly popular programming language."
   name: Programming with python
   repository: https://github.com/swcarpentry/python-novice-inflammation
   status: stable
-  videos: ''
+  videos: ""
   webpage: http://swcarpentry.github.io/python-novice-inflammation
   id: python
-- description: 'A full introduction to C++ based on a series of slides and exercises.'
+- description:
+    "A full introduction to C++ based on a series of slides and exercises."
   name: HEP C++ Course
   repository: https://github.com/hsf-training/cpluspluscourse
   status: stable
   videos: https://github.com/hsf-training/cpluspluscourse#-video-recordings--events
   webpage: https://github.com/hsf-training/cpluspluscourse#-getting-the-latest-pdf
   id: hepcpp
-- description: 'Building code is hard. <code>CMake</code> makes it easier.'
-  name: 'Build systems:  <code>cmake</code>'
+- description: "Building code is hard. <code>CMake</code> makes it easier."
+  name: "Build systems:  <code>cmake</code>"
   repository: https://github.com/hsf-training/hsf-training-cmake-webpage
   status: stable
-  videos: ''
+  videos: ""
   webpage: https://hsf-training.github.io/hsf-training-cmake-webpage/
   id: cmake
-- description: ''
+- description: ""
   name: Distributed file systems and grid computing
-  repository: ''
+  repository: ""
   status: alpha
-  videos: ''
-  webpage: ''
+  videos: ""
+  webpage: ""
   id: grid
-- description: 'The most famous data analysis framework used in HEP.'
+- description: "The most famous data analysis framework used in HEP."
   name: <code>ROOT</code>
-  repository: 'https://github.com/root-project/software-carpentry'
+  repository: "https://github.com/root-project/software-carpentry"
   status: stable
-  videos: ''
-  webpage: 'https://github.com/root-project/software-carpentry'
+  videos: ""
+  webpage: "https://github.com/root-project/software-carpentry"
   id: root
 - description: Reading and writing ROOT files without having to install ROOT.
   name: <code>uproot</code>
   repository: https://github.com/hsf-training/hsf-training-uproot-webpage
   status: beta
-  videos: ''
+  videos: ""
   webpage: https://hsf-training.github.io/hsf-training-uproot-webpage/
   id: uproot
 - description: A simple analysis using CMS open data.
@@ -61,29 +64,31 @@
   videos: https://www.youtube.com/watch?v=gplMywJAFDI&list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V
   webpage: https://hsf-training.github.io/hsf-training-cms-analysis-webpage/
   id: simpleanalysis
-- description: <a href="https://en.wikipedia.org/wiki/Unit_testing">Unit testing</a>
-    in python.
+- description:
+    <a href="https://en.wikipedia.org/wiki/Unit_testing">Unit testing</a> in
+    python.
   name: Unit testing
   repository: https://github.com/carpentries-incubator/python-testing
   status: beta
-  videos: ''
+  videos: ""
   webpage: http://carpentries-incubator.github.io/python-testing/
   id: testingpython
-- description: 'Make science prettier with beautiful plots!'
+- description: "Make science prettier with beautiful plots!"
   name: Matplotlib for HEP
   repository: https://github.com/hsf-training/hsf-training-matplotlib
   status: beta
-  videos: ''
+  videos: ""
   webpage: https://hsf-training.github.io/hsf-training-matplotlib/
   id: matplotlib
-- description: ''
+- description: ""
   name: Parallel programming
-  repository: ''
+  repository: ""
   status: alpha
-  videos: ''
-  webpage: ''
+  videos: ""
+  webpage: ""
   id: parallel
-- description: Introduction to the <a href="https://www.docker.com/">docker</a> container
+- description:
+    Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: Docker
   repository: https://github.com/hsf-training/hsf-training-docker
@@ -93,26 +98,28 @@
   id: docker
 - description: E.g. <code>yadage</code> and <code>reana</code>
   name: Workflows &amp; reproducibility
-  repository: ''
+  repository: ""
   status: alpha
-  videos: ''
-  webpage: ''
+  videos: ""
+  webpage: ""
   id: yadagereana
-- description: 'Get behind the buzzword and teach machines to work for you intelligently!'
+- description:
+    "Get behind the buzzword and teach machines to work for you intelligently!"
   name: Machine learning
   repository: https://github.com/hsf-training/hsf-training-ml-webpage
   status: stable
   videos: https://www.youtube.com/playlist?list=PLKZ9c4ONm-VmHsMKImIDEMsZI1Vp0UY-Z
   webpage: https://hsf-training.github.io/hsf-training-ml-webpage
   id: ml
-- description: 'Speed up your machine learning using massive parallelization!'
+- description: "Speed up your machine learning using massive parallelization!"
   name: Machine learning on GPU
   repository: https://github.com/hsf-training/hsf-training-ml-gpu-webpage
   status: stable
   videos: https://www.youtube.com/playlist?list=PLKZ9c4ONm-VnfKk7XrVUa-V42lUdMrB6M
   webpage: https://hsf-training.github.io/hsf-training-ml-gpu-webpage
   id: gpuml
-- description: <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and
+- description:
+    <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and
     deployment</a> with <a href="https://about.gitlab.com/">gitlab</a>.
   name: CI/CD (gitlab)
   repository: https://github.com/hsf-training/hsf-training-cicd
@@ -120,8 +127,10 @@
   videos: https://www.youtube.com/watch?v=C9auGFgIHns&list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb
   webpage: https://hsf-training.github.io/hsf-training-cicd/
   id: cicd
-- description: <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and
-    deployment</a> with <a href="https://github.com/features/actions">github actions</a>.
+- description:
+    <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and
+    deployment</a> with <a href="https://github.com/features/actions">github
+    actions</a>.
   name: CI/CD (github)
   repository: https://github.com/hsf-training/hsf-training-cicd-github
   status: stable
@@ -130,56 +139,64 @@
   id: cicdgithub
 - description: <code>sphinx</code>, <code>doxygen</code>, etc.
   name: Documentation
-  repository: ''
+  repository: ""
   status: alpha
-  videos: ''
-  webpage: ''
+  videos: ""
+  webpage: ""
   id: doc
-- description: <code>pythia</code>, <code>sherpa</code>, <code>madgraph</code>, etc.
+- description:
+    <code>pythia</code>, <code>sherpa</code>, <code>madgraph</code>, etc.
   name: Event generation and MC
-  repository: ''
+  repository: ""
   status: alpha
-  videos: ''
-  webpage: ''
+  videos: ""
+  webpage: ""
   id: generators
-- description: <a href="https://alpaka.readthedocs.io/en/latest/index.html">alpaka</a>
-    is a header-only C++ abstraction library for accelerator development.
+- description:
+    <a href="https://alpaka.readthedocs.io/en/latest/index.html">alpaka</a> is a
+    header-only C++ abstraction library for accelerator development.
   name: alpaka
   repository: https://github.com/hsf-training/hsf-training-alpaka-webpage
   status: alpha
-  videos: ''
-  webpage: ''
+  videos: ""
+  webpage: ""
   id: alpaka
-- description: Introduction to the <a href="https://en.wikipedia.org/wiki/Ssh_(Secure_Shell)">Secure Shell (SSH)</a>
+- description:
+    Introduction to the <a
+    href="https://en.wikipedia.org/wiki/Ssh_(Secure_Shell)">Secure Shell
+    (SSH)</a>
   name: SSH
   repository: https://github.com/hsf-training/hsf-training-ssh-webpage/
   status: alpha
-  videos: ''
+  videos: ""
   webpage: https://hsf-training.github.io/hsf-training-ssh-webpage/
   id: ssh
 - description: A guide through the basics of the file systems and the shell.
   name: The UNIX Shell
   repository: https://github.com/swcarpentry/shell-novice
   status: stable
-  videos: ''
+  videos: ""
   webpage: https://swcarpentry.github.io/shell-novice/
   id: unix
 - description: A collection of packages for particle physics analyses in Python.
   name: Scikit-HEP
   status: stable
-  videos: ''
+  videos: ""
   webpage: https://hsf-training.github.io/hsf-training-scikit-hep-webpage/
   id: scikithep
   repository: https://github.com/hsf-training/hsf-training-scikit-hep-webpage
-- description: Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>.
+- description:
+    Introduction to containerization with <a
+    href="https://apptainer.org/">Singularity/Apptainer</a>.
   name: Singularity
   status: beta
-  videos: 'https://www.youtube.com/watch?v=g0cCErlveiI&list=PLKZ9c4ONm-VkxWW98Gcn9H6WwykMiqtnF'
+  videos: "https://www.youtube.com/watch?v=g0cCErlveiI&list=PLKZ9c4ONm-VkxWW98Gcn9H6WwykMiqtnF"
   webpage: https://hsf-training.github.io/hsf-training-singularity-webpage/
   id: singularity
   repository: https://github.com/hsf-training/hsf-training-singularity-webpage
 - name: <code>UnROOT</code>
-  description: Open <code>ROOT</code> files in <a href="https://julialang.org/">Julia</a>!
+  description:
+    Open <code>ROOT</code> files in <a href="https://julialang.org/">Julia</a>!
   id: unroot
   status: beta
   videos: ""
@@ -189,13 +206,14 @@
   id: levelupyourpython
   name: Level up your python
   status: stable
-  videos: ''
+  videos: ""
   webpage: https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html
   repository: https://github.com/henryiii/level-up-your-python
-- description: Run containerised data analysis pipelines on remote compute clouds.
+- description:
+    Run containerised data analysis pipelines on remote compute clouds.
   id: reana
   name: Reproducible analyses with REANA
   status: beta
-  videos: ''
+  videos: ""
   webpage: https://hsf-training.github.io/hsf-training-reana-webpage/
   repository: https://github.com/hsf-training/hsf-training-reana-webpage

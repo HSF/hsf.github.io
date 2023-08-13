@@ -2,12 +2,12 @@
 title: Sam Meehan
 country: US
 training_roles:
-- facilitator
-- instructor
-- mentor
+  - facilitator
+  - instructor
+  - mentor
 training_years:
-- 2020
-- 2019
+  - 2020
+  - 2019
 github: smeehan12
 gravatar: null
 homepage: null

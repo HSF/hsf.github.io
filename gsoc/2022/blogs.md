@@ -5,9 +5,9 @@ year: 2022
 ---
 
 {% assign sorted_blogs = site.gsocblogs | sort: 'title' %}
-{% for blog in sorted_blogs %}
-{%- if blog.year == page.year %}
+{% for blog in sorted_blogs %} {%- if blog.year == page.year %}
 {% assign blog_intro = blog.intro | strip_newlines | markdownify %}
+
 <div class="blog-header" style="text-align: left">
   <div class="row">
     <div class="col-sm-2">
@@ -31,6 +31,7 @@ year: 2022
 {{blog_intro}}
 
 [ <span style="color:blue">Read more ...</span> ]( {{ blog.url }} )
+
 <hr>
 {%- endif -%}
 {% endfor %}

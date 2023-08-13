@@ -6,5 +6,4 @@ description: |
   [LHCb](http://lhcb.web.cern.ch/lhcb/) is a high-energy physics experiment at the LHC.
 ---
 
-
 {% include gsoc_project.ext %}

@@ -26,22 +26,23 @@ differentiation n times for n function arguments. The major benefit of using
 vector mode is that computationally expensive operations do not need to be
 recomputed n times for n function arguments.
 
-For example, if we want to compute `df/dx` and `df/dy` of a function
-`f(x, y)` using the forward mode AD in Clad, then currently we need to
-explicitly differentiate `f` two times. Vector mode will allow the generation of
+For example, if we want to compute `df/dx` and `df/dy` of a function `f(x, y)`
+using the forward mode AD in Clad, then currently we need to explicitly
+differentiate `f` two times. Vector mode will allow the generation of
 `f_d(x, y)` such that we will be able to get partial derivatives with respect to
 all the function arguments (gradient) in a single call.
 
 ## Task ideas
 
 The project consists of the following tasks:
-  * Extend and generalize our ForwardModeVisitor to produce a single
-    function with the directional derivatives.
-  * Add a new mode to the top-level clad interface `clad::differentiate` for
-    vector mode.
-  * Extend the unit test coverage.
-  * Develop tutorials and documentation.
-  * Present the work at the relevant meetings and conferences.
+
+- Extend and generalize our ForwardModeVisitor to produce a single function with
+  the directional derivatives.
+- Add a new mode to the top-level clad interface `clad::differentiate` for
+  vector mode.
+- Extend the unit test coverage.
+- Develop tutorials and documentation.
+- Present the work at the relevant meetings and conferences.
 
 ## Technology
 
@@ -49,15 +50,16 @@ C/C++, Clang, LLVM
 
 ## Desirable Skills
 
- * Necessary knowledge: C++ programming; data structures and algorithms.
- * Intermediate knowledge of automatic differentiation;
- * Basic knowledge of Clang and LLVM
- * Experience with Clad would be an asset.
+- Necessary knowledge: C++ programming; data structures and algorithms.
+- Intermediate knowledge of automatic differentiation;
+- Basic knowledge of Clang and LLVM
+- Experience with Clad would be an asset.
 
 ## Expected results
 
 After successful completion of the project the code snippet should work as
 expected:
+
 ```cpp
 #include <clad/Differentiator/Differentiator.h>
 #include <iostream>
@@ -94,21 +96,24 @@ in order to maximize your chances to get selected:
 The mentors are interested in working with all candidates but unfortunately the
 rules allow only one to be selected. There are a few tasks which give bonus
 points to candidate's application:
- * Submit a valid bug -- demonstrates that the candidate has completed step 2
-   and 3 from the previous section.
- * Fix a bug -- demonstrates the technical skills of the candidate and shows
-   he/she can work independently on the project. The mentors can suggest looking
-   into these [good first issues](https://github.com/vgvassilev/clad/labels/good%20first%20issue).
-   Fixing one issue may be enough to become a successful candidate.
+
+- Submit a valid bug -- demonstrates that the candidate has completed step 2 and
+  3 from the previous section.
+- Fix a bug -- demonstrates the technical skills of the candidate and shows
+  he/she can work independently on the project. The mentors can suggest looking
+  into these
+  [good first issues](https://github.com/vgvassilev/clad/labels/good%20first%20issue).
+  Fixing one issue may be enough to become a successful candidate.
 
 ## Mentors
- * **[Alexander Penev](mailto:alexander.p.penev@gmail.com)** (University of Plovdiv Paisii Hilendarski)
- * [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
+
+- **[Alexander Penev](mailto:alexander.p.penev@gmail.com)** (University of
+  Plovdiv Paisii Hilendarski)
+- [Vassil Vassilev](mailto:vvasilev@cern.ch) (Princeton)
 
 ## Links
 
 [Compiler-Research](https://compiler-research.org)
 [clad](https://github.com/vgvassilev/clad)
-[clang-repl](https://root.cern/blog/cling-in-llvm/)
-[llvm](https://llvm.org/)
+[clang-repl](https://root.cern/blog/cling-in-llvm/) [llvm](https://llvm.org/)
 [clang](https://clang.llvm.org/)

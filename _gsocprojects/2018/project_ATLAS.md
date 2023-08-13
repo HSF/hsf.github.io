@@ -6,5 +6,4 @@ description: |
   [ATLAS](https://atlas.web.cern.ch/Atlas/Collaboration/) is a high-energy physics experiment at the LHC.
 ---
 
-
 {% include gsoc_project.ext %}

@@ -1,13 +1,13 @@
 ---
 title: Stefan Roiser
 training_years:
-- 2020
-- 2021
-- 2022
-- 2023
+  - 2020
+  - 2021
+  - 2022
+  - 2023
 training_roles:
-- facilitator
-- author
+  - facilitator
+  - author
 gravatar: null
 github: roiser
 gitlab: roiser
@@ -21,4 +21,8 @@ layout: educator
 country: CH
 ---
 
-Hi, I'm Stefan, a senior computing engineer at CERN. I'm interested in computing infrastructures and the software engineering for those. Recently my heart is close again to core software engineering and specifically the engineering for compute accelerators. I also would like to help with training of engineers in software engineering in HEP, hence my participation here.
+Hi, I'm Stefan, a senior computing engineer at CERN. I'm interested in computing
+infrastructures and the software engineering for those. Recently my heart is
+close again to core software engineering and specifically the engineering for
+compute accelerators. I also would like to help with training of engineers in
+software engineering in HEP, hence my participation here.

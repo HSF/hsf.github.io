@@ -34,13 +34,14 @@ be prepared to write a progress report and present the results.
 Good knowledge of C++, basic CUDA skills, knowledge of compiler construction,
 experience with the LLVM library not mandatory but recommended.
 
-
 ## Mentors
-* **[Simeon Ehrig](mailto:s.ehrig@hzdr.de)**
-* [Vassil Vassilev](mailto:vvasilev@cern.ch)
+
+- **[Simeon Ehrig](mailto:s.ehrig@hzdr.de)**
+- [Vassil Vassilev](mailto:vvasilev@cern.ch)
 
 ## Links
-* [cling](https://github.com/root-project/cling)
-* [CUDA mode in cling](https://zenodo.org/record/4021877#.YDFNMuoo-Xw)
-* [Paper on of redefinition in cling](https://www.researchgate.net/publication/339463915_Relaxing_the_one_definition_rule_in_interpreted_C)
-* [Initial feature implementation](https://github.com/root-project/root/pull/4214)
+
+- [cling](https://github.com/root-project/cling)
+- [CUDA mode in cling](https://zenodo.org/record/4021877#.YDFNMuoo-Xw)
+- [Paper on of redefinition in cling](https://www.researchgate.net/publication/339463915_Relaxing_the_one_definition_rule_in_interpreted_C)
+- [Initial feature implementation](https://github.com/root-project/root/pull/4214)

@@ -1,10 +1,12 @@
 ---
-title: Implementation of Gilbert-Johnson-Keerthi Algorithm for Convex Shapes in VecGeom
+title:
+  Implementation of Gilbert-Johnson-Keerthi Algorithm for Convex Shapes in
+  VecGeom
 layout: gsoc_proposal
 project: VecGeom
 year: 2020
 organization:
-    - CERN
+  - CERN
 ---
 
 ## Description
@@ -26,31 +28,40 @@ on the GPU in the future.
 ## Task ideas
 
 We propose the following steps:
- * Implementation of the GJK distance and ray-casting algorithms
- * Implementation of validation and performance tests
- * Performance comparison with current algorithms
+
+- Implementation of the GJK distance and ray-casting algorithms
+- Implementation of validation and performance tests
+- Performance comparison with current algorithms
 
 ## Technology
- * C++11, template programming
+
+- C++11, template programming
 
 ## Desirable Skills
- * Advanced C++ programming skills
- * Experience with numerical algorithms
+
+- Advanced C++ programming skills
+- Experience with numerical algorithms
 
 ## Expected results
- * Development and validation of the GJK algorithm in Geant4/VecGeom
+
+- Development and validation of the GJK algorithm in Geant4/VecGeom
 
 ## Mentors
- * [Guilherme Amadio](mailto:guilherme.amadio@cern.ch)
- * [Andrei Gheata](mailto:andrei.gheata@cern.ch)
+
+- [Guilherme Amadio](mailto:guilherme.amadio@cern.ch)
+- [Andrei Gheata](mailto:andrei.gheata@cern.ch)
 
 ## Links
- 1. [VecGeom Gitlab Repository][1]
- 2. [Gilbert-Johnson-Keerthi Distance Algorithm (Wikipedia)][2]
- 3. [Improving the GJK Algorithm for Faster and More Reliable Distance Queries Between Convex Objects][3]
- 4. [Real-Time Collision Detection by Christer Ericson (Morgan Kaufmann, 2005)][4]
+
+1.  [VecGeom Gitlab Repository][1]
+2.  [Gilbert-Johnson-Keerthi Distance Algorithm (Wikipedia)][2]
+3.  [Improving the GJK Algorithm for Faster and More Reliable Distance Queries
+    Between Convex Objects][3]
+4.  [Real-Time Collision Detection by Christer Ericson (Morgan
+    Kaufmann, 2005)][4]
 
 [1]: https://gitlab.cern.ch/VecGeom/VecGeom
-[2]: https://en.wikipedia.org/wiki/Gilbert%E2%80%93Johnson%E2%80%93Keerthi_distance_algorithm
+[2]:
+  https://en.wikipedia.org/wiki/Gilbert%E2%80%93Johnson%E2%80%93Keerthi_distance_algorithm
 [3]: https://dl.acm.org/doi/10.1145/3072959.3083724
 [4]: http://realtimecollisiondetection.net

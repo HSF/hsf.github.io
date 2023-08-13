@@ -2,9 +2,9 @@
 title: Jackson Burzynski
 country: US
 training_roles:
-- mentor
+  - mentor
 training_years:
-- 2020
+  - 2020
 github: jburzy01
 gravatar: null
 homepage: https://www.jacksonburzynski.com/

@@ -2,12 +2,12 @@
 title: Savannah Thais
 country: US
 training_roles:
-- instructor
-- facilitator
-- mentor
+  - instructor
+  - facilitator
+  - mentor
 training_years:
-- 2019
-- 2020
+  - 2019
+  - 2020
 github: savvy379
 gravatar: null
 homepage: null
@@ -20,4 +20,10 @@ email: sthais@princeton.edu
 layout: educator
 ---
 
-Savannah Thais is a post-doc at the Princeton University Institute for Computational Science and Engineering doing research in machine learning. Her physics-related work focuses on developing online data-processing and offline reconstruction algorithms for the HL-LHC; currently she is focused on graph-based learning methods. She also works on AI for social good projects, currently focused on public health and resource access in vulnerable communities.
+Savannah Thais is a post-doc at the Princeton University Institute for
+Computational Science and Engineering doing research in machine learning. Her
+physics-related work focuses on developing online data-processing and offline
+reconstruction algorithms for the HL-LHC; currently she is focused on
+graph-based learning methods. She also works on AI for social good projects,
+currently focused on public health and resource access in vulnerable
+communities.

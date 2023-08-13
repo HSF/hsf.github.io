@@ -2,9 +2,9 @@
 title: David Yakobovitch
 country: US
 training_roles:
-- instructor
+  - instructor
 training_years:
-- 2019
+  - 2019
 github: davidyakobovitch
 gravatar: null
 homepage: https://www.humainpodcast.com

@@ -2,12 +2,12 @@
 title: Marco Mambelli (he/him)
 country: US
 training_roles:
-- instructor
-- mentor
-- author
+  - instructor
+  - mentor
+  - author
 training_years:
-- 2022
-- 2023
+  - 2022
+  - 2023
 github: mambelli
 gravatar: null
 homepage:
@@ -24,4 +24,7 @@ layout: educator
 You can use Markdown syntax to style this page.
 -->
 
-Hi! I'm a developer at Fermilab. My focus is on distributed scientific computing and I'm the technical lead for the [GlideinWMS](https://github.com/glideinWMS/glideinwms) and [HEPCloud](https://github.com/HEPCloud/decisionengine) projects.
+Hi! I'm a developer at Fermilab. My focus is on distributed scientific computing
+and I'm the technical lead for the
+[GlideinWMS](https://github.com/glideinWMS/glideinwms) and
+[HEPCloud](https://github.com/HEPCloud/decisionengine) projects.

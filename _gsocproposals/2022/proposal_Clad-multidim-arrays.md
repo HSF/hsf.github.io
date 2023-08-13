@@ -1,5 +1,7 @@
 ---
-title: Add support for differentiating with respect to multidimensional arrays (or pointers) in Clad
+title:
+  Add support for differentiating with respect to multidimensional arrays (or
+  pointers) in Clad
 layout: gsoc_proposal
 project: Compiler-Research
 year: 2022
@@ -28,13 +30,14 @@ Clad.
 ## Task ideas
 
 The project consists of the following tasks:
-  * Add support for differentiation with respect to multidimensional arrays
-    (and pointers) in the reverse mode.
-  * Add support for differentiation with respect to multidimensional arrays
-    (and pointers) in the forward mode.
-  * Extend the unit test coverage.
-  * Develop tutorials and documentation.
-  * Present the work at the relevant meetings and conferences.
+
+- Add support for differentiation with respect to multidimensional arrays (and
+  pointers) in the reverse mode.
+- Add support for differentiation with respect to multidimensional arrays (and
+  pointers) in the forward mode.
+- Extend the unit test coverage.
+- Develop tutorials and documentation.
+- Present the work at the relevant meetings and conferences.
 
 ## Technology
 
@@ -42,15 +45,16 @@ C/C++, Clang, LLVM
 
 ## Desirable Skills
 
- * Necessary knowledge: C++ programming; data structures and algorithms.
- * Intermediate knowledge of automatic differentiation;
- * Basic knowledge of Clang and LLVM
- * Experience with Clad would be an asset.
+- Necessary knowledge: C++ programming; data structures and algorithms.
+- Intermediate knowledge of automatic differentiation;
+- Basic knowledge of Clang and LLVM
+- Experience with Clad would be an asset.
 
 ## Expected results
 
 After successful completion of the project the code snippet should work as
 expected:
+
 ```
 #include <iostream>
 #include "clad/Differentiator/Differentiator.h"
@@ -91,21 +95,24 @@ in order to maximize your chances to get selected:
 The mentors are interested in working with all candidates but unfortunately the
 rules allow only one to be selected. There are a few tasks which give bonus
 points to candidate's application:
- * Submit a valid bug -- demonstrates that the candidate has completed step 2
-   and 3 from the previous section.
- * Fix a bug -- demonstrates the technical skills of the candidate and shows
-   he/she can work independently on the project. The mentors can suggest looking
-   into these [good first issues](https://github.com/vgvassilev/clad/labels/good%20first%20issue).
-   Fixing one issue may be enough to become a successful candidate.
+
+- Submit a valid bug -- demonstrates that the candidate has completed step 2 and
+  3 from the previous section.
+- Fix a bug -- demonstrates the technical skills of the candidate and shows
+  he/she can work independently on the project. The mentors can suggest looking
+  into these
+  [good first issues](https://github.com/vgvassilev/clad/labels/good%20first%20issue).
+  Fixing one issue may be enough to become a successful candidate.
 
 ## Mentors
- * **[Vassil Vassilev](mailto:vvasilev@cern.ch)** (Princeton)
- * [Alexander Penev](mailto:alexander.p.penev@gmail.com) (University of Plovdiv Paisii Hilendarski)
+
+- **[Vassil Vassilev](mailto:vvasilev@cern.ch)** (Princeton)
+- [Alexander Penev](mailto:alexander.p.penev@gmail.com) (University of Plovdiv
+  Paisii Hilendarski)
 
 ## Links
 
 [Compiler-Research](https://compiler-research.org)
 [clad](https://github.com/vgvassilev/clad)
-[clang-repl](https://root.cern/blog/cling-in-llvm/)
-[llvm](https://llvm.org/)
+[clang-repl](https://root.cern/blog/cling-in-llvm/) [llvm](https://llvm.org/)
 [clang](https://clang.llvm.org/)
