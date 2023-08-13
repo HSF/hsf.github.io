@@ -1,3 +1,17 @@
+- description: 'Learn about ROOT, RooFit, machine learning with TMVA, and physics simulations.'
+  webpage: https://gitlab.com/stroche/particle-physics-methods
+  name: "Particle physics methods"
+  repository: https://gitlab.com/stroche/particle-physics-methods
+  id: root-analysis
+  videos: ''
+  status: beta
+- description: 'This course covers various best practices like testing, pytest, object oriented programming, packing, CI, and more.'
+  name: "Software Engineering for Scientific Computing"
+  repository: https://github.com/henryiii/se-for-sci
+  status: stable
+  videos: ''
+  webpage: https://henryiii.github.io/se-for-sci/
+  id: se-for-sci
 - description: 'Track code changes, undo mistakes, collaborate. This module is a must.'
   name: Version controlling with git
   repository: https://github.com/swcarpentry/git-novice
@@ -94,7 +108,7 @@
 - description: E.g. <code>yadage</code> and <code>reana</code>
   name: Workflows &amp; reproducibility
   repository: ''
-  status: alpha
+  status: stable
   videos: ''
   webpage: ''
   id: yadagereana
