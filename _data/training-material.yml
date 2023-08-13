@@ -1,7 +1,19 @@
 # Please keep this file in reverse chronological order:
 # Newest things go on top!
+- title: Building a Global HEP Software Training Community (CHEP talk)
+  date: 2023-05-09
+  url: https://indico.jlab.org/event/459/contributions/11685/
+  type: talk
+- title: Train to Sustain (CHEP talk)
+  date: 2023-05-08
+  url: https://indico.jlab.org/event/459/contributions/11538/
+  type: talk
+- title: Training and on-boarding initiatives in HEP (CHEP talk)
+  date: 2023-05-08
+  url: https://indico.jlab.org/event/459/contributions/11672/
+  type: talk
 - title: HSF / IRIS-HEP Training Activities (Coordinated Ecosystems Workshop)
-  data: 2022-11-7
+  date: 2022-11-7
   url: https://indico.cern.ch/event/1203733/timetable/#33-hsf-iris-hep-training-activ
   type: talk
 - title: Training Challenge (IRIS-HEP retreat)
