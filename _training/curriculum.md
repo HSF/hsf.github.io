@@ -31,7 +31,7 @@ The curriculum is comprised of a set of standardized *modules*, so that students
 
 ### HEP specific tools
 
-{% include list_of_selected_training_modules.html ids="scikithep,root,unroot,reana" %}
+{% include list_of_selected_training_modules.html ids="scikithep,root,unroot,reana,root-analysis" %}
 
 ### Analysis preservation
 

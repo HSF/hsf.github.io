@@ -1,3 +1,10 @@
+- description: 'Learn about ROOT, RooFit, machine learning with TMVA, and physics simulations.'
+  webpage: https://gitlab.com/stroche/particle-physics-methods
+  name: "Particle physics methods"
+  repository: https://gitlab.com/stroche/particle-physics-methods
+  id: root-analysis
+  videos: ''
+  status: beta
 - description: 'This course covers various best practices like testing, pytest, object oriented programming, packing, CI, and more.'
   name: "Software Engineering for Scientific Computing"
   repository: https://github.com/henryiii/se-for-sci
