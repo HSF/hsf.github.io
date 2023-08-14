@@ -4,14 +4,14 @@ title: "Roy Frank Cruz"     # first (middle) last
 country: US              # your country of residence (2 capital letters, e.g. US, GB, DE)
 
 # Optional (please add github or gravatar for your picture)
-github:     55238184                          # your github ID (not full url)
+github:      roy-cruz                         # your github ID (not full url)
 gravatar:                                     # your gravatar ID (the hex hash of your email, something like 123ef...123)
 homepage:                                     # your personal homepage (full url)
 twitter:                                      # your twitter ID (not full URL, no leading '@')
-gitlab:     29032                             # your gitlab ID (not full URL)
+gitlab:      rcruzcan                         # your gitlab ID (not full URL)
 bitbucket:                                    # your bitbucket ID (not full URL)
 orcid:       0000-0002-7205-0790              # your orcid ID (not full URL)
-linkedin:    677204124                        # your linkedin ID (not full url, i.e. the last bit of the url to your profile)
+linkedin:    roycruzcandelaria                # your linkedin ID (not full url, i.e. the last bit of the url to your profile)
 email:       roy.cruz.candelaria@cern.ch
 
 # Training WG
