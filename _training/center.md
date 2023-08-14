@@ -1,6 +1,8 @@
 ---
 title: HSF Software Training Center
 layout: plain
+redirect-from:
+- /training/curriculum
 ---
 
 <script defer data-domain="hepsoftwarefoundation.org" src="https://views.scientific-python.org/js/script.js"></script>
