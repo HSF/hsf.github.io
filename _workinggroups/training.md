@@ -146,17 +146,15 @@ We are always looking for volunteers from the community to help us with our trai
 {% endif %}
 ## Conveners
 
-- Wouter Deconinck (EIC, University of Manitoba)
-- Kilian Lieret (IRIS-HEP, Princeton University)
-- Michel Hernandez Villanueva (Belle II, DESY)
-- Sudhir Malik (CMS, University of Puerto Rico)
+{% assign persons = "Wouter Deconinck, Kilian Lieret, Alexander Moreno Briceño, Jason Veatch" | split: ", " %}
+{% include list_of_selected_profiles.html %}
 
 The conveners can be [reached by email](mailto:michel.hernandez.villanueva@desy.de,wouter.deconinck@umanitoba.ca,malik@fnal.gov,kilian.lieret@posteo.de). <!-- markdown-link-check-disable-line -->
 
-{% assign persons = "Kilian Lieret, Sudhir Malik, Michel Hernandez Villanueva, Wouter Deconinck" | split: ", " %}
-{% include list_of_selected_profiles.html %}
 ### Former Conveners:
 
+- Sudhir Malik (CMS, University of Puerto Rico), 2018-2022
+- Michel Hernandez Villanueva (Belle II, DESY), 2022
 - Dario Menasce (INFN Milano), 2016-2019
 - Sam Meehan (CERN, ATLAS and FASER), 2020
 - Meirin Oan Evans (ATLAS), 2021
