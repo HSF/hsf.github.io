@@ -105,13 +105,6 @@
   videos: https://www.youtube.com/watch?v=Qr42pEtio-Q&list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj
   webpage: https://hsf-training.github.io/hsf-training-docker/index.html
   id: docker
-- description: E.g. <code>yadage</code> and <code>reana</code>
-  name: Workflows &amp; reproducibility
-  repository: ''
-  status: stable
-  videos: ''
-  webpage: ''
-  id: yadagereana
 - description: 'Get behind the buzzword and teach machines to work for you intelligently!'
   name: Machine learning
   repository: https://github.com/hsf-training/hsf-training-ml-webpage
@@ -187,7 +180,7 @@
   repository: https://github.com/hsf-training/hsf-training-scikit-hep-webpage
 - description: Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>.
   name: Singularity
-  status: beta
+  status: stable
   videos: 'https://www.youtube.com/watch?v=g0cCErlveiI&list=PLKZ9c4ONm-VkxWW98Gcn9H6WwykMiqtnF'
   webpage: https://hsf-training.github.io/hsf-training-singularity-webpage/
   id: singularity
@@ -209,7 +202,7 @@
 - description: Run containerised data analysis pipelines on remote compute clouds.
   id: reana
   name: Reproducible analyses with REANA
-  status: beta
+  status: stable
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-reana-webpage/
   repository: https://github.com/hsf-training/hsf-training-reana-webpage
