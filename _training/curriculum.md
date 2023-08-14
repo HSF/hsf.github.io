@@ -39,7 +39,7 @@ See [below](#bkginfo) for more information about the modules listed here.
 
 {% include list_of_selected_training_modules.html ids="uproot,grid,parallel,alpaka,yadagereana,doc,generators" %}
 
-## <a name="bkginfo"></a>Background information and further reads
+## <a name="bkginfo"></a>Additional information
 
 Training in software and computing are essential ingredients for the success of any HEP experiment. As most experiments have similar basic prerequisites (Unix shell, Python, C++, …) we want to join our efforts and create one introductory software training curriculum that serves HEP newcomers the software skills needed as they enter the field, and in parallel, instill best practices for writing software.
 
