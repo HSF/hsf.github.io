@@ -1,3 +1,10 @@
+- description: 'From python, shell, and git to reproducible analyses with Snakemake. Written for LHCb, but applicable to everyone.'
+  webpage: https://hsf-training.github.io/analysis-essentials/
+  name: "LHCb Analysis Essentials"
+  repository: https://github.com/hsf-training/analysis-essentials/
+  id: lhcb-analysis-essentials
+  videos: ''
+  status: stable
 - description: 'Learn about ROOT, RooFit, machine learning with TMVA, and physics simulations.'
   webpage: https://gitlab.com/stroche/particle-physics-methods
   name: "Particle physics methods"
