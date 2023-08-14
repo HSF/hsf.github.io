@@ -1,7 +1,7 @@
 ---
 title: HSF Software Training Center
 layout: plain
-redirect-from:
+redirect_from:
 - /training/curriculum
 ---
 
