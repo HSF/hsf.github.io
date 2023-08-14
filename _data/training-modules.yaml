@@ -47,13 +47,6 @@
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-cmake-webpage/
   id: cmake
-- description: ''
-  name: Distributed file systems and grid computing
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: grid
 - description: 'The most famous data analysis framework used in HEP.'
   name: <code>ROOT</code>
   repository: 'https://github.com/root-project/software-carpentry'
@@ -90,13 +83,6 @@
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-matplotlib/
   id: matplotlib
-- description: ''
-  name: Parallel programming
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: parallel
 - description: Introduction to the <a href="https://www.docker.com/">docker</a> container
     image system.
   name: Docker
@@ -142,28 +128,6 @@
   videos: https://www.youtube.com/watch?v=-Xd5D6xKugk&list=PLKZ9c4ONm-Vl3kwsjrNRlPYNQFbPO2no4
   webpage: https://hsf-training.github.io/hsf-training-cicd-github/
   id: cicdgithub
-- description: <code>sphinx</code>, <code>doxygen</code>, etc.
-  name: Documentation
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: doc
-- description: <code>pythia</code>, <code>sherpa</code>, <code>madgraph</code>, etc.
-  name: Event generation and MC
-  repository: ''
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: generators
-- description: <a href="https://alpaka.readthedocs.io/en/latest/index.html">alpaka</a>
-    is a header-only C++ abstraction library for accelerator development.
-  name: alpaka
-  repository: https://github.com/hsf-training/hsf-training-alpaka-webpage
-  status: alpha
-  videos: ''
-  webpage: ''
-  id: alpaka
 - description: Introduction to the <a href="https://en.wikipedia.org/wiki/Ssh_(Secure_Shell)">Secure Shell (SSH)</a>
   name: SSH
   repository: https://github.com/hsf-training/hsf-training-ssh-webpage/
