@@ -33,6 +33,12 @@ See [below](#bkginfo) for more information about the modules listed here.
 
 {% include list_of_selected_training_modules.html ids="git,cicd,cicdgithub,docker,singularity,testingpython,reana" %}
 
+### Complete courses
+
+These modules cover a variety of topics.
+
+{% include list_of_selected_training_modules.html ids="se-for-sci,levelupyourpython,root-analysis,lhcb-analysis-essentials" %}
+
 ### Miscellaneous
 
 {% include list_of_selected_training_modules.html ids="simpleanalysis" %}
