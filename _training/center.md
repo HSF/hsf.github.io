@@ -45,7 +45,7 @@ These modules cover a variety of topics.
 
 ### Planned, in early development, or archived
 
-{% include list_of_selected_training_modules.html ids="uproot,grid,parallel,alpaka,yadagereana,doc,generators" %}
+{% include list_of_selected_training_modules.html ids="uproot" %}
 
 ## <a name="bkginfo"></a>Additional information
 
