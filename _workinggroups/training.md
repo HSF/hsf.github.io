@@ -28,11 +28,6 @@ The group aims to develop a training program that can be pursued by researchers 
 </div>
 
 
-## News
-
-Recent news are announced on [twitter](https://twitter.com/HSFTraining) and
-on our [forum/mailing list](https://groups.google.com/forum/#!forum/hsf-training-wg).
-
 ## Our mission
 
 <img src="{{site.baseurl}}/images/training/instructor_mentor_small.jpg" style="float: right; width: 90vw; max-width:320px; margin-left: 20px;margin-bottom: 20px;">
