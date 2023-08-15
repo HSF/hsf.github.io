@@ -70,9 +70,9 @@ PyHEP 2023, on October 9‒12, is a continuation of the free, online, workshop s
 Python HEP developers and physicists together these past five years.
 
 PyHEP.dev 2023 is new this year, intended for Python HEP software developers to plan a coherent roadmap and make priorities for the upcoming year.
-It will be held in-person at Princeton University, Princeton, New Jersey (USA), on July 25‒28.
-It will include presentations by participants, but the focus will be on birds-of-a-feather style group discussions.
-Attendance is limited to 45 participants.
+It was held in-person at Princeton University, Princeton, New Jersey (USA), on July 25‒28.
+It included presentations by participants, but the focus was on birds-of-a-feather style group discussions.
+Attendance was limited to 45 participants.
 
 ### Organising Committee
 
@@ -80,17 +80,26 @@ Eduardo Rodrigues - University of Liverpool (Chair)<br>
 Graeme A. Stewart - CERN<br>
 Jim Pivarski - Princeton University<br>
 Matthew Feickert - University of Wisconsin-Madison<br>
-Nikolai Hartmann - Ludwig-Maximilians-Universität Munich<br>
+Nikolai Hartmann - Ludwig-Maximilians-Universität Munich (organiser of PyHEP 2023 solely)<br>
 Oksana Shadura - University of Nebraska-Lincoln
+
+### Sponsors
+
+One of the, or both, events, is/are kindly sponsored by (details on the Indico pages)
+
+![PSF]({{ site.baseurl }}/images/pyhep/PSF_logo.png){:height="60px"}
+![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![NSF]({{ site.baseurl }}/images/pyhep/NSF_logo.jpg){:height="60px"}
+![UoL]({{ site.baseurl }}/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
 
 ## PyHEP 2022
 
-PyHEP 2022 will be held as a *virtual* workshop on 12-16 September 2022.
-The workshop will be a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and inform the future evolution of
-community activities. There will be ample time for discussion.
+PyHEP 2022 was held as a *virtual* workshop on 12-16 September 2022.
+The workshop was a forum for the participants and the community at large to discuss developments of Python packages and tools, exchange experiences, and inform the future evolution of
+community activities. There was ample time for discussion.
 
 PyHEP 2022 [agenda](https://indico.cern.ch/e/PyHEP2022){:target="_pyhep2022_indico"}
-will be composed of plenary sessions such as for example:
+was composed of plenary sessions such as for example:
 
 1. Topical sessions
 2. Hands-on tutorials and lightning talks
@@ -107,7 +116,7 @@ Oksana Shadura - University of Nebraska-Lincoln
 
 ### Sponsors
 
-The event is kindly sponsored by
+The event was kindly sponsored by
 
 ![PSF]({{ site.baseurl }}/images/pyhep/PSF_logo.png){:height="60px"}
 ![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
