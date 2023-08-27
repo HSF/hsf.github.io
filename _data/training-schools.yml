@@ -9,6 +9,14 @@
   tags: []
   title: ESC23 - XIV edition of the ESC (Efficient Scientofic Computing) School
 - author: Kilian Lieret
+  date: 2023-08-29
+  deadline: ''
+  end_date: 2023-09-01
+  source: https://indico.cern.ch/event/1266661/
+  tags:
+  - HSF
+  title: 8th HEP C++ Course and Hands-on Training - The Essentials @ Manchester
+- author: Kilian Lieret
   date: 2023-08-07
   deadline: 2023-04-17
   end_date: 2023-08-11
@@ -46,6 +54,14 @@
   tags:
   - HSF
   title: HSF/IRIS-HEP Software Basics Training (Virtual)
+- author: Kilian Lieret
+  date: 2023-05-15
+  deadline: ''
+  end_date: 2023-05-17
+  source: https://indico.cern.ch/event/1266632/
+  tags:
+  - HSF
+  title: 7th HEP C++ Course and Hands-on Training - The Essentials @ JLAB
 - author: Kilian Lieret
   date: 2023-03-06
   deadline: ''
