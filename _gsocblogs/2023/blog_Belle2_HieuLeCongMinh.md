@@ -13,7 +13,7 @@ intro: |
 
 # About Me
 
-My name is Hieu Le Cong Minh, a third-year undergraduate student at the Tokyo Institute of Technology. I was both thrilled and honored to be selected to participate in the Belle II Event Display with Phoenix project during the Google Summer of Code 2023.
+My name is Hieu Le Cong Minh, a third-year undergraduate student at the Tokyo Institute of Technology. I was both thrilled and honored to be selected to participate in the **Belle II Event Display with Phoenix** project during the Google Summer of Code 2023.
 
 # Project Description
 
@@ -29,9 +29,9 @@ As proposed by the organization in GSoC 2023, the project aims to address this i
 
 # Project Procedure
 
-Throughout the project, I followed a carefully planned procedure comprising five distinct steps: **[Preparation](#Preparation-–-Community-Bonding-Period-preparation)**, **[Data Extraction and Visualization](#Data-Extraction-and-Visualization-–-Official-Coding-Phase-Begins)**, **[User Experience Improvement](#User-Experience-Improvement)**, **[User Feedback Collection](#User-Feedback-Collection)**, and **[Documentation](#Documentation-–-User-and-Developer-Guides)**.
+Throughout the project, I followed a carefully planned procedure comprising five distinct steps: **[Preparation](#preparation--community-bonding-period-preparation)**, **[Data Extraction and Visualization](#data-extraction-and-visualization--official-coding-phase-begins)**, **[User Experience Improvement](#user-experience-improvement)**, **[User Feedback Collection](#user-feedback-collection)**, and **[Documentation](#documentation--user-and-developer-guides)**.
 
-## Preparation – Community Bonding Period {#preparation}
+## Preparation – Community Bonding Period
 
 The initial phase involved approaching the Belle II community and gaining a fundamental understanding of the Belle II software, particularly the event display component.
 
@@ -73,7 +73,7 @@ For users, the documentation focuses on effectively navigating and utilizing the
 
 After all, I presented again at the Belle II software developer meeting, discussing the improvements and introducing the documentations.
 
-Through these meticulous steps, the Belle II Event Display with Phoenix project has evolved into a user-friendly, feature-rich, and well-documented tool, contributing to the accessibility and utility of Belle II's event display capabilities.
+Through these meticulous steps, the **Belle II Event Display with Phoenix** project has evolved into a user-friendly, feature-rich, and well-documented tool, contributing to the accessibility and utility of Belle II's event display capabilities.
 
 # Deliverables
 
@@ -94,7 +94,7 @@ The corresponding documentation: **[gsoc2023-belle2-display-docs](https://gsoc20
 
 # Future Plans
 
-The Belle II Event Display with Phoenix project still holds potential for further development beyond GSoC 2023. Plans include implementing a server for the application and integrating it into the current Belle II software ecosystem. Additionally, in terms of the frontend, along with the development of Phoenix, the application can be further enhanced in the future. This necessitates developers to continuously maintain and improve the app. Furthermore, depending on the different usage purposes, each developer can also customize the code based on their preference.
+The **Belle II Event Display with Phoenix** project still holds potential for further development beyond GSoC 2023. Plans include implementing a server for the application and integrating it into the current Belle II software ecosystem. Additionally, in terms of the frontend, along with the development of Phoenix, the application can be further enhanced in the future. This necessitates developers to continuously maintain and improve the app. Furthermore, depending on the different usage purposes, each developer can also customize the code based on their preference.
 
 I am personally enthusiastic about continuing my involvement and contribution to the project if my schedule permits. Moreover, I will continue to follow the development of the application and will always be pleased to answer questions and provide support for any related issues.
 
