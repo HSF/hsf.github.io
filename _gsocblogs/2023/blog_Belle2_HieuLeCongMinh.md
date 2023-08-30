@@ -29,7 +29,7 @@ As proposed by the organization in GSoC 2023, the project aims to address this i
 
 # Project Procedure
 
-Throughout the project, I followed a carefully planned procedure comprising five distinct steps: **[Preparation](#preparation--community-bonding-period-preparation)**, **[Data Extraction and Visualization](#data-extraction-and-visualization--official-coding-phase-begins)**, **[User Experience Improvement](#user-experience-improvement)**, **[User Feedback Collection](#user-feedback-collection)**, and **[Documentation](#documentation--user-and-developer-guides)**.
+Throughout the project, I followed a carefully planned procedure comprising five distinct steps: **[Preparation](#preparation--community-bonding-period)**, **[Data Extraction and Visualization](#data-extraction-and-visualization--official-coding-phase-begins)**, **[User Experience Improvement](#user-experience-improvement)**, **[User Feedback Collection](#user-feedback-collection)**, and **[Documentation](#documentation--user-and-developer-guides)**.
 
 ## Preparation – Community Bonding Period
 
