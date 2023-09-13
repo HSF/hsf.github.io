@@ -9,43 +9,7 @@ redirect_from:
 
 See [below](#bkginfo) for more information about the modules listed here.
 
-### Basics
-
-{% include list_of_selected_training_modules.html ids="unix,git,python,ssh,ml,matplotlib,root" %}
-
-### Software Development and Deployment
-
-{% include list_of_selected_training_modules.html ids="git,advancedgit,cicd,cicdgithub,docker,singularity,testingpython,levelupyourpython,se-for-sci" %}
-
-### C++ corner
-
-{% include list_of_selected_training_modules.html ids="hepcpp,cmake"%}
-
-### Machine learning and other analysis tools
-
-{% include list_of_selected_training_modules.html ids="ml,gpuml" %}
-
-### HEP specific tools
-
-{% include list_of_selected_training_modules.html ids="scikithep,root,unroot,reana,root-analysis" %}
-
-### Analysis preservation
-
-{% include list_of_selected_training_modules.html ids="git,cicd,cicdgithub,docker,singularity,testingpython,reana" %}
-
-### Complete courses
-
-These modules cover a variety of topics.
-
-{% include list_of_selected_training_modules.html ids="se-for-sci,levelupyourpython,root-analysis,lhcb-analysis-essentials" %}
-
-### Miscellaneous
-
-{% include list_of_selected_training_modules.html ids="simpleanalysis" %}
-
-### Planned, in early development, or archived
-
-{% include list_of_selected_training_modules.html ids="uproot" %}
+{% include training_center.html %}
 
 ## <a name="bkginfo"></a>Additional information
 
@@ -54,6 +18,7 @@ Training in software and computing are essential ingredients for the success of 
 The curriculum is composed of a set of *modules* (developed by HSF, Software Carpentries, and other organizations), so that learners/students can focus on what is most relevant to them.
 
 * Show all modules in a table (mostly for administrative purposes): [click here]({{site.baseurl}}/training/curriculum_table.html)
+* Stripped down version of this page that can be included as an iframe: [click here]({{site.baseurl}}/training/center_iframe.html)
 * I want to **contribute** or **teach**:
 Contributions of any kind are very welcome! There are various ways you can get involved:
 
