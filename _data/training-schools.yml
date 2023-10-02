@@ -1,6 +1,14 @@
 # Sorted by ascending date => New events go on top
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
+- author: Kilian Lieret
+  date: 2023-11-06
+  deadline: ''
+  end_date: 2023-11-09
+  source: https://indico.cern.ch/event/1292759/
+  tags:
+  - HSF
+  title: JuliaHEP 2023 Workshop
 - author: Sudhir Malik
   date: 2023-10-04
   deadline: 2023-08-04
