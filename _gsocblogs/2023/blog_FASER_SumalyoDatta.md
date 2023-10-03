@@ -3,7 +3,7 @@ project: FASER
 title: Real-time lossless data compression for the FASER experiment
 author: Sumalyo Datta
 photo: blog_authors/SumalyoDatta.jpg
-date: 28.08.2023
+date: 04.10.2023
 year: 2023
 layout: blog_post
 logo: faser-logo.png
