@@ -36,7 +36,7 @@ After exploration of various algorithms, the next task was to __develop a compre
 
 ## The Community Bonding Period
 Before the coding period, the plan for contributions was roughly chalked out during the community bonding phase. The development setup was finalized during this phase. A Docker-based setup was planned as it helped replicate the production environment and made managing packages and dependencies much more manageable and streamlined. I found some issues with the existing docker image and worked with the mentors to add services like supervisord and reddis to the container configuration. To add support for data compression, additional dev packages were added to aid in building the prototype implementation. 
-Code for the new Dockerfile can be found here : [sumalyo_dev branch on faser-docker](https://gitlab.cern.ch/faser/docker/-/tree/sumalyo_dev?ref_type=heads)
+Code for the new Dockerfile can be found here : [master branch on faser-docker](https://gitlab.cern.ch/faser/docker)
 <br>
 Merge Request: [MR #2](https://gitlab.cern.ch/faser/docker/-/merge_requests/2)<br>
 ![MR_Merged](https://img.shields.io/badge/MR-Merged-green?style=for-the-badge&logo=appveyor)
