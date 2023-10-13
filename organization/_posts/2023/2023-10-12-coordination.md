@@ -84,7 +84,7 @@ Not yet progress on the topics we would like to cover, viz.,
 
 - [JuliaHEP workshop](https://indico.cern.ch/e/juliahep2023)
   - 126 registrations (~20 local participation).
-  - Finalising the agenda. Will be published very soon.
+  - Agenda has just been finalised and is now published on [Indico](https://indico.cern.ch/event/1292759/timetable).
 
 ## Other Interest and Activity Areas
 
