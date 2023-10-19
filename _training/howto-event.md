@@ -18,7 +18,7 @@ layout: plain_toc
         margin: 0 auto;
     }
 </style>
-**Great!** We gladly welcome anyone who is interested in helping bootstrap the education of the HEP community.  At this point in time, we as a group have accrued a fair bit of experience and offer to work with you to make your event as effective and efficient as possible. We aim to do this in a way that stays coherent with the approach and "philosophy" of the HSF-Training group so as to make the tools and techniques that are developed persistent, re-useable, and broadly accessible. 
+**Great!** We gladly welcome anyone who is interested in helping bootstrap the education of the HEP community.  At this point in time, we as a group have accrued a fair bit of experience and offer to work with you to make your event as effective and efficient as possible. We aim to do this in a way that stays coherent with the approach and "philosophy" of the HSF-Training group so as to make the tools and techniques that are developed persistent, reusable, and broadly accessible. 
 
 If you have an inkling that you are keen to do this, go to [our top page]( {{site.baseurl}} / workinggroups/training.html) and ping us or join our weekly meetings. We don't bite, reach out and say _"Hi!"_.
 
@@ -34,7 +34,7 @@ If you have an inkling that you are keen to do this, go to [our top page]( {{sit
   - **Hands-On** : A *work*shop where no work is done is not a *work*shop.  Learning, particularly when it comes to programming, is achieved by *doing*.  Strive to get participants doing more than just copy-pasting and embrace bugs and crashes as "learning opportunities".
   - **Student-Centric** : We are all students and we are all learning - this holds for participants and educators alike.  No one has perfect knowledge of any topic and *there is no such thing as a stupid question*. If a question arises, strive to help *that person* appreciate it from *their* perspective, not how *you* understand it.   
   - **Experiment Agnostic** : HEP is a huge community!  Rote learning of the pattern of commands that should be run to be successful in a single context is not learning.  Aim to teach tools and techniques that are independent of a specific context and accept that at some point, every individual wanting to do real research will have to be responsible to extrapolate what you teach them to their specific application.
-  - **Re-useable** : If resources already exist, use them. If they do not exist, develop them in a way such that they can be adiabatically developed and used by others in the future.  
+  - **Reusable** : If resources already exist, use them. If they do not exist, develop them in a way such that they can be adiabatically developed and used by others in the future.  
   - **Open and Accessible** : If someone wants to learn, they should be able to learn, and we will support this.
 
 Please reflect on these points and adopt a mindset that keeps these in mind while transforming your idea into reality.   And, if you feel like this philosophy should be modified or extended, don't hesitate to bring it up to the conveners.  
@@ -203,7 +203,7 @@ Organizing the event carefully is very important to ensure that it is effective.
 
 <figure class="centered-figure">
 <img src="{{ '/images/training/how_does_an_event_look_like.jpg' | relative_url }}">
-<figcaption>The primary instructor (standing in front) driving the lesson with the lesson webpage and terminal while a mentor (bottom, long blond hair) helps debug a specific issue with a partcipant (bottom right, long black hair)
+<figcaption>The primary instructor (standing in front) driving the lesson with the lesson webpage and terminal while a mentor (bottom, long blond hair) helps debug a specific issue with a participant (bottom right, long black hair)
 </figcaption>
 </figure>
 
