@@ -177,7 +177,7 @@
   videos: ''
   webpage: https://hsf-training.github.io/hsf-training-reana-webpage/
   repository: https://github.com/hsf-training/hsf-training-reana-webpage
-- description: A Julia for HEP introduction especially for those familiar with Python (or C++)
+- description: An introduction to Julia for HEP, especially for those familiar with Python (or C++)
   name: Julia
   status: stable
   videos: ''
