@@ -4,15 +4,15 @@ title: "Tetiana Mazurets"     # first (middle) last
 country: Ukraine              # your country of residence (2 capital letters, e.g. US, GB, DE)
 
 # Optional (please add github or gravatar for your picture)
-github:       # your github ID (not full url)
-gravatar:     # your gravatar ID (the hex hash of your email, something like 123ef...123)
-homepage:     # your personal homepage (full url)
-twitter:      # your twitter ID (not full URL, no leading '@')
-gitlab:       # your gitlab ID (not full URL)
-bitbucket:    # your bitbucket ID (not full URL)
-orcid:        # your orcid ID (not full URL)
-linkedin:     # your linkedin ID (not full url, i.e. the last bit of the url to your profile)
-email:
+github: tetianmaz      # your github ID (not full url)
+gravatar:              # your gravatar ID (the hex hash of your email, something like 123ef...123)
+homepage:              # your personal homepage (full url)
+twitter:               # your twitter ID (not full URL, no leading '@')
+gitlab: tmazuret       # your gitlab ID (not full URL)
+bitbucket:             # your bitbucket ID (not full URL)
+orcid:                 # your orcid ID (not full URL)
+linkedin:              # your linkedin ID (not full url, i.e. the last bit of the url to your profile)
+email: tetiana.mazurets@cern.ch
 
 # Training WG
 training_roles: [mentor]              # subset of [instructor, mentor, facilitator, author], can stay empty ([])
