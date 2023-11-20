@@ -15,8 +15,8 @@ linkedin: jason-veatch-6b9851b5     # your linkedin ID (not full url, i.e. the l
 email: jveatch@cern.ch
 
 # Training WG
-training_roles: []              # subset of [instructor, mentor, facilitator, author], can stay empty ([])
-training_years: []              # in which years did you help out? (e.g. [2020, 2019])
+training_roles: [mentor]              # subset of [instructor, mentor, facilitator, author], can stay empty ([])
+training_years: [2023]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Don't modify the following setting
 layout: educator
