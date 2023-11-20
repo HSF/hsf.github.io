@@ -8,6 +8,9 @@
     },
     {
       "pattern": "https://twitter.com/PyHEPConf"
+    },
+    {
+      "pattern": "https://ariostas.com"
     }
   ],
   "replacementPatterns": [
