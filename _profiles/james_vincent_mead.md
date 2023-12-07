@@ -16,7 +16,7 @@ email: jmead@nikhef.nl
 
 # Training WG
 training_roles: [author]
-training_years: []              # in which years did you help out? (e.g. [2020, 2019])
+training_years: [2023]
 
 # Don't modify the following setting
 layout: educator
