@@ -19,8 +19,7 @@ Only positive comments for software during the meeting. Official minutes will co
 
 ### ICFA Seminar
 
-<!-- markdown-link-check-disable-next-line -->
-Graeme gave a talk on Software at the [ICFA Seminar](https://indico.desy.de/event/38293/) last week, as part of a whole session on Software and Computing. Very nice to see these topics being taken so seriously at this level.
+Graeme gave a talk on Software at the [ICFA Seminar](https://indico.desy.de/event/38293/) last week, as part of a whole session on Software and Computing. Very nice to see these topics being taken so seriously at this level. <!-- markdown-link-check-disable-line -->
 
 ## Working Group Updates
 
