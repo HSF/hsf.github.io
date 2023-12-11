@@ -15,10 +15,11 @@ Apologies/Contributing: Andrea Valassi, Claire Antel, Markus Diefenthaler
 
 ### LHCC News
 
-Only positive noises for software. Official minutes to come.
+Only positive comments for software during the meeting. Official minutes will come soon.
 
 ### ICFA Seminar
 
+<!-- markdown-link-check-disable-next-line -->
 Graeme gave a talk on Software at the [ICFA Seminar](https://indico.desy.de/event/38293/) last week, as part of a whole session on Software and Computing. Very nice to see these topics being taken so seriously at this level.
 
 ## Working Group Updates
