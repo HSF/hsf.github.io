@@ -121,7 +121,7 @@ The [EVERSE project](https://everse.software) (European Virtual Institute for Re
 
 After the [JENA Computing Workshop](https://agenda.infn.it/event/34738) in June, there is now a call for people to participate in the 5 key area working groups (HPC, Software, DOMA, Machine Learning, Training).
 
-See [here](https://drive.google.com/file/d/1_Ovq71s8ytSQc5iRWNs7HPyjNhewBVSj/view), for the workshop summary and links to express interest in the WGs.
+See [here](https://drive.google.com/file/d/1_Ovq71s8ytSQc5iRWNs7HPyjNhewBVSj/view) for the workshop summary and links to express interest in the WGs.
 
 ### Next Meetings
 
