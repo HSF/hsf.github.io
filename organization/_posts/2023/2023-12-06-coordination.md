@@ -62,7 +62,7 @@ Nominations to [HSF Search Committee](mailto:hsf-search-committee@cern.ch).
 ### JuliaHEP
 
 - There's a topical meeting next week (Thursday), focusing on analysis: <https://indico.cern.ch/event/1352914/>.
-- JuliaHEP videos will be posted to YouTube very soon.
+- Videos from the November JuliaHEP workshop will be posted to YouTube very soon.
 - The Julia in HEP paper was [posted](https://news.ycombinator.com/item?id=38512793) in Hacker News!
 
 ## Other Interest and Activity Areas
