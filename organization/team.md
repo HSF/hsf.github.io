@@ -25,4 +25,4 @@ The entire team can be contacted via <hsf-coordination@googlegroups.com>.
 
 ## Meeting Minutes
 
-Coordination team minutes form part of the [meetings archive](minutes.html).
+Coordination team minutes form part of the [meetings archive]({{ site.baseurl }}/minutes.html).
