@@ -9,7 +9,7 @@ Currently the activities within the HSF are organized by the *HSF coordination t
 * Peter Elmer - Princeton University
 * Daniel Elvira - Fermilab
 * Benedikt Hegner - CERN / Stony Brook University
-* Michel Jouvin - LAL, IN2P3
+* Michel Jouvin - IJCLab, CNRS/IN2P3
 * David Lange - Princeton University
 * Paul Laycock - University of Geneva
 * Pere Mato - CERN
