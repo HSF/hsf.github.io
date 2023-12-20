@@ -149,6 +149,10 @@
  * Footer
  */
 
+.footer {
+  padding: 40px 40px;
+}
+
 .blog-footer {
   padding: 40px 0;
   color: #999;
