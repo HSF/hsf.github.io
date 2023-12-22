@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Contributing to the HSF Web Site</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <h1 class="no_toc" id="contributing-to-the-hsf-web-site">Contributing to the HSF Web Site</h1>
+
+<ul id="markdown-toc">
+  <li><a href="#content-format" id="markdown-toc-content-format">Content Format</a>    <ul>
+      <li><a href="#file-name-format" id="markdown-toc-file-name-format">File Name Format</a></li>
+      <li><a href="#adding-a-toc" id="markdown-toc-adding-a-toc">Adding a TOC</a></li>
+      <li><a href="#converting-contents-from-word-or-googledoc" id="markdown-toc-converting-contents-from-word-or-googledoc">Converting Contents from Word or GoogleDoc</a></li>
+    </ul>
+  </li>
+  <li><a href="#linking-to-other-subpages" id="markdown-toc-linking-to-other-subpages">Linking to other subpages</a>    <ul>
+      <li><a href="#inserting-images" id="markdown-toc-inserting-images">Inserting images</a></li>
+    </ul>
+  </li>
+  <li><a href="#checking-the-results-of-your-contribution" id="markdown-toc-checking-the-results-of-your-contribution">Checking the Results of Your Contribution</a></li>
+</ul>
+
+<p>The HSF web site is hosted by <a href="https://pages.github.com">GitHub Pages</a> which relies on a framework called 
+<a href="https://jekyllrb.com">Jekyll</a>. This page documents a few useful hints that help contributing to the web site 
+and assessing the result of your contributions. Refer to the linked documentations for details about <a href="https://pages.github.com">
+GitHub Pages</a> and <a href="https://jekyllrb.com">Jekyll</a>.</p>
+
+<h2 id="content-format">Content Format</h2>
+
+<p>Jekyll expect the web site contents to be written in <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">Markdown</a> with 
+a special section at the beginning of the file called <code class="language-plaintext highlighter-rouge">frontmatter</code>. This section contains attribute definitions used to render the file. It is delimited by a pair of <code class="language-plaintext highlighter-rouge">---</code> lines. A typical frontmatter section is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+title: Contributing to the HSF Web Site
+author: Michel Jouvin
+layout: default
+---
+</code></pre></div></div>
+
+<p>After the frontmatter section, you have to write in markdown (or generate markdown from another format, see below).</p>
+
+<h3 id="file-name-format">File Name Format</h3>
+
+<p>Markdown files are organized by categories: events, newsletter, organization (meeting notes)…
+Markdown files in these categories are stored in a <code class="language-plaintext highlighter-rouge">_post</code> subdirectory. Jekyll expects the markdown file names 
+in these <code class="language-plaintext highlighter-rouge">_post</code> directories to follow the following convention:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>YYY-MM-DD-some-text.md
+</code></pre></div></div>
+
+<p>with:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">YYYY</code>: the year</li>
+  <li><code class="language-plaintext highlighter-rouge">MM</code>: the month number</li>
+  <li><code class="language-plaintext highlighter-rouge">DD</code>: the day number</li>
+</ul>
+
+<h3 id="adding-a-toc">Adding a TOC</h3>
+
+<p>To generate a table of contents of the file, you need to add the following lines where you want to insert it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* auto-gen TOC:
+{:toc}
+</code></pre></div></div>
+
+<p>If you don’t want a heading, for example the page title (heading level 1), to be inserted into the TOC, you need to insert the following line right after the heading:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{:.no_toc}
+</code></pre></div></div>
+
+<p>Look at the source of this page for an example.</p>
+
+<h3 id="converting-contents-from-word-or-googledoc">Converting Contents from Word or GoogleDoc</h3>
+
+<p>Note that CodiMD is a better alternative for collaborative text which is destined for
+this website as it uses Markdown natively. However, if you do need to work from another
+source then…</p>
+
+<p><a href="http://pandoc.org">pandoc</a> is the swiss-army knife for the conversion between text formats. In particular it supports a very good conversion from Microsoft Word (<code class="language-plaintext highlighter-rouge">docx</code>) format to Jekyll markdown. The typical command to do this conversion is:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pandoc -t gfm --shift-heading-level-by=2 --atx-headers -o organization/_posts/2020/2020-01-01-coordination.md document.docx
+</code></pre></div></div>
+
+<p>This method can be used to convert a GoogleDoc document to markdown. To do it, use the GoogleDoc menu <code class="language-plaintext highlighter-rouge">File-&gt;Download as</code> and export the GoogleDoc document as a <code class="language-plaintext highlighter-rouge">docx</code> file. Then use the command above to convert to markdown.</p>
+
+<h2 id="linking-to-other-subpages">Linking to other subpages</h2>
+
+<p>Please prefix <code class="language-plaintext highlighter-rouge">{{ site.baseurl }}</code> in your markdown links, for example</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[link text]({{ site.baseurl}}/workinggroups/dataanalysis.html)
+</code></pre></div></div>
+
+<h3 id="inserting-images">Inserting images</h3>
+
+<p>To insert an image, add it (as a PNG or JPEG file) to the <code class="language-plaintext highlighter-rouge">images</code> directory. Then in the page where you want to insert
+it, add the following line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Replacement text]({{ site.baseurl }}/images/file){:height="400px" width="600px" .centered-image}
+</code></pre></div></div>
+
+<p>where:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Replacement text</code> is the text displayed when the cursor is on the image and the image cannot be displayed.</li>
+  <li><code class="language-plaintext highlighter-rouge">/images/file</code> is the path to the image file, relative to the top directory of the web site. Images are typically in
+<code class="language-plaintext highlighter-rouge">/images</code> directory.</li>
+  <li><code class="language-plaintext highlighter-rouge">{...}</code> are optional rendering instructions, using CSS attributes. <code class="language-plaintext highlighter-rouge">height</code> and <code class="language-plaintext highlighter-rouge">width</code> are used to define the size of the
+rendered image (whatever is its original size), <code class="language-plaintext highlighter-rouge">px</code> meaning the unit is pixel. <code class="language-plaintext highlighter-rouge">.centered-image</code> is a CSS class that
+allows to center horizontally the image (everything starting with a <code class="language-plaintext highlighter-rouge">.</code> is interpreted as a CSS class, typically defined
+into <code class="language-plaintext highlighter-rouge">css/hsf.css</code>).</li>
+</ul>
+
+<h2 id="checking-the-results-of-your-contribution">Checking the Results of Your Contribution</h2>
+
+<p>It is often desirable to assess the result of changes before publishing them. There is no services at GitHub to do that: 
+you can only render the markdown contents, without all the CSS and other things. To achieve this, you need to install 
+Jekyll on your local machine. Detailed instructions can be found on Jekyll <a href="https://jekyllrb.com/docs/installation/">web site</a> 
+but the short story is:</p>
+
+<ul>
+  <li>Install <a href="https://www.ruby-lang.org/en/downloads/">Ruby</a> and <a href="https://rubygems.org/pages/download">RubyGems</a></li>
+  <li>
+    <p>Install Bundler (a Ruby package manager):</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>bundler
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>If you don’t have one yet, create a clone of the GitHub HSF web site repository and move to the directory created (by default <code class="language-plaintext highlighter-rouge">hep-sf.githb.io</code>):</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/HSF/hsf.github.io.git
+<span class="nb">cd </span>hsf.github.io
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Install/update your Jekyll installation (must be done regularly):</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundler update
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Run Jekyll installation:</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundler <span class="nb">exec </span>jekyll serve
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>Once Jekyll has been started you can view the web site by connecting to <code class="language-plaintext highlighter-rouge">localhost:4000</code>.</p>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/jekyll-beginners.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

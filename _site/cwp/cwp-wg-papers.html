@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Community White Paper - Publishing to arXiv</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  
+<h2 id="publishing-cwp-working-group-papers-to-arxiv">Publishing CWP Working Group Papers to arXiv</h2>
+
+<p>This is the currently <strong>and strongly</strong> recommended way to publish each of the CWP WG
+papers to <a href="https://arxiv.org" target="_arxiv_site">arXiv</a>. This route ensures a high presentation standard 
+for the finished paper and allows reuse of bibtex files and author affiliations.
+It also archives the document sources in the HSF document repository.</p>
+
+<ol>
+  <li>Finalise paper text, ensuring a good standard of English 
+  (select your preferred variant and use it for the whole document),
+  scientific content and rigour (we have come a long way -
+  let’s not fall at the final hurdle!).
+    <ul>
+      <li>Try to do this as much as possible within your working
+ group, but ask the <a href="mailto:hsf-cwp-ghost-writers@googlegroups.com">CWP Ghost Writers team</a> 
+ for help if needed.</li>
+    </ul>
+  </li>
+  <li>If necessary, convert from Google Doc to LaTeX using pandoc
+    <ul>
+      <li>Download your Google Doc as docx, a.k.a. MS Word, format</li>
+      <li>Using <a href="https://pandoc.org/">pandoc</a>, which is easily <a href="https://pandoc.org/installing.html">installed</a>,
+convert your docx file to latex:
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  pandoc <span class="nt">-f</span> docx <span class="nt">-t</span> latex <span class="nt">-o</span> wgpaper.tex wgpaper.docx
+</code></pre></div>        </div>
+      </li>
+      <li>The conversion is generally very accurate, but within <code class="language-plaintext highlighter-rouge">itemize</code> environments you
+may find that text is inside a spurious <code class="language-plaintext highlighter-rouge">quote</code> environment and that some
+odd non-breaking spaces appear. Just delete these.</li>
+    </ul>
+  </li>
+  <li>Adopt the <a href="https://jhep.sissa.it/jhep/help/JHEP/TeXclass/DOCS/JHEP-author-manual.pdf" target="_jhep_style">JHEP preprint</a>
+style, using the template in the
+<a href="https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-13_soft-dev/latex/" target="_soft_dev_paper">software development paper</a>.
+    <ul>
+      <li>Copy the <code class="language-plaintext highlighter-rouge">jheppub.sty</code> file into your latex area as it is needed for arXiv side compilation.</li>
+    </ul>
+  </li>
+  <li>Build the author list: the <strong>strongly recommended</strong> way is to create a text file 
+<code class="language-plaintext highlighter-rouge">authors.txt</code> and use the <code class="language-plaintext highlighter-rouge">a2tex.py</code> tool to generate the TeX-formatted author list, 
+following the steps below (look at 
+<a href="https://github.com/HSF/documents/blob/master/CWP/papers/HSF-CWP-2017-04_doma" target="_doma_paper">DOMA paper</a> 
+for an example):
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">authors.txt</code>: the easiest is to start from the global CWP 
+<a href="https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/authors.txt">author list</a>
+and remove unnecessary entries. The line format in this file is:
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Surname, Forename - Affiliation_ID (footnote_key)
+</code></pre></div>        </div>
+      </li>
+      <li>In the previous line, <code class="language-plaintext highlighter-rouge">Affiliation_ID</code> refers to the first word in the
+<a href="https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/address.txt" target="_address_txt">affiliation list</a>
+and <code class="language-plaintext highlighter-rouge">footnote_key</code> to the number at the start of the line in the
+<a href="https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-01_roadmap/authors/footnotes.txt" target="_footnotes_txt">footnote list</a>. 
+If there are several affiliations, use ` &amp; ` as the separator. If there are several 
+footnotes, separate them with a comma without surrounding spaces.</li>
+      <li>Run <code class="language-plaintext highlighter-rouge">a2tex.py</code> to generate the <code class="language-plaintext highlighter-rouge">authors.tex</code> file (and <code class="language-plaintext highlighter-rouge">arxiv.txt</code> for arXiv submission). Assuming you used the recommended 
+directory structure, the command to use is (use <code class="language-plaintext highlighter-rouge">--help</code> for more details):
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ../../HSF-CWP-2017-01_roadmap/authors/a2tex.py <span class="se">\</span>
+                                          <span class="nt">--jhep</span> <span class="se">\</span>
+                                          <span class="nt">--footnotes</span> ../../HSF-CWP-2017-01_roadmap/authors/footnotes.txt <span class="se">\</span>
+                                          <span class="nt">--affiliations</span> ../../HSF-CWP-2017-01_roadmap/authors/address.txt
+
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>To create the title page use the <code class="language-plaintext highlighter-rouge">\maketitle</code> statement (without arguments). <strong>Before</strong> 
+you need to define the title, the abstract and the author list:
+    <ul>
+      <li>The title must be <code class="language-plaintext highlighter-rouge">HEP Software Foundation Community White Paper Working Group -- My Working Group</code>. 
+  To define it, use the following statement:
+        <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   <span class="k">\title</span><span class="p">{</span>the title text<span class="p">}</span>
+</code></pre></div>        </div>
+      </li>
+      <li>To define the astract, use:
+        <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="k">\abstract</span><span class="p">{</span>your abstract text<span class="p">}</span>
+</code></pre></div>        </div>
+      </li>
+      <li>To define the author list, use the <code class="language-plaintext highlighter-rouge">authors.tex</code> file created at the previous step, 
+  using:
+        <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="k">\input</span><span class="p">{</span>authors.tex<span class="p">}</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>Add a copyright and license statement as a LaTeX comment (first line of your <code class="language-plaintext highlighter-rouge">.tex</code> 
+file) - we strongly recommend:
+    <div class="language-latex highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c">% Copyright (C) 2018, The HSF Community White Paper authors, licence CC-BY-4.0.</span>
+</code></pre></div>    </div>
+  </li>
+  <li>When finalised/finalising add the document sources to the
+  HSF documents github repo,
+  <a href="https://github.com/HSF/documents" target="_hsf_documents">https://github.com/HSF/documents</a>, following the
+  usual pull request workflow. You can ask <code class="language-plaintext highlighter-rouge">hegner</code>, <code class="language-plaintext highlighter-rouge">eduardo-rodrigues</code>, <code class="language-plaintext highlighter-rouge">graeme-a-stewart</code>
+  or <code class="language-plaintext highlighter-rouge">jouvin</code> for a review (best to pick at least two).
+    <ul>
+      <li>Your paper should go into 
+<code class="language-plaintext highlighter-rouge">CWP/papers/HSF-CWP-2017-XX_short-wg-name/latex</code> (the first part for correct ordering,
+the second for allowing people to know which paper is which at a glance).</li>
+    </ul>
+  </li>
+  <li>You can take advantage of the 
+  <a target="_cwp_bib" href="https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp.bib">large bibtex</a> 
+  file that was used for the roadmap for your references.
+    <ul>
+      <li>There is also a common file for references to <a target="_cwp_bib" href="https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp-chapters.bib">WG papers</a> themselves.</li>
+    </ul>
+  </li>
+  <li>Upload to arXiv, use “Computational Physics (physics.comp-ph)” as the primary 
+subject, with “High Energy Physics - Experiment (hep-ex)” as a secondary.
+    <ul>
+      <li>Note that when uploading files to arXiv, it is the <code class="language-plaintext highlighter-rouge">.bbl</code> file of resolved and formatted 
+references that is required, not the source <code class="language-plaintext highlighter-rouge">.bib</code> files.</li>
+    </ul>
+  </li>
+  <li>You can now finalise your own paper’s reference in
+  <a target="_cwp_bib" href="https://github.com/graeme-a-stewart/documents/blob/master/CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp-chapters.bib">CWP/papers/HSF-CWP-2017-01_roadmap/latex/cwp-chapters.bib</a>.
+    <ul>
+      <li>Make a final commit to github with this last piece of information so that all regenerated 
+ WG texts will include the new cross reference correctly.</li>
+    </ul>
+  </li>
+</ol>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/cwp/cwp-wg-papers.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

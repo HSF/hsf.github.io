@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Events</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="row">
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2019/07/22/pyhep2019.html">PyHEP 2019 "Python in HEP" Workshop, U.K., October 16-18, 2019</a></h2>
+<p class="blog-post-meta">22 Jul 2019 by <a href="/events/2019/07/22/pyhep2019.html">Eduardo Rodrigues</a></p>
+
+<p>We are pleased to announce the second <strong>“Python in HEP”</strong> workshop organised by the HSF.
+The PyHEP, “Python in HEP”, workshops aim to provide an environment
+to discuss and promote the usage of Python in the HEP community at large.
+<strong>PyHEP 2019</strong> will be held in Abingdon, near Oxford, United Kingdom,
+from 16-18 October 2019.</p>
+
+<p>The workshop will be a forum for the participants and the community at large
+to discuss developments of Python packages and tools, exchange experiences,
+and steer where the community needs and wants to go.
+There will be ample time for discussion.</p>
+
+<p>The agenda will be composed of plenary sessions, a highlight of which is the following:</p>
+<ol>
+  <li>A keynote presentation from the Data Science domain.</li>
+  <li>A topical session on histogramming including a talk and a hands-on tutorial.</li>
+  <li>Lightning talks from participants.</li>
+  <li>Presentations following up from topics discussed at PyHEP 2018.</li>
+</ol>
+
+<p>We encourage community members to propose presentations on any topic (email: pyhep2019-organisation@cern.ch).
+We are particularly interested in new(-ish) packages of broad relevance.</p>
+
+<p>The agenda will be made available on the workshop
+<a href="https://indico.cern.ch/e/pyhep2019" target="_pyhep2019_indico">Indico page</a> in due time.
+It is also linked from the
+<a href="http://hepsoftwarefoundation.org/activities/pyhep.html" target="_pyhep">PyHEP WG homepage</a>.
+Announcements on Twitter will be made using the tag #PyHEP, as with previous meetings.</p>
+
+<p>Registration will open very soon, and we will provide detailed
+travel and accommodation information at that time.
+Travel funds may be available at a modest level.
+To be confirmed once registration opens.</p>
+
+<p>You are encouraged to register to the
+<a href="https://gitter.im/HSF/PyHEP" target="_pyhep_gitter">PyHEP WG Gitter channel</a>
+and/or to the <a href="https://groups.google.com/forum/#!forum/hsf-forum" target="_hsf_forum">HSF forum</a>
+to receive further information concerning the organisation of the workshop.</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2018/10/12/generators.html">HSF/LPCC Physics Event Generator Computing Workshop, 26-27 November 2018</a></h2>
+<p class="blog-post-meta">12 Oct 2018 by <a href="/events/2018/10/12/generators.html">Graeme Stewart</a></p>
+
+<p>The HSF and the LPCC are happy to announce a
+<a href="https://indico.cern.ch/event/751693/">joint workshop</a> on computing and
+software challenges for event generators.</p>
+
+<p>This event will focus on the challenges for physics event generators that need
+to be faced in HEP in the next decade, many of which were identified in the
+<a href="https://arxiv.org/abs/1712.06982">HSF Community White Paper</a>.</p>
+
+<p>Many physics searches will require enhanced precision, calling for generators
+which are both more compute intensive and have a larger spread of weights.
+This, coupled with an increasingly heterogeneous and concurrent processing
+landscape, poses serious technical challenge for much of the generator code
+and calls for a rethinking of how to best use precision event
+generator predictions.</p>
+
+<p>The workshop will review the current and projected computational needs of the
+experiments for generating the MC samples they need to achieve their physics
+goals, and the plans and concerns of several generator teams, with the aim of
+identifying the most crucial areas where technical and organisational
+improvements are needed.</p>
+
+<p>We aim to identify a programme of work that can be used to attract investment
+and focus effort in these technical areas, aiming to have software engineers
+who can work together with the generator authors, improving the current codes
+and making new theoretical advances easier to implement in a computationally
+efficient way. We will try to find areas where experiments can work together
+to use event generator codes more efficiently.</p>
+
+<p>The workshop is open to all interested parties, from the experiments and the
+theory community, but in particular to those who write and maintain the
+generator codes, from the major experiments and to experts in software
+engineering in HEP.</p>
+
+<p><a href="mailto:hsf-generator-engineering-ws-organisation@googlegroups.com">Contact the organisers</a>
+for any aspect of the workshop or if you would like to make a suggestion for
+specific topics to cover.</p>
+
+<p>Workshop Chairs: Stefan Hoche, Graeme Stewart, Andrea Valassi</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2018/01/15/pyhep2018.html">PyHEP 2018 "Python in HEP" Workshop, Sofia, July 7-8, 2018</a></h2>
+<p class="blog-post-meta">15 Jan 2018 by <a href="/events/2018/01/15/pyhep2018.html">Eduardo Rodrigues</a></p>
+
+<p>We are pleased to announce a new series of workshops initiated and supported by the HEP Software Foundation. The <strong>PyHEP “Python in HEP” workshops</strong> aim to provide an environment to discuss and promote the usage of Python in the HEP community at large.</p>
+
+<p>The first workshop, <strong>PyHEP 2018</strong>, will be held as a pre-CHEP event in Sofia, Bulgaria, on 7-8 July 2018, just before the start of the <a href="http://chep2018.org/" target="_chep2018">CHEP 2018 conference</a>. It will focus on a review of where and how Python is used in our community, and what the future will hold.
+The workshop will be a forum for the participants, representatives of the community, to discuss topics around the areas of work identified in the HSF <a href="/activities/cwp.html" target="_cwp">Community White Paper</a>. There will be ample time for discussion.</p>
+
+<p>The <a href="https://indico.cern.ch/event/694818/" target="_pyhep2018_indico">agenda</a> will be composed of plenary sessions dedicated to the following topics:</p>
+
+<ol>
+  <li>Historical perspective and overview</li>
+  <li>PyROOT and Python bindings</li>
+  <li>HEP python software ecosystem</li>
+  <li>Distribution and installation</li>
+  <li>Analysis frameworks</li>
+  <li>Python 2 versus 3</li>
+  <li>Open discussion on education and training</li>
+</ol>
+
+<p>The preliminary <a href="https://indico.cern.ch/event/694818/" target="_pyhep2018_indico">agenda</a> will soon be available on the workshop indico page linked from the <a href="/activities/pyhep.html" target="_pyhep">PyHEP homepage</a>.</p>
+
+<p>Further information will be provided via the above link and also as part of the forthcoming CHEP bulletins.</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2017/12/20/hsf-wlcg-naples.html">HEP Software Foundation WLCG Workshop, Naples, March 26-29 2018</a></h2>
+<p class="blog-post-meta">20 Dec 2017 by <a href="/events/2017/12/20/hsf-wlcg-naples.html">Graeme Stewart</a></p>
+
+<p>The HSF and WLCG will hold a joint workshop that addresses the challenges
+identified by the <a href="/activities/cwp.html">Community White Paper</a>
+process. The workshop will focus on the long term evolution of 
+software and computing in HEP, particularly oriented towards
+the High Luminosity LHC, the Intensity Frontier and 
+new experiments in the future.</p>
+
+<p>The preliminary agenda and further details, including travel and hotel 
+information are now available on the <a href="https://indico.cern.ch/event/658060/" target="_naples_ws">indico page</a>.</p>
+
+<p>There will be common plenary sessions, focused on the main 
+challenges for HEP described in the CWP, and parallel sessions to 
+discuss and define concrete R&amp;D projects.</p>
+
+<p>There also will be ample scope for additional community driven topics. 
+Please <a href="mailto:WLCG-HSF-Workshop-2018-organisation@cern.ch">contact us</a>
+if you are interested in using one of the reserved slots and to organise 
+a session dedicated to a particular topic.</p>
+
+<p>Registration will open at the end of January as we are still exploring 
+sponsorship for the workshop. We will send another email with updated 
+information by mid-January.</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2017/05/30/cwp-annecy-ws.html">HEP Software Foundation Workshop, LAPP (Annecy, France), June 26-30, 2017</a></h2>
+<p class="blog-post-meta">30 May 2017 by <a href="/events/2017/05/30/cwp-annecy-ws.html">Michel Jouvin</a></p>
+
+<p>Realizing the physics programs of the planned and/or upgraded HEP experiments over the next 10 years will require the HEP community 
+to address a number of challenges in the area of software and computing. It is expected that the computing models will need to evolve and 
+that a significant “software upgrade” is required.</p>
+
+<p>The HEP Software Foundation (HSF) has been working since January on a Community White Paper (CWP) that 
+will define a roadmap for HEP Software and Computing R&amp;D for the 2020s. After the <a href="http://indico.cern.ch/event/570249/">initial 
+workshop</a> at the San Diego Supercomputing Center (SDSC), 
+many topical working groups have been formed to discuss the various aspects of the CWP.</p>
+
+<p>This <a href="https://indico.cern.ch/event/613093/overview">HSF workshop</a> at LAPP (Annecy, France) will conclude the work of these WGs and prepare the final 
+CWP. The agenda will be a mix of plenary sessions to share the work done so far by the 
+WGs and parallel sessions to finalize the work in each WG. The work of each WG is public: 
+see <a href="http://hepsoftwarefoundation.org/cwp/cwp-working-groups.html">HSF web site</a> for details.</p>
+
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2017/05/22/analysis.html">HSF workshop on the HEP analysis ecosystem, Amsterdam, May 22-24 2017</a></h2>
+<p class="blog-post-meta">22 May 2017 by <a href="/events/2017/05/22/analysis.html">Torre Wenaus</a></p>
+
+<p>Over the past 20 years the HEP community has developed and gravitated around an analysis ecosystem centered on ROOT. ROOT and its ecosystem both dominate HEP analysis and impact the full event processing chain, providing foundation libraries, I/O services etc. that have prevalence in the field.</p>
+
+<p>The analysis tools landscape is however evolving in ways that can have a durable impact on the analysis ecosystem and a strong influence on the analysis and core software landscape a decade from now, a timescale currently in an intensive planning round with the HEP Software Foundation (HSF) Community White Paper process. Data intensive analysis is growing in importance in other sciences and in the wider world. Powerful tools and new development initiatives, both within our field and in the wider open source community, have emerged. Creative developers have an ever more powerful open source toolkit available and are applying it towards innovations that leverage both open source and the ROOT ecosystem. ROOT itself is approaching a major re-engineering with ROOT 7, leveraging the powerful evolution of C++, with a major overhaul in its interfaces as seen both by its users and by satellite tools in the ROOT ecosystem.</p>
+
+<p>With these considerations we are organizing this open HEP software community workshop convened by the HSF to examine the analysis ecosystem, currently and in the future with a 5-10 year view. The workshop will be something of a retreat aimed at an inclusive building of consensus among developers, users, projects and their supporters in the HEP analysis ecosystem.</p>
+
+<p>See the <a href="https://indico.cern.ch/event/613842/">indico page</a>.</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2017/03/28/VisualizationWorkshop.html">First HSF Visualization Workshop, CERN, Mar 28-30 2017</a></h2>
+<p class="blog-post-meta">28 Mar 2017 by <a href="/events/2017/03/28/VisualizationWorkshop.html">Riccardo Maria Bianchi</a></p>
+
+<p>The <a href="https://indico.cern.ch/event/617054/">First HSF Visualization Workshop</a>
+takes place from the <strong>28th to the 30th of March 2017</strong>, at CERN and remotely.
+It spans three afternoons, to let US colleagues connect remotely through the Vidyo video-conference system.</p>
+
+<p><strong>Visualization plays an important role in HEP</strong>. It is not only used to produce event displays for physics analysis, papers, press releases and Outreach&amp;Education material. But it is also used at many different levels in HEP experiments, to visualize experiments’ data  for a number of tasks: to support detector development, to verify the simulation and to check the reconstruction algorithms, to name a few.</p>
+
+<p><strong>A long time had passed</strong> since the last time the HEP Visualization community gathered to share their software tools, ideas and thoughts. Also, nowadays computer graphics and the related technologies offer many <strong>open-source tools</strong>, which are worth to be considered by the HEP Visualization community, to be tested for our purposes.</p>
+
+<p>This workshop aims at gathering Visualization experts and all interested people from the HEP community, to present their work and thoughts. Also, the goal is to <strong>find new ways of collaborative efforts</strong>, to build a shared view towards <strong>HEP common software tools</strong>.</p>
+
+<p>Beside that, <strong>invited speakers from industry</strong> – NVIDIA, KDAB, The Qt Company – will share with us their views and the open-source technologies they support.</p>
+
+<p>The <strong>agenda of the Visualization Workshop</strong> can be found here:</p>
+
+<p>https://indico.cern.ch/event/617054/</p>
+
+<p>A <strong>follow-up meeting</strong> will take place on <strong>Friday the 7th of April 2017</strong>, at CERN and remotely on Vidyo.
+The follow-up meeting is meant to let the colleagues who could not attend the main workshop to present their work.</p>
+
+<p>Moreover we will have Petya Rudloff and Artem Sydiakin from The Qt Company, who will present to us the <strong>Qt Development Roadmap</strong> for the next years.</p>
+
+<p>The agenda of the follow-up meeting can be found here: https://indico.cern.ch/event/628675/</p>
+
+<hr />
+
+<p><em>Update:</em></p>
+
+<ul>
+  <li>31 March 2017: A short <a href="https://groups.google.com/forum/?utm_medium=email&amp;utm_source=footer#!msg/hsf-forum/R6QefiZ3RUU/1xiO7kIiFAAJ">Workshop’s summary report</a> about the main workshop, which ended yesterday.</li>
+</ul>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2017/03/09/ReactiveX.html">Software Technology R&amp;D Forum - ReactiveX</a></h2>
+<p class="blog-post-meta">09 Mar 2017 by <a href="/events/2017/03/09/ReactiveX.html">Axel Naumann</a></p>
+
+<p>We are happy to announce the next installment of the Software Technology
+R&amp;D Forum, with a real technology highlight and speaker gem.</p>
+
+<p>We managed to secure Kirk Shoop (Microsoft), the author of rxcpp, an
+implementation of the <a href="http://reactivex.io">ReactiveX</a> “approach”. This
+is a data-driven way of concurrent processing, leveraged for instance by
+Netflix. Some see it as the language-independent destination of all
+concurrency efforts, after we gave up on dealing with low-level entities
+like tasks and futures.</p>
+
+<p>After his <a href="http://cseminar.web.cern.ch/cseminar/2017/0309">Computing Seminar</a> (which will be recorded
+but not webcast) he offered a workshop-style session to discuss how to
+cast existing algorithms into the ReactiveX approach, with rxcpp as an
+example. Apart from his presentation, we would like to expose him to
+challenges from our environment and see how well ReactiveX maps to this.</p>
+
+<p>You are cordially invited to bring those challenges with you, for
+instance by a two-slides presentation. Please contact the organizers if
+you volunteer to expose your concurrency / data processing challenges!</p>
+
+<p>The session is scheduled for <em>Thursday March 9, 17:00</em> GVA time (NOTE
+the unusual day and time due to speaker availability). At CERN, the
+physical location will be 32-1-A24; see
+<a href="https://indico.cern.ch/event/614559/">https://indico.cern.ch/event/614559/</a> for slides and Vidyo.</p>
+
+<p>Best regards,</p>
+
+<p>Axel with Peter and Jerome.</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2017/03/06/CTDWIT.html">Connecting The Dots / Intelligent Tracker 2017 Workshop</a></h2>
+<p class="blog-post-meta">06 Mar 2017 by <a href="/events/2017/03/06/CTDWIT.html">David Rousseau</a></p>
+
+<p>The <a href="https://ctdwit2017.lal.in2p3.fr">2017 Connecting The Dots / Intelligent Tracker Workshop </a>
+takes place from 6th to 9th of March at LAL-Orsay (close to Paris).
+With the parallel progress in pattern recognition algorithms and microelectronic technology, the design and performance of tracking detector is rooted in the solid interplay of hardware and software : sensors, readout and trigger electronics, online and offline reconstruction software. The main focus of the workshop is on pattern recognition and machine learning algorithms devoted to the reconstruction of particle tracks or jets in high energy physics experiments, and the hardware developments that enable them.</p>
+
+<p>This 2017 edition is a merger of the Connecting The Dot series with the Workshop on Intelligent Tracker series.</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2017/01/23/Workshop.html">HEP Software Foundation Workshop, San Diego Supercomputing Center (SDSC), January 23-26, 2017</a></h2>
+<p class="blog-post-meta">23 Jan 2017 by <a href="/events/2017/01/23/Workshop.html">Pere Mato</a></p>
+
+<p>This workshop will take place at the San Diego Supercomputing Center (SDSC) and the University of California at San Diego (UCSD).</p>
+
+<p>This HEP Software Foundation (HSF) workshop will focus in particular on the Community White Paper (CWP), A Roadmap for HEP Software and Computing R&amp;D for the 2020s.</p>
+
+<p>Realizing the physics programs of the planned and/or upgraded HEP experiments over the next 10 years will require the HEP community to address a number of challenges in the area of software and computing. It is expected that the computing models will need to evolve and a significant “software upgrade” is required to prepare. In order to identify and prioritize the software research and development investments required, we are now beginning a community planning process. The aim is to produce a Community White Paper (CWP) which will describe the community strategy and a roadmap for software and computing R&amp;D in HEP for the 2020s. This activity is organised under the umbrella of the HSF. The LHC experiments and HSF have been specifically charged by the WLCG project and we are reaching out to other HEP experiments around the world to participate.</p>
+
+<p>This HSF workshop at SDSC/UCSD will be the first workshop supporting the CWP process. There will be plenary sessions covering topics of general interest as well as parallel sessions for the many topical working groups in progress for the CWP.</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2016/10/25/GeantV.html">HEP software community meeting on GeantV R&amp;D, CERN, October 25-27, 2016</a></h2>
+<p class="blog-post-meta">25 Oct 2016 by <a href="/events/2016/10/25/GeantV.html">Benedikt Hegner</a></p>
+
+<p>The HEP Software Foundation (HSF) has organized an open meeting at the request of the <a href="http://geant.cern.ch/">GeantV</a> project. 
+A group of community experts has been empanelled and provided with a charge to guide an assessment of the project. The panel is asked to produce a report that summarizes the meeting and make observations and recommendations constituting advice to the GeantV team to help it improve its work and set the future direction. See the <a href="https://indico.cern.ch/event/570876/">indico agenda</a> for details.</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2016/03/04/Workshop.html">HSF Workshop 2016, Paris, May 2-4, 2016</a></h2>
+<p class="blog-post-meta">04 Mar 2016 by <a href="/events/2016/03/04/Workshop.html">Michel Jouvin</a></p>
+
+<p>The HEP Software Foundation had its first formative workshop at SLAC in January 2015. That workshop led to the establishment of HSF activity areas in the topics of greatest community interest identified at the workshop, with an organization following the model of a community-driven “do-ocracy”. Since then, these activities have developed and new opportunities present themselves.</p>
+
+<p>The HSF will hold its second workshop <strong>May 2-4 2016 at LAL in Orsay</strong>, near Paris (France). <a href="http://www.lal.in2p3.fr/?lang=en">LAL</a> have kindly volunteered to host, assuring us of another fine venue. Registration is open with all the logistics/travel information: <a href="https://indico.cern.ch/e/HSFWorkshop2016">https://indico.cern.ch/e/HSFWorkshop2016</a>. The program will have two main elements. The first element will be a plenary gathering with talks and discussion on progress
+ to date and future plans, how to garner greater participation, new initiatives and projects, and guest speakers from the open software community. The second element will be a select number of focused mini-workshops and hackathons, in areas of current or potential HSF activity that are of broad interest and relevance, with hands-on objectives. The ‘do-ocracy’ part of the program.</p>
+
+<p>Workshop content and topics have not been finalized, we would like your input in order to do that, but a <a href="https://indico.cern.ch/event/496146/timetable">working-draft</a> program is here, together with a <a href="http://doodle.com/poll/8hpxredhnci2i8xh">doodle poll</a> to quickly collect your input. Registration is open and logistics have been established. <strong>Please register!</strong></p>
+
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2015/11/08/tracking.html">1st Common Track Reconstruction Software Forum</a></h2>
+<p class="blog-post-meta">08 Nov 2015 by <a href="/events/2015/11/08/tracking.html">Benedikt Hegner</a></p>
+
+<p>We would like to invite you to the first <a href="https://indico.cern.ch/event/459865/">Common Track Reconstruction Software Forum</a> on December 3rd at 3pm GVA time.</p>
+
+<p>We hope this first meeting will serve as a kick-off for a more regular forum to discuss track reconstruction software forum across experiments, which we would organise under the formal umbrella of the HEP Software Foundation.</p>
+
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2015/11/04/ML.html">Data Science @ LHC 2015 Workshop</a></h2>
+<p class="blog-post-meta">04 Nov 2015 by <a href="/events/2015/11/04/ML.html">Benedikt Hegner</a></p>
+
+<p>The <a href="http://indico.cern.ch/event/395374/">Data Science @ LHC 2015 Workshop</a>
+takes place from 9th to 11th of November at CERN.</p>
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2015/04/17/CHEP.html">HSF meeting at CHEP 2015, Fri Apr 17 2015</a></h2>
+<p class="blog-post-meta">17 Apr 2015 by <a href="/events/2015/04/17/CHEP.html">Torre Wenaus</a></p>
+
+<p>The CHEP 2015 organizers have kindly agreed to include in the Conference planning a HEP Software Foundation meeting early Friday afternoon Apr 17, just after the conclusion of the Conference. Time and details are to be determined, but with very many flights to Tokyo available in the late Friday afternoon and evening we hope that many will be able to include the HSF meeting in their CHEP plans without significant disruption to their travel plans.</p>
+
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2015/01/21/SLAC.html">HSF Workshop at SLAC</a></h2>
+<p class="blog-post-meta">21 Jan 2015 by <a href="/events/2015/01/21/SLAC.html">Torre Wenaus</a></p>
+
+<p>The HSF had a workshop at SLAC’s Kavli Auditorium in January 2015, Tue 20 - Wed 
+21, with discussions continuing on Thu 22. The main goal of the workshop was to 
+refine the next steps for building the HSF. The workshop was successful in 
+this, with about 100 participants (80 local and 20 remote) contributing to 
+establishing a concrete set of community mandated activities for the HSF. 
+Several workshop summaries presented around the community are attached to this 
+page. The list of registrants is available on the workshop website linked 
+below.</p>
+
+
+
+</div>
+
+
+
+<div class="blog-post">
+<h2 class="blog-post-title"><a href="/events/2014/04/03/kickoff.html">HEP Software Collaboration Meeting</a></h2>
+<p class="blog-post-meta">03 Apr 2014 by <a href="/events/2014/04/03/kickoff.html">Torre Wenaus</a></p>
+
+<p>Formative meeting for a HEP wide community collaboration on software and computing.</p>
+
+<p><a href="https://indico.cern.ch/event/297652/">Agenda</a></p>
+
+
+</div>
+
+
+
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/events.html"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

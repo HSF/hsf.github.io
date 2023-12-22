@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Weekly Meeting #180, 13 February, 2020</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2020/01/30/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #179, 30 January, 2020</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2020/02/26/packaging.html">HSF Software Tools and Packaging Working Group Meeting #1, 26th February 2020 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-weekly-meeting-180-13-february-2020">HSF Weekly Meeting #180, 13 February, 2020</h1>
+
+<p>Present/Contributors: Graeme Stewart, Agnieszka Dziurda, Ben Krikler, David Lange, Andrea Rizzi, Maria Girone, Liz Sexton-Kennedy, Efe Yazgan, Stefan Roiser, Andrea Valassi, Witek Pokorski, Kyle Knoepfel, Caterina Doglioni, Teng Jian Khoo, Ben Morgan, Philippe Canal, Mark Neubauer</p>
+
+<p>Apologies: Pete Mato, Gloria Corti</p>
+
+<h2 id="news-general-matters">News, general matters</h2>
+
+<ul>
+  <li>Reminder: ESCAPE Software Catalogue, <a href="https://projectescape.eu/escape-catalogue">https://projectescape.eu/escape-catalogue</a>,
+  is gathering requirements
+    <ul>
+      <li><em>What would the HSF want from this?</em>
+        <ul>
+          <li>Concentrate mainly on reusable software
+            <ul>
+              <li>i.e. not experiments or institutes</li>
+            </ul>
+          </li>
+          <li>Sustainability important
+            <ul>
+              <li>Should not be “one-shot” then never updates</li>
+              <li>Metadata tied to code base of projects?</li>
+            </ul>
+          </li>
+          <li>Documentation of workflows
+            <ul>
+              <li>Virtual environment for Dark Matter, for end-2-end studies</li>
+              <li>Caterina and Lukas looking into using Recast, PyHF and ReAna</li>
+              <li>Workflows for generators</li>
+            </ul>
+          </li>
+          <li>Any further ideas or inputs?</li>
+          <li>Got some general thoughts from Dan Katz that software catalogues take too much work for too little real value (!)</li>
+          <li><a href="https://libraries.io">libraries.io</a> worth looking at, monitors many open source repositories</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>IRIS-HEP Steering Board, 18 February
+    <ul>
+      <li>HSF were asked for feedback for IRIS-HEP</li>
+      <li>Please send any comments you have to Graeme</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="google-summer-of-code-2020">Google Summer of Code 2020</h2>
+
+<p>Now live on the HSF website: <em>29 Organisations</em>, <em>22 Projects</em>, <em>45 proposals</em></p>
+
+<p>Students will now start to get in touch, next deadline March 20, your evaluation
+of students based on your interactions <em>and a test</em></p>
+
+<h2 id="lhcc-review-of-hl-lhc-software-and-computing">LHCC Review of HL-LHC Software and Computing</h2>
+
+<p><em>Reminder</em>: LHCC will review software and computing plans for the HL-LHC, Amber Boehnlein (JLab) will chair, first phase will be 18-20 May 2020. Five 20 page documents provided as input to the committee, from ATLAS, CMS, WLCG, DOMA and from <em>Common Tools and Community Software</em> (the HSF takes care of the later)</p>
+
+<p>Document <a href="https://docs.google.com/document/d/1ai7m7kFyiGgl2tKralJKyPX6rlD9tffU7B6wPj_vpZU/edit?usp=sharing">outline</a> has been created.</p>
+
+<p>Our timeline:</p>
+<ul>
+  <li>February - first drafts</li>
+  <li>March - incorporate feedback</li>
+  <li>April - consolidation and consensus</li>
+  <li>1 May - document ready for LHCC</li>
+</ul>
+
+<p>Outline - cross cutting topics like accelerators and machine learning; how could we best incorporate these? Do it area by area or have a general sub-section?</p>
+
+<ul>
+  <li>Met with Ian and Simone and we decided that we should touch on these in the HSF document and then some light consolidation between documents is foreseen in April</li>
+</ul>
+
+<p>Not a lot of progress so far, though some groups did start to think about things. How to progress significantly in the next 2 weeks?</p>
+
+<p>Maria - DOMA are preparing a document and their WGs are gathering inputs in parallel</p>
+
+<p>ATLAS and CMS documents will be public only after the review</p>
+
+<h2 id="working-group-updates">Working Group Updates</h2>
+
+<h3 id="data-analysis">Data Analysis</h3>
+
+<ul>
+  <li>Based on doodle, we established a date for a meeting between HSF DAWG and DOMA-Access, which will be Tue, 17 March at 14.00</li>
+  <li>Will start planning for the analysis languages workshop, beginning to narrow down dates.</li>
+</ul>
+
+<h3 id="detector-simulation">Detector Simulation</h3>
+
+<ul>
+  <li>Planning LHCC inputs</li>
+  <li>Plan forming for the Lund workshop - quite a lot, 4 sessions (see below)
+    <ul>
+      <li>2 sessions for R&amp;D on GPUs, very open for people to discuss “crazy” ideas</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="reconstruction-and-software-triggers">Reconstruction and Software Triggers</h3>
+
+<ul>
+  <li>We had a meeting yesterday (at the end it was joint with IRIS-HEP) about HL-LHC Tracking challenges:
+    <ul>
+      <li>indico: <a href="https://indico.cern.ch/event/882106/">https://indico.cern.ch/event/882106/</a></li>
+      <li>minutes: in preparation</li>
+      <li>about 25 participants in Vidyo + 25 people at CERN</li>
+    </ul>
+  </li>
+  <li>We plan to follow up with other experiments (we had a last minute cancellation)</li>
+  <li>Positive outcome of the meeting: we do not need to sacrifice performance when speeding up reconstruction i.e., possible gain in both CPU and physics</li>
+  <li>Convenors meeting early next week to target LHCC report</li>
+</ul>
+
+<h3 id="software-tools-and-packaging">Software Tools and Packaging</h3>
+<ul>
+  <li>Next meeting announced for 26th February, 15:00 CERN time:
+    <ul>
+      <li><a href="https://indico.cern.ch/event/888898/">https://indico.cern.ch/event/888898/</a></li>
+      <li>Contact Serhan, Ben and Martin if you want to present something</li>
+      <li>Will discuss topics for Lund (roughly Packaging, Tools for Accelerators, IDEs)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="pyhep">PyHEP</h3>
+<ul>
+  <li>Preparation for PyHEP2020 well underway, colocated with Scipy, 11-13th July
+    <ul>
+      <li><a href="https://indico.cern.ch/e/PyHEP2020">https://indico.cern.ch/e/PyHEP2020</a></li>
+    </ul>
+  </li>
+  <li>Poster to go out next Monday</li>
+  <li>Sponsorship being finalised</li>
+  <li>One topical meeting pre-Lund</li>
+</ul>
+
+<h3 id="training">Training</h3>
+
+<ul>
+  <li><a href="https://indico.cern.ch/event/882660/">Software Carpentry in March</a> (Carpentries just confirmed tutors)</li>
+  <li>Discussions on more advanced training are happening
+    <ul>
+      <li><a href="https://indico.cern.ch/event/858758/">Alpaka general day</a>, 27 April</li>
+      <li><a href="https://indico.cern.ch/event/878418/">Openlab oneAPI training</a>, 24-26 March</li>
+      <li>Hope to have some opportunities for training with Nvidia, boot camp style</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="event-generators">Event generators</h3>
+
+<ul>
+  <li>Working on a first draft/skeleton of the contribution to the HL-LHC document for the LHCC review. Should be able to have a first version for discussion between conveners by the end of this week, then forward for WG comments/feedback next week</li>
+  <li>Following up on the GPU port of MadGraph, some of us had a vidyo discussion yesterday about architectural approach (event-level data parallelism, basically), software technicalities and workplan for GSOC student</li>
+  <li>Also continuing the follow up of ATLAS/CMS accounting, so that we can present more refined numbers in Lund and in the HL-LHC document</li>
+</ul>
+
+<h3 id="frameworks">Frameworks</h3>
+
+<p>We are done with our experiment framework surveys; we will now focus on specific topics for our next meetings. We are trying to determine what those topics are based on the experiment survey talks.</p>
+
+<p>The frameworks working group has been asked to participate in the Software &amp; Computing Round Table at Jefferson Lab on March 10 on the topic of “Frameworks for Greenfield Experiments”.  The topic is motivated by software and computing discussions for the upcoming electron ion collider.</p>
+
+<ul>
+  <li>Might also be good to discuss the Key4hep project at that time</li>
+</ul>
+
+<h2 id="workshops">Workshops</h2>
+
+<h3 id="hsfwlcg-2020-workshop">HSF/WLCG 2020 workshop</h3>
+
+<h4 id="logistics">Logistics</h4>
+
+<p>Workshop registration is opening as we speak…</p>
+
+<p><a href="https://indico.cern.ch/event/867789/">https://indico.cern.ch/event/867789/</a></p>
+
+<p>The workshop fee will be:</p>
+
+<p>2800 SEK (approx. 260 EUR) if paid before April 1st,
+3200 SEK (approx. 300 EUR) If paid after April 1st and before April 20th.</p>
+
+<p>The conference dinner, prepared with local ingredients and hosted at the Lund Grand Hotel, can also be paid from the payment page (approx. 50 EUR).</p>
+
+<p>There is a poster on the website - please print and pin up!</p>
+
+<h4 id="scientific-programme">Scientific Programme</h4>
+
+<p>Organising team for HSF are: Graeme, Heather, David and Michel</p>
+
+<p>We adjusted the timetable proposal a little:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Day</th>
+      <th style="text-align: center">Room 1</th>
+      <th style="text-align: center">Room 2</th>
+      <th style="text-align: center">Room 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Monday</strong></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>AM</td>
+      <td style="text-align: center">[Free for workshops and BoFs]</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>PM Part 1</td>
+      <td style="text-align: center">HSF+WLCG Plenary</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>PM Part 2</td>
+      <td style="text-align: center">HSF+WLCG Plenary</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td><strong>Tuesday</strong></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>AM Part 1</td>
+      <td style="text-align: center">New arch/portability/sustainability</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>AM Part 2</td>
+      <td style="text-align: center">New arch/portability/sustainability</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>PM Part 1</td>
+      <td style="text-align: center">New arch/portability/sustainability</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>PM Part 2</td>
+      <td style="text-align: center">New arch/portability/sustainability</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td><strong>Wednesday</strong></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>AM Part 1</td>
+      <td style="text-align: center">HSF Common Session</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">WLCG infrastructure and services</td>
+    </tr>
+    <tr>
+      <td>AM Part 2</td>
+      <td style="text-align: center">HSF Common Session</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">WLCG infrastructure and services</td>
+    </tr>
+    <tr>
+      <td>PM Part 1</td>
+      <td style="text-align: center">HSF Trigger&amp;Reco - General</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">WLCG infrastructure and services</td>
+    </tr>
+    <tr>
+      <td>PM Part 2</td>
+      <td style="text-align: center">HSF Sim - Fast Sim</td>
+      <td style="text-align: center">HSF Training</td>
+      <td style="text-align: center">WLCG infrastructure and services</td>
+    </tr>
+    <tr>
+      <td><strong>Thursday</strong></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>AM Part 1</td>
+      <td style="text-align: center">HSF Sim - Geant Modernisation</td>
+      <td style="text-align: center">HSF Tools &amp; Packaging</td>
+      <td style="text-align: center">DOMA Plenary</td>
+    </tr>
+    <tr>
+      <td>AM Part 2</td>
+      <td style="text-align: center">HSF Trigger&amp;Reco - General</td>
+      <td style="text-align: center">HSF Generators Overview</td>
+      <td style="text-align: center">DOMA Plenary</td>
+    </tr>
+    <tr>
+      <td>PM Part 1</td>
+      <td style="text-align: center">HSF Sim - R&amp;D</td>
+      <td style="text-align: center">HSF Generators R&amp;D</td>
+      <td style="text-align: center">DOMA Plenary</td>
+    </tr>
+    <tr>
+      <td>PM Part 2</td>
+      <td style="text-align: center">HSF Sim - R&amp;D</td>
+      <td style="text-align: center">HSF Frameworks</td>
+      <td style="text-align: center">DOMA Plenary</td>
+    </tr>
+    <tr>
+      <td><strong>Friday</strong></td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td>AM</td>
+      <td style="text-align: center">Wrap-up joint plenary</td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Two HSF sessions at the same time became inevitable, but can be reorganised a bit if there is a more optimal distribution of what we run in parallel</p>
+
+<p>Topics for plenary sessions:</p>
+
+<ul>
+  <li>Monday PM
+    <ul>
+      <li>Introduction and welcome from Lund</li>
+      <li>HSF Overview</li>
+      <li>WLCG Overview</li>
+      <li>Other Communities
+        <ul>
+          <li>Nuclear (FAIR), Astroparticle/SKA, Dark Matter</li>
+        </ul>
+      </li>
+      <li>Machine Learning (common challenges and opportunities, TBD)</li>
+      <li>CVMFS, Containers and future software distribution</li>
+    </ul>
+  </li>
+  <li>Tuesday
+    <ul>
+      <li>Please send any suggestions as this is rather a cross-cuttting topic</li>
+      <li>Review, in particular, workloads that might be suitable for HPCs with non-x86 architectures (GPUs, ARM, Power9…)</li>
+    </ul>
+  </li>
+  <li>Friday AM
+    <ul>
+      <li>Session on newly funded projects
+        <ul>
+          <li>ESCAPE</li>
+          <li>DOE HEP-CCE</li>
+          <li>IRIS-UK / ExCALIBER</li>
+        </ul>
+      </li>
+      <li>Vision and Outlook talk or Review talk
+        <ul>
+          <li>Ideas welcome here</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="bofs-and-other-events">BoFs and Other Events</h4>
+
+<ul>
+  <li>Software Deployment BoF</li>
+  <li>Training Hackathon (TBC)</li>
+  <li>WLCG AuthN/Z Hackathon</li>
+  <li>LHCOPN and LHCONE Meeting</li>
+</ul>
+
+<h3 id="pyhep-2020-workshop">PyHEP 2020 workshop</h3>
+
+<ul>
+  <li>See WG report above!</li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+
+<h3 id="next-meeting">Next Meeting</h3>
+
+<ul>
+  <li>Next regular meeeting slot is 27 February</li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2020/01/30/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #179, 30 January, 2020</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2020/02/26/packaging.html">HSF Software Tools and Packaging Working Group Meeting #1, 26th February 2020 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Weekly Meeting #63, July 14, 2016</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>  HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>  Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider">
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>  Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider">
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>  Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>  Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider">
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider">
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider">
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>  Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider">
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>  About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a></li>
+<li>
+                </li>
+<li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider">
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider">
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2016/07/07/startup.html"> ← HSF Weekly Meeting #62, July 7, 2016</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2016/07/21/startup.html">HSF Weekly Meeting #64, July 21, 2016 → </a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-weekly-meeting-63-july-14-2016">HSF Weekly Meeting #63, July 14, 2016</h1>
+
+<h3 class="no_toc" id="contents">Contents</h3>
+
+<ul id="markdown-toc">
+  <li>
+<a href="#hsf-weekly-meeting-63-july-14-2016" id="markdown-toc-hsf-weekly-meeting-63-july-14-2016">HSF Weekly Meeting #63, July 14, 2016</a>    <ul>
+      <li><a href="#present-dario-menasce-michel-jouvin-liz-sexton-kennedy-ben-morgan-pere-mato-guilherme-amadio-andrea-valassi-torre-wenaus-benedikt-hegner" id="markdown-toc-present-dario-menasce-michel-jouvin-liz-sexton-kennedy-ben-morgan-pere-mato-guilherme-amadio-andrea-valassi-torre-wenaus-benedikt-hegner"><em>Present</em>: Dario Menasce, Michel Jouvin, Liz Sexton-Kennedy, Ben Morgan, Pere Mato, Guilherme Amadio, Andrea Valassi, Torre Wenaus, Benedikt Hegner</a></li>
+      <li><a href="#news-general-matters" id="markdown-toc-news-general-matters">News, general matters</a></li>
+      <li>
+<a href="#current-topics" id="markdown-toc-current-topics">Current Topics.</a>        <ul>
+          <li>
+<a href="#cwp" id="markdown-toc-cwp">CWP</a>            <ul>
+              <li><a href="#pre-chep-sunday-meeting" id="markdown-toc-pre-chep-sunday-meeting">Pre-CHEP Sunday meeting</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+<a href="#activity-updates" id="markdown-toc-activity-updates">Activity updates</a>        <ul>
+          <li><a href="#training" id="markdown-toc-training">Training</a></li>
+          <li><a href="#packaging" id="markdown-toc-packaging">Packaging</a></li>
+          <li><a href="#licencing" id="markdown-toc-licencing">Licencing</a></li>
+          <li><a href="#common-tracking-forum" id="markdown-toc-common-tracking-forum">Common Tracking Forum</a></li>
+          <li><a href="#geantv-review" id="markdown-toc-geantv-review">GeantV Review</a></li>
+        </ul>
+      </li>
+      <li><a href="#aob" id="markdown-toc-aob">AOB</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="present-dario-menasce-michel-jouvin-liz-sexton-kennedy-ben-morgan-pere-mato-guilherme-amadio-andrea-valassi-torre-wenaus-benedikt-hegner">
+<em>Present</em>: Dario Menasce, Michel Jouvin, Liz Sexton-Kennedy, Ben Morgan, Pere Mato, Guilherme Amadio, Andrea Valassi, Torre Wenaus, Benedikt Hegner</h4>
+
+<h2 id="news-general-matters">News, general matters</h2>
+
+<ul>
+  <li>The present slot seems OK, we are getting a good turnout, won’t try to find a new slot.</li>
+</ul>
+
+<h2 id="current-topics">Current Topics.</h2>
+
+<h3 id="cwp">CWP</h3>
+
+<ul>
+  <li>
+    <p>Comments on the draft charge were passed to Ian by Pere and Pete. Pete had a discussion with Openlab and Maria proposed a small change to mention Openlab as one of the involved parties.</p>
+  </li>
+  <li>
+    <p>Andrea: WLCG MB next week, CWP will come up, maybe clarify there whether Ian foresees a further revision. Expect a version will be stamped as WLCG approved. Andrea, Benedikt, Torre… will be there in the MB.</p>
+  </li>
+  <li>
+    <p>We need to fix the dates for the pre-meetings in September: 19 to 21 September are free of meetings in the calendar… but Pere absent 19-20. 21-22 is LHCC. 22-23/9: HPC meeting <a href="https://github.com/FNAL" class="user-mention">@FNAL</a>. Whole week: coding sprint for GEANTV but can probably accommodate a couple of free hours during some days.</p>
+  </li>
+  <li>
+    <p>Likely scenario: two afternoons beginning at ~3pm or 4pm for 2-3 hours</p>
+  </li>
+  <li>
+    <p><strong>Propose to find two days in the Wed 21-Fri 23 window that week.</strong></p>
+  </li>
+</ul>
+
+<h4 id="pre-chep-sunday-meeting">Pre-CHEP Sunday meeting</h4>
+
+<ul>
+  <li><strong>Write now a brief announcement, elaborate on it after the Sep meeting.</strong></li>
+</ul>
+
+<h2 id="activity-updates">Activity updates</h2>
+
+<h3 id="training">Training</h3>
+
+<ul>
+  <li>
+    <p>No news this week.</p>
+  </li>
+  <li>
+    <p>Dario wants to add categories to the SW&amp;C KB but doesn’t know how to do it (confusion with HSF web site about Jekyll use). To be followed offline.</p>
+  </li>
+</ul>
+
+<h3 id="packaging">Packaging</h3>
+
+<ul>
+  <li>
+    <p>Liz: Packaging meeting last week. ANL’s ALCF supercomputer facility has launched an effort to get Spack working there. So spack is now broadening beyond the LLNL supercomputers where it originated.</p>
+  </li>
+  <li>
+    <p>ATLAS starting an effort to see how to improve version management of generators. Many dependencies to manage in last generations of generators (still remains limited compared to ATLAS or CMS SW stack). May be interesting to connect to the HSF packaging effort.</p>
+  </li>
+  <li>
+    <p>Proposal to discuss Portage by Guilherme: no date settled yet, to be done after the summer break. Guilherme will send an email description to the WG about Portage.</p>
+  </li>
+</ul>
+
+<h3 id="licencing">Licencing</h3>
+
+<ul>
+  <li>
+    <p>GEANTV is trying to decide a license and planning to use Apache2 license: contacted FNAL do discuss what was acceptable.</p>
+  </li>
+  <li>
+    <p>ATLAS facing FastJet GPL license threatening to contaminate software base with GPL when ATLAS wants Apache.</p>
+  </li>
+  <li>
+    <p>CMS is trying to make external everything that is viral. About 90% there. None in the core of the reco or similarly central.</p>
+  </li>
+  <li>
+    <p>Something to pursue (on the list?) for a better understanding here in HSF.</p>
+  </li>
+</ul>
+
+<h3 id="common-tracking-forum">Common Tracking Forum</h3>
+
+<ul>
+  <li>Another meeting on seeding and tracking is being prepared. The next opportunity is end of August or September.</li>
+</ul>
+
+<h3 id="geantv-review">GeantV Review</h3>
+
+<ul>
+  <li>
+    <p>We set the dates and have accumulated some names of potential reviewers. <strong>More names welcome if they come very soon</strong>. Need to decide on the reviewers to ask very soon. Pere and Torre will go over the list. <strong>We should be asking people within the next week or so.</strong></p>
+  </li>
+  <li>
+    <p>Location: CERN</p>
+  </li>
+  <li>
+    <p>Next thing will be writing a charge. HSF as organizer of the review presumably sets the charge, in consultation with all parties and in an open way. (Much of the text of the ultimate charge is probably already there in the materials in these minutes previously.)</p>
+  </li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+
+<ul>
+  <li>
+    <p>Benedikt pointed out that no newsletter has been released for a long time. The next topic should be the CWP and to use it to announce the meetings and process.</p>
+
+    <ul>
+      <li><strong>Do this once we have a CWP charge stamped as OK, next week.</strong></li>
+    </ul>
+  </li>
+  <li>
+    <p>Michel will meet IN2P3 management to discuss possible support for the SW&amp;C journal initiative.</p>
+  </li>
+  <li>
+    <p>[Torre: very nice meeting notes workflow Michel, thank you!]</p>
+  </li>
+</ul>
+
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2016/07/07/startup.html"> ← HSF Weekly Meeting #62, July 7, 2016</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2016/07/21/startup.html">HSF Weekly Meeting #64, July 21, 2016 → </a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

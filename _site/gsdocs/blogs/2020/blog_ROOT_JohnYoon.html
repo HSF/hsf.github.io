@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>RNTuple climate data tutorial and Reference Specifications</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsdocs/blogs/2020/blog_ROOT_JohannesHentrich.html">&nbsp;&#8592; Extending and improving the ROOT documentation</a></p>
+  
+
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+      
+        <div class="col-md-12">
+      
+    
+    <h1 class="blog-title">RNTuple climate data tutorial and Reference Specifications</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">11 Mar 2021 by <a href="/gsdocs/blogs/2020/blog_ROOT_JohnYoon.html">John Yoon</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <h1 id="gsod-2020-roots-rntuple">GSoD 2020: ROOT’s RNTuple</h1>
+
+<h1 id="introduction">Introduction</h1>
+<p>Google’s Season of Docs offers an opportunity for technical writers and open source organizations to collaborate on projects that would improve through documentation.</p>
+
+<p>Following the program’s application process, I was fortunate enough to match up with CERN, specifically with its software framework team, ROOT. Per ROOT’s own <a href="https://root.cern.ch/root/htmldoc/guides/primer/ROOTPrimer.html#motivation-and-introduction">website</a>, “ROOT is a software framework for data analysis and I/O: a powerful tool to cope with the demanding tasks typical of state of the art scientific data analysis.”</p>
+
+<p>Due to the nature of CERN, ROOT’s primary use cases revolve around particle physics analysis. This fact catalyzed the inspiration for my proposal, which heavily focused on creating a tutorial that would use datasets beyond the physics realm, in order to introduce ROOT’s incredible capabilities to a wider audience. Specifically, the scope for this endeavor highlighted on ROOT’s RNTuple feature.</p>
+
+<h1 id="preparations">Preparations</h1>
+<p>My main team within ROOT was the Input &amp; Output group. In particular, I interacted frequently with my mentor, Jakob Blomer. Logistically, we structured our communications so that once per week, I would join the broader Input &amp; Output team’s RNTuple meetings. Similarly (and just as valuably), I would have a weekly one-on-one with Jakob in order to review the project’s progress. For all other conversations, we primarily used CERN’s in-house communication tools.</p>
+
+<p>During the start of the program, I bounced ideas off of Jakob, as we considered possibilities for datasets to use. After creating an extensive list of possible non-physics related datasets (from Kaggle), we narrowed it down to three candidates from the fields of: climate data, sports data, and movie data. We decided that from these three, the climate data would serve as our primary dataset for the tutorial. We also decided that the other two datasets would later be revisited if appropriate within the timeframe and usefulness (we ultimately did not use the other two, because the pedagogical purpose of the tutorial had marginal returns from using the other datasets after already creating the climate data-related tutorial).</p>
+
+<p>In addition to the tutorial, we decided that RNTuple required a reference specification document. This document would allow users to create their own implementations.</p>
+
+<h1 id="goals">Goals</h1>
+<p>In summary, I would create:</p>
+<ul>
+  <li>a tutorial using climate data that would highlight several ROOT features, and</li>
+  <li>a reference specification document for RNTuple</li>
+</ul>
+
+<h1 id="development">Development</h1>
+<p>After establishing the success criteria for the project, I began to deep dive into the source code and review any existing documentation. Then I began to create the tutorial using the language, C++. The first major milestone was getting RNTuple to properly work with the climate data. The next stage consisted of taking the inputted data and filtering it to a more granular level so that the tutorial could use the data in combination with another ROOT feature, RDataFrame. Once this part was completed, we focused on outputting the results as visualizations. Afterwards, there were several iterations of adding and improving the comments within the code.</p>
+
+<p>Once the tutorial was complete, I shifted gears towards creating the eference specification document for RNTuple. This comprised of establishing and defining the key terms that is used in the understanding RNTuple, as well as translating the C-based implementation of RNTuple into a universally accessible guide that would allow developers to implement their own take on RNTuple, i.e. into other programming languages like Python.</p>
+
+<h1 id="challenges">Challenges</h1>
+<p>Most of the challenges relating to the completion of either goals derived from the fact that the parts of ROOT that I was contributing towards consisted mainly of its experimental version, ROOT 7. Consequently, it was difficult at times, such as during troubleshooting, to determine if the code was crashing due to a bug implemented on my part, or if it was due to the inherently experimental nature of the feature. Similarly, there were compatibility issues that arose between the experimental ROOT 7 version, and the currently accepted version. Fortunately, in both situations, my mentor, the I/O team, and the broader ROOT community was always there to offer insights and suggestions.</p>
+
+<h1 id="summary">Summary</h1>
+<p>The final two results can be found:</p>
+<ul>
+  <li><a href="https://github.com/root-project/root/tree/master/tutorials/v7">as “global_temperatures.cxx”</a>, or <a href="https://root.cern/doc/master/global__temperatures_8cxx.html">alternatively</a></li>
+  <li><a href="https://github.com/root-project/root/blob/master/tree/ntuple/v7/doc/specifications.md">RNTuple reference specification</a></li>
+</ul>
+
+<p>As mentioned before, due to the inherently experimental nature of the version ROOT 7, it is highly likely that both of my products will be living and dynamic documents that frequently experience updates.</p>
+
+<p>My GSoD experience with CERN’s ROOT was a rewarding and enjoyable one. I was able to learn a lot more about the technical writing field and open source organizations, thanks to my mentor, Jakob Blomer, as well as the entire I/O team!</p>
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsdocs-blogs/2020/blog_ROOT_JohnYoon.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

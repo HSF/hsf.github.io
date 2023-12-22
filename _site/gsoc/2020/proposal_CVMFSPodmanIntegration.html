@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Podman CVMFS integration</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <h2 id="description">Description</h2>
+
+<p><a href="http://cernvm.cern.ch/portal/filesystem">CernVM-FS (CVMFS)</a> is a globally-distributed filesystem used to efficiently distribute software to data centers and end-user workstations alike.</p>
+
+<p><a href="https://podman.io/">Podman</a> is an utility to run and use containers.
+It provides the same command line interface than Docker but it runs without the need of a privileged daemon.
+These two characteristics make it extremely interesting for workload used in scientific data-centers.</p>
+
+<p>It has been shown that only a small portion of all the files in a container images is necessary to run the image itself.
+This is even more accentuated in scientific container images since they usually include complex software stacks comprising hundreds of thousands of files, and often not all the files are needed for each task.
+Our goal is to merge the lazy load capabilities of CVMFS with the container workflow allowed by podman, to quickly load big scientific container images while maintaining the isolation and convenience of containers.</p>
+
+<p>There is already an <a href="https://cvmfs.readthedocs.io/en/stable/cpt-graphdriver.html">integration for Docker</a>, and another <a href="https://github.com/ktock/stargz-snapshotter/">for <strong>containerd</strong> (kubernetes)</a> is about ready.
+All those implementations are based on the filesystem structure generated by <a href="https://github.com/cvmfs/cvmfs/tree/devel/ducc">DUCC</a>.</p>
+
+<p>A CernVM-FS file system hosting container images and layers shows the following structure.
+From a distribution point of view, in CernVM-FS a layer (or image) is a directory containing the unpacked files rather than a single tarball.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+/cvmfs/unpacked.cern.ch/
+│ 
+├─ .layers
+│  ├── 00
+│  │   ├── 001dba6e0b44ff57a26d944d9a307ef39927e4882b45eb9d3c9257d754ef7d56
+│  │   │   └── layerfs
+│  │   │       ├── etc
+│  │   │       ├── home
+│  │   │       └── opt
+│  │   └── 008deed8f79c35003fb8808e37c39245e244cd6af7498e5b7874ac7e186c7307
+│  │       └── layerfs
+│  │           └── code
+│  └─ ... many more ...
+└─ .flat
+   ├── 02
+   │   ├── 0212054c85a9b966aa4f9c08048686603c7d0583067b759d14633070fcea30a1
+   │   │   ├── bin
+   │   │   ├── dev
+   │   │   ├── etc
+   │   │   ├── home
+   │   │   ├── lib
+   │   │   └── var
+   │   └── 027998886ae41faa55490baeb6b5e37f4295375ac5dcae5bcf3fe91f141687c2
+   │       ├── bin
+   │       ├── boot
+   │       ├── dev
+   │       ├── etc
+   │       ├── home
+   │       ├── lib
+   │       ├── lib64
+   │       ├── lost+found
+   │       ├── media
+   │       ├── pool
+   │       ├── root
+   │       ├── sbin
+   │       ├── tmp
+   │       ├── usr
+   │       └── var
+   └─ ... many more ...
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">.layer</code> directory store the content of the layers unpacked in an ordinary directory and the <code class="language-plaintext highlighter-rouge">.flat</code> directory stores the content of a whole container images, with each layer unpacked one of top of each other.</p>
+
+<p>The project will be mentored from both CERN and Red Hat.</p>
+
+<h2 id="task-ideas">Task Ideas</h2>
+
+<ol>
+  <li>Enhance <a href="https://github.com/cvmfs/cvmfs/tree/devel/ducc">DUCC</a> to automatically create filesystem structure in CVMFS that can be used by podman</li>
+  <li>Allow podman to understand the filesystem structure already present in CVMFS to load container images</li>
+</ol>
+
+<h2 id="expected-result">Expected Result</h2>
+
+<p>Allow podman to run container images directly from CVMFS or any other file system that host directories with the unpacked layer contents.</p>
+
+<h2 id="evaluation-task">Evaluation Task</h2>
+
+<p>Interested students can contact me (<a href="mailto:simone.mosciatti@cern.ch">Simone Mosciatti</a>) directly for an evaluation task, it requires basic understanding of containers and FUSE filesystem.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>The code-base will mostly be in Go(lang), hence it is necessary to know the language. It is also important to have a basic understanding of Linux.</p>
+
+<h2 id="mentors">Mentors</h2>
+
+<ul>
+  <li><a href="mailto:simone.mosciatti@cern.ch">Simone Mosciatti (CERN)</a></li>
+  <li><a href="mailto:giuseppe@scrivano.org">Giuseppe Scrivano (RedHat)</a></li>
+  <li><a href="mailto:jblomer@cern.ch@cern.ch">Jakob Blomer (CERN)</a></li>
+</ul>
+
+<h2 id="links">Links</h2>
+
+<ul>
+  <li><a href="http://cernvm.cern.ch/portal/filesystem">CernVM-FS</a></li>
+  <li><a href="https://github.com/cvmfs/cvmfs">CVMFS Github</a></li>
+  <li><a href="https://podman.io/">podman</a></li>
+  <li><a href="https://podman.io/">podman Github</a></li>
+  <li><a href="https://github.com/containers/storage">podman storage</a></li>
+</ul>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocproposals/2020/proposal_CVMFSPodmanIntegration.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

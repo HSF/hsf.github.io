@@ -1,0 +1,398 @@
+/* Bootstrap blog theme */
+
+/*
+ * Globals
+ */
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+
+/*
+ * Centered image
+ */
+
+.centered-image {
+  margin: 0 auto;
+  display: block;
+}
+
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #fff;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 50px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 30px;
+  padding: 10px 20px; /* I don't understand why this is needed... */
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.navbar-nav {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar {
+  font-weight: 500;
+  background-color: #555555;
+  min-height: 40px;
+  font-size: 14px;
+}
+
+.navbar-brand {
+ height: 40px;
+ padding: 9.5px 15px;
+ font-size: 15px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:hover{
+  color: #f39c12;
+}
+
+.navbar-nav>li>a {
+		padding-top: 9.5px;
+		padding-bottom: 9.5px
+}
+
+a {
+  color: #cc5555;
+}
+
+a:hover {
+  color: #f39c12;
+}
+
+body {
+  color: #333333;
+  font-size: 16.5px;
+}
+
+.btn-primary {
+  background-color: #555555;
+  border-color: #555555;
+}
+
+.announcement {
+    background-color: #f39c12;
+    border-color: #f39c12;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 21px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.lead {
+  font-size: 20px;
+}
+.event-announce > a:hover {
+	color: #333333;
+}
+
+
+.alert {
+  padding: 8px;
+}
+
+.list-simple {
+  padding-left: 15px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #555555;
+}
+
+[role="button"] {
+    font-size: 17px;
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+/* COLORFUL BIG LINK */
+
+.big-link-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.big-link-container a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  min-height: 100pt;
+  padding: 15pt;
+  border-radius: 10px 20px;
+  background-color: #f9f2f4;
+}
+
+.big-link-container a:first-line {
+  font-weight: bold;
+  color: #cc5555;
+}
+
+/* TRAINING GROUP */
+
+/* LIST OF MODULES */
+
+.training-module {
+  width: 100%;
+  min-height: 100pt;
+  display: grid;
+  padding: 5pt;
+  border-radius: 10px 20px;
+}
+
+.tm-stable {
+  background-color: #f1f9f1;
+}
+
+.tm-alpha {
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 20px, #f9f2f4 20px, #f9f2f4 40px);
+}
+.tm-beta {
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, #f9f9f1 10px, #f9f9f1 40px);
+}
+
+.training-module-name {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10pt;
+  font-size: 17px;
+}
+
+
+.training-module-status {
+  padding-top: 10pt;
+  text-align: center;
+}
+
+.training-module-webpage {
+  text-align: center;
+  display: block;
+  align-self: end;
+  padding-top: 10pt;
+}
+
+.training-module-repository {
+  padding-top: 10pt;
+  vertical-align: bottom;
+  text-align: center;
+  display: block;
+  align-self: end;
+}
+
+
+.training-module-videos {
+  text-align: center;
+  display: block;
+  align-self: end;
+}
+
+.training-module-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.training table {
+    padding: 0;
+    width: 100%;
+  }
+.training table tr {
+    border: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+.training table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+.training table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.training table tr td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+.training table tr th :first-child, .training table tr td :first-child {
+  margin-top: 0;
+}
+.training table tr th :last-child, .training table tr td :last-child {
+  margin-bottom: 0;
+}
+
+figure.centered-figure {
+    text-align: center
+}
+.centered-figure > img {
+    width:80%;
+    max-width: 600px
+}
+.centered-figure > figcaption {
+    width:80%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Media Queries  */
+
+@media (max-width: 620px) {
+  .big-link-container {
+     grid-template-columns: 1fr;
+  }
+  .big-link-container a {
+    min-height: 0;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Generator WG Meeting #24, 1 September 2022</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">HSF Generator WG Meeting #24, 1 September 2022</h1>
+</div>
+
+
+
+
+  <p>Agenda: <a href="https://indico.cern.ch/event/1180220/">https://indico.cern.ch/event/1180220/</a></p>
+
+<p>Present: Aman Desai, Amartya Rej, Andrea Valassi, Gurpreet Chahal, Javier Fernandez, Liz Sexton-Kennedy, Saptaparna Bhattacharya, Stefan Roiser, Stephen Mrenna, Anja Butter, Markus Diefenthaler, Josh McFayden, Efe Yazgan, Taylor Childers, Jie Xiao, Benjamin Rosser, Stephen Jiggins, Simone Amoroso, Michele Faucci Giannelli, Kajari Mazumdar</p>
+
+<p>Machine Learning and LHC Event Generation</p>
+
+<ul>
+  <li>Intro by Markus D.</li>
+  <li>Steve Mrenna:
+    <ul>
+      <li>slide 8: “for limited data there is no unique solution”. Is not it a general problem?</li>
+      <li>A.B.: Yes.</li>
+      <li>S.M.: Is there anyway to estimate the volume of the possible solution space?</li>
+      <li>A.B.: Complicated but if you have a model beforehand you can make a fit but we do not have that. BNN is advantageous since you are training single network for ensemble of networks.</li>
+      <li>S.M.: Do you encode physics principles like gauge invariance?</li>
+      <li>A.B.: Yes, …</li>
+    </ul>
+  </li>
+  <li>Andrea Valassi:
+    <ul>
+      <li>Slide 10, why do you say that there is no approximation?</li>
+      <li>A.B.: There is no additional uncertainty coming from the NNs. The point here is that the calculation of this loop amplitude is already an integration by numerical methods, which can be done only with a given precision. The use of ML here reduces the variance with respect to the variance without ML. In other words there is an error in both cases, but the error is smaller with ML.</li>
+    </ul>
+  </li>
+  <li>AV: Slide 18: One of the most crucial point of using ML: use cases where ML approximations just lead to poor computing efficiency (eg sampling) vs use cases where they lead to errors (eg replacing MEs/amplitudes by ones approximated through ML). Normalizing flows: IIUC sherpa team used that only for phase space sampling but you described cases where NF seems to be used also for replacing amplitudes?
+    <ul>
+      <li>AB: Sherpa uses as in slide 13 only for phase space calculations. But the techniques are the same and NFs can be used also in other ways, to replace amplitudes.</li>
+      <li>AV: To enhance adoption of these ML methods where they do not lead to errors,  it would be useful to separate the things that could be used without errors and the others, this may push the experiments to adopt them. For instance using ML for improving unweighting efficiency should be non controversial: it would help to give numbers about how much the efficiency improves and how much computing power you save.</li>
+      <li>AB: Collaborating with sherpa, MG, other teams on many of these issues.</li>
+    </ul>
+  </li>
+  <li>Stephen Jiggins: From the Sherpa authors, is the work you referred to normalizing flows and there was the rejection sampling.
+    <ul>
+      <li>AB: Yes, there were 3 early papers by Sherpa from which were using the normalizing flows as samplers and as phase-space generator; and there was one for  event generator, and more recently there was the one for regression which was this rejection network.</li>
+      <li>SJ: Yes, these are all good to increase the efficiency.</li>
+    </ul>
+  </li>
+  <li>SJ: May be due to lack of my understanding on my side, I have a question on slide 16: the issue here is the normalizing flow because of the gaussian that is assumed smears out into the whole in DeltaR
+    <ul>
+      <li>AB: Yes</li>
+      <li>SJ: When you do classification which minimizes the area of the density on the ratio on slide 17 there is a discontinuity between the spaces generated by the invertible NN and the training you want to reweight to. Does this trick suffer from conversion problem?</li>
+      <li>AB: The issue is that at that point there is no data there. So the true phase space density is zero. The INN generates something non-zero. Classifier needs to learn this ratio of something that is non-zero initially then it is going to learn the weight here will be very small. So, it will push D(x) –&gt; 0.</li>
+      <li>SJ: If you flip this, then it will tend to a infinitely large number.</li>
+      <li>AB: Yes, if you take the data and reweight it to look like the INN generated data, then you will get very large numbers which will result in a highly unstable situation. So, it is important to choose your phase space not to have holes in the beginning. As long as you are covering your phase space with INN you are safe.</li>
+    </ul>
+  </li>
+  <li>Markus D.: In your summary slide you also said that there would be opportunities for ML for parton showers and for the hadronization/fragmentation. Can you summarize this?
+    <ul>
+      <li>AB: I am going to try to give a short summary. For the parton shower it is tricky. Here we only cover parton splitting functions. There is few variability and the issue is that you reuse the same function a lot of times to generate something. We know that this is a good description. There are two strategies: one is to learn the splitting function (NNs or recurrent NNs but training is difficult) and there are other approaches trying to directly learn the full shower but this is inefficient because one has to learn a very large phase-spacewhen only there is a few variables; essentially splitting functions g-&gt;gg, g-&gt;qqbar, q-&gt;qg, and not more than that. There are different approaches but in general this is a difficult problem. For fragmentation/hadronization, people are looking into this in particular lund string vs clustering. There is some work on trying to use these approaches and to translate into ML.</li>
+    </ul>
+  </li>
+  <li>Efe Yazgan: On slide 24, you mentioned the matrix element method. So, are there studies for ML that can potentially replace that.
+    <ul>
+      <li>AB: Hopefully soon. What we are working on conceptually is that you have a detector level event and you are sampling it from a gaussian and you get the corresponding probability distribution there. This is something you can do to unfold detector level events to invert to parton level. For MEM, given an event at parton level you look at the probabilities at the ME level where you have full control but you need a transfer function that gets you from parton to detector level (in the forward direction). You can train a network to learn this but since you start from events at the detector level  first you have to sample over every potential parton level event and then calculate the probability. This is numerically extremely difficult that is why people start with a delta function which is not so correct approximation even for leptons but for jets it is much worse. People also use gaussians which is a better approximation but with NNs one has much more flexibility and more power to capture more compelx features.</li>
+      <li>EY: So, at this point, using MEM in a straightforward way is still faster than using ML?</li>
+      <li>AB: Yes but many people have not worked on this so far. One has to give more time to include it and come out with standard packages.</li>
+    </ul>
+  </li>
+  <li>SJ: Just a follow up point on this. There is madminer and omnifold that kind of tries to do this.
+    <ul>
+      <li>AB: They are very different. Omnifold learns, with the classifier, the weights  between parton level, and detector level using full distributions just like the reweighting. And it applies them to parton level events to get the distribution. So, there is no unfolding of individual events. It massages the MC such that it looks like the data and then finds out what would my generation look like. Madminer uses again classifiers to learn these ratios but it does it in a different way. It directly uses the MEs as well to learn the ratios.</li>
+    </ul>
+  </li>
+  <li>MD: Follow up. I do not understand what you mean by direct event to event correlation. Unfolding only works for samples not on individual events with particles. How you do that on an event-by-event basis?
+    <ul>
+      <li>AB: slide 25; you have the events at the detector level and at the particle level. If I go through the usual chain of simulation from particle level to reco level standard MC run may times, for individual events on the RHS, I will get a distribution on the LHS. So, I can have P(SIM|GEN) or P(detector|particle) distribution. Using Bayes, theorem, I can express P(particle|detector) via P(detector|particle)xprior(particle)xprior(detector). Then, assume prior(particle), I have the other. The limitation is numerical for learning these high dimensional distributions - this is where we use the generative model. Second limitation is bias from the prior(particle) and one can use iterative approaches (which is work in progress).</li>
+      <li>MD: So, you also still work on the sample. You replace the histogram by a probability distribution or inverted weights  for each of the event you can classify for the origin of the particle.</li>
+      <li>AB: Right. In a way it is like classical unfolding goes to the matrix and you can interpret this matrix like if you have an event in one bin the matrix will tell the expected distributions of the bins (push this to the limit where bin-widths goes to zero). Also please take a look at the community report paper arguing also for event level unfolding instead of bin level.</li>
+      <li>MD: I am full advocate of event based analysis. We have started the complete opposite - unfold theory with experimental events and then do the inverse.</li>
+    </ul>
+  </li>
+  <li>AV: Slide 24: a comment from some work I did a couple of years ago (https://doi.org/10.1051/epjconf/202024506038). For parameter inference, an alternative to methods where you take the “inverse” path, like MEM and unfolding, may be to take immediately the event-by-event derivative of the ME with respect to the parameter that you want to infer, and then carry this forward through hadronization and detector simulation. Then you only need to go in the forward direction. This may have some similarity with MadMiner or Sallyno, but I am not sure.
+    <ul>
+      <li>AB: this is interesting, it reminds me a lot of what Lukas Heinrich et al are working on on MadJax. Note that there will be a workshop on differentiable programming next year in Munich where we will discuss also these approaches.</li>
+    </ul>
+  </li>
+  <li>MD: This is not the last time that we discuss AI and machine learning. We will use your talk as overview and go more into details. We will invite you for follow up discussions. It was great to have you here. Thanks.</li>
+  <li>AB: Very nice discussion. Thanks.</li>
+</ul>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/organization/_posts/2022/2022-09-01-generators.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

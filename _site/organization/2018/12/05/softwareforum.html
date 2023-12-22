@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Spark based analysis for LSST and HEP, December 5, 2018</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/announcements/2018/11/30/trident.html">&nbsp;&#8592; Developer Tools - Trident Profiling Tool, 6 December 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/12/11/generators.html">HSF Generator Workshop follow-up meeting, 11 December 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="spark-based-analysis-for-lsst-and-hep-december-5-2018">Spark based analysis for LSST and HEP, December 5, 2018</h1>
+
+<p><a href="https://indico.cern.ch/event/754811/">Meeting Agenda and Slides</a></p>
+
+<h2 id="introduction">Introduction</h2>
+<ul>
+  <li>Reminder about the <a href="https://indico.cern.ch/event/759388/"><em>HSF/OSG/WLCG
+Workshop</em></a>, 18-22 March 2019
+at JLab.
+    <ul>
+      <li>We hope to open registration this week.</li>
+    </ul>
+  </li>
+  <li>HSF intends to submit a short (1 page) paper to the European
+Strategy for Particle Physics Review Process.
+    <ul>
+      <li>Will be circulated tomorrow for 1 week.</li>
+    </ul>
+  </li>
+  <li>New working groups are up and running.
+    <ul>
+      <li>Will have a report from the convenors in next week’s HSF
+Coordination meeting.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="analyzing-astronomical-data-with-apache-spark">Analyzing astronomical data with Apache Spark</h2>
+<ul>
+  <li>Simulation data can be N-body simulations of the evolution of the
+universe.</li>
+  <li>An object for LSST is anything that can be “labeled” on the sky:
+    <ul>
+      <li>Like a data frame row - with 100 or 1000 columns (position,
+redshift, spectra, …)</li>
+      <li>Data is flatter than in particle physics (usually completely
+flat in the final catalogue).</li>
+    </ul>
+  </li>
+  <li>FITS data does not fit “naturally” into Spark, but have written an adaptor.</li>
+  <li>Performance test was for ~small data elements (5 doubles); total
+size 100GB.</li>
+  <li>The schema for the dataset is fixed for each case; but see issues when
+many input files are used (causing the metadata bottleneck).</li>
+  <li>3D spatial data not well supported in Spark ecosystem.
+    <ul>
+      <li>Most packages work with 2D data.</li>
+    </ul>
+  </li>
+  <li>Re-partitioning in space is only one option - in general want to be
+able to repartition on arbitrary metrics:
+    <ul>
+      <li>Need to build partition and then shuffle the data (2 phases).</li>
+      <li>UDF = User Defined Function - this is difficult to optimise as
+it’s a black box for Spark.</li>
+    </ul>
+  </li>
+  <li>For C/C++ interfaces how to serialise?
+    <ul>
+      <li>Contact Christan Arnault for this.</li>
+    </ul>
+  </li>
+  <li>Training - how can people run the tutorials?
+    <ul>
+      <li>Targeting LSST people and they mostly have NERSC accounts where
+clusters are available. LAL cluster also available (which may
+expand if it proves popular).</li>
+    </ul>
+  </li>
+  <li>For partitioning, isn’t Spark specifically designed for this kind of
+task?
+    <ul>
+      <li>For a lot of cases Spark does do a good job, but if the data has
+structures that were not known at data loading time then the
+map/reduce workflow performs poorly when the output is as
+large as the input.</li>
+      <li>Q. Problem with the memory usage? Is the algorithm optimal?
+        <ul>
+          <li>Default Spark partitioning is not doing so well, hence
+the O(N^2) scaling seen.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="distributed-data-analysis-with-root-rdataframe-and-spark">Distributed data analysis with ROOT RDataFrame and Spark</h2>
+<ul>
+  <li>In this case Spark does not do the reading - it’s the ROOT code
+running as a ‘black box’ on all of the mappers.
+    <ul>
+      <li>Using Spark as a way of distributing work, so it’s quite simple;
+one advantage is not have to pump data through the JVM.
+        <ul>
+          <li>Do get a ‘free’ way to reduce the results, plus monitoring
+and fault tolerance.</li>
+        </ul>
+      </li>
+      <li>Could a simpler backend be used? Like Dask, Parsel?
+        <ul>
+          <li>Yes, it’s in the plan to try this and it is easy to adapt
+ from the current codebase (no hard dependencies).</li>
+        </ul>
+      </li>
+      <li>Note, it is easy to read chunks of data in ROOT (even sub-file).</li>
+    </ul>
+  </li>
+  <li>How to distinguish between communication time and working time?
+    <ul>
+      <li>Each mapper really works independently, so no communication time
+during the processing, but problems with
+balancing the tasks.</li>
+      <li>All the data processing needs to finish before the reduction
+phase can begin.</li>
+      <li>Problem in HEP as events are inhomogeneous - hard to predict
+exactly how long processing will take.</li>
+    </ul>
+  </li>
+  <li>Observation that analysing ROOT files from HDFS is slower than with
+EOS.</li>
+  <li>Want to avoid too much up-front tuning. Can you apply a task
+stealing approach, idle workers try to grab work from other busy
+tasks?
+    <ul>
+      <li>Problem is that Spark is doing this part and it doesn’t know how to
+break apart the tasks; however, final results can be improved by
+choosing the correct granularity of the tasks.</li>
+    </ul>
+  </li>
+  <li>ROOT is implemented as a UDF in Spark.
+    <ul>
+      <li>Certain parts of the original analysis code had to be adapted from an
+imperative to a declarative programming model (offered by RDataFrame),
+this reduced the code from 5000 to 4000 lines, of which about 3000
+lines were unchanged from the original.</li>
+      <li>Can pass arbitrary C++ to the JIT engine; calls libraries
+pre-installed onto CVMFS.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="aobdiscussion">AOB/Discussion</h2>
+<ul>
+  <li>FITS original interface was in C. Could use a similar mechanism to
+that used by the ROOT team to implement an optimised file access,
+skipping the JVM.</li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/announcements/2018/11/30/trident.html">&nbsp;&#8592; Developer Tools - Trident Profiling Tool, 6 December 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/12/11/generators.html">HSF Generator Workshop follow-up meeting, 11 December 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

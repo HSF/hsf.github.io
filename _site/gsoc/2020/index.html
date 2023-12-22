@@ -1,0 +1,3003 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Google Summer of Code</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <h1 id="-google-summer-of-code-2020"><img src="/images/CERN-HSF-GSoC-logo.png" alt="CERN" height="100px" /> Google Summer of Code 2020</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><a href="https://developers.google.com/open-source/gsoc/">Google Summer of Code</a> is a program that allows students to contribute to development of open-source projects, mentored by participating organizations.</p>
+
+<p>Particle physics is an exciting field where large collaborations of scientists collect
+and analyze petabytes of data from high-energy physics experiments, such as the Large Hadron Collider,
+hosted at the CERN laboratory in Geneva, Switzerland.
+Some of the questions that we collectively ask are:</p>
+
+<ul>
+  <li>what are the fundamental blocks that make up our Universe?</li>
+  <li>what is the nature of dark matter and dark energy?</li>
+  <li>what is the nature of the asymmetry between matter and antimatter?</li>
+  <li>what was early Universe like?</li>
+</ul>
+
+<p>To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.</p>
+
+<p>The CERN software for experiments (CERN EP-SFT) group has participated in the GSoC since 2011. Since 2017 the program has expanded to involve the high-energy physics community under the umbrella of the HEP Software Foundation.</p>
+
+<p>Information from last year’s GSoC can be found <a href="/gsoc/2019/index.html">here</a>.</p>
+
+<h3 id="gsoc-2020">GSoC 2020</h3>
+
+<p>In 2020 HSF is participating in the program as a GSoC umbrella organization. Project proposals are listed <a href="#projects-in-2020">below</a>.</p>
+
+<p><em>N.B.</em> This page <strong>archives</strong> the proposals from the 2020 Google Summer of Code. For information on the latest
+GSoC please see <a href="/activities/gsoc.html">here</a>.</p>
+
+<h3 id="for-students">For Students</h3>
+
+<p>If you are interested in the GSoC program, please start by having a look at our <a href="/gsoc/students-guideline.html">guidelines for students</a>.</p>
+
+<p>New projects for HSF GSoC in 2020 were published in February. The application period opened in mid-March, but discussions about application ideas with mentors took place the month before. You can monitor our website in order to get acquainted with the projects you are interested in and to be prepared for submitting an application. Meanwhile you may want to take a look at last year’s HSF GSoC <a href="/gsoc/2019/index.html">projects</a> since many of those may propose subjects also this year.</p>
+
+<p>For further information, feel free to contact the HSF GSoC admins or join our new chat room</p>
+
+<p><a href="mailto:hsf-gsoc-admin@googlegroups.com">hsf-gsoc-admin@googlegroups.com</a></p>
+
+<p><a href="https://gitter.im/HSF/HSF-GSoC?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/HSF/HSF-GSoC.svg" alt="Gitter" /></a></p>
+
+<h3 id="for-projects-and-mentors">For Projects and Mentors</h3>
+
+<p>Instructions for participating projects and mentors can be found <a href="/gsoc/guideline.html">here</a>.</p>
+
+<p>We have a Google group where we handle all future announcements related to GSoC for our HSF Umbrella Organization. Please write us a mail to <a href="mailto:hsf-gsoc-admin@googlegroups.com">hsf-gsoc-admin@googlegroups.com</a> in case you are interested to add your preferred mail to this list. Note that all 2020 HSF GSoC mentors will have to join this group.</p>
+
+<p>For new HEP-related groups wishing to join HSF GSoC umbrella rather than being independent organizations: there is no formal procedure, you will just need to add a description and logo for your organization. We need however one contact person for each new group, so please write us an e-mail.</p>
+
+<h2 id="projects-in-2020">Projects in 2020</h2>
+
+<table class="table table-hover table-striped">
+  <tbody>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/ALICE-logo.png" alt="ALICE" width="100px" /></td>
+    
+    <td><p><a href="http://alice.web.cern.ch">ALICE</a> is one of the four major experiments at the <a href="http://home.web.cern.ch/topics/large-hadron-collider">Large Hadron Collider</a> (LHC) at <a href="http://home.cern/">CERN</a>. ALICE is optimized to study collisions of nuclei at the ultra-relativistic energies provided by the LHC.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_ALICE.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/ATLAS-logo.png" alt="ATLAS" width="100px" /></td>
+    
+    <td><p><a href="http://atlas.cern">ATLAS</a> is one of the four major experiments at the <a href="http://home.web.cern.ch/topics/large-hadron-collider">Large Hadron Collider</a> (LHC) at <a href="http://home.cern/">CERN</a>. It is a general-purpose particle physics experiment run by an international collaboration and is designed to exploit the full discovery potential and the huge range of physics opportunities that the LHC provides.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_ATLAS.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/Astrolab-logo.png" alt="AstroLab" width="100px" /></td>
+    
+    <td><p><a href="https://astrolabsoftware.github.io/">AstroLab Software</a> is a project from <a href="https://www.lal.in2p3.fr/en/">IJCLab</a> aiming at providing advanced software tools to overcome modern science challenges faced by research groups, and allow research communities to more fully exploit the big data ecosystem tools.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_AstroLab.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/CMS-logo.png" alt="CMS" width="100px" /></td>
+    
+    <td><p><a href="http://cms.cern/">CMS</a> is a high-energy physics experiment at the <a href="http://home.web.cern.ch/topics/large-hadron-collider">Large Hadron Collider</a> (LHC) at <a href="http://home.cern/">CERN</a>.  It is a general-purpose detector that is designed to observe any new physics phenomena that the LHC might reveal. CMS acts as a giant, high-speed camera, taking 3D “photographs” of particle collisions from all directions up to 40 million times each second. The CMS collects few tens of Peta-Bytes of data each year and processes them through Worldwide LHC Computing Grid infrastructure around the globe.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_CMS.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td class="text-center" style="vertical-align: middle;">CMSSW</td>
+    
+    <td><p>CMS is a particle detector that is designed to see a wide range of particles and phenomena produced in high-energy collisions in the LHC. Like a cylindrical onion, different layers of detectors measure the different particles, and use this key data to build up a picture of events at the heart of the collision. Many of CMS Software components (CMSSW) are <a href="https://github.com/cms-sw">hosted on Github</a>. You can find here a <a href="http://cms-sw.github.io/faq.html">few FAQ</a> and tutorials on how develop in CMSSW.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_CMSSW.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/CEPH-logo.png" alt="Ceph" width="100px" /></td>
+    
+    <td><p><a href="https://ceph.io/">Ceph</a> is a storage platform.  It implements object storage on a single distributed computer cluster, and provides interfaces for object-, block- and file-level storage. It can be used to build cloud infrastructure and web-scale object storage. Ceph aims primarily for completely distributed operation without a single point of failure, that can be run on commodity hardware and is scalable to the exabyte level.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_Ceph.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/cernvmfs-logo.png" alt="CernVM-FS" width="100px" /></td>
+    
+    <td><p>The CernVM-File System (CernVM-FS) is a global, read-only POSIX file system that provides the universal namespace /cvmfs.It is based on content-addressable storage, Merkle trees, and HTTP data transport. CernVM-FS provides a missioncritical infrastructure to small and large HEP collaborations.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_CernVM-FS.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/DEEPLENSE-logo.png" alt="DEEPLENSE" width="100px" /></td>
+    
+    <td><p><a href="https://arxiv.org/abs/1909.07346">DeepLense</a> is a deep learning pipeline for particle dark matter searches with strong gravitational lensing.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_DEEPLENSE.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/E2E-logo.png" alt="E2E" width="100px" /></td>
+    
+    <td><p>The <a href="https://arxiv.org/abs/1807.11916">End-to-End Deep Learning (E2E)</a> project focuses on the development  of particle and event reconstruction and identification tasks with end-to-end deep learning approaches.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_E2E.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/FALCON-logo.png" alt="FALCON" width="100px" /></td>
+    
+    <td><p><a href="http://inspirehep.net/record/1456803">Falcon</a> is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_FALCON.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/ganga_logo_150dpi.png" alt="Ganga" width="100px" /></td>
+    
+    <td><p><a href="https://github.com/ganga-devs/ganga">Ganga</a> is a computational task-management tool, which allows for the specification, submission, bookkeeping and post-processing of computational tasks on a wide set of distributed resources.Ganga has been developed to solve a problem increasingly common in scientific projects, which is that researchers must regularly switch between different processing systems, each with its own command set, to complete their computational tasks. Ganga provides a homogeneous environment for processing data on heterogeneous resources.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_Ganga.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/iris-hep-logo.png" alt="IRIS-HEP" width="100px" /></td>
+    
+    <td><p>IRIS-HEP aims to develop the state-of-the-art software cyberinfrastructure required for the challenges of data intensive scientific research at the High Luminosity Large Hadron Collider (HL-LHC) at CERN, and other planned HEP experiments of the 2020’s.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_IRIS-HEP.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/mcnet-logo.png" alt="MCnet" width="100px" /></td>
+    
+    <td><p><a href="http://montecarlonet.org">MCnet</a> is a collaboration between the developers of the major collider event modelling tools used at the <a href="http://home.web.cern.ch/topics/large-hadron-collider">Large Hadron Collider</a> (LHC) and beyond. These tools are so-called “MC event generators”, theoretical physics packages that evaluate and sample from quantum mechanical distributions to create simulated particle collisions. MC generators are an absolutely essential component in both modern particle physics experiments and theory, and provide a crucial bridge between those two communities. MCnet projects include both event generators themselves, and tools that connect them to both experiment and theory.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_MCnet.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/MadGraph5-logo.png" alt="MadGraph5" width="100px" /></td>
+    
+    <td><p><a href="https://launchpad.net/mg5amcnlo">MadGraph5</a> is a framework that aims to simulate high Energy collisions for various accelerators and in particular for LHC physics. It has a huge focus on physics beyond the “Standard Model” allowing experiments to search for various scenarios in their experiments. MadGraph5 is highly used by both theorists and experimentalists making the code one of the most cited papers every year. MadGraph5 is a meta-code written in python that generates specialised code in low-level language (Fortran and C) to produce very fast code.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_MadGraph5.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/phoenix-logo.png" alt="Phoenix" width="100px" /></td>
+    
+    <td><p><a href="https://github.com/HSF/phoenix">Phoenix</a> is an experiment-agnostic library for the visualisation of detector geometry and event data in a browser.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_Phoenix.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/QMLHEP-logo.png" alt="QMLHEP" width="100px" /></td>
+    
+    <td><p>With this project we seek to implement Quantum Machine Learning methods for LHC High Energy Physics analysis based on Google OpenFermion framework.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_QMLHEP.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/ROOT-logo.png" alt="ROOT" width="100px" /></td>
+    
+    <td><p>A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_ROOT.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/RUCIO-logo.png" alt="Rucio" width="100px" /></td>
+    
+    <td><p><a href="https://rucio.cern.ch/">Rucio</a> is an open-source software framework that provides functionality to scientific collaborations to organize, manage, monitor, and access their distributed data and dataflows across heterogeneous infrastructures. Rucio was originally developed to meet the requirements of the high-energy physics experiment ATLAS, and is continuously enhanced to support diverse scientific communities.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_Rucio.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/SWAN-logo.png" alt="SWAN" width="100px" /></td>
+    
+    <td><p>SWAN is a CERN service that allows users to perform interactive data analysis in the cloud, built upon the widely-used Jupyter notebooks and CERN technologies for storage and software access.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_SWAN.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/TMVA-logo.gif" alt="TMVA" width="100px" /></td>
+    
+    <td><p>Toolkit for Multivariate Analysis (TMVA) is a multi-purpose machine learning toolkit integrated into the ROOT scientific software framework, used in many particle physics data analyses and applications.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_TMVA.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/VECGEOM-logo.png" alt="VecGeom" width="100px" /></td>
+    
+    <td><p>A vectorized high-performance library usable for fast and accurate geometry computations in very complex setups.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_VecGeom.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/xrootd-logo.png" alt="XROOTD" width="100px" /></td>
+    
+    <td><p>XRootD software framework is a fully generic suite for fast, low latency and scalable data access, which can serve natively any kind of data, organized as a hierarchical filesystem-like namespace, based on the concept of directory. As a general rule, particular emphasis has been put in the quality of the core software parts.</p>
+</td>
+    <td><a href="/gsoc/projects/2020/project_XRootD.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  </tbody>
+</table>
+
+<h2 id="participating-organizations-in-2020">Participating Organizations in 2020</h2>
+
+<table class="table table-hover table-striped">
+  <tbody>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UA-logo.jpg" alt="Alabama" width="100px" /></td>
+    
+    <td><p>The <a href="https://www.ua.edu/">University of Alabama</a> is a public research university in Tuscaloosa, Alabama. Established in 1820, the University of Alabama is the oldest and largest of the public universities in Alabama as well as the flagship of the University of Alabama System</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/alabama.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/BROWN-logo.png" alt="Brown" width="100px" /></td>
+    
+    <td><p>Brown University is a private Ivy League research university in Providence, Rhode Island, founded in 1764.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/brown.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/CC-IN2P3-logo.png" alt="CC-IN2P3" width="100px" /></td>
+    
+    <td><p>IN2P3 Computing Centre (CC-IN2P3) is a CNRS support and research unit associated to IN2P3, the coordinating body for nuclear, particle, and astroparticle physics research. As a national research infrastructure, the CC-IN2P3 designs and manages a large range of computer-related services, especially a mass storage system and mass data resources.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/cc-in2p3.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/CERN-logo.jpg" alt="CERN" width="100px" /></td>
+    
+    <td><p>At <a href="https://home.cern">CERN</a>, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world’s largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/cern.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/CORNELL-logo.png" alt="Cornell" width="100px" /></td>
+    
+    <td><p><a href="http://cornell.edu">Cornell University</a> is a private and statutory Ivy League research university in Ithaca, New York. Founded in 1865, the university was intended to teach and make contributions in all fields of knowledge—from the classics to the sciences, and from the theoretical to the applied. These ideals, unconventional for the time, are captured in Cornell’s founding principle, a popular 1868 Ezra Cornell quotation: “I would found an institution where any person can find instruction in any study.”</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/cornell.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/CROSS-logo.png" alt="CROSS" width="100px" /></td>
+    
+    <td><p>The Center for Research in Open Source Software (www.cross.ucsc.edu), part of the Baskin School of Engineering at UC Santa Cruz, was founded based on the success of former UCSC student Sage Weil and the Ceph storage system.  At CROSS, we create open source leaders by blending open source software strategies with graduate-level research. CROSS turns OSS prototypes into successful open source software projects.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/cross.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UFL-logo.png" alt="Florida" width="100px" /></td>
+    
+    <td><p>University of Florida is a public institution that was founded in 1853.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/florida.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/FNAL-logo.png" alt="FNAL" width="100px" /></td>
+    
+    <td><p><a href="https://www.fnal.gov/">Fermi National Accelerator Laboratory</a> (FNAL) is a Department of Energy national laboratory dedicated to particle physics research. Fermilab supports work by scientists, from across the country and the globe, who seek to further our understanding of matter, energy, space and time.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/fnal.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/FSU-logo.png" alt="FSU" width="100px" /></td>
+    
+    <td><p>Florida State University is a public institution that was founded in 1851.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/fsu.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/IJCLab-logo.jpeg" alt="IJCLab" width="100px" /></td>
+    
+    <td><p><a href="http://www.lal.in2p3.fr">IJCLab</a> is a French research laboratory belonging to CNRS/IN2P3 and located at UniversitéParis Saclay. The main topics of the research done at IJCLab are high energy physics, cosmology and accelerators.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/ijclab.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/ILLINOISUC-logo.png" alt="IllinoisUC" width="100px" /></td>
+    
+    <td><p><a href="https://illinois.edu/">University of Illinois at Urbana-Champaign</a> is a public institution that was founded in 1867.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/illinoisuc.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/Imperial-College-London2.png" alt="ImperialCollege" width="100px" /></td>
+    
+    <td><p><a href="https://www.imperial.ac.uk/">Imperial College London</a> is a world top ten university with an international reputation for excellence in teaching and research. Consistently rated amongst the world’s best universities, Imperial is committed to developing  the next generation of researchers, scientists and academics through collaboration across disciplines. Located in the heart of London, Imperial is a multidisciplinary space for education, research, translation and commercialisation, harnessing science and innovation to tackle global challenges.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/imperialcollege.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/Infn-logo.png" alt="INFN" width="100px" /></td>
+    
+    <td><p>The Istituto Nazionale di Fisica Nucleare (<a href="http://infn.it">INFN</a>; “National Institute for Nuclear Physics”) is the coordinating institution for nuclear, particle and astroparticle physics in Italy.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/infn.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/JHUAPL-logo.png" alt="JHUAPL" width="100px" /></td>
+    
+    <td><p>The Johns Hopkins University Applied Physics Laboratory (APL) has provided critical contributions to critical challenges with systems engineering and integration, technology research and development, and analysis.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/jhuapl.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/KIT-logo.png" alt="KIT" width="100px" /></td>
+    
+    <td><p>The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/kit.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/LPC-logo.png" alt="LPC-Clermont" width="100px" /></td>
+    
+    <td><p>Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3and University Clermont Auvergne), in Auvergne, France.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/lpc-clermont.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/MIR-logo.png" alt="MIR" width="100px" /></td>
+    
+    <td><p>The Morgridge Institute for Research is a private, nonprofit biomedical research institute in Madison, Wis., affiliated with the University of Wisconsin–Madison. The institute works to improve human health by conducting, enabling and translating interdisciplinary biomedical research. Research in regenerative biology, virology, medical devices and core computational technology is currently underway.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/mir.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/Monash.png" alt="MonashUniversity" width="100px" /></td>
+    
+    <td><p><a href="https://www.monash.edu/">Monash University</a> Monash University is one of Australia’s leading universities and ranks among the world’s top 100. We help change lives through research and education.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/monashuniversity.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/oproject-logo.png" alt="OProject" width="100px" /></td>
+    
+    <td><p><a href="http://oproject.org">OProject</a> Open source organization, specialized in development of advanced scientific software with ROOT, focused mathematical/statistical tools, machine learning and high performance computing.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/oproject.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/pittsburgh-logo.png" alt="Pittsburgh" width="100px" /></td>
+    
+    <td><p>The University of Pittsburgh is one of the oldest institutions of higher education in the United States.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/pittsburgh.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/princeton-logo.png" alt="princeton" width="100px" /></td>
+    
+    <td><p>Princeton University is a private Ivy League research university in Princeton, New Jersey.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/princeton.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/RAL-logo.png" alt="RAL" width="100px" /></td>
+    
+    <td><p>STFC Rutherford Appleton Laboratory in Oxfordshire, United Kingdom is home to national facilities including the Diamond synchrotron and ISIS neutron spallation source. The Particle Physics Department contributes to experiments including ATLAS, CMS, LHCb and T2K.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/ral.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/SLAC-logo.png" alt="SLAC" width="100px" /></td>
+    
+    <td><p><a href="https://www6.slac.stanford.edu">SLAC National Accelerator Laboratory</a>, originally named Stanford Linear Accelerator Center is a United States Department of Energy National Laboratory operated by Stanford University under the programmatic direction of the U.S. Department of Energy Office of Science and located in Menlo Park, California. It is the site of the Stanford Linear Accelerator, a 3.2 kilometer (2 mile) linear accelerator constructed in 1966 and shut down in the 2000s, which could accelerate electrons to energies of 50 GeV. Today SLAC research centers on a broad program in atomic and solid-state physics, chemistry, biology, and medicine using X-rays from synchrotron radiation and a free-electron laser as well as experimental and theoretical research in elementary particle physics, astroparticle physics, and cosmology.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/slac.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UCL-logo.png" alt="UCL" width="100px" /></td>
+    
+    <td><p>Founded in 1826 in the heart of London, <a href="https://www.gla.ac.uk/">University College London</a>  is London’s leading multidisciplinary university, with more than 13,000 staff and 42,000 students from 150 different countries. It is one of the UK’s leading groups in the field of particle physics.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/ucl.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UDur-logo.jpg" alt="UDur" width="100px" /></td>
+    
+    <td><p><a href="https://www.due.ac.uk/">Durham University</a>, founded in 1832, enjoys a global reputation for its strengths in both teaching and research as evidenced by its World Top 100 position in the QS World University Rankings 2020 (78th). The University is home to over 18,000 students from over 120 countries and employs over 4000 staff. It hosts some of the UK’s leading groups in the fields of Particle Physics Phenomenology <a href="https://www.ippp.due.ac.uk/">IPPP</a> and Computational Cosmology <a href="https://www.icc.due.ac.uk/">ICC</a>.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/udur.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UGlasgow-logo.png" alt="UGlasgow" width="100px" /></td>
+    
+    <td><p>The <a href="https://www.gla.ac.uk/">University of Glasgow</a> is a leading UK research university based in Scotland’s largest city. We work on <a href="https://www.gla.ac.uk/schools/physics/research/groups/particlephysicsexperiment/">particle physics experiments</a> from the LHC to neutrinos, particle theory from interpretations of Higgs and top-quark measurements to the strong force, and high-performance distributed computing.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/uglasgow.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/umass-logo.png" alt="UMass" width="100px" /></td>
+    
+    <td><p>UMass Amherst is one of the major public research universities in America.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/umass.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UNL-logo.png" alt="UNL" width="100px" /></td>
+    
+    <td><p>The University of Nebraska–Lincoln, often referred to as Nebraska, UNL or NU, is a public research university in the city of Lincoln, in the state of Nebraska in the Midwestern United States. It is the state’s oldest university, and the largest in the University of Nebraska system.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/unl.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UWUPPERTAL-logo.png" alt="uwuppertal" width="100px" /></td>
+    
+    <td><p>The <a href="https://www.uni-wuppertal.de/">University of Wuppertal</a> is a German scientific institution, located in Wuppertal, in the state of North Rhine-Westphalia. The university’s official name in German is Bergische Universität Wuppertal, or BUW. It was founded in 1972. In 2014/15, approx. 20,000 students were enrolled in a wide range of subjects with many interdisciplinary linkages between a total of 7 faculties.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/uwuppertal.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/WISCONSIN-logo.png" alt="Wisconsin" width="100px" /></td>
+    
+    <td><p>The <a href="https://www.wisc.edu/">University of Wisconsin-Madison</a> is a public research university in Madison, Wisconsin. Since its founding in 1848, this campus has been a catalyst for the extraordinary.</p>
+</td>
+    <td><a href="/gsoc/organizations/2020/wisconsin.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  </tbody>
+</table>
+
+<h2 id="summary">Summary</h2>
+
+<p><a href="/gsoc/2020/summary.html">Full list of Proposal Ideas</a></p>
+
+<p><a href="/gsoc/2020/mentors.html">Full list of Mentors</a></p>
+
+<p>Although GSoC 2020 has finished, please do not hesitate to contact the current admins if you are
+interested in the latest GSoC program using</p>
+
+<p><a href="mailto:hsf-gsoc-admin@googlegroups.com">hsf-gsoc-admin@googlegroups.com</a></p>
+
+<hr />
+
+<h2 id="contacts">Contacts</h2>
+
+<p><em>HSF GSoC mentor discussion</em> <a href="mailto:hep-software-foundation-google-summer-of-code@googlegroups.com">e-group</a></p>
+
+<p><em>HSF GSoC administrators:</em> <a href="mailto:hsf-gsoc-admin@googlegroups.com">Andrei Gheata, Antoine Pérus and Xavier Valls</a></p>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/gsoc/2020/index.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

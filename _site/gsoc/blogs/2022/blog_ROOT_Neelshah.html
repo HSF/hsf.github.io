@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Inference of Deep Learning models in TMVA/SOFIE</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_CERNBOX_KarthikSundar.html">&nbsp;&#8592; OCM WebDAV Service</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_TMVADevelopments_HarshalShende.html">Improve Python interface for TMVA &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+       
+        <div class="col-md-3">
+          <img src="/images/blog_authors/NeelShah.jpg" alt=Neel Shah width="100%" style="float:right">
+        </div>
+        <div class="col-md-9">
+      
+    
+    <h1 class="blog-title">Inference of Deep Learning models in TMVA/SOFIE</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">24 Jul 2022 by <a href="/gsoc/blogs/2022/blog_ROOT_Neelshah.html">Neel Shah</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <h1 id="final-evaluation-blog-for-gsoc-2022">Final Evaluation Blog for GSOC 2022</h1>
+
+<h2 id="pre-gsoc-period">Pre-GSOC Period</h2>
+<p>Getting into GSOC was my dream since my college years, On May 20, I was so delighted when I got into my preferred Project in one of the most competitive Organisations. I will forever remember those sleepless nights spent solving those tasks, debugging, and building the project !!
+I have prepared a detailed blog on how I got into GSOC 2022 at CERN HSF in detail <a href="https://gist.github.com/Neel-Shah-29/3f04f05a8a353605068e32e55a5093c1">here</a></p>
+
+<h2 id="community-bonding-period">Community Bonding Period</h2>
+
+<div align="center">
+<img src="https://miro.medium.com/max/1200/1*YvvzCmO4dbCPeTPOq7_OKA.png" alt="drawing" width="500" />
+</div>
+
+<p>This is the period of time between when accepted GSoC contributors are announced and the time they are expected to start coding. This time is an excellent one to introduce your GSoC contributors to the community, get them on the right mailing lists, introduce them to the codebase, discuss how they will work with their mentors on their timeline for the program, etc.</p>
+
+<p>Again I have written a very detailed blog on Community Bonding Period <a href="https://gist.github.com/Neel-Shah-29/b2c887adaa118ba68b42e324d3b2a47a">here</a>.</p>
+
+<h3 id="brief-description-of-work-done">Brief Description of Work Done:</h3>
+
+<ul>
+  <li>
+    <p>For TMVA projects we usually have weekly meetings to discuss about the projects and solve the difficulties of everyone. So attending those meetings are mandatory as it involves your communication with other gsoc students of TMVA. Also the round table discussion solves all queries which you have as all the students and mentors give solutions and guidelines on it. Additionally we can also set a meeting with the mentor if required.</p>
+  </li>
+  <li>
+    <p>In TMVA projects, we have a specific idea of presenting our projects with the detailed timeline of implementation in front of mentors and other Gsoc students so we can get familier with other’s project as well and by that time our concrete strategy of project is also ready.</p>
+
+    <p>Here is my presentation for reference: <a href="https://docs.google.com/presentation/d/1bl1Xk5esr5TJEHKoro7o05pRQ2J997Qb1hc68XfU_0s/edit?usp=sharing">Inference Code Generation for Deep Learning models</a></p>
+  </li>
+  <li>
+    <p>I built and set up the Root environment in my laptop as required. <a href="https://root.cern/install/build_from_source/">Here</a> is the link to build Root from source.</p>
+  </li>
+  <li>
+    <p>Finalised the evaluation dates so that I get enough time to complete my long-term project. I chose a 16 weeks project after discussing with the mentor as my college reopens on July 18 and I will get less time to devote after that.</p>
+  </li>
+  <li>
+    <p>I have also contributed to fusing of Add and the MatMul operators in a Gemm Operator
+ Our task was to Implement the capability to parse the MatMul and Add operators together and fuse them in a Gemm operator in the TMVA SOFIE parser (RModelParser_ONNX.cxx) .
+So basically we take  the data of  MatMul operator and if we get Add operator exactly after the MatMul operator , we fuse both the Add and the MatMul operators and give their data to Gemm operator. Gemm operator is explained <a href="https://petewarden.com/2015/04/20/why-gemm-is-at-the-heart-of-deep-learning/">here</a> in detail.
+This improvement was added by my mentor Lorenzo Moneta in his PR , the link to my commit can be found <a href="https://github.com/root-project/root/pull/10315/commits/fda26827ecfc76c23b2e4b634d8cf54c5cabf8dc">here</a>.</p>
+  </li>
+  <li>
+    <p>Lastly, I began coding part for one of the easy operator which is Leaky Relu so i get an headstart for the Project. Here is the link to the 
+<a href="https://github.com/root-project/root/pull/10415">PR</a>.</p>
+  </li>
+</ul>
+
+<p><strong>Pro-Tip</strong> : Use this Period very well to connect with your mentors, other Gsoc Candidates and the organisation as a whole!</p>
+
+<h2 id="flowchart-to-generate-the-code-in-sofie">Flowchart to Generate the Code in SOFIE</h2>
+<p><img src="https://user-images.githubusercontent.com/84740927/192113032-1fbe4f4f-fcb9-4974-8878-ed85b97c69f8.png" alt="Untitled Diagram drawio(2)" /></p>
+
+<h2 id="coding-period">Coding Period</h2>
+
+<h4 id="1-finalise-the-leaky-relu-pr-which-was-sent-during-community-bonding-period">1) Finalise the <strong>Leaky Relu PR</strong> which was sent during Community Bonding Period.</h4>
+<p>I have written a detailed blog for the Leaky Relu Operator implementation as well. <a href="https://gist.github.com/Neel-Shah-29/f0371566ca1e24a6b3a9b4097cdd44db">Here</a> you can find the detailed description of the Operator.
+Here, I will provide a brief Description about it.</p>
+
+<ul>
+  <li>
+    <p><strong>Definition</strong> : <a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#LeakyRelu">Leaky Relu ONNX Documentation</a></p>
+  </li>
+  <li>
+    <p>Fix warning related to length in compiled code when there are no initialized tensors</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>build/build/tmva/sofie/test/LinearWithLeakyRelu_FromONNX.hxx:24:8: warning: unused variable ‘length’ [-Wunused-variable]
+</code></pre></div>    </div>
+    <p>It was general for all SOFIE operators not having a weight tensor. It is resolved by applying a small fix, we directly return when the tensors are not initialized.</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if (fInitializedTensors.empty()) return;
+</code></pre></div></div>
+
+<ul>
+  <li><strong>PR Status</strong>:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Leaky Relu ONNX Operator</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/10415">#10415</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="2-fix-the-implementation-of-max-pool-onnx-operator-for-1d-and-3d-cases">2) Fix the implementation of <strong>Max Pool ONNX Operator for 1D and 3D cases.</strong></h4>
+
+<ul>
+  <li>
+    <p><strong>Definition</strong> : <a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#MaxPool">Max-Pool ONNX Documentation</a></p>
+  </li>
+  <li>
+    <p>MaxPool ONNX Operator was only supported for the 2D case, i.e 4d tensors but I need to extend its support for the 1D and 3D cases as well.</p>
+  </li>
+  <li>
+    <p>Earlier it was giving a runtime error for 1d and 3d cases of Max Pool operator.</p>
+  </li>
+  <li>
+    <p>Error is described in the image mentioned below. I resolved the error by extending the support of Maxpool Operator for 3d and 5d tensors as well.</p>
+  </li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/84740927/180577234-b23267c8-12b0-4970-a730-e22755fc0dcb.png" alt="image" /></p>
+
+<ul>
+  <li>
+    <p>I also added the Unit Tests for MaxPool 1D, MaxPool 2D, MaxPool 3D and the Average Pool Operators.</p>
+  </li>
+  <li>
+    <p><strong>PR Status</strong>:</p>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Max Pool ONNX Operator</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/10768">#10768</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="3-implemented-all-the-4-basic-binary-operators-addsubmul-and-div-with-the-corresponding-unit-tests">3) Implemented all the 4 Basic Binary Operators: Add,Sub,Mul and Div with the corresponding Unit Tests.</h4>
+
+<ul>
+  <li><strong>Definition</strong> :
+    <ol>
+      <li><a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Add">Add ONNX Documentation</a></li>
+      <li><a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Sub">Sub ONNX Documentation</a></li>
+      <li><a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Mul">Mul ONNX Documentation</a></li>
+      <li><a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Div">Div ONNX Documentation</a></li>
+    </ol>
+  </li>
+  <li>
+    <p>I have implemented the four Basic Binary operators in a single file, they all are declared in an enum and we have used Type traits for making the code more modular and reusable. Below is the code sample for the same.</p>
+  </li>
+  <li>I also implemented the <strong>Multi-Directional Broadcasting</strong> for SOFIE.</li>
+</ul>
+
+<p>The following is the algorithm and its implemented in the SOFIE_common.cxx.</p>
+
+<p>CASE-1:The tensors all have exactly the same shape. : We support it already now</p>
+
+<p>CASE-2:The tensors all have the same number of dimensions and the length of each dimensions is either a common length or 1.
+<strong>Example:</strong> This is the example for two tensors as (2,3,4)  and (1,3,4) the result is (2,3,4)</p>
+
+<p>CASE-3: The tensors that have too few dimensions can have their shapes prepended with a dimension of length 1 to satisfy CASE-2. <strong>Example:</strong> This is the case for (3,4,5) and (2,1,1,1). Here we transform first tensor to (1,3,4,5) and the is like case 2 above. The result is (2,3,4,5)</p>
+
+<p>So the algorithm should do:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CASE-1 : Check if tensor have same shape - nothing special to do, we already supported it.
+
+CASE-2 and CASE-3 \: If shape is different we call the multi-directional broadcasting function.
+
+CASE-3 : if shapeA .size() &lt; shapeB.size() we insert in the shape vector values of 1 at the beginning of the tensor until shapeA.size() == shapeB.size()
+CASE-2 : We look then to the shape values, and if they are equal result is same, if shapeA[i] not equal to shapeB[i] we have the result shape equal to shapeA[i] if shapeB[i] = 1 or shapeB[i] if shapeA[i] = 1.
+</code></pre></div></div>
+
+<ul>
+  <li><strong>PR Status</strong>:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Basic Binary ONNX Operator</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/10822">#10822</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="4-implemented-the-tanh-onnx-operator-with-the-corresponding-unit-tests">4) Implemented the Tanh ONNX operator with the corresponding unit tests.</h4>
+
+<ul>
+  <li>
+    <p><strong>Definition:</strong> <a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Tanh">Tanh ONNX Documentation</a></p>
+  </li>
+  <li>For tanh activation function we require <code class="language-plaintext highlighter-rouge">cmath</code> library to support the tanh operator. So we add the required libraries in <code class="language-plaintext highlighter-rouge">RModelParser_ONNX.cxx</code> in the Parse method.
+    <pre><code class="language-C++">if (op_type == "Tanh")
+  rmodel.AddNeededStdLib("cmath");
+</code></pre>
+  </li>
+  <li><strong>PR Status</strong>:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Tanh ONNX Operator</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/10913">#10913</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="5-implemented-the-neg-onnx-operator-with-the-corresponding-unit-tests">5) Implemented the Neg ONNX operator with the corresponding unit tests.</h4>
+
+<ul>
+  <li>
+    <p><strong>Definition:</strong> <a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Neg">Neg ONNX Documentation</a></p>
+  </li>
+  <li>
+    <p><strong>PR Status</strong>:</p>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Neg ONNX Operator</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/10946">#10946</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="6-implemented-the-pow-onnx-operator">6) Implemented the Pow ONNX Operator</h4>
+
+<ul>
+  <li><strong>Definition:</strong> <a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Pow">Pow ONNX Documentation</a></li>
+</ul>
+
+<p>I have implemented the multi-directional broadcasting for broadcasting the shapes of output tensors. Currently its only supported for input and output tensors having same length.</p>
+
+<ul>
+  <li><strong>PR Status</strong>:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Pow ONNX Operator</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/10971">#10971</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="7-implemented-the-cast-onnx-operator">7) Implemented the Cast ONNX Operator</h4>
+
+<ul>
+  <li>
+    <p><strong>Definition:</strong> <a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Cast">Cast ONNX Documentation</a></p>
+  </li>
+  <li>
+    <p>First SOFIE was only supporting <code class="language-plaintext highlighter-rouge">ETensorType::FLOAT</code> input and output tensors now the code was implemented so that it can support for other datatypes as well like <code class="language-plaintext highlighter-rouge">ETensorType::INT16</code>, <code class="language-plaintext highlighter-rouge">ETensorType::INT32</code>, <code class="language-plaintext highlighter-rouge">ETensorType::INT64</code>, <code class="language-plaintext highlighter-rouge">ETensorType::UINT16</code>, <code class="language-plaintext highlighter-rouge">ETensorType::UINT32</code>, <code class="language-plaintext highlighter-rouge">ETensorType::UINT64</code> and <code class="language-plaintext highlighter-rouge">ETensorType::DOUBLE</code>.</p>
+  </li>
+</ul>
+
+<p>Here <code class="language-plaintext highlighter-rouge">fAttrType</code> is the data type to which the elements of the input tensor are cast.</p>
+
+<ul>
+  <li><strong>PR Status</strong>:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Cast ONNX Operator</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/11033">#11033</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="8-implemented-the-shape-onnx-operator">8) Implemented the Shape ONNX Operator</h4>
+
+<ul>
+  <li><strong>Definition:</strong> <a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Shape">Shape ONNX Documentation</a></li>
+</ul>
+
+<p>Shape Operator takes a tensor as input and outputs an 1D int64 tensor containing the shape of the input tensor.</p>
+
+<p>Note that the <code class="language-plaintext highlighter-rouge">fOutput_shape</code> is determined by <code class="language-plaintext highlighter-rouge">fOutput_shape = { size_t(fEnd - fStart) + 1};</code>, where <code class="language-plaintext highlighter-rouge">fStart</code> and <code class="language-plaintext highlighter-rouge">fEnd</code> are Optional Attributes denoting the Start and end position of input tensor shape, it is used to compute a slice of the input tensor’s shape.</p>
+
+<ul>
+  <li><strong>PR Status</strong>:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Shape ONNX Operator</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/11086">#11086</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="9-implemented-the-max-onnx-operator">9) Implemented the Max ONNX Operator</h4>
+
+<ul>
+  <li><strong>Definition:</strong> <a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#Max">Max ONNX Documentation</a></li>
+</ul>
+
+<p>Max Operator calculates element-wise max of each of the input tensors (with Numpy-style broadcasting support). It also supports multi-directional broadcasting as well.</p>
+
+<ul>
+  <li><strong>PR Status</strong>:</li>
+  <li>
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: left">Pull Request</th>
+          <th style="text-align: center">PR Number</th>
+          <th style="text-align: right">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: left">Max ONNX Operator</td>
+          <td style="text-align: center"><a href="https://github.com/root-project/root/pull/11198">#11198</a></td>
+          <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h4 id="10-implemented-the-reduce-onnx-operators-reducemean-reducesumsquare-reduceprod">10) Implemented the Reduce ONNX Operators: ReduceMean, ReduceSumSquare, ReduceProd</h4>
+
+<ul>
+  <li><strong>Definition:</strong>
+    <ol>
+      <li><a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#ReduceMean">ReduceMean ONNX Documentation</a>
+It computes the mean of the input tensor’s element along the provided axes. The dimension can be reduced or can be of same rank according to the values of attributes provided.</li>
+      <li><a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#reducesumsquare">ReduceSumSquare ONNX Documentation</a>
+It computes the sum square of the input tensor’s element along the provided axes.The dimension can be reduced or can be of same rank according to the values of attributes provided.</li>
+      <li><a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#reduceprod">ReduceProd ONNX Documentation</a>
+It computes the product of the input tensor’s element along the provided axes.The dimension can be reduced or can be of same rank according to the values of attributes provided.</li>
+    </ol>
+  </li>
+  <li><strong>PR Status</strong>:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Reduce ONNX Operators</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/11258">#11258</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="11-extend-concat-onnx-operator-to-implement-stack-functionality-as-the-onnx-concatfromsequence-operator">11) Extend Concat ONNX Operator to implement stack functionality as the ONNX ConcatFromSequence operator</h4>
+
+<ul>
+  <li><strong>Definition:</strong> <a href="https://github.com/onnx/onnx/blob/main/docs/Operators.md#ConcatFromSequence">ConcatFromSequence ONNX Documentation</a></li>
+</ul>
+
+<p>Concatenate a sequence of tensors into a single tensor. All input tensors must have the same shape, except for the dimension size of the axis to concatenate on. By default ‘new_axis’ is 0, the behavior is similar to numpy.concatenate(). When ‘new_axis’ is 1, the behavior is similar to numpy.stack().</p>
+
+<p>np.concat() part was already implemented previously in the concat operator , i need to extend the support so it could support np.stack() functionality as well. This was required for GNN testing.</p>
+
+<ul>
+  <li><strong>PR Status</strong>:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Pull Request</th>
+      <th style="text-align: center">PR Number</th>
+      <th style="text-align: right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Extend Concat ONNX Operator to implement stack functionality as the ONNX ConcatFromSequence operator</td>
+      <td style="text-align: center"><a href="https://github.com/root-project/root/pull/11317">#11317</a></td>
+      <td style="text-align: right"><img src="https://img.shields.io/badge/PR-Merged-blueviolet?style=for-the-badge&amp;logo=appveyor" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="some-useful-blogs-and-important-links">Some Useful Blogs and Important Links</h2>
+<p>1) <a href="https://gist.github.com/Neel-Shah-29/7e46bee55f7c09a18e94696a0a3e5ccf">Python Tutorials for various C files of Tutorials/TMVA</a></p>
+
+<p>2) <a href="https://gist.github.com/Neel-Shah-29/5c1399ccd23903928128822c6f3e0957">Documentation on RModelParser_ONNX.cxx</a></p>
+
+<p>3) <a href="https://gist.github.com/Neel-Shah-29/3f04f05a8a353605068e32e55a5093c1">Getting into GSOC 2022</a></p>
+
+<p>4) <a href="https://gist.github.com/Neel-Shah-29/b2c887adaa118ba68b42e324d3b2a47a">All about Community Bonding Period</a></p>
+
+<p>5) <a href="https://gist.github.com/Neel-Shah-29/f0371566ca1e24a6b3a9b4097cdd44db">Implementing the Operators in Sofie</a></p>
+
+<p>6) <a href="https://gist.github.com/Neel-Shah-29/d51a9038dd07ef096127a62a92113fa0">Final Evaluation Detailed Report</a></p>
+
+<p>7) <a href="https://docs.google.com/presentation/d/1VdOEkNsFcaBAo15kjVDRtJ_BWvVh9E6KgKzzrmkr1NQ/edit?usp=sharing">Final Project Presentation</a></p>
+
+<p>8) <a href="https://summerofcode.withgoogle.com/programs/2022/projects/vEuHzl6G">GSOC Project Page</a></p>
+
+<h2 id="proposal-link-">Proposal Link :</h2>
+<p><a href="https://docs.google.com/document/d/1tvTY9Rq5j0XW8KFfvkWHWlmE__-94h-Nj0tCkMjYnzs/edit?usp=sharing">Inference Code Generation for Deep Learning models</a></p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>I enjoyed a lot working on this project! I would like to really thank my mentors <strong>Lorenzo Moneta, Sitong An, Omar, Ahmat Hamdan, and Sanjiban Sengupta</strong> for always being a great support for me. Whenever I wanted any help or guidance, they were always with me! I am very proud to be associated with so many bright minds surrounding me, and every single day I learn something new from them. In the end, I am able to achieve all of my success because of the best wishes of my parents, seniors, and friends so a big thanks to them as well.</p>
+
+<p>Hope you all enjoyed reading my blog and learnt a lot.</p>
+
+<p><strong>Thanks and Regards,</strong></p>
+
+<p><strong>Neel Shah</strong></p>
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_ROOT_Neelshah.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

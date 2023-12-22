@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Weekly Meeting #178, 23 January, 2020</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2020/01/16/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #177, 16 January, 2020</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2020/01/23/generators.html">HSF Generator Meeting #8, 23 January 2020 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-weekly-meeting-178-23-january-2020---lund-workshop-planning-meeting">HSF Weekly Meeting #178, 23 January, 2020 - Lund Workshop Planning Meeting</h1>
+<p>Present: Graeme Stewart, Pere Mato, Agnieszka Dziurda, Philippe Canal,
+Sam Meehan, Stefan Roiser, TJ Khoo, Andrea Valassi, Serhan Mete, Witek
+Pokorski, Paul Laycock, Mason Proffitt, Ben Morgan, Markus Schulz, Liz
+Sexton-Kennedy, David Lange, Josh McFayden, Kyle Knoepfel, Mark
+Neubauer, Efe Yazgan, Daniel Elvira, Caterina Doglioni, Chris Jones</p>
+
+<p>Organising team for HSF are: Graeme, Heather, David and Michel - please
+get in touch with any suggestions you have.</p>
+
+<h1 id="plenary">Plenary</h1>
+<ul>
+  <li>Opening session on Monday afternoon and closing session on Friday
+will be in plenary</li>
+  <li>For Monday we foresee some overview talks to set the scene
+    <ul>
+      <li>We have specifically reached out to some non-HEP communities,
+e.g. ESS, Dark Matter, Astroparticle, ESCAPE</li>
+      <li>Good time to give an HSF review talk, for new people to the
+software and computing area</li>
+      <li>Would it be useful to have some cross-cutting technology
+items, e.g. compute accelerators or networking…?</li>
+    </ul>
+  </li>
+  <li>Our WLCG colleagues have mooted a plenary session on “portability
+and sustainability of workflows”. Maybe 0.5 days. Proposed to
+cover aspects around 1) software/infrastructure sustainability;
+and 2) the process for supporting “new” architectures (be it HPC
+or otherwise) on the grid. Both potentially broad areas. Could eat
+0.5 days from the parallel session blocks.
+    <ul>
+      <li>Ben - could overlap with software and tools area (packaging)?</li>
+      <li>Liz - maybe less overlap? Is Geant4 suffering from “the
+tragedy of the commons”? Everyone wants it, but wants others
+to pay for it… HSF was created to address this
+        <ul>
+          <li>Geant is a priority, but we lack a coherent voice</li>
+          <li>Storage technologies are evolving</li>
+        </ul>
+      </li>
+      <li>Andrea - suggest more plenary? That’s the point of the joint
+workshop
+        <ul>
+          <li>Plenary talk from <em>each WG</em> to increase awareness
+            <ul>
+              <li>Concern this would be too much like a general
+round-table of status reports without much discussion?</li>
+              <li>Fold a little piece from each WG into an HSF overview?</li>
+            </ul>
+          </li>
+          <li>HL-LHC review “summary” (this was foreseen)</li>
+        </ul>
+      </li>
+      <li>Paul - likes the idea of crossover talks, following the themes
+above</li>
+      <li>Stefan - cross cutting topics could be things like
+vectorisation on the grid
+        <ul>
+          <li>Heterogeneous resources… (and HPCs) - roadmap to GPU
+workloads?
+            <ul>
+              <li>How do you manage them? What software do you run in
+them?</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Andrea: definitely HPCs could be an interesting topic for a
+cross-over session, with both computing and software people.
+As an example, we had HPC meetings with computing people
+mainly discussing computing integration issues (storage,
+workload, network, O/S…), while those specific issues like
+Summit have mainly GPU computing, and we essentially have no
+GPU workloads ready to run in production at that scale. It
+would be useful for instance from the reconstruction/trigger
+WG to know how much of their GPU work is online farm specific,
+and how much can be exploited on HPCs.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="parallel">Parallel</h1>
+<ul>
+  <li>Tuesday, Wednesday and Thursday will probably (all) be parallel
+HSF
+    <ul>
+      <li>We could have 2 items ongoing (there are 3 rooms in total),
+but will need negotiations with our computing colleagues</li>
+    </ul>
+  </li>
+  <li>The DOMA/Analysis workshop pre-CHEP was a success, with the
+interactive sessions appreciated</li>
+  <li>Should we try to do something along the same lines here?</li>
+  <li>e.g. Reconstruction and Simulation are the other major resource
+impacting areas
+    <ul>
+      <li>This would mean dedicating a day to each of these</li>
+      <li>How best to get everyone involved in discussions and have
+useful outcomes?
+        <ul>
+          <li>New ideas</li>
+          <li>R&amp;D</li>
+          <li>Shared projects</li>
+        </ul>
+      </li>
+      <li>The large room is amenable to splitting into smaller groups</li>
+    </ul>
+  </li>
+  <li>If we do this then only one more (or just 0.5) day left (unless
+not using Monday morning is reconsidered)
+    <ul>
+      <li>That means we cannot cover all topics!</li>
+    </ul>
+  </li>
+  <li>Ideas and thoughts for other WGs:
+    <ul>
+      <li>Generators is a centre of expertise in Lund, can we take
+advantage of that and organise something significant, building
+on the Nov 2018 workshop</li>
+      <li>Software Tools and Packaging is an active group, with
+widespread impact, so a session makes sense</li>
+      <li>Frameworks is a new group, so a first session in the workshop
+will help bootstrap and define directions</li>
+      <li>Training - could have a session, but what would need discussed
+in this forum that would drive outcomes?</li>
+      <li>Analysis had a session in Adelaide and we felt the next event
+needed to be at CERN to get the coal-face analysts</li>
+      <li>PyHEP organised the UK workshop and are busy with the SciPy
+2020 event</li>
+      <li>[Caterina] Pro domo mea, literally: I have started a “local”
+group called REALTIME, including people from other faculties
+(psychology/law/astronomy/engineering), who are interested in
+real-time data acquisition / analysis. Info in English here:
+<a href="https://realtime.blogg.lu.se/hej-varlden/"><span class="underline">https://realtime.blogg.lu.se/hej-varlden/</span></a>
+I talked to them on Monday and they were keen for a mingle,
+but we could also do something totally out there and have a
+trigger&amp;reco discussion session that includes them (not sure
+it’d be of program-wide interest though).</li>
+    </ul>
+  </li>
+  <li>If a WG does not have a dedicated session, we could have WG
+reports that cover the main activities and directions (as full
+plenary or an HSF “summary” session)</li>
+</ul>
+
+<h3 id="working-group-thoughts-and-feedback">Working Group Thoughts and Feedback</h3>
+<ul>
+  <li>Assume that we’re looking at 4 sessions in a whole day, each
+session being ~90 minutes long.</li>
+  <li>Let us know how many sessions your group would use.
+    <ul>
+      <li>Or if you’d like an overview talk instead</li>
+    </ul>
+  </li>
+  <li>Do you want to have some group interaction during your session
+(which was really a success in Adelaide); this helps a lot getting
+everyone discussing and can be very fruitful.
+    <ul>
+      <li>Bear in mind this needs to have enough time dedicated to it.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="reconstruction-and-software-triggers">Reconstruction and Software Triggers</h4>
+<p>See above for an interdisciplinary thought from Caterina. <em>copied
+from above</em>:</p>
+<ul>
+  <li>[Caterina] Pro domo mea, literally: I have started a “local”
+group called REALTIME, including people from other faculties
+(psychology/law/astronomy/engineering), who are interested in
+real-time data acquisition / analysis. Info in English here:
+<a href="https://realtime.blogg.lu.se/hej-varlden/"><span class="underline">https://realtime.blogg.lu.se/hej-varlden/</span></a>
+I talked to them on Monday and they were keen for a mingle, but we
+could also do something totally out there and have a trigger\&amp;reco
+discussion session that includes them (not sure it’d be of
+program-wide interest though).</li>
+  <li>Graeme - Better not to have this as lunch, which would limit
+participation, but really get input from them in ~1-2 session
+slot (tools, licensing are topics in which we have expertise)</li>
+  <li>Need to have a chat among ourselves before deciding, but it could be a
+good idea to have a longer topical discussion on accelerators for
+trigger and reconstruction (shared with frameworks?) since we keep
+getting interest from people wanting to give talks and here we could
+have a longer session.</li>
+  <li>One interesting thing would be to have a talk for non-standard
+reconstruction techniques for long lived particles. The issue here is
+that tracking is generally CPU-expensive, and one risks missing those
+signatures at the trigger level because one can’t reconstruct the
+features fast enough. Various grapevines tell me (Caterina) that this is
+a hot topic in both ATLAS and CMS, but I haven’t talked to LHCb/ALICE
+yet.</li>
+  <li>Focus on this for the HEP Reco session, also brings in physics
+analysis people</li>
+  <li>Interesting CMS work (we think) on LLPs</li>
+</ul>
+
+<p><em>Accelerator crossover with simulation, generators and frameworks…
+identify generic work where possible.</em></p>
+
+<h4 id="detector-simulation">Detector Simulation</h4>
+<p>We think that one full day of parallel session on simulation is a very
+good idea, taking into account how critical simulation CPU performance
+and physics precision is becoming. We would probably like to have 4
+different sessions along the general axis of improvements/modernization
+of Geant4, fast simulation and new hardware technologies (accelerators,
+HPC, etc). Physics precision is also a very important topic that should
+not be ignored, but this should in principle be covered by the LPCC
+workshop that we are planning to have in the second half of 2020.
+We would be very pleased to have more Geant4 community involved. We
+would also be interested to hear about successful attempts of porting
+simulation software to accelerators from other communities (outside
+HEP).</p>
+
+<h4 id="data-analysis">Data Analysis</h4>
+<p>Topics for the start of year are Analysis languages and Analysis meets
+DOMA, our first WG meeting is tomorrow :)
+Cross-over topics in other WG parallels might be of interest, seeing as
+we needn’t have a dedicated session:</p>
+<ul>
+  <li>Analysis languages crossover with frameworks?</li>
+  <li>Another crossover with frameworks that came out of the Adelaide
+workshop was how to integrate industry standard ML toolkits with
+frameworks</li>
+  <li>Analysis meets DOMA would make use of WLCG but we hogged the
+Adelaide agenda.</li>
+  <li>Real-time analysis and the other Reco topics esp if physics reps
+will come</li>
+  <li>Training would also be natural.</li>
+  <li>ML/GPU +1</li>
+</ul>
+
+<h4 id="frameworks">Frameworks</h4>
+<p>Not certain who will be at Lund yet from FNAL.
+Cross cutting topics would be really interesting - scheduling
+accelerator jobs, portability issues. How to make use of an HPC as an
+application.
+Exploring different frameworks and examining complications… once
+finished</p>
+
+<h4 id="pyhep">PyHEP</h4>
+<ul>
+  <li>We do not request a parallel session.</li>
+  <li>We kindly request a plenary report on WG activities, if possible
+within the time budget.</li>
+</ul>
+
+<h4 id="tools-and-packaging">Tools and Packaging</h4>
+<p>Serhan : Will probably be able to discuss tomorrow. Last two HOW
+workshops, we had 1h30min parallel sessions with approximately 50% talk</p>
+<ul>
+  <li>50% discussions. Overall, I think this is a balanced approach. We
+might have three or so talks (15’ + 15’). The usual suspects:
+    <ul>
+      <li>Build systems + packaging + software distribution</li>
+      <li>Profiling/monitoring tools (maybe focus a bit on accelerators)</li>
+      <li>Static analyzers (linters etc.)</li>
+      <li>IDEs (and perhaps integrating some of the above tools therein) -
+cross over with training!</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="training">Training</h4>
+<p>Sam M. : I’m sorry that I could not attend the meeting [ref.
+Coordination meeting 16 Jan]. I do think that having a session would be
+good and I think that if we want to consider outcomes, then having the
+critical mass of people to brainstorm what types of bootcamps we need
+would be helpful. We can then discuss this with the experience of the
+last year in mind [specifically how we held the workshops] and that
+would provide the concrete list of events that we need to plan in the
+coming year - spanning ~July 2020 - July 2021.
+Caterina: another “crazy host” idea: would you be willing (and would
+there be interest) to organize a mini-bootcamp before/after the
+workshop? Students may be encouraged to fly on Sunday night and in the
+morning we have the rooms. In Lund we have huge interest from all
+faculties on our Jupyter course and if we do something generic we can
+“expand our horizons”. → Caterina will follow up with Sam towards the
+end of next week.</p>
+
+<h4 id="generators">Generators</h4>
+
+<p>We have a generator meeting at 4pm after this one, where we will also discuss the LUnd workshop more in detail.
+Lund is sort of the ‘home’ of MC generators and there are people there
+working in Pythia, MadGraph, Herwig, possibly more. It would certainly
+be nice to organise one parallel session to meet and engage with some of
+those experts, who are not normally involved in our WG activities. We
+have not yet made contacts but will do soon. So in principle we request
+one parallel slot (90 minutes?).
+We could have a plenary talk if people find this useful [Andrea more
+generally suggested that each WG gives one, but some people feel
+otherwise]</p>
+
+<h3 id="aob">AOB</h3>
+<p>We are asked for a letter of collaboration for an AI Institute proposal
+going to the HSF, “AI Institute: Community Laboratory for AI Research at
+the Intersection with Physics (CLARIPHY)” (from Pete Elmer). The HSF’s
+collaboration would be in training and workshops:
+<a href="https://docs.google.com/document/d/13YHqtL3UI0QV5KQ8fUQ0ab0jiDzs7Nw089lbzjW-rS4/edit?usp=sharing"><span class="underline">https://docs.google.com/document/d/13YHqtL3UI0QV5KQ8fUQ0ab0jiDzs7Nw089lbzjW-rS4/edit?usp=sharing</span></a>
+Can we approve this? Comments until tomorrow morning CERN time as the
+<a href="https://www.nsf.gov/pubs/2020/nsf20503/nsf20503.htm"><span class="underline">proposal</span></a>
+deadline is very close.
+<em>We would like a ~1 page summary so that we can check we approve the
+idea.</em>
+Mark: there will likely be other asks for this call. Graeme: we can sign
+off without a meeting as long as the letter and project description are
+circulated.</p>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2020/01/16/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #177, 16 January, 2020</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2020/01/23/generators.html">HSF Generator Meeting #8, 23 January 2020 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Generator Meeting #8, 23 January 2020</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2020/01/23/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #178, 23 January, 2020</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2020/01/30/coordination.html">HSF Weekly Meeting #179, 30 January, 2020 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-generator-meeting-8-23-january-2020">HSF Generator Meeting #8, 23 January 2020</h1>
+
+<p><em>Agenda: <a href="https://indico.cern.ch/event/880274">https://indico.cern.ch/event/880274</a></em></p>
+
+<p>Present:</p>
+<ul>
+  <li>In the room: Andrea Valassi, Stefan Roiser, Efe Yazgan, Markus Schulz, Josh Bendavid</li>
+  <li>Remote: Andy Buckley, Duncan Alexander Leggat, Graeme Stewart, Gurpreet Singh Chahal, Holger Schulz, Josh McFayden, Lukasz Kreczko, Olivier Mattelaer, Qiang Li, Stefan Hoeche, Stephen Jiggins, Steve Mrenna, Taylor Childers, Walter Hopkins, Luca Mantani</li>
+</ul>
+
+<p>Apologies: -</p>
+
+<h2 id="news-general-matters-1">News, general matters (1)</h2>
+
+<p>Thanks to Stefan Hoeche, Steve Mrenna and Taylor Childers for their work as co-conveners of this WG in 2018-2019, and welcome to Efe Yazgan as a new co-convenor!</p>
+
+<p>Please feel free to contribute to the live notes of the meeting on codimd!</p>
+
+<h2 id="update-about-madgraph-on-gpu-walter-hopkins">Update about MadGraph on GPU (Walter Hopkins)</h2>
+
+<p>This is a follow-up to the <a href="https://indico.cern.ch/event/831652/contributions/3511812">talk</a> by Kyle Fielman at the WG meeting in July 2019, about the Argonne work on MadGraph on GPUs. See also Junichi Kanzaki’s <a href="https://indico.cern.ch/event/759388/contributions/3303060">talk</a> at the HOW2019 workshop in March 2019 about previous work in this area in Japan.</p>
+
+<p>Work has been done mainly on the phase space integration (VEGAS on GPU, aka gVEGAS), not on event generation (gSPRING). So far the matrix element calculation within gVEGAS has not been ported to GPUs.</p>
+
+<p>Event generation is most likely more time consuming overall than phase space integration. A more detailed profiling and verification of that is planned.</p>
+
+<p>There is one postdoc at Argonne working on an ATLAS qualification task on these topics.</p>
+
+<p>Qiang: starting with any specific MadGraph version? Answer: did not get to integrating with MG yet, but plan to use the version used in CMS.</p>
+
+<p>Taylor: there are frameworks like kokkos which are more portable than CUDA. StefanR: we also have a workshop upcoming in April on alpaka, including one day of public training on April 27 (<a href="https://indico.cern.ch/event/858758">https://indico.cern.ch/event/858758</a>), plus three days of hands-on (<a href="https://indico.cern.ch/event/867700">https://indico.cern.ch/event/867700</a>, but this is by invitation only and slots are already full). Walter: could be very interesting for our use case.</p>
+
+<p>JoshMF: will you work also on the event generation (gSPRING)? From an analyser’s point of view, integration is the most painful part, but overall the largest time spent is event generation. Walter: apparently gSPRING already exists, but have not obtained Junichi’s code yet.</p>
+
+<p>Andrea: is the ME calculation ported on GPU yet? Walter: it is meant to exist, but have not managed to run it yet. Olivier: plan to work on that.</p>
+
+<p>Andrea: very important work, very good that many people are interested in it, we should take it offline and try to understand how to best collaborate.</p>
+
+<p>JoshMF: is there some training for GPU development? Graeme: following up with Maria Girone in Openlab. Walter: not an expert and doing some learning, it’s totally not obvious and sometimes the algorithms need to be changed. JoshMF: should we maybe go another direction, and instead of porting doing a reengineering? Olivier: also just starting on CUDA, but definitely plan to spend some time on this.</p>
+
+<p>Stefan: was difficult last year to get all relevant pieces of MadGraph on GPU together in one place, can this be done? Walter: already put a link there.</p>
+
+<p>JoshB: for the user the integration is the painful process. So working on easier gridpack creation from users is also very important, not just event generation.</p>
+
+<p>Olivier: note that GPU port is at present only conceivable for LO, while for NLO it would be much more complex, due to the need for 1-loop libraries. But e.g. DY+4 jets at LO (which is already a pain for CMS users) would be possible.</p>
+
+<h2 id="machine-learning-techniques-for-mc-integration-josh-bendavid">Machine Learning techniques for MC integration (Josh Bendavid)</h2>
+
+<p>Matrix element calculation is the dominant computational cost. A DNN approach increases the integration or unweighting efficiency, hence it reduces the number of matrix element calculations needed.</p>
+
+<p>JoshMF: how hard would it be to integrate this in MadGraph? JoshB: presently working on a future development branch of MG using python, it would be more complex on the present Fortran based implementation. This work is still at the R&amp;D stage.</p>
+
+<p>Taylor: how far away are you from using an actual process, rather than just using some test functions? JoshB: still having some numerical stability issues.</p>
+
+<p>Andrea: does the DNN have an impact on the physical precision? JoshB: as long as the coverage of all the phase space is done correctly in the NN, this should not be an issue.</p>
+
+<p>Andrea: is this portable to any generator like sherpa, not just MG? JoshB: yes, general idea applies to all generators, then the problem is just doing the integration with a specific generator.</p>
+
+<h2 id="google-summer-of-code-projects-stefanrandyb">Google Summer of Code projects (StefanR/AndyB)</h2>
+
+<p>Stefan: introduction to GSOC. Generally people are very happy with the quality of students.</p>
+
+<p>AndyB: proposing to a GSOC some work on GPU implementation of ME might be a huge thing, it requires supervision from physics experts. Markus: for a summer project this might be too much. Stefan: already doing some profiling could be something. But definitely we would need help from authors. Andrea/Josh: also need some benchmarking suites to start.</p>
+
+<p>Steve: should the mentors be at CERN? Graeme: no, neither mentors nor students are meant to be at CERN, they can be remote.</p>
+
+<p>Graeme: often difficult to attract students, so we should start with why physics is exciting!</p>
+
+<p>JoshMcF: The implementation of HDF5 as replacement for LHEF might be a nice thing to add to Stefan’s proposal? This was done for sherpa/pythia8 but it could be done for other generators. Holger: the code which exists is generator-independent.</p>
+
+<p>Graeme: can submit many projects, but you need to have a mentor for each.</p>
+
+<p>JoshMF: volunteers to be a mentor. Thanks!</p>
+
+<h2 id="news-general-matters-2">News, general matters (2)</h2>
+
+<h3 id="hsfwlcg-workshop-in-lund-11-15-may-2020---andreav">HSF/WLCG Workshop in Lund (11-15 May 2020) - AndreaV</h3>
+
+<p>The next HSF/WLCG Workshop will take place in Lund from 11 to 15 May (more information on <a href="https://indico.cern.ch/event/867789">indico</a>). The agenda is still being prepared. We should expect to give a summary of the WG activities there. We can also organise a parallel session, keeping in mind that Lund is the ‘home’ of Pythia and many relevant experts on MC generators are based there.</p>
+
+<p>Graeme: can have more than one slot of 90 minutes, could for instance have one slot of talks and one of discussions. JoshMF: yes this is a nice idea. Andrea: focus should be computational aspects.</p>
+
+<p>Steve: will be there in April for the Pythia8 meeting, unfortunately not at the sam etime.</p>
+
+<h3 id="review-of-the-hl-lhc-computing-strategy-18-20-may-2020---andreav">Review of the HL-LHC computing strategy (18-20 May 2020) - AndreaV</h3>
+
+<p>LHCC have requested a review of High-Luminosity computing for the LHC (see <a href="https://indico.cern.ch/event/865280/contributions/3645561/attachments/1967531/3271925/HL-LHC-Charge-v3.pdf">charge document</a> attached to the agenda). The first phase is 18-20 May at CERN. Five documents will be requested. <strong>The HSF is in charge of preparing a ~20 page Common Tools and Community Software document, which has to be ready by 1 May</strong>, well before the Lund workshop. The document should cover software directly impacting on resources (<strong>Event Generation</strong>, Detector Simulation, Reconstruction, Data Analysis) and we agreed that each of the relevant HSF working groups takes charge of the corresponding section in the document. The current skeleton of the document is available on <a href="https://docs.google.com/document/d/1ai7m7kFyiGgl2tKralJKyPX6rlD9tffU7B6wPj_vpZU/edit">googledoc</a>.</p>
+
+<p>Draft HSF Timeline:</p>
+<ul>
+  <li>Setup document and discuss parameters - January</li>
+  <li>Write initial text, roughly 4 pages per software area - February
+(Contact with important contributors should be made at this time)</li>
+  <li>Circulate to wider community for comments and suggestions - March
+(At least one meeting per section should be arranged)</li>
+  <li>Finalise text for LHCC - April</li>
+</ul>
+
+<p><strong>The HSF generator WG should thus prepare ~4 pages of text</strong>. Starting point should be the CWP and the goals laid out there. R&amp;D plans should be outlined (for further scrutiny of the progress by the review panel after 18 months, in the fall 2021).</p>
+
+<p>Graeme: perfectly ok to discuss important things that are not yet being done, and this is maybe very important for generators. Andrea: yes, for instance pointing out importance of computational work on generators, need to attract/keep the right people; also, forecasts of LO/NLO/NNLO needs from a physics perspective.</p>
+
+<h2 id="atlas-and-cms-event-generator-accounting-joshmf-and-efe">ATLAS and CMS event generator accounting (JoshMF and Efe)</h2>
+
+<h3 id="atlas">ATLAS</h3>
+
+<p>JoshMF: in the past the ATLAS accounting was done in seconds, not HS06 seconds. Have been working on HS06 numbers, will first present them today!</p>
+
+<p>Andrea: so ballpark is that for MC production, 20% ifs generation, 60% is simulation, 20% is reco? JoshMF: yes, an dMC production is around 70% of all of ATLAS time. So generation is around 14% overall.</p>
+
+<p>Stefan: is digitization part of reco? JoshMF: yes it is put together. Efe: if like CMS, then it is very small.</p>
+
+<h3 id="cms">CMS</h3>
+
+<p>In previous results, we had an approximate GEN/SIM split. In the new campaign (since ~September 2019) we now have separate GEN and SIM information because CMS launches GEN and SIM jobs separately. Also, HS06 numbers are now available.</p>
+
+<p>Note that some of the results we gave in the table previously is now lost because the monitoring is only kept for 18 months!</p>
+
+<p>Slide 3: note 4th and 5th line are the slowest. The 4th is MG GEN-only, it is as slow as the 5th that is sherpa GEN+SIM and includes one more jet. So it is a bit surprising.</p>
+
+<p>For ttbar only, in the past we estimated GEN to be 4% of full MC chain, now it is around ~7%. And this number is around 7% to 35% for the different channels.</p>
+
+<p>Steve: are you taking into account the different matching efficiencies? JoshB: yes, in the end, the numbers we get are how many unweighted events we produce.</p>
+
+<h3 id="discussion">Discussion</h3>
+
+<p>Andrea, so in summary we should compare for fraction of CPU time for GEN over all time in a MC campaign: 20% for ATLAS, against 7% to 35% for CMS. This is not so different. Then we should try to get an average for all processes. The idea is to get a prediction for a typical year, now and eventually at HL-LHC. Our goal should be to try and get precise numbers, so that we can prioritise where we need to invest to improve generation time, if relevant.</p>
+
+<p>JoshB: aside, note that MINLO is a very slow generator because it recomputes pdfs, so if we add it to the table it would appear very slow.</p>
+
+<h2 id="aob">AOB</h2>
+
+<h3 id="common-eos-space-for-atlascms-generator-files-andreav">Common EOS space for ATLAS/CMS generator files (AndreaV)</h3>
+
+<p>This is a follow-up to the talk by Kyle Cormier and Javier Fernandez during the <a href="https://indico.cern.ch/event/821205">June 27 WG meeting</a>. Andrea is discussing this with the EOS team in SNOW ticket <a href="https://cern.service-now.com/service-portal/view-request.do?n=RQF1470291">RQF1470291</a>.</p>
+
+<p>A few points from Kyle:</p>
+<ul>
+  <li>File types would be LHE files, HepMC files, or experiment-specific versions there-of (e.g. EVNT files in ATLAS which store data similar to what is found in a typical HepMC file)</li>
+  <li>Harder to say is the number of files and how often they will be accessed, and the growth in the next few years</li>
+  <li>On the ATLAS side, Kyle’s work will be taken over by Mike Fenton</li>
+</ul>
+
+<p>A few open questions from Andrea:</p>
+<ul>
+  <li>We need a name for this EOS project, ok for hsf-generators? (there is already an hsf-phoenix space)</li>
+  <li>We need a name of a service account for this EOS project, of for hsfgen?</li>
+  <li>Is 1TB with maximum 1M files enough?</li>
+</ul>
+
+<p>Gurpreet: mainly working on sherpa in CMS, would be very interested from the CMS side about that.</p>
+
+<h3 id="next-meetings">Next meetings</h3>
+
+<p>Aim for one meeting per month on average, more frequently when needed (e.g. while preparing the Lund workshop and the HL-LHC review).</p>
+
+<p>Possible topics for some of the next meetings:</p>
+<ul>
+  <li>Update by JoshMF about reproducible setups to run generators in a configuration representative of the actual ATLAS/CMS use cases?</li>
+  <li>Discussion (by Steve Mrenna?) about the HDF5 format for parton level events (this is an HPC friendly replacement for LHE Les Houches Event files, which are in ASCII format)</li>
+  <li>Suggestion by StefanH: presentation by Enrico Bothmann of his work on NN integration (see <a href="http://arxiv.org/abs/arXiv:2001.05478">http://arxiv.org/abs/arXiv:2001.05478</a> and <a href="http://arxiv.org/abs/arXiv:2001.05486">http://arxiv.org/abs/arXiv:2001.05486</a>)</li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2020/01/23/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #178, 23 January, 2020</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2020/01/30/coordination.html">HSF Weekly Meeting #179, 30 January, 2020 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

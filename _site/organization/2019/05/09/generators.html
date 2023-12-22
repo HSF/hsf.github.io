@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Generator Meeting #5, 09 May 2019</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2019/05/09/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #165, 9 May, 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2019/05/23/coordination.html">HSF Weekly Meeting #166, 23 May, 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-generator-meeting-5-09-may-2019">HSF Generator Meeting #5, 09 May 2019</h1>
+
+<p><em>Agenda:
+<a href="https://indico.cern.ch/event/813620"><span class="underline">https://indico.cern.ch/event/813620</span></a></em></p>
+
+<p><em>Present/Contributors: Andrea Valassi, Simone Amoroso, Efe Yazgan, Qiang
+Li, Frank Siegert, Alexander Grohsjean, Lukasz Kreczko, Stefan Hoeche,
+Steve Mrenna, Marek Schoenherr, Markus Schulz, Stephen Jiggins, Josh
+McFayden</em></p>
+
+<h2 id="general-news">General news</h2>
+<ul>
+  <li>Efe: Alexander new convener in CMS replacing Efe after August</li>
+</ul>
+
+<h2 id="atlas-and-cms-event-generator-update">ATLAS and CMS event generator update</h2>
+<ul>
+  <li>Simone: slides with an update about generators
+    <ul>
+      <li>This is an update on the numbers presented at the November
+workshop.</li>
+      <li>These numbers might soon become an ATLAS public document.
+Eventually also the configurations used to produce them might
+be shared.</li>
+      <li>Slide 3: Powheg plus Herwig faster than Powheg plus Pythia.</li>
+      <li>Slide 5: yellow is sherpa with FxFx scale (i.e. the same scale
+used by MG). This makes sherpa faster by a factor. We plan to
+exercise this in ATLAS. It may even become the default in
+sherpa, the authors are looking at that. StefanH: yes we get
+encouraging results, but still need more tests.</li>
+      <li>Qiang: does FxFx affect the negative weight fraction? Simone:
+did not check. Marek? If anything the negative weight fraction
+should get better.</li>
+      <li>StefanH: note that MG + Pythia for NLO can have MG unweighted,
+but then when you add Pythia this also gives you Pythia
+weights, and you have to unweight again. You could store all
+events and then unweight. There is some similarity to what
+alpgen does.</li>
+      <li>Slide 7: something a bit unrelated to the previous slides,
+strategies for reducing negative weights in MG aMC@NLO.</li>
+      <li>Andrea: rule of thumb for impact of negative weights?
+Simone/Frank: some rules of thumb plus some refinement.
+Andrea: please send them to me or put them on the minutes.</li>
+      <li>Slide 7: Qiang, is there a similar way to reduce the negative
+weights in sherpa in the same way as in MG? Stefan: most
+negative weights come from h events rather than s events, and
+a folding strategy is not possible. Stefan: have a feeling
+that going to a full powheg implementation may be a better
+strategy. Efe: MG are working on something similar to the
+powheg method, which may be more effective.</li>
+      <li>Simone: would be useful if Josh/Andrea ask the MG authors to
+report when this becomes available.</li>
+    </ul>
+  </li>
+  <li>Efe and Qiang: updated the numbers in
+<a href="https://www.overleaf.com/1326158343ftxgrxxcspxg"><span class="underline">https://www.overleaf.com/1326158343ftxgrxxcspxg</span></a>
+    <ul>
+      <li>Table 1 is now updated. Josh: one thing that changed is that
+we removed the “Others” section, so the ATLAS number is
+reduced and it is more apples to apples.
+        <ul>
+          <li>Take away: ATLAS 10x slower in generation, 5x slower in
+detector simulation, 2x slower in reconstruction for the
+same number of events!</li>
+          <li>Alexander: is ATLAS fast sim or full sim? Josh: it’s a
+mixture of fast sim and full sim.</li>
+          <li>Andrea: is this table complete now? Josh: yes, apart from
+simulation time pointed out by Alexander, this is now
+pretty complete for generators, nothing missing or nothing
+too much.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/images/2019-05-09-generators1.jpg" alt="Table 1 of proceedings" /></p>
+<ul>
+  <li>Qiang: Table 3 is a full apples to apples for LO.
+    <ul>
+      <li>Efe: here there is a good agreement. There is 30 seconds per
+event in both cases.</li>
+      <li>Frank: however we must make sure we are not biased by filters.
+For instance there is a difference between the first two
+columns for timing, still something to understand. In
+particular, it is becoming apparent that ATLAS makes stricter
+filters and then produces more expensive, but fewer, events.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/images/2019-05-09-generators3.jpg" alt="Table 3 of proceedings" /></p>
+<ul>
+  <li>Table 2 then is apples to apples for NLO. Here sherpa is a factor
+20x slower!
+    <ul>
+      <li>Josh: will write down in text some comments to help
+interpretation of some details.</li>
+      <li>Andrea: totals are 80M events ATLAS and 4B CMS. Ideally it
+would be nice to get total CPU in Table 1 for each row if
+possible. Josh: should be easy for ATLAS. Efe; more complex
+for CMS.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><img src="/images/2019-05-09-generators2.jpg" alt="Table 2 of proceedings" /></p>
+<ul>
+  <li>Andrea: very good progress. We should eventually converge on
+making this a writeup of the November workshop. Andy Buckley
+volunteered to help with the writeup of the workshop proceedings,
+now he has more time free from other commitments</li>
+</ul>
+
+<h2 id="proposed-chep-2019-abstract">Proposed CHEP 2019 abstract</h2>
+
+<p><em>“Addressing the software and computing challenges of physics event
+generators”</em></p>
+
+<p>The HL-LHC physics program will require unprecedented computing
+resources for simulated collisions and therefore Monte Carlo (MC) event
+generation. The number of MC events to generate and simulate, which
+scales as the integrated luminosity of real collisions, is expected to
+increase at a much faster rate than the available computing resources.
+The fraction of CPU consumed by MC event generators will also increase
+dramatically, as the LHC experiments are expected to use primarily fast
+detector simulation. In addition, the availability and reliance upon
+higher precision theoretical calculations is also expected to increase,
+resulting in increased computing resource requirements for MC generation
+compared to today. Consequently, to ensure physics results are not
+restricted by a limited number of MC events that can be generated on the
+available resources, significant optimisation upon the current model is
+required.</p>
+
+<p>To achieve this, first a detailed analysis of the current computing
+model for MC event generators is required, followed by optimisation to
+improve generator software performance. In addition, developing
+generator software to be able to exploit the evolution of computing
+architectures in the HL-LHC era, which will likely take the form of
+accelerator-based High Performance Computing clusters, will be vital.
+Such architectures are better suited to the smaller code-bases of MC
+generators rather than the vast code bases of the LHC experiments
+simulation and reconstruction infrastructures. Finally, more precise
+projections of the generator-level physics requirements for HL-LHC are
+also required from theorists and experimentalists.</p>
+
+<p>The HEP Software Foundation has recently created an Event Generators
+Working Group that aims to bring together MC generator authors, LHC
+experiment users and software experts to address these issues. The first
+results of this working group are presented here. This includes a
+detailed study of the ATLAS and CMS generator usage during Run 2,
+benchmarking of different MC generator CPU performance, and first
+studies on using MC generator code on new architectures.</p>
+<ul>
+  <li>Andrea: propose to send this abstract to CHEP, with an initial
+list of authors including WG conveners and those that have so far
+been most active with presentations (experiment WG convenors and
+Zach), unless they want to opt-out, and myself as initial
+candidate speaker. However all WG members can also choose to
+opt-in and ask to be included as authors if they feel this
+appropriate. Then we still have time to decide about the actual
+speaker and even more time for the actual list of authors.</li>
+  <li>Efe/Qiang: sounds good.</li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+<ul>
+  <li>Andrea: would be nice to resume work and discussion on GPUs in
+future meetings.
+    <ul>
+      <li>Simone: Taylor made a presentation on VEGAS for GPUs in an
+ATLAS presentation, we could ask him to give more details.
+Andrea: yes, I have also discussed with him his work on alpgen
+on PowerPC.</li>
+      <li>Frank: note this was work from a few years ago, ATLAS is not
+really using alpgen now. Stefan: true, alpgen less used now,
+but the techniques Taylor and colleagues had used are still
+useful. We are now working on an integration of sherpa on
+HPCs, reusing some of the technicalities that Taylor had used
+for alpgen. This is using MPI. Even going to many jets, you
+can cut memory and fit on existing machines, so you can fit in
+a KNL based HPC.</li>
+      <li>Andrea: very good to know this also fits on KNL, but am really
+more worried about GPUs on HPCs in the future. Stefan: yes we
+definitely must work on GPUs, anyway KNL based HPCs exist and
+are there to stay with us for some time.</li>
+    </ul>
+  </li>
+  <li>Josh: speaking of new topics, we should go back to the question of
+how to get more people involved in the coding effort.
+    <ul>
+      <li>Stephen: agree, getting the grants to do software porting is
+important, I see this now as a postdoc working on code.</li>
+    </ul>
+  </li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2019/05/09/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #165, 9 May, 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2019/05/23/coordination.html">HSF Weekly Meeting #166, 23 May, 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

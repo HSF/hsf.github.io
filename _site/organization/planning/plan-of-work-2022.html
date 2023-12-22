@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Plans for 2022</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">HSF Plans for 2022</h1>
+</div>
+
+<ul>
+  <li><a href="#preamble">Preamble</a>
+    <ul>
+      <li><a href="#reference-presentations">Reference Presentations</a></li>
+      <li><a href="#previous-plans">Previous Plans</a></li>
+    </ul>
+  </li>
+  <li><a href="#overall-hsf-activities">Overall HSF Activities</a>
+    <ul>
+      <li><a href="#general-meeting-series">General Meeting Series</a></li>
+      <li><a href="#workshops">Workshops</a></li>
+    </ul>
+  </li>
+  <li><a href="#working-groups">Working Groups</a>
+    <ul>
+      <li><a href="#data-analysis">Data Analysis</a></li>
+      <li><a href="#detector-simulation">Detector Simulation</a></li>
+      <li><a href="#reconstruction-and-software-triggers">Reconstruction and Software Triggers</a></li>
+      <li><a href="#pyhep">PyHEP</a>
+        <ul>
+          <li><a href="#2022-workshop">2022 Workshop</a></li>
+          <li><a href="#topical-meetings">Topical Meetings</a></li>
+        </ul>
+      </li>
+      <li><a href="#software-tools-and-packaging">Software Tools and Packaging</a></li>
+      <li><a href="#event-generators">Event generators</a>
+        <ul>
+          <li><a href="#high-level-plans-for-2022">High-level plans for 2022</a></li>
+          <li><a href="#possible-topical-meetings">Possible Topical Meetings</a></li>
+        </ul>
+      </li>
+      <li><a href="#frameworks">Frameworks</a></li>
+      <li><a href="#software-training">Software Training</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+  <h2 id="preamble">Preamble</h2>
+
+<p>At the beginning of 2022 the HSF established some high-level
+plans and goals for the year ahead. While none of these are cast in stone, we
+remain agile to adapt to new opportunities and circumstances throughout
+the year. This planning is a useful guide to our activities.</p>
+
+<p>We encourage experiments and projects to take a look at these and
+we welcome any suggestions about how to make the HSF more effective
+and useful for HEP.</p>
+
+<h3 id="reference-presentations">Reference Presentations</h3>
+
+<ul>
+  <li>See the <a href="https://indico.cern.ch/event/1096580/">slides</a> that were presented at
+the HSF coordination meeting on 20 January 2022.</li>
+</ul>
+
+<h3 id="previous-plans">Previous Plans</h3>
+
+<ul>
+  <li><a href="./plan-of-work-2021.html">Plan of work 2021</a></li>
+</ul>
+
+<h2 id="overall-hsf-activities">Overall HSF Activities</h2>
+
+<h3 id="general-meeting-series">General Meeting Series</h3>
+
+<ul>
+  <li>Continue with regular <a href="/meetings/coordination.html">coordination meetings</a> every 2 weeks (on the odd-numbered weeks of the
+year by default).</li>
+  <li>Monthly <a href="/meetings/roundtable.html"><em>Software and Computing Roundtable</em></a> meetings, co-organised with JLab and BNL, cover general topics of interest and the engagement
+of the HSF increased through 2021. We should continue to advertise the meeting
+and use this as an engagement opportunity for speaking to Nuclear Physics
+colleagues.</li>
+  <li>The <a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a>, co-organised with SIDIS and
+openlab, established itself as a strong series of meetings with good turnout
+last year, focusing on new compute architectures. We shall continue to find interesting topics to present.
+    <ul>
+      <li>As there is a significant cross-over with the WG activities in many places, we should
+  consider joint organised meetings when appropriate.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="workshops">Workshops</h3>
+
+<ul>
+  <li>The COVID situation continues to complicate the planning of any in-peron events, however we plan at least two events for this year:
+    <ul>
+      <li>Analysis Ecosystems Workshop, which we strongly wish to be in-person; hopefully at IJCLab at the end of May
+        <ul>
+          <li>It is five years since the Amsterdam meeting, time for an update!</li>
+        </ul>
+      </li>
+      <li>Community meeting on simulation on GPUs, which will be virtual at the beginning of May
+        <ul>
+          <li>Sufficient progress has been made on the R&amp;Ds here to merit wider discussion and input</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>In additional a possible follow-up meeting on generators is being considered</li>
+</ul>
+
+<h2 id="working-groups">Working Groups</h2>
+
+<h3 id="data-analysis">Data Analysis</h3>
+
+<ul>
+  <li>Would like to better generate interest among analysis people
+    <ul>
+      <li>Find the relevant fora in different experiments</li>
+    </ul>
+  </li>
+  <li>Possibly another meeting on workflow management tools, given good past attendance</li>
+  <li>Implementing systematic uncertainties in an analysis:
+    <ul>
+      <li>What are experiments doing? Can core software frameworks help?</li>
+    </ul>
+  </li>
+  <li>HSF analysis ecosystems workshop: synergies?</li>
+  <li>Ideas to develop
+    <ul>
+      <li>Expand on benchmarks discussions</li>
+      <li>Efficiency/green analysis. Does anybody work on this already? Survey?</li>
+      <li>Find out what are the biggest problems that analysis people face? Survey?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="detector-simulation">Detector Simulation</h3>
+
+<ul>
+  <li>Non-Geant4 detector simulation packages, e.g., MARS, FLUKA</li>
+  <li>DD4hep (+ other geometry topics)</li>
+  <li>Progress in ML and other fast simulation techniques</li>
+  <li>Progress of AdePT/Celeritas and related projects</li>
+  <li>Progress in optical photon simulations</li>
+  <li>Detector simulations for future colliders</li>
+  <li>Aspects of varying Geant4 parameters</li>
+  <li>Topics potentially overlapping with other working groups:
+    <ul>
+      <li>Interfacing Geant4 with simulation frameworks (including the role of Geant4 Tasking)</li>
+      <li>Detector/event visualisation techniques</li>
+      <li>Python/Julia bindings in simulation packages</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="reconstruction-and-software-triggers">Reconstruction and Software Triggers</h3>
+
+<ul>
+  <li>2nd part of 4D reconstruction topical meeting
+    <ul>
+      <li>focus on algorithms</li>
+    </ul>
+  </li>
+  <li>Machine learning
+    <ul>
+      <li>Graph neural networks for reconstruction (topical meeting)</li>
+      <li>Learning to discover workshop summary wrap-up (topical meeting)</li>
+      <li>Coordinate with reco session at AI4EIC workshop (2022 workshop TBD)</li>
+    </ul>
+  </li>
+  <li>Open data sample
+    <ul>
+      <li>Showcase usages of existing samples in topical meeting</li>
+      <li>Tracking Open Data Detector released (ACAT) &amp; decoupled from ACTS</li>
+      <li>Create calorimeter data sample (discussion started)</li>
+    </ul>
+  </li>
+  <li>Particle flow (topical meeting)
+    <ul>
+      <li>LHC experiments experience</li>
+      <li>Current status and plans of other experiments (e.g. sPhenix, EIC experiments)</li>
+    </ul>
+  </li>
+  <li>Flavor tagging (topical meeting, possibly joint with analysis WG)
+    <ul>
+      <li>HF resonance reconstruction and HF jet tagging</li>
+    </ul>
+  </li>
+  <li>Calibration / alignment &amp; conditions handling in reconstruction
+    <ul>
+      <li>Topical meeting (together with framework group?)</li>
+    </ul>
+  </li>
+  <li>Training material on heterogeneous computing for reconstruction &amp; triggers
+    <ul>
+      <li>Together with training group?</li>
+      <li>Needs some discussions and planning</li>
+    </ul>
+  </li>
+  <li>Heterogeneous computing in reco &amp; triggers - together with compute accelerator forum
+    <ul>
+      <li>“Classical” approach: Patatrack + additional project</li>
+      <li>“Exotic” approaches: quantum computing, IPUs, TPUs etc.</li>
+    </ul>
+  </li>
+  <li>Software trigger and reconstruction for streaming readout experiments
+    <ul>
+      <li>Coordinate HSF joint session at Streaming Readout Workshop X and XI (last two at MIT and ORNL, expect two workshops in 2022, TBD)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="pyhep">PyHEP</h3>
+
+<h4 id="2022-workshop">2022 Workshop</h4>
+
+<ul>
+  <li>Since we’re no longer planning to co-locate with SciPy in Austin, TX, choosing a date within a week of SciPy is no longer a benefit</li>
+  <li>We’re considering end of August/beginning of September instead of July.</li>
+  <li>We’re thinking of adding new features (still brainstorming)
+    <ul>
+      <li>Maybe adding hackathon / community building specific contributions</li>
+    </ul>
+  </li>
+  <li>Would mean a call for “short tasks” across the ecosystem packages aside the usual call for presentations
+    <ul>
+      <li>Possibly, hackathon in person at CERN’s Ideasquare</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="topical-meetings">Topical Meetings</h4>
+
+<ul>
+  <li>“Python module of the month” → more general “topical meetings”?
+    <ul>
+      <li>We are looking to more structurised topical meetings covering a wider set of Python modules (starting from fundamentals and including more HEP specific)</li>
+      <li>Topical meetings are expected to have clearer division between tutorials, short talks and discussions</li>
+    </ul>
+  </li>
+  <li>Some of topical meetings could include larger time slot for following discussions and questions in a form of “office hours”</li>
+  <li>We welcome joint endeavours with other WGs where relevant
+    <ul>
+      <li>Data Analysis &amp; Training WGs have obvious overlaps</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="software-tools-and-packaging">Software Tools and Packaging</h3>
+
+<ul>
+  <li>Spack will continue to be a focal point from the packaging perspective
+    <ul>
+      <li>Planning to get more feedback from the users to promote collaboration</li>
+      <li>Possibly a good idea to keep tracking alternatives, e.g. EESSI, as done previously</li>
+    </ul>
+  </li>
+  <li>Continue discussions on various profiling tools, static analyzers, IDEs etc.
+    <ul>
+      <li>Again, as a cross-WG effort, can host a dedicated discussion on GPU profiliers</li>
+      <li>Battle proven tools, such as perf, VTune, etc. will continue to be discussed</li>
+    </ul>
+  </li>
+  <li>Promote some discussion on the “new features” of C++
+    <ul>
+      <li>Similar to PyHEP’s module of the month</li>
+      <li>Discuss new libraries and/or language features that are useful in the context of HEP</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="event-generators">Event generators</h3>
+
+<h4 id="high-level-plans-for-2022">High-level plans for 2022</h4>
+
+<ul>
+  <li>Snowmass input document</li>
+  <li>Expand into NP community (with Markus’ help!)</li>
+  <li>Also try to reach out more to the neutrino community.</li>
+  <li>Go back to more “topical” meetings
+    <ul>
+      <li>Need to follow up on various things highlighted in CSBS paper and HL-LHC review</li>
+      <li>Also need to catch up a bit with more recently developments</li>
+      <li>Could also be useful to have a workshop?</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="possible-topical-meetings">Possible Topical Meetings</h4>
+
+<ul>
+  <li>MC for EIC:
+    <ul>
+      <li>Report from previous MC4EIC WS, Contributions for Spring WS?</li>
+    </ul>
+  </li>
+  <li>Latest calculations and their CPU/negative weight performance
+    <ul>
+      <li>MiNNLO, ttbar NNLO calculations, Recent ATLAS V+jets paper [PMGR-2021-01]</li>
+    </ul>
+  </li>
+  <li>ATLAS/CMS/LHCb
+    <ul>
+      <li>CPU/Event accounting for central production, Sample sharing, Filtering inefficiencies for B-physics</li>
+    </ul>
+  </li>
+  <li>GPU/CPU vectorisation porting
+    <ul>
+      <li>Status from MG4GPU, Sherpa, other groups?</li>
+    </ul>
+  </li>
+  <li>Unweighting/resampling developments
+    <ul>
+      <li>Review of tools, integration into experiments and usage/viability for experiments</li>
+    </ul>
+  </li>
+  <li>ML tools
+    <ul>
+      <li>Get better overview of current usage of ML and work out what is genuinely useful for experiments
+        <ul>
+          <li>Phase-space Sampling improvements, Use in systematic uncertainties, GAN for event generation</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Benchmarking and validation
+    <ul>
+      <li>Docker image for using generators for benchmarking? Spack and CI for validation?</li>
+    </ul>
+  </li>
+  <li>Modular generator software framework
+    <ul>
+      <li>Is it feasible? How to initiate?</li>
+    </ul>
+  </li>
+  <li>Reports from other groups
+    <ul>
+      <li>SWIFTHEP/EXCALIBUR (UK), HEP-CCE (USA), Others?</li>
+    </ul>
+  </li>
+  <li>Training
+    <ul>
+      <li>Discuss with Training WG</li>
+      <li>Replacement for MCnet schools?</li>
+    </ul>
+  </li>
+  <li>More long-term/speculative topics to follow more closely
+    <ul>
+      <li>Julia</li>
+      <li>Quantum Computing for event generation</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="frameworks">Frameworks</h3>
+
+<ul>
+  <li>Reaching out to small experiments</li>
+  <li>More involvement from the nuclear physics community</li>
+  <li>Collaborate with other WGs
+    <ul>
+      <li>Perhaps a common conditions database API</li>
+      <li>Accelerator usage</li>
+    </ul>
+  </li>
+  <li>Potential topics
+    <ul>
+      <li>Effect of C++ evolution on frameworks/accelerators</li>
+      <li>Scalable I/O (using ROOT, HDF5, etc.)</li>
+    </ul>
+  </li>
+  <li>More reliable schedule
+    <ul>
+      <li>Better advance notification of meetings</li>
+      <li>Predictable meeting time/date</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="software-training">Software Training</h3>
+
+<ul>
+  <li>Sustainability of the training model.
+    <ul>
+      <li>Software Carpentries training 3-4 times per year</li>
+      <li>Future training events depend on keeping a pool of instructors.</li>
+      <li>Ensure the reward of participating as mentor. Exposure outside experiments.</li>
+      <li>Contact participants from previous workshops and invite them to contribute to coming events.</li>
+      <li>Advertise the opportunities to grow professionally.</li>
+    </ul>
+  </li>
+  <li>Scale up efforts to collect feedback before and after training events
+    <ul>
+      <li>After basic courses, collect more information on what people are interested in. Use it for prioritize
+development of training modules.</li>
+      <li>Take the results of surveys and prepare a publication with the outcome.</li>
+    </ul>
+  </li>
+  <li>Strength the communication with other WGs for training topics
+    <ul>
+      <li>HSF Simulation group &amp; reconstruction group?</li>
+    </ul>
+  </li>
+  <li>Conference and Publications
+    <ul>
+      <li>Look for conference to advertise training efforts</li>
+      <li>Publish papers on data collected during surveys</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/organization/planning/plan-of-work-2022.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

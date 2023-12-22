@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Training Modules</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">HSF Training Modules</h1>
+</div>
+
+  <p>This table of the HSF training modules is mostly meant for administrative purposes.
+If you’re a student and want to discover our training content, go <a href="/training/curriculum.html">here</a>.</p>
+
+<div class="training">
+    <table>
+    <tr>
+        <th>
+            ID
+        </th>
+        <th>
+            Name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Status
+        </th>
+        <th>Links
+        </th>
+    </tr>
+    
+    
+    <tr>
+    <td>
+        <code>advancedgit</code>
+    </td>
+    <td>
+        Advanced git
+    </td>
+    <td>
+        Learn to work with branches and more with this interactive webpage.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://learngitbranching.js.org/?locale=en_US"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/pcottle/learnGitBranching"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>cicd</code>
+    </td>
+    <td>
+        CI/CD (gitlab)
+    </td>
+    <td>
+        <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and deployment</a> with <a href="https://about.gitlab.com/">gitlab</a>.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-cicd/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        <a href="https://www.youtube.com/watch?v=C9auGFgIHns&amp;list=PLKZ9c4ONm-VmmTObyNWpz4hB3Hgx8ZWSb"><span class="glyphicon glyphicon-film"></span></a>
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-cicd"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>cicdgithub</code>
+    </td>
+    <td>
+        CI/CD (github)
+    </td>
+    <td>
+        <a href="https://docs.gitlab.com/ee/ci/">Continuous integration and deployment</a> with <a href="https://github.com/features/actions">github actions</a>.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-cicd-github/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        <a href="https://www.youtube.com/watch?v=-Xd5D6xKugk&amp;list=PLKZ9c4ONm-Vl3kwsjrNRlPYNQFbPO2no4"><span class="glyphicon glyphicon-film"></span></a>
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-cicd-github"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>cmake</code>
+    </td>
+    <td>
+        Build systems:  <code>cmake</code>
+    </td>
+    <td>
+        Building code is hard. <code>CMake</code> makes it easier.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-cmake-webpage/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-cmake-webpage"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>docker</code>
+    </td>
+    <td>
+        Docker
+    </td>
+    <td>
+        Introduction to the <a href="https://www.docker.com/">docker</a> container image system.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-docker/index.html"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        <a href="https://www.youtube.com/watch?v=Qr42pEtio-Q&amp;list=PLKZ9c4ONm-VnqD5oN2_8tXO0Yb1H_s0sj"><span class="glyphicon glyphicon-film"></span></a>
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-docker"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>git</code>
+    </td>
+    <td>
+        Version controlling with git
+    </td>
+    <td>
+        Track code changes, undo mistakes, collaborate. This module is a must.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="http://swcarpentry.github.io/git-novice"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/swcarpentry/git-novice"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>gpuml</code>
+    </td>
+    <td>
+        Machine learning on GPU
+    </td>
+    <td>
+        Speed up your machine learning using massive parallelization!
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-ml-gpu-webpage"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        <a href="https://www.youtube.com/playlist?list=PLKZ9c4ONm-VnfKk7XrVUa-V42lUdMrB6M"><span class="glyphicon glyphicon-film"></span></a>
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-ml-gpu-webpage"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>hepcpp</code>
+    </td>
+    <td>
+        HEP C++ Course
+    </td>
+    <td>
+        A full introduction to C++ based on a series of slides and exercises.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://github.com/hsf-training/cpluspluscourse#-getting-the-latest-pdf"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        <a href="https://github.com/hsf-training/cpluspluscourse#-video-recordings--events"><span class="glyphicon glyphicon-film"></span></a>
+        
+        
+        <a href="https://github.com/hsf-training/cpluspluscourse"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>julia</code>
+    </td>
+    <td>
+        Julia
+    </td>
+    <td>
+        An introduction to Julia for HEP, especially for those familiar with Python (or C++)
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://juliahep.github.io/JuliaHEP-2023/intro.html"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/JuliaHEP/JuliaHEP-2023"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>levelupyourpython</code>
+    </td>
+    <td>
+        Level up your python
+    </td>
+    <td>
+        Advanced bits of python (testing, debugging, logging, and more)
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/henryiii/level-up-your-python"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>lhcb-analysis-essentials</code>
+    </td>
+    <td>
+        LHCb Analysis Essentials
+    </td>
+    <td>
+        From python, shell, and git to reproducible analyses with Snakemake. Written for LHCb, but applicable to everyone.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/analysis-essentials/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/hsf-training/analysis-essentials/"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>matplotlib</code>
+    </td>
+    <td>
+        Matplotlib for HEP
+    </td>
+    <td>
+        Make science prettier with beautiful plots!
+    </td>
+    <td>
+        beta
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-matplotlib/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-matplotlib"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>ml</code>
+    </td>
+    <td>
+        Machine learning
+    </td>
+    <td>
+        Get behind the buzzword and teach machines to work for you intelligently!
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-ml-webpage"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        <a href="https://www.youtube.com/playlist?list=PLKZ9c4ONm-VmHsMKImIDEMsZI1Vp0UY-Z"><span class="glyphicon glyphicon-film"></span></a>
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-ml-webpage"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>python</code>
+    </td>
+    <td>
+        Programming with python
+    </td>
+    <td>
+        Get started with an incredibly popular programming language.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="http://swcarpentry.github.io/python-novice-inflammation"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/swcarpentry/python-novice-inflammation"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>reana</code>
+    </td>
+    <td>
+        Reproducible analyses with REANA
+    </td>
+    <td>
+        Run containerised data analysis pipelines on remote compute clouds.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-reana-webpage/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-reana-webpage"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>root</code>
+    </td>
+    <td>
+        <code>ROOT</code>
+    </td>
+    <td>
+        The most famous data analysis framework used in HEP.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://github.com/root-project/software-carpentry"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/root-project/software-carpentry"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>root-analysis</code>
+    </td>
+    <td>
+        Particle physics methods
+    </td>
+    <td>
+        Learn about ROOT, RooFit, machine learning with TMVA, and physics simulations.
+    </td>
+    <td>
+        beta
+    </td>
+    <td>
+        
+        <a href="https://gitlab.com/stroche/particle-physics-methods"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://gitlab.com/stroche/particle-physics-methods"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>scikithep</code>
+    </td>
+    <td>
+        Scikit-HEP
+    </td>
+    <td>
+        A collection of packages for particle physics analyses in Python.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-scikit-hep-webpage/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-scikit-hep-webpage"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>se-for-sci</code>
+    </td>
+    <td>
+        Software Engineering for Scientific Computing
+    </td>
+    <td>
+        This course covers various best practices like testing, pytest, object oriented programming, packing, CI, and more.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://henryiii.github.io/se-for-sci/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/henryiii/se-for-sci"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>simpleanalysis</code>
+    </td>
+    <td>
+        A simple analysis
+    </td>
+    <td>
+        A simple analysis using CMS open data.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-cms-analysis-webpage/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        <a href="https://www.youtube.com/watch?v=gplMywJAFDI&amp;list=PLKZ9c4ONm-Vk0wnDKaaovoEkOk3PVdL0V"><span class="glyphicon glyphicon-film"></span></a>
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-cms-analysis-webpage"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>singularity</code>
+    </td>
+    <td>
+        Singularity
+    </td>
+    <td>
+        Introduction to containerization with <a href="https://apptainer.org/">Singularity/Apptainer</a>.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-singularity-webpage/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        <a href="https://www.youtube.com/watch?v=g0cCErlveiI&amp;list=PLKZ9c4ONm-VkxWW98Gcn9H6WwykMiqtnF"><span class="glyphicon glyphicon-film"></span></a>
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-singularity-webpage"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>ssh</code>
+    </td>
+    <td>
+        SSH
+    </td>
+    <td>
+        Introduction to the <a href="https://en.wikipedia.org/wiki/Ssh_(Secure_Shell)">Secure Shell (SSH)</a>
+    </td>
+    <td>
+        alpha
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-ssh-webpage/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-ssh-webpage/"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>testingpython</code>
+    </td>
+    <td>
+        Unit testing
+    </td>
+    <td>
+        <a href="https://en.wikipedia.org/wiki/Unit_testing">Unit testing</a> in python.
+    </td>
+    <td>
+        beta
+    </td>
+    <td>
+        
+        <a href="http://carpentries-incubator.github.io/python-testing/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/carpentries-incubator/python-testing"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>unix</code>
+    </td>
+    <td>
+        The UNIX Shell
+    </td>
+    <td>
+        A guide through the basics of the file systems and the shell.
+    </td>
+    <td>
+        stable
+    </td>
+    <td>
+        
+        <a href="https://swcarpentry.github.io/shell-novice/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/swcarpentry/shell-novice"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>unroot</code>
+    </td>
+    <td>
+        <code>UnROOT</code>
+    </td>
+    <td>
+        Open <code>ROOT</code> files in <a href="https://julialang.org/">Julia</a>!
+    </td>
+    <td>
+        beta
+    </td>
+    <td>
+        
+        <a href="https://moelf.github.io/HSF_Julia_Tutorial/dev/notebooks/unroot_tutorial/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/Moelf/HSF_Julia_Tutorial"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+        <code>uproot</code>
+    </td>
+    <td>
+        <code>uproot</code>
+    </td>
+    <td>
+        Reading and writing ROOT files without having to install ROOT.
+    </td>
+    <td>
+        beta
+    </td>
+    <td>
+        
+        <a href="https://hsf-training.github.io/hsf-training-uproot-webpage/"><span class="glyphicon glyphicon-book"></span></a>
+        
+
+        
+        
+        <a href="https://github.com/hsf-training/hsf-training-uproot-webpage"><span class="glyphicon glyphicon-wrench"></span></a>
+        
+    </td>
+    </tr>
+    
+    </table>
+</div>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_training/curriculum_table.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

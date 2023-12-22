@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Packaging Group Meeting #31, January 30, 2019</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2019/01/24/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #156, 24 January, 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2019/01/31/coordination.html">HSF Weekly Meeting #157, 31 January, 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-packaging-group-meeting-31-january-30-2019">HSF Packaging Group Meeting #31, January 30, 2019</h1>
+
+<h1 id="agenda">Agenda</h1>
+<p><a href="https://indico.cern.ch/event/790021/"><em>https://indico.cern.ch/event/790021/</em></a></p>
+
+<p>Participants: Graeme Stewart, Chris Burr, Guilherme Amadio, Ben Morgan, Marco Clemencic, Patrick Gartung, Chris Green, Geri Ganis, Pere Mato, Henry Schreiner, Ben Couturier.</p>
+
+<h1 id="introduction"><a href="https://indico.cern.ch/event/790021/contributions/3301107/attachments/1787837/2911508/HSF_Packaging_Group_Intro_2019-01-30.pdf">Introduction</a></h1>
+<ul>
+  <li>Group plans for 2019
+    <ul>
+      <li>Primary: provide meaningful, testable, solutions based on the HEP use cases identified last year</li>
+      <li>Updates from each project every few months</li>
+      <li>Longer term: CHEP2019 paper? Updating technical note (now ~3yrs old)</li>
+    </ul>
+  </li>
+  <li>Ongoing projects:
+    <ul>
+      <li>LCG-like stack with Spack (Graeme and Javier)
+        <ul>
+          <li>ATLAS/FCC as first clients</li>
+          <li>Now building Gaudi dependencies</li>
+          <li>Tidying hep-spack package repo, some to upstream spack, use as community repo as holding place</li>
+          <li>HSF spack-config repo for sharing</li>
+        </ul>
+      </li>
+      <li>SuperNEMO
+        <ul>
+          <li>Migrating from Homebrew to Spack to better support from-source builds and to benefit from
+work of this group</li>
+          <li>Want to also support end user installs as currently no CVMFS, though Docker/Singularity images published</li>
+        </ul>
+      </li>
+      <li>Others:
+        <ul>
+          <li>FNAL Spack/SpackDev
+            <ul>
+              <li>Chris: Getting back to it, need more feedback on MVP</li>
+              <li>Working on LArSoft stack, which is more complex in terms of dependencies</li>
+              <li>Looking at adding spack-dev as a spack extension to ease use</li>
+              <li>Patrick: working with buildcaches, found a bug that’s been reported and fix submitted. Caused by compiler path outside spack.</li>
+            </ul>
+          </li>
+          <li>LHCb: Nix/Conda, presentations today</li>
+          <li>Portage: tutorial from Guilherme at last meeting</li>
+          <li>EasyBuild maybe also worth looking at?
+            <ul>
+              <li>Chris Burr: Compute Canada using Nix as base system, plus EB on top.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Now in phase of working rather than discussing, so propose move to a baseline of 1 meeting per month
+    <ul>
+      <li>Can have additional meetings if people want/have topics to discuss. Just let Graeme and Ben know.</li>
+    </ul>
+  </li>
+  <li><a href="https://indico.cern.ch/event/759388/">HOW2019 Workshop</a>
+    <ul>
+      <li>Software Tools session where packaging will give an update</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="conda-chris-burr"><a href="https://indico.cern.ch/event/790021/contributions/3301108/attachments/1787718/2911364/2019-01-30_HSF-Packaging-Conda.pdf">Conda (Chris Burr)</a></h1>
+<ul>
+  <li>PM that is language agnostic, Multi-Platform/Architecture</li>
+  <li>Installs binaries (no install from source support)</li>
+  <li>Very popular in academic/data science</li>
+  <li>Very simple to install, no root/sudo, any location supported
+    <ul>
+      <li>Graeme: is the shell function for packages? No, just to assist in setting up “environments”</li>
+    </ul>
+  </li>
+  <li>Conda environment:
+    <ul>
+      <li>Just a folder, switch between via “activate/deactivate” commands</li>
+      <li>Create with “conda create”</li>
+      <li>Then install packages in environment with “conda install”</li>
+    </ul>
+  </li>
+  <li>Packages come from “channels”:
+    <ul>
+      <li>Anaconda Distribution (OSS/Commercial, mostly Python/R)
+        <ul>
+          <li>Can include proprietary software like Intel/CUDA</li>
+          <li>GUI for managing environments</li>
+        </ul>
+      </li>
+      <li>Anaconda.org: Can set up yourself, but limited storage (3-5GB)</li>
+      <li>Any HTTP(S) can be used as a channel, provided correct structure is present</li>
+    </ul>
+  </li>
+  <li>Community Channel: <a href="https://conda-forge.org">Conda Forge</a>
+    <ul>
+      <li>GitHub org plus various CI providers for builds</li>
+      <li>One Git repo per package</li>
+      <li>Lots of automation</li>
+    </ul>
+  </li>
+  <li>Specialized “forges”: Bioconda, AstroConda (AstroPy seem to be setting one up)
+    <ul>
+      <li>Can specify priorities for channels to over/underride packages</li>
+    </ul>
+  </li>
+  <li>Package “recipe” is a folder containing a file <code class="language-plaintext highlighter-rouge">meta.yaml</code> (uses Jinja2 templates)
+    <ul>
+      <li>Defined with cross-compilation in mind (build/host/run dependencies)</li>
+      <li>Builds done with a shell script <code class="language-plaintext highlighter-rouge">build.sh/bat</code></li>
+      <li>Build/Install environment, tested by installed to later environment</li>
+      <li>Lots of checks to ensure relocatability</li>
+    </ul>
+  </li>
+  <li>Used to rely on system compilers (effectively CentOS5, rely on ABI versioning)
+    <ul>
+      <li>Now more maintainable, with Anaconda 5, conda-forge migration (gcc 7)</li>
+    </ul>
+  </li>
+  <li>Now uses “Core Dependency Trees” (CDTs)
+    <ul>
+      <li>Repackages CentOS6 package into a sysroot of conda’s pseudo-cross compilers</li>
+      <li>Chosen because of lack of resources, possible better performance from host libraries</li>
+    </ul>
+  </li>
+  <li>All conda packages must be relocatable
+    <ul>
+      <li>RPATH tricks</li>
+      <li>Build/Install into very long (255 char) path</li>
+      <li>Sed/replace on install on both text/binaries (latter appends null bytes)</li>
+    </ul>
+  </li>
+  <li>Conda in HEP?
+    <ul>
+      <li>Huge number already using for analysis (and some experiments, Xenon1T, NEXT)</li>
+      <li>Lack of ROOT inconvenient (was a Netherlands e-Science one, but no longer maintained), but already have cling in conda-forge</li>
+      <li>However, now have ROOT 6.16 with gcc7 and Python 2.7/3.6/3.7
+        <ul>
+          <li>Though need to use CC/CXX env vars to access compiler</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Currently conda-forge doesn’t support unreleased versions, and struggle with CI resources
+    <ul>
+      <li>Builds of conda package in ROOT Nightlies to be added</li>
+    </ul>
+  </li>
+  <li>Conclusions
+    <ul>
+      <li>Conda very young, but lots of progress recently, especially on compilers and binary compatibility</li>
+      <li>Does support build variants, version pinning, exporting/importing environments</li>
+    </ul>
+  </li>
+  <li>Pere: How are versions controlled?
+    <ul>
+      <li>Can specify version when building, as long as binary compatibility is specified</li>
+      <li>Don’t have to rebuild everything if versions are pinned</li>
+    </ul>
+  </li>
+  <li>Patrick: How is ABI compatibility managed?
+    <ul>
+      <li>Relies on package maintainer and upstream looking after this and being honest about it</li>
+    </ul>
+  </li>
+  <li>Graeme: Is Conda now capable of managing multiple environments?
+    <ul>
+      <li>Yes, just activate/deactivate as needed</li>
+      <li>Patrick: very similar to Spack’s environments (Spack may even been inspired by Conda)</li>
+    </ul>
+  </li>
+  <li>Ben C: How are binaries similar to Python wheels?
+    <ul>
+      <li>Similar, just rely on a few expected system packages (derived from CentOS5, but patches on top to allow, e.g. C++11)</li>
+      <li>Chris: nothing limits how “deep” Conda can go, so could build down to libc if needed</li>
+    </ul>
+  </li>
+  <li>Graeme: How are dependencies specified?
+    <ul>
+      <li>In the <code class="language-plaintext highlighter-rouge">meta.yaml</code> file under <code class="language-plaintext highlighter-rouge">requirements</code> section</li>
+      <li>Can also track features in this way like <code class="language-plaintext highlighter-rouge">debug</code> <code class="language-plaintext highlighter-rouge">opt</code>, <code class="language-plaintext highlighter-rouge">avx</code> for example</li>
+      <li>Graeme: are variants combinable? Yes</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="nix-chris-burr">Nix (Chris Burr)</h1>
+<ul>
+  <li>Deferred to next meeting</li>
+</ul>
+
+<h1 id="aob">AOB</h1>
+<ul>
+  <li>Next meeting: <a href="https://indico.cern.ch/event/796240/">27th February</a></li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2019/01/24/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #156, 24 January, 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2019/01/31/coordination.html">HSF Weekly Meeting #157, 31 January, 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Uproot + Dask</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_CompilerResearch-ManishKausik.html">&nbsp;&#8592; Add Initial Integration of Clad with Enzyme</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_MADAnalysis5-Multiweight-integration_KyleFan.html">MADAnalysis 5 Multiweight integration &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+      <div class="col-md-3">
+        <img src="https://avatars.githubusercontent.com/u/53650538?s=400&v=4" alt=Kush Kothari width="100%" style="float:right">
+      </div>
+      <div class="col-md-9">
+    
+    <h1 class="blog-title">Uproot + Dask</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">09 Sep 2022 by <a href="/gsoc/blogs/2022/blog_IRIS-HEP_KushKothari.html">Kush Kothari</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <h3 id="introduction">Introduction</h3>
+<p>Hello peeps, this is Kush Kothari, a CS student from Mumbai, India. This is going to be a short report on my work on Uproot. The primary project goal is to upgrade Uproot to use AwkwardArrays v2 and to create the <code class="language-plaintext highlighter-rouge">uproot.dask</code> function. This function is a reimplementation of <code class="language-plaintext highlighter-rouge">uproot.lazy</code>, and now uses Dask’s ability to delay a task’s computation. This project is a major revamp of the structure and codebase of Uproot and the changes will result in a new major version of Uproot, i.e. Uproot v5.</p>
+
+<p>The work I did over the past 12 weeks is majorly split over 11 Pull Requests into Uproot.</p>
+
+<h3 id="dask-arrays">Dask Arrays</h3>
+<p><a href="https://github.com/scikit-hep/uproot5/pull/578">This PR</a> begun as the evaluation task for GSoC and was continued into the coding period. It introduces the <code class="language-plaintext highlighter-rouge">uproot.dask</code> function using the Dask Array collection. Setting <code class="language-plaintext highlighter-rouge">library=np</code> makes the function return a Python dict of dask-arrays, each representing a single TBranch of the root file. These dask-arrays are computed into Numpy arrays on calling <code class="language-plaintext highlighter-rouge">.compute()</code>. This also implements some features previously present in <code class="language-plaintext highlighter-rouge">uproot.lazy</code> like the <code class="language-plaintext highlighter-rouge">step_size</code> parameter that can be used to control the size of chunks in the dask arrays.</p>
+
+<h3 id="delay-in-opening-files">Delay in opening files</h3>
+<p><a href="https://github.com/scikit-hep/uproot5/pull/603">This PR</a> solves <a href="https://github.com/scikit-hep/uproot5/issues/602">the feature request</a> of delaying the opening of the ROOT files. Sometimes, reading the metadata from ROOT files is itself quite an expensive operation. We may want to delay this using dask. However, to build the dict of dask arrays, we need to know the keys. Now, when <code class="language-plaintext highlighter-rouge">uproot.dask([filename1, filename2...], open_files=False)</code> is called, Uproot only opens the first file to read the key names. Assuming the same key names in all files and making use of dask’s “unknown chunk sizes” feature, the opening of the rest of the files is delayed through a dask delayed node.</p>
+
+<h3 id="num_entries">Num_entries</h3>
+<p>Uproot 3 had a <code class="language-plaintext highlighter-rouge">numentries</code> function which was not ported to Uproot 4. This feature was requested <a href="https://github.com/scikit-hep/uproot5/issues/197">here</a> and introduced in <a href="https://github.com/scikit-hep/uproot5/pull/609">PR 609</a>. This function skips reading a lot of the metadata in the ROOT file, thus quickly providing the value of <code class="language-plaintext highlighter-rouge">fEntries</code> in the TTree metadata.</p>
+
+<h3 id="removing-uprootlazy">Removing uproot.lazy</h3>
+<p>At this point, Uproot had transitioned to Uproot 5 on the main branch, and Uproot 4 in a secondary branch. A <a href="https://github.com/scikit-hep/uproot5/pull/615">small PR</a> just removed <code class="language-plaintext highlighter-rouge">uproot.lazy</code>’s  implementation from Uproot 5, while keeping the docstring intact (since Uproot 4 and 5 share online documentation). Instead, calling <code class="language-plaintext highlighter-rouge">uproot.lazy</code> in Uproot 5 raises a <code class="language-plaintext highlighter-rouge">NotImplementedError</code>.</p>
+
+<h3 id="awkward-v2-update">Awkward v2 update</h3>
+<p>This was a major one. All instances of awkward usage in Uproot were upgraded to use Awkward v2. This is part of the change from Uproot 4 to Uproot 5. <a href="https://github.com/scikit-hep/uproot5/pull/620">This PR</a> involved a lot of debugging and running of tests. I am really thankful for all the support I received from my mentor Dr Jim Pivarski during this time.</p>
+
+<h3 id="dask-awkward-support">Dask-Awkward Support</h3>
+<p>Currently, a work-in-progress, <a href="https://github.com/scikit-hep/uproot5/pull/652">this PR</a> extends the <code class="language-plaintext highlighter-rouge">uproot.dask</code> function to use the newly developed <a href="https://github.com/ContinuumIO/dask-awkward">dask_awkward</a> collection. While a basic working model is ready, I am currently working on optimizing the Dask graph with the help of Douglas Davis, the maintainer of <a href="https://github.com/ContinuumIO/dask-awkward">dask_awkward</a>.</p>
+
+<h2 id="post-midterm-period">Post Midterm Period</h2>
+
+<h3 id="post-midterm-dask-awkward-optimization">Post-midterm Dask-Awkward Optimization</h3>
+<p>After referring to code from <a href="https://github.com/ContinuumIO/dask-awkward">dask_awkward</a> and some internal helper functions in dask, the <code class="language-plaintext highlighter-rouge">from_map</code> optimization was implemented for <code class="language-plaintext highlighter-rouge">library='ak'</code>. During this time, after some discussion with the Uproot and Dask-Awkward team and it was decided that a similar <code class="language-plaintext highlighter-rouge">Blockwise</code>optimization would be needed for dask numpy arrays too.</p>
+
+<h3 id="blockwise-optimization">Blockwise Optimization</h3>
+<p><a href="https://github.com/scikit-hep/uproot5/pull/679">#679</a> introduces a new Blockwise implementation for the dask array collection. This involved implementing a <code class="language-plaintext highlighter-rouge">from_map</code> function that was not yet present in the <code class="language-plaintext highlighter-rouge">dask.array</code> module. The <code class="language-plaintext highlighter-rouge">from_map</code> function now took a callable object that bijectively mapped function calls to chunks in the arrays.</p>
+
+<p><a href="https://github.com/scikit-hep/uproot5/pull/703">#703</a> further used the same optimization for all code-paths.</p>
+
+<h3 id="empty-tbranches">Empty TBranches</h3>
+<p><a href="https://github.com/scikit-hep/uproot5/issues/697">Issue #697</a> showed that the existing code failed when TBranches were empty. The issue turned out to be in the code that calculated the typetracer array, which was then used by dask-awkward.</p>
+
+<p><a href="https://github.com/scikit-hep/uproot5/pull/700">#700</a> Fixed this and added tests for the same.</p>
+
+<h3 id="documentation">Documentation</h3>
+<p>Documentation for the work done is in progress in <a href="https://github.com/scikit-hep/uproot5/pull/702">#702</a>. This PR may not be merged until December 2022, the target release date for Uproot v5. The documentation involves the <code class="language-plaintext highlighter-rouge">uproot.dask</code> docstring and the Getting Started Guide.</p>
+
+<h3 id="pyhep-2022-lighting-talk">PyHEP 2022 Lighting Talk</h3>
+<p>The developments with <code class="language-plaintext highlighter-rouge">uproot.dask</code> will be demonstrated in a PyHEP lightning talk. The code for this talk will be <a href="https://github.com/kkothari2001/PyHEP2022-uproot.dask">uploaded here</a>.</p>
+
+<h2 id="future-work">Future Work</h2>
+<ul>
+  <li>Have <code class="language-plaintext highlighter-rouge">library='ak'</code> only read TBranches that are used in the dask-graph. This is currently underway and will be done over the next few weeks.</li>
+  <li>Implementing <code class="language-plaintext highlighter-rouge">library='pd'</code>. This will have to wait for some progress in the corresponding awkward-pandas project.</li>
+</ul>
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_IRIS-HEP_KushKothari.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

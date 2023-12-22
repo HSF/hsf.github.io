@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Generator Meeting #13, 20 May 2021</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2021/05/06/generators.html">&nbsp;&#8592; HSF Generator Meeting #12, 06 May 2021</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2021/05/27/coordination.html">HSF Coordination Meeting #208, 27 May 2021 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-generator-meeting-13-20-may-2021">HSF Generator Meeting #13, 20 May 2021</h1>
+
+<p><em>Agenda: <a href="https://indico.cern.ch/event/1036317">https://indico.cern.ch/event/1036317</a></em></p>
+
+<p>Present (remote): Josh McFayden, Efe Yazgan, Andrea Valassi, Steve Mrenna, Andy Buckley, Simone Amoroso, Leif Lonnblad, Aravind Thachayath Sugunan, Zach Marshall, Phil Ilten (partly), Michal Kreps (partly), Gurpreet Singh Chahal (partly)</p>
+
+<p>Apologies: Alexander Grohsjean</p>
+
+<h2 id="pythia8-report-for-lhcc-review">Pythia8 report for LHCC review</h2>
+<p>Speaker: S. Mrenna</p>
+
+<p>Steve presents the slides describing the answers from the Pythia8 team to the question received for the second phase of the LHCC review of HL-LHC computing.</p>
+<ul>
+  <li>“Larger team than in the past but much more to do!”</li>
+  <li>Some ME generation but also reading in LHE events</li>
+  <li>Fragmentation is only with the Lund model now</li>
+  <li>Dedicated tau package that we believe is as good as TAUOLA</li>
+  <li>Good documentation, user support, no external dependencies (ROOT, thepeg), user hooks, do not duplicate efforts of others unless needed (e.g. no built-in ME generator)</li>
+  <li>Funding dependent on FA/lab priorities, big challenge is funding/retaining junior colleagues</li>
+  <li>Many major physics updates, including EW showers (ie removing dependency on PHOTOS)</li>
+  <li>Main bottleneck is finding time (have competent people but they have little time)</li>
+  <li>Help from HSF/experiments would be useful in restructuring (if people say it’s needed), GPUs (if there are use cases), profiling (the way it’s really used by the experiments)</li>
+  <li>Rescattering in HI collisions is a source of significant slowdown</li>
+  <li>No one complains about software performance. If there is a problem, willing to work on it…</li>
+  <li>Vincia/Dire not significantly used. Vincia gives a better physics description (based on antennas). In some cases (not all), like sector showers slide 10, it also has better software performance for high multiplicities.</li>
+  <li>Slide 13, Pythia concurrent hadronizer filter (from Chris Jones in CMS): Pythia thread friendly, but decayers are not</li>
+  <li>Slide 15 takeway: HSF can help with profiling and with Vincia/Dire adoption</li>
+</ul>
+
+<p>Comments/discussion:</p>
+<ul>
+  <li>Andy: Is it fair to say the a priori physics content is better; the physics “description” is probably still to be fully evaluated by the experiments? I.e. some tuning is probably needed before production use.
+    <ul>
+      <li>Steve: yes would agree with this.</li>
+    </ul>
+  </li>
+  <li>Simone: limited experience with the new showers, but DIRE has a significant negative weight fractions. If you take into account that we use this with NLO ME that already has negative weights, this becomes a problem.
+    <ul>
+      <li>Steve: great question. ATLAS is actually using DIRE more than CMS.</li>
+    </ul>
+  </li>
+  <li>Andrea: does Vincia also have negative weights?
+    <ul>
+      <li>Steve: Vincia also has weights, but not negative weights.</li>
+    </ul>
+  </li>
+  <li>Zach: dealt a lot with Madgraph and ATLAS generators recently, and matching comes over and over again. While there are many people on the team, Stefan Prestel seems to be the person who is the main expert on this (and he is now busy elsewhere)?
+    <ul>
+      <li>Steve: there is also a junior person, but Stefan is indeed the main expert.</li>
+    </ul>
+  </li>
+  <li>Zach on restructuring slide 6. Comment: difficult to find exactly the repository, it would be nice to have a well defined path to provide pull requests for instance.
+    <ul>
+      <li>Phil: https://gitlab.com/Pythia8/releases</li>
+      <li>Phil: be aware however that we have a private development repo which is not this release repo. This is also because some collaborators use the private development repo to publish papers. People may have some criticisms of this, but this is the compromise we came up with.</li>
+      <li>Phil: in terms of restructuring it would be useful to have some feedback at the high level about the structure of the code. It would also be useful to know what people think about the user hooks we provide.</li>
+    </ul>
+  </li>
+  <li>Zach: HSF organized a review of GeantV, one suggestion would be to organize one of Pythia8 if you want it…
+    <ul>
+      <li>Andrea: interesting suggestion! Should be understood better. Best would be if the development team themselves agree to ask for this. Phil: will follow up inside the team. Josh: would also be useful to focus this on specific themes, eg on multithreading or heterogeneous architectures.</li>
+      <li>Steve: it was also interesting when we sat down with Peter Richardson and Servesh after the workshop, though we did not follow up (Andrea: Servesh left some time afterwards).</li>
+    </ul>
+  </li>
+  <li>Phil: we would like to be proactive. As far as we know, we are fine. But if people have some comments, then we would like to know.
+    <ul>
+      <li>Steve: for instance see the comments by Chris Jones on multithreading.</li>
+      <li>Zach: also reading from LHE files is something to be discussed.</li>
+    </ul>
+  </li>
+  <li>Steve: with Zach and others we are also involved in a project to port Pythia to HPCs.
+    <ul>
+      <li>Andrea: if this is also GPUs, you may be interested in yesterday’s vCHEP talk about MG5aMC on GPU, though this is mainly about the ME (https://indico.cern.ch/event/948465/contributions/4323568). Josh: would be useful however to also have Pythia (after MG5aMC) on the GPU.</li>
+      <li>Phil: we need to work on the interfaces. Andrea: I would be very interested in this, even for MG5aMC to Pythia interfaces (eg NLO and PS interface), please give suggestions if you have some!</li>
+      <li>Zach: anyway can also have the ME on GPUs and then Pythia on CPUs.</li>
+      <li>Gurpreet: in CMS we want to invest in porting to GPUs, but we could do with some help from HSF.</li>
+    </ul>
+  </li>
+  <li>Josh: you mentioned NNLO matching, is there a clear path to NNLO matching in Pythia8?
+    <ul>
+      <li>Leif: this is one of the things that in principle can be done in DIRE. We do not collaborate very much with the GENEVA team. It would be useful to adopt DIRE more, if you want this addressed.</li>
+      <li>Josh: rephrasing, maybe there is nothing to worry about for matching to NNLO MEs. But if there is, we should know soon. Steve: will follow up on this.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+
+<ul>
+  <li>Next meeting is next week on May 27, discussing MadGraph5_aMC@NLO.</li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2021/05/06/generators.html">&nbsp;&#8592; HSF Generator Meeting #12, 06 May 2021</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2021/05/27/coordination.html">HSF Coordination Meeting #208, 27 May 2021 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

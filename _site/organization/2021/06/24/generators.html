@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Generator Meeting #16, 24 June 2021</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2021/06/24/coordination.html">&nbsp;&#8592; HSF Coordination Meeting #210, 24 June 2021</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2021/07/08/coordination.html">HSF Coordination Meeting #211, 8 July 2021 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-generator-meeting-16-24-june-2021">HSF Generator Meeting #16, 24 June 2021</h1>
+
+<p><em>Agenda: <a href="https://indico.cern.ch/event/1042657">https://indico.cern.ch/event/1042657</a></em></p>
+
+<p>Present (remote): Josh McFayden, Andrea Valassi, Efe Yazgan, Emanuele Re, Paolo Nason, Alexander Grohsjean, Liz Sexton Kennedy, Michelangelo Mangano, Simone Amoroso, Taylor Childers, Gurpreet Singh Chahal, Michal Kreps, Gloria Corti, Phil Ilten (partly)</p>
+
+<p>Apologies: Graeme Stewart, Phil Ilten</p>
+
+<h2 id="news">News</h2>
+
+<ul>
+  <li>Andrea: the vCHEP proceedings on the work on MG5aMC on GPU and vector CPUs will be on arxiv tomorrow.</li>
+  <li>Please feel encouraged to give updates at these meetings about new papers relevant to software and computing for event generators! (Noticed today an interesting new paper about GPUs from the Sherpa team, https://arxiv.org/abs/2106.06507.)</li>
+</ul>
+
+<h2 id="powheg-report-for-lhcc-review">Powheg report for LHCC review</h2>
+<p>Speaker: E. Re</p>
+
+<p>Emanuele presents the slides describing the answers from the Powheg team to the question received for the second phase of the LHCC review of HL-LHC computing.</p>
+<ul>
+  <li>Main focus: matching of fixed order to PS, mainly for SM processes</li>
+  <li>Development will continue, but there are no funds specifically dedicated to the maintenance of the framework!</li>
+  <li>Main physics update is NNLO QCD+PS in MiNNLO, but also NLO EW+PS and interpay with modern PS. These may require major recoding.</li>
+  <li>Core of the software is Fortran based. Growing interest in GPUs.</li>
+  <li>So far we have interacted (in a useful/efficient way) with users in the experiments. If there are other opportunities from HSF, opportunities would be welcome!</li>
+  <li>CPU bottlenecks have been dealt with through reweighting (eg multiple pdfs, 1 or 2 loop amplitudes, scale variations) or parallelization (multicore). Some initial attempts at using MPI. No memory issues.</li>
+  <li>Negative weights does not seem to be a major issue with respect to other generators.</li>
+  <li>Growing interest in GPU/ML, example efficient PS sampling and generation of underlying Born events</li>
+  <li>Many processes available in NNLO QCD, negative weight fractions around 15% to 30% depending on the process</li>
+  <li>Please let us know if there is anything that may be a bottleneck!</li>
+</ul>
+
+<p>Comments/discussion:</p>
+<ul>
+  <li>Andrea: nice to see many NNLO results, I thought the experiments were mainly using it for NLO. Paolo: not a general purpose MEG like MG5, but we are thinking of this and for instance we have interfaces to MG5 for that. We do not have a MEG inside the BOX, and using MG5 inside the box would even cause issues to publish (what would be the new thing to publish?). Using MG5_aMC tools to automatically generate MEs in conjunction with Powheg could be possible. Doing some interfaces to MG5 or others is needed, we could do that to improve usability even if its not new physics.
+    <ul>
+      <li>Josh: In general NNLO is used when available, it’s just that most processes were only recently implemented in Powheg and they can be hard to setup in the experiments… Also the negative weight fraction can be problematic, 15% is much larger than we are used to for Powheg - problematic when L</li>
+    </ul>
+  </li>
+  <li>Paolo: Modern Parton Showers means state-of-the-art new tools/approaches, e.g. PanScales (G. Salam et al.)</li>
+  <li>Alexander: we are also exploring the interface of Powheg and MG5, this is very appreciated. We also do produce NNLO samples eg for DY. Negative weights do become a problem if they are the level of 30% as mentioned in the slides for Zgamma.
+    <ul>
+      <li>Alexander: can you confirm the 15% for DY, I heard from colleagues it was 8%. When you go above 10% the number of events that you need to generate starts to increase substantially (would need to calculate this exactly). Emanuele: will check, should be possible to stay below 10%. Paolo: Larger negative weight fraction due to difference in scales with MiNNLO and complications with photon emissions.</li>
+      <li>Simone: at least for DY with MiNNLOPS the number of negative weights can be substantially reduced (to a few percent) through folding</li>
+    </ul>
+  </li>
+  <li>Simone: Reweighting more geared towards use in TH papers than for production in experiments. Layer of scripting/conversion of LHEF formats to be usable in experiments. Emanuele: We can fix it.</li>
+  <li>Simone: Having automated framework, even just for NLO, could still be useful in several places. E.g. Powheg ttH came much later than in aMC@NLO. Other examples W+c exists in MG5_aMC but has large negative weights, it does not exist in Powheg. Interface with MG5_aMC could be expanded by something Marco Zaro already has. MG has full access to the amplitudes so can weight phase-spaces accordingly - this could be embodied into interface to Powheg.
+    <ul>
+      <li>Andrea: we are discussing with Olivier how to make more info available from the ME calculation (specifically, single diagram amplitude contributions rather than just the ME from the sum of all amplitudes), would this be useful? Paolo: yes something in this direction would be useful and was not conceived in the interface (would need amplitude squared). Andrea: will tell Olivier that you are interested in extending the interface. Paolo: would be interested in common interface coming from MG5_aMC.</li>
+    </ul>
+  </li>
+  <li>Gurpreet: Are you interested in implementing <a href="https://arxiv.org/pdf/2005.09375.pdf">positive resampler</a>? Emanuele: we’ll consider it.</li>
+  <li>Phil: LHCb Powheg Interface (https://gitlab.com/Pythia8/releases/-/blob/master/include/Pythia8Plugins/PowhegProcs.h) has two issues:
+    <ul>
+      <li>
+        <ol>
+          <li>Setting up compilation of all Powheg processes - could some work go into this to make it more user-friendly?
+            <ul>
+              <li>Josh: we do something in ATLAS which is probably similar, and it is painful to maintain.</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li>There have been security changes in glibc (https://patchwork.ozlabs.org/project/glibc/patch/20190312130235.8E82C89CE49C@oldenburg2.str.redhat.com) - need powheg as executables or libraries, not executable that can be loaded as libraries. Phil: 1st point could be fixed when fixing this one.</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>Josh on funding: if no funding for software, are there permanent people who plan to work on this? Emanuele: yes this is a fair description. Paolo: as long as there is interest in the LHC community, we will support it (if it is used, people want to work on it). Emanuele: gratifying to see that what we work on is being used and is useful!</li>
+  <li>Josh on help from HSF: if there is refactoring and reworking that can be useful as a common work, we can try to coordinate that.</li>
+  <li>Josh on GPUs: Andrea with Olivier and others in CERN IT have been working on GPUs for MG5, this is a nice example of a collaboration. Emanuele: probably need a specific example and then attract some work?</li>
+  <li>Andrea: is GPU only for ML in your plans? Paolo: for us the ME calculation belongs to different people, s we will not work on porting the ME to GPUs. Instead we have an efficiency of 1% in upper bounding of one hit-or-miss algorithm, if you can improve a lot on this with ML you make a big gain.</li>
+</ul>
+
+<h2 id="lhapdfhepmcrivet-report-for-lhcc-review">LHAPDF/HepMC/Rivet/… report for LHCC review</h2>
+<p>Speaker: A. Buckley</p>
+
+<p>Andy presents the slides describing the answers from the team supporting LHAPDF/HepMC/Rivet (and other tools) to the question received for the second phase of the LHCC review of HL-LHC computing.</p>
+<ul>
+  <li>MC tools are essential. They ar edifferent from typical generators, the teams working on them are more from the experiments than from the theory community.</li>
+  <li>Sustainability is clearly an issue, most of this work is not funded. MCNet is ending, we need to replace that with another source.</li>
+  <li>LHAPDF. Profiling Sherpa for NLO V+jets shows that pdf is a clear CPU sink, sums up to 40-50% for event generation. Some work on caching has helped (for Sherpa, not sure about MG).</li>
+  <li>HEPMC. Completely rewritten in v3. CERN EP helped with that, now this support has gone.
+    <ul>
+      <li>HDF5 support was added by Sherpa/Pythia teams, but is not standardised</li>
+      <li>Not just the library, also tools to manipulate events. Another example of stuff that is needed and requires work, but you do not get rewarded on, you cannot write a paper about it.</li>
+    </ul>
+  </li>
+  <li>RIVET. Development essentially stopped during the pandemic. Much of the development is needed in areas involding complex statistical tools, e.g. to handle event weights: what looks like a histogram is something much more complicated.
+    <ul>
+      <li>The issue with RIVET is not so much about speed. It is more about the experiments buying into the whole idea of analysis preservation… Reference data incompatible with HepData submission!</li>
+    </ul>
+  </li>
+  <li>Other tools. YODA is the statistics library below RIVET, it contains a lot of neat statistics stuff. Professor (now rewritten as Apprentice) is used for MC tuning, essentially unsupported. Other small tools (mcutils/heputils, HepData…).</li>
+  <li>General issue with funding, no incentive to work on tools.</li>
+</ul>
+
+<p>Comments/discussion:</p>
+<ul>
+  <li>Josh about MCNET: can you quantify the impact of this? At face value it seems even more worrying than what we heard from other generator groups.
+    <ul>
+      <li>Andy: very concerned! Personal example, travel money from MCNet will completely disappear. In the past we have made a lot of progress with small residential meetings, this will disappear. More generally, it becomes very difficult to attract new people into this area.</li>
+    </ul>
+  </li>
+  <li>Josh: how much support was coming from CERN EP and what will change? Andy: this gave a continuity, to have people paid in the GENSER area. We have now a core library used by all experiments which is essentially unsupported.
+    <ul>
+      <li>Andrea: have you tried to follow this up with CERN EP? Andy: no not really.</li>
+    </ul>
+  </li>
+  <li>People who are active for HepMC include Andy Verbitzky, AB, there is no project leader.</li>
+  <li>Alexander: there is some use of Apprentice in CMS. Josh: also in ATLAS.</li>
+  <li>Alexander: some analyses are difficult to preserve in RIVET. Efe: often this comes at the end and is found to cost too much effort. Gurpreet: we are trying to improve the process now to make sure Rivet is included in the analysis process in CMS.
+    <ul>
+      <li>Michal: we do try in LHCb to include Rivet, but we have little manpower to assist the analysts to give them the help they need. Gloria: there are many papers for which people can see the Rivet preservation (eg they see it for cross sections, not for decays).</li>
+    </ul>
+  </li>
+  <li>Gurpreet: can you elaborate on Apprentice/Professor? Andy: Holger is not in HEP any more, so he will not support it.</li>
+  <li>Andrea: would you have a model how to support these? Andy: there is a lot of stuff that is purely technical and has no physics, builds etc, so a pool of RSEs would help. In the UK this seems to work, the point is you cannot hire 0.1 FTE of a person, but you can buy 0.1 FTE in a pool of people.</li>
+  <li>Andrea about LHAPDF: are you in contact (or collaborating) with the PDFFlow team? Andy: aware of their work, but they did not contact us; not completely clear how useful this would be to the generators used in the experiments.</li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+
+<ul>
+  <li>We now need to work on the document for the LHCC review (first draft needed by end of June in principle…). We will certainly come back to ask for your feedback and help!</li>
+  <li>We will probably take a break from meetings during the summer.  Your suggestions for topics for future meetings would be extremely welcome!</li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2021/06/24/coordination.html">&nbsp;&#8592; HSF Coordination Meeting #210, 24 June 2021</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2021/07/08/coordination.html">HSF Coordination Meeting #211, 8 July 2021 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

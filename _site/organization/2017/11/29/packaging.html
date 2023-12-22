@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Packaging Group Meeting #15, November 29, 2017</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2017/11/16/startup.html">&nbsp;&#8592; HSF Weekly Meeting #117, November 16, 2017</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2017/11/30/startup.html">HSF Weekly Meeting #118, November 30, 2017 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-packaging-group-meeting-15-november-29-2017">HSF Packaging Group Meeting #15, November 29, 2017</h1>
+
+<h4 id="present-graeme-stewart-lukas-heinrich-oana-boeriu-rafal-pacholek-jakob-blomer-geri-ganis-javier-cervantes-villanueva-guilherme-amadio-giulio-eulisse-ben-morgan-radu-popescu-ben-couturier-attila-krasznahorkay-emil-obreshkov-chris-green-patrick-gartung-pere-mato"><em>Present</em>: Graeme Stewart, Lukas Heinrich, Oana Boeriu, Rafal Pacholek, Jakob Blomer, Geri Ganis, Javier Cervantes Villanueva, Guilherme Amadio, Giulio Eulisse, Ben Morgan, Radu Popescu, Ben Couturier, Attila Krasznahorkay, Emil Obreshkov, Chris Green, Patrick Gartung, Pere Mato</h4>
+
+<h4 id="indico-agenda-and-presentations"><a href="https://indico.cern.ch/event/681894/" target="_hsf_packaging_15">Indico Agenda and Presentations</a></h4>
+
+<h2 id="introduction">Introduction</h2>
+<ul>
+  <li>Next meeting scheduled for <a href="https://indico.cern.ch/event/684972/">13th December 2017</a>
+    <ul>
+      <li>Will focus on CVMFS/Containers/Deployment, with presentation from CVMFS developers.</li>
+    </ul>
+  </li>
+  <li>Graeme and Ben will draft an abstract on Packaging Use Cases/Tool Assessment for <a href="http://chep2018.org">CHEP 2018</a>
+    <ul>
+      <li>Will present at next meeting for comments/feedback</li>
+      <li>Not a paper on any specific tool - expect that people will submit their own abstracts on those.</li>
+    </ul>
+  </li>
+  <li>Noted second draft of HSF White Paper open.
+    <ul>
+      <li>Encourage people in this WG to read and comment, especially Software Development.</li>
+      <li>Also for people to sign - don’t have to have contributed to the content to sign.</li>
+    </ul>
+  </li>
+  <li>Update on Use Cases Document
+    <ul>
+      <li>Good feedback and comments since last time, thanks to contributors!</li>
+      <li>Common agreement on “must have” requirements: specify build options for dependencies,
+reuse of binary artifacts, setup of runtime “views”.</li>
+      <li>Clarification on: global build options, recipe hierarchy, install relocation (with example
+implementations), development environment.</li>
+      <li>Many comments are useful in their own right, so need to capture this information
+somewhere other than a Google Docs comment thread.</li>
+      <li>Clarifications with Giulio Eulisse on his comments
+        <ul>
+          <li>On sources, felt important to have a self-managed backup of third-party sources.
+Guarantees future availability, plus allowing patching. Comment from ATLAS
+that they also install package sources as part of their package/distribution
+pipeline.</li>
+          <li>On reducing command line options, this is to keep major things like switching
+compiler part of the recipe.</li>
+          <li>On recipes, importance is to ensure that older packages can be rebuilt in the future.
+E.g. in Alibuild, Alibuild as it is now can build Alibuild recipes from N years ago.</li>
+        </ul>
+      </li>
+      <li>Clear that we need to identify “actors” in the Use Cases, e.g. librarian, end user.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="presentation-from-oana-atlas-releases-build-packaging-and-deployment---short-overview">Presentation from Oana: ATLAS Releases: Build, Packaging and Deployment - short overview</h2>
+<ul>
+  <li>ATLAS offline code is split into many, many units of code called “packages” (usually implementing some particular classes and building a small number of libraries). The full offline Athena release has about 2000 packages.</li>
+  <li>New way of building Athena is quite simple. LCG release is a base, then build AtlasExternals, then Gaudi, then the rest of Athena.</li>
+  <li>Build of Athena bootstraps using AtlasSetup  (sets up gcc, cmake version etc). A few helper scripts used for building whole of Athena, or subsets - output is rpm, from CPack.</li>
+  <li>Nightly rpms are release candidates - copied to EOS. Distribution to CVMFS via Python script. Each nightly build put into date-time tagged directories, under this are the Athena, AthenaExternals, Gaudi. LCG, Externals, tdaq are common over a range of Nightlies</li>
+  <li>Also allow private builds to be distributed over CVMFS</li>
+  <li>Future: looking at ways to save AtlasExternals binary artifacts. Reuse? Looking at Nexus, git LSF. Breaking up large rpms. Include build of LCG</li>
+</ul>
+
+<h3 id="discussion">Discussion</h3>
+<ul>
+  <li>Microsoft has released <a href="https://github.com/Microsoft/GVFS">source code</a> for their Git virtual filesystem (GVFS). There is a <a href="https://arstechnica.com/gadgets/2017/11/microsoft-and-github-team-up-to-take-git-virtual-file-system-to-macos-linux/">project with GitHub to port this to Mac and then Linux</a>. Will be a talk on this at CVMFS Workshop in January. Background: Windows source code is very large, so using a Virtual File System to only checkout files when touched.</li>
+  <li>In ATLAS, nightlies always built from scratch both for security and to work around some issues with incremental builds seen in continuous integration. But now in a position to seriously consider incremental nightlies as well.</li>
+  <li>Discussion on installing directly on CVMFS: Is an issue with relocatability, need to have consistent mount points, and of course a writable CVMFS repository. Currently binaries local to build machine, packaged, then uploaded to EOS.</li>
+  <li>Nexus: can store binary artifacts, then can check existence of required binary when/if needed later. Tool to be investigated.</li>
+</ul>
+
+<h2 id="presentation-from-lukas-containers-in-atlas">Presentation from Lukas: Containers in ATLAS</h2>
+<ul>
+  <li>Containers and Package Managers solve related, but largely orthogonal problems</li>
+  <li>PMs main unit of distribution is a software package with declared dependencies,
+each operation is a filesystem change. Packages interface with each other via
+low level ABIs.</li>
+  <li>Containers main unit of distribution is an filesystem, image of which is sequence
+of package manager and other operations. Containers interface with each other via
+abstract file/REST/data server/message queues.</li>
+  <li>Good fit in HEP: global distribution of a complex stack that uses significant OS component to a wide range of systems that we don’t manage like the Grid, HPC user laptops.</li>
+  <li>User developed analysis software has different requirements - often a mix between stages inside release, own code that might require specific directory structure.
+Physics reproducibility is important.</li>
+  <li>Two approaches in ATLAS for images:
+    <ul>
+      <li>“Fat”: Completely self-contained, local on disk, no network or local cvmfs install needed. But large (10GB+).</li>
+      <li>“Thin”: Only provide OS, domain software from host install of CVMFS - needs network, and no immediate knowledge of what bits in CVMFS are used.</li>
+    </ul>
+  </li>
+  <li>Build both as part of nightlies for offline and analysis releases, distributed via Docker Hub.</li>
+  <li>Work on CVMFS Graph Driver - “Fat” Image, can be used directly, but also deployed over CVMFS. Docker can then just pull the bits it needs.</li>
+  <li>In use for local development, especially on non-supported platforms.</li>
+  <li>In use for CI - easy integration on common platforms</li>
+  <li>Also for grid deployment - using Singularity as container runtime. HPC may lack networked filesystems like CVMFS, but can support containers</li>
+  <li>Using for Analysis Preservation - CERN Analysis Preservation Portal. Kubernetes cluster.</li>
+  <li>Training: Easy entry point for new collaboration members.</li>
+</ul>
+
+<h3 id="discussion-1">Discussion</h3>
+<ul>
+  <li>Size of “Fat” images depends on domain: User Analysis (small, ~2GB total) and Reconstruction (large ~20GB).</li>
+  <li>How to track provenance of an image? In Images, have each layer was created, but not deterministic. Then the package manager layer, e.g. graph based deterministic.</li>
+  <li>Some development to run docker images without root privileges, e.g. uDocker.</li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+<ul>
+  <li><a href="https://indico.cern.ch/event/684972/">Next meeting</a> in 2 weeks, 13th December.</li>
+  <li>Apologies to Guilherme on overrun - guide to using demo Portage Docker/CVMFS
+installs will be distributed, presentation at next meeting.</li>
+</ul>
+
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2017/11/16/startup.html">&nbsp;&#8592; HSF Weekly Meeting #117, November 16, 2017</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2017/11/30/startup.html">HSF Weekly Meeting #118, November 30, 2017 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Packaging Group Meeting #22, April 4, 2018</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2018/03/22/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #131, 22 March, 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/04/05/coordination.html">HSF Weekly Meeting #132, 5 April, 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-packaging-group-meeting-22-april-4-2018">HSF Packaging Group Meeting #22, April 4, 2018</h1>
+
+<h1 id="agenda">Agenda</h1>
+<p><a href="https://indico.cern.ch/event/716297/">https://indico.cern.ch/event/716297/</a></p>
+
+<p>Participants: Graeme Stewart, Javier Cervantes Villanueva, Martin Ritter, Oana Boeriu, Patricia Mendez, Patrick Gartung, Pere Mato, Chris Green, Emil Obreshkov, Giulio Eulisse, Ben Couturier, Marco Clemencic, Chris Burr, Marco Petric</p>
+
+<h1 id="introduction---graeme">Introduction - Graeme</h1>
+<ul>
+  <li>LIM workshop will be 30 May.</li>
+  <li>HSF rebranding - use the new name for the mailing list: <code class="language-plaintext highlighter-rouge">hsf-packaging-wg@googlegroups.com</code>.</li>
+</ul>
+
+<h1 id="summary-of-packaging-discussion-in-naples---giulio">Summary of Packaging discussion in Naples - Giulio</h1>
+
+<ul>
+  <li>
+    <p>Need to now do a sensible test drive on the tools.</p>
+  </li>
+  <li>Test cases for the development environment probably need further expansion.
+    <ul>
+      <li>Incremental builds within packages might need to be reviewed (e.g., modify ROOT and rebuild only a few libraries without recompiling every downstream piece). This is not guaranteed to work, but with <em>caveat emptor</em>, can be useful to be able to accelerate development.</li>
+      <li>Alibuild allows developing several packages at the same time. CMT also (although this is deprecated). LCG CMake? (Marco Cle: it doesn’t).</li>
+    </ul>
+  </li>
+  <li>Discussion on containerisation and its impact on packaging:
+    <ul>
+      <li>Giulio: We cannot have them everywhere so we still need all the features in the use cases anyway.</li>
+      <li>Ben: Having containers in most places changes the requirements.</li>
+      <li>Graeme: If all experiments gathered to ask for the same container solution (via WLCG), maybe the sites would migrate more quickly.</li>
+      <li>Containers <strong>do</strong> seem to be the future for production environments.
+        <ul>
+          <li>Use experience can be rather different (native is best for developers).</li>
+          <li>Can containers be used at the DAQ level? Not so clear, but we have more control here (Ben).</li>
+        </ul>
+      </li>
+      <li>Martin - there is also docker in user space now. Experiment can bootstrap containers in their own pilot jobs.</li>
+      <li>OSG have an automatic way to build singularity containers from docker, when user has signed an AUP (so deployment is easier)</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="nix-test-drive-report---graeme">Nix Test Drive Report - Graeme</h1>
+
+<ul>
+  <li>Re. install failures for <code class="language-plaintext highlighter-rouge">python-3.6 jupyter</code>, which Nix channel did you use?
+    <ul>
+      <li>Unstable is installed by default - should change that (as <code class="language-plaintext highlighter-rouge">root</code>)</li>
+    </ul>
+  </li>
+  <li>Useful to have an overlay yourself to fix things (but this is not the first thing in the docs)</li>
+  <li>There are more science packages in Nix - just along a different path (ROOT, Geant4)</li>
+  <li>RapidJSON is there (but not for <code class="language-plaintext highlighter-rouge">x86_64-darwin</code>, which is odd as it’s a header only package)
+    <ul>
+      <li>Post facto: this is the <a href="https://nixos.org/nixos/packages.html">package search interface</a></li>
+      <li>The Nix RapidJSON recipe also fixes the compile issue</li>
+    </ul>
+  </li>
+  <li>Dependencies - these are the dependencies you want to configure; you can encode these in the recipe
+    <ul>
+      <li>Upstream has some “native build inputs”</li>
+      <li>There is some extra magic in the build customisers</li>
+    </ul>
+  </li>
+  <li>Pere: Can you have a package called <code class="language-plaintext highlighter-rouge">out</code>? Buildpkg is a bit more robust than this shell script example, but it would be a bit tricky in that case.</li>
+  <li><code class="language-plaintext highlighter-rouge">nix-build</code> being retired in favour of <code class="language-plaintext highlighter-rouge">nix &lt;argument&gt;</code>, git style CLI.
+    <ul>
+      <li>There are some ways to find the <code class="language-plaintext highlighter-rouge">all-packages.nix</code> files more easily.</li>
+    </ul>
+  </li>
+  <li>Can Nix have different builds of packages side by side?
+    <ul>
+      <li>A. Yes, with an arbitrary degree of complexity - it’s one of the things it does well.</li>
+    </ul>
+  </li>
+  <li>For python you can specify exactly what python modules should be available.</li>
+  <li>Confirmed that one way to relocate for Spack is to make the <code class="language-plaintext highlighter-rouge">RPATH</code> relative.</li>
+  <li>For CMVFS - could use an overlayfs or have a fake CVMFS (that has what you need and is writable), e.g., do this in Hydra</li>
+  <li>Use case for developers requires “writing” to CVMFS.
+    <ul>
+      <li>Jakob could have thoughts on the use of overlayfs here .</li>
+    </ul>
+  </li>
+  <li>Giulio - personal experience was that it was confusing at the beginning, which is one thing that is off putting for a roll out to many users who are not experts
+    <ul>
+      <li>One hack is to just build “normally” on top of a nix environment, but that’s mixing two very different things, not great.</li>
+    </ul>
+  </li>
+  <li>Clarify, goal is to find a <em>common solution that saves effort</em>, but we need to make an honest investment into all the candidate tools to be able to decide on the best (so work for the test stack will involve some duplication).</li>
+</ul>
+
+<h1 id="aob">AOB</h1>
+
+<ul>
+  <li>Brett Viren has <a href="https://github.com/WireCell/wire-cell-spack">Wirecell and dependencies</a> in Spack, so we could look at that?</li>
+  <li>Are we really going to be able to do things in common? e.g., multiple ROOT options.
+    <ul>
+      <li>Official recipe should be flexible enough to cover major cases - can write things which cover most cases (in the end you should always be able to override).</li>
+      <li>ROOT is possibly the most convoluted example for building, lost of options, no plugins, users want different things</li>
+    </ul>
+  </li>
+  <li>Patrick Gartung has <a href="https://github.com/gartung/cmssw-spack">CMSSW dependencies in spack</a>.</li>
+  <li>Pere - has been looking at multiple HW architectures and could report on that.</li>
+</ul>
+
+<p>Next Meeting: <a href="https://indico.cern.ch/event/716297/">18 April 2018</a>.</p>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2018/03/22/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #131, 22 March, 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/04/05/coordination.html">HSF Weekly Meeting #132, 5 April, 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

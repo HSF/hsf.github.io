@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Generator Meeting #3, 14 March 2019</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/announcements/2019/03/13/evgen.html">&nbsp;&#8592; Physics Event Generators Working Group, 14 March 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/announcements/2019/03/25/evgen.html">Physics Event Generators Working Group, 28 March 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-generator-meeting-3-14-march-2019">HSF Generator Meeting #3, 14 March 2019</h1>
+
+<p><em>Agenda:
+<a href="https://indico.cern.ch/event/802643"><span class="underline">https://indico.cern.ch/event/802643</span></a></em></p>
+
+<p><em>Present/Contributors: Simone Amoroso, Andrea Valassi, Efe Yazgan, Lesya
+Shchutska, Qiang Li, Taylor Childers, Zach Marshall, Olivier Mattelaer,
+Josh McFayden</em></p>
+
+<h2 id="discussion-on-sharing-susy-samples-across-experiments">Discussion on sharing SUSY samples across experiments</h2>
+<ul>
+  <li>ATLAS-CMS comparison recently started for process definitions in
+SUSY searches</li>
+  <li>Detailed comparison of MadGraph setups (both ATLAS and CMS use
+MadGraph for SUSY)</li>
+  <li>Run cards: matching configuration is very different in the two
+experiments, cuts instead differ only in minor ways. Difference in
+systematics setup partly depends on different MadGraph versions.</li>
+  <li>Param cards, i.e. SUSY models: there are some differences. For
+sbottoms, the physics that is tested is essentially the same. But
+for electroweakinos, there may be quite some differences.
+    <ul>
+      <li>Olivier: is b mass different? Josh: there is an agreed set for
+the experiments, there may still be something to harmonise.
+But it may be different from the MadGraph default. Olivier:
+please send me the values you use, so we can put it in
+MadGraph.</li>
+    </ul>
+  </li>
+  <li>Decays: ATLAS rely on MadSpin (both on-shell and off-shell), CMS
+do not.
+    <ul>
+      <li>Lesya: in CMS we reweight one sample to test different
+physics, e.g. for details of CMS look at
+<a href="http://cms-results.web.cern.ch/cms-results/public-results/publications/SUS-16-051/index.html#Figure-aux_008"><span class="underline">Figure 8 in
+SUS-16-051</span></a>.</li>
+    </ul>
+  </li>
+  <li>Pythia showering/merging: each experiment uses its own recommended
+settings, this would be difficult to harmonise
+    <ul>
+      <li>Josh: could this make a difference? Zach: probably not a big
+difference through the acceptance, but will try and run both
+schemes and compare.</li>
+      <li>Qiang: which tuning is ATLAS using? CMS is using its own tune.
+Zach: working on new tunes at the moment, now using an ATLAS
+specific tune (A14). Zach: can also try the CMS tune to see if
+it makes a difference, is it available? Efe: not available in
+the pythia software, but parameters are public, will send them
+to you. <em>[Info circulated by Efe after the meeting: CMS
+default tune parameters are in
+<a href="https://github.com/cms-sw/cmssw/tree/master/Configuration/Generator/python/MCTunes2017"><span class="underline">github</span></a>
+(in most cases, for NNLO PDF CMS uses CP5 and for LO PDF they
+use CP2) - and there is a corresponding public note for this
+in
+<a href="https://cds.cern.ch/record/2636284?ln=en"><span class="underline">cds</span></a>,
+paper version is coming soon].</em></li>
+    </ul>
+  </li>
+  <li>Zach’s opinion on sharing
+    <ul>
+      <li>Harmonizing does not mandate sharing, but sharing prevents
+later divergence</li>
+      <li>If sharing: need to choose a format (LHE?) and mechanism, with
+authorizations (rucio?)</li>
+      <li>Opinion: focus on harmonization for now, but then it would be
+nice to have the technical issues solved for sharing, can the
+HSF WG help?</li>
+      <li>Early this can hit analysis is Moriond 2020 timescale, no
+pressure</li>
+    </ul>
+  </li>
+  <li>Long lived particles (LLPs): a bonus</li>
+  <li>Discussion
+    <ul>
+      <li>Josh on slide 9 (sharing): how advanced is rucio adoption?
+Efe: must ask computing guys. Josh: before we can do something
+technical, it would be nice to know how much rucio is actually
+used.</li>
+      <li>Efe: for SUSY, what is the purpose of comparing/sharing? Zach:
+mainly physics, i.e. we want to ensure that when we talk of
+gluinos we talk of the same thing. If we do harmonise
+settings, then we also have the option of sharing.</li>
+      <li>Zach: signal production is a very tiny fraction of CPU
+consumption, so CPU saving is certainly not the driving force.
+Simone: agree, CPU not relevant here, but this is a good first
+example for sharing also in other cases.</li>
+      <li>Simone: one argument against sharing is that we reduce risk
+for instance of a bug in one generator used by one experiment.
+Having two independent samples reduces risks.</li>
+      <li>Olivier: actually sharing does not require harmonisation, we
+can have two samples used by both experiments and use
+technique like re-weighting to morfe the other samples
+generated to be equivalent to the dedicated one.</li>
+      <li>Andrea: very useful discussion both for physics and CPU
+consumption.</li>
+      <li>Efe: so what is the long run model, a database of samples that
+anyone can use? Simone: yes something like this. Zach: one can
+even think of doing these LHE publicly available for theorists
+and phenomenologists. Simone: same way, theorists can put LHE
+files somewhere and then experiments can analyse them.</li>
+      <li>Andrea: what’s the more general feeling in ATLAS and CMS,
+apart from the people here? Zach: actually we have generator
+and SUSY convenors from both ATLAS and CMS here today, so
+there seems to be quite some agreement that this is
+interesting!</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="atlas-and-cms-event-generator-accounting-update">ATLAS and CMS event generator accounting update</h2>
+<ul>
+  <li>Some slides are the same as last week</li>
+  <li>Slide 3: more accurate info from one generation, generation is
+about 10% of GENSIM combined, so for a total of 30% GENSIM in Grid
+resources, generation is 3% of all resources, accurate to within a
+factor two</li>
+  <li>Slide 6: new tests from Qiang, GEN is 1% to 4% of chain (including
+miniAOD) for some samples
+    <ul>
+      <li>Note that miniAOD is negligible</li>
+    </ul>
+  </li>
+  <li>Slide 7: filled in the table
+    <ul>
+      <li>Still some clarifications needed on CMS and ATLAS definitions</li>
+      <li>Josh: propose to have an approximate version only for the
+moment, to get a gross estimate, no need for details, but
+split at least LO and NLO. Andrea: agree. So you split 6600M
+into LO and NLO? Josh: yes, already done.</li>
+      <li>Josh: agree however to have a textual description too, so we
+understand better similarities and differences.</li>
+      <li>Josh: propose to split inclusive and merged samples.</li>
+      <li>Andrea: is this for one year of data taking? Josh: yes, will
+update the numbers to more closely match what CMS has filled
+in.</li>
+      <li>Josh: will fill in the values for ATLAS for the specific cases
+suggested.</li>
+    </ul>
+  </li>
+  <li>Andrea: are there public presentations showing the lists of big
+productions public? Josh/Efe: there are no presentations about
+this really, maybe the CRSG?</li>
+  <li>Efe: can we find some infrastructure to run benchmarking tests?
+Zach: Openlab are great for that, we can get dedicated machines,
+even bare metal, for one day or longer, with exclusive access.
+Andrea: I can definitely help with getting these machines, but we
+would need possibly a plan first, how many machines we need for
+how long and to do what. If we (especially ATLAS/CMS) prepare this
+plan, then we can easily get some openlab machines from CERN IT.</li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+<ul>
+  <li>Next meeting will normally be in two weeks on March 28.</li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/announcements/2019/03/13/evgen.html">&nbsp;&#8592; Physics Event Generators Working Group, 14 March 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/announcements/2019/03/25/evgen.html">Physics Event Generators Working Group, 28 March 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

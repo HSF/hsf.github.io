@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Automatic conversion of data stored in TTree form to RNTuple</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_Acts_TirthankarMazumder.html">&nbsp;&#8592; Acts — Vectorized Linear Algebra Implementation</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_PATATRACK_SimoneBalducci.html">Implementation of a Python library that generalizes the CLUE clustering algorithm &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+       
+        <div class="col-md-3">
+          <img src="/images/blog_authors/ZifengLuo.jpeg" alt=Zifeng Luo width="100%" style="float:right">
+        </div>
+        <div class="col-md-9">
+      
+    
+    <h1 class="blog-title">Automatic conversion of data stored in TTree form to RNTuple</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">04 Oct 2022 by <a href="/gsoc/blogs/2022/blog_ROOT_ZifengLuo.html">Zifeng Luo</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <p>This is a blog as part of the final evaluation of GSoC 2022 project: ROOT - Automatic conversion of data stored in TTree form to RNTuple.</p>
+
+<h2 id="overview-of-the-project">Overview of the project</h2>
+<p>For the past 25 years, high-energy physics (HEP) data have been stored with columnar structures in TTree, the ROOT’s legacy columnar storage that has been used to store more than 1 exabyte of HEP data. As the main data structure of ROOT v7, RNTuple classes provide ROOT’s new, experimental, high-speed I/O subsystem for HEP data. Given that RNTuple is a complete backward-incompatible redesign, the development of an automatic conversion tool that permits the migration of existing TTree data into RNTuple is a must. In this regard, both the schema (i.e., fields and their types) and the data will have to be migrated.</p>
+
+<p>The goal of this project is to develop a TTree-to-RNTuple conversion tool which works in form of a C++ library as well as a command-line tool.</p>
+
+<h2 id="approach">Approach</h2>
+<p>I started working on this project on June 11, 2022, right after the community-bonding period. The first two weeks were a hands-on period. I began with the <a href="https://github.com/jblomer/iotools/blob/master/gen_physlite.cxx">existing code</a> that is capable to convert TTree containing simple data types to RNTuple. After being familiar with RNTuple APIs, I created the project GitHub <a href="https://github.com/luozf14/TTreeToRNTuple">repo</a> and started committing my code. The length of the project is decided to be 14 weeks, ending at the beginning of October.</p>
+
+<p>Based on the data types supported by TTree, the project is divided into 7 parts with increasing difficulties, from simple C++ variables to nested collections. The status is summarized in the table below.</p>
+
+<table>
+   <tr>
+      <th>Part</th>
+      <th>Types</th>
+      <th>Status</th>
+   </tr>
+   <tr>
+      <td>Convert TTree containing simple variables </td>
+      <td><code>int</code>, <code>float</code>, <code>bool</code>, ...</td>
+      <td>Completed. Types are one-to-one mapped (e.g., <code>int</code>-&gt;<code>int</code>).</td>
+   </tr>
+   <tr>
+      <td rowspan="3">Convert TTree containing arrays</td>
+      <td>Fixed-length 1D array</td>
+      <td>Completed. Mapped to <code>std::array&lt;T, N&gt;</code> (e.g., <code>int myArray[10]</code>-&gt;<code>std::array&lt;int,10&gt;</code>)</td>
+   </tr>
+   <tr>
+      <td>Variable-sized 1D array</td>
+      <td>Completed. Mapped to <code>std::vector&lt;T&gt;</code> (e.g., <code>int myArray[N]</code>-&gt;<code>std::vector&lt;int&gt;</code>)</td>
+   </tr>
+   <tr>
+      <td>Multidimensional array (e.g., <code>int myArray[16][8]</code>)</td>
+      <td>Depending on if the size is variable, currently it is mapped to 1D <code>std::array&lt;T, N&gt;</code> (fixed-size) or <code>std::vector&lt;T&gt;</code> (variable-size). In order to map it to corresponding dimensional vector, native RNTuple feature support is needed.</td>
+   </tr>
+   <tr>
+      <td rowspan="5">Convert TTree containing STL types and collections </td>
+      <td><code>std::string</code></td>
+      <td rowspan="5">Completed. All types are one-to-one mapped except types that are not supported by RNTuple I/O. For example, <code>std::set&lt;T&gt;</code> will not work. However, conversion of TTree containing branches of <code>ROOT::RVec&lt;T&gt;</code> is not stable in current stage (see section <b>Known issues and Future work</b>).</td>
+   </tr>
+   <tr>
+      <td><code>std::array&lt;T, N&gt;</code></td>
+   </tr>
+   <tr>
+      <td><code>std::vector&lt;T&gt;</code> and <code>ROOT::RVec&lt;T&gt;</code>*</td>
+   </tr>
+   <tr>
+      <td><code>std::pair&lt;T1, T2&gt;</code></td>
+   </tr>
+   <tr>
+      <td><code>std::tuple&lt;T1, …, Tn&gt;</code></td>
+   </tr>
+   <tr>
+      <td>Convert TTree containing user-defined classes</td>
+      <td>Any user-defined class with dictionary</td>
+      <td>Completed. The dictionary of the user-defined class is required. It can be either a <code>*.so</code> file or a <code>*.a</code> file. If corresponding dictionary does not exist, <code>RFieldBase::Create()</code> should throw, thus aborting the conversion process.</td>
+   </tr>
+   <tr>
+      <td rowspan="2">Convert TTree containing branches of nested types</td>
+      <td><code>std::vector&lt;std::vector&lt;T&gt; &gt;</code></td>
+      <td rowspan="2">Partially completed. User needs to manually generate the dictionaries of the nested types.</td>
+   </tr>
+   <tr>
+      <td>…</td>
+   </tr>
+   <tr>
+      <td rowspan="2">Integration</td>
+      <td>Integrate the 5 parts above into a command-line tool</td>
+      <td>Completed. <a href="https://github.com/luozf14/TTreeToRNTuple/blob/main/src/GenericConverter.cxx">[Code]</a></td>
+   </tr>
+   <tr>
+      <td>A reusable library for TTree-to-RNTuple conversion as part of RNTuple module</td>
+       <td>Completed. <a href="https://github.com/luozf14/TTreeToRNTuple/blob/main/src/TTreeToRNTuple.cxx">[Code]</a> </td>
+   </tr>
+   <tr>
+      <td>Tests and documentation</td>
+      <td></td>
+      <td>Completed. This tool passed a <a href="https://github.com/luozf14/TTreeToRNTuple/tree/main/test">unit test</a> with with 1e8 entries and is tested with data from <a href="https://root.cern/files/RNTuple/treeref/">here</a>. Documentation can be found <a href="https://github.com/luozf14/TTreeToRNTuple/blob/main/README.md">here.</a></td>
+   </tr>
+</table>
+
+<p>*see section <strong>Known issues and Future work</strong>.</p>
+
+<p>Thanks to the <a href="https://github.com/jblomer/iotools">development</a> that has been done by the ROOT I/O team, there are some programs that work as good references for me. I extended the <code class="language-plaintext highlighter-rouge">gen_physlite</code> program to be capable of converting TTree containing fixed-length arrays as well as variable-sized arrays. However, due to the limitation of data types supported by the current-stage RNTuple, the conversion tool is not able to deal with the multi-dimensional array. For now such array is converted into 1D <code class="language-plaintext highlighter-rouge">std::array&lt;T, N&gt;</code> (fixed-size) or <code class="language-plaintext highlighter-rouge">std::vector&lt;T&gt;</code> (variable-size). I/O team decided to mark this function as to-do until RNTuple supports multi-dimensional arrays.</p>
+
+<p>For TTree containing STL containers, there is no good reference. The existing <code class="language-plaintext highlighter-rouge">gen_atlas</code> program is dedicated to <code class="language-plaintext highlighter-rouge">std::vector&lt;T&gt;</code> with some specific types. However, thanks to <code class="language-plaintext highlighter-rouge">TClass::GetClass()</code>, I not only extended <code class="language-plaintext highlighter-rouge">gen_atlas</code> to be capable to deal with <code class="language-plaintext highlighter-rouge">std::vector&lt;T&gt;</code> with all RNTuple-supported data types but also included all other STL containers supported by RNTuple (see table above).</p>
+
+<p>A dictionary consists of a C++ source file, which contains the type information needed by Cling and ROOT’s I/O subsystem. RNTuple supports class that has a dictionary whose persistent members are themselves types with RNTuple I/O support. This tool can migrate data stored in TTree containing branches of user-defined classes with compiled dictionary embedded in library <code class="language-plaintext highlighter-rouge">xx.so</code> or <code class="language-plaintext highlighter-rouge">xx.a</code>, i.e., to do the conversion, the corresponding library must be existing.</p>
+
+<p>Nested types are more difficult to be converted since most of the time ROOT does not provide compiled CollectionProxy for those nested types. From TTree side, one needs to generate the dictionaries of the nested types so that their values can be retrieved, while there is no problem for RNTuple side to create fields of nested types thanks to <code class="language-plaintext highlighter-rouge">TClass::GetClass()</code>. Currently, this tool is capable to convert TTree containing nested types if user generate and import the corresponding dictionaries.</p>
+
+<p>The tool can be used as a command-line tool as well as a C++ library. More details can bee seen in the next section.</p>
+
+<h2 id="usage">Usage</h2>
+
+<ul>
+  <li>
+    <p>As a command-line tool</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>./GenericConverter <span class="nt">-h</span>
+Usage: ./GenericConverter <span class="nt">-i</span> &lt;input.root&gt; <span class="nt">-o</span> &lt;output.ntuple&gt; <span class="nt">-t</span><span class="o">(</span>ree<span class="o">)</span> &lt;tree name&gt; <span class="o">[</span><span class="nt">-d</span><span class="o">(</span>ictionary<span class="o">)</span> &lt;dictionary name&gt;] <span class="o">[</span><span class="nt">-s</span><span class="o">(</span>ub branch<span class="o">)</span> &lt;branch name&gt;][-c<span class="o">(</span>ompression<span class="o">)</span> &lt;compression algorithm&gt;] <span class="o">[</span><span class="nt">-p</span><span class="o">(</span>rint conversion progress<span class="o">)]</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>As a C++ library</p>
+
+    <p>An example is shown below:</p>
+
+    <div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">inputFile</span> <span class="o">=</span> <span class="s">"input.root"</span><span class="p">;</span>
+<span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">outputFile</span> <span class="o">=</span> <span class="s">"output.ntuple"</span><span class="p">;</span>
+<span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">treeName</span> <span class="o">=</span> <span class="s">"tree"</span><span class="p">;</span>
+<span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">compressionAlgo</span> <span class="o">=</span> <span class="s">"none"</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">compressionLevel</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;</span> <span class="n">dictionary</span> <span class="o">=</span> <span class="p">{</span><span class="s">"UserClass.so"</span><span class="p">};</span>
+<span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="o">&gt;</span> <span class="n">subBranches</span> <span class="o">=</span> <span class="p">{</span><span class="s">"userClass"</span><span class="p">,</span> <span class="s">"branch1"</span><span class="p">,</span> <span class="s">"branch2"</span><span class="p">};</span>
+  
+<span class="c1">// convert</span>
+<span class="n">std</span><span class="o">::</span><span class="n">unique_ptr</span><span class="o">&lt;</span><span class="n">TTreeToRNTuple</span><span class="o">&gt;</span> <span class="n">conversion</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">make_unique</span><span class="o">&lt;</span><span class="n">TTreeToRNTuple</span><span class="o">&gt;</span><span class="p">(</span><span class="n">inputFile</span><span class="p">,</span> <span class="n">outputFile</span><span class="p">,</span> <span class="n">treeName</span><span class="p">);</span>
+<span class="n">conversion</span><span class="o">-&gt;</span><span class="n">SetCompressionAlgoLevel</span><span class="p">(</span><span class="n">compressionAlgo</span><span class="p">,</span> <span class="n">compressionLevel</span><span class="p">);</span>
+<span class="n">conversion</span><span class="o">-&gt;</span><span class="n">SetDictionary</span><span class="p">(</span><span class="n">dictionary</span><span class="p">);</span>
+<span class="n">conversion</span><span class="o">-&gt;</span><span class="n">SelectBranches</span><span class="p">(</span><span class="n">subBranches</span><span class="p">);</span>
+<span class="n">conversion</span><span class="o">-&gt;</span><span class="n">SetUserProgressCallbackFunc</span><span class="p">([](</span><span class="kt">int</span> <span class="n">current</span><span class="p">,</span> <span class="kt">int</span> <span class="n">total</span><span class="p">)</span>
+                                        <span class="p">{</span><span class="k">if</span> <span class="p">(</span><span class="n">current</span> <span class="o">%</span> <span class="mi">10</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+                                        <span class="p">{</span>
+                                            <span class="n">fprintf</span><span class="p">(</span><span class="n">stderr</span><span class="p">,</span> <span class="s">"</span><span class="se">\r</span><span class="s">Processing entry %d of %d [</span><span class="se">\033</span><span class="s">[00;33m%2.1f%% completed</span><span class="se">\033</span><span class="s">[00m]"</span><span class="p">,</span>
+                                                    <span class="n">current</span><span class="p">,</span> <span class="n">total</span><span class="p">,</span>
+                                                    <span class="p">(</span><span class="k">static_cast</span><span class="o">&lt;</span><span class="kt">float</span><span class="o">&gt;</span><span class="p">(</span><span class="n">current</span><span class="p">)</span> <span class="o">/</span> <span class="n">total</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">);</span>
+                                        <span class="p">}</span> <span class="p">});</span> <span class="c1">//user-defined lambda function</span>
+<span class="n">conversion</span><span class="o">-&gt;</span><span class="n">Convert</span><span class="p">();</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="known-issues-and-future-work">Known issues and Future work</h2>
+<ul>
+  <li>[Issue] Multidimensional array such as <code class="language-plaintext highlighter-rouge">int myArray[10][20]</code> is not supported by RNTuple at current stage. However, since all C++ arrays are stored as 1D array in memory, multidimensional array can still be converted into <code class="language-plaintext highlighter-rouge">std::array&lt;T, N/*total number of elements*/&gt;</code> (if it is fixed-size, e.g., <code class="language-plaintext highlighter-rouge">int myArray[10][20]</code>) or <code class="language-plaintext highlighter-rouge">std::vector&lt;T&gt;</code> (if it is variable-size, e.g., <code class="language-plaintext highlighter-rouge">int myArray[10][n]</code>). We will wait until RNTuple natively supports multidimensional array to implement proper conversion.</li>
+  <li>[Issue] This tool does not work stably with <code class="language-plaintext highlighter-rouge">ROOT::RVec&lt;T&gt;</code>. When the number of entries of the TTree containing <code class="language-plaintext highlighter-rouge">ROOT::RVec&lt;T&gt;</code> exceeds 1e5, the conversion will probably crash. This may due to the limit of life time of <code class="language-plaintext highlighter-rouge">ROOT::RVec&lt;T&gt;</code> object. We will fix this issue in the future.</li>
+  <li>[Future] Instead of printing messages before the conversion -such as the one below-, provide a means to notify user code of certain events (much like the callback currently used for notifying progress). In principle, this should be achieved via the well-known observer pattern.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>In input file '/tmp/TestFile.root' detect leaf name: simpleClass; leaf type: SimpleClass; leaf title: simpleClass; leaf length: 1; leaf type size: 0
+Add field: x; field type name: std::array&lt;float,3&gt;
+</code></pre></div>    </div>
+  </li>
+  <li>[Future] The interface of the library is rather simple now. Improvements will be made in the future.</li>
+</ul>
+
+<h2 id="self-evaluation">Self evaluation</h2>
+<p>The project was initially carried out according to the timeline in the proposal. The first part “Convert TTree containing simple variables” went well and was completed on time. But the second part took two weeks longer than what was expected in the proposal. I met problems when dealing with variable-sized arrays: a) I didn’t know how to migrate data of different types (e.g., <code class="language-plaintext highlighter-rouge">int</code>, <code class="language-plaintext highlighter-rouge">float</code>, …) in a generic way instead of emulating cases; b) it was difficult to get the length of an array in each entry. My mentor Dr. Javier Lopez-Gomez helped me solve these problems. The third and fourth parts went well accordingly. Due to some personal issues from both my mentor and I, the project was delayed a bit in August and early September. But finally we managed to make it and complete the rest of the parts. For now the tool is coded independently from the root-project. We may integrate it into ROOT in the post-GSoC period.</p>
+
+<h2 id="miscellaneous">Miscellaneous</h2>
+<p>As a Ph.D. student in experimental nuclear astrophysics, I have been using ROOT every day for many years because nearly all experimental data are stored in ROOT’s legacy storage, TTree. When I heard about GSoC from friends, I instinctively looked for projects related to ROOT because I have always been dreaming to participate in the ROOT project,  which is the most important infrastructure of high-energy physics.</p>
+
+<p>As mentioned in the beginning, TTree is the most important element of ROOT; a large amount of HEP data have been stored in TTree. Therefore, I was attracted by this TTree-To-RNTuple project because its deliverable will be the most commonly used tool among HEP scientists once ROOT v7 will be released. It would be cool if everyone uses your tool frequently.</p>
+
+<p>As a physicist without any computer science background, I meet a lot of troubles when I am working on this project. However, I am very lucky that I have the nicest mentor, Dr. Javier Lopez-Gomez. No matter how simple or naive my questions are, he is always considerate and full of patience to me. For example, he explained explicitly to me how the vector and array are stored in memory by drawing sketches, while others may just say “This is basic; you should have known it”.</p>
+
+<h2 id="summary">Summary</h2>
+<p>This is my first time participating in an open-source project. I learned a lot about collaboration in the field of computer science. Things go a little differently from the initial timeline, but the progress is within expectation. It has been a great learning experience and I’m grateful to have an awesome mentor and to be able to meet with the “real and alive” ROOT team.</p>
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_ROOT_ZifengLuo.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

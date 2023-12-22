@@ -1,0 +1,3710 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>The HSF Training Community</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>  HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>  Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider">
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>  Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider">
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>  Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>  Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider">
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider">
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider">
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>  Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider">
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>  About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a></li>
+<li>
+                </li>
+<li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider">
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider">
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">The HSF Training Community</h1>
+</div>
+
+  <p>To fulfill our mission, we rely on active community members to support us in various ways.
+We would like to thank everyone for their time, energy and dedication!</p>
+
+<div class="big-link-container">
+  <a href="/training/community_by_year">
+    Community by year<br>
+    See who contributed when.
+  </a>
+  <a href="/howto-profile.html">
+    Add/update my profile!<br>
+    If you made contributions, don't hesitate to add yourself!
+  </a>
+</div>
+
+<!-- Include this in order to get the floating-heads of the educator list -->
+
+<!-- lazy loading of images for the avatars of educators to avoid slowing the page down -->
+<script src="/assets/js/lazysizes.min.js" async=""></script>
+
+<!-- for the github/orcid/etc icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" crossorigin="anonymous">
+
+<style>
+/* These style definitions are mostly adapted from 
+https://github.com/carpentries/carpentries.org/blob/gh-pages/assets/css/extras.css
+*/
+
+.img-circle {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
+
+.anchor-offset {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.column,
+.columns {
+ padding-left:.9375rem;
+ padding-right:.9375rem;
+ width:100%;
+ float:left
+}
+[class*="column"]+[class*="column"]:last-child {
+ float:left
+}
+[class*="column"]+[class*="column"].end {
+ float:left
+}
+
+@media only screen {
+ .column,
+ .columns {
+  position:relative;
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+ 
+  .row.small-collapse>.column,
+ .row.small-collapse>.columns {
+  padding-left:0;
+  padding-right:0
+ }
+ .row.small-collapse .row {
+  margin-left:0;
+  margin-right:0
+ }
+ .row.small-uncollapse>.column,
+ .row.small-uncollapse>.columns {
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+}
+
+@media only screen and (min-width: 40.063em) {
+ .column,
+ .columns {
+  position:relative;
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+ 
+ .row.medium-collapse>.column,
+ .row.medium-collapse>.columns {
+  padding-left:0;
+  padding-right:0
+ }
+ .row.medium-collapse .row {
+  margin-left:0;
+  margin-right:0
+ }
+ .row.medium-uncollapse>.column,
+ .row.medium-uncollapse>.columns {
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+}
+
+.medium-3 {
+	width:25%
+};
+ 
+
+</style>
+
+<h3> Our community </h3>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="Abdoelabassi">
+<a href="/profiles/abderrazaq_elabassi.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/aelabassi?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of EL Abassi Abderrazaq">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/abderrazaq_elabassi.html">EL Abassi Abderrazaq</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/aeparticle_el97"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/Abdoelabassi"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/Abdoelabassi"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0009-0002-0516-9465"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/el-abassi-abderrazaq"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:abderrazaq.elabassi@uit.ac.ma"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="amorenobr">
+<a href="/profiles/alexander_moreno.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/amorenobr" class="img-circle lazyload" alt="GitHub profile photo of Alexander Moreno Briceño">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/alexander_moreno.html">Alexander Moreno Briceño</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/amorenobr"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/amorenobr"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0001-8415-2543"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/alexander-moreno-brice%C3%B1o-a4b80924a"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:alexander.moreno@uan.edu.co"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="amanmdesai">
+<a href="/profiles/aman_desai.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/amanmdesai" class="img-circle lazyload" alt="GitHub profile photo of Aman Desai">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/aman_desai.html">Aman Desai</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/amanmdesai"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/amanmdesai"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+
+<li> <a href="mailto:amanmukeshdesai@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="amangoel185">
+<a href="/profiles/aman_goel.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/amangoel185" class="img-circle lazyload" alt="GitHub profile photo of Aman Goel">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/aman_goel.html">Aman Goel</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/mightaswellcode"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/amangoel185"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/amangoel185"> <i class="fab fa-gitlab"></i> </a> </li> 
+<li> <a href="https://bitbucket.com/amangoel185"> <i class="fab fa-bitbucket"></i> </a> </li> 
+<li> <a href="https://orcid.org/0000-0003-3567-2096"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/amangoel185"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:aman.goel185@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://amangoel185.github.io/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="aroepe">
+<a href="/profiles/amber_roepe.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/aroepe" class="img-circle lazyload" alt="GitHub profile photo of Amber Roepe (she/her)">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/amber_roepe.html">Amber Roepe (she/her)</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/AmberRoepe"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/aroepe"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/aroepe"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0001-5933-9357"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/amber-roepe"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:amber.roepe@ou.edu"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://nhn.ou.edu/~roepe"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="valassi">
+<a href="/profiles/andrea_valassi.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/valassi" class="img-circle lazyload" alt="GitHub profile photo of Andrea Valassi">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/andrea_valassi.html">Andrea Valassi</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/valassi"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0001-9322-9565"> <i class="fab fa-orcid"></i> </a> </li> 
+
+
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="ariostas">
+<a href="/profiles/andres_rios_tascon.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/ariostas" class="img-circle lazyload" alt="GitHub profile photo of Andres Rios-Tascon">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/andres_rios_tascon.html">Andres Rios-Tascon</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/ariostas"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0003-3282-2634"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/andres-rios-tascon"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+<li> <a href="https://ariostas.com"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset">
+<a href="/profiles/angela_burger.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of Angela Burger">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/angela_burger.html">Angela Burger</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+
+
+
+
+
+
+
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="krasznaa">
+<a href="/profiles/attila_krasznahorkay.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/10b5d46fa7a3b438a2beeba6d58b6214?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of Attila Krasznahorkay">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/attila_krasznahorkay.html">Attila Krasznahorkay</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/krasznaa"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/akraszna"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0002-6468-1381"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/attila-krasznahorkay-84776bb2"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="bcouturi">
+<a href="/profiles/ben_couturier.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/bcouturi" class="img-circle lazyload" alt="GitHub profile photo of Ben Couturier">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/ben_couturier.html">Ben Couturier</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/bcouturi"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/bcouturi"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0001-6749-1033"> <i class="fab fa-orcid"></i> </a> </li> 
+
+<li> <a href="mailto:ben.couturier@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="bernhardmgruber">
+<a href="/profiles/bernhard_manfred_gruber.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/bernhardmgruber" class="img-circle lazyload" alt="GitHub profile photo of Bernhard Manfred Gruber">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/bernhard_manfred_gruber.html">Bernhard Manfred Gruber</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/BernhardMGruber"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/bernhardmgruber"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0001-7848-1690"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/bernhard-manfred-gruber"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:bernhardmgruber@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="Czirion">
+<a href="/profiles/claudia_zirion.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/Czirion" class="img-circle lazyload" alt="GitHub profile photo of Claudia Zirión Martínez">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/claudia_zirion.html">Claudia Zirión Martínez</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/ClauZirion"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/Czirion"> <i class="fab fa-github"></i> </a> </li> 
+
+
+
+
+<li> <a href="mailto:claudia.zirion@cinvestav.mx"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="clelange">
+<a href="/profiles/clemens_lange.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/97b720a017049d19bf4650b953df2a8e?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of Clemens Lange">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+</ul>
+
+<h3><a href="/profiles/clemens_lange.html">Clemens Lange</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/clelange"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/clelange"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-3632-3157"> <i class="fab fa-orcid"></i> </a> </li> 
+
+
+<li> <a href="https://clange.web.cern.ch/clange/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="dguest">
+<a href="/profiles/dan_guest.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/dguest" class="img-circle lazyload" alt="GitHub profile photo of Dan Guest">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/dan_guest.html">Dan Guest</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/dguest"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-4305-2295"> <i class="fab fa-orcid"></i> </a> </li> 
+
+
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="danielskatz">
+<a href="/profiles/dan_katz.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/3f59e90625547fce79de3e9c0d46867d?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of Daniel S. Katz">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/dan_katz.html">Daniel S. Katz</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/danielskatz"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/danielskatz"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/danielskatz"> <i class="fab fa-gitlab"></i> </a> </li> 
+<li> <a href="https://bitbucket.com/danielskatz"> <i class="fab fa-bitbucket"></i> </a> </li> 
+<li> <a href="https://orcid.org/0000-0001-5934-7525"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/danielskatz"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:d.katz@ieee.org"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="http://danielskatz.org"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="chavid">
+<a href="/profiles/david_chamont.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/b2aa5c2890aadc9e9c0f5767c479afe1?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of David Chamont">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/david_chamont.html">David Chamont</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/chavid"> <i class="fab fa-github"></i> </a> </li> 
+
+
+
+<li> <a href="https://www.linkedin.com/in/davidchamont"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="davidyakobovitch">
+<a href="/profiles/david_yakobovitch.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/davidyakobovitch" class="img-circle lazyload" alt="GitHub profile photo of David Yakobovitch">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/david_yakobovitch.html">David Yakobovitch</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/dyakobovitch"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/davidyakobovitch"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0001-5197-257X"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/davidyakobovitch"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:david@yakobovitch.com"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://www.humainpodcast.com"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="Bedxxe">
+<a href="/profiles/diego_garfias.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/Bedxxe" class="img-circle lazyload" alt="GitHub profile photo of Diego Garfias Gallegos (he/his)">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/diego_garfias.html">Diego Garfias Gallegos (he/his)</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/bedxxe"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/Bedxxe"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-7368-5827"> <i class="fab fa-orcid"></i> </a> </li> 
+
+<li> <a href="mailto:bedxxe@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://github.com/Bedxxe"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="ekauffma">
+<a href="/profiles/elliott_kauffman.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/ekauffma" class="img-circle lazyload" alt="GitHub profile photo of Elliott Kauffman">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/elliott_kauffman.html">Elliott Kauffman</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/ekauffma"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/ekauffma"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+<li> <a href="https://www.linkedin.com/in/elliott-kauffman-673314160"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="enibigir">
+<a href="/profiles/emery_nibigira.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/enibigir" class="img-circle lazyload" alt="GitHub profile photo of Emery NIBIGIRA">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/emery_nibigira.html">Emery NIBIGIRA</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/EmeryNibigira"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/enibigir"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/enibigir"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0001-5821-291X"> <i class="fab fa-orcid"></i> </a> </li> 
+
+<li> <a href="mailto:emery.nibigira@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="eguiraud">
+<a href="/profiles/enrico_guiraud.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/eguiraud" class="img-circle lazyload" alt="GitHub profile photo of Enrico Guiraud">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/enrico_guiraud.html">Enrico Guiraud</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/eguiraud"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/eguiraud"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+
+
+<li> <a href="https://github.com/eguiraud"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="GabeSoto">
+<a href="/profiles/gabriel_soto.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/GabeSoto" class="img-circle lazyload" alt="GitHub profile photo of Gabriel Jerardo Soto">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/gabriel_soto.html">Gabriel Jerardo Soto</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/GabeSoto"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-0614-7332"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/gabriel-soto-463342233"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:gjsoto@ucdavis.edu"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="JustWhit3">
+<a href="/profiles/gianluca_bianco.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/JustWhit3" class="img-circle lazyload" alt="GitHub profile photo of Gianluca Bianco">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/gianluca_bianco.html">Gianluca Bianco</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/JustWhit3"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/gbianco"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+<li> <a href="https://www.linkedin.com/in/gianluca-bianco-6274601b2"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:gianluca.bianco@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://www.unibo.it/sitoweb/gianluca.bianco4"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="kratsg">
+<a href="/profiles/giordon_stark.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/kratsg" class="img-circle lazyload" alt="GitHub profile photo of Giordon Stark">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/giordon_stark.html">Giordon Stark</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/kratsg"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/kratsg"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/kratsg"> <i class="fab fa-gitlab"></i> </a> </li> 
+<li> <a href="https://bitbucket.com/kratsg"> <i class="fab fa-bitbucket"></i> </a> </li> 
+<li> <a href="https://orcid.org/0000-0001-6616-3433"> <i class="fab fa-orcid"></i> </a> </li> 
+
+<li> <a href="mailto:kratsg@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://giordonstark.com/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="graeme-a-stewart">
+<a href="/profiles/graeme_stewart.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/graeme-a-stewart" class="img-circle lazyload" alt="GitHub profile photo of Graeme A Stewart">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/graeme_stewart.html">Graeme A Stewart</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/graemeastewart"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/graeme-a-stewart"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0003-0182-7088"> <i class="fab fa-orcid"></i> </a> </li> 
+
+<li> <a href="mailto:graeme.andrew.stewart@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="GuillermoFidalgo">
+<a href="/profiles/guillermo_fidalgo.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/GuillermoFidalgo" class="img-circle lazyload" alt="GitHub profile photo of Guillermo Fidalgo">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/guillermo_fidalgo.html">Guillermo Fidalgo</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/GuillermoFidalgo"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/gfidalgo"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0001-8605-9772"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/guillermo-fidalgo-rodr%C3%ADguez-26a272b9"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:guillermo.fidalgo@upr.edu"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://guillermofidalgo.github.io/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="henryiii">
+<a href="/profiles/henry_schreiner.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/henryiii" class="img-circle lazyload" alt="GitHub profile photo of Henry Schreiner">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/henry_schreiner.html">Henry Schreiner</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/henryschreiner3"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/henryiii"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/henryiii"> <i class="fab fa-gitlab"></i> </a> </li> 
+<li> <a href="https://bitbucket.com/henryiii"> <i class="fab fa-bitbucket"></i> </a> </li> 
+<li> <a href="https://orcid.org/0000-0002-7833-783X"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/henryiii"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:henryfs@princeton.edu"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://iscinumpy.gitlab.io"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="jburzy01">
+<a href="/profiles/jackson_burzynski.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/jburzy01" class="img-circle lazyload" alt="GitHub profile photo of Jackson Burzynski">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/jackson_burzynski.html">Jackson Burzynski</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/jburzy1"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/jburzy01"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/jburzyns"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+
+
+<li> <a href="https://www.jacksonburzynski.com/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="jvmead">
+<a href="/profiles/james_vincent_mead.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/jvmead" class="img-circle lazyload" alt="GitHub profile photo of James (Vincent) Mead">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/james_vincent_mead.html">James (Vincent) Mead</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/jvmead"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/jvmead"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0003-0875-2533"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/james-mead"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:jmead@nikhef.nl"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="jrveatch">
+<a href="/profiles/jason_veatch.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/jrveatch" class="img-circle lazyload" alt="GitHub profile photo of Jason Veatch">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/jason_veatch.html">Jason Veatch</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/jrveatch"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/jveatch"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0003-0855-0958"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/jason-veatch-6b9851b5"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:jveatch@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="JaydipSingh">
+<a href="/profiles/jaydip_singh.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/JaydipSingh" class="img-circle lazyload" alt="GitHub profile photo of Jaydip Singh">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/jaydip_singh.html">Jaydip Singh</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/JaydipSingh"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/JaydipSingh"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0003-3413-9548"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/jaydip-singh-15714546"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:jaydip.singh@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="jpivarski">
+<a href="/profiles/jim_pivarski.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/jpivarski" class="img-circle lazyload" alt="GitHub profile photo of Jim Pivarski">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/jim_pivarski.html">Jim Pivarski</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/JimPivarski"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/jpivarski"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/jpivarski"> <i class="fab fa-gitlab"></i> </a> </li> 
+<li> <a href="https://bitbucket.com/jpivarski"> <i class="fab fa-bitbucket"></i> </a> </li> 
+<li> <a href="https://orcid.org/0000-0002-6649-343X"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/james-pivarski-19a17310"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:pivarski@princeton.edu"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="AFJohan92">
+<a href="/profiles/johan_sebastian_bonilla.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/AFJohan92" class="img-circle lazyload" alt="GitHub profile photo of Johan Sebastian Bonilla">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/johan_sebastian_bonilla.html">Johan Sebastian Bonilla</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/AFJohan92"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/jbonilla"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0002-6982-6121"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/johan-bonilla-b40459a4"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:johan.sebastian.bonilla@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="guitargeek">
+<a href="/profiles/jonas_rembser.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/guitargeek" class="img-circle lazyload" alt="GitHub profile photo of Jonas Rembser">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/jonas_rembser.html">Jonas Rembser</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/guitargeek"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-0632-2970"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/jonas-rembser"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:jonas.rembser@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="kmnelson">
+<a href="/profiles/kevin_nelson.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/kmnelson" class="img-circle lazyload" alt="GitHub profile photo of Kevin Nelson">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/kevin_nelson.html">Kevin Nelson</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/kmnelson"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/kenelson"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+<li> <a href="https://www.linkedin.com/in/kevin-nelson-3a78971b1"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:kevin.nelson@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="klieret">
+<a href="/profiles/kilian_lieret.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/klieret" class="img-circle lazyload" alt="GitHub profile photo of Kilian Lieret">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/kilian_lieret.html">Kilian Lieret</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/klieret"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/klieret"> <i class="fab fa-gitlab"></i> </a> </li> 
+<li> <a href="https://bitbucket.com/klieret"> <i class="fab fa-bitbucket"></i> </a> </li> 
+<li> <a href="https://orcid.org/0000-0003-2792-7511"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/kilian-lieret-0b0667104"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+<li> <a href="https://lieret.net"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="leonoravesterbacka">
+<a href="/profiles/leonora_vesterbacka.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/leonoravesterbacka" class="img-circle lazyload" alt="GitHub profile photo of Leonora Vesterbacka">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+</ul>
+
+<h3><a href="/profiles/leonora_vesterbacka.html">Leonora Vesterbacka</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/leonoravesterbacka"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/mvesterb"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+<li> <a href="https://www.linkedin.com/in/leonora-vesterbacka"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="mstimberg">
+<a href="/profiles/marcel_stimberg.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/mstimberg" class="img-circle lazyload" alt="GitHub profile photo of Marcel Stimberg">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/marcel_stimberg.html">Marcel Stimberg</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/marcelstimberg"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/mstimberg"> <i class="fab fa-github"></i> </a> </li> 
+
+<li> <a href="https://bitbucket.com/mstimberg"> <i class="fab fa-bitbucket"></i> </a> </li> 
+<li> <a href="https://orcid.org/0000-0002-2648-4790"> <i class="fab fa-orcid"></i> </a> </li> 
+
+<li> <a href="mailto:marcel.stimberg@inserm.fr"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="mambelli">
+<a href="/profiles/marco_mambelli.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/mambelli" class="img-circle lazyload" alt="GitHub profile photo of Marco Mambelli (he/him)">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/marco_mambelli.html">Marco Mambelli (he/him)</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/mambelli"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-9489-2681"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/marco-mambelli-53640a1"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:marcom@fnal.gov"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="masonproffitt">
+<a href="/profiles/mason_proffitt.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/masonproffitt" class="img-circle lazyload" alt="GitHub profile photo of Mason Proffitt">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/mason_proffitt.html">Mason Proffitt</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/mason_proffitt"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/masonproffitt"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/mproffitt"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0003-0323-8252"> <i class="fab fa-orcid"></i> </a> </li> 
+
+<li> <a href="mailto:masonlp@uw.edu"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="mattbellis">
+<a href="/profiles/matt_bellis.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/mattbellis" class="img-circle lazyload" alt="GitHub profile photo of Matt Bellis">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+</ul>
+
+<h3><a href="/profiles/matt_bellis.html">Matt Bellis</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/matt_bellis"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/mattbellis"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-6353-6043"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/matthew-bellis-2377aa4"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:mbellis@siena.edu"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://www.siena.edu/faculty-and-staff/person/matthew-bellis/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="matthewfeickert">
+<a href="/profiles/matthew_feickert.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/matthewfeickert" class="img-circle lazyload" alt="GitHub profile photo of Matthew Feickert">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/matthew_feickert.html">Matthew Feickert</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/HEPfeickert"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/matthewfeickert"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0003-4124-7862"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/matthew-feickert"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+<li> <a href="https://www.matthewfeickert.com/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="HerrHorizontal">
+<a href="/profiles/maximilian_horzela.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/HerrHorizontal" class="img-circle lazyload" alt="GitHub profile photo of Maximilian Horzela">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/maximilian_horzela.html">Maximilian Horzela</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/HerrHorizontal"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/mhorzela"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0002-3190-7962"> <i class="fab fa-orcid"></i> </a> </li> 
+
+
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="meevans1">
+<a href="/profiles/meirin_oan_evans.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/8a2cd38ac1438ea456ddd1637e80d4ae?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of Meirin Oan Evans">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/meirin_oan_evans.html">Meirin Oan Evans</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/meirinoanevans"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/meevans1"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-4259-018X"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/meirin-oan-evans-606a9b123"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:meirin.oan.evans@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://meirinoanevans.wixsite.com/portfolio"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="michmx">
+<a href="/profiles/michel_villanueva.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/michmx" class="img-circle lazyload" alt="GitHub profile photo of Michel Hernandez Villanueva">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/michel_villanueva.html">Michel Hernandez Villanueva</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/mich_mx"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/michmx"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-6322-5587"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/michel-hern%C3%A1ndez-villanueva-56b50677"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:michel.hernandez.villanueva@desy.de"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="Morteza-Waskasi">
+<a href="/profiles/morteza_waskasi.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/Morteza-Waskasi" class="img-circle lazyload" alt="GitHub profile photo of Morteza Waskasi">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/morteza_waskasi.html">Morteza Waskasi</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/Morteza-Waskasi"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-4811-6112"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/morteza-m-waskasi"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:Morteza.Waskasi@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="oshadura">
+<a href="/profiles/oksana_shadura.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/d91c6f75ff73dc804fc2e84d93c63e13?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of Oksana Shadura">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/oksana_shadura.html">Oksana Shadura</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/oshadura"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/oshadura"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0001-5356-2494"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/oksana-shadura-843b8420"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:oksana.shadura@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="philippgadow">
+<a href="/profiles/philipp_gadow.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/philippgadow" class="img-circle lazyload" alt="GitHub profile photo of Philipp Gadow">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/philipp_gadow.html">Philipp Gadow</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/philippgadow"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/philippgadow"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/pgadow"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0003-4475-6734"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/philipp-gadow-6610b5136"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+<li> <a href="https://pgadow.de"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="raynamharris">
+<a href="/profiles/rayna_harris.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/raynamharris" class="img-circle lazyload" alt="GitHub profile photo of Rayna Harris">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/rayna_harris.html">Rayna Harris</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/raynamharris"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/raynamharris"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-7943-5650"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/rayna-harris-484802ba"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:rmharris@ucdavis.edu"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://www.raynamharris.com/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset">
+<a href="/profiles/robert_langenberg.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of Robert Langenberg">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/robert_langenberg.html">Robert Langenberg</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+
+
+
+
+
+
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="robinnewhouse">
+<a href="/profiles/robin_newhouse.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://www.gravatar.com/avatar/19b484d43646573791323ef5f370a478?d=mp" class="img-circle lazyload" alt="Gravatar profile photo of Robin Newhouse">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/robin_newhouse.html">Robin Newhouse</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/robinnewhouse"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/robinnewhouse"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/robinnewhouse"> <i class="fab fa-gitlab"></i> </a> </li> 
+<li> <a href="https://bitbucket.com/robinnewhouse"> <i class="fab fa-bitbucket"></i> </a> </li> 
+<li> <a href="https://orcid.org/0000-0001-8026-3836"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/robinnewhouse"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:robinnewhouse@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://rnewhous.web.cern.ch/rnewhous/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="roy-cruz">
+<a href="/profiles/roy_frank_cruz.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/roy-cruz" class="img-circle lazyload" alt="GitHub profile photo of Roy Frank Cruz">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/roy_frank_cruz.html">Roy Frank Cruz</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/roy-cruz"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/rcruzcan"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0002-7205-0790"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/roycruzcandelaria"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:roy.cruz.candelaria@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="rahmans1">
+<a href="/profiles/sakib_rahman.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/rahmans1" class="img-circle lazyload" alt="GitHub profile photo of Sakib Rahman">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/sakib_rahman.html">Sakib Rahman</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/rahmans1"> <i class="fab fa-github"></i> </a> </li> 
+
+
+
+<li> <a href="https://www.linkedin.com/in/sakib-rahman-5a06293a"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:rahmans@myumanitoba.ca"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="rahmans1.github.io"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="smeehan12">
+<a href="/profiles/samuel_meehan.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/smeehan12" class="img-circle lazyload" alt="GitHub profile photo of Sam Meehan">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+</ul>
+
+<h3><a href="/profiles/samuel_meehan.html">Sam Meehan</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/smeehan12"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-3613-7514"> <i class="fab fa-orcid"></i> </a> </li> 
+
+<li> <a href="mailto:smeehan12@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="savvy379">
+<a href="/profiles/savannah_thais.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/savvy379" class="img-circle lazyload" alt="GitHub profile photo of Savannah Thais">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+</ul>
+
+<h3><a href="/profiles/savannah_thais.html">Savannah Thais</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/BasicScienceSav"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/savvy379"> <i class="fab fa-github"></i> </a> </li> 
+
+
+
+<li> <a href="https://www.linkedin.com/in/savannah-thais-12a7b95a"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:sthais@princeton.edu"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="scarletnorberg">
+<a href="/profiles/scarlet_norberg.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/scarletnorberg" class="img-circle lazyload" alt="GitHub profile photo of Scarlet Norberg">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+</ul>
+
+<h3><a href="/profiles/scarlet_norberg.html">Scarlet Norberg</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/scarletnorberg"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/snorberg"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+<li> <a href="https://www.linkedin.com/in/scarlet-norberg-0986321b1"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:scarletnorberg2014@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="sponce">
+<a href="/profiles/sebastien_ponce.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/sponce" class="img-circle lazyload" alt="GitHub profile photo of Sebastien Ponce">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/sebastien_ponce.html">Sebastien Ponce</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/sponce"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/sponce"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+
+<li> <a href="mailto:sebastien.ponce@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="sizaraziz">
+<a href="/profiles/sizar_aziz.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/sizaraziz" class="img-circle lazyload" alt="GitHub profile photo of Sizar Aziz">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/sizar_aziz.html">Sizar Aziz</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/sizaraziz"> <i class="fab fa-github"></i> </a> </li> 
+
+
+
+
+
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="roiser">
+<a href="/profiles/stefan_roiser.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/roiser" class="img-circle lazyload" alt="GitHub profile photo of Stefan Roiser">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/stefan_roiser.html">Stefan Roiser</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/StRoiser"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/roiser"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/roiser"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0002-5600-8592"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/roiser"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:stefan.roiser@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="http://stefan.roiser.at/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="stephenswat">
+<a href="/profiles/stephen_swatman.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/stephenswat" class="img-circle lazyload" alt="GitHub profile photo of Stephen Nicholas Swatman">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/stephen_swatman.html">Stephen Nicholas Swatman</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/StephenSwat"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/stephenswat"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-3747-3229"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/stephen-nicholas-swatman-913a088a"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:stephen@v25.nl"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://v25.nl/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="StewMH">
+<a href="/profiles/stewart_martin_haugh.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/StewMH" class="img-circle lazyload" alt="GitHub profile photo of Stewart Martin-Haugh">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/stewart_martin_haugh.html">Stewart Martin-Haugh</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/StewMH"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/StewMH"> <i class="fab fa-github"></i> </a> </li> 
+
+
+
+<li> <a href="https://www.linkedin.com/in/stewart-martin-haugh-2b353a111"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+<li> <a href="https://www.ppd.stfc.ac.uk/Pages/Stewart-Martin-Haugh.aspx"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="fatala22">
+<a href="/profiles/sudhir_malik.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/fatala22" class="img-circle lazyload" alt="GitHub profile photo of Sudhir Malik">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+</ul>
+
+<h3><a href="/profiles/sudhir_malik.html">Sudhir Malik</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+<li> <a href="https://twitter.com/SudhirM39407009"> <i class="fab fa-twitter"></i> </a> </li> 
+<li> <a href="https://github.com/fatala22"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0000-0002-6356-2655"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/sudhir-malik-19932534"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+<li> <a href="http://charma.uprm.edu/~malik/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="tetianmaz">
+<a href="/profiles/tetiana_mazurets.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/tetianmaz" class="img-circle lazyload" alt="GitHub profile photo of Tetiana Mazurets">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/tetiana_mazurets.html">Tetiana Mazurets</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/tetianmaz"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/tmazuret"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+
+<li> <a href="mailto:tetiana.mazurets@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="tomjunk">
+<a href="/profiles/thomas_robert_junk.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/tomjunk" class="img-circle lazyload" alt="GitHub profile photo of Thomas Robert Junk">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+
+
+</ul>
+
+<h3><a href="/profiles/thomas_robert_junk.html">Thomas Robert Junk</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/tomjunk"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/000-0003-1680-1104"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/tom-junk-497a431b"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:trj@fnal.gov"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://home.fnal.gov/~trj/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="wdconinc">
+<a href="/profiles/wouter_deconinck.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/wdconinc" class="img-circle lazyload" alt="GitHub profile photo of Wouter Deconinck">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+<li><span class="badge badge-secondary" title="Supports the learning experience for students">Mentor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+<li><span class="badge badge-secondary" title="Organizes events and workshop">Facilitator</span></li>
+
+
+<li><span class="badge badge-secondary" title="Contributes to training material">Author</span></li>
+
+</ul>
+
+<h3><a href="/profiles/wouter_deconinck.html">Wouter Deconinck</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/wdconinc"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/wdconinc"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0003-4033-6716"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/wouterdeconinck"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:wouter.deconinck@umanitoba.ca"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="zbilodea">
+<a href="/profiles/zoe_bilodeau.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/zbilodea" class="img-circle lazyload" alt="GitHub profile photo of Zoë Bilodeau">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/zoe_bilodeau.html">Zoë Bilodeau</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/zbilodea"> <i class="fab fa-github"></i> </a> </li> 
+
+
+<li> <a href="https://orcid.org/0009-0005-7753-5649"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/zo%C3%AB-bilodeau-0778b3202"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:zobilodeau@gmail.com"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="drssth">
+<a href="/profiles/zongru_shao.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/drssth" class="img-circle lazyload" alt="GitHub profile photo of Zongru (Doris) Shao">
+
+</a>
+<!-- badges for educator roles -->
+
+<ul class="list-inline">
+
+
+<li><span class="badge badge-secondary" title="Primary teacher of a training module">Instructor</span></li>
+
+
+
+</ul>
+
+<h3><a href="/profiles/zongru_shao.html">Zongru (Doris) Shao</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/drssth"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/doris.casus"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+
+<li> <a href="https://www.linkedin.com/in/zongru-shao-94502450"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:z.shao@hzdr.de"> <i class="fa fa-envelope"></i> </a> </li> 
+<li> <a href="https://drssth.github.io/"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+<!-- The last </div> never happened, because we ended short of a full last column. -->
+</div>
+
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_training/community.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

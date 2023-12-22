@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Acts — Vectorized Linear Algebra Implementation</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_Phoenix_MohammadHumayunKhan.html">&nbsp;&#8592; Revamped Testing Infrastructure for Phoenix</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_ROOT_ZifengLuo.html">Automatic conversion of data stored in TTree form to RNTuple &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+      <div class="col-md-3">
+        <img src="https://avatars.githubusercontent.com/u/63574588?s=400&v=4" alt=Tirthankar Mazumder width="100%" style="float:right">
+      </div>
+      <div class="col-md-9">
+    
+    <h1 class="blog-title">Acts — Vectorized Linear Algebra Implementation</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">03 Oct 2022 by <a href="/gsoc/blogs/2022/blog_Acts_TirthankarMazumder.html">Tirthankar Mazumder</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <p>Hi everyone! Since starting this year, blogs are mandatory for all CERN-HSF contributors, I decided to take this time to make my own blog. I have written about my journey extensively there. Do <a href="https://wermos.github.io/blog/">give it a visit</a>!</p>
+
+<p>I have broken down the midterm project report into multiple blog posts:</p>
+
+<p>The <a href="https://wermos.github.io/blog/gsoc/gsoc-first-blog-post/">first blog post</a> discusses what GSoC is in general, for those who might just stumble upon my blog by happenstance.</p>
+
+<p>The <a href="https://wermos.github.io/blog/gsoc/gsoc-the-details-of-my-project/">second blog post</a> delves into the technical details about what my project actually is, what repository I would be working with, mentions our weekly meeting schedule, and describes my three mentors.</p>
+
+<p>The <a href="https://wermos.github.io/blog/gsoc/gsoc-the-work-so-far/">third blog post</a> finishes up the trilogy by exhaustively discussing the work up till now, including benchmarking data and conclusions, and the current direction of the work.</p>
+
+<p>That being said, I will also share a short report of the work I am doing, and the link to the things I have done so far below:</p>
+
+<h2 id="my-progress">My progress</h2>
+
+<h3 id="fast-55">Fast 5×5</h3>
+<h4 id="benchmarking-suite-for-algebra-plugins">Benchmarking Suite for <code class="language-plaintext highlighter-rouge">algebra-plugins</code></h4>
+<p>One of the main things we need, to efficiently figure out what to improve first, is a comprehensive benchmarking suite for the existing math backends. To that end, I added Google Benchmark to the <a href="https://github.com/acts-project/algebra-plugins"><code class="language-plaintext highlighter-rouge">algebra-plugins</code> repository</a>, in <a href="https://github.com/acts-project/algebra-plugins/pull/69">PR #69</a>. Writing those benchmarks is still a work-in-progress.</p>
+
+<h4 id="investigating-matrix-math-libraries">Investigating Matrix Math Libraries</h4>
+<p>Then, my mentors and I spent a lot of time testing out 3 possible math backend alternatives (the custom-made <code class="language-plaintext highlighter-rouge">fast5x5</code>, <a href="https://bitbucket.org/blaze-lib/blaze/src/master/"><code class="language-plaintext highlighter-rouge">blaze</code></a>, and <a href="https://github.com/romeric/Fastor"><code class="language-plaintext highlighter-rouge">Fastor</code></a> in a repository of mine called <a href="https://github.com/wermos/Fast5x5">Fast 5×5</a> and comparing their performance to that of <a href="https://eigen.tuxfamily.org/index.php?title=Main_Page"><code class="language-plaintext highlighter-rouge">Eigen</code></a>. This repository was something I forked from some <a href="https://gitlab.in2p3.fr/CodeursIntensifs/Fast5x5">prior work done on this front</a>.</p>
+
+<h4 id="how-matrix-math-libraries-work">How Matrix Math Libraries Work</h4>
+<p>All matrix math libraries use something called <a href="https://en.wikipedia.org/wiki/Single_instruction,_multiple_data">SIMD</a> (short for Single Instruction, Multiple Data) to achieve a speed-up compared to a naïve implementation.</p>
+
+<p>Let’s take the example of adding two 4-dimensional vectors together. The naïve way of doing it is to take one element from each vector, add it, and then store the result in the result vector. This takes 4 add instructions to complete. However, with a SIMD ISA (<a href="https://en.wikipedia.org/wiki/Instruction_set_architecture">Instruction Set Architecture</a>) all one needs to do is load the 4 elements of each vector into a SIMD register, add them, and store the result in a result vector. This takes just 1 add instruction to complete.</p>
+
+<center><a href="https://commons.wikimedia.org/wiki/File:SIMD2.svg#/media/File:SIMD2.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/SIMD2.svg/400px-SIMD2.svg.png" alt="SIMD2.svg" /></a></center>
+
+<center><caption>Representation of a SIMD register <br />(Picture Credits: Wikipedia, courtesy of <a href="https://commons.wikimedia.org/w/index.php?title=User:Vadikus">Vadikus</a>)</caption></center>
+
+<p><br />In the same vein, libraries like <code class="language-plaintext highlighter-rouge">Eigen</code>, <code class="language-plaintext highlighter-rouge">blaze</code>, <code class="language-plaintext highlighter-rouge">Fastor</code>, and <code class="language-plaintext highlighter-rouge">fast5x5</code> use SIMD instructions to create optimized routines for tasks like matrix multiplication.</p>
+
+<h5 id="my-project">My Project</h5>
+<p>However, it was found that the performance of Eigen, which is the library that ACTS uses for matrix computations, could be improved. As a proof-of-concept, the Fast5×5 project was created to demonstrate this. The Fast5×5 library which uses <a href="https://github.com/xtensor-stack/xsimd/"><code class="language-plaintext highlighter-rouge">xsimd</code></a> under the hood for a compiler-agnostic way of exposing SIMD intrinsics.</p>
+
+<p>Therefore, my GSoC project is primarily about investigating how much of a performance we stand to gain by switching matrix libraries in these projects (<a href="https://github.com/acts-project/detray">detray</a>, <a href="https://github.com/acts-project/traccc">traccc</a>, and ACTS).</p>
+
+<h4 id="midterm-work-summary">Midterm Work Summary</h4>
+<p>Once we started with the GSoC project, my mentors asked me to look at the <a href="https://gitlab.in2p3.fr/CodeursIntensifs/Fast5x5">original Fast5×5 repository</a> and get an idea of where we stand with respect to the prior work in this project. I improved the repository in many ways, including (but not limited to)</p>
+<ul>
+  <li>removing the <code class="language-plaintext highlighter-rouge">Dockerfile</code> and a Bash script (among other things) in <a href="https://github.com/wermos/Fast5x5/commit/2a627183458fd25366087c2be8e8d3fd14cde294"><code class="language-plaintext highlighter-rouge">2a62718</code></a> because it would not be required in this project.</li>
+  <li>revamping the project structure to make it easier for outsiders to understand where things reside. This was done multiple times (in order to keep the project structure up-to-date with the new changes), for example, in <a href="https://github.com/wermos/Fast5x5/commit/85ad3fd1de82ee6313bb2685e2a02f368d7e5e6a"><code class="language-plaintext highlighter-rouge">85ad3fd</code></a>, <a href="https://github.com/wermos/Fast5x5/commit/20d4fb9940f01c547272cb3b2e775335992d8ea6"><code class="language-plaintext highlighter-rouge">20d4fb9</code></a>, <a href="https://github.com/wermos/Fast5x5/commit/125a084f374c92936a2bc9f8e41d561c31346588"><code class="language-plaintext highlighter-rouge">125a084</code></a>, and <a href="https://github.com/wermos/Fast5x5/commit/69bd4d8cc3f6e3aeb0c6baf21d9510b931984799"><code class="language-plaintext highlighter-rouge">69bd4d8</code></a>.</li>
+  <li>adding <code class="language-plaintext highlighter-rouge">xsimd</code> and <code class="language-plaintext highlighter-rouge">Eigen</code> as Git submodules instead of requiring the end user to have these libraries already installed in their system. This has the added advantage of allowing us to easily switch between versions of <code class="language-plaintext highlighter-rouge">Eigen</code> and <code class="language-plaintext highlighter-rouge">xsimd</code> as maintainers of those repositories continue to make bugfixes and improvements. This was done in <a href="https://github.com/wermos/Fast5x5/commit/21aad0e2a38425e0c959b259359e6e67084ec282"><code class="language-plaintext highlighter-rouge">21aad0e</code></a></li>
+  <li>updating <code class="language-plaintext highlighter-rouge">Eigen</code> (first in <a href="https://github.com/wermos/Fast5x5/commit/18dbd4eab48ed6dcda108c4545632e9d431d6305"><code class="language-plaintext highlighter-rouge">18dbd4e</code></a>, and then in <a href="https://github.com/wermos/Fast5x5/commit/0e702b0607c28631a24875d94aa1a5acb80a5554"><code class="language-plaintext highlighter-rouge">0e702b0</code></a>) and <code class="language-plaintext highlighter-rouge">xsimd</code> (in <a href="https://github.com/wermos/Fast5x5/commit/e1e1c71aed01d2aee8e24a8b63bcf4360916df81"><code class="language-plaintext highlighter-rouge">e1e1c71</code></a>). The original Fast5×5 project had not been touched since 2019. In the 3 years since then, all these libraries had undergone some major version releases.</li>
+  <li>changing the benchmarking method from using <code class="language-plaintext highlighter-rouge">/usr/bin/time</code> to using Google Benchmark. Google Benchmark gives us an easy way of automating benchmarking tasks. Moreover, its <code class="language-plaintext highlighter-rouge">DoNotOptimize()</code> function allows us to guarantee that the operations we are benchmarking were indeed performed and not just optimized out by the compiler.</li>
+  <li>changing the way the random matrix generation works in <a href="https://github.com/wermos/Fast5x5/commit/ff821df8906a226749408e24b40e627d21fa3894"><code class="language-plaintext highlighter-rouge">ff821df</code></a>. The original Fast 5×5 code used index-based operations to fill up the matrix, which is not the best way to generate reliable benchmarking data. The original code did the following for generating the matrices:</li>
+</ul>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">float</span> <span class="n">a</span><span class="p">[</span><span class="n">SIZE</span> <span class="o">*</span> <span class="n">SIZE</span><span class="p">];</span>
+<span class="kt">float</span> <span class="n">b</span><span class="p">[</span><span class="n">SIZE</span> <span class="o">*</span> <span class="n">SIZE</span><span class="p">];</span>
+
+<span class="c1">// the BaseMatrix data type in fast5x5.hpp has a constructor</span>
+<span class="c1">// that takes in C-style arrays. So, the code simply filled</span>
+<span class="c1">// up two arrays and then made two BaseMatrix objects out</span>
+<span class="c1">// of them.</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">SIZE</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">SIZE</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">a</span><span class="p">[</span><span class="n">i</span> <span class="o">*</span> <span class="n">SIZE</span> <span class="o">+</span> <span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="n">j</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">SIZE</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">SIZE</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kt">float</span> <span class="n">val</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">j</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="n">val</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="n">j</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="n">val</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="n">i</span> <span class="o">==</span> <span class="n">j</span> <span class="o">&amp;&amp;</span> <span class="n">i</span> <span class="o">%</span> <span class="mi">2</span><span class="p">)</span> <span class="n">val</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+        <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="n">i</span> <span class="o">==</span> <span class="n">j</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="p">(</span><span class="n">i</span> <span class="o">%</span> <span class="mi">2</span><span class="p">))</span> <span class="n">val</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+        <span class="k">else</span> <span class="n">val</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+        <span class="n">b</span><span class="p">[</span><span class="n">i</span> <span class="o">*</span> <span class="n">SIZE</span> <span class="o">+</span> <span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">val</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>I rewrote the matrix generation code using the random number generators in the <code class="language-plaintext highlighter-rouge">&lt;random&gt;</code> header, and mimicked <code class="language-plaintext highlighter-rouge">Eigen</code>’s <code class="language-plaintext highlighter-rouge">Random()</code> implementation, which generates a random float in the range [-1, 1]:</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// random.hpp</span>
+<span class="cp">#include &lt;random&gt;
+#include &lt;limits&gt;
+</span>
+<span class="kr">inline</span> <span class="kt">float</span> <span class="nf">randomFloat</span><span class="p">(</span><span class="kt">float</span> <span class="n">min</span><span class="p">,</span> <span class="kt">float</span> <span class="n">max</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// Returns a random real in [min, max].</span>
+    <span class="k">static</span> <span class="n">std</span><span class="o">::</span><span class="n">uniform_real_distribution</span><span class="o">&lt;</span><span class="kt">float</span><span class="o">&gt;</span> <span class="n">distribution</span><span class="p">(</span>
+        <span class="n">min</span><span class="p">,</span> <span class="n">std</span><span class="o">::</span><span class="n">nextafter</span><span class="p">(</span><span class="n">max</span><span class="p">,</span>
+            <span class="n">std</span><span class="o">::</span><span class="n">numeric_limits</span><span class="o">&lt;</span><span class="kt">float</span><span class="o">&gt;::</span><span class="n">infinity</span><span class="p">()</span>
+            <span class="p">)</span>
+        <span class="p">);</span>
+
+    <span class="k">static</span> <span class="n">std</span><span class="o">::</span><span class="n">mt19937_64</span> <span class="n">generator</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="n">distribution</span><span class="p">(</span><span class="n">generator</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// this is the matrix generation code</span>
+<span class="kt">float</span> <span class="n">a</span><span class="p">[</span><span class="n">SIZE</span> <span class="o">*</span> <span class="n">SIZE</span><span class="p">];</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">SIZE</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">SIZE</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">a</span><span class="p">[</span><span class="n">i</span> <span class="o">*</span> <span class="n">SIZE</span> <span class="o">+</span> <span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">randomFloat</span><span class="p">(</span><span class="o">-</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Apart from my work on Fast5×5, I also fired off a <a href="https://github.com/acts-project/acts/pull/1384">small PR</a> which cleaned up the CI workflow files in the ACTS repository.</p>
+
+<p>For the comprehensive list of changes and improvements, be sure to check out my <a href="https://wermos.github.io/blog/gsoc/gsoc-the-work-so-far/">blog post</a> dedicated to the work I did!</p>
+
+<h3 id="post-midterm-work">Post-Midterm Work</h3>
+
+<p>Pre-midterm, I spent quite a bit of time writing benchmarks for testing the performance of <code class="language-plaintext highlighter-rouge">Eigen</code>, <code class="language-plaintext highlighter-rouge">fast5x5</code>, <code class="language-plaintext highlighter-rouge">blaze</code>, and <code class="language-plaintext highlighter-rouge">Fastor</code> in various matrix computation tasks like <a href="https://github.com/wermos/Fast5x5/tree/a495e9bf66303c76550797a1cbdf09ad6a555baa/include/benchmarks/gemm">matrix multiplication</a>, <a href="https://github.com/wermos/Fast5x5/tree/a495e9bf66303c76550797a1cbdf09ad6a555baa/include/benchmarks/inversion">matrix inversion</a>, computing the <a href="https://github.com/wermos/Fast5x5/tree/a495e9bf66303c76550797a1cbdf09ad6a555baa/include/benchmarks/similarity">similarity transform</a> and computing <a href="https://github.com/wermos/Fast5x5/tree/a495e9bf66303c76550797a1cbdf09ad6a555baa/include/benchmarks/coord-transform">coordinate transforms</a> in various matrix dimensions (more specifically, in 4×4, 6×6, 6×8, and 8×8).</p>
+
+<p>I ran the benchmarks on my own machine and analyzed the performance of each backend. After a deep look into the assembly generated by each backend, as well as a look at the performance each library brought to the table, we decided to use Fastor because it was consistently first or second in all the benchmarks we threw at it, and its assembly generation was the cleanest (i.e. free of cruft and the pointless register shuffling that plagued a few of the other backends).</p>
+
+<p>One of the big things I worked on post-midterm was on the visualization of the benchmarking results. We had the data, but no easy way to visualize it. I put together two Python scripts: <a href="https://github.com/wermos/Fast5x5/blob/c474a3d76802a75c1cc5baa98e3c25684874d928/plots/generate_general_plots.py">one</a> for generating comparative plots with all the backends together, and <a href="https://github.com/wermos/Fast5x5/blob/c474a3d76802a75c1cc5baa98e3c25684874d928/plots/generate_backend_plots.py">one</a> to demonstrate how each backend fares alone.</p>
+
+<h4 id="benchmark-plots">Benchmark Plots</h4>
+
+<p>Here are the comparative plots I generated:</p>
+<center><a href="https://user-images.githubusercontent.com/63574588/203063061-1c49a14f-4ef4-499f-871d-529f1940a75f.png"><img src="https://user-images.githubusercontent.com/63574588/203063061-1c49a14f-4ef4-499f-871d-529f1940a75f.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for GEMM with <code>float</code> matrices.</caption></center>
+
+<center><a href="https://user-images.githubusercontent.com/63574588/203063874-df9c055b-7f57-4e1a-905b-bb2115166cff.png"><img src="https://user-images.githubusercontent.com/63574588/203063874-df9c055b-7f57-4e1a-905b-bb2115166cff.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for GEMM with <code>double</code> matrices.</caption></center>
+
+<center><a href="https://user-images.githubusercontent.com/63574588/203063983-6363ba9a-f3f5-4bc3-9619-4a0d43502299.png"><img src="https://user-images.githubusercontent.com/63574588/203063983-6363ba9a-f3f5-4bc3-9619-4a0d43502299.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for matrix inversion with <code>float</code> matrices.</caption></center>
+
+<center><a href="https://user-images.githubusercontent.com/63574588/203063992-22725e6c-98bb-4a48-8acf-d168a28b9eec.png"><img src="https://user-images.githubusercontent.com/63574588/203063992-22725e6c-98bb-4a48-8acf-d168a28b9eec.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for matrix inversion with <code>double</code> matrices.</caption></center>
+<p><br />Note that the bar graphs for the <code class="language-plaintext highlighter-rouge">custom</code> backend for the 6×6 and 8×8 dimensions do not exist. This is an intentional and recurring theme: The <code class="language-plaintext highlighter-rouge">Custom</code> backend has a size limitation which prevents it from being usable for 6×6 and 8×8 matrices without the AVX512 instruction set, which <a href="https://ark.intel.com/content/www/us/en/ark/products/132228/intel-core-i712700h-processor-24m-cache-up-to-4-70-ghz.html">my processor</a> does not support. For this reason, the <code class="language-plaintext highlighter-rouge">custom</code> 6×6 and 8×8 data is missing from all of my benchmark plots.</p>
+
+<center><a href="https://user-images.githubusercontent.com/63574588/203063990-112b848c-76ca-4192-905f-5c90f86b03a2.png"><img src="https://user-images.githubusercontent.com/63574588/203063990-112b848c-76ca-4192-905f-5c90f86b03a2.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for the similarity transform with <code>float</code> matrices.</caption></center>
+
+<center><a href="https://user-images.githubusercontent.com/63574588/203063987-10bea51c-0fb0-4315-bc6d-d9953f7c2ffb.png"><img src="https://user-images.githubusercontent.com/63574588/203063987-10bea51c-0fb0-4315-bc6d-d9953f7c2ffb.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for the similarity transform with <code>double</code> matrices.</caption></center>
+
+<center><a href="https://user-images.githubusercontent.com/63574588/203063866-3120d95f-d17e-4847-9e5a-793b57bd2073.png"><img src="https://user-images.githubusercontent.com/63574588/203063866-3120d95f-d17e-4847-9e5a-793b57bd2073.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for the free coordinates to bound coordinates transform with <code>float</code> matrices.</caption></center>
+
+<center><a href="https://user-images.githubusercontent.com/63574588/203063885-88a3f2f2-3550-4296-ad30-ca9d98551ee5.png"><img src="https://user-images.githubusercontent.com/63574588/203063885-88a3f2f2-3550-4296-ad30-ca9d98551ee5.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for the free coordinates to bound coordinates transform with <code>double</code> matrices.</caption></center>
+
+<center><a href="https://user-images.githubusercontent.com/63574588/203063883-e7d80d2a-d265-4ee6-9195-0ef9085f1d18.png"><img src="https://user-images.githubusercontent.com/63574588/203063883-e7d80d2a-d265-4ee6-9195-0ef9085f1d18.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for the bound coordinates to free coordinates transform with <code>float</code> matrices.</caption></center>
+
+<center><a href="https://user-images.githubusercontent.com/63574588/203063885-88a3f2f2-3550-4296-ad30-ca9d98551ee5.png"><img src="https://user-images.githubusercontent.com/63574588/203063885-88a3f2f2-3550-4296-ad30-ca9d98551ee5.png" width="800" height="450" /></a></center>
+<center><caption>Benchmark plot for the bound coordinates to free coordinates transform with <code>double</code> matrices.</caption></center>
+
+<p>It is clear from these plots that Fastor is consistently near the top (i.e. either the fastest or the second-fastest in all of these tasks).</p>
+
+<h2 id="integrating-fastor-into-algebra-plugins">Integrating Fastor into <code class="language-plaintext highlighter-rouge">algebra-plugins</code></h2>
+
+<p>I first had to define the math functions that live in the <a href="https://github.com/wermos/algebra-plugins/tree/528327c51d46cf198fe79fd83856c47b29d6d2b1/math/fastor"><code class="language-plaintext highlighter-rouge">math</code> subdirectory</a> in terms of <code class="language-plaintext highlighter-rouge">Fastor</code> primitives and functions. After that, I had to declare the standard litany of types in the <a href="https://github.com/wermos/algebra-plugins/tree/528327c51d46cf198fe79fd83856c47b29d6d2b1/storage/fastor"><code class="language-plaintext highlighter-rouge">storage</code> subdirectory</a>. Then, I had to define the <a href="https://github.com/wermos/algebra-plugins/tree/528327c51d46cf198fe79fd83856c47b29d6d2b1/frontend/fastor_fastor"><code class="language-plaintext highlighter-rouge">fastor_fastor</code> frontend</a> so that the backend is actually usable and the tests can be written.</p>
+
+<p>After that, I wrote the <a href="https://github.com/wermos/algebra-plugins/tree/528327c51d46cf198fe79fd83856c47b29d6d2b1/tests/fastor">tests</a>. However, we ran into a small hurdle as the tests (which were written in a generic way, abstracted away from any specific backend) expect <code class="language-plaintext highlighter-rouge">operator*</code> to be defined for matrix-matrix and matrix-vector multiplication. However, Fastor overloads <code class="language-plaintext highlighter-rouge">operator%</code> for matrix-matrix and matrix-vector multiplication, and also offers the <code class="language-plaintext highlighter-rouge">Fastor::matmul</code> function. (It uses <code class="language-plaintext highlighter-rouge">operator*</code> for element-wise multiplication, instead.) This issue is yet to be resolved (at the time of writing.)</p>
+
+<p>For a slightly more detailed report of what I did to integrate Fastor into <code class="language-plaintext highlighter-rouge">algebra-plugins</code>, check out my <a href="https://wermos.github.io/blog/gsoc/gsoc-the-final-status-report/">final GSoC blog post on my personal blog</a>.</p>
+
+<h3 id="concluding-remarks">Concluding Remarks</h3>
+
+<p>This concludes my CERN-HSF 2022 GSoC blog post! It was a great learning experience for me as I got to learn a lot about SIMD and vectorization. Moreover, the opportunity to work with CERN was a great honor to me, and I also enjoyed working with mentors from different countries.</p>
+
+<p>Thank you for reading!</p>
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_Acts_TirthankarMazumder.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Weekly Meetings</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <h1 id="hsf-weekly-meetings">HSF Weekly Meetings</h1>
+
+<h2 id="meeting-minutes">Meeting Minutes</h2>
+
+<p>The coordination team runs a regular HSF meeting (nominally, and usually, weekly) which is open to all.
+Meeting announcements and minutes are posted to the HSF forum Google group.
+Activity groups also hold their own meetings, for which minutes are usually posted here.</p>
+
+<p>Please see <a href="/future-events.html">this page</a> for future meetings and events.</p>
+
+<table class="table table-hover table-condensed table-striped">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>06-12-2023</td>
+      <td><a href="/organization/2023/12/06/coordination.html"> HSF Coordination Meeting #261, 6 December 2023 </a></td>
+    </tr>
+    <tr>
+      <td>09-11-2023</td>
+      <td><a href="/organization/2023/11/09/coordination.html"> HSF Coordination Meeting #260, 9 November 2023 </a></td>
+    </tr>
+    <tr>
+      <td>12-10-2023</td>
+      <td><a href="/organization/2023/10/12/coordination.html"> HSF Coordination Meeting #258, 12 October 2023 </a></td>
+    </tr>
+    <tr>
+      <td>28-09-2023</td>
+      <td><a href="/organization/2023/09/28/coordination.html"> HSF Coordination Meeting #257, 28 September 2023 </a></td>
+    </tr>
+    <tr>
+      <td>14-09-2023</td>
+      <td><a href="/organization/2023/09/14/coordination.html"> HSF Coordination Meeting #256, 14 September 2023 </a></td>
+    </tr>
+    <tr>
+      <td>31-08-2023</td>
+      <td><a href="/organization/2023/08/31/coordination.html"> HSF Coordination Meeting #255, 31 August 2023 </a></td>
+    </tr>
+    <tr>
+      <td>20-07-2023</td>
+      <td><a href="/organization/2023/07/20/coordination.html"> HSF Coordination Meeting #254, 20 July 2023 </a></td>
+    </tr>
+    <tr>
+      <td>06-07-2023</td>
+      <td><a href="/organization/2023/07/06/coordination.html"> HSF Coordination Meeting #253, 6 July 2023 </a></td>
+    </tr>
+    <tr>
+      <td>22-06-2023</td>
+      <td><a href="/organization/2023/06/22/coordination.html"> HSF Coordination Meeting #252, 22 June 2023 </a></td>
+    </tr>
+    <tr>
+      <td>08-06-2023</td>
+      <td><a href="/organization/2023/06/08/coordination.html"> HSF Coordination Meeting #251, 8 June 2023 </a></td>
+    </tr>
+    <tr>
+      <td>25-05-2023</td>
+      <td><a href="/organization/2023/05/25/coordination.html"> HSF Coordination Meeting #250, 25 May 2023 </a></td>
+    </tr>
+    <tr>
+      <td>27-04-2023</td>
+      <td><a href="/organization/2023/04/27/coordination.html"> HSF Coordination Meeting #249, 27 April 2023 </a></td>
+    </tr>
+    <tr>
+      <td>13-04-2023</td>
+      <td><a href="/organization/2023/04/13/coordination.html"> HSF Coordination Meeting #248, 13 April 2023 </a></td>
+    </tr>
+    <tr>
+      <td>30-03-2023</td>
+      <td><a href="/organization/2023/03/30/coordination.html"> HSF Coordination Meeting #247, 30 March 2023 </a></td>
+    </tr>
+    <tr>
+      <td>16-03-2023</td>
+      <td><a href="/organization/2023/03/16/coordination.html"> HSF Coordination Meeting #246, 16 March 2023 </a></td>
+    </tr>
+    <tr>
+      <td>02-03-2023</td>
+      <td><a href="/organization/2023/03/02/coordination.html"> HSF Coordination Meeting #245, 2 March 2023 </a></td>
+    </tr>
+    <tr>
+      <td>16-02-2023</td>
+      <td><a href="/organization/2023/02/16/coordintion.html"> HSF Coordination Meeting #244, 16 February 2023 </a></td>
+    </tr>
+    <tr>
+      <td>02-02-2023</td>
+      <td><a href="/organization/2023/02/02/coordination.html"> HSF Coordination Meeting #243, 2 February 2023 </a></td>
+    </tr>
+    <tr>
+      <td>19-01-2023</td>
+      <td><a href="/organization/2023/01/19/coordination.html"> HSF Coordination Meeting #242, 19 January 2023 </a></td>
+    </tr>
+    <tr>
+      <td>08-12-2022</td>
+      <td><a href="/organization/2022/12/08/coordination.html"> HSF Coordination Meeting #241, 8 December 2022 </a></td>
+    </tr>
+    <tr>
+      <td>24-11-2022</td>
+      <td><a href="/organization/2022/11/24/coordination.html"> HSF Coordination Meeting #240, 24 November 2022 </a></td>
+    </tr>
+    <tr>
+      <td>10-11-2022</td>
+      <td><a href="/organization/2022/11/10/coordination.html"> HSF Coordination Meeting #239, 10 November 2022 </a></td>
+    </tr>
+    <tr>
+      <td>27-10-2022</td>
+      <td><a href="/organization/2022/10/27/coordination.html"> HSF Coordination Meeting #238 Virtual, 27 October 2022 </a></td>
+    </tr>
+    <tr>
+      <td>13-10-2022</td>
+      <td><a href="/organization/2022/10/13/coordination.html"> HSF Coordination Meeting #237, 13 October 2022 </a></td>
+    </tr>
+    <tr>
+      <td>29-09-2022</td>
+      <td><a href="/organization/2022/09/29/coordination.html"> HSF Coordination Meeting #236, 29 September 2022 </a></td>
+    </tr>
+    <tr>
+      <td>15-09-2022</td>
+      <td><a href="/organization/2022/09/15/coordination.html"> HSF Coordination Meeting #235, 15 September 2022 </a></td>
+    </tr>
+    <tr>
+      <td>01-09-2022</td>
+      <td><a href="/organization/2022/09/01/generators.html"> HSF Generator WG Meeting #24, 1 September 2022 </a></td>
+    </tr>
+    <tr>
+      <td>01-09-2022</td>
+      <td><a href="/organization/2022/09/01/coordination.html"> HSF Coordination Meeting #234, 1 September 2022 </a></td>
+    </tr>
+    <tr>
+      <td>21-07-2022</td>
+      <td><a href="/organization/2022/07/21/coordination.html"> HSF Coordination Meeting #233, 21 July 2022 </a></td>
+    </tr>
+    <tr>
+      <td>07-07-2022</td>
+      <td><a href="/organization/2022/07/07/generators.html"> HSF Generator WG Meeting #23, 7 July 2022 </a></td>
+    </tr>
+    <tr>
+      <td>07-07-2022</td>
+      <td><a href="/organization/2022/07/07/coordination.html"> HSF Coordination Meeting #232, 7 July 2022 </a></td>
+    </tr>
+    <tr>
+      <td>12-05-2022</td>
+      <td><a href="/organization/2022/05/12/coordination.html"> HSF Coordination Meeting #229, 12 May 2022 </a></td>
+    </tr>
+    <tr>
+      <td>05-05-2022</td>
+      <td><a href="/organization/2022/05/05/generators.html"> HSF Generator WG Meeting #20, 5 May 2022 </a></td>
+    </tr>
+    <tr>
+      <td>28-04-2022</td>
+      <td><a href="/organization/2022/04/28/coordination.html"> HSF Coordination Meeting #228, 28 April 2022 </a></td>
+    </tr>
+    <tr>
+      <td>14-04-2022</td>
+      <td><a href="/organization/2022/04/14/coordination.html"> HSF Coordination Meeting #227, 14 April 2022 </a></td>
+    </tr>
+    <tr>
+      <td>07-04-2022</td>
+      <td><a href="/organization/2022/04/07/generators.html"> HSF Generator WG Meeting #19, 7 April 2022 </a></td>
+    </tr>
+    <tr>
+      <td>31-03-2022</td>
+      <td><a href="/organization/2022/03/31/coordination.html"> HSF Coordination Meeting #226, 31 March 2022 </a></td>
+    </tr>
+    <tr>
+      <td>24-03-2022</td>
+      <td><a href="/organization/2022/03/24/generators.html"> HSF Generator WG Meeting #18, 24 March 2022 </a></td>
+    </tr>
+    <tr>
+      <td>17-03-2022</td>
+      <td><a href="/organization/2022/03/17/coordination.html"> HSF Coordination Meeting #225, 17 March 2022 </a></td>
+    </tr>
+    <tr>
+      <td>03-03-2022</td>
+      <td><a href="/organization/2022/03/03/coordination.html"> HSF Coordination Meeting #224, 3 March 2022 </a></td>
+    </tr>
+    <tr>
+      <td>17-02-2022</td>
+      <td><a href="/organization/2022/02/17/coordination.html"> HSF Coordination Meeting #223, 17 February 2022 </a></td>
+    </tr>
+    <tr>
+      <td>06-02-2022</td>
+      <td><a href="/organization/2022/02/06/generators.html"> HSF Generator WG Meeting #21, 2 June 2022 </a></td>
+    </tr>
+    <tr>
+      <td>03-02-2022</td>
+      <td><a href="/organization/2022/02/03/coordination.html"> HSF Coordination Meeting #222, 3 February 2022 </a></td>
+    </tr>
+    <tr>
+      <td>20-01-2022</td>
+      <td><a href="/organization/2022/01/20/coordination.html"> HSF Coordination Meeting #221, 20 January 2022 </a></td>
+    </tr>
+    <tr>
+      <td>09-12-2021</td>
+      <td><a href="/organization/2021/12/09/coordination.html"> HSF Coordination Meeting #220, 9 December 2021 </a></td>
+    </tr>
+    <tr>
+      <td>25-11-2021</td>
+      <td><a href="/organization/2021/11/25/coordination.html"> HSF Coordination Meeting #219, 25 November 2021 </a></td>
+    </tr>
+    <tr>
+      <td>11-11-2021</td>
+      <td><a href="/organization/2021/11/11/coordination.html"> HSF Coordination Meeting #218, 11 November 2021 </a></td>
+    </tr>
+    <tr>
+      <td>28-10-2021</td>
+      <td><a href="/organization/2021/10/28/coordination.html"> HSF Coordination Meeting #217, 28 October 2021 </a></td>
+    </tr>
+    <tr>
+      <td>14-10-2021</td>
+      <td><a href="/organization/2021/10/14/coordination.html"> HSF Coordination Meeting #216, 14 October 2021 </a></td>
+    </tr>
+    <tr>
+      <td>30-09-2021</td>
+      <td><a href="/organization/2021/09/30/coordination.html"> HSF Coordination Meeting #215, 30 September 2021 </a></td>
+    </tr>
+    <tr>
+      <td>16-09-2021</td>
+      <td><a href="/organization/2021/09/16/coordination.html"> HSF Coordination Meeting #214, 16 September 2021 </a></td>
+    </tr>
+    <tr>
+      <td>02-09-2021</td>
+      <td><a href="/organization/2021/09/02/coordination.html"> HSF Coordination Meeting #213, 2 September 2021 </a></td>
+    </tr>
+    <tr>
+      <td>22-07-2021</td>
+      <td><a href="/organization/2021/07/22/coordination.html"> HSF Coordination Meeting #212, 22 July 2021 </a></td>
+    </tr>
+    <tr>
+      <td>08-07-2021</td>
+      <td><a href="/organization/2021/07/08/coordination.html"> HSF Coordination Meeting #211, 8 July 2021 </a></td>
+    </tr>
+    <tr>
+      <td>24-06-2021</td>
+      <td><a href="/organization/2021/06/24/generators.html"> HSF Generator Meeting #16, 24 June 2021 </a></td>
+    </tr>
+    <tr>
+      <td>24-06-2021</td>
+      <td><a href="/organization/2021/06/24/coordination.html"> HSF Coordination Meeting #210, 24 June 2021 </a></td>
+    </tr>
+    <tr>
+      <td>17-06-2021</td>
+      <td><a href="/organization/2021/06/17/generators.html"> HSF Generator Meeting #15, 17 June 2021 </a></td>
+    </tr>
+    <tr>
+      <td>10-06-2021</td>
+      <td><a href="/organization/2021/06/10/coordination.html"> HSF Coordination Meeting #209, 10 June 2021 </a></td>
+    </tr>
+    <tr>
+      <td>27-05-2021</td>
+      <td><a href="/organization/2021/05/27/generators.html"> HSF Generator Meeting #14, 27 May 2021 </a></td>
+    </tr>
+    <tr>
+      <td>27-05-2021</td>
+      <td><a href="/organization/2021/05/27/coordination.html"> HSF Coordination Meeting #208, 27 May 2021 </a></td>
+    </tr>
+    <tr>
+      <td>20-05-2021</td>
+      <td><a href="/organization/2021/05/20/generators.html"> HSF Generator Meeting #13, 20 May 2021 </a></td>
+    </tr>
+    <tr>
+      <td>06-05-2021</td>
+      <td><a href="/organization/2021/05/06/generators.html"> HSF Generator Meeting #12, 06 May 2021 </a></td>
+    </tr>
+    <tr>
+      <td>06-05-2021</td>
+      <td><a href="/organization/2021/05/06/coordination.html"> HSF Coordination Meeting #207, 6 May 2021 </a></td>
+    </tr>
+    <tr>
+      <td>22-04-2021</td>
+      <td><a href="/organization/2021/04/22/generators.html"> HSF Generator Meeting #11, 22 April 2021 </a></td>
+    </tr>
+    <tr>
+      <td>15-04-2021</td>
+      <td><a href="/organization/2021/04/15/coordination.html"> HSF Coordination Meeting #206, 15 April 2021 </a></td>
+    </tr>
+    <tr>
+      <td>01-04-2021</td>
+      <td><a href="/organization/2021/04/01/coordination.html"> HSF Coordination Meeting #205, 1 April 2021 </a></td>
+    </tr>
+    <tr>
+      <td>25-03-2021</td>
+      <td><a href="/organization/2021/03/25/generators.html"> HSF Generator Meeting #10, 25 March 2021 </a></td>
+    </tr>
+    <tr>
+      <td>18-03-2021</td>
+      <td><a href="/organization/2021/03/18/coordination.html"> HSF Weekly Meeting #204, 18 March 2021 </a></td>
+    </tr>
+    <tr>
+      <td>04-03-2021</td>
+      <td><a href="/organization/2021/03/04/coordination.html"> HSF Weekly Meeting #203, 4 March 2021 </a></td>
+    </tr>
+    <tr>
+      <td>18-02-2021</td>
+      <td><a href="/organization/2021/02/18/coordination.html"> HSF Weekly Meeting #202, 18 February 2021 </a></td>
+    </tr>
+    <tr>
+      <td>04-02-2021</td>
+      <td><a href="/organization/2021/02/04/coordination.html"> HSF Weekly Meeting #201, 4 February 2021 </a></td>
+    </tr>
+    <tr>
+      <td>21-01-2021</td>
+      <td><a href="/organization/2021/01/21/coordination.html"> HSF Weekly Meeting #200, 21 January 2021 </a></td>
+    </tr>
+    <tr>
+      <td>07-01-2021</td>
+      <td><a href="/organization/2021/01/07/coordination.html"> HSF Weekly Meeting #199, 7 January 2021 </a></td>
+    </tr>
+    <tr>
+      <td>03-12-2020</td>
+      <td><a href="/organization/2020/12/03/coordination.html"> HSF Weekly Meeting #197-198, 19 November 2020 and 3 December 2020 </a></td>
+    </tr>
+    <tr>
+      <td>05-11-2020</td>
+      <td><a href="/organization/2020/11/05/coordination.html"> HSF Weekly Meeting #196, 5 November 2020 </a></td>
+    </tr>
+    <tr>
+      <td>22-10-2020</td>
+      <td><a href="/organization/2020/10/22/coordination.html"> HSF Weekly Meeting #195, 22 October 2020 </a></td>
+    </tr>
+    <tr>
+      <td>08-10-2020</td>
+      <td><a href="/organization/2020/10/08/coordination.html"> HSF Weekly Meeting #194, 8 October 2020 </a></td>
+    </tr>
+    <tr>
+      <td>30-09-2020</td>
+      <td><a href="/organization/2020/09/30/packaging.html"> HSF Software Tools and Packaging Working Group Meeting #30, 30th September 2020 </a></td>
+    </tr>
+    <tr>
+      <td>23-09-2020</td>
+      <td><a href="/organization/2020/09/23/coordination.html"> HSF Weekly Meeting #193, 24 September 2020 </a></td>
+    </tr>
+    <tr>
+      <td>03-09-2020</td>
+      <td><a href="/organization/2020/09/03/coordination.html"> HSF Weekly Meeting #192, 3 September 2020 </a></td>
+    </tr>
+    <tr>
+      <td>30-07-2020</td>
+      <td><a href="/organization/2020/07/30/coordination.html"> HSF Weekly Meeting #191, 30 July 2020 </a></td>
+    </tr>
+    <tr>
+      <td>16-07-2020</td>
+      <td><a href="/organization/2020/07/16/coordination.html"> HSF Weekly Meeting #190, 16 July 2020 </a></td>
+    </tr>
+    <tr>
+      <td>09-07-2020</td>
+      <td><a href="/organization/2020/07/09/generators.html"> HSF Generator Meeting #9, 9 July 2020 </a></td>
+    </tr>
+    <tr>
+      <td>02-07-2020</td>
+      <td><a href="/organization/2020/07/02/coordination.html"> HSF Weekly Meeting #189, 2 July 2020 </a></td>
+    </tr>
+    <tr>
+      <td>18-06-2020</td>
+      <td><a href="/organization/2020/06/18/coordination.html"> HSF Weekly Meeting #188, 18 June 2020 </a></td>
+    </tr>
+    <tr>
+      <td>04-06-2020</td>
+      <td><a href="/organization/2020/06/04/coordination.html"> HSF Weekly Meeting #187, 4 June 2020 </a></td>
+    </tr>
+    <tr>
+      <td>07-05-2020</td>
+      <td><a href="/organization/2020/05/07/coordination.html"> HSF Weekly Meeting #186, 7 May, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>23-04-2020</td>
+      <td><a href="/organization/2020/04/23/coordination.html"> HSF Weekly Meeting #185, 23 April, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>09-04-2020</td>
+      <td><a href="/organization/2020/04/09/coordination.html"> HSF Weekly Meeting #184, 9 April, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>26-03-2020</td>
+      <td><a href="/organization/2020/03/26/coordination.html"> HSF Weekly Meeting #183, 26 March, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>12-03-2020</td>
+      <td><a href="/organization/2020/03/12/coordination.html"> HSF Weekly Meeting #182, 12 March, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>27-02-2020</td>
+      <td><a href="/organization/2020/02/27/coordination.html"> HSF Weekly Meeting #181, 27 February, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>26-02-2020</td>
+      <td><a href="/organization/2020/02/26/packaging.html"> HSF Software Tools and Packaging Working Group Meeting #1, 26th February 2020 </a></td>
+    </tr>
+    <tr>
+      <td>13-02-2020</td>
+      <td><a href="/organization/2020/02/13/coordination.html"> HSF Weekly Meeting #180, 13 February, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>30-01-2020</td>
+      <td><a href="/organization/2020/01/30/coordination.html"> HSF Weekly Meeting #179, 30 January, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>23-01-2020</td>
+      <td><a href="/organization/2020/01/23/generators.html"> HSF Generator Meeting #8, 23 January 2020 </a></td>
+    </tr>
+    <tr>
+      <td>23-01-2020</td>
+      <td><a href="/organization/2020/01/23/coordination.html"> HSF Weekly Meeting #178, 23 January, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>16-01-2020</td>
+      <td><a href="/organization/2020/01/16/coordination.html"> HSF Weekly Meeting #177, 16 January, 2020 </a></td>
+    </tr>
+    <tr>
+      <td>19-12-2019</td>
+      <td><a href="/organization/2019/12/19/coordination.html"> HSF Weekly Meeting #176, 19 December, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>05-12-2019</td>
+      <td><a href="/organization/2019/12/05/coordination.html"> HSF Weekly Meeting #175, 5 December, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>21-11-2019</td>
+      <td><a href="/organization/2019/11/21/coordination.html"> HSF Weekly Meeting #174, 21 November, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>17-10-2019</td>
+      <td><a href="/organization/2019/10/17/coordination.html"> HSF Weekly Meeting #173, 17 October, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>09-10-2019</td>
+      <td><a href="/organization/2019/10/09/packaging.html"> HSF Packaging Meeting #37, 09 October, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>26-09-2019</td>
+      <td><a href="/organization/2019/09/26/coordination.html"> HSF Weekly Meeting #172, 26 September, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>12-09-2019</td>
+      <td><a href="/organization/2019/09/12/coordination.html"> HSF Weekly Meeting #171, 12 September, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>11-09-2019</td>
+      <td><a href="/organization/2019/09/11/packaging.html"> HSF Packaging Meeting #36, 11 September, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>29-08-2019</td>
+      <td><a href="/organization/2019/08/29/coordination.html"> HSF Weekly Meeting #170, 29 August, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>25-07-2019</td>
+      <td><a href="/organization/2019/07/25/generators.html"> HSF Generator Meeting #7, 25 July 2019 </a></td>
+    </tr>
+    <tr>
+      <td>11-07-2019</td>
+      <td><a href="/organization/2019/07/11/coordination.html"> HSF Weekly Meeting #169, 11 July, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>10-07-2019</td>
+      <td><a href="/organization/2019/07/10/packaging.html"> HSF Packaging Meeting #35, 10 July, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>27-06-2019</td>
+      <td><a href="/organization/2019/06/27/generators.html"> HSF Generator Meeting #6, 27 June 2019 </a></td>
+    </tr>
+    <tr>
+      <td>20-06-2019</td>
+      <td><a href="/organization/2019/06/20/coordination.html"> HSF Weekly Meeting #168, 20 June, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>06-06-2019</td>
+      <td><a href="/organization/2019/06/06/coordination.html"> HSF Weekly Meeting #167, 6 June, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>29-05-2019</td>
+      <td><a href="/organization/2019/05/29/packaging.html"> HSF Packaging Meeting #34, 29 May, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>23-05-2019</td>
+      <td><a href="/organization/2019/05/23/coordination.html"> HSF Weekly Meeting #166, 23 May, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>09-05-2019</td>
+      <td><a href="/organization/2019/05/09/generators.html"> HSF Generator Meeting #5, 09 May 2019 </a></td>
+    </tr>
+    <tr>
+      <td>09-05-2019</td>
+      <td><a href="/organization/2019/05/09/coordination.html"> HSF Weekly Meeting #165, 9 May, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>26-04-2019</td>
+      <td><a href="/organization/2019/04/26/coordination.html"> HSF Weekly Meeting #164, 25 April, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>11-04-2019</td>
+      <td><a href="/organization/2019/04/11/coordination.html"> HSF Weekly Meeting #163, 11 April, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>28-03-2019</td>
+      <td><a href="/organization/2019/03/28/generators.html"> HSF Generator Meeting #4, 28 March 2019 </a></td>
+    </tr>
+    <tr>
+      <td>28-03-2019</td>
+      <td><a href="/organization/2019/03/28/coordination.html"> HSF Weekly Meeting #162, 28 March, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>27-03-2019</td>
+      <td><a href="/organization/2019/03/27/packaging.html"> HSF Packaging Meeting #33, 27 March, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>14-03-2019</td>
+      <td><a href="/organization/2019/03/14/generators.html"> HSF Generator Meeting #3, 14 March 2019 </a></td>
+    </tr>
+    <tr>
+      <td>07-03-2019</td>
+      <td><a href="/organization/2019/03/07/coordination.html"> HSF Weekly Meeting #161, 7 March, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>28-02-2019</td>
+      <td><a href="/organization/2019/02/28/generators.html"> HSF Generator Meeting #2, 28 February 2019 </a></td>
+    </tr>
+    <tr>
+      <td>28-02-2019</td>
+      <td><a href="/organization/2019/02/28/coordination.html"> HSF Weekly Meeting #160, 28 February, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>27-02-2019</td>
+      <td><a href="/organization/2019/02/27/packaging.html"> HSF Packaging Meeting #32, 27 February, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>21-02-2019</td>
+      <td><a href="/organization/2019/02/21/coordination.html"> HSF Weekly Meeting #159, 21 February, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>14-02-2019</td>
+      <td><a href="/organization/2019/02/14/generators.html"> HSF Generator Meeting #1, 14 February 2019 </a></td>
+    </tr>
+    <tr>
+      <td>07-02-2019</td>
+      <td><a href="/organization/2019/02/07/coordination.html"> HSF Weekly Meeting #158, 7 February, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>31-01-2019</td>
+      <td><a href="/organization/2019/01/31/coordination.html"> HSF Weekly Meeting #157, 31 January, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>30-01-2019</td>
+      <td><a href="/organization/2019/01/30/packaging.html"> HSF Packaging Group Meeting #31, January 30, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>24-01-2019</td>
+      <td><a href="/organization/2019/01/24/coordination.html"> HSF Weekly Meeting #156, 24 January, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>17-01-2019</td>
+      <td><a href="/organization/2019/01/17/coordination.html"> HSF Weekly Meeting #155, 17 January, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>10-01-2019</td>
+      <td><a href="/organization/2019/01/10/coordination.html"> HSF Weekly Meeting #154, 10 January, 2019 </a></td>
+    </tr>
+    <tr>
+      <td>13-12-2018</td>
+      <td><a href="/organization/2018/12/13/coordination.html"> HSF Weekly Meeting #153, 13 December, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>11-12-2018</td>
+      <td><a href="/organization/2018/12/11/generators.html"> HSF Generator Workshop follow-up meeting, 11 December 2018 </a></td>
+    </tr>
+    <tr>
+      <td>05-12-2018</td>
+      <td><a href="/organization/2018/12/05/softwareforum.html"> Spark based analysis for LSST and HEP, December 5, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>29-11-2018</td>
+      <td><a href="/organization/2018/11/29/coordination.html"> HSF Weekly Meeting #152, 29 November, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>26-11-2018</td>
+      <td><a href="/organization/2018/11/26/generators.html"> HSF Generator Workshop, 26-28 November 2018 </a></td>
+    </tr>
+    <tr>
+      <td>21-11-2018</td>
+      <td><a href="/organization/2018/11/21/softwareforum.html"> HSF Software Forum on EIC Software Consortium, November 21, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>21-11-2018</td>
+      <td><a href="/organization/2018/11/21/packaging.html"> HSF Packaging Group Meeting #30, November 21, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>15-11-2018</td>
+      <td><a href="/organization/2018/11/15/coordination.html"> HSF Weekly Meeting #151, 15 November, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>08-11-2018</td>
+      <td><a href="/organization/2018/11/08/coordination.html"> HSF Weekly Meeting #150, 8 November, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>07-11-2018</td>
+      <td><a href="/organization/2018/11/07/softwareforum.html"> HSF Software Forum on HEP analysis in the Numpy ecosystem, November 7, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>07-11-2018</td>
+      <td><a href="/organization/2018/11/07/packaging.html"> HSF Packaging Group Meeting #29, November 7, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>25-10-2018</td>
+      <td><a href="/organization/2018/10/25/coordination.html"> HSF Weekly Meeting #149, 25 October, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>18-10-2018</td>
+      <td><a href="/organization/2018/10/18/coordination.html"> HSF Weekly Meeting #148, 18 October, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>11-10-2018</td>
+      <td><a href="/organization/2018/10/11/coordination.html"> HSF Weekly Meeting #147, 11 October, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>10-10-2018</td>
+      <td><a href="/organization/2018/10/10/softwareforum.html"> HSF Software Forum on Potential Gains from Modern Hardware, 10 October, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>04-10-2018</td>
+      <td><a href="/organization/2018/10/04/coordination.html"> HSF Weekly Meeting #146, 4 October, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>03-10-2018</td>
+      <td><a href="/organization/2018/10/03/packaging.html"> HSF Packaging Group Meeting #28, October 3, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>20-09-2018</td>
+      <td><a href="/organization/2018/09/20/coordination.html"> HSF Weekly Meeting #145, 20 September, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>19-09-2018</td>
+      <td><a href="/organization/2018/09/19/packaging.html"> HSF Packaging Group Meeting #27, September 19, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>13-09-2018</td>
+      <td><a href="/organization/2018/09/13/coordination.html"> HSF Weekly Meeting #144, 13 September, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>30-08-2018</td>
+      <td><a href="/organization/2018/08/30/coordination.html"> HSF Weekly Meeting #143, 30 August, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>19-07-2018</td>
+      <td><a href="/organization/2018/07/19/coordination.html"> HSF Weekly Meeting #142, 19 July, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>18-07-2018</td>
+      <td><a href="/organization/2018/07/18/softwareforum.html"> HSF Software Forum on Vectorisation Tools, 18 July, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>28-06-2018</td>
+      <td><a href="/organization/2018/06/28/coordination.html"> HSF Weekly Meeting #141, 28 June, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>21-06-2018</td>
+      <td><a href="/organization/2018/06/21/coordination.html"> HSF Weekly Meeting #140, 21 June, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>14-06-2018</td>
+      <td><a href="/organization/2018/06/14/software-tools.html"> HSF Software Tools Meeting, 14 June, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>13-06-2018</td>
+      <td><a href="/organization/2018/06/13/packaging.html"> HSF Packaging Group Meeting #25, June 13, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>07-06-2018</td>
+      <td><a href="/organization/2018/06/07/coordination.html"> HSF Weekly Meeting #139, 7 June, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>06-06-2018</td>
+      <td><a href="/organization/2018/06/06/softwareforum.html"> HSF Software Forum, 6 June, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>31-05-2018</td>
+      <td><a href="/organization/2018/05/31/coordination.html"> HSF Weekly Meeting #138, 31 May, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>24-05-2018</td>
+      <td><a href="/organization/2018/05/24/coordination.html"> HSF Weekly Meeting #137, 24 May, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>17-05-2018</td>
+      <td><a href="/organization/2018/05/17/coordination.html"> HSF Weekly Meeting #136, 17 May, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>16-05-2018</td>
+      <td><a href="/organization/2018/05/16/packaging.html"> HSF Packaging Group Meeting #24, May 16, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>09-05-2018</td>
+      <td><a href="/organization/2018/05/09/licensing.html"> HSF Licensing Meeting, 9 May, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>03-05-2018</td>
+      <td><a href="/organization/2018/05/03/coordination.html"> HSF Weekly Meeting #135, 4 May, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>02-05-2018</td>
+      <td><a href="/organization/2018/05/02/packaging.html"> HSF Packaging Group Meeting #23, May 2, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>23-04-2018</td>
+      <td><a href="/organization/2018/04/23/training.html"> HSF Training and Careers Working Group Meeting, 23 April, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>19-04-2018</td>
+      <td><a href="/organization/2018/04/19/coordination.html"> HSF Weekly Meeting #134, 19 April, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>12-04-2018</td>
+      <td><a href="/organization/2018/04/12/coordination.html"> HSF Weekly Meeting #133, 12 April, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>05-04-2018</td>
+      <td><a href="/organization/2018/04/05/coordination.html"> HSF Weekly Meeting #132, 5 April, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>04-04-2018</td>
+      <td><a href="/organization/2018/04/04/packaging.html"> HSF Packaging Group Meeting #22, April 4, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>22-03-2018</td>
+      <td><a href="/organization/2018/03/22/coordination.html"> HSF Weekly Meeting #131, 22 March, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>21-03-2018</td>
+      <td><a href="/organization/2018/03/21/packaging.html"> HSF Packaging Group Meeting #21, March 21, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>15-03-2018</td>
+      <td><a href="/organization/2018/03/15/startup.html"> HSF Weekly Meeting #130, 15 March, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>08-03-2018</td>
+      <td><a href="/organization/2018/03/08/startup.html"> HSF Weekly Meeting #129, 8 March, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>07-03-2018</td>
+      <td><a href="/organization/2018/03/07/packaging.html"> HSF Packaging Group Meeting #20, March 7, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>01-03-2018</td>
+      <td><a href="/organization/2018/03/01/startup.html"> HSF Weekly Meeting #128, 1 March, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>22-02-2018</td>
+      <td><a href="/organization/2018/02/22/startup.html"> HSF Weekly Meeting #127, 22 February, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>21-02-2018</td>
+      <td><a href="/organization/2018/02/21/packaging.html"> HSF Packaging Group Meeting #19, February 21, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>15-02-2018</td>
+      <td><a href="/organization/2018/02/15/startup.html"> HSF Weekly Meeting #126, 15 February, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>08-02-2018</td>
+      <td><a href="/organization/2018/02/08/startup.html"> HSF Weekly Meeting #125, 8 February, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>07-02-2018</td>
+      <td><a href="/organization/2018/02/07/packaging.html"> HSF Packaging Group Meeting #18, February 7, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>01-02-2018</td>
+      <td><a href="/organization/2018/02/01/startup.html"> HSF Weekly Meeting #124, 1 February, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>25-01-2018</td>
+      <td><a href="/organization/2018/01/25/startup.html"> HSF Weekly Meeting #123, January 25, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>24-01-2018</td>
+      <td><a href="/organization/2018/01/24/packaging.html"> HSF Packaging Group Meeting #17, January 24, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>18-01-2018</td>
+      <td><a href="/organization/2018/01/18/startup.html"> HSF Weekly Meeting #122, January 18, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>11-01-2018</td>
+      <td><a href="/organization/2018/01/11/startup.html"> HSF Weekly Meeting #121, January 11, 2018 </a></td>
+    </tr>
+    <tr>
+      <td>14-12-2017</td>
+      <td><a href="/organization/2017/12/14/startup.html"> HSF Weekly Meeting #120, December 14, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>13-12-2017</td>
+      <td><a href="/organization/2017/12/13/packaging.html"> HSF Packaging Group Meeting #16, December 13, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>07-12-2017</td>
+      <td><a href="/organization/2017/12/07/startup.html"> HSF Weekly Meeting #119, December 7, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>30-11-2017</td>
+      <td><a href="/organization/2017/11/30/startup.html"> HSF Weekly Meeting #118, November 30, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>29-11-2017</td>
+      <td><a href="/organization/2017/11/29/packaging.html"> HSF Packaging Group Meeting #15, November 29, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>16-11-2017</td>
+      <td><a href="/organization/2017/11/16/startup.html"> HSF Weekly Meeting #117, November 16, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>15-11-2017</td>
+      <td><a href="/organization/2017/11/15/packaging.html"> HSF Packaging Group Meeting #14, November 15, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>09-11-2017</td>
+      <td><a href="/organization/2017/11/09/startup.html"> HSF Weekly Meeting #116, November 9, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>02-11-2017</td>
+      <td><a href="/organization/2017/11/02/startup.html"> HSF Weekly Meeting #115, November 2, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>01-11-2017</td>
+      <td><a href="/organization/2017/11/01/packaging.html"> HSF Packaging Group Meeting #13, November 1, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>26-10-2017</td>
+      <td><a href="/organization/2017/10/26/startup.html"> HSF Weekly Meeting #114, October 26, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>18-10-2017</td>
+      <td><a href="/organization/2017/10/18/startup.html"> HSF Weekly Meeting #113, October 19, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>18-10-2017</td>
+      <td><a href="/organization/2017/10/18/packaging.html"> HSF Packaging Group Meeting #12, October 18, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>12-10-2017</td>
+      <td><a href="/organization/2017/10/12/startup.html"> HSF Weekly Meeting #112, October 12, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>05-10-2017</td>
+      <td><a href="/organization/2017/10/05/startup.html"> HSF Weekly Meeting #111, October 5, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>28-09-2017</td>
+      <td><a href="/organization/2017/09/28/startup.html"> HSF Weekly Meeting #110, September 28, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>21-09-2017</td>
+      <td><a href="/organization/2017/09/21/startup.html"> HSF Weekly Meeting #109, September 21, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>14-09-2017</td>
+      <td><a href="/organization/2017/09/14/startup.html"> HSF Weekly Meeting #108, September 14, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>07-09-2017</td>
+      <td><a href="/organization/2017/09/07/startup.html"> HSF Weekly Meeting #107, September 7, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>31-08-2017</td>
+      <td><a href="/organization/2017/08/31/startup.html"> HSF Weekly Meeting #106, August 31, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>24-08-2017</td>
+      <td><a href="/organization/2017/08/24/startup.html"> HSF Weekly Meeting #105, August 24, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>17-08-2017</td>
+      <td><a href="/organization/2017/08/17/startup.html"> HSF Weekly Meeting #104, August 17, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>10-08-2017</td>
+      <td><a href="/organization/2017/08/10/startup.html"> HSF Weekly Meeting #103, August 10, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>03-08-2017</td>
+      <td><a href="/organization/2017/08/03/startup.html"> HSF Weekly Meeting #102, August 3, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>27-07-2017</td>
+      <td><a href="/organization/2017/07/27/startup.html"> HSF Weekly Meeting #101, July 27, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>20-07-2017</td>
+      <td><a href="/organization/2017/07/20/startup.html"> HSF Weekly Meeting #100, July 20, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>13-07-2017</td>
+      <td><a href="/organization/2017/07/13/startup.html"> HSF Weekly Meeting #99, July 13, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>06-07-2017</td>
+      <td><a href="/organization/2017/07/06/startup.html"> HSF Weekly Meeting #98, July 6, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>22-06-2017</td>
+      <td><a href="/organization/2017/06/22/startup.html"> HSF Weekly Meeting #97, June 22, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>15-06-2017</td>
+      <td><a href="/organization/2017/06/15/startup.html"> HSF Weekly Meeting #96, June 15, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>08-06-2017</td>
+      <td><a href="/organization/2017/06/08/startup.html"> HSF Weekly Meeting #95, June 8, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>01-06-2017</td>
+      <td><a href="/organization/2017/06/01/startup.html"> HSF Weekly Meeting #94, June 1, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>18-05-2017</td>
+      <td><a href="/organization/2017/05/18/startup.html"> HSF Weekly Meeting #93, May 18 2017 </a></td>
+    </tr>
+    <tr>
+      <td>11-05-2017</td>
+      <td><a href="/organization/2017/05/11/startup.html"> HSF Weekly Meeting #92, May 11, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>04-05-2017</td>
+      <td><a href="/organization/2017/05/04/startup.html"> HSF Weekly Meeting #91, May 4, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>27-04-2017</td>
+      <td><a href="/organization/2017/04/27/startup.html"> HSF Weekly Meeting #90, April 27, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>20-04-2017</td>
+      <td><a href="/organization/2017/04/20/startup.html"> HSF Weekly Meeting #89, April 20, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>06-04-2017</td>
+      <td><a href="/organization/2017/04/06/startup.html"> HSF Weekly Meeting #88, April 6, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>30-03-2017</td>
+      <td><a href="/organization/2017/03/30/startup.html"> HSF Weekly Meeting #87, March 30, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>23-03-2017</td>
+      <td><a href="/organization/2017/03/23/startup.html"> HSF Weekly Meeting #86, March 23, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>16-03-2017</td>
+      <td><a href="/organization/2017/03/16/startup.html"> HSF Weekly Meeting #85, March 16, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>09-03-2017</td>
+      <td><a href="/organization/2017/03/09/startup.html"> HSF Weekly Meeting #84, March 9, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>02-03-2017</td>
+      <td><a href="/organization/2017/03/02/startup.html"> HSF Weekly Meeting #83, March 2, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>23-02-2017</td>
+      <td><a href="/organization/2017/02/23/startup.html"> HSF Weekly Meeting #82, February 23, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>21-02-2017</td>
+      <td><a href="/organization/2017/02/21/licensing.html"> Licensing WG Meeting, February 21, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>16-02-2017</td>
+      <td><a href="/organization/2017/02/16/startup.html"> HSF Weekly Meeting #81, February 16, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>09-02-2017</td>
+      <td><a href="/organization/2017/02/09/startup.html"> HSF Weekly Meeting #80, February 9, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>02-02-2017</td>
+      <td><a href="/organization/2017/02/02/startup.html"> HSF Weekly Meeting #79, February 2, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>19-01-2017</td>
+      <td><a href="/organization/2017/01/19/startup.html"> HSF Weekly Meeting #78, January 19, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>12-01-2017</td>
+      <td><a href="/organization/2017/01/12/startup.html"> HSF Weekly Meeting #77, January 12, 2017 </a></td>
+    </tr>
+    <tr>
+      <td>15-12-2016</td>
+      <td><a href="/organization/2016/12/15/startup.html"> HSF Weekly Meeting #76, December 15, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>08-12-2016</td>
+      <td><a href="/organization/2016/12/08/startup.html"> HSF Weekly Meeting #75, December 8, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>01-12-2016</td>
+      <td><a href="/organization/2016/12/01/startup.html"> HSF Weekly Meeting #74, December 1, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>17-11-2016</td>
+      <td><a href="/organization/2016/11/17/startup.html"> HSF Weekly Meeting #73, November 17, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>10-11-2016</td>
+      <td><a href="/organization/2016/11/10/startup.html"> HSF Weekly Meeting #72, November 10, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>03-11-2016</td>
+      <td><a href="/organization/2016/11/03/startup.html"> HSF Weekly Meeting #71, November 3, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>15-09-2016</td>
+      <td><a href="/organization/2016/09/15/startup.html"> HSF Weekly Meeting #69, September 15, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>08-09-2016</td>
+      <td><a href="/organization/2016/09/08/startup.html"> HSF Weekly Meeting #68, September 8, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>01-09-2016</td>
+      <td><a href="/organization/2016/09/01/startup.html"> HSF Weekly Meeting #67, September 1, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>25-08-2016</td>
+      <td><a href="/organization/2016/08/25/startup.html"> HSF Weekly Meeting #66, August 25, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>28-07-2016</td>
+      <td><a href="/organization/2016/07/28/startup.html"> HSF Weekly Meeting #65, July 28, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>21-07-2016</td>
+      <td><a href="/organization/2016/07/21/startup.html"> HSF Weekly Meeting #64, July 21, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>14-07-2016</td>
+      <td><a href="/organization/2016/07/14/startup.html"> HSF Weekly Meeting #63, July 14, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>07-07-2016</td>
+      <td><a href="/organization/2016/07/07/startup.html"> HSF Weekly Meeting #62, July 7, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>30-06-2016</td>
+      <td><a href="/organization/2016/06/30/startup.html"> HSF Weekly Meeting #61, June 30, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>23-06-2016</td>
+      <td><a href="/organization/2016/06/23/startup.html"> HSF Weekly Meeting #60, June 23, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>16-06-2016</td>
+      <td><a href="/organization/2016/06/16/startup.html"> HSF Weekly Meeting #59, June 16, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>09-06-2016</td>
+      <td><a href="/organization/2016/06/09/startup.html"> HSF Weekly Meeting #58, June 9, 2016 </a></td>
+    </tr>
+    <tr>
+      <td>26-05-2016</td>
+      <td><a href="/organization/2016/05/26/startup.html"> HSF Weekly Meeting #57, May 26 2016 </a></td>
+    </tr>
+    <tr>
+      <td>19-05-2016</td>
+      <td><a href="/organization/2016/05/19/startup.html"> HSF Weekly Meeting #56, May 19 2016 </a></td>
+    </tr>
+    <tr>
+      <td>12-05-2016</td>
+      <td><a href="/organization/2016/05/12/startup.html"> HSF Weekly Meeting #55, May 12 2016 </a></td>
+    </tr>
+    <tr>
+      <td>04-05-2016</td>
+      <td><a href="/organization/2016/05/04/Workshop-summary.html"> Third HSF Workshop Summary (May 2-4 2016, LAL) </a></td>
+    </tr>
+    <tr>
+      <td>28-04-2016</td>
+      <td><a href="/organization/2016/04/28/startup.html"> HSF Weekly Meeting #54, Apr 28 2016 </a></td>
+    </tr>
+    <tr>
+      <td>21-04-2016</td>
+      <td><a href="/organization/2016/04/21/startup.html"> HSF Weekly Meeting #53, Apr 21 2016 </a></td>
+    </tr>
+    <tr>
+      <td>14-04-2016</td>
+      <td><a href="/organization/2016/04/14/startup.html"> HSF Weekly Meeting #52, Apr 14 2016 </a></td>
+    </tr>
+    <tr>
+      <td>07-04-2016</td>
+      <td><a href="/organization/2016/04/07/startup.html"> HSF Weekly Meeting #51, Apr 7 2016 </a></td>
+    </tr>
+    <tr>
+      <td>24-03-2016</td>
+      <td><a href="/organization/2016/03/24/startup.html"> HSF Weekly Meeting #50, Mar 24 2016 </a></td>
+    </tr>
+    <tr>
+      <td>10-03-2016</td>
+      <td><a href="/organization/2016/03/10/startup.html"> HSF Weekly Meeting #49, Mar 10 2016 </a></td>
+    </tr>
+    <tr>
+      <td>03-03-2016</td>
+      <td><a href="/organization/2016/03/03/startup.html"> HSF Weekly Meeting #48, Mar 3 2016 </a></td>
+    </tr>
+    <tr>
+      <td>25-02-2016</td>
+      <td><a href="/organization/2016/02/25/startup.html"> HSF Weekly Meeting #47, Feb 25 2016 </a></td>
+    </tr>
+    <tr>
+      <td>18-02-2016</td>
+      <td><a href="/organization/2016/02/18/startup.html"> Startup Team Minutes #46 </a></td>
+    </tr>
+    <tr>
+      <td>11-02-2016</td>
+      <td><a href="/organization/2016/02/11/startup.html"> Startup Team Minutes #45 </a></td>
+    </tr>
+    <tr>
+      <td>04-02-2016</td>
+      <td><a href="/organization/2016/02/04/startup.html"> Startup Team Minutes #44 </a></td>
+    </tr>
+    <tr>
+      <td>28-01-2016</td>
+      <td><a href="/organization/2016/01/28/startup.html"> Startup Team Minutes #43 </a></td>
+    </tr>
+    <tr>
+      <td>21-01-2016</td>
+      <td><a href="/organization/2016/01/21/startup.html"> Startup Team Minutes #42 </a></td>
+    </tr>
+    <tr>
+      <td>14-01-2016</td>
+      <td><a href="/organization/2016/01/14/startup.html"> Startup Team Minutes #41 </a></td>
+    </tr>
+    <tr>
+      <td>10-12-2015</td>
+      <td><a href="/organization/2015/12/10/startup.html"> Startup Team Minutes #40 </a></td>
+    </tr>
+    <tr>
+      <td>19-11-2015</td>
+      <td><a href="/organization/2015/11/19/startup.html"> Startup Team Minutes #39 </a></td>
+    </tr>
+    <tr>
+      <td>05-11-2015</td>
+      <td><a href="/organization/2015/11/05/startup.html"> Startup Team Minutes #38 </a></td>
+    </tr>
+    <tr>
+      <td>29-10-2015</td>
+      <td><a href="/organization/2015/10/29/startup.html"> Startup Team Minutes #37 </a></td>
+    </tr>
+    <tr>
+      <td>22-10-2015</td>
+      <td><a href="/organization/2015/10/22/startup.html"> Startup Team Minutes #36 </a></td>
+    </tr>
+    <tr>
+      <td>15-10-2015</td>
+      <td><a href="/organization/2015/10/15/startup.html"> Startup Team Minutes #35 </a></td>
+    </tr>
+    <tr>
+      <td>08-10-2015</td>
+      <td><a href="/organization/2015/10/08/startup.html"> Startup Team Minutes #34 </a></td>
+    </tr>
+    <tr>
+      <td>01-10-2015</td>
+      <td><a href="/organization/2015/10/01/startup.html"> Startup Team Minutes #33 </a></td>
+    </tr>
+    <tr>
+      <td>25-09-2015</td>
+      <td><a href="/organization/2015/09/25/startup.html"> Startup Team Minutes #32 </a></td>
+    </tr>
+    <tr>
+      <td>16-07-2015</td>
+      <td><a href="/organization/2015/07/16/startup.html"> Startup Team Minutes #31 </a></td>
+    </tr>
+    <tr>
+      <td>09-07-2015</td>
+      <td><a href="/organization/2015/07/09/startup.html"> Startup Team Minutes #30 </a></td>
+    </tr>
+    <tr>
+      <td>02-07-2015</td>
+      <td><a href="/organization/2015/07/02/startup.html"> Startup Team Minutes #29 </a></td>
+    </tr>
+    <tr>
+      <td>24-06-2015</td>
+      <td><a href="/organization/2015/06/24/ifb.html"> Interim Foundation Board Meeting #9 </a></td>
+    </tr>
+    <tr>
+      <td>22-06-2015</td>
+      <td><a href="/organization/2015/06/22/startup.html"> Startup Team Minutes #28 </a></td>
+    </tr>
+    <tr>
+      <td>15-06-2015</td>
+      <td><a href="/organization/2015/06/15/startup.html"> Startup Team Minutes #27 </a></td>
+    </tr>
+    <tr>
+      <td>08-06-2015</td>
+      <td><a href="/organization/2015/06/08/startup.html"> Startup Team Minutes #26 </a></td>
+    </tr>
+    <tr>
+      <td>01-06-2015</td>
+      <td><a href="/organization/2015/06/01/startup.html"> Startup Team Minutes #25 </a></td>
+    </tr>
+    <tr>
+      <td>18-05-2015</td>
+      <td><a href="/organization/2015/05/18/startup.html"> Startup Team Minutes #24 </a></td>
+    </tr>
+    <tr>
+      <td>11-05-2015</td>
+      <td><a href="/organization/2015/05/11/startup.html"> Startup Team Minutes #23 </a></td>
+    </tr>
+    <tr>
+      <td>04-05-2015</td>
+      <td><a href="/organization/2015/05/04/startup.html"> Startup Team Minutes #22 </a></td>
+    </tr>
+    <tr>
+      <td>27-04-2015</td>
+      <td><a href="/organization/2015/04/27/startup.html"> Startup Team Minutes #21 </a></td>
+    </tr>
+    <tr>
+      <td>20-04-2015</td>
+      <td><a href="/organization/2015/04/20/startup.html"> Startup Team Minutes #20 </a></td>
+    </tr>
+    <tr>
+      <td>30-03-2015</td>
+      <td><a href="/organization/2015/03/30/startup.html"> Startup Team Minutes #19 </a></td>
+    </tr>
+    <tr>
+      <td>23-03-2015</td>
+      <td><a href="/organization/2015/03/23/startup.html"> Startup Team Minutes #18 </a></td>
+    </tr>
+    <tr>
+      <td>16-03-2015</td>
+      <td><a href="/organization/2015/03/16/startup.html"> Startup Team Minutes #17 </a></td>
+    </tr>
+    <tr>
+      <td>04-03-2015</td>
+      <td><a href="/organization/2015/03/04/ifb.html"> Interim Foundation Board Meeting #8 </a></td>
+    </tr>
+    <tr>
+      <td>02-03-2015</td>
+      <td><a href="/organization/2015/03/02/startup.html"> Startup Team Minutes #16 </a></td>
+    </tr>
+    <tr>
+      <td>23-02-2015</td>
+      <td><a href="/organization/2015/02/23/startup.html"> Startup Team Minutes #15 </a></td>
+    </tr>
+    <tr>
+      <td>16-02-2015</td>
+      <td><a href="/organization/2015/02/16/startup.html"> Startup Team Minutes #14 </a></td>
+    </tr>
+    <tr>
+      <td>10-02-2015</td>
+      <td><a href="/organization/2015/02/10/startup.html"> Startup Team Minutes #13 </a></td>
+    </tr>
+    <tr>
+      <td>12-01-2015</td>
+      <td><a href="/organization/2015/01/12/startup.html"> Startup Team Minutes #12 </a></td>
+    </tr>
+    <tr>
+      <td>07-01-2015</td>
+      <td><a href="/organization/2015/01/07/ifb.html"> Interim Foundation Board Meeting #7 </a></td>
+    </tr>
+    <tr>
+      <td>05-01-2015</td>
+      <td><a href="/organization/2015/01/05/startup.html"> Startup Team Minutes #11 </a></td>
+    </tr>
+    <tr>
+      <td>22-12-2014</td>
+      <td><a href="/organization/2014/12/22/startup.html"> Startup Team Minutes #10 </a></td>
+    </tr>
+    <tr>
+      <td>15-12-2014</td>
+      <td><a href="/organization/2014/12/15/startup.html"> Startup Team Minutes #9 </a></td>
+    </tr>
+    <tr>
+      <td>08-12-2014</td>
+      <td><a href="/organization/2014/12/08/startup.html"> Startup Team Minutes #8 </a></td>
+    </tr>
+    <tr>
+      <td>03-12-2014</td>
+      <td><a href="/organization/2014/12/03/ifb.html"> Interim Foundation Board Meeting #6 </a></td>
+    </tr>
+    <tr>
+      <td>26-11-2014</td>
+      <td><a href="/organization/2014/11/26/startup.html"> Startup Team Minutes #7 </a></td>
+    </tr>
+    <tr>
+      <td>17-11-2014</td>
+      <td><a href="/organization/2014/11/17/startup.html"> Startup Team Minutes #6 </a></td>
+    </tr>
+    <tr>
+      <td>10-11-2014</td>
+      <td><a href="/organization/2014/11/10/startup.html"> Startup Team Minutes #5 </a></td>
+    </tr>
+    <tr>
+      <td>05-11-2014</td>
+      <td><a href="/organization/2014/11/05/ifb.html"> Interim Foundation Board Meeting #5 </a></td>
+    </tr>
+    <tr>
+      <td>27-10-2014</td>
+      <td><a href="/organization/2014/10/27/startup.html"> Startup Team Minutes #4 </a></td>
+    </tr>
+    <tr>
+      <td>23-10-2014</td>
+      <td><a href="/organization/2014/10/23/startup.html"> Startup Team Minutes #3 </a></td>
+    </tr>
+    <tr>
+      <td>22-10-2014</td>
+      <td><a href="/organization/2014/10/22/ifb.html"> Interim Foundation Board Meeting #4 </a></td>
+    </tr>
+    <tr>
+      <td>15-10-2014</td>
+      <td><a href="/organization/2014/10/15/startup.html"> Startup Team Minutes #2 </a></td>
+    </tr>
+    <tr>
+      <td>08-10-2014</td>
+      <td><a href="/organization/2014/10/08/startup.html"> Startup Team Minutes #1 </a></td>
+    </tr>
+    <tr>
+      <td>17-09-2014</td>
+      <td><a href="/organization/2014/09/17/ifb.html"> Interim Foundation Board Meeting #3 </a></td>
+    </tr>
+    <tr>
+      <td>07-09-2014</td>
+      <td><a href="/organization/2014/09/07/ifb.html"> Interim Foundation Board Meeting #2 </a></td>
+    </tr>
+    <tr>
+      <td>16-07-2014</td>
+      <td><a href="/organization/2014/07/16/ifb.html"> Interim Foundation Board Meeting #1 </a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/organization/minutes.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

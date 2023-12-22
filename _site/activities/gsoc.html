@@ -1,0 +1,2928 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Google Summer of Code</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <h1 id="-google-summer-of-code-2023"><img src="/images/CERN-HSF-GSoC-logo.png" alt="CERN" height="100px" /> Google Summer of Code 2023</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p><a href="https://summerofcode.withgoogle.com">Google Summer of Code</a> is a program that allows students to contribute to the development of open-source projects, mentored by participating organizations.</p>
+
+<p>Particle physics is an exciting field where large collaborations of scientists collect
+and analyze petabytes of data from high-energy physics experiments, such as those at the Large Hadron Collider,
+hosted at the CERN laboratory in Geneva, Switzerland.
+Some of the questions that we collectively ask are:</p>
+
+<ul>
+  <li>what are the fundamental blocks that make up our Universe?</li>
+  <li>what is the nature of dark matter and dark energy?</li>
+  <li>what is the nature of the asymmetry between matter and antimatter?</li>
+  <li>what was early Universe like?</li>
+</ul>
+
+<p>To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.</p>
+
+<p>The CERN software for experiments (CERN EP-SFT) group has participated in the GSoC since 2011. Since 2017 the program has expanded to involve the high-energy physics community under the umbrella of the HEP Software Foundation.</p>
+
+<p>Information from last year’s GSoC can be found <a href="/gsoc/2022/index.html">here</a>.</p>
+
+<h3 id="gsoc-2023">GSoC 2023</h3>
+
+<p>In 2023 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. The HSF project ideas are listed <a href="#projects-in-2023">below</a>. Please have a look at the general <a href="https://summerofcode.withgoogle.com/rules/">program rules</a> and the <a href="https://summerofcode.withgoogle.com/how-it-works/">timeline</a> provided by Google.</p>
+
+<p>The selection process in our organization will be split into two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. The successful candidates will have a detailed exchange with mentors on a given project idea, and their proposals are then evaluated for the final student selection. The detailed <a href="/activities/gsoc.html#timeline">timeline</a> of these phases is shown below.</p>
+
+<h3 id="for-students">For Students</h3>
+
+<p>If you are interested in the HSF projects, please start by having a look at our <a href="/gsoc/students-guideline.html">guidelines for students</a>.</p>
+
+<p>New projects for HSF GSoC in 2023 will be published by <strong>February 7</strong>. Meanwhile you can take a look at last year’s HSF GSoC <a href="/gsoc/2022/index.html#projects-in-2022">projects</a> since many of those may also propose subjects this year. The student application period will begin on <strong>March 20</strong>, but discussions about student project ideas with mentors will take place starting on <strong>February 22</strong>, when the list of accepted Organizations is announced. You are encouraged to monitor this website in order to get acquainted with our projects and be prepared for contacting their mentors. Due to the high number of applicants for CERN-HSF projects, the application period procedure become more formal this year, so please try to follow our guidance.</p>
+
+<p>Please avoid having the first contact with the mentors of HSF projects before <strong>February 22</strong> or after <strong>March 20</strong>! You are encouraged to take the time to read our project proposals until <strong>February 22</strong>, focusing on only one or two projects that attract your interest. Once you have identified those, you should e-mail the respective mentors, attaching your CV and describing the motivation for your choice. The mentors will first propose an evaluation test, waiting for your solution. Note that the test you are given is private, your solution should be personal and the response time is part of the evaluation. Mentors will let you know the test results, and if you passed they will start discussing and helping you develop a project idea. The student application period is <strong>March 27 - April 4</strong>, when you will have to write and review your proposal with help from your mentors.</p>
+
+<p>For further information, feel free to contact the HSF GSoC admins or join our open chat channel below. Note that the channel is intended for exchanging with the admins, the other candidates and some of the CERN-HSF students from previous year, and we do not maintain a mailing list for candidates. Please avoid posting extended information about yourself in the chat channel and reserve this for the direct exchange with the mentors.</p>
+
+<p><a href="mailto:hsf-gsoc-admin@googlegroups.com">hsf-gsoc-admin@googlegroups.com</a></p>
+
+<p><a href="https://gitter.im/HSF/HSF-GSoC?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/HSF/HSF-GSoC.svg" alt="Gitter" /></a></p>
+
+<h3 id="student-pages">Student pages</h3>
+
+<p>The CERN-HSF 2022 student blogs are now available. <a href="/gsoc/2022/blogs.html">Check them out!</a></p>
+
+<p>Student blogs are mandatory for receiving a positive evaluation in CERN-HSF starting with 2022 GSoC edition! If you are a CERN-HSF student, please read this <a href="/gsoc/blogs/2022/blog_HSF_TheAdmins.html">blog</a>.</p>
+
+<h3 id="for-projects-and-mentors">For Projects and Mentors</h3>
+
+<p>Instructions for participating projects and mentors can be found <a href="/gsoc/guideline.html">here</a>. The main differences compared to last year are that proposals have to be tuned for either 175-hour or 350h project length, and the target objectives must be well-defined deliverables.</p>
+
+<p>We have a mentor-only Google group where we handle all announcements related to GSoC for our HSF Umbrella Organization. Please write us a mail to <a href="mailto:hsf-gsoc-admin@googlegroups.com">hsf-gsoc-admin@googlegroups.com</a> if you want to add your preferred email to this list. Note that all participating mentors in 2022 HSF GSoC will have to be added to this group. Please let us know if for some reason your want your mail removed from this list.</p>
+
+<p>For new HEP-related groups wishing to join HSF GSoC umbrella rather than being independent organizations: there is no formal procedure, you will just need to add a description and logo for your organization. Note that your project needs to have some connection with high-energy physics to join us. We need one contact person for each new group, so please write us an e-mail.</p>
+
+<h2 id="timeline">Timeline</h2>
+
+<table class="table table-hover table-striped">
+  <tr>
+    <td> Jan 19 </td>
+    <td> Announcement of GSoC 2023 program in HSF </td>
+  </tr>
+  <tr>
+    <td> Jan 19 </td>
+    <td>Call for 2023 HSF GSoC projects and mentors</td>
+  </tr>
+  <tr>
+    <td> Jan 19 - Feb 7 </td>
+    <td> Mentors add project proposals available on the HSF GSoC website </td>
+  </tr>
+   <tr>
+    <td> Feb 7</td>
+    <td> Deadline for CERN-HSF proposals </td>
+  </tr>
+  <tr>
+    <td> Feb 22 </td>
+    <td> Accepted Organizations announced by Google </td>
+  </tr>
+  <tr>
+    <td> Feb 22 - March 14 </td>
+    <td><p><font color="blue"> Phase 1 selection </font></p> Candidates have a first contact with project mentors. </td>
+  </tr>
+  <tr>
+    <td> March 14 </td>
+    <td> Mentors announce to students the result of phase 1 selection </td>
+  </tr>
+  <tr>
+    <td> Mar 14 - March 27 </td>
+    <td> Candidates discuss with mentors their project idea, timeline and objectives.</td>
+  </tr>
+  <tr>
+    <td> March 27 - Apr 4 </td>
+    <td> Mentors help candidates improving their proposals, proposals are submitted </td>
+  </tr>
+  <tr>
+    <td> Apr 4 </td>
+    <td> Student application deadline </td>
+  </tr>
+  <tr>
+    <td> Apr 4 - Apr 22 </td>
+    <td><p><font color="blue"> Phase 2 selection </font></p> Mentors evaluate and rank student proposals. </td>
+  </tr>
+  <tr>
+    <td> April 22 </td>
+    <td> Rankings due for mentors, sent to HSF Org Admins </td>
+  </tr>
+  <tr>
+    <td> April 22 - April 27 </td>
+    <td> Admins propose a range of slots to be asked, amended by the HSF committee.</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <td> April 27 </td>
+    <td> Student slot requests due for Org Admins </td>
+  </tr>
+  <tr style="color: red;">
+    <td> May 4 </td>
+    <td> Accepted student projects announced  </td>
+  </tr>
+</table>
+
+<h2 id="projects-in-2023">Projects in 2023</h2>
+
+<table class="table table-hover table-striped">
+  <tbody>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/belle2-logo.png" alt="Belle2" width="100px" /></td>
+    
+    <td><p><a href="https://belle2.jp/">Belle II</a> is a particle physics experiment that studies electron positron collision events produced by thethe <a href="https://www-superkekb.kek.jp/">SuperKEKB</a> acceleratorat the <a href="https://www.kek.jp/en/">KEK laboratory</a> in Tsukuba, Japan.It is designed to collect 50 times more data than its predecessorto address open questions in fundamental physics with highprecision measurements.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_Belle2.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/cernbox-logo.png" alt="CERNBox" width="100px" /></td>
+    
+    <td><p><a href="http://cernbox.web.cern.ch">CERNBox</a> is a cloud synchronisation service forend-users: it allows syncing and sharing files on all major mobile anddesktop platforms (Linux, Windows, MacOSX, Android, iOS) aiming to provideoffline availability to any data stored in the <a href="http://eos.web.cern.ch">CERN EOS</a>infrastructure.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_CERNBox.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/cernvmfs-logo.png" alt="CernVM-FS" width="100px" /></td>
+    
+    <td><p>The CernVM-File System (<a href="https://cernvm.cern.ch/fs/">CVMFS</a>) is a global, read-only POSIX file system that provides the universal namespace /cvmfs. It is based on content-addressable storage, Merkle trees, and HTTP data transport.  CernVM-FS provides a mission critical infrastructure to small and large HEP collaborations.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_CernVM-FS.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/Clad-logo.png" alt="Clad" width="100px" /></td>
+    
+    <td><p>Clad is an automatic differentiation (AD) tool for C++</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_Clad.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/Cppyy-logo.png" alt="Cppyy" width="100px" /></td>
+    
+    <td><p>Cppyy is an automatic, run-time, Python-C++ bindings generator, for callingC++ from Python and Python from C++.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_Cppyy.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/DD4hep_logo_small.png" alt="DD4hep" width="100px" /></td>
+    
+    <td><p>A generic detector description framework. When referring to the detector description this includes, in addition to the geometry and the materials used in the device, also parameters describing e.g. the detection techniques, constants required for alignment and calibration, description of the readout structures and conditions data.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_DD4hep.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/faser-logo.png" alt="FASER" width="100px" /></td>
+    
+    <td><p>The <a href="https://arxiv.org/abs/2208.11427">FASER experiment</a> is an LHC experiment located in a tunnel parallel to the LHC ring and is considerably smaller and low-budget compared to the titan LHC experiments such as ATLAS and CMS. The experiment seeks to detect new long-lived particles that have travelled half a kilometer from a LHC proton-proton collision site, escaping the major ATLAS experiment undetected. The only other proton collision “background” particles reaching FASER’s faraway location are muons and neutrinos. Evidence of a new particle, such as the hypothetical dark photon, may lead to answering our most fundamental questions of the Universe such as the origin of dark matter.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_FASER.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/ganga_logo_150dpi.png" alt="Ganga" width="100px" /></td>
+    
+    <td><p><a href="https://github.com/ganga-devs/ganga">Ganga</a> is a computational task-management tool, which allows for the specification, submission, bookkeeping and post-processing of computational tasks on a wide set of distributed resources.Ganga has been developed to solve a problem increasingly common in scientific projects, which is that researchers must regularly switch between different processing systems, each with its own command set, to complete their computational tasks. Ganga provides a homogeneous environment for processing data on heterogeneous resources.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_Ganga.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/Geant4-logo.png" alt="Geant4" width="100px" /></td>
+    
+    <td><p>Geant4 is a toolkit for the simulation of the passage of particles through matter.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_Geant4.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/hsf_logo_angled.png" alt="HSF" width="100px" /></td>
+    
+    <td><p>The HEP Software Foundation encourages cooperation and common development of software in High Energy Physics. The HSF hosts a number of software projects where developers are working to solve current problems in particle physics.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_HSF.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/mcnet-logo.png" alt="MCnet" width="100px" /></td>
+    
+    <td><p><a href="http://montecarlonet.org">MCnet</a> is a community linking the developers ofparticle-theory simulations with experimentalists and others who use andmake tools for analysing the simulated events. Projects may be availablefrom both aspects of the community.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_MCnet.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/MadAnalysis5-logo.png" alt="MadAnalysis5" width="100px" /></td>
+    
+    <td><p><a href="https://github.com/MadAnalysis">MadAnalysis 5</a> is a framework for phenomenological investigations at particle colliders. Based on a C++ kernel, this program allows to efficiently perform sophisticated physics analyses of event files such as those generated a large class of Monte Carlo event generators in a straightforward and user-friendly fashion.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_MadAnalysis5.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/patatrack-logo.png" alt="Patatrack" width="100px" /></td>
+    
+    <td><p>The <a href="https://patatrack.web.cern.ch/patatrack/index.html">Patatrack</a> project started in 2016 by a group of people with various area of expertise, such as software optimization, heterogeneous computing, track reconstruction and High Level Trigger (HLT) at the CMS experiment at CERN. The goal was to demonstrate that part of the HLT reconstruction could be efficiently offloaded on machines equipped with GPUs for parallel execution. Nowadays, Patatrack developments have been integrated into the CMS software for event reconstruction and the project focuses on the exploration of innovative software and hardware technologies to bring smart software closer to the detector read-out at CERN experiments.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_Patatrack.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/phoenix-logo.png" alt="Phoenix" width="100px" /></td>
+    
+    <td><p><a href="https://github.com/HSF/phoenix">Phoenix</a> is an experiment-agnostic library for the visualisation of detector geometry and event data in a browser.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_Phoenix.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/ROOT-logo.png" alt="ROOT" width="100px" /></td>
+    
+    <td><p>A modular scientific software framework. It provides all the functionalities needed to deal with big data processing,statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages suchas Python and R.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_ROOT.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/RUCIO-logo.png" alt="Rucio" width="100px" /></td>
+    
+    <td><p><a href="https://rucio.cern.ch/">Rucio</a> is an open-source software framework that provides functionality to scientific collaborations to organize, manage, monitor, and access their distributed data and dataflows across heterogeneous infrastructures. Rucio was originally developed to meet the requirements of the high-energy physics experiment ATLAS, and is continuously enhanced to support diverse scientific communities.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_Rucio.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/SMARTHEP-logo.png" alt="SMARTHEP" width="100px" /></td>
+    
+    <td><p>SMARTHEP is an European Training Network involving LHC experiments and industry. We develop efficient software and machine learning algorithms on heterogeneous computing architectures to advance real-time analysis.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_SMARTHEP.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/swan_logo.svg" alt="SWAN" width="100px" /></td>
+    
+    <td><p>SWAN is a CERN service that allows users to perform interactive data analysis in the cloud, built upon the widely-used Jupyter notebooks and CERN technologies for storage and software access.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_SWAN.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/iris-hep-logo.png" alt="iris_hep" width="100px" /></td>
+    
+    <td><p>IRIS-HEP is a software institute funded by the National Science Foundation. It aims to develop the state-of-the-art software cyberinfrastructure required for the challenges of data intensive scientific research at the High Luminosity Large Hadron Collider (HL-LHC) at CERN, and other planned HEP experiments of the 2020’s. These facilities are discovery machines which aim to understand the fundamental building blocks of nature and their interactions.</p>
+</td>
+    <td><a href="/gsoc/projects/2023/project_iris_hep.html">List of proposals</a></td>
+  </tr>
+  
+  
+
+  </tbody>
+</table>
+
+<h2 id="participating-organizations-in-2023">Participating Organizations in 2023</h2>
+
+<table class="table table-hover table-striped">
+  <tbody>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/CEA-logo.png" alt="CEA-IRFU" width="100px" /></td>
+    
+    <td><p>The <a href="https://irfu.cea.fr">IRFU</a>, Institute for Research on the fundamental laws of the universe, of the Fundamental Research Division of the <a href="https://www.cea.fr">CEA</a>, brings together three scientific disciplines, astrophysics, nuclear physics and particle physics, as well as all the associated technological expertise.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/cea-irfu.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/CERN-logo.jpg" alt="CERN" width="100px" /></td>
+    
+    <td><p>At <a href="https://home.cern">CERN</a>, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world’s largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/cern.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/CompRes-logo.png" alt="CompRes" width="100px" /></td>
+    
+    <td><p>The Compiler Research Group is a group of programming language enthusiasts at Princeton University and CERN. It’s primary goal is to research foundational software tools that help scientists program for speed, interoperability, interactivity, flexibility, and reproducibility.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/compres.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/Imperial-College-London2.png" alt="ImperialCollege" width="100px" /></td>
+    
+    <td><p><a href="https://www.imperial.ac.uk/">Imperial College London</a> is a world top ten university with an international reputation for excellence in teaching and research. Consistently rated amongst the world’s best universities, Imperial is committed to developing  the next generation of researchers, scientists and academics through collaboration across disciplines. Located in the heart of London, Imperial is a multidisciplinary space for education, research, translation and commercialisation, harnessing science and innovation to tackle global challenges.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/imperialcollege.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/IPPP-logo.png" alt="IPPP" width="100px" /></td>
+    
+    <td><p><a href="https://www.ippp.dur.ac.uk">The Institute for Particle Physics Phenomenology</a> at Durham University is UK’s national centre for particle phenomenology, researching the properties and behaviour of the most fundamental building blocks of nature. Since it has founded, IPPP has grown to become one of the largest particle phenomenology groups in the world. Our research sits at the interface between theoretical particle physics and experiments ranging from particle colliders to gravitational wave detectors.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/ippp.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/iris-hep-logo.png" alt="iris-hep" width="100px" /></td>
+    
+    <td><p>IRIS-HEP is a software institute funded by the National Science Foundation. It aims to develop the state-of-the-art software cyberinfrastructure required for the challenges of data intensive scientific research at the High Luminosity Large Hadron Collider (HL-LHC) at CERN, and other planned HEP experiments of the 2020’s. These facilities are discovery machines which aim to understand the fundamental building blocks of nature and their interactions.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/iris-hep.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/KIT-logo.png" alt="KIT" width="100px" /></td>
+    
+    <td><p><a href="https://www.kit.edu/">KIT</a> KIT is “The Research University in the Helmholtz Association.” As one of the biggest science institutions in Europe, the only German University of Excellence with national large-scale research facilities combines a long university tradition with program-oriented top-level research.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/kit.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/LMU-logo.png" alt="LMU" width="100px" /></td>
+    
+    <td><p><a href="https://lmu.de/">LMU</a> The Ludwig Maximilians University in Munich is one of the leading universities in Europe with a history going back over 500 years. It stands for a demanding academic education and outstanding research.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/lmu.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/LPTHE-logo.png" alt="LPTHE" width="100px" /></td>
+    
+    <td><p><a href="https://www.lpthe.jussieu.fr/spip/?lang=en">The Laboratory of Theoretical and High Energy Physics (LPTHE)</a> is a Joint Research Unit (UMR 7589) of Sorbonne University and of the CNRS. It is affiliated with the CNRS Institute of Physics (INP). It comprises 19 CNRS researchers and 10 university professors.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/lpthe.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/Monash.png" alt="MonashUniversity" width="100px" /></td>
+    
+    <td><p><a href="https://www.monash.edu/">Monash University</a> Monash University is one of Australia’s leading universities and ranks among the world’s top 100. We help change lives through research and education.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/monashuniversity.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/princeton-logo.png" alt="princeton" width="100px" /></td>
+    
+    <td><p>Princeton University is a private Ivy League research university in Princeton, New Jersey.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/princeton.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UGlasgow-logo.png" alt="UofGlasgow" width="100px" /></td>
+    
+    <td><p>The <a href="https://www.gla.ac.uk/">University of Glasgow</a> is a leading UK research university based in Scotland’s largest city. We work on <a href="https://www.gla.ac.uk/schools/physics/research/groups/particlephysicsexperiment/">particle physics experiments</a> from the LHC to neutrinos, particle theory from interpretations of Higgs and top-quark measurements to the strong force, and high-performance distributed computing.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/uglasgow.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/LundU-logo.png" alt="LundU" width="100px" /></td>
+    
+    <td><p><a href="https://particlephysics.physics.lu.se">Lund University</a> is one of the largest universities in Sweden. In the Division of Particle Physics, we work on the construction, operations, maintenance and upgrades of our experimental installations. Our researchers are members of the ATLAS and ALICE Collaborations at CERN, but we also have a leading role in the LDMX experiment at SLAC. The necessity to process very large amounts of research data using modern computational methods lead to the emergence of e-Science, which refers to research and creation of dedicated scientific computer and software solutions, and we are among the leading contributors to e-Science solutions for Particle Physics..</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/ulund.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UofM-logo.png" alt="UofManchester" width="100px" /></td>
+    
+    <td><p>The <a href="https://www.manchester.ac.uk">University of Manchester</a> is a leading UK research university. We have a large <a href="https://www.hep.manchester.ac.uk">particle physics group</a> with contributions to LHC experiments, dark matter, flavour, neutrino and muon experiments. We also carry out research into new detector technologies and new data acquisition strategies for future experiments. We are also involved in distributed computing for LHC experiments, hosting one of the largest and most successful Tier-2 distributed computing centres in the UK.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/umanchester.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/UManitoba-logo.png" alt="umanitoba" width="100px" /></td>
+    
+    <td><p>The University of Manitoba is a Canadian public research university in the province of Manitoba, located on original lands of Anishinaabeg, Cree, Oji-Cree, Dakota, and Dene peoples, and on the homeland of the Métis Nation.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/umanitoba.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/umass-logo.png" alt="UMass" width="100px" /></td>
+    
+    <td><p>UMass Amherst is one of the major public research universities in America.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/umass.html">List of proposals</a></td>
+  </tr>
+  
+  
+  
+  
+  
+  
+  
+  
+  <tr>
+    
+    <td><img src="/images/unige_logo.jpg" alt="UNIGE" width="100px" /></td>
+    
+    <td><p>The <a href="https://www.unige.ch/universite/recherche/">Université de Genève</a> (Switzerland) and its faculty of science is heavily invested in fundamental research and technology. Its department of particle physics (<a href="https://www.unige.ch/dpnc">DPNC</a>) studies the fundamental structure and laws of nature from the largest dimensions in the Universe to the smallest building blocks of matter. It has a strong and long-standing commitment to  the CERN LHC experimental program.</p>
+</td>
+    <td><a href="/gsoc/organizations/2023/unige.html">List of proposals</a></td>
+  </tr>
+  
+  
+
+  </tbody>
+</table>
+
+<h2 id="summary">Summary</h2>
+
+<p><a href="/gsoc/2023/summary.html">Full list of Proposal Ideas</a></p>
+
+<p><a href="/gsoc/2023/mentors.html">Full list of Mentors</a></p>
+
+<hr />
+
+<h2 id="contacts">Contacts</h2>
+
+<p><em>HSF GSoC mentor discussion</em> <a href="mailto:hep-software-foundation-google-summer-of-code@googlegroups.com">e-group</a></p>
+
+<p><em>HSF GSoC administrators:</em> <a href="mailto:hsf-gsoc-admin@googlegroups.com">Benedikt Hegner</a></p>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_activities/gsoc.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

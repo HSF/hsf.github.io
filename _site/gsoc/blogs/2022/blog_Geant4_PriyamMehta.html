@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Geant4-FastSim - Memory footprint optimization for ML fast shower simulation</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_Geant4_DivyanshTiwari.html">&nbsp;&#8592; Symplectic Integrators</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_Smashbox_AnandKrishna.html">Smashbox in Python 3 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+       
+        <div class="col-md-3">
+          <img src="/images/blog_authors/PriyamMehta.png" alt=Priyam Mehta width="100%" style="float:right">
+        </div>
+        <div class="col-md-9">
+      
+    
+    <h1 class="blog-title">Geant4-FastSim - Memory footprint optimization for ML fast shower simulation</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">27 Jul 2022 by <a href="/gsoc/blogs/2022/blog_Geant4_PriyamMehta.html">Priyam Mehta</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <h1 id="why">Why?</h1>
+<p>In Large Hadron Collider (LHC) experiments, at CERN in Geneva, the calorimeter is a key detector technology to measure the energy of particles. These particles interact electromagnetically and/or hadronically with the material of the calorimeter, creating cascades of secondary particles or showers. Describing the showering process relies on simulation methods that precisely describe all particle interactions with matter. A detailed and accurate simulation is based on the Geant4 toolkit. Constrained by the need for precision, the simulation is inherently slow and constitutes a bottleneck for physics analysis. Furthermore, with the upcoming high luminosity upgrade of the LHC with more complex events and a much increased trigger rate, the amount of required simulated events will increase.</p>
+
+<p>Machine Learning (ML) techniques such as generative modeling are used as fast simulation alternatives to learn to generate showers in a calorimeter, i.e. simulating the calorimeter response to certain particles. The pipeline of a fast simulation solution can be categorized into five components: data preprocessing, ML model design, validation, inference and optimization. The preprocessing module allows us to derive a suitable representation of showers, to perform data cleaning, scaling and encoding. The preprocessed data is then used by the generative model for training. In order to search for the best set of hyperparameters of the model, techniques such as Automatic Machine Learning (AutoML) are used. The validation component is based on comparing different ML metrics and physics quantities between the input and generated data. After training and validation the model is converted into a format that can be used for inference in C++. This allows its application directly in the frameworks of physics experiments. The optimization component is used to further reduce the memory footprint of the model at inference time. Moreover, optimization techniques are also used at training time to reduce the number of trainable parameters.</p>
+
+<p>The aim of this project is to optimize the ML pipeline of the fast simulation approach using the open-source platform Kubeflow with a focus on the memory footprint optimization of the model during inference. Furthermore, a byproduct of this project is that the student will gain expertise in cutting-edge ML techniques, and learn to use them in the context of high granularity image generation and fast simulation. Moreover, this project can serve as a baseline for future ML pipelines for all experiments at CERN.</p>
+
+<p>For in-depth details regarding the entire <code class="language-plaintext highlighter-rouge">g4fastsim</code> project, please go to this website: https://g4fastsim.web.cern.ch/</p>
+
+<h1 id="inference-optimization-pipeline">Inference Optimization pipeline</h1>
+
+<p>KubeFlow was the platform of choice for making a reproducible and scalable machine learning inference pipeline for the <code class="language-plaintext highlighter-rouge">g4fastsim</code> inference project. CERN IT Department has built ml.cern.ch which is KubeFlow service accessible to all CERN members and was used for building the pipeline.</p>
+
+<p><code class="language-plaintext highlighter-rouge">g4fastsim</code> is broken into 2 parts - <code class="language-plaintext highlighter-rouge">Training</code> and <code class="language-plaintext highlighter-rouge">Inference</code>. The inference application is named <code class="language-plaintext highlighter-rouge">Par04</code>. <code class="language-plaintext highlighter-rouge">Par04</code> example can perform inference using both fullsim, Geant4 native api, and fastsim, using different Machine Learning frameworks like ONNXRuntime, LWTNN and LibTorch. Inference Optimization Pipeline is aimed at reducing memory footprint of the ML model by performing various types of hardware-specific quantizations and graph optimizations in ONNXRuntime.</p>
+
+<p>The pipeline can be found on ml.cern.ch under the name of <code class="language-plaintext highlighter-rouge">Geant4-Model-Optimization-Pipeline</code>. 
+<img src="https://user-images.githubusercontent.com/47216475/193470743-b680df2c-fce9-477f-8db7-f9cce5be755c.svg" alt="Complete-pipeline" width="100%" /></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Model Loader</code> - Model Loader component that acts as a central repository for non-optimized model. The model gets downloaded and stored here.</li>
+  <li><code class="language-plaintext highlighter-rouge">MacroHandlers</code> - Macro Handler components which output a macro file that gets passed to the respective <code class="language-plaintext highlighter-rouge">Par04</code>s.</li>
+  <li><code class="language-plaintext highlighter-rouge">Inference</code> - <code class="language-plaintext highlighter-rouge">Par04</code>s which use Full Simulation and <code class="language-plaintext highlighter-rouge">ONNXRuntime</code> CPU and CUDA Execution providers for inference.</li>
+  <li><code class="language-plaintext highlighter-rouge">Benchmark</code> - Benchmark component that takes in 3 .root files as input and generates comparison plots through them.</li>
+  <li><code class="language-plaintext highlighter-rouge">Optimization</code> - Optimization component that takes in non-optimized model and optimizes it.</li>
+</ul>
+
+<blockquote>
+  <p>:green_book: A memory arena is a large, contiguous piece of memory that you allocate once and then use to manage memory manually by handing out parts of that memory. To understand <code class="language-plaintext highlighter-rouge">arena</code> in relation to memory, check out this <a href="https://stackoverflow.com/questions/12825148/what-is-the-meaning-of-the-term-arena-in-relation-to-memory">stack overflow post</a></p>
+</blockquote>
+
+<h2 id="macrohandler">MacroHandler</h2>
+
+<p><code class="language-plaintext highlighter-rouge">Par04</code> takes in input a macro file. This macro file contains a list of commands in the order they are to be run. Normally, if we want to change a macro file we will have to change the <code class="language-plaintext highlighter-rouge">.mac</code> file, upload it to gitlab, EOS or someplace from where it will be downloaded and pass the URL in KubeFlow Run UI Dashboard. This will become a tedious process.</p>
+
+<p><code class="language-plaintext highlighter-rouge">MacroHandler</code> component is implemented to solve this issue by generating a <code class="language-plaintext highlighter-rouge">.mac</code> file based on the inputs from the KubeFlow Run UI.</p>
+
+<p>The input to <code class="language-plaintext highlighter-rouge">MacroHandler</code> component is a <code class="language-plaintext highlighter-rouge">.jsonl</code> file containing <code class="language-plaintext highlighter-rouge">jsonlines</code>, where each <code class="language-plaintext highlighter-rouge">jsonline</code> contain 2 keys - <code class="language-plaintext highlighter-rouge">command</code> and <code class="language-plaintext highlighter-rouge">value</code>. An example of <code class="language-plaintext highlighter-rouge">.jsonl</code> macro file can be seen <a href="https://gitlab.cern.ch/prmehta/geant4_par04/-/blob/master/pipelines/model-optimization/macros/examplePar04_onnx.jsonl">here</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">.jsonl</code> file is converted to <code class="language-plaintext highlighter-rouge">.mac</code> file after value modifications and passed to the respective <code class="language-plaintext highlighter-rouge">Par04</code> components.</p>
+<blockquote>
+  <p><strong>Eg:</strong> As per the pipeline image above, the output of <code class="language-plaintext highlighter-rouge">FullSimMacroHandler</code> component will be passed to <code class="language-plaintext highlighter-rouge">FullSim</code> and output of <code class="language-plaintext highlighter-rouge">OnnxFastSimNoEPMacroHandler</code> component will be passed to <code class="language-plaintext highlighter-rouge">OnnxFastSimNoEP</code>.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong><em>This component is specifically designed for KubeFlow usage</em></strong></p>
+</blockquote>
+
+<h3 id="macro-file">Macro file</h3>
+
+<p>Some Geant4 commands as well as custom commands for manipulating the simulation process are shown below.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/Par04/inference/setSizeOfRhoCells 2.325 mm
+/Par04/inference/setSizeOfZCells 3.4 mm
+/Par04/inference/setNbOfRhoCells 18
+/Par04/inference/setNbOfPhiCells 50
+/Par04/inference/setNbOfZCells 45
+
+<span class="c"># Fast Simulation</span>
+/analysis/setFileName 10GeV_100events_fastsim_onnx.root
+<span class="c">## dynamically set readout mesh from particle direction</span>
+<span class="c">## needs to be the first fast sim model!</span>
+/param/ActivateModel defineMesh
+<span class="c">## ML fast sim, configured with the inference setup /Par04/inference</span>
+/param/ActivateModel inferenceModel
+/run/beamOn 100
+</code></pre></div></div>
+
+<p>There are additional commands which can be used to configure the settings of each execution provider. A detailed example of macro file for <code class="language-plaintext highlighter-rouge">ONNXRuntime</code> can be viewed <a href="https://gitlab.cern.ch/prmehta/geant4_par04/-/blob/master/examplePar04_onnx.mac">here</a>.</p>
+
+<h2 id="inputchecker">InputChecker</h2>
+
+<p>KubeFlow passes all the parameters as string from its run UI. In order to debug type issues a small input checker component is build which will output the value of every KubeFlow UI parameter and its value type.
+This an independent component of the pipeline.</p>
+
+<blockquote>
+  <p><strong><em>This component is specifically designed for KubeFlow usage</em></strong></p>
+</blockquote>
+
+<h2 id="inference">Inference</h2>
+
+<p><code class="language-plaintext highlighter-rouge">Par04</code> is a C++ application which takes in as input an ONNX model, performs inference using it and outputs a <code class="language-plaintext highlighter-rouge">.root</code> file containing the simulated physics quantities which can be used for downstream analysis of particle showers.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Par04</code> currently supports 3 libraries - <code class="language-plaintext highlighter-rouge">ONNXRuntime</code>, <code class="language-plaintext highlighter-rouge">LWTNN</code> and <code class="language-plaintext highlighter-rouge">PyTorch</code>. The inference optimization pipeline currently being built is geared towards using <code class="language-plaintext highlighter-rouge">ONNXRuntime</code>. The execution providers that will be investigated for optimizing the ONNX model are -</p>
+<ul>
+  <li><strong><em>Nvidia TensorRT</em></strong> - GPU</li>
+  <li><strong><em>Nvidia CUDA</em></strong> - GPU</li>
+  <li><strong><em>Intel oneDNN</em></strong> - CPU</li>
+  <li><strong><em>Intel OpenVINO</em></strong> - CPU
+    <blockquote>
+      <p><em>Support for <strong>Intel OpenVINO</strong> is currently on halt due to compatibility issues.</em></p>
+    </blockquote>
+  </li>
+</ul>
+
+<h3 id="output-root-file">Output .root file</h3>
+
+<p>The output of <code class="language-plaintext highlighter-rouge">Par04</code> is a <code class="language-plaintext highlighter-rouge">.root</code> file which can be opened using <code class="language-plaintext highlighter-rouge">TSystem</code> (C++) and <code class="language-plaintext highlighter-rouge">uproot</code> (python). The <code class="language-plaintext highlighter-rouge">.root</code> file contains the following structure:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>output_file.root
+├── energyDeposited;1
+├── energyParticle;1
+├── energyRatio;1
+├── events;1
+│   ├── CPUResMem
+│   ├── CPUVirMem
+│   ├── EnergyCell
+│   ├── EnergyMC
+│   ├── GPUMem
+│   ├── phiCell
+│   ├── rhoCell
+│   ├── SimTime
+│   └── zCell
+├── hitType:1
+├── longFirstMoment;1
+├── longProfile;1
+├── longSecondMoment;1
+├── time;1
+├── transFirstMoment;1
+├── transProfile;1
+└── transSecondMoment;1
+</code></pre></div></div>
+
+<p>More details on these quantities are explained in this <a href="https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/Examples/extended/Par04.html#output-data">link</a>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">CPUResMem</code>, <code class="language-plaintext highlighter-rouge">CPUVirMem</code>, <code class="language-plaintext highlighter-rouge">GPUMem</code> are added into the updated version of the <code class="language-plaintext highlighter-rouge">Par04</code> application:
+<code class="language-plaintext highlighter-rouge">CPUResMem</code> - Resident Memory used by the inference of the <code class="language-plaintext highlighter-rouge">Par04</code> application
+<code class="language-plaintext highlighter-rouge">CPUVirMem</code> - Virtual Memory used by the inference of the <code class="language-plaintext highlighter-rouge">Par04</code> application
+<code class="language-plaintext highlighter-rouge">GPUMem</code> - GPU Memory used by the inference of the <code class="language-plaintext highlighter-rouge">Par04</code> application
+More details on Resident and Virtual Memory can be found <a href="https://stackoverflow.com/questions/7880784/what-is-rss-and-vsz-in-linux-memory-management">here</a></p>
+
+<h3 id="dependencies">Dependencies</h3>
+
+<p><code class="language-plaintext highlighter-rouge">Par04</code> has a number of optional dependencies which can be added to customise it for different host hardware and usecase.</p>
+
+<blockquote>
+  <p>Running FastSim in <code class="language-plaintext highlighter-rouge">Par04</code> will require <code class="language-plaintext highlighter-rouge">ONNXRuntime</code>.</p>
+</blockquote>
+
+<h4 id="mandatory">Mandatory</h4>
+<ul>
+  <li>
+    <h2 id="geant4---a-platform-for-simulation-of-the-passage-of-particles-through-matter"><code class="language-plaintext highlighter-rouge">Geant4</code> - A platform for simulation of the passage of particles through matter.</h2>
+    <h4 id="optional">Optional</h4>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">ONNXRuntime</code> - Machine learning platform developed by microsoft which is acting as the backend for using different hardware specific execution providers.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">CUDA</code> - Parallel computing interface for Nvidia GPUs developed by Nvidia.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">TensorRT</code> - Machine learning framework developed by Nvidia for optimizing ML model deployment on Nvidia GPUs. It is built on top of CUDA.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">oneDNN</code> - Machine learning library which optimizes model deployment on Intel hardware. It is part of oneAPI - a cross platform performance library for deep learning applications.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">OpenVINO</code> - Machine Learning toolkit facilitating optimization of deep learning models from a framework and deployment on Intel Hardware.</p>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">ROOT</code> - An object oriented library developed by CERN for for particle physics data analysis.
+    <ul>
+      <li>In <code class="language-plaintext highlighter-rouge">Par04</code>, <code class="language-plaintext highlighter-rouge">ROOT</code> is used to get host memory usage.</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">Valgrind</code> - Valgrind is a applicationming tool for memory debugging, memory leak detection, and profiling.
+    <ul>
+      <li>In <code class="language-plaintext highlighter-rouge">Par04</code>, <code class="language-plaintext highlighter-rouge">Valgrind</code> is used for function call profiling of inference block.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="run-inference">Run Inference</h3>
+
+<p>To run <code class="language-plaintext highlighter-rouge">Par04</code> simulation application, follow the below given steps:</p>
+
+<ol>
+  <li>Clone the git repo
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone <span class="nt">--recursive</span> https://gitlab.cern.ch/prmehta/geant4_par04.git
+</code></pre></div>    </div>
+  </li>
+  <li>Build the application
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cmake <span class="nt">-DCMAKE_BUILD_TYPE</span><span class="o">=</span><span class="s2">"Debug"</span> <span class="nt">-DCMAKE_CXX_FLAGS_DEBUG</span><span class="o">=</span><span class="s2">"-ggdb3"</span> &lt;<span class="nb">source </span>folder&gt;
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>If you want build <code class="language-plaintext highlighter-rouge">Par04</code> using dependencies, then use the <code class="language-plaintext highlighter-rouge">DCMAKE_PREFIX_PATH</code> flag.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cmake <span class="nt">-DCMAKE_BUILD_TYPE</span><span class="o">=</span><span class="s2">"Debug"</span> <span class="se">\</span>
+    <span class="nt">-DCMAKE_PREFIX_PATH</span><span class="o">=</span><span class="s2">"/opt/valgrind/install;/opt/root/src/root;/opt/geant4/install;/opt/onnxruntime/install;/opt/onnxruntime/data;/usr/local/cuda;"</span> <span class="se">\</span>
+    <span class="nt">-DCMAKE_CXX_FLAGS_DEBUG</span><span class="o">=</span><span class="s2">"-ggdb3"</span> <span class="se">\</span>
+    &lt;<span class="nb">source </span>folder&gt;
+</code></pre></div></div>
+
+<ol>
+  <li>To build and install the application, go into the build directory and run
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make <span class="nt">-j</span><span class="sb">`</span><span class="nb">nproc</span><span class="sb">`</span>
+make <span class="nb">install</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Go to the install directory and run:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./examplePar04 <span class="nt">-g</span> True <span class="nt">-k</span> <span class="nt">-kd</span> &lt;detector construction macro file&gt; <span class="nt">-ki</span> &lt;inference macro file&gt; <span class="nt">-o</span> &lt;output filename&gt; <span class="nt">-do</span> &lt;output directory&gt; <span class="nt">-fk</span> <span class="nt">-f</span> &lt;custom fastsim inference model path&gt; <span class="nt">-s</span> &lt;optimized fastsim model save path&gt; <span class="nt">-p</span> &lt;profiling json save path&gt;
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<blockquote>
+  <p>:warning: Make sure to add path to dependencies in <code class="language-plaintext highlighter-rouge">PATH</code> and <code class="language-plaintext highlighter-rouge">LD_LIBRARY_PATH</code> respectively</p>
+</blockquote>
+
+<p>Checkout <a href="#dependencies">dependencies section</a> for more info on customising <code class="language-plaintext highlighter-rouge">Par04</code> for your purpose.</p>
+
+<h4 id="flags">Flags</h4>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">-g</code> - Whether to enable GPU memory usage collection or not.</li>
+  <li><code class="language-plaintext highlighter-rouge">-k</code> - Whether it is kubeflow deployment or not. Adding <code class="language-plaintext highlighter-rouge">-k</code> will indicate <code class="language-plaintext highlighter-rouge">True</code>.</li>
+</ul>
+
+<p>Below given commands will only be used when <code class="language-plaintext highlighter-rouge">-k</code> is set as the below given flags are specific to KubeFlow to make the inference component KubeFlow compatible.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">kd</code> - Path to detector construction macro.</li>
+  <li><code class="language-plaintext highlighter-rouge">ki</code> - Path to inference construction macro.</li>
+  <li><code class="language-plaintext highlighter-rouge">-o</code> - Name of the output file. Make sure it ends with <code class="language-plaintext highlighter-rouge">.root</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">-do</code> - Path of the directory where output file will be saved.</li>
+  <li><code class="language-plaintext highlighter-rouge">-fk</code> - Running fastsim or not. Setting this will mean <code class="language-plaintext highlighter-rouge">true</code>.</li>
+</ul>
+
+<p>Below given commands will only be used when <code class="language-plaintext highlighter-rouge">-k</code> and <code class="language-plaintext highlighter-rouge">-fk</code> is set as the below given flags are make kubeflow deployment of fastsim inference component compatible with Kubeflow pipeline.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">-f</code> - Path to <code class="language-plaintext highlighter-rouge">.onnx</code> model to use for inference.</li>
+  <li><code class="language-plaintext highlighter-rouge">-s</code> - Path where optimized model created by <code class="language-plaintext highlighter-rouge">ONNXRuntime</code> session will be stored once model specified in <code class="language-plaintext highlighter-rouge">-f</code> is loaded into the session.</li>
+  <li><code class="language-plaintext highlighter-rouge">-p</code> - Path where profiling json will be set. It will be used when profiling flag is set to true.</li>
+</ul>
+
+<blockquote>
+  <p>:warning: They are added to make the <code class="language-plaintext highlighter-rouge">Par04</code> compatible with KubeFlow’s data passing mechanism. In order to make KubeFlow component’s reusable, KubeFlow recommends allowing the KubeFlow sdk to generate paths at compile time.</p>
+
+  <p>The paths generated can or cannot be present in the docker container, so, we need to handle both the cases and when path is not present, then our code should auto generate the directories as the per the path. In order to understand KubeFlow’s data passing mechanism, please refer to <a href="https://www.kubeflow.org/docs/components/pipelines/sdk-v2/v2-component-io/#review-and-update-inputsoutputs-placeholders-if-applicable">this guide</a>.</p>
+
+  <p>If you are using <code class="language-plaintext highlighter-rouge">Par04</code> as a standalone application, using macro file is recommended.</p>
+</blockquote>
+
+<h2 id="benchmark">Benchmark</h2>
+
+<p>The benchmark component is built for comparing the output of different <code class="language-plaintext highlighter-rouge">Par04</code> runs. Currently, it supports <code class="language-plaintext highlighter-rouge">2</code> output files and the plan to support 3 files is in roadmap. The current benchmark component is tailored a lot towards using in a pipeline rather than a standalone application.</p>
+
+<blockquote>
+  <p>:warning: If you are running <code class="language-plaintext highlighter-rouge">benchmark.py</code> as a standalone script, make sure the output <code class="language-plaintext highlighter-rouge">.root</code> filenames of Full Sim and Fast Sim(s) is same and both are in different folders.</p>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.
+├── FastSim
+│   └── output.root
+└── FullSim
+    └── output.root
+</code></pre></div>  </div>
+</blockquote>
+
+<p>The output of the benchmark component is a set of plots which will help with comparison between Full Sim and Fast Sim(s) as well as a <code class="language-plaintext highlighter-rouge">.json</code> file which will contain Jensen Shannon Divergence values for different physics quantity histograms.</p>
+
+<blockquote>
+  <p>For more details on Jensen Shannon Divergence, refer to this <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.distance.jensenshannon.html">link</a></p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">Benchmark</code> is a python component and requires the following dependencies:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">scipy</code></li>
+  <li><code class="language-plaintext highlighter-rouge">uproot</code></li>
+  <li><code class="language-plaintext highlighter-rouge">numpy</code></li>
+  <li><code class="language-plaintext highlighter-rouge">matplotlib</code></li>
+  <li><code class="language-plaintext highlighter-rouge">json</code></li>
+</ul>
+
+<h3 id="run-benchmark">Run Benchmark</h3>
+
+<ol>
+  <li>To run <code class="language-plaintext highlighter-rouge">Benchmark</code>, clone the <code class="language-plaintext highlighter-rouge">Par04</code> repository
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone <span class="nt">--recursive</span> https://gitlab.cern.ch/prmehta/geant4_par04.git
+</code></pre></div>    </div>
+  </li>
+  <li>Go into the <code class="language-plaintext highlighter-rouge">Benchmark</code> component directory
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> &lt;<span class="nb">source </span>directory&gt;/pipelines/model-optimization/benchmark
+</code></pre></div>    </div>
+  </li>
+  <li>Run <code class="language-plaintext highlighter-rouge">benchmark.py</code>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 benchmark.py <span class="se">\</span>
+<span class="nt">--input_path_A</span> &lt;Path of first input directory&gt; <span class="se">\</span>
+<span class="nt">--input_path_B</span> &lt;Path of second input directory&gt; <span class="se">\</span>
+<span class="nt">--rootFilename</span> &lt;Filename of the output root file&gt; <span class="se">\</span>
+<span class="nt">--truthE</span> &lt;Energy of the particles&gt; <span class="se">\</span>
+<span class="nt">--truthAngle</span> &lt;Angle of the particles&gt; <span class="se">\</span>
+<span class="nt">--yLogScale</span> &lt;Whether to <span class="nb">set </span>a log scale on the y-axis of full and fast simulation comparison plots.&gt; <span class="se">\</span>
+<span class="nt">--saveFig</span> &lt;Whether to save the plots&gt; <span class="se">\</span>
+<span class="nt">--eosDirectory</span> &lt;EOS directory path where you want to save the files&gt; <span class="se">\</span>
+<span class="nt">--eosSaveFolderPath</span> &lt;EOS folder inside the EOS directory where you want to save the output&gt; <span class="se">\</span>
+<span class="nt">--saveRootDir</span> &lt;Directory path inside docker container where you want the data to be saved <span class="k">for </span>further passing&gt;
+<span class="nt">--bo</span> &lt;Whether to add 3rd plot&gt;
+<span class="nt">--ipo</span> &lt;Path of third input directory&gt;
+<span class="nt">--ep</span> <span class="s2">"Cpu, Optimized Cpu"</span> or <span class="s2">"Cpu, Cuda"</span> etc.
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<blockquote>
+  <p>:warning: If you are running <code class="language-plaintext highlighter-rouge">Benchmark</code> as a kubeflow component, use <code class="language-plaintext highlighter-rouge">runBenchmark.sh</code>. It performs Kerberos authentication for EOS access and then runs <code class="language-plaintext highlighter-rouge">benchmark.py</code>. Every time a Kubeflow component is created it needs to authenticate itself for EOS access, it is not feasible to do it manually and <code class="language-plaintext highlighter-rouge">runBenchmark.sh</code> takes care of that.</p>
+
+  <p>Before running a pipeline which requires EOS access, make sure your <code class="language-plaintext highlighter-rouge">krb-secret</code> is up-to-date and also run <code class="language-plaintext highlighter-rouge">kinit CERN_ID</code>. If you want to renew your <code class="language-plaintext highlighter-rouge">krb-secret</code> perform the steps mentioned <a href="https://gitlab.cern.ch/ai-ml/examples/-/tree/master/pipelines/argo-workflows/access_eos">here</a>.</p>
+</blockquote>
+
+<p>An example plot is given below:
+<img src="https://user-images.githubusercontent.com/47216475/193470831-036da729-c218-4704-b5d1-f90f92d253d5.png" alt="transProfile_1_E_10_GeV_A_90" width="100%" /></p>
+
+<h2 id="optimizations">Optimizations</h2>
+
+<p>Optimization contains 4 blocks - CPU, CUDA, oneDNN and TensorRT. oneDNN and TensorRT are in development. All optimization blocks follow a common structure:</p>
+
+<p><img src="https://user-images.githubusercontent.com/47216475/193470877-b1812ce2-2041-412a-918d-e07a0a68f7b3.png" alt="optim-block" /></p>
+
+<p>ONNXRuntime has 2 types of optimization available: <code class="language-plaintext highlighter-rouge">static</code> and <code class="language-plaintext highlighter-rouge">dynamic</code>. In <code class="language-plaintext highlighter-rouge">static</code>, the model is optimized using a representative dataset, saved and then used for inference. In <code class="language-plaintext highlighter-rouge">dynamic</code>, the model is optimized when it is loaded in ONNXRuntime and uses statistics of the input data.</p>
+
+<p><code class="language-plaintext highlighter-rouge">dynamic</code> optimization thus has an extra overhead as compared to <code class="language-plaintext highlighter-rouge">static</code> optimization but, can have less accuracy drop.</p>
+
+<p>Currently, for CPU and CUDA optimization, <code class="language-plaintext highlighter-rouge">static</code> optimization is used. For other execution providers like oneDNN and TensorRT, either dynamic or mixed will be implemented due to the restriction placed by ONNXRuntime’s design. For more info, refer this this issue: https://github.com/microsoft/onnxruntime/issues/12804</p>
+
+<p>Optimization component performs optimization as a 2 step process which can be mixed:</p>
+<ol>
+  <li>Graph Optimization</li>
+  <li>Quantization</li>
+</ol>
+
+<blockquote>
+  <p>:warning: When performing quantization, make sure the .onnx model has been converted from it native framework using the latest <code class="language-plaintext highlighter-rouge">opset</code>. Currently, the minimum opset requirement for quantization is 10. But, it is always better to use latest version as it supports more layers.</p>
+</blockquote>
+
+<h3 id="graph-optimization">Graph Optimization</h3>
+
+<p>ONNXRuntime has 4 modes of Graph Optimization -</p>
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">DISABLE</code></li>
+  <li><code class="language-plaintext highlighter-rouge">BASIC</code></li>
+  <li><code class="language-plaintext highlighter-rouge">EXTENDED</code></li>
+  <li><code class="language-plaintext highlighter-rouge">ALL</code></li>
+</ol>
+
+<p>All the modes are supported in this optimization component. For more details on this mode, refer to ONNXRuntime Graph Optimization doc:
+https://onnxruntime.ai/docs/performance/graph-optimizations.html</p>
+
+<p>In brief, <code class="language-plaintext highlighter-rouge">basic</code> adds hardware agnostic optimizations, <code class="language-plaintext highlighter-rouge">extended</code> applies graph optimizations only to subgraphs placed on CPU, CUDA (NVIDIA GPU) and ROCm (AMD GPU) and <code class="language-plaintext highlighter-rouge">all</code> applied basic + extended + layout (hardware dependent) optimizations.</p>
+
+<h3 id="quantization">Quantization</h3>
+
+<p>ONNXRuntime has a very rich <code class="language-plaintext highlighter-rouge">INT8</code> quantization API. Our experiments showed considerable reduction in CPU and GPU memory usage for CPU and CUDA Execution Providers respectively with no to very little accuracy drop. Quantization is very dependent on Calirabtion data / representative data, its quality and quantity both.</p>
+
+<p><img src="https://user-images.githubusercontent.com/47216475/193470906-14b7e250-99e4-4420-a111-8adf890d3c42.png" alt="longProfile_1_E_10_GeV_A_90" width="100%" /></p>
+
+<p><img src="https://user-images.githubusercontent.com/47216475/193470912-5ece798b-b91c-4d40-ba81-de1688fb8f79.png" alt="CPUResMem_E_10_GeV_A_90" width="100%" /></p>
+
+<h3 id="config-json">Config JSON</h3>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"strides_count"</span><span class="p">:</span><span class="w"> </span><span class="mi">30</span><span class="p">,</span><span class="w">  
+    </span><span class="nl">"latent_vector_dim"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"min_angle"</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w">                  
+    </span><span class="nl">"max_angle"</span><span class="p">:</span><span class="w"> </span><span class="mi">90</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"min_energy"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">                          
+    </span><span class="nl">"max_energy"</span><span class="p">:</span><span class="w"> </span><span class="mi">1024</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"stride"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">   
+    </span><span class="nl">"input_name"</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w">  
+    </span><span class="nl">"optimize_model"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">                
+    </span><span class="nl">"graph_optim_lvl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"all"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"only_graph_optim"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">                    
+    </span><span class="nl">"quant_format"</span><span class="p">:</span><span class="w"> </span><span class="s2">"QDQ"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"op_types_to_quantize"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+    </span><span class="nl">"per_channel"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">  
+    </span><span class="nl">"reduce_range"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">           
+    </span><span class="nl">"activation_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"int8"</span><span class="p">,</span><span class="w">                
+    </span><span class="nl">"weight_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"int8"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"nodes_to_quantize"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+    </span><span class="nl">"nodes_to_exclude"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">  
+    </span><span class="nl">"use_external_data_format"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">             
+    </span><span class="nl">"calibrate_method"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MinMax"</span><span class="p">,</span><span class="w"> 
+    </span><span class="nl">"extra_options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"extra.Sigmoid.nnapi"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"ActivationSymmetric"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"WeightSymmetric"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"EnableSubgraph"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"ForceQuantizeNoInputCheck"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"MatMulConstBOnly"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"AddQDQPairToWeight"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"OpTypesToExcludeOutputQuantizatioin"</span><span class="p">:</span><span class="w"> </span><span class="p">[],</span><span class="w">
+        </span><span class="nl">"DedicatedQDQPair"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"QDQOpTypePerChannelSupportToAxis"</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span><span class="w">
+        </span><span class="nl">"CalibTensorRangeSymmetric"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"CalibMovingAverage"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"CalibMovingAverageConstant"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.01</span><span class="w">
+    </span><span class="p">},</span><span class="w">            
+    </span><span class="nl">"batch_size"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"execution_providers"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"CPUExecutionProvider"</span><span class="p">],</span><span class="w"> 
+    </span><span class="nl">"for_tensorrt"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">                           
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h4 id="description">Description</h4>
+<p>The description for all the keys are JSON given below:</p>
+<h5 id="calibration-data">Calibration Data</h5>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">strides_count</code> - Number of strides/loops to use for generating the calibration data. Useful when handling OOM issue.</li>
+  <li><code class="language-plaintext highlighter-rouge">latent_vector_dim</code> - Dimension of latent vectors to be generated for calibration data.</li>
+  <li><code class="language-plaintext highlighter-rouge">min_angle</code> - Minimum angle for which to generate calibration data.</li>
+  <li><code class="language-plaintext highlighter-rouge">max_angle</code> - Maximum angle for which to generate calibration data.</li>
+  <li><code class="language-plaintext highlighter-rouge">min_energy</code> - Minimum particle energy for which to generate calibration data.</li>
+  <li><code class="language-plaintext highlighter-rouge">max_energy</code> - Maximum particle energy for which to generate calibration data.</li>
+  <li><code class="language-plaintext highlighter-rouge">stride</code> - Number of events to generate for each pair of [condE, condA, condGeo].</li>
+  <li><code class="language-plaintext highlighter-rouge">batch_size</code> - Batch size to use when performing inference for getting calibration data output. Calibrator uses the output to generate statistics which get used downstream in quantization to ensure minimal accuracy drop possible.</li>
+  <li><code class="language-plaintext highlighter-rouge">calibrate_method</code> - Calibration method / Calibrator to use. Currently, supported [<code class="language-plaintext highlighter-rouge">MinMax</code>, <code class="language-plaintext highlighter-rouge">Entropy</code>, <code class="language-plaintext highlighter-rouge">Percentile</code>]. Preferred, <code class="language-plaintext highlighter-rouge">MinMax</code> as it has less memory requirement and performs very well.</li>
+  <li><code class="language-plaintext highlighter-rouge">execution_providers</code> - Execution providers to use</li>
+</ul>
+
+<h5 id="graph-optimization-1">Graph Optimization</h5>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">graph_optim_lvl</code> - Which graph optimization lvl to use. Supported [<code class="language-plaintext highlighter-rouge">disable</code>, <code class="language-plaintext highlighter-rouge">basic</code>, <code class="language-plaintext highlighter-rouge">extended</code>, <code class="language-plaintext highlighter-rouge">all</code>].</li>
+  <li><code class="language-plaintext highlighter-rouge">only_graph_optim</code> - Whether to only perform graph optimization and skip quantization.</li>
+  <li><code class="language-plaintext highlighter-rouge">optimize_model</code> - Whether to perform graph optimization before quantization. Should be set to <code class="language-plaintext highlighter-rouge">True</code> even if <code class="language-plaintext highlighter-rouge">only_graph_optim</code> is set to <code class="language-plaintext highlighter-rouge">True</code>.</li>
+</ul>
+
+<h5 id="quantization-1">Quantization</h5>
+
+<p>For detailed read on ONNXRuntime Quantization, refer https://onnxruntime.ai/docs/performance/quantization.html</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">quant_format</code> - Type of quantization format to use. Supported [<code class="language-plaintext highlighter-rouge">QDQ</code>, <code class="language-plaintext highlighter-rouge">QOperator</code>]. Preferred, <code class="language-plaintext highlighter-rouge">QOQ</code> as it gives good performance to accuracy tradeoff. ONNXRuntime suggests to use <code class="language-plaintext highlighter-rouge">QDQ</code> on x86 CPU and <code class="language-plaintext highlighter-rouge">QOperator</code> for arm64 CPU.</li>
+  <li><code class="language-plaintext highlighter-rouge">op_types_to_quantize</code> - List of operations to quantize. Only the operations listed here will be quantized in the model.</li>
+  <li><code class="language-plaintext highlighter-rouge">per_channel</code> - Whether to perform <code class="language-plaintext highlighter-rouge">per_channel</code> quantization or not.</li>
+  <li><code class="language-plaintext highlighter-rouge">reduce_range</code> - Whether to perform <code class="language-plaintext highlighter-rouge">7bit</code> quantization or not.</li>
+  <li><code class="language-plaintext highlighter-rouge">activation_type</code> - Which <code class="language-plaintext highlighter-rouge">INT8</code> quantization to perform on activations. Supported [<code class="language-plaintext highlighter-rouge">int8</code>, <code class="language-plaintext highlighter-rouge">uint8</code>]. Preferred, <code class="language-plaintext highlighter-rouge">int8</code> as it is more versatile and works on a wide array of models.</li>
+  <li><code class="language-plaintext highlighter-rouge">weight_type</code> - Which <code class="language-plaintext highlighter-rouge">INT8</code> quantization to perform on model weights. Supported [<code class="language-plaintext highlighter-rouge">int8</code>, <code class="language-plaintext highlighter-rouge">uint8</code>]. Preferred, <code class="language-plaintext highlighter-rouge">int8</code> as it is more versatile and works on a wide array of models.</li>
+  <li><code class="language-plaintext highlighter-rouge">nodes_to_quantize</code> - List of nodes to quantize. Specify exact node names of the .onnx model. Only the nodes present in the list will be quantized. If empty, all nodes will be quanized.</li>
+  <li><code class="language-plaintext highlighter-rouge">nodes_to_exclude</code> - List of nodes to exclude. Specify exact node names of the .onnx model. Only the nodes present in the list will be exclued. If empty, no nodes will be excluded.</li>
+  <li><code class="language-plaintext highlighter-rouge">use_external_data_format</code> -  Saving models &gt; 2GB creates problems in ONNXRuntime. It is preferred to set this option to <code class="language-plaintext highlighter-rouge">True</code> if dealing with models &gt; 2GB.</li>
+  <li><code class="language-plaintext highlighter-rouge">extra_options</code> - Refer <a href="https://github.com/microsoft/onnxruntime/blob/main/onnxruntime/python/tools/quantization/quantize.py#L113">onnxruntime/quantization/quantize.py</a></li>
+  <li><code class="language-plaintext highlighter-rouge">for_tensorrt</code> - If this optimization is for tensorrt or not. If set to <code class="language-plaintext highlighter-rouge">True</code>, only the calibration table will be created. TensorRT performs it own graph optimization and quantization. Hence, TensorRT optimization can only be performed dynamically in ONNXRuntime. The path of calibration table generated can be given as input to ONNXRuntime Session, TensorRT will use this Calibration cache to optimize the model at runtime.</li>
+</ul>
+
+<blockquote>
+  <p>:warning: Optimization Config JSON can be changed as per the need but currently, these are the supported params. Any additional params added to JSON will be ignored.</p>
+</blockquote>
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_Geant4_PriyamMehta.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

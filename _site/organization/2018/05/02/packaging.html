@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Packaging Group Meeting #23, May 2, 2018</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2018/04/23/training.html">&nbsp;&#8592; HSF Training and Careers Working Group Meeting, 23 April, 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/05/03/coordination.html">HSF Weekly Meeting #135, 4 May, 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-packaging-group-meeting-23-may-2-2018">HSF Packaging Group Meeting #23, May 2, 2018</h1>
+
+<h1 id="agenda">Agenda</h1>
+<p><a href="https://indico.cern.ch/event/719557/">https://indico.cern.ch/event/719557/</a></p>
+
+<p>Participants: Graeme Stewart, Pere Mato, Guilherme Amadio, Benedikt Hegner, Chris Burr, Ben Morgan, Liz Sexton-Kennedy, Raphal Pacholek, Emil Obreshkov, Ben Couturier, Geri Ganis, Chris Green, Giulio Eulisse, Patricia Mendez, Marco Clemencic, Lynn Garren, Jim Amundson, Patrick Gartung</p>
+
+<h1 id="introduction---graeme"><a href="https://indico.cern.ch/event/719557/contributions/2957742/attachments/1626928/2624333/HSF_Packaging_Group_Intro_2018-05-02.pdf">Introduction - Graeme</a></h1>
+<ul>
+  <li><a href="https://indico.cern.ch/event/719851/">Guix presentation tomorrow</a>
+    <ul>
+      <li>GNU reimplementation of Nix?
+        <ul>
+          <li>Chris thinks it may be a fork from Nix in the past</li>
+          <li>No non-GPL software allowed?</li>
+        </ul>
+      </li>
+      <li>Graeme will attend</li>
+    </ul>
+  </li>
+  <li><a href="http://rse.ac.uk">UK RSE</a> - <a href="http://rse.ac.uk/conf2018/">2018 conference in Birmingham 3-4th September</a>
+    <ul>
+      <li>Abstracts submitted: one on HSF generally, and one on Packaging</li>
+      <li>Will hear if accepted by end of May</li>
+    </ul>
+  </li>
+  <li>Moving onto today’s agenda, as ever, contact Graeme and Ben if you have contributions, updates for future meetings</li>
+</ul>
+
+<h1 id="support-for-multiple-micro-architectures---pere"><a href="https://indico.cern.ch/event/719557/contributions/2965980/attachments/1642767/2624258/HSF-Packaging-20180502.pdf">Support for multiple micro-architectures - Pere</a></h1>
+<ul>
+  <li>Need separate stacks for instruction sets (e.g fma, avx etc)
+    <ul>
+      <li>How to make available on CVMFS?</li>
+      <li>Select stack at runtime from CPU detection</li>
+      <li>Not all packages need/use these specialist instructions</li>
+    </ul>
+  </li>
+  <li>Implementing this in LCGMake - recap given on recipes and views</li>
+  <li>Naming platforms - packages tagged on <code class="language-plaintext highlighter-rouge">arch-os-compiler-optimization</code>
+    <ul>
+      <li>Extend arch with <code class="language-plaintext highlighter-rouge">arch+iset1+iset2+...+isetN</code> to describe which instruction sets
+the package was compiled with</li>
+    </ul>
+  </li>
+  <li>In LCGMake, new argument to package to select full instruction set build
+(via compiler wrapper), which adds platform tag extension
+    <ul>
+      <li>Some issues with static libraries: rebuilding dependencies can pull in new instruction sets unwittingly, so this dependency needs to be expressed
+correctly in the dependent build</li>
+    </ul>
+  </li>
+  <li>Packages not using this are placed under arch-only tag</li>
+  <li>Setting up the environment - use views to allow transparent set of instruction set dependent packages combined with those that don’t require specific instruction sets.</li>
+  <li>System now in use is minimalistic and only builds a subset of packages</li>
+  <li>Is working, and used for GeantV nightlies.</li>
+  <li>As we have to define built instruction sets, need to define the default/minimal we can expect</li>
+  <li>Still need a tool to discover runtime discovery and selection of “best” match.</li>
+  <li>Question: How to manage the dependencies between packages?
+    <ul>
+      <li>Change of a low lying library - do you need to build all of the dependencies to be really sure (e.g., inlining)</li>
+    </ul>
+  </li>
+  <li>Building ROOT is problematic
+    <ul>
+      <li>Due to the fact that to generate a ROOT dictionary you have to run some code that has been previously compiled. This creates some problems on
+cross-compiling because the code to generate the dictionary may use instructions that cannot be executed.</li>
+    </ul>
+  </li>
+  <li>For “bare” packages, does choice of instruction set/optimization level influence interface?</li>
+  <li>HSF note was rather blocked by these dependency issues</li>
+  <li>What about fat binaries, that support multiple micro-architectures in one library/binary?
+    <ul>
+      <li>Larger binaries and cost of runtime switching - though these are not well quantified for our environment</li>
+      <li>Adding support to new micro-architectures later will need to modify long time released software, which is a serious risk in reproducibility.</li>
+      <li>LHCb had reproducibility issues with fat libraries</li>
+    </ul>
+  </li>
+  <li>C library has vectorised maths from v2.22 - picking from the system could produce similar problems</li>
+  <li>Patrick: In Spack, flags are consistent through stack. Possibly some ordering issues (e.g. packages might override, put flags at end, last wins issue)</li>
+  <li>One way to try to anticipate problems is to scan the binaries for the instructions they use.</li>
+</ul>
+
+<h1 id="spackspackdev-update---chris"><a href="https://indico.cern.ch/event/719557/contributions/2974886/attachments/1642912/2624529/HEP_Packaging_meeting_2018-05-02.pdf">Spack/SpackDev update</a> - Chris</h1>
+<ul>
+  <li>Current effort to provide “minimum viable product” so narrow first goal with:
+    <ul>
+      <li>One OS/compiler/C++/optimization</li>
+      <li>ROOT at top of stack
+        <ul>
+          <li>Then build art from there</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Built “our way” to maximize use by supported experiments
+    <ul>
+      <li>Use <code class="language-plaintext highlighter-rouge">packages.yaml</code> to maximize use of system packages</li>
+      <li>Will need/ship one of these per supported platform. Done in existing system (scripts to check installed rpms etc)</li>
+      <li>“Cetmods” CMake glue package</li>
+      <li>Not yet: multiple releases, a collection of every bit of software end users likely need</li>
+    </ul>
+  </li>
+  <li>Progress:
+    <ul>
+      <li>Enhancements submitted to spack for needed packages (Boost, {maria,postgre}sql, xrootd, TBB, ROOT</li>
+      <li>Common issues: Specs often missing dependencies, Python system vs spack. Not enough flexibility in specs for our needs</li>
+    </ul>
+  </li>
+  <li>Problems:
+    <ul>
+      <li>Adding variant to package changes hash, even if default is off. Concretization also has issues here. (so triggers rebuilds)</li>
+      <li>Versions not tied down.</li>
+      <li>Issues with c++ standard, especially in concretization, many packages need to be told explicitly</li>
+      <li>Issues with GPL - default builds of things like readline, gettext, gsl not LGPL compatible</li>
+      <li>Not yet looking at optimization levels, relocatability, buildcache</li>
+    </ul>
+  </li>
+  <li>Why is the C++ standard an issue?
+    <ul>
+      <li>Need to be consistent through graph - some packages need to be told, whilst higher ones may not. Spack may then
+not transmit this need “down” the dependency graph consistently. Example: Build a client of Boost against C++14,
+Spack will not require “Boost+cxx14” without explicitly being told in package.py.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="test-driving-round-table">Test Driving Round Table</h1>
+<ul>
+  <li>Out of time by this point, so deferred to the 16th May</li>
+</ul>
+
+<h1 id="aob">AOB</h1>
+<p>Next Meeting: <a href="https://indico.cern.ch/event/727088/">16 May 2018</a>.</p>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2018/04/23/training.html">&nbsp;&#8592; HSF Training and Careers Working Group Meeting, 23 April, 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/05/03/coordination.html">HSF Weekly Meeting #135, 4 May, 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

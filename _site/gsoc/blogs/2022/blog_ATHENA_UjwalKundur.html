@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Electromagnetic Cluster Finding on GPUs</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_HSF_TheAdmins.html">&nbsp;&#8592; Writing a blog about your project with HSF in GSoC</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_CERNBOX_KarthikSundar.html">OCM WebDAV Service &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+      <div class="col-md-3">
+        <img src="https://avatars.githubusercontent.com/u/54140487?s=400&u=75e8458ece81adfb9b12bca1aaaa2aa23f4c6b1a&v=4" alt=Ujwal Kundur width="100%" style="float:right">
+      </div>
+      <div class="col-md-9">
+    
+    <h1 class="blog-title">Electromagnetic Cluster Finding on GPUs</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">22 Jul 2022 by <a href="/gsoc/blogs/2022/blog_ATHENA_UjwalKundur.html">Ujwal Kundur</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <hr />
+
+<h3 id="code-contributions">Code Contributions</h3>
+
+<ol>
+  <li><a href="https://eicweb.phy.anl.gov/containers/eic_container/-/merge_requests/306">Container with SYCL Support</a></li>
+  <li><a href="https://eicweb.phy.anl.gov/EIC/juggler/-/merge_requests/469">SYCL Enabled IslandClustering</a></li>
+</ol>
+
+<hr />
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Hello readers, I’m Ujwal and this is my first blogpost ever. Is this how YouTubers feel like when they talk in front of a camera? :)</p>
+
+<p>This post is meant to be a progress update to my mentors, amusing read for the physicist-developer and absolute nonsense for the uninitiated. Nevertheless, I hope this is accessible to the interested layman without sacrificing the technical accuracy so coveted in Physics.</p>
+
+<p>The project is pretty straight-forward, at least on the surface; Porting a clustering algorithm used in the reconstruction of particle collision events at the Electron-Ion Collider (<strong>EIC</strong>) to <strong>SYCL</strong>.
+The clustering algorithm needs to scale in order to process increasing number of hits as the Sensor resolution is upgraded over the years, this requires hardware acceleration which is already being used significantly in AI/ML to train models using GPUs. Other hardware accelerators do exist, for example, FPGAs and ASICs (Application Specific Integrated Circuits) which are prominently used in Bitcoin-mining. We stick to GPUs in this project.</p>
+
+<p>SYCL aims to make programmers’ lives easier by allowing us to target all these different hardware architectures from a single codebase. While many implementations of the SYCL standard exist, similar to how there are many implementations of <em>ISO C</em>, Intel’s offering - <strong>Intel OneAPI DPC++</strong> (Data Parallel C++) seems to be the most mature project and we stick to it for our SYCL needs.</p>
+
+<h2 id="the-software-stack-and-sycl-set-up">The Software Stack and SYCL Set-up</h2>
+
+<blockquote>
+  <p>13.06.2022 - 15.07.2022</p>
+</blockquote>
+
+<p>The first task at hand was to add SYCL support to the existing software stack. The EIC software is distributed as containers - both Docker and Singularity Images are available.
+The Docker Images are available on DockerHub <a href="https://hub.docker.com/u/eicweb">here</a>. To quickly get started with simulations, you can run the <em>jug_xl</em> container like so:</p>
+
+<p><code class="language-plaintext highlighter-rouge">docker run -it eicweb/jug_xl:nightly</code></p>
+
+<p>The Singularity Images are available on <strong>CVMFS</strong> (CERN VM File System).</p>
+
+<p>The existing software stack has 3 layers:</p>
+
+<p>1) Base Layer - consisting of the base <em>Debian</em> Images</p>
+
+<p>2) Jug_dev - containing the dependencies for various simulation software. E.g: ROOT, Geant4, etc.</p>
+
+<p>3) Jug_xl - containing the full simulation stack. E.g: Juggler, DD4HEP, etc.</p>
+
+<p>You can find more information in the <a href="https://doc.athena-eic.org/en/latest/overview/containers.html">Athena Docs</a>.</p>
+
+<p>The challenge was making sure all the components play nice and work together, which of course is easier said than done. There were multiple version conflicts, Compiler mismatches, etc. After a ton of trail and error, I found that using <em>Debian Stable</em> (Debian 11 - Bullseye at the time of writing) as the base fixed most of the issues. The experience increased my respect for the Debian Devs and package maintainers, ‘tis a tough job.</p>
+
+<p>My contributions were merged into master, Merge Request can be found <a href="https://eicweb.phy.anl.gov/containers/eic_container/-/merge_requests/306">here</a>. You can run the container with oneAPI support like so:</p>
+
+<p><code class="language-plaintext highlighter-rouge">docker run -it eicweb/oneapi_jug_xl:nightly</code></p>
+
+<p>Now I could move onto the actual C++ code!</p>
+
+<h2 id="event-horizon">Event Horizon</h2>
+
+<blockquote>
+  <p>15.07.2022 - 1.08.2022</p>
+</blockquote>
+
+<p>My satisfaction with having a working container lasted but a few days. Intel’s <strong>VTune</strong> Profiler which was meant to guide my optimization / parallelization efforts doesn’t work with Python in containers as detailed in their <a href="https://www.intel.com/content/www/us/en/develop/documentation/vtune-cookbook/top/configuration-recipes/profiling-in-docker-container.html">Docs</a>.
+Why Python? The reconstruction algorithms are executed by the <em>Gaudi framework</em> which has up-to-date Python bindings, but the C++ Invocations and Documentation is dated and I could not make it work without Python bindings. This was unexpected and we are still trying to sort this out.</p>
+
+<p>My mentor, Dr. Wouter Deconinck, was kind enough to grant me access to Compute Canada’s HPC facilities for testing on a full-blown Linux environment.
+I’ll have figured out a way to Profile and hopefully finish porting the Algorithm by mid-August.</p>
+
+<h4 id="post-midterm">Post Midterm</h4>
+
+<hr />
+
+<h2 id="turning-point">Turning Point</h2>
+
+<blockquote>
+  <p>1.08.2022 - 23.08.2022</p>
+</blockquote>
+
+<p>This period was by far the most gruelling. Without VTune, I had no guidance as to which functions I should be focusing on. While I tried reading documentation and looked up quite a few videos and articles on the web, I could not make progress.</p>
+
+<p>My mentors helped me here by providing an alternative build plan which enabled me to directly use <strong>Juggler</strong> (the algorithm library which IslandCluster is a part of) without the <em>Gaudi Framework</em>. This was possible due to the <strong>PODIO</strong> package, which allows read / write to ROOT files.</p>
+
+<p>With a bit of tweaking, tuning and reading lots of documentation, I arrived at the following workflow:</p>
+
+<ol>
+  <li>
+    <p>Generate Events using an existing script used for benchmarking - <a href="https://eicweb.phy.anl.gov/EIC/benchmarks/reconstruction_benchmarks/-/blob/master/benchmarks/clustering/scripts/gen_particles.py"><code class="language-plaintext highlighter-rouge">gen_particles.py</code></a></p>
+  </li>
+  <li>
+    <p>Simulate particle interactions with <code class="language-plaintext highlighter-rouge">ddsim</code></p>
+  </li>
+  <li>
+    <p>Use Gaudi to run the initial Hit Digitization + Cell-ID mapping and output the Digitized and Reconstructed hits for clustering as a ROOT file.</p>
+  </li>
+</ol>
+
+<p>My test program kicks in here and reads this ROOT file and outputs the result of IslandClustering. There were a few linking errors with ROOT and I had to (again) look up documentation and use an arcane flag <code class="language-plaintext highlighter-rouge">-Wl,--copy-dt-needed-entries</code> to instruct the linker to look up symbols recursively across libraries.</p>
+
+<p>It took us a whole month to reach this point and I was really happy when the hard work paid off.</p>
+
+<p>This testing code was used for the remainder of the project and enabled me to profile and parallelize the Algorithm properly without interference. The Testing code can be found in my repo <a href="https://github.com/Ajax-Light/GSoC-cernhsf-final">here</a>.</p>
+
+<h2 id="sick-sycl-code">Sick SYCL Code</h2>
+
+<blockquote>
+  <p>23.08.2022 - 23.09.2022</p>
+</blockquote>
+
+<p>As a lot of time was spent trying to get stuff to work, I didn’t really have any Code contributions to show. With the final submission dates looming and nothing to show, I had to request an extension by 2 weeks which was approved by both my mentor and Org-Admin. This was a life-saver and I had enough time to work on the C++ / SYCL side of things.</p>
+
+<p>I was pretty new to C++ when I started and working on the project helped me learn a lot about the language features. Learning SYCL taught me to think in terms of parallelism and performance. After spending a good few weeks reading research papers and parallel algorithms to replicate a DFS done as a part of IslandCluster, I came up with a simple algorithm to emulate hit assignments, which I detail in the code. This period again, was very taxing mentally as I had to learn a lot of things quickly but I am all the better for it.</p>
+
+<p>However, the final results were pretty disappointing. SYCL code performed worse than “normal” sequential code at varying workloads. Why? No GPU support - During this time I realized that the Intel provided OneAPI containers that oneapi_jug_xl was based on did not provide <strong>CUDA</strong> as a backend as it was still in experimental stage. This was another blow to an already difficult project. This meant we had to re-evaluate the entire SYCL setup and it was agreed upon that this was out of scope of the current project.</p>
+
+<p>Since we had no access to AMD GPUs - which support OpenCL by default (the GPGPU scene is dominated by NVidia and CUDA), I had to settle for a performance comparison of SYCL and Non-SYCL code on the same AMD EPYC 32-core CPU used in Compute Canada’s HPC systems. Hence, the comparison results you see below are sub-par and show poor performance on SYCL’s part. However, I believe that given proper hardware, software stack and tuning, many algorithms in Juggler will greatly benefit from SYCL support.</p>
+
+<p><img src="https://github.com/Ajax-Light/GSoC-cernhsf-final/raw/master/reports/WallTime-compare.png" alt="Wall-Time Cmpr" /></p>
+
+<p>The SYCLized code was merged into master, Merge Request <a href="https://eicweb.phy.anl.gov/EIC/juggler/-/merge_requests/469">here</a>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Few things which remain to be worked on are:</p>
+
+<ul>
+  <li>Smaller image size for <code class="language-plaintext highlighter-rouge">oneapi_jug_xl</code></li>
+  <li>Adding <code class="language-plaintext highlighter-rouge">CUDA</code> support to the oneapi containers</li>
+  <li>Further optimizations and tuning for the SYCLized <code class="language-plaintext highlighter-rouge">IslandCluster</code> Algorithm</li>
+</ul>
+
+<p>While the project has been <em>way</em>, <em>way</em> harder to work on than I had initially anticipated, it was incredibly rewarding and I’m grateful to have had the opportunity to contribute to such an exotic project and work with amazing people in a completely different discipline from mine.</p>
+
+<p>I cannot thank my mentors, Dr. Wouter Deconinck and Sylvester Joosten enough for their help and for being so patient with me even when I bombard them with questions :)</p>
+
+<p>I hope to continue contributing to Juggler and the EIC Software after GSoC as well and am looking forward to see the software in action in the near future.</p>
+
+<p>If you’ve reached the bottom of this page, Thank You!</p>
+
+<p>Cheers,
+Ujwal.</p>
+
+<hr />
+
+<p>Reach out to me at: ujwal.kundur@gmail.com || <a href="https://github.com/Ajax-Light">GitHub</a></p>
+
+<hr />
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_ATHENA_UjwalKundur.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

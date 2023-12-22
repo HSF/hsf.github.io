@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Phoenix, interactive data visualization - Development of an experiment independent javascript event display framework and data format</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">Phoenix, interactive data visualization - Development of an experiment independent javascript event display framework and data format</h1>
+</div>
+
+  <!-- Phoenix visualisation URLs can't be validated by the checker, for some reason -->
+
+<h2 id="description">Description</h2>
+
+<p>Visualising HEP event data is currently typically done per experiment (e.g. <a href="http://atlas-vp1.web.cern.ch/atlas-vp1/home/">VP1</a>, <a href="https://doi.org/10.1016/j.nima.2004.07.036">Iguana</a>, <a href="https://iopscience.iop.org/article/10.1088/1742-6596/219/3/032014/pdf">Fireworks</a>), and normally involves the installation of dedicated software. However modern browsers are more than capable of showing complex detector geometry, as well as representations of the underlying physics. As the <a href="https://arxiv.org/abs/1811.10309">Visualisation</a> section of HSF Community White Paper explained, using an intermediate data format (e.g. JSON) makes it possible to separate the event display from the underlying (experiment-specific) software framework.</p>
+
+<p><a href="https://hepsoftwarefoundation.org/phoenix/">Phoenix</a> is a framework that can be used by any typical (e.g. colliding beam) High Energy Physics experiment. It was initially based on work done for the TrackML <a href="https://www.kaggle.com/c/trackml-particle-identification">Kaggle</a>/<a href="https://competitions.codalab.org/competitions/20112">Codalab</a> challenges (and internal use by ATLAS).</p>
+
+<p>In the recent Advanced Computing and Analysis Techniques (ACAT) 2021 <a href="https://indico.cern.ch/event/855454/">conference</a>, two submissions cited Phoenix:</p>
+<ul>
+  <li>Open Data Detector (ACTS) <a href="https://indico.cern.ch/event/855454/contributions/4596738/attachments/2352091/4013627/740_poster.pdf">link</a></li>
+  <li>New Web Based Event Data and Geometry Visualisation for LHCb <a href="https://indico.cern.ch/event/855454/contributions/4598428/attachments/2352310/4018397/572_AndreasPappas_ACAT-2021_poster.pdf">link</a></li>
+</ul>
+
+<p>GSOC students in 2019 and 2020 ported Phoenix to angular, wrote and implemented a new menu system and much more. Most base functionality now exists for the core display - the task now is to polish this, and develop better the VR display.</p>
+
+<h2 id="possible-tasks">Possible Tasks</h2>
+<p>We have three possible tasks this year. All are expected to take 175 hours (i.e. are short projects).</p>
+
+<h3 id="3d-menu-for-arvr">3D menu for AR/VR</h3>
+<p>Phoenix currently supports (in a quite basic form) VR and AR and even with the limited functionality we have right now, this is a very exciting way to use the event display and it is something we would really like to improve.</p>
+
+<p>However one current omission is there is no way to interact with the detector and event data visualisation: at the moment in AR/VR the user has no way to change what is shown,</p>
+
+<p>Phoenix’s menu system was always intended to be extensible, and so it should be possible to add a 3D menu when in VR mode. The major complication here will be that visualising detectors and event data on a phone is a very different experience to using it in a dedicated headset (such as a Meta Quest). Much care will need to be taken to make the UI as intuitive as possible. Once this is made to work, we can investigate adding a simple menu for AR mode (AR is more difficult, since it is less stable).</p>
+
+<h4 id="possible-sub-tasks">Possible sub-tasks</h4>
+<ul>
+  <li>Investigate available open source menu packages (e.g. https://github.com/felixmariotto/three-mesh-ui), and evaluate the feasibility of incorporating them in Phoenix.</li>
+  <li>Decide what functionality should be available in which mode and how it should be best presented.</li>
+  <li>Implement the above, and add the appropriate regression tests.</li>
+  <li>Add new functionality, such as the ability to scale the view etc.</li>
+  <li>Investigate whether a simple menu can also be added to AR.</li>
+</ul>
+
+<h3 id="edm4hep-loader">EDM4HEP loader</h3>
+<p><a href="https://github.com/key4hep">Key4HEP</a> is a new software stack being developed for future particle physics experiments. An important part of it is <a href="https://github.com/key4hep/EDM4hep">EDM4HEP</a>, “a generic event data model (EDM) for future High Energy Physics (HEP) collider experiments”. What this means in practice is it is a way of representing event data for potential future experiments, and we would like to be able to read this in Phoenix.</p>
+
+<p>Phoenix is designed to be extensible via “loaders”, basically small interpreters that convert arbitrary data formats into Phoenix’s native event data model, so the concrete task would be to write a “loader” which understands EDM4HEP.</p>
+
+<h4 id="possible-sub-tasks-1">Possible sub-tasks:</h4>
+<ul>
+  <li>Investigate and understand the EDM4HEP format.</li>
+  <li>Implement a loader to convert to Phoenix format.</li>
+  <li>Write regression tests for the new functionality.</li>
+</ul>
+
+<h3 id="improved-testing">Improved testing</h3>
+
+<p>Phoenix consists of two packages:</p>
+
+<ul>
+  <li><a href="https://github.com/HSF/phoenix/blob/master/packages/phoenix-event-display">phoenix-event-display</a> which is the UI independent library containing all the event display logic.</li>
+  <li><a href="https://github.com/HSF/phoenix/tree/master/packages/phoenix-ng/projects/phoenix-ui-components">phoenix-ui-components</a> which is a library of Angular components that makes use of <code class="language-plaintext highlighter-rouge">phoenix-event-display</code> to provide UI for modifying the scene.</li>
+</ul>
+
+<p>The current tests for both the packages are written using <a href="https://jasmine.github.io/">Jasmine</a> and <a href="https://karma-runner.github.io/">Karma</a>. While Jasmine and Karma are fairly popular and feature-packed, the browser-oriented nature of Karma makes the tests very slow, especially for <code class="language-plaintext highlighter-rouge">phoenix-event-display</code> which doesn’t necessarily need a browser.</p>
+
+<p>In the case of <code class="language-plaintext highlighter-rouge">phoenix-ui-components</code>, the tests use the Angular testing setup which is based on Jasmine and Karma. While the setup is correct and the tests run fine, they need a serious revamp. The idea would be to update the current test setup and make sure it conforms to the latest Angular version. And (most of) the tests would need to be rewritten to follow <a href="https://en.wikipedia.org/wiki/Behavior-driven_development">Behaviour Driven Development</a> and be more meaningful.
+Integration tests also need to be written for <a href="https://github.com/HSF/phoenix/tree/master/packages/phoenix-ng/projects/phoenix-app">phoenix-app</a> which is the actual Phoenix application and uses <code class="language-plaintext highlighter-rouge">phoenix-ui-components</code>.</p>
+
+<p>Phoenix does not have any end-to-end tests, so they also need to be set up and written. Possible options are Cypress and Protractor.</p>
+
+<h4 id="possible-sub-tasks-2">Possible sub-tasks:</h4>
+<ul>
+  <li>Investigate alternative JavaScript testing libraries for phoenix-event-display. For example <a href="https://jestjs.io/">Jest</a>.</li>
+  <li>Revamp the unit and integration testing setup and rewrite tests for <code class="language-plaintext highlighter-rouge">phoenix-event-display</code> and <code class="language-plaintext highlighter-rouge">phoenix-ui-components</code>.</li>
+  <li>Introduce and set up an end-to-end (e2e) testing framework and write e2e tests.</li>
+  <li>Lay out a testing strategy for Phoenix and set up coverage thresholds to enforce and encourage testing.</li>
+</ul>
+
+<h2 id="requirements">Requirements</h2>
+<p>Angular, Typescript, Web development (GUI design experience and <a href="https://threejs.org">threejs</a> knowledge a bonus).</p>
+
+<h2 id="mentors">Mentors</h2>
+<ul>
+  <li><a href="mailto:m.fawaadali98@gmail.com">Fawad Ali</a></li>
+  <li><a href="mailto:riccardo.maria.bianchi@cern.ch">Riccardo Maria Bianchi</a></li>
+  <li><strong><a href="mailto:edward.moyse@cern.ch">Edward Moyse</a></strong></li>
+</ul>
+
+<h2 id="links">Links</h2>
+<ul>
+  <li><a href="https://github.com/HSF/phoenix">Phoenix</a></li>
+  <li><a href="https://www.kaggle.com/c/trackml-particle-identification">Kaggle challenge</a></li>
+  <li><a href="https://competitions.codalab.org/competitions/20112">Codalab challenge</a></li>
+</ul>
+
+
+
+
+
+<h2>Corresponding Project</h2>
+  <ul>
+      <li><a href="/gsoc/projects/2021/project_Phoenix.html">Phoenix</a></li>
+  </ul>
+
+ <h2>Participating Organizations</h2>
+  <ul>
+  
+<li><a href="/gsoc/organizations/2021/umass.html">UMass</a> </li>
+  
+<li><a href="/gsoc/organizations/2021/pittsburgh.html">Pittsburgh</a> </li>
+  
+<li><a href="/gsoc/organizations/2021/cern.html">CERN</a> </li>
+  
+  </ul>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocproposals/2022/proposal_Phoenix.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

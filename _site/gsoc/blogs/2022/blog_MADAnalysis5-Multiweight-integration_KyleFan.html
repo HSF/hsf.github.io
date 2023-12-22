@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>MADAnalysis 5 Multiweight integration</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_IRIS-HEP_KushKothari.html">&nbsp;&#8592; Uproot + Dask</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_EtherpadPlugin_MohammadWarid.html">Etherpad plugin as a ScienceMeshDocs editor &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+      <div class="col-md-3">
+        <img src="https://avatars.githubusercontent.com/u/25071468?s=400&u=4a9c3d16631b63f5fea28cc2738b77dbaaa5fa37&v=4" alt=Kyle Fan width="100%" style="float:right">
+      </div>
+      <div class="col-md-9">
+    
+    <h1 class="blog-title">MADAnalysis 5 Multiweight integration</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">11 Sep 2022 by <a href="/gsoc/blogs/2022/blog_MADAnalysis5-Multiweight-integration_KyleFan.html">Kyle Fan</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <h2 id="multiweight-integration">Multiweight Integration</h2>
+<p>This feature update will give users the ability to track theoretical uncertainties during analysis.</p>
+
+<h2 id="midterm-evaluation">Midterm Evaluation</h2>
+
+<p> 
+
+As of July 24th, 2022, with generous time and support from Jack and Benjamin, I have integrated a multiweight container with the analysis platform. It currently fills in cut-flows with multiweight data correctly. Changes are currently held in [multi_weight/multi_thread](https://github.com/kfan326/madanalysis5/tree/multi_weight/multi_thread).
+  
+</p>
+
+<p> 
+  
+After discussions with Jack and Benjamin, we have decided to implement the next phase (Cutflow and histogramming output structure) in SQLite3 database format, next steps are to create a SQL schema and database manager to handle the database input and output. The format is selected due to ease of use for the end user, portability, and long term compatibility. Target completion time is the week of August 15th, 2022. Upon completion of the multi-weight integration, I will be working on multi-threading. The current plan is to use std::threads to handle events simultaneously in a SIMD paradigm since each event is independent of another. We may have to modify the datastructure to avoid data races when multiple threads are updating the same variables.
+
+</p>
+
+<h2 id="user-guide-for-multiweight-integration---final-evaluation-blog-post-september-8th-2022">User guide for multiweight integration - Final evaluation blog post September 8th, 2022.</h2>
+
+<p>
+
+Draft pull request can be found here [multiweight_integration](https://github.com/MadAnalysis/madanalysis5/pull/125). Current version does not yet have interface/install scripts for SQLite3, it will be included in the final Pull Request. MacOS users will have it installed by default and do not need to be concerned with it's installation, Linux users will need to install SQlite3 to use the multiweight feature.
+ 
+</p>
+
+<p>
+
+To use the multiweight feature, please update your analysis files to pass in the multiweight container in the execute function. An example is shown below. Notice the `Manage()-&gt;InitializeForNewEvent()` function must pass in two parameters: the `MAdouble64 weight` value and the `WeightCollection.GetWeights()` container. The current implementation will run both side by side until numerical validation is complete, at which time the single-weight implementation will be deprecated. The WeightCollection object is a general container for holding the weight values as well as providing operators such as addition, subtraction, multiplication, division, and assignment. The `GetWeights()` method is used to obtain the actual `std::map&lt;int, double&gt; weights`.
+ 
+</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bool atlas_susy_2018_31::Execute(SampleFormat&amp; sample, const EventFormat&amp; event)
+{
+  // Event weight
+  MAdouble64 EvWeight;
+  WeightCollection EvMultiweight;
+  if(Configuration().IsNoEventWeight()) {
+	  EvWeight=1.;
+	  EvMultiweight=1.;
+  }
+  else if(event.mc()-&gt;weight()!=0.) {
+	  EvWeight=event.mc()-&gt;weight();
+	  EvMultiweight=event.mc()-&gt;multiweights();
+ } else { return false;}
+ 
+ Manager()-&gt;InitializeForNewEvent(EvWeight, EvMultiweight.GetWeights());
+</code></pre></div></div>
+<p>
+	An example of operator usage is shown below. 
+</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>if (MET&lt;=250.) 
+  {	
+	Manager()-&gt;SetCurrentEventWeight(EvWeight*0.80); 
+	Manager()-&gt;SetCurrentEventWeight(EvMultiweight *= 0.80); //multiplication operator to scale all weight values by a float
+  }
+</code></pre></div></div>
+<h2 id="multiweight-output-files">Multiweight output files</h2>
+
+<p>
+The multiweight feature will produce two new files (one for Cutflows and the other for Histograms). The output location will be in their respective SAF output directory. The cutflow file will be named "cutflows.db" and the histogram file will be named "histo.db". These are SQLite3 files and can be transferred, stored, compressed and accessed independently of MADAnalysis 5. Users who are familiar with the basics of SQL queries can access the files through the terminal by the command: sqlite3 "file name"	
+</p>
+
+<h2 id="cutflow-database-schema-and-basic-queries">Cutflow database schema and basic queries</h2>
+
+<p>The Cutflow database has 3 tables</p>
+<ul>
+  <li>Cutflow</li>
+  <li>Weights</li>
+  <li>WeightDefinition</li>
+</ul>
+
+<p>
+The Cutflow table contains a list of region name and cut name instances in the analysis. The Weights table contain all weight information, each weight row is uniquely identified by region name, cut name and weight id. The WeightDefinition table contains the name or description of the weights which are identified by their numerical ID. Some basic queries are shown below.
+</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>select * from Cutflow; // lists all region and their associated cuts in this analysis
+select * from Weights; // lists all Cutflow data (# of positive/negative entries, positive sum, negative sum, positive squared sum, negative squared sum)
+select * from Weights where id = 1; //same as above but only give the entry where weight id = 1, this is the same data as the SAF file for the non multiweight implementation
+select * from WeightDefinition; // lists the weight definition for each weight
+
+// note that you can select the columns individually instead of all of them by replace "*" with "column_name_1,.....,column_name_n" the where clause allows you to filter the rows based on a value for a column, in the above case weight id = 1
+</code></pre></div></div>
+<h2 id="histogram-database-schema">Histogram database schema</h2>
+
+<p>The Histogram database has 3 tables</p>
+<ul>
+  <li>HistoDescription</li>
+  <li>Statistics</li>
+  <li>Data</li>
+</ul>
+
+<p>
+
+The HistoDescription table lists the name of the histograms associated with the analysis and their restrictive attributes(number of bins, minimum value, maximum value, associated regions). The Statistics table lists the statistical data associated with each Histogram/weight pair. The Data table contains the positive and negative values of each histogram bin. Examples of basic queries are shown below.
+</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>select * from HistoDescription; // list all the histograms associated with the analysis and their general description
+select * from Statistics where id = 1; // list all Histogram stats for weight id 1
+select * from Data where id = 1; // List all bins including underflow/overflow for weight id 1
+</code></pre></div></div>
+<h2 id="when-sqlite3-is-unavailable">When SQLite3 is unavailable</h2>
+<p>Without SQLite3, the program will not be able to output the multidimensional data and thus, will continue to output in existing SAF format. A feature will be added to merge weight information based on the weight description. Plots will also be generated automatically during normal mode based on the merged weight information.</p>
+
+<h2 id="continued-work">Continued work</h2>
+
+<p>The next milestone for this project is to enable multi-threading and optimize the program for performance. Profiling will be used to identify the most compute critical sections of the program that may benefit from optimizations. As mentioned in the Mid-term blog, SIMD multi-threading will be used to parallelize the program, the current plan is to duplicate the Cutflow and Histogramming datastructures for N cores, then synchronize and collect the N “shards” of data with one core. I believe this to be the most performant way of parallelization since the datastructures themselves are not very memory hungry, duplicating them N times will not exponentially increase memory usage.</p>
+
+<p>Additional milestone after multi-threading is complete will likely be working on a CI pipeline so that logic and numerical validation can be completed automatically with each update, this will save significant time that developers would need to spend on validation after each update.</p>
+
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_MADAnalysis5-Multiweight-integration_KyleFan.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

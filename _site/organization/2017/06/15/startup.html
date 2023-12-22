@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Weekly Meeting #96, June 15, 2017</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2017/06/08/startup.html">&nbsp;&#8592; HSF Weekly Meeting #95, June 8, 2017</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2017/06/22/startup.html">HSF Weekly Meeting #97, June 22, 2017 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-weekly-meeting-96-june-15-2017">HSF Weekly Meeting #96, June 15, 2017</h1>
+
+<h4 id="present-michel-jouvin-john-harvey-pere-mato-patricia-mendez-daniel-elvira-jim-kowalkowski-pete-elmer-paolo-calafiura-david-lange-liz-sexton-kennedy-mark-neubauer"><em>Present</em>: Michel Jouvin, John Harvey, Pere Mato, Patricia Mendez, Daniel Elvira, Jim Kowalkowski, Pete Elmer, Paolo Calafiura, David Lange, Liz Sexton-Kennedy, Mark Neubauer</h4>
+
+<h2 id="news-general-matters">News, general matters</h2>
+
+<ul>
+  <li>HSF position at CERN has been filled by Graeme Stewart. We are very happy with this new recruit. He will start in September.</li>
+</ul>
+
+<h2 id="hep-analysis-ecosystem-workshop-outcomes">HEP analysis ecosystem workshop outcomes</h2>
+
+<ul>
+  <li><a href="https://docs.google.com/document/d/1938v-JKE-trfJeJOzE1eTfztXjz7JecSTxSSHKKwq_A/edit?usp=sharing"><em>Draft report</em></a> - work in progress, not yet there… a little bit too chronological, with repetitions between the session summaries. Need to try to probably organize it more as a summary with the agreements, open issues and conclusions</li>
+</ul>
+
+<h2 id="cwp">CWP</h2>
+
+<ul>
+  <li>
+    <p>Annecy workshop June 26-30 <a href="https://indico.cern.ch/event/613093/overview"><em>https://indico.cern.ch/event/613093/overview</em></a></p>
+  </li>
+  <li>
+    <p><a href="https://docs.google.com/presentation/d/1STs_EVW7wmPhMG0qaqmygF6uFUgc07qA-Wm220rtMl8/edit#slide=id.g22da0d6011_0_0"><em>Template</em></a> proposed by Mark for the WG presentation during the initial plenary</p>
+  </li>
+  <li>
+    <p>79 people registered. A number of people will come for one or few days.</p>
+  </li>
+  <li>
+    <p>Finalizing the agenda: now in pretty good shape</p>
+
+    <ul>
+      <li>
+        <p>The last part (Thursday) still has to be refined: cross-cutting issues but also cross-review of papers. Try to be as proactive as possible but also need people to sign-up when in Annecy.</p>
+      </li>
+      <li>
+        <p>Friday: short presentation by each WG planned, intent is to report quickly about the progresses during the workshop. Also need to discuss the global structure of the CWP, the prioritization of actions… to ensure we are producing a global CWP that everybody can stand behind…</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Main goal of the workshop is not to polish the draft of each WG but to have the appropriate outcome of each WG to build the global CWP and roadmap. One the key input needed is a list of actions prioritized that can be organized as a roadmap after the discussion at the workshop.</p>
+  </li>
+  <li>
+    <p>GoogleDoc for organizing the car sharing.</p>
+  </li>
+</ul>
+
+<h2 id="activity-updates">Activity updates</h2>
+
+<h3 id="licensing">Licensing</h3>
+
+<ul>
+  <li>
+    <p>Meeting with Fastjet developers at CERN (June 14, 2-4 pm): very useful, very friendly. Both parties understand better each other (other’s constraints). As expected the problem is far from simple, due to one of the Fastjet dependency (CGAL) which is partly GPL. A summary is being prepared and will be attached to the HSF web site. Presentations given are attached to the <a href="https://indico.cern.ch/event/647004/"><em>agenda</em></a>. Fastjet developers have complaints against LHC experiments that are significantly under-citing Fastjet usage in their papers, something critical for their recognition. We supported their request, somewhat related to career recognition topic.</p>
+  </li>
+  <li>
+    <p>Action items:</p>
+
+    <ul>
+      <li>
+        <p>Experiments to check with OpenLab (they seem to require Apache). It needs some negotiation.</p>
+      </li>
+      <li>
+        <p>Experiments to get the citation right – A discussion is organized in ACAT. Proposed a HSF citation taskforce.</p>
+      </li>
+      <li>
+        <p>Contact with CERN KT to check their view on these licensing issues when collaborating with industry (it seems they are also pushing towards permissive licenses)</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Do we need to setup a citation TF in HSF as it is a critical issue but also distinct from licensing?</p>
+
+    <ul>
+      <li>Goal could be to produce a Technical Note on this topic, like we did on licensing</li>
+    </ul>
+  </li>
+  <li>
+    <p>Belle II meeting of the licensing task-force. In line with HSF. Take a decision by the end of the year.</p>
+  </li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+
+<ul>
+  <li>Setting up a ‘citation task-force’ in the context of HSF with the goal to produce a note with guidelines to experiments and software providers.</li>
+</ul>
+
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2017/06/08/startup.html">&nbsp;&#8592; HSF Weekly Meeting #95, June 8, 2017</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2017/06/22/startup.html">HSF Weekly Meeting #97, June 22, 2017 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

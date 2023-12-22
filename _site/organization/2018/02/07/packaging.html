@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Packaging Group Meeting #18, February 7, 2018</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2018/02/01/startup.html">&nbsp;&#8592; HSF Weekly Meeting #124, 1 February, 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/02/08/startup.html">HSF Weekly Meeting #125, 8 February, 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-packaging-group-meeting-18-february-7-2018">HSF Packaging Group Meeting #18, February 7, 2018</h1>
+
+<h4 id="present-graeme-stewart-liz-sexton-kennedy-ben-morgan-chris-green-patrick-gartung-javier-cervantes-villanueva-guilherme-amadio-oana-boeriu"><em>Present</em>: Graeme Stewart, Liz Sexton-Kennedy, Ben Morgan, Chris Green, Patrick Gartung, Javier Cervantes Villanueva, Guilherme Amadio, Oana Boeriu</h4>
+<h4 id="indico-agenda-and-presentations"><a href="https://indico.cern.ch/event/700265/" target="_hsf_packaging_18">Indico Agenda and Presentations</a></h4>
+
+<h2 id="introduction-graeme-stewart">Introduction (Graeme Stewart)</h2>
+<ul>
+  <li>Noted <a href="https://fosdem.org/2018/schedule/track/package_management/">FOSDEM’18 package management session</a>, inc. panel discussion.
+    <ul>
+      <li>Especially the “Cathedral” aspect of Package Managers vs more usual “Bazaar” in open source.</li>
+    </ul>
+  </li>
+  <li>Noted recent <a href="https://indico.cern.ch/event/608592/">CVMFS workshop</a>, highlighting talks relevant to packaging (<a href="https://docs.google.com/presentation/d/e/2PACX-1vR024DUiMr6__w8sY9rOPBsprhFoTqRoSHT-Ng0gyhooHotR5Aia2eSN05CMPAfHFl99ET_F0pZ8EK9/pub?start=false&amp;loop=false&amp;delayms=30000&amp;slide=id.p3">Compute Canada</a>, <a href="https://indico.cern.ch/event/608592/contributions/2830129/attachments/1591914/2520122/ccl-cvmfs-2018.pdf">Notre Dame</a>)</li>
+</ul>
+
+<h2 id="presentation-from-graeme-updates-to-use-case-document">Presentation from Graeme: Updates to Use Case Document</h2>
+<ul>
+  <li>Document cleaned up, resolved open comments</li>
+  <li>Some additional comments from Giulio expanded at end (and from discussion)</li>
+  <li>Meaning of “Common set of requirements” in the document
+    <ul>
+      <li>Best common solution, common language for understanding, sharing for tangible benefits</li>
+      <li>When requirements overlap, opt for most stringent, use modularity</li>
+      <li>Don’t be driven by edge cases</li>
+    </ul>
+  </li>
+  <li>Run through of <a href="https://docs.google.com/document/d/1h-r3XPIXXxmr5tThIh6gu6VcXXRhBXtUuOv14ju3oTI">document</a>
+    <ul>
+      <li>On using underlying system: difficult to maintain if we have binary packages cross platform due to varying
+versions/ABIs (Guilherme). Graeme: do want to support use of underlying system, we’ve noted the risk involved.</li>
+      <li>Sharing of artifacts, can we rely on CVMFS? (Liz). Graeme: to an extent, but have to be careful about publish time for de-duplication.</li>
+      <li>Guilherme: On development side, maybe use Containers as these are easier to modify than CVMFS.</li>
+      <li>Javier: Do tools cover everything? Need scripts on top of things like Spack to cover the deployment and development. Graeme: Probably need these, but separate from the
+(packaging) tool to keep things modular</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="presentation-from-chris-towards-a-full-spack--spackdev-based-build-ecosystem-for-art-based-experiments">Presentation from Chris: Towards a full Spack / Spackdev –based build ecosystem for art-based experiments</h2>
+<ul>
+  <li>Goals: build/development ecosystem, for at least the experiments using the Art framework</li>
+  <li>Replacing current system of UPS package relying on LD_LIBRARY_PATH etc (so better macOS support), cetbuildtools</li>
+  <li>External packages building using Spack recipes, SpackDev for building development packages</li>
+  <li>Progress:
+    <ul>
+      <li>25 milestones to demonstrate that new system can replace old one</li>
+      <li>Addition on “buildcache” functionality to Spack</li>
+      <li>Trouble points id’ed, inc build dimensions (compiler, MPI, debug/profile etc), avoid un-neccessary duplication of
+non-compiler specific packages (e.g. binary only, data only, C/Python only). Constraints from need to support older OS/packages</li>
+    </ul>
+  </li>
+  <li>Currently: De-UPSing cetbuildtools, refining/reviewing/assigning priorities to requirements, implementing milestones.</li>
+</ul>
+
+<h2 id="presentation-from-javier-fcc-stack-building-with-spack">Presentation from Javier: FCC stack building with Spack</h2>
+<ul>
+  <li>Stack uses LCG Releases from CVMFS as an underlying system
+    <ul>
+      <li>Use Spack’s configuration to describe use of these packages</li>
+    </ul>
+  </li>
+  <li>FCC packages may override LCG versions, not ideal
+    <ul>
+      <li>Github repos for package definitions, FCC, hep-spack, spack builtins</li>
+    </ul>
+  </li>
+  <li>Workflow split:
+    <ul>
+      <li>Build node, creates binary tarballs (buildcache)</li>
+      <li>Deploy buildcaches to CVMFS Stratum0 node(s) - need to use hash to install.</li>
+      <li>Also create a spack view, additionally setting up LCG Release required.</li>
+    </ul>
+  </li>
+  <li>Some issues with consistency of hashes between buildcache install and view creation.
+    <ul>
+      <li>Discussion with Patrick: down to how Spack calculates hashes, expected to be fixed in upcoming merge (also see FOSDEM talk)</li>
+    </ul>
+  </li>
+  <li>Speeding up builds
+    <ul>
+      <li>Try to reduce redundant work repeated everyday</li>
+      <li>How to reuse binaries already installed in CVMFS?
+Several options under investigation, but so far issue with all of these related to hash calculation,
+download of binaries, write/synchronization to/with CVMFS</li>
+      <li>Patrick: would be good to raise an issue on Spack GitHub, FNAL would also like this sort of functionality/have this issue</li>
+    </ul>
+  </li>
+  <li>Limitations: conflict between CVMFS packages with concept of Python extensions.
+    <ul>
+      <li>Spack commands may try to create links on a read-only system</li>
+      <li>Need to create a view to prepare a suitable environment</li>
+      <li>Various infrastructure scripts needed: Python scripts, plus various spack YAML config files.</li>
+    </ul>
+  </li>
+  <li>Conclusions
+    <ul>
+      <li>Spack fully covers FCC’s basic requirements, albeit with additional scripting needed for overall workflow.</li>
+      <li>Do need further optimizations of build process to maintain large sets of packages.</li>
+    </ul>
+  </li>
+  <li>Questions on usage/future:
+    <ul>
+      <li>Higher layer to configure Spack (eg.g how to build all package in debug)?</li>
+      <li>How best to Manage/Maintain Spack config for build/install of full stack?</li>
+      <li>How to deploy software using Spack (CVMFS/build and install on same node?)?</li>
+    </ul>
+  </li>
+  <li>Liz/Graeme: Good set of questions, maybe discuss in more detail at next meeting</li>
+  <li>Patrick: Also good to discuss/ask about these topics Spack’s Slack channel, someone from UChicago
+has been discussing using Spack w/CVMFS.</li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+<ul>
+  <li><a href="https://indico.cern.ch/event/704402/">Next meeting</a> 21st February 2018</li>
+  <li>Let Graeme/Ben know on any topics/talks. Possible talk from Giulio Eulisse on AliBuild experiences</li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2018/02/01/startup.html">&nbsp;&#8592; HSF Weekly Meeting #124, 1 February, 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/02/08/startup.html">HSF Weekly Meeting #125, 8 February, 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

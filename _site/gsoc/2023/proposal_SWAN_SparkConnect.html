@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Leverage Spark Connect for interactive data analysis in Jupyter Notebooks</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">Leverage Spark Connect for interactive data analysis in Jupyter Notebooks</h1>
+</div>
+
+  <h2 id="description">Description</h2>
+
+<p><a href="https://cern.ch/swan">SWAN</a> (Service for Web-based ANalysis) is a platform to do interactive data analysis on a web browser. Scientists and engineers, both at <a href="https://home.cern/">CERN</a> and at partner institutes, are using SWAN on a daily basis to develop algorithms required to perform their data analyses. The SWAN service builds on top of the widely-adopted <a href="http://jupyter.org">Jupyter Notebooks</a> and, more recently, the new <a href="https://jupyterlab.readthedocs.io">JupyterLab</a> interface. It integrates access to CERN software libraries, storage solutions and compute resources; notably, it leverages the storage synchronization and sharing capabilities of <a href="https://cernbox.web.cern.ch">CERNBox</a> and the computational power of <a href="https://spark.apache.org/">Spark</a>/<a href="https://hadoop.apache.org/">Hadoop</a> clusters for scaling out.</p>
+
+<p>Currently, SWAN uses the Apache Spark Python API to connect Python notebooks to Spark clusters. This works by allocating a Spark Session object that is private to the Python process (the user’s notebook session), which becomes the driver of the distributed computation. The Spark Session on the driver machine can then request worker processes, called executors, from the cluster manager and schedule Spark jobs to be run in parallel utilizing the executors’ resources.</p>
+
+<p>Such architecture has proven to work well and provide a scale out solution to SWAN users. However, a few important limitations have come apparent when using Spark on notebooks, due to the tightly coupled Spark driver architecture. The lack of built-in client-server connectivity in Spark (up to version 3.3.x) means, for example, that users need to spawn a new Spark Session for each of their notebooks, an operation that is resource intensive and has a high latency. These and other limitations are addressed in the latest development by the Apache Spark community: the Spark Connect component (<a href="https://issues.apache.org/jira/browse/SPARK-39375">SPARK-39375</a>). Spark Connect is a major improvement in Apache Spark and brings more flexibility to the interactive data analysis use cases with Jupyter notebooks. This is expected to improve the experience of SWAN users who offload computations to Spark clusters, since it allows to use Spark in client-server mode and hence share a connection to a Spark cluster across multiple notebooks, which also improves resource utilization.</p>
+
+<p>Therefore, this project proposes to develop a JupyterLab extension that makes it easy to establish a connection to a Spark cluster and share it among multiple notebooks, by exploiting Spark Connect under the hood. Potentially, this extension could be used not only in SWAN but also in other JupyterLab deployments.</p>
+
+<h2 id="task-ideas">Task ideas</h2>
+
+<ul>
+  <li>Investigate Spark Connect and understand the advantages and limitations of its client-server architecture compared to the classic PySpark architecture</li>
+  <li>Explore and test how Spark Connect can be leveraged on Spark clusters at CERN</li>
+  <li>Develop a JupyterLab extension based on Spark Connect, with the following features:
+    <ul>
+      <li>Allows to create one or more connections to a Spark cluster, from a SWAN user session</li>
+      <li>Multiple notebooks can be clients of a single connection</li>
+      <li>Optionally, allows to check the status of Spark jobs for a given connection</li>
+    </ul>
+  </li>
+  <li>Test and integrate the developed extension into SWAN</li>
+</ul>
+
+<h2 id="expected-results">Expected results</h2>
+
+<p>A working and easy-to-use extension, installable both in SWAN and in vanilla JupyterLab, which allows to leverage Spark Connect for connecting to Spark clusters and do interactive data analysis.</p>
+
+<h2 id="desirable-skills">Desirable Skills</h2>
+
+<ul>
+  <li>Knowledge of TypeScript and Python</li>
+  <li>Knowledge of Linux and Git</li>
+  <li>Experience with Jupyter Notebooks / JupyterLab</li>
+  <li>Understanding of REST APIs</li>
+</ul>
+
+<h2 id="mentors">Mentors</h2>
+
+<ul>
+  <li><a href="mailto:etejedor@cern.ch">Enric Tejedor</a></li>
+  <li><a href="mailto:jose.carlos.luna@cern.ch">Jose Carlos Luna</a></li>
+  <li><a href="mailto:luca.canali@cern.ch">Luca Canali</a></li>
+  <li><a href="mailto:diogo.castro@cern.ch">Diogo Castro</a></li>
+</ul>
+
+<h2 id="links">Links</h2>
+
+<ul>
+  <li><a href="https://home.cern/">CERN</a></li>
+  <li><a href="https://cern.ch/swan">SWAN Website</a></li>
+  <li><a href="https://github.com/swan-cern">SWAN Github</a></li>
+  <li><a href="http://jupyter.org">Jupyter</a></li>
+  <li><a href="https://spark.apache.org/">Spark</a></li>
+</ul>
+
+
+
+<h2>Additional Information</h2>
+  <ul>
+      <li>Difficulty level (low / medium / high): medium</li>
+      <li>Duration: 175 hours</li>
+      <li>Mentor availability: June-September</li>
+  </ul>
+
+
+<h2>Corresponding Project</h2>
+  <ul>
+      <li><a href="/gsoc/projects/2023/project_SWAN.html">SWAN</a></li>
+  </ul>
+
+ <h2>Participating Organizations</h2>
+  <ul>
+  
+<li><a href="/gsoc/organizations/2023/cern.html">CERN</a> </li>
+  
+  </ul>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocproposals/2023/proposal_SWAN_SparkConnect.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Interfacing PODIO with Julia</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_ROOT_SanchiMittal.html">&nbsp;&#8592; Batch Generator for training machine learning models</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_ROOT_JunZhang.html">Optimize ROOT use of modules for large codebases &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+      <div class="col-md-3">
+        <img src="https://avatars.githubusercontent.com/u/71919921?s=400&v=4" alt=Soumil Baldota width="100%" style="float:right">
+      </div>
+      <div class="col-md-9">
+    
+    <h1 class="blog-title">Interfacing PODIO with Julia</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">04 Sep 2022 by <a href="/gsoc/blogs/2022/blog_PODIO_SoumilBaldota.html">Soumil Baldota</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <p><strong>About Me</strong></p>
+
+<p>I am Soumil Baldota in my sophomore year in college with a few years of development experience in C++ and Python. For me Julia was a new language but I got acclimated quickly and have had a good time contributing to HSF organization. I am thankful to my mentors and the organization.</p>
+
+<hr />
+
+<p><strong>Community Bonding</strong></p>
+
+<p>In the community bonding period, with the help of Thomas and Benedikt, I setup my development environment along with local install of podio. To get familiar with podio and the contributing workflow. I worked on some minor issues.</p>
+
+<hr />
+
+<p><strong>Issues raised:</strong></p>
+<ul>
+  <li><a href="https://github.com/AIDASoft/podio/issues/297">clang-tidy</a></li>
+  <li><a href="https://github.com/AIDASoft/podio/issues/298">pylint</a></li>
+</ul>
+
+<hr />
+
+<p><strong>Pull Requests:</strong></p>
+<ul>
+  <li><a href="https://github.com/AIDASoft/podio/pull/291">Replace obj_needs_destructor by more general concept</a></li>
+  <li><a href="https://github.com/AIDASoft/podio/pull/293">Review generator python code</a></li>
+  <li><a href="https://github.com/AIDASoft/podio/pull/296">running pre-commit locally</a></li>
+  <li><a href="https://github.com/AIDASoft/podio/pull/311">Julia preprocessing</a></li>
+  <li><a href="https://github.com/AIDASoft/podio/pull/325">adding namespaces</a></li>
+  <li><a href="https://github.com/AIDASoft/podio/pull/329">add documentation</a></li>
+</ul>
+
+<hr />
+
+<p><strong>Coding Period</strong></p>
+
+<p>Following the Community Bonding Period I began to work on a prototype for the Interface which described how the generated code would look like. The prototype was created for classes with one to one relations, one to many relations and vector members. Then I made unittests for the prototype and added them to github actions for continuous integration. 
+The prototype can be found at the below link
+<a href="https://github.com/soumilbaldota/PODIO_Julia_Interface_Prototype.git">Prototype</a></p>
+
+<p>After the prototype was created. I added an attribute to store the Julia type of a data member described in C++ to the MemberVariable Class and a function to <a href="https://github.com/AIDASoft/podio/pull/310/files#diff-c129698a9b29360c0e27c5e4f710981b4f99524ad44c039202d750bcf349c834">get the Julia type</a> in <a href="https://github.com/AIDASoft/podio/blob/julia/python/generator_utils.py">generator_utils.py</a>, this was a necessary step to feed the jinja2 templates with the appropriate Julia type for code generation.
+After Julia type was added I made some <a href="https://github.com/AIDASoft/podio/pull/310/files#diff-61702c3a214182795b1d726c5dc1679a64a10274b7929e4ad4ceaf8dc87c203d">unittests</a> for the same and added them to <a href="https://github.com/AIDASoft/podio/blob/julia/python/test_MemberParser.py">test_MemberParser.py</a>.</p>
+
+<p>Following the addition of the attributes necessary for building the includes required to feed new templates that will generate Julia code. There is actual preprocessing required for building these includes required by our <a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/templates/Constructor.jl.jinja2">Constructor</a> and the <a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/templates/MutableStruct.jl.jinja2">MutableStruct</a> templates (covered further in the blog). This preprocessing is done by the <a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/podio_class_generator.py#L295-L320"><strong>preprocess_for_julia</strong></a> function. This functions fills our includes dictionary passed to the templates.</p>
+
+<p>The equivalent of C++ classes in Julia are the Mutable Structs, these help by providing structure to our data and allow us to set the type of the data after construction  which allows us to use our dataypes, by calling our Constructor. These constructors are named after the types themselves in our case, in order to abstract information from the users regarding the existence of Mutable Structs which are not interacted with, by the users.
+When two mutually dependent Mutable Structs are passed their Julia Types using Constructors, A Mutually Recursive/Inclusive Type Declaration occurs. This can be solved easily using forward declarations in C++ but it requires the use of either Parametric types or Abstract Types in Julia (<a href="https://github.com/JuliaLang/julia/issues/269">long standing issue</a>).</p>
+
+<p>For the purpose of code generation and a cleaner approach we chose to use the parameteric method. This required the list of parameters needed by each Constructor. This data is processed by the <a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/podio_class_generator.py#L286-L293"><strong>get_julia_params</strong></a></p>
+
+<p>The Parameteric Types are used by the <a href="https://github.com/AIDASoft/podio/blob/a8efda986f776892e90e7aafa4958aaf18a1e6c7/doc/templates.md?plain=1#L84">Datatypes</a>, which have one to one and one to many relations and are not used by the <a href="https://github.com/AIDASoft/podio/blob/a8efda986f776892e90e7aafa4958aaf18a1e6c7/doc/templates.md?plain=1#L75">Components</a> as they do not have any Cyclic Relations that could cause an infinite inclusion loop, Similarly Types with pure Vector Members also do not need a Parameteric Type.</p>
+
+<p>The Datatypes described by the yaml input are allowed to have a namespaces. These namespaces have been implemented with the help of modules and Submodules in Julia. So for to emulate the namespaces we have grouped the code into modules, such that each Type is wrapped in its own module. For Example the MCParticle Constructor would be a part of the MCParticleModule. the modules generated in parent namespaces required the collection of children in each namespace this is handled by the function <a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/podio_class_generator.py#L107-L115"><strong>get_namespace_dict</strong></a>.</p>
+
+<p><strong>Usage Of EDM4hep</strong></p>
+
+<p>Usage</p>
+
+<ul>
+  <li>edm4hep</li>
+</ul>
+
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="n">include</span><span class="x">(</span><span class="s">"edm4hep.jl"</span><span class="x">)</span>
+	<span class="n">edm4hep</span><span class="o">.</span><span class="n">MCParticle</span><span class="x">()</span>
+
+	<span class="c"># alternatively</span>
+
+	<span class="n">include</span><span class="x">(</span><span class="s">"edm4hep.jl"</span><span class="x">)</span>
+	<span class="k">using</span> <span class="o">.</span><span class="n">edm4hep</span><span class="o">:</span> <span class="n">MCParticle</span>
+</code></pre></div></div>
+<ul>
+  <li>Using a specific datatype</li>
+</ul>
+
+<div class="language-julia highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	<span class="c"># to include the MCParticleCollection / MCParticle directly.</span>
+
+	<span class="n">include</span><span class="x">(</span><span class="s">"MCParticleCollection.jl"</span><span class="x">)</span> 
+
+	<span class="c"># or to just use the MCParticle alone.</span>
+
+	<span class="n">include</span><span class="x">(</span><span class="s">"MCParticle.jl"</span><span class="x">)</span>
+	<span class="k">using</span> <span class="o">.</span><span class="n">MCParticleModule</span><span class="o">:</span> <span class="n">MCParticle</span>
+
+	<span class="n">mcp1</span> <span class="o">=</span> <span class="n">MCParticle</span><span class="x">()</span>
+	<span class="n">mcp1</span><span class="o">.</span><span class="n">PDG</span> <span class="o">=</span> <span class="mi">2212</span>
+	<span class="n">mcp1</span><span class="o">.</span><span class="n">mass</span> <span class="o">=</span> <span class="mf">0.938</span>
+	<span class="n">mcp1</span><span class="o">.</span><span class="n">momentumAtEndpoint</span> <span class="o">=</span> <span class="x">[</span><span class="mf">0.0</span><span class="x">,</span><span class="mf">0.0</span><span class="x">,</span><span class="mf">7000.0</span><span class="x">]</span>
+	<span class="n">mcp1</span><span class="o">.</span><span class="n">generatorStatus</span><span class="o">=</span><span class="mi">3</span>
+
+	<span class="n">mcp2</span> <span class="o">=</span> <span class="n">MCParticle</span><span class="x">()</span>
+	<span class="n">mcp2</span><span class="o">.</span><span class="n">PDG</span> <span class="o">=</span> <span class="mi">1</span>
+	<span class="n">mcp2</span><span class="o">.</span><span class="n">mass</span> <span class="o">=</span> <span class="mf">0.0</span>
+	<span class="n">mcp2</span><span class="o">.</span><span class="n">generatorStatus</span><span class="o">=</span><span class="mi">3</span>
+	<span class="n">mcp2</span><span class="o">.</span><span class="n">momentumAtEndpoint</span> <span class="o">=</span> <span class="x">[</span><span class="mf">0.750</span><span class="x">,</span><span class="o">-</span><span class="mf">1.569</span><span class="x">,</span><span class="mf">32.191</span><span class="x">]</span>
+	<span class="n">push!</span><span class="x">(</span><span class="n">mcp2</span><span class="o">.</span><span class="n">parents</span><span class="x">,</span><span class="n">mcp1</span><span class="x">)</span>
+
+	<span class="n">mcpc</span> <span class="o">=</span> <span class="n">MCParticleCollection</span><span class="x">()</span>
+	<span class="n">push!</span><span class="x">(</span><span class="n">mcpc</span><span class="x">,</span> <span class="n">mcp1</span><span class="x">)</span>
+	<span class="n">push!</span><span class="x">(</span><span class="n">mcpc</span><span class="x">,</span> <span class="n">mcp2</span><span class="x">)</span>
+</code></pre></div></div>
+
+<p>For more Usage Examples look at <a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/tests/unittest.jl">unittests for Julia</a></p>
+
+<p><strong>Templates</strong></p>
+<ul>
+  <li>
+    <p><a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/templates/MutableStruct.jl.jinja2">MutableStuct.jl.jinja2 template</a> is used for generation of Structs which use the includes_jl and params_jl dictionaries created while preprocessing.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/templates/Constructor.jl.jinja2">Constructor.jl.jinja2 template</a> is used for creating corresponding Constructors which initialize the structs with default values and bring the datatypes into their own namespace/module.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/templates/JuliaCollection.jl.jinja2">JuliaCollection.jl.jinja2 template</a> is used for creating Collection of the given Datatype.</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/python/templates/ParentModule.jl.jinja2">ParentModule.jl.jinja2 template</a> is used to create a parent namespace.</p>
+  </li>
+</ul>
+
+<p><strong>Testing</strong></p>
+
+<p><a href="https://github.com/AIDASoft/podio/blob/59fe1e740ca0a7dbff1180c1425047ed1ab3e027/tests/unittest.jl"><strong>unittests</strong></a> were added to test the functionality of the following in the generated code:</p>
+<ul>
+  <li>Namespaces</li>
+  <li>Collections</li>
+  <li>Cyclic Dependency</li>
+  <li>Vector Members</li>
+  <li>Relations</li>
+</ul>
+
+<p>The unit test suite covering the Julia code generation of the example datamodel was added to the test setup with the help of the mentors. This setup is also run in the CI workflows if a suitable Julia version is detected.</p>
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_PODIO_SoumilBaldota.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

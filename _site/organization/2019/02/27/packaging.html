@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Packaging Meeting #32, 27 February, 2019</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/announcements/2019/02/25/evgen.html">&nbsp;&#8592; Physics Event Generators Working Group, 28 March 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/announcements/2019/02/28/mentors-meeting.html">Informative Meeting for GSoC Mentors, 1 March 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-packaging-meeting-32-27-february-2019">HSF Packaging Meeting #32, 27 February, 2019</h1>
+
+<h2 id="agenda">Agenda</h2>
+<p><a href="https://indico.cern.ch/event/796240/"><span class="underline">https://indico.cern.ch/event/796240/</span></a>
+Participants: Graeme Stewart, Ben Morgan, Patrick Gartung, Chris Burr,
+Chris Green, Pere Mato, Giulio Eulisse, Javier Cervantes, Geri Ganis,
+Martin Ritter, Hadrien Grasland</p>
+
+<h2 id="introduction-ben">Introduction (Ben)</h2>
+<ul>
+  <li>FCC Demo, summer student probably comes in June.</li>
+  <li>SuperNEMO:
+    <ul>
+      <li>Problem with Homebrew is the size of the final product, 6-7GB
+as all graphics packages are rebuilt (slow and heavy).
+        <ul>
+          <li>Similar problems seen when building CMSSW into images.</li>
+          <li>Spack can use a native X11 setup.</li>
+          <li>Conda seems to be a lot smaller (600MB for X11 set of
+packages).</li>
+        </ul>
+      </li>
+      <li>Container image is a bit smaller than before.</li>
+      <li>Learning how to deliver a runtime.</li>
+      <li><code class="language-plaintext highlighter-rouge">spack load -r snemo</code> is a package - but want to update it to
+be a bundle to get dependencies, to be investigated.</li>
+      <li>Discuss this further next meeting!</li>
+    </ul>
+  </li>
+  <li><a href="https://indico.cern.ch/event/759388/">HOW2019</a> - will cover main activities and talks given recently in
+the group.
+    <ul>
+      <li>Send Graeme any relevant items to highlight.</li>
+    </ul>
+  </li>
+  <li>Chris - Conda OS X builds are now working (thanks Henry). Chris
+has merge rights now, so can rapidly deploy stuff!</li>
+</ul>
+
+<h2 id="nix-chris-b">Nix (Chris B)</h2>
+<ul>
+  <li>Presentation at
+<a href="http://nixcon2018.org"><span class="underline">NixCon</span></a>
+last year.
+    <ul>
+      <li>Many areas, but lots of users from HPC.</li>
+      <li>E.g: GRICAD HPC (Grenoble), Blue Brain Project, Compute
+Canada, Supercompute/Quantum Chemistry groups,
+Academic/Commercial HPC.</li>
+      <li>Some rebuild (14000 packages) from scratch due to different
+store or security (external binary) concerns.</li>
+    </ul>
+  </li>
+  <li>“Single user” Nix prototype:
+    <ul>
+      <li>New software: experts or CI.</li>
+      <li>Users: only install indirectly, but experts can use S3.</li>
+    </ul>
+  </li>
+  <li>But, multiuser installs more common:
+    <ul>
+      <li>Daemon: intermediary between users and nix, security via
+permissions and sandboxing.</li>
+    </ul>
+  </li>
+  <li>Nix store can be shared via NFS:
+    <ul>
+      <li>GRICAD combine NFS with multiuser Nix.</li>
+      <li>Users can install only on a small set of “head” nodes where
+the daemon runs. All installs still sandboxed/permissions.</li>
+      <li>Graeme: Is the build on NFS? No, these are in <code class="language-plaintext highlighter-rouge">/tmp</code>.</li>
+      <li>Scales well, but not for LHC.</li>
+    </ul>
+  </li>
+  <li>Nix talks to daemon via socket, so can communicate remotely.
+    <ul>
+      <li>E.g. Request build to “server”, this then builds, publishes on
+CVMFS.</li>
+      <li>No need for local write access to store.</li>
+      <li>O(1 minute) updates to shared filesystem probably o.k.</li>
+    </ul>
+  </li>
+  <li>Store directories have three levels:
+    <ul>
+      <li>User level “profile” directories.</li>
+      <li>Versioned Symlinks to “environments”.</li>
+      <li>“Environments” contain symlinks and directories to the actual Package directories.</li>
+    </ul>
+  </li>
+  <li>All dirs in Nix store are immutable:
+    <ul>
+      <li>So each dir could be RO disk image.</li>
+      <li>CVMFS client could then unpack, maybe faster to ship one
+“large” file than lots of small ones.</li>
+      <li>Dependencies between store dirs known, so could CVMFS prefetch
+deps?</li>
+      <li>Graeme: With disk images, would you need to download entire
+disk image to just access one file? Yes, but depends on access
+model, maybe split packages into smaller subsets. Graeme:
+Might it be related to what CVMFS were looking in exploding
+Docker images onto CVMFS?</li>
+    </ul>
+  </li>
+  <li>Nix supports direct builds on Docker/Singularity:
+    <ul>
+      <li>Docker images are graphs of layers, but do not have to depend
+on previous.</li>
+      <li>Nix store immutability could improve caching:
+        <ul>
+          <li>One package per layer, but docker 125 layer limit.</li>
+          <li>Algorithms to choose best grouping?</li>
+        </ul>
+      </li>
+      <li>See blog post for more details.</li>
+    </ul>
+  </li>
+  <li>Relocation:
+    <ul>
+      <li>Store path is in directory hash.</li>
+      <li>If purity ignored, then can relocate if store prefix is same
+length.</li>
+      <li>Otherwise, can extend/compress hash.</li>
+    </ul>
+  </li>
+  <li>Development environments:
+    <ul>
+      <li>Nix knows how to build everything, so use for setting up
+development envs with incremental builds?</li>
+      <li>Prototype put together to use generic builder, student at
+NixCon may work more on this.</li>
+    </ul>
+  </li>
+  <li>More users of Nix than expected, including HPC.</li>
+  <li>Main weakness still accessibility.</li>
+  <li>How to install a package with specifying build dependencies, i.e.,
+gcc and some dependent library?
+    <ul>
+      <li>Can do it, but it will be quite strict on dependencies and may
+rebuild a lot.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="spack-chris-g">Spack (Chris G)</h2>
+<ul>
+  <li>Recap:
+    <ul>
+      <li>MVP 1.0 out since 2018-08-29 for RHEL7 only.</li>
+      <li>Updates recently fixed some issues with remote URLs and tag
+updates.</li>
+      <li>Further testing and feedback from all welcome!</li>
+    </ul>
+  </li>
+  <li>News and activities:
+    <ul>
+      <li>Now a Spack HEP channel for communication:
+        <ul>
+          <li>Contact Chris if you want to be added/join this Channel.</li>
+        </ul>
+      </li>
+      <li>Some in this group added on Spack GitHub with limited
+authority to commit/merge PRs.
+        <ul>
+          <li>Policy to not merge any core or general packages without
+consultation other Spack developers.</li>
+          <li>Intent is to speed up merge/updates of HEP only packages.</li>
+        </ul>
+      </li>
+      <li>Major updates to spack-dev in use of spack as external command
+and concretization performance.</li>
+      <li>Work on LArSoft MVP: recipes contributed to upstream Spack for
+Geant4/VecGeom/CLHEP, plus other more specific neutrino ones.</li>
+    </ul>
+  </li>
+  <li>Discussion document for desired/in process changes in Spack and/or
+Spack recipes needed by HEP:
+    <ul>
+      <li>Link in document.</li>
+      <li>Categorized list of needed/wanted changes to Spack core and
+recipes.</li>
+      <li>Markdown dump will be posted to the Spack#hep Slack channel
+        <ul>
+          <li>Discussion welcome and expected!</li>
+        </ul>
+      </li>
+      <li>Examples:
+        <ul>
+          <li>External Spack subcommands (like <code class="language-plaintext highlighter-rouge">git &lt;extcmd&gt;</code>),
+including subcommand facilities and flake8 testing.
+Graeme: Is that part of the CI testing? Yes, is run as an
+automatic check.</li>
+          <li>Layering of Spack installations (“spack chain”, PRs
+present, but needs updating).</li>
+          <li>Better tracking of hashes when recipes updated with new
+variants, so don’t have to reinstall just because a
+variant has been added (all other things in the
+build/dependencies being equal). Javier: at moment, we
+freeze/tag the recipes for given release of the stack.
+Chris: Have <code class="language-plaintext highlighter-rouge">.spack</code> directories which might provide some
+info that could enable tracking. Chris B: Similar issue in
+Conda, finding binaries has insufficient set of
+constraints.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+<ul>
+  <li>Next meeting proposed for 27th March</li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/announcements/2019/02/25/evgen.html">&nbsp;&#8592; Physics Event Generators Working Group, 28 March 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/announcements/2019/02/28/mentors-meeting.html">Informative Meeting for GSoC Mentors, 1 March 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

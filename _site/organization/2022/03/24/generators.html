@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Generator WG Meeting #18, 24 March 2022</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">HSF Generator WG Meeting #18, 24 March 2022</h1>
+</div>
+
+
+
+
+  <p>Agenda: <a href="https://indico.cern.ch/event/1141896/">https://indico.cern.ch/event/1141896/</a></p>
+
+<ul>
+  <li>Discussion of ATLAS V+jets Modelling paper (<a href="https://arxiv.org/abs/2112.09588">PMGR-2021-01</a>)
+    <ul>
+      <li>V+Jets billions per final state produced in ATLAS. Dominant CPU sink is V+jets.</li>
+      <li>Sherpa2.2.11 0-2j@NLO+3-5jets@LO using MEPS@NLO + EW(virt) corrections, HTprime scale, no gluon colour/spin exact matching and analytic enhancement. –&gt; ~375 HS06/event.
+        <ul>
+          <li>200 million events –&gt; 238 HS06 years (compared to 444 HS06 years for Sherpa2.2.1 with different settings). ==&gt; Reduction of a factor of 2 in CPU resources with higher accuracy and better features: NLO QCD + NLO EW corr., on-the-fly weights…</li>
+        </ul>
+      </li>
+      <li>When settings similar FxFx and Sherpa has similar CPU times. However in Sherpa using event scale = scalar sum of outgoing particles reduces the accuracy.</li>
+      <li>Slicing: max(HT, PT^V) in six slices.
+        <ul>
+          <li>Samples are heavy flavor filtered –&gt; x3 additional samples for each slice.</li>
+        </ul>
+      </li>
+      <li>Phase-space enhancement for high pT and high HT for Z+njets (n=1,2,3,4,5): differential or analytic in sherpa.
+        <ul>
+          <li>Analytic enhancement behaves better.</li>
+          <li>Differential enhancement causes large spread of weights at high pT^V –&gt; inflation of relative uncertainty.</li>
+          <li>Fraction of negative weights reduced.</li>
+        </ul>
+      </li>
+      <li>Phase-space enhancement  for low pT scales.
+        <ul>
+          <li>High mV sample (&gt;120 GeV) and enhance in mV and combine with the max(HT,PV) sample. –&gt; Weight spread is controlled by doing this.</li>
+        </ul>
+      </li>
+      <li>Questions/comments:
+        <ul>
+          <li>Andrea V: Slide 4: Why the large variations of seconds/event?
+            <ul>
+              <li>Matthew G: Merging different final state multiplicities (e.g. 5j means 0-5j). So, we are sampling different events, i.e. different number of jets in the final state.</li>
+              <li>Andrea V: May be one can check the spread generating exactly 5 jets.</li>
+            </ul>
+          </li>
+          <li>Efe Y.: How does Sherpa compare to FxFx:
+            <ul>
+              <li>M.G.: No benchmarking yet for FxFx but it is definitely faster than sherpa.</li>
+            </ul>
+          </li>
+          <li>Efe Y.: Do you have the HS06 info from the production system as well:
+            <ul>
+              <li>Benchmarking only by local machines at CERN but work is going on to have the numbers from actual machines probably with larger spreads in the central values.</li>
+              <li>Efe Y.: In CMS, we tried to this with condor directly using the information using the production machines for each job but even then spreads were unreasonably larger than the ones compared to the local calculations.</li>
+            </ul>
+          </li>
+          <li>Marek S.: Unweighting is a statistical process. The smaller the efficiency the larger variations you will see. With higher number of partons you will see larger spread. Various effects are folded in one distribution. There is the improvement from unordered histories which has huge impact on tails of distributions.</li>
+          <li>Markus D.: EIC will have similar problems in a few years. What would you recommend for an experiment starting to work on these things?
+            <ul>
+              <li>Matthew G.: Why FxFx is much faster with similar accuracy needs to be understood.</li>
+            </ul>
+          </li>
+          <li>Alexander G.: Slide 2 plot: Sherpa prediction for 2.2.11 spot on with data, FxFx around 600 GeV there is some deviation? Where is it coming from?
+            <ul>
+              <li>Matthew G.: We should not read into this too much. In the paper (updated) version FxFx gives a perfect description (with improving details)_ FxFx and Sherpa have comparable performance sometimes FxFx is even better.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Lively discussion. Talk on “further Sherpa efficiency improvements” postponed to April, 7th, due to running late.</li>
+</ul>
+
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/organization/_posts/2022/2022-03-24-generators.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

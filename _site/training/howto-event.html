@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>So I want to host/request/organize a training event...</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">So I want to host/request/organize a training event...</h1>
+</div>
+
+<ul>
+  <li><a href="#what-is-the-hsf-training-philosophy">What is the HSF-Training “philosophy”?</a></li>
+  <li><a href="#what-type-of-event-are-you-holding">What type of event are you holding?</a>
+    <ul>
+      <li><a href="#in-person">In Person</a></li>
+      <li><a href="#virtual">Virtual</a></li>
+    </ul>
+  </li>
+  <li><a href="#what-will-you-be-teaching">What will you be teaching?</a>
+    <ul>
+      <li><a href="#does-the-material-already-exist">Does the material already exist?</a></li>
+      <li><a href="#i-cant-find-an-hsf-module-for-the-training-i-want-to-organize-">I can’t find an HSF module for the training I want to organize …</a></li>
+    </ul>
+  </li>
+  <li><a href="#who-will-do-the-educating">Who will do the educating?</a></li>
+  <li><a href="#what-do-i-need-to-do-to-organize-this-thing">What do I need to do to organize this thing?</a>
+    <ul>
+      <li><a href="#indico-page-agendaregistration">Indico Page (Agenda/Registration)</a>
+        <ul>
+          <li><a href="#registration-form">Registration Form</a></li>
+        </ul>
+      </li>
+      <li><a href="#mattermost">Mattermost</a></li>
+      <li><a href="#teleconferencing---zoom">Teleconferencing - Zoom</a></li>
+      <li><a href="#planning-document">Planning Document</a></li>
+      <li><a href="#advertisement">Advertisement</a></li>
+      <li><a href="#code-of-conduct">Code of Conduct</a></li>
+    </ul>
+  </li>
+  <li><a href="#do-i-need-to-consider-aspects-of-accessibility-and-diversityinclusionequity">Do I need to consider aspects of Accessibility and Diversity/Inclusion/Equity?</a></li>
+  <li><a href="#what-does-the-event-look-like-when-we-gather">What does the event look like when we gather?</a>
+    <ul>
+      <li><a href="#general-considerations">General Considerations</a></li>
+      <li><a href="#in-person-event">In Person Event</a></li>
+      <li><a href="#virtual-event">Virtual Event</a></li>
+    </ul>
+  </li>
+  <li><a href="#do-i-care-about-gathering-information-on-the-event-surveys">Do I care about gathering information on the event? (Surveys)</a>
+    <ul>
+      <li><a href="#surveys">Surveys</a>
+        <ul>
+          <li><a href="#pre-survey">Pre-Survey</a></li>
+          <li><a href="#post-survey">Post-Survey</a></li>
+        </ul>
+      </li>
+      <li><a href="#debriefs">Debriefs</a></li>
+    </ul>
+  </li>
+  <li><a href="#example-timeline">Example Timeline</a></li>
+  <li><a href="#and-dont-forget-">And don’t forget …</a></li>
+  <li><a href="#further-reads">Further reads</a></li>
+</ul>
+
+
+  <style>
+    figure.centered-figure {
+        text-align: center
+    }
+    .centered-figure > img {
+        width:80%;
+        max-width: 600px
+    }
+    .centered-figure > figcaption {
+        width:80%;
+        max-width: 600px;
+        text-align: center;
+        margin: 0 auto;
+    }
+</style>
+
+<p><strong>Great!</strong> We gladly welcome anyone who is interested in helping bootstrap the education of the HEP community.  At this point in time, we as a group have accrued a fair bit of experience and offer to work with you to make your event as effective and efficient as possible. We aim to do this in a way that stays coherent with the approach and “philosophy” of the HSF-Training group so as to make the tools and techniques that are developed persistent, reusable, and broadly accessible.</p>
+
+<p>If you have an inkling that you are keen to do this, go to <a href="/ workinggroups/training.html">our top page</a> and ping us or join our weekly meetings. We don’t bite, reach out and say <em>“Hi!”</em>.</p>
+
+<figure class="centered-figure">
+<img src="/images/training/analysis_preservation_bootcamp_participants.jpg" />
+<figcaption>Two (enthusiastic) participants attending the Analysis Preservation Bootcamp at CERN in February 2020. Note the two screens at the front and the “non-auditorium” room configuration.
+</figcaption>
+</figure>
+
+<h1 id="what-is-the-hsf-training-philosophy">What is the HSF-Training “philosophy”?</h1>
+<p><a href="https://en.wikipedia.org/wiki/Pedagogy">Pedagogy</a> is important to engage and help our community grow - <a href="https://www.ted.com/talks/christopher_emdin_teach_teachers_how_to_create_magic?language=en">Watch this TED Talk</a>. Having a common approach to education will help ensure that everyone involved in your training is “on the same page” and knows what you and we are aiming to achieve.  To a large extent, our approach is inspired by the <a href="https://software-carpentry.org/">Software Carpentries</a> organization and we encourage you to educate yourself about that organization if you are not already familiar.  But in short, we strive to cultivate education that is :</p>
+
+<ul>
+  <li><strong>Hands-On</strong> : A <em>work</em>shop where no work is done is not a <em>work</em>shop.  Learning, particularly when it comes to programming, is achieved by <em>doing</em>.  Strive to get participants doing more than just copy-pasting and embrace bugs and crashes as “learning opportunities”.</li>
+  <li><strong>Student-Centric</strong> : We are all students and we are all learning - this holds for participants and educators alike.  No one has perfect knowledge of any topic and <em>there is no such thing as a stupid question</em>. If a question arises, strive to help <em>that person</em> appreciate it from <em>their</em> perspective, not how <em>you</em> understand it.</li>
+  <li><strong>Experiment Agnostic</strong> : HEP is a huge community!  Rote learning of the pattern of commands that should be run to be successful in a single context is not learning.  Aim to teach tools and techniques that are independent of a specific context and accept that at some point, every individual wanting to do real research will have to be responsible to extrapolate what you teach them to their specific application.</li>
+  <li><strong>Reusable</strong> : If resources already exist, use them. If they do not exist, develop them in a way such that they can be adiabatically developed and used by others in the future.</li>
+  <li><strong>Open and Accessible</strong> : If someone wants to learn, they should be able to learn, and we will support this.</li>
+</ul>
+
+<p>Please reflect on these points and adopt a mindset that keeps these in mind while transforming your idea into reality.   And, if you feel like this philosophy should be modified or extended, don’t hesitate to bring it up to the conveners.</p>
+
+<figure class="centered-figure">
+<img src="/images/training/sw_carpentry_small.png" />
+<figcaption>Much of our pedagogical philosophy is borrowed from the <a href="https://software-carpentry.org/">Software Carpentries</a></figcaption>
+</figure>
+
+<h1 id="what-type-of-event-are-you-holding">What type of event are you holding?</h1>
+<p>Two formats of events have been carried out within the group, and you should give some concerted thought about which is more appropriate for your education goals.</p>
+
+<h2 id="in-person">In Person</h2>
+<p>An in-person event is akin to a standard conference or workshop where everyone gathers in a single place, someone leads the instruction by working through one of the <a href="https://software-carpentry.org/lessons/">SWC-style modules</a> showing both the webpage and their own terminal, on which they actively do what the participants do.  Typically, a module takes ~4 hours to complete and a couple hours of free time following the execution of the module is helpful to let participants work with educators to clarify understanding or being applying the tools to their own work.</p>
+<ul>
+  <li><strong>Example</strong> : <a href="https://indico.cern.ch/event/816946/">LBNL 2019 Bootcamp</a></li>
+  <li><strong>Pros</strong>
+    <ul>
+      <li>More fluid interactions between educators and participants (e.g. <a href="https://dynamicecology.wordpress.com/2015/01/13/sticky-notes-as-a-teaching-and-lab-meeting-tool/">SWC sticky notes</a>)</li>
+      <li>Easier to modify content/organization “on the fly”</li>
+      <li>Builds a community and network within HEP by having formal or ad-hoc social gatherings</li>
+      <li>Have near 100% of the attention of participants 100% of the time</li>
+    </ul>
+  </li>
+  <li><strong>Cons</strong>
+    <ul>
+      <li>Logistical challenges with rooms (e.g. 2 screens and 2 projectors)</li>
+      <li>Less equitable - Only those with the ability to be in the room due to any number of resources (e.g. money, scheduling) can participate</li>
+    </ul>
+  </li>
+</ul>
+
+<figure class="centered-figure">
+<img src="/images/training/mentors.jpg" />
+<figcaption>Three mentors (standing and kneeling) actively helping a participant (sitting, center).  The three other participants at the table are now active mentors in the community.
+</figcaption>
+</figure>
+
+<figure class="centered-figure">
+<img src="/images/training/instructor.jpg" />
+<figcaption>The Instructor (center) driving the training session by actively working through the same material the students are learning.  This helps keep a good pace and demonstrates that challenges affect participants <i>and</i> experts.
+</figcaption>
+</figure>
+
+<h2 id="virtual">Virtual</h2>
+<p>An virtual event takes place <em>entirely</em> online.  It commences with a “kickoff” where the facilitator describes how the event will function and proceeds in one of two ways.</p>
+
+<ol>
+  <li>The instructor works through the webpage/terminal module while sharing their screen with live question/answer as if you were in the same room.</li>
+  <li>The participants watch pre-recorded lectures at their own pace and use Mattermost to communicate and ask questions.  Some time later, everyone gathers for group “hands-on” work to discuss confusions or challenging aspects of the lessons.
+    <ul>
+      <li><strong>Example</strong> : <a href="https://indico.cern.ch/event/904759/">Virtual Pipelines 2020</a></li>
+      <li><strong>Pros</strong></li>
+    </ul>
+    <ul>
+      <li>Broader reach and more equitable.  Individuals can participate from around the globe on a schedule that is potentially more flexible.</li>
+      <li>Easier logistically (e.g. no rooms to book, use of pre-recorded lessons)</li>
+      <li>Low level of commitment needed by educators (e.g. no need to travel “just” to teach) means you will likely have broader support from our community of educators
+    - <strong>Cons</strong></li>
+      <li>Participants may “flake out” and not attend if they get busy near to the event</li>
+      <li>Participants may be trying to multi-task and get distracted throughout training</li>
+      <li>Non-personal - Only get to meet educators/participants in the virtual world.  Reduces the chance to have an ad-hoc but meaningful interaction</li>
+    </ul>
+  </li>
+</ol>
+
+<figure class="centered-figure">
+<a href="https://www.youtube.com/watch?v=NxhDGMo9ILM&amp;list=PLWZ1NKCZTdqcnTEx_CkfTP_3uZWcDOgxY"><img src="/images/training/virtual.png" /></a>
+<figcaption>Virtual events can be preserved and archived on YouTube and by sharing the webpage and terminal, the participant experience is largely recreated online.  Note the inclusion of captioning to ensure these resources are broadly accessible.
+</figcaption>
+</figure>
+
+<figure class="centered-figure">
+<img src="/images/training/participants_virtual.png" />
+<figcaption>When an event is virtual, participants will come from around the world.
+</figcaption>
+</figure>
+
+<h1 id="what-will-you-be-teaching">What will you be teaching?</h1>
+<p>Give some thought as to <em>what</em> you want to teach and <em>why</em>, particularly in the context of the philosophy of this group.  If you want to cultivate a generic skill among a portion of the HEP community (perhaps only those in your local research group) then its probably should be an “HSF event” and we can offer support.  If you want to teach a few of your students “how to do HEP analysis on LHCb with machine learning for track reconstruction” then its probably outside of the scope of this group.</p>
+
+<h2 id="does-the-material-already-exist">Does the material already exist?</h2>
+<p><strong>STOP!</strong></p>
+
+<p>Before you go ahead and begin making a <em>new</em> set of slides or designing your module, see if there is something that already exists in the <a href="/training/curriculum.html">HSF-Training archives</a>.  Here you will find a number of resources that may pertain to your goal. And if it doesn’t exactly pertain to your training goal, then it can provide a starting point in the form of a <a href="https://github.com/hsf-training/hsf-training-cicd">HSF-SWC module like this</a> (<a href="https://hsf-training.github.io/hsf-training-cicd/">which generates a website like this</a>) that you can fork and develop for your specific training.  You can extend it by adding on a couple of pages at the end which contain <em>experiment specific</em> lessons and/or you can simply modify the <a href="https://hsf-training.github.io/hsf-training-cicd/setup.html">setup page</a> of a lesson to give participants guidance on how to use specific resources that you are providing to them.</p>
+
+<h2 id="i-cant-find-an-hsf-module-for-the-training-i-want-to-organize-">I can’t find an HSF module for the training I want to organize …</h2>
+
+<p>In some cases, however, there may be a hole in our coverage of training material and that should be evident on the training archive.  In that case, you have a unique opportunity to contribute something truly original by creating a training from the ground up!  Doing so requires a larger investment of time, and likely a longer lead time in planning your event and we have found it typically takes approximately <strong>one month</strong> to produce a first draft that can be reviewed by mentors who will eventually be helping teach it.  However, we are prepared to support and give guidance on the development of this material, and to the extent that we can, offer technical expertise to produce a quality product that adheres to the HSF-Training philosophy.  If you find yourself in this scenario, consider reflecting on whether your training goal will cover one of the items on the “wishlist of HSF modules” from the <a href="https://docs.google.com/document/d/1QpWWK5ZYEY6kLofqUESwzuNTqUGRHAVj7Y_FeCPHt6c/edit?ts=5e53908e#heading=h.filivyl6ybj8">February 2020 Blueprint Meeting</a>.  If it will, then we are <em>very</em> keen to help in developing this.</p>
+
+<h1 id="who-will-do-the-educating">Who will do the educating?</h1>
+<p>Once determining what you will teach, it is important to build a team that can execute a quality event while not over-burdening any single individual (Remember, everyone is doing this out of a desire to educate and learn, rarely is anyone getting paid to expressly contribute their time or energy to HSF training).  We have found that there are three broad “Educator” roles that are necessary to fill and defining these from the start is critical.  More details can be found on <a href="https://hepsoftwarefoundation.org/training/educators.html">the page about educators</a>, but briefly:</p>
+<ul>
+  <li><strong>Facilitator</strong> : This person sends all the emails, organizes the indico, and makes sure everyone is on the same page</li>
+  <li><strong>Instructors</strong> : These are the super-experts on one of the given training modules you will be working through.  If it is an in person event, they are the persons in the front of the room driving lesson and making sure everything is running on time.</li>
+  <li><strong>Mentors</strong> : These are energetic and eager individuals who know the material to varying degrees and are willing to help teach other individuals.  Once you know your target attendance, you should be prepared to have at least <em>1 mentor for every 5 participants</em>.</li>
+</ul>
+
+<p>In principle, if you are the person reading this page and wanting to organise an event, you will slot in as the Facilitator.  It is then your responsibility to find the Instructors and Mentors and while this may be you or individuals from your institution, there is a <a href="https://hepsoftwarefoundation.org/training/community.html">growing community of educators</a> within HSF training that you can draw upon and recruit to help with your event.  Furthermore, we have a number of private Mattermost channels that serve as a communication point for educators and once discussing with the conveners, they can add you there to find further individuals to serve as Instructors and/or Mentors.</p>
+
+<p><strong><em>Diversity Matters</em></strong> : When recruiting instructors, please bear in mind that particularly in training events, there is a self-evident differential of authority where educators are often “looked-up to” by participants.  As such, make a concerted effort to create a diverse team of educators.  If you feel like “you just can’t find {X,Y,Z}” then please <em>reach out to us</em>.  This is an important tenet of the group of which you are (now) aware well in advance.</p>
+
+<p>In all of this, please bear in mind, <strong><em>everyone is doing this out of a desire to educate and learn, rarely is anyone getting paid to expressly contribute their time or energy to HSF training</em></strong>.</p>
+
+<figure class="centered-figure">
+<img src="/images/training/educators_enjoying_work.png" />
+<figcaption>HSF Educators enjoy their work (as evidenced by the smiles) and serve as role-models for participants. </figcaption>
+</figure>
+
+<h1 id="what-do-i-need-to-do-to-organize-this-thing">What do I need to do to organize this thing?</h1>
+<p>If you have organized a workshop/conference yourself, some of this may already be intuitive to you.  Likewise, some of it may not.  Please take a second to read through this as it is a recipe at which we have arrived through iteration.  If you have an alternative approach, we are eager to learn from your experience.</p>
+
+<h2 id="indico-page-agendaregistration">Indico Page (Agenda/Registration)</h2>
+<p>We use the <a href="https://indico.cern.ch/category/11386/">HSF Training Indico Space</a> to house training event pages. The conveners have rights to modify this category and once the event is confirmed to go ahead, we will create a “Conference” and give you master edit rights.  If you do not have a CERN account, you will need to create a <a href="https://account.cern.ch/account/Externals/">lightweight account</a> for this purpose.</p>
+
+<h3 id="registration-form">Registration Form</h3>
+<p>One of the primary reasons to use Indico for the primary point of organization and distribution of information is due to its ability to handle registration organization.  Since registration will be one of the primary points of contact for knowing who your audience is, you should carefully consider the questions you include here.  They are particularly necessary/helpful if you will be doing a pre-registration stage.  Some important questions include :</p>
+<ul>
+  <li><strong>Academic level</strong> : This can help if you need to limit attendance and want to specifically cater to a particular demographic (e.g. early PhD students) who are probably all having roughly similar issues/challenges, as opposed to first year university students.</li>
+  <li><strong>Institutional affiliation</strong> : This can be used to ensure that the individual is “actually” in HEP.  We have had web developers who don’t seem to be involved in academic science register in the past.</li>
+  <li><strong>Experimental/community affiliation</strong> : This can be useful to try and help gauge who the audience is and perhaps tailor the educator team to the registrants.</li>
+  <li><strong>Resource access</strong> : If you are going to intimately rely on using CERN-based resources (e.g. <a href="">gitlab.cern.ch</a> or <a href="">lxplus</a>) then it would be good to know if they have access to specific things like this and/or you would be willing to accommodate them if they don’t.</li>
+  <li><strong>Prior knowledge</strong> : Do they know a specific pre-requisite knowledge.  For example, if you want to teach something about continuous integration and they don’t understand how to use version control or git, then it would be good to tell them that they should attend a different event first, or need to study something.</li>
+  <li><strong>Accessibility accommodation</strong> : Though we <em>should</em> make every attempt to make our content accessible, this can admittedly be challenging.  Therefore, it is helpful to know where your energy should most immediately be used to help accommodate the audience who is attending your event.</li>
+  <li><strong>Physical location (if virtual)</strong> : If you are doing a virtual event, knowing if they will be in Asia, while you are in Europe, or whether you need to recruit instructors in the Americas so you are not teaching at 22h00 is important.</li>
+  <li><strong>Consent for photos/recording</strong> : This can be little more than a statement that says that registration implicitly means they agree to being recorded or having their photo taken, but documenting things is easy and this helps ensure that there is a minimal level of consent we are following.</li>
+  <li><strong>Justification for attendance</strong> : If you have a limited set of resources and must limit attendance, having some sort of a justification can really help be a tie-breaker for determining who will be engaged the entire time.  However, bear in mind when evaluating this that the verbosity of the response can vary by culture.</li>
+  <li><strong>Additional friction</strong>: In order to get a realistic estimate of the number of people who will actually attend the event (especially when it is purely virtual), it can make sense to make it a bit “harder” to sign up. This can for example mean to charge a small fee for the event (but bear in mind that this will complicate things) or a <em>justification for attendance</em> (as already proposed for a tie-breaker)</li>
+</ul>
+
+<h2 id="mattermost">Mattermost</h2>
+<p><a href="https://mattermost.com/">Mattermost</a> is an open source messaging platform (similar to <a href="https://slack.com/intl/en-fr/">Slack</a>). We use the <a href="https://mattermost.web.cern.ch/">CERN Mattermost server</a>. For each training event, we use a new “workspace” with a number of <em>public</em> channels which are used for communication with the participants and <em>private</em> channels that function for internal communication between the educators who are involved in the event.</p>
+
+<h2 id="teleconferencing---zoom">Teleconferencing - Zoom</h2>
+<p>We prefer to host virtual events using the <a href="https://zoom.us/">Zoom platform</a> and if you cannot host it through your home institute, the necessary logistics can be sorted out using the <a href="https://cern.zoom.us/">cern.zoom.us</a> instance.  Keeping a consistent platform choice that is more broadly used than others (e.g. Vidyo) means that educators and participants will more likely be familiar with its features.</p>
+
+<h2 id="planning-document">Planning Document</h2>
+<p>It is important to have a common and shared point of documenting the development of material, todo lists, emailing drafts, etc. that will need to be developed throughout the planning of your event.  This can be in the form of a <a href="https://docs.google.com/document/d/1ShuGcFka_qOCxQI00wvELtqhY7z79LE9wy_6WMkwJIQ/edit#">Google doc like the one from the LBNL training event</a> or using another application such as <a href="https://demo.codimd.org/">codi.md</a>.  Given that this document is not for broad public consumption and really for sharing information between the education team, what you use is really up to you.</p>
+
+<h2 id="advertisement">Advertisement</h2>
+<p>Depending on your desired participant recruitment, we can help advertise your event by publicizing it on the <a href="mailto:hsf-training-wg@googlegroups.com">hsf-training-wg google group</a>, <a href="https://hepsoftwarefoundation.org/Schools/events.html">our list of training events</a> and other HSF fora.  Beyond this, we have compiled a suite of communication pathways that can broadly reach large communities within various experimental collaborations.  As these are event-specific, once you are ready to advertise the event, just ask the conveners for this list of emails.</p>
+
+<h2 id="code-of-conduct">Code of Conduct</h2>
+<p>Your participation in HSF and subsequently the participation of educators and participants in your event are contingent on your and their agreement to behave according to a <a href="https://frameshiftconsulting.com/code-of-conduct-book/">code of conduct</a>.  By default, HSF-Training follows the <a href="https://hr.web.cern.ch/codeofconduct">CERN Code of Conduct</a> and you should make it abundantly aware to anyone participating in the event that they are agreeing to follow this code.  And <strong><em>you</em></strong>, as the facilitator are responsible for enforcing this code of conduct.  Do not hesitate to ask the conveners if you are unsure of what this entails.</p>
+
+<p>We have found that in addition to protecting participants from harm, an addition to the code of conduct that facilitates education is to stress the concept that <strong><em>“There is no such thing as a stupid question.”</em></strong>.</p>
+
+<figure class="centered-figure">
+<iframe width="80%" height="400px" src="https://www.youtube.com/embed/Rjnx3jprSKo">
+</iframe>
+<figcaption>A successful training requires mutual respect among all participants.  This should be established beginning from the initial stages of planning and educators and participants should be made aware of it throughout.
+</figcaption>
+</figure>
+
+<h1 id="do-i-need-to-consider-aspects-of-accessibility-and-diversityinclusionequity">Do I need to consider aspects of Accessibility and Diversity/Inclusion/Equity?</h1>
+<p><strong>YES!</strong></p>
+
+<p>The HSF-Training group believes that it is important to reduce the barriers to entry into the field of HEP.  Our activities implicitly do this by working to ease the learning curve for the essential aspects of computing in HEP.  However, there are barriers that exist beyond the intellectual ones and it is important that you consider these throughout planning and execution.  A summary of how to do this for a generic workshop is provided <a href="https://indico.cern.ch/event/813855/contributions/3503038/attachments/1890460/3117539/USATLASAnnualMeetingChecklist_1.pdf">here from the US-ATLAS Diversity and Inclusion committee</a>.  To highlight a couple important things that are often overlooked, but which we would ask you to consider from the beginning are :</p>
+<ul>
+  <li><strong>Captioning/Signing</strong> : Both in the case of in-person and virtual events, it is important to consider if you need to accommodate individuals who are deaf/HoH.  For this, you should be sure you know your educator team and in the participant registration, you should leverage the inclusion of a question of “accessibility accommodation” to know your audience.  Please also consider that in case you are providing pre-recorded training videos and/or recording the event.  If you want to broadly reach the entire HEP community by providing such recordings, consider how you will be providing <em>captioning</em> for these recordings.</li>
+  <li><strong>Diversity in Leadership</strong> : Consider that the educator team will be viewed by participants as “experts” and “leaders” in the field.  Seek out colleagues who help cultivate a more diverse field of HEP and can serve as role models for demographics that are not equitably represented including individuals from URM, female, LGBT+ communities.</li>
+  <li><strong>Financial Support</strong> : If you are holding an “in person” event, seek out whether there is funding available from your institution or CERN that can be used to support students to attend your event that would otherwise not have the ability to do so.</li>
+</ul>
+
+<h1 id="what-does-the-event-look-like-when-we-gather">What does the event look like when we gather?</h1>
+<p>Organizing the event carefully is very important to ensure that it is effective.  The general motif to keep in mind is that you want to make sure that everyone attending can digest the material as easily as possible and get personalized attention when necessary.  How this happens is different for in person and virtual events and we highlight the most important things to keep in mind in each.</p>
+
+<h2 id="general-considerations">General Considerations</h2>
+<ul>
+  <li><strong>Terminal layout</strong> : Because the lessons require that the instructor work through things on their own terminal, it is important that the configuration of their terminal is legible.  This means (1) black background, (2) not transparent, (3) high contrast, (4) large font.</li>
+  <li><strong>Coffee breaks</strong> : Explicitly schedule time for breaks where individuals can go to the toilet, get a coffee, or just a breath of fresh air.  If you are developing lesson content, consider even inserting these coffee breaks as lesson pages <em>within</em> the webpage itself to intentionally break your momentum.</li>
+</ul>
+
+<h2 id="in-person-event">In Person Event</h2>
+<ul>
+  <li><strong>Room</strong> : The room layout is critical.  The most important aspect is that every participant can easily be accessed by a mentor for one-on-one assistance.  Typically this means <em>not</em> holding it in an auditorium.  Also consider that the instructor at the front will be describing things with two projects, both of which should be viewable from the back of the room.</li>
+  <li><strong>Technical setup</strong> : Be prepared with <strong>2</strong> screens and <strong>2</strong> projectors that can serve to simultaneously showing (1) the SWC-style webpage and (2) the instructors terminal.  Do not convince yourself that you can jump back and forth between the two - this will only serve to confuse and frustrate participants.</li>
+  <li><strong>Sticky notes</strong> : Following the <a href="https://dynamicecology.wordpress.com/2015/01/13/sticky-notes-as-a-teaching-and-lab-meeting-tool/">SWC approach to questions</a>, be sure to have a stack of red and green sticky notes that participants can put on their laptop of they understand (green) or don’t understand (red) something.</li>
+  <li><strong>External connection</strong> : Simply put, don’t stress about having an external connection.  We have found that there are enough hurdles to being effective to the participants in the room and catering to a broader community compounds these challenges.  However, if you would like to make your content more broadly accessible, we would encourage you to consider pre-recording your lesson.</li>
+</ul>
+
+<h2 id="virtual-event">Virtual Event</h2>
+<ul>
+  <li><strong>“Recorded lesson” or “on the fly”</strong> : There are two ways to hold a virtual event.  (1) Have the instructor present the content in real time with questions from participants. (2) Pre-record the lessons for a given module and <a href="https://www.youtube.com/watch?v=NxhDGMo9ILM&amp;list=PLWZ1NKCZTdqcnTEx_CkfTP_3uZWcDOgxY">host them on YouTube</a> with a focused Q/A session a few days after the event begins.</li>
+  <li><strong>Record the event</strong> : Be sure to record the event to ensure that no one is left wondering what they are “supposed” to do.  Doing this will also make the lesson more “persistent” so that future individuals can refer it to new individuals.</li>
+  <li><strong>Host the event on Zoom</strong> : We prefer to host virtual events using Zoom.  More details on this can be found in the dedicated section.</li>
+  <li><strong>Have a “small group” session</strong> : Plan to arrange a time for mentors to meet with groups of no more than five or six participants to attempt to recreate the “hands-on” attention of an in-person environment.  How these groups are created and organized can be done based on {experience, timezone, collaboration} or other categories.</li>
+  <li><strong>Be wary of timezones</strong> : Keep in mind that a virtual training advertised broadly has the potential to attract participants from many disparate timezones.  Plan accordingly, but keep in mind that there is not perfect solution.  Assuring participants that recordings will be taken (and then making the recordings!) will help mitigate these issues.</li>
+  <li><strong>Captioning</strong> : BE INCLUSIVE! If the event is virtual, then there may be some individuals who can only participate if there is captioning.  Refer to the section on “Accessibility” for more details but bear in mind that this is a bit more of a unique accommodation from an in person event.</li>
+</ul>
+
+<figure class="centered-figure">
+<img src="/images/training/how_does_an_event_look_like.jpg" />
+<figcaption>The primary instructor (standing in front) driving the lesson with the lesson webpage and terminal while a mentor (bottom, long blond hair) helps debug a specific issue with a participant (bottom right, long black hair)
+</figcaption>
+</figure>
+
+<h1 id="do-i-care-about-gathering-information-on-the-event-surveys">Do I care about gathering information on the event? (Surveys)</h1>
+<p><strong>YES!</strong></p>
+
+<h2 id="surveys">Surveys</h2>
+<p>We care about documenting our successes as well as where we can improve using self-reported feedback (i.e. surveys).  For this, we request that you use <a href="https://www.google.com/forms/about/">Google forms/surveys</a> and create a survey to send to participants (but not educators) both (1) at the start of the workshop, the “Pre-workshop Survey” and (2) at the end of the workshop, the “Post-workshop Survey”.  What this should include has a set of baseline questions, but is also up to you.</p>
+
+<h3 id="pre-survey">Pre-Survey</h3>
+<ul>
+  <li><strong>Contact Info</strong> : Name/email to allow for you to identify who has and has not filled out the survey.</li>
+  <li><strong>Demographics</strong> : We care about knowing who attended a given event in a self-reported way.  The set of questions and answers choices that are “appropriate” have been refined over time and can be provided to you.</li>
+  <li><strong>Generic Knowledge</strong> : There is a set of questions we have, which can be provided as a start, and this section is intended to help you understand the audience you are teaching to.  If collected ahead of time, it can frame your event a bit more appropriately.  If not, it is still useful to provide some hindsight understanding of challenges you may have had.</li>
+  <li><strong>Event-Specific Knowledge</strong> : This is a set of questions that should be tailored to each of the learning goals you wish to achieve.  Usually there will be one survey section per training module and the questions are a self-reported ranking on a scale of [1-5] on the individuals understanding of a particular thing.  You will then repeat these same questions in the post-workshop survey to gauge their differential of understanding.</li>
+</ul>
+
+<h3 id="post-survey">Post-Survey</h3>
+<ul>
+  <li><strong>Contact Info</strong> : Name/email to allow for you to identify who has and has not filled out the survey.</li>
+  <li><strong>Event-Specific Knowledge</strong> :  These are the same set of self-reported understanding questions.</li>
+  <li><strong>Event Feedback</strong> : This is tailored to your event and is aimed at helping to understand how we can improve the execution of future events.  It should be a combination of multiple choice and open-ended questions.</li>
+</ul>
+
+<figure class="centered-figure">
+<img src="/images/training/surveys.png" />
+<figcaption>The HSF-Training approach makes a difference in the self-reported understanding of participants. </figcaption>
+</figure>
+
+<h2 id="debriefs">Debriefs</h2>
+<p>Following the event, it is customary for you to find a time to gather with the educators to have a time to discuss and debrief about what was successful and what was not.  This typically occurs after you have the results of the post-(and pre-) workshop surveys to help give some focus to the discussion.  This feedback should be documented on your planning document.</p>
+
+<p>After all of this, we would ask that you make a short presentation of your experience with the event at the HSF-Training weekly meeting.</p>
+
+<h1 id="example-timeline">Example Timeline</h1>
+<p>To give you an example of an event organization that follows this paradigm, let’s pretend you want to hold your event at time <strong>T</strong> and examine an approximate timeline.</p>
+<ul>
+  <li><strong>[T-4 months]</strong> Develop/discover content with HSF-Training and/or the instructors</li>
+  <li><strong>[T-4 months]</strong> Organize the venue/format</li>
+  <li><strong>[T-3 months]</strong> Recruit a team of educators</li>
+  <li><strong>[T-3 months]</strong> Fix the precise dates of the event
+    <ul>
+      <li>This could happen before you have secured an educator team if there are more important constraints.</li>
+    </ul>
+  </li>
+  <li><strong>[T-3 months]</strong> Develop the indico page and registration form
+    <ul>
+      <li>It is best to have this rather fully developed before announcing it so as to not miscommunicate with potential participants.</li>
+    </ul>
+  </li>
+  <li><strong>[T-2 months]</strong> Announce the event for (pre-)registration
+    <ul>
+      <li>Depending on who you announce this to, you may want to consider accepting only pre-registrations and then accepting a subset to not overflow your capacity.  If you do this, ensure it is done in a timely fashion.</li>
+    </ul>
+  </li>
+  <li><strong>[T-2 weeks]</strong> Develop the pre- and post-workshop surveys</li>
+  <li><strong>[T-2 weeks]</strong> Perform “dry run” of material with the educator team</li>
+  <li><strong>[T-1 week]</strong> Request registrants to complete pre-workshop survey</li>
+  <li><strong>[T]</strong> Kickoff workshop</li>
+  <li><strong>[T ⟶ T+few days]</strong> Execute lessons</li>
+  <li><strong>[T+1 week]</strong> Request registrants to complete post-workshop survey</li>
+  <li><strong>[T+2 weeks]</strong> Debrief with the educator team</li>
+  <li><strong>[T+3 weeks]</strong> Make closing presentation with HSF Training group</li>
+</ul>
+
+<h1 id="and-dont-forget-">And don’t forget …</h1>
+
+<p>There are a few logistical items that the facilitator (i.e. you) should bear in mind when the actual event is going on.  We have found that these are the type of things that often “slip one’s mind” but are mission critical to the longevity of the HSF Training effort.</p>
+<ul>
+  <li><strong>Take Photos</strong> : Whether in person or virtual, be sure to document the event with photos which can be used in talks or on our website.  Don’t be afraid to “stage” photos with participants to more appropriately highlight things in the training event.</li>
+  <li><strong>Use the Sticky Notes</strong> : The SWC training approach using sticky notes has been found to be very effective, particularly for participants that do not want to raise their hands.  Encourage the instructor to use them throughout the teaching to break up the lessons, and encourage students to use them throughout to indicate they are having an issue at any point.</li>
+  <li><strong>Get the Surveys</strong> : Don’t assume that all participants will automagically fill out the pre- and post-workshop surveys.  You as the facilitator should actively work to keep a tally and get them to fill them out.</li>
+  <li><strong>Monitor the Mattermost</strong> : Whatever your central communication point for educators and participants is, monitor it.  It’s important to not leave participants hanging by themselves.</li>
+  <li><strong>Keep “How to improve” Notes</strong> : On your internal document, note down ideas of how to improve the training for next time, logistically or otherwise, throughout the execution of the event.  Encourage all educators to do likewise.</li>
+  <li><strong>Take Coffee Breaks</strong> : Don’t go for multiple hours without taking a break.  Even if the training is online, break once per hour to give participants an explicit chance to take a stretch while being assured they will not “miss something”.</li>
+</ul>
+
+<h1 id="further-reads">Further reads</h1>
+
+<ul>
+  <li><a href="https://hepsoftwarefoundation.org/workinggroups/training.html">HSF Training home</a></li>
+  <li><a href="https://hepsoftwarefoundation.org/training/educators.html">The different roles in an HSF-training event</a></li>
+  <li><a href="https://hepsoftwarefoundation.org/training/curriculum.html">The HSF training curriculum</a></li>
+  <li>Creating content:
+    <ul>
+      <li><a href="https://hepsoftwarefoundation.org/training/module-guidelines.html">Guidelines for HSF training content</a></li>
+      <li><a href="https://github.com/hsf-training/carpentry-cookiecutter">How to create a HSF training module from scratch</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_training/howto-event.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

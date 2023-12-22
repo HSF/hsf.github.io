@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Geant4 - Symplectic integrators</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">Geant4 - Symplectic integrators</h1>
+</div>
+
+  <h2 id="description">Description</h2>
+
+<p>The <a href="https://geant4.web.cern.ch">Geant4</a> toolkit is the basis of the particle transport applications used in High Energy Physics (HEP) experiments, at CERN, other laboratories worldwide and in a large number of diverse applications. It provides all the capabilities needed to simulate the interactions and energy deposition in setups including HEP and Nuclear physics detectors, particle accelerators, medical imaging and treatment devices based on X-rays or particle beams, and even the probing of large structures such as the pyramids using the muons in cosmic rays.</p>
+
+<p>A key ability of Geant4 is the propagation of charged particles in electromagnetic fields.  A challenging application involves the tracking of particles in accelerators for a large number of turns.</p>
+
+<p>The <a href="https://muon-g-2.fnal.gov">g-2</a> physics experiment at Fermilab seeks to uncover whether a yet undiscovered forces influences how the spin of the muon behaves.  To do this it measures the polarisation of the muon to seek new physics over thousands of revolutions in its custom accelerator ring.  To replicate this in Geant4, the toolkit must track muons for 5,000 turns with near-perfect energy conservation and no drift in particle momentum.</p>
+
+<p>This project aims to identify and implement a small number of methods which do not accumulate errors in energy and phase space volume over many integration steps. Some derive from the development of symplectic integrators, also applied to the study of the long term evolution of the motion of planets and stars. Other candidate methods are borrowed from the particle-in-cell methods used to study plasmas, such as those at the center of active galaxies or in fusion reactors.</p>
+
+<p>The project aims to implement into Geant4 methods with these characteristics - potentially one of each type.</p>
+
+<h2 id="task-ideas">Task ideas</h2>
+<ul>
+  <li>Implement simplest general 2<sup>nd</sup>-order symplectic integration method (e.g. from Julia package)</li>
+  <li>Implement a low order (2<sup>nd</sup>) symplectic method specific for electromagnetic fields</li>
+  <li>Implement a higher order (3<sup>rd</sup>, 4<sup>th</sup>) symplectic method for electromagnetic fields</li>
+  <li>Identify alternative candidate integrators with different order and computational costs</li>
+</ul>
+
+<p>A key element of each task will be to benchmark the implemented method against the ‘standard’ integration methods in Geant4 (such as the Dormand-Prince 5th order Runge-Kutta method - as known as DoPri or DoPri5 in other tools) comparing accuracy and computing time performance. The setups will range from the simplest (a constant magnetic field) to models of realistic accelerator setups.</p>
+
+<h2 id="expected-results">Expected results</h2>
+<p>Working implementations of symplectic integration in Geant4.</p>
+
+<h2 id="evaluation-task">Evaluation Task</h2>
+<p>Interested students please contact John for a warm-up and evaluation task.</p>
+
+<h2 id="requirements-and-desirable-skills">Requirements and desirable skills</h2>
+<ul>
+  <li>C++ : intermediate knowledge (classes, reading/writing code),</li>
+  <li>Basic knowledge of Numerical Methods (floating point numbers, basic numerical analysis, ability to estimate cost of operations.</li>
+  <li>Knowledge of numerical methods to solve for differential equations would be an asset.</li>
+  <li>Physics course on Mechanics (covering Hamiltonians) would be an asset.</li>
+</ul>
+
+<h2 id="what-you-will-learn">What you will learn</h2>
+<p>You will gain experience</p>
+<ul>
+  <li>to use elements of Geant4, a sophisticated toolkit for simulations of particle transport;</li>
+  <li>about numerical integration methods for differential equations, their implementation;</li>
+  <li>to create reliable, validated code which will be used by a leading edge physics experiment.</li>
+</ul>
+
+<h2 id="mentors">Mentors</h2>
+<ul>
+  <li><strong><a href="mailto:john.apostolakis@cern.ch">John Apostolakis</a></strong> (CERN)</li>
+  <li><a href="mailto:syjun@fnal.gov">Soon Yung Jun</a> (FNAL)</li>
+  <li><a href="mailto:renee.fatemi@uky.edu">Renee Fatemi</a> (UKY)</li>
+</ul>
+
+<h2 id="links">Links</h2>
+<ul>
+  <li><a href="https://cern.ch/geant4/">Geant4</a> and its module to <a href="https://indico.cern.ch/event/1014059/contributions/4307722/attachments/2254579/3825301/MagneticField2021.pdf">propagate in magnetic fields</a></li>
+  <li>Tao, Molei. “Explicit High-Order Symplectic Integrators for Charged Particles in General Electromagnetic Fields.” Jour. of Comp. Phys. 327 (2016), p245–251 in <a href="https://doi.org/10.1016/j.jcp.2016.09.047">journal</a>, with full text also in <a href="https://arxiv.org/abs/1605.01458">arXiv</a></li>
+  <li><a href="https://www.bnl.gov/isd/documents/14517.pdf">Symplectic Integration, Z. Parsa and E. Forest</a></li>
+  <li>Zenitani, S., &amp; Umeda, T. (2018). “On the Boris solver in particle-in-cell simulation.” <a href="https://doi.org/10.1063/1.5051077">Physics of Plasmas, 25(11), 112110</a></li>
+</ul>
+
+
+
+
+<h2>Additional Information</h2>
+  <ul>
+      <li>Difficulty level (low / medium / high): high</li>
+      <li>Duration: 350 hours</li>
+      <li>Mentor availability: June-September, can extend up to November. Student must start by July 1, to ensure good startup coordination during a period of frequent, potentially daily communication (when all mentors are available).</li>
+  </ul>
+
+
+<h2>Corresponding Project</h2>
+  <ul>
+      <li><a href="/gsoc/projects/2022/project_Geant4.html">Geant4</a></li>
+  </ul>
+
+ <h2>Participating Organizations</h2>
+  <ul>
+  
+<li><a href="/gsoc/organizations/2022/cern.html">CERN</a> </li>
+  
+<li><a href="/gsoc/organizations/2022/fnal.html">FNAL</a> </li>
+  
+  </ul>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocproposals/2022/proposal_Geant4-Symplectic-integrators.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

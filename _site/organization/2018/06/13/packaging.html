@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Packaging Group Meeting #25, June 13, 2018</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/announcements/2018/06/08/software-dev-tools.html">&nbsp;&#8592; Software Development Tools Meeting, 14 June 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/06/14/software-tools.html">HSF Software Tools Meeting, 14 June, 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-packaging-group-meeting-25-june-13-2018">HSF Packaging Group Meeting #25, June 13, 2018</h1>
+
+<h1 id="agenda">Agenda</h1>
+
+<p><a href="https://indico.cern.ch/event/730538/">https://indico.cern.ch/event/730538/</a></p>
+
+<p>Participants: Graeme Stewart, Ben Morgan, Ben Couturier, Marco
+Clemencic, Chris Burr, Pere Mato, Guilherme Amadio, Chris Green, Rafal
+Pacholek, Patrick Gartung, Dmitri Konstantinov, Liz Sexton-Kennedy,
+David Lange</p>
+
+<h1 id="introduction---ben">Introduction - Ben</h1>
+<ul>
+  <li>Please advertise the <a href="http://rse.ac.uk/conf2018/">RSE conference</a>, even though we’re not presenting.</li>
+  <li>Feedback on next meeting date please - let us know if a meeting on 4 July
+makes sense.</li>
+</ul>
+
+<h1 id="rd-projects---graeme">R&amp;D Projects - Graeme</h1>
+<ul>
+  <li>LIM Workshop
+    <ul>
+      <li>Excellent overview of current and short term improvements to
+tools/procedures from CERN/LHC experiments.</li>
+      <li>Not so much about future of packaging overall - that is more within the
+remit of this WG.</li>
+    </ul>
+  </li>
+  <li>WG so far:
+    <ul>
+      <li>Use cases doc useful and well received.</li>
+      <li>Test stack less so. Any good PM can handle them. But good to
+check availability of build recipes for them.</li>
+      <li>Test drive: good for basic tests, experiments need a lot more.
+Useful for comparison, but not a short term priority. Continue
+but at a lower priority</li>
+    </ul>
+  </li>
+  <li>Points from LIM:
+    <ul>
+      <li>Reliance on system vs packager built.</li>
+      <li>System vs Build the World tension - maybe take each end as
+“sweet spots” for work?</li>
+    </ul>
+  </li>
+  <li>Deployment/Production:
+    <ul>
+      <li>Bet on Containers? Future resources mean we have less control
+over customization of site system packages.</li>
+      <li>More customization -&gt; less stability.</li>
+      <li>Also means we don’t have to try and build modern suite on old
+system.</li>
+      <li>Doesn’t mean “fat” containers, can use CVMFS.
+        <ul>
+          <li>Ben C: Also want flexibility to have “fat” containers to
+handle use case when site doesn’t support CVMFS.</li>
+          <li>Chris: Unlikely to get CVMFS at many HPC sites.</li>
+          <li>Graeme: Can have “fat” container only bringing in what’s
+needed. HPC may also have very fast filesystems, so maybe
+less cost in starting up fat system.</li>
+          <li>Marco/Ben C: Need tools to build the container, layer
+appropriately. Problem isn’t sharing the compilation (we
+have resources), it’s sharing the tools to organise the
+container.</li>
+          <li>Tension between when we have CVMFS and when we don’t. In the
+later case, we have to put everything we need (and only
+that) in the container image.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Full Stacks?
+    <ul>
+      <li>Entire self contained stacks have advantages in consistency.</li>
+      <li>But… Is a lot of work. E.g. in min of 350 packages for
+functional development machine in CentOS7, Ubuntu 16.</li>
+      <li>Only seems manageble by leveraging work of larger project (take
+pick of distro or project, e.g., Portage, Nix)</li>
+      <li>This use case matches well with Chris Burr’s work in LHCb.</li>
+      <li>Liz: CMS also used to build from libc upwards, possibly still
+now. David: not building libc upwards now.</li>
+    </ul>
+  </li>
+  <li>Modernise the Base OS?
+    <ul>
+      <li>Many rebuilds due to old (ancient!) base OS.</li>
+      <li>So need newer Python/C++ etc.</li>
+      <li>Updating the toolchain (Compiler/Interpreters), hence ABI
+changes require us to rebuild packages we otherwise might
+take from the system.</li>
+      <li>Advantage: focus on core task of packaging HEP software.</li>
+      <li>Worries: Longevity of release and support? Alleviated by
+containerised deployment?</li>
+      <li>What about release timescales?</li>
+      <li>Developing software now for deployment in 2020. So need newer
+compiler now, to ensure working software then.</li>
+      <li>Compiler vs binutils vs assembler consistency?</li>
+      <li>This is only to explore the possibility of this, not to solve
+everything.</li>
+      <li>What about running older stacks? Containers/Emulators could help
+here, related to whole data preservation effort(s).</li>
+      <li>David: Site specific software like EOS? Graeme: also xrootd,
+probably explore later in the R&amp;D effort. Ben C: In Dirac, use
+binary compatible xrootd plugin, but that uses middleware
+compatible interfaces.</li>
+    </ul>
+  </li>
+  <li>Developers
+    <ul>
+      <li>Containers lighter than VMs, but developers do prefer to run
+native.</li>
+      <li>On Linux: “prefix” environment as in Nix/Portage (independent of
+distro other than kernel) worthwhile exploring.</li>
+      <li>MacOS/Windows? More tricky to support from base toolchains.</li>
+      <li>Use of such a “prefix/view” explored by FNAL’s SpackDev.</li>
+    </ul>
+  </li>
+  <li>“R&amp;D Inventory”
+    <ul>
+      <li>Recognise strengths - a common place to share ideas and
+experience</li>
+      <li>Small doc on each ongoing project: very light (who/what/where).</li>
+    </ul>
+  </li>
+  <li>Other areas where we could improve: docs.</li>
+</ul>
+
+<h1 id="test-drive-round-table---all">Test Drive Round Table - All</h1>
+<ul>
+  <li>Javier has a container with LCGCMake almost ready
+    <ul>
+      <li>Questions on the core list of packages - not the whole superset, see the trimmed list in
+the test drive area.</li>
+    </ul>
+  </li>
+  <li>Experience of dockers on Mac not so great - slow and slow disks
+    <ul>
+      <li>E.g., Qt5 compile took a very long time.</li>
+      <li>There are <a href="https://docs.docker.com/storage/bind-mounts">special mount
+options</a>
+for volumes that relax synchronisation on OS X and improve
+performance a lot, e.g., `delegated`.</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/announcements/2018/06/08/software-dev-tools.html">&nbsp;&#8592; Software Development Tools Meeting, 14 June 2018</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2018/06/14/software-tools.html">HSF Software Tools Meeting, 14 June, 2018 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Training</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>  HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>  Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider">
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>  Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider">
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>  Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>  Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider">
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider">
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider">
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>  Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider">
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>  About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a></li>
+<li>
+                </li>
+<li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider">
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider">
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">HSF Training</h1>
+</div>
+
+  <p><img src="/images/training/analysis_preservation_bootcamp_participants.jpg" style="float: right; width: 90vw; max-width:320px; margin-left: 20px;margin-bottom: 20px;"></p>
+
+<p>The HSF Training Working Group aims to help the research community to provide training in the computing skills needed for researchers to produce high quality and sustainable software. The group works with experiment training groups, HEP initiatives (such as <a href="https://iris-hep.org/">IRIS-HEP</a> and <a href="https://first-hep.org/">FIRST-HEP</a>) and organisations like <a href="https://software-carpentry.org/">Software Carpentry</a> to coordinate training activities.</p>
+
+<p>The group aims to develop a training program that can be pursued by researchers to achieve the level of required knowledge. This ranges from basic core software skills needed by everyone to the advanced training required by specialists in software and computing.</p>
+
+<div class="big-link-container">
+  <a href="/Schools/events.html">
+    Join an event!<br>
+    Discover new topics together with mentors and peers!
+  </a>
+  <a href="/training/curriculum.html">
+    Self study!<br>
+    Learn at your own pace. No matter if you want to get a quick overview
+    or dive in the details, this is for you!
+  </a>
+</div>
+
+<h2 id="our-mission">Our mission</h2>
+
+<p><img src="/images/training/instructor_mentor_small.jpg" style="float: right; width: 90vw; max-width:320px; margin-left: 20px;margin-bottom: 20px;"></p>
+
+<p>The long term sustainability of the research software ecosystem is important for HEP as <a href="https://home.cern/science/accelerators/high-luminosity-lhc">HL-LHC</a> and other facilities of the 2020s will be relevant through at least the 2030s. Meeting this challenge requires a workforce with a combination of HEP domain knowledge and advanced software skills.</p>
+
+<p>The software skills required fall into two groups. Nearly all researchers need basic programming skills (Python, C++), basic software engineering skills (Unix, git/GitHub/GitLab, continuous integration, performance evaluation), and skills in the core data tools in HEP (e.g., the <a href="https://root.cern.ch/">ROOT data format and analysis framework</a>).</p>
+
+<p>More advanced training is then needed (with domain examples!) in parallel programming, efficient software implementations, performance optimization, and machine learning and data science tools. A workforce trained in this range of software skills is the critical ingredient from which the solutions to the computing challenges can grow.</p>
+
+<p>Today’s graduate students will be the young faculty members driving HEP research in the 2020s. Investing in their software skills is not only important to actually build the requisite software infrastructure, but will also change community norms, create role models and promote career paths for computational scientists within the HEP research community. Computation is a central element of 21st century science, and clearer career paths will provide a virtuous cycle of feedback to enhance the vibrancy of the training and workforce development activities.</p>
+
+<div class="big-link-container">
+  <a href="https://arxiv.org/abs/2103.00659">
+    Our most recent paper<br>
+    Several years of experiences and plans for the future (2021)
+  </a>
+  <a href="https://arxiv.org/abs/1807.02875">
+    Whitepaper<br>
+    Our vision of software training as of 2018
+  </a>
+  <a href="/training/resources">
+    More about us<br>
+    A collection of talks, papers and other material about our group
+  </a>
+</div>
+
+<h2 id="learn-with-us">Learn with us</h2>
+
+<div class="big-link-container">
+  <a href="/Schools/events.html">
+    Join an event!<br>
+    Discover new topics together with mentors and peers!
+  </a>
+  <a href="/training/curriculum.html">
+    HSF Training center<br>
+    Learn at your own pace. No matter if you want to get a quick overview
+    or dive in the details, this is for you!
+  </a>
+  <a href="https://hsf-training.github.io/analysis-essentials/">
+    Analysis essentials<br>
+    A course on basic computing required for HEP
+  </a>
+  <a href="https://github.com/hsf-training/PyHEP-resources">
+    PyHEP resources<br>
+    A curated list of python modules for HEP
+  </a>
+</div>
+
+<h2 id="participate--contribute">Participate &amp; Contribute!</h2>
+
+<p>The easiest way to get in touch are our weekly meetings, usually held at 16h00 CERN time on Mondays. Everyone is welcomed to discuss! Check <a href="https://indico.cern.ch/category/10294/">Indico</a> for details. The live notes and the zoom connection is linked in the right sidebar in the category view.</p>
+
+<p>Everybody is welcome to join the <a href="https://groups.google.com/forum/#!forum/hsf-training-wg">forum</a> dedicated to HSF training activities. This is the place where ideas and proposals are discussed and actions decided!</p>
+
+<div class="big-link-container" style="margin-bottom: 1em">
+  <a href="https://indico.cern.ch/category/10294/">
+    Talk to us!<br>
+    We meet weekly, usually on Monday at 16h00 CERN time.
+  </a>
+  <a href="https://join.slack.com/t/hsftraining/shared_invite/zt-18sa7y3s6-5QuNY0sSnlP6HSNvoFREkg">
+    Chat with us on Slack!<br>
+    Brainstorm your ideas with us. 
+  </a>   
+  <a href="/training/community.html">
+    Join the community!<br>
+    Join more than 70 people working on our mission.
+  </a>
+  <a href="https://github.com/hsf-training/PyHEP-resources">
+    Browse our GitHub Organization!<br>
+    Browse all of our training material. Issues &amp; pull requests are always welcome!
+  </a>
+  <a href="https://groups.google.com/forum/#!forum/hsf-training-wg">
+    Write us!<br>
+    Use our public mailing list and reach a wide range of training enthusiasts.
+  </a>
+</div>
+
+<figure class="centered-figure" style="margin-bottom: 1em">
+  <img src="/images/training/training_statistics.png" alt="Facilitator" style="max-width: 550px">
+  <figcaption>
+    The number of commits in our repository and the number of registered learners closely follows the number of our educators.
+    You, too, can  make a difference!
+  </figcaption>
+</figure>
+<h2 id="training-events">Training events</h2>
+
+<p>We are always looking for volunteers from the community to help us with our training events.</p>
+
+<div class="big-link-container">
+  <a href="/Schools/events.html">
+    Training events<br>
+    A list of training events both with and without HSF participation
+  </a>
+  <a href="/training/educators.html">
+    Training roles<br>
+    We have standardized the different roles your can fulfill at our events
+  </a>
+  <a href="/training/howto-event.html">
+    How to organize a workshop<br>
+    Whether you work with us or not, these guidelines might help your organizing an awesome workshop!
+  </a>
+</div>
+
+<h2 id="conveners">Conveners</h2>
+
+<!-- If the persons array is set, this will only include profiles of those
+people who are in the persons array. This can be used to include the convenors 
+for example.-->
+
+<!-- Include this in order to get the floating-heads of the educator list -->
+
+<!-- lazy loading of images for the avatars of educators to avoid slowing the page down -->
+<script src="/assets/js/lazysizes.min.js" async=""></script>
+
+<!-- for the github/orcid/etc icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" crossorigin="anonymous">
+
+<style>
+/* These style definitions are mostly adapted from 
+https://github.com/carpentries/carpentries.org/blob/gh-pages/assets/css/extras.css
+*/
+
+.img-circle {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+}
+
+.anchor-offset {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.column,
+.columns {
+ padding-left:.9375rem;
+ padding-right:.9375rem;
+ width:100%;
+ float:left
+}
+[class*="column"]+[class*="column"]:last-child {
+ float:left
+}
+[class*="column"]+[class*="column"].end {
+ float:left
+}
+
+@media only screen {
+ .column,
+ .columns {
+  position:relative;
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+ 
+  .row.small-collapse>.column,
+ .row.small-collapse>.columns {
+  padding-left:0;
+  padding-right:0
+ }
+ .row.small-collapse .row {
+  margin-left:0;
+  margin-right:0
+ }
+ .row.small-uncollapse>.column,
+ .row.small-uncollapse>.columns {
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+}
+
+@media only screen and (min-width: 40.063em) {
+ .column,
+ .columns {
+  position:relative;
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+ }
+ 
+ .row.medium-collapse>.column,
+ .row.medium-collapse>.columns {
+  padding-left:0;
+  padding-right:0
+ }
+ .row.medium-collapse .row {
+  margin-left:0;
+  margin-right:0
+ }
+ .row.medium-uncollapse>.column,
+ .row.medium-uncollapse>.columns {
+  padding-left:.9375rem;
+  padding-right:.9375rem;
+  float:left
+}
+
+.medium-3 {
+	width:25%
+};
+ 
+
+</style>
+
+<div class="row">
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="amorenobr">
+<a href="/profiles/alexander_moreno.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/amorenobr" class="img-circle lazyload" alt="GitHub profile photo of Alexander Moreno Briceño">
+
+</a>
+<h3><a href="/profiles/alexander_moreno.html">Alexander Moreno Briceño</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/amorenobr"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/amorenobr"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0001-8415-2543"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/alexander-moreno-brice%C3%B1o-a4b80924a"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:alexander.moreno@uan.edu.co"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="jrveatch">
+<a href="/profiles/jason_veatch.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/jrveatch" class="img-circle lazyload" alt="GitHub profile photo of Jason Veatch">
+
+</a>
+<h3><a href="/profiles/jason_veatch.html">Jason Veatch</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/jrveatch"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/jveatch"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0003-0855-0958"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/jason-veatch-6b9851b5"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:jveatch@cern.ch"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="klieret">
+<a href="/profiles/kilian_lieret.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/klieret" class="img-circle lazyload" alt="GitHub profile photo of Kilian Lieret">
+
+</a>
+<h3><a href="/profiles/kilian_lieret.html">Kilian Lieret</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/klieret"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/klieret"> <i class="fab fa-gitlab"></i> </a> </li> 
+<li> <a href="https://bitbucket.com/klieret"> <i class="fab fa-bitbucket"></i> </a> </li> 
+<li> <a href="https://orcid.org/0000-0003-2792-7511"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/kilian-lieret-0b0667104"> <i class="fab fa-linkedin"></i> </a> </li> 
+
+<li> <a href="https://lieret.net"> <i class="fas fa-link"></i> </a> </li> 
+</ul>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- to do delayed loading etc., see https://www.ratanparai.com/jekyll/Responsive-image-on-jekyll/ and then the original carpentries template -->
+
+<div class="medium-3 columns">
+<div class="team-member anchor-offset" id="wdconinc">
+<a href="/profiles/wouter_deconinck.html"><!-- Make sure to include educator_header to use this -->
+
+
+<img data-src="https://avatars.githubusercontent.com/wdconinc" class="img-circle lazyload" alt="GitHub profile photo of Wouter Deconinck">
+
+</a>
+<h3><a href="/profiles/wouter_deconinck.html">Wouter Deconinck</a></h3>
+<!-- social badges for people -->
+<!-- this needs the font awesome css to be included, e.g. by including profile_header.html -->
+
+<ul class="list-inline social-buttons">
+
+<li> <a href="https://github.com/wdconinc"> <i class="fab fa-github"></i> </a> </li> 
+<li> <a href="https://gitlab.com/wdconinc"> <i class="fab fa-gitlab"></i> </a> </li> 
+
+<li> <a href="https://orcid.org/0000-0003-4033-6716"> <i class="fab fa-orcid"></i> </a> </li> 
+<li> <a href="https://www.linkedin.com/in/wouterdeconinck"> <i class="fab fa-linkedin"></i> </a> </li> 
+<li> <a href="mailto:wouter.deconinck@umanitoba.ca"> <i class="fa fa-envelope"></i> </a> </li> 
+
+</ul>
+
+</div>
+</div>
+
+
+</div>
+
+<p>The conveners can be <a href="mailto:michel.hernandez.villanueva@desy.de,wouter.deconinck@umanitoba.ca,malik@fnal.gov,kilian.lieret@posteo.de">reached by email</a>. <!-- markdown-link-check-disable-line --></p>
+
+<h3 id="former-conveners">Former Conveners:</h3>
+
+<ul>
+  <li>Sudhir Malik (CMS, University of Puerto Rico), 2018-2022</li>
+  <li>Michel Hernandez Villanueva (Belle II, DESY), 2022</li>
+  <li>Dario Menasce (INFN Milano), 2016-2019</li>
+  <li>Sam Meehan (CERN, ATLAS and FASER), 2020</li>
+  <li>Meirin Oan Evans (ATLAS), 2021</li>
+</ul>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_workinggroups/training.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

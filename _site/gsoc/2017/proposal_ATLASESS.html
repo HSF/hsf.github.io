@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Event Streaming Service - A new approach to event processing</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">Event Streaming Service - A new approach to event processing</h1>
+</div>
+
+  <h2 id="description">Description</h2>
+
+<p>Over the past 2-3 years ATLAS has developed an innovative new approach to HEP data processing, the ATLAS Event Service (AES), which dispenses with the decades-old file-based processing model in favor of fine grained, dynamic workflows controlled and managed at the event level (~10min processing time quanta). The AES streams fine grained processing assignments to workers and streams out the data in quasi-real time such that the full processing allotment of a slot can be fully and efficiently used, ensuring full resource utilization particularly on opportunistic resources with transient or unpredictable worker lifetimes, such as commercial cloud spot markets and HPCs. The AES is built on the foundation of ATLAS’ PanDA distributed workload management system and the powerful fine grained workload tailoring capabilities of its JEDI subsystem.</p>
+
+<p>The proposed project is concerned with the next major step in this development program, the Event Streaming Service (ESS). With the AES in hand to stream event processing assignments, we have the possibility to intelligently stream the input data itself to workers. The value of this is that distributed dynamic data flows across the WAN at the highest possible efficiency are vital for the future of ATLAS computing. Storage is by far the largest cost component of our computing, and growing data volumes over the next decade will make it impossible to sustain our present computing model and how it uses storage. We will need to reduce replica counts, make ever greater use of transient caches, and make full use of our high bandwidth networking, delivering just the data needed to a worker, when it is needed, and without the application payload seeing WAN latencies. The ESS is designed to do this, intelligently pre-fetching the data needed asynchronously from the payload, in quasi-real time. Its development – presently at the early prototyping stage – is foreseen in several steps at increasing levels of sophistication:</p>
+
+<h3 id="ess-v1">ESS V1</h3>
+
+<p>ESS V1, the simplest incarnation of the ESS, performs asynchronous data pre-fetch for the events assigned by AES. Analogous to how outputs are streamed off the worker, the worker’s supervisor (pilot) runs a data pre-fetcher process asynchronous from the payload, performing WAN (or local) reads to fetch the data and creating small input files corresponding to event ranges that are consumed by the application. A first prototype of ESS V1 exists.</p>
+
+<h3 id="ess-v2">ESS V2</h3>
+
+<p>ESS V2 adds a server-side component to the system that receives the data streaming requests. Instead of the pre-fetcher reading a remote file, it interacts with a service, specifying the event processing assignment it has received. The service then can apply knowledge of the data needed by the client and its availability to choose an optimal means of acquiring, marshalling and streaming exactly the data needed by the client.</p>
+
+<h3 id="ess-v3">ESS V3+</h3>
+
+<p>The ESS service of V2 can evolve progressively into a powerful CDN-like capability to apply central knowledge and intelligence to data delivery while presenting simple access methods to the client. Furthermore, the interface presented by the service – when presented with a specific request for event data, deliver the data – is well suited to the ‘ultimate’ step in storage optimized data delivery, ‘virtual data’, in which the data does not exist prior to the request at all, but is generated on demand. This approach trades off CPU (relatively cheap and plentiful) against expensive storage.</p>
+
+<h2 id="task-ideas">Task ideas</h2>
+
+<p>With a first prototype of ESS V1 existing, the basic infrastructure to explore more sophisticated versions of ESS is in place. The GSoC objectives focus on exploring these more sophisticated approaches. A single GSoC program is likely to encompass one of the task ideas below, or a variation on them, to be decided with the candidate.</p>
+
+<ul>
+  <li>Implement a ROOT data delivery service that marshals data for delivery over the wire depending on the event data requested by the client (event, branches used, filtering to be applied, …).</li>
+  <li>Implement a CDN-like web service that receives event data requests and interacts with the data management system and other information sources (such as data popularity) to produce a data delivery plan for the client: delivering to the client an access endpoint for the data, and taking decisions such as whether to cache or replicate the data close to the client based on popularity and concurrent usage, so that subsequent requests for related data come from a source close to the client.</li>
+  <li>Implement a web service interacting with a ‘knowledge base’ database to receive event data requests and service them by generating the requested data on demand, delivering generated data to an ensemble of clients requesting related data.</li>
+</ul>
+
+<h2 id="expected-results">Expected results</h2>
+
+<p>A working server implementation of one of the ESS V2/V3 concepts for intelligent streaming data delivery via ESS to an event service client.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+  <li>C++</li>
+  <li>python</li>
+  <li>scripting</li>
+  <li>familiarity with ROOT preferred</li>
+  <li>some experience with relational (or other) databases preferred</li>
+  <li>experience with real-time and/or distributed and/or concurrent software</li>
+</ul>
+
+<h2 id="mentors">Mentors</h2>
+
+<ul>
+  <li><a href="mailto:tsulaia@cern.ch">Vakho Tsulaia</a></li>
+  <li><a href="mailto:wenaus@gmail.com">Torre Wenaus</a></li>
+</ul>
+
+
+
+
+<h2>Corresponding Project</h2>
+  <ul>
+      <li><a href="/gsoc/projects/2017/project_ATLAS.html">ATLAS</a></li>
+  </ul>
+
+ <h2>Participating Organizations</h2>
+  <ul>
+  
+<li><a href="/gsoc/organizations/2017/bnl.html">BNL</a> </li>
+  
+  </ul>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocproposals/2017/proposal_ATLASESS.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF meeting at CHEP 2015, Fri Apr 17 2015</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2015/03/30/startup.html">&nbsp;&#8592; Startup Team Minutes #19</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2015/04/20/startup.html">Startup Team Minutes #20 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <h1 class="blog-title">HSF meeting at CHEP 2015, Fri Apr 17 2015</h1>
+  <p class="blog-post-meta">17 Apr 2015 by <a href="/events/2015/04/17/CHEP.html">Torre Wenaus</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+      <p>The CHEP 2015 organizers have kindly agreed to include in the Conference planning a HEP Software Foundation meeting early Friday afternoon Apr 17, just after the conclusion of the Conference. Time and details are to be determined, but with very many flights to Tokyo available in the late Friday afternoon and evening we hope that many will be able to include the HSF meeting in their CHEP plans without significant disruption to their travel plans.</p>
+
+<!--more-->
+
+<p>The meeting will provide a good opportunity to</p>
+<ul>
+  <li>Expose a wider community to the HSF</li>
+  <li>Have a further face to face meeting a few months after the SLAC workshop</li>
+  <li>Nucleate common projects drawing on the substance of the CHEP Conference – CHEP 2015 will no doubt highlight and expose new and emerging opportunities for common software collaboration.</li>
+</ul>
+
+<p>Further details will be announced later, via the HEP S&amp;C community mailing list. If you have not yet signed up to this list, please do so at</p>
+
+<p><a href="https://indico.cern.ch/event/385984/">Agenda</a></p>
+
+<h1 id="minutes">Minutes</h1>
+
+<h2 id="introduction-and-status">Introduction and Status</h2>
+
+<p>Discussion</p>
+
+<ul>
+  <li>OpenStack Foundation: was seen as not giving enough visibility to the projects hosted by the foundation. Evolving along ideas very close to HSF ones!</li>
+  <li>R. Mount: WLCG should become a part of HSF or partner with it…
+    <ul>
+      <li>Not a complete agreement, WLCG more than SW development. May encourage SW projects in WLCG to participate to HSF.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="algorithm-forum---m-elsing">Algorithm Forum - M. Elsing</h2>
+
+<p>eed to address algorithmic problem in addition to fostering collaboration and common solutions between SW projects</p>
+
+<ul>
+  <li>Requirement for meeting the physics performance needed by HL-LHC</li>
+  <li>Tracking is the CPU driver for reconstruction
+    <ul>
+      <li>Even worst for triggerless readout adopted by LHCb and ALICE</li>
+    </ul>
+  </li>
+  <li>Hard to exploit new proc technologies, despite parallelized framework like Gaudi-Hive and CMSSW
+    <ul>
+      <li>Tracking intrisincly a sequential problem as it is focusing today on early rejection</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Must take into account that there is no possibility to restart from scratch</p>
+
+<ul>
+  <li>Existing frameworks are a huge investments: 100+ M$ per framework</li>
+  <li>There was discussion of effort needed to move to a new framework:  In the CMS experience CMSSW was started in 2005.  By the summer of 2006 CMS was taking cosmic data with it, and the simulation was fully ported.  The point is that moving existing algorithmic code to a different “framework module” interface doesn’t require a lot of work.  The expensive part is restructuring algorithmic code to adhere to the rules of a new framework, and are what take time.  For example moving from a policy of “use global state at will” to “no modification of global state during the event loop” would be hard.  However this change would be necessary to support multi-threaded applications no matter what framework was used.</li>
+</ul>
+
+<p>To gain from algorithms in tracking, need to reduce the sequential part to a very small part: Ahmdal law</p>
+
+<ul>
+  <li>Impact a lower early rejection needs to be understood</li>
+</ul>
+
+<p>Towards a common tracking implementation?</p>
+
+<ul>
+  <li>AIDA is aiming at that…</li>
+  <li>Must maintain best physics performance: not really a lot of enthusiasm about this idea in large experiments
+    <ul>
+      <li>Concentrate on sharing expertise, techniques, best practices</li>
+      <li>Small experiments may benefit from a common framework</li>
+    </ul>
+  </li>
+  <li>Atlas discussing to make public is tracking/vertexing SW
+    <ul>
+      <li>To allow reuse by FCC</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Several workshops on tracking and pattern recognition: ACAT…</p>
+
+<ul>
+  <li>WS on pattern recognition last Feb. in Berkeley:: Connecting the Dots</li>
+  <li>Need to hear from new approaches/algorithms like deep learning, neuronal networks…</li>
+  <li>Mailing list created by the reconstruction/tracking communities
+    <ul>
+      <li>In fact work started after the success of the HiggsML challenge</li>
+    </ul>
+  </li>
+  <li>Another list created under HSF umbrella: is it really useful to have both?</li>
+  <li>Also the BOOST workshops
+    <ul>
+      <li>Should reconstruction algorithm forum should join them rather than organizing its own workshops</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Discussion</p>
+
+<ul>
+  <li>M. Cataneo: should work on designing an Event Data Model adapted to parallelisation and vectorization: no reason to have 1 different for each experiment</li>
+</ul>
+
+<h2 id="working-groups">Working Groups</h2>
+
+<h3 id="techlab---r-wartel">TechLab - R. Wartel</h3>
+
+<p>An environment to gain experience with different HW to make better use of new platforms/processors</p>
+
+<ul>
+  <li>Also wants to be a useful meeting place: HW/SW, share of expertise
+    <ul>
+      <li>Community driven</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Some characteristics of TechLab</p>
+
+<ul>
+  <li>Only off-the-shelf HW</li>
+  <li>Multiple vendors: no lock-in</li>
+  <li>No NDA: everything can be published</li>
+  <li>Not a production service: no SLA or guaranteed availability</li>
+  <li>Platform run in close collaboration with OpenLab</li>
+  <li>SW as close as possible as the one used in production
+    <ul>
+      <li>with some variations: Fedora Core, modern kernels</li>
+    </ul>
+  </li>
+</ul>
+
+<p>TechLab supports HSF!</p>
+
+<ul>
+  <li>Offer access to its systems</li>
+  <li>Would like to collaborate with other HSF partners with similar infrastructures</li>
+  <li>Would like to understand how to accommodate HSF needs: agree on a first simple project or use case, set up access to it
+    <ul>
+      <li>Access to non CERN users: various possible solutions to be discussed according to the number of people involved: would like to explore alternative to creating a CERN account if possible.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>TechLab has 2 egroups, open to subscription to anybody interested</p>
+
+<h3 id="training---d-menasce">Training - D. Menasce</h3>
+
+<p>Broad consensus that there is a broad gap between what is taught at university and the skills required by our community.</p>
+
+<ul>
+  <li>Several good, well established schools but there format (~2 weeks) doesn’t allow a wide participation
+    <ul>
+      <li>Need to complement this with web-based tutorials</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Open question: join existing platforms (SW Carpentry, WikiFM…) or start our own platform</p>
+
+<ul>
+  <li>Not necessarily the right question for the short term</li>
+  <li>Focus on a unified knowledge base referencing “peer reviewed” material
+    <ul>
+      <li>Documentation is an essential ingredient</li>
+      <li>Specialized towards scientific computing</li>
+      <li>Online exercices</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Discussion</p>
+
+<ul>
+  <li>Why not look at MOOCS platforms?</li>
+  <li>Importance of human interactions</li>
+  <li>First concentrate on a catalog of existing valuable materials: the Yelp! approach!</li>
+</ul>
+
+<h3 id="sw-packaging---e-sexton---kennedy">SW Packaging - E. Sexton - Kennedy</h3>
+
+<p>Build tools are fundational: packaging is an opportunity for improvements.</p>
+
+<ul>
+  <li>Not HEP specific at all</li>
+</ul>
+
+<p>Many skeptics: failed many times in promoting common approaches</p>
+
+<ul>
+  <li>Have a phased approach with clear milestones: decide if and how to proceed after each phase</li>
+</ul>
+
+<p>Phase 1: requirements and specification, define the problem space well</p>
+
+<ul>
+  <li>Collect technical input</li>
+  <li>See if defining a common build protocol is doable</li>
+</ul>
+
+<p>Discussion started on GitHub HSF/packaging as issues</p>
+
+<ul>
+  <li>Can be subscribed/unsubscribed on an issue basis: if subscribed, an email sent for every contribution to the issue</li>
+  <li>Need broader participation!</li>
+</ul>
+
+<p>Discussion</p>
+
+<ul>
+  <li>Should not put too much effort in choosing a tool: no consensus in the C++ community as in Java, Python… the one chosen will be the wrong one anyway…</li>
+  <li>Tools are not specific to HEP, the way to use them may be specific
+    <ul>
+      <li>Concentrate on making easy to manage/use dependencies, if possible without rebuilding them</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="sw-projects---p-elmer">SW Projects - P. Elmer</h3>
+
+<p>Several projects across the community looking for funding: none really certain yet</p>
+
+<ul>
+  <li>Not many opportunities for funding new people: process often long</li>
+</ul>
+
+<p>Antoher support that HSF could pursue is funding visits/mobility for collaboration between existing staff</p>
+
+<ul>
+  <li>e.g. DOE/INFN exchange program</li>
+  <li>Focus youg people</li>
+  <li>HSF could help to make the existing programs know to the SW community
+    <ul>
+      <li>Often not SW specific</li>
+    </ul>
+  </li>
+  <li>Peter volunteers to bootstrap this by collecting the information</li>
+</ul>
+
+<h3 id="technical-notes---a-mcnb">Technical Notes - A. McNb</h3>
+
+<p>TN: short document aimed at capturing important technical details about an interface or implementation that may be of use to others.</p>
+
+<ul>
+  <li>Not intended to be “HSF Standards”</li>
+  <li>Not intended to be research papers or SW documentation</li>
+  <li>Modelled after experiment or lab technical reports
+    <ul>
+      <li>Or IETF RFC</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Potential benefits of a cross-project repository of technical notes: foster cooperation between projects</p>
+
+<ul>
+  <li>Description of an API may trig virtual/real meetings between projects</li>
+  <li>
+    <blockquote>
+      <p>Something visible/concrete that HSF can do to foster project collaboration</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>Avoid complex procedure : only provide a template, spell checks, typos fixing</p>
+
+<ul>
+  <li>Prior approval of scope by submitting a title abstract</li>
+  <li>Format : PDF
+    <ul>
+      <li>Source LaTeX template will be provided but any tool can be used to produce the PDF</li>
+    </ul>
+  </li>
+  <li>Andrew identified one potential candidate: to be confirmed soon</li>
+  <li>Andrew also has one but would not like to see it the first one</li>
+  <li>Also started to check emails and see if some of them can be turned into zeroth draft of a TN</li>
+</ul>
+
+<p>TN immutable, except for the first line that could be changed to reflect the document has been obsoleted</p>
+
+<ul>
+  <li>CERN would be happy to provide support for this with its infrastructure to manage document lifecycle.</li>
+</ul>
+
+<h3 id="licensing">Licensing</h3>
+
+<p>Broad agreement that HSF should not try to promote its own license: will imply a lot of lawyer work to agree that it is ok to use it.</p>
+
+<p>HSF may recommend a license but must remain flexible about project choices.</p>
+
+<ul>
+  <li>Sometimes choices imposed by a funded project</li>
+</ul>
+
+<p>Big issue is how we can build a product with a permissive license if we need to use viral licenses like GPL.</p>
+
+<ul>
+  <li>Could dual licensing be the solution in these cases?</li>
+</ul>
+
+<p>Discussion</p>
+
+<ul>
+  <li>CERN: impossible to recommend one license, must be a decision workflow with different recommendations for different situations</li>
+</ul>
+
+  </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/events/_posts/2015-04-17-CHEP.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

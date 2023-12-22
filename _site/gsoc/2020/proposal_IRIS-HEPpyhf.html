@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>pyhf Hardware Acceleration Benchmarking with GPUS and TPUs</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">pyhf Hardware Acceleration Benchmarking with GPUS and TPUs</h1>
+</div>
+
+  <h2 id="description">Description</h2>
+
+<p>High Energy Physics analyses are performed with statistical computations to ascertain the compatibility of the reported results with the existing Standard Model.
+These computed likelihood fits are performed using tools implemented in <a href="https://root.cern.ch/">ROOT</a> such as <a href="https://root.cern.ch/roofit">RooFit</a> and <a href="https://root.cern/doc/master/group__Roostats.html">RooStats</a>.
+In many cases, a binned, asymptotic likelihood fit is performed following a mathematical p.d.f. template called <a href="https://cds.cern.ch/record/1456844">HistFactory</a>.
+This HistFactory p.d.f. template is per-se independent of its implementation in ROOT and it is useful to be able to run statistical analysis outside of the ROOT, RooFit, RooStats framework.
+The <a href="https://github.com/scikit-hep/pyhf"><code class="language-plaintext highlighter-rouge">pyhf</code></a> library is a pure-python implementation of that statistical model for multi-bin histogram-based analysis and its interval estimation is based on the asymptotic formulas of “<a href="https://arxiv.org/abs/1007.1727">Asymptotic formulae for likelihood-based tests of new physics</a>”.
+<code class="language-plaintext highlighter-rouge">pyhf</code> supports modern computational graph libraries such as TensorFlow and PyTorch in order to make use of features such as autodifferentiation and GPU acceleration.</p>
+
+<p>The goal of the project is to develop a benchmarking suite in Python to test and benchmark the performance increase of the hardware accelerated backends on GPUs and TPUs on openly published physics data from LHC experiments [<a href="https://doi.org/10.17182/hepdata.89408">10.17182/hepdata.89408</a>, <a href="https://doi.org/10.17182/hepdata.92006">10.17182/hepdata.92006</a>].
+The benchmarking suite would preferably be written as a <a href="https://docs.pytest.org/en/latest/"><code class="language-plaintext highlighter-rouge">pytest</code></a> module.</p>
+
+<h2 id="task-ideas">Task ideas</h2>
+
+<ul>
+  <li>Write a hardware acceleration benchmarking suite for the GPU enabled backends (TensorFlow, PyTorch, and JAX) in Python (<code class="language-plaintext highlighter-rouge">pyhf</code> Issues <a href="https://github.com/scikit-hep/pyhf/issues/301">301</a>, <a href="https://github.com/scikit-hep/pyhf/issues/348">348</a>).</li>
+  <li>Write comparison plot generation code in Python for the performance of the GPU enabled backends against each other and the CPU backends.</li>
+  <li>Thoroughly document the performance benchmarking in the form of a case study.</li>
+  <li>Evaluate the hardware acceleration test suite using Google TPUs.</li>
+  <li>Profile the <code class="language-plaintext highlighter-rouge">pyhf</code> codebase to determine where the hardware acceleration is making the largest difference.</li>
+</ul>
+
+<h2 id="expected-results">Expected results</h2>
+
+<p>By the end of Summer 2020, we would like to have a benchmarking suite written in Python (preferably using <code class="language-plaintext highlighter-rouge">pytest</code>) that can test and compare the performance of all the <code class="language-plaintext highlighter-rouge">pyhf</code> computational backends in fitting openly published likelihoods from the LHC.
+This will require modularity in the benchmarking suite to allow it to be used on new data.
+There is particular interest in also having the student use the benchmarking suite they developed to evaluate the performance of hardware accelerated <code class="language-plaintext highlighter-rouge">pyhf</code> on GPUs and TPUs, along with detailed documentation and a report for the <code class="language-plaintext highlighter-rouge">pyhf</code> website.</p>
+
+<h2 id="evaluation-tasks">Evaluation tasks</h2>
+
+<p>Contact the mentors for a task that can be used to evaluate candidates.
+Contributing a “good first issue” PR to <code class="language-plaintext highlighter-rouge">pyhf</code> would be a rather advanced form of evaluation, but would also be an excellent test of how the student would work with the core developer team.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+  <li>Code in Python 3 and adhere to the <a href="https://github.com/psf/black">Black</a> code style</li>
+  <li>Comfort with switching between Python machine learning frameworks (PyTorch, TensorFlow, JAX, NumPy)</li>
+  <li>Basic understanding of functional minimization (e.g. <a href="https://docs.scipy.org/doc/scipy/reference/optimize.html"><code class="language-plaintext highlighter-rouge">scipy.optimize</code></a>, <a href="https://iminuit.readthedocs.io/en/latest/"><code class="language-plaintext highlighter-rouge">minuit</code></a>, and autodifferentiation)</li>
+  <li>Basic understanding of hardware acceleration</li>
+  <li>Ability to profile Python code</li>
+</ul>
+
+<h2 id="mentors">Mentors</h2>
+
+<ul>
+  <li><a href="mailto:matthew.feickert@cern.ch">Matthew Feickert</a></li>
+  <li><a href="mailto:lukas.heinrich@cern.ch">Lukas Heinrich</a></li>
+  <li><a href="mailto:giordon.holtsberg.stark@cern.ch">Giordon Stark</a></li>
+</ul>
+
+<h2 id="links">Links</h2>
+<ul>
+  <li><a href="https://github.com/scikit-hep/pyhf">pyhf</a></li>
+  <li><a href="https://iris-hep.org">IRIS-HEP</a></li>
+  <li><a href="https://scikit-hep.org">Scikit-HEP</a></li>
+  <li><a href="https://atlas.cern/updates/atlas-news/new-open-likelihoods">Openly published likelihoods</a></li>
+</ul>
+
+
+
+
+<h2>Corresponding Project</h2>
+  <ul>
+      <li><a href="/gsoc/projects/2020/project_IRIS-HEP.html">IRIS-HEP</a></li>
+  </ul>
+
+ <h2>Participating Organizations</h2>
+  <ul>
+  
+<li><a href="/gsoc/organizations/2020/illinoisuc.html">IllinoisUC</a> </li>
+  
+  </ul>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocproposals/2020/proposal_IRIS-HEPpyhf.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>An updated concurrency model for job monitoring in Ganga</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_MCnet_KalpShah.html">&nbsp;&#8592; Dataset-manipulation tools for simulated collider events</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_Geant4_HarshilJani.html">Geant4 - Performance Data Visualization using d3.js &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+       
+        <div class="col-md-3">
+          <img src="/images/blog_authors/GiorgosApostolopoulos.jpg" alt=Giorgos Apostolopoulos width="100%" style="float:right">
+        </div>
+        <div class="col-md-9">
+      
+    
+    <h1 class="blog-title">An updated concurrency model for job monitoring in Ganga</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">29 Aug 2022 by <a href="/gsoc/blogs/2022/blog_Ganga_GiorgosApostolopoulos.html">Giorgos Apostolopoulos</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <h2 id="introduction">Introduction</h2>
+
+<h3 id="about-me">About Me</h3>
+
+<p>My name is Giorgos Apostolopoulos and I am a 23 year old software developer from Greece. I was happy and honored to be
+selected by the Ganga team to work on their GSoC 2022 project.</p>
+
+<h3 id="what-is-ganga">What is Ganga?</h3>
+
+<p>Ganga is a CERN project that was built to tackle the problem of processing system heterogeneity in scientific computing.
+It enables specifying and managing computational tasks for a variety of backends using the same programmatic interface
+for all of them. It is a widely used tool, mostly within CERN and the LHCb experiment.</p>
+
+<h2 id="the-project-challenges">The Project Challenges</h2>
+
+<p>This year’s project revolves around monitoring the jobs submitted via Ganga. The main goals are the following:</p>
+
+<ol>
+  <li>To rewrite Ganga’s job monitoring service using modern Python concurrency features.</li>
+  <li>To improve monitoring performance, especially focusing on the DIRAC backend which is the one that quickly becomes underperformant.</li>
+</ol>
+
+<p>Throughout the course of the coding period, it has become a side objective to also improve the project’s coding standards.
+I have therefore taken up the challenge of improving and enriching the CI workflows and continuously submitting code style improvements.</p>
+
+<h2 id="midterm-project-timeline">Midterm Project Timeline</h2>
+
+<h3 id="community-bonding-period">Community Bonding Period</h3>
+
+<h4 id="overview">Overview</h4>
+
+<p>During this period I focused on becoming familiar with the project codebase. I took up a few good first issues that included writing unit tests
+and making small improvements. The Ganga team was very helpful guiding me through the process.</p>
+
+<p><a href="https://github.com/ganga-devs/ganga/pulls?q=is%3Apr+author%3Ajoj0s+is%3Aclosed+closed%3A%3C2022-06-01+">My Pull Requests during this period</a></p>
+
+<h3 id="first-coding-period">First Coding Period</h3>
+
+<h4 id="overview-1">Overview</h4>
+
+<p>During the first half of the coding period there has been steady progress towards the goals of the project.</p>
+
+<p>The basis of the new monitoring service based on asyncio has been created and the Local backend has been migrated to use
+async APIs for its monitoring. Besides that, a base requirement for the new service was that it also had to support non async
+monitoring. This has also been achieved by using ThreadPoolExecutors within it.</p>
+
+<p>However, there has been a wrench thrown in the original project plans. My proposal included migrating all DIRAC monitoring
+communication to the newly developed REST API it exposes so that it can be handled by asyncio. We later found out though
+that the REST API is experimental and that most of the DIRAC services still use the old DISET protocol to expose their endpoints.
+Therefore, the latter part of this coding period has been focused on profiling DIRAC monitoring and researching other ways of speeding it up.</p>
+
+<p>During coding we also discovered that the project is suffering from a significant amount of PEP8 violations. Part of my
+work has been focused on tackling this problem. To that end, I submitted a few grooming PRs and I also introduced a new
+CI workflow that features enriched linting and automatic formatting PR creation.</p>
+
+<p><a href="https://github.com/ganga-devs/ganga/pulls?q=is%3Apr+author%3Ajoj0s+is%3Aclosed+closed%3A%3E2022-06-01+">My Pull Requests during this period</a></p>
+
+<h2 id="second-coding-period">Second Coding Period</h2>
+
+<p>The second half of the coding period was all about finding the right solution to our DIRAC monitoring problem. As mentioned before, my originally proposed solution proved to be not yet ready for adoption.</p>
+
+<p>The new solution was a product of combining multiple concurrency options to achieve the best performance possible while still making sure that the original requirement of running DIRAC monitoring in an isolated subprocess held true. If you would like to see the technical side of things, I would refer you to the <a href="https://github.com/ganga-devs/ganga/wiki/Ganga-Monitoring-Service-Guide">wiki page</a> I wrote outlining the new monitoring service, with a detailed mention of the DIRAC solution.</p>
+
+<p>We then ironed out the service functionality and made sure that the new monitoring solution would work as expected in all environments, which was no easy task due to the fact that Ganga is meant to run in a wide variety of computing ecosystems. The LHCb environment proved particularly troublesome to get working properly, so the final weeks of the coding period was all about getting that part right.</p>
+
+<p><a href="https://github.com/ganga-devs/ganga/pulls?q=+is%3Apr+author%3A%40me+created%3A%3E2022-08-29">My Pull Requests during this period</a></p>
+
+<h2 id="project-outcome-and-future-plans">Project Outcome and Future Plans</h2>
+<p>I am very happy to say that the end of this year’s GSoC finds the Ganga project with a newly developed, very performant and functional monitoring service.</p>
+
+<p>The original project’s goals of bringing Ganga’s monitoring solution up to date with modern tools and coding practices, as well as fixing the significant bottlenecks that came with DIRAC monitoring have been met. As a simple metric, we found that the new monitoring service decreased the time needed to update the status of 25 remotely executing DIRAC computing jobs <strong>from 16 seconds to 0.7</strong>!</p>
+
+<p>The plan now is to subject the new monitoring solution to rigorous testing by the Ganga team and include it in the next project release.</p>
+
+<p>As for myself, I will be happy to remain available to the Ganga team to make sure that the process goes smoothly and hopefully continue contributing to the project beyond the GSoC timeline.</p>
+
+<h2 id="my-personal-experience">My Personal Experience</h2>
+
+<h3 id="first-coding-period-1">First Coding Period</h3>
+<p>I have only good things to say for my first half of this year GSoC program. Working for an organization like CERN has been
+a lifelong dream of mine and the experience has not disappointed. I have already learnt a great deal and really enjoy
+working with the Ganga team.</p>
+
+<p>I am very much looking forward to the latter half of my time at this year’s GSoC!</p>
+
+<h3 id="second-coding-period-update">Second Coding Period Update</h3>
+
+<p>The second coding period came with its own unique set of difficulties. Due to the challenges mentioned in the second period outline, my problem solving and debugging skills had to be put to the test. Thankfully, and thanks to the help of my GSoC mentors those challenges were overcome and through that I feel like I greatly improved as a developer.</p>
+
+<h3 id="final-takeaways">Final Takeaways</h3>
+
+<p>All in all, my experience in GSoC 2022 was everything I hoped it would be. I got to be participate and help improve a project used by a tremendous amount of people in the scientific computing community and I couldn’t be more thankful and proud for that.</p>
+
+<p>I would like to thank my GSoC mentors, <a href="https://github.com/egede">Ulrik</a>, <a href="https://github.com/mesmith75">Mark</a> and <a href="https://github.com/alexanderrichards">Alex</a> whose help and communication have been invaluable for me during this year’s program.</p>
+
+<p>Lastly, to anyone reading this blog who might be thinking about participating in GSoC, I couldn’t recommend it enough! I got the opportunity to be part of an amazing organization, meet brilliant people of diverse technical and personal backgrounds and exponentially improve my skills as a software developer. That is simply an opportunity that doesn’t come easily, and I would encourage everyone to go for it.</p>
+
+<hr />
+
+<p>Reach out to me at: giorgosap@protomnail.com</p>
+
+<hr />
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_Ganga_GiorgosApostolopoulos.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

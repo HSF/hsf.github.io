@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Visualisation</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">Visualisation</h1>
+</div>
+
+  <p>The Visualisation Activity Area gathers experts, developers, users and all people from the Particle Physics community interested in interactive data visualisation and event displays.</p>
+
+<p>The group started activities in October 2016 and it is convened by Riccardo Maria Bianchi (<em>University of Pittsburgh, US</em>, ATLAS Experiment).</p>
+
+<p>All are welcome to join the group and participate!</p>
+
+<h2 id="contacts">Contacts</h2>
+
+<p>Convenor: <a href="mailto:riccardo.maria.bianchi@cern.ch">Riccardo Maria BIANCHI</a> (ATLAS)</p>
+
+<p>Mailing list: <a href="mailto:hsf-visualization-wg@googlegroups.com">hsf-visualization-wg@googlegroups.com</a></p>
+
+<hr />
+
+<h2 id="goal">Goal</h2>
+
+<p>The goal of the group is to discover common approaches, foster collaboration among HEP experiments and groups, plan future software development and developing common tools.</p>
+
+<hr />
+
+<h2 id="description-of-the-group">Description of the group</h2>
+
+<p>Here follows the description of the group, its challenges and the questions which it should address, as defined by the group itself during the Visualisation session in the HSF Workshop in San Diego (see link in the meetings’ list below).</p>
+
+<p>The first task of the group was the writing of a <a href="http://hepsoftwarefoundation.org/activities/cwp.html">common white paper</a> about Visualisation issues and challenges in HEP, and possible solutions, in a time scale of 5-10 years. The paper is now completed and published on arXiV: <a href="https://arxiv.org/abs/1811.10309">https://arxiv.org/abs/1811.10309</a>.</p>
+
+<h3 id="scope-of-the-group-activities">Scope of the group activities</h3>
+
+<p>Visual representation of event data overlaid with detector geometry for the purpose of  HEP research, education and outreach. This representation can be static (event displays) or time-dependent (animations).</p>
+
+<h4 id="out-of-scope">Out of scope</h4>
+
+<ul>
+  <li>Visualisation of detector infrastructure and systems (eg. slow control)</li>
+  <li>Visualisation for statistical data analysis (histograms, etc…)</li>
+</ul>
+
+<h3 id="group-challenges">Group Challenges</h3>
+
+<ul>
+  <li>Find common approaches, promoting common tools</li>
+  <li>Improve support for the following use cases:
+    <ul>
+      <li>detector design (geometry browser)</li>
+      <li>simulation and reconstruction development</li>
+      <li>physics analysis</li>
+      <li>outreach &amp; education</li>
+    </ul>
+  </li>
+  <li>Improve support for required platforms and devices</li>
+  <li>Ensure sustainability for key software packages</li>
+  <li>Improve low latency access to data, low entrance cost, from a sisualisation point of view</li>
+  <li>Improve rendering performance</li>
+</ul>
+
+<h3 id="some-open-question-to-shape-the-group-activities">Some open question to shape the group activities</h3>
+
+<ul>
+  <li>Can we develop a common framework such that experiments can plug in geometry and event data in their own formats/data?</li>
+  <li>Can the data delivery be web-based?</li>
+  <li>Can we develop a collaborative (“multi-player”) tool to visualize and interact with event data and geometry in real time and a distributed manner (Google doc for sisualisation)? How will this capability advance HEP research and outreach?</li>
+  <li>Can we have common graphics engine?</li>
+  <li>Can we think about common visualisation tools with other fields (astrophysics, geophysics, etc…)? And can we learn something from them?</li>
+</ul>
+
+<h3 id="interaction-with-other-groups">Interaction with other groups</h3>
+
+<p>Topics for which we will have to interact with other groups:</p>
+
+<ul>
+  <li>Data access (data  handling, frameworks)</li>
+  <li>Geometry description (simulation group)</li>
+</ul>
+
+<hr />
+
+<h2 id="documents">Documents</h2>
+
+<ul>
+  <li>
+    <p>HSG “Visualisation” Community White Paper: <a href="https://arxiv.org/abs/1811.10309">https://arxiv.org/abs/1811.10309</a></p>
+  </li>
+  <li>
+    <p>Working Group’s <a href="https://docs.google.com/document/d/1ZXiMMmmAj1lwQIuvDc2UM4Jx6-hh1iamIw79DXguLIM/edit">charge document</a>, as defined by the group in the January 2017 San Diego Workshop</p>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="meetings">Meetings</h2>
+
+<h3 id="hsf-workshop-2018---visualisation-session-naples-28-march-2018">HSF Workshop 2018 - Visualisation session, Naples, 28 March 2018</h3>
+
+<ul>
+  <li><a href="https://indico.cern.ch/event/658060/sessions/266387/#20180328">Agenda</a></li>
+</ul>
+
+<h3 id="hsf-mini-workshop-on-gui-graphic-libraries-interactive-visualisation-cern-7-april-2017">HSF Mini-workshop on GUI, graphic libraries, interactive Visualisation, CERN, 7 April 2017</h3>
+
+<ul>
+  <li><a href="https://indico.cern.ch/event/628675/">Agenda</a></li>
+</ul>
+
+<h3 id="hsf-visualisation-workshop-cern-28-30-march-2017">HSF Visualisation Workshop, CERN, 28-30 March 2017</h3>
+
+<ul>
+  <li><a href="https://indico.cern.ch/event/617054/">Agenda</a></li>
+  <li>Discussion’s <a href="https://indico.cern.ch/event/617054/contributions/2526122/attachments/1436308/2208777/go">Live notes</a></li>
+</ul>
+
+<h3 id="hsf-workshop-san-diego-23-26-january-2017">HSF Workshop, San Diego, 23-26 January 2017</h3>
+
+<ul>
+  <li><a href="https://indico.cern.ch/event/570249/">Workshop agenda</a></li>
+  <li>Visualisation session’s <a href="https://indico.cern.ch/event/570249/sessions/217071/#20170125">agenda</a></li>
+  <li>All the <a href="https://indico.cern.ch/event/570249/contributions/2450053/">contributions</a></li>
+</ul>
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_activities/visualization.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

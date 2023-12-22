@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Symplectic Integrators</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_Acts_KavishkaAttanayake.html">&nbsp;&#8592; Acts GPU R&D - Optimization of GPU tracking pipeline</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_Geant4_PriyamMehta.html">Geant4-FastSim - Memory footprint optimization for ML fast shower simulation &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+      <div class="col-md-3">
+        <img src="https://avatars.githubusercontent.com/u/81478940?s=400&v=4" alt=Divyansh Tiwari width="100%" style="float:right">
+      </div>
+      <div class="col-md-9">
+    
+    <h1 class="blog-title">Symplectic Integrators</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">27 Jul 2022 by <a href="/gsoc/blogs/2022/blog_Geant4_DivyanshTiwari.html">Divyansh Tiwari</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <h2 id="introduction">Introduction</h2>
+
+<p>Many applications require the use of an integration method that preserves the energy over the course of a simulation.
+Hence, the aim of this project is to implement multiple methods which do not accumulate errors in energy and phase space volume over a large number of integration steps.A famous class of methods which fulfill the above criteria are the symplectic integrators.</p>
+
+<h2 id="getting-into-the-program">Getting Into The Program</h2>
+
+<p>After going through the list of projects, I decided upon the one I was going to apply, pretty early on. I was really interested in the physics behind the symplectic integrator. I also had some prior experience of working on implementing them. I mailed the mentors with my interest in the project, following which I received a qualification task. I submitted my solution to the task and after that, worked with my mentors to develop a project proposal. The projects were announced in may and I was selected!</p>
+
+<h2 id="starting-off---the-community-bonding-period">Starting Off - The Community Bonding Period</h2>
+
+<p>This was a very essential period. I had my first meet with my mentors and I got to know a bit about their works. We figured out the logistics of how we’ll be planning out the 3 month long coding period. I also got to attend the GSOC’22 Global Summit and learnt about the importance of open source. The rest of the community bonding period was utilized on brushing up my basics as well as learning to use the Geant4 toolkit.</p>
+
+<h2 id="coding-period---kick-off">Coding Period - Kick Off</h2>
+
+<p>Before starting work on the actual methods, it was important to develop a testbed application that could be used to test the steppers and drivers. Hence, I started off my coding period by implementing a geant4 application to track a particle in a geometry initialized with a magnetic field. This was really interesting and exciting for me as I had done my homework during the community bonding period. The testbed is comprised of a detector constructor class, a physics list class and a primary action generator class. The magnetic field of the geometry and the stepper used for tracking the particle can be defined in the detector constructor. The physics list is used to define various particles and physical processes. Finally, the primary generator was used to initialize the particle. I utilized the test bed to test out various steppers already present in the codebase to profile them.</p>
+
+<h2 id="first-method">First Method</h2>
+
+<p>After implementing the above application, we started deliberating on the first method that we’ll implement. We ultimately decided on the Boris Algorithm for its simplicity and wide use. The same was implemented by using the familiar driver and stepper design in Geant4. The stepper(<code class="language-plaintext highlighter-rouge">G4BorisScheme</code>) implements the actual Boris Algorithm and the driver(<code class="language-plaintext highlighter-rouge">G4BorisDriver</code>) is used to manage the stepper.</p>
+
+<h2 id="second-method">Second Method</h2>
+
+<p>The Boris method is a second order method. This means that the magnitude of the numerical error is going to vary as the square of the step size of the integration. To improve upon this, we decided to implement a higher order method to reduce the error due to the step size.Boris-SDC is fundamentally a collocation method solved via spectral deferred corrections, using the same trick as the Boris algorithm to avoid an implicit velocity
+dependence. In such methods, we establish interpolating polynomial that satisfy the fundamental ODE equation and then integrate these polynomial via quadratures.Furthermore, the method uses Spectral Deferred Corrections to make converging approximations of the  collocation solution.</p>
+
+<h2 id="implementing-boris-sdc">Implementing Boris-SDC</h2>
+
+<p>In order to understand and implement the method, I studied the thesis by Kristoffer Smedt on High-Order Particle Integration for Particle-In-Cell Schemes.
+The method was implemented in a similar style to the original Boris method. The stepper(<code class="language-plaintext highlighter-rouge">G4BorisSDC</code>) implements the actual algorithm and the driver(<code class="language-plaintext highlighter-rouge">G4BorisDriverSDC</code>) is used to manage the stepper.The method still requires some correction.</p>
+
+<h2 id="overall-experience">Overall Experience</h2>
+
+<p>I had an absolutely wonderful experience this summer. This wan a highly educative opportunity and I learnt a lot about open source.It gave me an insight into how large projects are maintained .I would like to express my gratitude to my mentors John Apostolakis, Soon Jung Yun and Renee Fatemi, for they have been extremely supportive and helpful throughout the program.</p>
+
+<h2 id="some-links">Some Links</h2>
+
+<ol>
+  <li><a href="https://docs.google.com/document/d/1LMNU8qvVKALE9EH1Hc5ROZeL-fl60gFf81KE4QsBj0M/edit?usp=sharing">Mid-Term Report</a></li>
+  <li><a href="https://docs.google.com/document/d/1gLeoJs8HuCoLsN0AeceiVCH1QyNXHK9V3zmpyA0v0QM/edit?usp=sharing">Project Proposal</a></li>
+  <li><a href="https://gitlab.cern.ch/geant4/geant4-dev/-/merge_requests/2930">Merge Request-1</a></li>
+  <li><a href="https://gitlab.cern.ch/geant4/geant4-dev/-/merge_requests/3029">Merge Request-2</a></li>
+  <li><a href="https://etheses.whiterose.ac.uk/22831/1/Smedt%20Thesis%20Final%20v2.pdf">Thesis Used</a></li>
+  <li><a href="https://docs.google.com/document/d/1p941HeP66Ubo56jffXnzlNsHEQRv72bfRCRtRul1x6U/edit?usp=sharing">Work Product Submission</a></li>
+</ol>
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_Geant4_DivyanshTiwari.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

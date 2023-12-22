@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF student pages for GSoC 2022</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="blog-header">
+  <h1 class="blog-title">HSF student pages for GSoC 2022</h1>
+</div>
+
+  
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/ACTSlogo.gif" alt="Acts" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Acts GPU R&amp;D - Optimization of GPU tracking pipeline</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/KavishkaAttanayake.jpeg" alt="Kavishka Attanayake" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Kavishka Attanayake</p> 
+    </div>
+  </div>
+</div>
+<p>This blog summarizes what progress I have achieved, what I have learnt and my experiences during the GSoC period. Improving throughput can be achieved by attempting to reduce compute times as well as improving hardware utilization. In this project I aim to utilize caching allocators to reduce data reading times as well as utilize CUDA MPS to maximize the GPU utilization of the parallelized CUDA algorithm and compare it against the multicore CPU algorithm.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Acts_KavishkaAttanayake.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/ACTSlogo.gif" alt="Acts" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Acts — Vectorized Linear Algebra Implementation</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+      <img src="https://avatars.githubusercontent.com/u/63574588?s=400&amp;v=4" alt="Tirthankar Mazumder" width="100px" />
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Tirthankar Mazumder</p> 
+    </div>
+  </div>
+</div>
+<p>This blog is about my experiences and what I learned during my GSoC project, which involved adding a new math backend to algebra-plugins, to make ACTS faster.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Acts_TirthankarMazumder.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/compiler-research-logo.png" alt="Compiler-Research" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Add Initial Integration of Clad with Enzyme</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/ManishKausik.jpg" alt="Manish Kausik H" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Manish Kausik H</p> 
+    </div>
+  </div>
+</div>
+<p>A blog that summarises my experience with GSoC 2022.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_CompilerResearch-ManishKausik.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/belle2-logo.png" alt="Belle2" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Advanced Belle II Software Validation</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+      <img src="https://avatars.githubusercontent.com/u/19401461?s=400&amp;v=4" alt="Arul Prakash" width="100px" />
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Arul Prakash</p> 
+    </div>
+  </div>
+</div>
+<p>The Belle II Software suite is the custom software tasked with handling the simulation, reconstruction and analysis of the data coming in from the Belle detectors. Belle II Software has had several monitoring schemes implemented so far, along with a high-level validation tool. This project seeks to enhance the user experience of the Belle II software validation page and make workflows more efficient with appropriate technical solutions.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Belle2_ArulPrakash.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/ganga_logo_150dpi.png" alt="Ganga" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>An updated concurrency model for job monitoring in Ganga</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/GiorgosApostolopoulos.jpg" alt="Giorgos Apostolopoulos" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Giorgos Apostolopoulos</p> 
+    </div>
+  </div>
+</div>
+<table>
+  <tbody>
+    <tr>
+      <td>My GSoC 2022 experience working with the Ganga team</td>
+      <td>Giorgos Apostolopoulos</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="/gsoc/blogs/2022/blog_Ganga_GiorgosApostolopoulos.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/ROOT-logo.png" alt="ROOT" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Automatic conversion of data stored in TTree form to RNTuple</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/ZifengLuo.jpeg" alt="Zifeng Luo" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Zifeng Luo</p> 
+    </div>
+  </div>
+</div>
+<p>This project consists of the implementation of an automatic conversion tool that migrates both the schema (i.e. fields and their types) and the data of a TTree to RNTuple.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_ROOT_ZifengLuo.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/ROOT-logo.png" alt="ROOT - Machine Learning Developments" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Batch Generator for training machine learning models</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/SanchiMittal.jpeg" alt="Sanchi Mittal" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Sanchi Mittal</p> 
+    </div>
+  </div>
+</div>
+<p>Develop a generator in C++ and Python to read data from the ROOT I/O and input them to the Python machine learning tools such as Tensorflow/Keras and PyTorch.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_ROOT_SanchiMittal.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/UGlasgow-logo.png" alt="MCnet" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Dataset-manipulation tools for simulated collider events</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Kalp Shah</p> 
+    </div>
+  </div>
+</div>
+<p>A software package that provides tools for manipulation of HEP specific datasets</p>
+
+<p><a href="/gsoc/blogs/2022/blog_MCnet_KalpShah.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/ATHENA-logo.png" alt="ATHENA" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Electromagnetic Cluster Finding on GPUs</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+      <img src="https://avatars.githubusercontent.com/u/54140487?s=400&amp;u=75e8458ece81adfb9b12bca1aaaa2aa23f4c6b1a&amp;v=4" alt="Ujwal Kundur" width="100px" />
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Ujwal Kundur</p> 
+    </div>
+  </div>
+</div>
+<p>Parallelizing the IslandCluster Algorithm for the EIC ECAL - A foray into HPC and Hardware Accelerators.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_ATHENA_UjwalKundur.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/cernbox-logo.png" alt="CERNBox" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Etherpad plugin as a ScienceMeshDocs editor</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/MohammadWarid.jpg" alt="Mohammad Warid" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Mohammad Warid</p> 
+    </div>
+  </div>
+</div>
+<p>An Etherpad plugin to support collaborative sync share across ScienceMesh Platform</p>
+
+<p><a href="/gsoc/blogs/2022/blog_EtherpadPlugin_MohammadWarid.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/Geant4-logo.png" alt="Geant4" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Geant4 - Performance Data Visualization using d3.js</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/HarshilJani.jpg" alt="Harshil Jani" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Harshil Jani</p> 
+    </div>
+  </div>
+</div>
+<p>GSOC 2022  : Performance Analysis and Data Visualization for Geant 4</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Geant4_HarshilJani.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/Geant4-logo.png" alt="Geant4" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Geant4-FastSim - Building an ML pipeline for fast shower simulation</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/GuneetSingh.jpg" alt="Guneet Singh Kohli" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Guneet Singh Kohli</p> 
+    </div>
+  </div>
+</div>
+<p>A KubeFlow pipeline for training ML Fast Simulation in Geant4.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Geant4_GuneetSingh.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/Geant4-logo.png" alt="Geant4" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Geant4-FastSim - Memory footprint optimization for ML fast shower simulation</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/PriyamMehta.png" alt="Priyam Mehta" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Priyam Mehta</p> 
+    </div>
+  </div>
+</div>
+<p>A KubeFlow pipeline for performing inference optimization using different ONNXRuntime Execution Providers.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Geant4_PriyamMehta.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/patatrack-logo.png" alt="Patatrack" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Implementation of a Python library that generalizes the CLUE clustering algorithm</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Simone Balducci</p> 
+    </div>
+  </div>
+</div>
+<p>Description of the progress obtained in generalizing the CLUE clustering algorithm to N dimensions and binding it with Python.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_PATATRACK_SimoneBalducci.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/TMVA-logo.png" alt="TMVA Developments" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Improve Python interface for TMVA</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Harshal Shende</p> 
+    </div>
+  </div>
+</div>
+<p>This project aims to simplify complex workflows and enhancement of the python interface, greatly reducing the amount of code that has to be written, including pythonizations for TMVA GUI and Hist functions and converters for PyROOT NumPy arrays to convert RTensor from and to PyROOT NumPy arrays.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_TMVADevelopments_HarshalShende.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/ROOT-logo.png" alt="ROOT" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Inference of Deep Learning models in TMVA/SOFIE</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/NeelShah.jpg" alt="Neel Shah" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Neel Shah</p> 
+    </div>
+  </div>
+</div>
+<p>Currently, we are developing a fast inference system in TMVA, called SOFIE, that takes ONNX model as input and produces compilation-ready standalone C++ scripts as output. These scripts will then provide users an easy way to deploy their deep learning models in their physics software and analysis frameworks. This project focuses on the development of some missing deep learning operations which will allow to build more complex networks within TMVA. Specifically, we propose to implement the inference functionality of some ONNX operators in the code generation format.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_ROOT_Neelshah.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/hsf_logo_angled.png" alt="HSF" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Interfacing PODIO with Julia</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+      <img src="https://avatars.githubusercontent.com/u/71919921?s=400&amp;v=4" alt="Soumil Baldota" width="100px" />
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Soumil Baldota</p> 
+    </div>
+  </div>
+</div>
+<p>Interfacing PODIO to auto-generate Julia code along side C++ and Python</p>
+
+<p><a href="/gsoc/blogs/2022/blog_PODIO_SoumilBaldota.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/MadAnalysis5-logo.png" alt="MadAnalysis 5 Multiweight Integration" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>MADAnalysis 5 Multiweight integration</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+      <img src="https://avatars.githubusercontent.com/u/25071468?s=400&amp;u=4a9c3d16631b63f5fea28cc2738b77dbaaa5fa37&amp;v=4" alt="Kyle Fan" width="100px" />
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Kyle Fan</p> 
+    </div>
+  </div>
+</div>
+<p>Final blog post, Multiweight-integration User Guide and continued work plans.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_MADAnalysis5-Multiweight-integration_KyleFan.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/cernbox-logo.png" alt="CERNBOX" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>OCM WebDAV Service</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/KarthikSundar.jpg" alt="Karthik Sundar" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Karthik Sundar</p> 
+    </div>
+  </div>
+</div>
+<p>A OCM (Open Cloud Mesh) and WebDAV file sharing service to facilitate sharing of data across the Sciencemesh.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_CERNBOX_KarthikSundar.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/ROOT-logo.png" alt="ROOT" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Optimize ROOT use of modules for large codebases</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/JunZhang.jpg" alt="Jun Zhang" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Jun Zhang</p> 
+    </div>
+  </div>
+</div>
+<p>In this summer, I explored the possible ways of how can we improve the performance of Clang modules in ROOT and CMSSW.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_ROOT_JunZhang.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/OSSR-logo.png" alt="ESCAPE-OSSR" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Repository as a Service</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Sudersan S</p> 
+    </div>
+  </div>
+</div>
+<p>This blog entails my progress, learning and experience acquired during the GSoC period.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_ESCAPE-OSSR_Sudersan.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/phoenix-logo.png" alt="Phoenix" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Revamped Testing Infrastructure for Phoenix</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/MohammadHumayunKhan.jpg" alt="Mohammad Humayun Khan" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Mohammad Humayun Khan</p> 
+    </div>
+  </div>
+</div>
+<p>Hello dear reader, I hope you’re doing well. During the summer of 2022, I worked on project Phoenix at CERN-HSF as a Google Summer of Code contributor. My project aimed to introduce a new testing infrastructure for Phoenix.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Phoenix_MohammadHumayunKhan.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/RUCIO-logo.jpg" alt="Rucio" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Rucio WebUI Endterm Progress Report</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+        <img src="/images/blog_authors/NimishBongale.jpeg" alt="Nimish Bongale" width="100px" />
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Nimish Bongale</p> 
+    </div>
+  </div>
+</div>
+<p>The Rucio WebUI 2.0 we’ve all been looking forward to is finally here…</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Rucio_NimishBongale.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/cernbox-logo.png" alt="CERNBox" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Smashbox in Python 3</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+        
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Anand Krishna</p> 
+    </div>
+  </div>
+</div>
+<p>Porting the Smashbox test suite to Python 3</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Smashbox_AnandKrishna.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/Geant4-logo.png" alt="Geant4" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Symplectic Integrators</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+      <img src="https://avatars.githubusercontent.com/u/81478940?s=400&amp;v=4" alt="Divyansh Tiwari" width="100px" />
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Divyansh Tiwari</p> 
+    </div>
+  </div>
+</div>
+<p>Hello Everyone! This is Divyansh. I was accepted to take part in GSoC 2022 under CERN-HSF and I am contributing to Geant4. My project is about implementing symplectic integrators into the Geant4 codebase.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_Geant4_DivyanshTiwari.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/iris-hep-logo.png" alt="IRIS-HEP" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Uproot + Dask</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+      <img src="https://avatars.githubusercontent.com/u/53650538?s=400&amp;v=4" alt="Kush Kothari" width="100px" />
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Kush Kothari</p> 
+    </div>
+  </div>
+</div>
+<p>Introducing lazy Dask workflows to Uproot</p>
+
+<p><a href="/gsoc/blogs/2022/blog_IRIS-HEP_KushKothari.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+<div class="blog-header" style="text-align: left">
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="/images/hsf_logo_angled.png" alt="HSF" width="80px" />
+    </div>
+    <div class="col-sm-7" style="text-align: left;">
+      <h2>Writing a blog about your project with HSF in GSoC</h2>
+    </div> 
+    <div class="col-sm-3" style="text-align: center;">
+      
+      <img src="https://avatars.githubusercontent.com/u/18400453?s=400&amp;v=4" alt="Andrei Gheata" width="100px" />
+      
+      <p style="font-weight: bold; text-align: center; font-style: oblique;"> Andrei Gheata</p> 
+    </div>
+  </div>
+</div>
+<p>Student blogs are mandatory for CERN-HSF starting with GSoC 2022 edition! This is now common practice and it is an efficient way to track the activity within the different GSoC projects. For students: consider this your own GSoC page. You should publish all relevant information about the activity: links to proposals, presentations, reports, and also your experience with GSoC.</p>
+
+<p><a href="/gsoc/blogs/2022/blog_HSF_TheAdmins.html"> <span style="color:blue">Read more …</span> </a></p>
+<hr />
+
+
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/gsoc/2022/blogs.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

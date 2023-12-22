@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Google Summer of Code 2017</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <h1 id="--google-summer-of-code-2017"><img src="/images/CERN-logo.jpg" alt="CERN" height="100px" /> <img src="/images/hsf_logo_angled.png" alt="HSF" height="100px" /> Google Summer of Code 2017</h1>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Students who participated in the GSoC for 2017 were able to choose from various project proposals.
+The HSF GSoC 2017 Administrators were Sergei Gleyzer <a href="mailto:sergei@cern.ch">sergei@cern.ch</a> and Enric Tejedor Saavedra <a href="mailto:etejedor@cern.ch">etejedor@cern.ch</a></p>
+
+<p><em>N.B.</em> This page <strong>archives</strong> the proposals from the 2017 Google Summer of Code. For information on the latest
+GSoC please see <a href="/activities/gsoc.html">here</a>.</p>
+
+<h2 id="projects">Projects</h2>
+
+<table class="table table-hover table-striped">
+  <tbody>
+    <tr>
+      <td><img src="/images/rootlogo.png" alt="ROOT" width="100px" /></td>
+      <td>A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R. <a href="/gsoc/projects/2017/project_ROOT.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/TMVA-logo.png" alt="TMVA" width="100px" /></td>
+      <td>TMVA is a ROOT-integrated toolkit for multivariate classification and regression analysis. TMVA performs the training, testing and performance evaluation of a large variety of multivariate methods. <a href="/gsoc/projects/2017/project_TMVA.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/hsf_logo_angled.png" alt="HSF" width="100px" /></td>
+      <td>The HEP Software Foundation (HSF) facilitates coordination and common efforts in high energy physics (HEP) software and computing internationally. <a href="/gsoc/projects/2017/project_HSF.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/ATLAS-Logo-Ref-RGB.png" alt="ATLAS" width="100px" /></td>
+      <td><a href="https://atlas.web.cern.ch/Atlas/Collaboration/">ATLAS</a> is a high-energy physics experiment at the LHC. <a href="/gsoc/projects/2017/project_ATLAS.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/CMS-Color.gif" alt="CMS" width="100px" /></td>
+      <td><a href="http://cms.cern/">CMS</a> (Compact Muon Solenoid) is a high-energy physics experiment at the LHC. <a href="/gsoc/projects/2017/project_CMS.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/NOvA_logo.png" alt="NOvA" width="100px" /></td>
+      <td><a href="https://www-nova.fnal.gov">NOvA</a>(NOvA Off-Axis Electron Neutrino Appearance) is a Neutrino Oscillation experiment at Fermilab. <a href="/gsoc/projects/2017/project_NOvA.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/sixtrack_logo.png" alt="SixTrack" width="100px" /></td>
+      <td><a href="http://cern.ch/sixtrack">SixTrack</a> is a software for simulating and analysing the trajectory of high energy particles in accelerators. It has been used in the design and optimization of the LHC and is now being used to design the High-Luminosity LHC (HL-LHC) upgrade that will be installed in the next decade. <a href="/gsoc/projects/2017/project_SixTrack.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><strong>SciKit-HEP</strong></td>
+      <td>The <a href="http://scikit-hep.org/">Scikit-HEP project</a> is a community-driven and community-oriented project with the aim of providing Particle Physics at large with a Python package containing core and common tools. <a href="/gsoc/projects/2017/project_SciKit-HEP.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/geantv_logo.png" alt="GeantV" width="100px" /></td>
+      <td>The GeantV project aims at developing a high performance detector simulation system integrating fastand fullsimulation that  can  be  ported  on  different  computing  architectures,  including CPU accelerators. <a href="/gsoc/projects/2017/project_GeantV.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/geanttiny.gif" alt="Geant4" width="100px" /></td>
+      <td>Geant (for GEometry ANd Tracking) is a platform for “the simulation of the passage of particles through matter,” using Monte Carlo methods. <a href="/gsoc/projects/2017/project_Geant4.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/go-hep-logo.png" alt="GoHEP" width="100px" /></td>
+      <td>The GoHEP project aims at developing robust and concurrency friendly libraries for HEP, astrophysics and cosmology. <a href="/gsoc/projects/2017/project_GoHEP.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><strong>GoInterpreter</strong></td>
+      <td>The <code class="language-plaintext highlighter-rouge">GoInterpreter</code> project aims to provide an interpreter for the <code class="language-plaintext highlighter-rouge">Go</code> language. <a href="/gsoc/projects/2017/project_GoInterpreter.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/falcon_logo.png" alt="FALCON" width="100px" /></td>
+      <td>Falcon is an ultra-fast non-parametric detector simulation package that automatically abstracts detector response, usually done by hand in fast-simulators used by particle physics experiments. <a href="/gsoc/projects/2017/project_FALCON.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/pythia99.gif" alt="Pythia" width="100px" /></td>
+      <td><a href="http://home.thep.lu.se/Pythia/">Pythia</a> is the most widely used Monte Carlo event generator in particle physics. <a href="/gsoc/projects/2017/project_Pythia.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><strong>TestU01</strong></td>
+      <td>TestU01 is a software library, implemented in the ANSI C language, and offering a collection of utilities for the empirical statistical testing of uniform random number generators. <a href="/gsoc/projects/2017/project_TestU01.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><strong>GoPython</strong></td>
+      <td><code class="language-plaintext highlighter-rouge">GoPython</code> is a set of tools to easily integrate <code class="language-plaintext highlighter-rouge">Go</code> and <code class="language-plaintext highlighter-rouge">Python</code>. <a href="/gsoc/projects/2017/project_GoPython.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/pspa.png" alt="PSPA" width="100px" /></td>
+      <td><a href="https://groups.lal.in2p3.fr/pspa/">PSPA</a> is a work-in-progress initiative to build an innovative platform to integrate existing accelerator simulation tools and connect them to the various parts of an accelerator structure. <a href="/gsoc/projects/2017/project_PSPA.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/kubernetes.png" alt="HSF" width="100px" /></td>
+      <td><a href="https://kubernetes.io/">Kubernetes</a> is an open-source system for automating deployment, scaling, and management of containerized applications. <a href="/gsoc/projects/2017/project_Kubernetes.html">List of proposals</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="participating-organizations">Participating Organizations</h2>
+
+<table class="table table-hover table-striped">
+  <tbody>
+    <tr>
+      <td><img src="/images/CERN-logo.jpg" alt="CERN" width="100px" /></td>
+      <td>At CERN, the European Organization for Nuclear Research, physicists and engineers are probing the fundamental structure of the universe. They use the world’s largest and most complex scientific instruments to study the basic constituents of matter – the fundamental particles. <a href="/gsoc/organizations/2017/cern.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/FNAL-Logo-NAL-Blue.jpg" alt="Fermilab" width="100px" /></td>
+      <td><a href="http://www.fnal.gov/">Fermi National Accelerator Laboratory</a> (FNAL) is a Department of Energy national laboratory dedicated to particle physics research. Fermilab supports work by scientists, from across the country and the globe, who seek to further our understanding of matter, energy, space and time. <a href="/gsoc/organizations/2017/fnal.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/udea_logo.png" alt="Universidad de Antioquia" width="100px" /></td>
+      <td>Established in 1803, Universidad de Antioquia is a government-run public university based in Medellín, Colombia. <a href="/gsoc/organizations/2017/udea.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/cornell_logo.gif" alt="Cornell University" width="100px" /></td>
+      <td>Founded in 1865, Cornell is a leading private institution of higher learning located in Ithaca, New York. <a href="/gsoc/organizations/2017/cornell.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/princeton-logo.png" alt="Princeton University" width="100px" /></td>
+      <td>Princeton University is a private Ivy League research university in Princeton, New Jersey. <a href="/gsoc/organizations/2017/princeton.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/unibo_logo.jpg" alt="University of Bologna " width="100px" /></td>
+      <td>University of Bologna, one of the oldest and most famous universities in Europe. <a href="/gsoc/organizations/2017/ubologna.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/Uc-seal.png" alt="University of Cincinnati " width="100px" /></td>
+      <td>University of Cincinnati <a href="/gsoc/organizations/2017/cincinnati.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/kit_logo.png" alt="Karlsruhe Institute of Technology" width="100px" /></td>
+      <td>The Karlsruhe Institute of Technology is a public research university and one of the largest research and education institutions in Germany. <a href="/gsoc/organizations/2017/kit.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/MIT_logo.png" alt="Massachusetts Institute of Technology" width="100px" /></td>
+      <td>The <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a> is a private university in Cambridge, Massachusetts. <a href="/gsoc/organizations/2017/mit.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/ufl_logo.jpg" alt="University of Florida" width="100px" /></td>
+      <td>University of Florida is a public institution that was founded in 1853. <a href="/gsoc/organizations/2017/uflorida.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/logo_LAL.jpg" alt="LAL" width="100px" /></td>
+      <td><a href="http://www.lal.in2p3.fr">LAL</a> is a French research laboratory belonging to CNRS/IN2P3 and located at Université Paris Sud. The main topics of the research done at LAL are high energy physics, cosmology and accelerators. <a href="/gsoc/organizations/2017/lal.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/LPC-logo.png" alt="LPC" width="100px" /></td>
+      <td>Founded in 1958, Laboratoire de Physique de Clermont is a government-funded mixed research unit (CNRS/IN2P3 and University Clermont Auvergne), in Auvergne, France. <a href="/gsoc/organizations/2017/lpc-clermont.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/NTUU_KPI_logo.png" alt="National Technical University of Ukraine" width="100px" /></td>
+      <td>The National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute” is a major university in Kiev, Ukraine. <a href="/gsoc/organizations/2017/ntuukpi.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/umontreal_logo.png" alt="University of Montreal" width="100px" /></td>
+      <td>The Université de Montréal is a public research university in Montreal, Quebec, Canada. <a href="/gsoc/organizations/2017/umontreal.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/fsu_logo.jpg" alt="Florida State University" width="100px" /></td>
+      <td>Florida State University is a public institution that was founded in 1851. <a href="/gsoc/organizations/2017/fsu.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/queen-mary-logo.jpg" alt="Queen Mary University of London" width="100px" /></td>
+      <td>Queen Mary University of London is a public research university in London that was founded in 1785. <a href="/gsoc/organizations/2017/queenmary.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/BNL_logo.jpg" alt="BNL" width="100px" /></td>
+      <td>Celebrating its 70th birthday in 2017, BNL on Long Island, New York hosts major facilities including RHIC and the new NSLS-II light source, and participates in international science including ATLAS at the LHC. <a href="/gsoc/organizations/2017/bnl.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/UOslo.png" alt="University of Oslo" width="100px" /></td>
+      <td>University of Oslo <a href="/gsoc/organizations/2017/uoslo.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/logo_itm.png" alt="Metropolitan Institute of Technology" width="100px" /></td>
+      <td>ITM is an accredited public University, founded in 1944, in Medellin Colombia. <a href="/gsoc/organizations/2017/itm.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/uji_logo.jpg" alt="Universitat Jaume I" width="100px" /></td>
+      <td>The Universitat Jaume I is a public university in Castelló de la Plana, Spain. <a href="/gsoc/organizations/2017/uji.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/iu_logo.png" alt="Indiana University" width="100px" /></td>
+      <td>[Indiana University] (https://www.indiana.edu/), Bloomington. <a href="/gsoc/organizations/2017/iu.html">List of proposals</a></td>
+    </tr>
+    <tr>
+      <td><img src="/images/logo_RAL.jpg" alt="RAL" width="100px" /></td>
+      <td>STFC Rutherford Appleton Laboratory in Oxfordshire, United Kingdom is home to national facilities including the Diamond synchroton and ISIS neutron spallation source. The Particle Physics Department contributes to experiments including ATLAS, CMS and T2K. <a href="/gsoc/organizations/2017/ral.html">List of proposals</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="/gsoc/2017/summary.html">Full list of Proposal Ideas</a></p>
+
+<p><a href="/gsoc/2017/mentors.html">Full list of Mentors</a></p>
+
+<h2 id="contact-information-for-students">Contact information (for students)</h2>
+<p>Although GSoC 2017 has finished, please do not hesitate to contact us if you are
+interested in the latest GSoC program using the HSF GSoC mailing list: <a href="mailto:hep-software-foundation-google-summer-of-code@googlegroups.com">hep-software-foundation-google-summer-of-code@googlegroups.com</a>.</p>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/gsoc/2017/index.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

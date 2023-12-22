@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Weekly Meeting #69, September 15, 2016</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2016/09/08/startup.html">&nbsp;&#8592; HSF Weekly Meeting #68, September 8, 2016</a></p>
+  
+
+  
+    <p class="alignright"><a href="/announcements/2016/10/25/geantv.html">HEP software community meeting on GeantV R&amp;D, October 25-27, 2016 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-weekly-meeting-69-september-15-2016">HSF Weekly Meeting #69, September 15, 2016</h1>
+
+<h4 id="present-torre-wenaus-guilherme-amadio-michel-jouvin-pere-mato-benedikt-hegner-david-lange-patricia-mendez-peter-elmer"><em>Present</em>: Torre Wenaus, Guilherme Amadio, Michel Jouvin, Pere Mato, Benedikt Hegner, David Lange, Patricia Mendez, Peter Elmer</h4>
+
+<h2 id="news-general-matters">News, general matters</h2>
+
+<ul>
+  <li>
+    <p>LHCC next week, Benedikt will give a 10min summary about CWP, GeantV review, ROOT plans etc.</p>
+  </li>
+  <li>
+    <p>WLCG workshop before CHEP: a SW performance session is organized but nobody in HSF aware of it…</p>
+  </li>
+  <li>
+    <p>Peter participated in the past few days in the 4th Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE4), organized by Dan Katz.</p>
+
+    <ul>
+      <li>
+        <p>http://wssspe.researchcomputing.org.uk/wssspe4/</p>
+      </li>
+      <li>
+        <p>The WSSSPE workshops focus on topics which overlap with objectives of the HSF, as well as a number of other similar initiatives in various domains, countries, etc.</p>
+      </li>
+      <li>
+        <p>An idea that arose during WSSSPE4 was to create a point of contact between such organizations.</p>
+      </li>
+      <li>
+        <p>Potential examples include the Software Sustainability Institute (SSI) in the UK (<a href="https://www.software.ac.uk"><em>https://www.software.ac.uk</em></a>), the Netherlands eScience Center (<a href="https://www.esciencecenter.nl"><em>https://www.esciencecenter.nl</em></a>), the recently NSF-funded S2I2 Software Institutes in Science Gateways (<a href="https://sciencegateways.org"><em>https://sciencegateways.org</em></a> ) and Molecular Sciences (<a href="http://molssi.org"><em>http://molssi.org</em></a>), etc.</p>
+      </li>
+      <li>
+        <p>This has tentatively been named the “Software Sustainability Alliance” with some draft goals visible on the website (<a href="http://softwaresustainability.org"><em>http://softwaresustainability.org</em></a>), for comment</p>
+      </li>
+      <li>
+        <p>It is proposed to have the HSF included in the list of organizations and one or more of us can follow any discussions there. At a minimum it could provide some contact names for people to invite to HSF meetings when we are looking for perspectives from other domains.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Also of potential interest to some people is the First Conference on Research Software Engineers (<a href="http://www.rse.ac.uk/conf2016.html"><em>http://www.rse.ac.uk/conf2016.html</em></a>) which followed WSSSPE4</p>
+  </li>
+</ul>
+
+<h2 id="current-topics">Current Topics.</h2>
+
+<h3 id="hep-software-community-meeting-on-geantv-rd">“HEP software community meeting on GeantV R&amp;D”</h3>
+
+<p>Draft letter to send to the review committee we put together:</p>
+
+<blockquote>
+  <p><em>Subject: GeantV review alterations and plans</em></p>
+
+  <p><em>Dear all,</em></p>
+
+  <p><em>Thank you for agreeing to participate in what the HSF has to this point planned as a community peer review of the GeantV project, as was requested of the HSF by the GeantV project team.</em></p>
+
+  <p><em>Although the GeantV project as an international endeavour is not within the purview of any one funding agency, with the outcomes of the review being advisory to the GeantV project only, the DOE in the US has raised objection to the characterization of the event as a review. The GeantV project principals have informed us that without a name change, many US GeantV collaborators will be unable to participate. They have accordingly asked that the name be changed to “HEP software community meeting on GeantV R&amp;D”. Apart from the name change, so far as we understand, nothing else changes. You as the group of community experts we have empanelled are asked to produce a report that summarizes the meeting and makes observations and recommendations constituting advice to the GeantV team to help it improve its work and set the future direction.</em></p>
+
+  <p><em>We hope that this change will not alter your plans to participate. Should you have any questions or concerns please let us know. We will shortly post a first draft agenda to indico and share it with you for your input.</em></p>
+
+  <p><em>Pere &amp; Torre for the HSF</em></p>
+</blockquote>
+
+<p>General agreement on the proposed letter: will be sent to reviewers in the next days by Torre.</p>
+
+<h3 id="cwp">CWP</h3>
+
+<ul>
+  <li>
+    <p>Sep 22-23 CWP planning meeting</p>
+
+    <ul>
+      <li>
+        <p>Need to contact the computing coordinators &amp; Ian, start serious organization</p>
+      </li>
+      <li>
+        <p><strong>Now more than urgent</strong>. Only one week left before the planning meeting. Need to organize something in the next few days.</p>
+      </li>
+      <li>
+        <p>All SW coordinators now aware of the date of the planning meeting… but would be good to send a confirmation around with the hours on Thursday and Friday.</p>
+      </li>
+      <li>
+        <p>A Google Docs presenting possible plans will be made available in the next few days by Pete to help with initial discussion.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>pre-CHEP meeting: present outcome from the planning meeting and discuss them</p>
+  </li>
+  <li>
+    <p>Pete announced almost-firm dates of Monday 23 to Thursday 26 January, posted on calendar (location is San Diego)</p>
+
+    <ul>
+      <li>US ATLAS/US CMS agency review the same week, at UC Irvine. ATLAS conflict is bad because ATLAS is first half of the week. Affects only a handful of people like Torre, Paolo. We will go forward anyway given the difficult of finding dates, but will work to coordinate with them to minimize conflicts. A minor advantage is that San Diego and Irvine are within short driving distance of one another.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Ensure that CWP kick-off/process is advertised at the generator workshop next week (Liz)</p>
+  </li>
+</ul>
+
+<h2 id="activity-updates">Activity updates</h2>
+
+<h3 id="packaging">Packaging</h3>
+
+<ul>
+  <li>Plan to have a meeting to restart the activity by CHEP: Benedikt will announce the meeting on the list.</li>
+</ul>
+
+<h3 id="licensing">Licensing</h3>
+
+<p>ACTS project interested by guidelines/recommendations from HSF</p>
+
+<ul>
+  <li>Benedikt raised that it would be nice to have an idea of the choices made by projects: can this be extracted from http://hepsoftware.org (SW&amp;C KB)? Would help to understand the licensing of dependencies…</li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+
+<p>None</p>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2016/09/08/startup.html">&nbsp;&#8592; HSF Weekly Meeting #68, September 8, 2016</a></p>
+  
+
+  
+    <p class="alignright"><a href="/announcements/2016/10/25/geantv.html">HEP software community meeting on GeantV R&amp;D, October 25-27, 2016 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

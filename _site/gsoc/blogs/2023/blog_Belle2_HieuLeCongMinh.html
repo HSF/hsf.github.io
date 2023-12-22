@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Belle II Event Display with Phoenix</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_Rucio_NimishBongale.html">&nbsp;&#8592; Rucio WebUI Endterm Progress Report</a></p>
+  
+
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+       
+        <div class="col-md-3">
+          <img src="/images/blog_authors/HieuLeCongMinh.jpg" alt=Hieu Le Cong Minh width="100%" style="float:right">
+        </div>
+        <div class="col-md-9">
+      
+    
+    <h1 class="blog-title">Belle II Event Display with Phoenix</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">25 Aug 2023 by <a href="/gsoc/blogs/2023/blog_Belle2_HieuLeCongMinh.html">Hieu Le Cong Minh</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <h1 id="about-me">About Me</h1>
+
+<p>My name is Hieu Le Cong Minh, a third-year undergraduate student at the Tokyo Institute of Technology. I was both thrilled and honored to be selected to participate in the <strong>Belle II Event Display with Phoenix</strong> project during the Google Summer of Code 2023.</p>
+
+<h1 id="project-description">Project Description</h1>
+
+<p>The Belle II software plays a crucial role in analyzing extensive datasets acquired through the international Belle II collaboration. To visualize events, the Belle II software employs ROOT TEve. However, this necessitates installing the complete Belle II software on a local machine for execution. Unfortunately, this approach proves unsuitable for contemporary client-server-based systems, posing challenges for users seeking efficient access to the necessary information.</p>
+
+<p>As proposed by the organization in GSoC 2023, the project aims to address this issue by developing a web application that utilizes the Phoenix framework-based event display for Belle II. This application will allow users to view detector geometry, recorded signals, and reconstructed objects from Belle II data in a web browser. By doing so, it enhances accessibility and user experience while ensuring data security.</p>
+
+<h1 id="technologies">Technologies</h1>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">typescript</code>, <code class="language-plaintext highlighter-rouge">angular-cli</code></li>
+  <li><code class="language-plaintext highlighter-rouge">phoenix</code></li>
+  <li><code class="language-plaintext highlighter-rouge">JSRoot</code></li>
+</ul>
+
+<h1 id="project-procedure">Project Procedure</h1>
+
+<p>Throughout the project, I followed a carefully planned procedure comprising five distinct steps: <strong><a href="#preparation--community-bonding-period">Preparation</a></strong>, <strong><a href="#data-extraction-and-visualization--official-coding-phase-begins">Data Extraction and Visualization</a></strong>, <strong><a href="#user-experience-improvement">User Experience Improvement</a></strong>, <strong><a href="#user-feedback-collection">User Feedback Collection</a></strong>, and <strong><a href="#documentation--user-and-developer-guides">Documentation</a></strong>.</p>
+
+<h2 id="preparation--community-bonding-period">Preparation – Community Bonding Period</h2>
+
+<p>The initial phase involved approaching the Belle II community and gaining a fundamental understanding of the Belle II software, particularly the event display component.</p>
+
+<p>During this phase, I tackled the challenge of installing and configuring the Belle II software on my local machine. The complexity of this task underscored the importance of the project, further fueling my motivation. With the software in place, I conducted a preliminary event display to grasp the project’s scope and potential as an alternative to the existing software.</p>
+
+<p>Once I had a clear grasp of the Belle II event display structure, I created a preliminary version of the Phoenix event display. Drawing on my prior experience, I had already developed a Phoenix application to display a cube and sphere during the proposal process. By applying this knowledge and learning how to use <code class="language-plaintext highlighter-rouge">JSRoot</code>, I successfully extracted and displayed the Belle II detector geometry within a Phoenix web application during the community bonding period. This accomplishment significantly accelerated the progress of the project.</p>
+
+<p>A screenshot of the detector geometry display conducted during this period is shown below.</p>
+
+<p><img src="https://github.com/HieuLCM/gsoc2023_belle2_display/blob/main/docs/source/assets/detector.png?raw=true" alt="image" /></p>
+
+<h2 id="data-extraction-and-visualization--official-coding-phase-begins">Data Extraction and Visualization – Official Coding Phase Begins!</h2>
+
+<p>Building upon the successful extraction and display of the detector geometry, I transitioned smoothly into the coding phase.</p>
+
+<p>The Belle II event display involves showcasing two crucial components: the detector geometry and reconstructed objects.</p>
+
+<p>For the detector geometry, I developed a simplified version based on the work done during the <strong>Preparation</strong> step.</p>
+
+<p>Extracting and utilizing the necessary data to render objects on the web browser presented a unique challenge due to Belle II’s distinct format for storing data in <code class="language-plaintext highlighter-rouge">.root</code> files. Overcoming this challenge was made possible with invaluable support and guidance from my mentors. Through a systematic approach, I successfully extracted and displayed the reconstructed objects.</p>
+
+<h2 id="user-experience-improvement">User Experience Improvement</h2>
+
+<p>With the focus on showcasing vital data accomplished in the previous step, attention turned to addressing multiple user interface issues.</p>
+
+<p>Regular weekly meetings with my mentors played a pivotal role. Collaboratively, we identified and discussed the shortcomings of the existing event display, proposing necessary improvements. I subsequently implemented these changes and presented them in subsequent meetings. This iterative process led to significant enhancements, particularly in terms of user experience.</p>
+
+<h2 id="user-feedback-collection">User Feedback Collection</h2>
+
+<p>Once I had resolved the issues identified in the weekly mentor meetings and received their approval, I showcased the project to Belle II software developers during a weekly meeting. Here, I introduced the project, demonstrated its functionality, and actively sought feedback and suggestions.</p>
+
+<p>The users’ experience provided valuable insights, resulting in constructive feedback and suggestions. Armed with this input and after further discussions with mentors, I fine-tuned the application to align with the users’ needs. The receipt of numerous positive feedback messages was an incredibly gratifying moment.</p>
+
+<h2 id="documentation--user-and-developer-guides">Documentation – User and Developer Guides</h2>
+
+<p>With the application refined based on user feedback, I proceeded to create comprehensive documentation catering to both users and developers.</p>
+
+<p>For users, the documentation focuses on effectively navigating and utilizing the application. Meanwhile, the developer-oriented documentation provides guidance for those interested in extending the application’s capabilities, such as adding new event objects or modifying existing features.</p>
+
+<p>After all, I presented again at the Belle II software developer meeting, discussing the improvements and introducing the documentations.</p>
+
+<p>Through these meticulous steps, the <strong>Belle II Event Display with Phoenix</strong> project has evolved into a user-friendly, feature-rich, and well-documented tool, contributing to the accessibility and utility of Belle II’s event display capabilities.</p>
+
+<h1 id="deliverables">Deliverables</h1>
+
+<p>After more than three months of working on the project, I successfully created a web application for the Belle II event display, accompanied by documentation. 
+An event displayed by the application, along with a brief UI explanation, is shown below.</p>
+
+<p><img src="https://github.com/HieuLCM/gsoc2023_belle2_display/blob/main/docs/source/assets/event_display.png?raw=true" alt="image" /></p>
+
+<p>The web application serves as a tool that allows scientists and physicists to import events from mdst <code class="language-plaintext highlighter-rouge">.root</code> files, which contain data, and then view them directly in a web browser. By leveraging the Phoenix framework and adding custom features, the application provides a user-friendly environment for event display, complete with intuitive user interface controls.</p>
+
+<p>Comprehensive user and developer documentation is also provided to ensure efficient utilization of the application and to support future development.</p>
+
+<p><em>Link to the application repository implemented during GSoC 2023: <strong><a href="https://github.com/HieuLCM/gsoc2023_belle2_display">github.com/HieuLCM/gsoc2023_belle2_display</a></strong>
+I have also initiated a new repository for further development beyond GSoC 2023 at <strong><a href="https://github.com/belle2/display">github.com/belle2/display</a></strong></em></p>
+
+<p><em>A demo version of the application was deployed and accessed via <strong><a href="https://gsoc2023-belle2-display.netlify.app/#/">gsoc2023-belle2-display</a></strong>.
+The corresponding documentation: <strong><a href="https://gsoc2023-belle2-display-docs.netlify.app/">gsoc2023-belle2-display-docs</a></strong></em></p>
+
+<h1 id="future-plans">Future Plans</h1>
+
+<p>The <strong>Belle II Event Display with Phoenix</strong> project still holds potential for further development beyond GSoC 2023. Plans include implementing a server for the application and integrating it into the current Belle II software ecosystem. Additionally, in terms of the frontend, along with the development of Phoenix, the application can be further enhanced in the future. This necessitates developers to continuously maintain and improve the app. Furthermore, depending on the different usage purposes, each developer can also customize the code based on their preference.</p>
+
+<p>I am personally enthusiastic about continuing my involvement and contribution to the project if my schedule permits. Moreover, I will continue to follow the development of the application and will always be pleased to answer questions and provide support for any related issues.</p>
+
+<h1 id="personal-experience">Personal Experience</h1>
+
+<p>Participating in the Belle II project during GSoC 2023 presented me with a precious opportunity to apply and elevate my programming skills within a meaningful context, making a contribution to the advancement of particle physics, even at a modest level. Belle II not only stands as an open-source coding organization but also a vast intellectual community. Being part of it has been a remarkable journey for me.</p>
+
+<p>Throughout the project, I delved into multiple new technologies and effectively applied them to a real-world project. This experience was an excellent learning opportunity for me.</p>
+
+<p>Additionally, I would like to extend a heartfelt thank you to my mentors, Thomas Kuhr (LMU) and Giacomo De Pietro (KIT), for their unwavering support, which has been instrumental in helping me complete the project.</p>
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2023/blog_Belle2_HieuLeCongMinh.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>Geant4-FastSim - Building an ML pipeline for fast shower simulation</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+  <div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/gsoc/blogs/2022/blog_Smashbox_AnandKrishna.html">&nbsp;&#8592; Smashbox in Python 3</a></p>
+  
+
+  
+    <p class="alignright"><a href="/gsoc/blogs/2022/blog_ESCAPE-OSSR_Sudersan.html">Repository as a Service &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+<div class="blog-header">
+  <div class="row">
+    
+       
+        <div class="col-md-3">
+          <img src="/images/blog_authors/GuneetSingh.jpg" alt=Guneet Singh Kohli width="100%" style="float:right">
+        </div>
+        <div class="col-md-9">
+      
+    
+    <h1 class="blog-title">Geant4-FastSim - Building an ML pipeline for fast shower simulation</h1>
+    </div>
+  </div>
+  <p class="blog-post-meta">29 Jul 2022 by <a href="/gsoc/blogs/2022/blog_Geant4_GuneetSingh.html">Guneet Singh Kohli</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 blog-main">
+
+  <h1 id="introduction">Introduction:</h1>
+<p>Hi, I am Guneet Singh a recent Computer Science graduate who participated in GSoC 2022 and was a part of Geant4 fast simulation group to build an end to end Kubeflow Pipeline for training machine learning based model for fast shower simulation. The project was completed over the summer and the outcomes of the project have been highlighted in the next section.</p>
+
+<p>The project’s objective is to use Kubeflow to handle the development of a scalable ML Pipeline for the ML FastSimulation in Geant4. The Training would be used to generate an optimised tuned generative  model which will later be used to perform Inference in Geant4. Motivation behind using Kubeflow ML pipelines is as follows:</p>
+<ul>
+  <li>Utilise power of Kubernetes to run ML jobs</li>
+  <li>Support for the entire lifecycle of ML applications</li>
+  <li>Training, inference, deployment</li>
+  <li>Katib powered hyperparameter tuning</li>
+  <li>Open source, wide community support
+    <blockquote>
+      <p>Kubeflow is a free, open-source machine learning platform that makes it possible for machine learning pipelines to orchestrate complicated workflows running on Kubernetes.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h1 id="outcomes-from-gsoc-2022">Outcomes from GSOC 2022</h1>
+<ol>
+  <li>Experimented with different float precisions, number of events, max/ min angle and energy to determine the maximum data handling capabilities of the pipeline with 8GB CPU</li>
+  <li>Reformatted the python code into Kubeflow function format</li>
+  <li>One click pipeline implementation with all the Kubeflow workflow abstracted</li>
+  <li>Persistent Memory setup and configuration with EOS in Kubeflow Pipeline</li>
+  <li>Refactoring the training loop to handle large amount of data</li>
+  <li>Katib Hyperparameter tuning integration into Pipeline</li>
+  <li>Submitting and configuring the Pipeline setup and Katib YAML automatically into Kubeflow Dashboard without user involvement</li>
+  <li>Well Designed Documented Code written to help users implement Kubeflow methodology for different workflows.</li>
+  <li>In detail documentation to understand and adopt Kubeflow Workflow</li>
+</ol>
+
+<h1 id="problem-statement">Problem Statement</h1>
+
+<p>In Large Hadron Collider (LHC) experiments at CERN in Geneva, the calorimeter is a crucial detector technology to measure the energy of particles. These particles interact electromagnetically and/or hadronically with the material of the calorimeter, creating cascades of secondary particles or showers. Describing the showering process relies on simulation methods describing all particle interactions with matter. A detailed and accurate simulation is based on the Geant4 toolkit. Constrained by the need for precision, the simulation is inherently slow and constitutes a bottleneck for physics analysis. Furthermore, with the upcoming high luminosity upgrade of the LHC with more complex events and a much-increased trigger rate, the amount of required simulated events will increase. Machine Learning (ML) techniques such as generative modeling are used as fast simulation alternatives to learn to generate showers in a calorimeter, i.e., simulating the calorimeter response to certain particles. The pipeline of a fast simulation solution can be categorized into five components: data preprocessing, ML model design, validation, inference, and optimization. The preprocessing module allows us to derive a suitable representation of showers and to perform data cleaning, scaling, and encoding. The preprocessed data is then used by the generative model for training. To search for the best set of hyperparameters of the model, techniques such as Automatic Machine Learning (AutoML) are used. The validation component is based on comparing different ML metrics and physics quantities between the input and generated data. The aim of this project is to optimize the ML pipeline of the fast simulation approach using the open-source platform Kubeflow. You can check further details <a href="https://g4fastsim.web.cern.ch/"><strong>here</strong></a>.</p>
+
+<h1 id="ml-fastsim-training-pipeline">ML FastSim Training Pipeline</h1>
+<hr />
+
+<p>The ML FastSim in Geant4  components</p>
+<ul>
+  <li><strong>Training</strong></li>
+  <li><strong>Inference</strong></li>
+</ul>
+
+<p>The ML FastSimulation (Training) in Geant4 can be broken down into the following functional components:</p>
+<ul>
+  <li><strong>Input Parameters</strong></li>
+  <li><strong>Preprocessing of Data</strong></li>
+  <li><strong>Model Parameters</strong></li>
+  <li><strong>Model architecture and Training</strong></li>
+  <li><strong>Hyperparameter Tuning through Katib</strong></li>
+  <li><strong>Generation of Showers (Generative Modelling)</strong></li>
+  <li><strong>Validations of Results through Visualisations</strong></li>
+</ul>
+
+<p><strong>ML FastSim project</strong></p>
+
+<p>Before beginning the discussion about the Kubeflow Component Creation, it is important to look at the python code base which will later be reformatted according to kubeflow pipeline generation requirements</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>|---convert.py
+|---generate.py
+|---README.md
+|---requirements.txt
+|---setup.py
+|---train.py
+|---validate.py
+|   
++---core
+|-------constants.py
+|-------model.py
+|       
++---utils
+|-------observables.py
+|-------preprocess.py
+</code></pre></div></div>
+<blockquote>
+  <p>The Full codebase can be found <a href="https://github.com/DalilaSalamani/MLFastSim">here.</a></p>
+</blockquote>
+
+<p><strong>Refactored ML FastSim project into Kubeflow Pipeline</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>|---main.py
+|---configuration.py
+|---README.md
+|---generate_yaml.py
+|---Katib_yaml
+|   
++---pipeline_components
+|-------generate.py
+|-------input_parameters.py
+|-------preprocess.py
+|-------validate.py
+|-------model_parameters.py
+|-------Katib_setup.py
+|       
++---training_docker
+|-------Dockerfile
+|-------krb5.conf
+|-------main.py
+</code></pre></div></div>
+<ul>
+  <li>Pipeline Components: Directory containing original python components refactored in Kubeflow functions</li>
+  <li>Training Docker: Directory containing the model training script with docker setup for its integration into the pipeline</li>
+  <li>Configuration File: Defines and initialised the constant variables to be used in the pipeline. All the components digest the variables through this configuration file</li>
+  <li>Katib YAML Template: Pipeline Components: Directory containing original python components refactored in Kubeflow functions</li>
+  <li>Training Docker: Directory containing the model training script with docker setup for its integration into the pipeline</li>
+  <li>Configuration File: Defines and initialised the constant variables to be used in the pipeline. All the components digest the variables through this configuration file</li>
+  <li>Katib YAML Template: A yaml template has been prepared which is edited at runtime by the code. This makes Katib integration smooth and automated.</li>
+  <li>Generate YAML file : A file to process the refactored kubeflow python scripts into kubeflow components yaml</li>
+  <li>Main file to encapsulate the logic and generate results.
+    <ul>
+      <li>Curating the components YAML together into a Pipeline and submitting it automatically to the Kubeflow Dashboard</li>
+      <li>Configure the EOS memory with the components</li>
+      <li>Configure the resource allocation of all the components</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="kubeflow-pipeline-preparation">Kubeflow Pipeline Preparation</h1>
+<hr />
+
+<p>To design any pipeline, the following steps are essential:</p>
+
+<ul>
+  <li>Identify individual functionalities present in existing workflow which will be refactored into Kubeflow Components</li>
+  <li>Identify inputs and outputs of all your python files and functions.</li>
+  <li>Define and instantiate the model architecture in the single component if the pickle doesn’t allow saving the model template because of Nested Class Structure</li>
+  <li>The Trained model is saved to the persistent memory for later access.</li>
+  <li>The primitive variables: Boolean, Integer, String, and Float can be passed from one component to another without explicitly storing them in the memory.</li>
+  <li>To handle large files or complex data structures like lists, arrays, dictionaries, etc., it is important that the component saves these in the persistent memory or EOS.</li>
+  <li>CERN provides some <a href="https://gitlab.cern.ch/ai-ml/kubeflow_images">standard docker images</a> on which we can run our individual kubeflow components.</li>
+  <li>Custom Docker Images can be created if the standard images doesn’t fulfill the requirement</li>
+  <li>Creation of Docker Images and custom environments for the components have discussed in later sections</li>
+  <li>CERN employs the use of EOS for its memory management. EOS will be used as persistent memory for our kubeflow pipelines</li>
+  <li>Kubeflow also provides a powerful tool called Kale which can convert any standard jupyter notebook into a kubeflow pipeline without writing a single line of code.</li>
+  <li>Your component’s goal may be to create a dataset in an external service, such as a BigQuery table. In this case, it may make sense for the component to output an identifier for the produced data, such as a table name, instead of the data itself.</li>
+  <li>Since input and output paths are passed in as command-line arguments, your component’s code must be able to read inputs from the command line. If your component is built with Python, libraries such as argparse and absl.flags make it easier to read your component’s inputs.</li>
+  <li>Your component’s code can be implemented in any language, so long as it can run in a container image.</li>
+</ul>
+
+<h1 id="pipeline-components-of-ml-fastsim-in-training">Pipeline Components of ML FastSim in Training</h1>
+<p><img src="https://user-images.githubusercontent.com/43180442/191947451-0f3ade57-4ece-4754-8a87-83623e84e008.png" width="100%" />
+***</p>
+<h3 id="input-parameters">Input Parameters</h3>
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">/pipeline_components/input_parameters</code> defines the variables that are going to be used throughout the pipeline.</li>
+  <li>The parameters inside the <code class="language-plaintext highlighter-rouge">input_parameters</code> component are initialised using a <code class="language-plaintext highlighter-rouge">configuration.py</code> file which you can edit to control your workflow</li>
+</ul>
+
+<h3 id="preprocessing-of-data">Preprocessing of Data</h3>
+<ul>
+  <li>The preprocess functions returns the training data. The data is saved into the EOS memory and the file location of the training data is passed onto next components.</li>
+  <li>The other component can then use this file location to access the data from EOS memory and use it inside the component container</li>
+</ul>
+
+<h3 id="model-parameters">Model Parameters</h3>
+<ul>
+  <li>This component defined and initialised the model training parameters and configurations</li>
+</ul>
+
+<h3 id="katib-setup">Katib Setup</h3>
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">Katib_setup</code> aims to focus on the integration of Katib hyperparameter tuning into our pipeline.</li>
+  <li>This component submits the Katib Yaml automatically and communicates with a dockerized model training setup.</li>
+  <li>It saves the weights of the best model trained.</li>
+</ul>
+
+<h3 id="generate-component">Generate Component</h3>
+<ul>
+  <li>The generate.py aimed to generate showers for the FastSim.</li>
+  <li>Here <code class="language-plaintext highlighter-rouge">generate</code> was configured to load the Saved Model from <code class="language-plaintext highlighter-rouge">EOS</code> and produce the shower generation for number of events specified by the user.</li>
+  <li>The output of this component is the location of saved shower generation which is passed onto the validate component to visualise the results.</li>
+</ul>
+
+<h3 id="validate-component">Validate Component</h3>
+<ul>
+  <li>The component aims at generating plots to analyse the results generated by the model</li>
+  <li>It loads the predictions made by the generate component and save the produced plots in EOS memory.</li>
+</ul>
+
+<h1 id="demonstration-of-pipeline-building-steps">Demonstration of Pipeline building steps:</h1>
+<hr />
+<blockquote>
+  <p>This sections aims to showcase how Kubeflow Pipeline is created by refactoring the simple python code into Kubeflow component format .
+All the examples demonstrates different use cases which are intensively required in any ML workflow. 
+In reference to the discussion in <code class="language-plaintext highlighter-rouge">Kubeflow Pipeline Preparation</code> the upcoming points would help in grasping those suggestions and understand the blockers usually faced and how to solve them.</p>
+</blockquote>
+
+<h3 id="configuration-file">Configuration file</h3>
+<ul>
+  <li>Setting up a configuration file for initialising all the global variables that would be used throughout the project</li>
+  <li>Configuration file can be found <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/configuration.py">here</a></li>
+</ul>
+
+<p>### Identifying the First Component of the Pipeline</p>
+<ul>
+  <li>The first section of any Pipeline would aim to initialise the variables that will be required throughout the pipeline</li>
+  <li>In our case the first component was <code class="language-plaintext highlighter-rouge">Input Parameters</code> about which had discussed in previous section.</li>
+  <li>This component digest all the parameters from the configuration.py file</li>
+</ul>
+
+<h3 id="transferring-variables-which-are-not-string-integer-boolean-or-float">Transferring variables which are not string, integer, boolean or float</h3>
+<ul>
+  <li>Original <code class="language-plaintext highlighter-rouge">Preprocess Python Function</code> has been implemented <a href="https://github.com/DalilaSalamani/MLFastSim/blob/f8ecea36d2f7bd55cd406c452bdb5248088d058d/preprocess.py">here</a></li>
+  <li>Refactored <code class="language-plaintext highlighter-rouge">Preprocess Kubeflow Function</code> focuses on how transferring of variables between components take place. <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/preprocess.py">Check here</a></li>
+</ul>
+
+<blockquote>
+
+  <ul>
+    <li>
+      <p>In Kubeflow we can not transfer arrays, list ,dictionaries, dataframes, etc. like we pass str,int,bool or float.</p>
+    </li>
+    <li>
+      <p>Each Kubeflow component lives and executes in different containers.</p>
+    </li>
+    <li>
+      <p>To establish the connection between components we use persistent memory (EOS) to store large data
+and pass the location path from one component to another.</p>
+    </li>
+  </ul>
+
+</blockquote>
+
+<h3 id="interacting-with-class-definitions-and-instantiations-in-kubeflow">Interacting with Class definitions and instantiations in Kubeflow</h3>
+<ul>
+  <li>The Model Architecture Class can be handled by first defining model class ,followed by instantiating, training and saving in one single component.</li>
+  <li>Another way of handling class is saving the class definition in the memory as pickle or a dill object in one component and loading this saved object in other component to instantiate it and use its functions</li>
+  <li>The problem in the latter case, is that pickle fails to handle nested class structure.Thus, it’s better to define , instantiate, train and save the model in a single component to avoid complexities.</li>
+  <li>You can click <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/model_setup.py"><strong>here</strong></a> to see the Kubeflow implementation of Model setup.</li>
+</ul>
+
+<h3 id="loading-saved-model-in-other-component">Loading saved Model in other component.</h3>
+<ul>
+  <li>The Model trained by the <code class="language-plaintext highlighter-rouge">Model_Setup</code> component has to be loaded in the <code class="language-plaintext highlighter-rouge">Generate Component</code></li>
+  <li>To generate showers after the model training a sampling from the distribution of the latent space is performed using decoder of trained model.</li>
+  <li>To create the object, the model class needs to be defined and instantiated again in the calling component</li>
+  <li>Once object is created successfully, it is capable to load the saved weights from the <code class="language-plaintext highlighter-rouge">EOS</code></li>
+  <li>To understand the execution of such case, check my repo <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/generate.py"><strong>here</strong></a>.</li>
+</ul>
+
+<h3 id="conversion-of-kubeflow-python-functions-to-kubeflow-components">Conversion of ‘Kubeflow Python Functions’ to ‘Kubeflow Components’</h3>
+<p>The python function formatted according to Kubeflow requirements become <strong>components</strong> by using the <code class="language-plaintext highlighter-rouge">kfp.components</code> package which contains inbuilt function to convert python functions to components and store them in YAML format.
+To generate YAML files of all the components check my repo <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/generate_yaml.py"><strong>here</strong></a></p>
+
+<h3 id="connecting-the-components-using-dsl-package">Connecting the Components using DSL package</h3>
+<p>The <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/main.py#:~:text=def%20ml_pipeline_first">following file</a> below shows how the kubeflow components are brought together and connected into a single pipeline. The <code class="language-plaintext highlighter-rouge">components.dsl</code> package provides functions for components connections and pipeline formulation.
+In the <code class="language-plaintext highlighter-rouge">ml_pipeline_first</code> function the components are stitched together logically.</p>
+<blockquote>
+  <p>Observe the passing of arguments from one component to another, which establishes the link among the components, and defines the workflow.</p>
+</blockquote>
+
+<h1 id="containerizing-your-components">Containerizing your components</h1>
+<hr />
+
+<p>A specific methodology needs to be followed while creating your docker image. The following steps discuss its creation:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Step1</code>:  <code class="language-plaintext highlighter-rouge">$ docker login gitlab-registry.cern.ch</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Step2</code>: Goto this <a href="https://gitlab.cern.ch/ai-ml/kubeflow_images/-/tree/cern_14/base">link</a> and download the folder. The Dockerfile and requirements.txt found here are the base images over which we will be adding our own additional requirements.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Step3</code>: <strong>If unable to login in step 1, try this first and then again put in login credentials</strong></p>
+
+<p><code class="language-plaintext highlighter-rouge">$ sudo chmod 666 /var/run/docker.sock</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Step4</code>: Update the requirements.txt file according to the needs of the projects and mention the libraries to be installed using pip.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Step5</code>: Custom DockerFile content:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Select a base image from which to extend
+FROM &lt;SPECIFY YOUR BASE IMAGE&gt;
+# or: FROM custom_public_registry/username/image
+
+USER root
+
+# Install required packages
+COPY custom_requirements.txt /requirements.txt
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FEEA9169307EA071 8B57C5C2836F4BEB &amp;&amp; apt-get -qq update &amp;&amp; pip3 install -r /requirements.txt
+
+USER jovyan
+
+# The following line is mandatory:
+CMD ["sh", "-c", \
+     "jupyter lab --notebook-dir=/home/jovyan --ip=0.0.0.0 --no-browser \
+      --allow-root --port=8888 --LabApp.token='' --LabApp.password='' \
+      --LabApp.allow_origin='*' --LabApp.base_url=${NB_PREFIX}"]
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">Step6</code>: <code class="language-plaintext highlighter-rouge">$ docker build. -f &lt;Base_Dockerfile_Name&gt;  -t &lt;your_alias&gt;</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Step7</code>: <code class="language-plaintext highlighter-rouge">$ docker build . -f &lt;Custom_Dockerfile_name&gt; -t gitlab-registry.cern.ch/&lt;repo_name&gt;/&lt;container_name&gt;:&lt;tag_name&gt;</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Step8</code>:<code class="language-plaintext highlighter-rouge">$ docker push gitlab-registry.cern.ch/&lt;repo_name&gt;/&lt;container_name&gt;:&lt;tag_name&gt;</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Step9</code>: Once you have pushed the image to the GitLab registry, it is now easily accessible for the containers. My images can be found <a href="https://gitlab.cern.ch/gkohli/mlfastsim-kubeflow-pipeline/container_registry">here.</a></p>
+
+<h1 id="memory-management-using-eos">Memory Management using EOS</h1>
+<hr />
+<p><code class="language-plaintext highlighter-rouge">Step1</code>: Open Terminal and enter <code class="language-plaintext highlighter-rouge">kinit &lt;CERN-USER-ID&gt;</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Step2</code>: Delete existing Kerberos Secret:
+<code class="language-plaintext highlighter-rouge">kubectl delete secret krb-secret</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Step3</code>: Create a new general Kerberos Secret:
+<code class="language-plaintext highlighter-rouge">kubectl create secret generic krb-secret --from-file=/tmp/krb5cc_1000</code></p>
+
+<p><code class="language-plaintext highlighter-rouge">Step4</code>: Configure EOS in the Pipeline Code. Mounting Kerberos and EOS to the kubeflow environment</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eos_host_path = k8s_client.V1HostPathVolumeSource(path='/var/eos')
+eos_volume = k8s_client.V1Volume(name='eos', host_path=eos_host_path)
+eos_volume_mount = k8s_client.V1VolumeMount(name=eos_volume.name, mount_path='/eos')
+
+krb_secret = k8s_client.V1SecretVolumeSource(secret_name='krb-secret')
+krb_secret_volume = k8s_client.V1Volume(name='krb-secret-vol', secret=krb_secret)
+krb_secret_volume_mount = k8s_client.V1VolumeMount(name=krb_secret_volume.name, mount_path='/secret/krb-secret-vol')
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">Step5</code>: To add the volumes so that EOS is accessible through each component, we add the following to each of the function components created using the kfp sdk:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        .add_volume(krb_secret_volume) \
+        .add_volume_mount(krb_secret_volume_mount) \
+        .add_volume(eos_volume) \
+        .add_volume_mount(eos_volume_mount)
+</code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">Step6</code>: Once the above setup completes, we can access publicly visible files from the EOS.</p>
+
+<h1 id="large-data-handling">Large Data Handling</h1>
+<hr />
+<p><img src="https://user-images.githubusercontent.com/43180442/191947915-b36ef6b9-2253-402f-8f73-97e3e73c8348.png" alt="data_loading drawio" /></p>
+<blockquote>
+  <p>The Original Data was trained on a 240 GB RAM. Thus, it was important to refactor the code to handle ~175 GB worth of data in 8 GB RAM
+through batch loading, progressive training and appropriate cache management. Detailed Discussion is available <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/tree/large_data_handle">here</a></p>
+</blockquote>
+
+<h2 id="katib">Katib</h2>
+<blockquote>
+  <p>Katib is a hyperparameter tuning framework that comes with Kubeflow. It provides scalability through k8s environment as it 
+can run multiple trials in parallel. Katib is a host of various powerful algorithms that can be added in our workflow 
+such as <strong>NAS</strong>, <strong>Bayesian Optimisation</strong>,<strong>Grid Search</strong>,etc. The Katib experiments are parallelly run on GPUs
+and would strongly depend on the resource allocated to your namespace</p>
+
+</blockquote>
+
+<h3 id="understanding-katib-yaml">Understanding Katib YAML</h3>
+<blockquote>
+  <p>For indepth understanding of Katib YAML visit the <a href="https://www.kubeflow.org/docs/components/katib/trial-template/">official documentation</a></p>
+</blockquote>
+
+<h3 id="creating-docker-images-of-model-training">Creating Docker Images of Model Training</h3>
+<p>Dockerizing the components is an essential step in Kubeflow Pipeline construction 
+This helps in setting up different environments and resources for each component of a pipeline
+It is also necessary if we want KATIB to attach with our model training setup since KATIB runs this image multiple times in parallel
+The steps to create a docker image can be found in the Katib Readme <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline">here</a></p>
+
+<h3 id="refactoring-training-script-for-katib">Refactoring training script for Katib</h3>
+<ul>
+  <li>To understand the training module refactored into docker image for katib, observe the <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/training_docker/main.py">model_setup</a> function.</li>
+  <li>The function is a standalone module which is communicated via args parser through main()</li>
+  <li>The Katib YAML digests the image of this script and attaches to the parameters via the args parser</li>
+  <li>This can be observed in the <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/katib.yaml">Katib YAML template</a> from the repo. Here the <code class="language-plaintext highlighter-rouge">--lr</code> and <code class="language-plaintext highlighter-rouge">--batch_size</code> are being tuned through Katib</li>
+</ul>
+
+<h3 id="integrating-katib-into-kubeflow-pipeline">Integrating Katib into Kubeflow Pipeline</h3>
+
+<p><img src="https://user-images.githubusercontent.com/43180442/191949913-6f2e8ba4-53b0-40a0-bc9b-fdd78a3a6a5d.png" alt="Docker_Setup" /></p>
+
+<ul>
+  <li>The Image above explains the Setup of Katib when we want to execute it from inside our Kubeflow Pipeline.</li>
+  <li>Katib and the pipeline we run on different pods. To establish a communication the KATIB Pod is initiated from inside the</li>
+  <li>Kubeflow Pipeline. The Component waits for Katib to complete its execution and yield the best model.</li>
+  <li>The Best model is then extracted and passed onto the further components of the pipeline.</li>
+  <li>To understand the execution please check out the preparation of a KATIB Component from inside a Kubeflow Pipeline <a href="https://gitlab.cern.ch/fastsim/kubeflow/geant4-kubeflow-pipeline/-/blob/master/pipeline_components/katib_setup.py">here</a>.</li>
+</ul>
+
+<h4 id="features-of-the-created-katib-setup">Features of the created Katib Setup</h4>
+<ul>
+  <li>Automatically submits the YAML file to the Kubeflow Dashboard and create the KATIB Pods without user interference</li>
+  <li>The code refactors the KATIB Template created during runtime and thus provides smoother execution of the pipeline</li>
+  <li>Selects the Best model from all the experiments and delete the remaining model checkpoints</li>
+</ul>
+
+<p><em>The Katib Results looks as follows:</em></p>
+
+<p><img src="https://user-images.githubusercontent.com/43180442/191950013-bf7cd048-5fc5-4e27-946b-631764cf75b9.png" alt="katib_trial_visual" /></p>
+
+<p><em>The Kubeflow Dashboard also provides a Tabular presentation of experiment details:</em></p>
+
+<p><img src="https://user-images.githubusercontent.com/43180442/191950051-5409641f-8b01-42b5-a06d-f2dc5dfdd5ec.png" width="100%" /></p>
+
+<h1 id="running-our-kubeflow-pipeline">Running our Kubeflow Pipeline</h1>
+<hr />
+<blockquote>
+  <p>The following steps would provide you a guided workflow through which you can import this project
+onto your Kubeflow Namespace and run the experiments.</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">STEP1</code>: Go to ml.cern.ch and login into the Kubeflow Dashboard</p>
+
+<p><code class="language-plaintext highlighter-rouge">STEP2</code>: Go to Notebook tab on the side panel and create a working space</p>
+
+<p><code class="language-plaintext highlighter-rouge">STEP3</code>: Confirm the allocated resources and create the workspace with kf-14-tensorflow-jupyter:v1</p>
+
+<p><code class="language-plaintext highlighter-rouge">STEP4</code>: Create a folder from the sidebars</p>
+
+<p><code class="language-plaintext highlighter-rouge">STEP5</code>: Once inside the folder open a Terminal and <notebook.ipynb></notebook.ipynb></p>
+
+<blockquote>
+  <p>Before Step 6 Create your kerberos secret to access the EOS memory space from inside the Pipeline</p>
+
+  <p>The commands are to be entered in the Terminal as follows:
+1) <code class="language-plaintext highlighter-rouge">kinit &lt;your namespace&gt;</code>
+2) <code class="language-plaintext highlighter-rouge">kubectl delete secret krb-secret</code>
+3) <code class="language-plaintext highlighter-rouge">kubectl create secret generic krb-secret --from-file=/tmp/krb5cc_1000</code></p>
+
+  <p><code class="language-plaintext highlighter-rouge">STEP6</code>: Run<code class="language-plaintext highlighter-rouge">!git clone &lt;repo name&gt;</code> in the notebook cell</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">STEP7</code>: Change the parameter values in the <code class="language-plaintext highlighter-rouge">configuration.py</code> so to adjust according to your experiment setup</p>
+
+<p><code class="language-plaintext highlighter-rouge">STEP8</code>: Run <code class="language-plaintext highlighter-rouge">!python3 generate_yaml.py</code> in the next notebook cell</p>
+<blockquote>
+  <p>The above step would create
+YAML files for each python component which will be a part of the Kubeflow Pipeline</p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">STEP9</code>: Run <code class="language-plaintext highlighter-rouge">!python3 main.py --namespace &lt;Specify your namespace name&gt; --pipeline_name &lt;Specify your pipeline name&gt;</code> in the notebook cell</p>
+
+<p><code class="language-plaintext highlighter-rouge">STEP10</code>: To check the results open the <code class="language-plaintext highlighter-rouge">runs</code> tab to see final pipeline graphs and <code class="language-plaintext highlighter-rouge">AutoML</code> tab to access the Katib Hyper Parameter Tuning</p>
+
+
+
+   </div>
+</div>
+
+
+<br><br>
+<hr>
+<div class="footer fixed-bottom">
+<a href="https://github.com/HSF/hsf.github.io/edit/main/_gsocblogs/2022/blog_Geant4_GuneetSingh.md"><i class="glyphicon glyphicon-wrench"></i> Improve this page. </a>
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>.
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

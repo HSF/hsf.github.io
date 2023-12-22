@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <title>HSF Generator Meeting #2, 28 February 2019</title>
+    <link rel="icon" type="image/x-icon" href="/images/hsf_logo_angled.png">
+
+    <!-- bootstrap framework -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="/css/hsf.css" type="text/css" />
+</head>
+<body>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;HSF</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-center">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="wg_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Working Groups<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                  <li><a href="/what_are_WGs.html">What are HSF working groups?</a></li>
+                  <li class="divider"></li>
+                  
+                    <li><a href="/workinggroups/dataanalysis.html">Data Analysis</a></li>
+                  
+                    <li><a href="/workinggroups/detsim.html">Detector Simulation</a></li>
+                  
+                    <li><a href="/workinggroups/frameworks.html">Frameworks</a></li>
+                  
+                    <li><a href="/workinggroups/generators.html">Physics Generators</a></li>
+                  
+                    <li><a href="/workinggroups/juliahep.html">JuliaHEP - Julia in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/pyhep.html">PyHEP - Python in HEP</a></li>
+                  
+                    <li><a href="/workinggroups/recotrigger.html">Reconstruction and Software Triggers</a></li>
+                  
+                    <li><a href="/workinggroups/toolsandpackaging.html">Software Developer Tools and Packaging</a></li>
+                  
+                    <li><a href="/workinggroups/training.html">HSF Training</a></li>
+                  
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu"><span class="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Activities<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 <li><a href="/what_are_activities.html">What are HSF activity areas?</a></li>
+                 <li class="divider"></li>
+                 
+                   <li><a href="/activities/analysisfacilitiesforum.html">Analysis Facilities Forum</a></li>
+                 
+                   <li><a href="/activities/conditionsdb.html">Conditions Databases</a></li>
+                 
+                   <li><a href="/activities/differentiablecomputing.html">Differentiable Computing</a></li>
+                 
+                   <li><a href="/activities/gsdocs.html">Season of Docs</a></li>
+                 
+                   <li><a href="/activities/gsoc.html">Google Summer of Code</a></li>
+                 
+                   <li><a href="/activities/idds.html">intelligent Data Delivery Service</a></li>
+                 
+                   <li><a href="/activities/licensing.html">Licensing</a></li>
+                 
+                   <li><a href="/activities/reviews.html">Reviews</a></li>
+                 
+                   <li><a href="/activities/visualization.html">Visualisation</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                 
+                   <li><a href="/meetings/compute-accelerator-forum.html">Compute Accelerator Forum</a></li>
+                 
+                   <li><a href="/meetings/coordination.html">Coordination Meetings</a></li>
+                 
+                   <li><a href="/meetings/roundtable.html">Software and Computing Roundtable</a></li>
+                 
+                   <li><a href="/meetings/software-forum.html">Software Forum</a></li>
+                 
+               </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="communication_menu">
+                  <li><a href="/future-events.html">Community Calendar</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="/Schools/events.html">Training Schools</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/forums.html">Mailing Lists and Forums</a></li>
+                  <li><a href="/organization/minutes.html">Meeting Notes</a></li>
+                  <li><a href="/technical_notes.html">Technical Notes</a></li>
+                  <li><a href="/organization/documents.html">Documents</a></li>
+                  <li><a href="/material_for_presentations.html">Material for presentations</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/newsletter.html">Newsletters</a></li>
+                  <li><a href="/events.html">Events &amp; Workshops</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li class="divider"></li>
+
+                  <li><a href="/inventory/inventory.html">HSF Project Inventory</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="projects_menu">
+                  <li><a href="/project_guidelines.html">How to join as a project</a></li>
+                  <li><a href="/projects.html">Member Projects</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/services.html">Development Services</a></li>
+                </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="about_menu">
+                <li><a href="/get_involved.html">Get involved!</a><li>
+                <li><a href="/organization/team.html">The Coordination Team</a></li>
+                <li><a href="/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li class="divider"></li>
+                <li><a href="/organization/goals.html">Goals of the HSF</a></li>
+                <li><a href="/organization/cwp.html">Community White Paper</a></li>
+                <li><a href="/organization/hsf-letters.html">Letters from the HSF</a></li>
+                <li><a href="/organization/presentations.html">HSF Presentations</a></li>
+                <li><a href="/organization/youtube.html">HSF YouTube Channel</a></li>
+                <li class="divider"></li>
+                <li><a href="/howto-website.html">Website Howto</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2019/02/28/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #160, 28 February, 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2019/03/07/coordination.html">HSF Weekly Meeting #161, 7 March, 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<hr>
+
+  <h1 id="hsf-generator-meeting-2-28-february-2019">HSF Generator Meeting #2, 28 February 2019</h1>
+
+<p><em>Agenda:
+<a href="https://indico.cern.ch/event/799280/"><span class="underline">https://indico.cern.ch/event/799280/</span></a></em></p>
+
+<p><em>Present/Contributors: Simone Amoroso, Andrea Valassi, Efe Yazgan, Frank
+Siegert, Graeme Stewart, Josh Bendavid, Josh McFayden, Qiang, Tommaso
+Boccali, Stephen Jiggins, Steve Mrenna, Walter Hopkins, Liz
+Sexton-Kennedy, Andy Buckley, Stefan Roiser</em></p>
+
+<h2 id="news-general-matters">News, general matters</h2>
+<ul>
+  <li>Main priorities: follow up on items identified at November
+workshop, for which we are writing proceedings. Still more items
+to discuss over the longer term.</li>
+  <li>Is this an acceptable slot for regular meetings?
+    <ul>
+      <li>Graeme: conflict with ATLAS software coordination, pretty much
+every week.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="cms-event-generator-accounting-update">CMS event generator accounting update</h2>
+<ul>
+  <li>JoshMF: some relatively large disparity between ATLAS and CMS
+numbers. We are looking into this and this presentation is about
+it.</li>
+  <li>Qiang’s presentation
+    <ul>
+      <li>Slide2 from Eze’s talk at the workshop: 15B events in 8 months
+of 2017, around 85s/evt for the whole chain</li>
+      <li>Slide 3: fall17 is for one data taking year</li>
+      <li>Slide 4: 5% is for LO and 17% for NLO (matching samples),
+while pure LO (non matching) is much lower (Susy and exotica)</li>
+    </ul>
+  </li>
+  <li>JoshB: madgraph in gridpack mode does not support MT at all, it is
+running on one core alone
+    <ul>
+      <li>In madgraph NLO there is some MT support</li>
+      <li>JoshMF: inefficiency is because GEN run at same place as SIM</li>
+      <li>JoshMF: is pythia MT? Liz: yes it is. Steve: have had a lot of
+feedback and testing and no MT issue has been found so far
+(except for initial issues that have been fixed by now).</li>
+      <li>FrankS: so in pythia you do not need to add mutexes around the
+code? Liz: we actually have multiple instances of pythia in
+separate threads. JoshB: not sure, we are wrapping with it
+things like tauola and are effectively using only one thread.
+Liz: the framework protects around Fortran common blocks.
+FrankS: in ATLAS we are not using MT yet, not even in
+simulation, so we need to worry about it for generation too.
+We are running generation in single mode at the moment.</li>
+      <li>Steve: for pythia we are running everything in single
+instance, we do not see reasons to reengineer. FrankS: good
+point, why do we need to do this in MT at all, is it just
+saving memory? This may be more complex for some ME
+generators.</li>
+      <li>JoshB: even if you run multiple instances of pythia in one CMS
+main, the advantage is that you have all events in a single
+output thread to write together.</li>
+    </ul>
+  </li>
+  <li>Andrea: is 1% on slide 2 from accounting? How to reconcile with
+5-17 from slide 4? Liz: difficult to extrapolate from single node
+tests of Qiang to Grid.
+    <ul>
+      <li>JoshMF: also ATLAS is from Grid, but we need precise numbers
+for CMS too.</li>
+      <li>Andrea: in CMS do you record separately SIM and GEN for Grid
+jobs or not? Liz: yes we record them, but they are in a spark
+cluster type of bookkeeping. It is difficult to extract the
+numbers. Andrea: could you improve the computing
+infrastructure to make the info more accessible? Liz: good
+question, will raise it in CMS.</li>
+      <li>Andrea: in ATLAS is it more easily accessible? JoshMF: yes the
+numbers we quoted are definitely from production and we took
+the time to do the calculation (which was complex).</li>
+      <li>JoshB: some of this is POWHEG, which may even make accounting
+more confusing.</li>
+      <li>JoshMF: is it conceivable to get an expert to analyse these
+databases? Liz: can dig out some details. Andrea: if the issue
+is finding an expert, I can ask an IT colleague who is
+analysing other CMS logs.</li>
+    </ul>
+  </li>
+  <li>JoshMF: is Drell Yan the most CPU-consuming process?</li>
+  <li>JoshMF: can we have an update on this in 2 weeks or maybe 4 weeks?
+    <ul>
+      <li>Qiang: please circulate minutes and action list so we can
+decide</li>
+      <li>Liz: in 4 weeks there will be the workshop, this may not be
+the best moment. JoshMF: we also definitely plan a meeting in
+2 weeks on sharing samples, we could add this there.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Action items:</p>
+<ul>
+  <li>Get the total absolute amount of CPU seconds for the GEN step and
+for the full chain for this 2017 campaign.</li>
+  <li>Fill in (at a minimum) the nEvts column in Table 2 in proceedings:
+(<a href="https://www.overleaf.com/1326158343ftxgrxxcspxg"><span class="underline">https://www.overleaf.com/1326158343ftxgrxxcspxg</span></a>) <img src="/images/2019-02-28-generators.png" alt="Table 2 of proceedings" /></li>
+  <li>Get precise GEN no. of events and CPU s/evt for sets of sample
+that are roughly the same between ATLAS and CMS:
+    <ul>
+      <li>W+jets LO Ht-sliced</li>
+      <li>W+jets NLO (N-Jets)</li>
+      <li>ttbar Powheg+Pythia8 inclusive NLO</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="discussion-on-sharing-samples-across-experiments">Discussion on sharing samples across experiments</h2>
+<ul>
+  <li>This is postponed to the next meeting on March 14.</li>
+  <li>JoshMF: ATLAS SUSY convenor (Zach Marshall) confirmed he can
+attend the meeting in two weeks and give a report, even if they
+are still in early stages of planning.</li>
+</ul>
+
+<h2 id="aob">AOB</h2>
+<ul>
+  <li>Andrea: will someone be at the JLAB workshop and do people wish to
+have a session there?
+    <ul>
+      <li>Graeme: there is a possibility to hold a session on Thu
+afternoon, if interested let me know.</li>
+      <li>Graeme: we also do have a talk on Madgraph/GPU confirmed, it
+would be useful to look at the slides even if you do not
+attend the workshop.</li>
+    </ul>
+  </li>
+</ul>
+
+
+<hr>
+
+<div class="PageNavigation">
+
+  <!-- Note that page sorting is reverse time ordered, so "next" refers to the previous
+       meeting in time and "previous" to the next one -->
+  
+   <p class="alignleft"><a href="/organization/2019/02/28/coordination.html">&nbsp;&#8592; HSF Weekly Meeting #160, 28 February, 2019</a></p>
+  
+
+  
+    <p class="alignright"><a href="/organization/2019/03/07/coordination.html">HSF Weekly Meeting #161, 7 March, 2019 &#8594;&nbsp;</a></p>
+  
+
+</div>
+
+<div style="clear: both;"></div>
+
+
+<br><br>
+<div class="footer fixed-bottom">
+Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com/">Bootstrap</a>
+</div>
+
+</div> <!-- container -->
+
+
+<!-- Google Analytics -->
+
+<!-- Google Analytics end -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

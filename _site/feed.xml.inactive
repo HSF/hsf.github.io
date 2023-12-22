@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>HEP Software Foundation Newsletter</title>
+		<description>News from the HEP Software Foundation</description>		
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>HSF Coordination Meeting #261, 6 December 2023</title>
+				        
+				
+					<description>&lt;p&gt;Present/Contributing: Graeme Stewart, Eduardo Rodrigues, Patrick Gartung, Efe Yazgan, Alex Held, Valentin Volkl, Stefan Roiser, Krzysztof Genser, Nick Smith, Caterina Doglioni, Stefan Roiser, Kyle Knoepfel&lt;/p&gt;
+
+&lt;p&gt;Apologies/Contributing: Andrea Valassi, Claire Antel, Markus Diefenthaler&lt;/p&gt;
+
+&lt;h2 id=&quot;news-general-matters-announcements&quot;&gt;News, general matters, announcements&lt;/h2&gt;
+
+&lt;h3 id=&quot;hsf-joint-workshop-with-wlcg&quot;&gt;HSF Joint Workshop with WLCG&lt;/h3&gt;
+
+&lt;p&gt;13-17 May at DESY is now confirmed for a joint WCLG-HSF workshop. News from WLCG to come soon. Note this will be the HSF’s 10th birthday meeting!&lt;/p&gt;
+
+&lt;h3 id=&quot;lhcc-news&quot;&gt;LHCC News&lt;/h3&gt;
+
+&lt;p&gt;Only positive noises for software. Official minutes to come.&lt;/p&gt;
+
+&lt;h3 id=&quot;icfa-seminar&quot;&gt;ICFA Seminar&lt;/h3&gt;
+
+&lt;p&gt;Graeme gave a talk on Software at the &lt;a href=&quot;https://indico.desy.de/event/38293/&quot;&gt;ICFA Seminar&lt;/a&gt; last week, as part of a whole session on Software and Computing. Very nice to see these topics being taken so seriously at this level.&lt;/p&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h3 id=&quot;conveners-for-2024&quot;&gt;Conveners for 2024&lt;/h3&gt;
+
+&lt;p&gt;We extended the call for conveners until the end of next week, 15 December. &lt;em&gt;Please think about nominations and forward to others who might make nominations.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nominations to &lt;a href=&quot;mailto:hsf-search-committee@cern.ch&quot;&gt;HSF Search Committee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-analysis&quot;&gt;Data Analysis&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Held meeting on HS3 (HEP Statistics Serialization Standard) on Nov 27: &lt;a href=&quot;https://indico.cern.ch/event/1348309/&quot;&gt;https://indico.cern.ch/event/1348309/&lt;/a&gt; with discussion notes in &lt;a href=&quot;https://docs.google.com/document/d/1NizUogJpiTNxZ_-Pqf9heI-8ynv95s5UNtu_G6rLxsk/&quot;&gt;google doc&lt;/a&gt; (recording on CDS linked to agenda). Further feedback on the standard, especially from beyond the LHC, would be very welcome—please see slides for more information and where to get in touch.&lt;/li&gt;
+  &lt;li&gt;Have contacts with Belle II. Would be good to reach out to ePIC and DUNE.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;detector-simulation&quot;&gt;Detector Simulation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Recent and planned sessions
+    &lt;ul&gt;
+      &lt;li&gt;Summary of the fast calorimeter challenge workshop and fast calorimeter simulation in ATLAS on November 27th; &lt;a href=&quot;https://indico.cern.ch/event/1347846/&quot;&gt;https://indico.cern.ch/event/1347846/&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;Next FLUKA generation and its tangible convergences with Geant4 on December 11th; &lt;a href=&quot;https://indico.cern.ch/event/1338814/&quot;&gt;https://indico.cern.ch/event/1338814/&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Also note the CAF meeting covering Celeritas next Monday!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-tools-and-packaging&quot;&gt;Software Tools and Packaging&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Would still like to have one of the Spack developers visit CERN soon.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyhep&quot;&gt;PyHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyHEP.dev 2024 in-person developers workshop set to take place the week of the 26th of August 2024 in Aachen. Details to follow in due time.&lt;/li&gt;
+  &lt;li&gt;Good-old PyHEP 2024 online users workshop likely to take place in July 2024. Details yet to be finalised.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Held &lt;a href=&quot;https://indico.cern.ch/event/1341187/&quot;&gt;meeting on 29 November&lt;/a&gt; re. ATLAS’ evaluation of HPX.  Helpful sharing of experience, and keeps us aware of options other than TBB.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;physics-generators&quot;&gt;Physics Generators&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1312061/&quot;&gt;Workshop on 13-14 Nov. on hardware acceleration&lt;/a&gt;. Very successful workshop with good representation from the community. Summary under preparation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There’s a topical meeting next week (Thursday), focusing on analysis: &lt;a href=&quot;https://indico.cern.ch/event/1352914/&quot;&gt;https://indico.cern.ch/event/1352914/&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Videos from the November JuliaHEP workshop will be posted to YouTube very soon.&lt;/li&gt;
+  &lt;li&gt;The Julia in HEP paper was &lt;a href=&quot;https://news.ycombinator.com/item?id=38512793&quot;&gt;posted&lt;/a&gt; in Hacker News!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1264303/&quot;&gt;Meeting next week&lt;/a&gt; on &lt;em&gt;General-purpose GPU acceleration of Geant4 with Celeritas&lt;/em&gt; from Seth Johnson.
+    &lt;ul&gt;
+      &lt;li&gt;Monday 11 December at 16h in 513/1-024.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Meeting slots are &lt;a href=&quot;https://indico.cern.ch/category/12741/&quot;&gt;booked for next year&lt;/a&gt;, second Wednesday of each month, 16h30.
+    &lt;ul&gt;
+      &lt;li&gt;Tentatively we have a talk on Garbage Collectors in January and HEPiX Benchmarking in February.&lt;/li&gt;
+      &lt;li&gt;Please send ideas for talks to &lt;a href=&quot;mailto:compute-accelerator-forum-organizers@cern.ch&quot;&gt;compute-accelerator-forum-organizers@cern.ch&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;There is an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We aim to try and have a new website ready for next year.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;community-calendar&quot;&gt;Community Calendar&lt;/h3&gt;
+
+&lt;p&gt;Status:&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;ALICE&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;ATLAS&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;CMS&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;LHCb&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;EIC&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Belle II&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;DUNE&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Conferences (ACAT and CHEP - others?)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;LHCC Weeks&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;FCC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Have contacted EIC/Belle II/DUNE for their events.&lt;/p&gt;
+
+&lt;p&gt;Please also add anything else relevant for the software and computing communities in NHEP.&lt;/p&gt;
+
+&lt;h3 id=&quot;gsoc-mentor-summit-summary&quot;&gt;GSOC Mentor Summit Summary&lt;/h3&gt;
+
+&lt;p&gt;See trip report in SFT group meeting:
+    - https://indico.cern.ch/event/1341646/#8-report-from-gsoc-event&lt;/p&gt;
+
+&lt;h3 id=&quot;eiroforum-training-working-group&quot;&gt;EIROForum Training Working Group&lt;/h3&gt;
+
+&lt;p&gt;This group has now started to meet. Stefan Roiser chairs and we should ensure that activities are coordinated with the HSF WG and EVERSE.&lt;/p&gt;
+
+&lt;h3 id=&quot;everse-project&quot;&gt;EVERSE Project&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://everse.software&quot;&gt;EVERSE project&lt;/a&gt; (European Virtual Institute for Research Software Excellence) will start on 1 March. Kick off meeting will be joint with OSCARS in Thessaloniki Greece, 11-15 March 2024.&lt;/p&gt;
+
+&lt;h3 id=&quot;jena-computing-workshop&quot;&gt;JENA Computing Workshop&lt;/h3&gt;
+
+&lt;p&gt;After the &lt;a href=&quot;https://agenda.infn.it/event/34738&quot;&gt;JENA Computing Workshop&lt;/a&gt; in June, there is now a call for people to participate in the 5 key area working groups (HPC, Software, DOMA, Machine Learning, Training).&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://drive.google.com/file/d/1_Ovq71s8ytSQc5iRWNs7HPyjNhewBVSj/view&quot;&gt;here&lt;/a&gt; for the workshop summary and links to express interest in the WGs.&lt;/p&gt;
+
+&lt;h3 id=&quot;next-meetings&quot;&gt;Next Meetings&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://indico.cern.ch/category/7970/&quot;&gt;Meetings have been booked for 2024&lt;/a&gt;, in the usual odd-numbered weeks of the year.&lt;/p&gt;
+
+&lt;p&gt;The next meeting will be on &lt;a href=&quot;https://indico.cern.ch/event/1355738/&quot;&gt;18 January&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reminder: please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing one of the 2024 meetings.&lt;/p&gt;
+
+&lt;p&gt;We wish everyone an excellent holiday break and we see you next year!&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 06 Dec 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/12/06/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/12/06/coordination.html</guid>
+			</item>
+		
+			<item>
+				<title>HSF Coordination Meeting #260, 9 November 2023</title>
+				        
+				
+					<description>&lt;p&gt;Present/Contributing: Eduardo Rodrigues, Torre Wenaus, Joseph Wang, Nick Smith, Krzysztof Genser, Valentin Volkl&lt;/p&gt;
+
+&lt;p&gt;Apologies/Contributing: Benedikt Hegner, Graeme A. Stewart, Pere Mato&lt;/p&gt;
+
+&lt;h2 id=&quot;news-general-matters-announcements&quot;&gt;News, general matters, announcements&lt;/h2&gt;
+
+&lt;h3 id=&quot;hsf-joint-workshop-with-wlcg&quot;&gt;HSF Joint Workshop with WLCG&lt;/h3&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h4 id=&quot;website-banners&quot;&gt;Website banners&lt;/h4&gt;
+
+&lt;p&gt;We have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files &lt;a href=&quot;https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;meetings&quot;&gt;Meetings&lt;/h4&gt;
+
+&lt;p&gt;Please try and book meetings in Indico at least 2 weeks in advance!&lt;/p&gt;
+
+&lt;p&gt;That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.&lt;/p&gt;
+
+&lt;h3 id=&quot;conveners-for-2024&quot;&gt;Conveners for 2024&lt;/h3&gt;
+
+&lt;p&gt;Sent call for nominations last week. Very little feedback.&lt;/p&gt;
+
+&lt;p&gt;Claire volunteered for the search committee. Thanks!&lt;/p&gt;
+
+&lt;h3 id=&quot;data-analysis&quot;&gt;Data Analysis&lt;/h3&gt;
+
+&lt;p&gt;Aiming to set up HS3 meeting on Nov 20 (confirmation / announcement to follow).&lt;/p&gt;
+
+&lt;h3 id=&quot;software-tools-and-packaging&quot;&gt;Software Tools and Packaging&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Trying to advertise the EESSI tutorial on CVMFS for HPC admins
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://event.ugent.be/registration/event/84b45c41-b98b-4a41-9aae-60f5f9e89440&quot;&gt;https://event.ugent.be/registration/event/84b45c41-b98b-4a41-9aae-60f5f9e89440&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Meeting on Spack developments to be organised.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;detector-simulation&quot;&gt;Detector Simulation&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Currently planned/scheduled sessions:
+    &lt;ul&gt;
+      &lt;li&gt;Summary of the fast calorimeter challenge workshop and fast calorimeter simulation in ATLAS; some time in November/December.&lt;/li&gt;
+      &lt;li&gt;Next FLUKA generation and its tangible convergences with Geant4 on December 11th. Indico link: &lt;a href=&quot;https://indico.cern.ch/event/1338814/&quot;&gt;https://indico.cern.ch/event/1338814/&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyhep&quot;&gt;PyHEP&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Last week we discussed the organisation of the PyHEP.dev 2024 developers workshop with our co-organisers from Aachen, Germany. Dates around the end of August and the beginning of September (more likely the former) to be confirmed once we finalise on the venue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;physics-generators&quot;&gt;Physics Generators&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Generator  Workshop 13-14 November - &lt;a href=&quot;https://indico.cern.ch/event/1312061/&quot;&gt;https://indico.cern.ch/event/1312061/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Workshop &lt;a href=&quot;https://indico.cern.ch/event/1292759/timetable/#20231106&quot;&gt;agenda&lt;/a&gt; currently happening.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;h3 id=&quot;software-and-computing-roundtable&quot;&gt;Software and Computing Roundtable&lt;/h3&gt;
+
+&lt;p&gt;Torre - good intentions to restart it haven’t resulted in a restart, EIC/ePIC too busy. Still intend to restart it, we hope at the beginning of 2024.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;There is an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We aim to try and have a new website ready for next year.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;community-calendar&quot;&gt;Community Calendar&lt;/h3&gt;
+
+&lt;p&gt;As the autumn is now firmly entrenched, we should make sure the calendar is up to date with events for next year.&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;ALICE&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;ATLAS&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;CMS&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;LHCb&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;EIC&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Belle II&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;DUNE&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Conferences (ACAT and CHEP - others?)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;LHCC Weeks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And anything else relevant for the software and computing communities in NHEP.&lt;/p&gt;
+
+&lt;h4 id=&quot;eucaifcon-3004-3052024&quot;&gt;EUCAIFCon: 30/04-3/05/2024&lt;/h4&gt;
+
+&lt;p&gt;European AI for Fundamental Physics Conference (EuCAIFCon) - 30 April to 3 May 2024&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://inspirehep.net/conferences/2710084&quot;&gt;https://inspirehep.net/conferences/2710084&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some background: this is a JENAA (Joint ECFA/NuPECC/APPEC Activity) Expression of Interest that started around the time of the Bologna ECFA computing workshop. The aim is to advance the use of Artificial Intelligence (AI) in Fundamental Physics.&lt;/p&gt;
+
+&lt;p&gt;Some early details are on &lt;a href=&quot;https://www.eucaif.org&quot;&gt;https://www.eucaif.org&lt;/a&gt; and it will eventually appear &lt;a href=&quot;https://nupecc.org/jenaa/?display=eois&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Caterina is in the organising committee, and would like to find a way to connect HSF training / PyHEP as foundations to use of ML in HEP. Feedback/other ideas?&lt;/p&gt;
+
+&lt;h4 id=&quot;gsoc-mentor-summit-summary&quot;&gt;GSOC Mentor Summit Summary&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Recent changes to the GSoC programme (non-students can participate, can move evaluation deadlines) seem to be working well.&lt;/li&gt;
+  &lt;li&gt;For next year: small projects in addition to medium and large.&lt;/li&gt;
+  &lt;li&gt;If you are interested in Google Season of Docs, let me (Valentin Volkl) know.&lt;/li&gt;
+  &lt;li&gt;HSF in 2023: Fewer accepted projects (17) but very successful, 14 already positively evaluated, remaining 3 on track to finish in November.
+    &lt;ul&gt;
+      &lt;li&gt;One student could not accept stipend due to tax reasons (moved to the US).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;next-meeting&quot;&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;The next meeting will be on &lt;a href=&quot;https://indico.cern.ch/event/1225029/&quot;&gt;23 November&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reminder: please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing this or one of the future coordination meetings - we need volunteers from now until the end of the year!&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 09 Nov 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/11/09/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/11/09/coordination.html</guid>
+			</item>
+		
+			<item>
+				<title>HSF Coordination Meeting #258, 12 October 2023</title>
+				        
+				
+					<description>&lt;p&gt;Present/Contributing: Graeme Stewart, Benedikt Hegner, Patrick Gartung, Liz Sexton Kennedy, Nick Smith, Efe Yazgan, Claire Antel, Pere Mato, Krzysztof Genser, Tamas Gal, Alexander Held&lt;/p&gt;
+
+&lt;p&gt;Apologies/Contributing: Eduardo Rodrigues (and others still at PyHEP), Nicole Skidmore (added to notes already about paper)&lt;/p&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h3 id=&quot;conveners-for-2024&quot;&gt;Conveners for 2024&lt;/h3&gt;
+
+&lt;p&gt;We need to start the process to decide on conveners for the working groups for 2024&lt;/p&gt;
+
+&lt;p&gt;Proposed timeline:-&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now, ask WG conveners their plans for next year and if they plan to stay on&lt;/li&gt;
+  &lt;li&gt;31 October, know which slots will open for the different WGs&lt;/li&gt;
+  &lt;li&gt;1 November, broadcast openings to HSF channels, projects and experiments, asking for nominations by 20 November&lt;/li&gt;
+  &lt;li&gt;HSF Search Team (last year was Michel, Liz, Graeme and Benedikt) discuss candidates, check balance across WGs and experiments, then invite people to take on the role, hopefully concluding by the end of the year
+    &lt;ul&gt;
+      &lt;li&gt;N.B. Any of the HSF Coordinators can serve on the search team! We do encourage this very much as the current people have served for quiet a long time.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Alex - do we have an engagement issue? We should do more reaching out to &lt;em&gt;help people engage&lt;/em&gt; and to get more HSF input / update presentations; at least we would like that new collaboration members are told about the HSF. Ensure that this goes beyond the LHC experiments to Belle II, DUNE, FAIR, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-analysis&quot;&gt;Data Analysis&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Training paper on arxiv &lt;a href=&quot;https://arxiv.org/abs/2310.07342&quot;&gt;https://arxiv.org/abs/2310.07342&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;For publishing “Frontiers in Physics editors are aware of our intentions, so we should be able to progress with that soon.”
+    &lt;ul&gt;
+      &lt;li&gt;We hope this process will start in earnest soon, now that the CHEP proceedings are submitted - Graeme and Liz are editors for the special edition and will help track things&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Recent LHCb FunTuple publication &lt;a href=&quot;https://arxiv.org/abs/2310.02433&quot;&gt;https://arxiv.org/abs/2310.02433&lt;/a&gt; as possible target for dedicated discussion&lt;/li&gt;
+  &lt;li&gt;Discussing possible dates for dedicated meeting for HS3: important to get the right people from CMS &amp;amp; LHCb (plus beyond, flavour physics, etc.?) involved in the discussion, so timing is important&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-training&quot;&gt;Software Training&lt;/h3&gt;
+
+&lt;p&gt;Python courses are running as part of the &lt;a href=&quot;https://indico.cern.ch/event/1316853/&quot;&gt;Software Basics&lt;/a&gt;, which should run this November.&lt;/p&gt;
+
+&lt;h4 id=&quot;c-course-and-hands-on-training&quot;&gt;C++ Course and Hands-on Training&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266628/&quot;&gt;Advanced C++ course&lt;/a&gt; runs next week, at CERN and remote lectures (still some slots available).&lt;/p&gt;
+
+&lt;h3 id=&quot;software-tools-and-packaging&quot;&gt;Software Tools and Packaging&lt;/h3&gt;
+
+&lt;p&gt;Want to have Adam Stewart, Spack developer, come to CERN.&lt;/p&gt;
+
+&lt;p&gt;Graeme and Marco reported on the use of / plans for Spack across some significant sub-section of the NHEP community and experiments. We reported in last week’s &lt;a href=&quot;https://indico.cern.ch/event/1251048/&quot;&gt;Architects Forum&lt;/a&gt; meeting.&lt;/p&gt;
+
+&lt;p&gt;Main points:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Real strengths in Spack for deploying production software stacks; large community of contributors to 1000s of package recipes&lt;/li&gt;
+  &lt;li&gt;Some features need improvements: relocation, binary caches&lt;/li&gt;
+  &lt;li&gt;Principle lack seems to be poor support for developer story - e.g., for reconstruction developer in an experiment software stack
+    &lt;ul&gt;
+      &lt;li&gt;It may well be best to just keep Spack out of this area as it lacks sufficient granularity to understand the internals of experiment software&lt;/li&gt;
+      &lt;li&gt;The current experiments have working examples of how to do this&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Discussion:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Patrick/Liz: SpackDev (from Fermilab), is not working so well at the moment&lt;/li&gt;
+  &lt;li&gt;EP-DT provide DAQ software with Spack (for, e.g., Faser) - we were not aware of this&lt;/li&gt;
+  &lt;li&gt;Do Belle II use Spack in production? Was SCONS in the past, but there were efforts to migrate, we are not sure where this got to&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;detector-simulation&quot;&gt;Detector Simulation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Geant4 Collaboration Meeting took place at the end of September (25-29)&lt;/li&gt;
+  &lt;li&gt;Still hoping to have a session on external (not Geant4) physics model developments and on a couple of other topics; No specific dates yet.&lt;/li&gt;
+  &lt;li&gt;Geant4 will review GPU related R&amp;amp;D in December (13,14)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reconstruction-and-software-trigger&quot;&gt;Reconstruction and Software Trigger&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Invite to LHCb potential speakers on topic related to efficient computing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyhep&quot;&gt;PyHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/e/PyHEP2023&quot;&gt;PyHEP2023&lt;/a&gt; is still ongoing! Full event report later.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;physics-generators&quot;&gt;Physics Generators&lt;/h3&gt;
+
+&lt;p&gt;Not yet progress on the topics we would like to cover, viz.,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;shared elements between MCEGs or&lt;/li&gt;
+  &lt;li&gt;forum or even collaborative projects between experiments on tuning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/e/juliahep2023&quot;&gt;JuliaHEP workshop&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;126 registrations (~20 local participation).&lt;/li&gt;
+      &lt;li&gt;Agenda has just been finalised and is now published on &lt;a href=&quot;https://indico.cern.ch/event/1292759/timetable&quot;&gt;Indico&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yesterday had a &lt;a href=&quot;https://indico.cern.ch/event/1264301/&quot;&gt;meeting&lt;/a&gt; on the D language: &lt;em&gt;Why D? An opinionated talk on why you should pick D for your next project&lt;/em&gt; from Atila Neves (video uploaded)&lt;/li&gt;
+  &lt;li&gt;8 November meeting will be a presentation on &lt;a href=&quot;https://indico.cern.ch/event/1264302/&quot;&gt;HEPiX benchmarking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;There is an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We aim to try and have a new website ready for next year.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;community-calendar&quot;&gt;Community Calendar&lt;/h3&gt;
+
+&lt;p&gt;As the autumn is now firmly entrenched, we should make sure the calendar is up to date with events for next year.&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;ALICE&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;ATLAS&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;CMS&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;LHCb&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;EIC&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Belle II&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;DUNE&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Conferences (ACAT and CHEP - others?)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;LHCC Weeks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And anything else relevant for the software and computing communities in NHEP?&lt;/p&gt;
+
+&lt;p&gt;Please take your favourite experiment and add the dates!&lt;/p&gt;
+
+&lt;h3 id=&quot;next-meeting&quot;&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;The next meeting will be on &lt;a href=&quot;https://indico.cern.ch/event/1225027/&quot;&gt;26 October&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reminder: please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing this or one of the future coordination meetings - we need volunteers from now until the end of the year!&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 12 Oct 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/10/12/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/10/12/coordination.html</guid>
+			</item>
+		
+			<item>
+				<title>HSF Coordination Meeting #257, 28 September 2023</title>
+				        
+				
+					<description>&lt;p&gt;Present/Contributing: Graeme Stewart, Claire Antel, John Chapman, Patrick Gartung, Pere Mato, Markus Diefenthaler, Nicole Skidmore, Kyle Knoepfel&lt;/p&gt;
+
+&lt;p&gt;Apologies/Contributing: Benedikt Hegner, Efe Yazgan, Eduardo Rodrigues&lt;/p&gt;
+
+&lt;h2 id=&quot;news-general-matters-announcements&quot;&gt;News, general matters, announcements&lt;/h2&gt;
+
+&lt;h3 id=&quot;lhcc&quot;&gt;LHCC&lt;/h3&gt;
+
+&lt;h4 id=&quot;rrb-reports&quot;&gt;RRB Reports&lt;/h4&gt;
+
+&lt;p&gt;The text for the &lt;a href=&quot;https://docs.google.com/document/d/1J-cfkgqP0ukbtlEQJEnZSzV3GVukVAPuONw1k261a6A/edit?usp=sharing&quot;&gt;RRB report&lt;/a&gt; was submitted last week, covering software projects and HSF activities.&lt;/p&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h3 id=&quot;data-analysis&quot;&gt;Data Analysis&lt;/h3&gt;
+
+&lt;p&gt;Experiment training paper, it’s basically ready. Could go to Frontiers in Physics, special CHEP edition. Graeme will contact the editors.&lt;/p&gt;
+
+&lt;p&gt;Next meeting on &lt;a href=&quot;https://github.com/hep-statistics-serialization-standard/hep-statistics-serialization-standard&quot;&gt;HS3&lt;/a&gt;, still to fix a date.&lt;/p&gt;
+
+&lt;h3 id=&quot;software-tools-and-packaging&quot;&gt;Software Tools and Packaging&lt;/h3&gt;
+
+&lt;p&gt;Meeting last week with Graeme Stewart, group conveners and Fermilab developers working on Spack integration: Marc Mengel and Chris Green.&lt;/p&gt;
+
+&lt;p&gt;Graeme and Marco will report in the &lt;a href=&quot;https://indico.cern.ch/event/1251048/&quot;&gt;AF next week&lt;/a&gt; on the Spack state-of-nation (they have been speaking to quite a few groups).&lt;/p&gt;
+
+&lt;p&gt;Could consider presenting this round-up in a future packaging meeting.&lt;/p&gt;
+
+&lt;h3 id=&quot;detector-simulation&quot;&gt;Detector Simulation&lt;/h3&gt;
+
+&lt;p&gt;Had a &lt;a href=&quot;https://indico.cern.ch/event/1321071/&quot;&gt;meeting&lt;/a&gt; on 18th September on G4 optimisation and tuning. Two interesting talks. Some discussion between experiments.&lt;/p&gt;
+
+&lt;p&gt;Would still like to have a meeting on physics model extensions.&lt;/p&gt;
+
+&lt;h3 id=&quot;reconstruction-and-software-trigger&quot;&gt;Reconstruction and Software Trigger&lt;/h3&gt;
+
+&lt;p&gt;No new updates (still planning 4D tracking talk and another session on “efficient computing”).&lt;/p&gt;
+
+&lt;h3 id=&quot;pyhep&quot;&gt;PyHEP&lt;/h3&gt;
+
+&lt;p&gt;Abstract acceptances went out last week. Now finalising timetable for &lt;a href=&quot;https://indico.cern.ch/event/1252095/&quot;&gt;the workshop&lt;/a&gt;. Event will fill the 4 days.&lt;/p&gt;
+
+&lt;h3 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h3&gt;
+
+&lt;p&gt;Have not yet settled on a date for a presentation regarding HPX.  We will likely have a talk in October regarding lessons learned on incorporating C++20 within the art framework.&lt;/p&gt;
+
+&lt;h3 id=&quot;physics-generators&quot;&gt;Physics Generators&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Preparing a meeting on shared elements between MCEGs&lt;/li&gt;
+  &lt;li&gt;Discussions on workshop for MCEGs in NHEP
+    &lt;ul&gt;
+      &lt;li&gt;This would have a broader focus than the &lt;a href=&quot;https://indico.cern.ch/event/1312061/&quot;&gt;N(N)LO workshop at CERN in November&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1292759/&quot;&gt;JuliaHEP WS preparation&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Preparing an initial block schedule&lt;/li&gt;
+      &lt;li&gt;Decided to extend the abstract submission deadline to 9 October&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;13 September meeting on &lt;a href=&quot;https://indico.cern.ch/event/1264300/&quot;&gt;RISC-V&lt;/a&gt; was well received and the video is posted&lt;/li&gt;
+  &lt;li&gt;11 October meeting will look at &lt;a href=&quot;https://indico.cern.ch/event/1264301/&quot;&gt;D programming language&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;8 November meeting will be a presentation on &lt;a href=&quot;https://indico.cern.ch/event/1264302/&quot;&gt;HEPiX benchmarking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-and-computing-roundtable&quot;&gt;Software and Computing Roundtable&lt;/h3&gt;
+
+&lt;p&gt;No progress on restating yet, but not forgotten!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;technical-note-on-project-best-practices&quot;&gt;Technical Note on Project Best Practices&lt;/h3&gt;
+
+&lt;p&gt;The update on &lt;em&gt;Project Best Practices&lt;/em&gt; will now be submitted to Zenodo. Last chance to &lt;a href=&quot;https://github.com/HSF/documents/blob/master/HSF-TN/2020-01/HSF-TN-2020-01.md&quot;&gt;review&lt;/a&gt; for this Friday.&lt;/p&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Benedikt started an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We aim to try and have a new website ready for next year.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;community-calendar&quot;&gt;Community Calendar&lt;/h3&gt;
+
+&lt;p&gt;As the autumn is now firmly entrenched, we should make sure the calendar is up to date with events for next year.&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;ALICE&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;ATLAS&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;CMS&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;LHCb&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;EIC&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Belle II&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;DUNE&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Conferences (ACAT and CHEP)&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;LHCC Weeks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And anything else relevant for the software and computing communities in NHEP?&lt;/p&gt;
+
+&lt;h3 id=&quot;epic&quot;&gt;EPIC&lt;/h3&gt;
+
+&lt;p&gt;Went through a software decision process. Will be reviewed in October. Will need to make progress on &lt;em&gt;metadata&lt;/em&gt;. Would like to work in the HSF context.&lt;/p&gt;
+
+&lt;p&gt;Paul Laycock would be a good contact, especially for the new metadata server used by sPHENIX that followed the HSF recommended design. (Work was &lt;a href=&quot;https://indico.jlab.org/event/459/contributions/11326/&quot;&gt;presented at CHEP&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;h3 id=&quot;next-meeting&quot;&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;The next meeting will be on &lt;a href=&quot;https://indico.cern.ch/event/1225026/&quot;&gt;12 October&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reminder: please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing this or one of the future coordination meetings - we need volunteers from now until the end of the year!&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 28 Sep 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/09/28/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/09/28/coordination.html</guid>
+			</item>
+		
+			<item>
+				<title>HSF Coordination Meeting #256, 14 September 2023</title>
+				        
+				
+					<description>&lt;p&gt;Present/Contributing: Claire Antel, Benedikt Hegner, Liz Sexton-Kennedy, Sandro Wenzel, Kilian Lieret, Eduardo Rodrigues, Michel Jouvin, Caterina Doglioni (joined late)&lt;/p&gt;
+
+&lt;p&gt;Apologies/Contributing: Graeme Stewart&lt;/p&gt;
+
+&lt;h2 id=&quot;news-general-matters-announcements&quot;&gt;News, general matters, announcements&lt;/h2&gt;
+
+&lt;h3 id=&quot;lhcc&quot;&gt;LHCC&lt;/h3&gt;
+
+&lt;h4 id=&quot;software-representatives&quot;&gt;Software Representatives&lt;/h4&gt;
+
+&lt;p&gt;At the last WLCG MB Eduardo Rodrigues, who we nominated from the HSF, was appointed as the second WLCG software representative, along with Predrag Buncic from EP-SFT. 
+Congratulations to Eduardo!&lt;/p&gt;
+
+&lt;h4 id=&quot;september-lhcc&quot;&gt;September LHCC&lt;/h4&gt;
+
+&lt;p&gt;Kilian Lieret presented the status of training in HEP to the LHCC for the September meeting. See slides attached to the agenda.&lt;/p&gt;
+
+&lt;h4 id=&quot;rrb-reports&quot;&gt;RRB Reports&lt;/h4&gt;
+
+&lt;p&gt;The text for the RRB report (covering 20 March - 21 September) is due 22 September. Graeme and Predrag are organising inputs from the projects and the HSF. 
+Graeme will write the HSF report, so if you have anything you want to highlight please let him know.&lt;/p&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
+
+&lt;h4 id=&quot;website-banners&quot;&gt;Website banners&lt;/h4&gt;
+
+&lt;p&gt;Remember we have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. 
+See, e.g., files &lt;a href=&quot;https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;meetings&quot;&gt;Meetings&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Reminder:&lt;/em&gt; Please try and book meetings in Indico at least 2 weeks in advance!&lt;/p&gt;
+
+&lt;p&gt;That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.&lt;/p&gt;
+
+&lt;h3 id=&quot;software-training&quot;&gt;Software Training&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1316853/&quot;&gt;Software Basics&lt;/a&gt;, 13-14 November&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;c-course-and-hands-on-training&quot;&gt;C++ Course and Hands-on Training&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266628/&quot;&gt;Advanced C++ course&lt;/a&gt; at CERN will run in October&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;detector-simulation&quot;&gt;Detector Simulation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1321071/&quot;&gt;Next working group meeting&lt;/a&gt; scheduled 18.09.2023 - 17:30 (CERN time)
+    &lt;ul&gt;
+      &lt;li&gt;topic is discussing approaches / sharing knowledge about Geant4 client-side tuning (step-count reduction)&lt;/li&gt;
+      &lt;li&gt;2 speakers: Walter Hopkins (ATLAS), Benedikt Volkel (ALICE)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reconstruction-and-software-trigger&quot;&gt;Reconstruction and Software Trigger&lt;/h3&gt;
+
+&lt;p&gt;Yesterday’s topical meeting&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Yesterday, had topical meeting on &lt;a href=&quot;https://indico.cern.ch/event/1320368/&quot;&gt;“zero-waste computing”&lt;/a&gt; by Ana-Lucia Varbanescu (performance engineer) and Stephen Swatman (PhD student on HP computing &amp;amp; HEP applications)
+    &lt;ul&gt;
+      &lt;li&gt;Interesting, very general overview presentations with good attendance: 38 people connected.&lt;/li&gt;
+      &lt;li&gt;Recording available: uploaded to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CDS Videos&lt;/code&gt;and linked to agenda&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Future talks&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Thinking of having a follow up session on “zero-wast computing” where we invite experiments (so far have LHCb candidate) to show case projects involving algorithm performance optimisations &amp;amp; assessments.
+    &lt;ul&gt;
+      &lt;li&gt;Will nicely compliment yesterday’s overview talks.&lt;/li&gt;
+      &lt;li&gt;Date, details to be defined.&lt;/li&gt;
+      &lt;li&gt;(Let us know if know of “algorithm optimisation” projects in other experiments, that we can invite presentations on.)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Got confirmation that 2 speakers from Belle II available to give talk on timing in tracking (from (1) detector and (2) algorithm perspective).
+    &lt;ul&gt;
+      &lt;li&gt;To define exact date next, aiming for October.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyhep&quot;&gt;PyHEP&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Abstract submission deadline for PyHEP 2023 ended yesterday. We got a healthy number of submissions, now under review.&lt;/li&gt;
+  &lt;li&gt;PyHEP.dev 2024: this second iteration of these new in-person developers workshops will be hosted by RWTH Aachen University (ErUM-Data-Hub team, a “central networking and transfer office for the digital transformation in the exploration of universe and matter”).
+    &lt;ul&gt;
+      &lt;li&gt;Many thanks to them for the spontaneous proposal!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h3&gt;
+
+&lt;p&gt;Regrouping after the summer, will get more updates next meeting.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+
+&lt;p&gt;Conference organization going on at the &lt;a href=&quot;https://indico.cern.ch/e/juliahep2023&quot;&gt;Erlangen Centre for Astroparticle Physics (ECAP) in Erlangen&lt;/a&gt;. More room for local/in-person participants.&lt;/p&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yesterday, a presentation on &lt;a href=&quot;https://indico.cern.ch/event/1264300/&quot;&gt;RISC-V architecture&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Next meeting will be 11 October, with an &lt;a href=&quot;https://indico.cern.ch/event/1264301/&quot;&gt;Introduction to the D programming language&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-and-computing-roundtable&quot;&gt;Software and Computing Roundtable&lt;/h3&gt;
+
+&lt;p&gt;Plan to restart these meetings in September.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;technical-note-on-project-best-practices&quot;&gt;Technical Note on Project Best Practices&lt;/h3&gt;
+
+&lt;p&gt;We added a &lt;a href=&quot;https://github.com/HSF/documents/pull/148&quot;&gt;new section&lt;/a&gt; to the project TN on &lt;a href=&quot;https://citation-file-format.github.io&quot;&gt;CITATION.cff files&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It would be good if people took 5 minutes to &lt;a href=&quot;https://github.com/HSF/documents/blob/master/HSF-TN/2020-01/HSF-TN-2020-01.md&quot;&gt;review the advice&lt;/a&gt; there and suggest any additions before we publish the update.&lt;/p&gt;
+
+&lt;h3 id=&quot;call-for-us-panel-of-computing&quot;&gt;Call for US panel of computing&lt;/h3&gt;
+
+&lt;p&gt;See e-mail to the coordination list, excerpt:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dear colleagues,&lt;/p&gt;
+
+  &lt;p&gt;The DPF Executive Committee is following up on the request from the Snowmass Computing Frontier (CompF) to establish a Coordinating Panel for Software and Computing (CPSC). The DPF will do this by assembling a Formation Task Force (FTF) to write a report that will serve as the governance document for the CPSC.  The charge to the FTF is attached.  The charge also explains briefly how the DPF will move forward with the submission from the FTF to establish the actual CPSC.&lt;/p&gt;
+
+  &lt;p&gt;The FTF is an ad hoc body that will work for approximately three months to produce its report. The expected contents of the report, which should be no longer than 50 pages, is given in the charge.  It will require significant effort during this period to gather input from the community and produce a high-quality result. The mandate of the FTF will conclude when the DPF Executive Committee accepts its report.&lt;/p&gt;
+
+  &lt;p&gt;We are now requesting nominations for 12-15 people to serve on the FTF. People are encouraged to read the charge and to nominate colleagues, including themselves, who can carry out this challenging task.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Panel charged with writing a report on how to set up this Coordinating Panel for Software and Computing (basically: mandate, how panel gets selected, what is the distribution of people across labs/universities…). This is a sub-panel of Division of Particles and Fields (DPF).&lt;/p&gt;
+
+&lt;p&gt;This is answering a request from the Snowmass computing group (Daniel Elvira was in the list of proponents) to form something similar to the detector R&amp;amp;D panel (CPAP).&lt;/p&gt;
+
+&lt;p&gt;DOE/NSF and other government agencies look at this for advice, people on this panel set up workshops to develop Basic Research Needs (which have funding calls attached).&lt;/p&gt;
+
+&lt;p&gt;ECFA (ICFA?), APPEC, NuPECC are establishing similar panels after  &lt;a href=&quot;https://agenda.infn.it/event/34738/&quot;&gt;the Bologna JENA workshop&lt;/a&gt;, there will be a meeting end of November/beginning of December in Edinburgh to present a preliminary plan. Graeme is involved in one of these working groups.&lt;/p&gt;
+
+&lt;p&gt;It would be good to have someone accustomed / participating in HSF to be writing this document, so that things can go hand in hand - but it’s a lot of work.&lt;/p&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Benedikt started an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;h3 id=&quot;next-meeting&quot;&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;The next meeting will be on &lt;a href=&quot;https://indico.cern.ch/event/1225025/&quot;&gt;September 28&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reminder: please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing this or one of the future coordination meetings - we need volunteers from now until the end of the year!&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 14 Sep 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/09/14/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/09/14/coordination.html</guid>
+			</item>
+		
+			<item>
+				<title>HSF Coordination Meeting #255, 31 August 2023</title>
+				        
+				
+					<description>&lt;p&gt;Present/Contributing: Graeme Stewart, Eduardo Rodrigues, Pere Mato, Benedikt Hegner, Michel Jouvin, Efe Yazgan, Claire Antel, Markus Diefenthaler, Krzysztof Genser, Patrick Gartung, Elizabeth Sexton-Kennedy, Giulia Casarosa, John Chapman, Nick Smith, Sandro Wenzel, Uwe Acosta, Valentin Volkl&lt;/p&gt;
+
+&lt;h2 id=&quot;news-general-matters-announcements&quot;&gt;News, general matters, announcements&lt;/h2&gt;
+
+&lt;h3 id=&quot;google-summer-of-code-2023&quot;&gt;Google Summer of Code, 2023&lt;/h3&gt;
+
+&lt;p&gt;First round of student reports &lt;a href=&quot;https://indico.cern.ch/event/1318436/&quot;&gt;today 16h CEST&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;lhcc&quot;&gt;LHCC&lt;/h3&gt;
+
+&lt;h4 id=&quot;september-lhcc&quot;&gt;September LHCC&lt;/h4&gt;
+
+&lt;p&gt;Kilian Lieret agreed to present the status of training in HEP to the LHCC for the September meeting.&lt;/p&gt;
+
+&lt;p&gt;Draft slides are &lt;a href=&quot;https://docs.google.com/presentation/d/1v6am9c_JV43Qy3EeZ6ABtUtOT2AGxvo07zSqIyBKphA/edit?usp=sharing&quot;&gt;here&lt;/a&gt;. Comments by Monday 4 September please!&lt;/p&gt;
+
+&lt;h4 id=&quot;november-lhcc&quot;&gt;November LHCC&lt;/h4&gt;
+
+&lt;p&gt;Parameters for the generators focus topic for the LHCC in November workshop are being finalised - should be available in the next few days. This will follow-up on issues identified as part of the HL-LHC review process (negative weights, computational performance, etc.) and will include input from the experiments about their needs.&lt;/p&gt;
+
+&lt;p&gt;Discussions at the &lt;a href=&quot;https://indico.cern.ch/event/1312061/&quot;&gt;Event generators’ and N(n)LO codes’ acceleration&lt;/a&gt; workshop (13-14 November) will be important preparation!&lt;/p&gt;
+
+&lt;h4 id=&quot;rrb-reports&quot;&gt;RRB Reports&lt;/h4&gt;
+
+&lt;p&gt;The text for the RRB report (covering 20 March - 21 September) is due 22 September. Graeme and Predrag are organising inputs from the projects and the HSF. Graeme will write the HSF report, so if you have anything you want to highlight please let him know.&lt;/p&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h3 id=&quot;data-analysis&quot;&gt;Data Analysis&lt;/h3&gt;
+
+&lt;p&gt;Rest of the year plans:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Publish Training whitepaper&lt;/li&gt;
+  &lt;li&gt;Start HS3 (HEP Statistics Serialization Standard) meeting series
+    &lt;ul&gt;
+      &lt;li&gt;Possibly dedicated meeting on template smoothing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open data follow-up meeting, probably January&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-training&quot;&gt;Software Training&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1316853/&quot;&gt;Software Basics&lt;/a&gt;, 13-14 November&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;c-course-and-hands-on-training&quot;&gt;C++ Course and Hands-on Training&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266661/&quot;&gt;Training in Manchester&lt;/a&gt; is running this week!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266628/&quot;&gt;Advanced C++ course&lt;/a&gt; at CERN will run in October&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-tools-and-packaging&quot;&gt;Software Tools and Packaging&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Presentation next Tuesday 5 Sept 2023 17:00 CERN time
+Tom Eichlersmith from the University of Minnesota will present us his “denv” tool wrapping different container interfaces: &lt;a href=&quot;https://github.com/tomeichlersmith/denv&quot;&gt;https://github.com/tomeichlersmith/denv&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;detector-simulation&quot;&gt;Detector Simulation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1321071/&quot;&gt;Next working group meeting&lt;/a&gt; scheduled 18.09.2023 - 17:30 (CERN time)
+    &lt;ul&gt;
+      &lt;li&gt;Topic is discussing approaches / sharing knowledge about Geant4 client-side tuning (step-count reduction)&lt;/li&gt;
+      &lt;li&gt;2 speakers: Walter Hopkins (ATLAS), Benedikt Volkel (ALICE)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reconstruction-and-software-trigger&quot;&gt;Reconstruction and Software Trigger&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Topical Meeting on &lt;em&gt;sustainability&lt;/em&gt; confirmed for Sept 13th 2-3 pm CEST with a presentation by Ana Lucia Varbanescu
+    &lt;ul&gt;
+      &lt;li&gt;Topics: zero waste computing,  how we can improve the efficiency in the design and implementation of large-scale reconstruction &amp;amp; trigger software for current and future HEP experiments?&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1320368/&quot;&gt;Indico&lt;/a&gt; is setup, will soon send e-mail to invite people, after we have converged on the title of the talk&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyhep&quot;&gt;PyHEP&lt;/h3&gt;
+
+&lt;p&gt;PyHEP2023 workshop in October. Will send a reminder about abstracts as the number is currently low. Aware of many topics, including follow-ups from the PyHEP.dev meeting.&lt;/p&gt;
+
+&lt;p&gt;German institute has offered to host PyHEP.dev 2024 next year.&lt;/p&gt;
+
+&lt;p&gt;Will think about topical meetings for after the workshop.&lt;/p&gt;
+
+&lt;h3 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h3&gt;
+
+&lt;p&gt;Would still like to have a presentation on HPX in September, but exact date not yet fixed.&lt;/p&gt;
+
+&lt;h3 id=&quot;physics-generators&quot;&gt;Physics Generators&lt;/h3&gt;
+
+&lt;p&gt;Next steps:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The tuning workshop has been successful. We could recap the workshop in our next meeting and discuss follow up next steps.&lt;/li&gt;
+  &lt;li&gt;Standards for shared elements has a lot of potential. We should have a meeting on that but could also consider a mini workshop (an afternoon at CERN, a morning in the US).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;May be a bit longer term:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On other follow up points on LHCC and Snowmass/P5&lt;/li&gt;
+  &lt;li&gt;Follow up of the 2018 event generators workshop at the end of the year or early next year.
+    &lt;ul&gt;
+      &lt;li&gt;Discussion: For the &lt;a href=&quot;https://indico.cern.ch/event/1312061/&quot;&gt;LPCC NNLO Workshop&lt;/a&gt;, Phil is an organiser. After that meeting and the LHCC there may be good points to follow up on at a future HSF Generators workshop.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;No news since the summer break.&lt;/li&gt;
+  &lt;li&gt;Workshop 6-9 November
+    &lt;ul&gt;
+      &lt;li&gt;61 registrations (~13 local participation)&lt;/li&gt;
+      &lt;li&gt;Need to have a new round of advertisements encouraging beginners to register.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;CSBS paper has been accepted for publication&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Next meeting will be 13 September with a presentation on &lt;a href=&quot;https://indico.cern.ch/event/1264300/&quot;&gt;RISC-V architecture&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-and-computing-roundtable&quot;&gt;Software and Computing Roundtable&lt;/h3&gt;
+
+&lt;p&gt;Plan to restart these meetings in September.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;technical-note-on-project-best-practices&quot;&gt;Technical Note on Project Best Practices&lt;/h3&gt;
+
+&lt;p&gt;We added a &lt;a href=&quot;https://github.com/HSF/documents/pull/148&quot;&gt;new section&lt;/a&gt; to the project TN on &lt;a href=&quot;https://citation-file-format.github.io&quot;&gt;CITATION.cff files&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It would be good if people took 5 minutes to &lt;a href=&quot;https://github.com/HSF/documents/blob/master/HSF-TN/2020-01/HSF-TN-2020-01.md&quot;&gt;review the advice&lt;/a&gt; there and suggest any additions before we publish the update.&lt;/p&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Benedikt started an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;h3 id=&quot;next-meeting&quot;&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;The next meeting will be on &lt;a href=&quot;https://indico.cern.ch/event/1225024/&quot;&gt;September 14&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reminder: please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing this or one of the future coordination meetings - we need volunteers from now until the end of the year!&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 31 Aug 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/08/31/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/08/31/coordination.html</guid>
+			</item>
+		
+			<item>
+				<title>HSF Coordination Meeting #254, 20 July 2023</title>
+				        
+				
+					<description>&lt;h2 id=&quot;attending&quot;&gt;Attending&lt;/h2&gt;
+
+&lt;p&gt;Present/Contributing: Graeme Stewart, Benedikt Hegner, Caterina Doglioni, Nicole Skidmore, Patrick Gartung, Torre Wenaus, Liz Sexton-Kennedy, Tamas Gal, Nick Smith, Eduardo Rodrigues, Claire Antel, Samuel Skipsey, Wouter Deconinck, Krzysztof Genser, John Chapman, Sudhir Malik, Daniel Elvira&lt;/p&gt;
+
+&lt;p&gt;Apologies/Contributing: Stefan Roiser, Efe Yazgan&lt;/p&gt;
+
+&lt;h2 id=&quot;news-general-matters-announcements&quot;&gt;News, general matters, announcements&lt;/h2&gt;
+
+&lt;h3 id=&quot;google-summer-of-code-2023&quot;&gt;Google Summer of Code, 2023&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Mid-term evaluations starting, going well so far in terms of responses (only two reminders needed).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Representative for the mentors summit on behalf of the HSF organizers was decided, and it will be Valentin Volkl.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The time and date for the summary session where students present their project will have to be decided after the summer break, we will have it before most students end their project.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lhcc&quot;&gt;LHCC&lt;/h3&gt;
+
+&lt;h4 id=&quot;software-liaisons&quot;&gt;Software Liaisons&lt;/h4&gt;
+
+&lt;p&gt;WLCG has decided to change the setup for its software liaisons, who will now be &lt;em&gt;WLCG Software Representatives&lt;/em&gt;. Some of the most central projects are largely driven through EP-SFT at CERN (ROOT, Geant4, CVMFS) and so the natural representaive there is the chair of the &lt;em&gt;Architects’ Forum&lt;/em&gt; group in SFT, &lt;em&gt;ex officio&lt;/em&gt; (currently Predrag Buncic).&lt;/p&gt;
+
+&lt;p&gt;There are many other important common software projects (e.g., generators, native Python ecosystem) that should also have a voice and representation and so the Management Board will consider nominations for a second software representative with good links to those projects. The HSF can propose a name for this role - &lt;em&gt;volunteers would be excellent&lt;/em&gt;. This should be by 15 August(?) - Graeme will follow-up with Simone. &lt;em&gt;It would be strongly favoured to have a non-CERN person take this second position.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Practically, Liz moves to CMS Offline Computing Coordinator role for the September LHCC and Predrag will join as Architect Forum Chair then. For the second representative, Graeme will stay on until a new person is appointed, so will also cover the September LHCC.&lt;/p&gt;
+
+&lt;h4 id=&quot;september-lhcc&quot;&gt;September LHCC&lt;/h4&gt;
+
+&lt;p&gt;Liz and Graeme are discussing with training colleagues to find a presenter for the discussion on training (to take place in the normal 20’ software slot).&lt;/p&gt;
+
+&lt;h3 id=&quot;everse&quot;&gt;EVERSE&lt;/h3&gt;
+
+&lt;p&gt;The EU has funded the EVERSE project, ~8M€ over 3 years.&lt;/p&gt;
+
+&lt;p&gt;“The EVERSE project aims to create a framework for research software and code excellence, collaboratively designed and championed by the research communities across five EOSC Science Clusters and national Research Software Expertise Centres, in pursuit of building a European network of Research Software Quality and setting the foundations of a future Virtual Institute for Research Software Excellence.”&lt;/p&gt;
+
+&lt;p&gt;Strong HSF involvement, with Graeme, Caterina and Stefan all taking part.&lt;/p&gt;
+
+&lt;p&gt;N.B. The &lt;a href=&quot;https://science-clusters.eu&quot;&gt;5 science clusters&lt;/a&gt; are ESCAPE (NHEP, astronomy and astroparticle), ENVRI (envronmental science), Life Science RI, PANOSC (photon and neutron), SSHOC (social science).&lt;/p&gt;
+
+&lt;p&gt;Project will cover code quality for application code and for workflow and distributed computing software. Other communities also using a mixture of Python (“user facing”) and C++ (“performance”) (with interest in Julia?).&lt;/p&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h3 id=&quot;data-analysis&quot;&gt;Data Analysis&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.overleaf.com/5191486352xprmvcmppckg&quot;&gt;Training and Onboarding initiatives in High Energy Physics experiments&lt;/a&gt; paper in first circulation  until 7th August&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1303066/&quot;&gt;Monday’s training meeting&lt;/a&gt; will have a slot to discuss the paper outcomes and direction&lt;/li&gt;
+  &lt;li&gt;Early discussion on hosting &lt;a href=&quot;https://github.com/hep-statistics-serialization-standard/hep-statistics-serialization-standard&quot;&gt;HS3&lt;/a&gt; (HEP Statistics Serialization Standard) development, though LPCC may be a better home. Perhaps both?
+    &lt;ul&gt;
+      &lt;li&gt;How much would the LPCC do in practice? Needs 2-3 people to push this through, so if these people are in HSF maybe that is the better home.&lt;/li&gt;
+      &lt;li&gt;Important to consider players beyond the LHC, e.g. Belle II and BES III.&lt;/li&gt;
+      &lt;li&gt;There was some belief in CMS that LPCC might be able to draw in more effort, but it’s not completely if that’s true.&lt;/li&gt;
+      &lt;li&gt;For now, focus on hosting &lt;em&gt;discussion&lt;/em&gt;. How the project evolves can be discussed later perhaps&lt;/li&gt;
+      &lt;li&gt;Those belonging to an experiment in the coordination group can help by sending names of members of the statistics committees (after the summer break).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-training&quot;&gt;Software Training&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1300865/&quot;&gt;HSF/IRIS-HEP Python for Analysis Training (Virtual)&lt;/a&gt; on Wednesday July 12
+    &lt;ul&gt;
+      &lt;li&gt;Well attended: ~65 participants, fairly constant over the day&lt;/li&gt;
+      &lt;li&gt;Successfully used GitHub Codespaces to avoid variety of platforms (feedback welcome)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1295954/&quot;&gt;HSF/IRIS-HEP/Carpentries Software Basics Training (Virtual)&lt;/a&gt; on Thursday-Friday July 13-14
+    &lt;ul&gt;
+      &lt;li&gt;Reasonable attendance: ~35 down to ~15 over the two days&lt;/li&gt;
+      &lt;li&gt;Successfully used new Carpentries materials:
+        &lt;ul&gt;
+          &lt;li&gt;New training format based on R-markdown&lt;/li&gt;
+          &lt;li&gt;New Python basics training based on &lt;a href=&quot;https://gapminder.org&quot;&gt;Gapminder&lt;/a&gt; dataset&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Next up and under development: MCEG training &lt;a href=&quot;https://hsf-training.github.io/hsf-training-generators-webpage/&quot;&gt;outline&lt;/a&gt; (basic concepts, MadGraph, Pythia8); next software basics in September/October&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;c-course-and-hands-on-training&quot;&gt;C++ Course and Hands-on Training&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266661/&quot;&gt;Training in Manchester&lt;/a&gt; is finalised, registration is open
+    &lt;ul&gt;
+      &lt;li&gt;More online registrants than in-person –&amp;gt; consider a hybrid course for hands-on as well? It’s historically been difficult to engage remotely if course was hybrid.&lt;/li&gt;
+      &lt;li&gt;Idea for the upcoming course: pair up learners to do some common tasks and bounce tasks off each other.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266628/&quot;&gt;Advanced C++ course&lt;/a&gt; at CERN will run in October&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-tools-and-packaging&quot;&gt;Software Tools and Packaging&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Presentation “Spack in Key4hep” by Juan Miguel Carceller at July 11 meeting. Discussions after presentation were lively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;detector-simulation&quot;&gt;Detector Simulation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Planning to have a session on “Geant4 cut/process/threshold tuning” tentatively on September 11th or 18th.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reconstruction-and-software-trigger&quot;&gt;Reconstruction and Software Trigger&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Planning talk on “zero waste computing” in Sept (date to be confirmed)&lt;/li&gt;
+  &lt;li&gt;Following up with possible talk on timing in tracking in Belle II in October (coincides with Connecting the Dots)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyhep&quot;&gt;PyHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyHEP.dev 2023 developers (in-person) workshop starting next Monday!
+    &lt;ul&gt;
+      &lt;li&gt;See &lt;a href=&quot;https://indico.cern.ch/e/PyHEP2023.dev&quot;&gt;https://indico.cern.ch/e/PyHEP2023.dev&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PyHEP 2023 users (online) workshop (Oct. 9-12) got announced about a week ago.
+    &lt;ul&gt;
+      &lt;li&gt;Registration and abstract submission open!&lt;/li&gt;
+      &lt;li&gt;See &lt;a href=&quot;https://indico.cern.ch/e/PyHEP2023&quot;&gt;https://indico.cern.ch/e/PyHEP2023&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Will organize a presentation in September about HPX experience in ATLAS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nothing to report for the time being.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If there is any interest from the community in studying energy consumption of Julia (looks really promising from initial studies, see &lt;a href=&quot;https://indico.cern.ch/event/1307021/contributions/5497627/attachments/2692888/4673320/Week%206%20-%20Final%20Presentation.pdf&quot;&gt;link to A. Gupta’s University of Manchester final internship talk&lt;/a&gt;), get in touch with Caterina and Graeme for code and instructions.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Meeting last week on ALICE’s new O2 Facility, well attended and useful discussions. Unfortunately, it wasn’t recorded!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Next meeting will be 13 September with a presentation on &lt;a href=&quot;https://indico.cern.ch/event/1264300/&quot;&gt;RISC-V architecture&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-and-computing-roundtable&quot;&gt;Software and Computing Roundtable&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reboot ongoing, restarting in the Fall. Want to re-discuss HSF input.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Benedikt started an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;h3 id=&quot;next-meeting&quot;&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;We now take our summer break, with the next meeting scheduled for &lt;a href=&quot;https://indico.cern.ch/event/1225023/&quot;&gt;August 31st&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reminder: please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing this or one of the future coordination meetings.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 20 Jul 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/07/20/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/07/20/coordination.html</guid>
+			</item>
+		
+			<item>
+				<title>HSF Coordination Meeting #253, 6 July 2023</title>
+				        
+				
+					<description>&lt;h2 id=&quot;attending&quot;&gt;Attending&lt;/h2&gt;
+
+&lt;p&gt;Present/Contributing: Graeme Stewart, Benedikt Hegner, Eduardo Rodrigues, Claire Antel, Patrick Gartung, Michel Jouvin, Pere Mato, Liz Sexton-Kennedy, Nick Smith, Patick Gartung, Sudhir Malik, Tamas Gal, Valentin Volkl, Markus Diefenthaler, Matthew Feickert, Wouter Deconinck, Giulia Casarosa&lt;/p&gt;
+
+&lt;p&gt;Apologies/Contributing: Caterina Doglioni, Efe Yazgan&lt;/p&gt;
+
+&lt;h2 id=&quot;news-general-matters-announcements&quot;&gt;News, general matters, announcements&lt;/h2&gt;
+
+&lt;h3 id=&quot;google-summer-of-code-2023&quot;&gt;Google Summer of Code, 2023&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Representative for the mentors summit to be decided.
+    &lt;ul&gt;
+      &lt;li&gt;It shouldn’t just be one of the coordinators, should be someone more involved in mentoring.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lhcc&quot;&gt;LHCC&lt;/h3&gt;
+
+&lt;h4 id=&quot;lhcc-154-june&quot;&gt;LHCC 154 (June)&lt;/h4&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://cds.cern.ch/record/2861565?ln=en&quot;&gt;LHCC Minutes&lt;/a&gt; are now published. On analysis facilities:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A focus session on Analysis Facilities has been organised during the LHCC week, where the current R&amp;amp;D work happening within the community and discussed in the HSF Analysis Facilities Forum has been presented. The HSF Analysis Facilities Forum has focused on the technical building blocks that can make the user experience more productive. Novel concepts of Analysis Facilities, integrating interactivity, scalability (offload) and Machine Learning tools are being built.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;strong&gt;LHCC recommends&lt;/strong&gt; that experiments engage in the process of developing and defining the structure of the future Analysis Facilities and &lt;strong&gt;requests&lt;/strong&gt; they produce a document which defines the use cases in order to establish realistic benchmarks. This process should be coordinated with the HL-LHC Computing and SW review panel. The document is expected to be regularly updated in the process towards the HL-LHC.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;lhcc-155-september-and-156-november&quot;&gt;LHCC 155 (September) and 156 (November)&lt;/h4&gt;
+
+&lt;p&gt;The next LHCC meeting (155, September) foresees a discussion on training, in the normal 20’ software slot. Liz and Graeme need to propose a speaker.&lt;/p&gt;
+
+&lt;p&gt;For LHCC meeting 156 (November), there will be a special session (~90’) on generators.&lt;/p&gt;
+
+&lt;h4 id=&quot;software-liaisons&quot;&gt;Software Liaisons&lt;/h4&gt;
+
+&lt;p&gt;There will be some change in the software liaison roles in WLCG. This will be presented in more detail next meeting.&lt;/p&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h3 id=&quot;data-analysis&quot;&gt;Data Analysis&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Meeting on Monday on &lt;a href=&quot;https://indico.cern.ch/event/1298400/&quot;&gt;Open Data&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Well attended (max 27) despite clashes with events and holidays&lt;/li&gt;
+      &lt;li&gt;Talks from ATLAS, CMS, LHCb&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Want to follow up on these topics in ~6-12 months.&lt;/li&gt;
+  &lt;li&gt;This meeting connected really well with younger people actually doing analysis today.&lt;/li&gt;
+  &lt;li&gt;Video is posted to &lt;a href=&quot;http://videos.cern.ch&quot;&gt;http://videos.cern.ch&lt;/a&gt; (and linked to Indico)
+    &lt;ul&gt;
+      &lt;li&gt;N.B. this is much preferred by CERN IT than posting large video files to Indico&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-training&quot;&gt;Software Training&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;13 Jul - 14 Jul HSF/IRIS-HEP Software Basics Training (Virtual)&lt;/li&gt;
+  &lt;li&gt;12 Jul HSF/IRIS-HEP Python for Analysis Training (Virtual)&lt;/li&gt;
+  &lt;li&gt;Have had up to 200 registrants, but so for always managed to have enough mentors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;c-course-and-hands-on-training&quot;&gt;C++ Course and Hands-on Training&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266661/&quot;&gt;Training in Manchester&lt;/a&gt; is finalised, registration is open&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266628/&quot;&gt;Advanced C++ course&lt;/a&gt; at CERN will run in October&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-tools-and-packaging&quot;&gt;Software Tools and Packaging&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adam Stewart (Spack developer) will come to CERN in fall (September? not yet fixed) and will make a presentation and be available for discussions at CERN
+    &lt;ul&gt;
+      &lt;li&gt;This will kick off a series of discussions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Also invited the EasyBuild project to give us an update&lt;/li&gt;
+  &lt;li&gt;There is a look again at stack building tools in the Architects’ Forum.
+    &lt;ul&gt;
+      &lt;li&gt;Marco Clemencic and Graeme Stewart are leading this, which focuses on why we do not converge on a single tool in the community and what the prospects for that are, particularly w.r.t. Spack.&lt;/li&gt;
+      &lt;li&gt;Will discuss with SFT, LHC expts., Fermilab and FAIR (anyone else? please let us know)&lt;/li&gt;
+      &lt;li&gt;Hope to conclude by autumn&lt;/li&gt;
+      &lt;li&gt;And we will report and discuss in the HSF Packaging WG meeting&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reconstruction-and-software-trigger&quot;&gt;Reconstruction and Software Trigger&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In touch with LHCP speaker on “zero waste computing” - speaker available in September&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyhep&quot;&gt;PyHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyHEP.dev 2023 (in-person developers workshop):
+    &lt;ul&gt;
+      &lt;li&gt;In just 2 weeks from now, see &lt;a href=&quot;https://indico.cern.ch/e/PyHEP2023.dev&quot;&gt;https://indico.cern.ch/e/PyHEP2023.dev&lt;/a&gt; for details.&lt;/li&gt;
+      &lt;li&gt;Programme (discussions, presentations) under active preparation, with topics being listed and people even added already via  the repository &lt;a href=&quot;https://github.com/HSF/PyHEP.dev-workshops&quot;&gt;https://github.com/HSF/PyHEP.dev-workshops&lt;/a&gt;, which we created for this and future similar workshops.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PyHEP 2023 (online users workshop):
+    &lt;ul&gt;
+      &lt;li&gt;Preparations started.&lt;/li&gt;
+      &lt;li&gt;Open registration and call for abstracts really soon.&lt;/li&gt;
+      &lt;li&gt;See &lt;a href=&quot;https://indico.cern.ch/e/PyHEP2023&quot;&gt;https://indico.cern.ch/e/PyHEP2023&lt;/a&gt; for details.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;event-generators&quot;&gt;Event Generators&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Held online workshop on &lt;a href=&quot;https://indico.cern.ch/event/1283969/&quot;&gt;HSF Event Generator Tuning&lt;/a&gt; on June 27 and 28:
+    &lt;ul&gt;
+      &lt;li&gt;On the first day, we started with an overview of tuning MCEGs presented by Peter Skands (Monash University). Following this, representatives from various experimental collaborations, ALICE, ATLAS, CMS, ePIC, LHCb, and neutrino experiments, shared their tuning experience. The session ended with a hands-on session, delving into how different parameters influence observable distributions in Pythia.&lt;/li&gt;
+      &lt;li&gt;The second day featured an insightful overview of semi-automated tuning by Andy Buckley (University of Glasgow). This was followed by a community discussion, fostering knowledge exchange and collaboration. At the end of the workshop, we engaged in a hands-on tuning tutorial using RIVET and Professor.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Restart monthly meetings, survey planned for topics of interest.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;discussion&quot;&gt;Discussion&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Was the meeting recorded?
+    &lt;ul&gt;
+      &lt;li&gt;The first day, yes; the second not, due to technical problems.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;There is a meeting planned on the use of GPUs in event generators. This will happen at CERN in the autumn (November?), dates not fixed yet. Stefan Roiser and Andrea Valassi are involved in the planning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Will have a presentation on the experience of HPX by ATLAS soon.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Preparation of the JuliaHEP workshop ongoing.
+    &lt;ul&gt;
+      &lt;li&gt;So far we have 36 participants, ~7 of them in person.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Decided to start the JuliaHEP community meetings after the workshop.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;p&gt;Next meeting, Wednesday 12 July: &lt;a href=&quot;https://indico.cern.ch/event/1264298/&quot;&gt;ALICE O2&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;community-calendar&quot;&gt;Community Calendar&lt;/h3&gt;
+
+&lt;p&gt;Should we open the calendar to events from other communities? e.g., Einstein Telescope.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yes, we think this is fine for relevant events.&lt;/li&gt;
+  &lt;li&gt;Try to find someone in the organisation who would be responsible for posting items (see &lt;a href=&quot;https://hepsoftwarefoundation.org/calendar.html&quot;&gt;instructions&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Benedikt started an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;h3 id=&quot;hsf-twitter&quot;&gt;HSF Twitter&lt;/h3&gt;
+
+&lt;p&gt;Because of recent changes to Twitter (&lt;em&gt;explicative deleted&lt;/em&gt;), our twitter feed on the website isn’t working.&lt;/p&gt;
+
+&lt;p&gt;Should we be considering other social media platforms?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There are now so many alternatives popping up it’s very hard to say where the next space will actually be - we may just need to pause our social media presence until it’s all much clearer. (And we can see, e.g., where CERN, Fermilab media teams go.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;next-meeting&quot;&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;The next meeting will be, on &lt;a href=&quot;https://indico.cern.ch/event/1225019/&quot;&gt;20 July&lt;/a&gt; (back to 32/S-C22 at CERN).&lt;/p&gt;
+
+&lt;p&gt;Propose then to take a break until 31 August.&lt;/p&gt;
+
+&lt;p&gt;Please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing this or one of the future coordination meetings.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 06 Jul 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/07/06/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/07/06/coordination.html</guid>
+			</item>
+		
+			<item>
+				<title>HSF Coordination Meeting #252, 22 June 2023</title>
+				        
+				
+					<description>&lt;h2 id=&quot;attending&quot;&gt;Attending&lt;/h2&gt;
+
+&lt;p&gt;Present/Contributing: Graeme Stewart, Eduardo Rodrigues, Benedikt Hegner, Michel Jouvin, Nick Smith, Claire Antel, Nicole Skidmore, Stefan Roiser, Tamas Gal, Juraj Smiesko&lt;/p&gt;
+
+&lt;h2 id=&quot;news-general-matters-announcements&quot;&gt;News, general matters, announcements&lt;/h2&gt;
+
+&lt;h3 id=&quot;jena-computing-meeting&quot;&gt;JENA Computing Meeting&lt;/h3&gt;
+
+&lt;p&gt;JENA Computing Meeting &lt;a href=&quot;https://agenda.infn.it/event/34738/timetable/&quot;&gt;took place last week&lt;/a&gt; in Bologna. About 70 people attended, from High-Energy Physics, Astroparticle and Nuclear Physics. The meeting had a European focus, with worldwide implications; the OSG was represented (Frank Wuerthwein). Nuclear physics community was European: FAIR, GANIL. Astroparticle was CTA, Rubin, Einstein. We are in contact with SKA, as they will be a big player.&lt;/p&gt;
+
+&lt;p&gt;Motivation: at the Joint ECFA-NuPECC-APPEC (JENA) Seminar in &lt;a href=&quot;https://indico.cern.ch/event/1040535/&quot;&gt;May 2022 in Madrid&lt;/a&gt;, both the plenary presentations and the closed session of funding agency representatives revealed that there is an increased need for discussions on the strategy and implementation of European federated computing at future large-scale research facilities.&lt;/p&gt;
+
+&lt;p&gt;Goals: identify the computing requirements in the next decade and identify synergies that can benefit all the three communities (HEP, Nuclear Physics and Astrophysics).&lt;/p&gt;
+
+&lt;p&gt;Conclusions: we identified 5 areas that will be followed up on in working groups, with the aim of each topic providing a chapter that will form a JENA Whitepaper, in advance of the next symposium (Spring 2025) and before the next European Strategy Update.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HPC centres and the integration of HPC resources with our computing infrastructures (Simone Campana and Gonzalo Merino lead)&lt;/li&gt;
+  &lt;li&gt;Software and Heterogeneous Architectures (Graeme Stewart will lead)&lt;/li&gt;
+  &lt;li&gt;Federate Data Management, Virtual Research Environments and FAIR/Open Data (ESCAPE project will lead)&lt;/li&gt;
+  &lt;li&gt;Machine Learning and Artificial Intelligence (TBD, but concentrating on resource and service implications)&lt;/li&gt;
+  &lt;li&gt;Training, Dissemination, Education&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are interested in joining one of these WGs, please email Graeme, Simone and Gonzalo.&lt;/p&gt;
+
+&lt;h3 id=&quot;google-summer-of-code-2023&quot;&gt;Google Summer of Code, 2023&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Representative for the mentors summit to be decided.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
+
+&lt;h4 id=&quot;website-banners&quot;&gt;Website banners&lt;/h4&gt;
+
+&lt;p&gt;Remember we have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files &lt;a href=&quot;https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;data-analysis&quot;&gt;Data Analysis&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Will have meeting dedicated to Open Data on 3rd July with contributions for 4 LHC experiments
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1298400/&quot;&gt;https://indico.cern.ch/event/1298400/&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Mail sent to Google HSF Data Analysis group
+        &lt;ul&gt;
+          &lt;li&gt;Can it also be advertised in the general HSF mail please :)&lt;/li&gt;
+          &lt;li&gt;Yes, just post it!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-training&quot;&gt;Software Training&lt;/h3&gt;
+
+&lt;h4 id=&quot;c-course-and-hands-on-training&quot;&gt;C++ Course and Hands-on Training&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266661/&quot;&gt;Training in Manchester&lt;/a&gt; is finalised, registration is open&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://indico.cern.ch/event/1266628/&quot;&gt;Advanced C++ course&lt;/a&gt; at CERN will run in October&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reconstruction-and-software-trigger&quot;&gt;Reconstruction and Software Trigger&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Nothing concrete yet but were considering inviting  speaker who gave &lt;a href=&quot;https://indico.cern.ch/event/1198609/contributions/5366525/attachments/2654042/4595921/ALVarbanescu_ZeroWaste_May23_toPublish.pdf&quot;&gt;nice talk&lt;/a&gt; on “zero-waste computing” at LHCP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyhep&quot;&gt;PyHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PyHEP.dev 2023 (in person developers workshop):
+    &lt;ul&gt;
+      &lt;li&gt;In about 1 month.&lt;/li&gt;
+      &lt;li&gt;Programme (discussions, presentations) under preparation.&lt;/li&gt;
+      &lt;li&gt;We got a grant from the PSF - thank you!&lt;/li&gt;
+      &lt;li&gt;See &lt;a href=&quot;https://indico.cern.ch/e/PyHEP2023.dev&quot;&gt;https://indico.cern.ch/e/PyHEP2023.dev&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PyHEP 2023 (online users workshop):
+    &lt;ul&gt;
+      &lt;li&gt;Preparations started.&lt;/li&gt;
+      &lt;li&gt;Draft plan to open registration and call for abstracts by the end of the month.&lt;/li&gt;
+      &lt;li&gt;See &lt;a href=&quot;https://indico.cern.ch/e/PyHEP2023&quot;&gt;https://indico.cern.ch/e/PyHEP2023&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;event-generators&quot;&gt;Event Generators&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tuning workshop next week: &lt;a href=&quot;https://indico.cern.ch/event/1283969/&quot;&gt;https://indico.cern.ch/event/1283969/&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Already 59 people signed up&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Planning for a workshop on the use of GPU accelerators for event generation (autumn this year)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Meeting on usage of Alpaka with the CMSSW framework, 28 June 16h &lt;a href=&quot;https://indico.cern.ch/event/1281987/&quot;&gt;https://indico.cern.ch/event/1281987/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The JuliaHEP workshop announcement was made:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;The first ever Julia HEP Workshop is now open for
+registrations and we are eagerly awaiting your 
+abstracts for talks and tutorials.
+
+It will be a four day long hybrid event from 6-9th 
+November 2023 hosted at the Erlangen Centre for 
+Astroparticle Physics (ECAP) in Erlangen, Germany. The 
+workshop is intended for everyone working in high-
+energy physics or related fields. 
+
+For registration and abstract submission, please visit 
+https://indico.cern.ch/e/juliahep2023 There is no 
+registration fee for online participants.
+
+Important deadlines:
+
+    - 25th September: Submission deadline for contributions
+    - 8th October: Registration deadline for local participation
+    - 6th November: Registration deadline for online participation
+
+More information about the JuliaHEP Organisation: 
+https://hepsoftwarefoundation.org/workinggroups/juliahep.html
+
+More details on the program including invited talks 
+will follow soon after the submission deadline (25th 
+September).
+
+Feel free to forward this announcement to people who 
+might be interested.
+
+Looking forward to your participation!
+
+The JuliaHEP working group conveners (hsf-juliahep-organisation@googlegroups.com)
+Alexander Moreno (Universidad Antonio Nariño, Ibagué, Colombia)
+Tamas Gal (ECAP, University of Erlangen-Nuremberg)
+Pere Mato (CERN, Switzerland)
+Uwe Hernandez Acosta (Center for Advanced Systems Understanding, Görlitz, Germany)
+
+Local organisation team
+Jutta Schnabel (ECAP, University of Erlangen-Nuremberg)
+Tamas Gal (ECAP, University of Erlangen-Nuremberg)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Last meeting, Wednesday 14 June: &lt;a href=&quot;https://indico.cern.ch/event/1264297/&quot;&gt;HEP CCE Report&lt;/a&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;Video is now posted and linked to Indico&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Next meeting, Wednesday 12 July: &lt;a href=&quot;https://indico.cern.ch/event/1264298/&quot;&gt;ALICE O2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;analysis-facilities-forum&quot;&gt;Analysis Facilities Forum&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pushing on with the white paper, absorbing all the comments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Benedikt started an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;h3 id=&quot;next-meeting&quot;&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;The next meeting will be, on &lt;a href=&quot;https://indico.cern.ch/event/1225019/&quot;&gt;6 July&lt;/a&gt;. N.B. At CERN we will meet in &lt;strong&gt;40/R-B10&lt;/strong&gt; for that meeting.&lt;/p&gt;
+
+&lt;p&gt;Please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing this or one of the future coordination meetings.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 22 Jun 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/06/22/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/06/22/coordination.html</guid>
+			</item>
+		
+			<item>
+				<title>HSF Coordination Meeting #251, 8 June 2023</title>
+				        
+				
+					<description>&lt;h2 id=&quot;attending&quot;&gt;Attending&lt;/h2&gt;
+
+&lt;p&gt;Present/Contributing: Graeme Stewart, Kyle Knoepfel, Benedikt Hegner, Pere Mato, Alex Held, Mason Proffitt, Nicole Skidmore, Claire Antel, Patrick Gartung, Uwe Hernandez, Vangelis Kourlitis, Krzysztof Genser, Nick Smith, Michel Jouvin, Wouter Deconick, Stefan Roiser&lt;/p&gt;
+
+&lt;p&gt;Apologies/Contributing: Eduardo Rodrigues, Efe Yazgan&lt;/p&gt;
+
+&lt;h2 id=&quot;news-general-matters-announcements&quot;&gt;News, general matters, announcements&lt;/h2&gt;
+
+&lt;h3 id=&quot;lhcp-presentation&quot;&gt;LHCP Presentation&lt;/h3&gt;
+
+&lt;p&gt;Vangelis Kourlitis presented a &lt;a href=&quot;https://indico.cern.ch/event/1198609/contributions/5370078/&quot;&gt;talk&lt;/a&gt; on &lt;em&gt;HL-LHC and Beyond Computing Challenges&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Questions raised regarding:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ATLAS - Google Cloud Platform project and future&lt;/li&gt;
+  &lt;li&gt;Common fast-simulation software à la ACTS&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CO2 emissions of our disks usage&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Discussion:&lt;/em&gt; disk energy consumption is much less than CPU. See &lt;a href=&quot;https://indico.jlab.org/event/459/contributions/11499/attachments/9236/14205/WLCGEnergyNeedsCHEP2023.pdf&quot;&gt;A holistic study of the WLCG energy needs for the LHC scientific program&lt;/a&gt; talk at CHEP2023 (slide 9).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lhcc&quot;&gt;LHCC&lt;/h3&gt;
+
+&lt;p&gt;Alessandra Forti, one of the Analysis Facilities Forum co-conveners, presented the status of Analysis Facilities in the community (&lt;a href=&quot;https://indico.cern.ch/event/1225017/attachments/2552956/4612708/20230605_LHCC_AF_progress_report-8.pdf&quot;&gt;slides&lt;/a&gt; attached).&lt;/p&gt;
+
+&lt;p&gt;There was a very productive discussion between the referees, the experiments, WLCG and HSF at the special session.&lt;/p&gt;
+
+&lt;p&gt;LHCC thanked the Analysis Facilities Forum for their work bringing the R&amp;amp;D around analysis facilities into the light.&lt;/p&gt;
+
+&lt;p&gt;In the whole community, we should take care to balance the R&amp;amp;D with production activities at the sites. Modernising infrastructure, helped by this type of R&amp;amp;D, is already a valuable outcome.&lt;/p&gt;
+
+&lt;p&gt;To demonstrate the new analysis facility concepts work, they need to be tested on representative used cases &lt;em&gt;at scale&lt;/em&gt;. LHCC asks the experiments to provide a document on analysis use cases, which can be matched to AFs, then using this to develop benchmarks.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The exact parameters of this document will come later, in consultation with the LHCC’s HL-LHC review committee.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Long discussion on this point, we conclude that the LHCC are positive about the R&amp;amp;D and would like to get more formal engagement from the experiments, folding these studies into HL-LHC planning. We think the concerns raised by the LHCC (balance R&amp;amp;D against production; establish clear use cases and needs) are not new, but this actually means that we are investigating the right topics and sending the right messages.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;google-summer-of-code-2023&quot;&gt;Google Summer of Code, 2023&lt;/h3&gt;
+
+&lt;p&gt;The projects have started and students are working. Would like to find a person to attend the mentors’ summit meeting and discuss the procedure for that.&lt;/p&gt;
+
+&lt;p&gt;If people need access to CERN resources contact Yasemin, the EP-SFT secretary.&lt;/p&gt;
+
+&lt;p&gt;Want to have an early meeting with the students, not just at the end of the coding period.&lt;/p&gt;
+
+&lt;h2 id=&quot;working-group-updates&quot;&gt;Working Group Updates&lt;/h2&gt;
+
+&lt;h3 id=&quot;data-analysis&quot;&gt;Data Analysis&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Planning for a meeting focused on Open Data from LHC experiments on July 3rd, 15:00 CET (now drafting emails to identify speakers).&lt;/li&gt;
+  &lt;li&gt;Considering possibility of a talk on Julia following the Julia white paper, does that sound of interest?
+    &lt;ul&gt;
+      &lt;li&gt;Yes, we think that is a good idea
+        &lt;ul&gt;
+          &lt;li&gt;Could have some generic Julia info + dedicated HEP libraries + pointer to new HSF Julia group&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-training&quot;&gt;Software Training&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Most recent software basics carpentry training: 18-19 May
+    &lt;ul&gt;
+      &lt;li&gt;150 registrations -&amp;gt; 65 participants through the end&lt;/li&gt;
+      &lt;li&gt;Lessons learned: slack for online discussions work well; ssh keys for github interaction, learners on WSL need more attention
+        &lt;ul&gt;
+          &lt;li&gt;Little things go wrong for them and it’s enough to trip up beginners&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;HSF Training materials now instrumented with Plausible web analysis
+    &lt;ul&gt;
+      &lt;li&gt;Initial look at first week of data: many deep link arrivals into modern cmake training, not many visitors from curriculum landing page&lt;/li&gt;
+      &lt;li&gt;Will work with DAWG to integrate links to HSF training resource links better into experiment-specific training materials&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Two training fellows actively working on:
+    &lt;ul&gt;
+      &lt;li&gt;REANA training evaluation and improvement&lt;/li&gt;
+      &lt;li&gt;pytest training development&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Next software basics carpentry training: 12-14 July&lt;/li&gt;
+  &lt;li&gt;Further into the future:
+    &lt;ul&gt;
+      &lt;li&gt;Analysis Preservation training workshop: mid-September&lt;/li&gt;
+      &lt;li&gt;Matplotlib training workshop: mid-October&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;software-tools-and-packaging&quot;&gt;Software Tools and Packaging&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hope to have Adam Stewart, the person who maintains Python package packaging in Spack, come to CERN in September and give a talk. He is starting a postdoc at Technical University of Munich.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;detector-simulation&quot;&gt;Detector Simulation&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Held a meeting dedicated to Geant4 physics models and event generators on June 5th: &lt;a href=&quot;https://indico.cern.ch/event/1276128/&quot;&gt;https://indico.cern.ch/event/1276128/&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Quite good attendance, 19 people in total; Both from the detector simulation and generator community. (Several other meetings prevented more people from attending.)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Still following up on possible contributions on Geant4 cuts/optimizations implemented by experiments (Two identified)&lt;/li&gt;
+  &lt;li&gt;Still following up on possible contributions on Geant4 Physics extensions that experiments have developed (One identified)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frameworks&quot;&gt;Frameworks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CMSSW talk on incorporating Alpaka into framework jobs  has been rescheduled for &lt;a href=&quot;https://indico.cern.ch/event/1281987/&quot;&gt;28 June&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;other-interest-and-activity-areas&quot;&gt;Other Interest and Activity Areas&lt;/h2&gt;
+
+&lt;h3 id=&quot;juliahep&quot;&gt;JuliaHEP&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The paper &lt;em&gt;Potential of the Julia programming language for high energy physics computing&lt;/em&gt; was submitted Tuesday to the Computing and Software for Big Science journal. You can find the preprint on arXiv: &lt;a href=&quot;http://arxiv.org/abs/2306.03675&quot;&gt;http://arxiv.org/abs/2306.03675&lt;/a&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;Feedback is very positive so far.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some of us met last week to discuss the &lt;strong&gt;creation of a new JuliaHEP working group&lt;/strong&gt; in HSF. Decided on the following:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The following people volunteer to be the conveners of the new working group:
+        &lt;ul&gt;
+          &lt;li&gt;Tamás Gál (Erlangen Centre for Astroparticle Physics, Erlangen-Nurenberg, Germany)&lt;/li&gt;
+          &lt;li&gt;Alexander Moreno (Universidad Antonio Nariño, Ibagué, Colombia)&lt;/li&gt;
+          &lt;li&gt;Uwe Hernandez Acosta (Center for Advanced Systems Understanding, Görlitz, Germany)&lt;/li&gt;
+          &lt;li&gt;Pere Mato (CERN, Switzerland)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Start organizing the first JuliaHEP workshop
+        &lt;ul&gt;
+          &lt;li&gt;6-9 November 2023 at ECAP (Erlangen Centre for Astroparticle Physics)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Start entry point documentation for JuliaHEP at &lt;a href=&quot;https://www.juliahep.org&quot;&gt;https://www.juliahep.org&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Fill in &lt;a href=&quot;https://docs.google.com/document/d/19Q3bWnumKLkfG4FyhLidv3IGhQq01azFQzvInL-Ty8o/edit#&quot;&gt;Google Doc&lt;/a&gt; with projects we are interested to do&lt;/li&gt;
+      &lt;li&gt;Sign up to &lt;a href=&quot;https://discourse.julialang.org&quot;&gt;Discourse&lt;/a&gt; and Slack if you aren’t already!&lt;/li&gt;
+      &lt;li&gt;Move to the JuliaHEP mailing list: &lt;a href=&quot;mailto:julia-hep@googlegroups.com&quot;&gt;julia-hep@googlegroups.com&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Created a &lt;a href=&quot;https://hepsoftwarefoundation.org/workinggroups/juliahep.html&quot;&gt;page&lt;/a&gt; in the HSF web side with the information on JuliaHEP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;compute-accelerator-forum&quot;&gt;Compute Accelerator Forum&lt;/h3&gt;
+
+&lt;p&gt;Next week we will hear from the DOE funded HEP CCE project, which is now reaching the end of its first funding phase.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Charles Leggett will present results on portable paralellisation layers&lt;/li&gt;
+  &lt;li&gt;Peter Van Gemmeren will present results on high-performance I/O&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://indico.cern.ch/event/1264297/&quot;&gt;Meeting will be held jointly with ATLAS Core Software in Salle Curie&lt;/a&gt;, Wenesday 14 June at 16h30.&lt;/p&gt;
+
+&lt;h3 id=&quot;visualisation&quot;&gt;Visualisation&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/HSF/phoenix&quot;&gt;Phoenix Event Display&lt;/a&gt; will be featured in the next CERN Courier.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;aob&quot;&gt;AOB&lt;/h2&gt;
+
+&lt;h3 id=&quot;website&quot;&gt;Website&lt;/h3&gt;
+
+&lt;p&gt;Benedikt started an &lt;a href=&quot;https://github.com/HSF/hsf.github.io/issues/1411&quot;&gt;issue in GitHub&lt;/a&gt; to gather ideas about reorganising and revamping the website to better reflect our areas of actual activity.&lt;/p&gt;
+
+&lt;h3 id=&quot;next-meeting&quot;&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;The next meeting will be, on &lt;a href=&quot;https://indico.cern.ch/event/1225018/&quot;&gt;22 June&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit&quot;&gt;sign up&lt;/a&gt; for chairing this or one of the future coordination meetings.&lt;/p&gt;
+</description>
+				
+				<pubDate>Thu, 08 Jun 2023 00:00:00 +0100</pubDate>
+				<link>http://localhost:4000/organization/2023/06/08/coordination.html</link>
+				<guid isPermaLink="true">http://localhost:4000/organization/2023/06/08/coordination.html</guid>
+			</item>
+		
+	</channel>
+</rss>
