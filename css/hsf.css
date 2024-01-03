@@ -396,3 +396,8 @@ figure.centered-figure {
   .big-link-container a {
     min-height: 0;
 }
+}
+
+.user-footer{
+  margin-bottom: 2.5rem;
+}
