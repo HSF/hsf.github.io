@@ -93,7 +93,7 @@ Focus this year should be more on AI related topics as asked for by Google. Bigg
 
 - The IRIS-HEP steering board organised a [meeting on Analysis Facilities](https://indico.cern.ch/event/1296090/), with presentations from ATLAS, CMS and HSF.
 - The meeting was very positive and there was general agreement that we should have a session on this topic at the WLCG-HSF workshop in DESY.
-- In parallel the AFF conveners are making a very concerted effort to finish the [AFF Whitepaper](https://docs.google.com/document/d/1Pn9KWG-tGQ20OaNFUVlXLQddC7vFsQnu2EHR4DBfTjo/edit?usp=sharing), hoping to circulate a second draft in the next few weeks (but if you want to help at this stage, also feel free to take a look).
+- In parallel the Analysis Facilities Forum conveners are making a very concerted effort to finish the [AFF Whitepaper](https://docs.google.com/document/d/1Pn9KWG-tGQ20OaNFUVlXLQddC7vFsQnu2EHR4DBfTjo/edit?usp=sharing), hoping to circulate a second draft in the next few weeks (but if you want to help at this stage, also feel free to take a look).
 
 Really need to pin down needs and use cases to have a productive discussion at DESY - this will need some experiment commitment and input.
 
