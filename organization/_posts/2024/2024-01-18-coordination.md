@@ -27,7 +27,7 @@ Ideas for sessions
 - We could have a session on RSE career panel 
 - Should try to link this to EVERSE somehow (kick-off for EVERSE is mid-March)
 
-At the IRIS-HEP SB (see below), there was support for a session on *Analysis Facilities*.
+At the IRIS-HEP Steering Board meeting (see below), there was support for a session on *Analysis Facilities*.
 
 ### HSF Organisation and Structure
 
