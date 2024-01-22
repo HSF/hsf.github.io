@@ -11,7 +11,7 @@ Apologies/Contributing: Caterina Doglioni
 
 ### HSF Joint Workshop with WLCG
 
-The Indico for the WCLG-HSF workshop at DESY (13-17 May) is now available: <https://indico.cern.ch/e/wlcg-hsf-2024>.
+The Indico for the WLCG-HSF workshop at DESY (13-17 May) is now available: <https://indico.cern.ch/e/wlcg-hsf-2024>.
 
 Registration should open soon (which will happen via DESY Indico).
 
