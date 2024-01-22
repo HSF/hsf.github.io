@@ -43,7 +43,7 @@ We are in the process of inviting new conveners for 2024. We have had quite a fe
 
 - Jamie Gooding (Dortmund, LHCb) will join the Data Analysis WG
 - Saptaparna Bhattacharya (Wayne State, CMS) will join the Physics Generators WG
-- Nikolai Hartmann (Munchen, ATLAS and Belle II) will join the PyHEP WG
+- Nikolai Hartmann (Munich, ATLAS and Belle II) will join the PyHEP WG
 - Jim Pivarski (Princeton, IRIS-HEP and CMS) will move to the Training WG
 
 ### Frameworks WG in 2024
