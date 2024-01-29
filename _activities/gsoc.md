@@ -49,9 +49,7 @@ For further information, feel free to contact the HSF GSoC admins or join our op
 
 ### Student pages
 
-The CERN-HSF 2023 student blogs are now available. [Check them out!]({{ site.baseurl }}/gsoc/2023/blogs.html)
-
-Student blogs are mandatory for receiving a positive evaluation in CERN-HSF! If you are a CERN-HSF student, please read this [blog]({{ site.baseurl }}/gsoc/blogs/2022/blog_HSF_TheAdmins.html).
+Student blogs are mandatory for receiving a positive evaluation in CERN-HSF! If you are a CERN-HSF student, please read this [blog]({{ site.baseurl }}/gsoc/blogs/2022/blog_HSF_TheAdmins.html). Previous blogs from 2022 are available. [Check them out!]({{ site.baseurl }}/gsoc/2023/blogs.html)
 
 
 ### For Projects and Mentors
