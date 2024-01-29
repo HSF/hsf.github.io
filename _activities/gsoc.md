@@ -148,5 +148,5 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
 
 *HSF GSoC mentor discussion* [e-group](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)
 
-*HSF GSoC administrators:* [Benedikt Hegner](mailto:hsf-gsoc-admin@googlegroups.com)
+*HSF GSoC administrators:* [Wouter Deconinck, Benedikt Hegner, Baidyanath Kundu, Valentin Volkl](mailto:hsf-gsoc-admin@googlegroups.com)
 
