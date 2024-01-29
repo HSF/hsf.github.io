@@ -36,7 +36,7 @@ Get started checking out the [Google Summer of Code Guides for students](https:/
 5. You will have to write a proposal that must contain:
   * A detailed plan of work with a timeline spanning over **90 or 175 or 375 hours**, which is the GSoC coding period duration this year. Note that your availability for working on the project has to be clearly stated (agreed upon with your mentors) and represents an engagement on your side. Breaking it during the coding period without prior notice and mentor's agreement represents a reason for being failed.
   * Well defined tasks and their objectives, with a list of deliverables upon which the success of the project will be determined.
-  * Between **Mar 18 - Mar 26** you will have the possibility to share your proposal draft with the project mentors to get improvement suggestions, before making your GSoC application due on `Apr 2`.
+  * Between **Mar 18 - Mar 26** you will have the possibility to share your proposal draft with the project mentors to get improvement suggestions, before making your GSoC application due on **Apr 2**.
 <br><br>
 
 6. Your proposal will be evaluated and ranked by your mentors, who give their feedback to the HSF Org Admins. If a project has eligible candidates, it will be considered for the request of slots made to GSoC, due on **Apr 20**. Note that the result of this Phase 2 selection process cannot be made available before the official announcement by Google of the successful student projects, on **May 1**.
