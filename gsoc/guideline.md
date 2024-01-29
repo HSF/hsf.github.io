@@ -8,7 +8,7 @@ layout: default
 
 ## Instructions for Adding a New Proposal
 
- * Option A: email GSoC [administrators](mailto:hsf-gsoc-admin@googlegroups.com) (currently: Benedikt Hegner and mystery guests)
+ * Option A: email GSoC [administrators](mailto:hsf-gsoc-admin@googlegroups.com) (currently: Benedikt Hegners, Valentin Volkl, Wouter Deconinck, Baidyanath Kundu)
  * Option B (via git): 
    * fork [git repository](https://github.com/HEP-SF/hep-sf.github.io) 
    * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (look at this example: [`proposal_ROOTspark.md`](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocproposals/2018/proposal_ROOTspark.md))
@@ -24,11 +24,11 @@ layout: default
       * The main mentor (responsible with student evaluation and exchanging with the Admins) has to be put in bold letters, only at the end of each proposal.
       * Insert mentor names sorted rather than to the end of the list
 
-   * make a pull request (add as reviewers the admins: @agheata, @aflp91 and @hegner). At least one approval from the admins is required.
+   * make a pull request (add as reviewers the admins). At least one approval from the admins is required.
 
 **Every proposal must be attached to an organization (e.g. CERN, Fermilab...) and to a project (e.g. ROOT, GeantV...).** If you add your own proposal yourself, be sure add the appropriate `organization` and `project` attributes (not case sensitive) in the *front-matter* section of the proposal. See next sections if you need to add a new organization or project but if you use an existing project and organization for your proposal you don't have to do anything else that what was described above.
 
-**Proposals have to be tuned this year for either 175-hour or 350h project length.** For 175h projects please propose coding topics having well-defined deliverables, rather than R&D with unforeseen timeline and results. Remember that your student will effectively work in total only about 30 days (6 hours/day) on the project!
+**Proposals have to be tuned this year for 90-hour 175-hour or 350h project length.** For 175h projects please propose coding topics having well-defined deliverables, rather than R&D with unforeseen timeline and results. Remember that your student will effectively work in total only about 30 days (6 hours/day) on the project!
 
 Please do not forget to add **essential information** like *level of difficulty*, *duration* and an explicit statement about *mentor availability*. 
    
@@ -82,6 +82,6 @@ create a file for your organization and edit its contents as appropriate.
 
 Organization logos should be called `ORGANIZATION-logo.png` and be less than 100kB in size.
 
-## HSF GSoC Mentor Guideline 2023
+## HSF GSoC Mentor Guideline 2024
 
-[2023 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/1bEkKj2UtTyumYFT96Uxgbj3F0W_Td-mw1cvO4vlx5d8/edit?usp=sharing)
+[2024 HSF GSoC Mentor Guideline](https://docs.google.com/document/u/1/d/1pK7YlkiTJ7iVAkOKTuAwTX0wEQXRajzZuqcpJl42Xx4/edit?fromCopy=true)
