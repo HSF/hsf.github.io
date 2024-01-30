@@ -9,6 +9,7 @@ training_years:
 - 2019
 - 2020
 - 2022
+- 2024
 github: jpivarski
 gravatar: null
 homepage: null
