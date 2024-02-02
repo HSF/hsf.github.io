@@ -106,7 +106,7 @@ Next public version of the AFF report is almost ready. LHCC also want to look at
 
 ### Compute and Accelerator Forum
 
-- Meeting on *HEPiX Benchmarking* is [scheduled for 14 Feburary](https://indico.cern.ch/event/1329686/)
+- Meeting on *HEPiX Benchmarking* is [scheduled for 14 February](https://indico.cern.ch/event/1329686/)
 - We are planning and actively inviting speakers for the rest of 2024
     - Please send ideas for talks to [compute-accelerator-forum-organizers@cern.ch](mailto:compute-accelerator-forum-organizers@cern.ch).
 
