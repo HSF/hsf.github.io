@@ -26,14 +26,15 @@ well-defined set of problems.
 
 ## Conveners 
 
-- Nicola Skidmore, LHCb and University of Manchester
+- Jamie Gooding, LHCb and Technische Universität Dortmund
 - Alexander Held, ATLAS and University of Wisconsin–Madison
 - Nick Smith, CMS and Fermilab
 
-Contact the [convenors by email](mailto:nicola.skidmore@cern.ch,alexander.held@cern.ch,nick.smith@cern.ch) <!-- markdown-link-check-disable-line -->
+Contact the [convenors by email](mailto:jamie.gooding@cern.ch,alexander.held@cern.ch,nick.smith@cern.ch) <!-- markdown-link-check-disable-line -->
 
 ### Former Convenors
 
+- Nicole Skidmore (LHCb), 2021-2024
 - Danilo Piparo (ROOT), 2019
 - Andrea Rizzi (CMS), 2019-2020
 - Paul Laycock (Belle II), 2019-2020
