@@ -73,7 +73,7 @@ The logs and the python-based analysis notebooks can be found at [this repo](htt
 The approach for finding the best compressor is described below
 - Events were divided into a set of 10 classes based on event size (Class 0 having events of smallest size)
 - For each event class, the average compression speed and compression ratio were calculated (for each compressor)
-- The resulting points were plotted on a graph, and this helped to visualize the tradeoff. A compression ration of about 2 (or 50% compression ) and a speed more that 40 MB/s was considered as acceptable performance (as denoted in the diagram above).The compressor configuration offering the highest average compression ratio at the highest compression speed (in the acceptable performance region of the graph) was considered optimal.
+- The resulting points were plotted on a graph, and this helped to visualize the tradeoff. A compression ratio of about 2 (or 50% compression ) and a compression speed of more than 40 MB/s was considered as acceptable performance (as denoted in the diagram above).The compressor configuration offering the highest average compression ratio at the highest compression speed (in the acceptable performance region of the graph) was considered optimal.
 <br>
 After running several experiments with recorded physics data, it was determined that [ZSTD](https://github.com/facebook/zstd) was the best compressor. The __compression levels 3 and 5__ were observed to be the most optimal configuration for implementation. 
 
