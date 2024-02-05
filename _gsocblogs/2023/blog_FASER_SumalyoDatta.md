@@ -22,8 +22,14 @@ The [FASER experiment](https://faser.web.cern.ch/index.php/) is an LHC experimen
 
 FASER has a trigger-based data acquisition model, and the DAQ software is developed using the DAQling framework.
 >> DAQling is an open-source lightweight C++ software framework that can be used as the core of data acquisition systems of small and medium-sized experiments. It provides a modular system in which custom applications can be plugged in. It also provides the communication layer based on the widespread ZeroMQ messaging library, error logging using ERS, configuration management based on the JSON format, control of distributed applications and extendable operational monitoring with web-based visualization.
+<br>
+<br>
+_DAQling: an open-source data acquisition framework
+Marco  Boretto, Wojciech  Brylinski, Giovanna  Lehmann Miotto, Enrico  Gamberini, Roland  Sipos, Viktor Vilhelm  Sonesten
+EPJ Web Conf. 245 01026 (2020)
+DOI: 10.1051/epjconf/202024501026_
 
-You can read more about the strategy in the [paper published by the FASER collaboration](https://arxiv.org/abs/2110.15186).
+You can read more about the FASER TDAQ design in the [paper published by the FASER collaboration](https://arxiv.org/abs/2110.15186).
 
 The first part of the project involved __the exploration__ of various open-source lossless compression libraries and the development of a standalone compressor for raw files, which can be used to record performance metrics (such as compression ratio and compression speed) to help determine the best compressor that could be used in the engine. You can read more about the exploration of compression algorithms in this [medium blog](https://medium.com/gsoc-2023-data-compression-faser/real-time-lossless-data-compression-for-the-faser-experiment-part-1-274025eb4079) <p>
 
@@ -67,7 +73,7 @@ The logs and the python-based analysis notebooks can be found at [this repo](htt
 The approach for finding the best compressor is described below
 - Events were divided into a set of 10 classes based on event size (Class 0 having events of smallest size)
 - For each event class, the average compression speed and compression ratio were calculated (for each compressor)
-- The resulting points were plotted on a graph, and this helped to visualize the tradeoff. The compressor configuration offering the highest average compression ratio at the highest compression speed was considered optimal.
+- The resulting points were plotted on a graph, and this helped to visualize the tradeoff. A compression ration of about 2 (or 50% compression ) and a speed more that 40 MB/s was considered as acceptable performance (as denoted in the diagram above).The compressor configuration offering the highest average compression ratio at the highest compression speed (in the acceptable performance region of the graph) was considered optimal.
 <br>
 After running several experiments with recorded physics data, it was determined that [ZSTD](https://github.com/facebook/zstd) was the best compressor. The __compression levels 3 and 5__ were observed to be the most optimal configuration for implementation. 
 
