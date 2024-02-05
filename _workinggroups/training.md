@@ -141,10 +141,10 @@ We are always looking for volunteers from the community to help us with our trai
 {% endif %}
 ## Conveners
 
-{% assign persons = "Wouter Deconinck, Kilian Lieret, Alexander Moreno Briceño, Jason Veatch" | split: ", " %}
+{% assign persons = "Alexander Moreno Briceño, Valeriia Lukashenko, Jim Pivarski, Holly Szumila" | split: ", " %}
 {% include list_of_selected_profiles.html %}
 
-The conveners can be [reached by email](mailto:michel.hernandez.villanueva@desy.de,wouter.deconinck@umanitoba.ca,malik@fnal.gov,kilian.lieret@posteo.de). <!-- markdown-link-check-disable-line -->
+The conveners can be [reached by email](mailto:alexander.moreno@uan.edu.co,valeriia.lukashenko@cern.ch,pivarski@princeton.edu,hszumila@jlab.org). <!-- markdown-link-check-disable-line -->
 
 ### Former Conveners:
 
@@ -153,3 +153,6 @@ The conveners can be [reached by email](mailto:michel.hernandez.villanueva@desy.
 - Dario Menasce (INFN Milano), 2016-2019
 - Sam Meehan (CERN, ATLAS and FASER), 2020
 - Meirin Oan Evans (ATLAS), 2021
+- Wouter Deconinck
+- Kilian Lieret
+- Jason Veatch
