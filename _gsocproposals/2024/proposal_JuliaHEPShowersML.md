@@ -33,7 +33,7 @@ Review the most successful models implemented in the CaloChallenge, to understan
 
 * Programming experience with machine learning tool kits in Python
 * Prior experience in Julia (very advantageous)
-* A backound understanding of high-energy physics (advantageous)
+* A background understanding of high-energy physics (advantageous)
 
 ## Mentors
 
