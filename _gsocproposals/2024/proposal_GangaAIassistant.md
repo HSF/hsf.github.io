@@ -19,8 +19,8 @@ As a scripting and command line interface, there will naturally be usrs that hav
 ## Task ideas
  * Explore the different options for integrating an LLM into a command line prompt. The ideas in [GPTerm](https://github.com/ademakdogan/GPTerm) and [Codeium](https://codeium.com/) might act as inspiration.
  * Integrate the interaction with an LLM into the Ganga prompt.
- * Minimise the installation overhead for ading an LLM interaction to Ganga.
- * Improve the LLM by ading local training samples obtained from the logs of existing Ganga users.
+ * Minimise the installation overhead for adding an LLM interaction to Ganga.
+ * Improve the LLM by adding local training samples obtained from the logs of existing Ganga users.
  * Understand how priming the LLM can improve its accuracy 
  * Develop continuous integration tests that can ensures that LLM integration will keep working.
 
