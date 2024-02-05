@@ -16,7 +16,7 @@ Clad is an automatic differentiation (AD) clang plugin for C++. Given a C++ sour
 
 ## Project Milestones
 
-* Research about automatic differentiation of code involving CUDA GPU kernels. Prepare a report and an initial strategy to follow.This may involve brainstorming and the need for innovative solutions. 
+* Research about automatic differentiation of code involving CUDA GPU kernels. Prepare a report and an initial strategy to follow. This may involve brainstorming and the need for innovative solutions. 
 * Enable reverse-mode automatic differentiation of CUDA GPU kernels and calls to CUDA GPU kernels from the host code.
 * Add proper tests and documentation.
 
