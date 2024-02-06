@@ -14,3 +14,4 @@ layout: plain
 * Vaibhav Thakkar [vaibhav.thakkar@cern.ch](mailto:vaibhav.thakkar@cern.ch) CompRes
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
+* Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
