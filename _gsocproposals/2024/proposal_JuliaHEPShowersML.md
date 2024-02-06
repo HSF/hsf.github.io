@@ -48,5 +48,8 @@ Review the most successful models implemented in the CaloChallenge, to understan
 * [Potential of the Julia Programming Language for High Energy Physics Computing](https://doi.org/10.1007/s41781-023-00104-x)
 * [CaloChallenge](https://calochallenge.github.io/homepage/)
 * Some Julia ML toolkits:
+    * [ADCME.jl](https://docs.juliahub.com/ADCME/b8Ld2/0.7.3/)
     * [Flux.jl](https://fluxml.ai/Flux.jl/stable/)
+    * [InvertibleNetworks.jl](https://slimgroup.github.io/InvertibleNetworks.jl/dev/)
     * [MLJ.jl](https://alan-turing-institute.github.io/MLJ.jl/stable/)
+    * [RxInfer.jl](https://reactivebayes.github.io/rxinfer-website/)
