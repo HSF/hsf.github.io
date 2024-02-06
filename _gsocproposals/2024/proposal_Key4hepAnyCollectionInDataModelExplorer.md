@@ -3,7 +3,10 @@ title: Any collection in Data model explorer
 layout: gsoc_proposal
 project: Key4hep
 year: 2024
-organization: CERN
+organization:
+ - CERN
+duration: 175
+difficulty: medium
 ---
 
 ## Description
@@ -28,13 +31,13 @@ collections and relationships between them.
 * Test on simulated FCC events (pre-generated or new)
 
 ## Expected results
-Visualization of any EDM4hep event.
+Visualization of any EDM4hep event data.
 
 ## Requirements
 JavaScript
 
 ## Mentors
- * [Juraj Smiesko](mailto:juraj.smiesko@cern.ch) CERN
+ * **[Juraj Smiesko](mailto:juraj.smiesko@cern.ch)** CERN
 
 ## Links
  * [EDM4hep](https://cern.ch/edm4hep)
