@@ -11,7 +11,7 @@ layout: plain
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes
+* Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
 * Vaibhav Thakkar [vaibhav.thakkar@cern.ch](mailto:vaibhav.thakkar@cern.ch) CompRes
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
-* Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
