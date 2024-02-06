@@ -11,9 +11,9 @@ the sharing of knowledge and expertise. It embraces the broad community, from HE
 # Conveners
 
 * Eduardo Rodrigues (LHCb, University of Liverpool)
-* Oksana Shadura (IRIS-HEP, University of Nebraska)
 * Jim Pivarski (CMS and IRIS-HEP, Princeton)
 * Matthew Feickert (ATLAS and IRIS-HEP, University of Wisconsin-Madison)
+* Nikolai Hartmann (Belle II, LMU Munich)
 
 All coordinators can be reached at <hsf-pyhep-organisation@googlegroups.com>.
 
@@ -258,6 +258,7 @@ The event was kindly sponsored by
 
 # Previous conveners
 
+- Oksana Shadura (IRIS-HEP, University of Nebraska), 2022-2023
 - Ben Krikler (LZ, CMS), 2019-2021
 - Chris Tunnell (XENON1T), 2019
 - Graeme Stewart (CERN EP-SFT), 2018
