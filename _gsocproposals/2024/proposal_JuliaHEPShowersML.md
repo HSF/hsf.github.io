@@ -52,4 +52,5 @@ Review the most successful models implemented in the CaloChallenge, to understan
     * [Flux.jl](https://fluxml.ai/Flux.jl/stable/)
     * [InvertibleNetworks.jl](https://slimgroup.github.io/InvertibleNetworks.jl/dev/)
     * [MLJ.jl](https://alan-turing-institute.github.io/MLJ.jl/stable/)
+    * [NormalizingFlows.jl](https://turinglang.org/NormalizingFlows.jl/dev/)
     * [RxInfer.jl](https://reactivebayes.github.io/rxinfer-website/)
