@@ -258,7 +258,7 @@ The event was kindly sponsored by
 
 # Previous conveners
 
-- Oksana Shadura (IRIS-HEP, University of Nebraska), 2021-2023
+- Oksana Shadura (IRIS-HEP, University of Nebraska), 2022-2023
 - Ben Krikler (LZ, CMS), 2019-2021
 - Chris Tunnell (XENON1T), 2019
 - Graeme Stewart (CERN EP-SFT), 2018
