@@ -1,5 +1,5 @@
 ---
-title: CernVM-FS - Benchmarking of new FUSE features
+title: Benchmarking of new FUSE features
 layout: gsoc_proposal
 project: CernVM-FS
 year: 2024
