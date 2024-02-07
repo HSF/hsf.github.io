@@ -2,7 +2,7 @@
 title: Enable reverse-mode automatic differentiation of (CUDA) GPU kernels using Clad
 layout: gsoc_proposal
 project: Clad
-year: 2023
+year: 2024
 difficulty: medium
 duration: 350
 mentor_avail: June-October

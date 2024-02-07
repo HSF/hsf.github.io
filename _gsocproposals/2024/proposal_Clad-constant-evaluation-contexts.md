@@ -2,7 +2,7 @@
 title: Add support for consteval and constexpr functions in Clad
 layout: gsoc_proposal
 project: Clad
-year: 2023
+year: 2024
 difficulty: medium
 duration: 350
 mentor_avail: June-October
