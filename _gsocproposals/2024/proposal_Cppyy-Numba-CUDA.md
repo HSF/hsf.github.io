@@ -2,7 +2,7 @@
 title: Enable CUDA compilation on Cppyy-Numba generated IR
 layout: gsoc_proposal
 project: Cppyy
-year: 2023
+year: 2024
 difficulty: medium
 duration: 350
 mentor_avail: June-October
