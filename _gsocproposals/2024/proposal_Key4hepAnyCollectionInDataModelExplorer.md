@@ -6,7 +6,7 @@ year: 2024
 organization:
  - CERN
  - DESY
-duration: 175
+duration: 350
 difficulty: medium
 ---
 
