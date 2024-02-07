@@ -1,5 +1,5 @@
 ---
-title: CernVM-FS - Buildcache of vendored dependencies
+title: Buildcache of vendored dependencies
 layout: gsoc_proposal
 project: CernVM-FS
 year: 2024
