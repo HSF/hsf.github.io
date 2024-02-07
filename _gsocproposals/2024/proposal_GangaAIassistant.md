@@ -1,6 +1,6 @@
 ---
 project: Ganga
-title: Ganga - Incorporate a Large Language Model to assist users
+title: Incorporate a Large Language Model to assist users
 layout: gsoc_proposal
 year: 2024
 difficulty: medium
