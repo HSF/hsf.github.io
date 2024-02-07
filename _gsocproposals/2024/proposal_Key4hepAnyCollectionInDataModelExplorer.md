@@ -17,8 +17,8 @@ event data from simulation up to analysis. At any step of this chain one can
 inspect the event data containing various collections of the objects, e.g.
 calorimeter clusters, tracker hits, reconstructed particles, etc. Traditionally
 visualization of the event data is tied with the visualization of the detector
-where event objects resemble their "intuitive" shape. There is no visual tool
-which offers detailed inspection of the data contained in the event.
+where only a small set of properties could be conveniently accessed. There is no
+visual tool which offers detailed inspection of the data contained in the event.
 [dmX](https://github.com/key4hep/dmx) offers only limited possibility to
 visualize tree of MonteCarlo particles. The goal of the project will be
 to extend the functionality of dmX to be able to visualize other types of
