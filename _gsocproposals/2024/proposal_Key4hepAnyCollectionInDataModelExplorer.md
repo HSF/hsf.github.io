@@ -5,6 +5,7 @@ project: Key4hep
 year: 2024
 organization:
  - CERN
+ - DESY
 duration: 175
 difficulty: medium
 ---
@@ -16,7 +17,7 @@ event data from simulation up to analysis. At any step of this chain one can
 inspect the event data containing various collections of the objects, e.g.
 calorimeter clusters, tracker hits, reconstructed particles, etc. Traditionally
 visualization of the event data is tied with the visualization of the detector
-where visualized objects resemble their true shape. There is no visual tool
+where event objects resemble their "intuitive" shape. There is no visual tool
 which offers detailed inspection of the data contained in the event.
 [dmX](https://github.com/key4hep/dmx) offers only limited possibility to
 visualize tree of MonteCarlo particles. The goal of the project will be
@@ -38,6 +39,7 @@ JavaScript
 
 ## Mentors
  * **[Juraj Smiesko](mailto:juraj.smiesko@cern.ch)** CERN
+ * [Thomas Madlener](mailto:thomas.madlener@cern.ch) DESY
 
 ## Links
  * [EDM4hep](https://cern.ch/edm4hep)
