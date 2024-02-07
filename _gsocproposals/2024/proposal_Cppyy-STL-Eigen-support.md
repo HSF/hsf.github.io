@@ -1,5 +1,5 @@
 ---
-title: Cppyy STL/Eigen - Automatic conversion and plugins for Python based ML-backends 
+title: STL/Eigen - Automatic conversion and plugins for Python based ML-backends 
 layout: gsoc_proposal
 project: Cppyy
 year: 2024
