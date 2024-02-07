@@ -39,6 +39,5 @@ layout: plain
 * Sanjiban Sengupta [sanjiban.sg@gmail.com](mailto:sanjiban.sg@gmail.com) CERN
 * Juraj Smiesko [juraj.smiesko@cern.ch](mailto:juraj.smiesko@cern.ch) CERN
 * Enric Tejedor [etejedor@cern.ch](mailto:etejedor@cern.ch) CERN
-* Vaibhav Thakkar [vaibhav.thakkar@cern.ch](mailto:vaibhav.thakkar@cern.ch) CompRes
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
