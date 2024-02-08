@@ -8,7 +8,9 @@ layout: plain
 ## Full Mentor List (Name, Email, Org)
 * Parth Arora [partharora99160808@gmail.com](mailto:partharora99160808@gmail.com) CompRes
 * Jakob Blomer [jakob.blomer@cern.ch](mailto:jakob.blomer@cern.ch) CERN
+* Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Peter Van Gemmeren [peter.van.gemmeren@cern.ch](mailto:peter.van.gemmeren@cern.ch) ANL
+* Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Aaron Jomy [aaron.jomy@cern.ch](mailto:aaron.jomy@cern.ch) CompRes
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
