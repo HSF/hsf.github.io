@@ -13,6 +13,7 @@ layout: plain
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
 * Benedikt Hegner [benedikt.hegner@cern.ch](mailto:benedikt.hegner@cern.ch) CERN
 * Aaron Jomy [aaron.jomy@cern.ch](mailto:aaron.jomy@cern.ch) CompRes
+* David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) CompRes
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
 * Thomas Madlener [thomas.madlener@cern.ch](mailto:thomas.madlener@desy.de) DESY
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes
@@ -22,3 +23,4 @@ layout: plain
 * Vaibhav Thakkar [vaibhav.thakkar@cern.ch](mailto:vaibhav.thakkar@cern.ch) CompRes
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
+* Petro Zarytskyi [petro.zarytskyi@gmail.com](mailto:petro.zarytskyi@gmail.com) CompRes
