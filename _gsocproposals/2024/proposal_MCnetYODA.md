@@ -14,7 +14,7 @@ mentor_avail: June-October
 
 YODA is a lightweight library for efficient multi-dimensional histogramming
 and binned data analysis. It provides a lightweight common system for
-Mone Carlo event generator validation analyses, particularly as the
+Monte Carlo event generator validation analyses, particularly as the
 core histogramming library used by the [Rivet](https://yoda.hepforge.org)
 analysis toolkit.
 
