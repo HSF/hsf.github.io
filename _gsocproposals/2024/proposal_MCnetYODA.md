@@ -31,8 +31,6 @@ visualization of what code areas need better monitoring.
 
  * Familiarise with the YODA library;
  * Familiarise with the YODA unit test system, including current CI scripts;
- * Hook up existing unit tests with `gcov` for producing coverage report;
- * Familiarise and its visualization tools
  * Hook up existing unit tests with `gcov` and produce a coverage estimate;
  * Visualize coverage reports and produce web-based status displays;
  * Trigger automated coverage checks and visual displays in the CI.
