@@ -14,7 +14,7 @@ organization:
 
 xeus-cpp is a Jupyter kernel for cpp based on the native implementation of the Jupyter protocol xeus. This enables users to write and execute C++ code interactively, seeing the results immediately. This REPL (read-eval-print-loop) nature allows rapid prototyping and iterations without the overhead of compiling and running separate C++ programs. This also achieves C++ and Python integration within a single Jupyter environment.
 
-This project aims to integrate a large language model, such as Bart or its successors, with the xeus-cpp Jupyter kernel. This integration will enable users to interactively generate and execute code in C++ leveraging the assistance of the language model. Upon successful integration, users will have access to features such as code autocompletion, syntax checking, semantic understanding, and even code generation based on natural language prompts.
+This project aims to integrate a large language model, such as Bard/Gemini, with the xeus-cpp Jupyter kernel. This integration will enable users to interactively generate and execute code in C++ leveraging the assistance of the language model. Upon successful integration, users will have access to features such as code autocompletion, syntax checking, semantic understanding, and even code generation based on natural language prompts.
 
 ## Project Milestones
 
