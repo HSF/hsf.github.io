@@ -30,7 +30,9 @@ The xeus-cpp is a successor of xeus-clang-repl and xeus-cling. The project goal 
 * Knowledge of Clang and LLVM
 
 ## Mentors
-* **[Alexander Penev](mailto:alexander.p.penev@gmail.com)**
+* **[Anutosh Bhat](mailto:anutosh.bhat@quantstack.net)**
+* [Johan Mabille](mailto:johan.mabille@quantstack.net)
+* [Alexander Penev](mailto:alexander.p.penev@gmail.com)
 * [Vassil Vassilev](mailto:vvasilev@cern.ch)
 
 ## Links

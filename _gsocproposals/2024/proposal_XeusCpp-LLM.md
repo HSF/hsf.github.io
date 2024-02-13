@@ -30,9 +30,11 @@ This project aims to integrate a large language model, such as Bard/Gemini, with
 * Familiarity with the API's of Bard/OpenAI is a plus
 
 ## Mentors
-* **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
+* **[Anutosh Bhat](mailto:anutosh.bhat@quantstack.net)**
+* [Johan Mabille](mailto:johan.mabille@quantstack.net)
 * [Aaron Jomy](mailto:aaron.jomy@cern.ch)
 * [David Lange](mailto:david.lange@cern.ch)
+* [Vassil Vassilev](mailto:vvasilev@cern.ch)
 
 ## Links
 * [Repo](https://github.com/compiler-research/xeus-cpp)
