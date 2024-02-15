@@ -1,6 +1,6 @@
 ---
-project: HSF
-title: Julia interoperating with HEP C++ libraries 
+project: JuliaHEP
+title: Julia interoperating with HEP C++ libraries
 layout: gsoc_proposal
 year: 2024
 difficulty: high
@@ -12,27 +12,41 @@ organization:
 ---
 
 ## Description
-The [Julia](https://julialang.org) provides a combination of speed, interoperability, ease of use, and flexibility that makes it a very interesting choice for High Energy Physics (HEP) research. It can provide HEP researchers with the high-performance computing capabilities of C++, while still offering the ease of use of high-level languages, making it a powerful tool for HEP research. If the HEP community was adopting Julia as the main programming language, it could immediately benefit from the re-use of many existing software in the Julia ecosystem (more than 8000 packages) facilitated by the multi-dispatch feature of the language. But, the community has a number of key large software packages written in C++ that would need to interfaced to in order to provide the HEP specific functionality. The development effort invested in these packages is very large, counted on several hundred of person-years, and we need to preserve this investment.
 
-For example, Geant4 is a widely used C++ library in HEP research for simulating the interaction of elementary particles in matter. Interfacing Julia with the Geant4 library can provide HEP researchers with a convenient way to use the capabilities of Geant4 in their Julia code. Similarly with ROOT, which is a widely used C++ data analysis framework in HEP research. These are in general large software projects with hundreds of C++ classes, unfortunately without a clear separation of a public API and its internal implementation, therefore any wrapping or binding solution based for example on [C++Wrap.jl](https://github.com/JuliaInterop/CxxWrap.jl) would need to be highly automated to generate the wrapper code of these many classes. Initial solutions for this automation exist (e.g. [WrapIt](https://github.com/grasph/wrapit/)) but would need to be fully tested and eventually extended to support all the C++ constructs used in these packages. The automation uses the [LLVM](https://llvm.org) compiler infrastructure to interpret the C++ code and generate the bindings.
+The [Julia](https://julialang.org) provides a combination of speed, interoperability, ease of use, and flexibility that makes it a very interesting choice for High Energy Physics (HEP) research. It can provide HEP researchers with the high-performance computing capabilities of C++, while still offering the ease of use of high-level languages, making it a powerful tool for HEP research. If the HEP community was adopting Julia as the main programming language, it could immediately benefit from the re-use of a good deal of existing software in the Julia ecosystem (more than 8000 packages) facilitated by the multi-dispatch feature of the language. But, the community has a number of key large software packages written in C++ that would need to interfaced to in order to provide the HEP specific functionality. The development effort invested in these packages is very large, counted on several hundred of person-years, and we need to preserve this investment.
 
-The task of this project is the implementation, as automated as possible, of Julia bindings of common C++ HEP packages such as Geant4 and ROOT, in view to make available these packages within the Julia ecosystem and to evaluate their usability and performance. Quite deep knowledge of C++ would be beneficial for understanding the interfaces of these packages, however knowledge of particle physics is not required.
+In this context, the [WrapIt](https://github.com/grasph/wrapit/) tool has been developed to automate the generation of Julia bindings to C++ libraries. It has been used to develop the Julia interface to Geant4, [Geant.jl](https://github.com/JuliaHEP/Geant4.jl), a widely used C++ library in HEP research for simulating the interaction of elementary particles in matter. The popular C++ data analysis framework in HEP research, ROOT, has been partially interfaced to Julia, as an example provided by the WrapIt tool.
 
-## Task ideas
- * Develop the Julia bindings for the Geant4 simulation toolkit and be able to illustrate its use with examples.
- * Develop the Julia bindings for the ROOT analysis framework simulation and examples.
- * Further develop and enhance the [WrapIt](https://github.com/grasph/wrapit) for the automatic generation of C++ to Julia bindings
- * Register a Julia package with the library with the wrappers and the binaries of the target C++ package to make the deployment as simple as possible.
- * Evaluate the performance and usability these interfaces, and their interoperability with other Julia packages. 
+This project will consist in a contribution to the effort of providing a Julia interface to HEP C++ libraries. A proposal is discussed in the next session. Other contributions are possible, and the project can be refined together with the mentors taking into account the fields of interest of the candidate.
 
+## Adding ROOT file write support to Julia.
+
+The ROOT framework provides a file format suited to store the large data sets produced in HEP (hundreds of Petabytes of data), in particular at the CERN Large Hadron Collider. It provides a fast access, a structured data organisation with columnar data support, compression, and self-contained data model description. Support for this format is essential for HEP application.
+
+The [UnROOT](https://github.com/JuliaHEP/UnROOT.jl) package, implemented purely in Julia, provides support allows reading the file in ROOT format. Write support is lacking from the Julia ecosystem. Its implementation is more difficult than for the read support. For this reason, the development plan of the UnROOT package is to limit the package for reading files.
+
+We propose to develop a Julia package that will provide ROOT file write support. The package will use as backend the genuine ROOT C++ libraries interface to Julia thanks to CxxWrap and WrapIt. The package will offer a convenient interface to write Julia data into a ROOT file, that can then be read back from other frameworks, both C++-based like the plain C++ ROOT and Python-based like PyROOT and uproot. 
+
+The package will support:
+
+  * Write of columnar data (tables, also known as data frames) from the Julia ecosystem DataFrame or Table types;
+  * Row-by-row write of columnar data provided as a set of variables with the contents of the respective table cells;
+  * The following cell data type: scalars (Int, Float32, etc..); struct, vectors, and tuples of scalars; struct arrays;
+  
+It will focus in providing a user-friendly and Julia-like interface. It will be safe, in the sense of preventing segmentation fault in case of bad usage.
+
+ 
 ## Expected results
-The expected result is a genuine Julia package that provides the functionality of either Geant4 or ROOT to the Julia ecosystem, and this is done in a very sustainable manner to follow the evolution of these packages with minimal effort by automating the wrapper generation as much as possible. 
+
+The expected result is a genuine Julia package that will provide ROOT file format write support to the Julia ecosystem. The packages will be registered in the general Julia repository.
 
 ## Evaluation Task
+
 Interested students please contact [Pere](mailto:Pere.Mato@cern.ch) and [Philippe](mailto:philippe.gras@cern.ch) for more details and an evaluation task.
 
 ## Requirements
- * Good knowledge of C++ and some experience in Julia is required. Experience with some of the widely used HEP libraries (e.g. ROOT, Geant4) would be an advantage, as well as some experience of Julia packages such as C++Wrap.
+
+ * For the ROOT file write support project, a fair knowledge of C++ and some experience in Julia is required. Experience with ROOT would be an advantage, as well as some experience of Julia packages such as CxxWrap. In case the candidate would prefer a project focused on a contribution to the WrapIt tool development, a solid knowledge of C++ would be required.
 
 ## Mentors
  * **[Pere Mato](mailto:pere.mato@cern.ch)** CERN
@@ -43,4 +57,5 @@ Interested students please contact [Pere](mailto:Pere.Mato@cern.ch) and [Philipp
  * [ROOT](https://root.cern.ch)
  * [Interoperability between Julia and other languages](https://github.com/JuliaInterop)
  * [LLVM](https://llvm.org)
-
+ 
+ *Updated on Feb. 15, 2024*
