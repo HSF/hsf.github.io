@@ -7,6 +7,7 @@ layout: plain
 
 ## Full Mentor List (Name, Email, Org)
 * Parth Arora [partharora99160808@gmail.com](mailto:partharora99160808@gmail.com) CompRes
+* Anutosh Bhat [anutosh.bhat@quantstack.net](mailto:anutosh.bhat@quantstack.net) QuantStack
 * Jakob Blomer [jakob.blomer@cern.ch](mailto:jakob.blomer@cern.ch) CERN
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Peter Van Gemmeren [peter.van.gemmeren@cern.ch](mailto:peter.van.gemmeren@cern.ch) ANL
@@ -17,6 +18,7 @@ layout: plain
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) CompRes
 * Wim Lavrijsen [wlavrijsen@lbl.gov](mailto:wlavrijsen@lbl.gov) CompRes
 * Thomas Madlener [thomas.madlener@cern.ch](mailto:thomas.madlener@desy.de) DESY
+* Johan Mabille [johan.mabille@quantstack.net](mailto:johan.mabille@quantstack.net) QuantStack
 * Pere Mato [pere.mato@cern.ch](mailto:pere.mato@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes
 * Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
