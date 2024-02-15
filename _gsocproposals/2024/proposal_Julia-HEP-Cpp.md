@@ -1,6 +1,6 @@
 ---
-project: HSF
-title: Julia interoperating with HEP C++ libraries: the ROOT I/O case 
+project: JuliaHEP
+title: Julia interoperating with HEP C++ libraries
 layout: gsoc_proposal
 year: 2024
 difficulty: high
