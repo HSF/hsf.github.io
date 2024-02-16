@@ -21,11 +21,11 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 
 ## Conveners
 
-- John Chapman (ATLAS, University of Cambridge)
+- Kolja Kauder (BNL, EIC/STAR)
 - Krzysztof Genser (Mu2e, Geant4, Fermilab)
-- Sandro Wenzel (ALICE, CERN)
+- Tommaso Lari (ATLAS, Milano)
 
-[Email the conveners](mailto:Ben.Morgan@warwick.ac.uk,kpedro88@gmail.com,genser@fnal.gov).
+[Email the conveners](mailto:tommaso.lari@mi.infn.it,genser@fnal.gov,kkauder@gmail.com).
 
 ### Former Conveners
 
@@ -35,3 +35,5 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 - Witek Pokorski (Geant4), 2019-2020
 - Ben Morgan (ATLAS, Geant4, University of Warwick), 2021-2022
 - Kevin Pedro (CMS, Fermilab), 2021-2022
+- John Chapman (ATLAS, University of Cambridge), 2023
+- Sandro Wenzel (ALICE, CERN), 2023
