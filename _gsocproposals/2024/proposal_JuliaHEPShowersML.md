@@ -37,6 +37,8 @@ Review the most successful models implemented in the CaloChallenge, to understan
 
 ## Mentors
 
+*Please do not contact mentors directly at this stage*. We will shortly publish an *evaluation exercise* for candidates to complete first.
+
 * **[Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch)**
 * [Pere Mato](mailto:pere.mato@cern.ch)
 * [Piyush Raikwar](mailto:piyush.raikwar@cern.ch)
