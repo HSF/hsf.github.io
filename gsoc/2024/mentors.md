@@ -29,3 +29,8 @@ layout: plain
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
 * Petro Zarytskyi [petro.zarytskyi@gmail.com](mailto:petro.zarytskyi@gmail.com) CompRes
+* Enrico Bocchi [enrico.bocchi@cern.ch](mailto:enrico.bocchi@cern.ch) CERN
+* Gianmaria Del Monte [gianmaria.del.monte@cern.ch](mailto:gianmaria.del.monte@cern.ch) CERN
+* Roberto Valverde [roberto.valverde@cern.ch](mailto:roberto.valverde@cern.ch) CERN
+* Zachary Goggin [zachary.goggin@cern.ch](mailto:zachary.goggin@cern.ch) CERN
+
