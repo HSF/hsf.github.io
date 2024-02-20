@@ -20,7 +20,7 @@ be scaled by operators as demand increases or decreases. CBACK is currently depl
 
 ## Task ideas
 This project proposes that the potential candidate undertakes the following tasks, with the primary aim of breaking this static nature:
-* Develop A new "scheduler" agent type, responsible for polling the internal DB, and spawning other agents via kubernetes based on service demand.
+* Develop a new "scheduler" agent type, responsible for polling the internal DB, and spawning other agents via kubernetes based on service demand.
 * Write changes and Helm charts for existing agents, allowing for their containerization / spawning by the new "scheduler"
 * With assistance, write changes that allow for a limitation of scope IRGT the file mounts of a node (or container) running a job agent by using cephx keys 
 * Document the changes they are responsible for creating to cback
