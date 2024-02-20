@@ -17,6 +17,7 @@ We have been compiling a set of [project guidelines](project_guidelines.html) th
 {:.table .table-hover .table-condensed .table-striped}
 | Name  | Description | License | Contact |
 | --------| ------------- |----------|-----------|
+| CondDB [Client](https://github.com/BNLNPPS/nopayloadclient/) [Server](https://github.com/BNLNPPS/nopayloaddb) | Conditions Database implementation following the [HSF CondDB]({{ site.baseurl }}/activities/conditionsdb.html) recommendations | TBD | [Lino Gerlach](mailto:lino.oscar.gerlach@cern.ch) and [Ruslan Mashinistov](ruslan.mashinistov@cern.ch) |
 | [DD4hep](https://github.com/AIDASoft/DD4hep)   | Generic Detector Description toolkit for HEP  | LGPL v3 | [Markus Frank](mailto:marks.frank@cern.ch) |
 | [fads](https://pkg.go.dev/go-hep.org/x/hep/fads?tab=doc)          | FAst Detector Simulation  | BSD-3 | [Sebastien Binet](mailto:binet@cern.ch) |  
 | [Gaudi](http://gaudi.web.cern.ch/gaudi/)          | Event data processing framework | Apache-2 | [Marco Clemencic](mailto:marco.clemencic@cern.ch) |  
