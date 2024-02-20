@@ -3,6 +3,13 @@ title: "HSF Presentations"
 layout: plain
 ---
 
+## 2023
+
+* [HEP Software Status and Future](https://indico.desy.de/event/38293/contributions/152220/attachments/86974/116036/icfa-hep-software.pdf), [ICFA Seminar 2023](https://indico.desy.de/event/38293/overview), 29 November 2023, Graeme A Stewart
+* [The interface to computing - HSF perspective](https://indico.ego-gw.it/event/590/contributions/5602/attachments/3074/5475/et-workshop-software.pdf), [Einstein Telescope Computing and Data Requirements Workshop](https://indico.ego-gw.it/event/590/overview), 27 October 2023, Graeme A Stewart
+* [Computing in Physics](https://indico.scc.kit.edu/event/3476/contributions/14452/attachments/6696/10532/mu-days-computing-talk.pdf), [Hemholtz MU Days](https://indico.scc.kit.edu/event/3476/overview), 15 September 2023, Graeme A Stewart
+* [HSF: Year in Review and 2023 Outlook](https://indico.jlab.org/event/675/contributions/11983/attachments/8777/12655/HEP%20Software%20Foundation,%20S%26C%20Roundtable%20Review.pdf), [Software and Computing Roundtable](https://indico.jlab.org/event/675), 17 January 2023, Graeme A Stewart
+
 ## 2022
 
 * [The HEP Software Foundation](https://indico.cern.ch/event/1204125/contributions/5129308/attachments/2553377/4399333/HSF.pdf), [SMARTHEP kick-off workshop](https://indico.cern.ch/event/1204125/), 24 November 2022, Benedikt Hegner
