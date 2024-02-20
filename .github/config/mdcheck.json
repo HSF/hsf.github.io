@@ -11,6 +11,9 @@
     },
     {
       "pattern": "https://ariostas.com"
+    },
+    {
+      "pattern": "https://indico.desy.de"
     }
   ],
   "replacementPatterns": [
