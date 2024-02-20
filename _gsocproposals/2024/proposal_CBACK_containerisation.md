@@ -39,10 +39,10 @@ This project proposes that the potential candidate undertakes the following task
 * Restic (a plus, but not necessary)
 
 ## Mentors
-[Gianmaria Del Monte](mailto:gianmaria.del.monte@cern.ch) (CBACK)
-[Enrico Bocchi](mailto:enrico.bocchi@cern.ch) (Kubernetes)
-[Roberto Valverde](mailto:roberto.valverde@cern.ch) (CBACK)
-**[Zachary Goggin](mailto:zachary.goggin@cern.ch) (CBACK)**
+* [Gianmaria Del Monte](mailto:gianmaria.del.monte@cern.ch) (CBACK)
+* [Enrico Bocchi](mailto:enrico.bocchi@cern.ch) (Kubernetes)
+* [Roberto Valverde](mailto:roberto.valverde@cern.ch) (CBACK)
+* **[Zachary Goggin](mailto:zachary.goggin@cern.ch) (CBACK)**
 
 ## Links
 * [CBACK HEPiX Introduction](https://cds.cern.ch/record/2767135?ln=en)
