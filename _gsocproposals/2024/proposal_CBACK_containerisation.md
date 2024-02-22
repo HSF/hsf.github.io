@@ -14,7 +14,7 @@ mentor_avail: July-September
 The Storage department at CERN is responsible for the preservation and backup strategy of 880PB+ of disk based data across various storage infrastructure solutions. 
 Excluding physics data, Backups must also be provided for internal user facing name-spaces, one of the main projects used for this purpose at Cern is CBACK (Cern Backup.) 
 
-CBACK is a scaleable backup Orchestrator that uses Restic combined with a central SQL DB to store information on different "jobs" (Backup, Restore, Prune, Verify) 
+CBACK is a scalable backup Orchestrator that uses Restic combined with a central SQL DB to store information on different "jobs" (Backup, Restore, Prune, Verify) 
 These jobs can be picked up by stateless agents of a corresponding type (e.g. backup job -> backup Agent) for completion, allowing the number of "agents" to easily
 be scaled by operators as demand increases or decreases. CBACK is currently deployed as static infrastructure on VM's thus this expansion is manual. 
 
@@ -39,10 +39,10 @@ This project proposes that the potential candidate undertakes the following task
 * Restic (a plus, but not necessary)
 
 ## Mentors
-[Gianmaria Del Monte](mailto:gianmaria.del.monte@cern.ch) (CBACK)
-[Enrico Bocchi](mailto:enrico.bocchi@cern.ch) (Kubernetes)
-[Roberto Valverde](mailto:roberto.valverde@cern.ch) (CBACK)
-**[Zachary Goggin](mailto:zachary.goggin@cern.ch) (CBACK)**
+* [Gianmaria Del Monte](mailto:gianmaria.del.monte@cern.ch) (CBACK)
+* [Enrico Bocchi](mailto:enrico.bocchi@cern.ch) (Kubernetes)
+* [Roberto Valverde](mailto:roberto.valverde@cern.ch) (CBACK)
+* **[Zachary Goggin](mailto:zachary.goggin@cern.ch) (CBACK)**
 
 ## Links
 * [CBACK HEPiX Introduction](https://cds.cern.ch/record/2767135?ln=en)
