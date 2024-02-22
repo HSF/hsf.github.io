@@ -39,11 +39,15 @@ A fast and accurate diffusion model for fast simulation of calorimetry showers.
 * Solid knowledge of ML, DL, and Transformers
 * Strong Python, TensorFlow/PyTorch skills
 
-## Evaluation Tasks
+## Evaluation Tasks and Timeline
 
-Python and ML exercises.
+1. Find the test [here](https://docs.google.com/document/d/14HTFBO845FQlU0oYerkR_1dFzQsoZ3mgOPThjsJ6BTQ/edit?usp=sharing). Please submit it via email by 9:00 CET 7th March 2024.
+2. We will make the selections based on the test and resume by 17:00 CET 8th March.
+3. Students should write a short proposal (2 pages max) describing how they would approach the problem. Submit this by 18th March. We advise you to not start working on the proposal before you hear from us on 8th March.
+4. We will do a second round of selection based on the short proposal. Then students will write the full proposal and submit it according to the official GSoC timeline.
 
 ## Mentors
+(Please don't email before completing the test. It's not possible to reply to everyone.)
 * [Piyush Raikwar](mailto:piyush.raikwar@cern.ch) (CERN)
 * Peter McKeown
 
