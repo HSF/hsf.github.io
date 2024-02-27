@@ -1,6 +1,21 @@
 # Sorted by ascending date => New events go on top
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
+- author: Sudhir Malik
+  date: 2024-04-15
+  deadline: ''
+  end_date: 2024-04-19
+  source: hhttps://indico.cern.ch/event/1370034/
+  tags: []
+  title: First steps with Geant4
+- author: Sudhir Malik
+  date: 2024-02-26
+  deadline: ''
+  end_date: 2024-03-01
+  source: https://indico.cern.ch/event/1375507/
+  tags:
+  - HSF
+  title: Training on Analysis Pipelines (Virtual)
 - author: Kilian Lieret
   date: 2023-11-22
   deadline: ''
