@@ -35,9 +35,11 @@ Review the most successful models implemented in the CaloChallenge, to understan
 * Prior experience in Julia (very advantageous)
 * A background understanding of high-energy physics (advantageous)
 
-## Mentors
+## Evaluation Exercise
 
-*Please do not contact mentors directly at this stage*. We will shortly publish an *evaluation exercise* for candidates to complete first.
+The evaluation exercise for this project is [here](https://github.com/graeme-a-stewart/hfs-julia-ml-gsoc/). When you have finished the evaluation please contact the mentors with your solution (before *18 March*, no evaluations will be accepted afterwards).
+
+## Mentors
 
 * **[Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch)**
 * [Pere Mato](mailto:pere.mato@cern.ch)
