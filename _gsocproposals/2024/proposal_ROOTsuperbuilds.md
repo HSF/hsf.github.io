@@ -38,6 +38,7 @@ CMake, C++, Python, Git, Github Actions.
 
 ## Mentors
   * [Vassil Vassilev](mailto:Vassil.Vassilev@cern.ch)
+  * Second mentor: To be announced
 
 
 ## Links
