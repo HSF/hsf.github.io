@@ -12,7 +12,10 @@ This liquid template produces the list of organizations for the year passed as a
   {% assign year_position = url_tokens.size | minus: 2 %}
   {% assign org_year = url_tokens[year_position] %}
   {% capture org_summary %}{%if org.summary %}{{ org.summary }}{%else%}{{ org.description}}{%endif%}{% endcapture %}
-  {% assign org_summary = org_summary | strip_newlines | markdownify %}
+{% comment %}
+Just stripping the newlines out of the description often results in incorrect whitespace - explicitly replace with whitespace instead.
+{% endcomment %}
+  {% assign org_summary = org_summary | newline_to_br | strip_newlines | replace: '<br />', ' '  | strip_html | strip | markdownify %}
   {% if org_year == include.year %}
   <tr>
     {% if org.logo %}
