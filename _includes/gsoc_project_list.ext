@@ -12,7 +12,10 @@ This liquid template produces the list of projects for the year passed as a para
   {% assign year_position = url_tokens.size | minus: 2 %}
   {% assign project_year = url_tokens[year_position] %}
   {% capture project_summary %}{%if project.summary %}{{ project.summary }}{%else%}{{ project.description}}{%endif%}{% endcapture %}
-  {% assign project_summary = project_summary | strip_newlines | markdownify %}
+{% comment %}
+Just stripping the newlines out of the description often results in incorrect whitespace - explicitly replace with whitespace instead.
+{% endcomment %}
+  {% assign project_summary = project_summary | newline_to_br | strip_newlines | replace: '<br />', ' '  | strip_html | strip | markdownify %}
   {% if project_year == include.year %}
   <tr>
     {% if project.logo %}
