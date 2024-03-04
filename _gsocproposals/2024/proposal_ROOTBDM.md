@@ -19,17 +19,17 @@ libraries. It uses object-oriented concepts and build-time modules to layer
 between components. We believe additional layering formalisms will benefit ROOT
 and its users.
 
-BioDynaMo is suite that enables users to perform simulations of previously
-unachievable scale and complexity, making it possible to tackle challenging
-scientific research questions. BioDynaMo leverages technologies such as ROOT to
-enable large scale computations. The project has wide range of applications in
-the field of cancer research, epidemiology, and social sciences.
+BioDynaMo is an agent-based simulation platform that enables users to perform 
+simulations of previously unachievable scale and complexity, making it possible 
+to tackle challenging scientific research questions. The project has a wide range 
+of applications in cancer research, epidemiology, and social sciences.
 
-BioDynaMo incorporates ROOT as a subsystem and uses the ROOT data storage
-facilities to provide efficient reflection information about user-defined
-simulation actions written as C++ classes. This project is about upgrading the
-reflection system to use C++ modules improving scalability of user-defined
-classes.
+
+BioDynaMo incorporates ROOT for several crucial functionalities such as statistical 
+analysis, random number generation, C++-based Jupyter notebooks, and IO. Some 
+features rely on efficient reflection information about BioDynaMo's and user-defined 
+C++ classes. This project is about improving the performance of the reflection system 
+by upgrading to C++ modules.
 
 
 ## Expected results
