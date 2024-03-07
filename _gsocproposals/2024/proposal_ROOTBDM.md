@@ -3,6 +3,9 @@ title: Improving performance of BioDynaMo using ROOT C++ Modules
 layout: gsoc_proposal
 project: ROOT
 year: 2024
+difficulty: medium
+duration: 350
+mentor_avail: June-October
 organization: 
   - CERN
   - CompRes
