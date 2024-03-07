@@ -3,6 +3,9 @@ title: Using ROOT in the field of genome sequencing
 layout: gsoc_proposal
 project: ROOT
 year: 2024
+difficulty: medium
+duration: 350
+mentor_avail: June-November
 organization: 
   - CERN
   - CompRes
