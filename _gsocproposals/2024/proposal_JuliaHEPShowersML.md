@@ -37,7 +37,9 @@ Review the most successful models implemented in the CaloChallenge, to understan
 
 ## Evaluation Exercise
 
-The evaluation exercise for this project is [here](https://github.com/graeme-a-stewart/hfs-julia-ml-gsoc/). When you have finished the evaluation please contact the mentors with your solution (before *18 March*, no evaluations will be accepted afterwards).
+**This project is not accepting more submissions to the evaluation project. If you have not yet been in contact with the mentors then please do not submit a solution.**
+
+The evaluation exercise for this project is [here](https://github.com/graeme-a-stewart/hfs-julia-ml-gsoc/). 
 
 ## Mentors
 
