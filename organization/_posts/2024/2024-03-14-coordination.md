@@ -3,7 +3,7 @@ title: "HSF Coordination Meeting #266, 14 March 2024"
 layout: plain_toc
 ---
 
-Present/Contributing: Eduardo Rodrigues, Tamas Gal, Tommaso Lari, Pere Mato, Krzysztof Genser, Kolja Kauder, Claire Antel, Matthew Feickert, Christina Agapopoulou, Nick Smith
+Present/Contributing: Eduardo Rodrigues, Tamas Gal, Tommaso Lari, Pere Mato, Krzysztof Genser, Kolja Kauder, Claire Antel, Matthew Feickert, Christina Agapopoulou, Nick Smith, Saptaparna Bhattacharya
 
 Apologies/Contributing: Graeme Stewart, Andrea Valassi, Benedikt Hegner
 
