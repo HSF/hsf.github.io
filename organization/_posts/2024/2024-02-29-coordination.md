@@ -38,48 +38,15 @@ This is your chance to show off how good your project is and to meet and talk to
 
 Generators presented at the last LHCC meeting, with a number of comments/findings from the HSF discussions. Echoed from the generator workshop from last November: 
 - need better pipelines for generator software development
-- [see also workshop conclusions]
 - LHCC would like experiments to get involved in JENA activities and HSF could be the catalyser
 
 ### JENAA
 
-[announcement](https://www.appec.org/news/joint-ecfa-nupecc-appec-activities-jenaa), [website](https://www.appec.org/implementation/joint-ecfa-nupecc-appec-activities), [2023 workshop](https://agenda.infn.it/event/34738/)
+[announcement](https://www.appec.org/news/joint-ecfa-nupecc-appec-activities-jenaa), [website](https://nupecc.org/jenaa/index.php?display=computing), [2023 workshop](https://agenda.infn.it/event/34738/), 
 
 Keep thinking about how to involve the experimental / theory communities in the broader picture of nuclear and astrophysics. 
 
 Related: SFT has a new machine learning group: how to integrate models better into frameworks (and analysis facilities)? 
-
-Email from Andreas Haungs (APPEC chair) on behalf of ECFA and NuPECC chairs: 
-
-> Dear colleague,
->  
-> You are receiving this email because you were registered for the JENA Computing Workshop in Bologna in June this year.
->  
-> In the meantime, we have analysed the workshop and decided to set up a number of working groups to prepare a White Paper on European Federated Computing in 2024 as input to the next JENA meeting in early 2025.
->  
-> We cordially invite you to participate in the working groups and support us in this process.
-> After an appropriate registration period, those registered will be contacted by the chairs for a first meeting of the working group.
->  
-> Registration is possible via indico (see below). There you also will find a preliminary description of the topic of the working group and a summary of the Bologna workshop, which you can also see here.
-> HPC                   <https://indico.scc.kit.edu/e/JENA_computing_wp1/>
-> 
-> Software              <https://indico.scc.kit.edu/e/JENA_computing_wp2/> --> mailing list exists, ask Graeme 
-> 
-> Data                  <https://indico.scc.kit.edu/e/JENA_computing_wp3/>
-> 
-> ML                     <https://indico.scc.kit.edu/e/JENA_computing_wp4/>
-> 
-> TDE                    <https://indico.scc.kit.edu/e/JENA_computing_wp5/>
-> 
->  
-> Please register for one or more of these working groups via Indico as soon as possible.
-> As we will be distributing this invitation widely across all three JENA communities, you may receive it more than once - we apologise for this.
-> However, please feel free to forward this invitation to specific colleagues that you think would be interested and helpful to our mission.
->  
-> With our best regards
-> Andreas Haungs for the JENA Computing Working group
-
-Meetings appear on this indico category: <https://indico.cern.ch/category/18013/>, if you aren't sure of how to join WGs other than WG2, ask Caterina and Graeme and they can find out (not sure the KIT indicos have by now decoupled from the mailing lists that are being created to distribute information). 
 
 ### Google Summer of Code 2024
 
@@ -101,18 +68,6 @@ Q&A from later on in the meeting:
 Work in progress: next meeting of the core coordination team next week, producing some text for everyone to look at. 
 
 ## Working Group Updates
-
-### General Standing Reminders
-
-#### Website banners
-
-We have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files [here](https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023).
-
-#### Meetings
-
-Please try and book meetings in Indico at least 2 weeks in advance!
-
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
 
 ### Data Analysis
 
