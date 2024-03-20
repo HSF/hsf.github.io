@@ -141,7 +141,7 @@ We are always looking for volunteers from the community to help us with our trai
 {% endif %}
 ## Conveners
 
-{% assign persons = "Alexander Moreno Briceño, Valeriia Lukashenko, Jim Pivarski, Holly Szumila" | split: ", " %}
+{% assign persons = "Alexander Moreno Briceño, Lera Lukashenko, Jim Pivarski, Holly Szumila-Vance" | split: ", " %}
 {% include list_of_selected_profiles.html %}
 
 The conveners can be [reached by email](mailto:alexander.moreno@uan.edu.co,valeriia.lukashenko@cern.ch,pivarski@princeton.edu,hszumila@jlab.org). <!-- markdown-link-check-disable-line -->
