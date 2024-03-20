@@ -28,6 +28,7 @@ layout: plain
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
 * Fons Rademakers [Fons.Rademakers@cern.ch](mailto:Fons.Rademakers@cern.ch) CERN
 * Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
+* Jonas Rembser [jonas.rembser@cern.ch](mailto:jonas.rembser@cern.ch) CERN
 * Juraj Smiesko [juraj.smiesko@cern.ch](mailto:juraj.smiesko@cern.ch) CERN
 * Graeme Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN
 * Maciej Szymański [maciej.szymanski@cern.ch](mailto:maciej.szymanski@cern.ch) ANL
