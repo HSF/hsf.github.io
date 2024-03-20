@@ -52,6 +52,7 @@ def run_cuda_mul(A, B, out):
 * **[Aaron Jomy](mailto:aaron.jomy@cern.ch)**
 * [Wim Lavrijsen](mailto:wlavrijsen@lbl.gov)
 * [Vassil Vassilev](mailto:vvasilev@cern.ch)
+* [Jonas Rembser](mailto:jonas.rembser@cern.ch)
 
 ## Links
 * [Repo](https://github.com/wlav/cppyy)
