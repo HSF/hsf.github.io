@@ -40,8 +40,8 @@ CMake, C++, Python, Git, Github Actions.
 
 
 ## Mentors
+  * [Danilo Piparo](mailto:danilo.piparo@cern.ch)
   * [Vassil Vassilev](mailto:Vassil.Vassilev@cern.ch)
-  * Second mentor: To be announced
 
 
 ## Links
