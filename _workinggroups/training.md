@@ -149,7 +149,7 @@ The conveners can be [reached by email](mailto:alexander.moreno@uan.edu.co,valer
 ### Former Conveners:
 
 - Sudhir Malik (CMS, University of Puerto Rico), 2018-2022
-- Michel Hernandez Villanueva (Belle II, DESY), 2022
+- Michel Hernandez Villanueva (Belle II, DESY), 2021-2022
 - Dario Menasce (INFN Milano), 2016-2019
 - Sam Meehan (CERN, ATLAS and FASER), 2020
 - Meirin Oan Evans (ATLAS), 2021
