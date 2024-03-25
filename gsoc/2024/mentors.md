@@ -26,6 +26,7 @@ layout: plain
 * Pere Mato [pere.mato@cern.ch](mailto:pere.mato@cern.ch) CERN
 * Gianmaria Del Monte [gianmaria.del.monte@cern.ch](mailto:gianmaria.del.monte@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
+* Danilo Piparo [danilo.piparo@cern.ch](mailto:danilo.piparo@cern.ch) CERN
 * Fons Rademakers [Fons.Rademakers@cern.ch](mailto:Fons.Rademakers@cern.ch) CERN
 * Piyush Raikwar [piyush.raikwar@cern.ch](mailto:piyush.raikwar@cern.ch) CERN
 * Jonas Rembser [jonas.rembser@cern.ch](mailto:jonas.rembser@cern.ch) CERN
