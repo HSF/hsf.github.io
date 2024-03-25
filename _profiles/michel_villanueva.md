@@ -23,7 +23,7 @@ layout: educator
 ---
 
 <!-- markdown-link-check-disable-next-line -->
-Hola! I'm Michel Hernandez Villanueva. I'm a researcher at BNL, working on the [Belle II](https://belle2.jp) experiment.
+Hola! I'm Michel Hernandez Villanueva. I'm a researcher at Brookhaven National Laboratory, working on the [Belle II](https://belle2.jp) experiment.
 My main interests are flavor physics with tau leptons, analysis on distributed computing environments, training, and outreach.
 A software and computing problem I’m grappling with is the scalability of the Belle II analysis workflow in the high-luminosity scenario.
 
