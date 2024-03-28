@@ -39,4 +39,5 @@ layout: plain
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
 * Petro Zarytskyi [petro.zarytskyi@gmail.com](mailto:petro.zarytskyi@gmail.com) CompRes
-
+* Lorenzo Moneta [lorenzo.moneta@cern.ch](mailto:lorenzo.moneta@cern.ch) CERN
+* Sanjiban Sengupta [sanjiban.sg@gmail.com](mailto:sanjiban.sg@gmail.com) CERN
