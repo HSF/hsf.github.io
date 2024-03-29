@@ -1,7 +1,7 @@
 ---
 title: SOFIE Developments - Inference Code Generation for Deep Learning models
 layout: gsoc_proposal
-project: ROOT/TMVA
+project: ROOT
 difficulty: medium
 duration: 350
 mentor_avail: May-September
