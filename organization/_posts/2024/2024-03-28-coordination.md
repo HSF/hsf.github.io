@@ -106,10 +106,12 @@ The Analysis Facilities Forum [Whitepaper](https://docs.google.com/document/d/1P
 
 [Indico agenda](https://indico.cern.ch/category/12741/)
 
-- April: high-performance I/O for HEP
-- May: GPU infrastructure and tools being developed; CERN infrastructure update
+- 10 April: high-performance I/O for HEP
+- 8 May: GPU infrastructure and tools being developed; CERN infrastructure update
+- 29 May: NVidia Roadmap Update
+- 12 June: AMD GPU roadmap update
 
-Planned to have AMD later this year (June?) with CPU/GPU updates; and an update from Nvidia. 
+Planned to have AMD CPU update later this year.
 
 ### Software and Computing Roundtable
 
