@@ -41,3 +41,4 @@ layout: plain
 * Petro Zarytskyi [petro.zarytskyi@gmail.com](mailto:petro.zarytskyi@gmail.com) CompRes
 * Lorenzo Moneta [lorenzo.moneta@cern.ch](mailto:lorenzo.moneta@cern.ch) CERN
 * Sanjiban Sengupta [sanjiban.sg@gmail.com](mailto:sanjiban.sg@gmail.com) CERN
+* Neel Shah [neelshah29042002@gmail.com](mailto:neelshah29042002@gmail.com) CERN

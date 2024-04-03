@@ -32,7 +32,7 @@ Interested students please contact the mentors for a warm-up and evaluation task
 ## Mentors
  * **[Lorenzo Moneta](mailto:Lorenzo.Moneta@cern.ch)**
  * [Sanjiban Sengupta](mailto:sanjiban.sg@gmail.com)
-
+ * [Neel Shah](mailto:neelshah29042002@gmail.com)
 
 ## Links
  * [ROOT](https://root.cern/)
