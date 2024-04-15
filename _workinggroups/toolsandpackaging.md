@@ -61,11 +61,13 @@ Documentation for these *test drive* setups is in the group's
 The group is currently coordinated by:
 
 
-- Valentin Volkl (FCC and CERN)
 - Patrick Gartung (Fermilab)
-- Henry Schreiner (IRIS-HEP / Princeton)
+- Nathan Brei (Jefferson Lab)
+- Reiner Hauser (ATLAS)
+- Andrea Valenzuela Ramirez (CMS)
 
-All the coordinators can be reached [by email](mailto:henryschreineriii@gmail.com,gartung@fnal.gov,valentin.volkl@cern.ch). <!-- markdown-link-check-disable-line -->
+
+All the coordinators can be reached [by email](mailto:gartung@fnal.gov,nbrei@jlab.org,reiner.hauser@cern.ch,andrea.valenzuela.ramirez@cern.ch). <!-- markdown-link-check-disable-line -->
 
 ### Activities
 
@@ -83,3 +85,5 @@ All the coordinators can be reached [by email](mailto:henryschreineriii@gmail.co
 - Mircho Rozodov (CMS), 2021
 - Alaettin Serhan Mete (ATLAS and ANL), 2021-2022
 - Marc Paterno (DUNE and Fermilab), 2021-2022
+- Valentin Volkl (FCC and CERN), 2023
+- Henry Schreiner (IRIS-HEP / Princeton), 2023
