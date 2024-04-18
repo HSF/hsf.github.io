@@ -1,5 +1,5 @@
 ---
-title: "Charing an HSF Coordination Meeting"
+title: "Chairing an HSF Coordination Meeting"
 layout: plain
 ---
 
