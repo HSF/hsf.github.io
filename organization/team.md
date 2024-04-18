@@ -26,3 +26,5 @@ The entire team can be contacted via <hsf-coordination@googlegroups.com>.
 ## Meeting Minutes
 
 Coordination team minutes form part of the [meetings archive]({{ site.baseurl }}/minutes.html).
+
+Volunteers chair the meetings (see the [schedule](https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit?usp=sharing) to sign up) and there is a [short guide to chairing the meeting]({{ site.baseurl }}/organization/running-meetings.html) for new chairs.
