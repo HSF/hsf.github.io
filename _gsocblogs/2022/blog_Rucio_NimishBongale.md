@@ -174,7 +174,7 @@ The Rucio Client is an important piece of abstraction, playing a vital role in t
 
 #### SCSS Architecture
 
-The SCSS arhitecture in the new WebUI 2.0 is unconventional, but serves a mighty purpose - to have the ability to build our own components on the fly, or use out-of-the-box SCSS to style existing components. As a result, Rucio flavoured components are now a reality.
+The SCSS architecture in the new WebUI 2.0 is unconventional, but serves a mighty purpose - to have the ability to build our own components on the fly, or use out-of-the-box SCSS to style existing components. As a result, Rucio flavoured components are now a reality.
 
 #### Configuration & Environment Variable Control
 

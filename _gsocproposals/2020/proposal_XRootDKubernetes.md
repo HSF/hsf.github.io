@@ -22,7 +22,7 @@ This project aims to develop a Kubernetes Operator for XRootD in order to ease a
 
  * Provide an **XRootD operator**, which will demonstrate how to deploy and manage an XRootD service at scale, using Kubernetes.
  * Implement Kubernetes operator's advanced features like **seamless upgrades**, **full lifecycle**, **deep insights** and **auto-pilot**.
- * Explain to the **XRootD community** and in peculiar, to the XRootD system administrators, how to leverage this  Kubernetes Operator in order to ease and scale up worlwide XRootD clusters management.
+ * Explain to the **XRootD community** and in peculiar, to the XRootD system administrators, how to leverage this  Kubernetes Operator in order to ease and scale up worldwide XRootD clusters management.
 
 ## Expected results
 
