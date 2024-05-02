@@ -1,25 +1,7 @@
 ---
-tags: HSF, Minutes
-lang: en-gb
-description: HSF Meeting Notes
+title: "HSF Coordination Meeting #267, 25 April 2024"
+layout: plain_toc
 ---
-
-# HSF Coordination Meeting #268, 25 April 2024
-
----
-
-*This notebook is used to record the minutes of the HSF Coordination meetings. These are archived after each meeting onto the [HSF Website](https://hepsoftwarefoundation.org).*
-
-## Tips
-
-- If you find you cannot edit these notes please login with your GitHub account!
-
-- If you are adding a URL, please use `<` and `>` to make it an active link, as in `<https://daringfireball.net/projects/markdown/syntax#autolink>`
-    - Without the <>s the link is not active in Jekyll, even if it is in CodiMD
-- Please use `-` to indicate lists in this file (we try to avoid mixing `-` and `*` in the same file - it's markdown lint!)
-- Please use the Zoom "raise hand" if you'd like to make a comment in the meeting
-
-## Attending
 
 Present/Contributing: Stefan Roiser, Graeme Stewart, Michel Jouvin, Jamie Gooding, Tommaso Lari, Krzysztof Genser, Reiner Hauser, Claire Antel, Liz Sexton-Kennedy, Eduardo Rodrigues, Joe Osborn, Alexander Moreno, Mark Neubauer
 
@@ -55,7 +37,7 @@ There will also be a dedicated session on Analysis Facilities.
 
 Deadline for evaluation input was last week.
 
-News on slots?
+We are still waiting for news on slots awarded.
 
 ### HSF Evolution
 
@@ -74,10 +56,10 @@ We have discussed a number of points:
     - It should have an elected chair from the ECs
     - Meets ~1/year
 - The relationship with software projects; final document still in preparation, but a number of promising lines identified
-    - HSF endorsment/recognision for community software projects
+    - HSF endorsement/recognition for community software projects
         - This is a "badge" system, with different levels
         - Projects need to be evaluated
-        - No control is ceded to the HSF - the project is owned and contolled by its developers
+        - No control is ceded to the HSF - the project is owned and controlled by its developers
         - This is just as relevant for small projects and tools as large ones (maybe even more so!)
     - HSF Projects
         - Where a project has been developed in closer association with the HSF and had direct input
@@ -91,24 +73,12 @@ We have discussed a number of points:
         - e.g., Detector simulation on GPUs, DUNE framework requirements
     - Effort/resources from the HSF
         - Still considering this and how it could work, modelling on, e.g., [NumFOCUS](https://numfocus.org), which gets foundation funding and industry support
-        - Limited to auxilliary support, e.g., for workshops or travel
-            - Paying people a salary is extremely complicvated
+        - Limited to auxiliary support, e.g., for workshops or travel
+            - Paying people a salary is extremely complicated
         - Would we stand a chance of getting foundation type funding?
             - This will require leg-work, but there is some chance that it would be successful if spun in the right way
 
 ## Working Group Updates
-
-### General Standing Reminders
-
-#### Website banners
-
-We have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files [here](https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023).
-
-#### Meetings
-
-Please try and book meetings in Indico at least 2 weeks in advance!
-
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
 
 ### Data Analysis
 
@@ -138,18 +108,17 @@ That way they go into the calendar early and they will be included in the weekly
 
 ### Reconstruction and Software Trigger
 
-Organising a topical meeting on "4D tracking @ Belle II": 
-- Confirmed date: 8th May
-- Agenda: <https://indico.cern.ch/event/1399441/>
-- Not announced in mailing list yet.
-- Two talks: "Hit Timing Determination in Belle2 SVD" (Luigi Corona) & "SVD Timing in Tracking at Belle2" (Thomas Lueck)
-- Thanks to Giulia for providing the speakers and Joe for following up.
-- Discussion with some others about an additional 4D tracking meeting to follow the Belle2 focused discussion 
+- Organising a topical meeting on "4D tracking @ Belle II":
+    - Confirmed date: 8th May
+    - Agenda: <https://indico.cern.ch/event/1399441/>
+    - Not announced in mailing list yet.
+    - Two talks: "Hit Timing Determination in Belle2 SVD" (Luigi Corona) & "SVD Timing in Tracking at Belle2" (Thomas Lueck)
+    - Thanks to Giulia for providing the speakers and Joe for following up.
+    - Discussion with some others about an additional 4D tracking meeting to follow the Belle2 focused discussion 
 
-To get WG google-group white listed by CERN IT (_before_ sending a first email), it helped to cc Graeme in ticket who linked past tickets and attached [screenshots](https://cernbox.cern.ch/s/qaPY2M9rWlfXrWm) 
+- To get WG google-group white listed by CERN IT (_before_ sending a first email), it helped to cc Graeme in ticket who linked past tickets and attached [screenshots](https://cernbox.cern.ch/s/qaPY2M9rWlfXrWm) 
 
 >It's the xorlabs filter that does this, see tickets [INC3759294 ](https://cern.service-now.com/service-portal?id=ticket&table=incident&n=INC3759294)and [INC3761021](https://cern.service-now.com/service-portal?id=ticket&table=incident&n=INC3761021). I pasted a few screenshots of how this happened for other HSF lists that are now unblocked.
- 
 
 ### JuliaHEP
 
@@ -162,14 +131,14 @@ To get WG google-group white listed by CERN IT (_before_ sending a first email),
 ### Tools and Packaging
 
 - We plan to have a topical meeting on experience with using SPACK in existing experiments
-    - CMS, LHCb, FNAL(Patrick, TBC)
+    - CMS, LHCb, FNAL (Patrick, TBC)
     - No date set yet, we would prefer to have a single meeting rather than spread it out over multiple ones
 
 ## Other Interest and Activity Areas
 
 ### Analysis Facilities
 
-[Session at the WLCG-HSF workshop](https://indico.cern.ch/event/1369601/timetable/#20240516) to look forward to
+[Session at the WLCG-HSF workshop](https://indico.cern.ch/event/1369601/timetable/#20240516) to look forward to.
 
 ### Compute and Accelerator Forum
 
@@ -178,9 +147,6 @@ To get WG google-group white listed by CERN IT (_before_ sending a first email),
 - 8 May: GPU infrastructure and tools being developed; CERN infrastructure update
 - 29 May: NVidia Update
 - 12 June: AMD GPU roadmap
-
-### Software and Computing Roundtable
-
 
 ### Event generators
 
@@ -203,4 +169,3 @@ The next meeting will be on [9 May](https://indico.cern.ch/event/1355747/).
 Reminder: please [sign up](https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit) for chairing one of the 2024 meetings.
 
 **We now have a [guide](https://hepsoftwarefoundation.org/organization/running-meetings.html) for running the meeting!**
-
