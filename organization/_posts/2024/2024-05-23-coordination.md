@@ -116,7 +116,7 @@ Main points:
 
 Graeme and Leif will have a chat with Michelangelo to try and understand the evolving efforts here, supported by the LPCC.
 
-Steve: trying to ressurect "apprentice" as a successor to "professor"; good to see that HDF5 version of LHE files is more prominent (LHEH5, see [talk by Chris](https://indico.cern.ch/event/1369601/contributions/5883607/) at the workshop).
+Steve: trying to resurrect "apprentice" as a successor to "professor"; good to see that HDF5 version of LHE files is more prominent (LHEH5, see [talk by Chris](https://indico.cern.ch/event/1369601/contributions/5883607/) at the workshop).
 
 ---
 
