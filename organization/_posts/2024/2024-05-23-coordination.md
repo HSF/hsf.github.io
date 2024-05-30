@@ -1,27 +1,11 @@
 ---
-tags: HSF, Minutes
-lang: en-gb
-description: HSF Meeting Notes
+title: "HSF Coordination Meeting #269, 23 May 2024"
+layout: plain_toc
 ---
-
-# HSF Coordination Meeting #269, 23 May 2024
-
----
-
-*This notebook is used to record the minutes of the HSF Coordination meetings. These are archived after each meeting onto the [HSF Website](https://hepsoftwarefoundation.org).*
-
-## Tips
-
-- If you find you cannot edit these notes please login with your GitHub account!
-
-- If you are adding a URL, please use `<` and `>` to make it an active link, as in `<https://daringfireball.net/projects/markdown/syntax#autolink>`
-    - Without the <>s the link is not active in Jekyll, even if it is in CodiMD
-- Please use `-` to indicate lists in this file (we try to avoid mixing `-` and `*` in the same file - it's markdown lint!)
-- Please use the Zoom "raise hand" if you'd like to make a comment in the meeting
 
 ## Attending
 
-Present/Contributing: Graeme Stewart, Stefan Roiser, Andrea Valassi, Patrick Gartung, Uwe Hernandez Acosta, Eduardo Rodrigues, Joe Osborn, Benedikt Hegner, Pere Mato, Matthew Feickert, Jamie Gooding, Holly Szumila-Vance, Kolja Kauder, Mark Neubauer, Claire Antel, Krzysztof Genser, Tommaso Lari, Steve Mrenna, Benedikt Hegner, Joe Osborn, Juraj Smiesko, 
+Present/Contributing: Graeme Stewart, Stefan Roiser, Andrea Valassi, Patrick Gartung, Uwe Hernandez Acosta, Eduardo Rodrigues, Joe Osborn, Benedikt Hegner, Pere Mato, Matthew Feickert, Jamie Gooding, Holly Szumila-Vance, Kolja Kauder, Mark Neubauer, Claire Antel, Krzysztof Genser, Tommaso Lari, Steve Mrenna, Benedikt Hegner, Joe Osborn, Juraj Smiesko
 
 Apologies/Contributing: Liz Sexton-Kennedy, Paul Laycock
 
@@ -70,33 +54,19 @@ Main points:
     - We need to make some approaches to projects that we think are key to have in this process
     - Project awards (maybe move on this later...?)
 
-
 ## Working Group Updates
-
-### General Standing Reminders
-
-#### Website banners
-
-We have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files [here](https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023).
-
-#### Meetings
-
-Please try and book meetings in Indico at least 2 weeks in advance!
-
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
 
 ### Data Analysis
 
 - DAWG Meeting at 16:00 CET on 10th June '24 dedicated to CMS Combine with talk and discussion from Nick Wardle: https://indico.cern.ch/event/1412073/
 
-
 ### PyHEP
 
 - [PyHEP 2024](https://indico.cern.ch/event/1384010/) (online) (1–4 July, 2024) registration and call for abstracts is open now
-   - Call for Abstracts has been extended to **May 31st**.
-   - Reviews of abstracts will happen rapidly after to accepted abstracts will have enough time to prepare.
+    - Call for Abstracts has been extended to **May 31st**.
+    - Reviews of abstracts will happen rapidly after to accepted abstracts will have enough time to prepare.
 - [PyHEP.dev 2024](https://indico.cern.ch/e/PyHEP2024.dev) (26–30 August, 2024) organisation continues
-   - Workshop in-person in Aachen, Germany 
+    - Workshop in-person in Aachen, Germany 
 
 ### Detector Simulation
 
@@ -117,8 +87,8 @@ That way they go into the calendar early and they will be included in the weekly
 
 ### Reconstruction and Software Trigger
 
- - First meeting of the year on 4D tracking @ Belle II. Very interesting meeting. Participants numbers on the low side however: 11 total, dominated by ATLAS/ACTS (might have been due to public holiday next day).
- - Meeting was recorded - Claire just realised forgot to upload recording. 
+- First meeting of the year on 4D tracking @ Belle II. Very interesting meeting. Participants numbers on the low side however: 11 total, dominated by ATLAS/ACTS (might have been due to public holiday next day).
+- Meeting was recorded - Claire just realised forgot to upload recording. 
 
 ### JuliaHEP
 
@@ -126,9 +96,6 @@ That way they go into the calendar early and they will be included in the weekly
 
 - [JuliaHEP 2024 Workshop at CERN](https://indico.cern.ch/e/juliahep2024) (September 30 - October 3):
     - JuliaHEP Training before the workshop (September 25-27)
-
-### Tools and Packaging
-
 
 ## Other Interest and Activity Areas
 
@@ -144,9 +111,6 @@ That way they go into the calendar early and they will be included in the weekly
 
 - 29 May: NVidia Update
 - 12 June: AMD GPU roadmap
-
-### Software and Computing Roundtable
-
 
 ### Event generators
 
@@ -179,4 +143,3 @@ The next meeting will be on [6 June](https://indico.cern.ch/event/1355749/).
 Reminder: please [sign up](https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit) for chairing one of the 2024 meetings.
 
 **We now have a [guide](https://hepsoftwarefoundation.org/organization/running-meetings.html) for running the meeting!**
-
