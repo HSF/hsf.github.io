@@ -13,7 +13,7 @@ The SG will invite new members from amongst the active HSF members and working g
 
 The SG is convened by a chair, who is elected annually by the group. The chair is responsible for organising the regular SG meetings. The SG organises itself by seeking consensus. If the SG cannot agree on a particular issue, input will be solicited from the HSF Advisory Group and, if appropriate, the wider HSF community. In a last instance, the SG may hold a vote on a particular issue.
 
-Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the team:
+Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the group:
 
 * Caterina Doglioni - University of Manchester
 * Peter Elmer - Princeton University
@@ -31,5 +31,5 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 * Andrea Valassi - CERN
 * Torre Wenaus - BNL
 
-* The entire team can be contacted via <hsf-steering@googlegroups.com>.
+* The entire group can be contacted via <hsf-steering@googlegroups.com>.
 * [Steering Group Meetings in Indico](https://indico.cern.ch/category/10692/)
