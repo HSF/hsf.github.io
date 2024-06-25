@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="80mm"
+   viewBox="0 0 100 80"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="hsf-logo-shield-s-only.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1">HSF: Gold Project</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.1893044"
+     inkscape:cx="191.7087"
+     inkscape:cy="197.59449"
+     inkscape:window-width="1456"
+     inkscape:window-height="819"
+     inkscape:window-x="56"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="245.52167"
+       y="639.02899"
+       width="324.55945"
+       height="253.92995"
+       id="rect5" />
+    <rect
+       x="245.52167"
+       y="639.02899"
+       width="324.55945"
+       height="253.92995"
+       id="rect6" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#aa0000;stroke-width:9.54876;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 50,10 c 0,0 -19.995253,5.548667 -20,20 0.13922,12.137157 10.422126,10.397694 20.278135,10.278966 9.920163,-0.119501 19.413664,1.370939 19.499396,10.388441 C 69.833301,62.081989 50,70 50,70"
+       id="path6"
+       sodipodi:nodetypes="ccscc" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:8;stroke-dasharray:none;stroke-opacity:1"
+       d="M -0.00354758,75.864341 49.92867,71.763101 99.996452,75.864341"
+       id="path5"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:8;stroke-dasharray:none;stroke-opacity:1"
+       d="M -0.00354753,4.4636498 49.99645,8.4636491 99.996447,4.4636498"
+       id="path1"
+       sodipodi:nodetypes="ccc" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>HSF: Gold Project</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
