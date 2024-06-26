@@ -17,7 +17,7 @@ The amount of data that is processed by individual scientists has grown hugely i
 The scale of the computations submitted through the interface is placing increasing constraints on the system. Keeping track of where the tasks are executing, what the status of them are and subsequently dealing with the data that they create has become a bottleneck using the existing solution based on a simple ThreadPool in Python. We are looking for a new implementation of this overall monitoring aspect of Ganga.
 
 ## Task ideas
- * Explore the relative benfits of using different concurrency/parallelism methods (asyncio, threads, multiprocessing)
+ * Explore the relative benefits of using different concurrency/parallelism methods (asyncio, threads, multiprocessing)
  * Set-up a local system that can be used to test and develop the monitoring without having dependencies on
    externals.
  * Develop a new monitoring system that utilise concurrency in the optimal way to reduce latency in the system.
