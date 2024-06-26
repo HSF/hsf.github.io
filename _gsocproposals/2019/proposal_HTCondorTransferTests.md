@@ -10,7 +10,7 @@ organization: UCSD
 
 The LIGO experiment is adopting the use of GlideinWMS, a distributed resource manager, for its computing needs. Currently, passing input data to the parallel jobs is accomplished via either HTCondor-based file transfer or downloading from a set of Xrootd-powered distributed caches. Past work has been done on testing the scalability of these transfer methods, but not in the context of the needs of the LIGO experiment. We will attempt to test at what concurrency levels different components of the GlideinWMS infrastructure break while keeping conditions aligned to the needs of the LIGO experiment. 
 
-Although the scaling interest come from LIGO HTCondor, GlideinWMS and Xrootd Caching infrastructure are heavily used in the HEP communities like CMS, Atlas and IceCube. Moreover some of the same load testing tools that we are trying to improve for this use case had been used in the past for other scaling exercies for CMS. Hence this will most likely will have impact beyond LIGO needs. 
+Although the scaling interest come from LIGO HTCondor, GlideinWMS and Xrootd Caching infrastructure are heavily used in the HEP communities like CMS, Atlas and IceCube. Moreover some of the same load testing tools that we are trying to improve for this use case had been used in the past for other scaling exercises for CMS. Hence this will most likely will have impact beyond LIGO needs. 
 
 
 ## Task ideas

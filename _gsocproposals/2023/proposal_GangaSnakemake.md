@@ -17,7 +17,7 @@ The amount of data that is processed by individual scientists has grown hugely i
 The large scale processing of data is often only one part of a long processing chain for obtaining the results that eventually will end up in an academic publication though. Calibrations need to be performed, plots should be made, checks run for systematic effects etc. To do all these small tasks, the snakemake tool is increasingly used. The idea for ths project is to implement Ganga as a plugin for snakemake. There is already support for various batch systems in snakemake, so this will take it one step further.
 
 ## Task ideas
- * Explore the relative benfits of interfacing Ganga with snakemake using the [foreign workflow management system](https://snakemake.readthedocs.io/en/stable/snakefiles/foreign_wms.html) versus creating a new [cloud execution backend](https://snakemake.readthedocs.io/en/stable/project_info/contributing.html#contributing-a-new-cluster-or-cloud-execution-backend).
+ * Explore the relative benefits of interfacing Ganga with snakemake using the [foreign workflow management system](https://snakemake.readthedocs.io/en/stable/snakefiles/foreign_wms.html) versus creating a new [cloud execution backend](https://snakemake.readthedocs.io/en/stable/project_info/contributing.html#contributing-a-new-cluster-or-cloud-execution-backend).
  * Modify Ganga to work in a mode where it easily act as a client for snakemake.
  * Implement intelligent code in Ganga that can ensure that intermittent failures in the processing are recovered from in a grceful way.
  * Develop continuous integration tests that can ensure that the integration with snakemake is always functional.
