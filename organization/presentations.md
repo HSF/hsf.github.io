@@ -5,7 +5,7 @@ layout: plain
 
 ## 2024
 
-* [Updates on C&SW in CERN/SFT, community from WLCG/HSF liaison role](https://indico.cern.ch/event/1366954/contributions/5856708/attachments/2827114/4939480/2024-03-26_SWIFT-HEP-workshop.pdf), [Joint GridPP and SWIFT-HEP Meeting]([hview](https://indico.cern.ch/event/1366954)), 26 March 2024, Eduardo Rodrigues
+* [Updates on C&SW in CERN/SFT, community from WLCG/HSF liaison role](https://indico.cern.ch/event/1366954/contributions/5856708/attachments/2827114/4939480/2024-03-26_SWIFT-HEP-workshop.pdf), [Joint GridPP and SWIFT-HEP Meeting](https://indico.cern.ch/event/1366954), 26 March 2024, Eduardo Rodrigues
 
 ## 2023
 
