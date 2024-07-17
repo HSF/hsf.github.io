@@ -19,44 +19,15 @@ Steering group met last week to progress on the different items that arose:
 - Advisory Group setup, identifying communities/experiments
 - Defining criteria for HSF Affiliate Projects, approaching key projects
 
-N.B. Just to readvertise that the Steering Group membership is open for people who would like to help. We already added one new member, viz. Nicole Skidmore.
+N.B. Just to re-advertise that the Steering Group membership is open for people who would like to help. We already added one new member, viz. Nicole Skidmore.
 
 Looks like next SG meeting will be on Monday - more news after that.
 
-
 ## Activities and HSF Group Updates
-
-### General Standing Reminders
-
-#### Website banners
-
-We have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files [here](https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023).
-
-#### Meetings
-
-Please try and book meetings in Indico at least 2 weeks in advance!
-
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
-
-#### Videos
-
-When meetings are recorded (recommended), please try to put them onto:
-
-- [HSF YouTube channel](https://www.youtube.com/c/HEPSoftwareFoundation) (ask for permission to do this)
-- <videos.cern.ch> (recommended over posting directly)
-
-Then post links to these locations. See [C&AF](https://indico.cern.ch/category/12741/) for examples.
-
-### Data Analysis
-nothing to report/not present
 
 ### PyHEP
 
 [Timetable](https://indico.cern.ch/event/1384010/timetable/#20240701.detailed) is up - almost 400 people registered.
-
-
-### Detector Simulation
-nothing to report/not present
 
 ### Software Training
 
@@ -64,33 +35,19 @@ nothing to report/not present
 
 HSF/IRIS-HEP Python for Analysis a week after (July 16)
 
-
 #### C++ Course and Hands-on Training
 
 An "advanced C++" course is planned Mo, We, Fr in the week of 30 Sep. - <https://indico.cern.ch/event/1430163/>
 
-### Reconstruction and Software Trigger
-nothing to report/not present
-
 
 ### JuliaHEP
-- WG Meeting today https://indico.cern.ch/event/1420509/
+
+- WG Meeting today <https://indico.cern.ch/event/1420509/>
 - Accepted "Julia in HEP" contribution as plenary at CHEP24. Several other contributions have also been accepted.
-
-
-### Tools and Packaging
-nothing to report/not present
-
-
-### Analysis Facilities
-nothing to report/not present
 
 ### Compute and Accelerator Forum
 
 September meeting will focus on a new roofline/profiling tool from researchers in Lisbon.
-
-### Software and Computing Roundtable
-nothing to report/not present
 
 ### Event generators
 
@@ -108,21 +65,20 @@ Conveners would like to accelerate the organisation of the GPU generators worksh
 
 Given the upcoming questionnaire proliferation (ECFA computing WGs, EVERSE, ECFA-ECRs), Caterina volunteered (to ATLAS computing/EVERSE colleagues) to start a codimd (or git or?) to collect information on which groups is sending what. 
 
-Could the HSF be a place to host this list and how should we do this? It will grow/get updated, hopefully by those sending the questionnaires as well. 
+Could the HSF be a place to host this list and how should we do this? It will grow/get updated, hopefully by those sending the questionnaires as well.
 
-Google doc, as easy as possible. 
+Google doc, as easy as possible.
 Wish to make results public (e.g. links to public presentations where results are discussed).
 
 SPECTRUM and JENA WP2 are planning to unify their questionnaires (avoid survey fatigue!).
 
 ### School on ML on edge
 
-Funded and organized by SMARTHEP ITN + Next Gen Trigger @ CERN: tasters for different kinds of hybrid computing architecture.  Advertisement to go out soon (priority to funded students, then will open to others --> will advertise on trigger&reco list). 
+Funded and organized by SMARTHEP ITN + Next Gen Trigger @ CERN: tasters for different kinds of hybrid computing architecture.  Advertisement to go out soon (priority to funded students, then will open to others --> will advertise on trigger&reco list).
 
 ### Website
 
 Still looking for any help with re-structuring the website. Indicate your interest on this [GH Issue](https://github.com/HSF/hsf.github.io/issues/1411).
-
 
 ### Next Meetings
 
