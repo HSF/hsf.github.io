@@ -1,12 +1,12 @@
 name: link_checker
 
-on: [push, pull_request]
+on: pull_request
 
 jobs:
   check_new_links:
     name: link_checker
     runs-on: ubuntu-latest
-    container: hepsoftwarefoundation/hsf-jekyll
+    container: jekyll/jekyll
     steps:
       - name: checkout repository
         uses: actions/checkout@v4
