@@ -11,7 +11,7 @@ Then, here is a short checklist for running the meeting:
 
 1. **Announce the meeting**: Indico should be setup to send reminders about the meetings 2 days and 2 hours in advance. These go to HSF Core Coordination and the HSF working group conveners, so you don't usually need to do this manually.
     - However, if specific input is needed you might want to send a targeted email a suitable time in advance.
-2. **Prepare the minutes**: The meeting is minuted in the [live notes](https://demo.hedgedoc.org/COseSwVnQRuYOAWpHC756Q?view) document. A few days before the meeting (usually on Monday when the weekly meetings email is sent) clean up this document.
+2. **Prepare the minutes**: The meeting is minuted in the [live notes](https://codimd.web.cern.ch) document. A few days before the meeting (usually on Monday when the weekly meetings email is sent) clean up this document.
     1. Check that the previous meeting's minutes were published on the [website](https://hepsoftwarefoundation.org/organization/minutes.html). If not, see if there is a [pull request](https://github.com/HSF/hsf.github.io/pulls) and remind people to edit/accept that.
         - In the rare case where the minutes from the previous meeting have not been handled, please save a copy of the previous minutes before you start the clean up.
     2. Clean up the different sections from the last meeting (there are a few "standing items" as reminders that get left from meeting to meeting).
