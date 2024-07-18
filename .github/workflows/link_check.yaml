@@ -6,6 +6,10 @@ jobs:
   check_new_links:
     name: link_checker
     runs-on: ubuntu-latest
+    env:
+      # Allow the old version of node to run, pending a proper fix
+      ACTIONS_RUNNER_FORCE_ACTIONS_NODE_VERSION: node16
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true  
     container: hepsoftwarefoundation/hsf-jekyll
     steps:
       - name: checkout repository
