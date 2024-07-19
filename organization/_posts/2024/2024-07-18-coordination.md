@@ -6,18 +6,18 @@ layout: plain_toc
 
 Present/Contributing: Graeme Stewart, Liz Sexton-Kennedy, Tommaso Lari, Sapta Bhattacharya, Benedikt Hegner, Claire Antel, Nick Smith, Steve Mrenna, Joe Osborn, Stefan Roiser
 
-Apologies/Contributing: Eduardo Rodrigues, Michel, Krzysztof Genser
+Apologies/Contributing: Eduardo Rodrigues, Michel Jouvin, Krzysztof Genser
 
 ## News, general matters, announcements
 
 ### SPECTRUM/JENA Survey on Software, Computing, Training...
 
 > Dear Colleagues from Research / Infrastructures,
-> 
+>
 > The SPECTRUM project [1] and the JENA Computing Initiative [2] are conducting a survey to gather insights on current best practice and expected future evolutions in the domain of large scale / data intensive scientific computing.
-> 
+>
 > The survey is directed at researchers, managers of scientific initiatives and infrastructure managers, either on individual or institutional bases.
-> 
+>
 > Our goal is to collect from the community insights on current best practice and expected future evolutions in the domain of large scale / data intensive scientific computing. This is important also for you, if you want to inform policy makers and funders about the needs from science and infrastructures and push in the direction of future interoperability.
 
 [Full announcement](https://www.spectrumproject.eu/article/spectrumjena-survey-on-the-future-of-scientific-computing)
@@ -46,9 +46,9 @@ Minutes are trapped in limbo on HedgeDoc 😭 (hopefully recovereable later)
 
 Meanwhile, we're arranging discussions with the activities and working groups to refocus activities in the light of the DESY workshop. In particular we would like suggestions for starting the **HSF Seminar Series** after the summer.
 
--  We intend to reuse the slot for the C&AF (Wednesdays, 16h30 CEST)
--  More of a focus on HEP projects (matches perfectly our activity areas)
--  By having one regular meeting slot we hope to improve attendance and engagement
+- We intend to reuse the slot for the C&AF (Wednesdays, 16h30 CEST)
+- More of a focus on HEP projects (matches perfectly our activity areas)
+- By having one regular meeting slot we hope to improve attendance and engagement
 
 Please make suggestions for topics (Graeme can collect them for now).
 
@@ -132,7 +132,6 @@ Summer break - reconvene in September.
 Oct or Nov - RISC-V extension for high precision floating point calculations (CEA)
 
 ### Software and Computing Roundtable
-
 
 ---
 
