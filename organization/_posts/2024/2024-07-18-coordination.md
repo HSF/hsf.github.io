@@ -42,13 +42,13 @@ Minutes are trapped in limbo on HedgeDoc 😭 (hopefully recovereable later)
 - The [documents](https://docs.google.com/document/d/1Un1V21LdehQNwkNGeUZOl_GBQ8IdjUpDp5bi9g2YvLg/edit?usp=sharing) for *HSF Affiliate Projects* are developing very nicely.
     - The [criteria](https://docs.google.com/document/d/1AiLcqyLA4c1y2Iq-YZyKP7DwN8m2AJb_J44cDuGGAXI/edit?usp=sharing) for different badges are developed
     - And you can see what HSF Badges would look like [here](https://github.com/HSF/hsf.github.io/blob/main/images/HSF-logo/README.md)
-- We still need to start to form the [Advisory Group](https://docs.google.com/document/d/1L62pleuuME6K9WLl5T4KQaImPP_Qpc8HSym-XBNTKv8/edit?usp=sharing) - we hope to settle the mandate docuement soon.
+- We still need to start to form the [Advisory Group](https://docs.google.com/document/d/1L62pleuuME6K9WLl5T4KQaImPP_Qpc8HSym-XBNTKv8/edit?usp=sharing) - we hope to settle the mandate document soon.
 
-Meanwhile, we're arranging discussions with the activities and working groups to refocus activites in the light of the DESY workshop. In particular we would like suggestions for starting the **HSF Seminar Series** after the summer.
+Meanwhile, we're arranging discussions with the activities and working groups to refocus activities in the light of the DESY workshop. In particular we would like suggestions for starting the **HSF Seminar Series** after the summer.
 
 -  We intend to reuse the slot for the C&AF (Wednesdays, 16h30 CEST)
 -  More of a focus on HEP projects (matches perfectly our activity areas)
--  By having one regular meeting slot we hope to improve attendence and engagement
+-  By having one regular meeting slot we hope to improve attendance and engagement
 
 Please make suggestions for topics (Graeme can collect them for now).
 
@@ -100,7 +100,7 @@ This event is great for developers to talk to each other and exchange knowledge 
 
 ### Physics Generators
 
-Would want to keep *working* activites, as well as having more forum level discussions.
+Would want to keep *working* activities, as well as having more forum level discussions.
 
 No meeting of the LPCC MCEG group yet.
 
@@ -112,7 +112,7 @@ Planning a meeting centred around GPUs in MCEGs - could happen after CHEP. This 
 
 Pere and Graeme (along with Jerry Ling and Oliver Schulz) attended this year's [JuliaCon](https://juliacon.org/2024/). Very interesting conference - presentations ranged from scientific (including HPC), to tools, compiler upgrades and interesting talks from Boeing and ASML. Everything is on YouTube to watch.
 
-We had 3 HEP specific presentations (Geant4, JetReconstruction, UnROOT) that were well recieved.
+We had 3 HEP specific presentations (Geant4, JetReconstruction, UnROOT) that were well received.
 
 #### JuliaHEP 2024
 
@@ -128,7 +128,7 @@ Instead we will run tutorials/hackathons as requested by participants. The regis
 
 Summer break - reconvene in September.
 
-11 Sept - CARM roofline profling tool (INESC-ID)
+11 Sept - CARM roofline profiling tool (INESC-ID)
 Oct or Nov - RISC-V extension for high precision floating point calculations (CEA)
 
 ### Software and Computing Roundtable
@@ -140,7 +140,7 @@ Oct or Nov - RISC-V extension for high precision floating point calculations (CE
 
 ### Live Notes
 
-Unfortuantely the hedgedoc demo instance we had been using for the live notes is currently [down](https://community.hedgedoc.org/t/status-of-the-demo-instance/1634/4).
+Unfortunately the hedgedoc demo instance we had been using for the live notes is currently [down](https://community.hedgedoc.org/t/status-of-the-demo-instance/1634/4).
 
 We have moved back to the CERN instance, but this does require a CERN account (even to view AFAICR!).
 
