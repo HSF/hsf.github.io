@@ -30,5 +30,5 @@ The JuliaHEP organisation website is <http://www.juliahep.org/>.
 
 We plan for a series of **JuliaHEP workshops** with the aim to provide an environment to discuss and promote the usage of Julia in the HEP community at large.
 
-- The second [workshop](https://indico.cern.ch/e/juliahep2024) will be held from 30 September - 4 October at CERN
+- The second [workshop](https://indico.cern.ch/e/juliahep2024) will be held from 30 September - 4 October 2204 at CERN
 - The first [workshop](https://indico.cern.ch/event/1292759/) was held from 6-9 November 2023 at ECAP (Erlangen Centre for Astroparticle Physics).
