@@ -13,8 +13,6 @@ The SG will invite new members from amongst the active HSF members and working g
 
 The SG is convened by a chair, who is elected annually by the group (see below). The chair is responsible for organising the regular SG meetings and ensuring that all HSF activities are followed by members of the SG. The SG organises itself by seeking consensus. If the SG cannot agree on a particular issue, input will be solicited from the HSF Advisory Group and, if appropriate, the wider HSF community. In a last instance, the SG may hold a vote on a particular issue.  The SG chair is also responsible for ensuring that SG members are actively fulfilling their role by contributing to the work of the SG (temporary breaks from SG activity in circumstances such as parental leave or illness are allowed).  SG meeting minutes are made public, except where a confidential matter has been discussed.
 
-The HEP Software Foundation Steering Group (SG) is a group of motivated individuals who take responsibility for promoting, guiding and monitoring the HSF’s activities in all areas. They have the role of preserving the HSF’s knowledge and engagement with the community over multiple years and over changes of working group conveners.
-
 Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the group:
 
 * Caterina Doglioni - University of Manchester
