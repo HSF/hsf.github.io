@@ -116,6 +116,9 @@ I must say that GSoC is a great experience. I learned somethings about Physics, 
 
 # Links
 
+-   [eede repo](https://github.com/key4hep/eede/)
+-   [eede release (stable) version](https://key4hep.github.io/eede/release/index.html)
+-   [eede main development version](https://key4hep.github.io/eede/main/index.html)
 -   [Proposal](https://drive.proton.me/urls/N74MP9JE34#VhJlh3ILFX7I)
 -   [Initial blog explaining my thoughts about getting into GSoC](https://medium.com/@brauliorivas/google-summer-of-code-24-at-cern-hsf-cbbff64b025b)
 -   [EDM4hep](https://edm4hep.web.cern.ch/)
