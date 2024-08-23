@@ -98,8 +98,8 @@ it had no problem and takes only the necessary amount of memory.
 
 **Filters**
 
-One of the last tasks was to develop a set of filtering functionalities, because in one single event may exists lots
-of objects, making it harder to visualize. So, I developed filters for every datatype, that would allow to filter
+One of the last tasks was to develop a set of filtering functionalities, because in one single event many
+objects might exist, making it harder to visualize. So, I developed filters for every datatype, that allow to filter
 any given view by e.g charge of a particle, momentum, energy, or to choose a subset of objects from a same datatype. This is fundamental, because anybody that wants to do research on their data, will be able to understand and
 uncover complex relationships and patterns in the data that might not be apparent through traditional techniques.
 
