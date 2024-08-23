@@ -32,7 +32,7 @@ The original [goal](https://hepsoftwarefoundation.org/gsoc/2024/proposal_Key4hep
 2. Design appropriate graphical representations for every collection type defined by analyzing each type's properties.
 3. Develop tools to filter, manipulate, highlight, and group related collections and objects to allow users to explore the visualized events easily.
 4. Conduct testing to cover the new features using data from FCC events, either pre-generated or newly generated, to ensure that every version of EDM4hep can be handled correctly.
-5. Incorporate CI/CD rules to automate the deployment of dmX, enabling users to always access the tool's latest version.
+5. Incorporate CI/CD rules to automate the deployment of eede, enabling users to always access the tool's latest version.
 
 # Coding period
 
