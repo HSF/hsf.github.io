@@ -12,7 +12,7 @@ intro: |
     data model) like Clusters, ParticleId or Tracks. Included visualization of relations between them and the previously developed MCParticle collection. Built a menu that allows users to filter out these objects according to their properties and tested using data from FCC simulations.
 ---
 
-Welcome to my final blog post for the Google Summer of Code 2024 at CERN-HSF. I am Braulio Rivas, and I have been working on the project "Any collection in Data Model Explorer" for the Key4hep organization.
+Welcome to my final blog post for the Google Summer of Code 2024 at CERN-HSF. I am Braulio Rivas, and I have been working on the project "Any collection in Data Model Explorer" for the Key4hep project.
 
 ![CERN-GSOC](https://hepsoftwarefoundation.org/images/CERN-HSF-GSoC-logo.png)
 
