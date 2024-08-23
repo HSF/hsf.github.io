@@ -90,7 +90,7 @@ The difference was big. Before, eede struggled to render a tree of `MCParticle` 
 (by some reason, it was only possible in Firefox, but not on a chromium based browser). But it later had no problem, it
 rendered everything fast without crashing.
 Other very noticeable example is when rendering $15000+$ `MCParticle`s. When using Canvas API, the ram consumption went up by a lot
-and freezed the computer. But after using pixi and applying some techniques, like [culling](https://pixijs.com/8.x/guides/basics/scene-graph#culling)
+and froze the computer. But after using pixi and applying some techniques, like [culling](https://pixijs.com/8.x/guides/basics/scene-graph#culling)
 it had no problem and takes only the necessary amount of memory.
 | Pull Request| PR Number | Description |
 | :--- | :----: | :--- |
