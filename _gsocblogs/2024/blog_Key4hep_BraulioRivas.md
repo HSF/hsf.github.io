@@ -85,7 +85,7 @@ so all datatypes are drawn in a white canvas. Nevertheless, when having many obj
 to scroll or drag objects around. So I [analyzed](https://github.com/key4hep/eede/pull/63) some of the weak points at that moment.
 I came to the conclusion to change Canvas API to some more performant tool, and to find a way to render objects more efficiently.
 After some research, I found [pixi.js](https://pixijs.com/), a library (which has a minified `js` version) that uses WebGL
-to render any kind of content on a canvas very, but very fast. After a bit of rework, I finally transferred everything to pixi.
+to render any kind of content on a canvas very fast. After a bit of rework, I finally transferred everything to pixi.
 The difference was big. Before, eede struggled to render a tree of `MCParticle` from this file https://fccsw.web.cern.ch/fccsw/eede/wzp6_ee_mumuH_ecm240_CLD_RECO.edm4hep.json
 (by some reason, it was only possible in Firefox, but not on a chromium based browser). But it later had no problem, it
 rendered everything fast without crashing.
