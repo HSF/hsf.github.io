@@ -28,7 +28,7 @@ However, eede had a problem. It only allowed to visualize a specific collection/
 
 The original [goal](https://hepsoftwarefoundation.org/gsoc/2024/proposal_Key4hepAnyCollectionInDataModelExplorer.html) was to allow to visualize all the remaining **datatypes** in the EDM4hep, allow to filter collections and test on simulated FCC (Future Circular Collider) events. However, due to time constraints, together with mentors, we decided to expand the functionality of eede to a smaller set of collections than initially thought. After some discussion, we defined these goals:
 
-1. Implement loading of Cluster, ParticleID, Reconstructed Particle, Vertex, and Track collections types by allowing users to upload JSON file(s).
+1. Implement loading of Cluster, ParticleID, Reconstructed Particle, Vertex, and Track collections types from user provided JSON file(s).
 2. Design appropriate graphical representations for every collection type defined by analyzing each type's properties.
 3. Develop tools to filter, manipulate, highlight, and group related collections and objects to allow users to explore the visualized events easily.
 4. Conduct testing to cover the new features using data from FCC events, either pre-generated or newly generated, to ensure that every version of EDM4hep can be handled correctly.
