@@ -81,7 +81,7 @@ same type. But, if a `MCParticle` is related to a `ReconstructedParticle`, it wi
 **Pixi**
 
 eede is a static website. So we are using plain Javascript, HTML and CSS. But for visualization, we were using the Canvas API,
-so all datatypes are drawn in a white canvas. Nevertheless, when having many objects in a same view, it was almost impossible
+so all datatypes are drawn in a white canvas. However, when having many objects in one view, it was almost impossible
 to scroll or drag objects around. So I [analyzed](https://github.com/key4hep/eede/pull/63) some of the weak points at that moment.
 I came to the conclusion to change Canvas API to some more performant tool, and to find a way to render objects more efficiently.
 After some research, I found [pixi.js](https://pixijs.com/), a library (which has a minified `js` version) that uses WebGL
