@@ -65,7 +65,7 @@ work its easier because it only will be necessary to expand other modules, and n
 
 **Visualizing**
 
-Having the data loaded on memory, I was able to later develop the visualization of these new datatypes. For each new
+Having the data loaded in memory, I was able to later develop the visualization of these new datatypes. For each new
 datatype, a few properties have to be shown for an "object" belonging to a collection, and the whole collection has to be
 placed around in a way its easy to understand. I discussed with mentors [what information](https://github.com/key4hep/eede/blob/main/js/types/objects.js) to show and most importantly,
 **how** to visualize them, including relations. After throwing some ideas, I defined a set of common ["views"](https://github.com/key4hep/eede/tree/main/js/views/templates) that repeated across datatypes. So for
