@@ -20,15 +20,15 @@ Welcome to my final blog post for the Google Summer of Code 2024 at CERN-HSF. I 
 
 eede (EDM4hep Event Data Explorer) is a tool that allows physicists to **visualize** data generated from EDM4hep. [EDM4hep](https://edm4hep.web.cern.ch/) is a generic event data model for future HEP collider experiments. In High Energy Physics (HEP), accelerators like LHC collide many particles. In this context, an **event** refers to the collision of particles, which is later detected by detectors like CMS or ATLAS. However, several steps related to each other are taken to **reconstruct** these events. Every step of the event takes an input and produces an output. However, the internal functioning typically differs between tools and some software is necessary to ensure that this whole process is correct. This way, EDM4hep serves as an Event Data Model to represent data exchanged between different events, meanwhile eede allows us to analyze this data from EDM4hep visually.
 
-However, eede (which was previously called dmx) had a problem. It only allowed to visualize a specific collection (defined above as a step) named `MCParticle`. This is a problem because the data model has many other collections that are relevant when analyzing an event, and being limited to only one type may lead to ignore important anomalies in an event that would be otherwise hard to detect using other techniques. This is why the project "Any collection in Data Model Explorer" was created. The goal was to incorporate new features for eede, adding a whole new set of collections that eede can visualize (according to the EDM4hep event data model). This way, we can visualize not only these called collections, but also explore many types of relations that exists between them. Here we have a diagram that better represents the types of collections and existing relations.
+However, eede (which was previously called dmx) had a problem. It only allowed to visualize a specific collection/datatype (defined above as a step) named `MCParticle`. This is a problem because the data model has many other collections that are relevant when analyzing an event, and being limited to only one type may lead to ignore important anomalies in an event that would be otherwise hard to detect using other techniques. This is why the project "Any collection in Data Model Explorer" was created. The goal was to incorporate new features for eede, adding a whole new set of collections that eede can visualize (according to the EDM4hep event data model). This way, we can visualize not only these called collections, but also explore many types of relations that exists between them. Here we have a diagram that better represents the types of collections and existing relations.
 
 ![EDM4hep Model](https://raw.githubusercontent.com/key4hep/EDM4hep/main/doc/edm4hep_diagram.svg)
 
 # Proposed solution
 
-The original [goal](https://hepsoftwarefoundation.org/gsoc/2024/proposal_Key4hepAnyCollectionInDataModelExplorer.html) was to allow to visualize all the remaining **datatypes** in the EDM4hep, allow to filter collections and test on simulated FCC (Future Circular Collider) events. However, due to time constraints, together with mentors, we decided to expand the functionality of eede to a smaller set of collection than initially thought. After some discussion, we defined these goals:
+The original [goal](https://hepsoftwarefoundation.org/gsoc/2024/proposal_Key4hepAnyCollectionInDataModelExplorer.html) was to allow to visualize all the remaining **datatypes** in the EDM4hep, allow to filter collections and test on simulated FCC (Future Circular Collider) events. However, due to time constraints, together with mentors, we decided to expand the functionality of eede to a smaller set of collections than initially thought. After some discussion, we defined these goals:
 
-1. Implement loading of Cluster, ParticleID, Reconstructed Particle, Vertex, and Track collection types by allowing users to upload JSON file(s).
+1. Implement loading of Cluster, ParticleID, Reconstructed Particle, Vertex, and Track collections types by allowing users to upload JSON file(s).
 2. Design appropriate graphical representations for every collection type defined by analyzing each type's properties.
 3. Develop tools to filter, manipulate, highlight, and group related collections and objects to allow users to explore the visualized events easily.
 4. Conduct testing to cover the new features using data from FCC events, either pre-generated or newly generated, to ensure that every version of EDM4hep can be handled correctly.
@@ -45,9 +45,9 @@ it work. Also, it was very simple to later add tests whenever running these prev
 
 | Pull Request                                                          |                   PR Number                    | Description                                                                                                                                                                                                                                                                             |
 | :-------------------------------------------------------------------- | :--------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Automated deploys via workflows                                       | [#16](https://github.com/key4hep/eede/pull/16) | I added 3 different workflow files to deploy a "stable" version of eede. One to allow for pr previews and another to deploy a "release" version that has the latest features.                                                                                                           |
+| Automated deploys via workflows                                       | [#16](https://github.com/key4hep/eede/pull/16) | I added 3 different workflow files: to deploy a "stable" version of eede. One to allow for pr previews and another to deploy a "release" version that has the latest features.                                                                                                          |
 | Redirect from key4hep.github.io/dmx to key4hep.github.io/dmx/main #19 | [#19](https://github.com/key4hep/eede/pull/19) | Because we have two versions: release and main, we can't have a single url to eede. So we have a general link https://key4hep.github.io/eede/ of eede that automatically redirects to the stable `main` version. But there is also a button that allows to go to the `release` version. |
-| Add testing for primitives, objects and tools                         | [#20](https://github.com/key4hep/eede/pull/20) | I added a basic test suite for some deprecated graphing functions and for methods on objects.                                                                                                                                                                                           |
+| Add testing for primitives, objects and tools                         | [#20](https://github.com/key4hep/eede/pull/20) | I added a basic test suite for some (now deprecated) graphing functions and for methods on objects.                                                                                                                                                                                     |
 | Fix previews workflow                                                 | [#22](https://github.com/key4hep/eede/pull/22) | I had some problems incorporating previews, so this PR tries to solve this issue (unsuccessfully).                                                                                                                                                                                      |
 | Configure previews with access tokens and check out to fork           | [#24](https://github.com/key4hep/eede/pull/24) | This PR finally fixed previews, by correctly configuring a GitHub environment that uses fined grained access tokens to checkout to the PR and deploy the code in the original repo.                                                                                                     |
 
@@ -61,13 +61,13 @@ work its easier because it only will be necessary to expand other modules, and n
 **Loading**
 | Pull Request| PR Number | Description |
 | :--- | :----: | :--- |
-| Load particles according to edm4hep | [#36](https://github.com/key4hep/eede/pull/36) | I developed a function that allows to load any kind of object into eede and a way to get the latest version of EDM4hep so it can load any file according to that latest version. |
+| Load particles according to edm4hep | [#36](https://github.com/key4hep/eede/pull/36) | I developed a function that allows to load any kind of object into eede and a way to get the latest version of EDM4hep so it can load any file according to the latest version. |
 
 **Visualizing**
 
-Having the data loaded on memory, I was able to later develop the visualization of these new datatypes. For each of the new
-datatype, a few properties have to be shown for each "object" from a collection of datatypes, and the whole collection has to be
-placed around in a way its easier to digest. For this, I discussed with mentors [what information](https://github.com/key4hep/eede/blob/main/js/types/objects.js) to show and most importantly,
+Having the data loaded on memory, I was able to later develop the visualization of these new datatypes. For each new
+datatype, a few properties have to be shown for an "object" belonging to that collection, and the whole collection has to be
+placed around in a way its easier to understand. I discussed with mentors [what information](https://github.com/key4hep/eede/blob/main/js/types/objects.js) to show and most importantly,
 **how** to visualize them, including relations. After throwing some ideas, I defined a set of common ["views"](https://github.com/key4hep/eede/tree/main/js/views/templates) that repeated across datatypes. So for
 example, a `Cluster`, `Track` or `ReconstructedParticle` collection will be shown as a tree, connected to other objects of the
 same type. But, if a `MCParticle` is related to a `ReconstructedParticle`, it will be shown as a large list going downwards.
@@ -90,7 +90,7 @@ The difference was big. Before, eede struggled to render a tree of `MCParticle` 
 (by some reason, it was only possible in Firefox, but not on a chromium based browser). But it later had no problem, it
 rendered everything fast without crashing.
 Other very noticeable example is when rendering $15000+$ `MCParticle`s. When using Canvas API, the ram consumption went up by a lot
-and freezed the computer. But after applying some techniques, like [culling](https://pixijs.com/8.x/guides/basics/scene-graph#culling)
+and freezed the computer. But after using pixi and applying some techniques, like [culling](https://pixijs.com/8.x/guides/basics/scene-graph#culling)
 it had no problem and takes only the necessary amount of memory.
 | Pull Request| PR Number | Description |
 | :--- | :----: | :--- |
@@ -110,7 +110,7 @@ uncover complex relationships and patterns in the data that might not be apparen
 
 # Conclusion
 
-eede has really changed a lot. The improvements made during GSoC have been very significant. Now, it is possible to visualize many types of collections, and to filter them according to their properties. This is a big step forward, as it allows physicists to analyze events in a more detailed way. In addition, some features related to UX like allowing to switch between versions of eede, upload a new file at any given time or to allow change between events make it easier to use. Furthermore, the CI/CD rules make it a more fluid development process. I am very happy with the results, and I hope that this tool will be useful for the HEP community.
+eede has really changed a lot. The improvements made during GSoC have been very significant. Now, it is possible to visualize many types of collections, and to filter them according to their properties. This is a big step forward, as it allows physicists to analyze events in a more detailed way. In addition, some features related to UX like allowing to switch between versions of eede, upload a new file at any given time or to allow change between events make it easier to use. The CI/CD rules make it a more fluid development process. I am very happy with the results, and I hope that this tool will be useful for the HEP community.
 
 I must say that GSoC is a great experience. I learned somethings about Physics, but most importantly, I learned a lot about software development. Talking, discussing and coding every day with my mentors really helped me to improve my skills. I don't have words to express my gratitude to them. I truly feel a more capable developer thanks to their help.
 
