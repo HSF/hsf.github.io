@@ -40,8 +40,15 @@ The original [goal](https://hepsoftwarefoundation.org/gsoc/2024/proposal_Key4hep
 
 At the very beginning, I started with new CI rules to automate development for eede. We wanted to do a few things: deploy a
 preview of any pull request, so when making changes, in some way an URL will be available to use eede with the changes from the
-PR, so its easier to review changes. It was harder than expected, but we finally were able to configure Github Actions to make
-it work. Also, it was very simple to later add tests whenever running these previews, or before merging to main.
+PR, so its easier to review changes. It was harder than expected:
+
+1. I tried to use [pr-preview-action](https://github.com/rossjrw/pr-preview-action) workflow. However, it didn't work because I didn't configure correctly which branch to deploy. Then, I found out that `gh-pages` had to be the branch to deploy.
+2. It didn't work. I even had a testing repository, where it worked. However, this workflow (without modification) only works for pull request from branches of the same repository. So if someone makes a fork (which is the standard way), it would not work. This is problematic, because then open source contributors wouldn't be able to further develop this tool, and the essence of open source would be gone.
+3. Github Environment Variables was the missing part. It allows to use a variable, like a github fine grained access token to execute a set of allowed operations in the original repo. So when opening a PR, it would run the preview workflow, but with enough permissions.
+4. It failed again. Because eede is from an organization account, the
+   fine grained access token has to be created from someone with enough privilege in the organization. However, after waiting short time for approval, we were finally able to generate a correct token and previews finally worked correctly.
+
+Also, it was very simple to later add tests whenever running these previews, or before merging to main.
 
 | Pull Request                                                          |                   PR Number                    | Description                                                                                                                                                                                                                                                                             |
 | :-------------------------------------------------------------------- | :--------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
