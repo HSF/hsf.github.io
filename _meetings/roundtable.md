@@ -22,9 +22,8 @@ with high-energy physics.
 * [Roundtable Meetings in 2021](https://indico.jlab.org/event/420/)
 * [Roundtable Meetings in 2020](https://indico.jlab.org/event/356/)
 
-If you would like to suggest a topic for the Roundtable, please contact the [HSF
-Coordination](mailto:hsf-coordination@googlegroups.com). The current HSF
-representative is [Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch).
+If you would like to suggest a topic for the Roundtable, please contact the [HSF Steering Group](mailto:hsf-steering@googlegroups.com). The current HSF
+representative is [Andrea Valassi](mailto:Andrea.Valassi@cern.ch).
 
 <p align=center>
 <img src="{{ '/images/JLab_logo.png' | relative_url }}"

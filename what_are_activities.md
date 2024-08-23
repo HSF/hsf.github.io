@@ -17,7 +17,7 @@ and any relevant and reasonable activity for HEP can spawn
 an interest group. If you want to put some community-wide
 activity under the umbrella of the HSF as an activity areas or interest group
 just contact the
-[HSF coordination team](mailto:hsf-coordination@googlegroups.com).
+[HSF Steering Group](mailto:hsf-steering@googlegroups.com).
 
 Activity areas are added to the website of the HSF, with 
 description and contact information and will have a dedicated mailing list

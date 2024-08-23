@@ -7,7 +7,7 @@ layout: default
 
 ## Meeting Minutes
 
-The coordination team runs a regular HSF meeting (nominally, and usually, weekly) which is open to all.
+The [HSF Steering Group]({{ site.baseurl }}/organization/team.html) runs a regular HSF meeting (nominally, and usually, weekly) which is open to all.
 Meeting announcements and minutes are posted to the HSF forum Google group.
 Activity groups also hold their own meetings, for which minutes are usually posted here.
 

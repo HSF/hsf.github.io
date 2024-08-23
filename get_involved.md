@@ -10,7 +10,7 @@ Our goal is to make every effort going on as transparent and open as possible.
 Our official communication channel is the 
 [hsf-forum](https://groups.google.com/forum/#!forum/hsf-forum). If you want to contact
 a smaller group of HSF advocates you can get in touch with the
-[HSF Coordination Team]({{ site.baseurl }}/organization/team.html).
+[HSF Steering Group]({{ site.baseurl }}/organization/team.html).
 
 See the [dedicated page]({{ site.baseurl }}/forums.html) about HSF discussions forums for
 information about how to register and the
@@ -25,7 +25,7 @@ by joining the HSF with your software project:
   *  Participation in HSF [working groups]({{ site.baseurl }}/what_are_WGs.html) and [activity areas]({{ site.baseurl }}/what_are_activities.html)
   *  Participation in [HSF events and meetings]({{ site.baseurl }}/future-events.html)
   *  Taking advantage of the HSF by identifying your [software project]({{ site.baseurl }}/projects.html) with us
-  *  Giving input to the [HSF Coordination Team]({{ site.baseurl }}/organization/team.html)
+  *  Giving input to the [HSF Steering Group]({{ site.baseurl }}/organization/team.html)
   *  Contributing to this website
 
 ## Meetings, Agendas and Video-Conferences Access
@@ -38,12 +38,12 @@ to many of its services, if you do not have a full CERN account.
 
 The [Zoom](https://videoconference.web.cern.ch/t/about-the-zoom-cern-service/24) video conferencing system is used for almost all HSF meetings and anyone can participate in the meetings from any internet-connected location. Connection information for each specific Zoom meeting is on the corresponding Indico meeting agenda page.
 
-## Giving input to the HSF Coordination Team
+## Giving input to the HSF Steering Group
 
 If you are not certain about raising an issue in the
 [forums]({{ site.baseurl }}/forums.html) and mailing lists, or if you are afraid that this is not the
 right place for it, feel free to contact the
-[HSF coordination team](mailto:hsf-coordination@googlegroups.com) directly.
+[HSF Steering Group](mailto:hsf-steering@googlegroups.com) directly.
 
 ## Contributing to this website
 
