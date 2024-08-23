@@ -3,7 +3,12 @@ title: "HSF Steering Group"
 layout: plain
 ---
 
-Testing: here is a deliberate [bad link](https://i.do.not.exist/void.html).
+Testing:
+
+- here is a deliberate [bad link](https://i.do.not.exist/void.html).
+- this is a [good link](https://home.cern).
+- this is a [good internal link]({{ site.baseurl }}/what_are_WGs.html)
+- this is a [bad internal link]({{ site.baseurl }}/verybogus.html)
 
 The HEP Software Foundation Steering Group (SG) is a group of motivated individuals who take responsibility for promoting, guiding and monitoring the HSF’s activities in all areas. They have the role of preserving the HSF’s knowledge and engagement with the community over multiple years and over changes of working group conveners.
 
