@@ -13,13 +13,8 @@ jobs:
       - name: Ruby Install
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.5
-      - name: Setup Jekyll
-        run: |
-          gem update --system --no-document
-          gem update bundler --no-document
-          gem install jekyll bundler
-          bundle install
+          ruby-version: '3.2'
+          bundler-cache: true
       - name: Jekyll Build
         run: bundler exec jekyll build
       - name: Check Links
