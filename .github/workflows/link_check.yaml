@@ -13,7 +13,7 @@ jobs:
       - name: Ruby Install
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.x
+          ruby-version: 3.2.5
       - name: Setup Jekyll
         run: |
           gem update --system --no-document
