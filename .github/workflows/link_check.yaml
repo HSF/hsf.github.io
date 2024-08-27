@@ -1,21 +1,23 @@
-name: link_checker
+name: Check Markdown links
 
 on: [push, pull_request]
 
 jobs:
-  check_new_links:
-    name: link_checker
+  markdown-link-check:
     runs-on: ubuntu-latest
-    container: hepsoftwarefoundation/hsf-jekyll
+    strategy:
+      fail-fast: false
     steps:
-      - name: checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: jekyll build
-        run: |
-          bundler exec jekyll build
-
-      - name: actions link checker
+      - name: Ruby Install
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Jekyll Build
+        run: bundler exec jekyll build
+      - name: Check Links
         uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
           config-file: '.github/config/mdcheck.json'
