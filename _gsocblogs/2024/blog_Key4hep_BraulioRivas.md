@@ -63,7 +63,7 @@ Also, it was very simple to later add tests whenever running these previews, or 
 After setting up the environment, I expanded the loading functionality. As explained above, at the beginning, eede could only
 load one type of datatype. However, there are many more, so I created a function called [`loadObjects`](https://github.com/key4hep/eede/blob/32d50c7fab3fa244767aa012cdc5ba891339abef/js/types/load.js#L47-L226)
 that can load **all** of the datatypes from EDM4hep. However, internally we deliberately limit this to load only those for which visualizations have been implemented. This loading can **also** deal with **different** schema versions of edm4hep and has tooling to facilitate adding a **new** version. Further
-work its easier because it only will be necessary to expand other modules, and not loading in order to load all the datatypes.
+work is now easier because it only will be necessary to expand other modules, and not loading in order to load all the datatypes.
 
 **Loading**
 | Pull Request| PR Number | Description |
