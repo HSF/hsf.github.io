@@ -18,7 +18,7 @@ Our group puts efforts to incorporate and possibly redesign parts of Cling in Cl
 
 ## Task ideas
 
-There are several forseen tasks:
+There are several foreseen tasks:
 
  * Write a detailed request for comment (RFC) document on the design choices and gather feedback from the LLVM community.
  * Implement the necessary functionality to support existing test cases available here.

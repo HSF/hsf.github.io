@@ -385,7 +385,7 @@ For detailed read on ONNXRuntime Quantization, refer https://onnxruntime.ai/docs
 - `activation_type` - Which `INT8` quantization to perform on activations. Supported [`int8`, `uint8`]. Preferred, `int8` as it is more versatile and works on a wide array of models.
 - `weight_type` - Which `INT8` quantization to perform on model weights. Supported [`int8`, `uint8`]. Preferred, `int8` as it is more versatile and works on a wide array of models.
 - `nodes_to_quantize` - List of nodes to quantize. Specify exact node names of the .onnx model. Only the nodes present in the list will be quantized. If empty, all nodes will be quanized.
-- `nodes_to_exclude` - List of nodes to exclude. Specify exact node names of the .onnx model. Only the nodes present in the list will be exclued. If empty, no nodes will be excluded.
+- `nodes_to_exclude` - List of nodes to exclude. Specify exact node names of the .onnx model. Only the nodes present in the list will be excluded. If empty, no nodes will be excluded.
 - `use_external_data_format` -  Saving models > 2GB creates problems in ONNXRuntime. It is preferred to set this option to `True` if dealing with models > 2GB.
 - `extra_options` - Refer [onnxruntime/quantization/quantize.py](https://github.com/microsoft/onnxruntime/blob/main/onnxruntime/python/tools/quantization/quantize.py#L113)
 - `for_tensorrt` - If this optimization is for tensorrt or not. If set to `True`, only the calibration table will be created. TensorRT performs it own graph optimization and quantization. Hence, TensorRT optimization can only be performed dynamically in ONNXRuntime. The path of calibration table generated can be given as input to ONNXRuntime Session, TensorRT will use this Calibration cache to optimize the model at runtime.

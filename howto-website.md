@@ -6,7 +6,7 @@ layout: default
 
 ## About the HSF website
 
-This site is maintained by the HSF GitHub [contributors](https://github.com/orgs/HSF/people). If you're interested to become one contact the [HSF coordination team]({{ site.baseurl }}/organization/team.html) or any team member. It was set up by Torre Wenaus and Benedikt Hegner.
+This site is maintained by the HSF GitHub [contributors](https://github.com/orgs/HSF/people). If you're interested to become one contact the [HSF Steering Group]({{ site.baseurl }}/organization/team.html) or any team member. It was set up by Torre Wenaus and Benedikt Hegner.
 
 ## Implementation
 

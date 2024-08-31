@@ -16,7 +16,7 @@ mentor_avail: May-October
 
 [PODIO](https://github.com/AIDASoft/podio) is a data model definition package that provides the necessary functionality to generate C++ and Python code from a high level definition of an event data model in yaml format. EDM4hep is an example of a data model generated with PODIO, which serves as the common event data model for many HEP communities, brought together under the umbrella of the [Key4hep](https://github.com/key4hep) project.
 
-With the increasing importance of artificial intelligence and machine learning workflows, there is a need to integate PODIO data models into these workflows. In particular, this may require specification or conversions of array-of-struct or struct-of-array data storage models in PODIO data models or on collections based on these data models.
+With the increasing importance of artificial intelligence and machine learning workflows, there is a need to integrate PODIO data models into these workflows. In particular, this may require specification or conversions of array-of-struct or struct-of-array data storage models in PODIO data models or on collections based on these data models.
 
 ## Task ideas
 

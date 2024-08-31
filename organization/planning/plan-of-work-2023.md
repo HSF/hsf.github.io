@@ -47,7 +47,7 @@ and [30 March](https://indico.cern.ch/event/1225012/)
 
 ### Workshops
 
-* As travel restictions have now largely eased, we can organise more workshops
+* As travel restrictions have now largely eased, we can organise more workshops
 as in-person events, which we know are extremely productive, after last year's
 [Analysis Ecosystem II meeting](https://indico.cern.ch/event/1125222/)
 * In particular, we plan a [pre-CHEP workshop with WLCG](https://indico.cern.ch/event/1230126/), that should focus on

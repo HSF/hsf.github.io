@@ -52,6 +52,8 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 {:.table .table-hover .table-condensed .table-striped}
 | *Workshop*     | *Location*             | *Date*                | *Agenda link*                                                                         |
 | -------------- | ---------------------- | ----------------------| ------------------------------------------------------------------------------------- |
+| PyHEP 2024.dev | Aachen, Germany        | August 26-30, 2024    | [Indico](https://indico.cern.ch/e/PyHEP2024.dev){:target="_pyhep2024_dev_indico"}     |
+| PyHEP 2024     | Online workshop        | July 1-4, 2024        | [Indico](https://indico.cern.ch/e/PyHEP2024){:target="_pyhep2024_indico"}             |
 | PyHEP 2023     | Online workshop        | October 9-12, 2023    | [Indico](https://indico.cern.ch/e/PyHEP2023){:target="_pyhep2023_indico"}             |
 | PyHEP 2023.dev | Princeton, NJ, USA     | July 25-28, 2023      | [Indico](https://indico.cern.ch/e/PyHEP2023.dev){:target="_pyhep2023_dev_indico"}     |
 | PyHEP 2022     | Online workshop        | September 12-16, 2022 | [Indico](https://indico.cern.ch/e/PyHEP2022){:target="_pyhep2022_indico"}             |
@@ -62,14 +64,45 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 
 The advert and details on these workshops are given below.
 
+## PyHEP 2024 & PyHEP.dev 2024
+
+Two events will again be held this year:
+
+PyHEP 2024, on July 1‒4, is a continuation of the free, online, workshop series, which has been bringing
+Python HEP developers and physicists together these past years.
+
+PyHEP.dev 2024 is intended for Python HEP software developers to plan a coherent roadmap and make priorities for the upcoming year. It will be held in-person in Aachen (Germany), on August 26‒30.
+It will include presentations by participants, but the focus will be on birds-of-a-feather style group discussions.
+Attendance is limited to 50 participants.
+
+### Organising Committee
+
+Eduardo Rodrigues - University of Liverpool (Chair)<br>
+Graeme A. Stewart - CERN (organiser of PyHEP 2024 solely)<br>
+Jim Pivarski - Princeton University<br>
+Matthew Feickert - University of Wisconsin-Madison<br>
+Nikolai Hartmann - Ludwig-Maximilians-Universität Munich<br>
+
+<b>Local organisers:</b><br>
+Peter Fackeldey - RWTH Aachen University & ErUM-Data-Hub<br>
+Angela Warkentin - ErUM-Data-Hub
+
+### Sponsors
+
+One of the, or both, events, is/are kindly sponsored by (details on the Indico pages)
+
+![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![NSF]({{ site.baseurl }}/images/pyhep/NSF_logo.jpg){:height="60px"}
+![UoL]({{ site.baseurl }}/images/pyhep/University-Of-Liverpool_logo.png){:height="60px"}
+
 ## PyHEP 2023 & PyHEP.dev 2023
 
-This year 2 events will be held:
+Two events were held in 2023 for the first time:
 
-PyHEP 2023, on October 9‒12, is a continuation of the free, online, workshop series, which has been bringing
+PyHEP 2023, on October 9‒12, was a continuation of the free, online, workshop series, which has been bringing
 Python HEP developers and physicists together these past five years.
 
-PyHEP.dev 2023 is new this year, intended for Python HEP software developers to plan a coherent roadmap and make priorities for the upcoming year.
+PyHEP.dev 2023 was new this year, intended for Python HEP software developers to plan a coherent roadmap and make priorities for the upcoming year.
 It was held in-person at Princeton University, Princeton, New Jersey (USA), on July 25‒28.
 It included presentations by participants, but the focus was on birds-of-a-feather style group discussions.
 Attendance was limited to 45 participants.
@@ -85,7 +118,7 @@ Oksana Shadura - University of Nebraska-Lincoln
 
 ### Sponsors
 
-One of the, or both, events, is/are kindly sponsored by (details on the Indico pages)
+One of the, or both, events, was/were kindly sponsored by (details on the Indico pages)
 
 ![PSF]({{ site.baseurl }}/images/pyhep/PSF_logo.png){:height="60px"}
 ![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}

@@ -32,7 +32,7 @@ in uncertain network conditions and re-engage users thanks to push notifications
 
 ## Task ideas
 - Development of a Web UI using Vue.js and modern JS libraries to create a PWA
-  with offline capabilities and resilency to slow networks (resuming of uploads,
+  with offline capabilities and resiliency to slow networks (resuming of uploads,
 local manipulation of files, etc).
 - Development of a server in Go programming language to support the Web UI
   (CORS, WebSockets, GraphQL...).
