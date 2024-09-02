@@ -12,11 +12,11 @@ gitlab:   gfidalgo    # your gitlab ID (not full URL)
 bitbucket:  null  # your bitbucket ID (not full URL)
 orcid:   0000-0001-8605-9772       # your orcid ID (not full URL)
 linkedin: guillermo-fidalgo-rodríguez-26a272b9    # your linkedin ID (not full url, i.e. the last bit of the url to your profile)
-email: guillermo.fidalgo@upr.edu
+email: gafidalgo@crimson.ua.edu
 
 # Training WG
 training_roles: [mentor, instructor, author]              # subset of [facilitator, instructor, mentor], can stay empty ([])
-training_years: [2021, 2022, 2023]              # in which years did you help out? (e.g. [2020, 2019])
+training_years: [2021, 2022, 2023, 2024]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Don't modify the following setting
 layout: educator
@@ -26,5 +26,5 @@ layout: educator
 You can use Markdown syntax to style this page.
 -->
 
-I'm a graduate student from the university of Puerto Rico with an interest in Machine Learning for HEP.
+I'm a graduate student from the University of Alabama with an interest in Machine Learning for HEP.
 I love to learn about software and teaching what I know.
