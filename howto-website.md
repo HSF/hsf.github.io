@@ -84,7 +84,7 @@ entry you can either:
 
 1. Run the interactive script ``scripts/add_training_event.py`` (recommended)
 2. Directly edit the ``_data/trainning-schools.yml`` file and add another entry following the structure of the existing entries (note that events are sorted chronologically by starting date)
-    - There is one very rare thing you may need to do if the URL for the training event 
+    - There is one very rare thing you may need to do if the URL for the training event
       will not validate in the link checker, which is to add the tag `url_proof_ignore: true`
       to the YAML file (an example is a school that used a web technology that insists
       on setting cookies and issues continual redirects without this)
@@ -118,28 +118,29 @@ selected profiles into a page.
 
 As of writing, this website contains the following page templates for wider usage:
 
- * default - every page inherits from this
- * event - to be used for events
- * newsletter - to be used for news items and announcements
- * plain - to be used for standard contents
- * main - the main page w/ boxes
- * minutes - used for meeting minutes (the template adds
-   forward / backward navigation links)
+- default - every page inherits from this
+- event - to be used for events
+- newsletter - to be used for news items and announcements
+- plain - to be used for standard contents
+- main - the main page w/ boxes
+- minutes - used for meeting minutes (the template adds forward / backward navigation links)
 
 ### Menu bar and automatization
+
 The menu bar is defined in `_includes/navbar.ext`, from which all page layouts inherit.
 The layout is somewhat hard-coded, but working groups and activities are generated
 automatically.
 
 ### Main page
+
 The main page contains three blocks, mostly hard-coded:
 
-  * A *meetings* block, with links to the minutes of the last three meetings
+- A *meetings* block, with links to the minutes of the last three meetings
     auto-generated
-  * A news item that holds a small snippet of current important information
+- A news item that holds a small snippet of current important information
     (currently this is hard-coded, but it would be better if it were more
       dynamic)
-  * An *activities* block, that serves as an entry point to the main sections
+- An *activities* block, that serves as an entry point to the main sections
     of the website
 
 They are filled with *[Liquid](https://github.com/Shopify/liquid/wiki)* snippets.

@@ -21,6 +21,7 @@
                  {% endfor %}
                  <li class="divider"></li>
                  <li><a href="{{ site.baseurl }}/what_are_activities.html#archive">Archived Activities</a></li>
+                 <li><a href="{{ site.baseurl }}/activity-coordination.html">Convener Guide</a></li>
                </ul>
             </li>
             <li class="dropdown">
