@@ -5,9 +5,9 @@ layout: plain_toc
 
 ## Attending
 
-Present/Contributing: Michel Jouvin, Stefan Roiser, Tommaso Lari
+Present/Contributing: Graeme Stewart, Michel Jouvin, Stefan Roiser, Tommaso Lari
 
-Apologies/Contributing: Eduardo Rodrigues, Claire Antel, Graeme Stewart, Pere Mato, Alexander Moreno
+Apologies/Contributing: Eduardo Rodrigues, Claire Antel, Pere Mato, Graeme Stewart, Alexander Moreno
 
 ## News, general matters, announcements
 
@@ -89,9 +89,29 @@ There was a Steering Group meeting on 26 August and the [minutes](https://hepsof
 
 ### Software Training
 
+#### Last Events
+- HSF Training Hackathon: [Introduction to Databases for HEP](https://hsf-training.github.io/hsf-training-databases-basics/) - July 29. This was the second session for new training material on Databases.
+
+#### Next Events
+- HSF Training Hackathon: [Introduction to Databases for HEP](https://hsf-training.github.io/hsf-training-databases-basics/) - September 9. This will be the third session for new training material on Databases
+- HSF/IRIS-HEP Software Basics Training - October 7-8. We will cover the fundamentals of Unix (shell and bash), Git and Github, and Python. Registration will open soon. We need instructors!
+- HSF/IRIS-HEP Python for Analysis Training - October 15. We will cover the fundamentals of ROOT and Scikit-HEP. Registration will open soon.
+- HSF Training Pre-CHEP Workshop - October 19-20. We are working on the agenda. We will have talks from HSF-India, LHCb, EVERSE, DUNE, ErUM-Data-Hub. Registration still open. 
+
 #### C++ Course and Hands-on Training
 
-[11th HEP C++ Course and Hands-on Training, Advanced C++](https://indico.cern.ch/event/1430163/) 30 September - 4 October (Mo, We, Fr), registration open now.
+- [11th HEP C++ Course and Hands-on Training, Advanced C++](https://indico.cern.ch/event/1430163/) 30 September - 4 October (Mo, We, Fr), registration open now. 
+    
+### Software Tools and Packaging
+
+
+### Detector Simulation
+
+- Nothing to report; we will discuss the resumption of activities after the summer break at our next meeting on September 9th.
+
+### Reconstruction and Software Trigger
+
+- No news. Still need to follow up with our potential speakers on 4D tracking for one of the upcoming HEP seminars. 
 
 ### PyHEP
 
@@ -102,10 +122,10 @@ This event is great for developers to talk to each other and exchange knowledge 
 
 ### JuliaHEP
 
-Next planning meeting today at 17h.
-
+Next meeting October 2 at 4:30 pm Geneva time
 - Will have a general Julia Computing Seminar on 1 October
     - *Could badge this also as the first HSF Seminar?*
+- [JuliaHEP 2024 Workshop](https://indico.cern.ch/event/1410341/) - Sept. 30 - Oct. 4. It  will be held at CERN. Two days of contributed talks and three days of training, hackathons and birds of a feather sessions. Registration still open.
 
 ### Compute and Accelerator Forum
 
