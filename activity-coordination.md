@@ -72,7 +72,7 @@ exists as a [GitHub organisation](https://github.com/HSF) and is happy
 to host projects to help them grow. This can include things like common
 datasets used in development as well as actual code.
 
-### Coordinator Responsibilites
+### Coordinator Responsibilities
 
 Our working group conveners should usually dedicate between 5% and 10% of their
 time to running the working group. More than 10% is great, but we recognise
