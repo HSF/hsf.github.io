@@ -32,8 +32,8 @@ information, and their own [Indico
 category](https://indico.cern.ch/category/7972/).
 
 <ul class="list">
-{% for act in site.activities %}
-  <li> <a href="{{ act.url }}">{{ act.title }}</a></li>
+{% for activity in site.activities %}
+  <li> <a href="{{ activity.url }}">{{ activity.title }}</a></li>
 {% endfor %}
 </ul>
 
@@ -43,7 +43,7 @@ The HSF has had a number of activities in the past which are no longer active,
 but are kept for reference:
 
 <ul class="list">
-{% for act in site.activities-archive %}
-  <li> <a href="{{ act.url }}">{{ act.title }}</a></li>
+{% for activity in site.activities-archive %}
+  <li> <a href="{{ activity.url }}">{{ activity.title }}</a></li>
 {% endfor %}
 </ul>
