@@ -5,7 +5,7 @@ layout: plain_toc
 
 ## Attending
 
-Present/Contributing: Graeme Stewart, Michel Jouvin, Stefan Roiser, Tommaso Lari
+Present/Contributing: Michel Jouvin, Stefan Roiser, Tommaso Lari, Paul Laycock
 
 Apologies/Contributing: Eduardo Rodrigues, Claire Antel, Pere Mato, Graeme Stewart, Alexander Moreno
 
