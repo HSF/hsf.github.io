@@ -15,6 +15,9 @@ collections:
   activities:
     output: true
     permalink: /activities/:title.html
+  activities-archive:
+    output: true
+    permalink: /activities-archive/:title.html
   gsocorgs:
     output: true
     permalink: /gsoc/organizations/:path.html
@@ -42,9 +45,6 @@ collections:
   meetings:
     output: true
     permalink: /meetings/:title.html
-  workinggroups:
-    output: true
-    permalink: /workinggroups/:title.html
   training:
     output: true
     permalink: /training/:path.html
