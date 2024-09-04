@@ -5,6 +5,7 @@ layout: plain
 redirect_from: 
   - /workinggroups/Visualisation.html
   - /workinggroups/visualisation.html
+  - /activities/visualization.html
 ---
 
 The Visualisation Activity Area gathers experts, developers, users and all people from the Particle Physics community interested in interactive data visualisation and event displays. 

@@ -1,6 +1,8 @@
 ---
 title: "Detector Simulation"
 layout: plain
+redirect_from:
+  - /workinggroups/detsim.html
 ---
 
 The Detector Simulation Working Group considers approaches to making

@@ -6,6 +6,7 @@ redirect_from:
   - /activities/packaging.html
   - /workinggroups/packaging.html
   - /workinggroups/softwaredevelopertools.html
+  - /workinggroups/toolsandpackaging.html
 ---
 
 ## Software Developer Tools
