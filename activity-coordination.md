@@ -74,18 +74,18 @@ datasets used in development as well as actual code.
 
 ### Coordinator Responsibilities
 
-Our working group conveners should usually dedicate between 5% and 10% of their
-time to running the working group. More than 10% is great, but we recognise
-that people are busy with many other tasks. Less than 5% and the working group
+Our activity conveners should usually dedicate between 5% and 10% of their
+time to running the activity area. More than 10% is great, but we recognise
+that people are busy with many other tasks. Less than 5% and the activity area
 can fall into an inactive state. Conveners should meet at least once a month to
 plan. The HSF Steering Group is always happy to attend to give feedback
 and suggestions.
 
-At least one of the working group conveners should attend the bi-weekly
+At least one of the activity conveners should attend the bi-weekly
 [HSF Coordination Meetings](https://indico.cern.ch/category/7970/) and
 give a short update on the group's recent and forthcoming activities.
 
 When the HSF organises [workshops](https://indico.cern.ch/category/7971/)
-working group conveners can give input to the organising team. If there
+activity conveners can give input to the organising team. If there
 will be a session dedicated to matters of relevance to an activity area then
 conveners will be asked to co-organise it.
