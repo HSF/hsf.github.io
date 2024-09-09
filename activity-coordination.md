@@ -35,7 +35,7 @@ HSF activity meetings in general should try to:
 
 Another route for a group is that instead of group specific meetings, organise
 contributors to the [HSF Seminar Series]({{ site.baseurl
-}}/meetings/hsf-seminars.html). This meeting has a regular cadence and would
+}}/meetings/hsf-seminars.html). These meetings have a regular cadence and would
 usually attract many people who are not particularly experts on the topic, so
 the subjects should be accessible to a general scientific audience.
 
