@@ -2,6 +2,8 @@
 title: Differentiable Computing
 author: Nathan Simpson
 layout: plain
+redirect_from: 
+  - /activities/differentiablecomputing.html
 ---
 
 ## Why make things differentiable?

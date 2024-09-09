@@ -1,6 +1,8 @@
 ---
 title: "Physics Generators"
 layout: plain
+redirect_from:
+  - /workinggroups/generators.html
 ---
 
 The Physics Generators Working Group is a common forum for discussion and

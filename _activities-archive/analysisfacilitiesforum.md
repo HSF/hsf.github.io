@@ -2,6 +2,8 @@
 title: Analysis Facilities Forum
 author: Mark Neubauer
 layout: plain
+redirect_from: 
+  - /activities/analysisfacilitiesforum.html
 ---
 
 ## Overview

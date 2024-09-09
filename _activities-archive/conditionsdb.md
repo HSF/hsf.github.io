@@ -2,6 +2,8 @@
 title: "Conditions Databases"
 author: "Paul James Laycock"
 layout: plain
+redirect_from: 
+  - /activities/conditionsdb.html
 ---
 
 Discussions between Conditions Database experts across several HEP experiments took place as part of the HSF Community White Paper process in 2016/2017, producing a white paper describing best practice for a Conditions Database schema design: HSF-CWP-2017-03 [(arXiv)](https://arxiv.org/abs/1901.05429). That document provides a starting point for continuing cross-experiment discussions.  The level of consensus across the experiments on guiding principles was very encouraging, with agreement that good design features include:

@@ -1,6 +1,8 @@
 ---
 title: "Reconstruction and Software Triggers"
 layout: plain
+redirect_from:
+  - /workinggroups/recotrigger.html
 ---
 
 ## Mandate and Goals

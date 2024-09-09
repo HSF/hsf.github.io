@@ -2,7 +2,7 @@
 title: PyHEP - Python in HEP
 layout: plain
 redirect_from:
-  - /activities/pyhep.html
+  - /workinggroups/pyhep.html
 ---
 
 The PyHEP working group brings together a community of developers and users of Python in Particle Physics, with the aim of improving

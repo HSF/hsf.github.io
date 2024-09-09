@@ -1,6 +1,8 @@
 ---
 title: Data Analysis
 layout: plain
+redirect_from: 
+  - /workinggroups/dataanalysis.html
 ---
 
 Building on previous work, the Data Analysis Working Group aims to eliminate

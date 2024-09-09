@@ -2,7 +2,7 @@
 title: JuliaHEP - Julia in HEP
 layout: plain
 redirect_from:
-  - /activities/juliahep.html
+  - /workinggroups/juliahep.html
 ---
 
 The JuliaHEP working group brings together a community of developers and users of [Julia](https://julialang.org) in Particle Physics, 

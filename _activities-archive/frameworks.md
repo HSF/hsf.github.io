@@ -1,7 +1,9 @@
 ---
 title: "Frameworks"
 layout: plain
-redirect_from: activities/frameworks.html
+redirect_from: 
+  - /activities/frameworks.html
+  - /workinggroups/frameworks.html
 ---
 
 ## Mandate
