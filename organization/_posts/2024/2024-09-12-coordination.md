@@ -74,7 +74,7 @@ Steering Group members who offered to coordinate the organisation: Benedikt, Mic
 
 Suggestions for topics are really needed!
 
-- Sofware Triggers & Reco proposed something around 4-D reconstruction
+- Software Triggers & Reco proposed something around 4-D reconstruction
 - Event generators on GPUs for the November seminar (after CHEP)
 ---
 
@@ -87,7 +87,7 @@ There was a Steering Group meeting on 9 September and the [minutes](https://heps
     - [guidelines on best practices and badges](https://docs.google.com/document/d/1AiLcqyLA4c1y2Iq-YZyKP7DwN8m2AJb_J44cDuGGAXI/edit)
     - Early adopters interest from software projects very welcome!
 - The HSF Advisory Group [document](https://docs.google.com/document/d/1L62pleuuME6K9WLl5T4KQaImPP_Qpc8HSym-XBNTKv8/edit?usp=sharing) is finalised
-    - Will now discuss with the experiments consituting the AG
+    - Will now discuss with the experiments constituting the AG
 
 ---
 
