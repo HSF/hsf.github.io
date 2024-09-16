@@ -68,7 +68,7 @@ We would like to organise further seminars on
 - 30 October
 - 27 November
 
-The regular slot should be the last Wedenesday of each month, at 16h30 CEST.
+The regular slot should be the last Wednesday of each month, at 16h30 CEST.
 
 Steering Group members who offered to coordinate the organisation: Benedikt, Michel, Andrea.
 
@@ -76,6 +76,7 @@ Suggestions for topics are really needed!
 
 - Software Triggers & Reco proposed something around 4-D reconstruction
 - Event generators on GPUs for the November seminar (after CHEP)
+
 ---
 
 ## Steering Group News
@@ -123,9 +124,10 @@ Currently in the process of scheduling a talk on [Scipp](https://scipp.github.io
 
 ### Detector Simulation
 
-We briefly discussed on Monday 9th the contribution to the European Strategy. The White Paper (https://arxiv.org/pdf/1712.06982) and the HSF software tools document for the HL-LHC LHCC review (https://zenodo.org/records/4009114) both include a 6-page section on simulation, emphasizing the importance of simulation for HEP and describing the direction of R&D effort to improve the accuracy and computing efficiency of simulation. There is also a simulation document submitted for Snowmass (https://arxiv.org/pdf/2203.07614) which is relevant. We propose to prepare something along similar lines in terms of scope and length. Details still needs to be worked out.
+We briefly discussed on Monday 9th the contribution to the European Strategy. The [White Paper](https://arxiv.org/pdf/1712.06982) and the HSF software tools document for the [HL-LHC LHCC review](https://zenodo.org/records/4009114) both include a 6-page section on simulation, emphasizing the importance of simulation for HEP and describing the direction of R&D effort to improve the accuracy and computing efficiency of simulation. There is also a simulation document submitted for [Snowmass](https://arxiv.org/pdf/2203.07614) which is relevant. We propose to prepare something along similar lines in terms of scope and length. Details still needs to be worked out.
 
 ### Reconstruction and Software Trigger
+
 Have gotten in touch with 2 speakers for an HSF Seminar on 4D track reco.
 
 ### PyHEP
