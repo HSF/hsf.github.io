@@ -56,10 +56,10 @@
   id: cmake
 - description: 'The most famous data analysis framework used in HEP.'
   name: <code>ROOT</code>
-  repository: 'https://github.com/root-project/software-carpentry'
+  repository: 'https://github.com/root-project/student-course'
   status: stable
-  videos: ''
-  webpage: 'https://github.com/root-project/software-carpentry'
+  videos: 'https://videos.cern.ch/record/2300516'
+  webpage: 'https://github.com/root-project/student-course'
   id: root
 - description: Reading and writing ROOT files without having to install ROOT.
   name: <code>uproot</code>
