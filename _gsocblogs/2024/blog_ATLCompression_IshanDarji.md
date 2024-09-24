@@ -1,3 +1,15 @@
+---
+project: HSF Atlas Experiment
+title: Lossless compression of raw data for the ATLAS experiment at CERN
+author: Ishan Darji
+photo: blog_authors/IshanDarji.jpg
+date: 24.9.2024
+year: 2024
+layout: blog_post
+logo:
+intro: Investigated lossless data compression for ATLAS experiment raw data to replace the currently used `zlib` compression. Investiagted alternatives such as `zstd`, `brotli`, `xz`, and `lzlib`. Compared tradeoffs between libraries in metrics such as compression speed and compression ratio, placing additional importance on compression ratio for this project because incremental saves add up at exabyte scale. Implemented example of compression and decompression of ATLAS event data that can read and write compressed data.|
+---
+
 # Lossless compression of raw data for the ATLAS experiment at CERN
 
 ### Abstract
