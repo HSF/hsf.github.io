@@ -7,29 +7,23 @@ year: 2024
 layout: blog_post
 logo:
 intro: |
-    Worked on integration of modern overlay FS feature in CVMFS server part and replacement of macFUSE kernel extension with FUSE-T user-space library on for macOS laptop clients.
+    Worked on integration of additional overlay FS features in CVMFS server part and replacement of macFUSE kernel extension with FUSE-T user-space library for macOS laptop clients.
     At this point a backbone for metadata-only copying and zero-copy directory renames is implemented for Linux server part and still goes through a refinement and adjustment 
-    due to various differences in overlay FS behaviour discovered on the course of the project. FUSE-T support for macOS clients is primarily done apart several issues that we
-    find critical for CVMFS client stability. I helped with creation of GitHub Actions CI pipeline for macOS clients, prepared a table of issues with FUSE-T that were encountered  
+    due to various differences in overlay FS behaviour discovered during the course of the project. FUSE-T support for macOS clients is primarily done apart several issues that we
+    classified as critical for CVMFS client stability. I helped with creation of GitHub Actions CI pipeline for macOS clients, prepared a table of FUSE-T issues that were encountered  
     during this project. Currently, I am continuing my work on adding an ability for users to switch back to macFUSE kext.
 ---
 
-<h3> Project: CernVM-FS - Integration of FUSE-T libary for macOS laptop clients. Levaraging modern overlay FS features in cvmfs_server </h3>
-<h3> Mentor: Valentin Volkl</h3>
-
-**Related repositories:** [CVMFS fork](https://github.com/YBelikov/cvmfs), [CVMFS origin](https://github.com/cvmfs/cvmfs)
-
-**Check out my work here:** [FUSE-T](https://github.com/cvmfs/cvmfs/pull/3587), [Overlay FS](https://github.com/cvmfs/cvmfs/pull/3547)
-# Getting into the Process
+# Introduction
 When the accepted projects were announced, I already started my participation in CVMFS project under Ukrainian Remote Student Internship and was already working 
-on integrating capabilities provided by metadata only copying for edited files and zero-copy renames in overlay FS at the core of cvmfs_server utility.
-However, we outlined replacing macFUSE kernel extension with FUSE-T user-space library as the main goal for GSoC. The motivation behind this is a potential
+on integration of capabilities provided by metadata-only copying and zero-copy directory renames in overlay FS at the core of cvmfs_server utility.
+However, we outlined replacement of macFUSE kernel extension with FUSE-T user-space library as the main goal for GSoC. The motivation behind this is a potential
 simplification of macOS client installation process:
 - Currently, installing third-party kernel extensions require double reboot
 - Manual degrading of macOS security protection mechanisms
 
-On top of that, FUSE-T creats a potential foundation for making a brew package for CVMFS client as well allows creation GitHub Actions macOS CI. 
-Moreover I proposed continuation of my work with overlay FS updates during the period of my participation in GSoC what was also welcomed.
+On top of that, FUSE-T potentially creates a foundation for making a brew package for CVMFS client. Additionally it allows creation of GitHub Actions CI pipeline for macOS client. 
+However, I proposed continuation of my work with overlay FS updates during the period of my participation in GSoC, what was also welcomed.
 Since I had already been in touch with Valentin as with my internship supervisor and other members of CVMFS team there were no need in Community Bonding Period.
 Thus, I started working on these tasks.
 
@@ -94,3 +88,7 @@ There is still work to do: FUSE-T integration appeared not as easy as we were ex
 on repositories reloads and IPC management that are yet to be resolved.
 As well overlay FS part contained various not-so-trivial parts such as nested whiteouts and partial content updates for directories.
 I hope I will help with resolution of the remaining issues and my work will be good foundation for the future release of CVMFS.
+
+**Related repositories:** [CVMFS fork](https://github.com/YBelikov/cvmfs), [CVMFS origin](https://github.com/cvmfs/cvmfs)
+
+**Check out my work here:** [FUSE-T](https://github.com/cvmfs/cvmfs/pull/3587), [Overlay FS](https://github.com/cvmfs/cvmfs/pull/3547)
