@@ -7,25 +7,28 @@ HSF Affiliated Projects and Software
 
 ## Definitions
 
-HSF Affiliated Projects and Software are community-driven and community-oriented “endeavours” or “products” of wide and recognised interest and applicability beyond a single collaboration or experiment.
+*HSF Affiliated Projects and Software* are community-driven and community-oriented "endeavours" or "products" of wide and recognised interest and applicability beyond a single collaboration or experiment.
 
-HSF Affiliated Projects and Software are community projects or software packages with person-power, and possibly dedicated funding, which connect strongly to the HSF and align with [its remit](https://hepsoftwarefoundation.org/organization/goals.html). They benefit from their inclusion in, or association with, the HSF through access to the community for wide visibility and easier promotion through the network. Affiliation makes it clear that the HSF has no control over the endeavours/products, hence no responsibility for evolution or maintenance.
+*HSF Affiliated Projects and Software* are community projects or software packages with person-power, and possibly dedicated funding, which connect strongly to the HSF and align with [its remit]({{ site.baseurl }}/organization/goals.html). They benefit from their inclusion in, or association with, the HSF through access to the community for wide visibility and easier promotion through the network. Affiliation makes it clear that the HSF has no control over the endeavours/products, hence no responsibility for evolution or maintenance.
 
 Projects are in general not hosted on the HSF GitHub repository since they are externally managed and maintained, though some are on the [HSF GitHub repository](https://github.com/HSF).
 
 ## Engagement and endorsement
 
-Any member of the community is welcome to engage with the HSF in general and the HSF Steering Group (SG), in particular to discuss the route towards making a software project or package an HSF Affiliated Project or Software. This can be an informal discussion initially.
+Any member of the community is welcome to engage with the HSF in general and the
+[HSF Steering Group (SG)]({{ site.baseurl }}/organization/team.html),
+in particular to discuss the route towards making a software project or package an HSF Affiliated Project or Software. This can be an informal discussion initially.
 
-Formal endorsement is provided by the HSF SG following a short evaluation period in consultation with the relevant HSF Working Group conveners and community experts. For transparency, these evaluations (start, scope and end) are advertised publicly via the HSF Forum, the HSF’s main means of communication.
+Formal endorsement is provided by the HSF SG following a short evaluation period in consultation with the relevant HSF Working Group conveners and community experts. For transparency, these evaluations (start, scope and end) are advertised publicly via the HSF Forum, the HSF's main means of communication.
 
 The list of HSF Affiliated Projects and Software is hosted in a dedicated area on the HSF website, curated and maintained by the HSF SG.
 
-The recognition of bijective engagement with the HSF is displayed via GitHub Badges. Three levels distinguish mainly the level of maturity, community support and 
-engagement: Bronze, Silver and Gold. In broad terms, the attribution of the endorsement level is based on the following guidelines, which are detailed in the dedicated document on Guidelines for HSF Affiliated Projects and Software, and Endorsement Badge Levels.
-- Bronze: new or young endeavour, likely evolving from and within a collaboration or experiment, but with the potential for other communities to use. It should be committed to meeting best practices in software engineering, e.g., documentation and a test suite.
-- Silver: aiming for gold but in an earlier phase towards strong community support (e.g., adoption is still relatively shy, maintenance is not secured at least in the medium term by more than a single person). High standards of software engineering should be met.
-- Gold: endeavour adopted by several collaborations and/or experiments with a strong and long-term community support model.
+The recognition of bijective engagement with the HSF is displayed via *GitHub Badges*.
+Three levels distinguish mainly the level of maturity, community support and  engagement: Bronze, Silver and Gold.
+In broad terms, the attribution of the endorsement level is based on the following guidelines, which are detailed in the dedicated document on Guidelines for HSF Affiliated Projects and Software, and Endorsement Badge Levels.
+* Bronze: new or young endeavour, likely evolving from and within a collaboration or experiment, but with the potential for other communities to use. It should be committed to meeting best practices in software engineering, e.g., documentation and a test suite.
+* Silver: aiming for gold but in an earlier phase towards strong community support (e.g., adoption is still relatively shy, maintenance is not secured at least in the medium term by more than a single person). High standards of software engineering should be met.
+* Gold: endeavour adopted by several collaborations and/or experiments with a strong and long-term community support model.
 
 The HSF envisages a scheme for Annual Project Awards. A concrete proposal will be presented to the HSF Advisory Group once the latter is put in place.
 
@@ -33,11 +36,11 @@ The HSF envisages a scheme for Annual Project Awards. A concrete proposal will b
 
 They are detailed in the document Guidelines for HSF (Affiliated) Projects and Software.
 
-## HSF “Reviews”
+## HSF "Reviews"
 
 The HSF can organise informal reviews of community projects upon request. Such reviews bring together a group of experts from the community to assess all aspects of a project or software, from requirements to implementation: code, packaging, documentation, etc.
 
-The reviews are organised by the HSF SG in consultation with relevant Working Group conveners. For transparency, these reviews (start, scope and end) are advertised publicly via the HSF Forum, the HSF’s main means of communication, and the results are made public.
+The reviews are organised by the HSF SG in consultation with relevant Working Group conveners. For transparency, these reviews (start, scope and end) are advertised publicly via the HSF Forum, the HSF's main means of communication, and the results are made public.
 
 ## HSF Requirements and Reference Implementation
 
@@ -49,17 +52,25 @@ Where there is a problem domain in the field that has not been studied from a ge
 In the first phase, experts from multiple experiments and communities should undertake a process of writing a White Paper, with wide community consultation and endorsement, which describes the problem to be solved in terms of specific and concrete requirements.
 The requirements can then be used as the basis for a public API specification, to which specific solutions should adhere to.
 The HSF can facilitate the development of solutions, which will become an Affiliated Project or Software irrespective of the concrete circumstances and sources of effort and funding.
-The model for this process was the development of the conditions database used by sPHENIX, as developed by the BNL NPPS group, following the problem definition developed in the HSF Conditions Database Working Group [2401.16274].
+The model for this process was the development of the conditions database used by sPHENIX, as developed by the BNL NPPS group, following the problem definition developed in the HSF Conditions Database Working Group [arXiv:2401.16274](https://doi.org/10.48550/arXiv.2401.16274).
 
 ## Letters of Support and Cooperation
 
-Please refer to the document HSF letters on the website. The HSF continues to provide letters on the same basis.
+Please refer to the document
+[HSF letters]({{ site.baseurl }}/organization/hsf-letters.html)
+on the website. The HSF continues to provide letters on the same basis.
 
 ## Funding Support
 
-The HSF is a community organisation with no internal source of funding. It runs as a do-ocracy. In the spirit that the HSF facilitates cooperation and common efforts in HEP software and computing internationally, the HSF envisages facilitating the availability of modest financial support for community colleagues to travel and present at important events. This is inspired, broadly speaking, by the concept of NumFOCUS Affiliated Projects. The HSF will highlight external funding opportunities available for software projects. 
+The HSF is a community organisation with no internal source of funding.
+It runs as a do-ocracy. In the spirit that the HSF facilitates cooperation and common efforts in HEP software and computing internationally, the HSF envisages facilitating the availability of modest financial support for community colleagues to travel and present at important events.
+This is inspired, broadly speaking, by the concept of
+[NumFOCUS Affiliated Projects](https://numfocus.org/sponsored-projects/affiliated-projects).
+The HSF will highlight external funding opportunities available for software projects. 
 
-Entities interested in acting as Sponsors make themselves known to the HSF SG stating the level of funding they will make available per annum, and for what type of activity(ies) - e.g., presentation of a software package by an Early Career Scientist at a major conference, travel support for a seminar. The HSF SG curates the list of Sponsors on the website, displaying the requirements to be met by each Sponsor. The HSF will not be in charge of financial transactions, it will merely serve as a mediator.
+Entities interested in acting as Sponsors make themselves known to the HSF SG stating the level of funding they will make available per annum, and for what type of activity(ies) - e.g., presentation of a software package by an Early Career Scientist at a major conference, travel support for a seminar.
+The HSF SG curates the list of Sponsors on the website, displaying the requirements to be met by each Sponsor.
+The HSF will not be in charge of financial transactions, it will merely serve as a mediator.
 
 Entities can be any moral entity or persons.
 
