@@ -2,7 +2,7 @@
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
 
- title: Julia for HEP Tutorial - come to the Workshop! 
+  title: Julia for HEP Tutorial - come to the Workshop! 
 - author: Sudhir Malik
   date: 2024-09-25
   deadline: ''
