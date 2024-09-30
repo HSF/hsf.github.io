@@ -42,7 +42,7 @@
   source: https://indico.cern.ch/event/1395323/
   tags:
   - HSF
- title: 11th HEP C++ Course and Hands-on Training - Advanced C++
+  title: 11th HEP C++ Course and Hands-on Training - Advanced C++
 - author: Sudhir Malik
   date: 2024-09-30
   deadline: ''
@@ -50,7 +50,7 @@
   source: https://indico.cern.ch/event/1430163/
   tags:
   - HSF
- title: 10th HEP C++ Course and Hands-on Training - The Essentials
+  title: 10th HEP C++ Course and Hands-on Training - The Essentials
 - author: Sudhir Malik
   date: 2024-03-25
   deadline: ''
@@ -58,7 +58,7 @@
   source: https://indico.cern.ch/event/1370681/
   tags:
   - HSF
- title: 9th HEP C++ Course and Hands-on Training - Advanced C++
+  title: 9th HEP C++ Course and Hands-on Training - Advanced C++
 - author: Sudhir Malik
   date: 2023-10-16
   deadline: ''
