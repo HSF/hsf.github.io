@@ -1,6 +1,78 @@
 # Sorted by ascending date => New events go on top
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
+  
+- author: Sudhir Malik
+  date: 2024-09-25
+  deadline: ''
+  end_date: 2024-09-27
+  source: https://indico.cern.ch/event/1420376/
+  tags:
+  - HSF
+  title: Julia for HEP Tutorial - come to the Workshop! 
+  
+- author: Sudhir Malik
+  date: 2024-07-16
+  deadline: ''
+  end_date: 2024-07-16
+  source: https://indico.cern.ch/event/1430633/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Python for Analysis Training (Virtual)
+  
+- author: Sudhir Malik
+  date: 2024-07-08
+  deadline: ''
+  end_date: 2024-07-09
+  source: https://indico.cern.ch/event/1428522/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Software Basics Training (Virtual)
+  
+- author: Sudhir Malik
+  date: 2024-06-05
+  deadline: ''
+  end_date: 2023-06-05
+  source: https://indico.cern.ch/event/1408846/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Software Basics Training (Virtual)
+  
+- author: Sudhir Malik
+  date: 2024-05-20
+  deadline: ''
+  end_date: 2024-05-21
+  source: https://indico.cern.ch/event/1395323/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Python for Analysis Training (Virtual)
+  
+- author: Sudhir Malik
+  date: 2024-09-30
+  deadline: ''
+  end_date: 2024-10-04
+  source: https://indico.cern.ch/event/1430163/
+  tags:
+  - HSF
+  title: 11th HEP C++ Course and Hands-on Training - Advanced C++
+  
+- author: Sudhir Malik
+  date: 2024-03-25
+  deadline: ''
+  end_date: 2024-03-28
+  source: https://indico.cern.ch/event/1370681/
+  tags:
+  - HSF
+  title: 10th HEP C++ Course and Hands-on Training - The Essentials
+  
+- author: Sudhir Malik
+  date: 2023-10-16
+  deadline: ''
+  end_date: 2023-10-20
+  source: https://indico.cern.ch/event/1266628/
+  tags:
+  - HSF
+  title: 9th HEP C++ Course and Hands-on Training - Advanced C++
 - author: Sudhir Malik
   date: 2024-04-15
   deadline: ''
