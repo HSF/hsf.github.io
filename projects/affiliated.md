@@ -34,7 +34,7 @@ The HSF envisages a scheme for Annual Project Awards. A concrete proposal will b
 
 ## Best-practice guidelines
 
-They are detailed in the document Guidelines for HSF (Affiliated) Projects and Software.
+They are detailed in the document Guidelines for HSF Affiliated Projects and Software.
 
 ## HSF "Reviews"
 
