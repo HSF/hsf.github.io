@@ -36,7 +36,7 @@ The HSF envisages a scheme for Annual Project Awards. A concrete proposal will b
 
 They are detailed in the document Guidelines for HSF Affiliated Projects and Software.
 
-## HSF "Reviews"
+## HSF Reviews
 
 The HSF can organise informal reviews of community projects upon request. Such reviews bring together a group of experts from the community to assess all aspects of a project or software, from requirements to implementation: code, packaging, documentation, etc.
 
