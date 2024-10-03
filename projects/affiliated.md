@@ -9,7 +9,7 @@ HSF Affiliated Projects and Software
 
 *HSF Affiliated Projects and Software* are community-driven and community-oriented "endeavours" or "products" of wide and recognised interest and applicability beyond a single collaboration or experiment.
 
-*HSF Affiliated Projects and Software* are community projects or software packages with person-power, and possibly dedicated funding, which connect strongly to the HSF and align with [its remit]({{ site.baseurl }}/organization/goals.html). They benefit from their inclusion in, or association with, the HSF through access to the community for wide visibility and easier promotion through the network. Affiliation makes it clear that the HSF has no control over the endeavours/products, hence no responsibility for evolution or maintenance.
+*HSF Affiliated Projects and Software* are community projects or software packages with person-power, and possibly dedicated funding, which connect strongly to the HSF and align with [its goals]({{ site.baseurl }}/organization/goals.html). They benefit from their inclusion in, or association with, the HSF through access to the community for wide visibility and easier promotion through the network. Affiliation makes it clear that the HSF has no control over the endeavours/products, hence no responsibility for evolution or maintenance.
 
 Projects are in general not hosted on the HSF GitHub repository since they are externally managed and maintained, though some are on the [HSF GitHub repository](https://github.com/HSF).
 
