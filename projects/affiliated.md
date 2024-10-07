@@ -4,7 +4,7 @@ layout: plain
 ---
 
 
-## Definitions
+## Introduction
 
 *HSF Affiliated Projects and Software* are community-driven and community-oriented "endeavours" or "products" of wide and recognised interest and applicability beyond a single collaboration or experiment.
 
