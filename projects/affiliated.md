@@ -3,7 +3,6 @@ title: "HSF Affiliated Projects and Software"
 layout: plain
 ---
 
-HSF Affiliated Projects and Software
 
 ## Definitions
 
@@ -15,7 +14,7 @@ Projects are in general not hosted on the HSF GitHub repository since they are e
 
 ## Engagement and endorsement
 
-Any member of the community is welcome to engage with the HSF in general and the
+Anyone is welcome to engage with the HSF in general and the
 [HSF Steering Group (SG)]({{ site.baseurl }}/organization/team.html),
 in particular to discuss the route towards making a software project or package an HSF Affiliated Project or Software. This can be an informal discussion initially.
 
@@ -27,7 +26,7 @@ The recognition of bijective engagement with the HSF is displayed via *GitHub Ba
 Three levels distinguish mainly the level of maturity, community support and  engagement: Bronze, Silver and Gold.
 In broad terms, the attribution of the endorsement level is based on the following guidelines, which are detailed in the dedicated document on Guidelines for HSF Affiliated Projects and Software, and Endorsement Badge Levels.
 * Bronze: new or young endeavour, likely evolving from and within a collaboration or experiment, but with the potential for other communities to use. It should be committed to meeting best practices in software engineering, e.g., documentation and a test suite.
-* Silver: aiming for gold but in an earlier phase towards strong community support (e.g., adoption is still relatively shy, maintenance is not secured at least in the medium term by more than a single person). High standards of software engineering should be met.
+* Silver: aiming for gold but in an earlier phase towards strong community support (e.g., adoption is still modest, maintenance is not secured at least in the medium term by more than a single person). High standards of software engineering should be met.
 * Gold: endeavour adopted by several collaborations and/or experiments with a strong and long-term community support model.
 
 The HSF envisages a scheme for Annual Project Awards. A concrete proposal will be presented to the HSF Advisory Group once the latter is put in place.
