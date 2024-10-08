@@ -1,11 +1,11 @@
 ---
 project: HSF CernVM-FS
-title: CernVM-FS - Integration of FUSE-T library for macOS laptop clients. Levaraging modern overlay FS features in cvmfs_server
+title: CernVM-FS - Integration of FUSE-T library for macOS laptop clients + Leveraging modern Overlay-FS features
 author: Yuriy Belikov
 date: 25.09.2024
 year: 2024
 layout: blog_post
-logo:
+logo: CERNVM-FS-logo.png
 intro: |
     Worked on integration of additional overlay FS features in CVMFS server part and replacement of macFUSE kernel extension with FUSE-T user-space library for macOS laptop clients.
     At this point a backbone for metadata-only copying and zero-copy directory renames is implemented for Linux server part and still goes through a refinement and adjustment 
