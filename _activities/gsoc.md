@@ -31,7 +31,7 @@ Information from last year’s GSoC can be found [here]({{ site.baseurl }}/gsoc/
 
 In 2024 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. The HSF project ideas are listed [below](#projects-in-2024). Please have a look at the general [program rules](https://summerofcode.withgoogle.com/rules/) and the [timeline](https://summerofcode.withgoogle.com/how-it-works/) provided by Google. 
 
-The selection process in our organization will be split into two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. The successful candidates will have a detailed exchange with mentors on a given project idea, and their proposals are then evaluated for the final student selection. The detailed [timeline]({{site.baseurl}}/activities/gsoc.html#timeline) of these phases is shown below.
+The selection process in our organization will be split into two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. The successful candidates will have a detailed exchange with mentors on a given project idea, and their proposals are then evaluated for the final student selection. The detailed [timeline](#timeline) of these phases is shown below.
 
 ### For Students
 
@@ -47,9 +47,15 @@ For further information, feel free to contact the HSF GSoC admins or join our op
 
 [![Gitter](https://badges.gitter.im/HSF/HSF-GSoC.svg)](https://gitter.im/HSF/HSF-GSoC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-### Student pages
+### Past Projects
 
-Student blogs are mandatory for receiving a positive evaluation in CERN-HSF! If you are a CERN-HSF student, please read this [blog]({{ site.baseurl }}/gsoc/blogs/2022/blog_HSF_TheAdmins.html). Previous blogs from 2022 are available. [Check them out!]({{ site.baseurl }}/gsoc/2023/blogs.html)
+Project from previous years are showcased in blog posts written by students. If you are a CERN-HSF student, please read these [instructions]({{ site.baseurl }}/gsoc/blogs/2022/blog_HSF_TheAdmins.html) on how to add your project. Student blogs are mandatory for receiving a positive evaluation in CERN-HSF! 
+
+See here the student blog posts from previous years:
+
+* [Student blogs 2024]({{ site.baseurl }}/gsoc/2024/blogs.html)
+* [Student blogs 2023]({{ site.baseurl }}/gsoc/2023/blogs.html)
+* [Student blogs 2022]({{ site.baseurl }}/gsoc/2022/blogs.html)
 
 
 ### For Projects and Mentors
