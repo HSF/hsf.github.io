@@ -56,8 +56,8 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="projects_menu">
-                  <li><a href="{{ site.baseurl }}/organization/affiliated.html">HSF Affiliated Projects and Software</a></li>
-                  <li><a href="{{ site.baseurl }}/organization/guidelines.html">Guidelines for HSF Affiliated Projects and Software, and Endorsement Badge Assignments</a></li>
+                  <li><a href="{{ site.baseurl }}/projects/affiliated.html">HSF Affiliated Projects and Software</a></li>
+                  <li><a href="{{ site.baseurl }}/projects/guidelines.html">Projects and Software Guidelines</a></li>
                   <li class="divider"></li>
                   <li><a href="{{ site.baseurl }}/project_guidelines.html">How to join as a project</a></li>
                   <li><a href="{{ site.baseurl }}/projects.html">Member Projects</a></li>

@@ -1,9 +1,8 @@
 ---
-title: "Guidelines for HSF Affiliated Projects and Software, and Endorsement Badge Assignments"
+title: "Affiliated Projects and Software Guidelines"
 author: Eduardo Rodrigues, Pere Mato
 layout: plain
 ---
-
 
 In a spirit of openness and flexibility, the HSF maintains an evolving checklist of best practices for HSF Affiliated Projects and Software, rather than a set of requirements.
 HSF Affiliated Projects and Software need to abide by (at least a subset of) the guidelines,
@@ -17,7 +16,6 @@ The guidelines have been created to:
 The guidelines can be updated in light of updates or release of community practices, such as those emerging from e.g. the [EVERSE project](https://everse.software).
 
 The guidelines take inspiration from the [“old HSF page”](https://hepsoftwarefoundation.org/project_guidelines.html) and from the [Open Source Security Foundation (OpenSSF)’s page](https://www.bestpractices.dev/en/criteria).
-
 
 ## Best-practice Guidelines
 
