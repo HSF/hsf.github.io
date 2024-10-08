@@ -69,7 +69,7 @@
               <ul class="dropdown-menu" aria-labelledby="about_menu">
                 <li><a href="{{ site.baseurl }}/get_involved.html">Get involved!</a><li>
                 <li><a href="{{ site.baseurl }}/organization/team.html">The Steering Group</a></li>
-                <li><a href="{{ site.baseurl }}/organization/planning/plan-of-work-2023.html">HSF Planning</a></li>
+                <li><a href="{{ site.baseurl }}/organization/advisory-group.html">HSF Advisory Group</a></li>
                 <li class="divider"></li>
                 <li><a href="{{ site.baseurl }}/organization/goals.html">Goals of the HSF</a></li>
                 <li><a href="{{ site.baseurl }}/organization/cwp.html">Community White Paper</a></li>
