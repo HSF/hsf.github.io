@@ -6,11 +6,15 @@ layout: plain
 
 ## Introduction
 
+The HEP Software Foundation is delighted to support and promote community software for high-energy physics.
+Here we describe how we can help projects gain greater visibility and enhance the positive impact of their software.
+
 *HSF Affiliated Projects and Software* are community-driven and community-oriented "endeavours" or "products" of wide and recognised interest and applicability beyond a single collaboration or experiment.
 
 *HSF Affiliated Projects and Software* are community projects or software packages with person-power, and possibly dedicated funding, which connect strongly to the HSF and align with [its goals]({{ site.baseurl }}/organization/goals.html). They benefit from their inclusion in, or association with, the HSF through access to the community for wide visibility and easier promotion through the network. Affiliation makes it clear that the HSF has no direct control over the endeavours/products, hence no responsibility for evolution or maintenance.
 
-Projects are in general not hosted on the HSF GitHub repository since they are externally managed and maintained, though some are on the [HSF GitHub repository](https://github.com/HSF).
+Projects are hosted on their own public platform of choice (such as GitHub);
+they may use the [HSF GitHub repository](https://github.com/HSF) if desired and mutually agreed with the HSF Steering Group.
 
 ## Engagement and endorsement
 
@@ -29,7 +33,8 @@ In broad terms, the attribution of the endorsement level is based on the followi
 * Silver: aiming for gold but in an earlier phase towards strong community support (e.g., adoption is still modest, maintenance is not secured at least in the medium term by more than a single person). High standards of software engineering should be met.
 * Gold: endeavour adopted by several collaborations and/or experiments with a strong and long-term community support model.
 
-The HSF envisages a scheme for Annual Project Awards. A concrete proposal will be presented to the HSF Advisory Group once the latter is put in place.
+The HSF envisages a scheme for Annual Project Awards.
+A concrete proposal will be presented to the [HSF Advisory Group]({{ site.baseurl }}/organization/advisory-group.html) once the latter is put in place.
 
 ## Best-practice guidelines
 
