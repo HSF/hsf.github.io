@@ -1,5 +1,6 @@
 ---
 title: "HSF Affiliated Projects and Software"
+author: Eduardo Rodrigues, Pere Mato
 layout: plain
 ---
 
