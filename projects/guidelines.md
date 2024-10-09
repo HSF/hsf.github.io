@@ -5,7 +5,7 @@ layout: plain
 ---
 
 In a spirit of openness and flexibility, the HSF maintains an evolving checklist of best practices for HSF Affiliated Projects and Software, rather than a set of requirements.
-HSF Affiliated Projects and Software need to abide by (at least a subset of) the guidelines,
+[HSF Affiliated Projects and Software]({{ site.baseurl }}/projects/affiliated.html) need to abide by (at least a subset of) the guidelines,
 which are used for their endorsement and attribution of Bronze, Silver or Gold levels of recognition.
 
 The guidelines have been created to:
