@@ -29,7 +29,8 @@ The list of HSF Affiliated Projects and Software is hosted in a dedicated area o
 
 The recognition of bijective engagement with the HSF is displayed via *GitHub Badges*.
 Three levels distinguish mainly the level of maturity, community support and  engagement: Bronze, Silver and Gold.
-In broad terms, the attribution of the endorsement level is based on the following guidelines, which are detailed in the dedicated document on Guidelines for HSF Affiliated Projects and Software, and Endorsement Badge Levels.
+In broad terms, the attribution of the endorsement level is based on the following guidelines, which are detailed in the dedicated document on
+[Guidelines for HSF Affiliated Projects and Software, and Endorsement Badge Levels]({{ site.baseurl }}/projects/guidelines.html).
 * Bronze: new or young endeavour, likely evolving from and within a collaboration or experiment, but with the potential for other communities to use. It should be committed to meeting best practices in software engineering, e.g., documentation and a test suite.
 * Silver: aiming for gold but in an earlier phase towards strong community support (e.g., adoption is still modest, maintenance is not secured at least in the medium term by more than a single person). High standards of software engineering should be met.
 * Gold: endeavour adopted by several collaborations and/or experiments with a strong and long-term community support model.
@@ -39,7 +40,8 @@ A concrete proposal will be presented to the [HSF Advisory Group]({{ site.baseur
 
 ## Best-practice guidelines
 
-They are detailed in the document Guidelines for HSF Affiliated Projects and Software.
+They are detailed in the document
+[Guidelines for HSF Affiliated Projects and Software]({{ site.baseurl }}/projects/guidelines.html).
 
 ## HSF Reviews
 
