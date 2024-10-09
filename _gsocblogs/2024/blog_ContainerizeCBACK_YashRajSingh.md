@@ -1,5 +1,6 @@
 ## Final Project Report
-![image](https://gist.github.com/user-attachments/assets/24a7d92b-810e-4482-88c2-ade1e603ea25)
+![image](https://github.com/user-attachments/assets/61e8cdd3-09e9-4207-97e6-167bd31c78c3)
+
 - **Organization**: CERN HSF
 - **Mentors**: Gianmaria Del Monte, Enrico Bocchi , Roberto Valverde, Zachary Goggin
 - **Project Size**: Large (350 h)
@@ -42,7 +43,8 @@ By breaking the static nature of infrastructure deployment and enabling automate
 
 
 Prior to the implementation of the Scheduler Agent in the CBACK project, the backup orchestration process involved significant manual overhead. Operators had to manually monitor and trigger various backup, restore, and pruning jobs using the `cback` command line utility. This static infrastructure relied on virtual machines (VMs) where agents for each job type were manually configured and managed.
-![image](https://gist.github.com/user-attachments/assets/4798cc7d-06f8-46c3-87f7-7f50e0e37402)
+![image](https://github.com/user-attachments/assets/212b37bc-5603-4136-ae02-611bf17b959f)
+
 
 
 As the demand for backup operations fluctuated, the operators faced challenges in scaling the number of agents efficiently. Each job type—backup, restore, prune, verify—required a dedicated agent running on a static VM, leading to potential bottlenecks and delays in processing. This rigid setup made it difficult to adapt to changing workloads, resulting in inefficiencies and a higher likelihood of human error.
@@ -85,7 +87,8 @@ With the introduction of the Scheduler Agent, the CBACK project now operates wit
 
 #### Scheduler Agent Workflow
 
-<img width="1680" alt="image" src="https://gist.github.com/user-attachments/assets/a70c0570-3c10-4980-85c5-97149d2ebb96">
+![image](https://github.com/user-attachments/assets/9701dbee-de17-416e-8411-1b76c1eac931)
+
 
 
 
@@ -112,7 +115,8 @@ We explored two approaches for mounting the necessary storage:
 
 1. **Dynamic Provisioning**:
 
-<img width="1180" alt="Screenshot 2024-10-07 at 8 51 09 PM" src="https://gist.github.com/user-attachments/assets/3196cff5-7670-4d8a-8bf6-3961e041c34b">
+![image](https://github.com/user-attachments/assets/f6893c16-b42d-4a4d-8026-2738883b7cc5)
+
 
 
 - This approach allows Kubernetes to automatically create Persistent Volumes when a Persistent Volume Claim  is made.
@@ -123,7 +127,8 @@ We explored two approaches for mounting the necessary storage:
  
 2. **Static Provisioning**:
 
-<img width="1441" alt="Screenshot 2024-10-07 at 10 57 00 PM" src="https://gist.github.com/user-attachments/assets/8a269e7a-d199-4c2a-952b-79bfc171c463">
+![image](https://github.com/user-attachments/assets/331bb1c9-e012-4e20-a207-fa17ae87e7a5)
+
 
 
 - This approach involves defining PV and PVC pairs manually in the Helm charts.
