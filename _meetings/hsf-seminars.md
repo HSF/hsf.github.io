@@ -18,7 +18,7 @@ The schedule for past and future meetings is published in
 
 ## Organisers
 
-The seminar organsiers are Benedikt Hegner, Michel Jouvin and Andra Valassi, or
+The seminar organisers are Benedikt Hegner, Michel Jouvin and Andra Valassi, or
 you can contact the [HSF Steering Group](mailto:hsf-steering@googlegroups.com)
 or any of our [activity area]({{ site.baseurl }}/what_are_activities.html)
 coordinators to suggest or volunteer any topics that you would like to see in
