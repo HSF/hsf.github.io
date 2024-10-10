@@ -9,6 +9,9 @@
    id="svg1"
    inkscape:version="1.3 (0e150ed, 2023-07-21)"
    sodipodi:docname="hsf-logo-no-text.svg"
+   inkscape:export-filename="hsf-logo-no-text.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,12 +27,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.5946522"
-     inkscape:cx="369.96416"
+     inkscape:cx="369.12333"
      inkscape:cy="309.42457"
      inkscape:window-width="1320"
      inkscape:window-height="801"
      inkscape:window-x="57"
-     inkscape:window-y="41"
+     inkscape:window-y="38"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -78,9 +81,9 @@
        style="font-size:192px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';letter-spacing:0.04px;word-spacing:0.1px;white-space:pre;shape-inside:url(#rect5);display:inline;fill:#d40000;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="245.52148"
          y="812.05168"
-         id="tspan6"><tspan
+         id="tspan2"><tspan
            style="font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';fill:#aa0000;stroke:#aa0000"
-           id="tspan5">H</tspan></tspan></text>
+           id="tspan1">H</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,5.7841927,-169.07642)"
@@ -88,9 +91,9 @@
        style="font-size:192px;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';letter-spacing:0.04px;word-spacing:0.1px;white-space:pre;shape-inside:url(#rect6);display:inline;fill:#d40000;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"><tspan
          x="245.52148"
          y="812.05168"
-         id="tspan8"><tspan
+         id="tspan4"><tspan
            style="font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow';fill:#aa0000;stroke:#aa0000"
-           id="tspan7">F</tspan></tspan></text>
+           id="tspan3">F</tspan></tspan></text>
     <path
        style="fill:none;stroke:#aa0000;stroke-width:3.9;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 51.501763,5.9467006 c 0,0 -10.995024,1.801146 -11,11.0000004 0.444938,9.784005 21.89414,10.275204 22,21 0.21837,9.653319 -11,11 -11,11"

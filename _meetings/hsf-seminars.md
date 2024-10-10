@@ -16,9 +16,14 @@ eligible!
 The schedule for past and future meetings is published in
 [Indico](https://indico.cern.ch/category/18810/).
 
-You can contact the [HSF Steering Group](mailto:hsf-steering@googlegroups.com)
-or any of our [activity area]({{ site.baseurl }}/) coordinators to suggest or
-volunteer any topics that you would like to see in future meetings.
+## Organisers
+
+The seminar organisers are Benedikt Hegner, Michel Jouvin and Andra Valassi, or
+you can contact the [HSF Steering Group](mailto:hsf-steering@googlegroups.com)
+or any of our [activity area]({{ site.baseurl }}/what_are_activities.html)
+coordinators to suggest or volunteer any topics that you would like to see in
+future meetings.
+
 
 <p align=center>
 <img src="{{ '/images/HSF-logo/hsf-logo-seminar.svg' | relative_url }}"
