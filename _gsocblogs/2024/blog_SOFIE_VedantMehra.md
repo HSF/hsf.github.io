@@ -59,7 +59,7 @@ model.OutputGenerated("./example_output.hxx");
 
 SOFIE uses BLAS or Eigen for executing the inference and Protobuf3 to parse ONNX files. It features two main classes: ```RModel``` for holding model data and ```ROperator``` for handling ONNX operations and generating inference code. Another sub-directory, `sofie-parsers`, was added under TMVA to include the ONNX parser, RModelParser_ONNX. This parser reads ONNX files, loads their values into an RModel object, and returns it. It creates an intermediate representation of the model and outputs a C++ header file with an infer function that can be directly used in production environments.
 
-![flowchart_sofie](https://raw.githubusercontent.com/extint/gsoc24-blog/main/assets/Blank%20board%20-%20Page%201.png)
+<img src="https://raw.githubusercontent.com/extint/gsoc24-blog/main/assets/Blank%20board%20-%20Page%201.png" alt="Flowchart Sophie" width="100%" >
 
 ## Objective for GSoC24
 
