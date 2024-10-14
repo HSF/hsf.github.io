@@ -86,8 +86,8 @@ The actual [guidelines for projects](https://hepsoftwarefoundation.org/projects/
 
 ### Data Analysis
 
-- Next meeting on Oct 28: https://indico.cern.ch/event/1461088/
-  - focused on Scipp (https://scipp.github.io/) and ragged data. 
+- Next meeting on Oct 28: <https://indico.cern.ch/event/1461088/>
+  - focused on Scipp (<https://scipp.github.io/>) and ragged data. 
   - Room also booked at CERN
   - email to DAWG sent yesterday (feel free to advertise to interested communities!).
 
