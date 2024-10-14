@@ -50,10 +50,6 @@ Michel and Graeme agreed to help coordinating this work but other volunteers are
 
 - M&G to organise a dedicated discussion on this topic in October
 
-### LHCC
-
-
-
 ### HSF Seminar Series
 
 Seminar coordinators: Benedikt, Michel, Andrea
@@ -99,7 +95,7 @@ Areas which were actually not active at all were moved to a [*archived* area](ht
 
 ### Data Analysis
 
-- Next meeting on Oct 28: https://indico.cern.ch/event/1461088/, focused on Scipp (https://scipp.github.io/) and ragged data. Room also booked at CERN, email to DAWG sent yesterday (feel free to advertise to interested communities!).
+- Next meeting on Oct 28: <https://indico.cern.ch/event/1461088/>, focused on Scipp (<https://scipp.github.io/>) and ragged data. Room also booked at CERN, email to DAWG sent yesterday (feel free to advertise to interested communities!).
 
 
 ### Software Training
