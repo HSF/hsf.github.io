@@ -46,7 +46,7 @@ intro: |
 The Toolkit for Multivariate Analysis (TMVA) is a part of the ROOT Project, providing a machine learning framework used primarily in High-Energy Physics for tasks like multivariate classification and regression. Given the massive data output (often reaching petabytes daily) from research activities, and the need for fast, real-time predictions, a highly efficient inference engine is necessary for using trained machine learning models regularly. With this objective SOFIE (System for Optimized Fast Inference code Emit) was developed.
 
 ### SOFIE (System for Optimized Fast Inference code Emit)
-ROOT/TMVA SOFIE generates C++ functions easily invokable for the fast inference of trained neural network models. It takes ONNX model files as inputs and produces C++ header files that can be included and utilized in a “plug-and-go” style.
+ROOT/TMVA SOFIE generates C++ functions easily invocable for the fast inference of trained neural network models. It takes ONNX model files as inputs and produces C++ header files that can be included and utilized in a “plug-and-go” style.
 
 ```c
 // This generates a .hxx file containing the C++ code for model inference.
