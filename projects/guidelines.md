@@ -101,9 +101,9 @@ obtain, provide feedback (as bug reports or enhancements), and contribute to the
 * The project's source repository MUST track what changes were made, who made the changes, and when the changes were made.
 * To enable collaborative review, the project's source repository SHOULD include interim versions for review between releases; it SHOULD NOT include only final releases.
 * The project results MUST have a unique version identifier for each release intended to be used by users.
-  We recommend to use either [Semantic Versioning](https://semver.org) or [Calendar Versioning](https://calver.org/) as appropriate, since popular schemes.
+  We recommend to use either [Semantic Versioning](https://semver.org) or [Calendar Versioning](https://calver.org) as appropriate, since popular schemes.
 * The project MUST provide, in each release, release notes that are a human-readable summary of major changes in that release to help users determine if they should upgrade and what the upgrade impact will be.
-The release notes MUST NOT be the raw output of a version control log (e.g., the "git log" command results are not release notes).
+The release notes SHOULD NOT be the raw output of a version control log (e.g., the "git log" command results are not release notes).
 
 #### Sustainability
 
@@ -118,7 +118,7 @@ The release notes MUST NOT be the raw output of a version control log (e.g., the
 #### Level of adoption
 
 * The software produced by the project MUST be of interest for the HEP experiments.
-* The software SHOULD be adopted by at least one experiment.
+* The software SHOULD be adopted by at least one experiment/collaboration/project.
 
 ### Silver
 
