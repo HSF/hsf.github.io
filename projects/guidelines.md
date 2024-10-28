@@ -27,7 +27,7 @@ Any software library should strive to the following:
 Avoid pre-existing trademarks for software products or services.
 * **Licensing.** An open-source license should be attached to the software.
 * **Installation.** Instructions for how to install the library should be trivial to find, and the installation procedure should be standard for (e.g., at least via pip if the programming language is Python).
-* **Documentation.** The code should be suitable documented and a users guide (at least in the format of a “quick start”) should be highlighted. For small libraries a users guide may be provided in the repository README.
+* **Documentation.** The code should be suitably documented and a users guide (at least in the format of a “quick start”) should be highlighted. For small libraries a users guide may be provided in the repository README.
 * **Test suite.** Code should always be (comprehensively) tested. Test coverage is strongly encouraged and should be displayed on the repository for a straightforward verification of the level of testing implemented.
 * **Open to contributors.** The repository should encourage contributions from the community and should never disable pull/merge requests on the developer platform (such as GitHub).
 * **Issue tracking.** Each library repository provides an issue (bug, wish) tracker for users and developers to interact, allowing anonymous view of both open and closed tickets.
@@ -100,9 +100,10 @@ obtain, provide feedback (as bug reports or enhancements), and contribute to the
 
 * The project's source repository MUST track what changes were made, who made the changes, and when the changes were made.
 * To enable collaborative review, the project's source repository SHOULD include interim versions for review between releases; it SHOULD NOT include only final releases.
-* The project results MUST have a unique version identifier for each release intended to be used by users. It is recommended to use Semantic Versioning.
+* The project results MUST have a unique version identifier for each release intended to be used by users.
+  We recommend using a well defined versioning scheme that is consistent with practices in your sub-domain, e.g. [Semantic Versioning](https://semver.org) or [Calendar Versioning](https://calver.org).
 * The project MUST provide, in each release, release notes that are a human-readable summary of major changes in that release to help users determine if they should upgrade and what the upgrade impact will be.
-The release notes MUST NOT be the raw output of a version control log (e.g., the "git log" command results are not release notes).
+The release notes SHOULD NOT be the raw output of a version control log (e.g., the "git log" command results are not release notes).
 
 #### Sustainability
 
@@ -117,7 +118,7 @@ The release notes MUST NOT be the raw output of a version control log (e.g., the
 #### Level of adoption
 
 * The software produced by the project MUST be of interest for the HEP experiments.
-* The software SHOULD be adopted by at least one experiment.
+* The software SHOULD be adopted by at least one experiment/collaboration/project.
 
 ### Silver
 
