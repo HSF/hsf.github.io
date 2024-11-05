@@ -20,8 +20,8 @@ are compatible. This is a potential problem for the HSF as its goal is to
 create a software ecosystem where all packages can be combined to address the
 computing needs of our community.
 
-In Spring 2015, A working group has been formed with people from the community
-who had already some experiences with licensing issues. This working group, as
+In Spring 2015, An Activity Area has been formed with people from the community
+who had already some experiences with licensing issues. This group, as
 any in the HSF, is open to new participants and contributions. Most
 discussions so far took place in the HSF Technical Forum
 (<hsf-forum@googlegroups.com>).
@@ -37,7 +37,7 @@ be released later if needed.
 # Forum Mailing List
 
 The [hsf-licensing-wg](https://groups.google.com/forum/#%21forum/hsf-licensing-wg)
-is the discussion forum for the licensing working group - feel free to post
+is the discussion forum for the licensing group - feel free to post
 any licensing related questions there.
 
 # Meetings
