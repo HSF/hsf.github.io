@@ -23,7 +23,7 @@ Anyone is welcome to engage with the HSF in general and the
 [HSF Steering Group (SG)]({{ site.baseurl }}/organization/team.html),
 in particular to discuss the route towards making a software project or package an HSF Affiliated Project or Software. This can be an informal discussion initially.
 
-Formal endorsement is provided by the HSF SG following a short evaluation period in consultation with the relevant HSF Working Group conveners and community experts. For transparency, these evaluations (start, scope and end) are advertised publicly via the HSF Forum, the HSF's main means of communication.
+Formal endorsement is provided by the HSF SG following a short evaluation period in consultation with the relevant HSF Activity Area conveners and community experts. For transparency, these evaluations (start, scope and end) are advertised publicly via the HSF Forum, the HSF's main means of communication.
 
 The list of HSF Affiliated Projects and Software is hosted in a dedicated area on the HSF website, curated and maintained by the HSF SG.
 
@@ -54,7 +54,7 @@ They are detailed in the document
 
 The HSF can organise informal reviews of community projects upon request. Such reviews bring together a group of experts from the community to assess all aspects of a project or software, from requirements to implementation: code, packaging, documentation, etc.
 
-The reviews are organised by the HSF SG in consultation with relevant Working Group conveners. For transparency, these reviews (start, scope and end) are advertised publicly via the HSF Forum, the HSF's main means of communication, and the results are made public.
+The reviews are organised by the HSF SG in consultation with relevant Activity Area conveners. For transparency, these reviews (start, scope and end) are advertised publicly via the HSF Forum, the HSF's main means of communication, and the results are made public.
 
 ## HSF Requirements and Reference Implementation
 

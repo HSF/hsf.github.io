@@ -19,10 +19,10 @@ other existing discussion forums.
 ## Areas for contribution
 
 There are plenty of opportunities for you to contribute to the HSF, be it by
-participation in technical discussions, by joining one of our working groups, or
+participation in technical discussions, by joining one of our Activity Areas, or
 by joining the HSF with your software project:
 
-  *  Participation in HSF [working groups]({{ site.baseurl }}/what_are_WGs.html) and [activity areas]({{ site.baseurl }}/what_are_activities.html)
+  *  Participation in HSF [Activity Areas]({{ site.baseurl }}/what_are_activities.html)
   *  Participation in [HSF events and meetings]({{ site.baseurl }}/future-events.html)
   *  Taking advantage of the HSF by identifying your [software project]({{ site.baseurl }}/projects.html) with us
   *  Giving input to the [HSF Steering Group]({{ site.baseurl }}/organization/team.html)
