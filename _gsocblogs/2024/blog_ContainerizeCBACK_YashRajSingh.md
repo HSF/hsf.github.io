@@ -1,3 +1,17 @@
+---
+project: HSF CernVM-FS
+title: Containerisation of CBACK backup system
+author: Yash Raj Singh
+date: 25.10.2024
+year: 2024
+layout: blog_post
+logo: cback-logo.png
+intro: |
+    This project aimed to enhance the flexibility and scalability of CBACK by introducing dynamic agent spawning through Kubernetes-based scheduling. The project was responsible for developing a new "scheduler" agent type responsible for monitoring the internal database and initiating agent creation based on service demand. Additionally, the project also had containerisation as one of its primary goals to enable dynamic spawning of agents by the scheduler in a kubernetes environment. And to limit the scope of changes CSI drivers were also integrated along with cephx keys allowing for the restriction of file mount scopes on containers running job agents.
+---
+
+
+
 ## Final Project Report
 ![image](https://github.com/user-attachments/assets/61e8cdd3-09e9-4207-97e6-167bd31c78c3)
 
@@ -57,7 +71,7 @@ Now I divided the whole project into 3 phases :-
 
 ### Phase 1: Containerisation
 
-The initial phase involved containerising`cback` for it to be able to run in a kubernetes cluster.
+The initial phase involved containerising `cback` for it to be able to run in a kubernetes cluster.
 I began by creating a docker image for this repository by adding in commands which were required to setup the project . Once that was done the image was for in a harbor image registry .
 
 the next part was building the helm charts to simplify deployment of cback on a k8s cluster 
