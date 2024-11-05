@@ -5,7 +5,7 @@ redirect_from:
   - /workinggroups/detsim.html
 ---
 
-The Detector Simulation Working Group considers approaches to making
+The Detector Simulation Activity Area considers approaches to making
 detector simulation faster and more accurate for HEP experiments.
 Simulation that produces a traditional digitised detector output, as
 well as more radical approaches to generate reconstruction or analysis

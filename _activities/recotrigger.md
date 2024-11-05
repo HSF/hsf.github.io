@@ -7,11 +7,11 @@ redirect_from:
 
 ## Mandate and Goals
 
-The Reconstruction and Software Triggers Working Group considers
+The Reconstruction and Software Triggers Activity Area considers
 approaches and solutions to common challenges across HEP in the area of
 event reconstruction and software triggering (e.g., algorithms and data
 structures designed for online and offline processing of raw detector
-data). The working group targets challenges identified during the CWP
+data). The group targets challenges identified during the CWP
 process as well as new ones arising as the state of R&D advances. This
 forum should foster collaboration on design and implementation
 challenges, the adoption of common approaches, and raise awareness of
