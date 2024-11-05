@@ -48,7 +48,7 @@ follow our mailing list on google groups [hsf-recotrigger](https://groups.google
 
 ## Details
 
-[Mandate and link to other HSF working groups]({{ site.baseurl }}/organization/working-group-mandates.html).
+[Mandate for Working Groups from 2018 and link to first HSF Working Groups]({{ site.baseurl }}/organization/working-group-mandates.html).
 
 ## Former Conveners
 - Giulia Casarosa (Belle II, Universita di Pisa), 2022-2023
