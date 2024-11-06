@@ -21,7 +21,7 @@ had taught me that you need to find the fine line between the benefits of worklo
 with the lightweight threads of CUDA. Moreover, the implementation of a scientific computing project specifically, further underlined the potential that GPUs have to offer in this field.
 Hence, when the Google Summer of Code projects were announced and I came across Clad and this project, it immediately captured my attention and the idea of diving into such a challenging project 
 made me enthusiastic- and yes, this enthusiasm is still here after all these months. Though I underestimated the difficulty 
-and the number of issues that would arise, as most participants I presume- [my previous blog post](https://compiler-research.org/blogs/gsoc24_christina_koutsou_project_introductory_blog/) is the proof of my naivity-, I believe most of the deliverables were covered and we ended up with a satisfying basic support of computing the reverse-mode autodiff of CUDA kernels.
+and the number of issues that would arise, as most participants I presume- [my previous blog post](https://compiler-research.org/blogs/gsoc24_christina_koutsou_project_introductory_blog/) is the proof of my naivety-, I believe most of the deliverables were covered and we ended up with a satisfying basic support of computing the reverse-mode autodiff of CUDA kernels.
 Hopefully, you, as a potential user, will agree as well.
 
 ### Short background overview
@@ -40,7 +40,7 @@ Before continuing, a few things need to be addressed so we can all be on the sam
     Shared memory is a virtual memory space shared by all threads in a block and its faster to access than the GPU'S global memory. Kernels are executed on a certain queue, the stream.
     The arguments passed to a kernel must be allocated in the GPU memory before calling them. These operations happen on the side of the host, hence the variables are stored in the global memory of the GPU.
 * How can non-global device functions be accessed?
-  * Device (GPU) functions, with the attribute `__device__`, can only be called inside kernels. They cannot be launched similary to kernels in order to create a new grid configuration for them,
+  * Device (GPU) functions, with the attribute `__device__`, can only be called inside kernels. They cannot be launched similarly to kernels in order to create a new grid configuration for them,
     rather, each thread running the kernel will execute the device function as many times as it's called.
 
 ### Technical walk-through
@@ -51,12 +51,12 @@ First step of adding a new feature in a library is successful compilation. This 
 deriving a function based on any combination of the function's parameters. These adjoints are appended to the original function's parameters and this is the list of the derivative function. But not quite.
 
 `Clad` traverses the code after an initial translation pass, hence, at that time the output derivative function's signature is already formed (more on the whole process
-in this [introductory documentation](https://clad.readthedocs.io/en/latest/user/IntroductionToClangForCladContributors.html) I co-wrote with another contributor, Atell Yehor Krasnopolski). Since, we can't tell what it should look like before actually processing the differentiation call, this siganture is denoted as a void function of the original function's parameters plus a void pointer for each one to account for their potential adjoint. This mismatch in the expected final signature and the initially created one is countered through creating a wrapper function, defined as `Overload` in the source code, that has the more generic, already created function signature, and contains an internal call to the produced function with the expected signature. Before this occurs, the arguments of the wrapper are typecast and mapped
-to the internal function's params. Thus, if you use the `-fdump-derived-fn` flag to have a look at the produced code, what you see is the internal function, but what is trully returned to you as the result to run is the wrapper function.
+in this [introductory documentation](https://clad.readthedocs.io/en/latest/user/IntroductionToClangForCladContributors.html) I co-wrote with another contributor, Atell Yehor Krasnopolski). Since, we can't tell what it should look like before actually processing the differentiation call, this signature is denoted as a void function of the original function's parameters plus a void pointer for each one to account for their potential adjoint. This mismatch in the expected final signature and the initially created one is countered through creating a wrapper function, defined as `Overload` in the source code, that has the more generic, already created function signature, and contains an internal call to the produced function with the expected signature. Before this occurs, the arguments of the wrapper are typecast and mapped
+to the internal function's params. Thus, if you use the `-fdump-derived-fn` flag to have a look at the produced code, what you see is the internal function, but what is truly returned to you as the result to run is the wrapper function.
 
-Coming back to the CUDA kernel case, unfortunatelly we cannot launch a kernel inside another kernel. That leaves us with two options:
+Coming back to the CUDA kernel case, unfortunately we cannot launch a kernel inside another kernel. That leaves us with two options:
 * Transform the wrapper function into a host function, or
-* Tranform the internal function into a device function
+* Transform the internal function into a device function
 
 Though the first option is more desirable, it would introduce the need to know the configuration of the grid for each kernel execution at compile time, and consequently, have a separate call to `clad::gradient`
 for each configuration which, each time, creates the same function anew, diverging only on the kernel launch configuration. As a result, the second approach is the one followed.
@@ -81,7 +81,7 @@ Option 2:
   test.execute_kernel(grid, block, shared_mem, stream, x, dx);  	 
 ```
 
-It is also noteworthy that `execute_kernel` can only be used in the case of the original function being a CUDA kernel. In similar fashion, `execute` cannot be used in the aforementioned case. Corresponding warnings are issued if the user mistreates these functions.
+It is also noteworthy that `execute_kernel` can only be used in the case of the original function being a CUDA kernel. In similar fashion, `execute` cannot be used in the aforementioned case. Corresponding warnings are issued if the user mistreats these functions.
 
 ```cpp
 auto error_1 = clad::gradient(host_function);
@@ -121,7 +121,7 @@ An easy way around this was the use of atomic operations every time the memory a
 
 ![atomic-add](/images/others/atomic-add.png)
 
-One thing to bare in mind that will come in handy is that atomic operations can only be applied on global memory addresses, which also makes sense because all threads have access to that memory space. All kernel arguments are inherently global, so no need to second-guess this for now.   
+One thing to bear in mind that will come in handy is that atomic operations can only be applied on global memory addresses, which also makes sense because all threads have access to that memory space. All kernel arguments are inherently global, so no need to second-guess this for now.   
 
 #### 6. Deriving a kernel with nested device calls
 
@@ -227,7 +227,7 @@ void kernel_with_nested_device_call_grad_0_1(double *out, double *in, double val
 
 #### 7. Deriving a host function with nested CUDA calls and kernel launches
 
-Now, what about kernels being lanuched inside the function to be derived instead? In a similar manner, we should ensure that any argument being passed to the kernel pullback is a global device variable. 
+Now, what about kernels being launched inside the function to be derived instead? In a similar manner, we should ensure that any argument being passed to the kernel pullback is a global device variable. 
 
 When creating a pullback function, if all the parameters of that original function are pointers, `Clad` just passes the call args and adjoints to the pullback call as expected. However, if there are parameters that aren't pointers or references, then `Clad` creates a local variable for each such parameter, which it passes as its adjoint to the pullback call. The returned value is added to the corresponding derivative.
 
@@ -496,5 +496,5 @@ It is also very interesting, and probably necessary, to explore the performance 
 
 Though there's still work to be done, I'm very proud of the final result. I would like to express my appreciation to my mentors, Vassil and Parth, who were always present and 
 whose commentary really boosted my learning curve. Through this experience, I gained so much knowledge on CUDA, Clang, LLVM, autodiff and on working on a big project among other respectful and motivated people.
-It certainly gave me a sense of confidence and helped me get in touch with many interesting people, whom I wish I had spared more time off work to ge to know better. Overall, I really treasure this experience,
+It certainly gave me a sense of confidence and helped me get in touch with many interesting people, whom I wish I had spared more time off work to get to know better. Overall, I really treasure this experience,
 on both a technical and a personal level, and I'm very grateful for this opportunity!
