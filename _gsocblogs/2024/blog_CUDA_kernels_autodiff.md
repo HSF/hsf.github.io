@@ -61,7 +61,7 @@ Coming back to the CUDA kernel case, unfortunately we cannot launch a kernel ins
 Though the first option is more desirable, it would introduce the need to know the configuration of the grid for each kernel execution at compile time, and consequently, have a separate call to `clad::gradient`
 for each configuration which, each time, creates the same function anew, diverging only on the kernel launch configuration. As a result, the second approach is the one followed.
 
-![kernel-to-device-grad](/images/others/kernel-to-device-grad.png)
+![kernel-to-device-grad]({{ site.baseurl }}/images/others/kernel-to-device-grad.png){:.center-image}
 
 
 #### 2. Execution
@@ -119,7 +119,7 @@ In the reverse-mode autodiff, as previously explained, the left and right hand-s
 
 An easy way around this was the use of atomic operations every time the memory addresses of the output derivatives are to be updated. 
 
-![atomic-add](/images/others/atomic-add.png)
+![atomic-add]({{ site.baseurl }}/images/others/atomic-add.png){:.center-image}
 
 One thing to bear in mind that will come in handy is that atomic operations can only be applied on global memory addresses, which also makes sense because all threads have access to that memory space. All kernel arguments are inherently global, so no need to second-guess this for now.   
 
