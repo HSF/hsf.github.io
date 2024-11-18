@@ -27,13 +27,13 @@ Alex - what feedback do we get?
 
 General points:
 
-- Activity conveners have been contacted to discuss their involvment in the process, some discussions F2F at CHEP
+- Activity conveners have been contacted to discuss their involvement in the process, some discussions F2F at CHEP
 - The bi-weekly coordination meeting is the place that will be used to coordinate the work
 - We discovered that the page limit for contributions is **10 pages** only
     - If we aim for a single document then this is 2 pages per topic
-- LHCb are interesed preparing the document and endorsing it at the experiment level
+- LHCb are interested preparing the document and endorsing it at the experiment level
     - Particularly for career paths and training
-    - This is very positive and goes beyond individual endorsment
+    - This is very positive and goes beyond individual endorsement
     - We have contacted other experiments to propose the same (waiting for feedback)
 
 Liz: will your experiment also make a submission from the software and computing area?
@@ -67,7 +67,6 @@ Finalized 4D reconstruction HSF seminar date for Feb 26th.
 ##### Data Analysis
 
 Aiming at having a meeting in early December to host a discussion on a set of topics prepared by us (which would turn into draft of document), plus inviting additional lightning talk contributions.
-
 
 ##### Training and Careers
 
@@ -110,13 +109,13 @@ Eduardo - not a huge amount of bureaucracy, but we have to have a process which 
 
 Krzysztof - badges are useful as they give the community some insight into metrics that were evaluated externally. Maintainability is important so that users can rely on the package.
 
-Pere - maintainance continuity, not funding.
+Pere - maintenance continuity, not funding.
 
-Liz - many things in our fields funded for 5 years only. Quality software can then be taken on, after the intital period.
+Liz - many things in our fields funded for 5 years only. Quality software can then be taken on, after the initial period.
 
 ## Activity Updates
 
-It is time to consider again conveners for 2025. Are people happy to stay on or feel it is time to standdown?
+It is time to consider again conveners for 2025. Are people happy to stay on or feel it is time to stand down?
 
 For now please let us know at hsf-search-committee@cern.ch (currently Benedikt, Claire, Michel, Liz, Graeme).
 
