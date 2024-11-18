@@ -41,7 +41,7 @@ Liz: will your experiment also make a submission from the software and computing
 - ATLAS are - Claire is meeting them tomorrow
 - LHCb are
 
-HSF's paper will be a *complimentary one* to the experiments.
+HSF's paper will be a *complementary one* to the experiments.
 
 #### Activity Area Preparations
 
@@ -49,7 +49,7 @@ HSF's paper will be a *complimentary one* to the experiments.
 
 Need to have a meeting between the conveners and the SG. Sapta will organise this. It's urgent to have the mini-workshop this year and there's not much time left.
 
-See also [Oliver's CHEP plenary](https://indico.cern.ch/event/1338689/contributions/6054977/), which was a great introduction. Negative weights and NNLO are urgent topics. Steve G can arrange a contribution from neutrino side.
+See also [Oliver's CHEP plenary](https://indico.cern.ch/event/1338689/contributions/6054977/), which was a great introduction. Negative weights and NNLO are urgent topics. Steve G can arrange a contribution from the neutrino side.
 
 Generators on GPU talks would be ideal for an HSF Seminar - relevant but not sufficient for EPPSU.
 
