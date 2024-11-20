@@ -31,4 +31,4 @@ Links for the current versions of the badges are on the [badges page](https://he
 
 The HSF red is #aa0000. The lower text is grey 40%, aka #999999.
 
-For the HSF project affiliations, gold is #FFD700, sliver is #C0C0C0 and bronze is #CD7F32 (the first two are also the standard HTML/CSS colour names *gold* and *silver*).
+For the HSF project affiliations, gold is #FFD700, silver is #C0C0C0 and bronze is #CD7F32 (the first two are also the standard HTML/CSS colour names *gold* and *silver*).
