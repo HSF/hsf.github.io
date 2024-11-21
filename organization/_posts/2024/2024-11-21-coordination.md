@@ -5,9 +5,9 @@ layout: plain_toc
 
 ## Attending
 
-Present/Contributing: Graeme A Stewart, Eduardo Rodrigues, Pere Mato, Claire Antel, Steven Gardiner, Michel Jouvin, Alex Moreno, Krzysztof Genser, Liz Sexton Kennedy, Joe Osborn, Tommaso Lari, Torre Wenaus, Stefan Roiser, Sapta Battacharya, Patrick Gartung, Paul Laycock.
+Present/Contributing: Graeme A Stewart, Eduardo Rodrigues, Pere Mato, Claire Antel, Steven Gardiner, Michel Jouvin, Alex Moreno, Krzysztof Genser, Liz Sexton Kennedy, Joe Osborn, Tommaso Lari, Torre Wenaus, Stefan Roiser, Sapta Battacharya, Patrick Gartung, Paul Laycock, Alexander Held
 
-Apologies/Contributing: Alexander Held.
+Apologies/Contributing: 
 
 ## News, general matters, announcements
 
@@ -51,8 +51,6 @@ Stefan: there was a kick-off of the LHCC MC WG last week. The WG would like to s
 Steven: there will be a submission on neutrino scattering, which will also have aspects of the neutrino generators.
 Steven will take care of harmonising this with the other document.
 
-In discussions with the experiments about them endorsing the final document - ALICE and LHCb are favourable.
-
 - **Training and careers**. Last month we had the HSF Training Pre-CHEP Worshop where we had the opportunity
 to exchange and gather ideas from different collaborations, projects and efforts on training,
 in particular from ATLAS, CMS, LHCb, DUNE, EIC, ErUM-Data-Hub, Everse, HSF-India and ICFA.
@@ -60,6 +58,8 @@ We are starting the draft of the contribution including the current status, chal
 We'll discuss about this in detail in our regular meetings every week.
 
 It's important to cover the *careers* aspect as well. Here we can work with StefanRoiser and the JENA WP5 group.
+
+In discussions with the experiments about them endorsing the final document - ALICE and LHCb are favourable.
 
 ### HSF Seminar Series
 
