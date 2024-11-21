@@ -25,7 +25,7 @@ To get the base64 encoding of one of the logos, try:
 base64 -o - -i hsf-logo-shield-full.svg
 ```
 
-Links for the current versions of the badges are on the [badges page](https://hepsoftwarefoundation.org/projects/badges.html).
+Links for the current versions of the badges, including cached versions, are on the [badges page](https://hepsoftwarefoundation.org/projects/badges.html).
 
 ## Colour Notes
 
