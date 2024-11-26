@@ -5,7 +5,7 @@ redirect_from:
   - /workinggroups/generators.html
 ---
 
-The Physics Generators Working Group is a common forum for discussion and
+The Physics Generators Activity Area is a common forum for discussion and
 technical work on the physics event generators used by HEP experiments.
 It promotes the collaboration of experimental and theoretical physicists
 from different experiments and generator teams and of software and computing
@@ -13,7 +13,7 @@ engineers, with the aim of having them work together on improving the current
 codes and production workflows and on making new theoretical advances
 easier to implement in a computationally efficient way.
 
-The working group was set up as a follow-up of the Physics Event Generator
+The group was set up as a follow-up of the Physics Event Generator
 Computing Workshop that was held at CERN in November 2018, during which
 an initial program of work in this area was identified.
 

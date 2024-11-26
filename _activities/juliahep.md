@@ -5,7 +5,7 @@ redirect_from:
   - /workinggroups/juliahep.html
 ---
 
-The JuliaHEP working group brings together a community of developers and users of [Julia](https://julialang.org) in Particle Physics, 
+The JuliaHEP Activity Area brings together a community of developers and users of [Julia](https://julialang.org) in Particle Physics, 
 with the aim of improving the sharing of knowledge and expertise, as well as unify effort in developing Julia packages useful for the community.
 
 ## Conveners

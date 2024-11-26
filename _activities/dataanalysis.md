@@ -5,7 +5,7 @@ redirect_from:
   - /workinggroups/dataanalysis.html
 ---
 
-Building on previous work, the Data Analysis Working Group aims to eliminate
+Building on previous work, the Data Analysis Activity Area aims to eliminate
 the time spent by physicists working on monotonous and laborious tasks while
 performing physics analysis, and to make the publication of physics results
 efficient both in terms of human and computing resources.

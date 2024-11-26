@@ -30,19 +30,11 @@ The [hsf-tech-forum](https://groups.google.com/forum/#%21forum/hsf-tech-forum) i
 This is not strictly an HSF mailing list. The [HEP S&C community mailing list](http://groups.google.com/d/forum/hep-sw-comp) is intended for occasional HEP software and computing community mailings. Everyone involved or interested in HEP S&C is encouraged to sign up to this list. It will be used for occasional mailings of community wide interest, such as announcements of HEP S&C conferences, workshops and schools not strictly related to the HSF.
 
 
-## Dedicated Activities and Working Groups
+## Dedicated Activity Areas
 -----
 
-Each of the HSF Working groups maintains a dedicated page where contact
+Each of the HSF Activity Areas maintains a dedicated page where contact
 information for that group can be found:
-
-<ul class="list">
-{% for wg in site.workinggroups %}
-  <li> <a href="{{ wg.url }}">{{ wg.title }}</a></li>
-{% endfor %}
-</ul>
-
-And for other HSF activities there are also dedicated pages:
 
 <ul class="list">
 {% for activity in site.activities %}

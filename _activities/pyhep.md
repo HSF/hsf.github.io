@@ -5,7 +5,7 @@ redirect_from:
   - /workinggroups/pyhep.html
 ---
 
-The PyHEP working group brings together a community of developers and users of Python in Particle Physics, with the aim of improving
+The PyHEP Activity Area brings together a community of developers and users of Python in Particle Physics, with the aim of improving
 the sharing of knowledge and expertise. It embraces the broad community, from HEP to the Astroparticle and Intensity Frontier communities.
 
 # Conveners
