@@ -57,9 +57,7 @@ we have [documentation]({{ site.baseurl }}/jekyll-beginners.html) on how to do i
 
 ### Adding coordination meeting minutes
 
-HSF Coordination minutes are produced using the live notes approach described above. The content of the live notes are preformatted to be suitable for direct injection into Jekyll. The minutes file must be placed into Jekyll `organization/_posts` directory.
-
-The only edit required is the replacement of the *front-matter* section by the one present in the previous meeting minutes in Jekyll, updating the title (meeting number and date).
+HSF Coordination minutes are produced using the live notes approach described above. The content of the live notes are preformatted to be suitable for direct injection into Jekyll, after minimal edits described in the [running-meetings]({{ site.baseurl }}/organization/running-meetings.html) page. The minutes file must be placed into Jekyll `organization/_posts` directory.
 
 ### Adding a working group or activity
 
