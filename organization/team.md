@@ -18,7 +18,6 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 * Caterina Doglioni - University of Manchester
 * Peter Elmer - Princeton University
 * Daniel Elvira - Fermilab
-* Benedikt Hegner - CERN / Stony Brook University
 * Michel Jouvin - IJCLab, CNRS/IN2P3
 * David Lange - Princeton University
 * Paul Laycock - University of Geneva
@@ -27,6 +26,7 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 * Eduardo Rodrigues - University of Liverpool
 * Stefan Roiser - CERN
 * Elizabeth Sexton-Kennedy - Fermilab
+* Nicole Skidmore - University of Warwick
 * Graeme Stewart - CERN
 * Andrea Valassi - CERN
 * Torre Wenaus - BNL
