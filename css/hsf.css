@@ -29,8 +29,8 @@
 
 .blog-masthead {
   background-color: #428bca;
-  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
-  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
 }
 
 /* Nav links */
@@ -41,6 +41,7 @@
   font-weight: 500;
   color: #fff;
 }
+
 .blog-nav-item:hover,
 .blog-nav-item:focus {
   color: #fff;
@@ -51,6 +52,7 @@
 .blog-nav .active {
   color: #fff;
 }
+
 .blog-nav .active:after {
   position: absolute;
   bottom: 0;
@@ -73,12 +75,14 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .blog-title {
   margin-top: 30px;
   margin-bottom: 0;
   font-size: 50px;
   font-weight: normal;
 }
+
 .blog-description {
   font-size: 20px;
   color: #999;
@@ -98,11 +102,13 @@
   padding: 15px;
   margin: 0 -15px 15px;
 }
+
 .sidebar-module-inset {
   padding: 15px;
   background-color: #f5f5f5;
   border-radius: 4px;
 }
+
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
 .sidebar-module-inset ol:last-child {
@@ -114,6 +120,7 @@
   margin-bottom: 60px;
   text-align: left;
 }
+
 .pager > li > a {
   width: 140px;
   padding: 10px 20px;
@@ -129,10 +136,12 @@
   margin-bottom: 30px;
   padding: 10px 20px;
 }
+
 .blog-post-title {
   margin-bottom: 5px;
   font-size: 24px;
 }
+
 .blog-post-meta {
   margin-bottom: 20px;
   color: #999;
@@ -146,86 +155,56 @@
   margin-bottom: 50px;
 }
 
-/* Table Styles */
-table {
+/* Calendar Design */
+.calendar {
+  border-collapse: collapse;
   width: 100%;
-  border-collapse: collapse; /* Ensures tables don't have gaps between cells */
-  margin-bottom: 30px; /* Space below the table */
+  margin-bottom: 30px;
 }
 
-th, td {
-  padding: 12px; /* Adds space around content */
-  text-align: left; /* Aligns text to the left */
-  border: 1px solid #ddd; /* Light border color */
-}
-
-th {
-  background-color: #f8f9fa; /* Light background for header */
-  font-weight: bold; /* Bold text for headers */
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2; /* Alternating row colors */
-}
-
-tr:hover {
-  background-color: #e9ecef; /* Hover effect on rows */
-}
-
-/* Training Table Styles */
-.training table {
-  width: 100%;
-  border-collapse: collapse; /* Ensures there are no gaps between cells */
-}
-
-.training table tr {
-  background-color: white;
-  border: 1px solid #cccccc; /* Add borders around rows */
-}
-
-.training table tr:nth-child(2n) {
-  background-color: #f8f8f8; /* Alternate row color */
-}
-
-.training table th, .training table td {
-  padding: 8px 15px; /* Adjust padding for better spacing */
-  border: 1px solid #cccccc; /* Border for cells */
-  text-align: left; /* Align text to the left */
-}
-
-.training table th {
-  background-color: #f0f0f0; /* Light background for table headers */
-  font-weight: bold; /* Make header text bold */
-}
-
-.training table tr:hover {
-  background-color: #f2f2f2; /* Hover effect for rows */
-}
-
-.training table tr td:first-child,
-.training table tr th:first-child {
-  padding-left: 20px; /* Add extra padding on the left for the first column */
-}
-
-.training table tr td:last-child,
-.training table tr th:last-child {
-  padding-right: 20px; /* Add extra padding on the right for the last column */
-}
-
-/* Footer */
-.blog-footer {
-  padding: 40px 0;
-  color: #999;
+.calendar th, .calendar td {
+  padding: 15px;
+  border: 1px solid #ccc;
   text-align: center;
+}
+
+.calendar th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.calendar td {
+  background-color: #fff;
+}
+
+.calendar td:hover {
+  background-color: #f2f2f2;
+}
+
+.calendar td.empty {
   background-color: #f9f9f9;
-  border-top: 1px solid #e5e5e5;
 }
 
-.blog-footer p:last-child {
-  margin-bottom: 0;
+/* Text spacing */
+.calendar-container {
+  margin-bottom: 40px;
 }
 
-/* Navbar */
+.calendar-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.calendar p {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+/*
+ * Navbar
+ */
+
 .navbar-nav {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -250,7 +229,7 @@ tr:hover {
   color: #f39c12;
 }
 
-.navbar-nav>li>a {
+.navbar-nav > li > a {
   padding-top: 9.5px;
   padding-bottom: 9.5px;
 }
@@ -289,36 +268,14 @@ body {
   font-size: 20px;
 }
 
-.event-announce > a:hover {
-  color: #333333;
-}
-
 .alert {
   padding: 8px;
 }
 
-.list-simple {
-  padding-left: 15px;
-}
+/*
+ * Colorful link styles
+ */
 
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-  background-color: #555555;
-}
-
-[role="button"] {
-  font-size: 17px;
-}
-
-.alignleft {
-  float: left;
-}
-
-.alignright {
-  float: right;
-}
-
-/* COLORFUL BIG LINK */
 .big-link-container {
   width: 100%;
   display: grid;
@@ -341,83 +298,6 @@ body {
   color: #cc5555;
 }
 
-/* TRAINING GROUP */
-.training-module {
-  width: 100%;
-  min-height: 100pt;
-  display: grid;
-  padding: 5pt;
-  border-radius: 10px 20px;
-}
-
-.tm-stable {
-  background-color: #f1f9f1;
-}
-
-.tm-alpha {
-  background-image: repeating-linear-gradient(-45deg, transparent, transparent 20px, #f9f2f4 20px, #f9f2f4 40px);
-}
-
-.tm-beta {
-  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, #f9f9f1 10px, #f9f9f1 40px);
-}
-
-.training-module-name {
-  text-align: center;
-  font-weight: bold;
-  padding-bottom: 10pt;
-  font-size: 17px;
-}
-
-.training-module-status {
-  padding-top: 10pt;
-  text-align: center;
-}
-
-.training-module-webpage {
-  text-align: center;
-  display: block;
-  align-self: end;
-  padding-top: 10pt;
-}
-
-.training-module-repository {
-  padding-top: 10pt;
-  vertical-align: bottom;
-  text-align: center;
-  display: block;
-  align-self: end;
-}
-
-.training-module-videos {
-  text-align: center;
-  display: block;
-  align-self: end;
-}
-
-.training-module-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-figure.centered-figure {
-  text-align: center;
-}
-
-.centered-figure > img {
-  width: 80%;
-  max-width: 600px;
-}
-
-.centered-figure > figcaption {
-  width: 80%;
-  max-width: 600px;
-  text-align: center;
-  margin: 0 auto;
-}
-
 /* Media Queries */
 
 @media (max-width: 620px) {
@@ -425,5 +305,7 @@ figure.centered-figure {
     grid-template-columns: 1fr;
   }
 
-  .big-link
-
+  .calendar {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
