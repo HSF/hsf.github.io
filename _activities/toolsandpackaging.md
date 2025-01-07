@@ -22,7 +22,7 @@ The group has a particular focus also on solutions for building and deploying so
 
 ### Packaging Goals
 
-The aim of this group is to foster communication and exchange among the experiments' librarians. We have identified various topics to work on, including
+The aim of is to foster communication and exchange among the experiments' librarians. We have identified various topics to work on, including
 
   1. Common build recipes and tools
   2. How to take most advantage of technologies like containers
