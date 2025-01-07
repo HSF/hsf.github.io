@@ -6,7 +6,7 @@ layout: default
 
 # Development Services
 
-Both CERN and Fermilab have expressed willingness to support some development tools and services for the HSF community, once technical issues are worked out. For example, access to [TechLab](https://twiki.cern.ch/twiki/bin/viewauth/IT/TechLab) resources at CERN. In other areas the HSF may provide guidance, recommendations, templates etc. for the use of open source tools. This working group will plan and coordinate activities and service offerings in this area.
+Both CERN and Fermilab have expressed willingness to support some development tools and services for the HSF community, once technical issues are worked out. For example, access to TechLab (link no longer available)resources at CERN. In other areas the HSF may provide guidance, recommendations, templates etc. for the use of open source tools. This group will plan and coordinate activities and service offerings in this area.
 
 ## TechLab
 
@@ -28,4 +28,4 @@ Responders to the call for TechForum early adopters:
 ## Resources
 
   * [US HEP-FCE Working Group Report on Libraries and Tools]({{ site.baseurl }}/assets/fce-tools-wg-report.pdf)
-  * [CERN TechLab OpenPower8 and AArch64 Resources](http://lvalsan.web.cern.ch/lvalsan/processor_benchmarking/presentation/)
+  * CERN TechLab OpenPower8 and AArch64 Resources (link no longer available)

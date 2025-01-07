@@ -5,7 +5,7 @@ redirect_from:
   - /workinggroups/detsim.html
 ---
 
-The Detector Simulation Working Group considers approaches to making
+The Detector Simulation Activity Area considers approaches to making
 detector simulation faster and more accurate for HEP experiments.
 Simulation that produces a traditional digitised detector output, as
 well as more radical approaches to generate reconstruction or analysis
@@ -15,8 +15,6 @@ learning and other approximate techniques can be considered. The
 adaption of simulation techniques to modern computing hardware
 (covering, e.g., multithreading, vectorisation and different accelerator
 technologies) are an important area of work.
-
-[Mandate]({{ site.baseurl }}/organization/working-group-mandates.html).
 
 The group's meeting page is [in Indico](https://indico.cern.ch/category/10916/) and
 discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-simulation) list.

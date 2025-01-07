@@ -59,14 +59,14 @@ we have [documentation]({{ site.baseurl }}/jekyll-beginners.html) on how to do i
 
 HSF Coordination minutes are produced using the live notes approach described above. The content of the live notes are preformatted to be suitable for direct injection into Jekyll, after minimal edits described in the [running-meetings]({{ site.baseurl }}/organization/running-meetings.html) page. The minutes file must be placed into Jekyll `organization/_posts` directory.
 
-### Adding a working group or activity
+### Adding an Activity Area
 
-*Before adding any new activity or proposing a new working group please discuss with the
-[HSF Coordination Team]({{ site.baseurl }}/organization/team.html)! We will make sure it gets proposed
-in an HSF meeting for approval.*
+*Before adding any new activity or proposing a new Activity Area please discuss with the
+[HSF Steering Group]({{ site.baseurl }}/organization/team.html)!
+We will make sure it gets proposed in an HSF meeting for approval.*
 
-Then, for the technical creation, add a new file in the `_workinggroups` or `_activities` directory. Follow the front-matter of the
-other files in there. The `Working Groups` / `Activities` menu in the navigation bar will
+Then, for the technical creation, add a new file in the `_activities` directory. Follow the front-matter of the
+other files in there. The `Activities` menu in the navigation bar will
 be updated automatically: the menu entry text is the `title` attribute in the *front-matter* section.
 
 ### Adding an event
@@ -77,7 +77,7 @@ in there. The [Events](http://hepsoftwarefoundation.org/events.html) page and th
 ### Adding a training event
 
 For *training events* we have a special handling that lists all of these together on the 
-[Training Working Group page]({{ site.baseurl }}/workinggroups/training.html). To create a new
+[Training Activity Area page]({{ site.baseurl }}/workinggroups/training.html). To create a new
 entry you can either:
 
 1. Run the interactive script ``scripts/add_training_event.py`` (recommended)
@@ -126,7 +126,7 @@ As of writing, this website contains the following page templates for wider usag
 ### Menu bar and automatization
 
 The menu bar is defined in `_includes/navbar.ext`, from which all page layouts inherit.
-The layout is somewhat hard-coded, but working groups and activities are generated
+The layout is somewhat hard-coded, but activities are generated
 automatically.
 
 ### Main page

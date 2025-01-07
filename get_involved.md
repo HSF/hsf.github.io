@@ -4,7 +4,7 @@ author: "Benedikt Hegner"
 layout: default
 ---
 
-# How to get involved
+## How to get involved
 
 Our goal is to make every effort going on as transparent and open as possible.
 Our official communication channel is the 
@@ -19,14 +19,14 @@ other existing discussion forums.
 ## Areas for contribution
 
 There are plenty of opportunities for you to contribute to the HSF, be it by
-participation in technical discussions, by joining one of our working groups, or
+participation in technical discussions, by joining one of our Activity Areas, or
 by joining the HSF with your software project:
 
-  *  Participation in HSF [working groups]({{ site.baseurl }}/what_are_WGs.html) and [activity areas]({{ site.baseurl }}/what_are_activities.html)
-  *  Participation in [HSF events and meetings]({{ site.baseurl }}/future-events.html)
-  *  Taking advantage of the HSF by identifying your [software project]({{ site.baseurl }}/projects.html) with us
-  *  Giving input to the [HSF Steering Group]({{ site.baseurl }}/organization/team.html)
-  *  Contributing to this website
+* Participation in HSF [Activity Areas]({{ site.baseurl }}/what_are_activities.html)
+* Participation in [HSF events and meetings]({{ site.baseurl }}/future-events.html)
+* Taking advantage of the HSF by identifying your [software project]({{ site.baseurl }}/projects.html) with us
+* Giving input to the [HSF Steering Group]({{ site.baseurl }}/organization/team.html)
+* Contributing to this website
 
 ## Meetings, Agendas and Video-Conferences Access
 
@@ -36,7 +36,7 @@ etc.
 Meetings use the [CERN Indico system](http://indico.cern.ch/category/5816/) for agenda pages. The agenda pages are generally open to the world, and no CERN account is needed. To upload material to Indico you do need to be identified CERN now allows EduGain authentication
 to many of its services, if you do not have a full CERN account.
 
-The [Zoom](https://videoconference.web.cern.ch/t/about-the-zoom-cern-service/24) video conferencing system is used for almost all HSF meetings and anyone can participate in the meetings from any internet-connected location. Connection information for each specific Zoom meeting is on the corresponding Indico meeting agenda page.
+The [Zoom](https://videoconference.docs.cern.ch/) video conferencing system is used for almost all HSF meetings and anyone can participate in the meetings from any internet-connected location. Connection information for each specific Zoom meeting is on the corresponding Indico meeting agenda page.
 
 ## Giving input to the HSF Steering Group
 

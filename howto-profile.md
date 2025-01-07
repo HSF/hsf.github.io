@@ -33,7 +33,7 @@ Either
 * If you have specified your [gravatar](https://gravatar.com/) (a free service for global avatar synchornization), we will take your profile picture from there. Else, the profile picture will be taken from your [github](https://github.com) profile (if specified). If the latter is not specified either, you will have a blank profile picture showing an [octocat](https://en.wikipedia.org/wiki/GitHub#Mascot).
 * If you don't know your gravatar email hash, you can [use this page](https://en.gravatar.com/site/check/) (or look [here](https://en.gravatar.com/site/implement/hash/) for more background information about the hashing)
 
-### Working group specific settings
+### Activity Area specific settings
 
 * To be listed as "educator" on the [training community page]({{ site.baseurl }}/training/community.html) or the [educators page]({{ site.baseurl }}/training/educators.html):
   * Set the `training_roles` field: Zero or more of `instructor`, `mentor`, `facilitator`, `author`. The first three ``training_roles`` are explained [here]({{ site.baseurl }}/training/educators.html). You are an `author` if you've made not-completely-trivial contributions to our training material. Valid examples: ``[]``, ``[instructor, mentor]``.  **Invalid**: ``mentor`` (no brackets).

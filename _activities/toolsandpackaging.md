@@ -11,18 +11,18 @@ redirect_from:
 
 ## Software Developer Tools
 
-The Software Developer Tools Working Group aims to help the HEP community in developing the latest, modern feature-rich projects
+The Software Developer Tools Activity Area aims to help the HEP community in developing the latest, modern feature-rich projects
 with the aid of software tools such as code editors, static/dynamic code analysers, compilers, debuggers, performance analysers and so on.
 The group plans to accomplish this by mainly serving as a forum where developers can share their experiences, discuss new/existing tools they utilise,
 and learn from each other. To that point, contributions from the entire community are strongly encouraged.
 
 ## Packaging
 
-The group has a particular focus also on solutions for building and deploying software stacks, through the evolution of the previous *HSF Packaging Working Group*
+The group has a particular focus also on solutions for building and deploying software stacks, through the evolution of the previous *HSF Packaging Working Group*.
 
 ### Packaging Goals
 
-The aim of this working group is to foster communication and exchange among the experiments' librarians. We have identified various topics to work on, including
+The aim of is to foster communication and exchange among the experiments' librarians. We have identified various topics to work on, including
 
   1. Common build recipes and tools
   2. How to take most advantage of technologies like containers
@@ -30,7 +30,8 @@ The aim of this working group is to foster communication and exchange among the 
 
 ### Group Activities to Date
 
-Software development in high energy physics follows the paradigm of open source software (OSS). Experiments as well as the theory community heavily rely on software being developed outside of the field. Creating a consistent and working stack out of 100s of packages, on a variety of platforms is a non-trivial task. Within the field multiple technical solutions exist to configure and build those stacks. None of this work is experiment specific and our working group agrees that this effort is being duplicated.
+Software development in high energy physics follows the paradigm of open source software (OSS). Experiments as well as the theory community heavily rely on software being developed outside of the field. Creating a consistent and working stack out of 100s of packages, on a variety of platforms is a non-trivial task. Within the field multiple technical solutions exist to configure and build those stacks. None of this work is experiment specific and our
+group agrees that this effort is being duplicated.
 
 We held [an initial series of meetings](https://indico.cern.ch/category/7975/)
 to look at the existing build and packaging solutions, including the
@@ -72,7 +73,7 @@ All the coordinators can be reached [by email](mailto:gartung@fnal.gov,nbrei@jla
 
 ### Activities
 
-- The Indico pages for the working group meetings can be found at <https://indico.cern.ch/category/7975/>
+- The Indico pages for the group meetings can be found at <https://indico.cern.ch/category/7975/>
 - For all technical discussions please use <hsf-tech-forum@googlegroups.com> (Tools) and <hsf-packaging-wg@googlegroups.com> (Packaging)
 
 ### Former Conveners
