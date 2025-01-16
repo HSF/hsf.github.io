@@ -20,6 +20,7 @@ layout: plain
 ## 2022
 
 * [The HEP Software Foundation](https://indico.cern.ch/event/1204125/contributions/5129308/attachments/2553377/4399333/HSF.pdf), [SMARTHEP kick-off workshop](https://indico.cern.ch/event/1204125/), 24 November 2022, Benedikt Hegner
+* [Sustainablity and future of software frameworks](https://indico.cern.ch/event/1040535/contributions/4593536/), [Second JENAS Symposium](https://indico.cern.ch/event/1040535/), 5 May 2022, Graeme A Stewart
 * [HEP Software Foundation and Software Project R&D](https://indico.cern.ch/event/1127798/contributions/4782002/attachments/2413160/4131126/HSF%20and%20R%26D%20Projects%20Update%20-%20SWIFT-HEP%202022-03.pdf), [SWIFT-HEP Meeting](https://indico.cern.ch/event/1127798/), 24 March 2022, Graeme A Stewart
 * [Software and Computing R&D](https://indico.cern.ch/event/949705/contributions/4575453/), [30th International Symposium on Lepton Photon Interactions at High Energies](https://indico.cern.ch/event/949705/), 14 January 2022, Graeme A Stewart
 
