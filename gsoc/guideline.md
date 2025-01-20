@@ -8,7 +8,7 @@ layout: default
 
 ## Instructions for Adding a New Proposal
 
- * Option A: email GSoC [administrators](mailto:hsf-gsoc-admin@googlegroups.com) (currently: Benedikt Hegners, Valentin Volkl, Wouter Deconinck, Baidyanath Kundu)
+ * Option A: email GSoC [administrators](mailto:hsf-gsoc-admin@googlegroups.com) (currently: Valentin Volkl, Wouter Deconinck, Baidyanath Kundu)
  * Option B (via git): 
    * fork [git repository](https://github.com/HEP-SF/hep-sf.github.io) 
    * add `_gsocproposals/YEAR/proposal_YOURPROJECTyourproposal.md` (look at this example: [`proposal_ROOTspark.md`](https://raw.githubusercontent.com/HSF/hsf.github.io/master/_gsocproposals/2018/proposal_ROOTspark.md))
@@ -84,4 +84,4 @@ Organization logos should be called `ORGANIZATION-logo.png` and be less than 100
 
 ## HSF GSoC Mentor Guideline 2024
 
-[2024 HSF GSoC Mentor Guideline](https://docs.google.com/document/u/1/d/1pK7YlkiTJ7iVAkOKTuAwTX0wEQXRajzZuqcpJl42Xx4/edit?fromCopy=true)
+[2024 HSF GSoC Mentor Guideline](https://docs.google.com/document/d/1hrXwP_ebebhFO8q3Qj9lXQsyVA2QBQMKeAck5ReuZ_E/edit)
