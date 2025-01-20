@@ -17,8 +17,7 @@ All of the Activity Areas have had their preparatory meetings with the community
 
 We are now gathering the drafts into [this Google Doc](https://docs.google.com/document/d/1dTUBTlerXHjrKO37hAuK1MednfukOxvkCSnq0HrnPOM/edit?usp=sharing) - we hope texts are in there by 17 January.
 
-Antipate then one week of editing from Michel and Graeme to harmonise the inputs, then one week for HSF "internal" review, before we release to the public the draft on 31 January.
-
+Anticipate then one week of editing from Michel and Graeme to harmonise the inputs, then one week for HSF "internal" review, before we release to the public the draft on 31 January.
 
 #### Data Analysis
 
@@ -26,9 +25,10 @@ A draft exists and is a bit over two pages. We will do one more round of edits b
 
 #### Detector Simulation
 
-The draft for the ESPPU has been linked to the Google Doc. It's a bit over 2 pages long, and it has already been reviewed by the representatives of the experiments and the Geant4 Collaboration. 
+The draft for the ESPPU has been linked to the Google Doc. It's a bit over 2 pages long, and it has already been reviewed by the representatives of the experiments and the Geant4 Collaboration.
 
 #### Reconstruction and Software Triggers
+
 A draft exists and is being edited and worked on. The Google Doc draft is currently linked in the main HSF draft Google Doc.
 
 #### Event Generation
@@ -38,6 +38,7 @@ Draft in preparation.
 #### Training and Careers
 
 The draft will be moved to the main doc on January 17. It includes four sub-sections:
+
 - Current Status
 - Challenges
 - Career Support and Recognition
@@ -53,12 +54,11 @@ Taking place on 5-9 May at IJClab, Orsay, Paris. An organisation team is being p
 [Compute & Accelerator Forum Category](https://indico.cern.ch/category/12741/)
 
 Next scheduled events are:
-     
+
 - 29 January: trying to organise a meeting on future experiment studies
 - 19 February: Verrou, floating point stability check
 - 26 February: 4D reconstruction
 - 26 March: EPPSU
-
 
 ### Steering Group News
 
@@ -98,7 +98,6 @@ Some events confirmed:
 
 - Deep Learning Train-the-Trainer Workshop - ErUM-Data-Hub-HSF - September 15-19, in Potsdam
  
-
 ### Physics Generators
 
 [NuSTEC](https://nustec.fnal.gov) is also preparing a ESPPU contribution that will discuss importance of neutrino event generators. Steven Gardiner is involved in both efforts.
@@ -111,7 +110,6 @@ The next JuliaHEP workshop is planned to be at Princeton University, 28-31 July:
 
 ## AOB
 
-
 ### GSoC program 2025 announced
 
 Contact [hsf-gsoc-admin@googlegroups.com](mailto:hsf-gsoc-admin@googlegroups.com) in case of questions.
@@ -119,13 +117,13 @@ Volunteers for the admin team are most welcome!
 
 ### Archive no-longer-maintained repositories in github.com/HSF organization?
 
-Can be safely archived, if no new maintainer found (in my opinion, (Valentin Volkl)):
+Can be safely archived, if no new maintainer found (in my opinion- Valentin Volkl):
 
-https://github.com/HSF/TrickTrack
-https://github.com/HSF/cmaketools
-https://github.com/HSF/hep-spack
-https://github.com/HSF/spack
-https://github.com/HSF/spack-config
+- <https://github.com/HSF/TrickTrack>
+- <https://github.com/HSF/cmaketools>
+- <https://github.com/HSF/hep-spack>
+- <https://github.com/HSF/spack>
+- <https://github.com/HSF/spack-config>
 
 Please shout if you disagree!
 
