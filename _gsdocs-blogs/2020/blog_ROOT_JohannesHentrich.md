@@ -26,7 +26,7 @@ Older content has been reviewed for accuracy and revised or removed as necessary
 
 The [ROOT Forum](https://root-forum.cern.ch/) is the central place for questions about ROOT. Statistics have been compiled and evaluated to identify the most common problems of users with ROOT. Numerous answers to the questions were incorporated into the ROOT Manual. Care was taken to ensure that the relevant content can be found easily.
 
-## Developping how-tos
+## Developing how-tos
 
 How-to’s were included in the ROOT documentation, also based on the evaluated statistics from the [ROOT Forum](https://root-forum.cern.ch/). Furthermore, older sources were examined to determine which content should be included in the ROOT Manual. The number of code examples has been increased to handle typical tasks faster.
 

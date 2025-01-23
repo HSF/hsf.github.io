@@ -3,9 +3,24 @@ title: "HSF Presentations"
 layout: plain
 ---
 
+## 2024
+
+* [HEP Software Foundation: Past, Present and Future](https://doi.org/10.5281/zenodo.14186952), DESY IT Seminar, 13 November 2024, Graeme A Stewart
+* [HSF Workshop Outcomes and Actions](https://indico.cern.ch/event/1355750/attachments/2767374/5068691/HSF-DESY-workshop-summary-202406.pdf), ATLAS Software and Computing Week, Oslo, 7 June 2024, Torre Wenaus
+* [HSF Retrospective and Future](https://indico.cern.ch/event/1369601/contributions/5908531/attachments/2854575/4992516/HSF%20Retrospective%20and%20Future.pdf), [WLCG-HSF Workshop 2024](https://indico.cern.ch/e/wlcg-hsf-2024), DESY, 12 May 2024, Graeme A Stewart
+* [Updates on C&SW in CERN/SFT, community from WLCG/HSF liaison role](https://indico.cern.ch/event/1366954/contributions/5856708/attachments/2827114/4939480/2024-03-26_SWIFT-HEP-workshop.pdf), [Joint GridPP and SWIFT-HEP Meeting](https://indico.cern.ch/event/1366954), 26 March 2024, Eduardo Rodrigues
+
+## 2023
+
+* [HEP Software Status and Future](https://indico.desy.de/event/38293/contributions/152220/attachments/86974/116036/icfa-hep-software.pdf), [ICFA Seminar 2023](https://indico.desy.de/event/38293/overview), 29 November 2023, Graeme A Stewart
+* [The interface to computing - HSF perspective](https://indico.ego-gw.it/event/590/contributions/5602/attachments/3074/5475/et-workshop-software.pdf), [Einstein Telescope Computing and Data Requirements Workshop](https://indico.ego-gw.it/event/590/overview), 27 October 2023, Graeme A Stewart
+* [Computing in Physics](https://indico.scc.kit.edu/event/3476/contributions/14452/attachments/6696/10532/mu-days-computing-talk.pdf), [Hemholtz MU Days](https://indico.scc.kit.edu/event/3476/overview), 15 September 2023, Graeme A Stewart
+* [HSF: Year in Review and 2023 Outlook](https://indico.jlab.org/event/675/contributions/11983/attachments/8777/12655/HEP%20Software%20Foundation,%20S%26C%20Roundtable%20Review.pdf), [Software and Computing Roundtable](https://indico.jlab.org/event/675), 17 January 2023, Graeme A Stewart
+
 ## 2022
 
 * [The HEP Software Foundation](https://indico.cern.ch/event/1204125/contributions/5129308/attachments/2553377/4399333/HSF.pdf), [SMARTHEP kick-off workshop](https://indico.cern.ch/event/1204125/), 24 November 2022, Benedikt Hegner
+* [Sustainablity and future of software frameworks](https://indico.cern.ch/event/1040535/contributions/4593536/), [Second JENAS Symposium](https://indico.cern.ch/event/1040535/), 5 May 2022, Graeme A Stewart
 * [HEP Software Foundation and Software Project R&D](https://indico.cern.ch/event/1127798/contributions/4782002/attachments/2413160/4131126/HSF%20and%20R%26D%20Projects%20Update%20-%20SWIFT-HEP%202022-03.pdf), [SWIFT-HEP Meeting](https://indico.cern.ch/event/1127798/), 24 March 2022, Graeme A Stewart
 * [Software and Computing R&D](https://indico.cern.ch/event/949705/contributions/4575453/), [30th International Symposium on Lepton Photon Interactions at High Energies](https://indico.cern.ch/event/949705/), 14 January 2022, Graeme A Stewart
 

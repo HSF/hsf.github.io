@@ -25,7 +25,7 @@ experiments.
 If you want to form a working group, or want to put some community-wide
 activity under the umbrella of the HSF,
 just contact the
-[HSF coordination team](mailto:hsf-coordination@googlegroups.com).
+[HSF Steering Group](mailto:hsf-steering@googlegroups.com).
 
 Working Groups are added to the website of the HSF, with 
 description and contact information, and their own
@@ -75,7 +75,7 @@ Our working group conveners should usually dedicate between 5% and 10% of their
 time to running the working group. More than 10% is great, but we recognise
 that people are busy with many other tasks. Less than 5% and the working group
 can fall into an inactive state. Conveners should meet at least once a month to
-plan. The HSF Coordination Group is always happy to attend to give feedback
+plan. The HSF Steering Group is always happy to attend to give feedback
 and suggestions.
 
 At least one of the working group conveners should attend the bi-weekly

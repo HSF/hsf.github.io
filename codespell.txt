@@ -18,3 +18,5 @@ slac
 caf
 gage
 gauge
+re-use
+extint

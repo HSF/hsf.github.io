@@ -179,7 +179,8 @@
 .navbar-brand {
  height: 40px;
  padding: 9.5px 15px;
- font-size: 15px;
+ font-size: 14px;
+ margin-top: 2px;
 }
 
 .navbar-default .navbar-nav > li > a:focus,
@@ -187,6 +188,19 @@
 .navbar-default .navbar-brand:hover{
   color: #f39c12;
 }
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 27px; 
+    padding: 8px 10px;
+    margin-top: 7px;
+  }
+
+  .navbar-nav.navbar-right ~ .navbar-brand {
+    justify-content: flex-start;
+  }
+}
+
 
 .navbar-nav>li>a {
 		padding-top: 9.5px;
@@ -399,4 +413,5 @@ figure.centered-figure {
   }
   .big-link-container a {
     min-height: 0;
+  }
 }

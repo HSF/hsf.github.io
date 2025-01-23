@@ -114,7 +114,7 @@ Want to have an early meeting with the students, not just at the end of the codi
 
 Next week we will hear from the DOE funded HEP CCE project, which is now reaching the end of its first funding phase.
 
-- Charles Leggett will present results on portable paralellisation layers
+- Charles Leggett will present results on portable parallelisation layers
 - Peter Van Gemmeren will present results on high-performance I/O
 
 [Meeting will be held jointly with ATLAS Core Software in Salle Curie](https://indico.cern.ch/event/1264297/), Wenesday 14 June at 16h30.

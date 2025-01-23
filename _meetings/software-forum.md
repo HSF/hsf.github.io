@@ -15,4 +15,4 @@ areas or meeting series.
 
 The meeting schedule is in [Indico](https://indico.cern.ch/category/10392/){:_target="HSF_Software_Forum"}.
 
-[Suggestions](mailto:hsf-coordination@googlegroups.com) for any future meeting topics are always very welcome.
+[Suggestions](mailto:hsf-steering@googlegroups.com) for any future meeting topics are always very welcome.

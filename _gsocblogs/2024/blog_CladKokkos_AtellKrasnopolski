@@ -1,0 +1,61 @@
+---
+project: Clad
+title: Implementing the Differentiation of the Kokkos Framework in Clad
+author: Atell Yehor Krasnopolski
+photo: blog_authors/AtellKrasnopolski.jpg
+date: 29.10.2024
+year: 2024
+layout: blog_post
+logo: compiler-research-logo.png
+intro: |
+    Hi! I'm Atell, and this is my GSoC 2024 blog post, where I describe my experience and journey with Clad and the Compiler Research Team in general. 
+---
+
+# About Me
+
+My name is Atell Yehor Krasnopolski. I'm a Mathematics student at the University of Wuerzburg, Germany, and for the past five months, I've been contributing to Clad as part of my GSoC 2024 project.
+
+# Project Description
+
+To explain what the purpose of the project is, we need a bit of background.
+
+In mathematics and computer algebra, automatic differentiation (AD) is a set of techniques for numerically evaluating the derivative of a function specified by a computer program. Clad is a tool based on Clang that provides the necessary facilities for code transformation. The AD library can differentiate non-trivial functions to find a partial derivative for trivial cases and has good unit test coverage.
+
+The Kokkos C++ Performance Portability Ecosystem is a production-level solution for writing modern C++ applications in a hardware-agnostic way. It is part of the US Department of Energies Exascale Project – the leading effort in the US to prepare the HPC community for the next generation of supercomputing platforms.
+
+The Kokkos framework is used in several domains including climate modelling where gradients are an important part of the simulation process. **This project aims at teaching Clad to differentiate Kokkos entities in a performance-portable way.**
+
+My mentors for the project were Vaibhav Thakkar, Vassil Vassilev, and Petro Zarytskyi.
+
+# Technologies
+
+* `C++`
+* `LLVM`
+* `Clang`
+* `Clad`
+* `Kokkos`
+* `Autodiff`
+
+# Preparation & The Community Bonding Period
+
+During the Community Bonding Period, I made a couple of contributions to the project, guided by my mentors (mostly Vassil and Petro). I tried to familiarise myself with the codebase, implemented some simple things and solved issues that my mentors suggested to get some understanding of how Clad operates internally. Based on this experience, I even created a [section](https://clad.readthedocs.io/en/latest/user/IntroductionToClangForCladContributors.html) in the developers' documentation of Clad to help newcomers and beginners start contributing to the project.
+
+# Deliverables
+
+As already mentioned, in this project, the primary goal is to integrate differentiation capabilities in Kokkos with Clad, a C++ automatic differentiation library. According to my proposal, each week had targeted deliverables, from early-stage development of Kokkos views to advanced support for parallel computing structures.
+
+The initial weeks focused on establishing support for Kokkos views within Clad, handling fundamental operations like assignment by index and element access in both forward and reverse differentiation modes. Midway through the project, efforts pivot to differentiating key Kokkos operations like deep_copy, parallel_for, and functors, all initially in forward mode. This phase culminates in adding reverse mode compatibility for these features, ensuring that reverse mode can match forward mode in terms of functionality.
+
+A major goal that we kept in mind (and that is soon to be landed on the main branch of the repository) was that we have everything necessary for the implementation of basic use-case examples from the paper on the source transformation approach to AD written by the Kokkos team. Furthermore, the implementation needed to be consistent with the way the Clad team intended to handle library support.
+
+# Consequences
+
+A great advantage of this project was that not only did I implement some support for the Kokkos framework differentiation in Clad, but also significantly extended Clad's support of STL (C++ Standard Template Library), showed how Clad can support this sort of libraries, and fixed some related issues.
+
+# Personal Experience
+
+Working on this project has been such a great experience! I really enjoyed getting to know and working alongside the Compiler Research team. My mentors were super supportive throughout the project, helping me understand some challenging concepts. Their guidance made the whole process way smoother.
+
+One of the highlights of this experience was attending a conference in Valencia, where I had the opportunity to present my work to an international audience. It was exciting to share our progress with others in the field and see how much interest there was in making Kokkos differentiable with Clad. This experience not only boosted my confidence but also highlighted the practical impact of our work.
+
+Beyond the technical work, I picked up a lot of practical skills, from diving deeper into C++ and automatic differentiation to learning the depth of LLVM and Clang. These hands-on experiences have built up my confidence and knowledge, setting me up for future challenges in the field. This project wasn’t just about code—it was a big step forward in my journey as a developer, and I’m super grateful for it!
