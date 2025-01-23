@@ -57,7 +57,7 @@ useful both to physicists and for public outreach.
 
 ## Links
 
- * [Phoenix event view library](https://github.com/HSF/phoenix]
+ * [Phoenix event view library](https://github.com/HSF/phoenix)
  * [Old MCview web-based MC event viewer](https://gitlab.com/hepcedar/mcview)
  * [MC event-graph viewer](https://gitlab.com/hepcedar/mcutils/-/blob/master/bin/mcgraph?ref_type=heads)
  * [Old MCviz event-graph viewer](https://github.com/mcviz/mcviz)
