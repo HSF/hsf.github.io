@@ -8,4 +8,6 @@ layout: plain
 ## Full Mentor List (Name, Email, Org)
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
+* Stephan Lachnit [stephan.lachnit@desy.de](mailto:stephan.lachnit@desy.de) DESY
+* Simon Spannagel [simon.spannagel@desy.de](mailto:simon.spannagel@desy.de) DESY
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
