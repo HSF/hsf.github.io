@@ -2,6 +2,7 @@
 title: "Affiliated Projects and Software Guidelines"
 author: Eduardo Rodrigues, Pere Mato
 layout: plain
+redirect_from: /project_guidelines.html
 ---
 
 In a spirit of openness and flexibility, the HSF maintains an evolving checklist of best practices for HSF Affiliated Projects and Software, rather than a set of requirements.
@@ -9,6 +10,7 @@ In a spirit of openness and flexibility, the HSF maintains an evolving checklist
 which are used for their endorsement and attribution of Bronze, Silver or Gold levels of recognition.
 
 The guidelines have been created to:
+
 * Encourage projects to follow best practices;
 * Help new projects discover what those practices are; and
 * Help users know which projects are following best practices, meant as a guarantee of quality.
@@ -34,6 +36,7 @@ Avoid pre-existing trademarks for software products or services.
 * **General information.** It is often useful if not necessary to provide extra information such as library dependencies, platforms supported, operating systems supported, etc.
 
 In addition, projects should consider having:
+
 * **A project website.** Such a website is meant to concentrate all the information useful for users as well as developers. (Access to all sources of project information should be granted to search engine spiders.)
 * **Developers mailing list.** A mailing list to contact developers should be made available. Better to have publicly and anonymously accessible archives and be open for subscription and posting by the public.
 
@@ -66,11 +69,13 @@ Three endorsement levels are defined to distinguish mainly the level of maturity
 For each level a number of requisites need to be demonstrated.
 Each level adds more requisites to the previous level.
 These requisites lay in three major categories:
+
 * Software engineering practices followed by the project (as described in the Best-practice Guideline section and with specifics for the programming language ecosystem).
 * Sustainability and support structures of the project (e.g. number of active developers, discussion fora, documentation, training events, time to respond to issues, etc.)
 * Level of adoption of the software by experiments and other projects, hence the impact of the project.
 
 The keywords *MUST*, *SHOULD*, *MAY* that appear in the criteria in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119):
+
 * The term MUST is an absolute requirement, and MUST NOT is an absolute prohibition.
 * The term SHOULD indicates a criterion that is normally required, but there may exist valid reasons in particular circumstances to ignore it.
 * The term MAY provides one way something can be done, e.g., to make it clear that the described implementation may differ and be acceptable.
@@ -80,6 +85,7 @@ The keywords *MUST*, *SHOULD*, *MAY* that appear in the criteria in this documen
 The purpose of this entry level is for a young endeavour, likely evolving from and within a collaboration or experiment, but with the potential for other communities or experiments to use. At this level the category of best software practices is what is mainly required.
 
 #### Basics
+
 * The project SHOULD follow general and language-specific best practices as given for example in the HSF’s Best Practice Guidelines.
 * The project source code MUST reside on a version-controlled repository that is publicly readable and has a URL (e.g., GitHub, GitLab).
 * The README file at the top level MUST describe what the software does (what problem does it solve?).
@@ -103,12 +109,13 @@ obtain, provide feedback (as bug reports or enhancements), and contribute to the
 * The project results MUST have a unique version identifier for each release intended to be used by users.
   We recommend using a well defined versioning scheme that is consistent with practices in your sub-domain, e.g. [Semantic Versioning](https://semver.org) or [Calendar Versioning](https://calver.org).
 * The project MUST provide, in each release, release notes that are a human-readable summary of major changes in that release to help users determine if they should upgrade and what the upgrade impact will be.
+
 The release notes SHOULD NOT be the raw output of a version control log (e.g., the "git log" command results are not release notes).
 
 #### Sustainability
 
 * The project MUST be maintained.
-* The project SHOULD have at least one long-term maintainer with a contract longer than 2 years.
+* The project SHOULD have at least one long-term maintainer with a future commitment to the software of at least 1 year.
 * The project MUST provide a process for users to submit bug reports (e.g., using an issue tracker or a mailing list).
 * The project SHOULD use an issue tracker for tracking individual issues.
 * The project SHOULD acknowledge a majority of bug reports submitted in the last 2-12 months (inclusive); the response need not include a fix.
@@ -133,16 +140,16 @@ All the criteria for Bronze MUST be fulfilled, with the addition of the followin
 #### Documentation
 
 * The project MUST provide different kinds of documentation:
-  - Basic documentation.
-  - User documentation.
-  - Reference manual.
-  - Tutorials (e.g. notebooks).
-  - The project SHOULD provide specific training for users to use the software product.
+  * Basic documentation.
+  * User documentation.
+  * Reference manual.
+  * Tutorials (e.g. notebooks).
+  * The project SHOULD provide specific training for users to use the software product.
 
 #### Sustainability
 
 * The project MUST be maintained and produce at least one new release a year if are changes and fixes that have been accumulated..
-* The project MUST have at least one long-term maintainer with a contract longer than 2 years.
+* The project MUST have at least one long-term maintainer with a future commitment to the software of at least 2 years.
 * The project MUST use an issue tracker for tracking individual issues.
 * The project MUST acknowledge a majority of bug reports submitted in the last 1-3 months (inclusive); the response need not include a fix.
 * The project SHOULD respond to a majority (>50%) of enhancement requests in the last 1-3 months (inclusive).
@@ -164,7 +171,7 @@ All the criteria for Silver MUST be fulfilled, with the addition of the followin
 #### Sustainability
 
 * The project MUST be actively maintained and produce at least one new release a year if there are changes, and as needed patch releases to include fixes that have been accumulated.
-* The project MUST have at least 3 long-term maintainers with a contract longer than 2 years.
+* The project MUST have at least 3 long-term maintainers with a future commitment to the software of at least 2 years.
 * The project MUST acknowledge a majority of bug reports submitted in the last 1-4 weeks (inclusive); the response need not include a fix.
 * The project MUST respond to a majority (>50%) of enhancement requests in the last 1-4 weeks (inclusive).
 

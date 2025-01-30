@@ -1,18 +1,22 @@
 ---
-title: "Projects"
-author: "Benedikt Hegner"
+title: "HSF Affiliate Projects"
+author: Benedikt Hegner, Graeme Stewart
 layout: default
+redirect_from: /projects.html
 ---
 
-# HSF Projects
+# HSF Affiliate Projects
 
-HSF seeks to serve new and emerging common projects through a project incubator activity. Templates to guide and aid new projects are being established. If you'd like your project to be involved just let us know. Talk to any member of the HSF Steering Group or [email](mailto:hsf-steering@googlegroups.com).
+This is the list of projects which have become [HSF Affiliated]({{site.baseurl}}/projects/affiliated.html).
 
-The incubator idea is close to the one of the Apache Software Foundation. Brian Van Klaveren who gave the exceptional ASF talk at the SLAC workshop provides [this link](http://www.apache.org/foundation/how-it-works.html#incubator) describing how ASF Incubator projects work.
+{:.table .table-hover .table-condensed .table-striped}
+| Name | Description | Affiliation | Year |
+| --------| ------------- |----------|-----------|
+| [PRmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Bronze](/images/HSF-logo/HSF-Bronze_Project-CD7F32.svg) | 2024 |
 
-We have been compiling a set of [project guidelines]({{ site.baseurl }}/project_guidelines.html) that all HSF projects should try to fulfil.
+## Older Projects under the umbrella of HSF
 
-## Initial set of Projects under the umbrella of HSF
+These are older projects that were associated with the HSF before the current affilation scheme was setup. They are encouraged to apply for the new affiliation status!
 
 {:.table .table-hover .table-condensed .table-striped}
 | Name  | Description | License | Contact |
@@ -25,6 +29,5 @@ We have been compiling a set of [project guidelines]({{ site.baseurl }}/project_
 | [Phoenix](https://github.com/HSF/phoenix) | Event display framework | Apache-2 | [Ed Moyse](mailto:Edward.Moyse@cern.ch) |
 | [podio](https://github.com/AIDASoft/podio) | Event Data Model Library based on plain-old-data | GPL v3 | [Benedikt Hegner](mailto:benedikt.hegner@cern.ch) |
 | [PM4hep](https://github.com/hegner/PM4hep) | Minimal Plugin Manager | GPL v3 | [Benedikt Hegner](mailto:benedikt.hegner@cern.ch) |
-| [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | Apache-2 |  [Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch) |
 | [ROOT](https://root.cern.ch/)            | Data Analysis Framework | LGPL v2+ | [Pere Mato](mailto:pere.mato@cern.ch) |
 | [XRootD](https://xrootd.slac.stanford.edu/)     | High performance, scalable fault tolerant access to data  | LGPL v3 | [Andrew Hanushevsky](mailto:abh@stanford.edu)|
