@@ -10,8 +10,8 @@ the sharing of knowledge and expertise. It embraces the broad community, from HE
 
 # Conveners
 
-* Eduardo Rodrigues (LHCb, University of Liverpool)
-* Jim Pivarski (CMS and IRIS-HEP, Princeton)
+* Peter Fackeldey (CMS and IRIS-HEP, Princeton)
+* Ianna Osborne (CMS and IRIS-HEP, Princeton)
 * Matthew Feickert (ATLAS and IRIS-HEP, University of Wisconsin-Madison)
 * Nikolai Hartmann (Belle II, LMU Munich)
 
@@ -290,7 +290,8 @@ The event was kindly sponsored by
 
 
 # Previous conveners
-
+- Jim Pivarski (CMS and IRIS-HEP, Princeton), 2019-2024
+- Eduardo Rodrigues (LHCb, University of Liverpool), 2018-2024
 - Oksana Shadura (IRIS-HEP, University of Nebraska), 2022-2023
 - Ben Krikler (LZ, CMS), 2019-2021
 - Chris Tunnell (XENON1T), 2019
