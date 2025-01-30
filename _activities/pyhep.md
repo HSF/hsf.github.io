@@ -10,7 +10,7 @@ the sharing of knowledge and expertise. It embraces the broad community, from HE
 
 # Conveners
 
-* Eduardo Rodrigues (LHCb, University of Liverpool)
+* Peter Fackeldey (CMS and IRIS-HEP, Princeton)
 * Ianna Osborne (CMS and IRIS-HEP, Princeton)
 * Matthew Feickert (ATLAS and IRIS-HEP, University of Wisconsin-Madison)
 * Nikolai Hartmann (Belle II, LMU Munich)
