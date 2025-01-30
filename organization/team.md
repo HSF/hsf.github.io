@@ -15,6 +15,7 @@ The SG is convened by a chair, who is elected annually by the group (see below).
 
 Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the group:
 
+* Claire Antel - University of Geneva
 * Caterina Doglioni - University of Manchester
 * Peter Elmer - Princeton University
 * Daniel Elvira - Fermilab
