@@ -10,7 +10,7 @@ This is the list of projects which have become [HSF Affiliated]({{site.baseurl}}
 {:.table .table-hover .table-condensed .table-striped}
 | Name | Description | Affiliation | Year |
 | --------| ------------- |----------|-----------|
-| [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Bronze](/images/HSF-logo/HSF-Bronze_Project-CD7F32.svg) | 2024 |
+| [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Bronze]({{site.baseurl}}/images/HSF-logo/HSF-Bronze_Project-CD7F32.svg) | 2024 |
 
 ## Older projects under the umbrella of HSF
 
