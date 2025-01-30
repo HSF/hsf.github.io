@@ -1,22 +1,20 @@
 ---
-title: "HSF Affiliate Projects"
+title: "HSF Affiliated Projects"
 author: Benedikt Hegner, Graeme Stewart
-layout: default
+layout: plain
 redirect_from: /projects.html
 ---
-
-# HSF Affiliate Projects
 
 This is the list of projects which have become [HSF Affiliated]({{site.baseurl}}/projects/affiliated.html).
 
 {:.table .table-hover .table-condensed .table-striped}
 | Name | Description | Affiliation | Year |
 | --------| ------------- |----------|-----------|
-| [PRmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Bronze](/images/HSF-logo/HSF-Bronze_Project-CD7F32.svg) | 2024 |
+| [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Bronze](/images/HSF-logo/HSF-Bronze_Project-CD7F32.svg) | 2024 |
 
-## Older Projects under the umbrella of HSF
+## Older projects under the umbrella of HSF
 
-These are older projects that were associated with the HSF before the current affilation scheme was setup. They are encouraged to apply for the new affiliation status!
+These are older projects that were associated with the HSF before the current affiliation scheme was setup. They are encouraged to apply for the new affiliation status!
 
 {:.table .table-hover .table-condensed .table-striped}
 | Name  | Description | License | Contact |
