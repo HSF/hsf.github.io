@@ -16,22 +16,20 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
-      - name: Setup node.js
-        uses: actions/setup-node@v4
+      - name: Setup Ruby
+        uses: actions/setup-ruby@v1
         with:
-          node-version: 21
-      - name: Install node dependencies
-        run: npm install
-      - name: Build site
+          ruby-version: 3.2
+      - name: Install dependencies
         run: |
-          PREFIX_PATHS=true npm run build
-          mkdir website
-          mv public website/training-center
-          cp redirect.html website/index.html
-      - name: Upload artifact
+            gem install bundler
+            bundle install
+      - name: Build site
+        run: bundle exec jekyll build
+      - name: Upload artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./website
+          path: ./_site
   deploy:
     if: github.event_name == 'push'
     needs: build
