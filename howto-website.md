@@ -47,7 +47,7 @@ minutes (live notes), is to use a collaborative Markdown editor directly.  This
 makes it trivial to move the content into the HSF website repository for
 archiving.
 
-If you have a CERN account, one can create a markdown file in CERNBox, using
+If you have a CERN account, one can create a Markdown file in CERNBox, using
 CodiMD to edit this in a browser. One can then define a public link to the
 document (similar to Google Docs public links) to allow those without a CERN
 account to edit the file. Similarly, the Helmholtz Association has a web based
