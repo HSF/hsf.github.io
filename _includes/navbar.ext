@@ -54,7 +54,7 @@
                 </ul>
             </li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/projects/projects.html" id="projects_menu"><span class="glyphicon glyphicon-road"></span>&nbsp;&nbsp;Projects &amp; Support<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="projects_menu">
                   <li><a href="{{ site.baseurl }}/projects/affiliated.html">HSF Affiliated Projects and Software</a></li>
                   <li><a href="{{ site.baseurl }}/projects/guidelines.html">Projects and Software Guidelines</a></li>
