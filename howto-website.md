@@ -26,6 +26,8 @@ If you wish (and it is recommended) you can easily set up a local instance of th
 on installing and running Jekyll.
 The website uses the main branch of the [hsf.github.io](https://github.com/HSF/hsf.github.io) repository.
 
+When you make a pull request to the website repository, Netlify will build a preview version of the website with your PR. This will allow you to double check the update looks the way that you intended (check for the `Deploy Preview` URL in the PR; it will be something like `https://deploy-preview-1644--earnest-hotteok-b1e1bf.netlify.app/`).
+
 If you are not familiar with GitHub and Git, you can read our [survival kit]({{ site.baseurl }}/github-beginners.html)!
 
 ### General structure of website content files
@@ -43,7 +45,7 @@ In the *front-matter* (but not in the text itself), you need to replace any `&` 
 The recommended way to host a collaborative note book, e.g. for taking meeting minutes (live notes),
 is to use a collaborative editing tool utilising Markdown directly.  This makes it trivial to move the content into the HSF website for archiving.
 
-[CodiMD](https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-documentation) is the suggested choice as it has been designed for collaboraitve editing of Markdown files. Unfortunately, the [Hackmd](https://hackmd.io) free service is now restricted to 4 editors. Another possibility, if you have a CERN account, is to use CERNBox which makes CodiMD available to edit Markdown files: you can then define a public link to the document (similar to Google Docs public links) to allow those without a CERN account to edit the file.
+If you have a CERN account, is to use CERNBox which makes CodiMD available to edit Markdown files: you can then define a public link to the document (similar to Google Docs public links) to allow those without a CERN account to edit the file. Similarly, the Helmholtz Association has a web based markdown instance that can be used at <https://notes.desy.de>.
 
 We find that *recycling* the same document for a series of meetings is extremely useful
 as the *live notes* link can be copied and cloned from one meeting to the next.
@@ -53,7 +55,6 @@ as the *live notes* link can be copied and cloned from one meeting to the next.
 Google Docs can also be used for shared notebooks, but in this case there is a need to convert
 the document to Markdown before it can be added to the website. This is less convenient, but
 we have [documentation]({{ site.baseurl }}/jekyll-beginners.html) on how to do it.
-
 
 ### Adding coordination meeting minutes
 
