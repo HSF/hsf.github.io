@@ -26,7 +26,7 @@ If you wish (and it is recommended) you can easily set up a local instance of th
 on installing and running Jekyll.
 The website uses the main branch of the [hsf.github.io](https://github.com/HSF/hsf.github.io) repository.
 
-When you make a pull request to the website repository, Netlify will build a preview version of the website with your PR. This will allow you to double check the update looks the way that you intended (check for the `Deploy Preview` URL in the PR; it will be something like `https://deploy-preview-1644--earnest-hotteok-b1e1bf.netlify.app/`).
+When you make a pull request to the website repository, [Netlify](https://www.netlify.com) will build a preview version of the website with your PR. This will allow you to double check the update looks the way that you intended (check for the `Deploy Preview` URL in the PR; it will be something like `https://deploy-preview-1644--earnest-hotteok-b1e1bf.netlify.app/`).
 
 If you are not familiar with GitHub and Git, you can read our [survival kit]({{ site.baseurl }}/github-beginners.html)!
 
