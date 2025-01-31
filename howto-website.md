@@ -42,10 +42,17 @@ In the *front-matter* (but not in the text itself), you need to replace any `&` 
 
 #### Markdown file
 
-The recommended way to host a collaborative note book, e.g. for taking meeting minutes (live notes),
-is to use a collaborative editing tool utilising Markdown directly.  This makes it trivial to move the content into the HSF website for archiving.
+The recommended way to host a collaborative note book, e.g. for taking meeting
+minutes (live notes), is to use a collaborative editing tool utilising Markdown
+directly.  This makes it trivial to move the content into the HSF website for
+archiving.
 
-If you have a CERN account, is to use CERNBox which makes CodiMD available to edit Markdown files: you can then define a public link to the document (similar to Google Docs public links) to allow those without a CERN account to edit the file. Similarly, the Helmholtz Association has a web based markdown instance that can be used at <https://notes.desy.de>.
+If you have a CERN account, one can create a markdown file in CERNBox, using
+CodiMD to edit this in a browser. One can then define a public link to the
+document (similar to Google Docs public links) to allow those without a CERN
+account to edit the file. Similarly, the Helmholtz Association has a web based
+markdown instance that can be used at <https://notes.desy.de>, which should be
+available to most people with an EduRoam login.
 
 We find that *recycling* the same document for a series of meetings is extremely useful
 as the *live notes* link can be copied and cloned from one meeting to the next.
