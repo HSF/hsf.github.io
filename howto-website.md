@@ -51,7 +51,7 @@ If you have a CERN account, one can create a Markdown file in CERNBox, using
 CodiMD to edit this in a browser. One can then define a public link to the
 document (similar to Google Docs public links) to allow those without a CERN
 account to edit the file. Similarly, the Helmholtz Association has a web based
-markdown instance that can be used at <https://notes.desy.de>, which should be
+Markdown instance that can be used at <https://notes.desy.de>, which should be
 available to most people with an EduRoam login.
 
 We find that *recycling* the same document for a series of meetings is extremely useful
