@@ -42,9 +42,9 @@ In the *front-matter* (but not in the text itself), you need to replace any `&` 
 
 #### Markdown file
 
-The recommended way to host a collaborative note book, e.g. for taking meeting
-minutes (live notes), is to use a collaborative editing tool utilising Markdown
-directly.  This makes it trivial to move the content into the HSF website for
+The recommended way to host a collaborative notebook, e.g., for taking meeting
+minutes (live notes), is to use a collaborative Markdown editor directly.  This
+makes it trivial to move the content into the HSF website repository for
 archiving.
 
 If you have a CERN account, one can create a markdown file in CERNBox, using
