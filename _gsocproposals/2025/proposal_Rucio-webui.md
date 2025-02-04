@@ -32,7 +32,7 @@ The [Rucio WebUI](https://github.com/rucio/webui) is a Next.js application utili
 
 2. **Enhance User Experience for Site Administrators and Operators:**
    - Currently the WebUI focuses on List/Get views with the exception of allowing users to Create Rules. Add features to Create/Edit resources for site administrators and operational experts.
-   - Investigate legacy views in the previous [Flask application]() and migrate them to the new WebUI.
+   - Investigate legacy views in the previous [Flask application](https://github.com/rucio/rucio/tree/master/lib/rucio/web/ui/flask) and migrate them to the new WebUI.
    - Redesign these views to be more user-friendly, incorporating feedback from site administrators and operators.
 
 3. **Migrate Authentication to NextAuth (Auth.js):**
