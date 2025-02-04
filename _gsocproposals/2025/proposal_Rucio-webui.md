@@ -31,7 +31,7 @@ The [Rucio WebUI](https://github.com/rucio/webui) is a Next.js application utili
    - Migrate `tailwind.config.js` to new CSS based configuration for TailwindCSS 4.x. 
 
 2. **Enhance User Experience for Site Administrators and Operators:**
-   - Currently the WebUI focusses on List/Get views with the exception of allowing users to Create Rules. Add features to Create/Edit resources for site administrators and operational experts.
+   - Currently the WebUI focuses on List/Get views with the exception of allowing users to Create Rules. Add features to Create/Edit resources for site administrators and operational experts.
    - Investigate legacy views in the previous [Flask application]() and migrate them to the new WebUI.
    - Redesign these views to be more user-friendly, incorporating feedback from site administrators and operators.
 
