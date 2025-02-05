@@ -47,3 +47,8 @@ but are kept for reference:
   <li> <a href="{{ activity.url }}">{{ activity.title }}</a></li>
 {% endfor %}
 </ul>
+
+## Activity Area Contacts
+
+Each activity area lists its conveners and gives contact details. In addition,
+all conveners can be contacted at `hsf-activity-conveners AT googlegroups.com`.
