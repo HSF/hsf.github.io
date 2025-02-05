@@ -135,7 +135,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
 
 ## Projects in 2025
 
-Will by filled by Feb 11th.
+Will be filled by Feb 11th.
 
 {% assign current_year = "2025" %}
 {% include gsoc_project_list.ext year=current_year %}
