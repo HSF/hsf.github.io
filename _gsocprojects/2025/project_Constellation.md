@@ -11,7 +11,7 @@ description: |
   devices, that is based on widely adopted open-source network communication
   libraries and that keeps the required maintenance as low as possible.
 summary: |
-  Constellation is a control and data acquisition system for small-scale experiments.
+  [Constellation](https://constellation.pages.desy.de/) is a control and data acquisition system for small-scale experiments.
 ---
 
 {% include gsoc_project.ext %}
