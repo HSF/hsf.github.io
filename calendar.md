@@ -9,7 +9,7 @@ can be edited by people in the following Google Groups:
 
 - [HSF Steering Group](https://groups.google.com/forum/#!forum/hsf-steering)
 - [HSF Activity Area Conveners](https://groups.google.com/forum/#!forum/hsf-activity-conveners)
-- [HSF Calendar Editors Group](https://groups.google.com/forum/#!forum/hsf-calendar-editors) Google Groups.
+- [HSF Calendar Editors Group](https://groups.google.com/forum/#!forum/hsf-calendar-editors)
 
 The most straight forward way to do this is to 
 
