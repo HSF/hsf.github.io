@@ -8,6 +8,8 @@ layout: plain
 ## Full Mentor List (Name, Email, Org)
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
+* Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
+* Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
 * Stephan Lachnit [stephan.lachnit@desy.de](mailto:stephan.lachnit@desy.de) DESY
 * Serguei Linev [S.Linev@gsi.de](mailto:S.Linev@gsi.de) GSI 
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN)
