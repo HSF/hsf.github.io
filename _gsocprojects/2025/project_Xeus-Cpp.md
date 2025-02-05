@@ -9,7 +9,7 @@ description: |
   nature allows rapid prototyping and iterations without the overhead of compiling and running separate C++ programs.
   This also achieves C++ and Python integration within a single Jupyter environment.
 summary: |
-  Xeus-Cpp is a Jupyter kernel for C++ based on the native implementation of the Jupyter protocol [xeus](https://github.com/jupyter-xeus/xeus).
+  [Xeus-Cpp](https://xeus-cpp.readthedocs.io/en/latest/index.html) is a Jupyter kernel for C++ based on the native implementation of the Jupyter protocol [xeus](https://github.com/jupyter-xeus/xeus).
 ---
 
 {% include gsoc_project.ext %}

@@ -13,7 +13,7 @@ description: |
   this without any language extensions, intermediate languages, or the need
   for boiler-plate hand-written code.
 summary: |
-  Cppyy is an automatic, run-time, Python-C++ bindings generator, for calling
+  [Cppyy](https://cppyy.readthedocs.io/en/latest/) is an automatic, run-time, Python-C++ bindings generator, for calling
   C++ from Python and Python from C++.
 ---
 
