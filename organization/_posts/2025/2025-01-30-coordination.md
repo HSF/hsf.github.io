@@ -15,7 +15,7 @@ Apologies/Contributing: Michel Jouvin, Michel Hernandez Villanueva
 
 We now have an [advanced draft](https://docs.google.com/document/d/1dTUBTlerXHjrKO37hAuK1MednfukOxvkCSnq0HrnPOM/edit?usp=sharing) - thanks to everyone who contributed to get the document to this stage.
 
-Last week we got the inputs from the activity areas and Michel and Graeme did an editing pass, harmionising the style and drawing out key points as bulleted recommendations (for the TL;DR crew). A preamble and conclusion have been added.
+Last week we got the inputs from the activity areas and Michel and Graeme did an editing pass, harmonising the style and drawing out key points as bulleted recommendations (for the TL;DR crew). A preamble and conclusion have been added.
 
 The section on Event Generators still needs some more key input re. FCCee in particular; the other sections are close to final for this stage.
 
