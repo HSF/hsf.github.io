@@ -125,7 +125,7 @@ We will be contacting the conveners for each group and arranging for planning me
 
 Those conveners who are stepping down will be relieved of being on the mailing list after this meeting.
 
-N.B. To better reflect our new nomenclature, we propose to rename the mailing list from `hsf-wg-convenors@googlegroups.com` to `hsf-activity-convenors@googlegroups.com`
+N.B. To better reflect our new nomenclature, we propose to rename the mailing list from `hsf-wg-convenors@googlegroups.com` to `hsf-activity-conveners@googlegroups.com`
 
 ## Activity Updates
 
