@@ -17,7 +17,7 @@ We now have an [advanced draft](https://docs.google.com/document/d/1dTUBTlerXHjr
 
 Last week we got the inputs from the activity areas and Michel and Graeme did an editing pass, harmonising the style and drawing out key points as bulleted recommendations (for the TL;DR crew). A preamble and conclusion have been added.
 
-The section on Event Generators still needs some more key input re. FCCee in particular; the other sections are close to final for this stage.
+The section on Event Generators still needs some more key input re. FCC-ee in particular; the other sections are close to final for this stage.
 
 Timeline:
 
