@@ -10,7 +10,7 @@ description: |
   function, it can automatically generate C++ code for computing derivatives
   of the function.
 summary: |
-  Clad is an automatic differentiation (AD) tool for C++
+  [Clad](https://clad.readthedocs.io/en/latest/) is an automatic differentiation (AD) tool for C++
 ---
 
 {% include gsoc_project.ext %}
