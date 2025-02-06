@@ -43,11 +43,11 @@ Notes:
 
 ### SHARIng Proposal
 
-We have a request for a letter of support for the SHAREing proposal from Davide Costanzo (Skills Hub for Accelerated Research Environments Inspiring the Next Generation proposal). This is an application for UKRI funds for Digital Research Infrastructure Skills Hubs for Accelerated Compute.
+We have a request for a letter of support for the SHARing proposal from Davide Costanzo (Skills Hub for Accelerated Research Environments Inspiring the Next Generation proposal). This is an application for UKRI funds for Digital Research Infrastructure Skills Hubs for Accelerated Compute.
 
 The proposal synopsis is attached to the agenda.
 
-We have discussed in particular with Davide that we would anticipate working together on training, using HEP codes as test cases and helping on their advisory board from the HSF. Specifially:
+We have discussed in particular with Davide that we would anticipate working together on training, using HEP codes as test cases and helping on their advisory board from the HSF. Specifically:
 
 - Participate in some of the workshops and some steering committees, overall once or twice a year. 
 - The proposal is to fund "mini-projects" and we aim to have some of them to be in the particle physics area and with common interest with the HSF work. 
@@ -81,7 +81,7 @@ Next SG meeting is 11 February.
 
 ### Advisory Group
 
-We had the first meeeting with the Advisory Group Friday 24 January - thanks to the experiments and communites who joined!
+We had the first meeeting with the Advisory Group Friday 24 January - thanks to the experiments and communities who joined!
 
 The outcomes of the meeting will be discussed with the SG and we'll report later.
 
@@ -123,7 +123,7 @@ We will be contacting the conveners for each group and arranging for planning me
 - JuliaHEP: Pere Mato (continues), Jerry Ling (new), Alexander Moreno (continues), Uwe Hernandez Acosta (continues)
     - Thanks to Tamas Gal who steps down
 
-Those conveners who are stepping down will be relieved of being on the mainling list after this meeting.
+Those conveners who are stepping down will be relieved of being on the mailing list after this meeting.
 
 N.B. To better reflect our new nomenclature, we propose to rename the mailing list from `hsf-wg-convenors@googlegroups.com` to `hsf-activity-convenors@googlegroups.com`
 
