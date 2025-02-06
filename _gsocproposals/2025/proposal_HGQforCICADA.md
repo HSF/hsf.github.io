@@ -1,0 +1,30 @@
+---
+title: Highly Granular Quantization for CICADA
+layout: gsoc_proposal
+project: ROOT
+year: 2025
+organization: CERN
+---
+
+## Description
+
+The CICADA (Calorimeter Image Convolutional Anomaly Detection Algorithm) project aims to provide an unbiased detection of new physics signatures in proton-proton collisions at the Large Hadron Collider's Compact Muon Solenoid experiment (CMS). It detects anomalies in low-level trigger calorimeter information with a  convolutional autoencoder, whose behaviour is transferred to a smaller model through knowledge distillation. Careful quantization of the deployed model allows it to meet the requirement of sub-500ns inference times on FPGAs. While CICADA currently employs Quantization Aware Training with different quantization schemes for each layer of the distilled model, a new gradient-based quantization optimization approach published in 2024 offers the possibility of optimizing quantization at the individual weight level. This project would explore implementing this highly granular quantization method to CICADA's distilled model and evaluating its effects on both model performance and resource consumption on Xilinx FPGAs. The work would involve implementing the new quantization approach, comparing it with the current implementation, and investigating the impact on both detection performance and hardware resource utilization while maintaining the strict timing requirements.
+
+## Task ideas
+ * Implement HGQ for CICADA
+
+## Expected results
+A student
+
+## Requirements
+Python, Tensorflow
+
+## Mentors
+  * [Lino Gerlach](mailto:lino.oscar.gerlach@cern.ch)
+  * [Isobel Ojalvo](mailto:iojalvo@princeton.edu)
+  
+## Links
+  * [CICADA]([https://root.cern/](https://github.com/Princeton-AD/cicada))
+  * [Paper](https://arxiv.org/pdf/2405.00645)
+  * [HGQ](https://github.com/calad0i/HGQ)
+  
