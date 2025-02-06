@@ -211,7 +211,6 @@ https://github.com/HSF/TrickTrack
 https://github.com/HSF/cmaketools
 https://github.com/HSF/hep-spack
 https://github.com/HSF/spack
-https://github.com/HSF/spack-config
 
 ACTION: archive these repos.
 
