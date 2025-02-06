@@ -34,7 +34,7 @@ Notes:
 
 - We will stay in Google Docs for the public commenting period, then move to LaTeX in Overleaf for the final version
 - To handle the pain of references, please add a literal `\cite{paper}` into the Google Doc text, together with the BibTeX citation at the bottom of the document
-- The endorsment strategy will depend on feedback from the experiments
+- The endorsement strategy will depend on feedback from the experiments
     - Individual endorsement doesn't make much sense if one's experiment is signing
 - Activity area conveners will be added as editors
 - The document is right on the limit for size (it's 12 pages in Google Docs, but much closer to 10 in LaTeX)
