@@ -19,4 +19,6 @@ caf
 gage
 gauge
 re-use
+re-used
+re-using
 extint
