@@ -124,12 +124,12 @@ selected profiles into a page.
 
 As of writing, this website contains the following page templates for wider usage:
 
-- default - every page inherits from this
-- event - to be used for events
-- newsletter - to be used for news items and announcements
-- plain - to be used for standard contents
-- main - the main page w/ boxes
-- minutes - used for meeting minutes (the template adds forward / backward navigation links)
+- Default - every page inherits from this
+- Event - to be used for events
+- Newsletter - to be used for news items and announcements
+- Plain - to be used for standard contents
+- Main - the main page w/ boxes
+- Minutes - used for meeting minutes (the template adds forward / backward navigation links)
 
 ### Menu bar and automatization
 
