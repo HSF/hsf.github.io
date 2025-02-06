@@ -60,7 +60,7 @@ See here the student blog posts from previous years:
 
 ### For Projects and Mentors
 
-Instructions for participating projects and mentors can be found [here]({{ site.baseurl }}/gsoc/guideline.html). The main differences compared to last year are that proposals can  now be 90-hour, 175-hour or 350h project length, and the target objectives must be well-defined deliverables.
+Instructions for participating projects and mentors can be found [here]({{ site.baseurl }}/gsoc/guideline.html). The main differences compared to last year are that proposals can  now be 90-hour, 175-hour or 350-hour project length, and the target objectives must be well-defined deliverables.
 
 We have a mentor-only Google group where we handle all announcements related to GSoC for our HSF Umbrella Organization. Please write us a mail to [hsf-gsoc-admin@googlegroups.com](mailto:hsf-gsoc-admin@googlegroups.com) if you want to add your preferred email to this list. Note that all participating mentors in 2025 HSF GSoC will have to be added to this group. Please let us know if for some reason your want your mail removed from this list.
 
