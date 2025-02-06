@@ -15,10 +15,10 @@ and analyze petabytes of data from high-energy physics experiments, such as thos
 hosted at the CERN laboratory in Geneva, Switzerland.
 Some of the questions that we collectively ask are:
 
-- what are the fundamental blocks that make up our Universe?
-- what is the nature of dark matter and dark energy?
-- what is the nature of the asymmetry between matter and antimatter?
-- what was early Universe like?
+- What are the fundamental blocks that make up our Universe?
+- What is the nature of dark matter and dark energy?
+- What is the nature of the asymmetry between matter and antimatter?
+- What was early Universe like?
 
 To answer these questions, particle physicists build software to simulate and analyze what happens in particle physics detectors.
 
