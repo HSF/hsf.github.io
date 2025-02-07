@@ -30,7 +30,7 @@ A key outcome would be a set of unit tests and examples, based on the HepMC3 one
     - Particularly the ASCII format will be targeted first
 - Access to event data structures
     - Access to particle properties
-    - Navigation of the event and the vertexes between parent and child particles
+    - Navigation of the event and the vertices between parent and child particles
     - Access to run information
 - Update of HepMC3 data structures
 - Creation of new HepMC3 events
