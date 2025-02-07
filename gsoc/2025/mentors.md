@@ -19,7 +19,7 @@ layout: plain
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
 * Simon Spannagel [simon.spannagel@desy.de](mailto:simon.spannagel@desy.de) DESY
-* Graeme Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) DESY
+* Graeme Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN
 * Martin Vasilev [mvassilev@uni-plovdiv.bg](mailto:mvassilev@uni-plovdiv.bg) University of Plovdiv, BG
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
