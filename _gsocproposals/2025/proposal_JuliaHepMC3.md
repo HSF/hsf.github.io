@@ -48,7 +48,7 @@ A key outcome would be a set of unit tests and examples, based on the HepMC3 one
 
 ## Evaluation Exercise
 
-TDB
+TBD
 
 ## Mentors
 
