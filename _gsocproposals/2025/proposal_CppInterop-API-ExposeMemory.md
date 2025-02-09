@@ -32,9 +32,9 @@ Clang and LLVM provide access to C++ from other programming languages, but curre
 * Knowledge of Clang and LLVM
 
 ## Mentors
-* **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
-* [Aaron Jomy](mailto:aaron.jomy@cern.ch)
-* [David Lange](mailto:david.lange@cern.ch)
+* **[Aaron Jomy](mailto:aaron.jomy@cern.ch)**
+* [Vassil Vassilev](mailto:vvasilev@cern.ch)
+
 
 ## Links
 * [Repo](https://github.com/compiler-research/CppInterOp)
