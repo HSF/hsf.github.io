@@ -3,6 +3,9 @@ title: Highly Granular Quantization for CICADA
 layout: gsoc_proposal
 project: CICADA
 year: 2025
+difficulty: medium
+duration: 350
+mentor_avail: Flexible
 organization: princeton
 ---
 
@@ -27,6 +30,7 @@ Python, Tensorflow, Quantization
 ## Mentors
   * [Lino Gerlach](mailto:lino.oscar.gerlach@cern.ch)
   * [Isobel Ojalvo](mailto:iojalvo@princeton.edu)
+  * [Jennifer Ngadiuba](mailto:jennifer.ngadiuba@cern.ch)
   
 ## Links
   * [CICADA (homepage)](https://cicada.web.cern.ch/)
