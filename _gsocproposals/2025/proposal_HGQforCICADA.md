@@ -22,7 +22,7 @@ The CICADA (Calorimeter Image Convolutional Anomaly Detection Algorithm) project
  * Estimates of that model's performance and resource consumption on an FPGA
 
 ## Requirements
-Python, Tensorflow, 
+Python, Tensorflow, Quantization
 
 ## Mentors
   * [Lino Gerlach](mailto:lino.oscar.gerlach@cern.ch)
