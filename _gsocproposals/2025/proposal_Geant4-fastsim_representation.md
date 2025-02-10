@@ -41,7 +41,7 @@ A shower representation which has the potential to meet these criteria is a poin
 
 ## Evaluation Tasks and Timeline
 
-1. Find the test [here](https://docs.google.com/document/d/1XYF8xFfprqiYYnjxu7Bzm8Ps-s646VJhIkDCQJd8n_8/edit?usp=sharing). Please submit it by 9:00 CET 17th March 2024 along with a short proposal (2 pages max) describing how you would approach the problem. See submission instructions in the test doc. Please don't forget to start the subject line with "GSoC'25 FastSim".
+1. Find the test [here](https://docs.google.com/document/d/1XYF8xFfprqiYYnjxu7Bzm8Ps-s646VJhIkDCQJd8n_8/edit?usp=sharing). Please submit it by 9:00 CET 17th March 2025 along with a short proposal (2 pages max) describing how you would approach the problem. See submission instructions in the test doc. Please don't forget to start the subject line with "GSoC'25 FastSim".
 2. We will make the selections based on the test, short proposal and resume by 17:00 CET 24th March.
 3. Selected candidates will then write the full proposal and submit it according to the official GSoC timeline.
 
