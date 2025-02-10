@@ -17,6 +17,7 @@ layout: plain
 * Stephan Lachnit [stephan.lachnit@desy.de](mailto:stephan.lachnit@desy.de) DESY
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) CompRes
 * Serguei Linev [S.Linev@gsi.de](mailto:S.Linev@gsi.de) GSI 
+* Peter McKeown [peter.mckeown@cern.ch](mailto:peter.mckeown@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
