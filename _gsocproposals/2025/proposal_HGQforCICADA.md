@@ -3,6 +3,9 @@ title: Highly Granular Quantization for CICADA
 layout: gsoc_proposal
 project: CICADA
 year: 2025
+difficulty: medium
+duration: 350
+mentor_avail: Flexible
 organization: princeton
 ---
 
