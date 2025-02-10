@@ -14,7 +14,7 @@ The CICADA (Calorimeter Image Convolutional Anomaly Detection Algorithm) project
  * Transition CICADA's quantization tool from QKeras to HGQ 
  * Optimize student model's quantization with higher granularity
  * Compare resulting model's performance with legacy model
- * Emulate deployment on FPGA w/ Vivado to evalute resource consumption  
+ * Emulate deployment on FPGA w/ Vivado to evaluate resource consumption  
 
 ## Expected results
  * Extend existing training / quantization scripts to use HGQ in addition to QKeras
