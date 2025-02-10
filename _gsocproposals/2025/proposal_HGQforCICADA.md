@@ -30,7 +30,7 @@ Python, Tensorflow, Quantization
 ## Mentors
   * [Lino Gerlach](mailto:lino.oscar.gerlach@cern.ch)
   * [Isobel Ojalvo](mailto:iojalvo@princeton.edu)
-  * [Jennifer Ngadiuba](jennifer.ngadiuba@cern.ch)
+  * [Jennifer Ngadiuba](mailto:jennifer.ngadiuba@cern.ch)
   
 ## Links
   * [CICADA (homepage)](https://cicada.web.cern.ch/)
