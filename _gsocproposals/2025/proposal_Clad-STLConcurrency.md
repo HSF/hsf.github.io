@@ -31,7 +31,7 @@ An example demonstrating the use of differentiation of codes utilizing paralleli
 #include <numeric>
 #include <thread>
 #include <vector>
-#include "clad/Differentiator/Differentiator.h"q
+#include "clad/Differentiator/Differentiator.h"
 
 using VectorD = std::vector<double>;
 using MatrixD = std::vector<VectorD>;
