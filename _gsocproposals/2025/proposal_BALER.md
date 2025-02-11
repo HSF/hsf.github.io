@@ -17,7 +17,7 @@ The Large Hadron Collider (LHC) hosts multiple large-scale experiments, LHC expe
 
 Data compression would be the go-to solution to this issue, but general data formats used for big data and the ROOT data format used at the LHC are already highly compressed, meaning that the data does not compress much under normal loss-less compression methods like zip [[4](https://www.sciencedirect.com/science/article/abs/pii/S016890029700048X)]. However, since the observables in these experiments benefit from more events and higher statistics, lossy compression is a good alternative. By using lossy compression some data accuracy is lost, but the compression will allow for the storage of more data which will increase the statistical precision of the final analysis.
 
-BALER is a compression tool undergoing development at the particle physics division of the University of Manchester. BALER uses autoencoder and otherneural networks as a type of lossy machine learning-based compression to compress multi-dimensional data and evaluate the accuracy of the dataset after compression.
+BALER is a compression tool undergoing development at the particle physics division of the University of Manchester. BALER uses autoencoder and other neural networks as a type of lossy machine learning-based compression to compress multi-dimensional data and evaluate the accuracy of the dataset after compression.
 
 Since data storage is a problem in many fields of science and industry, BALER aims to be an open source tool that can support the compression of data formats from vastly different fields of science. For example, catalog data in astronomy and time series data in computational fluid dynamics.
 
