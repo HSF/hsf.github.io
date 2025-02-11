@@ -13,6 +13,9 @@
       "pattern": "https://ariostas.com"
     },
     {
+      "pattern": "https://www.monash.edu"
+    },
+    {
       "pattern": "https://indico.desy.de"
     }
   ],
