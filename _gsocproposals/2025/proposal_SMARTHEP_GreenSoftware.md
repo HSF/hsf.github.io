@@ -63,6 +63,5 @@ to make it more efficient, and evaluate possible savings.
 
 ## Links
 
- * (1) [Green Software Foundation course](<https://learn.greensoftware.foundation/hardware-efficiency>)
- * (2) [the CERN Green Big Data project Twiki](<https://twiki.cern.ch/twiki/bin/view/Main/GreenBigData>)
- * (3) [Blog by the previous GSoC student] 
+ * (1) [Green Software Foundation course](<https://learn.greensoftware.foundation/>)
+ * (2) [Code by the previous GSoC student](<https://summerofcode.withgoogle.com/archive/2023/projects/Nks9akq7>) 
