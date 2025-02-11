@@ -9,6 +9,7 @@ layout: plain
 * Simone Balducci [simone.balducci@cern.ch](mailto:simone.balducci@cern.ch) CERN
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Lukas Breitwieser [lukas.johannes.breitwieser@cern.ch](mailto:lukas.johannes.breitwieser@cern.ch) CERN
+* Anutosh Bhat [anutosh.bhat@quantstack.net](mailto:anutosh.bhat@quantstack.net) QuantStack
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Vipul Cariappa [vipulcariappa@gmail.com](mailto:vipulcariappa@gmail.com) CompRes
 * Mateusz Fila [mateusz.jakub.fila@cern.ch](mailto:mateusz.jakub.fila@cern.ch) CERN
@@ -17,7 +18,8 @@ layout: plain
 * Christina Koutsou [christinakoutsou22@gmail.com](mailto:@christinakoutsou22@gmail.com) CompRes
 * Stephan Lachnit [stephan.lachnit@desy.de](mailto:stephan.lachnit@desy.de) DESY
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) CompRes
-* Serguei Linev [S.Linev@gsi.de](mailto:S.Linev@gsi.de) GSI 
+* Serguei Linev [S.Linev@gsi.de](mailto:S.Linev@gsi.de) GSI
+* Johan Mabille [johan.mabille@quantstack.net](mailto:johan.mabille@quantstack.net) QuantStack
 * Peter McKeown [peter.mckeown@cern.ch](mailto:peter.mckeown@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
