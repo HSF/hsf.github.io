@@ -15,6 +15,9 @@ description: |
   and is currently being adopted by [Belle II](https://www.belle2.org/). Additionally, other collaborations, including 
   [ePIC](https://www.bnl.gov/eic/epic.php) and the [Einstein Telescope](https://www.et-gw.eu/), have expressed interest 
   in evaluating its suitability for their needs.
+summary: |
+  The HEP Software Foundation's proposed Conditions Database reference is an experiment-agnostic design for 
+  conditions data access management.
 ---
 
 {% include gsoc_project.ext %}
