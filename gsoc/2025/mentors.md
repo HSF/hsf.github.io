@@ -18,9 +18,9 @@ layout: plain
 * Christina Koutsou [christinakoutsou22@gmail.com](mailto:@christinakoutsou22@gmail.com) CompRes
 * Stephan Lachnit [stephan.lachnit@desy.de](mailto:stephan.lachnit@desy.de) DESY
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) CompRes
-* Serguei Linev [S.Linev@gsi.de](mailto:S.Linev@gsi.de) GSI 
-* Ruslan Mashinistov [mashinistov@bnl.gov](mailto:mashinistov@bnl.gov) BNL
+* Serguei Linev [S.Linev@gsi.de](mailto:S.Linev@gsi.de) GSI
 * Johan Mabille [johan.mabille@quantstack.net](mailto:johan.mabille@quantstack.net) QuantStack
+* Ruslan Mashinistov [mashinistov@bnl.gov](mailto:mashinistov@bnl.gov) BNL
 * Peter McKeown [peter.mckeown@cern.ch](mailto:peter.mckeown@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
