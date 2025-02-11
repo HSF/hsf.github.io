@@ -43,9 +43,9 @@ Interested students please contact simone.balducci@cern.ch
 * Experience with development of Python libraries
 
 ## Additional information
-Difficulty level (low, medium, hard): medium
-Duration: 350 hours
-Mentor availability: June-October
+* Difficulty level (low, medium, hard): medium
+* Duration: 350 hours
+* Mentor availability: June-October
 
 ## Mentors
   * **[Simone Balducci](mailto:simone.balducci@cern.ch) (CERN UNIBO)**
