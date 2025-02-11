@@ -4,7 +4,7 @@ layout: gsoc_proposal
 project: SMARTHEP
 year: 2025
 organization:
-  - UofManchester
+  - UManchester
   - CERN
 difficulty: medium
 duration: 350
