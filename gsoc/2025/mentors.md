@@ -13,6 +13,7 @@ layout: plain
 * Vipul Cariappa [vipulcariappa@gmail.com](mailto:vipulcariappa@gmail.com) CompRes
 * Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) UManchester
 * Mateusz Fila [mateusz.jakub.fila@cern.ch](mailto:mateusz.jakub.fila@cern.ch) CERN
+* Tobias Fitschen [tobias.fitschen@cern.ch](mailto:tobias.fitschen@cern.ch) UManchester
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
 * Aaron Jomy [aaron.jomy@cern.ch](mailto:aaron.jomy@cern.ch) CERN/CompRes
 * Christina Koutsou [christinakoutsou22@gmail.com](mailto:@christinakoutsou22@gmail.com) CompRes
@@ -23,6 +24,7 @@ layout: plain
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
+* James Smith [james.smith-7@manchester.ac.uk](mailto:james.smith-7@manchester.ac.uk) UManchester
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
 * Simon Spannagel [simon.spannagel@desy.de](mailto:simon.spannagel@desy.de) DESY
 * Graeme Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN
