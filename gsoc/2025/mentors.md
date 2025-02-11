@@ -13,6 +13,7 @@ layout: plain
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Vipul Cariappa [vipulcariappa@gmail.com](mailto:vipulcariappa@gmail.com) CompRes
 * Mateusz Fila [mateusz.jakub.fila@cern.ch](mailto:mateusz.jakub.fila@cern.ch) CERN
+* Peter Van Gemmeren [peter.van.gemmeren@cern.ch](mailto:peter.van.gemmeren@cern.ch) ANL
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
 * Aaron Jomy [aaron.jomy@cern.ch](mailto:aaron.jomy@cern.ch) CERN/CompRes
 * Christina Koutsou [christinakoutsou22@gmail.com](mailto:@christinakoutsou22@gmail.com) CompRes
@@ -27,6 +28,7 @@ layout: plain
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
 * Simon Spannagel [simon.spannagel@desy.de](mailto:simon.spannagel@desy.de) DESY
 * Graeme Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN
+* Maciej Szymański [maciej.szymanski@cern.ch](mailto:maciej.szymanski@cern.ch) ANL
 * Martin Vasilev [mvassilev@uni-plovdiv.bg](mailto:mvassilev@uni-plovdiv.bg) University of Plovdiv, BG
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
