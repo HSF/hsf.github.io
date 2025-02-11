@@ -22,7 +22,7 @@ In many cases, it replaces package managers and shared software areas on cluster
 ## Task idea
 
 CVMFS is optimized for the distribution of software (header files, scripts and libraries), taking advantage of the repeated access pattern for its caching, and the possibility to deduplicate files present in several versions. 
-CVMFS is capable to provide a general read-only POSIX file system view on data in external storage. A very common usecache is to make conditions databases available to workloads running in distributed computing infrastructure, but various datasets have been published in CVMFS.
+CVMFS is capable to provide a general read-only POSIX file system view on data in external storage. A very common usecase is to make conditions databases available to workloads running in distributed computing infrastructure, but various datasets have been published in CVMFS.
 How efficient CVMFS can be always depends on the details in these usecases - often the benefit for the users is simply in leveraging the existing server and proxy infrastructure.
 
 
