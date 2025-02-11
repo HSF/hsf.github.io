@@ -11,7 +11,7 @@ layout: plain
 * Lukas Breitwieser [lukas.johannes.breitwieser@cern.ch](mailto:lukas.johannes.breitwieser@cern.ch) CERN
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
 * Vipul Cariappa [vipulcariappa@gmail.com](mailto:vipulcariappa@gmail.com) CompRes
-* Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) UofManchester
+* Caterina Doglioni [caterina.doglioni@cern.ch](mailto:caterina.doglioni@cern.ch) UManchester
 * Mateusz Fila [mateusz.jakub.fila@cern.ch](mailto:mateusz.jakub.fila@cern.ch) CERN
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
 * Aaron Jomy [aaron.jomy@cern.ch](mailto:aaron.jomy@cern.ch) CERN/CompRes
