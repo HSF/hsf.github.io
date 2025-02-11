@@ -6,6 +6,7 @@ layout: plain
 **Note for contributors:** entries must be sorted in **last name** alphabetic order
 
 ## Full Mentor List (Name, Email, Org)
+* Simone Balducci [simone.balducci@cern.ch](mailto:simone.balducci@cern.ch) CERN
 * Martin Barisits [martin.barisits@cern.ch](mailto:martin.barisits@cern.ch) CERN
 * Lukas Breitwieser [lukas.johannes.breitwieser@cern.ch](mailto:lukas.johannes.breitwieser@cern.ch) CERN
 * Andy Buckley [andy.buckley@gla.ac.uk](mailto:andy.buckley@gla.ac.uk) UofGlasgow
@@ -18,6 +19,7 @@ layout: plain
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) CompRes
 * Serguei Linev [S.Linev@gsi.de](mailto:S.Linev@gsi.de) GSI 
 * Peter McKeown [peter.mckeown@cern.ch](mailto:peter.mckeown@cern.ch) CERN
+* Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
