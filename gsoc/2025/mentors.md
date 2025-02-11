@@ -23,7 +23,7 @@ layout: plain
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
-* Sanjiban Sengupta [sanjiban.sengupta@cern.ch](mailto:sanjiban.sengupta@cern.ch) CERN
+* Sanjiban Sengupta [sanjiban.sengupta@cern.ch](mailto:sanjiban.sengupta@cern.ch) CERN/UofManchester
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
 * Simon Spannagel [simon.spannagel@desy.de](mailto:simon.spannagel@desy.de) DESY
 * Graeme Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN

@@ -6,11 +6,11 @@ year: 2025
 organization: CERN
 difficulty: medium
 duration: 350
-mentor_avail: June-October
+mentor_avail: Flexible
 ---
 
 # Description
-SOFIE (System for Optimized Fast Inference code Emit) is a Machine Learning Inference Engine within TMVA (Toolkit for Multivariate Data Analysis) in ROOT. SOFIE offers a parser capable of converting ML models trained in Keras, PyTorch, or ONNX format into its own Intermediate Representation, and generates C++ functions that can be easily invoked for fast inference of trained neural networks. The parsed models produce C++ header files that can be seamlessly included and used in a 'plug-and-go' style.
+SOFIE (System for Optimized Fast Inference code Emit) is a Machine Learning Inference Engine within TMVA (Toolkit for Multivariate Data Analysis) in ROOT. SOFIE offers a parser capable of converting ML models trained in Keras, PyTorch, or ONNX format into its own Intermediate Representation, and generates C++ functions that can be easily invoked for fast inference of trained neural networks. Using the IR, SOFIE can produce C++ header files that can be seamlessly included and used in a 'plug-and-go' style.
 
 SOFIE currently supports various Machine Learning operators defined by the ONNX standards, as well as a Graph Neural Network (GNN) implementation. It supports the parsing and inference of Graph Neural Networks trained using DeepMind Graph Nets.
 
@@ -27,7 +27,7 @@ In this project, the contributor will gain experience with GPU programming and i
 
 ## Requirements
   * Proficiency in C++ and Python.
-  * Basic knowledge of GPU programming (e.g., CUDA).
+  * Knowledge of GPU programming (e.g., CUDA).
   * Familiarity with version control systems like Git/GitHub.
 
 ## Mentors
