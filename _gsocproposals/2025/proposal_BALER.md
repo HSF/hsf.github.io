@@ -30,7 +30,7 @@ This internship can focus on a range of work packages, and the project can be ta
   * New auto-encoder models could be developed, better identifying correlations between data objects in a given particle physics dataset entry (event, typically containing thousands of objects and around 1MB each). New models could also improve performance on live / unseen data. These could include transformer, GNN, probabilistic and other tiypes of networks.
   * Existing models could be applied on an FPGA, potentially significantly reducing latency and power consumption, opening the possibility of live compression before transmission of data on a network.
   * BALER could also be integrated into standard research data storage formats and programs used by hundreds of thousands of physics researchers (ROOT).
-  * Finally the compression could be applied to particle physics datasets and the affect on the physics discovery sensitivity of an analysis could be assessed and compared to the possible increased sensitivity from additional data bandwidth. 
+  * Finally the compression could be applied to particle physics datasets and the effect on the physics discovery sensitivity of an analysis could be assessed and compared to the possible increased sensitivity from additional data bandwidth. 
 
 Ideas from the intern are also welcomed.
 
@@ -45,7 +45,7 @@ An improved compression performance with documentation and figures of merit that
 
 The candidate should have experience with the python language and a Linux environment, familiarity with AI fundamentals, and familiarity with PyTorch.
 
-Desirable skills include familiarity with AI fundamentals including transformers and/or graph neural networks, particle physics theory and experiments, PyTorch, FPGA programming and/or simulation, 
+Desirable skills include familiarity with AI fundamentals including transformers and/or graph neural networks, particle physics theory and experiments, PyTorch, FPGA programming and/or simulation.
 
 
 ## Mentors
