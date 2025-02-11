@@ -1,6 +1,6 @@
 ---
 project: Ganga
-title: Incorporate a Large Language Model to assist users
+title: Implement a deprecation system to keep code up to date
 layout: gsoc_proposal
 year: 2025
 difficulty: medium
@@ -22,6 +22,7 @@ The idea in this project is to formalise the way that code can be declared depre
  * Have a well defined way of marking plugins, functions etc as deprecated with a warning about when they will be removed. Building on top
  of the python package [deprecated](https://pypi.org/project/Deprecated/) might be an idea.
  * Run tests in the testing framework that will alert developers to that certain parts of the code can now be removed.
+ * Apply in the testing framework a similar system that will identify when deprecated python features are used when moving to a new python version.
  * Apply the deprecation system to parts of the code that is already deprecated.
 
 ## Expected results

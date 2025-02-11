@@ -19,11 +19,11 @@ As a scripting and command line interface, there will naturally be users that ha
 We have an interface based on ollama that will build a RAG that contains extra information about Ganga that has not been available for the training of the underlying LLM.
 
 ## Task ideas
- * Explore different options for integrating the LLM into a command line prompt.
  * Integrate the interaction with the LLM and RAG into Ganga.
+ * Integrate past input and output in the CLI to provide context for the CLI.
  * Setup a server such that the LLM can run on a remote server requiring minimal installation by the user.
  * Test which samples are most useful for adding to the RAG (mailing list discussions, manuals, instant messages)
- * Develop continuous integration tests that can ensures that LLM integration will keep working.
+ * Develop continuous integration tests that ensures that LLM integration will keep working.
 
 ## Expected results
 For the scientific users of Ganga, this will speed up their development cycle as they will get a faster response to the usage queries that they have.
