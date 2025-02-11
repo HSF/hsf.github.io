@@ -52,9 +52,9 @@ Mentor availability: June-October
   * [Felice Pantaleo](mailto:felice.pantaleo@cern.ch) (CERN)
 
 ## Links
-  * [CLUE](clue)
-  * [CLUEstering](cluestering)
-  * [Alpaka](alpaka)
+  * [CLUE][clue]
+  * [CLUEstering][cluestering]
+  * [Alpaka][alpaka]
 
 [clue]: https://gitlab.cern.ch/kalos/clue
 [cluestering]: https://github.com/cms-patatrack/CLUEstering
