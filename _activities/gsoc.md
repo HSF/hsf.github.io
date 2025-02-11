@@ -156,5 +156,5 @@ Will be filled by Feb 11th.
 
 *HSF GSoC mentor discussion* [e-group](mailto:hep-software-foundation-google-summer-of-code@googlegroups.com)
 
-*HSF GSoC administrators:* [Wouter Deconinck, Maciej Szymanski, Valentin Volkl](mailto:hsf-gsoc-admin@googlegroups.com)
+*HSF GSoC administrators:* [Wouter Deconinck, Maciej Szymanski, Valentin Volkl, Aaron Jomy](mailto:hsf-gsoc-admin@googlegroups.com)
 
