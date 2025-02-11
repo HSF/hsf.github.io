@@ -8,7 +8,7 @@ organization:
   - umanchester
 difficulty: medium
 duration: 350
-mentor_avail: June-August
+mentor_avail: June-August 
 ---
 ​
 ## Short description of the project
@@ -26,7 +26,7 @@ This project aims to work on the machine learning models in BALER to optimize pe
 
 This internship can focus on a range of work packages, and the project can be tailored to the intern. Possible projects include:
 
-  * New auto-encoder models could be developed, better identifying correlations between data objects in a given particle physics dataset entry (event, typically containing thousands of objects and around 1MB each). New models could also improve performance on live / unseen data. 
+  * New auto-encoder models could be developed, better identifying correlations between data objects in a given particle physics dataset entry (event, typically containing thousands of objects and around 1MB each). New models could also improve performance on live / unseen data. These could include transformer, GNN, probabilistic and other tiypes of networks.
   * Existing models could be applied on an FPGA, potentially significantly reducing latency and power consumption, opening the possibility of live compression before transmission of data on a network.
   * BALER could also be integrated into standard research data storage formats and programs used by hundreds of thousands of physics researchers (ROOT).
   * Finally the compression could be applied to particle physics datasets and the affect on the physics discovery sensitivity of an analysis could be assessed and compared to the possible increased sensitivity from additional data bandwidth. 
@@ -50,6 +50,7 @@ Desirable skills include familiarity with AI fundamentals including transformers
 ## Mentors
    * ***[James Smith](mailto:james.smith-7@manchester.ac.uk)***
    * [Caterina Doglioni](mailto:caterina.doglioni@cern.ch) as backup mentor
+   * [Leonid Didukh](mailto:ledidukh@gmail.com)
 
 ## Links
 
