@@ -1,5 +1,5 @@
 ---
-title: Estimating the energy cost of scientific software
+title: Estimating the energy cost of ML scientific software
 layout: gsoc_proposal
 project: SMARTHEP
 year: 2025
@@ -15,7 +15,7 @@ mentor_avail: June-October (with 2-3 weeks mentor vacation where student will wo
 At a time where “energy crisis” is something that we hear daily,
 we can’t help but wonder whether our research software can be made more sustainable,
 and more efficient as a byproduct.
-In particular, this question arises for scientific software used in high-throughput scientific
+In particular, this question arises for ML scientific software used in high-throughput scientific
 computing, where large datasets composed of many similar chunks are analysed with similar operations
 on each chunk of data.
 Moreover, CPU/GPU-efficient software algorithms are crucial for the real-time data selection (trigger)
@@ -60,6 +60,8 @@ to make it more efficient, and evaluate possible savings.
 ## Mentors
 
  * **[Caterina Doglioni](mailto:caterina.doglioni@cern.ch)**
+ * **[Tobias Fitschen](mailto:tobias.fitschen@cern.ch)** as backup mentor
+ * **[James Smith](mailto:james.smith-7@manchester.ac.uk)** as backup mentor
 
 ## Links
 
