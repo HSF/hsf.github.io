@@ -11,7 +11,7 @@ description: |
   Transactions on Nuclear Science 53 No. 1 (2006) 270-278 and Nuclear Instruments
   and Methods in Physics Research A 835 (2016) 186-225.
 summary: |
-  Geant4 is a toolkit for the simulation of the passage of particles through matter.
+  [Geant4](https://geant4.web.cern.ch/) is a toolkit for the simulation of the passage of particles through matter.
 ---
 
 {% include gsoc_project.ext %}
