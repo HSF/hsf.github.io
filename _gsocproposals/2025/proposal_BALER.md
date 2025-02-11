@@ -5,7 +5,8 @@ project: BALER
 year: 2025
 organization:
   - baler
-  - umanchester
+  - UManchester
+  - CERN
 difficulty: medium
 duration: 350
 mentor_avail: June-August 
