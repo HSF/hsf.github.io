@@ -1,7 +1,7 @@
 ---
 title: Probabilistic circuit for lossless HEP data compression
 layout: gsoc_proposal
-project: Baler
+project: baler
 year: 2025
 organization:
   - CERN
