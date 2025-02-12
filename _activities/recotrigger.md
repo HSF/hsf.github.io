@@ -29,9 +29,11 @@ of profiling and quality assurance toolkits.
 Current WG conveners:
 - Joe Osborn (sPHENIX/ePIC, Brookhaven National Laboratory)
 - Christian Wessel (Belle II, DESY)
+- Maarten van Veghel (LHCb, Nikhef)
+- Ines Ochoa (ATLAS, LIP)
 
 
-[Contact the group conveners](mailto:christian.wessel@desy.de,josborn1@bnl.gov) by email. <!-- markdown-link-check-disable-line -->
+[Contact the group conveners](mailto:christian.wessel@desy.de,josborn1@bnl.gov,maarten.vanveghel@cern.ch,ines.ochoa@cern.ch) by email. <!-- markdown-link-check-disable-line -->
 
 Everyone is welcome to participate and contribute on the forum and to the ongoing meetings. For more information, contact us or
 follow our mailing list on google groups [hsf-recotrigger](https://groups.google.com/forum/#!forum/hsf-recotrigger).
