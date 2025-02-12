@@ -15,8 +15,8 @@ Reconstructing the trajectories of charged particles as they traverse several de
 
 ## First steps
 
-* Basic understanding of track reconstruction at LHC using ACTS [https://acts.readthedocs.io/en/latest/] and/or Allen framework  [https://allen-doc.docs.cern.ch/index.html].
-* Familiarizing her/himself with trackML simulation datasets [https://www.kaggle.com/competitions/trackml-particle-identification/data?select=train_sample.zip].
+* Basic understanding of track reconstruction at LHC using [ACTS](https://acts.readthedocs.io/en/latest/) and/or [Allen framework](https://allen-doc.docs.cern.ch/index.html).
+* Familiarizing her/himself with trackML simulation datasets <https://www.kaggle.com/competitions/trackml-particle-identification/data?select=train_sample.zip>.
 * Learning how to use the quantum simulator for QML algorithms https://pennylane.ai/. 
 
 
