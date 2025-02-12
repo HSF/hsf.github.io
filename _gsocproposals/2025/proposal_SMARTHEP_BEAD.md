@@ -92,6 +92,7 @@ An improved performance of selected models, with documentation and figures of me
 ## Links
   * [Paper on unsupervised ML algorithms using HEP datasets](<https://arxiv.org/abs/2105.14027>)
   * [Review of LHC searches using unsupervised learning](<https://arxiv.org/abs/2312.14190>)
+  * [BEAD GitHub repository (WIP)](<https://github.com/PRAkTIKal24/BEAD>)
   * [ROOT](<https://root.cern/>)
   * [Jupyter](<http://jupyter.org>)
   * [PyTorch](http://pytorch.org)
