@@ -32,8 +32,8 @@ Clad is a clang plugin for automatic differentiation that performs source-to-sou
 * Clang frontend
 
 ## Mentors
-* **[Christina Koutsou](mailto:@christinakoutsou22@gmail.com)**
-* [Vassil Vassilev](mailto:vvasilev@cern.ch)
+* **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
+* [David Lange](mailto:david.lange@cern.ch)
 
 ## Links
 * [Repo](https://github.com/vgvassilev/clad)

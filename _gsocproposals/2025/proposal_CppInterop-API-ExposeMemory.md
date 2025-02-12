@@ -1,7 +1,7 @@
 ---
 title: Implement CppInterOp API exposing memory, ownership and thread safety information 
 layout: gsoc_proposal
-project: Cppyy
+project: CppInterOp
 year: 2025
 difficulty: medium
 duration: 350
