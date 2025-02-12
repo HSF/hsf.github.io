@@ -86,3 +86,7 @@ All the coordinators can be reached [by email](mailto:wouter.deconinck@umanitoba
 - Marc Paterno (DUNE and Fermilab), 2021-2022
 - Valentin Volkl (FCC and CERN), 2023
 - Henry Schreiner (IRIS-HEP / Princeton), 2023
+- Patrick Gartung (Fermilab), 2023-2024
+- Nathan Brei (Jefferson Lab), 2024
+- Reiner Hauser (ATLAS), 2024
+- Andrea Valenzuela Ramirez (CMS), 2024
