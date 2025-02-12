@@ -19,15 +19,18 @@ layout: plain
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) CompRes
 * Serguei Linev [S.Linev@gsi.de](mailto:S.Linev@gsi.de) GSI
 * Johan Mabille [johan.mabille@quantstack.net](mailto:johan.mabille@quantstack.net) QuantStack
+* Ruslan Mashinistov [mashinistov@bnl.gov](mailto:mashinistov@bnl.gov) BNL
 * Peter McKeown [peter.mckeown@cern.ch](mailto:peter.mckeown@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
 * Simon Spannagel [simon.spannagel@desy.de](mailto:simon.spannagel@desy.de) DESY
+* John De Stefano [jd@bnl.gov](mailto:jd@bnl.gov) BNL
 * Graeme Stewart [graeme.andrew.stewart@cern.ch](mailto:graeme.andrew.stewart@cern.ch) CERN
 * Maciej Szymański [maciej.szymanski@cern.ch](mailto:maciej.szymanski@cern.ch) ANL
 * Peter Van Gemmeren [peter.van.gemmeren@cern.ch](mailto:peter.van.gemmeren@cern.ch) ANL
 * Martin Vasilev [mvassilev@uni-plovdiv.bg](mailto:mvassilev@uni-plovdiv.bg) University of Plovdiv, BG
 * Vassil Vassilev [vvasilev@cern.ch](mailto:vvasilev@cern.ch) CompRes
+* Michel Hernandez Villanueva [mhernande1@bnl.gov](mailto:mhernande1@bnl.gov) BNL
 * Valentin Volkl [valentin.volkl@cern.ch](mailto:valentin.volkl@cern.ch) CERN
