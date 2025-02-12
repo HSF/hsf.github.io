@@ -23,9 +23,11 @@ layout: plain
 * Johan Mabille [johan.mabille@quantstack.net](mailto:johan.mabille@quantstack.net) QuantStack
 * Ruslan Mashinistov [mashinistov@bnl.gov](mailto:mashinistov@bnl.gov) BNL
 * Peter McKeown [peter.mckeown@cern.ch](mailto:peter.mckeown@cern.ch) CERN
+* Lorenzo Moneta [lorenzo.moneta@cern.ch](mailto:lorenzo.moneta@cern.ch) CERN
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
+* Sanjiban Sengupta [sanjiban.sengupta@cern.ch](mailto:sanjiban.sengupta@cern.ch) CERN/UofManchester
 * James Smith [james.smith-7@manchester.ac.uk](mailto:james.smith-7@manchester.ac.uk) UManchester
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
 * Simon Spannagel [simon.spannagel@desy.de](mailto:simon.spannagel@desy.de) DESY
