@@ -47,8 +47,8 @@ follow our mailing list on google groups [hsf-recotrigger](https://groups.google
 
 ## Former Conveners
 
-- Christina Agapopoulou (LHCb, CERN), 202X-2025
-- Claire Antel (ATLAS/FASER, Uni Geneva), 202X-2025
+- Christina Agapopoulou (LHCb, CERN), 2023-2024
+- Claire Antel (ATLAS/FASER, Uni Geneva), 2023-2024
 - Giulia Casarosa (Belle II, Universita di Pisa), 2022-2023
 - Andreas Salzburger (ATLAS, CERN), 2021-2022
 - Jin Huang (sPHENIX/EIC, BNL), 2021-2022
