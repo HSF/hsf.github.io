@@ -15,7 +15,6 @@ layout: plain
 * Mateusz Fila [mateusz.jakub.fila@cern.ch](mailto:mateusz.jakub.fila@cern.ch) CERN
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
 * Aaron Jomy [aaron.jomy@cern.ch](mailto:aaron.jomy@cern.ch) CERN/CompRes
-* Christina Koutsou [christinakoutsou22@gmail.com](mailto:@christinakoutsou22@gmail.com) CompRes
 * Stephan Lachnit [stephan.lachnit@desy.de](mailto:stephan.lachnit@desy.de) DESY
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) CompRes
 * Serguei Linev [S.Linev@gsi.de](mailto:S.Linev@gsi.de) GSI

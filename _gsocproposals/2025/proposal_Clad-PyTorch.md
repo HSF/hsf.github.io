@@ -34,7 +34,7 @@ This project aims to integrate Clad-generated functions into PyTorch using its C
 
 ## Mentors
 * **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
-* [Christina Koutsou](mailto:@christinakoutsou22@gmail.com)
+* [David Lange](mailto:david.lange@cern.ch)
 
 ## Links
 * [Repo](https://github.com/vgvassilev/clad)
