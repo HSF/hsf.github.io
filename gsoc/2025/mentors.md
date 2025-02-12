@@ -16,6 +16,7 @@ layout: plain
 * Mateusz Fila [mateusz.jakub.fila@cern.ch](mailto:mateusz.jakub.fila@cern.ch) CERN
 * Tobias Fitschen [tobias.fitschen@cern.ch](mailto:tobias.fitschen@cern.ch) UManchester
 * Chris Gutschow [chris.g@cern.ch](mailto:chris.g@cern.ch) UCLondon
+* Pratik Jawahar [pratik.jawahar@postgrad.manchester.ac.uk](mailto:pratik.jawahar@postgrad.manchester.ac.uk) UManchester
 * Aaron Jomy [aaron.jomy@cern.ch](mailto:aaron.jomy@cern.ch) CERN/CompRes
 * Stephan Lachnit [stephan.lachnit@desy.de](mailto:stephan.lachnit@desy.de) DESY
 * David Lange [david.lange@cern.ch](mailto:david.lange@cern.ch) CompRes
@@ -27,7 +28,8 @@ layout: plain
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
-* Sanjiban Sengupta [sanjiban.sengupta@cern.ch](mailto:sanjiban.sengupta@cern.ch) CERN/UofManchester
+* Sukanya Sinha [sukanya.sinha@manchester.ac.uk](mailto:sukanya.sinha@manchester.ac.uk) UManchester
+* Sanjiban Sengupta [sanjiban.sengupta@cern.ch](mailto:sanjiban.sengupta@cern.ch) CERN/UManchester
 * James Smith [james.smith-7@manchester.ac.uk](mailto:james.smith-7@manchester.ac.uk) UManchester
 * Mayank Sharma [mayank.sharma@cern.ch](mailto:mayank.sharma@cern.ch) UMich
 * Simon Spannagel [simon.spannagel@desy.de](mailto:simon.spannagel@desy.de) DESY
