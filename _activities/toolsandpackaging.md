@@ -63,7 +63,7 @@ Documentation for these *test drive* setups is in the group's
 The group is currently coordinated by:
 
 - Ruslan Mashinistov (BNL)
-- Juan Migel Carceller (CERN)
+- Juan Miguel Carceller (CERN)
 - Wouter Deconinck (University of Manitoba)
 
 All the coordinators can be reached [by email](mailto:wouter.deconinck@umanitoba.ca,mashinistov@bnl.gov,j.m.carcell@cern.ch). <!-- markdown-link-check-disable-line -->
