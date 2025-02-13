@@ -1,6 +1,9 @@
 {
   "ignorePatterns": [
     {
+      "pattern": "https://www.sciencedirect.com/science/article/abs/pii*"
+    },
+    {
       "pattern": "/assets/CWP-Charge-HSF.pdf"
     },
     {

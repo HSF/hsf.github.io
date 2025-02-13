@@ -62,14 +62,11 @@ Documentation for these *test drive* setups is in the group's
 
 The group is currently coordinated by:
 
+- Ruslan Mashinistov (BNL)
+- Juan Miguel Carceller (CERN)
+- Wouter Deconinck (University of Manitoba)
 
-- Patrick Gartung (Fermilab)
-- Nathan Brei (Jefferson Lab)
-- Reiner Hauser (ATLAS)
-- Andrea Valenzuela Ramirez (CMS)
-
-
-All the coordinators can be reached [by email](mailto:gartung@fnal.gov,nbrei@jlab.org,reiner.hauser@cern.ch,andrea.valenzuela.ramirez@cern.ch). <!-- markdown-link-check-disable-line -->
+All the coordinators can be reached [by email](mailto:wouter.deconinck@umanitoba.ca,mashinistov@bnl.gov,j.m.carcell@cern.ch). <!-- markdown-link-check-disable-line -->
 
 ### Activities
 
@@ -89,3 +86,7 @@ All the coordinators can be reached [by email](mailto:gartung@fnal.gov,nbrei@jla
 - Marc Paterno (DUNE and Fermilab), 2021-2022
 - Valentin Volkl (FCC and CERN), 2023
 - Henry Schreiner (IRIS-HEP / Princeton), 2023
+- Patrick Gartung (Fermilab), 2023-2024
+- Nathan Brei (Jefferson Lab), 2024
+- Reiner Hauser (ATLAS), 2024
+- Andrea Valenzuela Ramirez (CMS), 2024
