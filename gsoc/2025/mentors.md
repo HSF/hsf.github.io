@@ -28,6 +28,8 @@ layout: plain
 * Felice Pantaleo [felice.pantaleo@cern.ch](mailto:felice.pantaleo@cern.ch) CERN
 * Giacomo Parolini [giacomo.parolini@cern.ch](mailto:giacomo.parolini@cern.ch) CERN
 * Alexander Penev [alexander.p.penev@gmail.com](mailto:alexander.p.penev@gmail.com) CompRes/University of Plovdiv, BG
+* Fons Rademakers [Fons.Rademakers@cern.ch](mailto:Fons.Rademakers@cern.ch) CERN
+* Jonas Rembser[jonas.rembser@cern.ch](mailto:jonas.rembser@cern.ch) CERN
 * Sukanya Sinha [sukanya.sinha@manchester.ac.uk](mailto:sukanya.sinha@manchester.ac.uk) UManchester
 * Sanjiban Sengupta [sanjiban.sengupta@cern.ch](mailto:sanjiban.sengupta@cern.ch) CERN/UManchester
 * James Smith [james.smith-7@manchester.ac.uk](mailto:james.smith-7@manchester.ac.uk) UManchester
