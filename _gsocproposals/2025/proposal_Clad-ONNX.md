@@ -8,6 +8,11 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - name: "Vassil Vassilev"
+    email: "vvasilev@cern.ch"
+  - name: "David Lange"
+    email: "david.lange@cern.ch"
 ---
 
 ## Description
@@ -34,10 +39,6 @@ This project aims to integrate Clad, an automatic differentiation (AD) plugin fo
 * Parallel programming
 * Reasonable expertise in C++ programming
 * Basic knowledge of Clang is preferred but not mandatory
-
-## Mentors
-* **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
-* [David Lange](mailto:david.lange@cern.ch)
 
 ## Links
 * [Repo](https://github.com/vgvassilev/clad)

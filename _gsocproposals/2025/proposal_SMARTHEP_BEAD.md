@@ -9,6 +9,17 @@ organization:
 difficulty: medium
 duration: 350
 mentor_avail: June-August 
+project_mentors:
+  - name: "Pratik Jawahar"
+    email: "pratik.jawahar@cern.ch"
+    organization: "CERN"
+  - name: "Sukanya Sinha"
+    email: "sukanya.sinha@cern.ch"
+    organization: "CERN"
+  - name: "Caterina Doglioni"
+    email: "caterina.doglioni@cern.ch"
+    organization: "CERN"
+    role: "Backup Mentor"
 ---
 ​
 ## Short description of the project
@@ -83,11 +94,6 @@ An improved performance of selected models, with documentation and figures of me
 
    * Desired skills: transformers and/or graph neural networks, particle physics theory and experiments, particle physics simulations
 
-
-## Mentors
-  * ***[Pratik Jawahar](mailto:pratik.jawahar@cern.ch)***
-  * ***[Sukanya Sinha](mailto:sukanya.sinha@cern.ch)***
-  * [Caterina Doglioni](mailto:caterina.doglioni@cern.ch) as backup mentor
 
 ## Links
   * [Paper on unsupervised ML algorithms using HEP datasets](<https://arxiv.org/abs/2105.14027>)

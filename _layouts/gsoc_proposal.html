@@ -8,6 +8,21 @@ layout: default
 
   {{ content }}
 
+<h2>Mentors</h2>
+  {% if page.project_mentors %}
+    <ul>
+      {% for mentor in page.project_mentors %}
+      <li>
+        <strong><a href="mailto:{{ mentor.email }}">{{ mentor.name }}</a></strong> - 
+      {% if mentor.role %}{{ mentor.role }} - {% endif %}{{ mentor.organization }}
+      </li>
+      {% endfor %}
+
+    </ul>
+{% else %}
+    <p>No mentors listed.</p>
+{% endif %}
+
 {% if page.year >= 2022 %}
 <h2>Additional Information</h2>
   <ul>

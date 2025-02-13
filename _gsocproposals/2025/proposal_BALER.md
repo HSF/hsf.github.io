@@ -10,6 +10,13 @@ organization:
 difficulty: medium
 duration: 350
 mentor_avail: June-August 
+project_mentors:
+  - name: "James Smith"
+    email: "james.smith-7@manchester.ac.uk"
+  - name: "Caterina Doglioni"
+    email: "caterina.doglioni@cern.ch"
+  - name: "Leonid Didukh"
+    email: "ledidukh@gmail.com"
 ---
 ​
 ## Short description of the project
@@ -46,12 +53,6 @@ An improved compression performance with documentation and figures of merit that
 The candidate should have experience with the python language and a Linux environment, familiarity with AI fundamentals, and familiarity with PyTorch.
 
 Desirable skills include familiarity with AI fundamentals including transformers and/or graph neural networks, particle physics theory and experiments, PyTorch, FPGA programming and/or simulation.
-
-
-## Mentors
-   * ***[James Smith](mailto:james.smith-7@manchester.ac.uk)***
-   * [Caterina Doglioni](mailto:caterina.doglioni@cern.ch) as backup mentor
-   * [Leonid Didukh](mailto:ledidukh@gmail.com)
 
 ## Links
 

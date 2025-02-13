@@ -8,6 +8,13 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - name: "Vipul Cariappa"
+    email: "vipulcariappa@gmail.com"
+    organization: "CompRes"
+  - name: "Martin Vasilev"
+    email: "mvassilev@uni-plovdiv.bg"
+    organization: "University of Plovdiv"
 ---
 
 ## Description
@@ -30,10 +37,6 @@ This project aims to implement intelligent stepping (debugging) and tab completi
 
 * Python & C/C++ programming
 * Familiarity debugging with GDB/LLDB
-
-## Mentors
-* **[Vipul Cariappa](mailto:vipulcariappa@gmail.com)**
-* [Martin Vasilev](mailto:mvassilev@uni-plovdiv.bg)
 
 ## Links
 * [IDD Repository](https://github.com/compiler-research/idd)

@@ -8,6 +8,16 @@ duration: 350
 mentor_avail: June-October
 organization:
   - BNL
+project_mentors:
+  - name: "Ruslan Mashinistov"
+    email: "mashinistov@bnl.gov"
+    organization: "BNL"
+  - name: "John S. De Stefano Jr."
+    email: "jd@bnl.gov"
+    organization: "BNL"
+  - name: "Michel Hernandez Villanueva"
+    email: "mhernande1@bnl.gov"
+    organization: "BNL"
 ---
 
 ## Description
@@ -44,13 +54,6 @@ adjustment of parameters during periods of increased request rates.
 * Kubernetes, basic understanding, k8s, Helm, Operators, OpenShift
 * Django and Nginx, basic understanding of web frameworks and logging
 * Database knowledge, PostgreSQL, database replication
-
-
-## Mentors
-
-- **Ruslan Mashinistov [mashinistov@bnl.gov](mailto:mashinistov@bnl.gov) BNL** 
-- John S. De Stefano Jr. [jd@bnl.gov](mailto:jd@bnl.gov) BNL
-- Michel Hernandez Villanueva [mhernande1@bnl.gov](mailto:mhernande1@bnl.gov) BNL
 
 
 ## Links

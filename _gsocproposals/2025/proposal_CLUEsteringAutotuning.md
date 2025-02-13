@@ -7,6 +7,13 @@ organization: CERN
 difficulty: medium
 duration: 350
 mentor_avail: June-October
+project_mentors:
+  - name: "Simone Balducci"
+    email: "simone.balducci@cern.ch"
+    organization: "CERN UNIBO"
+  - name: "Felice Pantaleo"
+    email: "felice.pantaleo@cern.ch"
+    organization: "CERN"
 ---
 
 ## Description
@@ -45,10 +52,6 @@ Interested students please contact simone.balducci@cern.ch
 * Experience with machine learning and optimization techniques
 * Experience with development of Python libraries
 
-
-## Mentors
-  * **[Simone Balducci](mailto:simone.balducci@cern.ch) (CERN UNIBO)**
-  * [Felice Pantaleo](mailto:felice.pantaleo@cern.ch) (CERN)
 
 ## Links
   * [CLUE][clue]

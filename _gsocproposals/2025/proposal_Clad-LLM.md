@@ -9,6 +9,11 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - name: "Vassil Vassilev"
+    email: "vvasilev@cern.ch"
+  - name: "David Lange"
+    email: "david.lange@cern.ch"
 ---
 
 ## Description
@@ -36,9 +41,6 @@ Beyond performance improvements, integrating Clad with LLM training in C++ opens
 * Reasonable expertise in C++ programming
 * Background in LLM  is preferred but not required
 
-## Mentors
-* **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
-* [David Lange](mailto:david.lange@cern.ch)
 
 ## Links
 * [Repo](https://github.com/vgvassilev/clad)

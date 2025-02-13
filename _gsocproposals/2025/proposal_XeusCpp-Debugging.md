@@ -8,6 +8,19 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - name: "Anutosh Bhat"
+    email: "anutosh.bhat@quantstack.net"
+    organization: "QuantStack"
+  - name: "Johan Mabille"
+    email: "johan.mabille@quantstack.net"
+    organization: "QuantStack"
+  - name: "Vipul Cariappa"
+    email: "vipulcariappa@gmail.com"
+    organization: "CompRes"
+  - name: "Aaron Jomy"
+    email: "aaron.jomy@cern.ch"
+    organization: "CERN"
 ---
 
 ## Description
@@ -24,19 +37,12 @@ However, debugging C++ inside an interactive environment presents unique challen
 * Implement a testing framework through `xeus-zmq` to thoroughly test the debugger. This can be inspired by an existing implementation in `xeus-python`. 
 * Present the work at the relevant meetings and conferences.
 
-
 ## Requirements
 
 * C/C++
 * Basic understanding of the Debug Adapter Protocol
 * Basic understanding of the stack used by xeus-cpp: xeus, cppinterop, clang-repl
 * Research on different DAP implementations like lldb_dap and debuggers like lldb/gdb that can be utilized for the project.
-
-## Mentors
-* **[Anutosh Bhat](mailto:anutosh.bhat@quantstack.net)**
-* [Johan Mabille](mailto:johan.mabille@quantstack.net)
-* [Vipul Cariappa](mailto:vipulcariappa@gmail.com)
-* [Aaron Jomy](mailto:aaron.jomy@cern.ch)
 
 ## Links
 * [Repo](https://github.com/compiler-research/xeus-cpp)

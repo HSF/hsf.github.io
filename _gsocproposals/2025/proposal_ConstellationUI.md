@@ -7,6 +7,13 @@ organization: DESY
 difficulty: medium
 duration: 350
 mentor_avail: June-August
+project_mentors:
+  - name: "Stephan Lachnit"
+    email: "stephan.lachnit@desy.de"
+    organization: "DESY"
+  - name: "Simon Spannagel"
+    email: "simon.spannagel@desy.de"
+    organization: "DESY"
 ---
 
 ## Description
@@ -32,10 +39,6 @@ user interfaces to Constellation and extend the current ones.
 * Knowledge of Qt is helpful but not required
 * Practical experience with Unix and git
 
-## Mentors
-
-* [Stephan Lachnit](mailto:stephan.lachnit@desy.de) (DESY)
-* [Simon Spannagel](mailto:simon.spannagel@desy.de) (DESY)
 
 ## Links
 

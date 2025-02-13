@@ -8,6 +8,11 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - name: "Vassil Vassilev"
+    email: "vvasilev@cern.ch"
+  - name: "David Lange"
+    email: "david.lange@cern.ch"
 ---
 
 ## Description
@@ -30,10 +35,6 @@ This project aims to develop infrastructure in Clad to support the differentiati
 * Automatic differentiation
 * C++ programming
 * Parallel Programming
-
-## Mentors
-* **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
-* [David Lange](mailto:david.lange@cern.ch)
 
 ## Links
 * [Repo](https://github.com/vgvassilev/clad)
