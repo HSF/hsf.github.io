@@ -26,7 +26,7 @@ N.B. The text grew a bit as well (MCnet gave some strong inputs for the MCEG sec
 - See below for some detailed feedback on the Software Trigger and Reconstruction section
 - Adding more on non-CERN based projects would be welcome (DUNE, Belle II, ...)
 
-### SHAREIng Proposal
+### SHAREing Proposal
 
 The endorsement of the SHAREing proposal was approved and they got a letter from us.
 
@@ -34,7 +34,7 @@ The endorsement of the SHAREing proposal was approved and they got a letter from
 
 Taking place on 5-9 May at IJClab, Orsay, Paris. A preliminary agenda has been agreed with the WLCG organisation team, we will be making a call for abstracts on "Software Sustainability, Community Software and Training" when the workshop will be announced very soon (hopefully later this week).
 
-Indico event is <https://indico.cern.ch/e/wlcg-hsf-2025/>.
+Indico event is <https://indico.cern.ch/event/1484669/>.
 
 - Main items of timetable have been added, will be public soon, when the announcement is out at the latest
 - Early bird registration will be €350, closing early April
@@ -195,7 +195,7 @@ Joe sent a reminder to speakers, prepared agenda and sent announcement to Trig&R
 
 #### New convener meetup
 
-Old and new conveners in contact, meeting already planned, with SG liasons.
+Old and new conveners in contact, meeting already planned, with SG liaisons.
 
 A warm welcome again to Christian, Inês and Maarten!
 
@@ -250,7 +250,7 @@ Input from the HEP community is particularly encouraged: <https://events.linuxfo
 
 ### EVERSE Network Launch Meeting
 
-The [EVERSE project](https:://everse.software) is setting up a network of those interested in improving the quality of research software. The online [Launch Event](https://indico.cern.ch/e/eversenetworklaunch) will happen Tuesday 18 February at 10h CET - all welcome to sign up.
+The [EVERSE project](https://everse.software) is setting up a network of those interested in improving the quality of research software. The online [Launch Event](https://indico.cern.ch/e/eversenetworklaunch) will happen Tuesday 18 February at 10h CET - all welcome to sign up.
 
 ### Next Meeting
 
