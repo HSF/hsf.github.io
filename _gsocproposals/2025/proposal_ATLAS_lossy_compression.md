@@ -9,6 +9,12 @@ organization:
 difficulty: medium
 duration: 350
 mentor_avail: July-September
+project_mentors:
+  - name: "Maciej Szymański"
+    email: "maciej.szymanski@cern.ch"
+  - name: "Peter Van Gemmeren"
+    email: "peter.van.gemmeren@cern.ch"
+
 ---
 
 ## Description
@@ -29,11 +35,6 @@ mentor_avail: July-September
 ## Requirements
 
  * C++, Python, Machine Learning
-
-## Mentors
-
-  * **[Maciej Szymański](mailto:maciej.szymanski@cern.ch)**
-  * [Peter Van Gemmeren](mailto:peter.van.gemmeren@cern.ch)
 
 ## Links
 

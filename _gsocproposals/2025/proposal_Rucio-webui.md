@@ -8,6 +8,13 @@ duration: 350
 mentor_avail: June-November
 organization:
     - CERN
+project_mentors:
+  - name: "Mayank Sharma"
+    email: "mayank.sharma@cern.ch"
+    organization: "University of Michigan, Ann Arbor"
+  - name: "Martin Barisits"
+    email: "martin.barisits@cern.ch"
+    organization: "CERN"
 ---
 
 ## Description
@@ -69,11 +76,6 @@ By the end of GSoC 2025, we expect to have a revamped Rucio WebUI that:
 - Employs NextAuth for streamlined authentication processes.
 - Implements a robust RBAC system.
 - Adopts a monorepo structure for improved code organization and component sharing.
-
-## Mentors
-
-- **[Mayank Sharma](mailto:mayank.sharma@cern.ch)** (University of Michigan, Ann Arbor)
-- [Martin Barisits](mailto:martin.barisits@cern.ch) (CERN)
 
 ## Links
 

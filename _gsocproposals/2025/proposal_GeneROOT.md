@@ -9,6 +9,16 @@ mentor_avail: June-November
 organization: 
   - CERN
   - CompRes
+project_mentors:
+  - name: "Martin Vasilev"
+    email: "mvassilev@uni-plovdiv.bg"
+    organization: "Uni Plovdiv"
+  - name: "Jonas Rembser"
+    email: "Jonas.Rembser@cern.ch"
+    organization: "CERN"
+  - name: "Fons Rademakers"
+    email: "Fons.Rademakers@cern.ch"
+    organization: "CERN"
 ---
 
 ## Description
@@ -41,13 +51,6 @@ requirements of the field.
 * C++ and Python programming
 * Familiarity with Git
 * Knowledge of ROOT and/or the BAM file formats is a plus.
-
-
-## Mentors
-* [Martin Vasilev](mailto:mvassilev@uni-plovdiv.bg)
-* [Jonas Rembser](mailto:Jonas.Rembser@cern.ch)
-* [Fons Rademakers](mailto:Fons.Rademakers@cern.ch)
-
 
 ## Links
 * [Latest Presentation on GeneROOT](https://indico.cern.ch/event/655464/)

@@ -8,6 +8,11 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - name: "Vassil Vassilev"
+    email: "vvasilev@cern.ch"
+  - name: "David Lange"
+    email: "david.lange@cern.ch"
 ---
 
 ## Description
@@ -34,10 +39,6 @@ This project aims to improve the efficiency of the clad tape and generalize it i
 * Automatic differentiation
 * C++ programming
 * Clang frontend
-
-## Mentors
-* **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
-* [David Lange](mailto:david.lange@cern.ch)
 
 ## Links
 * [Repo](https://github.com/vgvassilev/clad)

@@ -9,6 +9,11 @@ mentor_avail: June-October
 organization: 
   - CERN
   - CompRes
+project_mentors:
+  - name: "Vassil Vassilev"
+    email: "vvasilev@cern.ch"
+  - name: "Lukas Breitwieser"
+    email: "lukas.johannes.breitwieser@cern.ch"
 ---
 
 ## Description
@@ -40,10 +45,6 @@ The final deliverable will be a fully documented, reproducible BioDynaMo simulat
 * Agent-based modeling (understanding immune dynamics)
 * Basic immunology & cancer biology (optional but helpful)
 * Data visualization (Python, Matplotlib, Seaborn)
-
-## Mentors
-* [Vassil Vassilev](mailto:vvasilev@cern.ch)
-* [Lukas Breitwieser](mailto:lukas.johannes.breitwieser@cern.ch)
 
 ## Links
 * [Mapping CAR T-Cell Design Space Using Agent-Based Models](https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2022.849363/full)

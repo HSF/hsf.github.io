@@ -8,6 +8,11 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - name: "Vassil Vassilev"
+    email: "vvasilev@cern.ch"
+  - name: "David Lange"
+    email: "david.lange@cern.ch"
 ---
 
 ## Description
@@ -119,9 +124,6 @@ int main() {
 * Parallel programming
 * Reasonable expertise in C++ programming
 
-## Mentors
-* **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
-* [David Lange](mailto:david.lange@cern.ch)
 
 ## Links
 * [Repo](https://github.com/vgvassilev/clad)

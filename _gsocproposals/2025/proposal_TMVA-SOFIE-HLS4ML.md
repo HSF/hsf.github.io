@@ -7,6 +7,13 @@ organization: CERN
 difficulty: medium
 duration: 350
 mentor_avail: Flexible
+project_mentors:
+  - name: "Lorenzo Moneta"
+    email: "lorenzo.moneta@cern.ch"
+    organization: "CERN"
+  - name: "Sanjiban Sengupta"
+    email: "sanjiban.sengupta@cern.ch"
+    organization: "CERN"
 ---
 
 # Description
@@ -28,10 +35,6 @@ In this project, the contributor will gain experience with C++ and Python progra
   * Proficiency in C++ and Python.
   * Knowledge of hls4ml
   * Familiarity with version control systems like Git/GitHub.
-
-## Mentors
-  * **[Lorenzo Moneta](mailto:lorenzo.moneta@cern.ch)**
-  * [Sanjiban Sengupta](mailto:sanjiban.sengupta@cern.ch)
 
 ## Links
   * [ROOT Project homepage](https://root.cern/)

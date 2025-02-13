@@ -8,6 +8,13 @@ organization:
 difficulty: medium
 duration: 175
 mentor_avail: June-July- August
+project_mentors:
+  - name: "Graeme Stewart"
+    email: "graeme.andrew.stewart@cern.ch"
+    organization: "CERN"
+  - name: "Mateusz Fila"
+    email: "mateusz.jakub.fila@cern.ch"
+    organization: "CERN"
 ---
 
 ## Description
@@ -49,11 +56,6 @@ A key outcome would be a set of unit tests and examples, based on the HepMC3 one
 ## Evaluation Exercise
 
 TBD
-
-## Mentors
-
-- **[Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch)**
-- [Mateusz Fila](mailto:mateusz.jakub.fila@cern.ch)
 
 ## Links
 

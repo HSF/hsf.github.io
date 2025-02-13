@@ -8,6 +8,13 @@ organization:
 difficulty: medium
 duration: 175
 mentor_avail: June-October
+project_mentors:
+  - name: "Andy Buckley"
+    email: "andy.buckley@cern.ch"
+    organization: "CERN"
+  - name: "Chris Gutschow"
+    email: "chris.g@cern.ch"
+    organization: "CERN"
 ---
 
 # Description
@@ -45,11 +52,6 @@ engaging exercises with hypothetical new-physics models.
  * Binder
  * Gitlab CI
  * git
-
-## Mentors
-
- * **[Andy Buckley](mailto:andy.buckley@cern.ch)**
- * [Chris Gutschow](mailto:chris.g@cern.ch)
 
 ## Links
 
