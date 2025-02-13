@@ -28,14 +28,16 @@ well-defined set of problems.
 
 ## Conveners 
 
+- Matthew Feickert, ATLAS and University of Wisconsin-Madison Data Science Institute
 - Jamie Gooding, LHCb and Technische Universität Dortmund
-- Alexander Held, ATLAS and University of Wisconsin–Madison
+- Luke Kreczko, CMS/LZ and University of Bristol
 - Nick Smith, CMS and Fermilab
 
-Contact the [convenors by email](mailto:jamie.gooding@cern.ch,alexander.held@cern.ch,nick.smith@cern.ch) <!-- markdown-link-check-disable-line -->
+Contact the [convenors by email](mailto:matthew.feickert@cern.ch,jamie.gooding@cern.ch,kreczko@cern.ch,nick.smith@cern.ch) <!-- markdown-link-check-disable-line -->
 
 ### Former Convenors
 
+- Alexander Held (ATLAS), 2023-2025
 - Nicole Skidmore (LHCb), 2021-2024
 - Danilo Piparo (ROOT), 2019
 - Andrea Rizzi (CMS), 2019-2020
