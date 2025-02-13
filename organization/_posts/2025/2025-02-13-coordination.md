@@ -52,7 +52,7 @@ The HSF organisation team is Michel, Nicole, Eduardo, Paul.
 - 19 February: C&AF - Verrou, floating point stability check - video has been uploaded
 - 26 February: HSF Seminar - 4D reconstruction
 - 26 March: HSF Seminar - Technical debt on scientific SW (with a focus on some HEP frameworks)
-    - Originally EPPSU seminar is postponed!
+    - Original EPPSU seminar is postponed!
     - We could have this later in the year, even after the Venice Symposium
 
 An email list is now available to join the seminar organisers: hsf-seminar-conveners@gmail.com
