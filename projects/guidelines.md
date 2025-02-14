@@ -53,7 +53,7 @@ The Julia [language documentation](https://docs.julialang.org/) contains a Style
 
 ### Python specific guidelines
 
-The organisation [Scientific Python](https://scientific-python.org/) provides a rather comprehensiVE [Development Guide](https://learn.scientific-python.org/development/)
+The organisation [Scientific Python](https://scientific-python.org/) provides a rather comprehensive [Development Guide](https://learn.scientific-python.org/development/)
 with a set of [Topical Guides](https://learn.scientific-python.org/development/guides/)
 for the development and maintenance of Python libraries, which the HSF strongly encourages.
 These guides provide a "cookiecutter" template for the setup of a new package,
