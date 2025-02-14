@@ -37,8 +37,8 @@ Contact the [convenors by email](mailto:matthew.feickert@cern.ch,jamie.gooding@c
 
 ### Former Convenors
 
-- Alexander Held (ATLAS), 2023-2025
-- Nicole Skidmore (LHCb), 2021-2024
+- Alexander Held (ATLAS), 2023-2024
+- Nicole Skidmore (LHCb), 2021-2023
 - Danilo Piparo (ROOT), 2019
 - Andrea Rizzi (CMS), 2019-2020
 - Paul Laycock (Belle II), 2019-2020
