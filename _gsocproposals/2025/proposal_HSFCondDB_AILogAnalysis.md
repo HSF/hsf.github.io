@@ -55,5 +55,5 @@ adjustment of parameters during periods of increased request rates.
 
 ## Links
 
-* Django REST API: https://github.com/BNLNPPS/nopayloaddb 
-* Automized deployment with helm-chart: https://github.com/BNLNPPS/nopayloaddb-charts
+* Django REST API: <https://github.com/BNLNPPS/nopayloaddb> 
+* Automized deployment with helm-chart: <https://github.com/BNLNPPS/nopayloaddb-charts>

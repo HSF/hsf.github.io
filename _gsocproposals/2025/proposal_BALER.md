@@ -1,7 +1,7 @@
 ---
 title: The rise of the machine (learning) in data compression for high energy physics and beyond
 layout: gsoc_proposal
-project: BALER
+project: baler
 year: 2025
 organization:
   - baler
