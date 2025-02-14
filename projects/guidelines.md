@@ -147,7 +147,7 @@ All the criteria for Bronze MUST be fulfilled, with the addition of the followin
 
 #### Sustainability
 
-* The project MUST be maintained and produce at least one new release a year if are changes and fixes that have been accumulated..
+* The project MUST be maintained and produce at least one new release a year if there are changes and fixes that have been accumulated.
 * The project MUST have at least one long-term maintainer with a future commitment to the software of at least 2 years.
 * The project MUST use an issue tracker for tracking individual issues.
 * The project MUST acknowledge a majority of bug reports submitted in the last 1-3 months (inclusive); the response need not include a fix.
@@ -169,7 +169,7 @@ All the criteria for Silver MUST be fulfilled, with the addition of the followin
 
 #### Sustainability
 
-* The project MUST be actively maintained and produce at least one new release a year if there are changes, and as needed patch releases to include fixes that have been accumulated.
+* The project MUST be actively maintained and produce at least one new release a year if there are changes, and produce patch releases as relevant to include fixes that have been accumulated.
 * The project MUST have at least 3 long-term maintainers with a future commitment to the software of at least 2 years.
 * The project MUST acknowledge a majority of bug reports submitted in the last 1-4 weeks (inclusive); the response need not include a fix.
 * The project MUST respond to a majority (>50%) of enhancement requests in the last 1-4 weeks (inclusive).
