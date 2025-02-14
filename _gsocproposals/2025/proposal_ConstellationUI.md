@@ -8,12 +8,14 @@ difficulty: medium
 duration: 350
 mentor_avail: June-August
 project_mentors:
-  - name: "Stephan Lachnit"
-    email: "stephan.lachnit@desy.de"
-    organization: "DESY"
-  - name: "Simon Spannagel"
-    email: "simon.spannagel@desy.de"
-    organization: "DESY"
+  - email: stephan.lachnit@desy.de
+    organization: DESY
+    first_name: Stephan
+    last_name: Lachnit
+  - email: simon.spannagel@desy.de
+    organization: DESY
+    first_name: Simon
+    last_name: Spannagel
 ---
 
 ## Description

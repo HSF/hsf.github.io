@@ -9,14 +9,17 @@ organization:
   - CERN
 difficulty: medium
 duration: 350
-mentor_avail: June-August 
+mentor_avail: June-August
 project_mentors:
-  - name: "James Smith"
-    email: "james.smith-7@manchester.ac.uk"
-  - name: "Caterina Doglioni"
-    email: "caterina.doglioni@cern.ch"
-  - name: "Leonid Didukh"
-    email: "ledidukh@gmail.com"
+  - email: james.smith-7@manchester.ac.uk
+    first_name: James
+    last_name: Smith
+  - email: caterina.doglioni@cern.ch
+    first_name: Caterina
+    last_name: Doglioni
+  - email: ledidukh@gmail.com
+    first_name: Leonid
+    last_name: Didukh
 ---
 ​
 ## Short description of the project

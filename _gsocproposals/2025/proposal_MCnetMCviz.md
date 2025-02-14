@@ -9,12 +9,14 @@ difficulty: medium
 duration: 350
 mentor_avail: June-October
 project_mentors:
-  - name: "Andy Buckley"
-    email: "andy.buckley@cern.ch"
-    organization: "CERN"
-  - name: "Chris Gutschow"
-    email: "chris.g@cern.ch"
-    organization: "CERN"
+  - email: andy.buckley@cern.ch
+    organization: CERN
+    first_name: Andy
+    last_name: Buckley
+  - email: chris.g@cern.ch
+    organization: CERN
+    first_name: Chris
+    last_name: Gutschow
 ---
 
 # Description

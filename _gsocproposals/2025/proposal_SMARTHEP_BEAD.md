@@ -8,18 +8,21 @@ organization:
   - UManchester
 difficulty: medium
 duration: 350
-mentor_avail: June-August 
+mentor_avail: June-August
 project_mentors:
-  - name: "Pratik Jawahar"
-    email: "pratik.jawahar@cern.ch"
-    organization: "CERN"
-  - name: "Sukanya Sinha"
-    email: "sukanya.sinha@cern.ch"
-    organization: "CERN"
-  - name: "Caterina Doglioni"
-    email: "caterina.doglioni@cern.ch"
-    organization: "CERN"
-    role: "Backup Mentor"
+  - email: pratik.jawahar@cern.ch
+    organization: CERN
+    first_name: Pratik
+    last_name: Jawahar
+  - email: sukanya.sinha@cern.ch
+    organization: CERN
+    first_name: Sukanya
+    last_name: Sinha
+  - email: caterina.doglioni@cern.ch
+    organization: CERN
+    role: Backup Mentor
+    first_name: Caterina
+    last_name: Doglioni
 ---
 ​
 ## Short description of the project

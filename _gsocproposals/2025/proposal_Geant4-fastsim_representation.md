@@ -9,15 +9,18 @@ mentor_avail: June-October
 organization:
   - CERN
 project_mentors:
-  - name: "Peter McKeown"
-    email: "peter.mckeown@cern.ch"
-    organization: "CERN"
-  - name: "Piyush Raikwar"
-    email: "piyush.raikwar@cern.ch"
-    organization: "CERN"
-  - name: "Anna Zaborowska"
-    email: "anna.zaborowska@cern.ch"
-    organization: "CERN"
+  - email: peter.mckeown@cern.ch
+    organization: CERN
+    first_name: Peter
+    last_name: McKeown
+  - email: piyush.raikwar@cern.ch
+    organization: CERN
+    first_name: Piyush
+    last_name: Raikwar
+  - email: anna.zaborowska@cern.ch
+    organization: CERN
+    first_name: Anna
+    last_name: Zaborowska
 ---
 
 ## Description

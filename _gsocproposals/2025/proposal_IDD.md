@@ -9,12 +9,14 @@ mentor_avail: June-October
 organization:
   - CompRes
 project_mentors:
-  - name: "Vipul Cariappa"
-    email: "vipulcariappa@gmail.com"
-    organization: "CompRes"
-  - name: "Martin Vasilev"
-    email: "mvassilev@uni-plovdiv.bg"
-    organization: "University of Plovdiv"
+  - email: vipulcariappa@gmail.com
+    organization: CompRes
+    first_name: Vipul
+    last_name: Cariappa
+  - email: mvassilev@uni-plovdiv.bg
+    organization: University of Plovdiv
+    first_name: Martin
+    last_name: Vasilev
 ---
 
 ## Description

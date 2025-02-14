@@ -3,18 +3,19 @@ title: Precision Recovery in Lossy-Compressed Floating Point Data for High Energ
 layout: gsoc_proposal
 project: ATLAS
 year: 2025
-organization: 
- - ANL
- - CERN
+organization:
+  - ANL
+  - CERN
 difficulty: medium
 duration: 350
 mentor_avail: July-September
 project_mentors:
-  - name: "Maciej Szymański"
-    email: "maciej.szymanski@cern.ch"
-  - name: "Peter Van Gemmeren"
-    email: "peter.van.gemmeren@cern.ch"
-
+  - email: maciej.szymanski@cern.ch
+    first_name: Maciej
+    last_name: Szymański
+  - email: peter.van.gemmeren@cern.ch
+    first_name: Peter
+    last_name: Van Gemmeren
 ---
 
 ## Description

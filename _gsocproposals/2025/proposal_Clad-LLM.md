@@ -1,6 +1,5 @@
 ---
 title: Enhancing LLM Training with Clad for efficient differentiation
-
 layout: gsoc_proposal
 project: Clad
 year: 2025
@@ -10,10 +9,12 @@ mentor_avail: June-October
 organization:
   - CompRes
 project_mentors:
-  - name: "Vassil Vassilev"
-    email: "vvasilev@cern.ch"
-  - name: "David Lange"
-    email: "david.lange@cern.ch"
+  - email: vvasilev@cern.ch
+    first_name: Vassil
+    last_name: Vassilev
+  - email: david.lange@cern.ch
+    first_name: David
+    last_name: Lange
 ---
 
 ## Description

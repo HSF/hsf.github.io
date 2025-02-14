@@ -8,12 +8,14 @@ difficulty: medium
 duration: 350
 mentor_avail: June-October
 project_mentors:
-  - name: "Serguei Linev"
-    email: "S.Linev@gsi.de"
-    organization: "CERN"
-  - name: "Giacomo Parolini"
-    email: "giacomo.parolini@cern.ch"
-    organization: "CERN"
+  - email: S.Linev@gsi.de
+    organization: CERN
+    first_name: Serguei
+    last_name: Linev
+  - email: giacomo.parolini@cern.ch
+    organization: CERN
+    first_name: Giacomo
+    last_name: Parolini
 ---
 
 # Description

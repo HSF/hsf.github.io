@@ -7,14 +7,16 @@ difficulty: medium
 duration: 350
 mentor_avail: June-November
 organization:
-    - CERN
+  - CERN
 project_mentors:
-  - name: "Mayank Sharma"
-    email: "mayank.sharma@cern.ch"
-    organization: "University of Michigan, Ann Arbor"
-  - name: "Martin Barisits"
-    email: "martin.barisits@cern.ch"
-    organization: "CERN"
+  - email: mayank.sharma@cern.ch
+    organization: University of Michigan, Ann Arbor
+    first_name: Mayank
+    last_name: Sharma
+  - email: martin.barisits@cern.ch
+    organization: CERN
+    first_name: Martin
+    last_name: Barisits
 ---
 
 ## Description

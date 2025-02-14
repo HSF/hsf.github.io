@@ -9,18 +9,22 @@ mentor_avail: June-October
 organization:
   - CompRes
 project_mentors:
-  - name: "Anutosh Bhat"
-    email: "anutosh.bhat@quantstack.net"
-    organization: "QuantStack"
-  - name: "Johan Mabille"
-    email: "johan.mabille@quantstack.net"
-    organization: "QuantStack"
-  - name: "Vipul Cariappa"
-    email: "vipulcariappa@gmail.com"
-    organization: "CompRes"
-  - name: "Aaron Jomy"
-    email: "aaron.jomy@cern.ch"
-    organization: "CERN"
+  - email: anutosh.bhat@quantstack.net
+    organization: QuantStack
+    first_name: Anutosh
+    last_name: Bhat
+  - email: johan.mabille@quantstack.net
+    organization: QuantStack
+    first_name: Johan
+    last_name: Mabille
+  - email: vipulcariappa@gmail.com
+    organization: CompRes
+    first_name: Vipul
+    last_name: Cariappa
+  - email: aaron.jomy@cern.ch
+    organization: CERN
+    first_name: Aaron
+    last_name: Jomy
 ---
 
 ## Description

@@ -1,5 +1,5 @@
 ---
-title: Implement CppInterOp API exposing memory, ownership and thread safety information 
+title: Implement CppInterOp API exposing memory, ownership and thread safety information
 layout: gsoc_proposal
 project: CppInterOp
 year: 2025
@@ -9,12 +9,14 @@ mentor_avail: June-October
 organization:
   - CompRes
 project_mentors:
-  - name: "Aaron Jomy"
-    email: "aaron.jomy@cern.ch"
-    organization: "CompRes"
-  - name: "Vassil Vassilev"
-    email: "vvasilev@cern.ch"
-    organization: "CompRes"
+  - email: aaron.jomy@cern.ch
+    organization: CompRes
+    first_name: Aaron
+    last_name: Jomy
+  - email: vvasilev@cern.ch
+    organization: CompRes
+    first_name: Vassil
+    last_name: Vassilev
 ---
 
 ## Description

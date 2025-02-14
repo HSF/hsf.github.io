@@ -1,5 +1,5 @@
 ---
-title: Intelligent Log Analysis for the HSF Conditions Database 
+title: Intelligent Log Analysis for the HSF Conditions Database
 layout: gsoc_proposal
 project: HSFCondDB
 year: 2025
@@ -9,15 +9,18 @@ mentor_avail: June-October
 organization:
   - BNL
 project_mentors:
-  - name: "Ruslan Mashinistov"
-    email: "mashinistov@bnl.gov"
-    organization: "BNL"
-  - name: "John S. De Stefano Jr."
-    email: "jd@bnl.gov"
-    organization: "BNL"
-  - name: "Michel Hernandez Villanueva"
-    email: "mhernande1@bnl.gov"
-    organization: "BNL"
+  - email: mashinistov@bnl.gov
+    organization: BNL
+    first_name: Ruslan
+    last_name: Mashinistov
+  - email: jd@bnl.gov
+    organization: BNL
+    first_name: John S.
+    last_name: De Stefano Jr.
+  - email: mhernande1@bnl.gov
+    organization: BNL
+    first_name: Michel
+    last_name: Hernandez Villanueva
 ---
 
 ## Description

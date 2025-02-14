@@ -10,15 +10,18 @@ organization:
   - ImperialCollege
   - MonashUniversity
 project_mentors:
-  - name: "Alex Richards"
-    email: "a.richards@imperial.ac.uk"
-    organization: "Imperial College"
-  - name: "Mark Smith"
-    email: "mark.smith1@imperial.ac.uk"
-    organization: "Imperial College"
-  - name: "Ulrik Egede"
-    email: "ulrik.egede@monash.edu"
-    organization: "Monash University"
+  - email: a.richards@imperial.ac.uk
+    organization: Imperial College
+    first_name: Alex
+    last_name: Richards
+  - email: mark.smith1@imperial.ac.uk
+    organization: Imperial College
+    first_name: Mark
+    last_name: Smith
+  - email: ulrik.egede@monash.edu
+    organization: Monash University
+    first_name: Ulrik
+    last_name: Egede
 ---
 
 ## Description

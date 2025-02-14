@@ -6,14 +6,16 @@ year: 2025
 difficulty: medium
 duration: 350
 mentor_avail: June-October
-organization: 
+organization:
   - CERN
   - CompRes
 project_mentors:
-  - name: "Vassil Vassilev"
-    email: "vvasilev@cern.ch"
-  - name: "Lukas Breitwieser"
-    email: "lukas.johannes.breitwieser@cern.ch"
+  - email: vvasilev@cern.ch
+    first_name: Vassil
+    last_name: Vassilev
+  - email: lukas.johannes.breitwieser@cern.ch
+    first_name: Lukas
+    last_name: Breitwieser
 ---
 
 ## Description

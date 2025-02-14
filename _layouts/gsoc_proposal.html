@@ -13,8 +13,13 @@ layout: default
     <ul>
       {% for mentor in page.project_mentors %}
       <li>
-        <strong><a href="mailto:{{ mentor.email }}">{{ mentor.name }}</a></strong> - 
-      {% if mentor.role %}{{ mentor.role }} - {% endif %}{{ mentor.organization }}
+        <strong><a href="mailto:{{ mentor.email }}">{{ mentor.first_name }} {{ mentor.last_name }} </a></strong>
+      {% if mentor.role %}
+        - {{ mentor.role }} 
+      {% endif %}
+      {% if mentor.organization %}
+       - {{ mentor.organization }}
+      {% endif %}
       </li>
       {% endfor %}
 

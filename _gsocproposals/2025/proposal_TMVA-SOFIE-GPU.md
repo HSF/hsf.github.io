@@ -8,12 +8,14 @@ difficulty: medium
 duration: 350
 mentor_avail: Flexible
 project_mentors:
-  - name: "Lorenzo Moneta"
-    email: "lorenzo.moneta@cern.ch"
-    organization: "CERN"
-  - name: "Sanjiban Sengupta"
-    email: "sanjiban.sengupta@cern.ch"
-    organization: "CERN"
+  - email: lorenzo.moneta@cern.ch
+    organization: CERN
+    first_name: Lorenzo
+    last_name: Moneta
+  - email: sanjiban.sengupta@cern.ch
+    organization: CERN
+    first_name: Sanjiban
+    last_name: Sengupta
 ---
 
 # Description

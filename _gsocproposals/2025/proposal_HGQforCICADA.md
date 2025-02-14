@@ -8,15 +8,18 @@ duration: 350
 mentor_avail: Flexible
 organization: princeton
 project_mentors:
-  - name: "Lino Gerlach"
-    email: "lino.oscar.gerlach@cern.ch"
-    organization: "CERN"
-  - name: "Isobel Ojalvo"
-    email: "iojalvo@princeton.edu"
-    organization: "Princeton"
-  - name: "Jennifer Ngadiuba"
-    email: "jennifer.ngadiuba@cern.ch"
-    organization: "CERN"
+  - email: lino.oscar.gerlach@cern.ch
+    organization: CERN
+    first_name: Lino
+    last_name: Gerlach
+  - email: iojalvo@princeton.edu
+    organization: Princeton
+    first_name: Isobel
+    last_name: Ojalvo
+  - email: jennifer.ngadiuba@cern.ch
+    organization: CERN
+    first_name: Jennifer
+    last_name: Ngadiuba
 ---
 
 ## Description

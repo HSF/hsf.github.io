@@ -4,17 +4,19 @@ layout: gsoc_proposal
 project: JuliaHEP
 year: 2025
 organization:
-    - CERN
+  - CERN
 difficulty: medium
 duration: 175
 mentor_avail: June-July- August
 project_mentors:
-  - name: "Graeme Stewart"
-    email: "graeme.andrew.stewart@cern.ch"
-    organization: "CERN"
-  - name: "Mateusz Fila"
-    email: "mateusz.jakub.fila@cern.ch"
-    organization: "CERN"
+  - email: graeme.andrew.stewart@cern.ch
+    organization: CERN
+    first_name: Graeme
+    last_name: Stewart
+  - email: mateusz.jakub.fila@cern.ch
+    organization: CERN
+    first_name: Mateusz
+    last_name: Fila
 ---
 
 ## Description

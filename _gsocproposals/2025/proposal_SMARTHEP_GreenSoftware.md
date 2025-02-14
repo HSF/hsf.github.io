@@ -10,17 +10,20 @@ difficulty: medium
 duration: 350
 mentor_avail: June-October (with 2-3 weeks mentor vacation where student will work independently with minimal guidance)
 project_mentors:
-  - name: "Caterina Doglioni"
-    email: "caterina.doglioni@cern.ch"
-    organization: "CERN"
-  - name: "Tobias Fitschen"
-    email: "tobias.fitschen@cern.ch"
-    organization: "CERN"
-    role: "Backup Mentor"
-  - name: "James Smith"
-    email: "james.smith-7@manchester.ac.uk"
-    organization: "University of Manchester"
-    role: "Backup Mentor"
+  - email: caterina.doglioni@cern.ch
+    organization: CERN
+    first_name: Caterina
+    last_name: Doglioni
+  - email: tobias.fitschen@cern.ch
+    organization: CERN
+    role: Backup Mentor
+    first_name: Tobias
+    last_name: Fitschen
+  - email: james.smith-7@manchester.ac.uk
+    organization: University of Manchester
+    role: Backup Mentor
+    first_name: James
+    last_name: Smith
 ---
 # Description
 

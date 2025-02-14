@@ -9,10 +9,12 @@ difficulty: medium
 duration: 350
 mentor_avail: June-October (with 3 weeks mentor vacation where student will work independently with minimal guidance)
 project_mentors:
-  - name: "Leonid Didukh"
-    email: "ledidukh@gmail.com"
-  - name: "Caterina Doglioni"
-    email: "caterina.doglioni@cern.ch"
+  - email: ledidukh@gmail.com
+    first_name: Leonid
+    last_name: Didukh
+  - email: caterina.doglioni@cern.ch
+    first_name: Caterina
+    last_name: Doglioni
 ---
 ​
 ## Short description of the project
