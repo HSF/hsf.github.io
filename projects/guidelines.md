@@ -109,8 +109,7 @@ obtain, provide feedback (as bug reports or enhancements), and contribute to the
 * The project results MUST have a unique version identifier for each release intended to be used by users.
   We recommend using a well defined versioning scheme that is consistent with practices in your sub-domain, e.g. [Semantic Versioning](https://semver.org) or [Calendar Versioning](https://calver.org).
 * The project MUST provide, in each release, release notes that are a human-readable summary of major changes in that release to help users determine if they should upgrade and what the upgrade impact will be.
-
-The release notes SHOULD NOT be the raw output of a version control log (e.g., the "git log" command results are not release notes).
+* The release notes SHOULD NOT be the raw output of a version control log (e.g., the "git log" command results are not release notes).
 
 #### Sustainability
 
