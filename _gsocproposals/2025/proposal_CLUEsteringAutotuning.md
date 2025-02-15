@@ -12,6 +12,7 @@ project_mentors:
     organization: CERN UNIBO
     first_name: Simone
     last_name: Balducci
+    is_preferred_contact: yes
   - email: felice.pantaleo@cern.ch
     organization: CERN
     first_name: Felice

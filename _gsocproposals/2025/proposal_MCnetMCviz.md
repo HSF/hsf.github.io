@@ -13,6 +13,7 @@ project_mentors:
     organization: CERN
     first_name: Andy
     last_name: Buckley
+    is_preferred_contact: yes
   - email: chris.g@cern.ch
     organization: CERN
     first_name: Chris

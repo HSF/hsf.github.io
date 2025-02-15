@@ -2,7 +2,7 @@
 title: MCnet/OpenData - tools and exercises for open-data exploration with MC simulations
 layout: gsoc_proposal
 project: MCnet
-year: 2024
+year: 2025
 organization:
   - UofGlasgow
 difficulty: medium
@@ -13,6 +13,7 @@ project_mentors:
     organization: CERN
     first_name: Andy
     last_name: Buckley
+    is_preferred_contact: yes
   - email: chris.g@cern.ch
     organization: CERN
     first_name: Chris

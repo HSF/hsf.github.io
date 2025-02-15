@@ -12,6 +12,7 @@ project_mentors:
   - email: vvasilev@cern.ch
     first_name: Vassil
     last_name: Vassilev
+    is_preferred_contact: yes
   - email: david.lange@cern.ch
     first_name: David
     last_name: Lange

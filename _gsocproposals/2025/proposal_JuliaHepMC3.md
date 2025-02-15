@@ -13,6 +13,7 @@ project_mentors:
     organization: CERN
     first_name: Graeme
     last_name: Stewart
+    is_preferred_contact: yes
   - email: mateusz.jakub.fila@cern.ch
     organization: CERN
     first_name: Mateusz

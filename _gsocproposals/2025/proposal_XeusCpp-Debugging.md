@@ -13,6 +13,7 @@ project_mentors:
     organization: QuantStack
     first_name: Anutosh
     last_name: Bhat
+    is_preferred_contact: yes
   - email: johan.mabille@quantstack.net
     organization: QuantStack
     first_name: Johan

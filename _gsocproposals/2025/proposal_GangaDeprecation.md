@@ -22,6 +22,7 @@ project_mentors:
     organization: Monash University
     first_name: Ulrik
     last_name: Egede
+    is_preferred_contact: yes
 ---
 
 ## Description

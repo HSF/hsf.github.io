@@ -12,6 +12,7 @@ project_mentors:
     organization: CERN
     first_name: Serguei
     last_name: Linev
+    is_preferred_contact: yes
   - email: giacomo.parolini@cern.ch
     organization: CERN
     first_name: Giacomo

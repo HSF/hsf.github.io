@@ -13,6 +13,7 @@ project_mentors:
     organization: University of Michigan, Ann Arbor
     first_name: Mayank
     last_name: Sharma
+    is_preferred_contact: yes
   - email: martin.barisits@cern.ch
     organization: CERN
     first_name: Martin

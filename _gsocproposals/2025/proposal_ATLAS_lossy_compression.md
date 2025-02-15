@@ -11,11 +11,14 @@ duration: 350
 mentor_avail: July-September
 project_mentors:
   - email: maciej.szymanski@cern.ch
+    organization: ANL
     first_name: Maciej
     last_name: Szymański
+    is_preferred_contact: yes
   - email: peter.van.gemmeren@cern.ch
     first_name: Peter
     last_name: Van Gemmeren
+    organization: CERN
 ---
 
 ## Description

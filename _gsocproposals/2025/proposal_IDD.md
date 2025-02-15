@@ -13,6 +13,7 @@ project_mentors:
     organization: CompRes
     first_name: Vipul
     last_name: Cariappa
+    is_preferred_contact: yes
   - email: mvassilev@uni-plovdiv.bg
     organization: University of Plovdiv
     first_name: Martin

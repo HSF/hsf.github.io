@@ -8,14 +8,28 @@ layout: default
 
   {{ content }}
 
+{% if page.year >= 2025 %}
 <h2>Mentors</h2>
   {% if page.project_mentors %}
     <ul>
       {% for mentor in page.project_mentors %}
       <li>
-        <strong><a href="mailto:{{ mentor.email }}">{{ mentor.first_name }} {{ mentor.last_name }} </a></strong>
-      {% if mentor.role %}
-        - {{ mentor.role }} 
+      {% if mentor.is_preferred_contact %}
+        <strong>
+      {% endif %}
+
+      {% if mentor.email %}
+        <a href="mailto:{{ mentor.email }}">
+      {% endif %}
+          {{ mentor.first_name }} {{ mentor.last_name }}
+      {% if mentor.email %}
+        </a>
+      {% endif %}
+      {% if mentor.is_preferred_contact %}
+        </strong>
+      {% endif %}
+      {% if mentor.additional_information %}
+        - {{ mentor.additional_information }} 
       {% endif %}
       {% if mentor.organization %}
        - {{ mentor.organization }}
@@ -26,6 +40,7 @@ layout: default
     </ul>
 {% else %}
     <p>No mentors listed.</p>
+{% endif %}
 {% endif %}
 
 {% if page.year >= 2022 %}

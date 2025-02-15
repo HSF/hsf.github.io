@@ -13,6 +13,7 @@ project_mentors:
     organization: CompRes
     first_name: Aaron
     last_name: Jomy
+    is_preferred_contact: yes
   - email: vvasilev@cern.ch
     organization: CompRes
     first_name: Vassil

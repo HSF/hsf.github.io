@@ -14,13 +14,15 @@ project_mentors:
     organization: CERN
     first_name: Pratik
     last_name: Jawahar
+    is_preferred_contact: yes
   - email: sukanya.sinha@cern.ch
     organization: CERN
     first_name: Sukanya
     last_name: Sinha
+    is_preferred_contact: yes
   - email: caterina.doglioni@cern.ch
     organization: CERN
-    role: Backup Mentor
+    additional_information: Backup Mentor
     first_name: Caterina
     last_name: Doglioni
 ---

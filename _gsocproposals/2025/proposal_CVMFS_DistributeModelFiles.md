@@ -8,6 +8,16 @@ organization:
 difficulty: medium
 duration: 175
 mentor_avail: June-October
+project_mentors:
+  - email: valentin.volkl@cern.ch
+    first_name: Valentin
+    last_name: Volkl
+    organization: CERN
+    is_preferred_contact: yes
+  - email: lorenzo.moneta@cern.ch
+    first_name: Lorenzo
+    last_name: Moneta
+    organization: CERN
 ---
 
 # Description
@@ -49,10 +59,6 @@ In this project proposal, we'd like to evaluate CVMFS as a means to distribute m
  * Familiarity with common ML libraries, in particular ONNX
 
 
-## Mentors
-
- * **[Valentin Volkl](mailto:valentin.volkl@cern.ch)**
- * [Lorenzo Moneta](mailto:lorenzo.moneta@cern.ch)
 
 
 ## Links

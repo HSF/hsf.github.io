@@ -13,6 +13,7 @@ project_mentors:
     organization: BNL
     first_name: Ruslan
     last_name: Mashinistov
+    is_preferred_contact: yes
   - email: jd@bnl.gov
     organization: BNL
     first_name: John S.

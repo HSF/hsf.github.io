@@ -14,14 +14,15 @@ project_mentors:
     organization: CERN
     first_name: Caterina
     last_name: Doglioni
+    is_preferred_contact: yes
   - email: tobias.fitschen@cern.ch
     organization: CERN
-    role: Backup Mentor
+    additional_information: Backup Mentor
     first_name: Tobias
     last_name: Fitschen
   - email: james.smith-7@manchester.ac.uk
     organization: University of Manchester
-    role: Backup Mentor
+    additional_information: Backup Mentor
     first_name: James
     last_name: Smith
 ---

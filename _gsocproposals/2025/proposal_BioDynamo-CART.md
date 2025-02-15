@@ -13,9 +13,11 @@ project_mentors:
   - email: vvasilev@cern.ch
     first_name: Vassil
     last_name: Vassilev
+    is_preferred_contact: yes
   - email: lukas.johannes.breitwieser@cern.ch
     first_name: Lukas
     last_name: Breitwieser
+    organization: CERN
 ---
 
 ## Description

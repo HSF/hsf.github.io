@@ -14,9 +14,12 @@ project_mentors:
   - email: james.smith-7@manchester.ac.uk
     first_name: James
     last_name: Smith
+    organization: UManchester
+    is_preferred_contact: yes
   - email: caterina.doglioni@cern.ch
     first_name: Caterina
     last_name: Doglioni
+    organization: CERN
   - email: ledidukh@gmail.com
     first_name: Leonid
     last_name: Didukh
