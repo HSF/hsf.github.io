@@ -7,6 +7,16 @@ organization: CERN
 difficulty: medium
 duration: 350
 mentor_avail: Flexible
+project_mentors:
+  - email: lorenzo.moneta@cern.ch
+    organization: CERN
+    first_name: Lorenzo
+    last_name: Moneta
+    is_preferred_contact: yes
+  - email: sanjiban.sengupta@cern.ch
+    organization: CERN
+    first_name: Sanjiban
+    last_name: Sengupta
 ---
 
 # Description
@@ -29,10 +39,6 @@ In this project, the contributor will gain experience with GPU programming and i
   * Proficiency in C++ and Python.
   * Knowledge of GPU programming (e.g., CUDA).
   * Familiarity with version control systems like Git/GitHub.
-
-## Mentors
-  * **[Lorenzo Moneta](mailto:lorenzo.moneta@cern.ch)**
-  * [Sanjiban Sengupta](mailto:sanjiban.sengupta@cern.ch)
 
 ## Links
   * [ROOT Project homepage](https://root.cern/)

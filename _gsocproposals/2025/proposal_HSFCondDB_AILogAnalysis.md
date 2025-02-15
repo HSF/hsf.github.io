@@ -1,5 +1,5 @@
 ---
-title: Intelligent Log Analysis for the HSF Conditions Database 
+title: Intelligent Log Analysis for the HSF Conditions Database
 layout: gsoc_proposal
 project: HSFCondDB
 year: 2025
@@ -8,6 +8,20 @@ duration: 350
 mentor_avail: June-October
 organization:
   - BNL
+project_mentors:
+  - email: mashinistov@bnl.gov
+    organization: BNL
+    first_name: Ruslan
+    last_name: Mashinistov
+    is_preferred_contact: yes
+  - email: jd@bnl.gov
+    organization: BNL
+    first_name: John S.
+    last_name: De Stefano Jr.
+  - email: mhernande1@bnl.gov
+    organization: BNL
+    first_name: Michel
+    last_name: Hernandez Villanueva
 ---
 
 ## Description
@@ -44,13 +58,6 @@ adjustment of parameters during periods of increased request rates.
 * Kubernetes, basic understanding, k8s, Helm, Operators, OpenShift
 * Django and Nginx, basic understanding of web frameworks and logging
 * Database knowledge, PostgreSQL, database replication
-
-
-## Mentors
-
-- **Ruslan Mashinistov [mashinistov@bnl.gov](mailto:mashinistov@bnl.gov) BNL** 
-- John S. De Stefano Jr. [jd@bnl.gov](mailto:jd@bnl.gov) BNL
-- Michel Hernandez Villanueva [mhernande1@bnl.gov](mailto:mhernande1@bnl.gov) BNL
 
 
 ## Links

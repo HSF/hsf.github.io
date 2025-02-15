@@ -8,6 +8,16 @@ organization:
 difficulty: medium
 duration: 350
 mentor_avail: June-October
+project_mentors:
+  - email: andy.buckley@cern.ch
+    organization: CERN
+    first_name: Andy
+    last_name: Buckley
+    is_preferred_contact: yes
+  - email: chris.g@cern.ch
+    organization: CERN
+    first_name: Chris
+    last_name: Gutschow
 ---
 
 # Description
@@ -49,11 +59,6 @@ useful both to physicists and for public outreach.
  * Web technologies
  * Gitlab CI
  * git
-
-## Mentors
-
- * **[Andy Buckley](mailto:andy.buckley@cern.ch)**
- * [Chris Gutschow](mailto:chris.g@cern.ch)
 
 ## Links
 

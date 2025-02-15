@@ -8,7 +8,23 @@ organization:
   - UManchester
 difficulty: medium
 duration: 350
-mentor_avail: June-August 
+mentor_avail: June-August
+project_mentors:
+  - email: pratik.jawahar@cern.ch
+    organization: CERN
+    first_name: Pratik
+    last_name: Jawahar
+    is_preferred_contact: yes
+  - email: sukanya.sinha@cern.ch
+    organization: CERN
+    first_name: Sukanya
+    last_name: Sinha
+    is_preferred_contact: yes
+  - email: caterina.doglioni@cern.ch
+    organization: CERN
+    additional_information: Backup Mentor
+    first_name: Caterina
+    last_name: Doglioni
 ---
 ​
 ## Short description of the project
@@ -83,11 +99,6 @@ An improved performance of selected models, with documentation and figures of me
 
    * Desired skills: transformers and/or graph neural networks, particle physics theory and experiments, particle physics simulations
 
-
-## Mentors
-  * ***[Pratik Jawahar](mailto:pratik.jawahar@cern.ch)***
-  * ***[Sukanya Sinha](mailto:sukanya.sinha@cern.ch)***
-  * [Caterina Doglioni](mailto:caterina.doglioni@cern.ch) as backup mentor
 
 ## Links
   * [Paper on unsupervised ML algorithms using HEP datasets](<https://arxiv.org/abs/2105.14027>)

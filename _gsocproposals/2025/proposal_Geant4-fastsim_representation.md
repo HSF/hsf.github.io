@@ -8,6 +8,18 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CERN
+project_mentors:
+  - email: peter.mckeown@cern.ch
+    organization: CERN
+    first_name: Peter
+    last_name: McKeown
+    is_preferred_contact: yes
+  - organization: CERN
+    first_name: Piyush
+    last_name: Raikwar
+  - organization: CERN
+    first_name: Anna
+    last_name: Zaborowska
 ---
 
 ## Description
@@ -44,12 +56,6 @@ A shower representation which has the potential to meet these criteria is a poin
 1. Find the test [here](https://docs.google.com/document/d/1XYF8xFfprqiYYnjxu7Bzm8Ps-s646VJhIkDCQJd8n_8/edit?usp=sharing). Please submit it by 9:00 CET 17th March 2025 along with a short proposal (2 pages max) describing how you would approach the problem. See submission instructions in the test doc. Please don't forget to start the subject line with "GSoC'25 FastSim".
 2. We will make the selections based on the test, short proposal and resume by 17:00 CET 24th March.
 3. Selected candidates will then write the full proposal and submit it according to the official GSoC timeline.
-
-## Mentors
-(As we typically receive a large number of responses and we are not able to reply to all initial messages, please only contact us after completing the test)
-* [Peter McKeown](mailto:peter.mckeown@cern.ch) (CERN)
-* Piyush Raikwar (CERN)
-* Anna Zaborowska (CERN)
 
 ## Links
 * [G4FastSim](https://g4fastsim.web.cern.ch/)

@@ -9,6 +9,20 @@ mentor_avail: May-November
 organization:
   - ImperialCollege
   - MonashUniversity
+project_mentors:
+  - email: a.richards@imperial.ac.uk
+    organization: Imperial College
+    first_name: Alex
+    last_name: Richards
+  - email: mark.smith1@imperial.ac.uk
+    organization: Imperial College
+    first_name: Mark
+    last_name: Smith
+  - email: ulrik.egede@monash.edu
+    organization: Monash University
+    first_name: Ulrik
+    last_name: Egede
+    is_preferred_contact: yes
 ---
 
 ## Description
@@ -35,11 +49,5 @@ Interested students please contact Ulrik (see contact below) to ask questions an
 
 ## Requirements
 Python programming (advanced), Linux command line experience (intermediate), use of git for code development and continuous integration testing (intermediate)
-
-## Mentors 
-  * [Alex Richards](mailto:a.richards@imperial.ac.uk)
-  * [Mark Smith](mailto:mark.smith1@imperial.ac.uk)
-  * **[Ulrik Egede](mailto:ulrik.egede@monash.edu)**
-
 ## Links
   * [Ganga](https://github.com/ganga-devs/ganga)

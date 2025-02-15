@@ -7,6 +7,19 @@ difficulty: medium
 duration: 350
 mentor_avail: Flexible
 organization: princeton
+project_mentors:
+  - email: lino.oscar.gerlach@cern.ch
+    organization: CERN
+    first_name: Lino
+    last_name: Gerlach
+  - email: iojalvo@princeton.edu
+    organization: Princeton
+    first_name: Isobel
+    last_name: Ojalvo
+  - email: jennifer.ngadiuba@cern.ch
+    organization: CERN
+    first_name: Jennifer
+    last_name: Ngadiuba
 ---
 
 ## Description
@@ -26,12 +39,6 @@ The CICADA (Calorimeter Image Convolutional Anomaly Detection Algorithm) project
 
 ## Requirements
 Python, Tensorflow, Quantization
-
-## Mentors
-  * [Lino Gerlach](mailto:lino.oscar.gerlach@cern.ch)
-  * [Isobel Ojalvo](mailto:iojalvo@princeton.edu)
-  * [Jennifer Ngadiuba](mailto:jennifer.ngadiuba@cern.ch)
-  
 ## Links
   * [CICADA (homepage)](https://cicada.web.cern.ch/)
   * [CICADA (code)](https://github.com/Princeton-AD/cicada)

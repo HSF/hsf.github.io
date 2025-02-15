@@ -7,6 +7,16 @@ organization: CERN
 difficulty: medium
 duration: 350
 mentor_avail: June-October
+project_mentors:
+  - email: S.Linev@gsi.de
+    organization: CERN
+    first_name: Serguei
+    last_name: Linev
+    is_preferred_contact: yes
+  - email: giacomo.parolini@cern.ch
+    organization: CERN
+    first_name: Giacomo
+    last_name: Parolini
 ---
 
 # Description
@@ -29,10 +39,6 @@ In this project, the student will learn the internals of the RNTuple binary form
   * Basic knowledge of "low-level" programming (primitive types binary layouts, bit-level manipulations, reinterpreting bytes as different types, ...)
   * Experience with git / github
   * (Bonus): familiarity with any binary format
-
-## Mentors
-  * **[Serguei Linev](mailto:S.Linev@gsi.de)**
-  * [Giacomo Parolini](mailto:giacomo.parolini@cern.ch)
 
 ## Links
   * [ROOT Project homepage](https://root.cern/)

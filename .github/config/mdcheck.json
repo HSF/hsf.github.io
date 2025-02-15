@@ -1,6 +1,9 @@
 {
   "ignorePatterns": [
     {
+      "pattern": "https://mybinder.org"
+    },
+    {
       "pattern": "https://www.sciencedirect.com/science/article/abs/pii*"
     },
     {

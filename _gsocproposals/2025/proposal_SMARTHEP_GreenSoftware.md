@@ -9,6 +9,22 @@ organization:
 difficulty: medium
 duration: 350
 mentor_avail: June-October (with 2-3 weeks mentor vacation where student will work independently with minimal guidance)
+project_mentors:
+  - email: caterina.doglioni@cern.ch
+    organization: CERN
+    first_name: Caterina
+    last_name: Doglioni
+    is_preferred_contact: yes
+  - email: tobias.fitschen@cern.ch
+    organization: CERN
+    additional_information: Backup Mentor
+    first_name: Tobias
+    last_name: Fitschen
+  - email: james.smith-7@manchester.ac.uk
+    organization: University of Manchester
+    additional_information: Backup Mentor
+    first_name: James
+    last_name: Smith
 ---
 # Description
 
@@ -56,12 +72,6 @@ to make it more efficient, and evaluate possible savings.
  * Jupyter notebooks
  * PyTorch or equivalent ML toolkit 
  * Desirable: code profiling experience
-
-## Mentors
-
- * **[Caterina Doglioni](mailto:caterina.doglioni@cern.ch)**
- * **[Tobias Fitschen](mailto:tobias.fitschen@cern.ch)** as backup mentor
- * **[James Smith](mailto:james.smith-7@manchester.ac.uk)** as backup mentor
 
 ## Links
 

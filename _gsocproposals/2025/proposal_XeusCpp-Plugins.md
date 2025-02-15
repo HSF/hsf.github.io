@@ -8,6 +8,24 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - email: anutosh.bhat@quantstack.net
+    organization: QuantStack
+    first_name: Anutosh
+    last_name: Bhat
+    is_preferred_contact: yes
+  - email: johan.mabille@quantstack.net
+    organization: QuantStack
+    first_name: Johan
+    last_name: Mabille
+  - email: vipulcariappa@gmail.com
+    organization: CompRes
+    first_name: Vipul
+    last_name: Cariappa
+  - email: aaron.jomy@cern.ch
+    organization: CERN
+    first_name: Aaron
+    last_name: Jomy
 ---
 
 ## Description
@@ -35,13 +53,6 @@ As an extended goal, we aim to develop a new plugin for GPU execution, leveragin
 * Python
 * C/C++
 * GPU programming; CUDA/OpenMP
-
-
-## Mentors
-* **[Anutosh Bhat](mailto:anutosh.bhat@quantstack.net)**
-* [Johan Mabille](mailto:johan.mabille@quantstack.net)
-* [Vipul Cariappa](mailto:vipulcariappa@gmail.com)
-* [Aaron Jomy](mailto:aaron.jomy@cern.ch)
 
 ## Links
 * [Repo](https://github.com/compiler-research/xeus-cpp)

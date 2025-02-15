@@ -1,6 +1,5 @@
 ---
 title: Enhancing LLM Training with Clad for efficient differentiation
-
 layout: gsoc_proposal
 project: Clad
 year: 2025
@@ -9,6 +8,14 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - email: vvasilev@cern.ch
+    first_name: Vassil
+    last_name: Vassilev
+    is_preferred_contact: yes
+  - email: david.lange@cern.ch
+    first_name: David
+    last_name: Lange
 ---
 
 ## Description
@@ -36,9 +43,6 @@ Beyond performance improvements, integrating Clad with LLM training in C++ opens
 * Reasonable expertise in C++ programming
 * Background in LLM  is preferred but not required
 
-## Mentors
-* **[Vassil Vassilev](mailto:vvasilev@cern.ch)**
-* [David Lange](mailto:david.lange@cern.ch)
 
 ## Links
 * [Repo](https://github.com/vgvassilev/clad)

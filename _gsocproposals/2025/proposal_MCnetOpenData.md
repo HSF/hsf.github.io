@@ -2,12 +2,22 @@
 title: MCnet/OpenData - tools and exercises for open-data exploration with MC simulations
 layout: gsoc_proposal
 project: MCnet
-year: 2024
+year: 2025
 organization:
   - UofGlasgow
 difficulty: medium
 duration: 175
 mentor_avail: June-October
+project_mentors:
+  - email: andy.buckley@cern.ch
+    organization: CERN
+    first_name: Andy
+    last_name: Buckley
+    is_preferred_contact: yes
+  - email: chris.g@cern.ch
+    organization: CERN
+    first_name: Chris
+    last_name: Gutschow
 ---
 
 # Description
@@ -45,11 +55,6 @@ engaging exercises with hypothetical new-physics models.
  * Binder
  * Gitlab CI
  * git
-
-## Mentors
-
- * **[Andy Buckley](mailto:andy.buckley@cern.ch)**
- * [Chris Gutschow](mailto:chris.g@cern.ch)
 
 ## Links
 

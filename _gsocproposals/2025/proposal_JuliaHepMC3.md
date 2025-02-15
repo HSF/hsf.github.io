@@ -4,10 +4,20 @@ layout: gsoc_proposal
 project: JuliaHEP
 year: 2025
 organization:
-    - CERN
+  - CERN
 difficulty: medium
 duration: 175
 mentor_avail: June-July- August
+project_mentors:
+  - email: graeme.andrew.stewart@cern.ch
+    organization: CERN
+    first_name: Graeme
+    last_name: Stewart
+    is_preferred_contact: yes
+  - email: mateusz.jakub.fila@cern.ch
+    organization: CERN
+    first_name: Mateusz
+    last_name: Fila
 ---
 
 ## Description
@@ -49,11 +59,6 @@ A key outcome would be a set of unit tests and examples, based on the HepMC3 one
 ## Evaluation Exercise
 
 TBD
-
-## Mentors
-
-- **[Graeme Stewart](mailto:graeme.andrew.stewart@cern.ch)**
-- [Mateusz Fila](mailto:mateusz.jakub.fila@cern.ch)
 
 ## Links
 

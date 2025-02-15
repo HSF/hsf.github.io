@@ -1,12 +1,22 @@
 ---
 title: Development of an auto-tuning tool for the CLUEstering library
 layout: gsoc_proposal
-project: Patatrack 
+project: Patatrack
 year: 2025
 organization: CERN
 difficulty: medium
 duration: 350
 mentor_avail: June-October
+project_mentors:
+  - email: simone.balducci@cern.ch
+    organization: CERN UNIBO
+    first_name: Simone
+    last_name: Balducci
+    is_preferred_contact: yes
+  - email: felice.pantaleo@cern.ch
+    organization: CERN
+    first_name: Felice
+    last_name: Pantaleo
 ---
 
 ## Description
@@ -45,10 +55,6 @@ Interested students please contact simone.balducci@cern.ch
 * Experience with machine learning and optimization techniques
 * Experience with development of Python libraries
 
-
-## Mentors
-  * **[Simone Balducci](mailto:simone.balducci@cern.ch) (CERN UNIBO)**
-  * [Felice Pantaleo](mailto:felice.pantaleo@cern.ch) (CERN)
 
 ## Links
   * [CLUE][clue]

@@ -1,5 +1,5 @@
 ---
-title: Implement CppInterOp API exposing memory, ownership and thread safety information 
+title: Implement CppInterOp API exposing memory, ownership and thread safety information
 layout: gsoc_proposal
 project: CppInterOp
 year: 2025
@@ -8,6 +8,16 @@ duration: 350
 mentor_avail: June-October
 organization:
   - CompRes
+project_mentors:
+  - email: aaron.jomy@cern.ch
+    organization: CompRes
+    first_name: Aaron
+    last_name: Jomy
+    is_preferred_contact: yes
+  - email: vvasilev@cern.ch
+    organization: CompRes
+    first_name: Vassil
+    last_name: Vassilev
 ---
 
 ## Description
@@ -30,11 +40,6 @@ Clang and LLVM provide access to C++ from other programming languages, but curre
 * C++ programming
 * Python programming
 * Knowledge of Clang and LLVM
-
-## Mentors
-* **[Aaron Jomy](mailto:aaron.jomy@cern.ch)**
-* [Vassil Vassilev](mailto:vvasilev@cern.ch)
-
 
 ## Links
 * [Repo](https://github.com/compiler-research/CppInterOp)

@@ -6,9 +6,22 @@ year: 2025
 difficulty: medium
 duration: 350
 mentor_avail: June-November
-organization: 
+organization:
   - CERN
   - CompRes
+project_mentors:
+  - email: mvassilev@uni-plovdiv.bg
+    organization: Uni Plovdiv
+    first_name: Martin
+    last_name: Vasilev
+  - email: Jonas.Rembser@cern.ch
+    organization: CERN
+    first_name: Jonas
+    last_name: Rembser
+  - email: Fons.Rademakers@cern.ch
+    organization: CERN
+    first_name: Fons
+    last_name: Rademakers
 ---
 
 ## Description
@@ -41,13 +54,6 @@ requirements of the field.
 * C++ and Python programming
 * Familiarity with Git
 * Knowledge of ROOT and/or the BAM file formats is a plus.
-
-
-## Mentors
-* [Martin Vasilev](mailto:mvassilev@uni-plovdiv.bg)
-* [Jonas Rembser](mailto:Jonas.Rembser@cern.ch)
-* [Fons Rademakers](mailto:Fons.Rademakers@cern.ch)
-
 
 ## Links
 * [Latest Presentation on GeneROOT](https://indico.cern.ch/event/655464/)
