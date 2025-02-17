@@ -31,7 +31,7 @@ As SOFIE continues to evolve, this project aims to:
 In this project, the contributor will gain experience with C++ and Python programming, TensorFlow/Keras and its storage formats for trained machine learning models, and JAX/FLAX for accelerated machine learning. They will begin by familiarizing themselves with SOFIE and its Keras parser. After researching the changes required to support the latest TensorFlow version, they will implement functionalities to ensure the successful generation of inference code for the latest Keras models. In the next phase, they will explore the JAX/FLAX library and investigate its potential integration with SOFIE.
 
 ## Expected results and milestones
-** **Familiarization with TMVA SOFIE**: Understand the SOFIE architecture, run inference using the existing Keras parser, and analyze the current parser's capabilities.
+* **Familiarization with TMVA SOFIE**: Understand the SOFIE architecture, run inference using the existing Keras parser, and analyze the current parser's capabilities.
 * **Researching latest TensorFlow/Keras**: Investigate the latest TensorFlow/Keras developments and assess their alignment with SOFIE.
 * **Improving the Keras Parser**: Implement parser enhancements to support the latest TensorFlow version and validate inference results.
 * **JAX/FLAX Integration**: Design and develop a parsing mechanism for JAX/FLAX models, ensuring compatibility with SOFIE’s IR and further generation of inference code.
