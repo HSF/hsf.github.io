@@ -14,10 +14,12 @@ project_mentors:
     first_name: Peter
     last_name: McKeown
     is_preferred_contact: yes
-  - organization: CERN
+  - email: piyush.raikwar@cern.ch
+    organization: CERN
     first_name: Piyush
     last_name: Raikwar
-  - organization: CERN
+  - email: anna.zaborowska@cern.ch
+    organization: CERN
     first_name: Anna
     last_name: Zaborowska
 ---
