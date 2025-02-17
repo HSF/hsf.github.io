@@ -30,7 +30,7 @@ project_mentors:
 
 ## Description
 
-Xeus-Cpp integrates [Clang-Repl](https://clang.llvm.org/docs/ClangRepl.html) with the Xeus protocol via CppInterOp, providing a powerful platform for C++ development within Jupyter Notebooks.
+Xeus-Cpp integrates [Clang-Repl](https://clang.llvm.org/docs/ClangRepl.html) with the [xeus](https://github.com/jupyter-xeus/xeus) protocol via [CppInterOp](https://github.com/compiler-research/CppInterOp/), providing a powerful platform for C++ development within Jupyter Notebooks.
 
 This project aims to introduce a plugin system for magic commands (cell, line, etc.), enabling a more modular and maintainable approach to extend Xeus-Cpp. Traditionally, magic commands introduce additional code and dependencies directly into the Xeus-Cpp kernel, increasing its complexity and maintenance burden. By offloading this functionality to a dedicated plugin library, we can keep the core kernel minimal while ensuring extensibility. This approach allows new magic commands to be developed, packaged, and deployed independently—eliminating the need to rebuild and release Xeus-Cpp for each new addition.
 Initial groundwork has already been laid with the Xplugin library, and this project will build upon that foundation. The goal is to clearly define magic command compatibility across different platforms while ensuring seamless integration.
