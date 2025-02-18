@@ -1,6 +1,9 @@
 {
   "ignorePatterns": [
     {
+      "pattern": "https://www.tensorflow.org/guide/keras"
+    },
+    {
       "pattern": "https://mybinder.org"
     },
     {
