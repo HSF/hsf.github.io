@@ -13,7 +13,7 @@ the sharing of knowledge and expertise. It embraces the broad community, from HE
 * Peter Fackeldey (CMS and IRIS-HEP, Princeton)
 * Ianna Osborne (CMS and IRIS-HEP, Princeton)
 * Matthew Feickert (ATLAS and IRIS-HEP, University of Wisconsin-Madison)
-* Nikolai Hartmann (Belle II, LMU Munich)
+* Nikolai Krug (Belle II, LMU Munich)
 
 All coordinators can be reached at <hsf-pyhep-organisation@googlegroups.com>.
 
