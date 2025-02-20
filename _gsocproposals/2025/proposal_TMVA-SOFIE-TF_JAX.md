@@ -1,7 +1,7 @@
 ---
 title: TMVA SOFIE - Enhancing Keras Parser and JAX/FLAX Integration
 layout: gsoc_proposal
-project: ROOT
+project: ML4EP
 year: 2025
 organization: CERN
 difficulty: medium
