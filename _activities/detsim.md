@@ -24,8 +24,9 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 - Kolja Kauder (BNL, EIC/STAR)
 - Krzysztof Genser (Mu2e, Geant4, Fermilab)
 - Tommaso Lari (ATLAS, Milano)
+- Anna Zaborowska (Geant4, FCC, CERN)
 
-[Email the conveners](mailto:tommaso.lari@mi.infn.it,genser@fnal.gov,kkauder@gmail.com).
+[Email the conveners](mailto:tommaso.lari@mi.infn.it,genser@fnal.gov,kkauder@gmail.com,anna.zaborowska@cern.ch).
 
 ### Former Conveners
 
