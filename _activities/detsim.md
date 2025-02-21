@@ -21,12 +21,11 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 
 ## Conveners
 
-- Kolja Kauder (BNL, EIC/STAR)
-- Krzysztof Genser (Mu2e, Geant4, Fermilab)
+- Makoto Asai (Geant4, JLab)
 - Tommaso Lari (ATLAS, Milano)
-- Anna Zaborowska (Geant4, FCC, CERN)
+- Anna Zaborowska (FCC, Geant4, CERN)
 
-[Email the conveners](mailto:tommaso.lari@mi.infn.it,genser@fnal.gov,kkauder@gmail.com,anna.zaborowska@cern.ch).
+[Email the conveners](mailto:asai@jlab.org,tommaso.lari@mi.infn.it,anna.zaborowska@cern.ch).
 
 ### Former Conveners
 
@@ -38,3 +37,5 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 - Kevin Pedro (CMS, Fermilab), 2021-2022
 - John Chapman (ATLAS, University of Cambridge), 2023
 - Sandro Wenzel (ALICE, CERN), 2023
+- Kolja Kauder (BNL, EIC/STAR), 2024
+- Krzysztof Genser (Mu2e, Geant4, Fermilab), 2021-2024
