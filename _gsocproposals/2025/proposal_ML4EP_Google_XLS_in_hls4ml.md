@@ -7,6 +7,16 @@ organization: CERN
 difficulty: medium/high
 duration: 350
 mentor_avail: Flexible
+project_mentors:
+  - email: vladimir.loncar@cern.ch 
+    organization: CERN
+    first_name: Vladimir
+    last_name: Loncar
+    is_preferred_contact: yes
+  - email: dimitrios.danopoulos@cern.ch
+    first_name: Dimitrios
+    last_name: Danopoulos
+    organization: CERN
 ---
 
 # Description
@@ -35,9 +45,6 @@ HLS4ML currently supports traditional HLS tools like Vivado HLS and Intel HLS, b
   * Basic familiarity with neural networks.
   * Familiarity with version control systems like Git/GitHub.
 
-## Mentors
-  * **[Vladimir Loncar](mailto:vladimir.loncar@cern.ch)**
-  * [Dimitrios Danopoulos](mailto:dimitrios.danopoulos@cern.ch)
 
 ## Links
   * [hls4ml documentation](https://fastmachinelearning.org/hls4ml/)
