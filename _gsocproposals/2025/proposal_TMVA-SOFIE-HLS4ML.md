@@ -1,7 +1,7 @@
 ---
 title: TMVA SOFIE - HLS4ML Integration for Machine Learning Inference
 layout: gsoc_proposal
-project: ROOT
+project: ML4EP
 year: 2025
 organization: CERN
 difficulty: medium
