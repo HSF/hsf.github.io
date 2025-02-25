@@ -3,7 +3,7 @@ title: "DESY"
 author: "Frank Gaede"
 layout: default
 organization: DESY
-logo: DESY_logo.png
+logo: DESY-logo.png
 description: |
   The Deutsches Elektronen-Synchrotron (DESY) is a major German physics
   laboratory with a long interest in high-energy physics. DESY is a
