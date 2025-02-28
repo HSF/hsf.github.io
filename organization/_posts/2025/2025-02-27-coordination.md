@@ -27,13 +27,13 @@ experiments rather than individuals, as we think it will have a bigger impact.
 
 ### EVERSE Network Launch Meeting took place
 
-The [EVERSE project](https:://everse.software) is setting up a network of those interested in improving the quality of research software. They had their online [Launch Event](https://indico.cern.ch/e/eversenetworklaunch) on Tuesday 18 February.
+The EVERSE project is setting up a network of those interested in improving the quality of research software. They had their online [Launch Event](https://indico.cern.ch/e/eversenetworklaunch) on Tuesday 18 February.
 
 Reportedly a great meeting. Regular meetings will follow. ~150 connected people!
 
 ### HSF/WLCG Workshop announced
 
-Taking place on 5-9 May at IJClab, Orsay, Paris. The workshop was announced to the WLCG and HSF communities on Feb 20. Registration is now open, see the [indico site](https://indico.cern.ch/e/wlcg-hsf-2025/).
+Taking place on 5-9 May at IJClab, Orsay, Paris. The workshop was announced to the WLCG and HSF communities on Feb 20. Registration is now open, see the [indico site](https://indico.cern.ch/event/1484669/).
 
 People are invited to register ASAP so that the local organizers can better prepare for the event. Please note that the early-bird registration deadline is Thursday April 3. Registration closes on April 22.
 
