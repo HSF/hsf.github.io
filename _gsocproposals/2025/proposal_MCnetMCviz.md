@@ -2,7 +2,7 @@
 title: MCnet/MCviz - graph and 3D-viewer tools for simulated particle collisions
 layout: gsoc_proposal
 project: MCnet
-year: 2024
+year: 2025
 organization:
   - UofGlasgow
 difficulty: medium
