@@ -1,5 +1,5 @@
 ---
-title: Enable automatic differentiation of OpenMP programs with Clad
+title: Enable Clad on ONNX-based models
 layout: gsoc_proposal
 project: Clad
 year: 2025
