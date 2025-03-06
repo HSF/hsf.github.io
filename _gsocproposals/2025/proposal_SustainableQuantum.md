@@ -1,13 +1,23 @@
+---
+project: QuantumForTracking
+title: Sustainable Quantum Computing algorithms for particle physics reconstruction
+layout: gsoc_proposal
+difficulty: medium
+duration: 350
+mentor_avail: July-December
+organization: CERN
+project_mentors:
+  - email: miriam.lucio.martinez@cern.ch
+    organization: CERN
+    first_name: Miriam
+    last_name: Lucio
+  - email: arantza.de.oyanguren.campos@cern.ch
+    first_name: Arantza
+    last_name: Oyanguren
+    organization: IFIC-Valencia
+---
 
----
-+ project: Quantum for tracking
-+ title: Sustainable Quantum Computing algorithms for particle physics reconstruction
-+ layout: default
-+ Difficulty: medium
-+ Duration: 350h
-+ Mentor availability: July-December
-+ Organization: CERN
----
+
 
 ## Description
 
@@ -17,7 +27,7 @@ Reconstructing the trajectories of charged particles as they traverse several de
 
 * Basic understanding of track reconstruction at LHC using [ACTS](https://acts.readthedocs.io/en/latest/) and/or [Allen framework](https://allen-doc.docs.cern.ch/index.html).
 * Familiarizing her/himself with trackML simulation datasets <https://www.kaggle.com/competitions/trackml-particle-identification/data?select=train_sample.zip>.
-* Learning how to use the quantum simulator for QML algorithms https://pennylane.ai/. 
+* Learning how to use the quantum simulator for QML algorithms <https://pennylane.ai/>. 
 
 
 ## Milestones
@@ -37,11 +47,6 @@ Reconstructing the trajectories of charged particles as they traverse several de
 ## Evaluation Tasks and Timeline
 
 * To be completed
-
-## Mentors:
-
-* [Miriam Lucio](mailto:miriam.lucio.martinez@cern.ch)
-* [Arantza Oyanguren (IFIC-Valencia)](mailto:arantza.de.oyanguren.campos@cern.ch)
 
 
 
