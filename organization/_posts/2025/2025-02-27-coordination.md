@@ -81,6 +81,8 @@ The Training Group will offer to help projects who want to improve their tutoria
 
 Planning chats between activity conveners and SG liaisons are underway.
 
+{:.table .table-hover .table-condensed .table-striped}
+
 | Group                                | SG Liaison        |
 | ------------------------------------ | ----------------- |
 | Data Analysis                        | Mark and Eduardo  |
@@ -173,15 +175,9 @@ Project proposals should now be in place. Additional projects should probably no
 
 ## AOB
 
-### Archive no-longer-maintained repositories in github.com/HSF  organization?
-
-The relevant repos were put into archive mode (one deleted).
-
 ### Linux Foundation's High Performance Software Foundation Meeting, May 5-8, Chicago
 
 Input from the HEP community is particularly encouraged: <https://events.linuxfoundation.org/hpsf-conference/>
-
-
 
 ### Next Meeting
 
