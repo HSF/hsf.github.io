@@ -5,6 +5,7 @@ project: MCnet
 year: 2025
 organization:
   - UofGlasgow
+  - UCLondon
 difficulty: medium
 duration: 350
 mentor_avail: June-October
