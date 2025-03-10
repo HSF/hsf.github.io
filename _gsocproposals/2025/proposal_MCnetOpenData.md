@@ -60,6 +60,5 @@ engaging exercises with hypothetical new-physics models.
 ## Links
 
  * [ATLAS open data](https://atlas.cern/Resources/Opendata)
- * [Example open-data analysis notebook](https://nbviewer.org/github/atlas-outreach-data-tools/notebooks-collection-opendata/blob/master/13-TeV-examples/cpp/ATLAS_OpenData_13-TeV__analysis_example-cpp_Hyy_channel.ipynb)
  * [Jupyter](https://jupyter.org/)
  * [Binder](https://mybinder.org/)
