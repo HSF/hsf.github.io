@@ -56,10 +56,6 @@ A key outcome would be a set of unit tests and examples, based on the HepMC3 one
 - Prior experience in Julia (very advantageous)
 - A background understanding of high-energy physics (advantageous)
 
-## Evaluation Exercise
-
-TBD
-
 ## Links
 
 - [Julia Programming Language](https://julialang.org/)
