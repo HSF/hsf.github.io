@@ -32,7 +32,7 @@ LHC\@home 2.0 volunteer computing project. The [LHC\@home
 2.0](http://lhcathome2.cern.ch/) project currently has more than 9,000
 registered users who contribute their spare CPU cycles for the
 simulation of the particle collision events in CERN\'s [Large Hadron
-Collider](http://press.web.cern.ch/public/en/LHC/LHC-en.html) (LHC).
+Collider](https://home.cern/science/accelerators/large-hadron-collider) (LHC).
 After some research, Josip decided to integrate existing tools with the
 Co-Pilot as opposed to trying to reinvent the wheel by rewriting
 everything from scratch. This resulted in a nicely engineered monitoring
@@ -46,7 +46,7 @@ concluded.\
 \
 The goal of **Yin Qiu**\'s project was to devise a mechanism for a
 consistent replication of changes made to the central repository of
-[CernVM File System](http://cernvm.cern.ch/portal/startcvmfs)
+[CernVM File System](http://cernvm.cern.ch)
 (CernVM-FS) to a globally distributed set of mirror servers. CernVM-FS
 is used to host and distribute the application software of CERN LHC
 experiments to hundreds of Grid sites, as well as the laptops and
@@ -84,11 +84,10 @@ fragmentation issues and ensure stronger const-correctness\
 testing of CernVM virtual machine images on multiple hypervisors and
 operating systems. The solution, which is a ready to use testing
 infrastructure for CernVM, was developed in collaboration with other
-open source projects such as [AMD
-Tapper](http://developer.amd.com/zones/opensource/AMDTapper/Pages/default.aspx)
-(used for the reports and web interface), [libvirt](http://libvirt.org/)
+open source projects such as AMD
+Tapper (used for the reports and web interface), [libvirt](http://libvirt.org/)
 (interaction with hypervisors), and
-[Homebrew](http://mxcl.github.com/homebrew/) (OS X support).  The main
+Homebrew (OS X support).  The main
 goals of the project were accomplished with support for all major
 hypervisors running on Linux and OS X platforms. The framework automates
 the task of downloading and configuring the CernVM images on the fly,
