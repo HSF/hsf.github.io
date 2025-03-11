@@ -56,6 +56,8 @@ See here the student blog posts from previous years:
 * [Student blogs 2024]({{ site.baseurl }}/gsoc/2024/blogs.html)
 * [Student blogs 2023]({{ site.baseurl }}/gsoc/2023/blogs.html)
 * [Student blogs 2022]({{ site.baseurl }}/gsoc/2022/blogs.html)
+* [Blogpost summarizing 2012]({{ site.baseurl }}/gsoc/2012/blogs.html)
+* [Blogpost summarizing 2011]({{ site.baseurl }}/gsoc/2011/blogs.html)
 
 
 ### For Projects and Mentors
