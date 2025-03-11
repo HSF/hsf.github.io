@@ -1,6 +1,9 @@
 {
   "ignorePatterns": [
     {
+      "pattern": "http://dtrace.org"
+    },
+    {
       "pattern": "https://www.tensorflow.org/guide/keras"
     },
     {
