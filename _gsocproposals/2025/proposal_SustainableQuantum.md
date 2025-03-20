@@ -2,6 +2,7 @@
 project: QuantumForTracking
 title: Sustainable Quantum Computing algorithms for particle physics reconstruction
 layout: gsoc_proposal
+year: 2025
 difficulty: medium
 duration: 350
 mentor_avail: July-December
