@@ -39,8 +39,8 @@ The HSF Seminar on *technical debt in software* happened yesterday: <https://ind
 - Around 30(?) people in attendance (~6 people in the room)
 - YouTube recording already uploaded: <https://youtu.be/BkSiusiqhSk?si=mTqOtJZa2IOv5PS0>.
 - No slides uploaded yet but speaker will do so soon - not many plots but plots shown very interesting, e.g.:
-<img src="https://codimd.web.cern.ch/uploads/upload_c89f24ba057a1a8882f01ed6843e2e99.png" alt="drawing" width="450" height="300"/>
-
+  
+<img src="{{ site.baseurl }}/organization/_posts/2025/2025-03-26_SeminarSlideSnapshot.png" width="80%">
 
 Planned seminars:
 
