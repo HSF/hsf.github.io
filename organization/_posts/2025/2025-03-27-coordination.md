@@ -14,7 +14,7 @@ Apologies/Contributing: Mark Neubauer (US/EU Daylight shift caused meeting confl
 
 ### European Strategy Update (EPPSU) final stages
 
-We are in the final stages of the process. We have endorsments from ALICE, ATLAS, Belle II, ePIC, LHCb and MCnet.
+We are in the final stages of the process. We have endorsements from ALICE, ATLAS, Belle II, ePIC, LHCb and MCnet.
 
 There were a few ~minor comments (adding references, mainly) as endorsements arrived. The continually updated final draft is in [CERNBox](https://cernbox.cern.ch/s/XQ3wEp3L8UOVjjb).
 
@@ -44,14 +44,14 @@ The HSF Seminar on *technical debt in software* happened yesterday: <https://ind
 
 Planned seminars:
 
-- Planning seminar on HS3 (HEP Statistics Serialization Standard) with multiple speakers. Finding suitable date in April/June - will exceptionally not be on last Wednesday of month (obviously avoid clash with CAF).
+- Planning a seminar on HS3 (HEP Statistics Serialization Standard) with multiple speakers. Finding suitable date in April/June - will exceptionally not be on last Wednesday of month (obviously avoid clash with CAF).
 - 28th May: Seminar confirmed on AdePT and Celeritas update on detector simulation with GPUs via the Detector Simulation Activities conveners.
 
 June has a clash with the EPPSU symposium - TBD if we have a seminar.
 
-HSF seminar conveners are reachable at <mailto:hsf-seminar-conveners@gmail.com>
+HSF seminar conveners are reachable at <mailto:hsf-seminar-conveners@gmail.com>.
 
-* Please send your suggestions for this Spring seminars
+* Please send your suggestions for this Spring seminars...
 
 ### Steering Group
 
