@@ -25,9 +25,9 @@ We have also decided on the cover page format:
 > Prepared by the HEP Software Foundation, with inputs from the HEP community.
 >
 > Edited by: LIST OF ALL EDITORS
-> 
+>
 > This document has been endorsed by the following experiments and communities:
-> 
+>
 > LIST OF ALL EXPERIMENTS AND COMMUNITIES
 
 Action:
@@ -36,7 +36,7 @@ Action:
 
 Discussions with the experiments have so far been positive - certainly no blockers have been raised. We also decided to reach out to ePIC/EIC and FCC and have invited them to endorse the document.
 
-CMS Discussion: want to have the same endorsment from all of the experiments, at the experiment level (not just individuals or sub-groups, like S&C). Graeme and Michel will follow-up as needed.
+CMS Discussion: want to have the same endorsement from all of the experiments, at the experiment level (not just individuals or sub-groups, like S&C). Graeme and Michel will follow-up as needed.
 
 ### HSF/WLCG Workshop announced
 
@@ -44,7 +44,7 @@ Taking place on 5-9 May at IJClab, Orsay, Paris. The workshop was announced to t
 
 Local organisation is basically all settled. Some concerns about US participation due to possible funding issues, but this may not be the case.
 
-Abstract deadline is now 23 March. More abstracts are definetely needed - please submit something!
+Abstract deadline is now 23 March. More abstracts are definitely needed - please submit something!
 
 Plenary programme is in good shape, firming up.
 
@@ -60,12 +60,13 @@ The HSF organisation team is Michel, Nicole, Eduardo, Paul.
 [Compute & Accelerator Forum Category](https://indico.cern.ch/category/12741/)
 
 There is an HSF seminar on technical debt in software at the end of this month, agenda already prepared:
-https://indico.cern.ch/event/1520114/
+<https://indico.cern.ch/event/1520114/>
 
-Trying to organise a C&AF on *Julia and GPUs* with Valentin Chauray - joint event with the [EVERSE Network](https://everse.software/network/).
+Trying to organise a C&AF on *Julia and GPUs* with Valentin Churavy - joint event with the [EVERSE Network](https://everse.software/network/).
 
-HSF seminar conveners are reachable at hsf-seminar-conveners@gmail.com
-* Please send your suggestions for this Spring seminars
+HSF seminar conveners are reachable at <mailto:hsf-seminar-conveners@gmail.com>
+
+- Please send your suggestions for this Spring seminars
 
 ### Steering Group
 
@@ -76,7 +77,6 @@ No SG meeting since our last CG.
 *We need to find people to help do these reviews.* They are fairly lightweight and should not take a lot of time - we are checking usefulness and impact in the community, as well as software development and project best practices.
 
 As suggested last time a [google spreadsheet](https://docs.google.com/spreadsheets/d/1GCy9Me2mroTdZLtWOdblHyrfkap9BOZp06XkXEd_XYM/edit?gid=0#gid=0) has been set up where people can indicate their willingness to participate as a reviewer in their areas of expertise. Please sign up! And thank you to those who already have. There is also a tab 'Projects' to gather planned and suggested projects for reviews.
-
 
 **[Link to the review template](https://docs.google.com/document/d/1l8Tkruo0EEHwgRBQPmiHq-i4BuwwiR1choRRMUIv6qY/edit?usp=sharing)**
 
@@ -92,6 +92,7 @@ The Training Group will offer to help projects who want to improve their tutoria
 
 Planning chats between activity conveners and SG liaisons are underway.
 
+{:.table .table-hover .table-condensed .table-striped}
 | Group                                | SG Liaison        | Status
 | ------------------------------------ | ----------------- | ----------|
 | Data Analysis                        | Mark and Eduardo  |
@@ -111,38 +112,13 @@ Please remember to update your activity page on the HSF website with the names o
 
 The activities list has been renamed to <hsf-activities-conveners@googlegroups.com>.
 
-### General Standing Reminders
-
-#### Website banners
-
-We have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files [here](https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023).
-
-#### Meetings
-
-Please try and book meetings in Indico at least 2 weeks in advance!
-
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
-
-#### Videos
-
-When meetings are recorded (recommended), please try to put them onto:
-
-- [HSF YouTube channel](https://www.youtube.com/c/HEPSoftwareFoundation) (ask for permission to do this)
-- <videos.cern.ch> (recommended over posting directly)
-
-Then post links to these locations. See [C&AF](https://indico.cern.ch/category/12741/) for examples.
-
 ## Activity Updates
-
-### Data Analysis
-
-No report today.
 
 ### Software Training
 
 Ongoing events:
 
--  [12th HEP C++ Course and Hands-on Training - The Essentials](https://indico.cern.ch/event/1477096/) - Mar 10-14.
+- [12th HEP C++ Course and Hands-on Training - The Essentials](https://indico.cern.ch/event/1477096/) - Mar 10-14.
     - Participation:
         - In-person: 22/25
         - Remotely: 115
@@ -161,16 +137,14 @@ Future events:
 HSF activities: What is your interest in Training?
 
 - Event Generators?
-    - We could consider a training for FCC-ee: there is a tutorial planned for the FCC-ee meeting at Fermilab/Argonne (https://indico.fnal.gov/event/67484/). Remote participation is (probably) possible because that was an option at the time of registration 
+    - We could consider a training for FCC-ee: there is a tutorial planned for the FCC-ee meeting at Fermilab/Argonne <https://indico.fnal.gov/event/67484/>. Remote participation is (probably) possible because that was an option at the time of registration
 - Python - Essentials and Advanced?
 - Data Analysis?
-
 
 ### Software Tools and Packaging
 
 - Chat between activity conveners and SG liaison
     - Discussed some ideas the activity conveners came up with in a previous meeting
-
 
 ### Detector Simulation
 
@@ -191,9 +165,6 @@ PyHEP.dev (July 14-18, Seattle): Waiting for feedback from local organisation to
 
 PyHEP (Oct 27-30, Zoom): Reviewing documents and the agenda from the previous event to create a poll for participant interests before planning topics.
 
-### Physics Generators
-
-
 ### JuliaHEP
 
 Planning well underway for [JuliaHEP in Princeton](https://indico.cern.ch/e/juliahep2025), 28-31 July - we have sponsorship from HSF/CERN-SFT, IRIS-HEP and JuliaHub!
@@ -201,10 +172,11 @@ Planning well underway for [JuliaHEP in Princeton](https://indico.cern.ch/e/juli
 Registration and abstract submission are open. Abstract submission deadline is 31 March.
 
 New papers:
+
 - [Fast Jet Finding in Julia](https://arxiv.org/abs/2503.08146)
 - [Julia in HEP](https://arxiv.org/abs/2503.08184)
 
-Interst in discussing how to use the Julia package in the experiments - [`JetReconstruction.jl`](https://github.com/JuliaHEP/JetReconstruction.jl) developers are working on a statically compiled library with the `juliac` compiler. (FYI, license is MIT, in common with most of the Julia ecosystem.)
+Interest in discussing how to use the Julia package in the experiments - [`JetReconstruction.jl`](https://github.com/JuliaHEP/JetReconstruction.jl) developers are working on a statically compiled library with the `juliac` compiler. (FYI, license is MIT, in common with most of the Julia ecosystem.)
 
 ### GSoC program 2025
 
