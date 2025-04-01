@@ -36,11 +36,11 @@ CMS asked how they could cite the document, so we have decided to put it onto Ze
 [Compute & Accelerator Forum Category](https://indico.cern.ch/category/12741/)
 
 The HSF Seminar on *technical debt in software* happened yesterday: <https://indico.cern.ch/event/1520114/>.
-- Around 30(?) people in attendance (~6 people in the room)
+- Around 30 people in attendance (~6 people in the room)
 - YouTube recording already uploaded: <https://youtu.be/BkSiusiqhSk?si=mTqOtJZa2IOv5PS0>.
 - No slides uploaded yet but speaker will do so soon - not many plots but plots shown very interesting, e.g.:
   
-<img src="{{ site.baseurl }}/organization/_posts/2025/2025-03-26_SeminarSlideSnapshot.png" width="80%">
+<img src="{{ site.baseurl }}/images/coordination/2025-03-26_SeminarSlideSnapshot.png" width="80%">
 
 Planned seminars:
 
