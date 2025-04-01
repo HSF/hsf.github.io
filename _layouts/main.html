@@ -4,96 +4,96 @@ layout: default
 
 <div class="row">
   <div class="col-sm-12 blog-main">
-
-<hr>
-        <div class=row>
-          <div class="col-md-4">
-            <img src="{{ '/images/hsf_logo_angled.png' | relative_url }}" alt="HSF Logo" width="70%">
-          </div>
-          <div class="col-md-8">
-            <p class="lead">
-The HEP Software Foundation facilitates cooperation and
-<a href="{{site.baseurl}}/activities/cwp.html">common efforts</a>
-in High Energy Physics software and computing internationally.
-</p>
+    
+    <hr>
+    <div class=row>
+      <div class="col-md-4">
+        <img src="{{ '/images/hsf_logo_angled.png' | relative_url }}" alt="HSF Logo" width="70%">
       </div>
+      <div class="col-md-8">
+        <p class="lead">
+          The HEP Software Foundation facilitates cooperation and common efforts in High
+          Energy Physics software and computing internationally, with these <a
+          href="organization/goals.html">goals and objectives</a>.</p>
+        </div>
       </div>
-
-<hr>
-
-<!-- Important announcements from announcements/_posts -->
-  {% assign has_announcements = false %}
-  {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
-  {% for post in site.categories.announcements reversed %}
-    {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
-    {% if stopdate > sitedate %}
-    {% assign has_announcements = true %}
-<div class="row alert alert-warning">
-  <p class="lead event-announce">
-    <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }} (<a href="{{ post.link }}">more info</a>)
-  </p>
-</div>
-    {% endif %}
-  {% endfor %}
-
-{% if has_announcements %}
-<hr>
-{% endif %}
-
- <!-- Various boxes with more information -->
-<div class="row">
-
- <div class="col-lg-4">
-  <h2>Meetings</h2>
-    <p>
-      The HSF holds <a href="{{ '/future-events.html' | relative_url }}" target="_hsf_indico">regular meetings</a>
-      in its activity areas and has bi-weekly coordination meetings as well.
-      All are welcome to join these public meetings and other HSF activities.
-    </p>
-    <ul class="list list-simple">
-{% assign pagedate = site.time | date: "%Y-%m-%d"   %}
-{% for post in site.categories.organization limit: 3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-    </ul>
-    <p><a href="{{ '/future-events.html' | relative_url }}" role="button">Upcoming HSF and community events &raquo;</a></p>
-    <p><a href="{{ '/organization/minutes.html' | relative_url }}" role="button">Full list of past meetings &raquo;</a></p>
-  </div>
-
-
-  <div class="col-lg-4">
-    <h2>WLCG-HSF Workshop 2025</h2>
-    <p>The HSF will hold its 2025 workshop joint with WLCG at IJCLab from 5-9 May</a>. 
-    </p>
-    <p style="display: block; text-align: center">
-      <img src="{{ '/images/workshops/hsf-wlcg-2025.jpg' | relative_url }}"
-      alt="Workshop Logo" style="width:90%; margin-left: auto; margin-right: auto;">
-    </p>
-    <p>Abstract submission is still open on the themes of <em>Sustainability,
-    Community Software and Training</em> and you can <a
-    href="https://indico.cern.ch/event/1484669/overview">still sign up for the
-    workshop</a>.
-    </p>
-  </div>
-
-
- <div class="col-lg-4">
- 	<h2>Activities</h2>
-    	<p>We organise many <a href="{{ '/what_are_activities.html' | relative_url
-    	}}">activities</a> and <a href="{{ '/events.html' | relative_url
-    	}}">events</a> and we support
-          <a href="{{ '/projects/projects.html' | relative_url }}">HSF affiliated
+      
+      <hr>
+      
+      <!-- Important announcements from announcements/_posts -->
+      {% assign has_announcements = false %}
+      {% assign sitedate = site.time | date: "%Y-%m-%d"   %}
+      {% for post in site.categories.announcements reversed %}
+      {% assign stopdate = post.until | string_to_date | date: "%Y-%m-%d" %}
+      {% if stopdate > sitedate %}
+      {% assign has_announcements = true %}
+      <div class="row alert alert-warning">
+        <p class="lead event-announce">
+          <span class="glyphicon {{ post.symbol }}" aria-hidden="true"></span> {{ post.title }} (<a href="{{ post.link }}">more info</a>)
+        </p>
+      </div>
+      {% endif %}
+      {% endfor %}
+      
+      {% if has_announcements %}
+      <hr>
+      {% endif %}
+      
+      <!-- Various boxes with more information -->
+      <div class="row">
+        
+        <div class="col-lg-4">
+          <h2>Meetings</h2>
+          <p>
+            The HSF holds <a href="{{ '/future-events.html' | relative_url }}" target="_hsf_indico">regular meetings</a>
+            in its activity areas and has bi-weekly coordination meetings as well.
+            All are welcome to join these public meetings and other HSF activities.
+          </p>
+          <ul class="list list-simple">
+            {% assign pagedate = site.time | date: "%Y-%m-%d"   %}
+            {% for post in site.categories.organization limit: 3 %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <p><a href="{{ '/future-events.html' | relative_url }}" role="button">Upcoming HSF and community events &raquo;</a></p>
+          <p><a href="{{ '/organization/minutes.html' | relative_url }}" role="button">Full list of past meetings &raquo;</a></p>
+        </div>
+        
+        
+        <div class="col-lg-4">
+          <h2>WLCG-HSF Workshop 2025</h2>
+          <p>The HSF will hold its 2025 workshop joint with WLCG at IJCLab from 5-9 May</a>. 
+          </p>
+          <p style="display: block; text-align: center">
+            <img src="{{ '/images/workshops/hsf-wlcg-2025.jpg' | relative_url }}"
+            alt="Workshop Logo" style="width:90%; margin-left: auto; margin-right: auto;">
+          </p>
+          <p>Abstract submission is still open on the themes of <em>Sustainability,
+            Community Software and Training</em> and you can <a
+            href="https://indico.cern.ch/event/1484669/overview">still sign up for the
+            workshop</a>.
+          </p>
+        </div>
+        
+        
+        <div class="col-lg-4">
+          <h2>Activities</h2>
+          <p>We organise many <a href="{{ '/what_are_activities.html' | relative_url
+          }}">activities</a> and <a href="{{ '/events.html' | relative_url
+        }}">events</a> and we support
+        <a href="{{ '/projects/projects.html' | relative_url }}">HSF affiliated
           projects</a>. We help communication within the community through our
           <a href="{{ '/forums.html' | relative_url }}">discussion forums</a>
           and <a href="{{ '/technical_notes.html' | relative_url }}">technical notes</a>.
-          </p>
-      <p>The HSF can also write <a href="{{ '/organization/hsf-letters.html' | relative_url }}">letters
-        of collaboration and cooperation</a> to project proposals.</p>
-   <p><a href="{{ '/get_involved.html' | relative_url }}" role="button">How to get involved &raquo;</a></p>
-       </div>
+        </p>
+        <p>The HSF can also write <a href="{{ '/organization/hsf-letters.html' | relative_url }}">letters
+          of collaboration and cooperation</a> to project proposals.</p>
+          <p><a href="{{ '/get_involved.html' | relative_url }}" role="button">How to get involved &raquo;</a></p>
+        </div>
       </div>
-
-  {{ content }}
-
+      
+      {{ content }}
+      
+    </div>
   </div>
-</div>
+  
