@@ -11,6 +11,7 @@ a full list of all of the papers connected to the [Community White Paper]({{ sit
 {:.table .table-hover .table-condensed .table-striped}
 | Title           | Purpose     | Download    | Source Link |
 | ------------- | ------------- | ------------ | ----------- |
+| The Critical Importance of Software for HEP | Input to the European Particle Physics Strategy Update 2025 | <https://doi.org/10.5281/zenodo.15097159> | [LaTeX](https://github.com/HSF/EPPSU-2025-Paper) |
 | HL-LHC Computing Review: Common Tools and Community Software | Submitted to the May 2020 LHCC HL-LHC review and (with minor amendments) to the US Snowmass Process | <https://zenodo.org/record/4009114> | [LaTeX](https://github.com/HSF/documents/tree/master/LHCC/2020/2020-01) |
 | Monte Carlo generators challenges and strategy towards HL-LHC | Submitted to the May 2020 LHCC HL-LHC review and to the US Snowmass Process | <https://arxiv.org/abs/2004.13687> | |
 | The Importance of Software and Computing to Particle Physics | Submitted to the European Strategy Update | <https://zenodo.org/record/2413005> | [LaTeX](https://github.com/HSF/documents/tree/master/HSF-DOC/2018-01) |
