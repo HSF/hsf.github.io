@@ -7,6 +7,8 @@ layout: plain
 
 * [HEP Software Foundation: Past, Present and Future](https://doi.org/10.5281/zenodo.14186952), DESY IT Seminar, 13 November 2024, Graeme A Stewart
 * [HSF Workshop Outcomes and Actions](https://indico.cern.ch/event/1355750/attachments/2767374/5068691/HSF-DESY-workshop-summary-202406.pdf), ATLAS Software and Computing Week, Oslo, 7 June 2024, Torre Wenaus
+* [News from HSF and international direction of travel](https://indico.cern.ch/event/1466097/contributions/6204015/attachments/2964763/5215684/2024-11-11_SWIFT-HEP-workshop.pdf), [Joint SWIFT-HEP/ExaTEPP Workshop](https://indico.cern.ch/event/1466097/), 11 November 2024, Eduardo Rodrigues
+* [HSF: summary and next steps](https://indico.cern.ch/event/1369601/contributions/5908515/attachments/2858826/5001186/2024-04-17_HSF-summary-and-next-steps.pdf), [WLCG-HSF Workshop 2024](https://indico.cern.ch/e/wlcg-hsf-2024), DESY, 17 May 2024, Eduardo Rodrigues
 * [HSF Retrospective and Future](https://indico.cern.ch/event/1369601/contributions/5908531/attachments/2854575/4992516/HSF%20Retrospective%20and%20Future.pdf), [WLCG-HSF Workshop 2024](https://indico.cern.ch/e/wlcg-hsf-2024), DESY, 12 May 2024, Graeme A Stewart
 * [Updates on C&SW in CERN/SFT, community from WLCG/HSF liaison role](https://indico.cern.ch/event/1366954/contributions/5856708/attachments/2827114/4939480/2024-03-26_SWIFT-HEP-workshop.pdf), [Joint GridPP and SWIFT-HEP Meeting](https://indico.cern.ch/event/1366954), 26 March 2024, Eduardo Rodrigues
 
