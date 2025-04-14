@@ -3,6 +3,10 @@ title: "HSF Presentations"
 layout: plain
 ---
 
+## 2025
+
+* [News from the HSF](https://indico.cern.ch/event/1476120/contributions/6442365/attachments/3047972/5386093/EduardoRodrigues_2025-04-10_SWIFT-HEP-workshop.pdf), [Joint GridPP SWIFT-HEP Workshop](https://indico.cern.ch/event/1476120), 10 April 2025, Eduardo Rodrigues
+
 ## 2024
 
 * [HEP Software Foundation: Past, Present and Future](https://doi.org/10.5281/zenodo.14186952), DESY IT Seminar, 13 November 2024, Graeme A Stewart
