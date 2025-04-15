@@ -17,10 +17,7 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 
 * Claire Antel - University of Geneva
 * Caterina Doglioni - University of Manchester
-* Peter Elmer - Princeton University
-* Daniel Elvira - Fermilab
 * Michel Jouvin - IJCLab, CNRS/IN2P3
-* David Lange - Princeton University
 * Paul Laycock - University of Geneva
 * Pere Mato - CERN
 * Mark Neubauer - University of Illinois
