@@ -20,7 +20,7 @@ The group aims to develop a training program that can be pursued by researchers 
     Join an event!<br/>
     Discover new topics together with mentors and peers!
   </a>
-  <a href="{{site.baseurl}}/training/curriculum.html">
+  <a href="https://hsf-training.org/training-center/">
     Self study!<br/>
     Learn at your own pace. No matter if you want to get a quick overview
     or dive in the details, this is for you!
@@ -62,7 +62,7 @@ Today's graduate students will be the young faculty members driving HEP research
     Join an event!<br/>
     Discover new topics together with mentors and peers!
   </a>
-  <a href="{{site.baseurl}}/training/curriculum.html">
+  <a href="https://hsf-training.org/training-center/">
     HSF Training center<br/>
     Learn at your own pace. No matter if you want to get a quick overview
     or dive in the details, this is for you!
