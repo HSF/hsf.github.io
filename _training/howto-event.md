@@ -270,7 +270,7 @@ There are a few logistical items that the facilitator (i.e. you) should bear in 
 
 # Further reads
 
-* [HSF Training home](https://hepsoftwarefoundation.org/workinggroups/training.html)
+* [HSF Training home](https://hepsoftwarefoundation.org/activities/training.html)
 * [The different roles in an HSF-training event](https://hepsoftwarefoundation.org/training/educators.html)
 * [The HSF training curriculum](https://hepsoftwarefoundation.org/training/curriculum.html)
 * Creating content:
