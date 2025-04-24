@@ -38,7 +38,7 @@ Agenda almost finalized
 Planned seminars:
 
 - April seminar canceled
-- 28th May (as anounced last time): Seminar on AdePT and Celeritas update on detector simulation with GPUs.
+- 28th May (as announced last time): Seminar on AdePT and Celeritas update on detector simulation with GPUs.
 
 June has a clash with the EPPSU symposium - TBD if we have a seminar.
 
@@ -58,7 +58,7 @@ The chair (Graeme) ends the mandate on June and leaving CERN; also there are a f
 
 Discussion ongoing with ACTS which is a candidate
 
-DIRAC : answer expected in the coming week afther their collaboration discussion
+DIRAC : answer expected in the coming week after their collaboration discussion
 
 ## Activities Updates
 
