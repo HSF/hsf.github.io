@@ -54,7 +54,7 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 | *Workshop*     | *Location*             | *Date*                | *Agenda link*                                                                         |
 | -------------- | ---------------------- | ----------------------| ------------------------------------------------------------------------------------- |
 | PyHEP 2025     | Online workshop        | October 27-30, 2025   | tba                                                                                   |
-| PyHEP 2025.dev | Seattle, WA, USA       | July 14-17, 2025      | [Indico](https://indico.cern.ch/event/1515852){:target="_pyhep2025_dev_indico"}       |
+| PyHEP 2025.dev | Seattle, WA, USA       | July 14-17, 2025      | [Indico](https://indico.cern.ch/e/PyHEP2025.dev){:target="_pyhep2025_dev_indico"}       |
 | PyHEP 2024.dev | Aachen, Germany        | August 26-30, 2024    | [Indico](https://indico.cern.ch/e/PyHEP2024.dev){:target="_pyhep2024_dev_indico"}     |
 | PyHEP 2024     | Online workshop        | July 1-4, 2024        | [Indico](https://indico.cern.ch/e/PyHEP2024){:target="_pyhep2024_indico"}             |
 | PyHEP 2023     | Online workshop        | October 9-12, 2023    | [Indico](https://indico.cern.ch/e/PyHEP2023){:target="_pyhep2023_indico"}             |
@@ -74,7 +74,7 @@ As in previous years, two events will be held again this year:
 PyHEP 2025, on October 27-30, is a continuation of the free, online workshop series, which has been bringing
 Python HEP developers and physicists together these past years.
 
-PyHEP.dev 2026 is intended for Python HEP software developers to plan a coherent roadmap and make priorities for the upcoming year. It will be held in-person in Seattle, WA (US) on July 14-17.
+PyHEP.dev 2025 is intended for Python HEP software developers and power users to plan a coherent roadmap and make priorities for the upcoming year. It will be held in-person in Seattle, WA (US) on July 14-17.
 It will include presentations by participants, but the focus will be on birds-of-a-feather style group discussions.
 Attendance is limited to ~50 participants.
 
