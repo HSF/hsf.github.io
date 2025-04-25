@@ -34,7 +34,7 @@ The agenda is available here: <https://indico.cern.ch/event/1484669/timetable/>
 Planned seminars:
 
 - Planning seminar on HS3 (HEP Statistics Serialization Standard) with multiple speakers. Still trying to find suitable date with speakers in April/June - but getting a bit late for April.
-- 28th May (as anounced last time): Seminar on AdePT and Celeritas update on detector simulation with GPUs.
+- 28th May (as announced last time): Seminar on AdePT and Celeritas update on detector simulation with GPUs.
 
 June has a clash with the EPPSU symposium - TBD if we have a seminar.
 
