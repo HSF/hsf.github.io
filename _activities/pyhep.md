@@ -94,7 +94,6 @@ Gordon Watts - University of Washington
 One of the, or both, events, is/are kindly sponsored by (details on the Indico pages)
 
 ![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
-![NSF]({{ site.baseurl }}/images/pyhep/NSF_logo.jpg){:height="60px"}
 
 ## PyHEP 2024 & PyHEP.dev 2024
 
