@@ -7,7 +7,7 @@ layout: plain_toc
 
 Present/Contributing: Ruslan Mashinistov, Liz Sexton-Kennedy, Claire Antel, Ianna Osborne, Michel Villanueva, Inês Ochoa, Maarten van Veghel, Juan Miguel Carceller, Sapta Bhattacharya
 
-Apologies/Contributing: Eduardo Rodrigues, Graeme A. Stewart, Paul Laycock, Caterina Doglioni, Michel Jouvin, Christian Wessel, Alexander Moreno Briceño 
+Apologies/Contributing: Eduardo Rodrigues, Graeme A. Stewart, Paul Laycock, Caterina Doglioni, Michel Jouvin, Christian Wessel, Alexander Moreno Briceño
 
 
 ## News, general matters, announcements
@@ -112,7 +112,7 @@ Future events:
 Ruslan Mashinistov:
 
 - I reached out to people who participated in the GitLab DUO pilot at CERN, as mentioned in the AI-powered development tools at CERN slides, but unfortunately received no responses.
-- Shuwei Ye, an AI tools enthusiast from the BNL NPPS (physics software) group, has agreed to share his experience. He has insights on Aider, DeepSeek-R1, Copilot, Codeium, and more. 
+- Shuwei Ye, an AI tools enthusiast from the BNL NPPS (physics software) group, has agreed to share his experience. He has insights on Aider, DeepSeek-R1, Copilot, Codeium, and more.
 - I need advice on how to attract more presenters and participants for the AI-assisted tools HSF seminar
 
 
@@ -133,7 +133,7 @@ Planning a new meeting with liaisons to discuss contributions.
 [JuliaHEP 2025 Workshop](https://indico.cern.ch/event/1488852/) will be held at Princeton from July 28 to 31.
 - Early registration deadline for local participation: April 25
     - After April 25 an additional fee will apply
-- Final registration deadline: July 7 
+- Final registration deadline: July 7
 
 ### GSoC program 2025
 
