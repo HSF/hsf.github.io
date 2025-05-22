@@ -108,7 +108,7 @@ Website still needs updated with current convener names.
 
 ### Physical Constants
 
-Graeme discussed with ATLAS who are concerned about the number of different places where phsyical constants get defined in HEP, viz. at least in [CLHEP](https://gitlab.cern.ch/CLHEP/CLHEP/-/blob/develop/Units/Units/PhysicalConstants.h?ref_type=heads), [ROOT](https://github.com/root-project/root/blob/master/geom/geom/inc/TGeoPhysicalConstants.h) and [Geant4](https://gitlab.cern.ch/geant4/geant4/-/blob/master/source/externals/clhep/include/CLHEP/Units/PhysicalConstants.h).
+Graeme discussed with ATLAS who are concerned about the number of different places where physical constants get defined in HEP, viz. at least in [CLHEP](https://gitlab.cern.ch/CLHEP/CLHEP/-/blob/develop/Units/Units/PhysicalConstants.h?ref_type=heads), [ROOT](https://github.com/root-project/root/blob/master/geom/geom/inc/TGeoPhysicalConstants.h) and [Geant4](https://gitlab.cern.ch/geant4/geant4/-/blob/master/source/externals/clhep/include/CLHEP/Units/PhysicalConstants.h).
 
 This mainly seems to affect C++, Python is more conststent with [hepunits](https://github.com/scikit-hep/hepunits) and Julia has [PhysicalConstants.jl](https://github.com/JuliaPhysics/PhysicalConstants.jl/).
 
