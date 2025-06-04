@@ -21,17 +21,7 @@ Every EC represented on the AG must have:
 
 The Advisory Group chair is responsible for ensuring that the EC Contact is up to date as, e.g., computing coordinator terms are decided by their collaborations. The AG chair can advise the EC Contact on selecting a suitable AG member. The AG chair is also responsible for ensuring that AG members are active in fulfilling the needs of the AG.  Nominally AG members have a term of 2 years at which point their position should be rediscussed with the EC Contact, or earlier, if necessary.  If an EC stops actively engaging with HSF, their AG membership would be allowed to lapse.
 
-## Meetings
-
-A nominal meeting schedule consists of one AG meeting per year, arranged to precede SG meetings so that AG input can be discussed there.  The AG chair is responsible for deciding on the meeting agenda and will consult with the SG chair on this; AG meeting minutes are distributed among the AG members and are not made publicly available.
-
-## Advisory Group Chair Election
-
-The Advisory Group chair is elected annually and serves for 2 years, serving a maximum of 2 terms. The Steering Group secretary serves as returning officer and is in charge of running the election. Candidates for the chair of the Advisory Group can be nominated and can self-nominate. The election will be held by confidential ballot. In the case of a tie, with more than two candidates, the top two candidates are retained and a second round is held. If there is still a tie after the second round, the SG chair is decided by lot.
-
-## Advisory Group Composition
-
-Currently the HSF Advisory Group comprises representatives from:
+## Current Advisory Group Composition
 
 - ALICE Experiment
 - ATLAS Experiment
@@ -41,3 +31,11 @@ Currently the HSF Advisory Group comprises representatives from:
 - LHCb Experiment
 - MCnet Community
 - WLCG Project
+
+## Meetings
+
+A nominal meeting schedule consists of one AG meeting per year, arranged to precede SG meetings so that AG input can be discussed there.  The AG chair is responsible for deciding on the meeting agenda and will consult with the SG chair on this; AG meeting minutes are distributed among the AG members and are not made publicly available.
+
+## Advisory Group Chair Election
+
+The Advisory Group chair is elected annually and serves for 2 years, serving a maximum of 2 terms. The Steering Group secretary serves as returning officer and is in charge of running the election. Candidates for the chair of the Advisory Group can be nominated and can self-nominate. The election will be held by confidential ballot. In the case of a tie, with more than two candidates, the top two candidates are retained and a second round is held. If there is still a tie after the second round, the SG chair is decided by lot.
