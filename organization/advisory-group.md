@@ -28,3 +28,16 @@ A nominal meeting schedule consists of one AG meeting per year, arranged to prec
 ## Advisory Group Chair Election
 
 The Advisory Group chair is elected annually and serves for 2 years, serving a maximum of 2 terms. The Steering Group secretary serves as returning officer and is in charge of running the election. Candidates for the chair of the Advisory Group can be nominated and can self-nominate. The election will be held by confidential ballot. In the case of a tie, with more than two candidates, the top two candidates are retained and a second round is held. If there is still a tie after the second round, the SG chair is decided by lot.
+
+## Advisory Group Composition
+
+Currently the HSF Advisory Group comprises representatives from:
+
+- ALICE Experiment
+- ATLAS Experiment
+- Belle II Experiment
+- CMS Experiment
+- DUNE Experiment
+- LHCb Experiment
+- MCnet Community
+- WLCG Project
