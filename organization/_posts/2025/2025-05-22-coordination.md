@@ -29,7 +29,7 @@ We had HSF sessions on Common software and Software Projects, Sustainable Softwa
 Outcomes:
 
 - In the HSF BoF we discussed project affiliation. Feedback that bronze, silver and gold were interpreted in a "judgemental" way, i.e., that bronze would be viewed as pejorative and not be good for the project.
-    - Some follow-up discussions are forming a proposal that we have core criteria for projects to fulfil that allows them to be affilites, viz. the [*Best-practice Guidelines*](https://hepsoftwarefoundation.org/projects/guidelines.html).
+    - Some follow-up discussions are forming a proposal that we have core criteria for projects to fulfil that allows them to be affiliates, viz. the [*Best-practice Guidelines*](https://hepsoftwarefoundation.org/projects/guidelines.html).
     - There are a set of *bonus* badges when projects are outstanding in particular areas, e.g., documentation, training, user support.
         - These can be developed over time.
     - We will try to come up with a more concrete proposal (will have an SG discussion) - input and feedback welcome!
@@ -121,7 +121,7 @@ Q. Is there interest in having a common stand-alone library for this? C++ seems 
     - Values can be programmatically obtained via. an [API](https://pdg.lbl.gov/2024/api/index.html)
     - Then dropped into a generated source file
 
-Generators are also rather messy here, with their own definitions of these values. Or user defined values at the top of data cards!
+Generators are also rather messy here, with their own definitions of measurements, or user defined values for, e.g., particle masses, at the top of data cards.
 
 General feeling this is a good topic to address. Graeme will organise a follow-up meeting.
 
