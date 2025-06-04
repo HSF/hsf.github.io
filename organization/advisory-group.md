@@ -21,6 +21,17 @@ Every EC represented on the AG must have:
 
 The Advisory Group chair is responsible for ensuring that the EC Contact is up to date as, e.g., computing coordinator terms are decided by their collaborations. The AG chair can advise the EC Contact on selecting a suitable AG member. The AG chair is also responsible for ensuring that AG members are active in fulfilling the needs of the AG.  Nominally AG members have a term of 2 years at which point their position should be rediscussed with the EC Contact, or earlier, if necessary.  If an EC stops actively engaging with HSF, their AG membership would be allowed to lapse.
 
+## Current Advisory Group Composition
+
+- ALICE Experiment
+- ATLAS Experiment
+- Belle II Experiment
+- CMS Experiment
+- DUNE Experiment
+- LHCb Experiment
+- MCnet Community
+- WLCG Project
+
 ## Meetings
 
 A nominal meeting schedule consists of one AG meeting per year, arranged to precede SG meetings so that AG input can be discussed there.  The AG chair is responsible for deciding on the meeting agenda and will consult with the SG chair on this; AG meeting minutes are distributed among the AG members and are not made publicly available.
