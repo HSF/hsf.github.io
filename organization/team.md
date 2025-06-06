@@ -17,6 +17,7 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 
 * Claire Antel - University of Geneva
 * Caterina Doglioni - University of Manchester
+* Johannes Elmsheuser - BNL
 * Michel Jouvin - IJCLab, CNRS/IN2P3
 * Paul Laycock - University of Geneva
 * Pere Mato - CERN
@@ -27,6 +28,7 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 * Nicole Skidmore - University of Warwick
 * Graeme Stewart - CERN
 * Andrea Valassi - CERN
+* Michel Hernandez Villanueva - BNL
 * Torre Wenaus - BNL
 
 * The entire group can be contacted via <hsf-steering@googlegroups.com>.
