@@ -67,7 +67,7 @@ ACTS: Graeme and Michel attended the last ACTS weekly developer meeting.
 
 * Graeme presented HSF Project Affiliation and the recent evolution (suppression of badge levels)
 * Very positive feedback from all the persons present: waiting for the formal answer but no real uncertainty!
-* Main discussion was about the benefit of affiliaton for large projects
+* Main discussion was about the benefit of affiliation for large projects
     * We realized that we probably forget to mention that this project affiliation is part of our effort to build a community around software and that the participation of large HEP SW projects is important for us too!
 * They mention that one thing that HSF affiliation could bring to large project, if they want, is an "external view" by people from the same community
     * Could for example be done through the participation to a project advisory board: ACTS would be particularly interested in this
