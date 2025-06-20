@@ -106,7 +106,7 @@ Attendance is low - we have to understand why and decide where we would put put 
 
 - Topics too basic?
 - Not strong enough local organisation?
-- Lack of fee (committment)
+- Lack of fee (commitment)
 - Discuss with experiments the needs they see
 
 Hackathon on [Databases for HEP](https://hsf-training.github.io/hsf-training-databases-basics/index.html) on June 30.
