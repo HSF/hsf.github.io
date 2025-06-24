@@ -102,7 +102,7 @@ We will work on a new version of the project affiliation - will be circulated fo
 - In-person in Potsdam 
 - Registration is still open! Deadline: August 4. 16 people registered!
 
-Attendance is low - we have to understand why and decide where we would put put efforts in the future.
+Attendance is low - we have to understand why and decide where we would/should put efforts in the future.
 
 - Topics too basic?
 - Not strong enough local organisation?
