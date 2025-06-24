@@ -44,7 +44,7 @@ Caterina Doglioni as the new HSF representative at IRIS-HEP is preparing [slides
 Recent and planned seminars:
 
 - 11 June, 16h30 CEST: Julia on GPUs for fun and profit. <https://indico.cern.ch/event/1472683/>
-    - This event co-organised with the [EVERSE Network](https://everse.software/network/)
+    - This event is co-organised with the [EVERSE Network](https://everse.software/network/)
     - We will cross-advertise further events, but no future joint event planned at the moment.
 - No topic for July yet
 
