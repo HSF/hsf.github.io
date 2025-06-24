@@ -73,7 +73,7 @@ We will work on a new version of the project affiliation - will be circulated fo
 - Registration:
     - 83 remote participants registered - 26 remotely participating
     - 8 in-person participants registered - 3 in-person participating
-    - 39 on the slack channel
+    - 39 on the Slack channel
     - Pre-Survey
         - Position/Academic Level:
             - Undergrads: 36.7%
