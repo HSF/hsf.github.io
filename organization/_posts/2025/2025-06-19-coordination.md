@@ -23,7 +23,7 @@ Software and Computing plenary talks are 16h45-18h30 on Thursday.
 ### LHCC
 
 We received very positive and enthusiastic feedback:
-- The LHCC commends the Scikit-HEP project on its recent inclusion in the Scientific Python Ecosystem Coordination (SPEC) Core projects and encourages the HSF to continue strengthening their engagement with the broader Scientific Python community and integration of their training into HSF programs.
+- The LHCC commends the Scikit-HEP project on its recent inclusion in the Scientific Python Ecosystem Coordination (SPEC) Core projects and encourages the HSF to continue strengthening their engagement with the broader Scientific Python community and integration of their training into HSF programmes.
     - Worth a discussion within the Training conveners to see what could be tried as bi-directional engagement.
 - The LHCC acknowledges the challenges in implementing the new HSF-affiliated projects, and recommends a prompt revision of this strategy.
 
