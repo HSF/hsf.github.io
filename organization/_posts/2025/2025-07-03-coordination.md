@@ -111,7 +111,7 @@ We will work on a new version of the project affiliation (streamlined, no bronze
 - Midterm evaluations for shortest projects approaching (Mid-july)
     - mentors should contact admins if they want an extension
     - should also not be afraid to fail students when it doesn't work out
-- We'll invite the students to the SFT induction event next week. (Danilo gives a nice overview over computing in HEP).
+- We'll invite the students to the SFT induction event next week. (Danilo gives a nice overview of computing in HEP).
     - https://indico.cern.ch/event/1564721/
     - will send out mail soon. Mentors: please forward to gsoc students
 - If someone is willing to give a brief introduction to the HSF (and maybe the training program) that would be very welcome.
@@ -127,7 +127,7 @@ Enrico Bothmann will talk about Sherpa for FCC-ee on July 24th at 17:00 CERN. In
 
 ### Physical Constants / HEPdata Library
 
-Reminder: we are proposing a C++ header-only library that defines physical constants and some salient HEPdata in a lightweight, eaasy-to-use manner. Also taking into account versioning.
+Reminder: we are proposing a C++ header-only library that defines physical constants and some salient HEPdata in a lightweight, easy-to-use manner. Also taking into account versioning.
 
 We are discussing a next meeting for this, probably next week. Please let Graeme know if you'd like to be kept in the loop.
 
