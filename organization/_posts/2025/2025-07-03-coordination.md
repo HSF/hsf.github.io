@@ -29,11 +29,11 @@ Computing session at Venice went very well:
 
 WLCG noted that current projections for computing needs will not fit into "flat budget" - so more software R&D is needed. Tommaso also noted that little concrete progress had been made with careers.
 
-Our EPPSU submission has been submitted EPJ-C.
+Our EPPSU submission has been submitted to EPJ-C.
 
 ### IRIS-HEP Steering Board
 
-Caterina Doglioni is the new HSF representative at IRIS-HEP is preparing [slides](https://docs.google.com/presentation/d/1zrV0P_kIDxwDS9bZsYYE6S3HXPUsaEXfKkQUYr8EjmA/edit?usp=sharing) from the HSF. The presentation is scheduled on July 15.
+Caterina Doglioni, as the new HSF representative at IRIS-HEP, is preparing [slides](https://docs.google.com/presentation/d/1zrV0P_kIDxwDS9bZsYYE6S3HXPUsaEXfKkQUYr8EjmA/edit?usp=sharing) from the HSF. The presentation is scheduled for July 15.
 
 ### HSF Seminar Series and Compute Accelerator Forum
 
@@ -77,7 +77,7 @@ We will work on a new version of the project affiliation (streamlined, no bronze
 
 ### PyHEP
 
-- [PyHEP.dev 2025 workshop](https://indico.cern.ch/e/PyHEP2025.dev) organisation being finalised:
+- [PyHEP.dev 2025 workshop](https://indico.cern.ch/e/PyHEP2025.dev) organisation being finalised (July 14–17, 2025):
     - More than 30 participants confirmed
     - 12 abstracts accepted
     - Talks in the mornings, discussions & hacking sessions in the afternoons
@@ -112,7 +112,7 @@ We will work on a new version of the project affiliation (streamlined, no bronze
     - mentors should contact admins if they want an extension
     - should also not be afraid to fail students when it doesn't work out
 - We'll invite the students to the SFT induction event next week. (Danilo gives a nice overview of computing in HEP).
-    - https://indico.cern.ch/event/1564721/
+    - <https://indico.cern.ch/event/1564721/>
     - will send out mail soon. Mentors: please forward to gsoc students
 - If someone is willing to give a brief introduction to the HSF (and maybe the training program) that would be very welcome.
     - Training group have some suitable material, will arrange details offline
