@@ -21,7 +21,7 @@ Eduardo has circulated a [draft letter](https://docs.google.com/document/d/1vs3T
 
 Computing session at Venice went very well:
 
-- Presentation on various aspects during the 3 hour parallel session
+- Presentations on various aspects during the 3-hour parallel session
 - 2 talks during the plenary session, one about HL-LHC, one about future beyond it
   - Parallel session slides: <https://agenda.infn.it/event/44943/sessions/33815/#20250623> and <https://agenda.infn.it/event/44943/sessions/33818/#20250623>
   - Plenary session slides: <https://agenda.infn.it/event/44943/sessions/32614/#20250626>
