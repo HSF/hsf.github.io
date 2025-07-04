@@ -46,5 +46,5 @@ second round, the SG chair is decided by lot.
 
 ## Present and Past SG Chairs
 
-Eduardo Rodrigues (LHCb, University of Liverpool), 07/2025 -
-Graeme Stewart (CERN EP-SFT), 07/2024 - 06/2025
+- Eduardo Rodrigues (LHCb, University of Liverpool), 07/2025 -
+- Graeme Stewart (CERN EP-SFT), 07/2024 - 06/2025
