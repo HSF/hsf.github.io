@@ -43,3 +43,8 @@ case of multiple candidates, but can be by simple endorsement if there is only
 one candidate. In the case of a tie between candidates, the top two candidates
 are retained and a second round is held. If there is still a tie after the
 second round, the SG chair is decided by lot.
+
+## Present and Past SG Chairs
+
+Eduardo Rodrigues (LHCb, University of Liverpool), 07/2025 -
+Graeme Stewart (CERN EP-SFT), 07/2024 - 06/2025
