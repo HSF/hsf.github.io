@@ -1,6 +1,6 @@
 ---
 title: "HSF Affiliated Projects and Software"
-author: Eduardo Rodrigues, Pere Mato
+author: Eduardo Rodrigues, Pere Mato, Graeme Stewart
 layout: plain
 ---
 
@@ -27,18 +27,14 @@ Formal endorsement is provided by the HSF SG following a short evaluation period
 
 The list of HSF Affiliated Projects and Software is hosted in a dedicated area on the HSF website, curated and maintained by the HSF SG.
 
-The recognition of bijective engagement with the HSF is displayed via *GitHub Badges*.
-Three levels distinguish mainly the level of maturity, community support and  engagement: Bronze, Silver and Gold.
-In broad terms, the attribution of the endorsement level is based on the following guidelines, which are detailed in the dedicated document on
-[Guidelines for HSF Affiliated Projects and Software, and Endorsement Badge Levels]({{ site.baseurl }}/projects/guidelines.html).
+The recognition of bijective engagement with the HSF is displayed via a [*GitHub
+Badge*]({{ site.baseurl }}/projects/badges.html). This assures the community
+that the project is relevant, useful and meets appropriate software quality
+standards, as defined in our [guidelines]({{ site.baseurl }}/projects/guidelines.html).
 
-* Bronze: new or young endeavour, likely evolving from and within a collaboration or experiment, but with the potential for other communities to use. It should be committed to meeting best practices in software engineering, e.g., documentation and a test suite.
-* Silver: aiming for gold but in an earlier phase towards strong community support (e.g., adoption is still modest, maintenance is not secured at least in the medium term by more than a single person). High standards of software engineering should be met.
-* Gold: endeavour adopted by several collaborations and/or experiments with a strong and long-term community support model.
+### HSF Project Badge
 
-### HSF Project Badges
-
-Links to code snippets for HSF project badges are on our [badges page]({{ site.baseurl }}/projects/badges.html).
+Links to code snippets for the HSF project badge are on our [badges page]({{ site.baseurl }}/projects/badges.html).
 
 ### Annual Project Awards
 
