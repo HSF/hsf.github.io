@@ -28,7 +28,7 @@ of profiling and quality assurance toolkits.
 
 Current WG conveners:
 - Joe Osborn (sPHENIX/ePIC, Brookhaven National Laboratory)
-- Christian Wessel (Belle II, DESY)
+- Christian Wessel (CMS, DESY)
 - Maarten van Veghel (LHCb, Nikhef)
 - Ines Ochoa (ATLAS, LIP)
 
