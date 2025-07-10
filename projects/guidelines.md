@@ -31,7 +31,7 @@ towards improvements.
 
 ### General guidelines
 
-Generally all of the following must be met by a project to be an HSF Affiliated Project and exceptions should be justified.
+Generally, all of the following must be met by a project to be an HSF Affiliated Project, and exceptions should be justified.
 
 Any software library should strive to fulfil the following:
 
@@ -91,7 +91,7 @@ These guidelines lie in three major categories:
 * Sustainability and support structures of the project (e.g. number of active developers, discussion fora, documentation, training events, time to respond to issues, etc.)
 * Level of adoption of the software by experiments and other projects, hence the impact of the project.
 
-### Level 3 Software
+### Tier 3 Software
 
 A.k.a. *analysis code* in the 3-tier model.
 

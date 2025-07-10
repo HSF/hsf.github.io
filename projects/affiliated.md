@@ -29,7 +29,7 @@ The list of HSF Affiliated Projects and Software is hosted in a dedicated area o
 
 The recognition of bijective engagement with the HSF is displayed via a [*GitHub
 Badge*]({{ site.baseurl }}/projects/badges.html). This assures the community
-that the project is relevant, useful and meets appropriate software quality
+that the project/software is relevant, useful and meets appropriate software quality
 standards, as defined in our [guidelines]({{ site.baseurl }}/projects/guidelines.html).
 
 ### HSF Project Badge
