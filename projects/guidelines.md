@@ -78,7 +78,8 @@ The review can even be done [directly in a browser](https://learn.scientific-pyt
 
 Recognising that not all software is the same is very important to ensure that
 appropriate guidelines are applied. Here we adopt roughly the *three levels of
-software*, originally developed by the Australian Research Data Commons (ARDC)
+software*, originally developed by the
+[Australian Research Data Commons](https://ardc.edu.au/) (ARDC)
 and subsequently adopted by the [EVERSE Project](https://everse.software).
 
 From these levels we have developed guidelines that projects can examine to
