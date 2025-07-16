@@ -5,6 +5,9 @@ layout: default
 ---
 
 # Project Guidelines
+
+*This page is kept for archive purposes - for up-to-date and maintained project recommendations please refer to [this page]({{ site.baseurl }}/projects/guidelines.html).*
+
 The following is a skeleton for the minimal requirements for a project to be considered as part of he HSF. That main motivation being to ensure interoperability and usability of this project in other projects and being able to build consistent software stacks. In addition it should make it easier for other developers to contribute to existing projects.
 
 This is work in progress and details will need to be discussed and agreed with community.

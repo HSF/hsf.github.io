@@ -1,13 +1,15 @@
 ---
 title: "Affiliated Projects and Software Guidelines"
-author: Eduardo Rodrigues, Pere Mato
+author: Eduardo Rodrigues, Pere Mato, Graeme Stewart
 layout: plain
-redirect_from: /project_guidelines.html
 ---
 
-In a spirit of openness and flexibility, the HSF maintains an evolving checklist of best practices for HSF Affiliated Projects and Software, rather than a set of requirements.
-[HSF Affiliated Projects and Software]({{ site.baseurl }}/projects/affiliated.html) need to abide by (at least a subset of) the guidelines,
-which are used for their endorsement and attribution of Bronze, Silver or Gold levels of recognition.
+In a spirit of openness and flexibility, the HSF maintains an evolving checklist
+of best practices for HSF Affiliated Projects and Software, rather than a set of
+strict requirements. [HSF Affiliated Projects and Software]({{ site.baseurl
+}}/projects/affiliated.html) need to abide by at least a significant subset of
+the guidelines (recognising that some may not be relevant for particular
+projects).
 
 The guidelines have been created to:
 
@@ -17,13 +19,22 @@ The guidelines have been created to:
 
 The guidelines can be updated in light of updates or release of community practices, such as those emerging from e.g. the [EVERSE project](https://everse.software).
 
-The guidelines take inspiration from the [“old HSF page”](https://hepsoftwarefoundation.org/project_guidelines.html) and from the [Open Source Security Foundation (OpenSSF)’s page](https://www.bestpractices.dev/en/criteria).
+The guidelines take inspiration from an [older HSF project page]( {{
+site.baseurl}}/project_guidelines.html) and from the [Open Source Security
+Foundation (OpenSSF)’s page](https://www.bestpractices.dev/en/criteria).
+
+There are minimum standards that are required to be an affiliate, but beyond
+that we encourage all projects to look at the criteria set out below and work
+towards improvements.
 
 ## Best-practice Guidelines
 
 ### General guidelines
 
-Any software library should strive to the following:
+Generally, all of the following must be met by a project to be an HSF Affiliated Project, and exceptions should be justified.
+
+Any software library should strive to fulfil the following:
+
 * **Availability of the code in a public repository.** The code should be accessible in anonymous read-only mode by anybody. GitHub is a very popular solution.
 * **A suitable name.** It is good practice to choose a new name (a unique name is better, but often difficult) or at least a name that conveys what the library is about.
 Avoid pre-existing trademarks for software products or services.
@@ -63,117 +74,131 @@ Compliance with respect to the guidelines is provided via a "repo review” fram
 ([GitHub repository](https://github.com/scientific-python/repo-review)).
 The review can even be done [directly in a browser](https://learn.scientific-python.org/development/guides/repo-review/) for repositories hosted on GitHub!
 
-## Endorsement Badge Levels
+## Differentiated Software Best Practices
 
-Three endorsement levels are defined to distinguish mainly the level of maturity, developer support, community support and engagement: Bronze, Silver and Gold.
-For each level a number of requisites need to be demonstrated.
-Each level adds more requisites to the previous level.
-These requisites lay in three major categories:
+Recognising that not all software is the same is very important to ensure that
+appropriate guidelines are applied. Here we adopt roughly the [*three levels of
+software*](https://everse.software/RSQKit/three_tier_view), originally developed by the
+[Australian Research Data Commons](https://ardc.edu.au/) (ARDC)
+and subsequently adopted by the [EVERSE Project](https://everse.software).
+
+From these levels we have developed guidelines that projects can examine to
+understand typical levels of maturity, developer support, community support and
+engagement.
+
+These guidelines lie in three major categories:
 
 * Software engineering practices followed by the project (as described in the Best-practice Guideline section and with specifics for the programming language ecosystem).
 * Sustainability and support structures of the project (e.g. number of active developers, discussion fora, documentation, training events, time to respond to issues, etc.)
 * Level of adoption of the software by experiments and other projects, hence the impact of the project.
 
-The keywords *MUST*, *SHOULD*, *MAY* that appear in the criteria in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119):
+### Tier 3 Software
 
-* The term MUST is an absolute requirement, and MUST NOT is an absolute prohibition.
-* The term SHOULD indicates a criterion that is normally required, but there may exist valid reasons in particular circumstances to ignore it.
-* The term MAY provides one way something can be done, e.g., to make it clear that the described implementation may differ and be acceptable.
+A.k.a. *analysis code* in the 3-tier model.
 
-### Bronze
-
-The purpose of this entry level is for a young endeavour, likely evolving from and within a collaboration or experiment, but with the potential for other communities or experiments to use. At this level the category of best software practices is what is mainly required.
+For the HSF we interpret this as guidelines suitable for a young endeavour,
+likely evolving from and within a collaboration or experiment, but with the
+potential for other communities or experiments to use. At this level the
+category of best software practices is what is mainly required.
 
 #### Basics
 
-* The project SHOULD follow general and language-specific best practices as given for example in the HSF’s Best Practice Guidelines.
-* The project source code MUST reside on a version-controlled repository that is publicly readable and has a URL (e.g., GitHub, GitLab).
-* The README file at the top level MUST describe what the software does (what problem does it solve?).
-* The project website or repository MUST provide information on how to:
+* The project should follow general and language-specific best practices as given for example in the HSF’s Best Practice Guidelines.
+* The project source code should reside on a version-controlled repository that is publicly readable and has a URL (e.g., GitHub, GitLab).
+* The README file at the top level should describe what the software does (what problem does it solve?).
+* The project website or repository should provide information on how to:
 obtain, provide feedback (as bug reports or enhancements), and contribute to the software.
-* The contribution process MUST be explained (e.g., are pull requests used?).
-* The software MUST be released on an Open Software license.
-* The project MUST post the license(s) of its results in a standard location in their source repository.
+* The contribution process should be explained (e.g., are pull requests used?).
+* The software should be released on an Open Software license.
+* The project should post the license(s) of its results in a standard location in their source repository.
 
 #### Documentation
 
-* The project MUST provide basic documentation for its software.
-* The project MUST provide reference documentation that describes the external interface (both input and output) of the software produced by the project.
-* The project MUST have one or more mechanisms for discussion (including proposed changes and issues) that are searchable, allow messages and topics to be addressed by URL, enable new people to participate in some of the discussions, and do not require client-side installation of proprietary software.
-* The project MUST provide documentation in English and be able to accept bug reports and comments about code in English.
+* The project should provide basic documentation for its software.
+* The project should provide reference documentation that describes the external interface (both input and output) of the software produced by the project.
+* The project should have one or more mechanisms for discussion (including proposed changes and issues) that are searchable, allow messages and topics to be addressed by URL, enable new people to participate in some of the discussions, and do not require client-side installation of proprietary software.
+* The project should provide documentation in English and be able to accept bug reports and comments about code in English.
 
 #### Change Control
 
-* The project's source repository MUST track what changes were made, who made the changes, and when the changes were made.
-* To enable collaborative review, the project's source repository SHOULD include interim versions for review between releases; it SHOULD NOT include only final releases.
-* The project results MUST have a unique version identifier for each release intended to be used by users.
+* The project's source repository should track what changes were made, who made the changes, and when the changes were made.
+* To enable collaborative review, the project's source repository should include interim versions for review between releases; it should not include only final releases.
+* The project results should have a unique version identifier for each release intended to be used by users.
   We recommend using a well defined versioning scheme that is consistent with practices in your sub-domain, e.g. [Semantic Versioning](https://semver.org) or [Calendar Versioning](https://calver.org).
-* The project MUST provide, in each release, release notes that are a human-readable summary of major changes in that release to help users determine if they should upgrade and what the upgrade impact will be.
-* The release notes SHOULD NOT be the raw output of a version control log (e.g., the "git log" command results are not release notes).
+* The project should provide, in each release, release notes that are a human-readable summary of major changes in that release to help users determine if they should upgrade and what the upgrade impact will be.
+* The release notes should not be the raw output of a version control log (e.g., the "git log" command results are not release notes).
 
 #### Sustainability
 
-* The project MUST be maintained.
-* The project SHOULD have at least one long-term maintainer with a future commitment to the software of at least 1 year.
-* The project MUST provide a process for users to submit bug reports (e.g., using an issue tracker or a mailing list).
-* The project SHOULD use an issue tracker for tracking individual issues.
-* The project SHOULD acknowledge a majority of bug reports submitted in the last 2-12 months (inclusive); the response need not include a fix.
-* The project SHOULD respond to a majority (>50%) of enhancement requests in the last 2-12 months (inclusive).
-* The project MUST have a publicly available archive for reports and responses for later searching.
+* The project should be maintained.
+* The project should have at least one long-term maintainer with a future commitment to the software of at least 1 year.
+* The project should provide a process for users to submit bug reports (e.g., using an issue tracker or a mailing list).
+* The project should use an issue tracker for tracking individual issues.
+* The project should acknowledge a majority of bug reports submitted in the last 2-12 months (inclusive); the response need not include a fix.
+* The project should respond to a majority (>50%) of enhancement requests in the last 2-12 months (inclusive).
+* The project should have a publicly available archive for reports and responses for later searching.
 
 #### Level of adoption
 
-* The software produced by the project MUST be of interest for the HEP experiments.
-* The software SHOULD be adopted by at least one experiment/collaboration/project.
+* The software produced by the project should be of interest for the HEP experiments.
+* The software should be adopted by at least one experiment/collaboration/project.
 
-### Silver
+### Tier 2
 
-Are for projects aiming for Gold but in an earlier phase towards strong community support and adoption (e.g., adoption is still relatively shy, maintenance is not secured at least in the medium term by more than a single person).
-High standards of software engineering should be met.
-All the criteria for Bronze MUST be fulfilled, with the addition of the following criteria.
+A.k.a. *prototype tools* in the 3-tier model.
+
+In the HSF we interpret this as projects moving towards strong
+community support and adoption (e.g., adoption is still relatively shy,
+maintenance is not secured at least in the medium term by more than a single
+person). High standards of software engineering should be met. All the criteria
+for Tier 3 should be fulfilled, with the addition of the following criteria.
 
 #### Basics
 
-* The project MUST follow general and language-specific best practices as given for example in the HSF’s Best Practice Guidelines.
+* The project should follow general and language-specific best practices as given for example in the HSF’s Best Practice Guidelines.
 
 #### Documentation
 
-* The project MUST provide different kinds of documentation:
+* The project should provide different kinds of documentation:
   * Basic documentation.
   * User documentation.
   * Reference manual.
   * Tutorials (e.g. notebooks).
-  * The project SHOULD provide specific training for users to use the software product.
+  * The project should provide specific training for users to use the software product.
 
 #### Sustainability
 
-* The project MUST be maintained and produce at least one new release a year if there are changes and fixes that have been accumulated.
-* The project MUST have at least one long-term maintainer with a future commitment to the software of at least 2 years.
-* The project MUST use an issue tracker for tracking individual issues.
-* The project MUST acknowledge a majority of bug reports submitted in the last 1-3 months (inclusive); the response need not include a fix.
-* The project SHOULD respond to a majority (>50%) of enhancement requests in the last 1-3 months (inclusive).
+* The project should be maintained and produce at least one new release a year if there are changes and fixes that have been accumulated.
+* The project should have at least one long-term maintainer with a future commitment to the software of at least 2 years.
+* The project should use an issue tracker for tracking individual issues.
+* The project should acknowledge a majority of bug reports submitted in the last 1-3 months (inclusive); the response need not include a fix.
+* The project should respond to a majority (>50%) of enhancement requests in the last 1-3 months (inclusive).
 
 #### Level of adoption
 
-* The software MUST be adopted by at least 2 experiments/collaborations/projects.
+* The software should be adopted by at least 2 experiments/collaborations/projects.
 
-### Gold
+### Tier 1
 
-HSF endorsement level for projects that are adopted by several collaborations and/or experiments with a strong and long-term community support model.
-All the criteria for Silver MUST be fulfilled, with the addition of the following criteria.
+A.k.a. *research software infrastructure* in the 3-tier model.
+
+This is for projects that are adopted by several collaborations and/or
+experiments with a strong and long-term community support model. All the
+criteria for Tier 2 should be fulfilled, with the addition of the following
+criteria.
 
 #### Documentation
 
-* The project MUST provide specific training for users to use the software product or tool on a frequency of once a year.
-* The project SHOULD organise user workshops or engage in community events as a means to collect feedback from the user community.
+* The project should provide specific training for users to use the software product or tool on a frequency of once a year.
+* The project should organise user workshops or engage in community events as a means to collect feedback from the user community.
 
 #### Sustainability
 
-* The project MUST be actively maintained and produce at least one new release a year if there are changes, and produce patch releases as relevant to include fixes that have been accumulated.
-* The project MUST have at least 3 long-term maintainers with a future commitment to the software of at least 2 years.
-* The project MUST acknowledge a majority of bug reports submitted in the last 1-4 weeks (inclusive); the response need not include a fix.
-* The project MUST respond to a majority (>50%) of enhancement requests in the last 1-4 weeks (inclusive).
+* The project should be actively maintained and produce at least one new release a year if there are changes, and produce patch releases as relevant to include fixes that have been accumulated.
+* The project should have at least 3 long-term maintainers with a future commitment to the software of at least 2 years.
+* The project should acknowledge a majority of bug reports submitted in the last 1-4 weeks (inclusive); the response need not include a fix.
+* The project should respond to a majority (>50%) of enhancement requests in the last 1-4 weeks (inclusive).
 
 #### Level of adoption
 
-* The software MUST be adopted by several (>2) large collaborations/projects and SHOULD be adopted by a number (>1) of small experiments/collaborations/projects.
+* The software should be adopted by several (>2) large collaborations/projects and should be adopted by a number (>1) of small experiments/collaborations/projects.
