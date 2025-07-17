@@ -141,7 +141,7 @@ Enrico Bothmann also gave an excellent talk explaining how the mathematics of ev
 
 ### Next Meeting
 
-The next coordination meeting will be 17 July, <https://indico.cern.ch/event/1477081/>, Stefan will chair.
+The next coordination meeting will be 17 July, <https://indico.cern.ch/event/1477082/>, Stefan will chair.
 
 ### Chair This Meeting 👇
 
