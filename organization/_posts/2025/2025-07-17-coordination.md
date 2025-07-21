@@ -27,7 +27,7 @@ Caterina Doglioni as the new HSF representative at IRIS-HEP prepared [slides](ht
 ### HSF Seminar Series and Compute Accelerator Forum
 
 *HSF seminars*
-- HSF seminar on ESPPU & Venice Symposium confirmed: Wed 29th Oct ([indico](https://indico.cern.ch/event/1481829/)), given by Tommaso and/or Borut themselves (conveners of the ESPPU Computing WG)
+- HSF seminar on EPPSU & Venice Symposium confirmed: Wed 29th Oct ([indico](https://indico.cern.ch/event/1481829/)), given by Tommaso and/or Borut themselves (conveners of the EPPSU Computing WG)
 - Following up on HSF Seminar on "dCache", from the perspective of dCache as a large and successful HEP software project: How is it managed? Would be great to get this scheduled for September.
 
 
