@@ -14,7 +14,7 @@ Apologies/Contributing: Graeme Stewart
 
 ### European Strategy Update (EPPSU) 
 
-Our EPPSU submission has been submitted EPJ-C.
+Our EPPSU submission has been submitted to EPJ-C.
 
 There were some comments about the use of acronyms, which we should define more clearly (or add a glossary)
 * Michel has started to look at it, see [this PR](https://github.com/HSF/EPPSU-2025-Paper/pull/21)
