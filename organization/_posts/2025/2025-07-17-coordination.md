@@ -58,7 +58,7 @@ Several projects will be contacted after the Summer.
 ### Software Training
 
 - [HSF/IRIS-HEP Software Basics Training (Virtual)](https://indico.cern.ch/event/1569915/) - 3–5 Sept 2025
-    - Covering the basics: bash, git, python, ROOT and Scikit-HEP
+    - Covering the basics: bash, Git, Python, ROOT and Scikit-HEP
     - Some experiments (ATLAS, Belle II) already informed us that they will use the HSF/IRIS-HEP training as prerequisite for their own onboardings
 - [Deep Learning Train-the-Trainer Workshop](https://indico.desy.de/event/47263/) - Sept 15-19.
     - Organized by the HSF and ErUM-Data-Hub
