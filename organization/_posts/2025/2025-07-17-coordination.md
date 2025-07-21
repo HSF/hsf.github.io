@@ -100,7 +100,7 @@ Several projects will be contacted after the Summer.
 
 - Event generators for FCC-ee/Higgs factory:
 
-Enrico Bothmann will talk about Sherpa for FCC-ee on July 24th at 17:00 CERN. Indico agenda now available: https://indico.global/event/15218/
+Enrico Bothmann will talk about Sherpa for FCC-ee on July 24th at 17:00 CERN. Indico agenda now available: <https://indico.global/event/15218/>
 
 ### GSoC program 2025
 
@@ -112,7 +112,7 @@ Enrico Bothmann will talk about Sherpa for FCC-ee on July 24th at 17:00 CERN. In
     - mentors should contact admins if they want an extension
     - should also not be afraid to fail students when it doesn't work out
 - We'll invite the students to the SFT induction event next week. (Danilo gives a nice overview over computing in HEP).
-    - https://indico.cern.ch/event/1564721/
+    - <https://indico.cern.ch/event/1564721/>
     - will send out mail soon. Mentors: please forward to gsoc students
 - If someone is willing to give a brief introduction to the HSF (and maybe the training program) that would be very welcome.
     - Training group have some suitable material
@@ -126,8 +126,8 @@ Reminder: time for submitting proposals for the current year usually starts in J
 Reminder: we are proposing a C++ header-only library that defines physical constants and some salient HEPdata in a lightweight, easy-to-use manner. Also taking into account versioning.
 
 Status:
-- Thanks to Maciej, we became aware that there is a very promising project which has been proposed for C++ 29 standardisation, https://github.com/mpusz/mp-units, so support units and constants in C++. We think it’s the right approach to investigate this library and see if it would be suitable for our needs. If it is on the road to an stdlib inclusion then that makes it much more future proof that anything we would write ourselves.
-- The units support looks very well written and robust, and there are already some HEP relevant constants in the library: https://github.com/mpusz/mp-units/blob/master/src/systems/include/mp-units/systems/hep.h. There is a also a lot of documentation about the motivations and a review of existing solutions and their limitations (e.g., Boost::Units).
+- Thanks to Maciej, we became aware that there is a very promising project which has been proposed for C++ 29 standardisation, <https://github.com/mpusz/mp-units>, so support units and constants in C++. We think it’s the right approach to investigate this library and see if it would be suitable for our needs. If it is on the road to an stdlib inclusion then that makes it much more future proof that anything we would write ourselves.
+- The units support looks very well written and robust, and there are already some HEP relevant constants in the library: <https://github.com/mpusz/mp-units/blob/master/src/systems/include/mp-units/systems/hep.h>. There is a also a lot of documentation about the motivations and a review of existing solutions and their limitations (e.g., Boost::Units).
 - So we’d like to proceed to try and both use this library, extend it to the kind of PDG quantities that we would want.
 
 Please let Graeme know if you'd like to be kept in the loop.
@@ -138,5 +138,5 @@ The next coordination meeting will be 31 July, <https://indico.cern.ch/event/147
 
 ### Chair This Meeting 👇
 
-Please [sign up](https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit) for chairing a future coordination meeting. (There is even a [HOWTO guide](https://hepsoftwarefoundation.org/organization/running-meetings.html)).
+Please [sign up](https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit) for chairing a future coordination meeting. (There is even a [HOWTO guide](s://hepsoftwarefoundation.org/organization/running-meetings.html)).
 
