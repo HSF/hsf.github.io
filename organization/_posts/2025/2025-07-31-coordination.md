@@ -1,5 +1,5 @@
 ---
-title: "HSF Coordination Meeting #292, 17 July 2025"
+title: "HSF Coordination Meeting #293, 31 July 2025"
 layout: plain_toc
 ---
 
