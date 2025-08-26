@@ -7,7 +7,7 @@ action file.
 
 The underlying checker is from Tom Cort, 
 [markdown-link-check](https://github.com/tcort/markdown-link-check). This
-is wrapped by Gaurav Nelson's [github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check).
+is wrapped in [github-action-markdown-link-check](https://github.com/tcort/github-action-markdown-link-check).
 
 Note this checker checks markdown files directly, thus it will not check any links
 in `html` files on the site. To deal with the fact that Jekyll builds the site
