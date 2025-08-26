@@ -18,7 +18,7 @@ jobs:
       - name: Jekyll Build
         run: bundler exec jekyll build
       - name: Check Links
-        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        uses: tcort/github-action-markdown-link-check@v1
         with:
           config-file: '.github/config/mdcheck.json'
           check-modified-files-only: 'yes'
