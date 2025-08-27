@@ -164,7 +164,7 @@ for Tier 3 should be fulfilled, with the addition of the following criteria.
   * User documentation.
   * Reference manual.
   * Tutorials (e.g. notebooks).
-  * The project should provide specific training for users to use the software product.
+* The project should provide specific training for users to use the software product.
 
 #### Sustainability
 
