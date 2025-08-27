@@ -18,7 +18,7 @@ project_mentors:
   - email: peter.van.gemmeren@cern.ch
     first_name: Peter
     last_name: Van Gemmeren
-    organization: CERN
+    organization: ANL
 ---
 
 ## Description
