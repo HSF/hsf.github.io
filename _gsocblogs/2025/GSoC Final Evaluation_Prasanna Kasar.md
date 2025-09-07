@@ -6,7 +6,7 @@ photo: blog_authors/PrasannaKasar.jpeg
 date: 07.09.2025
 year: 2025
 layout: blog_post
-logo: "[TMVA - SOFIE](https://www.google.com/imgres?q=root%20tmva%20sofie%20logo&imgurl=x-raw-image%3A%2F%2F%2F476d34aa4cdf4014ea93a65d187760a7576a158f8785051edf10d5e4c7968fa6&imgrefurl=https%3A%2F%2Findico.jlab.org%2Fevent%2F459%2Fcontributions%2F11746%2Fattachments%2F9716%2F14215%2FTMVA_SOFIE_%2520CHEP23.pdf&docid=ERFh1aCeXyKOeM&tbnid=FEDfTKo0bUcNfM&vet=12ahUKEwjI0dGK1MaPAxUYzjgGHfFeGxsQM3oECBYQAA..i&w=1282&h=364&hcb=2&ved=2ahUKEwjI0dGK1MaPAxUYzjgGHfFeGxsQM3oECBYQAA)"
+logo: "TMVA - SOFIE"
 intro: |
     Developed parser within SOFIE to parse Machine Learning models trained with Keras. Rewrote the existing parser, which was written C++, in Python. Added support for parsing missing layers such as Pooling and LayerNormalization and wrote unit tests for the parser. 
 ---
