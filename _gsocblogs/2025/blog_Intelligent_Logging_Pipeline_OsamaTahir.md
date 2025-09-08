@@ -136,7 +136,7 @@ DeepLog in a random sequence.
 | 2         | Select File  | 0.6         |
 | 3         | Logout       | 0.25        |
 | 4         | Submit File  | 0.3         |
-*Table 1: Set of Events*
+<i>Table 1: Set of Events*</i>
 
 <p align="justify">
 Here the model thinks "Login" is most likely next event, then "Select
