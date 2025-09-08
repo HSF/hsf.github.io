@@ -15,7 +15,7 @@ linkedin: ianna-osborne    # your linkedin ID (not full url, i.e. the last bit o
 email: ianna.osborne@cern.ch
 
 # Training WG
-training_roles: [mentor]              # subset of [instructor, mentor, facilitator, author], can stay empty ([])
+training_roles: [instructor, mentor]              # subset of [instructor, mentor, facilitator, author], can stay empty ([])
 training_years: [2025]              # in which years did you help out? (e.g. [2020, 2019])
 
 # Don't modify the following setting
