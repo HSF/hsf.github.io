@@ -35,10 +35,10 @@ modern HEP experiments.
 ### Objectives
 <p align="justify">
 The project extended NopayloadDB, the HSF-referenced conditions
-database [1], by introducing a centralized and intelligent logging system.
+database [1], by introducing a centralized and intelligent logging pipeline.
 The main goal was to provide centralized log aggregation, structured
 parsing and storage for easier querying, and anomaly detection using
-DeepLog to detect anomalies. The system also aimed to support real-time
+DeepLog to detect anomalies. The pipeline also aimed to support real-time
 monitoring and diagnostics for different stakeholders. It detected
 issues before escalation and provided insights for tuning system
 parameters. The design emphasized scalability, modularity, and
