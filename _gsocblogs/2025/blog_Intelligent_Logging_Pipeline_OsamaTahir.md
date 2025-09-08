@@ -15,8 +15,6 @@ detection.
 
 ##### Mentors: Ruslan Mashinistov, Michel Hernandez Villanueva, and John S. De Stefano Jr
 
-##### Proposal: [Google Summer of Code Proposal](https://drive.google.com/file/d/1Gg9qLOUrT1eHkReHZSS9fJUuP3-znHuW/view?usp=sharing)
-
 ### Introduction
 <p align="justify">
 As experiments grow more complex, the demand for efficient access to
