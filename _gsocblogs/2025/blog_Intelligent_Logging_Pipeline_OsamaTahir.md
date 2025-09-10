@@ -2,7 +2,7 @@
 tile: Intelligent Logging Pipeline
 project: Intelligent Log Analysis for the HSF Conditions Database
 author: Osama Ahmed Tahir
-date: 06.09.2025\
+date: 06.09.2025
 year: 2025
 layout: blog_post
 intro: |
@@ -24,7 +24,7 @@ stores metadata and file URLs instead of payloads. However, NopayloadDB
 lacks a centralized logging subsystem. To address these limitations,
 this project proposes an intelligent logging pipeline integrated with
 NopayloadDB. The pipeline combines advanced log aggregation, scalable
-storage, and deep learning--based anomaly detection to reduce downtime
+storage, and deep learning-based anomaly detection to reduce downtime
 and improve operation. The result is enhanced reliability,
 maintainability, and scalability of conditions database services in
 modern HEP experiments.
@@ -138,13 +138,13 @@ DeepLog in a random sequence.
 
 <p align="justify">
 Here the model thinks "Login" is most likely next event, then "Select
-File" and then "Upload File" etc. Hence, the sequence will be \[Login,
-Select File, Upload File, Submit File, Logout\] and with their
-respective unique IDs, it will be \[0, 2, 1, 4, 3\]. With k=2, the model
-predicts the top 2 event IDs as \[Login, Select File\], while the true
+File" and then "Upload File" etc. Hence, the sequence will be [Login,
+Select File, Upload File, Submit File, Logout] and with their
+respective unique IDs, it will be [0, 2, 1, 4, 3]. With k=2, the model
+predicts the top 2 event IDs as [Login, Select File], while the true
 event is Upload File. Since the true event does not appear in the top 2
 predictions, this case is flagged as an anomaly. When k=3, the top 3
-event IDs are \[Login, Select File, Upload File\], and the true event
+event IDs are [Login, Select File, Upload File], and the true event
 Upload File is included, so it is considered normal. In practice, the
 model checks whether the true event ID appears within the top-k
 predicted IDs: if the true event is not present, the sequence is
@@ -167,7 +167,7 @@ This research will establish a baseline for how the observability and
 diagnostics of a system can benefit the most from artificial
 intelligence. In addition, it will also be beneficial for the open
 source community, scientific research, and enterprise applications. From
-the experiment\'s point of view, it will provide more reliable and
+the experiment's point of view, it will provide more reliable and
 reproducible physics experiments. This will also enable HEP to
 efficiently allocate resources from insights gained from the system. In
 addition, it will also pave the way for how cutting-edge techniques can
