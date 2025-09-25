@@ -103,11 +103,10 @@ Recently the evaluation of the [nnpdf](https://github.com/NNPDF/nnpdf) package g
              - [Teaching Methodology](https://indico.desy.de/event/47263/sessions/19808/#20250918): Hands-On (Michel Hernandez Villanueva)
              - Outcome of the workshop: training modules written by the participants ([repositories](https://github.com/orgs/erum-data-hsf/repositories))
 
-    ##### Ideas for upcoming trainings: 
+- #### Ideas for upcoming trainings:
     - Organize the basic training twice a year: once online and once in-person, charging a small fee. The one in-person could be scheduled alongside other in-person events (for instance, summer schools).
     - Move to intermediate and advanced trainings, and keeping the basic material available in the Training Center for self-study.
     
-
 - #### Future Events:
     - [13th HEP C++ Course and hands-on training - Advanced C++](https://indico.cern.ch/event/1549051/overview), Oct 27-31, registration open, places for in person attendance available
     - SSH shell - Hackathon, Oct. 6th
