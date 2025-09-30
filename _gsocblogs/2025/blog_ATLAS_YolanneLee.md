@@ -9,7 +9,7 @@ year: 2025
 layout: blog_post
 logo: hsf_logo_angled.png   # Match the logo file listed in your project’s metadata
 intro: |
-  In high-energy physics experiments such as those at CERN’s ATLAS project, immense volumes of data are generated. This project explores the feasability for “precision upsampling” using deep generative models to be used to reconstruct high-precision floating-point data from aggressively compressed representations.
+  In high-energy physics experiments such as those at CERN’s ATLAS project, immense volumes of data are generated. This project explores the feasibility for “precision upsampling” using deep generative models to be used to reconstruct high-precision floating-point data from aggressively compressed representations.
 ---
 
 |  |  |
@@ -21,7 +21,7 @@ intro: |
 
 ## Introduction
 
-In high-energy physics experiments such as those at CERN’s ATLAS project, immense volumes of data are generated. This project explores the feasability for “precision upsampling” using deep generative models to be used to reconstruct high-precision floating-point data from aggressively compressed representations. I had the opportunity to work on this topic with the support and supervision of Maciej Szymański and Peter Van Gemmeren with the ATLAS Software & Computing group.
+In high-energy physics experiments such as those at [CERN’s ATLAS project](https://atlas.cern/), immense volumes of data are generated. This project explores the feasibility for “precision upsampling” using deep generative models to be used to reconstruct high-precision floating-point data from aggressively compressed representations. I had the opportunity to work on this topic under the support and supervision of Maciej Szymański and Peter Van Gemmeren, with the ATLAS Software & Computing group at CERN and Argonne National Laboratory.
 
 While lossless compression is already employed to manage this data, lossy compression (specifically of floating-point precision) offers more aggressive reductions, potentially decreasing file sizes by over 30%. However, this comes at the cost of irreversibly discarding information, raising the challenge of how to recover or approximate full-precision data for downstream analysis.
 
@@ -66,7 +66,7 @@ Firstly, I visualised the original and lossy-compressed data, focusing largely o
 
 An interesting phenomenon occurs when observing the data plotted on a log-scaled $x$-axis. To further investigate, we plotted this with some light Gaussian smoothing. The resulting peaks appeared to have some regular spacing (specifically, $\Delta \log_{10} \approx 0.28 \;\Rightarrow\; \text{ratio} \approx 1.9$). In fact, investigating the residuals in the same log $x$ scaling resulted in distinct patterns.
 
-<img src="https://raw.githubusercontent.com/yolannel/ATLAS_decompression/refs/heads/master/figures/combined_residual_density.png" alt="Residual densities with theoretical model overlayed." width="60%">
+<img src="https://raw.githubusercontent.com/yolannel/ATLAS_decompression/refs/heads/master/figures/combined_residual_density.png" alt="Residual densities with theoretical model overlaid." width="60%">
 
 This represented the core theoretical output of the project. We found such regular, stepped patterns in the residual in all truncated float data which we understood was likely some generalised quantisation error that occurs due to discarding $n$ bits. The next step was then to rigorously derive the actual mechanism by which the residual changes based on the truncation amount. This theoretical model had not been found in literature in specifics, so this was a particularly exciting outcome. The full derivation can be found [here](https://github.com/yolannel/ATLAS_decompression/blob/master/theoretical_quantisation_bounds.md), with the model as follows:
 
@@ -88,13 +88,33 @@ As a result, the project diverged slightly to explore how we can appropriately l
 
 The current work in progress attempts to use the previously defined probabilistic models to model the distribution of data in varying ways, for which the residual can then be calculated and compared to the theoretical maximum and minimum bounds to determine how likely the residuals are to be due to quantisation. This hybrid approach is designed to minimize 'hallucinations' in the precision upsampling pipeline which could discard or modify important anomalies which can occur and are of particular interest in HEP data.
 
-As a part of exporatory work, I have implemented autoencoders, variational autoencoders, and flow matching models to successfully reconstruct the distributions of the data of interest (currently, the momentum, eta, and phi of electrons as a minimal test set), demonstrating that such models are sufficiently complex to capture the characteristics of the data. These models also carry additional benefits such as retrievable statistical characteristics and densities, which could benefit downstream usage.
+As a part of exploratory work, I have implemented autoencoders, variational autoencoders, and flow matching models to successfully reconstruct the distributions of the data of interest (currently, the momentum, eta, and phi of electrons as a minimal test set), demonstrating that such models are sufficiently complex to capture the characteristics of the data. These models also carry additional benefits such as retrievable statistical characteristics and densities, which could benefit downstream usage.
 
-In the context of the proposed pipeline, I had first attempted to train an autoencoder (taking the implest model to create a 'minimum viable product', as it were) under a denoising workflow wherein I have as input to the model the compressed data, optionally with some added noise. The output of the model, then, is trained to be the 'denoised' data (where if no noise was added, one can consider the mantissa truncation to add 'quantisation noise') and MSE loss is taken of the model output versus the original, uncompressed data. The addition of some small amount of Gaussian noise is a common technique which I use in my day-to-day work and can often encourage the model to learn more effectively. Models at this scale are easily and quickly trained on an NVIDIA RTX4080, with 100 epochs taking on average ~15 minutes, or during testing, converging sufficiently within 30 epochs to establish a rough performance measure. All models were implemented using pytorch, with additional functionalities used for evaluation using scikit-learn statistics and numpy operations where necessary.
+<p float="left">
+  <img src="https://raw.githubusercontent.com/yolannel/ATLAS_decompression/refs/heads/master/figures/autoencoder_reconstructed.png" alt="Reconstruction of electron momentum using autoencoder." width="45%"/>
+  <img src="https://raw.githubusercontent.com/yolannel/ATLAS_decompression/refs/heads/master/figures/autoencoder_residual.png" alt="Residual from autoencoder's reconstruction of electron momentum." width="45%"/>
+</p>
 
-Another approach under development is to treat the data as an inpainting problem, commonly seen within image generation where some part of an image may be blacked out; an inpainting model is designed to "fill in the blanks". In our case, we not only have the new theoretical bounds but also the first $23-n$ bits of data that is retained after truncation: this is valuable information which, in statistical tests, is also often a 'good-enough' approximation of the uncompressed data to begin with. Then, the challenge is only to "fill in" the remaining truncated $n$ bits which represents an even more bounded problem space and would minimize unexpected upsampling artifacts by constraining any correction terms to be within the allowable $n$ bits of change.
+In the context of the proposed pipeline, I had first attempted to train an autoencoder (taking the implest model to create a 'minimum viable product', as it were) under a denoising workflow wherein I have as input to the model the compressed data, optionally with some added noise. The output of the model, then, is trained to be the 'denoised' data (where if no noise was added, one can consider the mantissa truncation to add 'quantisation noise') and MSE loss is taken of the model output versus the original, uncompressed data.  The addition of some small amount of Gaussian noise is a common technique which I use in my day-to-day work and can often encourage the model to learn more effectively. Models at this scale are easily and quickly trained on an NVIDIA RTX4080, with 100 epochs taking on average ~15 minutes, or during testing, converging sufficiently within 30 epochs to establish a rough performance measure. All models were implemented using `pytorch`, with additional functionalities used for evaluation using `scikit-learn` statistics and `numpy` operations where necessary. All models were implemented using pytorch, with additional functionalities used for evaluation using scikit-learn statistics and numpy operations where necessary.
 
-While this project has not yet conclusively found a candidate model to precision upsample, ongoing work is being performed and is to continue beyond the timeline of the GSoC project toward proposing a working pipeline based off of the work performed up to this point. In short, autoencoders, variational autoencoders, and some simple flow matching models have been implemented and tested, with performance measured using simple MSE loss as well as distribution-based metrics such as KL divergence. The pipeline of the model was being tested in Jupyter notebook files, but I have begun to move them to modular python files to facilitate further work.
+| Method       | Comparison            | log-MSE   |
+|--------------|-----------------------|-----------|
+| **Autoencoder** | Compressed → Source   | 2.75e-06  |
+|              | Corrected  → Source   | 2.18e+00  |
+
+In fact, however, this naive correction results in a significantly worse match to the source data: the original lossy compression is more accurate to the uncompressed data than the autoencoder outputted estimate. Another approach under development is to treat the data as an inpainting problem, commonly seen within image generation where some part of an image may be blacked out; an inpainting model is designed to 'fill in the blanks'. In our case, we not only have the new theoretical bounds but also the first $23-n$ bits of data that is retained after truncation: this is valuable information which, in statistical tests, is also often a 'good-enough' approximation of the uncompressed data to begin with. Then, the challenge is only to 'fill in' the remaining truncated $n$ bits which represents an even more bounded problem space and would minimize unexpected upsampling artifacts by constraining any correction terms to be within the allowable $n$ bits of change.
+
+| Method       | Comparison            | log-MSE   |
+|--------------|-----------------------|-----------|
+| **Hybrid**   | Compressed → Source   | 2.72e-06  |
+|              | Corrected  → Source   | 4.60e-06  |
+
+This hybrid model performs significantly better than the autoencoder approach; however, it is still less accurate than the actual compressed data. While this project has not yet conclusively found a candidate model to precision upsample, ongoing work is being performed toward proposing a working pipeline based off of the work performed up to this point. In short, autoencoders, variational autoencoders, and some simple flow matching models have been implemented and tested, with performance measured using simple MSE loss as well as distribution-based metrics such as KL divergence. In the Github repository, a series of notebooks show how data was initially explored, then through the process of discovering, verifying, and ablating the theoretical bounds for lossy mantissa truncation compression, and finally do the initial work of designing an appropriate 'neural de-compression' system.
+
+<p float="left">
+  <img src="https://raw.githubusercontent.com/yolannel/ATLAS_decompression/refs/heads/master/figures/hybrid_reconstruction.png" alt="Reconstruction of electron momentum using hybrid model." width="60%"/>
+  <img src="https://raw.githubusercontent.com/yolannel/ATLAS_decompression/refs/heads/master/figures/hybrid_residuals.png" alt="Residual from hybrid model's reconstruction of electron momentum." width="35%"/>
+</p>
 
 ## My thoughts on GSoC
 
