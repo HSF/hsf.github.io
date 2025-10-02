@@ -27,7 +27,7 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 * Stefan Roiser - CERN
 * Elizabeth Sexton-Kennedy - Fermilab
 * Nicole Skidmore - University of Warwick
-* Graeme Stewart - CERN
+* Graeme Stewart - DESY
 * Andrea Valassi - CERN
 * Torre Wenaus - BNL
 
