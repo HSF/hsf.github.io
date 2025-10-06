@@ -15,7 +15,7 @@ The SG is convened by a chair, who is elected annually by the group (see below).
 
 Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the group:
 
-* Claire Antel - University of Geneva
+* Claire Antel - CERN
 * Caterina Doglioni - University of Manchester
 * Johannes Elmsheuser - BNL
 * Michel Hernandez Villanueva - BNL
@@ -46,5 +46,5 @@ second round, the SG chair is decided by lot.
 
 ## Present and Past SG Chairs
 
-- Eduardo Rodrigues (LHCb, University of Liverpool), 07/2025 -
-- Graeme Stewart (CERN EP-SFT), 07/2024 - 06/2025
+* Eduardo Rodrigues (LHCb, University of Liverpool), 07/2025 -
+* Graeme Stewart (ATLAS, CERN EP-SFT), 07/2024 - 06/2025
