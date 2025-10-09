@@ -2,7 +2,7 @@
 project: ATLAS
 title: Neural (De)compression for High Energy Physics
 author: Yolanne Lee
-photo: blog_authors/JaneDoe.jpg   # Upload your square photo here
+photo: blog_authors/YolanneLee.jpg   # Upload your square photo here
 avatar: https://avatars.githubusercontent.com/yolannel   # Replace with your GitHub avatar URL
 date: 31.08.2025   # Use the date you wrote the article
 year: 2025
@@ -23,8 +23,7 @@ intro: |
 
 In high-energy physics experiments such as those at [CERN’s ATLAS project](https://atlas.cern/), immense volumes of data are generated. This project explores the feasibility for “precision upsampling” using deep generative models to be used to reconstruct high-precision floating-point data from aggressively compressed representations. I had the opportunity to work on this topic under the support and supervision of Maciej Szymański and Peter Van Gemmeren, with the ATLAS Software & Computing group at CERN and Argonne National Laboratory.
 
-In preparation for the High-Luminosity Large Hadron Collider project, two more streamlined data formats are being
-developed and refined for the ATLAS project: The DAOD_PHYS and DAOD_PHYSLITE, requiring approximately [50kB/event and 10kB/event respectively](https://agenda.infn.it/event/39076/contributions/218802/attachments/114572/164461/21.XII.2023.ATLAS_Italia_Calcolo.pdf). While lossless compression is already employed to manage this data, lossy compression (specifically of floating-point precision) offers more aggressive reductions, potentially decreasing file sizes by over 30%. This is in part limited by the presence of other data types present in the DAOD files. However, this comes at the cost of irreversibly discarding information, raising the challenge of how to recover or approximate full-precision data for downstream analysis.
+Two more streamlined data formats are being developed and refined for the ATLAS project: The DAOD_PHYS and DAOD_PHYSLITE, requiring approximately [50kB/event and 10kB/event respectively](https://agenda.infn.it/event/39076/contributions/218802/attachments/114572/164461/21.XII.2023.ATLAS_Italia_Calcolo.pdf). While lossless compression is already employed to manage this data, lossy compression (specifically of floating-point precision) offers more aggressive reductions, potentially decreasing file sizes by over 30%. This is in part limited by the presence of other data types present in the DAOD files. However, this comes at the cost of irreversibly discarding information, raising the challenge of how to recover or approximate full-precision data for downstream analysis.
 
 <details>
 <summary>Contents of a DAOD_PHYSLITE file</summary>
@@ -101,15 +100,12 @@ This represented the core theoretical output of the project. We found such regul
 
 * **Final symmetric bounds**:
 
-  $\log_{10} |\Delta|_{\text{signed}} \in 
-  \left[
-  -\log_{10}|x| + m\log_{10}(2), \;\; \log_{10}|x| - m\log_{10}(2)
-  \right]$
+<img src="https://raw.githubusercontent.com/yolannel/ATLAS_decompression/refs/heads/master/figures/expression.png" alt="log10|Δ|_signed ∈ [ -log10|x| + m·log10(2),  log10|x| - m·log10(2) ]" width=60%>
 
-  * These bounds form **two diagonal lines** on a log-log plot of $\log_{10}|x|$ vs. $\log_{10}|\Delta|$.
-  * Slopes: $\pm 1$.
-  * Vertical intercepts: determined by $m\log_{10}(2)$.
-  * The step-like function seen in real valued data has step sizes of approximately $\Delta \log_{10} \approx 0.28 \;\Rightarrow\; \text{ratio} \approx 1.9$, as in the peak spacing before.
+  * These bounds form **two diagonal lines** on a log–log plot of `log10|x|` vs. `log10|Δ|`.
+  * Slopes: ±1
+  * Vertical intercepts: determined by `m * log10(2)`
+  * The step-like function seen in real-valued data has step sizes of approximately `Δ log10 ≈ 0.28  ⇒  ratio ≈ 1.9`, as in the peak spacing before.
 
 As a result, the project diverged slightly to explore how we can appropriately leverage this theoretical model to target any reconstruction of the remaining bits to quantisation error, rather than a blanket recovery.
 
@@ -124,21 +120,21 @@ As a part of exploratory work, I have implemented autoencoders, variational auto
   <img src="https://raw.githubusercontent.com/yolannel/ATLAS_decompression/refs/heads/master/figures/autoencoder_residual.png" alt="Residual from autoencoder's reconstruction of electron momentum." width="45%"/>
 </p>
 
-In the context of the proposed pipeline, I had first attempted to train an autoencoder (taking the implest model to create a 'minimum viable product', as it were) under a denoising workflow wherein I have as input to the model the compressed data, optionally with some added noise. The output of the model, then, is trained to be the 'denoised' data (where if no noise was added, one can consider the mantissa truncation to add 'quantisation noise') and MSE loss is taken of the model output versus the original, uncompressed data.  The addition of some small amount of Gaussian noise is a common technique which I use in my day-to-day work and can often encourage the model to learn more effectively. Models at this scale are easily and quickly trained on an NVIDIA RTX4080, with 100 epochs taking on average ~15 minutes, or during testing, converging sufficiently within 30 epochs to establish a rough performance measure. All models were implemented using `pytorch`, with additional functionalities used for evaluation using `scikit-learn` statistics and `numpy` operations where necessary. All models were implemented using pytorch, with additional functionalities used for evaluation using scikit-learn statistics and numpy operations where necessary.
+In the context of the proposed pipeline, I had first attempted to train an autoencoder (taking the simplest model to create a 'minimum viable product', as it were) under a denoising workflow wherein I have as input to the model the compressed data, optionally with some added noise. The output of the model, then, is trained to be the 'denoised' data (where if no noise was added, one can consider the mantissa truncation to add 'quantisation noise') and MSE loss is taken of the model output versus the original, uncompressed data.  The addition of some small amount of Gaussian noise is a common technique which I use in my day-to-day work and can often encourage the model to learn more effectively. Models at this scale are easily and quickly trained on an NVIDIA RTX4080, with 100 epochs taking on average ~15 minutes, or during testing, converging sufficiently within 30 epochs to establish a rough performance measure. All models were implemented using `pytorch`, with additional functionalities used for evaluation using `scikit-learn` statistics and `numpy` operations where necessary. All models were implemented using pytorch, with additional functionalities used for evaluation using scikit-learn statistics and numpy operations where necessary.
 
 | Method       | Comparison            | log-MSE   |
 |--------------|-----------------------|-----------|
 | **Autoencoder** | Compressed → Source   | 2.75e-06  |
 |              | Corrected  → Source   | 2.18e+00  |
 
-In fact, however, this naive correction results in a significantly worse match to the source data: the original lossy compression is more accurate to the uncompressed data than the autoencoder outputted estimate. Another approach under development is to treat the data as an inpainting problem, commonly seen within image generation where some part of an image may be blacked out; an inpainting model is designed to 'fill in the blanks'. In our case, we not only have the new theoretical bounds but also the first $23-n$ bits of data that is retained after truncation: this is valuable information which, in statistical tests, is also often a 'good-enough' approximation of the uncompressed data to begin with. Then, the challenge is only to 'fill in' the remaining truncated $n$ bits which represents an even more bounded problem space and would minimize unexpected upsampling artifacts by constraining any correction terms to be within the allowable $n$ bits of change.
+In fact, however, this naive correction results in a significantly worse match to the source data: the original lossy compression is more accurate to the uncompressed data than the autoencoder outputted estimate. Another approach under development is to treat the data as an inpainting problem, commonly seen within image generation where some part of an image may be blacked out; an inpainting model is designed to 'fill in the blanks'. In our case, we not only have the new theoretical bounds but also the first $23-n$ bits of data that is retained after truncation: this is valuable information which, in statistical tests, is also often a 'good-enough' approximation of the uncompressed data to begin with. Then, the challenge is only to 'fill in' the remaining truncated $n$ bits which represents an even more bounded problem space and would minimise unexpected upsampling artifacts by constraining any correction terms to be within the allowable $n$ bits of change.
 
 | Method       | Comparison            | log-MSE   |
 |--------------|-----------------------|-----------|
 | **Hybrid**   | Compressed → Source   | 2.72e-06  |
 |              | Corrected  → Source   | 4.60e-06  |
 
-This hybrid model performs significantly better than the autoencoder approach; however, it is still less accurate than the actual compressed data. While this project has not yet conclusively found a candidate model to precision upsample, ongoing work is being performed toward proposing a working pipeline based off of the work performed up to this point. In short, autoencoders, variational autoencoders, and some simple flow matching models have been implemented and tested, with performance measured using simple MSE loss as well as distribution-based metrics such as KL divergence. In the Github repository, a series of notebooks show how data was initially explored, then through the process of discovering, verifying, and ablating the theoretical bounds for lossy mantissa truncation compression, and finally do the initial work of designing an appropriate 'neural de-compression' system.
+This hybrid model performs significantly better than the autoencoder approach; however, it is still less accurate than the actual compressed data. While this project has not yet conclusively found a candidate model to precision upsample, ongoing work is being performed toward proposing a working pipeline based off of the work performed up to this point. In short, autoencoders, variational autoencoders, and some simple flow matching models have been implemented and tested, with performance measured using simple MSE loss as well as distribution-based metrics such as KL divergence. In the GitHub repository, a series of notebooks show how data was initially explored, then through the process of discovering, verifying, and ablating the theoretical bounds for lossy mantissa truncation compression, and finally do the initial work of designing an appropriate 'neural de-compression' system.
 
 <p float="left">
   <img src="https://raw.githubusercontent.com/yolannel/ATLAS_decompression/refs/heads/master/figures/hybrid_reconstruction.png" alt="Reconstruction of electron momentum using hybrid model." width="60%"/>
@@ -147,6 +143,6 @@ This hybrid model performs significantly better than the autoencoder approach; h
 
 ## My thoughts on GSoC
 
-I had first approached my mentors and this project with the excitement of applying some of my current research in generative models for scientific machine learning directly to this precision upsampling problem, drawing parallels between 'making the numbers more precise' and 'superresolving medical images', for example. However, despite the extensive data exploration we performed and the theoretical work I ended up doing stalling the work directly applying deep learning models to these PHYSLITE file data, I found it both satisfying in being able to derive a clear reason to the phenomena I observe in the data but also extremely informative in terms of designing (as a work in progress) a more rigorous deep learning system. I have also had the opportunity to present my work to the ANL Software & Computing group, which generated some useful discussion which I look forward to applying to my work, and will be further presenting it during the ATLAS S&C Week workshop in the fall.
+I had first approached my mentors and this project with the excitement of applying some of my current research in generative models for scientific machine learning directly to this precision upsampling problem, drawing parallels between 'making the numbers more precise' and 'superresolving medical images', for example. However, despite the extensive data exploration we performed and the theoretical work I ended up doing stalling the work directly applying deep learning models to these PHYSLITE file data, I found it both satisfying in being able to derive a clear reason to the phenomena I observe in the data but also extremely informative in terms of designing (as a work in progress) a more rigorous deep learning system. I have also had the opportunity to present my work to the ANL Software & Computing group and during the ATLAS S&C Week workshop, which generated some useful discussion which I look forward to applying to my work.
 
 Working on HEP data was both fascinating from the subject matter but also in terms of the problem area being tackled, and I hope that my continued work can benefit not only this specific upsampling target for PHYSLITE data, but lossy compression as a whole. My time working with my mentors was fruitful and inspiring, and I felt integrated into the group via group meetings and the strong support that both mentors provided throughout the project. I am thankful for such an exciting opportunity as well as my mentors' insightful feedback each week, and I look forward to continuing my work beyond this summer with them!
