@@ -20,7 +20,7 @@ Planned HSF seminars:
 Others in the works:
 - Seminar on OpenData organised by Trig & Reco SW AA
 - 2nd in series on AI-assisted SW tools organised by software tools & packaging
-- Seminar from creator of mp-units (suports units and constants in C++, see AOB) - still to be arranged
+- Seminar from creator of mp-units (supports units and constants in C++, see AOB) - still to be arranged
 
 (Thanks to the activity groups for coming to us with seminar ideas and speakers!)
 
@@ -37,7 +37,7 @@ Please send your suggestions for next seminars.
 The first meeting post Summer took place last week. See [the minutes](https://hepsoftwarefoundation.org/organization/2025/10/02/steering.html).
 
 We discussed in particular:
-- The HSF budget we collect from our participation in the GSoC programme. This can be used for HSF related activites.
+- The HSF budget we collect from our participation in the GSoC programme. This can be used for HSF related activities.
 - Idea to create a community repository for bibliographic citations. In the works. It will soon be advertised.
 - Status of the affiliation programme. See item below for details.
 
