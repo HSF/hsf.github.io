@@ -53,11 +53,11 @@ Check out [here](https://hepsoftwarefoundation.org/projects/projects.html) for t
 
 Oct. 6: a Hackathon on the SSH shell course material tool place.
 
-##### Ideas for upcoming trainings: 
+#### Ideas for upcoming trainings: 
 - Organize the basic training twice a year: once online and once in-person, charging a small fee. The one in-person could be scheduled alongside other in-person events (for instance, summer schools)
     - Move to intermediate and advanced trainings, and keeping the basic material available in the Training Center for self-study
 
-##### Future Events:
+#### Future Events:
 - [13th HEP C++ Course and hands-on training - Advanced C++](https://indico.cern.ch/event/1549051/overview), 27-31 Oct, registration open, places for in person attendance available
 - Blueprint Meeting on AI - TBD 
     - Survey to collect comments, and then organize a dedicated session with different collaborations to define a roadmap
