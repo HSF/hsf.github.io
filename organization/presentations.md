@@ -5,6 +5,7 @@ layout: plain
 
 ## 2025
 
+* [HSF: Vision and Role in MC Toolchain Sustainability](https://indico.cern.ch/event/1553687/contributions/6728537/attachments/3151492/5596557/HSFTalk.pdf), [LHC Monte Carlo WG plenary meeting](https://indico.cern.ch/event/1553687), CERN, 9 October 2025, Saptaparna Bhattacharya
 * [HEP Software Foundation: community software and software sustainability, training, Scikit-HEP project – overview and future](https://indico.desy.de/event/49823/), PUNCHLunch seminars, 26 June 2025, Michel Hernandez Villanueva, Eduardo Rodrigues, Graeme A Stewart
 * [News from the HSF](https://indico.cern.ch/event/1476120/contributions/6442365/attachments/3047972/5386093/EduardoRodrigues_2025-04-10_SWIFT-HEP-workshop.pdf), [Joint GridPP SWIFT-HEP Workshop](https://indico.cern.ch/event/1476120), 10 April 2025, Eduardo Rodrigues
 
