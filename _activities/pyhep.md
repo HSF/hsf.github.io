@@ -72,7 +72,7 @@ The advert and details on these workshops are given below.
 As in previous years, two events will be held again this year:
 
 PyHEP 2025, on October 27-30, is a continuation of the free workshop series, which has been bringing
-Python HEP developers and physicists together these past years. PyHEP 2025 will be a hybrid workshop, held in this format for the first time. While the event has traditionally taken place online, this edition will welcome participants both virtually and in person at CERN.
+Python HEP developers and physicists together for several years. PyHEP 2025 will run in a hybrid format for the first time. This edition will welcome participants both virtually and in person at CERN.
 
 PyHEP.dev 2025 is intended for Python HEP software developers and power users to plan a coherent roadmap and make priorities for the upcoming year. It will be held in-person in Seattle, WA (US) on July 14-17.
 It will include presentations by participants, but the focus will be on birds-of-a-feather style group discussions.
