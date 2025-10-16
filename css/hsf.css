@@ -415,3 +415,26 @@ figure.centered-figure {
     min-height: 0;
   }
 }
+/* Navbar Hover Effect */
+/* This applies the animation only to desktop-sized screens */
+@media (min-width: 768px) {
+  .navbar-nav .dropdown-menu {
+    /* Keep the menu in the document flow but make it invisible */
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; /* Prevent mouse interaction when hidden */
+
+    /* Animate the fade-in and slide-down effect */
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  /* When the .open class is added by our script, make the menu visible */
+  .navbar-nav .dropdown.open > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto; /* Allow mouse interaction */
+    transform: translateY(0);
+  }
+}
