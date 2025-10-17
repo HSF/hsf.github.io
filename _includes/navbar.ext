@@ -58,7 +58,7 @@
                 <ul class="dropdown-menu" aria-labelledby="projects_menu">
                   <li><a href="{{ site.baseurl }}/projects/affiliated.html">HSF Affiliated Projects and Software</a></li>
                   <li><a href="{{ site.baseurl }}/projects/guidelines.html">Projects and Software Guidelines</a></li>
-                  <li><a href="{{ site.baseurl }}/projects/projects.html">Member Projects</a></li>
+                  <li><a href="{{ site.baseurl }}/projects/projects.html">Affiliated Projects</a></li>
                   <li><a href="{{ site.baseurl }}/projects/badges.html">Affiliate Badges</a></li>
                 </ul>
             </li>
