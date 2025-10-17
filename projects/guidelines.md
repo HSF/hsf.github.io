@@ -29,7 +29,11 @@ towards improvements.
 
 ## Best-practice Guidelines
 
-### General guidelines
+The guidelines presented below are replicated in
+[this Google template document](https://docs.google.com/document/d/1l8Tkruo0EEHwgRBQPmiHq-i4BuwwiR1choRRMUIv6qY/edit?usp=sharing) to make it easy for package/software evaluators to check things out against each guideline.
+Please refer to [here]({{ site.baseurl }}/projects/affiliated.html) for the practicalities of an HSF evaluation.
+
+### General Guidelines
 
 Generally, all of the following must be met by a project to be an HSF Affiliated Project, and exceptions should be justified.
 
@@ -51,18 +55,18 @@ In addition, projects should consider having:
 * **A project website.** Such a website is meant to concentrate all the information useful for users as well as developers. (Access to all sources of project information should be granted to search engine spiders.)
 * **Developers mailing list.** A mailing list to contact developers should be made available. Better to have publicly and anonymously accessible archives and be open for subscription and posting by the public.
 
-### C++ specific guidelines
+### C++ Specific Guidelines
 
 [This repository](https://github.com/cpp-best-practices/cppbestpractices)
 contains a Collaborative Collection of C++ Best Practices.
 [WIP - more information will be provided in due course.]
 
-### Julia specific guidelines
+### Julia Specific Guidelines
 
 The Julia [language documentation](https://docs.julialang.org/) contains a Style Guide.
 [WIP - more information will be provided in due course.]
 
-### Python specific guidelines
+### Python Specific Guidelines
 
 The organisation [Scientific Python](https://scientific-python.org/) provides a rather comprehensive [Development Guide](https://learn.scientific-python.org/development/)
 with a set of [Topical Guides](https://learn.scientific-python.org/development/guides/)
@@ -138,7 +142,7 @@ obtain, provide feedback (as bug reports or enhancements), and contribute to the
 * The project should respond to a majority (>50%) of enhancement requests in the last 2-12 months (inclusive).
 * The project should have a publicly available archive for reports and responses for later searching.
 
-#### Level of adoption
+#### Level of Adoption
 
 * The software produced by the project should be of interest for the HEP experiments.
 * The software should be adopted by at least one experiment/collaboration/project.
@@ -174,7 +178,7 @@ for Tier 3 should be fulfilled, with the addition of the following criteria.
 * The project should acknowledge a majority of bug reports submitted in the last 1-3 months (inclusive); the response need not include a fix.
 * The project should respond to a majority (>50%) of enhancement requests in the last 1-3 months (inclusive).
 
-#### Level of adoption
+#### Level of Adoption
 
 * The software should be adopted by at least 2 experiments/collaborations/projects.
 
@@ -199,6 +203,6 @@ criteria.
 * The project should acknowledge a majority of bug reports submitted in the last 1-4 weeks (inclusive); the response need not include a fix.
 * The project should respond to a majority (>50%) of enhancement requests in the last 1-4 weeks (inclusive).
 
-#### Level of adoption
+#### Level of Adoption
 
 * The software should be adopted by several (>2) large collaborations/projects and should be adopted by a number (>1) of small experiments/collaborations/projects.

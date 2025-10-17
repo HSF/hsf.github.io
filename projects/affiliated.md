@@ -17,7 +17,7 @@ Here we describe how we can help projects gain greater visibility and enhance th
 Projects are hosted on their own public platform of choice (such as GitHub);
 they may use the [HSF GitHub repository](https://github.com/HSF) if desired and mutually agreed with the HSF Steering Group.
 
-## Engagement and endorsement
+## Engagement and Endorsement
 
 Anyone is welcome to engage with the HSF in general and the
 [HSF Steering Group (SG)]({{ site.baseurl }}/organization/team.html),
@@ -27,12 +27,22 @@ Formal endorsement is provided by the HSF SG following a short evaluation period
 
 The list of HSF Affiliated Projects and Software is hosted in a dedicated area on the HSF website, curated and maintained by the HSF SG.
 
-The recognition of bijective engagement with the HSF is displayed via a [*GitHub
-Badge*]({{ site.baseurl }}/projects/badges.html). This assures the community
-that the project/software is relevant, useful and meets appropriate software quality
-standards, as defined in our [guidelines]({{ site.baseurl }}/projects/guidelines.html).
+### Practicalities of the Evaluation
+
+The evaluation is done by at least one community member, preferably two;
+evaluators are in general searched for by the SG.
+The evaluation is based on the best-practice guidelines mentioned below
+(detailed [here]({{ site.baseurl }}/projects/guidelines.html)), which are replicated
+in [this Google document](https://docs.google.com/document/d/1l8Tkruo0EEHwgRBQPmiHq-i4BuwwiR1choRRMUIv6qY/edit?usp=sharing) so that the evaluator(s) can check out the package or software against each guideline item.
+In practice it is a good idea to copy the template and adapt to one's particular case
+(the target Tier, the relevant programming language, etc.).
 
 ### HSF Project Badge
+
+The recognition of bijective engagement with the HSF is displayed via a
+[*GitHub Badge*]({{ site.baseurl }}/projects/badges.html). This assures the community
+that the project/software is relevant, useful and meets appropriate software quality
+standards, as defined in our [guidelines]({{ site.baseurl }}/projects/guidelines.html).
 
 Links to code snippets for the HSF project badge are on our [badges page]({{ site.baseurl }}/projects/badges.html).
 
@@ -41,7 +51,7 @@ Links to code snippets for the HSF project badge are on our [badges page]({{ sit
 The HSF envisages a scheme for Annual Project Awards.
 A concrete proposal will be presented to the [HSF Advisory Group]({{ site.baseurl }}/organization/advisory-group.html) once the latter is put in place.
 
-## Best-practice guidelines
+## Best-practice Guidelines
 
 They are detailed in the document
 [Guidelines for HSF Affiliated Projects and Software]({{ site.baseurl }}/projects/guidelines.html).
