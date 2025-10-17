@@ -1,17 +1,17 @@
 ---
 title: "HSF Affiliated Projects"
-author: Benedikt Hegner, Graeme Stewart
+author: Graeme Stewart, Eduardo Rodrigues
 layout: plain
 redirect_from: /projects.html
 ---
 
-This is the list of projects which have become [HSF Affiliated]({{site.baseurl}}/projects/affiliated.html).
+This is the list of projects which have become [HSF Affiliated]({{ site.baseurl }}/projects/affiliated.html).
 
 {:.table .table-hover .table-condensed .table-striped}
 | Name | Description | Affiliation | Year |
 | --------| ------------- |----------|-----------|
-| [nnpdf](https://github.com/NNPDF/nnpdf) | Machine Learning framework for global analyses of parton distributions | ![Affiliated]({{site.baseurl}}/images/HSF-logo/HSF-Affiliated.svg) | 2025 |
-| [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Bronze]({{site.baseurl}}/images/HSF-logo/HSF-Affiliated.svg) | 2024 |
+| [nnpdf](https://github.com/NNPDF/nnpdf) | Machine Learning framework for global analyses of parton distributions | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | 2025 |
+| [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Bronze]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | 2024 |
 
 ## Older projects under the umbrella of HSF
 
