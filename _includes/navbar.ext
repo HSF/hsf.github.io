@@ -26,11 +26,11 @@
             </li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="{{site.baseurl}}/index.html" id="meetings_menu"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;Meetings<span class="caret"></span></a>
-                <ul class="dropdown-menu" aria-labelledby="activities_menu">
+                <ul class="dropdown-menu" aria-labelledby="meetings_menu">
                  {% for meeting in site.meetings %}
                    <li><a href="{{ meeting.url }}">{{ meeting.title }}</a></li>
                  {% endfor %}
-               </ul>
+                </ul>
             </li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="{{site.baseurl}}/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
@@ -67,7 +67,7 @@
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="{{ site.baseurl }}/index.html" id="about_menu"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;About<span class="caret"></span></a>
               <ul class="dropdown-menu" aria-labelledby="about_menu">
-                <li><a href="{{ site.baseurl }}/get_involved.html">Get involved!</a><li>
+                <li><a href="{{ site.baseurl }}/get_involved.html">Get involved!</a></li>
                 <li><a href="{{ site.baseurl }}/organization/team.html">The Steering Group</a></li>
                 <li><a href="{{ site.baseurl }}/organization/advisory-group.html">HSF Advisory Group</a></li>
                 <li class="divider"></li>

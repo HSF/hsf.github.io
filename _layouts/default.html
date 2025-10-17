@@ -35,5 +35,49 @@ Thanks to <a href="https://pages.github.com/">GitHub Pages</a>, <a href="http://
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- Navbar Hover Effect -->
+<script>
+$(document).ready(function() {
+
+  function applyDesktopNavbar() {
+    // Turn on hover-open functionality
+    $('ul.nav li.dropdown').hover(function() {
+      $(this).addClass('open');
+    }, function() {
+      $(this).removeClass('open');
+    });
+
+    // Disable the default click and remove focus styling on desktop
+    $('.dropdown > a.dropdown-toggle').on('click.desktop', function(e) {
+      e.preventDefault();  // Prevents the link from being followed
+      e.stopPropagation(); // Stops the event from bubbling up
+      $(this).blur();      // Removes the focus, getting rid of the yellow color
+    });
+  }
+
+  function removeDesktopNavbar() {
+    // Turn off hover functionality for mobile
+    $('ul.nav li.dropdown').off('mouseenter mouseleave');
+    // Restore default click behavior for mobile
+    $('.dropdown > a.dropdown-toggle').off('.desktop');
+  }
+
+  // Check window size to apply the correct behavior
+  function toggleNavbarBehavior() {
+    if ($(window).width() > 767) {
+      applyDesktopNavbar();
+    } else {
+      removeDesktopNavbar();
+    }
+  }
+
+  // Run the check once on page load
+  toggleNavbarBehavior();
+
+  // And run it again whenever the window is resized
+  $(window).on('resize', toggleNavbarBehavior);
+
+});
+</script>
 </body>
 </html>
