@@ -27,7 +27,7 @@ Planned HSF seminars:
 Others in the works:
 - Seminar on OpenData organised by Trig & Reco SW AA
 - 2nd in series on AI-assisted SW tools organised by software tools & packaging
-- Seminar from creator of mp-units (suports units and constants in C++, see AOB) - still to be arranged
+- Seminar from creator of mp-units (supports units and constants in C++, see AOB) - still to be arranged
 
 (Thanks to the activity groups for coming to us with seminar ideas and speakers!)
 
