@@ -47,7 +47,7 @@ Please send your suggestions for next seminars.
 
 ### Advisory Group
 
-We have asked the advisory group to (re)advertise the HSF. The text is [here](https://codimd.web.cern.ch/6Wfvexa2QimHSIO-_Rmz3w) if you can do the same for a community not on the AG.
+We have asked the advisory group to (re)advertise the HSF. The text is [here](https://codimd.web.cern.ch/6Wfvexa2QimHSIO-_Rmz3w) if you can do the same for a community not on the AG; it is appreciated.
 
 Sapta will make a poster that can be put on office doors and advertise to her undergraduates - get them while they're young!
 
