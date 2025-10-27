@@ -2,7 +2,7 @@
 project: Intelligent Log Analysis for the HSF Conditions Database
 title: Intelligent Logging Pipeline
 author: Osama Ahmed Tahir
-photo: blog_authors/OsamaTahir.jpg
+photo: blog_authors/OsamaTahir.jpeg
 date: 27.10.2025
 year: 2025
 layout: blog_post
@@ -11,7 +11,7 @@ intro: |
     An intelligent logging pipeline for NopayloadDB that integrates log aggregation, anomaly detection, and monitoring. It improves reliability and maintainability in large-scale HEP experiments It is deployed on Minikube cluster while using a deep learning model for real-time anomaly detection.
 ---
 
-# Final Evaluation Report for GSOC 2025
+### Final Evaluation Report for GSOC 2025
 
 <div align="center">
 <img src="https://hepsoftwarefoundation.org/images/BNL-logo.png" width="500"/>
@@ -111,5 +111,6 @@ I enjoyed my time working with my mentors Ruslan, Michel, and John. This project
 [1] Ruslan Mashinistov, L. Gerlach, P. Laycock, A. Formica, Giacomo Govi, and C. Pinkenburg, “The HSF Conditions Database Reference Implementation,” EPJ Web of Conferences, vol. 295, pp. 01051–01051, Jan. 2024, doi: https://doi.org/10.1051/epjconf/202429501051.
 
 [2] “Grafana Loki | Grafana Loki documentation,” Grafana Labs, 2025. https://grafana.com/docs/loki/latest (accessed Jul. 30, 2025).
+
 
 [3] M. Du, F. Li, G. Zheng, and V. Srikumar, “DeepLog, Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security”, Oct. 2017, doi: https://doi.org/10.1145/3133956.3134015.
