@@ -16,6 +16,7 @@ intro: |
 </div>
 
 #### Mentors: Ruslan Mashinistov, Michel Hernandez Villanueva, and John S. De Stefano Jr
+#### [Project Link (BNL Nuclear and Particle Physics Software Group) - Intelligent Logging Pipeline](https://github.com/BNLNPPS/intelligent-logging-pipeline)
 
 ### Introduction
 <p align="justify">
@@ -105,10 +106,13 @@ This research will establish a baseline for how the observability and diagnostic
 I enjoyed my time working with my mentors Ruslan, Michel, and John. This project was the first time that I contributed to CERN and BNL to such an extent and provided me with a sense of accomplishment in my professional career. The consistent feedback on both the project and the publication helped me a lot in shaping the project. My mentors provided me with a path to present the project on a greater scale, and it resulted in the project reaching greater potential to be used for other experiments. I am happy to be mentored by such experienced and knowledgeable professionals.
 </p>
 
+### Links
+#### [NoPayLoadClient](https://github.com/BNLNPPS/nopayloadclient)
+
 ### References
 
-[1] Ruslan Mashinistov, L. Gerlach, P. Laycock, A. Formica, Giacomo Govi, and C. Pinkenburg, “The HSF Conditions Database Reference Implementation,” EPJ Web of Conferences, vol. 295, pp. 01051–01051, Jan. 2024
+[1] Ruslan Mashinistov, L. Gerlach, P. Laycock, A. Formica, Giacomo Govi, and C. Pinkenburg, "The HSF Conditions Database Reference Implementation," EPJ Web of Conferences, vol. 295, pp. 01051–01051, Jan. 2024
 
-[2] “Grafana Loki | Grafana Loki documentation,” Grafana Labs, 2025. https://grafana.com/docs/loki/latest (accessed Jul. 30, 2025).
+[2] “Grafana Loki | Grafana Loki documentation,” Grafana Labs, 2025.
 
-[3] M. Du, F. Li, G. Zheng, and V. Srikumar, “DeepLog, Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security”, Oct. 2017, doi: https://doi.org/10.1145/3133956.3134015.
+[3] M. Du, F. Li, G. Zheng, and V. Srikumar, “DeepLog, Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security”, Oct. 2017
