@@ -11,14 +11,11 @@ intro: |
     An intelligent logging pipeline for NopayloadDB that integrates log aggregation, anomaly detection, and monitoring. It improves reliability and maintainability in large-scale HEP experiments It is deployed on Minikube cluster while using a deep learning model for real-time anomaly detection.
 ---
 
-## Final Evaluation Report for GSOC 2025
-#### Mentors: Ruslan Mashinistov, Michel Hernandez Villanueva, and John S. De Stefano Jr
-
-
 <div align="center">
 <img src="https://hepsoftwarefoundation.org/images/BNL-logo.png" width="500"/>
 </div>
 
+#### Mentors: Ruslan Mashinistov, Michel Hernandez Villanueva, and John S. De Stefano Jr
 
 ### Introduction
 <p align="justify">
