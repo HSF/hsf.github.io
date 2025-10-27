@@ -108,6 +108,7 @@ I enjoyed my time working with my mentors Ruslan, Michel, and John. This project
 </p>
 
 ### References
+
 [1] Ruslan Mashinistov, L. Gerlach, P. Laycock, A. Formica, Giacomo Govi, and C. Pinkenburg, “The HSF Conditions Database Reference Implementation,” EPJ Web of Conferences, vol. 295, pp. 01051–01051, Jan. 2024
 
 [2] “Grafana Loki | Grafana Loki documentation,” Grafana Labs, 2025. https://grafana.com/docs/loki/latest (accessed Jul. 30, 2025).
