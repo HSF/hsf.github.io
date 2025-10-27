@@ -1,19 +1,17 @@
 ---
 project: Intelligent Log Analysis for the HSF Conditions Database
-tile: Intelligent Logging Pipeline
+title: Intelligent Logging Pipeline
 author: Osama Ahmed Tahir
 photo: blog_authors/OsamaTahir.jpg
 date: 27.10.2025
 year: 2025
-logo: BNL-logo.png
 layout: blog_post
+logo: BNL-logo.png
 intro: |
-An intelligent logging pipeline for NopayloadDB that integrates log
-aggregation, anomaly detection, and monitoring. It improves reliability
-and maintainability in large-scale HEP experiments It is deployed on
-Minikube cluster while using a deep learning model for real-time anomaly
-detection.
+    An intelligent logging pipeline for NopayloadDB that integrates log aggregation, anomaly detection, and monitoring. It improves reliability and maintainability in large-scale HEP experiments It is deployed on Minikube cluster while using a deep learning model for real-time anomaly detection.
 ---
+
+# Final Evaluation Report for GSOC 2025
 
 <div align="center">
 <img src="https://hepsoftwarefoundation.org/images/BNL-logo.png" width="500"/>
