@@ -74,25 +74,31 @@ Suppose a log system has several events, each represented by a unique ID. The mo
 </p>
 
 <div style="text-align: center;">
-  <table style="border-collapse: collapse; margin: auto; text-align: center; width: 60%;">
+  <table style="
+      border-collapse: collapse;
+      margin: auto;
+      width: 60%;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-size: 16px;
+      text-align: center;
+  ">
     <thead>
-      <tr>
-        <th style="border-bottom: 2px solid #444; padding: 8px 20px;">Unique ID</th>
-        <th style="border-bottom: 2px solid #444; padding: 8px 20px;">Event</th>
-        <th style="border-bottom: 2px solid #444; padding: 8px 20px;">Probability</th>
+      <tr style="border-bottom: 2px solid #444; border-top: 2px solid #444;">
+        <th style="padding: 8px 60px;">Unique ID</th>
+        <th style="padding: 8px 60px;">Event</th>
+        <th style="padding: 8px 60px;">Probability</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td style="padding: 6px 20px;">0</td><td style="padding: 6px 20px;">Login</td><td style="padding: 6px 20px;">0.7</td></tr>
-      <tr><td style="padding: 6px 20px;">1</td><td style="padding: 6px 20px;">Upload File</td><td style="padding: 6px 20px;">0.4</td></tr>
-      <tr><td style="padding: 6px 20px;">2</td><td style="padding: 6px 20px;">Select File</td><td style="padding: 6px 20px;">0.6</td></tr>
-      <tr><td style="padding: 6px 20px;">3</td><td style="padding: 6px 20px;">Logout</td><td style="padding: 6px 20px;">0.25</td></tr>
-      <tr><td style="padding: 6px 20px;">4</td><td style="padding: 6px 20px;">Submit File</td><td style="padding: 6px 20px;">0.3</td></tr>
+      <tr><td style="padding: 8px 20px;">0</td><td style="padding: 8px 20px;">Login</td><td style="padding: 8px 20px;">0.7</td></tr>
+      <tr><td style="padding: 8px 20px;">1</td><td style="padding: 8px 20px;">Upload File</td><td style="padding: 8px 20px;">0.4</td></tr>
+      <tr><td style="padding: 8px 20px;">2</td><td style="padding: 8px 20px;">Select File</td><td style="padding: 8px 20px;">0.6</td></tr>
+      <tr><td style="padding: 8px 20px;">3</td><td style="padding: 8px 20px;">Logout</td><td style="padding: 8px 20px;">0.25</td></tr>
+      <tr><td style="padding: 8px 20px;">4</td><td style="padding: 8px 20px;">Submit File</td><td style="padding: 8px 20px;">0.3</td></tr>
     </tbody>
   </table>
   <p style="font-style: italic; margin-top: 6px;">Table 1: Set of Events</p>
 </div>
-
 
 
 <p align="justify">
