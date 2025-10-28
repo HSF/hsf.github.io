@@ -73,25 +73,26 @@ DeepLog is an LSTM-based model that learns log patterns from normal execution [3
 Suppose a log system has several events, each represented by a unique ID. The model takes a sequence of past events and predicts what the next event is likely to be. For example, <i>Table 1: Set of Events</i> shows unique IDs for the set of events of a user trying to upload a file. From the past event, the DeepLog learns the upcoming event and gives a probability to each unique event. It is to be noted that these sets of events are consumed by DeepLog in a random sequence.
 </p>
 
-<div align="center">
-  <table>
+<div style="text-align: center;">
+  <table style="border-collapse: collapse; margin: auto; text-align: center; width: 60%;">
     <thead>
       <tr>
-        <th>Unique ID</th>
-        <th>Event</th>
-        <th>Probability</th>
+        <th style="border-bottom: 2px solid #444; padding: 8px 20px;">Unique ID</th>
+        <th style="border-bottom: 2px solid #444; padding: 8px 20px;">Event</th>
+        <th style="border-bottom: 2px solid #444; padding: 8px 20px;">Probability</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td>0</td><td>Login</td><td>0.7</td></tr>
-      <tr><td>1</td><td>Upload File</td><td>0.4</td></tr>
-      <tr><td>2</td><td>Select File</td><td>0.6</td></tr>
-      <tr><td>3</td><td>Logout</td><td>0.25</td></tr>
-      <tr><td>4</td><td>Submit File</td><td>0.3</td></tr>
+      <tr><td style="padding: 6px 20px;">0</td><td style="padding: 6px 20px;">Login</td><td style="padding: 6px 20px;">0.7</td></tr>
+      <tr><td style="padding: 6px 20px;">1</td><td style="padding: 6px 20px;">Upload File</td><td style="padding: 6px 20px;">0.4</td></tr>
+      <tr><td style="padding: 6px 20px;">2</td><td style="padding: 6px 20px;">Select File</td><td style="padding: 6px 20px;">0.6</td></tr>
+      <tr><td style="padding: 6px 20px;">3</td><td style="padding: 6px 20px;">Logout</td><td style="padding: 6px 20px;">0.25</td></tr>
+      <tr><td style="padding: 6px 20px;">4</td><td style="padding: 6px 20px;">Submit File</td><td style="padding: 6px 20px;">0.3</td></tr>
     </tbody>
   </table>
-  <i>Table 1: Set of Events</i>
+  <p style="font-style: italic; margin-top: 6px;">Table 1: Set of Events</p>
 </div>
+
 
 
 <p align="justify">
