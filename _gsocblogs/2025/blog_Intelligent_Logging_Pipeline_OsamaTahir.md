@@ -74,18 +74,25 @@ Suppose a log system has several events, each represented by a unique ID. The mo
 </p>
 
 <div align="center">
-
-| Unique ID | Event        | Probability |
-| --------- | ------------ | ----------- |
-| 0         | Login        | 0.7         |
-| 1         | Upload File  | 0.4         |
-| 2         | Select File  | 0.6         |
-| 3         | Logout       | 0.25        |
-| 4         | Submit File  | 0.3         |
-
-<i>Table 1: Set of Events</i>
-
+  <table>
+    <thead>
+      <tr>
+        <th>Unique ID</th>
+        <th>Event</th>
+        <th>Probability</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>0</td><td>Login</td><td>0.7</td></tr>
+      <tr><td>1</td><td>Upload File</td><td>0.4</td></tr>
+      <tr><td>2</td><td>Select File</td><td>0.6</td></tr>
+      <tr><td>3</td><td>Logout</td><td>0.25</td></tr>
+      <tr><td>4</td><td>Submit File</td><td>0.3</td></tr>
+    </tbody>
+  </table>
+  <i>Table 1: Set of Events</i>
 </div>
+
 
 <p align="justify">
 Here the model thinks "Login" is most likely next event, then "Select File" and then "Upload File" etc. Hence, the sequence will be [Login, Select File, Upload File, Submit File, Logout] and with their respective unique IDs, it will be [0, 2, 1, 4, 3]. With k=2, the model predicts the top 2 event IDs as [Login, Select File], while the true event is Upload File. Since the true event does not appear in the top 2 predictions, this case is flagged as an anomaly. When k=3, the top 3 event IDs are [Login, Select File, Upload File], and the true event Upload File is included, so it is considered normal. In practice, the model checks whether the true event ID appears within the top-k predicted IDs: if the true event is not present, the sequence is labelled as an anomaly; otherwise, it is treated as normal.
