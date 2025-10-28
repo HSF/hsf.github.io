@@ -76,7 +76,7 @@ Suppose a log system has several events, each represented by a unique ID. The mo
 <div align="center">
 
 | Unique ID | Event        | Probability |
-|-----------|--------------|-------------|
+| --------- | ------------ | ----------- |
 | 0         | Login        | 0.7         |
 | 1         | Upload File  | 0.4         |
 | 2         | Select File  | 0.6         |
