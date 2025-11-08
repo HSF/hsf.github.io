@@ -9,7 +9,7 @@ year: 2025
 layout: blog_post  
 logo: "TMVA - SOFIE"  
 intro: |
-    Developed a parser within SOFIE to parse Machine Learning models trained with Keras. Rewrote the existing parser, which was written in C++, in Python. Added support for parsing missing layers, such as Pooling and LayerNormalization, and wrote unit tests for the parser.  
+    Developed a parser within SOFIE to parse Machine Learning models trained with Keras. Rewrote the existing parser in Python, which was previously written in C++. Added support for parsing missing layers, such as Pooling and LayerNormalization, and wrote unit tests for the parser.  
 
 ---
 
@@ -56,7 +56,7 @@ Currently, SOFIE's existing Keras parser is written in C++ and is quite old. Alt
 
 ## Work Accomplished
 
-Since SOFIE's operators are written entirely in C++, we had to leverage ROOT's `Pythonization` functionality, which essentially allows us to use SOFIE's C++ objects in a Pythonic interface. The overall structure of the parser is very similar to the previous one. The sequence of operations is as follows:
+Since SOFIE's operators are written entirely in C++, we had to leverage ROOT's `Pythonization` functionality, which essentially allows us to bind SOFIE's C++ objects to a Pythonic interface. The overall structure of the parser is very similar to the previous one. The sequence of operations is as follows:
 
 ### 1. Load the Keras model  
 ### 2. Instantiate the `RModel` class  
