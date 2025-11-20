@@ -3,15 +3,11 @@ title: "HSF Coordination Meeting #298, 20 November 2025"
 layout: plain_toc
 ---
 
-# HSF Coordination Meeting #298, 20 November 2025
-
----
-
 ## Attending
 
 Present/Contributing: Claire Antel, Joe Osborn, Maarten van Veghel, Liz Sexton-Kennedy, Saptaparna Bhattacharya, Alexander Moreno, Michel Hernandez Villanueva, Ruslan Mashinistov, Torre Wenaus, Stephen Mrenna
 
-Apologies/Contributing: 
+Apologies/Contributing: Eduardo Rodrigues, Graeme Stewart
 
 ## News, general matters, announcements
 
