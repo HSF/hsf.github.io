@@ -18,7 +18,7 @@ Apologies/Contributing: Eduardo Rodrigues, Graeme Stewart
 ### 2026 conveners
 
 It’s that time of the year again to run the process to identify the 2026 activity area conveners.
-- The call for nominations for 2026 conveners is open. Please nominate those you know
+- The call for nominations for 2026 conveners is open. Please nominate those you know and share around.
 
 ### HSF Seminar Series and Compute Accelerator Forum
 
@@ -37,7 +37,7 @@ HSF seminar conveners are reachable at <mailto:hsf-seminar-conveners@googlegroup
 
 Compute & Accelerator forums:
 - 12 Nov: [A Formal but Pragmatic Foundation for General-Purpose Operating Systems](https://indico.cern.ch/event/1472688/).
-    - seminar was excellent, recommend watching the recording
+    - Seminar was excellent, recommend watching the recording.
 
 Please send your suggestions for next seminars.
 
@@ -72,11 +72,11 @@ Other activities:
 
 ### JuliaHEP
 
-JuliaHEP 2026 will be in Munich. We are planning for the end of September or the beginning of October
+JuliaHEP 2026 will be in Munich. We are planning for the end of September or the beginning of October.
 
-JuliaCon 2026 - We are working on the JuliaHEP Mini-symposium proposal
+JuliaCon 2026 - We are working on the JuliaHEP Mini-symposium proposal.
 
-We are organizing JuliaHEP Users Meetings - every other month next year
+We are organizing JuliaHEP Users Meetings - every other month next year.
 
 
 ## AOB
