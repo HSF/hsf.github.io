@@ -36,7 +36,7 @@
               <a class="dropdown-toggle" data-toggle="dropdown" href="{{site.baseurl}}/index.html" id="communication_menu"><span class="glyphicon glyphicon-bullhorn"></span>&nbsp;&nbsp;Communication<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="communication_menu">
                   <li><a href="{{ site.baseurl }}/future-events.html">Community Calendar</a></li>
-                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico">Meetings: Indico</a></li>
+                  <li><a href="https://indico.cern.ch/category/5816/" target="_hsf_indico" rel="noopener noreferrer">Meetings: Indico</a></li>
                   <li><a href="{{ site.baseurl }}/Schools/events.html">Training Schools</a></li>
                   <li class="divider"></li>
                   <li><a href="{{ site.baseurl }}/forums.html">Mailing Lists and Forums</a></li>
@@ -47,7 +47,7 @@
                   <li class="divider"></li>
                   <li><a href="{{ site.baseurl }}/newsletter.html">Newsletters</a></li>
                   <li><a href="{{ site.baseurl }}/events.html">Events &amp; Workshops</a></li>
-                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube">HSF on YouTube</a></li>
+                  <li><a href="https://www.youtube.com/c/HEPSoftwareFoundation" target="_hsf_youtube" rel="noopener noreferrer">HSF on YouTube</a></li>
                   <li class="divider"></li>
 
                   <li><a href="{{ site.baseurl }}/inventory/inventory.html">HSF Project Inventory</a></li>
