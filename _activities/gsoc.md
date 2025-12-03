@@ -74,11 +74,11 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
 <table class="table table-hover table-striped">
   <tr>
     <td> Jan 16 </td>
-    <td> Announcement of GSoC 2024 program in HSF </td>
+    <td> Announcement of GSoC 2025 program in HSF </td>
   </tr>
   <tr>
     <td> Jan 16 </td>
-    <td>Call for 2024 HSF GSoC projects and mentors</td>
+    <td>Call for 2025 HSF GSoC projects and mentors</td>
   </tr>
   <tr>
     <td> Jan 16 - Feb 11 </td>
