@@ -23,7 +23,7 @@ The objectives of the HSF are to:
 
 In 2017 the HSF organised a [Community White Paper]({{ site.baseurl }}/cwp.html)
 initiative, which resulted in the publication of a [Roadmap for HEP
-Computing](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv"}. This
+Computing](https://arxiv.org/abs/1712.06982){:target="_cwp_roadmap_arxiv" rel="noopener noreferrer"}. This
 document laid out the software and computing challenges that would be faced
 during the next decade and the roadmap of R&D that would needed to face them
 successfully.  
