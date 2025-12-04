@@ -88,7 +88,7 @@ This method can be used to convert a GoogleDoc document to markdown. To do it, u
 Please prefix `{{ site.baseurl }}` in your markdown links, for example
 
 ```
-[link text]({{ site.baseurl}}/workinggroups/dataanalysis.html)
+[link text]({{ site.baseurl}}/activities/dataanalysis.html)
 ```
 {% endraw %}
 
