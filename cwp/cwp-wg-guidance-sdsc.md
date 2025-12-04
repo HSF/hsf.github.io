@@ -8,7 +8,7 @@ layout: default
 
 ## Goals for the HSF Workshop at SDSC
 
-The [HSF Workshop at SDSC](http://indico.cern.ch/event/570249/) in January, 2017 marks the beginning of the CWP process. The process will last through summer, 2017. At this first general CWP workshop, we have two primary goals for the working groups (WG):
+The [HSF Workshop at SDSC](https://indico.cern.ch/event/570249/) in January, 2017 marks the beginning of the CWP process. The process will last through summer, 2017. At this first general CWP workshop, we have two primary goals for the working groups (WG):
 
 1. Each WG should write and agree on the text for a charge for the WG. The charge should specify three things:
   * The scope - what is covered by the WG, and possibly what is not covered

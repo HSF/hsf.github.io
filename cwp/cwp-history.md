@@ -88,7 +88,7 @@ The Editorial Board, which helped to prepare the final version of the roadmap, w
 The following series of workshops or events related to the CWP took place:
 
   * 23-27 Jan, 2017 - HSF CWP workshop at SDSC/UCSD
-    * [Indico page](http://indico.cern.ch/event/570249/)
+    * [Indico page](https://indico.cern.ch/event/570249/)
   * 9 Mar, 2017 - Software Triggers and Event Reconstruction WG meeting
     * A CWP session at the [Connecting The Dots workshop](https://ctdwit2017.lal.in2p3.fr)
     * [Indico page](https://indico.cern.ch/event/614111/)
@@ -104,7 +104,7 @@ The following series of workshops or events related to the CWP took place:
     * [Indico page](https://indico.fnal.gov/conferenceDisplay.py?confId=13497)
   * 22-24 May, 2017 - HEP Analysis Ecosystem Retreat
     * *Amsterdam*
-    * [Indico page](http://indico.cern.ch/event/613842/)
+    * [Indico page](https://indico.cern.ch/event/613842/)
     * [Workshop proposal](https://docs.google.com/document/d/1aAGCj_y9in_I-c9yYJ-XX3Qurf0PXH4tFoYmvuCY5tk/edit#heading=h.9h0v0hyue6zf)
   * 5-6 Jun, 2017 - CWP Event Processing Frameworks Workshop
     * *FNAL*

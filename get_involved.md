@@ -33,7 +33,7 @@ by joining the HSF with your software project:
 See the [Events listing]({{ site.baseurl }}/future-events.html) on this site for information on HSF meetings, workshops,
 etc.
 
-Meetings use the [CERN Indico system](http://indico.cern.ch/category/5816/) for agenda pages. The agenda pages are generally open to the world, and no CERN account is needed. To upload material to Indico you do need to be identified CERN now allows EduGain authentication
+Meetings use the [CERN Indico system](https://indico.cern.ch/category/5816/) for agenda pages. The agenda pages are generally open to the world, and no CERN account is needed. To upload material to Indico you do need to be identified CERN now allows EduGain authentication
 to many of its services, if you do not have a full CERN account.
 
 The [Zoom](https://videoconference.docs.cern.ch/) video conferencing system is used for almost all HSF meetings and anyone can participate in the meetings from any internet-connected location. Connection information for each specific Zoom meeting is on the corresponding Indico meeting agenda page.

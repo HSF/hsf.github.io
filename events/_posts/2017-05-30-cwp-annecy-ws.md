@@ -11,7 +11,7 @@ that a significant “software upgrade” is required.
 
 The HEP Software Foundation (HSF) has been working since January on a Community White Paper (CWP) that 
 will define a roadmap for HEP Software and Computing R&D for the 2020s. After the [initial 
-workshop](http://indico.cern.ch/event/570249/) at the San Diego Supercomputing Center (SDSC), 
+workshop](https://indico.cern.ch/event/570249/) at the San Diego Supercomputing Center (SDSC), 
 many topical working groups have been formed to discuss the various aspects of the CWP.
 
 This [HSF workshop](https://indico.cern.ch/event/613093/overview) at LAPP (Annecy, France) will conclude the work of these WGs and prepare the final 
