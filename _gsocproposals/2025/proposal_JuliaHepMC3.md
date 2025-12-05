@@ -59,7 +59,7 @@ A key outcome would be a set of unit tests and examples, based on the HepMC3 one
 ## Links
 
 - [Julia Programming Language](https://julialang.org/)
-- [JuliaHEP HSF Group](https://hepsoftwarefoundation.org/workinggroups/juliahep.html)
+- [JuliaHEP HSF Group](https://hepsoftwarefoundation.org/activities/juliahep.html)
 - [HepMC3 Repository](https://gitlab.cern.ch/hepmc/HepMC3)
 - [CxxWrap](https://github.com/JuliaInterop/CxxWrap.jl)
 - [WrapIt!](https://github.com/grasph/wrapit)
