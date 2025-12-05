@@ -1,20 +1,24 @@
 <!-- Used for the training center iframe embedding -->
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="{{ page.description | default: site.description | default: 'HEP Software Foundation - Facilitating cooperation in High Energy Physics software and computing' }}">
     <title>{{ page.title }}</title>
     <link rel="icon" type="image/x-icon" href="{{ '/images/hsf_logo_angled.png' | relative_url }}">
 
-    <!-- bootstrap framework -->
+    <!-- Bootstrap framework CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css">
 
     <link rel="stylesheet" href="{{ '/css/hsf.css' | relative_url }}" type="text/css" />
 </head>
 <body>
-<div class="container">
+<!-- Skip to main content for accessibility -->
+<a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<div class="container" id="main-content" role="main">
 
   {{ content }}
 
