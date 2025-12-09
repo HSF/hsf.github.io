@@ -43,7 +43,7 @@ year: 2025
 - JohnKala - [Background Enrichment augmented Anomaly Detection (BEAD)– Contrastive VAE & Transformer Architecture](https://gist.github.com/JohnKala/9e41c2cfc213920abd80db494f624faf) - Pratik Jawahar, Sukanya Sinha  
 - Kriti Mahajan - [RNTuple in JSROOT](https://drive.google.com/file/d/1d3hSGvQk0-77gMFqEoX0CCCdswliuL3L/view?usp=sharing) - Sergey Linev, Giacomo Parolini  
 - MytsV - [Rucio WebUI Revamp](https://github.com/rucio/webui) - Martin B, Mayank Sharma  
-- Osama Tahir - [Intelligent Log Analysis for the HSF Conditions Database](https://github.com/BNLNPPS/intelligent-logging-pipeline) - Michel Villanueva, Ruslan Mashinistov  
+- Osama Tahir - [Intelligent Log Analysis for the HSF Conditions Database](https://github.com/BNLNPPS/intelligent-logging-pipeline) - Ruslan Mashinistov, Michel Villanueva, John S. De Stefano Jr. 
 - Prasanna Kasar - [TMVA SOFIE - Enhancing Keras Parser and JAX/FLAX Integration](https://gist.github.com/PrasannaKasar/3cf1ccc7109a9bf5d784b973233ed05a) - Lorenzo Moneta, Sanjiban Sengupta  
 - S. Akash - [TMVA SOFIE - GPU Support for Machine Learning Inference](https://gist.github.com/Akasxh/037013605f9823ac5eeb1c577177eafd) - Lorenzo Moneta, Sanjiban Sengupta  
 - Tarun Nandi - [Data Representation Optimisation for Generative Model-based Fast Calorimeter Shower Simulation](https://github.com/Tarun-Nandi/Data-Representation-Optimisation-Algorithms-CERN--GSoC-) - Piyush Raikwar, Peter McKeown  
