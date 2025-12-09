@@ -47,7 +47,7 @@ year: 2025
 - Prasanna Kasar - [TMVA SOFIE - Enhancing Keras Parser and JAX/FLAX Integration](https://gist.github.com/PrasannaKasar/3cf1ccc7109a9bf5d784b973233ed05a) - Lorenzo Moneta, Sanjiban Sengupta  
 - S. Akash - [TMVA SOFIE - GPU Support for Machine Learning Inference](https://gist.github.com/Akasxh/037013605f9823ac5eeb1c577177eafd) - Lorenzo Moneta, Sanjiban Sengupta  
 - Tarun Nandi - [Data Representation Optimisation for Generative Model-based Fast Calorimeter Shower Simulation](https://github.com/Tarun-Nandi/Data-Representation-Optimisation-Algorithms-CERN--GSoC-) - Piyush Raikwar, Peter McKeown  
-- Yolanne Lee - [Neural (De)compression for High Energy Physics](https://github.com/yolannel/ATLAS_decompression) - Maciej Szymański  
+- Yolanne Lee - [Neural (De)compression for High Energy Physics](https://github.com/yolannel/ATLAS_decompression) - Maciej Szymański, Peter Van Gemmeren
 - Jason Wu - [Evaluating CVMFS for Machine Learning Model Distribution](https://github.com/jasonwu224/cvmfs-model-file-benchmark) - Lorenzo Moneta, Valentin Volkl  
 - Petro Zarytski - [Improve automatic differentiation of object-oriented paradigms using Clad](https://gist.github.com/PetroZarytskyi/b640ef2ba030255189450f2f26fcd3f8) - Vassil Vassilev, David Lange  
 - Karan Singh - [Benchmarking Sustainability of Classical & Quantum Algorithms for particle trajectory reconstruction](https://github.com/KaranSinghDev/E-QUEST) - MiriamLucioMartinez, Arantza Oyanguren  
