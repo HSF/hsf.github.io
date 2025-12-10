@@ -26,7 +26,7 @@ Project ideas will be added to the website starting in January. You should wait 
 
 > My proposal has been accepted, but my planning has changed due to exams etc. Can the submission deadlines be changed?
 
-Yes, the GSoC programme is intended to be somewhat flexible, see <https://developers.google.com/open-source/gsoc/faq#can_the_schedule_be_adjusted_if_my_school_ends_latestarts_early> , just e-mail the HSF GSoC admins. Please co-ordinate with your mentors though, and let us know well before the evaluation window opens - once it opens it cannot be modified anymore.
+Yes, the GSoC programme is intended to be somewhat flexible, see <https://developers.google.com/open-source/gsoc/faq#can_the_schedule_be_adjusted_if_my_school_ends_latestarts_early> , just e-mail the HSF GSoC admins. Please coordinate with your mentors though, and let us know well before the evaluation window opens - once it opens it cannot be modified anymore.
 
 
 ### Note
