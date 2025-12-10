@@ -12,7 +12,7 @@ Discussions between Conditions Database experts across several HEP experiments t
 * The ability to cache queries as well as payloads
 * Separation of payload queries from metadata queries
 
-Importantly, the group needed to agree on a definition of “conditions data”, concluding that in the context of large scale NHEP computing challenges it is the subset of non-event data used in event-data processing, often using distributed computing resources.  These use cases have strong connections to several other HSF working groups, including 
+Importantly, the group needed to agree on a definition of "conditions data", concluding that in the context of large scale NHEP computing challenges it is the subset of non-event data used in event-data processing, often using distributed computing resources.  These use cases have strong connections to several other HSF working groups, including 
 [Reconstruction and Software Triggers]({{ site.baseurl}}/workinggroups/recotrigger.html),
 [Detector Simulation]({{ site.baseurl}}/workinggroups/detsim.html),
 [Data Analysis]({{ site.baseurl}}/workinggroups/dataanalysis.html), and

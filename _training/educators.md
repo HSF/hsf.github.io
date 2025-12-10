@@ -3,7 +3,7 @@ title: "Educators"
 layout: plain
 ---
 
-The [HSF training group]({{ site.baseurl }}/workinggroups/training.html) relies on proactive and dedicated educators coming from *within* the field of high energy physics. Here we aim to introduce you to what it means to be an HSF-Educator, the different types of roles that exist, and who has served the community by giving their time and energy to bootstrapping the education of HEP. If you are interested in serving as an educator, please do not hesitate to contact the HSF-Training conveners for more details.
+The [HSF training group]({{ site.baseurl }}/activities/training.html) relies on proactive and dedicated educators coming from *within* the field of high energy physics. Here we aim to introduce you to what it means to be an HSF-Educator, the different types of roles that exist, and who has served the community by giving their time and energy to bootstrapping the education of HEP. If you are interested in serving as an educator, please do not hesitate to contact the HSF-Training conveners for more details.
 
 If you want to organize a complete workshop, we also have [recommendations on that]({{ site.baseurl }}/training/howto-event.html).
 
