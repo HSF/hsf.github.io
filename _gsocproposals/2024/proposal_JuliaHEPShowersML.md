@@ -50,7 +50,7 @@ The evaluation exercise for this project is [here](https://github.com/graeme-a-s
 ## Links
 
 * [Julia Programming Language](https://julialang.org/)
-* [JuliaHEP HSF Group](https://hepsoftwarefoundation.org/activities/juliahep.html)
+* [JuliaHEP HSF Group](https://hepsoftwarefoundation.org/workinggroups/juliahep.html)
 * [Potential of the Julia Programming Language for High Energy Physics Computing](https://doi.org/10.1007/s41781-023-00104-x)
 * [CaloChallenge](https://calochallenge.github.io/homepage/)
 * Some Julia ML toolkits:
