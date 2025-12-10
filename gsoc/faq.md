@@ -10,7 +10,7 @@ layout: default
 
 > How do Contributors typically get started in your organization? Are there any small tasks, papers, or code components I can explore to build credibility and become familiar with your workflows? Can I contribute outside of GSoC?
 
-It's important to understand that the CERN/HSF organisation is an umbrella organisation, that allows many different open source projects related to particle physics to participate.
+It's important to understand that the HSF organization is an umbrella organisation, that allows many different open source projects related to particle physics to participate.
 So there is no single answer to this, it depends on the individual projects.
 
 The software used in our field is typically very open, but also very specialised and requires a lot of domain knowledge to contribute to. Be mindful that when trying to contribute as a newcomer you are most likely asking quite some time and effort of the maintainers. The maintainers who do have the time and inclination to mentor will very often come forward and propose a project idea, so if you don't know where to start, we recommend to wait and apply to an interesting project idea on the webpage. That said, all projects value quality contributions and some may have a github presence with issues marked "good first issue" or a contributor's guide. Also take a look at past editions of the programme to see what projects could be interesting for you.
