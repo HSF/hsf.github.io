@@ -36,4 +36,7 @@ by ALICE, ATLAS, Belle II, CMS, DUNE, ePIC, LHCb, MCnet and WLCG.
 The [HSF Steering Group]({{ site.baseurl }}/organization/team.html) helps to run the
 organisation on a day to day basis.
 
+You can read more about the history of the HSF in our paper on [The HEP
+Software Foundation Community](https://arxiv.org/abs/2205.08193).
+
 Please feel free to ask us any questions you have.
