@@ -35,7 +35,7 @@ The selection process in our organization will be split into two phases. All can
 
 ### For Students
 
-If you are interested in the HSF projects, please start by having a look at our [guidelines for students]({{ site.baseurl }}/gsoc/students-guideline.html).
+If you are interested in the HSF projects, please start by having a look at our [guidelines for students]({{ site.baseurl }}/gsoc/students-guideline.html) and [frequently asked questions]({{ site.baseurl }}/gsoc/faq.html).
 
 New projects for HSF GSoC in 2025 will be published by **February 11**. Meanwhile you can take a look at last year's HSF GSoC [projects]({{ site.baseurl }}/gsoc/2023/index.html#projects-in-2022) since many of those may also propose subjects this year. The student application period will begin on **Mar 24**, but discussions about student project ideas with mentors will take place starting on **February 27**, when the list of accepted Organizations is announced. You are encouraged to monitor this website in order to get acquainted with our projects and be prepared for contacting their mentors. Due to the high number of applicants for CERN-HSF projects, the application period procedure become more formal this year, so please try to follow our guidance.
 
