@@ -31,7 +31,7 @@ In many cases, it replaces package managers and shared software areas on cluster
 
 ## Task idea
 
-CVMFS is implemented as a FUSE filesystem, which are surprisingly easy to deadlock. While it's a rare occurence in production, if a kernel deadlock occurs, debugging the cause is very difficult. This is because debuggers like gdb rely on sending a PTRACE signal to the process.
+CVMFS is implemented as a FUSE filesystem, which are surprisingly easy to deadlock. While it's a rare occurrence in production, if a kernel deadlock occurs, debugging the cause is very difficult. This is because debuggers like gdb rely on sending a PTRACE signal to the process.
 
 In this project proposal, we'd like to investigate ways of obtaining a stacktrace and other possibilities of getting diagnostic information from a stuck process. Even if the process is stuck in a kernel call it *should* still be possible to trigger a coredump and load it with a debugger to get a stacktrace, but we are not aware of any easy way to do this. The resulting utility would be generally useful for FUSE filesystems, but we would want to integrate it into CVMFS.
 
