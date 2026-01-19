@@ -51,6 +51,12 @@ In this project proposal, we'd like to investigate ways of obtaining a stacktrac
  * Interest in Linux Kernel internals
 
 
+## How to apply
+
+Once CERN/HSF is accepted as a GSoC org, please write an email with a short introduction to your interests and background to the mentors with the string "gsoc26" in the subject.
+There will be a small evaluation task that we will mail to you then.
+
+
 ## Links
 
  * [CVMFS](https://cernvm.cern.ch/fs/)
