@@ -30,6 +30,7 @@ The Advisory Group chair is responsible for ensuring that the EC Contact is up t
 - DUNE Experiment
 - LHCb Experiment
 - MCnet Community
+- SHiP Experiment
 - WLCG Project
 
 ## Meetings
@@ -38,4 +39,4 @@ A nominal meeting schedule consists of one AG meeting per year, arranged to prec
 
 ## Advisory Group Chair Election
 
-The Advisory Group chair is elected annually and serves for 2 years, serving a maximum of 2 terms. The Steering Group secretary serves as returning officer and is in charge of running the election. Candidates for the chair of the Advisory Group can be nominated and can self-nominate. The election will be held by confidential ballot. In the case of a tie, with more than two candidates, the top two candidates are retained and a second round is held. If there is still a tie after the second round, the SG chair is decided by lot.
+The Advisory Group chair is elected annually and serves for 2 years, serving a maximum of 2 terms. The Steering Group secretary serves as returning officer and is in charge of running the election. Candidates for the chair of the Advisory Group can be nominated and can self-nominate. The election will be held by confidential ballot. In the case of a tie, with more than two candidates, the top two candidates are retained and a second round is held. If there is still a tie after the second round, the AG chair is decided by lot.
