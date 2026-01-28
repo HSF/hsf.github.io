@@ -8,7 +8,7 @@ duration: 350
 mentor_avail: June-October
 organization:
   - BNL
-project_mentor:
+project_mentors:
   - email: mashinistov@bnl.gov
     organization: BNL
     first_name: Ruslan
