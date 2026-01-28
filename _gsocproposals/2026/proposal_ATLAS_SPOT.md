@@ -5,7 +5,7 @@ project: ATLAS
 year: 2026
 organization:
   - ANL
-  - University of Washington
+  - UW
   - CERN
 difficulty: medium
 duration: 175
@@ -19,7 +19,7 @@ project_mentors:
   - email: tatiana.ovsiannikova@cern.ch
     first_name: Tatiana
     last_name: Ovsiannikova
-    organization: University of Washington
+    organization: UW
     is_preferred_contact: yes
 ---
 
