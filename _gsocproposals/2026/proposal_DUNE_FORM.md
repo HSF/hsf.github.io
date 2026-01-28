@@ -6,6 +6,7 @@ year: 2026
 organization:
   - ANL
   - CERN
+  - FNAL
 difficulty: medium
 duration: 175
 mentor_avail: June-October
