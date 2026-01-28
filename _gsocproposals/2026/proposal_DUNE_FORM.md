@@ -1,7 +1,7 @@
 ---
 title: Fine grained storage for the DUNE experiment
 layout: gsoc_proposal
-project: ATLAS
+project: DUNE
 year: 2026
 organization:
   - ANL
