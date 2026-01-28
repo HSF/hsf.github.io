@@ -4,7 +4,7 @@ layout: gsoc_proposal
 project: Spack
 year: 2026
 organization:
-  - UM
+  - umanitoba
 difficulty: medium
 duration: 175
 mentor_avail: June-October
@@ -12,7 +12,7 @@ project_mentors:
   - email: wouter.deconinck@umanitoba.ca
     first_name: Wouter
     last_name: Deconinck
-    organization: UM
+    organization: umanitoba
     is_preferred_contact: yes
 ---
 
@@ -27,7 +27,7 @@ There are some workarounds to ensuring debuggable installs in Spack, such as usi
 ## Task Ideas
 
 - Assess the limitations of the current approaches for installing source trees alongside built binaries in Spack
-- Develop a robust solution to enable debuggable installs for Spack packages with out-of-source-tree build systems
+- Develop a robust solution to enable debuggable installs for Spack packages with out-of-tree build systems
 - Test the implementation with a variety of packages and build systems, with a focus on high-energy physics software
 
 As a stretch goal, in case of rapid progress, we may consider a next step which involves installing debug symbols in a separate location for access with `debuginfod`. This would allow installed binaries to be stripped of debug symbols, reducing their size and increasing performance, while still providing access to the symbols when needed for debugging.
