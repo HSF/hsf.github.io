@@ -30,12 +30,10 @@ To support large data record sizes, the experiment is developing a new data proc
 
 ## Task Ideas
 
-- Implement automated performance monitoring using ML/statistical approaches
-- Establish baselines and expected performance ranges
-- Detect anomalies
-- Generate automated alerts for significant changes or failures
-- Improve visualization dashboards
-- Modernize test orchestration scripts
+- Study fine grained data placement in independent container
+- Benchmark reading on non-synchronized containers, depending on different storage scenarios.
+- Quantify performance and identify potential inefficiency
+- Develop strategies, such as caching, to minimize inefficiencies.
 
 ## Expected Results and Milestones
 
