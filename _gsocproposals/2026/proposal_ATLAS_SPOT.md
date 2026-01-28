@@ -4,7 +4,9 @@ layout: gsoc_proposal
 project: ATLAS
 year: 2026
 organization:
-  - ANL, University of Washington, CERN
+  - ANL
+  - University of Washington
+  - CERN
 difficulty: medium
 duration: 175
 mentor_avail: June-October
