@@ -72,28 +72,6 @@ Thank you very much to those who accepted to act as a "reviewer" or spontaneousl
 
 ## Activities Updates
 
-### General Standing Reminders
-
-#### Website banners
-
-We have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files [here](https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023).
-
-#### Meetings
-
-Please try and book meetings in Indico at least 2 weeks in advance!
-
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
-
-#### Videos
-
-When meetings are recorded (recommended), please try to put them onto:
-
-- [HSF YouTube channel](https://www.youtube.com/c/HEPSoftwareFoundation) (ask for permission to do this)
-- <videos.cern.ch> (recommended over posting directly)
-
-Then post links to these locations. See [C&AF](https://indico.cern.ch/category/12741/) for examples.
-
-
 ### GSoC 2026
 
 Call for mentors 2026 is open - Deadline Feb 1st (Saturday!) Email hsf-gsoc-admin@googlegroups.com if you are interested in mentoring a project or add it to the website directly (see https://github.com/HSF/hsf.github.io/pull/1804)
