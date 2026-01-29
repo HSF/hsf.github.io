@@ -74,7 +74,7 @@ Thank you very much to those who accepted to act as a "reviewer" or spontaneousl
 
 ### GSoC 2026
 
-Call for mentors 2026 is open - Deadline Feb 1st (Saturday!) Email hsf-gsoc-admin@googlegroups.com if you are interested in mentoring a project or add it to the website directly (see https://github.com/HSF/hsf.github.io/pull/1804)
+Call for mentors 2026 is open - Deadline Feb 1st (Saturday!) Email <mailto:hsf-gsoc-admin@googlegroups.com> if you are interested in mentoring a project or add it to the website directly (see <https://github.com/HSF/hsf.github.io/pull/1804>)
 
 Note that it is probably a good idea (and recommended by Google) to add an AI usage policy to the project idea, for example
 
