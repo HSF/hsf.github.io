@@ -18,7 +18,7 @@ project_mentors:
 
 ## Description
 
-Spack is a flexible package manager widely used in high-performance computing (HPC) to manage complex software stacks. It is commonly used in scientific computing environments, including particle physics research. For example, the key4HEP project uses Spack to manage software dependencies for high-energy physics applications.
+Spack is a flexible package manager widely used in high-performance computing (HPC) to manage complex software stacks. It is commonly used in scientific computing environments, including particle physics research. For example, the key4HEP project uses Spack to manage complex software dependencies for high-energy physics (HEP) applications.
 
 The key4HEP project has for several years maintained and curated an extensive selection of high-energy physics software packages in Spack, through the third-party `key4hep-spack` package repository. This selection of packages has formed the basis of large deployments of the key4HEP software stack on CVMFS.
 
