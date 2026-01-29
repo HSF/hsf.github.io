@@ -32,7 +32,7 @@ However, changing directions for the deployment strategy of the key4HEP stack ar
 - Upstream the highest priority packages into Spack, following Spack best practices
 - Integrate new packages into Spack's continuous integration and testing infrastructure (HEP stack)
 
-As a stretch goal, in case of rapid progress, we may consider as a next step the expansion of the continuous integration and testing infrastructure to include MacOS as a target platform for the HEP stack. This would allow Spack users on MacOS to more confidently rely on the functionality of high-energy physics packages.
+As a stretch goal, in case of rapid progress, we may consider as a next step the expansion of the continuous integration and testing infrastructure to include macOS as a target platform for the HEP stack. This would allow Spack users on macOS to more confidently rely on the functionality of high-energy physics packages.
 
 ## Expected Results and Milestones
 
