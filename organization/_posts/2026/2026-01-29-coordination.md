@@ -136,7 +136,7 @@ Next Training Events
     - Call for contribtions to JuliaCon is now out:
 
 > Dear colleagues,
-We invite you to submit proposals to give a presentation (talk or poster) at JuliaCon Global 2026 in Mainz, August 10-15, 2026 (https://juliacon.org/2026). JuliaCon has traditionally featured talks that ranged from introductory to advanced, on topics related to various fields, delivered by developers and researchers from industry and academia. If you have worked with or on Julia in the past, JuliaCon is the best venue to share your work with the Julia community.
+We invite you to submit proposals to give a presentation (talk or poster) at JuliaCon Global 2026 in Mainz, August 10-15, 2026 (<https://juliacon.org/2026>). JuliaCon has traditionally featured talks that ranged from introductory to advanced, on topics related to various fields, delivered by developers and researchers from industry and academia. If you have worked with or on Julia in the past, JuliaCon is the best venue to share your work with the Julia community.
 The Call for Proposals (https://juliacon.org/2026/cfp/) will close February 28, 2026.
 We look forward to hearing from you.
 The JuliaCon 2026 Organizing Committee
