@@ -60,3 +60,5 @@ Email mentors with a brief background and interest in scientific software stacks
 ## Resources
 
 - [Spack](https://spack.io/)
+- [Key4HEP documentation](https://key4hep.github.io/key4hep-doc/)
+- [key4hep-spack repository](https://github.com/key4hep/key4hep-spack)
