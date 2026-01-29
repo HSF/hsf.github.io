@@ -29,7 +29,7 @@ This project will explore how generative AI can be used to assist in the identif
 ## Task Ideas
 
 - Develop a scalable method to summarize information from multiple Spack packages for input into generative AI models
-- Develop a method to record and propagate past successfull test scenarios to avoid generating duplicate tests
+- Develop a method to record and propagate past successful test scenarios to avoid generating duplicate tests
 - Develop a strategy to schedule and run generated test scenarios in an efficient manner
 - Develop a methodology to validate the effectiveness of generated test scenarios in uncovering breakages
 - Integrate the automatic test scenarios into Spack's existing continuous integration and testing infrastructure
