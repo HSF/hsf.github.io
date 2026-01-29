@@ -133,7 +133,7 @@ Next Training Events
 
 - JuliaCon 2026 - Mini-symposium proposal was accepted:
     - JuliaHEP Mini 2026 - Julia for Nuclear and Elementary Particle Physics: From Precision Science to High-Performance Tools
-    - Call for contribtions to JuliaCon is now out:
+    - Call for contributions to JuliaCon is now out:
 
 > Dear colleagues,
 We invite you to submit proposals to give a presentation (talk or poster) at JuliaCon Global 2026 in Mainz, August 10-15, 2026 (<https://juliacon.org/2026>). JuliaCon has traditionally featured talks that ranged from introductory to advanced, on topics related to various fields, delivered by developers and researchers from industry and academia. If you have worked with or on Julia in the past, JuliaCon is the best venue to share your work with the Julia community.
