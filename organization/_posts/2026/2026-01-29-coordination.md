@@ -17,7 +17,7 @@ We are finalising the teams of 2026 AA conveners. Most invitations have been sen
 
 ### HSF Seminar Series and Compute Accelerator Forum
 
-- HSF Open Data seminar joint with IML yesterday (https://indico.cern.ch/event/1604475/): ~45 people in attendance.
+- HSF Open Data seminar joint with IML yesterday (<https://indico.cern.ch/event/1604475/>): ~45 people in attendance.
     - See trigger & reco report
     - Recording will be on the agenda
 
