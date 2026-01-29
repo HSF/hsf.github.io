@@ -64,7 +64,7 @@ Discussion points:
   - After the technical review: 
       - Do we circulate to SG and to authors? 
       - Does the report become public? (Once the badge has been achieved && if the authors agree)
-          - Consensus is that it should be public, so different people can read it and evaluate the different categories we're reviewing as well 
+          - Consensus is that it should be public, so different people can read it and evaluate the different categories we're reviewing as well. Sharing publicly has always been important since the HSF is "on behalf of".
 
 Do not hesitate to discuss around you to identify relevant projects/libraries that could engage with the affiliation programme.
 
@@ -87,10 +87,10 @@ Note that it is probably a good idea (and recommended by Google) to add an AI us
 Next Training Events
 
 - Analysis Reproducibility Training
-    -   Week of April 27 or May 4.TBD
+    -   Week of April 27 or May 4. TBD
     -   Modules: CI/CD GitHub Actions, Docker/Podman, Apptainer, CI/CD GitLab, and REANA 
 -  14th HEP C++ Course and hands-on training, 9 - 13 March (hybrid)
-    -  https://indico.cern.ch/event/1617123/ 
+    - <https://indico.cern.ch/event/1617123/>
     -  Registration has opened
 
 
