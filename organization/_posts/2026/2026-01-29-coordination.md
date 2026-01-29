@@ -78,7 +78,7 @@ Call for mentors 2026 is open - Deadline Feb 1st (Saturday!) Email <mailto:hsf-g
 
 Note that it is probably a good idea (and recommended by Google) to add an AI usage policy to the project idea, for example
 
-> ## AI usage policy
+> #### AI usage policy
 > AI assistance is allowed for this contribution. The applicant takes full responsibility for all code and results, disclosing AI use for non-routine tasks (algorithm design, architecture, complex problem-solving). Routine tasks (grammar, formatting, style) do not require disclosure.
 
 
