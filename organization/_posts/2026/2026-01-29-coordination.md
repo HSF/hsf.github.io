@@ -146,7 +146,7 @@ The JuliaCon 2026 Organizing Committee
 
 ### Software Tools and Packaging
 
-   - Evaluating the "Multi-platform builds of HEP software on conda-forge for distribution" project https://github.com/hep-packaging-coordination
+   - Evaluating the "Multi-platform builds of HEP software on conda-forge for distribution" project <https://github.com/hep-packaging-coordination>
        - This should be the open source version of conda-forge 
    - Can HSF help with the project promotion?
        - It could become an affiliated project
