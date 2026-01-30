@@ -4,7 +4,8 @@ layout: gsoc_proposal
 project: HEP-CCE
 year: 2026
 organization:
-  - ANL, University of Oslo
+  - ANL
+  - UiO 
 difficulty: medium
 duration: 175
 mentor_avail: June-October
