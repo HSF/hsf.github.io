@@ -5,7 +5,7 @@ project: NNPDF
 year: 2026
 organization:
   - usevilla
-  - ujyvaskyla
+  - JYU
 difficulty: medium
 duration: 175
 mentor_avail: June-September
@@ -17,7 +17,7 @@ project_mentors:
   - email: felix.a.hekhorn@jyu.fi
     first_name: Felix
     last_name: Hekhorn
-    organization: UofJyvaskyla
+    organization: JYU
     is_preferred_contact: yes
 ---
 
