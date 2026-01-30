@@ -19,6 +19,10 @@ project_mentors:
     first_name: Thomas
     last_name: Kuhr
     organization: LMU
+  - email: vidya.vobbilisetti@pi.infn.it
+    first_name: Vidya Sagar
+    last_name: Vobbilisetti
+    organization: CPPM
 ---
 
 ## Description
