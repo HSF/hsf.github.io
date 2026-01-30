@@ -5,7 +5,7 @@ layout: default
 organization: UofJyvaskyla
 logo: JYU-logo.png
 description: |
-  The [University of Jyväskylä](https://www.jyu.fi/fi) is a public Finnish University based in Jyväskylä in central Finland
+  The [University of Jyväskylä](https://www.jyu.fi/) is a public Finnish university based in Jyväskylä in central Finland
 ---
 
 {% include gsoc_proposal.ext %}
