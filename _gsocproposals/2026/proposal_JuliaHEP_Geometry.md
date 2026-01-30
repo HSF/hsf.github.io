@@ -5,6 +5,8 @@ project: JuliaHEP
 year: 2026
 organization:
   - CERN
+  - TUM
+  - MPP
 difficulty: medium
 duration: 350
 mentor_avail: June-July, September-October
