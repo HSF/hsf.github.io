@@ -13,7 +13,7 @@ project_mentors:
   - email: jcruz@us.es
     first_name: Juan M.
     last_name: Cruz Martinez
-    organization: UofSevilla
+    organization: US
   - email: felix.a.hekhorn@jyu.fi
     first_name: Felix
     last_name: Hekhorn
