@@ -3,9 +3,9 @@ title: "Jyväskylän yliopisto"
 author: "Felix Hekhorn"
 layout: default
 organization: UofJyvaskyla
-logo: <to be added>.png
+logo: JYU-logo.png
 description: |
-  <to be added>
+  The [University of Jyväskylä](https://www.jyu.fi/fi) is a public Finnish University based in Jyväskylä in central Finland
 ---
 
 {% include gsoc_proposal.ext %}
