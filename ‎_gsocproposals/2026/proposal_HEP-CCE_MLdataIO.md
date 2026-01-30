@@ -22,7 +22,7 @@ project_mentors:
   - email: martin.foll@cern.ch
     first_name: Martin
     last_name: Foll
-    organization: University of Oslo
+    organization: UiO
     is_preferred_contact: no
 ---
 
