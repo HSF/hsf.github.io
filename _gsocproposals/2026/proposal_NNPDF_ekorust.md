@@ -4,7 +4,7 @@ layout: gsoc_proposal
 project: NNPDF
 year: 2026
 organization:
-  - usevilla
+  - US
   - JYU
 difficulty: medium
 duration: 175
