@@ -4,8 +4,8 @@ layout: gsoc_proposal
 project: NNPDF
 year: 2026
 organization:
-  - UofSevilla
-  - UofJyvaskyla
+  - usevilla
+  - ujyvaskyla
 difficulty: medium
 duration: 175
 mentor_avail: June-September
