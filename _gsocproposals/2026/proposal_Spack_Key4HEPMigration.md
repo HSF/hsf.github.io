@@ -5,6 +5,7 @@ project: Spack
 year: 2026
 organization:
   - umanitoba
+  - CERN
 difficulty: medium
 duration: 175
 mentor_avail: June-October
@@ -14,6 +15,10 @@ project_mentors:
     last_name: Deconinck
     organization: umanitoba
     is_preferred_contact: yes
+  - email: valentin.volkl@cern.ch
+    first_name: Valentin
+    last_name: Volkl
+    organization: CERN
 ---
 
 ## Description
