@@ -15,8 +15,8 @@ project_mentors:
     last_name: McKeown
     organization: CERN
     is_preferred_contact: yes
-  - email: anna.zaborowska@cern.ch
-    first_name: Anna
+    additional_information: (As we typically receive a large number of responses and we are not able to reply to all initial messages, please only contact us after completing the test)
+  - first_name: Anna
     last_name: Zaborowska
     organization: CERN
 ---
