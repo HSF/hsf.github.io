@@ -55,10 +55,6 @@ This project seeks to produce calorimeter shower datasets in the form of point c
 2. We will make the selections based on the test, short proposal and resume by 17:00 CET 16th March.
 3. Selected candidates will then write the full proposal and submit it according to the official GSoC timeline.
 
-## Mentors
-(As we typically receive a large number of responses and we are not able to reply to all initial messages, please only contact us after completing the test)
-* [Peter McKeown](mailto:peter.mckeown@cern.ch) (CERN)
-* Anna Zaborowska (CERN)
 
 ## Links
 * [G4FastSim](https://g4fastsim.web.cern.ch/)
