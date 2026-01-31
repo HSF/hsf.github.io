@@ -1,3 +1,4 @@
+---
 title: Optimisation and validation of shower data for ML-based calorimeter simulation
 layout: gsoc_proposal
 project:
@@ -18,7 +19,7 @@ project_mentors:
     first_name: Anna
     last_name: Zaborowska
     organization: CERN
-
+---
 ## Description
 
 Particle physics experiments, such as those operated at the Large Hadron Collider, fundamentally rely on accurate simulations of interactions between particles and the detector. The Geant4 toolkit provides the state-of-the-art means of conducting these simulations with traditional Monte Carlo techniques. However, the vastly increased simulation requirements of future experiments, such as those which will be operated at the HL-LHC, require the adoption of alternative approaches. This is particularly true for particle shower simulation in the calorimeter systems of experiments. Fast simulation approaches based on generative models have been shown to provide fast yet accurate simulation surrogates, and have recently started to be deployed in production by current LHC experiments.
