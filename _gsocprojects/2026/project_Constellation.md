@@ -1,0 +1,16 @@
+---
+project: Constellation
+layout: default
+logo: Constellation-logo.png
+description: |
+  [Constellation](https://constellation.pages.desy.de/) is a
+  control and data acquisition system for small-scale experiments and
+  experimental setup with volatile and dynamic constituents such as testbeam
+  environments or laboratory test stands. Constellation aims to provide a
+  flexible framework that requires minimal effort for the integration of new
+  devices.
+summary: |
+  [Constellation](https://constellation.pages.desy.de/) is a control and data acquisition system for small-scale experiments.
+---
+
+{% include gsoc_project.ext %}
