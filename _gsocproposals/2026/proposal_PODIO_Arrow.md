@@ -60,3 +60,4 @@ Once CERN/HSF is accepted as a GSoC org, please write an email with a short intr
 
  - [Apache Arrow](https://arrow.apache.org/)
  - [PODIO](https://github.com/AIDASoft/podio)
+ - [C++’s Next Decade - Herb Sutter - CppCon 2024](https://www.youtube.com/watch?v=FNi1-x4pojs&t=3720s)
