@@ -68,7 +68,7 @@ There will be a small evaluation task that we will mail to you then.
 - [JuliaHEP HSF Group](https://hepsoftwarefoundation.org/workinggroups/juliahep.html)
 - [JuliaHEP GitHub Organization](https://github.com/JuliaHEP/)
 - [SolidStateDetectors.jl](https://github.com/JuliaPhysics/SolidStateDetectors.jl)
-- [Makie.jl](https://docs.makie.org/stable/))
+- [Makie.jl](https://docs.makie.org/stable/)
 - [ECS for Unity](https://unity.com/ecs)
 - [Geant4](https://geant4.web.cern.ch)
 - [Geant4.jl](https://github.com/JuliaHEP/Geant4.jl)
