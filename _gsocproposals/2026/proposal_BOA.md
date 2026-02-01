@@ -23,7 +23,7 @@ project_mentors:
     last_name: Gupta
     organization: University of Manchester
     is_preferred_contact: yes
- ---
+---
 
 ## Description
 
