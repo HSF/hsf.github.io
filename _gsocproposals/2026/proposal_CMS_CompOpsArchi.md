@@ -72,4 +72,4 @@ There will be a small evaluation task that we will mail to you then.
 
 ## Links
 
-- https://github.com/archi-physics/archi
+- <https://github.com/archi-physics/archi>
