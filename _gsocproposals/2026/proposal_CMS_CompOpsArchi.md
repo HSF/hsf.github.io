@@ -60,6 +60,9 @@ The goal of this GSoC project is to work on the development of autonomous agents
 - Experience with containers (Docker/Podman) and/or CI testing
 - Interest in (or prior exposure to) HEP/CMS computing operations workflows
 
+## AI Policy
+
+AI assistance is allowed for this contribution. The applicant takes full responsibility for all code and results, disclosing AI use for non-routine tasks (algorithm design, architecture, complex problem-solving). Routine tasks (grammar, formatting, style) do not require disclosure.
 
 ## How to apply
 
