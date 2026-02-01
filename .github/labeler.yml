@@ -1,0 +1,9 @@
+GSoC:
+  - changed-files:
+    - any-glob-to-any-file:
+      - '_gsocproposals/**'
+      - '_gsocprojects/**'
+      - '_gsocorgs/**'
+      - '_gsocblogs/**'
+      - 'gsoc/**'
+
