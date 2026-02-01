@@ -52,6 +52,12 @@ collections:
     output: true
     permalink: /profiles/:path.html
 
+defaults:
+  - scope:
+      path: "_gsocproposals/2026"
+    values:
+      year: 2026
+
 docs:
   url: https://github.com/HSF/documents/blob/master
   cwp201711: https://github.com/HSF/documents/blob/master/CWP/papers/2017-11
