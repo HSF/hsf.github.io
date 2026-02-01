@@ -47,7 +47,7 @@ The goal of this GSoC project is to work on the development of autonomous agents
 - Design report on the specs of agent
 - Develop a prototype of the agent
 - Integrate the agent into operations with domain experts
-- Evalute the performance of the agent based on desired outcomes
+- Evaluate the performance of the agent based on desired outcomes
 
 ## Requirements
 
