@@ -64,6 +64,10 @@ In an initial application, the geometry can be used to export a high-quality mes
 Once CERN/HSF is accepted as a GSoC org, please write an email with a short introduction to your interests and background to the mentors with the string "gsoc26" in the subject.
 There will be a small evaluation task that we will mail to you then.
 
+## AI Policy
+
+AI assistance is allowed for this contribution. The applicant takes full responsibility for all code and results, disclosing AI use for non-routine tasks (algorithm design, architecture, complex problem-solving). Routine tasks (grammar, formatting, style) do not require disclosure.
+
 ## Links
 
 - [Julia Programming Language](https://julialang.org/)
