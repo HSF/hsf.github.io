@@ -7,7 +7,7 @@ organization:
   - TUM
   - IFAE
   - MPP
-difficulty: medium
+difficulty: medium/high
 duration: 350
 mentor_avail: June-October
 project_mentors:
