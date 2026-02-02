@@ -1,6 +1,6 @@
 ---
 title: "Max Planck Institute for Physics"
-author: "Pere Mato"
+author: "Oliver Schulz"
 layout: default
 organization: MPP
 logo: MPP-logo.png
