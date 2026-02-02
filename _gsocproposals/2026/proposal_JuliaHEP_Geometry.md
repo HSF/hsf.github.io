@@ -4,8 +4,8 @@ layout: gsoc_proposal
 project: JuliaHEP
 year: 2026
 organization:
-  - CERN
   - TUM
+  - IFAE
   - MPP
 difficulty: medium
 duration: 350
@@ -17,7 +17,7 @@ project_mentors:
     last_name: Henkes
     is_preferred_contact: yes
   - email: pere.mato@cern.ch
-    organization: CERN
+    organization: IFAE
     first_name: Pere
     last_name: Mato
   - email: oschulz@mpp.mpg.de
