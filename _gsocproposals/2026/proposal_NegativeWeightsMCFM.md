@@ -18,6 +18,7 @@ layout: gsoc_proposal
 project: Negative weight, MCFM
 year: 2026
 organization: Southern Methodist University
+project_mentors: Tobias Neumann (tneumann@mail.smu.edu), Saptaparna Bhattacharya (saptaparnab@smu.edu) 
 ---
 
 ## Description

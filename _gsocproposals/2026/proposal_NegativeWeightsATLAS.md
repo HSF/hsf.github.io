@@ -18,6 +18,7 @@ layout: gsoc_proposal
 project: Negative weight, ATLAS event generator workflows
 year: 2026
 organization: Southern Methodist University
+project_mentors: Saptaparna Bhattacharya (saptaparnab@smu.edu)
 ---
 
 ## Description
