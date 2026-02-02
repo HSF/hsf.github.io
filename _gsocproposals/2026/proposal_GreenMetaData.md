@@ -3,7 +3,8 @@ title: Creating a Metadata file format for Green Computing Practices in High Ene
 layout: gsoc_proposal
 project: GreenMetaData
 year: 2026
-organization: GreenAlgorithms
+organization: 
+  - GreenAlgorithms
 difficulty: medium
 duration: 350
 mentor_avail: June-October
