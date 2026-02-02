@@ -3,7 +3,8 @@ title: Bytewise Online Autoregressive (BOA) Constrictor for HEP data compression
 layout: gsoc_proposal
 project: BOA
 year: 2026
-organization: UManchester
+organization: 
+  - UManchester
 difficulty: medium
 duration: 350
 mentor_avail: June-October
