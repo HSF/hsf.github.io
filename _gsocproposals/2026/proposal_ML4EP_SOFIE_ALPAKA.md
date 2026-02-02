@@ -14,7 +14,8 @@ project_mentors:
     last_name: Sengupta
     organization: CERN
     is_preferred_contact: yes
-  - first_name: Lorenzo
+  - email: lorenzo.moneta@cern.ch
+    first_name: Lorenzo
     last_name: Moneta
     organization: CERN
 ---
