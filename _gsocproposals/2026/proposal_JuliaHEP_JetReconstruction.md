@@ -13,13 +13,17 @@ project_mentors:
     organization: DESY
     first_name: Graeme
     last_name: Stewart
+  - email: mateusz.jakub.fila@cern.ch
+    organization: CERN
+    first_name: Mateusz
+    last_name: Fila
 ---
 
 ## Description
 
 The Julia programming language offers a unique combination of speed,
 interoperability, ease of use, and flexibility, making it an attractive option
-for High Energy Physics (HEP) research. Within the HSF context, the
+for high-energy physics (HEP) research. Within the HSF context, the
 [JuliaHEP](https://github.com/JuliaHEP) initiative aims to develop a set of
 foundational packages in the Julia ecosystem that provide the essential
 functionality required by HEP researchers.
@@ -49,12 +53,12 @@ Addressing this issue, and improving the code, is the aim of this GSoC project.
 
 - A well honed set of benchmarks to measure the parallel performance of JetReconstruction.jl, and compare with C++
 - An analysis of the performance, with an understanding of bottlenecks
-- Code improvements that allow for greater performance (e.g., by reducing garbage collections times)
+- Code improvements that allow for greater performance (e.g., by reducing allocations)
 - Advice for users on how to run efficiently in multi-threaded mode (e.g., garbage collector options)
 
 ## Requirements
 
-- Programming experience with C++ (in order to be able to understand existing HEP codes)
+- Programming experience with C++ (advantageous, in order to be able to understand existing HEP codes)
 - Prior experience in Julia (very advantageous)
 - A background understanding of high-energy physics (advantageous)
 
