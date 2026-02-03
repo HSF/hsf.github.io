@@ -26,26 +26,26 @@ project_mentors:
 
 ## Description
 
-Combine (also known as CMS Combine) is a domain-agnostic statistical tool
-designed for High Energy Physics that facilitates model building, statistical
-testing, and result validation. Originally developed to search for the Higgs
-boson, it has since become the standard tool for a wide range of measurements.
-It enables physicists to compare expected observation models against
-experimental data to perform tasks such as claiming particle discoveries,
-setting new physics limits, and measuring cross sections. The package is
-versatile enough to handle a broad range of HEP workflows, including simple
-counting experiments, unfolded measurements, and complex Effective Field Theory
-(EFT) fits.
+[Combine](https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit) (also
+known as CMS Combine) is a domain-agnostic statistical tool designed for High
+Energy Physics that facilitates model building, statistical testing, and result
+validation. Originally developed to search for the Higgs boson, it has since
+become the standard tool for a wide range of measurements.  It enables
+physicists to compare expected observation models against experimental data to
+perform tasks such as claiming particle discoveries, setting new physics limits,
+and measuring cross sections. The package is versatile enough to handle a broad
+range of HEP workflows, including simple counting experiments, unfolded
+measurements, and complex Effective Field Theory (EFT) fits.
 
-FCCAnalyses is a high-performance Python/C++ framework designed for physics
-reach studies and detector optimizations of the Future Circular Collider,
-implemented within the Key4hep ecosystem. Built upon ROOT's RDataFrame, it
-enables efficient, multi-threaded processing of EDM4hep datasets, allowing
-physicists to define complex event selections and calculate observables with
-minimal overhead. The framework acts as a bridge between reconstructed data and
-final statistical inputs, providing a standardized set of analysis building
-blocks, ranging from the calculation of simple physics variables to jet
-clustering or flavor tagging.
+[FCCAnalyses](https://hep-fcc.github.io/FCCAnalyses/) is a high-performance
+Python/C++ framework designed for physics reach studies and detector
+optimizations of the Future Circular Collider, implemented within the Key4hep
+ecosystem. Built upon ROOT's RDataFrame, it enables efficient, multi-threaded
+processing of EDM4hep datasets, allowing physicists to define complex event
+selections and calculate observables with minimal overhead. The framework acts
+as a bridge between reconstructed data and final statistical inputs, providing a
+standardized set of analysis building blocks, ranging from the calculation of
+simple physics variables to jet clustering or flavor tagging.
 
 This project aims to streamline the transition from event selection to
 statistical inference within the Future Circular Collider (FCC) analysis
@@ -95,6 +95,7 @@ provide you with a small evaluation task afterwards.
 
 ## Resources
 
+- [FCCAnalyses](https://hep-fcc.github.io/FCCAnalyses/)
 - [FCC Software](https://fccsw.web.cern.ch/)
 - [Key4HEP Documentation](https://key4hep.web.cern.ch/)
-- [Combine Documentation](https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/v10.4.2/)
+- [Combine Documentation](https://cms-analysis.github.io/HiggsAnalysis-CombinedLimit/)
