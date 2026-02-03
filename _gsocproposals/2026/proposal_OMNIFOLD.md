@@ -5,7 +5,7 @@ project: Omnifold
 year: 2026
 organization: 
    - CERN
-   - Stanford University
+   - StanfordUniversity
 difficulty: medium
 duration: 175
 mentor_avail: June-October
@@ -13,12 +13,12 @@ project_mentors:
   - email: tanvi.wamorkar@cern.ch
     first_name: Tanvi
     last_name: Wamorkar
-    organization: Stanford University
+    organization: StanfordUniversity
     is_preferred_contact: yes
   - email: nachman@stanford.edu
     first_name: Benjamin
     last_name: Nachman
-    organization: Stanford University
+    organization: StanfordUniversity
     is_preferred_contact: no
 ---
 
@@ -119,10 +119,6 @@ By the end of the project, a Python package will be created that produces OmniFo
   - Python
   - Jupyter notebooks
   - Interest in scientific software optimization 
-
-## Mentors
-  * [TANVI WAMORKAR](mailto:tanvi.wamorkar@cern.ch)
-  * [Benjamin Nachman](mailto:nachman@stanford.edu)
 
 ## Links
   * [OmniFold](https://arxiv.org/abs/1911.09107)
