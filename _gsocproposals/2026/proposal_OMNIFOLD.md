@@ -3,7 +3,23 @@ title: Publication of Omnifold weights
 layout: gsoc_proposal
 project: Omnifold
 year: 2026
-organization: CERN
+organization: 
+   - CERN
+   - Stanford University
+difficulty: medium
+duration: 175
+mentor_avail: June-October
+project_mentors:
+  - email: tanvi.wamorkar@cern.ch
+    first_name: Tanvi
+    last_name: Wamorkar
+    organization: Stanford University
+    is_preferred_contact: yes
+  - email: nachman@stanford.edu
+    first_name: Benjamin
+    last_name: Nachman
+    organization: Stanford University
+    is_preferred_contact: no
 ---
 
 ## Description
@@ -79,15 +95,15 @@ The project will be based on the public, open-source [Omnifold repository](https
 - Define expected outputs and pass/fail criteria
 
 
-<!-- ### 7. HEPData Integration Layer  
+### 7. HEPData Integration Layer  (Additional stretch goal)
 Merge OmniFold outputs with HEPData infrastructure:
 - Mapping OmniFold results to HEPData records
 - Submission templates and guidelines
 - Metadata conventions
-- Validation steps -->
+- Validation steps
 
 
-### 7. Examples & Reference Implementations  
+### 8. Examples & Reference Implementations  
 - Provide complete examples using public datasets:
   - Unfolding → publication → reinterpretation
 - Demonstrate:
