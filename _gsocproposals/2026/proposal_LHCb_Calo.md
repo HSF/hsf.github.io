@@ -54,7 +54,10 @@ The goal of this project is to design, implement, and benchmark a Transformer-ba
 
 ## Requirements
 
-- ML fundamentals
+* Intermediate-level Python programming skills
+* Fundamentals of machine learning
+* Familiarity with PyTorch or a similar ML framework
+* Basic knowledge of particle physics or detector concepts is beneficial but not required
 
 ## AI Policy
 
