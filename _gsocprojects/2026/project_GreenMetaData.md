@@ -1,8 +1,7 @@
 ---
-title: GreenMetaData  
+project: GreenMetaData
 author: "Caterina Doglioni"
 layout: default
-organization: GreenAlgorithms
 logo: greenmetadata-logo.png
 description: |
     The [GreenMetaData](https://github.com/GreenAlgorithms/GreenMetaData) project aims to standardise the reporting of the environmental impact of computational research. 
