@@ -69,4 +69,9 @@ Email mentors with a brief background and interest in ML/particle physics. Pleas
 
 ## Resources
 
-- [LHCb Experiment](https://lhcb.web.cern.ch/)
+*   *A Survey on Transformers* (https://arxiv.org/abs/2106.04554)
+*   *Transformers are Graph Neural Networks* (https://arxiv.org/abs/2506.22084)
+*   PyTorch documentation: [https://docs.pytorch.org/docs/stable/index.html](https://docs.pytorch.org/docs/stable/index.html)
+*   [LHCb experiment](https://lhcb.web.cern.ch/)
+*   *Calibration and performance of the LHCb calorimeters in Run 1 and 2 at the LHC* (https://arxiv.org/abs/2008.11556)
+*   *Graph Clustering: a graph-based clustering algorithm for the electromagnetic calorimeter in LHCb* (https://arxiv.org/abs/2212.11061)
