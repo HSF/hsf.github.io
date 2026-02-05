@@ -3,6 +3,10 @@ title: "HSF Presentations"
 layout: plain
 ---
 
+## 2026
+
+* [HSF: The HEP Software Foundation](https://indico.cern.ch/event/1606722/contributions/6895790/attachments/3212649/5725221/2026-02-05_EVERSECommunityEngagementEvent.pdf), [EVERSE Community Engagement Event](https://indico.cern.ch/event/1606722/), 5 February 2026, Eduardo Rodrigues
+
 ## 2025
 
 * [HSF: The HEP Software Foundation](https://indico.ific.uv.es/event/8035/contributions/28784/attachments/14459/21023/2025-11-19_XVII-CPAN-DAYS_COMCHA.pdf), [XVII CPAN Days](https://indico.ific.uv.es/event/8035/), 19 November 2025, Eduardo Rodrigues
