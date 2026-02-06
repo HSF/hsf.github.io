@@ -141,13 +141,14 @@ We are always looking for volunteers from the community to help us with our trai
 {% endif %}
 ## Conveners
 
-{% assign persons = "Alexander Moreno Briceño, Lera Lukashenko, Richa Sharma, Michel Hernandez Villanueva" | split: ", " %}
+{% assign persons = "Alexander Moreno Briceño, Lera Lukashenko, Richa Sharma, Andres Rios-Tascon" | split: ", " %}
 {% include list_of_selected_profiles.html %}
 
-The conveners can be [reached by email](mailto:alexander.moreno@uan.edu.co,valeriia.lukashenko@cern.ch,richa.sharma@cern.ch,mhernande1@bnl.gov). <!-- markdown-link-check-disable-line -->
+The conveners can be [reached by email](mailto:alexander.moreno@uan.edu.co,valeriia.lukashenko@cern.ch,richa.sharma@cern.ch,ariostas@princeton.edu). <!-- markdown-link-check-disable-line -->
 
 ### Former Conveners:
 
+- Michel Hernandez Villanueva (Belle II, BNL), 2021-2022, 2025
 - Jim Pivarski (CMS and IRIS-HEP, Princeton), 2024
 - Holly Szumila-Vance (Jefferson Lab), 2024
 - Wouter Deconinck (Jefferson Lab), 2022 - 2023

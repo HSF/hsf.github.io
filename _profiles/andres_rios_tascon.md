@@ -3,12 +3,13 @@ title: "Andres Rios-Tascon"
 country: US
 
 github: ariostas
+gitlab: ariostas
 homepage: https://ariostas.com
 orcid: 0000-0003-3282-2634
 linkedin: andres-rios-tascon
 
-training_roles: [mentor]
-training_years: [2023]
+training_roles: [mentor, instructor, author, facilitator]
+training_years: [2023, 2024, 2025, 2026]
 
 layout: educator
 ---
