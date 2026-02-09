@@ -1,24 +1,13 @@
 -
-project: HSF
-title: HSF
-layout: default
-logo: hsf_logo_angled.png
-description: |
-  The HEP Software Foundation encourages cooperation and common
-  development of software in High Energy Physics. The HSF hosts
-  a number of software projects where developers are working to
-  solve current problems in particle physics.
----
-
-{% include gsoc_project.ext %}
-
--
 title: Negative weight mitigation with cell resampling in ATLAS workflows
 layout: gsoc_proposal
 project: Negative weight, ATLAS event generator workflows
 year: 2026
 organization: Southern Methodist University
-project_mentors: Saptaparna Bhattacharya (saptaparnab@smu.edu)
+difficulty: medium
+duration: 175
+mentor_avail: June-October
+project_mentors: Saptaparna Bhattacharya (saptaparnab@smu.edu) and authors of the "cell-resampling" team (Jeppe Andersen(mailto:eppe.andersen@durham.ac.uk) and Andreas Maier(mailto:andreas.martin.maier@desy.de))
 
 ---
 
