@@ -38,3 +38,7 @@ The eventual goal of the project is to integrate the negative weight mitigation 
 
 ## Links
   * [Cell resampling](https://cres.hepforge.org/)
+
+## AI usage policy
+
+AI assistance is allowed for this contribution. The applicant takes full responsibility for all code and results, disclosing AI use for non-routine tasks (algorithm design, architecture, complex problem-solving). Routine tasks (grammar, formatting, style) do not require disclosure.

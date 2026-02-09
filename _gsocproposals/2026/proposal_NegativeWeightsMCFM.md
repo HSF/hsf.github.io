@@ -39,3 +39,8 @@ Release a modified version of MCFM that successfully incorporates the negative w
 * Experience with Fortran (as MCFM is largely written in Fortran) OR a strong willingness to learn it.
 * Basic familiarity with C++ (useful for the resampling algorithm integration).
 * Interest in numerical methods and efficiency optimization.
+
+## AI usage policy
+
+AI assistance is allowed for this contribution. The applicant takes full responsibility for all code and results, disclosing AI use for non-routine tasks (algorithm design, architecture, complex problem-solving). Routine tasks (grammar, formatting, style) do not require disclosure.
+
