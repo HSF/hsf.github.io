@@ -13,9 +13,11 @@ project_mentors:
     first_name: Vassil
     last_name: Vassilev
     is_preferred_contact: yes
+    organization: Princeton University
   - email: david.lange@cern.ch
     first_name: David
     last_name: Lange
+    organization: Princeton University
 ---
 
 ## Description
