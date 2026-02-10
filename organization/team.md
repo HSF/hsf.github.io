@@ -15,21 +15,21 @@ The SG is convened by a chair, who is elected annually by the group (see below).
 
 Following the concept of a do-ocracy active contributors to the HSF are invited to join. These are the current members of the group:
 
-* Claire Antel - CERN
-* Caterina Doglioni - University of Manchester
-* Johannes Elmsheuser - BNL
-* Michel Hernandez Villanueva - BNL
-* Michel Jouvin - IJCLab, CNRS/IN2P3
-* Paul Laycock - University of Geneva
-* Pere Mato - CERN
-* Mark Neubauer - University of Illinois
-* Eduardo Rodrigues - University of Liverpool
-* Stefan Roiser - CERN
-* Elizabeth Sexton-Kennedy - Fermilab
-* Nicole Skidmore - University of Warwick
-* Graeme Stewart - DESY
-* Andrea Valassi - CERN
-* Torre Wenaus - BNL
+- Claire Antel (ATLAS, CERN)
+- Caterina Doglioni (ATLAS, University of Manchester)
+- Johannes Elmsheuser (ATLAS, BNL)
+- Michel Hernandez Villanueva (Belle II, BNL)
+- Michel Jouvin (IJCLab & CNRS/IN2P3)
+- Paul Laycock (Einstein Telescope, University of Geneva)
+- Pere Mato (Institut de Física d’Altes Energies)
+- Mark Neubauer (ATLAS, University of Illinois)
+- Eduardo Rodrigues (LHCb, University of Liverpool)
+- Stefan Roiser (CERN)
+- Elizabeth Sexton-Kennedy (CMS, Fermilab)
+- Nicole Skidmore (LHCb, University of Warwick)
+- Graeme Stewart (ATLAS, DESY)
+- Andrea Valassi (LHCb, CERN)
+- Torre Wenaus - (ATLAS & ePIC, BNL)
 
 * The entire group can be contacted via <hsf-steering@googlegroups.com>.
 * [Steering Group Meetings in Indico](https://indico.cern.ch/category/10692/)
