@@ -65,6 +65,7 @@ on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-C
 #### Current convenors
 
 - Saptaparna Bhattacharya, CMS and Wayne State University (2024-)
+- Joshua Isaacson, Michigan State University (2026-)
 - Stephen Mrenna, CMS and Fermilab (2024-)
 - Phil Ilten, LHCb and University of Cincinnati (2023-)
 
