@@ -1,4 +1,4 @@
--
+---
 title: Negative weight mitigation with cell resampling and tests with MCFM
 layout: gsoc_proposal
 project: MCFM
