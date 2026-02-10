@@ -3,12 +3,26 @@ title: Negative weight mitigation with cell resampling in ATLAS workflows
 layout: gsoc_proposal
 project: ATLAS
 year: 2026
-organization: Southern Methodist University
+organization: SMU
 difficulty: medium
 duration: 175
 mentor_avail: June-October
-project_mentors: Saptaparna Bhattacharya (saptaparnab@smu.edu) and authors of the "cell-resampling" team (Jeppe Andersen(mailto:eppe.andersen@durham.ac.uk) and Andreas Maier(mailto:andreas.martin.maier@desy.de))
-
+project_mentors:
+  - email: saptaparnab@smu.edu
+    first_name: Saptaparna
+    last_name: Bhattacharya
+    organization: SMU
+    is_preferred_contact: yes
+  - email: jeppe.andersen@durham.ac.uk
+    first_name: Jeppe
+    last_name: Andersen
+    organization: IPPP
+    is_preferred_contact: yes
+  - email: andreas.martin.maier@desy.de
+    first_name: Andreas
+    last_name: Maier
+    organization: DESY
+    is_preferred_contact: yes
 ---
 
 ## Description

@@ -3,11 +3,21 @@ title: Negative weight mitigation with cell resampling and tests with MCFM
 layout: gsoc_proposal
 project: MCFM
 year: 2026
-organization: Southern Methodist University
+organization: SMU
 difficulty: medium
 duration: 175
 mentor_avail: June-October
-project_mentors: Tobias Neumann (tneumann@mail.smu.edu), Saptaparna Bhattacharya (saptaparnab@smu.edu) 
+project_mentors:
+  - email: tneumann@mail.smu.edu
+    first_name: Tobias
+    last_name: Neumann
+    organization: SMU
+    is_preferred_contact: yes
+  - email: saptaparnab@smu.edu
+    first_name: Saptaparna
+    last_name: Bhattacharya
+    organization: SMU
+    is_preferred_contact: yes
 ---
 
 ## Description
