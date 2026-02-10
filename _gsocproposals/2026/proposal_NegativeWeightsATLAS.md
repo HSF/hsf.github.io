@@ -3,7 +3,10 @@ title: Negative weight mitigation with cell resampling in ATLAS workflows
 layout: gsoc_proposal
 project: ATLAS
 year: 2026
-organization: SMU
+organization:
+  - SMU
+  - IPPP
+  - DESY
 difficulty: medium
 duration: 175
 mentor_avail: June-October
@@ -11,9 +14,7 @@ project_mentors:
   - email: saptaparnab@smu.edu
     first_name: Saptaparna
     last_name: Bhattacharya
-    organization:
-      - SMU
-      - IPPP
+    organization: SMU
     is_preferred_contact: yes
   - email: jeppe.andersen@durham.ac.uk
     first_name: Jeppe
