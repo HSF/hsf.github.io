@@ -1,7 +1,7 @@
 -
 title: Negative weight mitigation with cell resampling in ATLAS workflows
 layout: gsoc_proposal
-project: Negative weight, ATLAS event generator workflows
+project: ATLAS
 year: 2026
 organization: Southern Methodist University
 difficulty: medium
@@ -32,9 +32,6 @@ The eventual goal of the project is to integrate the negative weight mitigation 
 ## Requirements
  * Familiarity with Python and C++  
  * Interest in learning Rust
-
-## Mentors
-  * [Saptaparna Bhattacharya](mailto:saptaparna.bhattacharya@cern.ch) and authors of the "cell-resampling" team (Jeppe Andersen(mailto:eppe.andersen@durham.ac.uk) and Andreas Maier(mailto:andreas.martin.maier@desy.de))
 
 ## Links
   * [Cell resampling](https://cres.hepforge.org/)

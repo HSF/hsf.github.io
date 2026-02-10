@@ -1,7 +1,7 @@
 -
 title: Negative weight mitigation with cell resampling and tests with MCFM
 layout: gsoc_proposal
-project: Negative weight, MCFM
+project: MCFM
 year: 2026
 organization: Southern Methodist University
 difficulty: medium
