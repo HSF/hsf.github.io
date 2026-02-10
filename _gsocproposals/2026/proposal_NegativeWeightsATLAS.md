@@ -1,4 +1,4 @@
--
+---
 title: Negative weight mitigation with cell resampling in ATLAS workflows
 layout: gsoc_proposal
 project: ATLAS
