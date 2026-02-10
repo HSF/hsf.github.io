@@ -11,7 +11,9 @@ project_mentors:
   - email: saptaparnab@smu.edu
     first_name: Saptaparna
     last_name: Bhattacharya
-    organization: SMU
+    organization:
+      - SMU
+      - IPPP
     is_preferred_contact: yes
   - email: jeppe.andersen@durham.ac.uk
     first_name: Jeppe
