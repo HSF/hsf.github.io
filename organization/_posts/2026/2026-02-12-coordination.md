@@ -50,7 +50,7 @@ Confirmed date for the **next WLCG/HSF Workshop is 2-6 November 2026, Bologna**.
 
 List of current reviews underway:
 
-- DIRAC / DIRAC X - done, sent an email to Eduardo + DIRAC reps, being cross-checked
+- DIRAC / DiracX - done, sent an email to Eduardo + DIRAC reps, being cross-checked
 - NoPayloadDB Conditions Database - ongoing
 - Pepper - ongoing
 - MadGraph5_aMC@NLO - done, will be sent to SG for review
