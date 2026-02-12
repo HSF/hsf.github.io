@@ -69,14 +69,14 @@ Very positive feedback from the Pythia developers about the process!
 There are 31 proposals for this year's GSoC, 1 more in the pipeline.
 
 - Mentoring organisations applied on 3 February
-- Approval will come on 19 February
+- Approvals will come on 19 February
 
 ### Software Training
 
 Next Training Events
 
 - Analysis Reproducibility Training
-    - Week of April 27 or May 4.TBD
+    - Week of April 27 or May 4. TBD
     - Modules: CI/CD GitHub Actions, Docker/Podman, Apptainer, CI/CD GitLab, and REANA
 - 14th HEP C++ Course and hands-on training, 9 - 13 March (hybrid)
     - <https://indico.cern.ch/event/1617123/>
@@ -108,7 +108,7 @@ Next Training Events
     - Will be in Amsterdam (Nikhef) (95% confirmed)
     - Possible weeks: Sep 7-11, Oct 19-23, Nov 9-13 
     - Workshop length ~3-3.5 days
-- 2 new convenors: Alexander & Dmitry -> First meeting next week Feb. 19
+- 2 new conveners: Alexander & Dmitry -> First meeting next week Feb. 19
 
 ### JuliaHEP
 
