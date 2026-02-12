@@ -77,9 +77,9 @@ Next Training Events
 
 - Analysis Reproducibility Training
     - Week of April 27 or May 4.TBD
-    - Modules: CI/CD GitHub Actions, Docker/Podman, Apptainer, CI/CD GitLab, and REANA 
+    - Modules: CI/CD GitHub Actions, Docker/Podman, Apptainer, CI/CD GitLab, and REANA
 - 14th HEP C++ Course and hands-on training, 9 - 13 March (hybrid)
-    - <https://indico.cern.ch/event/1617123/> 
+    - <https://indico.cern.ch/event/1617123/>
     - Registration is still open
 
 ### Event generators
@@ -116,10 +116,10 @@ Next Training Events
 
 - JuliaCon 2026 - JuliaHEP Mini-Symposium
     - JuliaHEP Mini 2026 - Julia for Nuclear and Elementary Particle Physics: From Precision Science to High-Performance Tools
-    - Call for contribtions to JuliaCon is now out:
+    - Call for contributions to JuliaCon is now out:
 
 > Dear colleagues,
-We invite you to submit proposals to give a presentation (talk or poster) at JuliaCon Global 2026 in Mainz, August 10-15, 2026 (https://juliacon.org/2026). JuliaCon has traditionally featured talks that ranged from introductory to advanced, on topics related to various fields, delivered by developers and researchers from industry and academia. If you have worked with or on Julia in the past, JuliaCon is the best venue to share your work with the Julia community.
+We invite you to submit proposals to give a presentation (talk or poster) at JuliaCon Global 2026 in Mainz, August 10-15, 2026 <https://juliacon.org/2026>. JuliaCon has traditionally featured talks that ranged from introductory to advanced, on topics related to various fields, delivered by developers and researchers from industry and academia. If you have worked with or on Julia in the past, JuliaCon is the best venue to share your work with the Julia community.
 The Call for Proposals (<https://juliacon.org/2026/cfp/>) will close February 28, 2026.
 We look forward to hearing from you.
 The JuliaCon 2026 Organizing Committee
@@ -131,7 +131,7 @@ The JuliaCon 2026 Organizing Committee
 ### Software Tools and Packaging
 
 - Evaluating the "Multi-platform builds of HEP software on conda-forge for distribution" project <https://github.com/hep-packaging-coordination>
-    - This should be the open source version of conda-forge 
+    - This should be the open source version of conda-forge
 - Can HSF help with the project promotion?
     - It could become an affiliated project
 - Ruslan is working on it. They wish it to be done before CHEP. Let's see if we can make it.
