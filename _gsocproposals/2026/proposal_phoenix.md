@@ -25,7 +25,7 @@ project_mentors:
 
 The [Phoenix](https://hepsoftwarefoundation.org/phoenix/) event display offers web based visualization of the high energy physics (HEP) events coming from various HEP experiments. It is build with the help of the angular web platform with visualizations itself done with the help of the [threejs](https://threejs.org) library. 
 
-Phoenix was started a few years ago now, and web technologies evolve rapidly. The goal of this project is to investigate the current state of Phoenix and to propose and implement improvements that would allow it to be more easily extended and maintained in the future (bearing in mind that it is already in production use and so any impact on clients should be minimised). The project should also revist the UI and see what changes can be made to make it more modern, user friendly and intuitive. Any other technical, or ease of use improvements that can be made to Phoenix are also welcome.
+Phoenix was started a few years ago now, and web technologies evolve rapidly. The goal of this project is to investigate the current state of Phoenix and to propose and implement improvements that would allow it to be more easily extended and maintained in the future (bearing in mind that it is already in production use and so any impact on clients should be minimised). The project should also revisit the UI and see what changes can be made to make it more modern, user friendly and intuitive. Any other technical, or ease of use improvements that can be made to Phoenix are also welcome.
 
 ## Task ideas
 
@@ -37,9 +37,14 @@ Phoenix was started a few years ago now, and web technologies evolve rapidly. Th
  * Typescript/javascript
  * (3D experience a bonus)
 
-## Mentors
- * [Edward Moyse](mailto:edward.moyse@cern.ch) University of Massachusetts, Amherst
- * **[Sebastien Ponce](mailto:sebastien.ponce@cern.ch) CERN**
+
+## AI Usage Policy
+
+AI assistance is allowed for this project as long as all code is fully
+understood and can be explained by the applicant. The applicant takes full
+responsibility for all code and results, disclosing AI use for non-routine
+tasks (algorithm design, architecture, complex problem-solving). Routine
+tasks (grammar, formatting, style) do not require disclosure.
 
 ## Links
  * [Phoenix](https://github.com/HSF/phoenix)
