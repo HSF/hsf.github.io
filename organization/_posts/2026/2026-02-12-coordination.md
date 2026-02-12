@@ -19,7 +19,7 @@ We thank the newcomers for accepting to join us as a new AA convener for this ye
 
 Thank you also to the several of you that continue as a convener this year, and those who stepped down at this point!
 
-Homework: *Please [make PRs](https://hepsoftwarefoundation.org/howto-website.html) to update the names of the conveners on the website.*
+Homework: *Please discuss 2026 plans with your co-conveners and [make PRs](https://hepsoftwarefoundation.org/howto-website.html) to update the names of the conveners on the website.*
 
 ### HSF Seminar Series and Compute Accelerator Forum
 
@@ -30,9 +30,9 @@ Planned HSF seminars:
 - Seminar by Kati Lassila-Perini (chair) on ICFA Data Lifecycle panel [best practice recommendations](https://icfa-data-best-practices.app.cern.ch/): [29th April]
     - Format: recommendations first, then discussion on mapping to HSF Project Guidelines. 
         - Question for us / SG: what would we like out of this mapping? Support / mention of HSF guidelines and supported projects? (ICFA represents a different audience wrt our current circles)
-        - Thinking about this until a months time, then discuss again in Coord meeting
+        - Thinking about this until a month's time, then discuss again in Coord meeting
 
-- 2nd in series on AI-assisted SW tools organised by software tools & packaging - possibly separate seminar organised with sustainability group.
+- 2nd in series on AI-assisted SW tools organised by Software Tools & Packaging - possibly separate seminar organised with sustainability group.
 
 (Thanks to the activity groups for coming to us with seminar ideas and speakers!)
 
