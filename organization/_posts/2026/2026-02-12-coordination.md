@@ -60,7 +60,7 @@ Do not hesitate to discuss around you to identify relevant projects/libraries th
 
 Thank you very much to those who accepted to act as a "reviewer" or spontaneously put themselves forward. This is super appreciated; it makes all the difference.
 
-Very positive feedback from the Pythia developers about the process!
+Very positive feedback from the Dirac, NNPDF and Pythia developers about the process!
 
 ## Activities Updates
 
