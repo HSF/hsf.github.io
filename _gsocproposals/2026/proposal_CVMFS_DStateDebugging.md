@@ -18,6 +18,10 @@ project_mentors:
     last_name: Christodoulis
     organization: CERN
     is_preferred_contact: yes
+  - email: shivammadlani5@gmail.com
+    first_name: Shivam
+    last_name: Madlani
+    organization: CERN
 ---
 
 # Description
