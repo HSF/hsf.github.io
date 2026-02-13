@@ -10,16 +10,16 @@ organization:
   - CompRes
 project_mentors:
   - email: aaron.jomy@cern.ch
-    organization: CERN/CompRes
+    organization: CERN
     first_name: Aaron
     last_name: Jomy
     is_preferred_contact: yes
   - email: vipul.cariappa@gmail.com
-    organization: CERN/Compres
+    organization: CERN
     first_name: Vipul
     last_name: Cariappa
   - email: vvasilev@cern.ch
-    organization: CompRes
+    organization: Princeton University
     first_name: Vassil
     last_name: Vassilev
 ---
