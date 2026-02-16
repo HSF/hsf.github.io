@@ -2,8 +2,7 @@
 title: Integration of Combine with FCCAnalyses
 layout: gsoc_proposal
 project:
- - FCC
- - Key4hep
+  - FCC
 year: 2026
 organization:
   - CERN
@@ -76,7 +75,6 @@ tests, and precision measurements.
 - Proficiency in Python
 - Familiarity with the Linux operating system
 - Interest in scientific software and high-energy physics
-
 
 ## AI Policy
 
