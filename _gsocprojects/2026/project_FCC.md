@@ -1,9 +1,9 @@
 ---
 title: Future Circular Collider
-project: Future Circular Collider
+project: FCC
 layout: default
 logo: fcc-logo.png
-description: >
+description: |
   The [Future Circular Collider](https://fcc.cern/) (FCC) is a proposed
   next-generation particle accelerator at CERN for the post High Luminosity
   Large Hadron Collider (HL-LHC) era, aiming to push the boundaries of
