@@ -6,6 +6,7 @@ year: 2026
 organization:
   - LMU
   - KIT
+  - CPPM
 difficulty: medium
 duration: 350
 mentor_avail: May-October
