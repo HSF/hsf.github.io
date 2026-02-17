@@ -8,9 +8,11 @@ layout: default
 
   {{ content }}
 
-<h2>Corresponding Project{% if page.project.size > 1 %}s{% endif %}</h2>
+{% assign projects = page.project | join: ',' | split: ',' %}
+
+<h2>Corresponding Project{% if projects.size > 1 %}s{% endif %}</h2>
 <ul>
-{% for proj in page.project %}
+{% for proj in projects %}
   <li>
     <a href="{{ site.baseurl }}/gsdocs/projects/{{ page.year }}/project_{{ proj }}.html">
       {{ proj }}

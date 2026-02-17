@@ -39,6 +39,7 @@ Use the project name as the page title if none has been specified (they are typi
 {% if u_proposal_project == u_project %}
 * [ {{ proposal.title }} ]( {{ proposal.url }} )
 {% endif %}
-{% endfor %}{% endif %}
+{% endfor %}
+{% endif %}
 {% endfor %}
 
