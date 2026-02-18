@@ -14,6 +14,6 @@ year: 2026
 {%- assign strings = proposal.url | split: '/' -%}
 {%- assign proposal_year = strings[2] | plus: 0 -%}
 {%- if proposal_year == page.year %}
-| [**{{ proposal.project }}:** {{ proposal.title }} ]( {{ proposal.url }} ) |
+| [**{{ proposal.project | join: " / " }}:** {{ proposal.title }} ]( {{ proposal.url }} ) |
 {%- endif -%}
 {% endfor %}

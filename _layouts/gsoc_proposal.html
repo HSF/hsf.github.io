@@ -52,10 +52,18 @@ layout: default
   </ul>
 {% endif %}
 
-<h2>Corresponding Project</h2>
-  <ul>
-      <li><a href="{{ site.baseurl }}/gsoc/projects/{{ page.year }}/project_{{ page.project }}.html">{{ page.project }}</a></li>
-  </ul>
+{% assign projects = page.project | join: ',' | split: ',' %}
+
+<h2>Corresponding Project{% if projects.size > 1 %}s{% endif %}</h2>
+<ul>
+{% for proj in projects %}
+  <li>
+    <a href="{{ site.baseurl }}/gsoc/projects/{{ page.year }}/project_{{ proj }}.html">
+      {{ proj }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
  <h2>Participating Organizations</h2>
   <ul>
