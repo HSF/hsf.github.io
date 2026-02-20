@@ -179,7 +179,7 @@ In the future, I would love to continue my contributions to the SOFIE codebase b
 
 I am thankful for my project mentors, Sanjiban Sengupta and Dr. Lorenzo Moneta, for their kind guidance, which made my learning experience enriching and rewarding. They guided me whenever I felt any difficulty. I could ask them the silliest doubt, and they would still answer it happily. I am fortunate to be part of such a wonderful project and contribute to CERN-HSF this summer. I look forward to contributing to CERN-HSF beyond my GSoC project completion.  
 
-Lastly, I would like to thank my seniors from the Open-Source community at my university, Project-X, for introducing me to GSoC and helping me in the pre-GSoC period.
+Lastly, I would like to thank [Uri Stern](https://github.com/uristern123) for laying the initial ground work, which made project development much smoother, and my seniors from the open-source community at my university, [Project-X](https://www.linkedin.com/company/project-x-vjti/), for introducing me to GSoC and helping me in the pre-GSoC period.
 
 #### Thanks and Regards  
 #### Prasanna Kasar
