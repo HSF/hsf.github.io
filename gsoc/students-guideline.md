@@ -8,7 +8,7 @@ layout: default
 
 ### First steps
 
-Get started checking out the [Google Summer of Code Guides for participants](https://google.github.io/gsocguides/student/) and the [timeline](https://developers.google.com/open-source/gsoc/timeline) of the program.
+Get started checking out the [Google Summer of Code Guides](https://google.github.io/gsocguides/student/) and the [timeline](https://developers.google.com/open-source/gsoc/timeline) of the program.
 
 ### How to apply to HSF GSoC
 
