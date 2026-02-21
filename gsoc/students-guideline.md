@@ -1,14 +1,14 @@
 ---
-title: "HSF GSoC Student Guidelines"
+title: "HSF GSoC Participant Guidelines"
 author: "Javier Cervantes"
 layout: default
 ---
 
-# Guideline for Students
+# Guideline for Participants
 
 ### First steps
 
-Get started checking out the [Google Summer of Code Guides for students](https://google.github.io/gsocguides/student/) and the [timeline](https://developers.google.com/open-source/gsoc/timeline) of the program.
+Get started checking out the [Google Summer of Code Guides](https://google.github.io/gsocguides/student/) and the [timeline](https://developers.google.com/open-source/gsoc/timeline) of the program.
 
 ### How to apply to HSF GSoC
 
@@ -40,8 +40,8 @@ Get started checking out the [Google Summer of Code Guides for students](https:/
   * Make sure to submit the proposal through the GSoC dashboard, not only to mentors.
 <br><br>
 
-6. Your proposal will be evaluated and ranked by your mentors, who give their feedback to the HSF Org Admins. If a project has eligible candidates, it will be considered for the request of slots made to GSoC, due on **Apr 20**. Note that the result of this Phase 2 selection process cannot be made available before the official announcement by Google of the successful student projects, on **May 1**.
+6. Your proposal will be evaluated and ranked by your mentors, who give their feedback to the HSF Org Admins. If a project has eligible candidates, it will be considered for the request of slots made to GSoC, due on **Apr 20**. Note that the result of this Phase 2 selection process cannot be made available before the official announcement by Google of the successful participant projects, on **May 1**.
 
-We do not provide a mailing list for candidates, but there is a chat room in [![Gitter](https://badges.gitter.im/HSF/HSF-GSoC.svg)](https://gitter.im/HSF/HSF-GSoC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) where you can ask questions, getting answers from the HSF Admins and previous students in our Organization. Please avoid posting extended information about yourself in the chat channel and reserve this for the first exchange with the mentors. 
+We do not provide a mailing list for candidates, but there is a chat room in [![Gitter](https://badges.gitter.im/HSF/HSF-GSoC.svg)](https://gitter.im/HSF/HSF-GSoC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) where you can ask questions, getting answers from the HSF Admins and previous participants in our Organization. Please avoid posting extended information about yourself in the chat channel and reserve this for the first exchange with the mentors. 
 
 Do not hesitate to [contact us](mailto:hsf-gsoc-admin@googlegroups.com) if you have further questions.

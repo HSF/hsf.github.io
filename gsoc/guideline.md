@@ -21,14 +21,14 @@ layout: default
       * Add a logo to [images](https://github.com/HSF/hsf.github.io/tree/master/images)
    * update the list of mentors (at the end of the proposal AND in the file `gsoc/YEAR/mentors.md`)
       * Follow this format: `YOURNAME [YOUR@MAIL](mailto:YOUR@MAIL) YOURORGANIZATION`
-      * The main mentor (responsible with student evaluation and exchanging with the Admins) has to be put in bold letters, only at the end of each proposal.
+      * The main mentor (responsible with participant evaluation and exchanging with the Admins) has to be put in bold letters, only at the end of each proposal.
       * Insert mentor names sorted rather than to the end of the list
 
    * make a pull request (add as reviewers the admins). At least one approval from the admins is required.
 
 **Every proposal must be attached to an organization (e.g. CERN, Fermilab...) and to a project (e.g. ROOT, GeantV...).** If you add your own proposal yourself, be sure add the appropriate `organization` and `project` attributes (not case sensitive) in the *front-matter* section of the proposal. See next sections if you need to add a new organization or project but if you use an existing project and organization for your proposal you don't have to do anything else that what was described above.
 
-**Proposals have to be tuned this year for 90-hour 175-hour or 350h project length.** For 175h projects please propose coding topics having well-defined deliverables, rather than R&D with unforeseen timeline and results. Remember that your student will effectively work in total only about 30 days (6 hours/day) on the project!
+**Proposals have to be tuned this year for 90-hour 175-hour or 350h project length.** For 175h projects please propose coding topics having well-defined deliverables, rather than R&D with unforeseen timeline and results. Remember that your participant will effectively work in total only about 30 days (6 hours/day) on the project!
 
 Please do not forget to add **essential information** like *level of difficulty*, *duration* and an explicit statement about *mentor availability*. 
    
