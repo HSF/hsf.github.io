@@ -54,3 +54,9 @@ Release a modified version of MCFM that successfully incorporates the negative w
 
 AI assistance is allowed for this contribution. The applicant takes full responsibility for all code and results, disclosing AI use for non-routine tasks (algorithm design, architecture, complex problem-solving). Routine tasks (grammar, formatting, style) do not require disclosure.
 
+
+## Links
+
+ * [Repo](https://gitlab.com/mcfm-team)
+ * [MCFM](https://mcfm.fnal.gov/) 
+
