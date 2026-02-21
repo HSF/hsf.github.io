@@ -8,7 +8,7 @@ layout: default
 
 ## Introduction
 
-[Google Summer of Code](https://summerofcode.withgoogle.com) is a program that allows open source beginners to contribute to the development of open-source projects, mentored by participating organizations.
+[Google Summer of Code](https://summerofcode.withgoogle.com) is a program that allows open-source beginners to contribute to the development of open-source projects, mentored by participating organizations.
 
 Particle physics is an exciting field where large collaborations of scientists collect
 and analyze petabytes of data from high-energy physics experiments, such as those at the Large Hadron Collider,
