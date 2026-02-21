@@ -1,5 +1,5 @@
 ---
-title: HSF student pages for GSoC 2026
+title: HSF participant pages for GSoC 2026
 layout: plain
 year: 2026
 ---

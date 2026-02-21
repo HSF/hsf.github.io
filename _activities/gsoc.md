@@ -8,7 +8,7 @@ layout: default
 
 ## Introduction
 
-[Google Summer of Code](https://summerofcode.withgoogle.com) is a program that allows students to contribute to the development of open-source projects, mentored by participating organizations.
+[Google Summer of Code](https://summerofcode.withgoogle.com) is a program that allows open source beginners to contribute to the development of open-source projects, mentored by participating organizations.
 
 Particle physics is an exciting field where large collaborations of scientists collect
 and analyze petabytes of data from high-energy physics experiments, such as those at the Large Hadron Collider,
@@ -31,17 +31,17 @@ Information from last year’s GSoC can be found [here]({{ site.baseurl }}/gsoc/
 
 In 2026 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. The HSF project ideas are listed [below](#projects-in-2026). Please have a look at the general [program rules](https://summerofcode.withgoogle.com/rules/) and the [timeline](https://summerofcode.withgoogle.com/how-it-works/) provided by Google. 
 
-The selection process in our organization will be split into two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. The successful candidates will have a detailed exchange with mentors on a given project idea, and their proposals are then evaluated for the final student selection. The detailed [timeline](#timeline) of these phases is shown below.
+The selection process in our organization will be split into two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. The successful candidates will have a detailed exchange with mentors on a given project idea, and their proposals are then evaluated for the final participant selection. The detailed [timeline](#timeline) of these phases is shown below.
 
-### For Students
+### For Participants
 
-If you are interested in the HSF projects, please start by having a look at our [guidelines for students]({{ site.baseurl }}/gsoc/students-guideline.html) and [frequently asked questions]({{ site.baseurl }}/gsoc/faq.html).
+If you are interested in the HSF projects, please start by having a look at our [guidelines for participants]({{ site.baseurl }}/gsoc/students-guideline.html) and [frequently asked questions]({{ site.baseurl }}/gsoc/faq.html).
 
-New projects for HSF GSoC in 2026 will be published by **February 3rd**. Meanwhile you can take a look at last year's HSF GSoC [projects]({{site.baseurl }}/gsoc/2025/index.html) since many of those may also propose subjects this year. The student application period will begin on **Mar 16**, but discussions about student project ideas with mentors will take place starting on **February 19**, when the list of accepted Organizations is announced. You are encouraged to monitor this website in order to get acquainted with our projects and be prepared for contacting their mentors. Due to the high number of applicants for CERN-HSF projects, the application period procedure become more formal this year, so please try to follow our guidance.
+New projects for HSF GSoC in 2026 will be published by **February 3rd**. Meanwhile you can take a look at last year's HSF GSoC [projects]({{site.baseurl }}/gsoc/2025/index.html) since many of those may also propose subjects this year. The participant application period will begin on **Mar 16**, but discussions about participant project ideas with mentors will take place starting on **February 19**, when the list of accepted Organizations is announced. You are encouraged to monitor this website in order to get acquainted with our projects and be prepared for contacting their mentors. Due to the high number of applicants for CERN-HSF projects, the application period procedure become more formal this year, so please try to follow our guidance.
 
-Please avoid having the first contact with the mentors of HSF projects before **February 19** or after **March 16**! You are encouraged to take the time to read our project proposals, focusing on only one or two projects that attract your interest. Once you have identified those, you should e-mail the respective mentors, attaching your CV and describing the motivation for your choice. The mentors will first propose an evaluation test, waiting for your solution. Note that the test you are given is private, your solution should be personal and the response time is part of the evaluation. Mentors will let you know the test results, and if you passed they will start discussing and helping you develop a project idea. The student application period is **March 16 - March 31**, when you will have to write and review your proposal with help from your mentors.
+Please avoid having the first contact with the mentors of HSF projects before **February 19** or after **March 16**! You are encouraged to take the time to read our project proposals, focusing on only one or two projects that attract your interest. Once you have identified those, you should e-mail the respective mentors, attaching your CV and describing the motivation for your choice. The mentors will first propose an evaluation test, waiting for your solution. Note that the test you are given is private, your solution should be personal and the response time is part of the evaluation. Mentors will let you know the test results, and if you passed they will start discussing and helping you develop a project idea. The participant application period is **March 16 - March 31**, when you will have to write and review your proposal with help from your mentors.
 
-For further information, feel free to contact the HSF GSoC admins or join our open chat channel below. Note that the channel is intended for exchanging with fellow contributors, the other candidates and some of the CERN-HSF students from previous year, and we do not maintain a mailing list for candidates. Please avoid posting extended information about yourself in the chat channel and reserve this for the direct exchange with the mentors.
+For further information, feel free to contact the HSF GSoC admins or join our open chat channel below. Note that the channel is intended for exchanging with fellow contributors, the other candidates and some of the CERN-HSF participants from previous year, and we do not maintain a mailing list for candidates. Please avoid posting extended information about yourself in the chat channel and reserve this for the direct exchange with the mentors.
 
 [hsf-gsoc-admin@googlegroups.com](mailto:hsf-gsoc-admin@googlegroups.com)
 
@@ -49,14 +49,14 @@ For further information, feel free to contact the HSF GSoC admins or join our op
 
 ### Past Projects
 
-Project from previous years are showcased in blog posts written by students. If you are a CERN-HSF student, please read these [instructions]({{ site.baseurl }}/gsoc/blogs/2022/blog_HSF_TheAdmins.html) on how to add your project. Student blogs are mandatory for receiving a positive evaluation in CERN-HSF! 
+Project from previous years are showcased in blog posts written by participants. If you are a CERN-HSF participant, please read these [instructions]({{ site.baseurl }}/gsoc/blogs/2022/blog_HSF_TheAdmins.html) on how to add your project. Participant blogs are mandatory for receiving a positive evaluation in CERN-HSF! 
 
-See here the student blog posts from previous years:
+See here the participant blog posts from previous years:
 
-* [Student blogs 2025]({{ site.baseurl }}/gsoc/2025/blogs.html)
-* [Student blogs 2024]({{ site.baseurl }}/gsoc/2024/blogs.html)
-* [Student blogs 2023]({{ site.baseurl }}/gsoc/2023/blogs.html)
-* [Student blogs 2022]({{ site.baseurl }}/gsoc/2022/blogs.html)
+* [Participant blogs 2025]({{ site.baseurl }}/gsoc/2025/blogs.html)
+* [Participant blogs 2024]({{ site.baseurl }}/gsoc/2024/blogs.html)
+* [Participant blogs 2023]({{ site.baseurl }}/gsoc/2023/blogs.html)
+* [Participant blogs 2022]({{ site.baseurl }}/gsoc/2022/blogs.html)
 * [Blogpost summarizing 2012]({{ site.baseurl }}/gsoc/2012/blogs.html)
 * [Blogpost summarizing 2011]({{ site.baseurl }}/gsoc/2011/blogs.html)
 
@@ -98,7 +98,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
   </tr>
   <tr>
     <td> March 16 </td>
-    <td> Mentors announce to students the result of phase 1 selection </td>
+    <td> Mentors announce to participants the result of phase 1 selection </td>
   </tr>
   <tr>
     <td> Mar 16 - March 24 </td>
@@ -110,11 +110,11 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
   </tr>
   <tr>
     <td> March 31 </td>
-    <td> Student application deadline </td>
+    <td> Participant application deadline </td>
   </tr>
   <tr>
     <td> March 31 - Apr 21 </td>
-    <td><p><font color="blue"> Phase 2 selection </font></p> Mentors evaluate and rank student proposals. </td>
+    <td><p><font color="blue"> Phase 2 selection </font></p> Mentors evaluate and rank participant proposals. </td>
   </tr>
   <tr>
     <td> April 21 </td>
@@ -128,11 +128,11 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
   </tr>
   <tr>
     <td> April 29 </td>
-    <td> Student slot requests due for Org Admins </td>
+    <td> Participant slot requests due for Org Admins </td>
   </tr>
   <tr style="color: red;">
     <td> April 30 </td>
-    <td> Accepted student projects announced  </td>
+    <td> Accepted participant projects announced  </td>
   </tr>
 </table>
 
