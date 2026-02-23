@@ -57,9 +57,9 @@ In addition, projects should consider having:
 
 ### C++ Specific Guidelines
 
+The [Standard C++ Foundation](https://isocpp.org/) maintains a repository with a comprehensive set of [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines).
 [This repository](https://github.com/cpp-best-practices/cppbestpractices)
-contains a Collaborative Collection of C++ Best Practices.
-[WIP - more information will be provided in due course.]
+also contains a Collaborative Collection of C++ Best Practices.
 
 ### Julia Specific Guidelines
 
