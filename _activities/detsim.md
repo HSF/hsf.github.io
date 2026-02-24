@@ -24,6 +24,7 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 - Makoto Asai (Geant4, JLab)
 - Tommaso Lari (ATLAS, Milano)
 - Anna Zaborowska (FCC, Geant4, CERN)
+- Menglin Xu (LHCb, CERN)
 
 [Email the conveners](mailto:asai@jlab.org,tommaso.lari@mi.infn.it,anna.zaborowska@cern.ch).
 
