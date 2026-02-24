@@ -8,18 +8,16 @@ layout: default
 
 ### First steps
 
-Get started checking out the [Google Summer of Code Guides](https://google.github.io/gsocguides/student/) and the [timeline](https://developers.google.com/open-source/gsoc/timeline) of the program.
+Get started checking out the [Google Summer of Code Guides](https://google.github.io/gsocguides/student/) and the [timeline](https://developers.google.com/open-source/gsoc/timeline) of the program. Please note that the dates mentioned below are indicative general timeframes; always refer to the official GSoC timeline for the exact dates for each year.
 
 ### How to apply to HSF GSoC
 
-1. Take a look at the list of participating [projects]({{ site.baseurl }}/activities/gsoc.html#projects-in-2024) this year. If there are no projects or just a few, note that more will be added according to this year's [timeline]({{ site.baseurl }}/activities/gsoc.html#timeline).
+1. Take a look at the list of participating [projects]({{ site.baseurl }}/activities/gsoc.html#projects) this year. If there are no projects or just a few, note that more will be added according to this year's [timeline]({{ site.baseurl }}/activities/gsoc.html#timeline).
   * There you will find a list of proposals for each project, their descriptions and the contact information of their mentors.
-  * There is also a list with [all the project proposals]({{ site.baseurl }}/gsoc/2024/summary.html) sorted in alphabetical order.
-  <!-- Next <br><br>, add an extra new line, otherwise there is no space between point 2 and previous nested bullet  -->
+  * There is also a list with [all the project proposals]({{ site.baseurl }}/gsoc/2026/summary.html) sorted in alphabetical order.
   <br><br>
 
-2. Once you have checked all our proposals and picked the one you like most, please contact the corresponding mentors (their emails can be found at the end of each proposal) sending them your CV and the motivation for picking their proposal. Please do this only after the list of accepted Organizations is published on **Feb 21**, but not after **March 17**, to give time to mentors to evaluate your technical skills. You are encouraged to apply to a maximum of two project proposals.
-<!-- Next <br><br>, add an extra new line  -->
+2. Once you have checked all our proposals and picked the one you like most, please contact the corresponding mentors (their emails can be found at the end of each proposal) sending them your CV and the motivation for picking their proposal. Please do this only after the list of accepted Organizations is published in the **third week of February**, but not after **mid-March**, to give time to mentors to evaluate your technical skills. You are encouraged to apply to a maximum of two project proposals.
 <br><br>
 
 3. Mentors will ask you to complete a technical test of their choice to evaluate if you have the skills required for the project. This is a first stage selection only, passing it does not imply that you are selected.
@@ -29,19 +27,19 @@ Get started checking out the [Google Summer of Code Guides](https://google.githu
 
 4. Mentors will announce you by mail if you passed the first stage selection or not, along with potentially other candidates. In case you passed, mentors will usually ask you to write a description for your proposal and help you with the submission. This implies, but is not limited to:
   * Guiding you with the project software (repository, installation, test suite)
-  * Discussing with you the main project objectives and how they can be achieved. This can be done via mail/message/video exchanges, mainly in the period **Mar 18 - Apr 2**.
+  * Discussing with you the main project objectives and how they can be achieved. This can be done via mail/message/video exchanges, mainly from **late February to mid-March**.
   * Giving you pointers to documentation material and/or asking you to find references helping you make your proposal.
 <br><br>
 
 5. You will have to write a proposal that must contain:
-  * A detailed plan of work with a timeline spanning over **90 or 175 or 375 hours**, which is the GSoC coding period duration this year. Note that your availability for working on the project has to be clearly stated (agreed upon with your mentors) and represents an engagement on your side. Breaking it during the coding period without prior notice and mentor's agreement represents a reason for being failed.
+  * A detailed plan of work with a timeline spanning the official GSoC project sizes (e.g., **90, 175, or 350+ hours**, depending on the current year's rules). Note that your availability for working on the project has to be clearly stated (agreed upon with your mentors) and represents an engagement on your side. Breaking it during the coding period without prior notice and mentor's agreement represents a reason for being failed.
   * Well defined tasks and their objectives, with a list of deliverables upon which the success of the project will be determined.
-  * Between **Mar 18 - Mar 26** you will have the possibility to share your proposal draft with the project mentors to get improvement suggestions, before making your GSoC application due on **Apr 2**.
+  * Between **mid-March and late March** you will have the possibility to share your proposal draft with the project mentors to get improvement suggestions, before making your GSoC application due at the **end of March**.
   * Make sure to submit the proposal through the GSoC dashboard, not only to mentors.
 <br><br>
 
-6. Your proposal will be evaluated and ranked by your mentors, who give their feedback to the HSF Org Admins. If a project has eligible candidates, it will be considered for the request of slots made to GSoC, due on **Apr 20**. Note that the result of this Phase 2 selection process cannot be made available before the official announcement by Google of the successful participant projects, on **May 1**.
+6. Your proposal will be evaluated and ranked by your mentors, who give their feedback to the HSF Org Admins. If a project has eligible candidates, it will be considered for the request of slots made to GSoC, due in the **third week of April**. Note that the result of this Phase 2 selection process cannot be made available before the official announcement by Google of the successful participant projects at the **end of April**.
 
-We do not provide a mailing list for candidates, but there is a chat room in [![Gitter](https://badges.gitter.im/HSF/HSF-GSoC.svg)](https://gitter.im/HSF/HSF-GSoC?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) where you can ask questions, getting answers from the HSF Admins and previous participants in our Organization. Please avoid posting extended information about yourself in the chat channel and reserve this for the first exchange with the mentors. 
+We do not provide a general mailing list for candidates. Individual projects may have specific communication platforms they prefer (such as **Mattermost**, Slack, or Discord) where you can ask questions and get answers from the HSF Admins and previous participants. Please check with your mentors for their preferred channels. Please avoid posting extended information about yourself in public chat channels and reserve this for the first exchange with the mentors. 
 
 Do not hesitate to [contact us](mailto:hsf-gsoc-admin@googlegroups.com) if you have further questions.
