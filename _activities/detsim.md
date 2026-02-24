@@ -22,11 +22,9 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 ## Conveners
 
 - Makoto Asai (Geant4, JLab)
-- Tommaso Lari (ATLAS, Milano)
-- Anna Zaborowska (FCC, Geant4, CERN)
 - Menglin Xu (LHCb, CERN)
 
-[Email the conveners](mailto:asai@jlab.org,tommaso.lari@mi.infn.it,anna.zaborowska@cern.ch).
+[Email the conveners](mailto:asai@jlab.org,menglin.xui@cern.ch).
 
 ### Former Conveners
 
@@ -40,3 +38,5 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 - Sandro Wenzel (ALICE, CERN), 2023
 - Kolja Kauder (BNL, EIC/STAR), 2024
 - Krzysztof Genser (Mu2e, Geant4, Fermilab), 2021-2024
+- Tommaso Lari (ATLAS, Milano), 2024-2025
+- Anna Zaborowska (FCC, Geant4, CERN), 2024-2025
