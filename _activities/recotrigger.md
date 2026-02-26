@@ -49,7 +49,7 @@ follow our mailing list on google groups [hsf-recotrigger](https://groups.google
 
 ## Former Conveners
 
-- Joe Osborn (sPHENIX/ePIC, Brookhaven National Laboratory)
+- Joe Osborn (sPHENIX/ePIC, Brookhaven National Laboratory), 2024-2025
 - Christina Agapopoulou (LHCb, CERN), 2023-2024
 - Claire Antel (ATLAS/FASER, Uni Geneva), 2023-2024
 - Giulia Casarosa (Belle II, Universita di Pisa), 2022-2023
