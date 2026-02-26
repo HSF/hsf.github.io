@@ -8,11 +8,11 @@ redirect_from:
 The PyHEP Activity Area brings together a community of developers and users of Python in Particle Physics, with the aim of improving
 the sharing of knowledge and expertise. It embraces the broad community, from HEP to the Astroparticle and Intensity Frontier communities.
 
-# Conveners
+# Conveners 
 
 * Peter Fackeldey (CMS and IRIS-HEP, Princeton)
-* Ianna Osborne (CMS and IRIS-HEP, Princeton)
-* Marcel Rieger (CMS, Hamburg University)
+* Alexander Heidelbach (Belle II, LMU Munich)
+* Dmitry Kalinkin (XXX, XXX)
 
 All coordinators can be reached at <hsf-pyhep-organisation@googlegroups.com>.
 
