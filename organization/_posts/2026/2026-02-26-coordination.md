@@ -30,7 +30,7 @@ Planned HSF seminars:
     - Format: recommendations first, then discussion on mapping to HSF Project Guidelines. 
         - Question for us / SG: what would we like out of this mapping? Support / mention of HSF guidelines and supported projects? (ICFA represents a different audience wrt our current circles)
         - The steering group meeting is scheduled for tomorrow
-        - Thinking about this until a months time, then discuss again in Coord meeting
+        - Thinking about this until a month's time, then discuss again in Coord meeting
 
 - 2nd in series on AI-assisted SW tools organised by software tools & packaging - possibly separate seminar organised with sustainability group.
 
@@ -119,7 +119,7 @@ Papers
     - JuliaHEP Mini 2026 - Julia for Nuclear and Elementary Particle Physics: From Precision Science to High-Performance Tools
     - Call for contributions to JuliaCon is now out:
 
-JuliaCon Global 2026 in Mainz, August 10-15, 2026 (https://juliacon.org/2026). JuliaCon has traditionally featured talks that ranged from introductory to advanced, on topics related to various fields, delivered by developers and researchers from industry and academia. If you have worked with or on Julia in the past, JuliaCon is the best venue to share your work with the Julia community.
+JuliaCon Global 2026 in Mainz, August 10-15, 2026 (<https://juliacon.org/2026>). JuliaCon has traditionally featured talks that ranged from introductory to advanced, on topics related to various fields, delivered by developers and researchers from industry and academia. If you have worked with or on Julia in the past, JuliaCon is the best venue to share your work with the Julia community.
 The Call for Proposals (<https://juliacon.org/2026/cfp/>) will close February 28, 2026.
 
 ## AOB
