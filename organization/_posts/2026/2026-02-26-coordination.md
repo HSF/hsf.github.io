@@ -1,11 +1,6 @@
 ---
-tags: HSF, Minutes
-lang: en-gb
-description: HSF Meeting Notes
----
-
-# HSF Coordination Meeting #303, 26 February 2026
-
+title: "HSF Coordination Meeting #303, 26 February 2026"
+layout: plain_toc
 ---
 
 ## Attending
