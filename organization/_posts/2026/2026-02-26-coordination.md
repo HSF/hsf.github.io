@@ -24,7 +24,7 @@ Planned HSF seminars:
     - Around 45 people (at peak) attended.
     - Some constructive discussions afterwards.
     - [Recording](https://youtu.be/ROUiCy7rorU) uploaded to agenda.
-    - There will be a followup meeting to discuss constants imporatant to HEP on the 27th, see AOB for details.
+    - There will be a follow-up meeting to discuss constants important to HEP on the 27th, see AOB for details.
 - Seminar on HS3: [25th March](https://indico.cern.ch/event/1622602/)
 - Seminar by Kati Lassila-Perini (chair) on ICFA Data Lifecycle panel [best practice recommendations](https://icfa-data-best-practices.app.cern.ch/): [29th April]
     - Format: recommendations first, then discussion on mapping to HSF Project Guidelines. 
