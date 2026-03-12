@@ -10,9 +10,9 @@ the sharing of knowledge and expertise. It embraces the broad community, from HE
 
 # Conveners
 
-* Peter Fackeldey (CMS and IRIS-HEP, Princeton)
-* Alexander Heidelbach (Belle II, LMU Munich)
-* Dmitry Kalinkin (STAR, BNL)
+- Peter Fackeldey (CMS and IRIS-HEP, Princeton)
+- Alexander Heidelbach (Belle II, LMU Munich)
+- Dmitry Kalinkin (STAR, BNL)
 
 All coordinators can be reached at <hsf-pyhep-organisation@googlegroups.com>.
 
@@ -21,25 +21,25 @@ All coordinators can be reached at <hsf-pyhep-organisation@googlegroups.com>.
 Everyone is welcome to join the community and participate, contribute, to the organised meetings
 and by means of the following communication channels:
 
-* [Gitter channel PyHEP](https://gitter.im/HSF/PyHEP){:target="_pyhep_gitter_channel} for any informal exchanges.
-* [GitHub repository of resources](https://github.com/hsf-training/PyHEP-resources){:target="_pyhep_resources_repo"},
+- [Gitter channel PyHEP](https://gitter.im/HSF/PyHEP){:target="_pyhep_gitter_channel} for any informal exchanges.
+- [GitHub repository of resources](https://github.com/hsf-training/PyHEP-resources){:target="_pyhep_resources_repo"},
   e.g., Python libraries of interest to Particle Physics.
-* PyHEP Workshop Twitter handle: [@PyHEPConf](https://twitter.com/PyHEPConf)
+- PyHEP Workshop Twitter handle: [@PyHEPConf](https://twitter.com/PyHEPConf)
 
 Extra Gitter channels have been created by and for the benefit of the community:
 
-* [PyHEP-newcomers](https://gitter.im/HSF/PyHEP-newcomers){:target="_pyhep_newcomers_gitter_channel} for newcomers support (very low entry threshold).
-* [PyHEP-fitting](https://gitter.im/HSF/PyHEP-fitting){:target="_pyhep_fitting_gitter_channel} for
+- [PyHEP-newcomers](https://gitter.im/HSF/PyHEP-newcomers){:target="_pyhep_newcomers_gitter_channel} for newcomers support (very low entry threshold).
+- [PyHEP-fitting](https://gitter.im/HSF/PyHEP-fitting){:target="_pyhep_fitting_gitter_channel} for
 discussions around fitting.
-* [PyHEP-histogramming](https://gitter.im/HSF/PyHEP-histogramming){:target="_pyhep_histogramming_gitter_channel} for discussions around histogramming.
-* [mpl-hep](https://gitter.im/HSF/mpl-hep){:target="_mpl_hep_gitter_channel} for Matplotlib proposals related to Particle Physics.
+- [PyHEP-histogramming](https://gitter.im/HSF/PyHEP-histogramming){:target="_pyhep_histogramming_gitter_channel} for discussions around histogramming.
+- [mpl-hep](https://gitter.im/HSF/mpl-hep){:target="_mpl_hep_gitter_channel} for Matplotlib proposals related to Particle Physics.
 
 # Group Activities
 
-* PyHEP **topical meetings "Python Module of the Month"** - [agendas](https://indico.cern.ch/category/11412/).
+- PyHEP **topical meetings "Python Module of the Month"** - [agendas](https://indico.cern.ch/category/11412/).
   These meetings follow the idea of the [Python 3 Module of the Week](https://pymotw.com/3/),
   but with a spirit adapted to our needs: presentations with a focus on libraries relevant to data analysis in Particle Physics, either from the Data Science domain or HEP domain specific.
-* **Annual PyHEP workshops**, see details below.
+- **Annual PyHEP workshops**, see details below.
 
 The meetings are since 2020 recorded and all videos are available as [HSF YouTube playlists](https://www.youtube.com/c/HEPSoftwareFoundation/playlists).
 
@@ -319,6 +319,8 @@ The event was kindly sponsored by
 
 
 # Previous conveners
+- Ianna Osborne (CMS and IRIS-HEP, Princeton), 2025
+- Marcel Rieger (CMS, Hamburg University), 2025
 - Nikolai Krug (ATLAS and Belle II, LMU Munich), 2023-2025
 - Matthew Feickert (ATLAS and IRIS-HEP, University of Wisconsin-Madison), 2023-2025
 - Jim Pivarski (CMS and IRIS-HEP, Princeton), 2019-2024
