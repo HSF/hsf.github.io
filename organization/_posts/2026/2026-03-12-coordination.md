@@ -3,10 +3,6 @@ title: "HSF Coordination Meeting #304, 12 March 2026"
 layout: plain_toc
 ---
 
-# HSF Coordination Meeting #304, 12 March 2026
-
----
-
 ## Attending
 
 Present/Contributing: Michel Villanueva, Claire Antel, Eduardo Rodrigues, Ruslan Mashinistov, Graeme Stewart, Stephen Mrenna, Steven Gardiner, Juraj Smiesko, Christian Wessel, Alexander Moreno, Stefan Roiser
