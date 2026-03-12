@@ -12,7 +12,7 @@ the sharing of knowledge and expertise. It embraces the broad community, from HE
 
 * Peter Fackeldey (CMS and IRIS-HEP, Princeton)
 * Alexander Heidelbach (Belle II, LMU Munich)
-* Dmitry Kalinkin (XXX, XXX)
+* Dmitry Kalinkin (STAR, BNL)
 
 All coordinators can be reached at <hsf-pyhep-organisation@googlegroups.com>.
 
