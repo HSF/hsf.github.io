@@ -20,7 +20,7 @@ Planned HSF seminars:
 
 Seminars beyond April?
 - Probably no seminar in May: Clashes with CHEP.
-- Should consider topic ideas inspired by CHEP26 (speakers would have material ready).
+- Should consider topic ideas inspired by CHEP 2026 (speakers would have material ready).
 
 HSF seminar conveners are reachable at <mailto:hsf-seminar-conveners@googlegroups.com>.
 Please send your suggestions for next seminars.
@@ -52,9 +52,9 @@ Very positive feedback from the Pythia developers about the process!
 ### GSoC 2026
 
 Have received 39 project ideas, significantly more than last year.
-Candidate selection for projects underway, application window for contributors opens March 16th, closes March 31st.
+Candidate selection for projects underway. Application window for contributors opens March 16th, closes March 31st.
 
-Sent out information and dashboard invites to mentors. As it needs a google account (but not a CERN-managed one) this process is unfortunately a bit complicated. Contact admins in case of problems.
+Sent out information and dashboard invites to mentors. As it needs a Google account (but not a CERN-managed one) this process is unfortunately a bit complicated. Contact admins in case of problems.
 
 Would be nice to get some inputs for the students from the Training WG after the projects kick off in May, will send a mail.
 
@@ -113,7 +113,7 @@ Reminder that we proposed a C++ header-only library that defines physical consta
 
 We had a meeting 2 weeks ago.
 
-There is now a "proof of concept" version of this, [hep-constants](https://github.com/HSF/hep-constants) that can process data from CODATA files, import units and prefixes from the Python hepunits package and generate C++ headers (using some symbolic manipulation). Now awaiting feedback from others on the general approach.
+There is now a "proof of concept" version of this, [hep-constants](https://github.com/HSF/hep-constants) that can process data from CODATA files, import units and prefixes from the Python [hepunits package](https://github.com/scikit-hep/hepunits) and generate C++ headers (using some symbolic manipulation). Now awaiting feedback from others on the general approach.
 
 ### Next Meeting
 
