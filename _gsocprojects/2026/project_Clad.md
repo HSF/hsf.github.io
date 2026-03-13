@@ -2,6 +2,8 @@
 project: Clad
 layout: default
 logo: Clad-logo.png
+repository: https://github.com/vgvassilev/clad
+license: LGPL-3.0
 description: |
   [Clad](https://clad.readthedocs.io/en/latest/) enables 
   automatic differentiation (AD) for C++. It is based on LLVM compiler 
