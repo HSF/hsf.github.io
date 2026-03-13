@@ -26,7 +26,7 @@ project_mentors:
 
 ATLAS will produce data at an unprecedented scale at the High-Luminosity LHC (HL-LHC). This project offers the opportunity to work on a real problem at the intersection of machine learning, real-time computing, and the experimental physics frontier, with direct relevance for the future ATLAS detector upgrade.
 
-The student will develop and evaluate deep-learning-based signal reconstruction methods for the ATLAS Tile Calorimeter (TileCal), comparing them with classical algorithms and exploring how to deploy efficient inference on modern hardware accelerators (GPU and/or FPGA-friendly models).
+The participant will develop and evaluate deep-learning-based signal reconstruction methods for the ATLAS Tile Calorimeter (TileCal), comparing them with classical algorithms and exploring how to deploy efficient inference on modern hardware accelerators (GPU and/or FPGA-friendly models).
 
 Recent studies indicate that AI-based reconstruction can be implemented on FPGAs and outperform classical methods in amplitude and timing estimation, especially in challenging pile-up regimes. However, for real deployment, models must satisfy strict constraints on:
 - latency (sub-microsecond scale, trigger-compatible),

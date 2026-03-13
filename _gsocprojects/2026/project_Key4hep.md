@@ -3,6 +3,8 @@ title: Key4hep
 project: Key4hep
 layout: default
 logo: key4hep-logo.png
+repository: https://github.com/key4hep/EDM4hep
+license: Apache-2.0
 description: >
   The [Key4hep](https://cern.ch/key4hep/) project provides an
   experiment-independent, turnkey software stack for future colliders such as
