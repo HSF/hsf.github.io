@@ -5,6 +5,7 @@ layout: plain
 
 ## 2026
 
+* [Introducing the HEP Software Foundation]({{ site.baseurl }}/assets/EduardoRodrigues_HSF-2026-03-27_SHiP-Collaboration-Week.pdf), 36th SHiP Collaboration Meeting, 27 March 2026, Eduardo Rodrigues
 * [HSF: The HEP Software Foundation](https://indico.cern.ch/event/1606722/contributions/6895790/attachments/3212649/5725221/2026-02-05_EVERSECommunityEngagementEvent.pdf), [EVERSE Community Engagement Event](https://indico.cern.ch/event/1606722/), CERN, 5 February 2026, Eduardo Rodrigues
 
 ## 2025
