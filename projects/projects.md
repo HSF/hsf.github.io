@@ -14,5 +14,5 @@ This is the list of projects that have become [HSF Affiliated]({{ site.baseurl }
 | [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Bronze]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | 2024 |
 
 Note that affiliation is assumed to remain valid for a period of 5 years,
-at which point an iteration of the review (details [here]({{ site.baseurl }}/projects/affiliated.html)
+at which point an iteration of the evaluation (details [here]({{ site.baseurl }}/projects/affiliated.html))
 will be done to confirm continuation of the affiliation.

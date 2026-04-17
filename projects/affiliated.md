@@ -37,6 +37,11 @@ in [this Google document](https://docs.google.com/document/d/1l8Tkruo0EEHwgRBQPm
 In practice it is a good idea to copy the template and adapt to one's particular case
 (the target Tier, the relevant programming language, etc.).
 
+### Duration of the Affiliation
+
+Following the conclusion of the evaluation, affiliation is assumed to remain valid for a period of 5 years,
+at which point an iteration of the evaluation will be done to confirm continuation of the affiliation.
+
 ### HSF Project Badge
 
 The recognition of bijective engagement with the HSF is displayed via a
