@@ -46,11 +46,6 @@ standards, as defined in our [guidelines]({{ site.baseurl }}/projects/guidelines
 
 Links to code snippets for the HSF project badge are on our [badges page]({{ site.baseurl }}/projects/badges.html).
 
-### Annual Project Awards
-
-The HSF envisages a scheme for Annual Project Awards.
-A concrete proposal will be presented to the [HSF Advisory Group]({{ site.baseurl }}/organization/advisory-group.html) once the latter is put in place.
-
 ## Best-practice Guidelines
 
 They are detailed in the document
