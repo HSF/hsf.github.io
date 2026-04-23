@@ -1,6 +1,6 @@
 ---
 title: "Affiliated Projects and Software Guidelines"
-author: Eduardo Rodrigues, Pere Mato, Graeme Stewart
+author: Eduardo Rodrigues, Pere Mato, Graeme Stewart, Caterina Doglioni, Stefan Roiser
 layout: plain
 ---
 
@@ -23,9 +23,8 @@ The guidelines take inspiration from an [older HSF project page]( {{
 site.baseurl}}/project_guidelines.html) and from the [Open Source Security
 Foundation (OpenSSF)’s page](https://www.bestpractices.dev/en/criteria).
 
-There are minimum standards that are required to be an affiliate, but beyond
-that we encourage all projects to look at the criteria set out below and work
-towards improvements.
+Affiliated projects must satisfy minimum standards. 
+We also set out further recommendations for community software that projects can work towards. 
 
 ## Best-practice Guidelines
 
@@ -78,25 +77,30 @@ Compliance with respect to the guidelines is provided via a "repo review” fram
 ([GitHub repository](https://github.com/scientific-python/repo-review)).
 The review can even be done [directly in a browser](https://learn.scientific-python.org/development/guides/repo-review/) for repositories hosted on GitHub!
 
-## Differentiated Software Best Practices
+## Software Tiers and Differentiated Recommendations
 
-Recognising that not all software is the same is very important to ensure that
-appropriate guidelines are applied. Here we adopt roughly the [*three levels of
+Not all software is the same, in terms of purposes and audience. 
+To classify software, we adopt a scheme inspired by the [*three levels of
 software*](https://everse.software/RSQKit/three_tier_view), originally developed by the
 [Australian Research Data Commons](https://ardc.edu.au/) (ARDC)
-and subsequently adopted by the [EVERSE Project](https://everse.software).
+and subsequently adopted by the [EVERSE Project](https://everse.software). 
+The starting point for the following definitions is the [RSQKit *three levels of software* page](https://everse.software/RSQKit/three_tier_view). 
 
-From these levels we have developed guidelines that projects can examine to
-understand typical levels of maturity, developer support, community support and
-engagement.
+**Research software infrastructure** include software that captures broadly accepted ideas, methods and models for use in research, often warranting close involvement of researchers in its development. This kind of software is broadly applicable, but it does not necessarily mean that its codebase will be large. A research software classed as infrastructure could be a comprehensive toolkit meeting a research need, but it could also be a smaller focused software package that is essential for several research communities. In the case of research software infrastructure, the maturity of the codebase, developer support, community support and engagement warrant specific recommendations.
+
+**Research software tools** (also called _prototype tools_) are research software that demonstrates a new idea, method or model for use beyond the project in which it originated, often as a substantive intellectual contribution or a proof of concept. These software tools are designed to answer multiple research questions and are typically developed and used by more than one person. They often began as a collection of analysis scripts before evolving into more comprehensive tools.
+
+**Analysis software** is research software that captures computational research processes and methodology, often used in simulation, data generation, preparation, analysis and visualisation. It typically represents software created for personal use with a small scope, such as scripts quickly put together to analyse data.
+
+We expect software developers seeking affiliation to identify the category their software fits in, which will be listed at the beginning of the review document, and consider the differential guidelines below as best-practice basis for supporting users effectively.
 
 These guidelines lie in three major categories:
 
 * Software engineering practices followed by the project (as described in the Best-practice Guideline section and with specifics for the programming language ecosystem).
-* Sustainability and support structures of the project (e.g. number of active developers, discussion fora, documentation, training events, time to respond to issues, etc.)
+* Sustainability and support structures of the project (e.g. discussion fora, documentation, training events, time to respond to issues, etc.)
 * Level of adoption of the software by experiments and other projects, hence the impact of the project.
 
-### Tier 3 Software
+### Analysis software
 
 A.k.a. *analysis code* in the 3-tier model.
 
@@ -134,8 +138,7 @@ obtain, provide feedback (as bug reports or enhancements), and contribute to the
 
 #### Sustainability
 
-* The project should be maintained.
-* The project should have at least one long-term maintainer with a future commitment to the software of at least 1 year.
+* The project should be maintained by at least one long-term maintainer, preferably with a future commitment to the software of at least 1 year (subject to funding).
 * The project should provide a process for users to submit bug reports (e.g., using an issue tracker or a mailing list).
 * The project should use an issue tracker for tracking individual issues.
 * The project should acknowledge a majority of bug reports submitted in the last 2-12 months (inclusive); the response need not include a fix.
@@ -147,7 +150,7 @@ obtain, provide feedback (as bug reports or enhancements), and contribute to the
 * The software produced by the project should be of interest for the HEP experiments.
 * The software should be adopted by at least one experiment/collaboration/project.
 
-### Tier 2
+### Research software tools
 
 A.k.a. *prototype tools* in the 3-tier model.
 
@@ -172,8 +175,8 @@ for Tier 3 should be fulfilled, with the addition of the following criteria.
 
 #### Sustainability
 
-* The project should be maintained and produce at least one new release a year if there are changes and fixes that have been accumulated.
-* The project should have at least one long-term maintainer with a future commitment to the software of at least 2 years.
+* The project should be maintained by at least one long-term maintainer, preferably with a future commitment to the software of at least 1 year (subject to funding).
+* The project should produce at least one new release a year if there are changes and fixes that have been accumulated.
 * The project should use an issue tracker for tracking individual issues.
 * The project should acknowledge a majority of bug reports submitted in the last 1-3 months (inclusive); the response need not include a fix.
 * The project should respond to a majority (>50%) of enhancement requests in the last 1-3 months (inclusive).
@@ -182,7 +185,7 @@ for Tier 3 should be fulfilled, with the addition of the following criteria.
 
 * The software should be adopted by at least 2 experiments/collaborations/projects.
 
-### Tier 1
+### Research Software Infrastructure
 
 A.k.a. *research software infrastructure* in the 3-tier model.
 
@@ -199,7 +202,7 @@ criteria.
 #### Sustainability
 
 * The project should be actively maintained and produce at least one new release a year if there are changes, and produce patch releases as relevant to include fixes that have been accumulated.
-* The project should have at least 3 long-term maintainers with a future commitment to the software of at least 2 years.
+* The project should be maintained by more than one long-term maintainer, preferably with a future commitment to the software of at least 1 year (subject to funding).
 * The project should acknowledge a majority of bug reports submitted in the last 1-4 weeks (inclusive); the response need not include a fix.
 * The project should respond to a majority (>50%) of enhancement requests in the last 1-4 weeks (inclusive).
 
