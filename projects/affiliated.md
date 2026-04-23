@@ -7,12 +7,14 @@ layout: plain
 
 ## Introduction
 
-The HEP Software Foundation is delighted to support and promote community software for high-energy physics.
+The HEP Software Foundation is delighted to support and promote community software for high-energy physics. 
 Here we describe how we can help projects gain greater visibility and enhance the positive impact of their software.
 
 *HSF Affiliated Projects and Software* are community-driven and community-oriented "endeavours" or "products" of wide and recognised interest and applicability beyond a single collaboration or experiment.
 
-*HSF Affiliated Projects and Software* are community projects or software packages with person-power, and possibly dedicated funding, which connect strongly to the HSF and align with [its goals]({{ site.baseurl }}/organization/goals.html). They benefit from their inclusion in, or association with, the HSF through access to the community for wide visibility and easier promotion through the network. Affiliation makes it clear that the HSF has no direct control over the endeavours/products, hence no responsibility for evolution or maintenance.
+*HSF Affiliated Projects and Software* are community projects or software packages with person-power, and possibly dedicated funding, which connect strongly to the HSF and align with [its goals]({{ site.baseurl }}/organization/goals.html). They benefit from their inclusion in, or association with, the HSF through access to the community for wide visibility and easier promotion through the network. 
+Affiliation makes it clear that the HSF has no direct control over the endeavours/products, hence no responsibility for evolution or maintenance. 
+Affiliated projects also align with several of the software-related recommendations from the ICFA (International Committee for Future Accelerators) data lifecycle panel [mission](https://icfa.hep.net/icfa-panel-on-the-data-lifecycle/) [mandate](https://icfa.hep.net/wp-content/uploads/Mandate.DataLifecyclePanelFinal.pdf) [recommendations](https://arxiv.org/abs/2508.18892)[app](https://icfa-data-best-practices-demo.app.cern.ch/). 
 
 Projects are hosted on their own public platform of choice (such as GitHub);
 they may use the [HSF GitHub repository](https://github.com/HSF) if desired and mutually agreed with the HSF Steering Group.
