@@ -17,7 +17,7 @@ The guidelines have been created to:
 * Help new projects discover what those practices are; and
 * Help users know which projects are following best practices, meant as a guarantee of quality.
 
-The guidelines can be updated in light of updates or release of community practices, such as those emerging from e.g. the [EVERSE project](https://everse.software).
+The guidelines can be updated in light of updates or release of community practices, such as those emerging from e.g. the [EVERSE project](https://everse.software). For a short summary of the EVERSE project and its goals, follow [this link]({{ site.baseurl }}/projects/everse.html).   
 
 The guidelines take inspiration from an [older HSF project page]( {{
 site.baseurl}}/project_guidelines.html) and from the [Open Source Security
