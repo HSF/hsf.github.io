@@ -37,6 +37,11 @@ in [this Google document](https://docs.google.com/document/d/1l8Tkruo0EEHwgRBQPm
 In practice it is a good idea to copy the template and adapt to one's particular case
 (the target Tier, the relevant programming language, etc.).
 
+### Duration of the Affiliation
+
+Following the conclusion of the evaluation, affiliation is assumed to remain valid for a period of 5 years,
+at which point an iteration of the evaluation will be done to confirm continuation of the affiliation.
+
 ### HSF Project Badge
 
 The recognition of bijective engagement with the HSF is displayed via a
@@ -45,11 +50,6 @@ that the project/software is relevant, useful and meets appropriate software qua
 standards, as defined in our [guidelines]({{ site.baseurl }}/projects/guidelines.html).
 
 Links to code snippets for the HSF project badge are on our [badges page]({{ site.baseurl }}/projects/badges.html).
-
-### Annual Project Awards
-
-The HSF envisages a scheme for Annual Project Awards.
-A concrete proposal will be presented to the [HSF Advisory Group]({{ site.baseurl }}/organization/advisory-group.html) once the latter is put in place.
 
 ## Best-practice Guidelines
 
@@ -79,21 +79,3 @@ The model for this process was the development of the conditions database used b
 Please refer to the document
 [HSF letters]({{ site.baseurl }}/organization/hsf-letters.html)
 on the website. The HSF continues to provide letters on the same basis.
-
-## Funding Support
-
-The HSF is a community organisation with no internal source of funding.
-It runs as a do-ocracy. In the spirit that the HSF facilitates cooperation and common efforts in HEP software and computing internationally, the HSF envisages facilitating the availability of modest financial support for community colleagues to travel and present at important events.
-This is inspired, broadly speaking, by the concept of
-[NumFOCUS Affiliated Projects](https://numfocus.org/sponsored-projects/affiliated-projects).
-The HSF will highlight external funding opportunities available for software projects. 
-
-Entities interested in acting as Sponsors make themselves known to the HSF SG stating the level of funding they will make available per annum, and for what type of activity(ies) - e.g., presentation of a software package by an Early Career Scientist at a major conference, travel support for a seminar.
-The HSF SG curates the list of Sponsors on the website, displaying the requirements to be met by each Sponsor.
-The HSF will not be in charge of financial transactions, it will merely serve as a mediator.
-
-Entities can be any moral entity or persons.
-
-The HSF does not envisage delivering a programme of software development grants or any grants of any kind. It also cannot accept direct donations, which should rather be made available via a sponsor’s funding opportunity.
-
-The HSF may re-assess its indirect funding scheme at any time and the SG welcomes feedback on this new initiative.
