@@ -12,9 +12,9 @@ This is the list of projects that have become [HSF Affiliated]({{ site.baseurl }
 | --------| ------------- |----------|-----------|
 | Pythia | Monte Carlo event generator | In progress | 2026 |
 | MadGraph5_aMC@NLO | Monte Carlo event generator | In progress | 2026 |
-| Pepper | Production of Parton-level Event Records | In progress | 2026 |
 | Dirac & DiracX | Distributed computing framework | In progress | 2025-2026 |
 | nopayload DB and client | Conditions Database system | In progress | 2025-2026 |
+| [Pepper](https://gitlab.com/spice-mc/pepper) | Portable Engine for the Production of Parton-level Event Records | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | 2026 |
 | [nnpdf](https://github.com/NNPDF/nnpdf) | Machine Learning framework for global analyses of parton distributions | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | 2025 |
 | [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | 2024 |
 
