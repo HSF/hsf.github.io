@@ -1,6 +1,6 @@
 ---
 title: HSF Advisory Group
-author: Graeme Stewart
+author: Graeme Stewart, Eduardo Rodrigues
 layout: default
 ---
 
@@ -43,6 +43,8 @@ The Advisory Group chair is elected annually and serves for 2 years, serving a m
 
 ## Present and Past AG Chairs
 
+- Christian Gutschow (University College London), 05/2026 -
+
 ## Present and Past Secretaries / Returning Officers
 
-* Paul Laycock (Einstein Telescope, University of Geneva), 01/2025 -
+- Paul Laycock (Einstein Telescope, University of Geneva), 01/2025 -
