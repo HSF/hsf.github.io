@@ -7,10 +7,10 @@ layout: plain
 
 ## Introduction
 
-The HEP Software Foundation is delighted to support and promote community software for high-energy physics. 
+The HEP Software Foundation is delighted to support and promote community software for high-energy physics.
 Here we describe how we can help projects gain greater visibility and enhance the positive impact of their software.
 
-*HSF Affiliated Projects and Software* are community-driven and community-oriented "endeavours" or "products" of wide and recognised interest and applicability beyond a single collaboration or experiment. 
+*HSF Affiliated Projects and Software* are community-driven and community-oriented "endeavours" or "products" of wide and recognised interest and applicability beyond a single collaboration or experiment.
 
 *HSF Affiliated Projects and Software* are community projects or software packages with person-power, and possibly dedicated funding, which connect strongly to the HSF and align with [its goals]({{ site.baseurl }}/organization/goals.html). They benefit from their inclusion in, or association with, the HSF through access to the community for wide visibility and easier promotion through the network. 
 Affiliation makes it clear that the HSF has no direct control over the endeavours/products, hence no responsibility for evolution or maintenance. 
