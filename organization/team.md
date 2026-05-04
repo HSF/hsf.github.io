@@ -29,10 +29,9 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 - Nicole Skidmore (LHCb, University of Warwick)
 - Graeme Stewart (ATLAS, DESY)
 - Andrea Valassi (LHCb, CERN)
-- Torre Wenaus - (ATLAS & ePIC, BNL)
 
-* The entire group can be contacted via <hsf-steering@googlegroups.com>.
-* [Steering Group Meetings in Indico](https://indico.cern.ch/category/10692/)
+- The entire group can be contacted via <hsf-steering@googlegroups.com>.
+- [Steering Group Meetings in Indico](https://indico.cern.ch/category/10692/)
 
 ## Steering Group Election Procedure
 
@@ -46,5 +45,9 @@ second round, the SG chair is decided by lot.
 
 ## Present and Past SG Chairs
 
-* Eduardo Rodrigues (LHCb, University of Liverpool), 07/2025 -
-* Graeme Stewart (ATLAS, CERN EP-SFT), 07/2024 - 06/2025
+- Eduardo Rodrigues (LHCb, University of Liverpool), 07/2025 -
+- Graeme Stewart (ATLAS, CERN EP-SFT), 07/2024 - 06/2025
+
+## Past SG Members
+
+- Torre Wenaus - (ATLAS & ePIC, BNL), 2014 - 01/2026
