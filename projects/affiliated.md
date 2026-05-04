@@ -40,7 +40,7 @@ In practice it is a good idea to copy the template and adapt to one's particular
 ### Duration of the Affiliation
 
 Following the conclusion of the evaluation, affiliation is assumed to remain valid for a period of 5 years,
-at which point an iteration of the evaluation will be done to confirm continuation of the affiliation.
+at which point the evaluation will be reviewed be done to confirm continuation of the affiliation.
 
 ### HSF Project Badge
 
