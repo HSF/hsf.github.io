@@ -20,4 +20,4 @@ This is the list of projects that have become [HSF Affiliated]({{ site.baseurl }
 
 Note that affiliation is assumed to remain valid for a period of 5 years,
 at which point the evaluation will be reviewed (details [here]({{ site.baseurl }}/projects/affiliated.html))
-will be done to confirm continuation of the affiliation.
+to confirm continuation of the affiliation.
