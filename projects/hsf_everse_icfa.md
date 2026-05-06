@@ -12,7 +12,7 @@ EVERSE has the following objectives:
    * Build a collaborative, community-led structure for evaluating, verifying, and improving the quality of research software and code, by actively involving researchers, software developers, and other stakeholders in the research community.
    * Leverage existing tools and resources to support the evaluation, verification and improvement of research software and code quality, based on existing practices and standards across research communities represented by the five EOSC Science Clusters. ESCAPE is the cluster for Physics & Astronomy, including the HL-LHC ESFRI among others.
    * Establish a sustainable and collaborative ecosystem of stakeholders across the research communities associated with the five EOSC Science Clusters to ensure research software and code quality assurance and support the advancement of reliable and reproducible research.
-   * Provide a framework that will ensure appropriate recognition, reward, and career development for researchers and RSEs who implement research software and code quality assurance practices and policies.
+   * Provide a framework that will ensure appropriate recognition, reward, and career development for researchers and Research Software Engineers (RSEs) who implement research software and code quality assurance practices and policies.
 
 In order to validate the structure for the evaluation, verification and improvement of European research software, EVERSE collects and aggregates well established practices on software engineering processes and training from the various science domains as a starting point, through interacting with selected, established software packages that are widely used within the European EOSC-Future Science Clusters. Based on these experiences, a software assessment process based on metrics and tools is established and then also adapted to the needs of the science clusters. The HSF is proving to be one of the driving entities in this feedback loop. 
 
@@ -21,7 +21,7 @@ In order to validate the structure for the evaluation, verification and improvem
 The ICFA Panel on the Data Lifecycle is an international group of researchers under the International Committee for Future Accelerators with a mandate to review recommendations around everything concerning data in particle physics, ranging from raw acquisition and reconstruction, through analysis and simulation, and all the way to long-term data and analysis preservation. 
 Its mission covers software, workflows, computing, and networking alongside the more traditional data management concerns, with a focus on open science and FAIR practices. 
 
-In practical terms, the panel aims to produce practical recommendations and serve as a point of contact for practical issues in addition to helping ICFA formulate policies. This panel also explicitly works to improve recognition of the nature and value of work on the data lifecycle in researchers' CVs and support career development,  acknowledging that software and computing contributions have historically been undervalued in the field.
+In practical terms, the panel aims to produce practical recommendations and serve as a point of contact for practical issues in addition to helping ICFA formulate policies. The panel also explicitly works to improve recognition of the nature and value of work on the data lifecycle in researchers' CVs and support career development, acknowledging that software and computing contributions have historically been undervalued in the field.
 
 ## Connection with the HSF 
 
