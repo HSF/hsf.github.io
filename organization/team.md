@@ -22,7 +22,6 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 - Michel Jouvin (IJCLab & CNRS/IN2P3)
 - Paul Laycock (Einstein Telescope, University of Geneva)
 - Pere Mato (Institut de Física d’Altes Energies)
-- Mark Neubauer (ATLAS, University of Illinois)
 - Eduardo Rodrigues (LHCb, University of Liverpool)
 - Stefan Roiser (CERN)
 - Elizabeth Sexton-Kennedy (CMS, Fermilab)
@@ -50,4 +49,5 @@ second round, the SG chair is decided by lot.
 
 ## Past SG Members
 
+- Mark Neubauer (ATLAS, University of Illinois), 2016 - 04/2026
 - Torre Wenaus - (ATLAS & ePIC, BNL), 2014 - 01/2026
