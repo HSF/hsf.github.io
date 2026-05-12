@@ -27,7 +27,6 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 - Elizabeth Sexton-Kennedy (CMS, Fermilab)
 - Nicole Skidmore (LHCb, University of Warwick)
 - Graeme Stewart (ATLAS, DESY)
-- Andrea Valassi (LHCb, CERN)
 
 - The entire group can be contacted via <hsf-steering@googlegroups.com>.
 - [Steering Group Meetings in Indico](https://indico.cern.ch/category/10692/)
@@ -50,4 +49,5 @@ second round, the SG chair is decided by lot.
 ## Past SG Members
 
 - Mark Neubauer (ATLAS, University of Illinois), 2016 - 04/2026
+- Andrea Valassi (LHCb, CERN), 2014 - 04/2026
 - Torre Wenaus - (ATLAS & ePIC, BNL), 2014 - 01/2026
