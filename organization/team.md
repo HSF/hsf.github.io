@@ -28,8 +28,8 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 - Nicole Skidmore (LHCb, University of Warwick)
 - Graeme Stewart (ATLAS, DESY)
 
-- The entire group can be contacted via <hsf-steering@googlegroups.com>.
-- [Steering Group Meetings in Indico](https://indico.cern.ch/category/10692/)
+The entire group can be contacted via <hsf-steering@googlegroups.com>.
+Steering Group Meetings are organised in [Indico](https://indico.cern.ch/category/10692/).
 
 ## Steering Group Election Procedure
 
