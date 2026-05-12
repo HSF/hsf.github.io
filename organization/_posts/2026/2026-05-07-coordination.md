@@ -79,7 +79,7 @@ Next Trainings
 Talks
 
 - CHEP 2026, May 24-29. [HEP Software Training with IRIS-HEP/HSF](https://indico.cern.ch/event/1471803/contributions/6968288/) (May 28)
-- Open Science Practitioners Forum (OSPF) - Open Science Office (OSO). Training initiatives and activities. Wednesday, June 3, 15:00 CERN time. https://indico.cern.ch/event/1684734/
+- Open Science Practitioners Forum (OSPF) - Open Science Office (OSO). Training initiatives and activities. Wednesday, June 3, 15:00 CERN time. <https://indico.cern.ch/event/1684734/>
 
 ### Physics Generators
 
