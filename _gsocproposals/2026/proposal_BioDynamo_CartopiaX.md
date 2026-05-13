@@ -9,6 +9,10 @@ mentor_avail: June-October
 organization:
   - CompRes
 project_mentors:
+  - email: l.luque@crukscotlandinstitute.ac.uk
+    first_name: Luciana
+    last_name: Melina Luque
+    organization: Cancer Research UK - Scotland Institute
   - email: vvasilev@cern.ch
     first_name: Vassil
     last_name: Vassilev
@@ -22,7 +26,7 @@ project_mentors:
 
 ## Description
 
-CartopiaX is an emerging simulation and modeling platform designed to support computational cancer research through large-scale, agent-based biological simulations. The project builds on modern high-performance scientific computing practices and leverages technologies inspired by platforms such as BioDynaMo to model tumor growth, tissue microenvironments, cell-cell interactions, and diffusion of signaling molecules.
+CartopiaX is an emerging simulation and modeling platform designed to support computational cancer research through large-scale, agent-based biological simulations. The project builds on modern high-performance scientific computing practices and leverages technologies inspired by platforms such as BioDynaMo to model tumor growth, tissue microenvironments, cell-cell interactions, and diffusion of signaling molecules. It reimplements the agent based model presented in [In silico study of heterogeneous tumour-derived organoid response to CAR T-cell therapy](https://www.nature.com/articles/s41598-024-63125-5) using BioDynaMo.
 
 CartopiaX aims to provide a flexible research environment that enables computational scientists and domain biologists to collaboratively design, execute, and analyze large-scale biological simulations. The platform combines high-performance C++ simulation kernels with user-friendly interfaces and scripting capabilities to enable rapid experimentation and reproducible research workflows. Currently, CartopiaX provides a performant core simulation engine but still requires improvements in usability, extensibility, and performance portability to support wider adoption in computational oncology and systems biology communities.
 

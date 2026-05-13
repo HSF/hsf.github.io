@@ -1,5 +1,5 @@
 ---
-title: Aparche Arrow interface for PODIO
+title: Apache Arrow interface for PODIO
 layout: gsoc_proposal
 project: PODIO
 year: 2026
