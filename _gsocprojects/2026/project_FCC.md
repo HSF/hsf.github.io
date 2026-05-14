@@ -3,6 +3,8 @@ title: Future Circular Collider
 project: FCC
 layout: default
 logo: fcc-logo.png
+repository: https://github.com/HEP-FCC/FCCAnalyses
+license: Apache-2.0
 description: |
   The [Future Circular Collider](https://fcc.cern/) (FCC) is a proposed
   next-generation particle accelerator at CERN for the post High Luminosity
