@@ -47,7 +47,7 @@ Planned HSF seminars:
 - (skipping May due to CHEP)
 - Confirmed seminar on "assessing sustainability of AI" by Sophia Wilson ([SAINTS Lab](https://saintslab.github.io/), University of Copenhagen) : [30th Sept](https://indico.cern.ch/event/1689368/)
 - Invited but to be confirmed:
-    - via Software Tools & Packaging AA & _HEP Packaging Coordination_ aiming for: "Packaging focused HSF seminar" together with main contributions from EIC & FCC people. - AA conveners working on confirming dates with speakers.
+    - via Software Tools & Packaging AA & *HEP Packaging Coordination* aiming for: "Packaging focused HSF seminar" together with main contributions from EIC & FCC people. - AA conveners working on confirming dates with speakers.
     - On "Green Software Engineering" by Michael Sparks, Manchester.
         - Inspired by SC4RC conference [presentation](https://indico.cern.ch/event/1526482/contributions/7061019/attachments/3267735/5836786/Michael_Sparks-SoftwareEngineeringSustainability_SLIDES.pdf).
 
@@ -75,7 +75,7 @@ Please send your suggestions for next seminars.
 #### Talks
 
 - CHEP 2026, May 24-29. [HEP Software Training with IRIS-HEP/HSF](https://indico.cern.ch/event/1471803/contributions/6968288/) (May 28)
-- Open Science Practitioners Forum (OSPF) - Open Science Office (OSO). Training initiatives and activities. Wednesday, June 3, 15:00 CERN time. https://indico.cern.ch/event/1684734/
+- Open Science Practitioners Forum (OSPF) - Open Science Office (OSO). Training initiatives and activities. Wednesday, June 3, 15:00 CERN time. <https://indico.cern.ch/event/1684734/>
 
 Next HEP C++ course 12-16 October (advanced edition), <https://indico.cern.ch/event/1689553/>, registration to open before summer
 
@@ -105,7 +105,7 @@ The calendar is used by very many to check for available dates, constraints, and
 
 ### HSF Promotional Poster
 
-Sapta has a poster to promote the HSF. There is one version [here](https://indico.cern.ch/event/1606598/), but please contact her for the latest version.
+Sapta has a poster to promote the HSF. There is [one version here](https://indico.cern.ch/event/1606598/), but please contact her for the latest version.
 
 ### Defunct Repositories
 
@@ -113,7 +113,7 @@ Eduardo noticed a few anachronistic repositories in the HSF GitHub:
 
 - <https://github.com/HSF/docker> - was intended for homebrew docker containers (for a time hosted the container used for website validation)
     - No longer needed, [proposal](https://github.com/HSF/docker/issues/1) is to delete
-- <https://github.com/HSF/tools> - hosted an HSF C++ project template and a few utility scripts, not actively maintained (there are beter maintained alternatives)
+- <https://github.com/HSF/tools> - hosted an HSF C++ project template and a few utility scripts, not actively maintained (there are better maintained alternatives)
     - No longer needed, [proposal](https://github.com/HSF/tools/issues/22) is to archive
 
 If you want to comment or suggest something else, please do so by tomorrow.
