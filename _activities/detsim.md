@@ -21,22 +21,22 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 
 ## Conveners
 
-- Makoto Asai (Geant4, JLab)
 - Menglin Xu (LHCb, CERN)
 
 [Email the conveners](mailto:asai@jlab.org,menglin.xui@cern.ch).
 
 ### Former Conveners
 
-- Heather Gray (ATLAS), 2019
-- Gloria Corti (LHCb), 2019-2020
-- Philippe Canal (CMS), 2020
-- Witek Pokorski (Geant4), 2019-2020
-- Ben Morgan (ATLAS, Geant4, University of Warwick), 2021-2022
-- Kevin Pedro (CMS, Fermilab), 2021-2022
-- John Chapman (ATLAS, University of Cambridge), 2023
-- Sandro Wenzel (ALICE, CERN), 2023
-- Kolja Kauder (BNL, EIC/STAR), 2024
-- Krzysztof Genser (Mu2e, Geant4, Fermilab), 2021-2024
+- Makoto Asai (Geant4, JLab), 2025
 - Tommaso Lari (ATLAS, Milano), 2024-2025
 - Anna Zaborowska (FCC, Geant4, CERN), 2024-2025
+- Kolja Kauder (BNL, EIC/STAR), 2024
+- Krzysztof Genser (Mu2e, Geant4, Fermilab), 2021-2024
+- John Chapman (ATLAS, University of Cambridge), 2023
+- Sandro Wenzel (ALICE, CERN), 2023
+- Ben Morgan (ATLAS, Geant4, University of Warwick), 2021-2022
+- Kevin Pedro (CMS, Fermilab), 2021-2022
+- Philippe Canal (CMS), 2020
+- Witek Pokorski (Geant4), 2019-2020
+- Gloria Corti (LHCb), 2019-2020
+- Heather Gray (ATLAS), 2019
