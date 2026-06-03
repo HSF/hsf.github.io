@@ -68,7 +68,6 @@ on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-C
 - Steven Gardiner, DUNE and Fermilab (2024-)
 - Joshua Isaacson, theory and Michigan State University (2026-)
 - Stephen Mrenna, CMS and Fermilab (2024-)
-- Phil Ilten, LHCb and University of Cincinnati (2023-)
 
 All convenors can be reached [by email](mailto:hsf-generator-wg-convenors@googlegroups.com). <!-- markdown-link-check-disable-line -->
 
@@ -81,3 +80,4 @@ All convenors can be reached [by email](mailto:hsf-generator-wg-convenors@google
 - Josh McFayden (2018-2022)
 - Efe Yazgan (2020-2023)
 - Markus Diefenthaler (2022-2023)
+- Phil Ilten, LHCb and University of Cincinnati (2023-2024)
