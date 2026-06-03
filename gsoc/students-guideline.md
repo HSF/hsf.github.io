@@ -12,9 +12,9 @@ Get started checking out the [Google Summer of Code Guides](https://google.githu
 
 ### How to apply to HSF GSoC
 
-1. Take a look at the list of participating [projects]({{ site.baseurl }}/activities/gsoc.html#past-projects) this year. If there are no projects or just a few, note that more will be added according to this year's [timeline]({{ site.baseurl }}/activities/gsoc.html#timeline).
+1. Take a look at the list of participating [projects]({{ site.baseurl }}/activities/gsoc.html#projects) this year. If there are no projects or just a few, note that more will be added according to this year's [timeline]({{ site.baseurl }}/activities/gsoc.html#timeline).
   * There you will find a list of proposals for each project, their descriptions and the contact information of their mentors.
-  * There is also a list with [all the project proposals]({{ site.baseurl }}/gsoc/2026/summary.html) sorted in alphabetical order.
+  * There is also a list with [all the past project proposals]({{ site.baseurl }}/activities/gsoc.html#past-projects) sorted in alphabetical order.
   <br><br>
 
 2. Once you have checked all our proposals and picked the one you like most, please contact the corresponding mentors (their emails can be found at the end of each proposal) sending them your CV and the motivation for picking their proposal. Please do this only after the list of accepted Organizations is published in the **third week of February**, but not after **mid-March**, to give time to mentors to evaluate your technical skills. You are encouraged to apply to a maximum of two project proposals.
