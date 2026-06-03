@@ -23,7 +23,7 @@ discussions are held on the [hsf-simulation](https://groups.google.com/g/hsf-sim
 
 - Menglin Xu (LHCb, CERN)
 
-[Email the conveners](mailto:asai@jlab.org,menglin.xui@cern.ch).
+[Email the conveners](mailto:menglin.xui@cern.ch).
 
 ### Former Conveners
 
