@@ -32,7 +32,7 @@ Get started checking out the [Google Summer of Code Guides](https://google.githu
 <br><br>
 
 5. You will have to write a proposal that must contain:
-  * A detailed plan of work with a timeline spanning the official GSoC project sizes (e.g., **90, 175, or 350+ hours**, depending on the current year's rules). Note that your availability for working on the project has to be clearly stated (agreed upon with your mentors) and represents an engagement on your side. Breaking it during the coding period without prior notice and mentor's agreement represents a reason for being failed.
+  * A detailed plan of work with a timeline spanning the official GSoC project sizes (e.g., **90, 175, or 350 hours**, depending on the current year's rules). Note that your availability for working on the project has to be clearly stated (agreed upon with your mentors) and represents an engagement on your side. Breaking it during the coding period without prior notice and mentor's agreement represents a reason for being failed.
   * Well defined tasks and their objectives, with a list of deliverables upon which the success of the project will be determined.
   * Between **mid-March and late March** you will have the possibility to share your proposal draft with the project mentors to get improvement suggestions, before making your GSoC application due at the **end of March**.
   * Make sure to submit the proposal through the GSoC dashboard, not only to mentors.
