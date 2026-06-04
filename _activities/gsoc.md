@@ -136,7 +136,7 @@ For new HEP-related groups wishing to join HSF GSoC umbrella rather than being i
   </tr>
 </table>
 
-## Projects in 2026
+## <a id='projects'>Projects in 2026</a>
 
 Will be filled by Feb 1st.
 

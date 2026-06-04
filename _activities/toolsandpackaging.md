@@ -64,7 +64,6 @@ The group is currently coordinated by:
 
 - Ruslan Mashinistov (BNL)
 - Juan Miguel Carceller (CERN)
-- Wouter Deconinck (University of Manitoba)
 
 All the coordinators can be reached [by email](mailto:wouter.deconinck@umanitoba.ca,mashinistov@bnl.gov,j.m.carcell@cern.ch). <!-- markdown-link-check-disable-line -->
 
@@ -75,18 +74,19 @@ All the coordinators can be reached [by email](mailto:wouter.deconinck@umanitoba
 
 ### Former Conveners
 
-- Benedikt Hegner (CMS, EP-SFT), 2016-2017
-- Elizabeth Sexton-Kennedy (CMS), 2016-2017
-- Graeme A Stewart (ATLAS), 2017-2019
-- Ben Morgan (ATLAS, superNEMO), 2017-2020
-- Martin Ritter (Belle II), 2018-2020
-- Giulio Eulisse (ALICE), 2018
-- Mircho Rozodov (CMS), 2021
-- Alaettin Serhan Mete (ATLAS and ANL), 2021-2022
-- Marc Paterno (DUNE and Fermilab), 2021-2022
-- Valentin Volkl (FCC and CERN), 2023
-- Henry Schreiner (IRIS-HEP / Princeton), 2023
-- Patrick Gartung (Fermilab), 2023-2024
+- Wouter Deconinck (ePIC, University of Manitoba), 2025
 - Nathan Brei (Jefferson Lab), 2024
 - Reiner Hauser (ATLAS), 2024
 - Andrea Valenzuela Ramirez (CMS), 2024
+- Patrick Gartung (Fermilab), 2023-2024
+- Henry Schreiner (IRIS-HEP / Princeton), 2023
+- Valentin Volkl (FCC and CERN), 2023
+- Alaettin Serhan Mete (ATLAS and ANL), 2021-2022
+- Marc Paterno (DUNE and Fermilab), 2021-2022
+- Mircho Rozodov (CMS), 2021
+- Ben Morgan (ATLAS, superNEMO), 2017-2020
+- Martin Ritter (Belle II), 2018-2020
+- Giulio Eulisse (ALICE), 2018
+- Graeme A Stewart (ATLAS), 2017-2019
+- Benedikt Hegner (CMS, EP-SFT), 2016-2017
+- Elizabeth Sexton-Kennedy (CMS), 2016-2017
