@@ -119,10 +119,10 @@ See seminar above.
 
 Eduardo noticed a few anachronistic repositories in the HSF GitHub:
 
-- <https://github.com/HSF/docker> - was intended for homebrew docker containers (for a time hosted the container used for website validation)
-    - No longer needed, [proposal](https://github.com/HSF/docker/issues/1) is to delete
-- <https://github.com/HSF/tools> - hosted an HSF C++ project template and a few utility scripts, not actively maintained (there are beter maintained alternatives)
-    - No longer needed, [proposal](https://github.com/HSF/tools/issues/22) is to archive
+- <https://github.com/HSF/docker> - was intended for homebrew docker containers (for a time hosted the container used for website validation).
+    - No longer needed, [proposal](https://github.com/HSF/docker/issues/1) is to delete.
+- <https://github.com/HSF/tools> - hosted an HSF C++ project template and a few utility scripts, not actively maintained (there are better maintained alternatives).
+    - No longer needed, [proposal](https://github.com/HSF/tools/issues/22) is to archive.
 
 Proposed actions done.
 
