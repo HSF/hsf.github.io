@@ -41,7 +41,7 @@ Do not hesitate to discuss around you to identify relevant projects/libraries th
 
 ### AI in contributions to HSF repositories
 
-*Feedback still welcome:* So far HSF repositories do not provide any statement on AI-powered/-helped contributions, and we are starting to get some. On occasions we can be flooded by not-to-useful contributions.
+*Feedback still welcome:* So far HSF repositories do not provide any statement on AI-powered/-helped contributions, and we are starting to get some. On occasions we can be flooded by not-too-useful contributions.
 
 This year an "AI statement" is strongly suggested in GSoC proposals. We should do something similar. Suggestion is to update the [website how-to](https://hepsoftwarefoundation.org/howto-website.html) with a statement on AI for contributions to the repo and how we will be dealing with "spam".
 
