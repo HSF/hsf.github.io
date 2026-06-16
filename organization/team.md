@@ -27,6 +27,7 @@ Following the concept of a do-ocracy active contributors to the HSF are invited 
 - Elizabeth Sexton-Kennedy (CMS, Fermilab)
 - Nicole Skidmore (LHCb, University of Warwick)
 - Graeme Stewart (ATLAS, DESY)
+- James Whitehead (MCnet, Jagiellonian University in Kraków)
 
 The entire group can be contacted via <hsf-steering@googlegroups.com>.
 Steering Group Meetings are organised in [Indico](https://indico.cern.ch/category/10692/).
