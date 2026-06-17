@@ -28,6 +28,7 @@ The Advisory Group chair is responsible for ensuring that the EC Contact is up t
 - Belle II Experiment
 - CMS Experiment
 - DUNE Experiment
+- ePIC Collaboration
 - LHCb Experiment
 - MCnet Community
 - SHiP Experiment
