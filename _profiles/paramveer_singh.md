@@ -8,6 +8,7 @@ twitter: ParamveerS15896
 orcid: 0009-0008-1124-1623
 linkedin: paramveer-singh
 email: param15.veer.singh@gmail.com
+Gravatar: https://gravatar.com/totallyscented1078916d05
 
 training_roles:
 - author
