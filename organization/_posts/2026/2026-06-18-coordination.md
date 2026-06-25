@@ -14,8 +14,8 @@ Apologies/Contributing: Graeme Stewart, Liz Sexton-Kennedy, Christian Wessel, Ma
 ### INFRA-DEV/TECH season of proposals just concluded
 
 Two proposals relevant for HSF: 
-   * PSENTRIC (HORIZON-INFRA-2026-DEV-01-02), follow-up of ESCAPE (<https://projectescape.eu/>) and including a broader astronomy community and analytical physics facilities (Caterina Doglioni and Graeme Stewart as contacts)
-   * OSCARS2 (HORIZON-INFRA-2026-01-EOSC-01), follow up of OSCARS (<https://oscars-project.eu/science-clusters>) with HSF involvement for training and affiliated project guidelines (Stefan Roiser and Caterina Doglioni as contacts) 
+   - PSENTRIC (HORIZON-INFRA-2026-DEV-01-02), follow-up of ESCAPE (<https://projectescape.eu/>) and including a broader astronomy community and analytical physics facilities (Caterina Doglioni and Graeme Stewart as contacts)
+   - OSCARS2 (HORIZON-INFRA-2026-01-EOSC-01), follow up of OSCARS (<https://oscars-project.eu/science-clusters>) with HSF involvement for training and affiliated project guidelines (Stefan Roiser and Caterina Doglioni as contacts) 
    
 One letter of support for HORIZON-INFRA-2026-TECH-01-01 circulated on HSF Forum mailing list last week. 
 
@@ -46,16 +46,15 @@ Reviews in progress, being finalised:
 Status: reviewers busy, but no other showstoppers identified so far.
 
 Other potential projects: 
-   * ACTS: Caterina will email the SG to find out who is already in contact
-   * Herwig (we already have Madgraph/Pythia) - we will hear from Christian Gutschow and James Whitehead (MCNet reps). 
-   * Phoenix - the author is happy to join, the SG will look for reviewers 
-   * Rivet - Caterina will follow up with authors next week
+   - ACTS: Caterina will email the SG to find out who is already in contact
+   - Herwig (we already have Madgraph/Pythia) - we will hear from Christian Gutschow and James Whitehead (MCNet reps). 
+   - Phoenix - the author is happy to join, the SG will look for reviewers 
+   - Rivet - Caterina will follow up with authors next week
 
 SG will find volunteers to contact these projects from GSoC list of projects this year:
-
-   * Clad 
-   * Omnifold (Saptaparna will contact authors)
-   * PODIO (future collider frameworks - Michel will contact authors)
+   - Clad
+   - Omnifold (Saptaparna will contact authors)
+   - PODIO (future collider frameworks - Michel will contact authors)
 
 Do not hesitate to discuss around you to identify relevant projects/libraries that could engage with the affiliation programme. AA conveners are in an excellent position to help us identify which projects to prioritise to join the affiliation programme.
 
@@ -83,25 +82,19 @@ Plan, to be taken on by Claire, Michel, Caterina:
 - discuss the plan for the meeting with the SG via e-mail the week of 22.06 before sending the announcement
 
 Points and links raised during the discussion in the coordination meeting: 
-
-   * Michel: Belle2 would be interested in the HSF being the contact point for responsible use of AI.  
-
-   * Claire: "using LLM" tutorials in ATLAS don't feature responsible use of AI, but there are [slides from IRIS-HEP]( https://indico.cern.ch/event/1686249/contributions/7130122/attachments/3294175/5891009/LLM101-IRISHEP.pdf)
-
-   * Michel: training events in BNL asked for best practices in use of AI, and we put some slides together based on experiences: [AI-assisted code, Remarks & discussion on best practices](https://indico.cern.ch/event/1683420/timetable/#b-670574-remarks-on-ai-assiste)
-
-   * Caterina: the research software community has been thinking about this, see e.g. <http://arxiv.org/abs/2510.22254> and <https://doi.org/10.5281/zenodo.20321134>. There are also CERN guidelines <https://home.cern/general-principles-use-ai-cern/>
-
+   - Michel: Belle2 would be interested in the HSF being the contact point for responsible use of AI.  
+   - Claire: "using LLM" tutorials in ATLAS don't feature responsible use of AI, but there are [slides from IRIS-HEP]( https://indico.cern.ch/event/1686249/contributions/7130122/attachments/3294175/5891009/LLM101-IRISHEP.pdf)
+   - Michel: training events in BNL asked for best practices in use of AI, and we put some slides together based on experiences: [AI-assisted code, Remarks & discussion on best practices](https://indico.cern.ch/event/1683420/timetable/#b-670574-remarks-on-ai-assiste)
+   - Caterina: the research software community has been thinking about this, see e.g. <http://arxiv.org/abs/2510.22254> and <https://doi.org/10.5281/zenodo.20321134>. There are also CERN guidelines <https://home.cern/general-principles-use-ai-cern/>
 
 ### HSF Seminar Series and Compute Accelerator Forum
 
 Planned HSF seminars:
-- [24th June (next week)](https://indico.cern.ch/event/1692605/): Seminar on Software Packaging - organised by Software Tools & Packaging AA.
-    - Cool agenda hosting multiple speakers. 
-- [22nd July](https://indico.cern.ch/event/1698017/): Seminar on "Green Software Engineering" by Michael Sparks, Manchester.
-    - Note: Exceptionally not last Wednesday of the month.
-- [30th Sept](https://indico.cern.ch/event/1689368/): Seminar on "assessing sustainability of AI" by Sophia Wilson ([SAINTS Lab](https://saintslab.github.io/), University of Copenhagen). 
-
+   - [24th June (next week)](https://indico.cern.ch/event/1692605/): Seminar on Software Packaging - organised by Software Tools & Packaging AA.
+      - Cool agenda hosting multiple speakers. 
+   - [22nd July](https://indico.cern.ch/event/1698017/): Seminar on "Green Software Engineering" by Michael Sparks, Manchester.
+      - Note: Exceptionally not last Wednesday of the month.
+   - [30th Sept](https://indico.cern.ch/event/1689368/): Seminar on "assessing sustainability of AI" by Sophia Wilson ([SAINTS Lab](https://saintslab.github.io/), University of Copenhagen). 
 
 (Thanks to the activity groups for coming to us with seminar ideas and speakers!)
 HSF seminar conveners are reachable at <mailto:hsf-seminar-conveners@googlegroups.com>.
@@ -124,7 +117,6 @@ That way they go into the calendar early and they will be included in the weekly
 #### Videos
 
 When meetings are recorded (recommended), please try to put them onto:
-
 - [HSF YouTube channel](https://www.youtube.com/c/HEPSoftwareFoundation) (ask for permission to do this)
 - <videos.cern.ch> (recommended over posting directly)
 
