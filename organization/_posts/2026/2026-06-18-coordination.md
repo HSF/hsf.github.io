@@ -7,7 +7,7 @@ layout: plain_toc
 
 Present/Contributing: Caterina Doglioni, Ruslan Mashinistov, Claire Antel, Joshua Isaacson, Eduardo Rodrigues, Saptaparna Battacharya, Michel Hernandez Villanueva, Peter Fackeldey
 
-Apologies/Contributing: Graeme Stewart, Liz Sexton-Kennedy, Christian Wessel, Maarten van Veghel, Alexander Moreno
+Apologies/Contributing: Graeme Stewart, Liz Sexton-Kennedy, Christian Wessel, Maarten van Veghel, Alexander Moreno, Stefan Roiser
 
 ## News, general matters, announcements
 
