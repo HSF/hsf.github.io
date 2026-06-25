@@ -1,5 +1,5 @@
 ---
-title: "HSF Coordination Meeting #309, 4 June 2026"
+title: "HSF Coordination Meeting #309, 18 June 2026"
 layout: plain_toc
 ---
 
@@ -153,7 +153,7 @@ From last meeting: Pursue idea of "sustainability reports" by generator groups. 
 
 - [PyHEP.dev 2026](https://indico.nikhef.nl/event/7873/) will be held at Nikhef Amsterdam, September 7-9.
 - [PyHEP.dev 2026] Indico almost ready (registration page is there now; only missing: local recommendations). Announcement currently being drafted. 
-- Sep 8 2026 (during PyHEP.dev): Special 2h seminar talk by us at NikHef about PyHEP activities
+- Sep 8 2026 (during PyHEP.dev): Special 2h seminar talk by us at Nikhef about PyHEP activities
 
 ### JuliaHEP
 
