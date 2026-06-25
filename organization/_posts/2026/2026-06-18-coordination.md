@@ -3,26 +3,6 @@ title: "HSF Coordination Meeting #309, 4 June 2026"
 layout: plain_toc
 ---
 
----
-tags: HSF, Minutes
-lang: en-gb
-description: HSF Meeting Notes
----
-
-# HSF Coordination Meeting #309, 18 June 2026
-
----
-
-*This notebook is used to record the minutes of the HSF Coordination meetings. These are archived after each meeting onto the [HSF Website](https://hepsoftwarefoundation.org).*
-
-## Tips
-
-- These minutes should be publically editable, they are stored in CERNbox with a public editing link
-- If you are adding a URL, please use `<` and `>` to make it an active link, as in `<https://daringfireball.net/projects/markdown/syntax#autolink>`
-    - Without the <>s the link is not active in Jekyll, even if it is in CodiMD
-- Please use `-` to indicate lists in this file (we try to avoid mixing `-` and `*` in the same file - it's markdown lint!)
-- Please use the Zoom "raise hand" if you'd like to make a comment in the meeting
-
 ## Attending
 
 Present/Contributing: Caterina Doglioni, Ruslan Mashinistov, Claire Antel, Joshua Isaacson, Eduardo Rodrigues, Saptaparna Battacharya, Michel Hernandez Villanueva, Peter Fackeldey
