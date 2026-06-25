@@ -176,7 +176,3 @@ There is now an early "proof of concept" version: [hep-constants](https://github
 ### Next Meeting
 
 The next coordination meeting will be on July 2nd.
-
-### Chair This Meeting 👇
-
-Please [sign up](https://docs.google.com/spreadsheets/d/1Z1Z4payCpieOLiVFcC6y9j-KCj71u6xX232LHUgIHfI/edit) for chairing a future coordination meeting. (There is even a [HOWTO guide](https://hepsoftwarefoundation.org/organization/running-meetings.html)).
