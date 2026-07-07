@@ -42,7 +42,7 @@ SG will find volunteers to contact these projects from GSoC list of projects thi
    - Omnifold (Saptaparna will contact authors)
    - PODIO (future collider frameworks - Michel will contact authors)
 
-Claire - idea for "scaling up" reviewing: Considering we're planning on invitating a bunch of projects to become affiliated projects, would it be an interesting idea to invite developers to review each other's projects? In this way, developers get to see both sides of the process, and may therefore be engaged enough to agree to being a reviewer.
+Claire - idea for "scaling up" reviewing: Considering we're planning on inviting a bunch of projects to become affiliated projects, would it be an interesting idea to invite developers to review each other's projects? In this way, developers get to see both sides of the process, and may therefore be engaged enough to agree to being a reviewer.
 
 Do not hesitate to discuss around you to identify relevant projects/libraries that could engage with the affiliation programme. AA conveners are in an excellent position to help us identify which projects to prioritise to join the affiliation programme.
 
