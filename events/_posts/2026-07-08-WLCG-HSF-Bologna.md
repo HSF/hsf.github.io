@@ -16,12 +16,12 @@ We invite you to submit abstracts for talks of 20' where you can describe a tool
 [https://indico.cern.ch/event/1655190/abstracts/](https://indico.cern.ch/event/1655190/abstracts/)
 
 
-### Important dates
+#### Important dates
 
 * Abstract submission deadline: 15 September 2026
 * Workshop registration deadline: 10 October 2026
 
-### Contact
+#### Contact
 
 For any queries, please contact `wlcg-hsf-workshop-2026@lists.cnaf.infn.it`.
 
