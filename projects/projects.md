@@ -10,7 +10,7 @@ This is the list of projects that have become [HSF Affiliated]({{ site.baseurl }
 {:.table .table-hover .table-condensed .table-striped}
 | Name | Description | Affiliation | Review document | Year |
 | --------| ------------- |----------|-----------|-----------|
-| nopayload DB and client | Conditions Database system | In progress | | 2025-2026 |
+| [nopayloaddb](https://github.com/BNLNPPS/nopayloaddb) and [nopayloadclient](https://github.com/BNLNPPS/nopayloadclient) | Conditions Database system | In progress | | 2025-2026 |
 | [Dirac & DiracX](https://diracgrid.org/) | Distributed computing framework | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_dirac] | 2025-2026 |
 | [Pythia](https://www.pythia.org) | Monte Carlo event generator | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_pythia] | 2026 |
 | [MadGraph5_aMC@NLO](https://github.com/mg5amcnlo/mg5amcnlo) | Monte Carlo event generator | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_madgraph5] | 2026 |
