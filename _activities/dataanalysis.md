@@ -33,9 +33,9 @@ well-defined set of problems.
 - Luke Kreczko, CMS/LZ and University of Bristol
 - Nick Smith, CMS and Fermilab
 
-Contact the [convenors by email](mailto:matthew.feickert@cern.ch,jamie.gooding@cern.ch,kreczko@cern.ch,nick.smith@cern.ch) <!-- markdown-link-check-disable-line -->
+Contact the [conveners by email](mailto:matthew.feickert@cern.ch,jamie.gooding@cern.ch,kreczko@cern.ch,nick.smith@cern.ch) <!-- markdown-link-check-disable-line -->
 
-### Former Convenors
+### Former Conveners
 
 - Alexander Held (ATLAS), 2023-2024
 - Nicole Skidmore (LHCb), 2021-2023

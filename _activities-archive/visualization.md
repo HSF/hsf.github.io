@@ -16,7 +16,7 @@ All are welcome to join the group and participate!
 
 ## Contacts
 
-Convenor: [Riccardo Maria BIANCHI](mailto:riccardo.maria.bianchi@cern.ch) (ATLAS)
+Convener: [Riccardo Maria BIANCHI](mailto:riccardo.maria.bianchi@cern.ch) (ATLAS)
 
 Mailing list: [hsf-visualization-wg@googlegroups.com](mailto:hsf-visualization-wg@googlegroups.com)
 

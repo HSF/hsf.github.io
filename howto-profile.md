@@ -78,4 +78,4 @@ If it doesn't, don't hesitate to ask us :)
 
 > My file contained some (syntax) errors and destroyed the community page
 
-Cool, that never happened before. But no worries, just write to the convenors, who apparently did a bad job at checking your file (if you can fix it quickly, a pull request would also be nice of course).
+Cool, that never happened before. But no worries, just write to the conveners, who apparently did a bad job at checking your file (if you can fix it quickly, a pull request would also be nice of course).
