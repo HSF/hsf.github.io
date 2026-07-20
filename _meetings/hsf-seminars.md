@@ -17,9 +17,13 @@ The schedule for past and future meetings is published in
 [Indico](https://indico.cern.ch/category/18810/).
 
 ## Organisers
+The seminar organisers are Claire Antel, Michel Jouvin and Nicole Skidmore.
 
-The [seminar organisers](mailto:claire.antel@cern.ch,michel.jouvin@ijclab.in2p3.fr,nicola.skidmore@cern.ch) are Claire Antel, Michel Jouvin and Nicole Skidmore, or
-you can contact the [HSF Steering Group](mailto:hsf-steering@googlegroups.com)
+For seminar enquiries, please contact the
+[HSF seminar conveners mailing list](mailto:hsf-seminar-conveners@googlegroups.com).
+
+You can also contact the
+[HSF Steering Group](mailto:hsf-steering@googlegroups.com)
 or any of our [activity area]({{ site.baseurl }}/what_are_activities.html)
 coordinators to suggest or volunteer any topics that you would like to see in
 future meetings.
