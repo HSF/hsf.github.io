@@ -19,4 +19,4 @@ email: meirin.oan.evans@cern.ch
 layout: educator
 ---
 
-Hi, Meirin here. I've mentored on the Virtual Pipelines and Virtual Docker training after participating in the Awesome Bootcamp. I was a content developer and instructor for the HSF Machine Learning training. During 2021 I'll be HSF Training & Careers co-convenor. My work is to prepare ATLAS Open Data for use in education, including particle physics, data science and machine learning.
+Hi, Meirin here. I've mentored on the Virtual Pipelines and Virtual Docker training after participating in the Awesome Bootcamp. I was a content developer and instructor for the HSF Machine Learning training. During 2021 I'll be HSF Training & Careers co-convener. My work is to prepare ATLAS Open Data for use in education, including particle physics, data science and machine learning.

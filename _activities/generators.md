@@ -60,18 +60,18 @@ HSF meeting [report]({{ site.baseurl }}/organization/2018/12/13/coordination.htm
 (latest sources and pdf from 11 November 2017 archived
 on [HSF/documents](https://github.com/HSF/documents/tree/master/CWP/papers/HSF-CWP-2017-11_generators))
 
-## Convenors
+## Conveners
 
-#### Current convenors
+#### Current conveners
 
 - Saptaparna Bhattacharya, CMS and Wayne State University (2024-)
 - Steven Gardiner, DUNE and Fermilab (2024-)
 - Joshua Isaacson, theory and Michigan State University (2026-)
 - Stephen Mrenna, CMS and Fermilab (2024-)
 
-All convenors can be reached [by email](mailto:hsf-generator-wg-convenors@googlegroups.com). <!-- markdown-link-check-disable-line -->
+All conveners can be reached [by email](mailto:hsf-generator-wg-convenors@googlegroups.com). <!-- markdown-link-check-disable-line -->
 
-#### Former convenors
+#### Former conveners
 
 - Stefan Hoeche (2018-2019)
 - Steve Mrenna (2018-2019)
