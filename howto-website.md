@@ -22,6 +22,19 @@ For adding information to this page or improving it, we follow the *[pull reques
 Just fork our HSF [website repository](https://github.com/HSF/hsf.github.io), edit the
 files you want to edit, push them to your fork, and open a pull request.
 
+### AI-assisted contributions
+
+AI-assisted contributions are welcome.
+
+Contributors remain fully responsible for everything they submit.
+
+If you use generative AI tools (such as ChatGPT, GitHub Copilot, or Claude) while preparing your contribution, please:
+
+- understand all generated content before submitting it;
+- carefully review and verify the correctness of AI-assisted changes;
+- remain fully responsible for everything included in your pull request;
+- disclose AI usage using the pull request template, where applicable.
+
 If you wish (and it is recommended) you can easily set up a local instance of the newsletter site in order to preview your submissions. See the [documentation](https://help.github.com/articles/using-jekyll-with-pages/)
 on installing and running Jekyll.
 The website uses the main branch of the [hsf.github.io](https://github.com/HSF/hsf.github.io) repository.
