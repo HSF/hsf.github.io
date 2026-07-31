@@ -24,7 +24,7 @@ Note: It concerns a particular github repo within the HSF organisation (not the 
 
 #### WLCG/HSF workshop
 
-- [2-6 November 2026](indico.cern.ch/event/1655190/overview) in Bologna, Italy.
+- [2-6 November 2026](https://indico.cern.ch/event/1655190/overview) in Bologna, Italy.
 - Registration is up, abstraction submission open. Do consider participating in this nice joint event!
 
 ### HSF Affiliated Projects and Software
