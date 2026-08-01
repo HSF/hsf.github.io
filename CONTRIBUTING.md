@@ -1,36 +1,39 @@
 # Contributing
 
-Thank you for contributing to the HSF website.
+Thank you for your interest in contributing to the HSF website.
 
-## Before you start
-
-- For significant changes or new features, please open an issue first.
-- Small improvements such as typo fixes or documentation updates are always welcome.
+Contributions of all sizes are welcome, including documentation improvements, typo fixes, bug fixes, and new content. For significant changes or new features, please open an issue first to discuss your proposal before starting work.
 
 ## AI-assisted contributions
 
-If you use AI tools (such as ChatGPT, GitHub Copilot, or Claude):
+AI-assisted contributions are welcome. If you use generative AI tools (such as ChatGPT, GitHub Copilot, or Claude) while preparing your contribution, please:
 
-- disclose their use in your pull request;
-- review and understand all generated content;
-- remain responsible for your contribution.
+- disclose the use of AI in your pull request when appropriate;
+- review and understand all AI-generated content before submitting it;
+- verify that the proposed changes are correct and appropriate for the project;
+- remain fully responsible for the content of your contribution.
 
 ## Contributor etiquette
 
-- Be respectful and constructive.
-- Assume good intentions.
-- Avoid submitting many unrelated changes in a single pull request.
+To help keep reviews efficient and productive, please:
+
+- keep pull requests focused on a single logical change;
+- write clear commit messages and pull request descriptions;
+- be respectful and constructive in discussions;
+- assume good intentions and collaborate in a friendly manner.
 
 ## Before opening a pull request
 
-Please ensure that:
+Before submitting a pull request, please ensure that:
 
-- your changes are well tested;
-- your pull request clearly explains the changes;
-- your contribution does not introduce unintended side effects.
+- your changes have been reviewed by you;
+- your pull request description clearly explains the purpose of the changes;
+- your contribution does not introduce unintended modifications.
 
-## More information
+## Additional guidance
 
-See the website contribution guide:
+Practical information on editing the website, running a local preview, and contributing content is available in the website contribution guide:
 
 https://hepsoftwarefoundation.org/howto-website.html
+
+Thank you for helping improve the HSF website.
