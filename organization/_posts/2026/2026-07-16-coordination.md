@@ -9,7 +9,7 @@ Present/Contributing: Claire Antel, Ruslan Mashinistov, Eduardo Rodrigues, Pere 
 
 Apologies/Contributing: Alexander Moreno
 
-## News, general matters, announcements
+## News, General Matters, Announcements
 
 Email from github:
 >Hi there,
@@ -17,12 +17,13 @@ You are receiving this email because you are an admin for HSF in GitHub that is 
 GitHub Code Quality moves to general availability on July 20, 2026. After that date, Code Quality usage on your enabled private repositories will be billed at $10 per active committer per month plus usage-based consumption for the AI-powered capabilities.
 Right now, our data is showing that you have 1 repositories with Code Quality enabled, across the following organizations: HSF
 
-Note: It concerns a particular github repo within the HSF organisation (not the hsf repo). Since no billing information has been shared, we shouldn't be getting any unexpected charges.
+Note: It concerns a particular GitHub repo within the HSF organisation (not the HSF website repo). Since no billing information has been shared, we shouldn't be getting any unexpected charges.
 
 ### Steering Group & Advisory Group
 
+No news at this point. A SG meeting will soon take place.
 
-#### WLCG/HSF workshop
+#### WLCG/HSF Workshop 2026
 
 - [2-6 November 2026](https://indico.cern.ch/event/1655190/overview) in Bologna, Italy.
 - Registration is up, abstraction submission open. Do consider participating in this nice joint event!
@@ -33,7 +34,7 @@ Status at <https://hepsoftwarefoundation.org/projects/projects.html> - unchanged
 
 Reviews in progress, being finalised:
 - NoPayloadDB Conditions Database
-    - Status: Delay due to slow review.
+    - Status: Delay due to low availability of reviewer.
 
 Other potential projects previously brought up:
    - ACTS - Caterina to follow up.
@@ -49,7 +50,7 @@ SG will find volunteers to contact these projects from GSoC list of projects thi
  __Todo__: We should actively assign people to projects and document who is assigned.
 
 
-### AI in contributions to HSF repositories
+### AI in Contributions to HSF Repositories
 
 
 #### "AI Statement" for contributors to HSF repo
@@ -71,7 +72,7 @@ Current status:
     - CERN IT to give 10' talk on security principles.
     - Discussing short pitch on sustainability.
 - Some material already uploaded to encourage contributions.
-- Various communities hopefully circulating event.
+- Various communities hopefully circulating the announcement of the event.
 - Will send another reminder to AG along with a survey on training needs targeting individuals.
 
 ### HSF Seminar Series and Compute Accelerator Forum
