@@ -8,13 +8,14 @@
 ## Introduction
 Hi again! We are at the midpoint of GSoC 2026, and I am excited to share the progress on my project bridging `FCCAnalyses` and `CMS Combine`. Since my introductory post, I have spent my time deep in the Python architecture of `FCCAnalyses`, transforming ROOT histograms from simulated e⁺e⁻ → ZH events into automated statistical models.
 
-The primary goal of this first half was to build the core datacard generation engine. I am happy to report that the automated pipeline is now up and running. You can check out the finalized skeleton framework in [my latest Pull Request here](https://github.com/HEP-FCC/FCCAnalyses/pull/520).
+The primary goal of this first half was to build the core datacard generation engine. I am happy to report that the automated pipeline is now up and running. You can check out the finalized framework in [my latest Pull Request here](https://github.com/HEP-FCC/FCCAnalyses/pull/520).
 
 ## Progress So Far: The Core Engine
 Over the past month, I have successfully implemented the `fit.py` interface within the `FCCAnalyses` framework. Here is what the tool can currently do:
 
 *   **Automated Datacard Generation:** The framework reads a user-defined, object-oriented Python configuration and automatically maps the requested signal and background processes to their respective ROOT shape histograms. It then spits out a perfectly formatted text-based `datacard.txt`.
 *   **The Execution Flag (`-e`):** To make the workflow completely seamless, I added a backend hook. By simply appending `-e` to the CLI command, the framework passes the newly generated datacard directly into a `subprocess` to execute `Combine` natively, eliminating the need for physicists to manually string together terminal commands.
+*   **Custom commands (`--`):** The user can provide additional parameters for Combine by appending them after `--`, or in the fit script.
 
 ## The Technical Challenge: ROOT
 In the beginning I ran into a curious technical roadblock. When testing the `-e` direct execution flag on our generated datacards using Combine's `AsymptoticLimits` method, the framework kept throwing a fatal C++ exception: `Caught exception Value 2.2 is outside the default range [0, 1.76]`. 
