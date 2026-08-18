@@ -8,7 +8,7 @@ linkedin: KaranSinghDev
 email: karansingh25822@gmail.com
 training_roles:
   - mentor
-  - facilitator
+  - author
 training_years:
   - 2026
 layout: educator
