@@ -1,7 +1,87 @@
 # Sorted by ascending date => New events go on top
 # You can use the scripts from https://github.com/HSF/website-helpers/
 # to update or reformat this file interactively.
-  
+
+- author: Michel Hernandez Villanueva
+  date: 2026-08-10
+  deadline: ''
+  end_date: 2026-08-14
+  source: https://indico.cern.ch/event/1672591/timetable/
+  tags: []
+  title: Computational HEP Traineeship Summer School 2026
+
+- author: Michel Hernandez Villanueva
+  date: 2026-08-03
+  deadline: ''
+  end_date: 2026-08-04
+  source: https://indico.cern.ch/event/1706524/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Machine Learning Training - Intermediate Level (Virtual)
+
+- author: Michel Hernandez Villanueva
+  date: 2026-06-12
+  deadline: ''
+  end_date: 2026-06-15
+  source: https://indico.cern.ch/event/1686249/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Software Basics Training at Fermilab
+
+- author: Michel Hernandez Villanueva
+  date: 2026-06-03
+  deadline: ''
+  end_date: 2026-06-05
+  source: https://indico.cern.ch/event/1683420/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Software Basics Training at BNL
+
+- author: Michel Hernandez Villanueva
+  date: 2026-04-27
+  deadline: ''
+  end_date: 2026-04-30
+  source: https://indico.cern.ch/event/1658598/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Analysis Reproducibility (Virtual)
+
+- author: Michel Hernandez Villanueva
+  date: 2025-12-10
+  deadline: ''
+  end_date: 2025-12-10
+  source: https://indico.cern.ch/event/1616742/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Python for Analysis Training
+
+- author: Michel Hernandez Villanueva
+  date: 2025-09-03
+  deadline: ''
+  end_date: 2025-09-04
+  source: https://indico.cern.ch/event/1569915/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Software Basics Training (virtual)
+
+- author: Michel Hernandez Villanueva
+  date: 2025-06-18
+  deadline: ''
+  end_date: 2025-06-20
+  source: https://indico.cern.ch/event/1508102/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Software Basics Training at CERN (Hybrid)
+
+- author: Michel Hernandez Villanueva
+  date: 2025-03-24
+  deadline: ''
+  end_date: 2025-03-28
+  source: https://indico.cern.ch/event/1508102/
+  tags:
+  - HSF
+  title: HSF/IRIS-HEP Analysis Reproducibility (Virtual)
+
 - author: Sudhir Malik
   date: 2024-09-25
   deadline: ''
