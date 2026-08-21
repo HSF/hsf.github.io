@@ -1,6 +1,6 @@
 ---
 project: HSF
-title: "GSoC 2026 Final Submission: Apache Arrow interface for PODIO"
+title: "Apache Arrow interface for PODIO"
 author: Arnav Dham
 photo: blog_authors/ArnavDham.jpg
 avatar: https://avatars.githubusercontent.com/arnavdham
