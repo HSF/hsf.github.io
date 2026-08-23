@@ -12,7 +12,7 @@ intro: |
 ---
 
 | Name | Sebastian Paucar |
-|---|---|
+|:---|:---|
 | Organisation | [University of Manitoba](https://umanitoba.ca/), [CERN](https://home.cern/), [HSF](https://hepsoftwarefoundation.org/) |
 | Mentor | Wouter Deconinck |
 | Project | Debuggable Installations For Spack Packages |
