@@ -8,5 +8,5 @@ year: 2026
 layout: blog_post
 logo: hsf_logo_angled.png
 intro: |
-A new machine- and build-system-agnostic debugging standard for Spack packages is implemented. DWARF-referenced in/out-of-tree and generated source code, along with split debug symbols, are preserved on demand alongside automated GDB configurations. An OCI buildcache infrastructure is built for debug info distribution (fetch/push).
+  A new machine- and build-system-agnostic debugging standard for Spack packages is implemented. DWARF-referenced in/out-of-tree and generated source code, along with split debug symbols, are preserved on demand alongside automated GDB configurations. An OCI buildcache infrastructure is built for debug info distribution (fetch/push).
 ---
