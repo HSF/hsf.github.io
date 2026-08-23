@@ -11,8 +11,9 @@ intro: |
   A new machine- and build-system-agnostic debugging standard for Spack packages is implemented. DWARF-referenced in/out-of-tree and generated source code, along with split debug symbols, are preserved on demand alongside automated GDB configurations. An OCI buildcache infrastructure is built for debug info distribution (fetch/push).
 ---
 
-| Name | Sebastian Paucar |
-|:---|:---|
-| Organisation | [University of Manitoba](https://umanitoba.ca/), [CERN](https://home.cern/), [HSF](https://hepsoftwarefoundation.org/) |
-| Mentor | Wouter Deconinck |
-| Project | Debuggable Installations For Spack Packages |
+<table>
+<tr><td>Name</td><td>Sebastian Paucar</td></tr>
+<tr><td>Organisation</td><td><a href="https://www.umanitoba.ca/">University of Manitoba</a>, <a href="https://home.cern/">CERN</a>, <a href="https://hepsoftwarefoundation.org/">HSF</a></td></tr>
+<tr><td>Mentor</td><td>Wouter Deconinck</td></tr>
+<tr><td>Project</td><td>Debuggable Installations For Spack Packages</td></tr>
+</table>
