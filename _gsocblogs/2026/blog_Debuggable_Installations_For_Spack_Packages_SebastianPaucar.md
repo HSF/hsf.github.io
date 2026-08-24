@@ -33,7 +33,7 @@ The work spans three repositories (`spack/spack`, `spack/spack-packages`, `spack
 ## Community Discussion Highlights
 
 * [PR 52768](https://github.com/spack/spack/pull/52768) (`spack/spack`): DWARF-referenced source hook and symbol splitting plus GDB init for debuggable installations.
-* [PR 19](https://github.com/spack/compiler-wrapper/pull/19) (`spack/compiler-wrapper`): `-ffile-prefix-map=<staging>=.` and `--build-id` injection in compiler-wrapper.
+* [PR 19](https://github.com/spack/compiler-wrapper/pull/19) (`spack/compiler-wrapper`): `-ffile-prefix-map` and `--build-id` injection in compiler-wrapper.
 * [PR 5353](https://github.com/spack/spack-packages/pull/5353) (`spack/spack-packages`): set `SPACK_DEBUG_PREFIX_MAP` for `-ffile-prefix-map=<stage>=.` injection at compiler-wrapper level.
 * [Issue 52580](https://github.com/spack/spack/issues/52580) (`spack/spack`): `.spack/` vs relative paths vs compiler-wrapper remaps.
 * [Framework demo](https://github.com/SebastianPaucar/Spack-Debuggable-Installations/tree/main) (`SebastianPaucar/Spack-Debuggable-Installations`): Containerized demo to test Spack's new `--debug-source` and `--debug-symbols` install flags against a real package crash scenario.
