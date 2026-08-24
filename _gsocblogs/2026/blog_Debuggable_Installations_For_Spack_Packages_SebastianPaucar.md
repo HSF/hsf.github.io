@@ -69,7 +69,7 @@ Both paths converge to generate a ready-to-use GDB command file with `substitute
 
 The capture pipeline being correct on one machine only helps that machine. The second half of the project makes the cache portable: `spack buildcache push --debug-source --debug-symbols` packages the split symbols and captured DWARF-referenced source into an OCI manifest per build ID (since a debuginfod-style consumer uses the build ID as a lookup key), pushes it as `debuginfo-<build-id>` alongside the regular package tag, and a matching `spack debug fetch` on any other machine pulls it back down into the local debug cache layout, regenerating a correct `gdbinit` in place.
 
-This is also integrated into Spack's existing autopush mechanism, which already auto-pushes every from-source install to whichever OCI mirrors are marked `autopush: true` in `mirrors.yaml`, using the same credentials and mirror configuration as the regular package push. ([spack.readthedocs.io][1])
+This is also integrated into Spack's existing autopush mechanism, which already auto-pushes every from-source install to whichever OCI mirrors are marked `autopush: true` in `mirrors.yaml`, using the same credentials and mirror configuration as the regular package push.
 
 ---
 
