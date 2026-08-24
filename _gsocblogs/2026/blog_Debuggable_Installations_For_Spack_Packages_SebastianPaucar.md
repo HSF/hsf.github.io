@@ -28,7 +28,7 @@ This project builds a complete pipeline that makes any Spack-installed binary de
  
 The work spans three repositories (`spack/spack`, `spack/spack-packages`, `spack/compiler-wrapper`) plus integration into EIC's own `eic/containers` build pipeline, where it now underlies a dedicated `dbg` container environment.
 
---
+---
 
 ## Community Discussion Highlights
 
@@ -38,7 +38,7 @@ The work spans three repositories (`spack/spack`, `spack/spack-packages`, `spack
 * [Issue 52580](https://github.com/spack/spack/issues/52580) (`spack/spack`): `.spack/` vs relative paths vs compiler-wrapper remaps.
 * [Framework demo](https://github.com/SebastianPaucar/Spack-Debuggable-Installations/tree/main) (`SebastianPaucar/Spack-Debuggable-Installations`): Containerized demo to test Spack's new `--debug-source` and `--debug-symbols` install flags against a real package crash scenario.
 
---
+---
 
 ## Implementation Highlights
 
@@ -46,6 +46,30 @@ The work spans three repositories (`spack/spack`, `spack/spack-packages`, `spack
 * `spack/compiler-wrapper`: [`feature/debug-prefix-map`](https://github.com/SebastianPaucar/compiler-wrapper/tree/feature/debug-prefix-map) branch (**NEW**: `--build-id` and `-ffile-prefix-map` injection for carrying ELF build-ID notes and normalized DWARF-recorded paths in a reproducible way).
 * `spack/spack-packages`: [`feature/compiler-wrapper-build-id-v2026.06.0`](https://github.com/SebastianPaucar/spack-packages/tree/feature/compiler-wrapper-build-id-v2026.06.0) branch (**NEW**: wires in the new `feature/debug-prefix-map` compiler-wrapper version).
 * `eic/containers`: [`feature/debuggable-installations-spack-v1.2.2`](https://github.com/eic/containers/tree/feature/debuggable-installations-spack-v1.2.2) branch (**NEW**: Implementation of the debuggable installation framework for the EIC container image build).
+
+---
+
+## Design
+
+### Debug-inspired compiler flag injection
+
+The `spack/compiler-wrapper` repository contains the shell script `cc.sh` that sits between every Spack package's build system and the actual compiler, intercepting compiler invocations to reorder and inject flags. This wrapper was extended to inject two things at link time: `--build-id`/`-Wl,--build-id`, which makes every produced binary carry a standard ELF build-ID note, and a second `-ffile-prefix-map` remap (`<build-dir>=./build`, alongside the existing `<source-dir>=.` remap) so DWARF-recorded paths are normalized and portable across machines rather than embedding one machine's absolute build path. This is the foundation for making the installations debuggable and the recorded DWARF paths reproducible. Spack previously did not include these flags, which made debug information for debug-mode-installed packages not identifiable by build ID and dependent on ephemeral, host-machine-specific absolute paths used at compilation time that no longer exist once the installation is complete.
+
+### Two capture paths, one cache format
+
+For actual debugging sessions, GDB needs to find DWARF-referenced sources and debug symbols. These debug artifacts now live in an out-of-prefix cache, `$debug_source_root/<pkg>-<version>-<dag_hash>/` (with `$debug_source_root` configured in Spack, defaulting to `~/.spack/debug-sources` if not configured), deliberately outside the install prefix so it never affects the package installation prefix and never ships inside a regular buildcache tarball, as requested by the community. Two independent Spack subcommands write to this cache:
+
+**Install-time (`spack install --debug-source --debug-symbols`)**: While the package's build directory is still alive, `--debug-source` parses the DWARF `DW_AT_comp_dir`/`DW_AT_name` pairs out of every compiled ELF binary via `readelf` and copies exactly the source files GDB will ask for, including generated sources, headers, and files from an out-of-source build directory that were never in the pristine source tarball. `--debug-symbols` then runs `objcopy --only-keep-debug`/`--strip-debug` on every ELF binary, shrinking the installed package while keeping full debug info retrievable.
+
+**On-demand (`spack debug stage-source` / `spack debug split-symbols`)**: This is the fallback for anything already installed without the `--debug-*` flags. `stage-source` re-fetches the pristine upstream tarball and stages it. `split-symbols` needs no original build context at all; it operates purely on the installed binary, so it works identically whether the package was built locally or fetched from a buildcache mirror.
+
+Both paths converge to generate a ready-to-use GDB command file with `substitute-path` and `debug-file-directory` rules pointing at the cache. This is merge-aware, so running `split-symbols` after `stage-source` (or vice versa) never clobbers the other's file contribution.
+
+### Debug artifact buildcache redistribution
+
+The capture pipeline being correct on one machine only helps that machine. The second half of the project makes the cache portable: `spack buildcache push --debug-source --debug-symbols` packages the split symbols and captured DWARF-referenced source into an OCI manifest per build ID (since a debuginfod-style consumer uses the build ID as a lookup key), pushes it as `debuginfo-<build-id>` alongside the regular package tag, and a matching `spack debug fetch` on any other machine pulls it back down into the local debug cache layout, regenerating a correct `gdbinit` in place.
+
+This is also integrated into Spack's existing autopush mechanism, which already auto-pushes every from-source install to whichever OCI mirrors are marked `autopush: true` in `mirrors.yaml`, using the same credentials and mirror configuration as the regular package push. ([spack.readthedocs.io][1])
 
 ---
 
