@@ -64,7 +64,7 @@ For actual debugging sessions, GDB needs to find DWARF-referenced sources and de
 
 **On-demand (`spack debug stage-source` / `spack debug split-symbols`)**: This is the fallback for anything already installed without the `--debug-*` flags. `stage-source` re-fetches the pristine upstream tarball and stages it. `split-symbols` needs no original build context at all; it operates purely on the installed binary, so it works identically whether the package was built locally or fetched from a buildcache mirror.
 
-Both paths converge to generate a ready-to-use GDB command file with `substitute-path` and `debug-file-directory` rules pointing at the cache. This is merge-aware, so running `split-symbols` after `stage-source` (or vice versa) never clobbers the other's file contribution.
+Both paths converge to generate a ready-to-use GDB command file (`gdbinit`) with `substitute-path` and `debug-file-directory` rules pointing at the cache. This is merge-aware, so running `split-symbols` after `stage-source` (or vice versa) never clobbers the other's file contribution.
 
 ### Debug artifact buildcache redistribution
 
