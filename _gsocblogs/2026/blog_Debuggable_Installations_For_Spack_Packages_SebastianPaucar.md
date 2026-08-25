@@ -37,6 +37,7 @@ The work spans three repositories (`spack/spack`, `spack/spack-packages`, `spack
 * [PR 5353](https://github.com/spack/spack-packages/pull/5353) (`spack/spack-packages`): set `SPACK_DEBUG_PREFIX_MAP` for `-ffile-prefix-map=<stage>=.` injection at compiler-wrapper level.
 * [Issue 52580](https://github.com/spack/spack/issues/52580) (`spack/spack`): `.spack/` vs relative paths vs compiler-wrapper remaps.
 * [Framework demo](https://github.com/SebastianPaucar/Spack-Debuggable-Installations/tree/main) (`SebastianPaucar/Spack-Debuggable-Installations`): Containerized demo to test Spack's new `--debug-source` and `--debug-symbols` install flags against a real package crash scenario.
+* [Full GSoC project presentation](https://drive.google.com/file/d/1MtUounbk6Lr6g-pj6lehSRe5fCoRCwUT/view): Framework development overview, covering feedback, architecture, implementation, and proof-of-concepts.
 
 ---
 
@@ -70,6 +71,19 @@ Both paths converge to generate a ready-to-use GDB command file with `substitute
 The capture pipeline being correct on one machine only helps that machine. The second half of the project makes the cache portable: `spack buildcache push --debug-source --debug-symbols` packages the split symbols and captured DWARF-referenced source into an OCI manifest per build ID (since a debuginfod-style consumer uses the build ID as a lookup key), pushes it as `debuginfo-<build-id>` alongside the regular package tag, and a matching `spack debug fetch` on any other machine pulls it back down into the local debug cache layout, regenerating a correct `gdbinit` in place.
 
 This is also integrated into Spack's existing autopush mechanism, which already auto-pushes every from-source install to whichever OCI mirrors are marked `autopush: true` in `mirrors.yaml`, using the same credentials and mirror configuration as the regular package push.
+
+---
+
+### Landing it in EIC's containers
+
+`eic/containers` builds the family of EIC container images (`xl`, `ci`, `prod`, `cvmfs`, `dbg`, and others) from a single multi-stage Dockerfile, orchestrated by `scripts/build-eic.sh` and driven by per-environment Spack manifests under `spack-environment/`.
+
+
+The Dockerfile's `builder_installation_default`/`builder_installation_custom` stages are the only ones that compile from source; `runtime_installation_default`/`runtime_installation_custom` install exclusively `--use-buildcache only` and never touch a compiler. Since `--debug-sources` only have anything to capture during an actual compile, the flags only make sense in the builder stages, and only for one environment: `dbg`, a container purpose-built for debugging whose HEP packages are already declared with `build_type=Debug`. `dbg`'s environment manifest (`spack-environment/dbg/spack.yaml` and its `epic/spack.yaml`) also pins the compiler-wrapper prototype that emits build-ID notes and the `-ffile-prefix-map` remap the whole debuggable mechanism depends on.
+
+The actual EIC Spack artifact publishing happens through a Spack-side mechanism, `hooks/autopush.py`, a post-install hook that fires after every from-source install and pushes to whichever mirrors `mirrors.yaml` marks with `autopush: true` (`eicweb` and `ghcr`), both of which are already configured in the repository's `mirrors.yaml`, with credentials wired through the Dockerfile's existing `--mount=type=secret` blocks.
+
+The end state, accessible from any machine with `eicweb`/`ghcr` access: each compiled `dbg` binary gets an OCI `debuginfo-<build-id>` tag containing two layers: the split `.debug` symbols and a tarball of the DWARF-referenced source tree. `spack debug fetch` retrieves these artifacts, reconstructs the local cache, and regenerates a working `gdbinit`, whether the artifacts were captured locally or fetched from the registry. Thus, a crash in a `dbg`-built EIC binary can be fully debugged (with source and symbols) on a machine that never built it.
 
 ---
 
