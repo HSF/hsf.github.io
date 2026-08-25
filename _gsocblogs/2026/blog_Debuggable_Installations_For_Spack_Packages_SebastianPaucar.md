@@ -32,7 +32,7 @@ The work spans three repositories (`spack/spack`, `spack/spack-packages`, `spack
 
 ## Community Discussion Highlights
 
-* [PR 52949](`https://github.com/spack/spack/pull/52949`): Post-install source-staging and symbol-splitting hook, merge-aware gdbinit generation, and autopush of debug artifacts to an OCI buildcache (`releases/v1.2`).
+* [PR 52949](https://github.com/spack/spack/pull/52949): Post-install source-staging and symbol-splitting hook, merge-aware gdbinit generation, and autopush of debug artifacts to an OCI buildcache (`releases/v1.2`).
 * [PR 52768](https://github.com/spack/spack/pull/52768) (`spack/spack`): DWARF-referenced source hook and symbol splitting plus GDB init for debuggable installations.
 * [PR 19](https://github.com/spack/compiler-wrapper/pull/19) (`spack/compiler-wrapper`): `-ffile-prefix-map` and `--build-id` injection in compiler-wrapper.
 * [PR 5353](https://github.com/spack/spack-packages/pull/5353) (`spack/spack-packages`): set `SPACK_DEBUG_PREFIX_MAP` for `-ffile-prefix-map=<stage>=.` injection at compiler-wrapper level.
