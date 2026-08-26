@@ -24,7 +24,7 @@ The combinatorial explosion of build configurations in HPC package managers like
 
 This project focuses on automating the discovery of these hidden bugs by building a generative-AI testing pipeline packaged as a Spack extension (``spack ai-test``).
 
-## The Project: What I Did
+## The Project
 ``spack ai-test`` focuses on autonomous, off-leading-edge testing. It uses an LLM to generate high-risk configurations, guided by a persistent knowledge base and multi-level context to prevent hallucinations.
 
 The work involved building several interconnected core components:
@@ -39,7 +39,7 @@ In addition to the core components, the extension also includes:
 * **Automated Regression Bisection:** A ``--bisect`` flag that uses exponential galloping and binary search to pinpoint exactly which release introduced a build failure.
 * **Decoupled HPC Workflows:** Supports offline compute nodes by generating specs on login nodes (``--plan-only``) and executing them offline in batch jobs like Slurm (``--execute-queued``).
 
-## Implementation Highlights (Pull Requests)
+## Implementation Highlights
 * **AI-Test Extension:** [VaishnaviOnPC/spack-ai-test](https://github.com/VaishnaviOnPC/spack-ai-test)
 * **Documentation:** [spack-ai-test Documentation](https://VaishnaviOnPC.github.io/spack-ai-test/)
 
