@@ -24,7 +24,7 @@ The combinatorial explosion of build configurations in HPC package managers like
 
 This project focuses on automating the discovery of these hidden bugs by building a generative-AI testing pipeline packaged as a Spack extension (``spack ai-test``).
 
-## The Project: What I Did
+## The Project
 ``spack ai-test`` focuses on autonomous, off-leading-edge testing. It uses an LLM to generate high-risk configurations, guided by a persistent knowledge base and multi-level context to prevent hallucinations.
 
 The work involved building several interconnected core components:
