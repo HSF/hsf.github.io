@@ -20,7 +20,7 @@ intro: |
 | Project | [Generative-AI Assisted Testing of Complex Spack Packages](https://hepsoftwarefoundation.org/gsoc/2026/proposal_Spack_AIAssistedTesting.html) |
 
 ## Introduction
-The combinatorial explosion of build configurations in HPC package managers like Spack means that exhaustive testing is impossible. Package maintainers typically rely on CI pipelines that only test the default variants and the newest compilers. If a user on an HPC cluster tries to build an older version of a package with a non-default variant on a legacy compiler, they often hit undeclared incompatibilities. 
+The combinatorial explosion of build configurations in HPC package managers like Spack means that exhaustive testing is impossible. Package maintainers typically rely on CI pipelines that only test the default variants and the newest compilers. If a user on an HPC cluster tries to build an older version of a package with a non-default variant on a legacy compiler, they often hit undeclared incompatibilities.
 
 This project focuses on automating the discovery of these hidden bugs by building a generative-AI testing pipeline packaged as a Spack extension (``spack ai-test``).
 
