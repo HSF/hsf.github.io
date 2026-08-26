@@ -4,7 +4,7 @@ title: "Generative-AI Assisted Testing of Complex Spack Packages"
 author: Vaishnavi Mishra
 photo: blog_authors/VaishnaviMishra.jpg
 avatar: https://avatars.githubusercontent.com/VaishnaviOnPC
-date: 25.08.2026
+date: 2026-08-25
 year: 2026
 layout: blog_post
 logo: hsf_logo_angled.png
@@ -24,11 +24,11 @@ The combinatorial explosion of build configurations in HPC package managers like
 
 This project focuses on automating the discovery of these hidden bugs by building a generative-AI testing pipeline packaged as a Spack extension (``spack ai-test``).
 
-## The Project
+## The Project: What I Did
 ``spack ai-test`` focuses on autonomous, off-leading-edge testing. It uses an LLM to generate high-risk configurations, guided by a persistent knowledge base and multi-level context to prevent hallucinations.
 
 The work involved building several interconnected core components:
-1. **Schema Extraction:** The extension starts off with parsing Spack ``package.py`` recipes into canonical JSON schemas for valid boundaries, variants, and dependencies of the package.
+1. **Schema Extraction:** The extension parses Spack ``package.py`` recipes into canonical JSON schemas that define valid boundaries, variants, and dependencies.
 2. **Multi-Level Context Assembly:** The extension uses a retrieval-augmented, data-driven context window to guide the LLM (supporting Gemini, Claude, OpenAI) that acts as the generator:
     * Structural Risk Metrics: Analyzes risks like unbounded version ranges, cross-major-version spans, etc.
     * Version Gap Analysis: Identifies version gaps between the upstream releases and the versions in the Spack recipe.
@@ -39,9 +39,9 @@ In addition to the core components, the extension also includes:
 * **Automated Regression Bisection:** A ``--bisect`` flag that uses exponential galloping and binary search to pinpoint exactly which release introduced a build failure.
 * **Decoupled HPC Workflows:** Supports offline compute nodes by generating specs on login nodes (``--plan-only``) and executing them offline in batch jobs like Slurm (``--execute-queued``).
 
-## Implementation Highlights
-* **AI-Test Extension:** [VaishnaviOnPC/spack-ai-test](https://github.com/VaishnaviOnPC/spack-ai-test)
-* **Documentation:** [spack-ai-test Documentation](https://VaishnaviOnPC.github.io/spack-ai-test/)
+## Implementation Highlights (Code & Documentation)
+* **AI-Test Extension Repository:** [VaishnaviOnPC/spack-ai-test](https://github.com/VaishnaviOnPC/spack-ai-test)
+* **Official Documentation:** [spack-ai-test Documentation](https://VaishnaviOnPC.github.io/spack-ai-test/)
 
 ## Current State & What's Left to Do
 The extension is fully functional and successfully integrates into existing Spack installations. The core MAPE-K loop, LLM integration, and bisection logic are operational.
@@ -56,9 +56,9 @@ Planned future work:
 
 ## References
 The design of the MAPE-K loop and generative testing pipeline was inspired by recent research in autonomous software engineering:
-* [arXiv:2605.07062](https://arxiv.org/abs/2605.07062)
-* [arXiv:2511.05626](https://arxiv.org/abs/2511.05626)
-* [arXiv:2506.03691](https://arxiv.org/abs/2506.03691)
+* [From Assistance to Agency: Rethinking Autonomy and Control in CI/CD Pipelines](https://arxiv.org/abs/2605.07062)
+* [LLMs as Packagers of HPC Software](https://arxiv.org/abs/2511.05626)
+* [LogSage: An LLM-Based Framework for CI/CD Failure Detection and Remediation with Industrial Validation](https://arxiv.org/abs/2506.03691)
 
 ---
 
