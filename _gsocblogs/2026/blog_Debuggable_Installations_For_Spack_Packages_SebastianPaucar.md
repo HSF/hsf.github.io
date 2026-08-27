@@ -12,10 +12,10 @@ intro: |
 ---
 
 <table>
-<tr><td><strong>Name<strong></td><td>Sebastian Paucar</td></tr>
-<tr><td><strong>Organisation<strong></td><td><a href="https://www.umanitoba.ca/">University of Manitoba</a>, <a href="https://home.cern/">CERN</a>, <a href="https://hepsoftwarefoundation.org/">HSF</a></td></tr>
-<tr><td><strong>Mentor<strong></td><td>Wouter Deconinck</td></tr>
-<tr><td><strong>Project<strong></td><td>Debuggable Installations For Spack Packages</td></tr>
+<tr><td><strong>Name</strong></td><td>Sebastian Paucar</td></tr>
+<tr><td><strong>Organisation</strong></td><td><a href="https://www.umanitoba.ca/">University of Manitoba</a>, <a href="https://home.cern/">CERN</a>, <a href="https://hepsoftwarefoundation.org/">HSF</a></td></tr>
+<tr><td><strong>Mentor</strong></td><td>Wouter Deconinck</td></tr>
+<tr><td><strong>Project</strong></td><td>Debuggable Installations For Spack Packages</td></tr>
 </table>
 
 ---
