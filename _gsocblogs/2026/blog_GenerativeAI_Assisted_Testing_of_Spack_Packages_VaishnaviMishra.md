@@ -2,7 +2,7 @@
 project: HSF
 title: "Generative-AI Assisted Testing of Complex Spack Packages"
 author: Vaishnavi Mishra
-photo: blog_authors/VaishnaviMishra.jpg
+photo: blog_authors/VaishnaviMishra.jpeg
 avatar: https://avatars.githubusercontent.com/VaishnaviOnPC
 date: 2026-08-25
 year: 2026
