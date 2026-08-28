@@ -3,7 +3,7 @@ project: ATLAS
 title: AI-Accelerated Signal Reconstruction for the ATLAS Tile Calorimeter at the HL-LHC
 author: XBastille
 avatar: https://avatars.githubusercontent.com/u/148121344?s=400&v=4
-date: 05.09.2026
+date: 28.08.2026
 year: 2026
 layout: blog_post
 logo: ATLAS-logo.png
