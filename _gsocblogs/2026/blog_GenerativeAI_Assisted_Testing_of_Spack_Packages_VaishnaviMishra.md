@@ -40,8 +40,8 @@ In addition to the core components, the extension also includes:
 * **Decoupled HPC Workflows:** Supports offline compute nodes by generating specs on login nodes (``--plan-only``) and executing them offline in batch jobs like Slurm (``--execute-queued``).
 
 ## Implementation Highlights (Code & Documentation)
-* **AI-Test Extension Repository:** [VaishnaviOnPC/spack-ai-test](https://github.com/VaishnaviOnPC/spack-ai-test)
-* **Official Documentation:** [spack-ai-test Documentation](https://VaishnaviOnPC.github.io/spack-ai-test/)
+* **AI-Test Extension Repository:** [VaishnaviOnPC/spack-ai-test](https://github.com/spack-ai/spack-ai-test)
+* **Official Documentation:** [spack-ai-test Documentation](https://spack-ai.github.io/spack-ai-test/)
 
 ## Current State & What's Left to Do
 The extension is fully functional and successfully integrates into existing Spack installations. The core MAPE-K loop, LLM integration, and bisection logic are operational.
