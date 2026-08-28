@@ -14,7 +14,7 @@ intro: |
 |  |  |
 | --- | --- |
 | Name | [Bibhor Puhan (XBastille)](https://github.com/XBastille) |
-| Organisation | [CERN](https://home.cern/), [ATLAS](https://atlas.cern/), [IFIC](https://webific.ific.uv.es/web/en) (CSIC / Universitat de València) |
+| Organisation | [CERN](https://home.cern/), [ATLAS TileCal](https://atlas-tile.web.cern.ch/), [IFIC](https://tilecal.ific.uv.es/tilecalweb/) (CSIC / Universitat de València) |
 | Mentors | [Luca Fiorini (IFIC)](https://gitlab.cern.ch/lfiorini), [Fernando Carrió (IFIC / CERN)](https://gitlab.cern.ch/fcarrio) |
 | Project | [AI-Accelerated Signal Reconstruction for the ATLAS Tile Calorimeter at the HL-LHC](https://summerofcode.withgoogle.com/programs/2026/projects/yvrxn4JI) |
 
