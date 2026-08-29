@@ -20,15 +20,18 @@ intro: |
 
 ## The short version
 
-The original question that started the project, was, whether a neural network could replace
-Optimal Filtering for TileCal energy reconstruction at the HL-LHC pile-up, and whether such
-network could be made small enough to fit inside the detector’s firmware.
+Hello!! 👋 I am Bibhor Puhan a.k.a XBastille. The original question that started the project, was, 
+whether a neural network could replace Optimal Filtering for TileCal energy reconstruction at the 
+HL-LHC pile-up, and whether such network could be made small enough to fit inside the detector’s 
+firmware.
 
 It turns out that it can, and we did a lot more than the project required. There is now a 91
 parameter quantised 1D-CNN placed and routed on the real target FPGA, spanning all 77 channels,
 meeting all the timing constraints, and a bit-exact integer emulator of that firmware merged
 into ATLAS Athena. Read [what got merged](#what-got-merged-what-did-not-and-what-is-left) at
-the bottom.
+the bottom. All the code is public. The pipeline is in 
+[tilecal-nn-signal-reconstruction](https://github.com/XBastille/tilecal-nn-signal-reconstruction).
+and the algorithm that came out of it now lives in ATLAS Athena.
 
 ## The problem
 
