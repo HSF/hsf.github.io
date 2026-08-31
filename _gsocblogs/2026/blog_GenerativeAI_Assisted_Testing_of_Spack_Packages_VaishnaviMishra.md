@@ -2,7 +2,7 @@
 project: HSF
 title: "Generative-AI Assisted Testing of Complex Spack Packages"
 author: Vaishnavi Mishra
-photo: blog_authors/VaishnaviMishra.jpg
+photo: blog_authors/VaishnaviMishra.jpeg
 avatar: https://avatars.githubusercontent.com/VaishnaviOnPC
 date: 2026-08-25
 year: 2026
@@ -40,8 +40,14 @@ In addition to the core components, the extension also includes:
 * **Decoupled HPC Workflows:** Supports offline compute nodes by generating specs on login nodes (``--plan-only``) and executing them offline in batch jobs like Slurm (``--execute-queued``).
 
 ## Implementation Highlights (Code & Documentation)
-* **AI-Test Extension Repository:** [VaishnaviOnPC/spack-ai-test](https://github.com/VaishnaviOnPC/spack-ai-test)
-* **Official Documentation:** [spack-ai-test Documentation](https://VaishnaviOnPC.github.io/spack-ai-test/)
+* **AI-Test Extension Repository:** [spack-ai/spack-ai-test](https://github.com/spack-ai/spack-ai-test)
+* **Official Documentation:** [spack-ai-test Documentation](https://spack-ai.github.io/spack-ai-test/)
+
+## Validation on the Grex Cluster
+To validate the extension, we deployed it on the CCDB/Grex HPC cluster to evaluate 13 E4S packages. The bisector significantly reduces the time required to find the boundary of a failure. For example, it isolated a bug fix in `netcdf-c` (broken in 4.9.0, fixed in 4.9.2) in just 5 builds (compared to a naive 11-build sequential search).
+
+![Bisection Efficiency](https://gist.githubusercontent.com/VaishnaviOnPC/b7bc39f47fa2f262344a46844900088a/raw/bisection_efficiency.png)
+*Figure: Bisection efficiency across 205 runs, providing an average 4 times reduction in required builds compared to a naive linear search.*
 
 ## Current State & What's Left to Do
 The extension is fully functional and successfully integrates into existing Spack installations. The core MAPE-K loop, LLM integration, and bisection logic are operational.
