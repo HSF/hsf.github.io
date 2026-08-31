@@ -1,6 +1,6 @@
 ---
 # Required:
-title: "Your Name"     # Quinn Campagna
+title: Quinn Campagna
 country:               # US
 
 # Optional (please add github or gravatar for your picture)
