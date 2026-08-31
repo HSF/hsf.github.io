@@ -46,7 +46,7 @@ In addition to the core components, the extension also includes:
 ## Validation on the Grex Cluster
 To validate the extension, we deployed it on the CCDB/Grex HPC cluster to evaluate 13 E4S packages. The bisector significantly reduces the time required to find the boundary of a failure. For example, it isolated a patch-level regression in `netcdf-c` (broken in 4.9.0, fixed in 4.9.2) in just 5 builds (compared to a naive 11-build sequential search).
 
-![Bisection Efficiency](https://github.com/user-attachments/assets/95de514b-f83e-462b-a8d8-5e0094a32096)
+![Bisection Efficiency](https://gist.githubusercontent.com/VaishnaviOnPC/b7bc39f47fa2f262344a46844900088a/raw/bisection_efficiency.png)
 *Figure: Bisection efficiency across 205 runs, providing an average 4 times reduction in required builds compared to a naive linear search.*
 
 ## Current State & What's Left to Do
