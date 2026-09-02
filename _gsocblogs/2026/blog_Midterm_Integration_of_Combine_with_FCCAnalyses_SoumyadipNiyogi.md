@@ -1,3 +1,16 @@
+ ---
+ project: HSF
+ title: "Midterm: Integration of CMS Combine with FCCAnalyses"
+ author: Soumyadip Niyogi
+ avatar: https://avatars.githubusercontent.com/captainvogon
+ date: 17.07.2026
+ year: 2026
+ layout: blog_post
+ logo: hsf_logo_angled.png
+ intro: |
+   Midterm progress update on integrating CMS Combine with FCCAnalyses, including automated datacard generation and early validation.
+ ---
+
 |  |  |
 | --- | --- |
 | Name | [Soumyadip Niyogi](https://github.com/captainvogon) |
