@@ -18,21 +18,14 @@ All coordinators can be reached at <hsf-pyhep-organisation@googlegroups.com>.
 
 # Getting Involved
 
-Everyone is welcome to join the community and participate, contribute, to the organised meetings
-and by means of the following communication channels:
+Everyone is welcome to join the community and participate, contribute, to the organised meetings.
 
-- [Gitter channel PyHEP](https://gitter.im/HSF/PyHEP){:target="_pyhep_gitter_channel} for any informal exchanges.
-- [GitHub repository of resources](https://github.com/hsf-training/PyHEP-resources){:target="_pyhep_resources_repo"},
-  e.g., Python libraries of interest to Particle Physics.
-- PyHEP Workshop Twitter handle: [@PyHEPConf](https://twitter.com/PyHEPConf)
+The conveners are reachable via the mailing list mentioned above for any informal exchanges.
 
-Extra Gitter channels have been created by and for the benefit of the community:
+The [GitHub repository of resources](https://github.com/hsf-training/PyHEP-resources){:target="_pyhep_resources_repo"}, which collects Python libraries of interest to Particle Physics,
+can also serve as a means of communication, by opening an Issue in the repository.
 
-- [PyHEP-newcomers](https://gitter.im/HSF/PyHEP-newcomers){:target="_pyhep_newcomers_gitter_channel} for newcomers support (very low entry threshold).
-- [PyHEP-fitting](https://gitter.im/HSF/PyHEP-fitting){:target="_pyhep_fitting_gitter_channel} for
-discussions around fitting.
-- [PyHEP-histogramming](https://gitter.im/HSF/PyHEP-histogramming){:target="_pyhep_histogramming_gitter_channel} for discussions around histogramming.
-- [mpl-hep](https://gitter.im/HSF/mpl-hep){:target="_mpl_hep_gitter_channel} for Matplotlib proposals related to Particle Physics.
+PyHEP Workshop Twitters are handled via [@PyHEPConf](https://twitter.com/PyHEPConf).
 
 # Group Activities
 
