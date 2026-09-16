@@ -286,7 +286,7 @@ To secure the pipeline against that risk, [PR #573](https://github.com/NNPDF/eko
 ### Final Architecture
 
 <div align="center">
-<img alt="Final Architecture" src="https://github.com/user-attachments/assets/ee254f23-484d-402b-a20d-ce79a840032f" width="900"/>
+<img alt="Final Architecture" src="https://github.com/user-attachments/assets/54fa33cf-e766-41b5-80b1-d7d5cb028b95" width="900"/>
 </div>
 
 ### What I'd tell next year's contributor
