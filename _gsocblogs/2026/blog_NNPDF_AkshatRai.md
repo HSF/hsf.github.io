@@ -134,13 +134,13 @@ While `ekore_capi` supports C, C++, and Fortran, Python users seeking only the s
 
 Most of the crate's logic resides in `macros.rs`, which uses a single macro to generate the `#[pyfunction]` boilerplate for the various anomalous dimension and OME wrappers.
 
-### The libome dead end
+### The libome exploration
 
 The project's task list required preparation for a third-party C++ contribution. To test this before any real external attempt, [PR #562](https://github.com/NNPDF/eko/pull/562) evaluated whether `ekore` could successfully call out to an external C++ library. I wrote a mock C++ library (`extras/gsoc/libome`) to stand in for the real `libome`, compiled it via a Rust `build.rs` script using the `cc` crate, and consumed it from a new `as3.rs` file.
 
 This demonstrated calling an external C++ library from `ekore` does not incur meaningful performance costs. It also demonstrated two legitimate ways to wire the connection. The first method is to vendor the real library as a submodule, build it with the `cmake` crate, and explicitly link its dependencies like GSL. The second method is to link directly against a pre-built `.so` file. In this latter case, Rust does not even need the C++ headers because `rustc` reads the function signatures directly from its own `unsafe extern "C"` declarations and `#[repr(C)]` structs.
 
-However, there's an issue. Currently the real [libome](https://gitlab.com/libome/libome) operates in x-space, while the `ekore` OME machinery operates in Mellin N-space. Calling the real library would require a dedicated transform layer that was out of scope for the summer. Rather than merging a mock that solved the wrong problem, [PR #562](https://github.com/NNPDF/eko/pull/562) was closed and unmerged. We intentionally preserved the branch as a starting point for future developers. Finally, [PR #567](https://github.com/NNPDF/eko/pull/567) officially documented this mismatch in `architecture.md` so the constraint is recorded rather than rediscovered.
+However, integrating the real library is currently on pause. The real [libome](https://gitlab.com/libome/libome) operates in x-space, while the `ekore` OME machinery operates in Mellin N-space. Bridging this gap requires a dedicated transform layer and help from a third party, which currently has an indefinite timescale. The mock integration code itself is fine as is, but rather than merging it while we wait, [PR #562](https://github.com/NNPDF/eko/pull/562) was closed. We intentionally preserved the branch as a fully functional starting point for future developers once the third-party work is ready. Finally, [PR #567](https://github.com/NNPDF/eko/pull/567) officially documented this mismatch in `architecture.md` so the constraint is recorded rather than rediscovered.
 
 ### Fixing the release pipeline
 
