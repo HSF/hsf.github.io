@@ -158,7 +158,7 @@ To secure the pipeline against that risk, [PR #573](https://github.com/NNPDF/eko
   <thead>
     <tr>
       <th style="border: 1px solid #ccc; padding: 8px;">Contribution</th>
-      <th style="border: 1px solid #ccc; padding: 8px;">PR/Issue</th>
+      <th style="border: 1px solid #ccc; padding: 8px 50px 8px 8px;">PR</th>
       <th style="border: 1px solid #ccc; padding: 8px;">Status</th>
     </tr>
   </thead>
