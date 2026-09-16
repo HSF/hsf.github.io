@@ -286,12 +286,12 @@ To secure the pipeline against that risk, [PR #573](https://github.com/NNPDF/eko
 ### Final Architecture
 
 <div align="center">
-<img alt="Final Arghitecture" src="https://github.com/user-attachments/assets/ee254f23-484d-402b-a20d-ce79a840032f" width="900"/>
+<img alt="Final Architecture" src="https://github.com/user-attachments/assets/ee254f23-484d-402b-a20d-ce79a840032f" width="900"/>
 </div>
 
 ### What I'd tell next year's contributor
 
-**Benchmark architectural intuition.** Inverting the `Numba`/`Rust` call chain seemed simpler but performed three times worse across all metrics. Catching this early with a `poe lha` benchmark prevented a permanent regression.
+**Benchmark architectural intuition.** Inverting the `Numba`/`Rust` call chain seemed simpler but performed worse across all metrics: about 1.8&times; slower wall-clock time and over 3&times; worse peak memory and per-call cost. Catching this early with a `poe lha` benchmark prevented a permanent regression.
 
 **Numba's caching model struggles with raw pointers.** Both major bugs I encountered (the `select_singlet_element` typing error and the `ctypes` memory blowup) stemmed from unintuitive cache invalidation. When integrating FFI into a Numba codebase, test caching behavior in isolation first.
 
