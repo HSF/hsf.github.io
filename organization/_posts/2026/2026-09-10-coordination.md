@@ -97,12 +97,7 @@ Read below and shout quickly as otherwise agreement will be concluded!
 
 > We have had the following Gitter channels for some time:
 
-> HSF/PyHEP
-> HSF/PyHEP-histogramming
-> HSF/PyHEP-newcomers
-> HSF/PyHEP-fitting
-> HSF/ADL
-> HSF/mpl-hep
+> HSF/PyHEP, HSF/PyHEP-histogramming, HSF/PyHEP-newcomers, HSF/PyHEP-fitting, HSF/ADL, HSF/mpl-hep
 
 > But these channels have very largely been dormant for quite some time, and several of us feel that these aren't worth keeping anymore; better use the HSF Forum or some of the other lists we have.
 
