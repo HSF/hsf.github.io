@@ -23,7 +23,7 @@ intro: |
 
 EKO (Evolution Kernel Operators) is a Python library that solves the DGLAP equations used to extract Parton Distribution Functions from collider data. It precomputes solution operators independently of the actual PDF, which turns a repeated integro-differential problem into a one-off integration followed by fast linear algebra. That integration is expensive, and getting more expensive as EKO adds higher perturbative orders and QED effects, so the project has been "oxidizing": moving the hot loop from pure Python into Rust, one piece at a time, while `scipy` and `numba` keep the rest running.
 
-Coming in, the Rust port already existed in prototype form. My job was to turn it into a documented architecture, an interface that doesn't leak memory and is quicker than the legacy code, a public C ABI and a PyO3 binding for consumers who aren't `eko` itself, and a release pipeline that gets all of that onto PyPI, GitHub Releases, and crates.io. Along the way I tried to simplify the core call chain, benchmarked the attempt properly, and found it was worse.
+Coming in, the Rust port already existed in prototype form. My job was to turn it into a documented architecture, an interface that doesn't leak memory and is quicker than the legacy code, a public C ABI and a PyO3 binding for consumers who aren't `eko` itself, and a release pipeline that gets all of that onto PyPI, GitHub Releases, and crates.io. Along the way, I also explored simplifying the core call chain, benchmarked the attempt thoroughly, and documented the negative result to establish clear constraints and validate the existing architecture.
 
 ### Mapping the architecture
 
@@ -35,7 +35,7 @@ A companion PR, [#529](https://github.com/NNPDF/eko/pull/529), added `performanc
 
 While the two crates (`ekore` and `eko`) were already publishing successfully, there was a problem with `eko` reaching PyPI ([#517](https://github.com/NNPDF/eko/issues/517)). [PR #522](https://github.com/NNPDF/eko/pull/522) fixed this by updating `maturin.yml` to call `bump-versions.py` and replacing the deprecated Maturin publish action with a modern build-and-upload step. I confirmed the pipeline end-to-end using a throwaway PyPI project (`akshat-eko-rs-test`).
 
-### The experiment that didn't work
+### Negative attempt to improve performance
 
 This is the part of the summer worth being specific about, because it's a negative result with real numbers behind it, not just an abandoned idea.
 
