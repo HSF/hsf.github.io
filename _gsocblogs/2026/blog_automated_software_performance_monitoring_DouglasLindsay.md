@@ -20,7 +20,7 @@ intro: |
 | Organisations | [CERN-HSF](https://hepsoftwarefoundation.org/activities/gsoc.html), [Argonne National Laboratory]({{ "/gsoc/organizations/2026/anl.html" | relative_url }}), [University of Washington]({{ "/gsoc/organizations/2026/uw.html" | relative_url }})  |
 | Mentors      | [Dr. Maciej Szymanski](https://www.anl.gov/profile/maciej-pawel-szymanski), [Dr. Tatiana Ovsiannikova](https://phys.washington.edu/people/tatiana-ovsiannikova)                                      |
 | Project      | [Automated Software Performance Monitoring for the ATLAS Experiment](https://hepsoftwarefoundation.org/gsoc/2026/proposal_ATLAS_SPOT.html)                                                           |
-| Repository | [`atlaspmb/PerformanceMonitoring`](https://gitlab.cern.ch/atlaspmb/PerformanceMonitoring)
+| Repository | [`atlaspmb/PerformanceMonitoring`](https://gitlab.cern.ch/atlaspmb/PerformanceMonitoring) |
 {: .table}
 
 ## Background
@@ -34,8 +34,7 @@ Therefore, it's immensely important to monitor the performance of all of these c
 - A component-level metric suddenly worsens between nightly builds, degrading the performance of all jobs using that component.
 - A job-level metric suddenly improves between nightly builds. Although this may just mean a component was optimised, it may also mean a bug was introduced.
 
-<p align="center"><img style="max-width: 70%; height: auto;" alt="Labelled line chart of a metric." src="https://github.com/user-attachments/assets/4073ff4e-2d14-47d3-91e2-22ecc4721b08
-"/></p>
+<p align="center"><img style="max-width: 70%; height: auto;" alt="Labelled line chart of a metric." src="https://github.com/user-attachments/assets/4073ff4e-2d14-47d3-91e2-22ecc4721b08"/></p>
 <p align="center"><i>Figure 2: The anatomy of an example metric, and a process by which a SPOT member might identify anomalies therein.</i></p>
 
 With dozens of jobs using tens of thousands of components, and dozens of metrics for each, this is just too much data for any human to analyse by hand, so an automated solution was needed. This is where I came in: incorporating an anomaly-detection step into the [existing SPOT performance monitoring pipeline](https://gitlab.cern.ch/atlaspmb/PerformanceMonitoring) which uses statistical and machine-learning techniques to detect, report and diagnose these anomalies, and issue alerts when appropriate.
@@ -45,8 +44,7 @@ Before I started on anomaly detection, I first familiarised myself with the code
 
 The first of these projects was my initial screening task as part of the GSoC selection process, where I used `prmon`, a HSF performance monitoring tool, to record the performance of a simulated process and identify anomalies in various metrics therein, such as PSS (proportional set size), wall time and more. This both introduced me to the metrics that I would be analysing over the subsequent weeks and to a number of statistical and machine-learning techniques (some of which were more effective than others) that would form the foundation for the later algorithms I would design in the GSoC project. For brevity, further detail is omitted here but [a write-up for the screening task](https://github.com/douglaslindsay/ATLAS-SPOT) can be found on my GitHub.
 
-<p align="center"><img style="max-width: 60%; height: auto;" alt="Plots from screening task" src="https://raw.githubusercontent.com/douglaslindsay/ATLAS-SPOT/25a4186c54fe46474d194d3f3734ee92dec7f615/img/streaming.gif
-"/></p>
+<p align="center"><img style="max-width: 60%; height: auto;" alt="Plots from screening task" src="https://raw.githubusercontent.com/douglaslindsay/ATLAS-SPOT/25a4186c54fe46474d194d3f3734ee92dec7f615/img/streaming.gif"/></p>
 <p align="center"><i>Figure 3: Real-time monitoring of <code>prmon</code> output and classification of anomalies.</i></p>
 
 After being accepted to GSoC, I familiarised myself with the SPOT pipeline via a smaller project: adding a step to the pipeline that would export the computed metrics to OpenSearch (a search and analytics suite used to explore large volumes of data in real time), as part of a broader migration within SPOT from locally stored SQLite databases to cloud-based records with a view to eventually replacing the Performance Monitoring Board with Grafana dashboards. This was a fairly simple project, but it was still useful for setting up my local environment, learning the database structure, and understanding the distinction between job-level, stage-level, domain-level and component-level metrics. This also set some of the groundwork for the main project, since OpenSearch includes some level of anomaly detection and alerting using a Random Cut Forest, an algorithm that I would later explore in considerable detail.
@@ -93,19 +91,15 @@ When backtested on historical data, neither Isolation Forest nor Random Cut Fore
 
 Of the two univariate algorithms (EWMA and Bollinger Bands), since EWMA overweighted more recent results and therefore ran the risk of absorbing small changes without reporting an anomaly, I therefore modified the Bollinger Bands approach to produce two algorithms, one operating on the metrics directly and one operating on their first derivative.
 
-<p align="center"><img style="max-width: 60%; height: auto;" alt="A one-day regression versus a multi-day regression and how waiting can distinguish them." src="https://github.com/user-attachments/assets/52260202-9b17-4d4b-907c-fc819a230aa0
-"/></p>
+<p align="center"><img style="max-width: 60%; height: auto;" alt="A one-day regression versus a multi-day regression and how waiting can distinguish them." src="https://github.com/user-attachments/assets/52260202-9b17-4d4b-907c-fc819a230aa0"/></p>
 <p align="center"><i>Figure 8: A one-day regression versus a multi-day regression. When these regressions occur, they look exactly the same. But one’s anomalous, and one isn’t. How do we tell them apart?</i></p>
 
 These were very effective at detecting deviations from normal performance, but were incapable of distinguishing between normal one-day regressions and anomalous persistent regressions, a problem I resolved by making both detectors wait a few days to confirm that a regression was persistent before reporting it (an anomalous persistent regression looks like a step change in a metric and therefore an impulse in its first derivative, so the two detectors identify the same phenomenon and are more likely to catch a false negative produced by the other). I employed both the direct-metric and first-derivative univariate detectors in the final program.
 
 All three detectors operated independently of each other.
 
-<p align="center"><img style="max-width: 50%; height: auto;" alt="The same data series as earlier, with both univariate detectors successfully flagging the true anomaly but avoiding false positives." src="https://github.com/user-attachments/assets/cb494d68-5405-43de-973f-8950410b1077
-"/></p>
+<p align="center"><img style="max-width: 50%; height: auto;" alt="The same data series as earlier, with both univariate detectors successfully flagging the true anomaly but avoiding false positives." src="https://github.com/user-attachments/assets/cb494d68-5405-43de-973f-8950410b1077"/></p>
 <p align="center"><i>Figure 9: The same data series as shown in earlier figures, with both univariate detectors successfully flagging the true anomaly but avoiding false positives.</i></p>
-
-**Example of a real backtested data series with identified anomalies - could use the same series as from earlier, like I did in the powerpoint?**
 
 In my backtesting, I found that aside from a few days where system configuration changes (e.g. a migration to a new test machine) led to anomalies across a large number of metrics, most metrics were relatively stable with no anomalies at all. I therefore tuned the anomaly detection parameters to be rather strict to prevent an excess of false positives.
 
