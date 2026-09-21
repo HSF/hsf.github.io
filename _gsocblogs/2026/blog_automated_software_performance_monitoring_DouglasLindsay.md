@@ -24,13 +24,13 @@ intro: |
 {: .table}
 
 ## Background
-The ATLAS Experiment at CERN is immense in more ways than one; not only is it the largest particle detector ever constructed, but it also produces an enormous amount of data, exceeding 60 TB/s during active operation. Even after the Trigger filters this down to just a few gigabytes of interesting events, this volume of data was still large enough to warrant the development of the ATLAS Data Processing Chain, a massive software pipeline that turns this raw data into physics-ready datasets. The Data Processing Chain is comprised of a number of steps which are further divided into small units called jobs, each of which is processed by hundreds of computing clusters all around the globe using the [ATHENA software framework](https://gitlab.cern.ch/atlas/athena), a huge codebase containing about 4.5M lines of C++ and 1.5M lines of Python. Since each job uses a subset of ATHENA's 27,000 components (small and reusable software modules performing a specific function), the performance of each component impacts the performance of the ATHENA framework as a whole.
+The ATLAS Experiment at CERN is immense in more ways than one; not only is it the largest particle detector ever constructed, but it also produces an enormous amount of data, exceeding 60 TB/s during active operation<sup>[1]</sup>. Even after the Trigger filters this down to just a few gigabytes per second<sup>[2]</sup> of interesting events, this volume of data was still large enough to warrant the development of the ATLAS Data Processing Chain, a massive software pipeline that turns this raw data into physics-ready datasets. The Data Processing Chain is comprised of a number of steps which are further divided into small units called jobs, each of which is processed by hundreds of computing clusters all around the globe using the [Athena software framework](https://gitlab.cern.ch/atlas/athena), a huge codebase containing about 4M lines of C++ and 1.5M lines of Python<sup>[3]</sup>. Since each job uses a subset of Athena's 27,000 components (small and reusable software modules performing a specific function), the performance of each component impacts the performance of the Athena framework as a whole.
 
-<p align="center"><img style="max-width: 80%; height: auto;" alt="Diagram of ATHENA/Atlas Data Processing Chain structure" src="https://github.com/user-attachments/assets/35f59f0d-6b20-4449-a38f-ce97e2226fdd"/></p>
+<p align="center"><img style="max-width: 80%; height: auto;" alt="Diagram of Athena/Atlas Data Processing Chain structure" src="https://github.com/user-attachments/assets/35f59f0d-6b20-4449-a38f-ce97e2226fdd"/></p>
 <p align="center"><i>Figure 1: Steps in the ATLAS Data Processing Chain</i></p>
 
 ## Motivation
-Therefore, it's immensely important to monitor the performance of all of these components and ensure that they remain performant and resource-efficient. Over the course of Google Summer of Code, I collaborated with the ATLAS Software Performance Optimisation Team (SPOT), which tracks numerous job-level and component-level metrics (e.g. RAM usage, CPU time, etc) between nightly builds of ATHENA using the [ATLAS Performance Monitoring Board](https://atlaspmb.web.cern.ch/atlaspmb) (PMB), and reports anomalies therein. However, the definition of an anomaly is fuzzy at best, and to complicate matters further, many metrics are noisy, have missing data, or exhibit frequent one-nightly-build regressions due to configuration issues, quickly remedied bugs and more. For example:
+Therefore, it's immensely important to monitor the performance of all of these components and ensure that they remain performant and resource-efficient. Over the course of Google Summer of Code, I collaborated with the ATLAS Software Performance Optimisation Team (SPOT), which tracks numerous job-level and component-level metrics (e.g. RAM usage, CPU time, etc) between nightly builds of Athena using the [ATLAS Performance Monitoring Board](https://atlaspmb.web.cern.ch/atlaspmb) (PMB), and reports anomalies therein. However, the definition of an anomaly is fuzzy at best, and to complicate matters further, many metrics are noisy, have missing data, or exhibit frequent one-nightly-build regressions due to configuration issues, quickly remedied bugs and more. For example:
 - A component-level metric suddenly worsens between nightly builds, degrading the performance of all jobs using that component.
 - A job-level metric suddenly improves between nightly builds. Although this may just mean a component was optimised, it may also mean a bug was introduced.
 
@@ -53,22 +53,22 @@ After being accepted to GSoC, I familiarised myself with the SPOT pipeline via a
 
   <div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/7be65a12-31ea-424b-af0a-c8b86bf99d42" alt="description 1" style="max-width: 80%; height: auto;" />
-    <p><i>Figure 4: Job-level metrics</i></p>
+    <p><i>Figure 4: Job-level metrics (illustrative only)</i></p>
   </div>
 
   <div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/c36e61d3-7dfb-4836-a373-98f5ed0caf81" alt="description 2" style="max-width: 80%; height: auto;" />
-    <p><i>Figure 5: Domain-level metrics</i></p>
+    <p><i>Figure 5: Domain-level metrics (illustrative only)</i></p>
   </div>
 
   <div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/ce795540-3365-4827-a9e2-47bf443e8f8a" alt="description 3" style="max-width: 80%; height: auto;" />
-    <p><i>Figure 6: Component-level metrics</i></p>
+    <p><i>Figure 6: Component-level metrics (illustrative only)</i></p>
   </div>
 
   <div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/cf494675-aa43-4c95-b272-224db54b1c51" alt="description 4" style="max-width: 80%; height: auto;" />
-    <p><i>Figure 7: Stage-level metrics</i></p>
+    <p><i>Figure 7: Stage-level metrics (illustrative only)</i></p>
   </div>
 
 </div>
@@ -89,22 +89,41 @@ With the metrics obtained, I moved to developing a number of anomaly-detection a
 
 When backtested on historical data, neither Isolation Forest nor Random Cut Forest proved to be effective for identifying the kind of multi-day step-change anomalies observed in SPOT data, particularly due to their inability to detect a regression to a performance level that was similar to a past performance level. While they were effective at detecting 1-day regressions, they were much less effective at detecting persistent regressions (the kind of anomalies that SPOT is interested in), were much more computationally expensive than Z-space distances, and did not handle data where either the anomalies or the normal data were at the extreme ends of the observed range (extremely common in SPOT data, and a phenomenon I first identified as early as the screening task). Taking all this into account, I opted to use the simple and robust Z-space distances as the only multivariate detector in the final program.
 
-Of the two univariate algorithms (EWMA and Bollinger Bands), since EWMA overweighted more recent results and therefore ran the risk of absorbing small changes without reporting an anomaly, I therefore modified the Bollinger Bands approach to produce two algorithms, one operating on the metrics directly and one operating on their first derivative.
+Of the two univariate algorithms (EWMA and Bollinger Bands), I found that EWMA overweighted more recent results and therefore ran the risk of absorbing small changes without reporting an anomaly. As such, I opted to avoid it and instead modify the Bollinger Bands approach to produce two algorithms, one operating on the metrics directly and one operating on their first derivative.
 
 <p align="center"><img style="max-width: 60%; height: auto;" alt="A one-day regression versus a multi-day regression and how waiting can distinguish them." src="https://github.com/user-attachments/assets/52260202-9b17-4d4b-907c-fc819a230aa0"/></p>
 <p align="center"><i>Figure 8: A one-day regression versus a multi-day regression. When these regressions occur, they look exactly the same. But one’s anomalous, and one isn’t. How do we tell them apart?</i></p>
 
-These were very effective at detecting deviations from normal performance, but were incapable of distinguishing between normal one-day regressions and anomalous persistent regressions, a problem I resolved by making both detectors wait a few days to confirm that a regression was persistent before reporting it (an anomalous persistent regression looks like a step change in a metric and therefore an impulse in its first derivative, so the two detectors identify the same phenomenon and are more likely to catch a false negative produced by the other). I employed both the direct-metric and first-derivative univariate detectors in the final program.
+As shown in Figure 9, these were very effective at detecting deviations from normal performance, but were incapable of distinguishing between normal one-day regressions and anomalous persistent regressions, a problem I resolved by making both detectors wait a few days to confirm that a regression was persistent before reporting it (an anomalous persistent regression looks like a step change in a metric and therefore an impulse in its first derivative, so the two detectors identify the same phenomenon and are more likely to catch a false negative produced by the other), which is shown in Figure 10. I employed both the direct-metric and first-derivative univariate detectors in the final program.
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+
+  <div style="text-align: center;">
+    <img style="max-width: 100%; height: auto;" alt="Output of one of the old univariate detectors, erroneously flagging a 1-day regression and noise as anomalies." src="https://github.com/user-attachments/assets/d4316e96-d17c-494c-a94c-fe8c4dfc0af9"/>
+    <p><i>Figure 9: Output of one of the old univariate detectors, erroneously flagging a 1-day regression and noise as anomalies due to not waiting a few days before confirming.</i></p>
+  </div>
+
+  <div style="text-align: center;">
+    <img style="max-width: 100%; height: auto;" alt="The same data series as earlier, with both univariate detectors successfully flagging the true anomaly but avoiding false positives." src="https://github.com/user-attachments/assets/cb494d68-5405-43de-973f-8950410b1077"/>
+    <p><i>Figure 10: The same metric as shown in earlier figures, with both new univariate detectors successfully flagging the true anomaly but avoiding false positives by waiting a few days before reporting an anomaly.</i></p>
+  </div>
+
+</div>
 
 All three detectors operated independently of each other.
 
-<p align="center"><img style="max-width: 50%; height: auto;" alt="The same data series as earlier, with both univariate detectors successfully flagging the true anomaly but avoiding false positives." src="https://github.com/user-attachments/assets/cb494d68-5405-43de-973f-8950410b1077"/></p>
-<p align="center"><i>Figure 9: The same data series as shown in earlier figures, with both univariate detectors successfully flagging the true anomaly but avoiding false positives.</i></p>
+In my backtesting, I found that aside from a few days where system configuration changes (e.g. a migration to a new test machine) led to anomalies across a large number of metrics, most metrics were relatively stable with no anomalies at all. I therefore tuned the anomaly detection parameters to be rather strict to prevent an excess of false positives. Broadly speaking, there were three classes of tunable parameters:
+- Z-score thresholds: For all three detectors, a point will not be reported as an anomaly if the magnitude of its' Z-score is less than some (detector-specific) threshold. An appropriate Z-score was therefore be selected in line with the approximate number of anomalies in the data to provide a good trade-off between false positives and false negatives.
+- Minimum percentage changes: Some metrics are very stable with an extremely small amount of noise, but a detector operating purely on z-scores may still report anomalies even though the relative change was negligible, so I instituted a minimum percentage change for a regression to qualify as an anomaly, reducing false positive rates. As the number of false positives was overall reduced by this change, I could also decrease the Z-score threshold slightly, reducing the false negative rate.
+- Confirmation period: Each detector waits for a short period after a regression to confirm that it is persistent and not transient/noise. By virtue of reducing the false-positive rate, this also eliminates a great deal of noise-based variations, meaning that the previous two thresholds can be decreased, reducing the false-negative rate.
 
-In my backtesting, I found that aside from a few days where system configuration changes (e.g. a migration to a new test machine) led to anomalies across a large number of metrics, most metrics were relatively stable with no anomalies at all. I therefore tuned the anomaly detection parameters to be rather strict to prevent an excess of false positives.
+The advantage of having three measures was that, as noted above, this provided a much greater degree of resilience against false positives and negatives, as each measure did not need to be especially strict.
 
 #### Autonomous anomaly reporting
-To inform the SPOT team about anomalies, I implemented a simple alerting system using a webhook on Mattermost, the primary communication platform used by SPOT. This reports salient characteristics of each anomaly such as the z-score and percentage change in an easily skimmable and digestible form, as well as providing various sources of additional information, such as the [TrigMR](https://test-atrvshft.web.cern.ch/test-atrvshft/gitlab-mr-summary-webpage/) and [GitLab](https://gitlab.cern.ch/atlas/athena/-/compare/nightly/main/) ATHENA nightly build merge request summary pages.
+To inform the SPOT team about anomalies, I implemented a simple alerting system using a webhook on Mattermost, the primary communication platform used by SPOT. This reports salient characteristics of each anomaly such as the z-score and percentage change in an easily skimmable and digestible form, as well as providing various sources of additional information, such as the [TrigMR](https://test-atrvshft.web.cern.ch/test-atrvshft/gitlab-mr-summary-webpage/) and [GitLab](https://gitlab.cern.ch/atlas/athena/-/compare/nightly/main/) Athena nightly build merge request summary pages.
+
+<p align="center"><img style="max-width: 60%; height: auto;" alt="A Mattermost message reporting anomalies, including some metadata about the job and each anomaly found in metrics therein." src="https://github.com/user-attachments/assets/67da0123-6178-4b95-bb48-02a658b08815"/></p>
+<p align="center"><i>Figure 11: An example Mattermost message reporting anomalies, including some metadata about the job and each anomaly found in metrics therein.</i></p>
 
 Additionally, I modified the script that creates the plots on the ATLAS Performance Monitoring Board so that it invoked my anomaly-detection script and included the detected anomalies on the plots for the PMB.
 
@@ -144,9 +163,16 @@ Although the anomaly detection pipeline is complete, as with any software projec
 - The orchestration scripts could be migrated from Bash to Python modules so the entire SPOT codebase is in one language and is easier to read and debug.
 
 ## Final reflection
-Google Summer of Code 2026 was an incredible program, especially with CERN-HSF. Working on high energy Physics at CERN has been a lifelong dream of mine, and having the opportunity to collaborate in an adjacent area before even completing my undergraduate degree and despite living in a non-Member State is incredible. Only two years ago, I traveled to Switzerland solely to tour CERN, and it feels surreal that code I've written will now be aiding in the operation of the very detector whose control room I visited such a short time ago. I can't wait to see where this path leads, and I'm immensely grateful to both Google and CERN-HSF for making this possible.
+Google Summer of Code 2026 was an incredible program, especially with CERN-HSF. Working on high-energy physics at CERN has been a lifelong dream of mine, and having the opportunity to collaborate in an adjacent area before even completing my undergraduate degree and despite living in a non-Member State is incredible. Only two years ago, I traveled to Switzerland solely to tour CERN, and it feels surreal that code I've written will now be aiding in the operation of the very detector whose control room I visited such a short time ago. I can't wait to see where this path leads, and I'm immensely grateful to both Google and CERN-HSF for making this possible.
 
 On the more technical side, working on a production-grade HEP codebase was a fantastic opportunity to develop my skills in software development. Although it was challenging at times, I've learnt an enormous amount about performance optimisation, software architecture and industry best practices. Maciej and Tatiana's mentorship and guidance was invaluable, and I'd like to thank them both personally since this project wouldn't have been possible without them. 
 
 ## AI Usage
 AI was used to a limited extent in this project, principally for research and low-level implementation details. Although I experimented with a number of different models, a common thread was that they were unfamiliar with HEP and would often make incorrect assumptions implicitly, meaning that in most cases reviewing and unit-testing AI-written code was more effort than just writing it myself. I also found most AI models had a strong tendency to produce "spaghetti code" without thought for long-term architecture or maintenance, although stronger models were somewhat more resilient to this.
+
+## References
+<sup>[1]</sup> [ATLAS Experiment at CERN: Trigger and Data Acquisition](https://atlas.cern/Discover/Detector/Trigger-DAQ)
+
+<sup>[2]</sup> [Vazquez, W.P. on behalf of the ATLAS Collaboration: The ATLAS Data Acquisition System in LHC Run 2](https://cds.cern.ch/record/2244345/files/ATL-DAQ-PROC-2017-007.pdf)
+
+<sup>[3]</sup> [Mete, A.S., Nowak, M., and van Gemmeren, P. on behalf of the ATLAS Computing Activity: Persistifying the complex event data model of the ATLAS Experiment in RNTuple](https://cds.cern.ch/record/2905189/files/ATL-SOFT-PROC-2024-002.pdf)
