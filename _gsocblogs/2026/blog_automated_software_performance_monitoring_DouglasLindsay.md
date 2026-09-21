@@ -17,7 +17,7 @@ intro: |
 |              |                                                                                                                                                                                                      |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Name         | [Douglas Lindsay](https://github.com/douglaslindsay)                                                                                                                                                 |
-| Organisations | [CERN-HSF](https://hepsoftwarefoundation.org/activities/gsoc.html), [Argonne National Laboratory](/gsoc/organizations/2026/anl.html), [University of Washington](/gsoc/organizations/2026/uw.html)  |
+| Organisations | [CERN-HSF](https://hepsoftwarefoundation.org/activities/gsoc.html), [Argonne National Laboratory]({{ "/gsoc/organizations/2026/anl.html" | relative_url }}), [University of Washington]({{ "/gsoc/organizations/2026/uw.html" | relative_url }})  |
 | Mentors      | [Dr. Maciej Szymanski](https://www.anl.gov/profile/maciej-pawel-szymanski), [Dr. Tatiana Ovsiannikova](https://phys.washington.edu/people/tatiana-ovsiannikova)                                      |
 | Project      | [Automated Software Performance Monitoring for the ATLAS Experiment](https://hepsoftwarefoundation.org/gsoc/2026/proposal_ATLAS_SPOT.html)                                                           |
 | Repository | [`atlaspmb/PerformanceMonitoring`](https://gitlab.cern.ch/atlaspmb/PerformanceMonitoring)
