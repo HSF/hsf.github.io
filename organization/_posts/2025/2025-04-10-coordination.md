@@ -76,29 +76,6 @@ The AA conveners should also feel free to reach out to their liaison to speed th
 
 Please remember to update your activity page on the HSF website with the names of the current conveners.
 
-### General Standing Reminders
-
-#### Website banners
-
-We have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files [here](https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023).
-
-#### Meetings
-
-Please try and book meetings in Indico at least 2 weeks in advance!
-
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
-
-#### Videos
-
-When meetings are recorded (recommended), please try to put them onto:
-
-- [HSF YouTube channel](https://www.youtube.com/c/HEPSoftwareFoundation) (ask for permission to do this)
-- <videos.cern.ch> (recommended over posting directly)
-
-Then post links to these locations. See [C&AF](https://indico.cern.ch/category/12741/) for examples.
-
-### Data Analysis
-### Reconstruction and Trigger
 ### Software Training
 
 Future events:
@@ -116,9 +93,6 @@ Ruslan Mashinistov:
 - I need advice on how to attract more presenters and participants for the AI-assisted tools HSF seminar
 
 
-### Detector Simulation
-
-
 ### Physics Generators
 Check with Stefan to check with the summary of the meeting which included suggested topics and maybe even a seminar.
 
@@ -126,6 +100,7 @@ Check with Stefan to check with the summary of the meeting which included sugges
 Planning a new meeting with liaisons to discuss contributions.
 
 ### PyHEP
+
 [PyHEP.dev 2025 Workshop](https://indico.cern.ch/event/1515852/) will be held at University of Washington from July 14 to 17.
 
 ### JuliaHEP
@@ -134,8 +109,6 @@ Planning a new meeting with liaisons to discuss contributions.
 - Early registration deadline for local participation: April 25
     - After April 25 an additional fee will apply
 - Final registration deadline: July 7
-
-### GSoC program 2025
 
 
 ## AOB
