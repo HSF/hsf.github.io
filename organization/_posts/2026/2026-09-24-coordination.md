@@ -112,7 +112,7 @@ A full report at the end of this year's programme will be given at the joint WLC
     - Discussions on agentic AI for the first time (including MCP use).
     - Talks and Discussions on general HEP package updates, Workflow Management Systems, HEP Packaging, and Statistical Tools.
     - We had a industry talk from Ruben Arts (prefix.dev) about pixi: <https://indico.nikhef.nl/event/7873/contributions/31401/>.
-    - We gave a seminar talk about our PyHEP work and activites at Nikhef in addition/parallel to the workshop.
+    - We gave a seminar talk about our PyHEP work and activities at Nikhef in addition/parallel to the workshop.
     - You can find notes and links to issues & PRs here: <https://codimd.web.cern.ch/ttbNPMWETCq7VRnaaxUB8w?both>, concrete achievements / PRs for: 
         - integrating LLMs into existing libraries better.
         - ROOT RDataframe client for histogramming-as-a-service (histserv).
