@@ -105,8 +105,6 @@ Read below and shout quickly as otherwise agreement will be concluded!
 
 ## Activities Updates
 
-### General Standing Reminders
-
 ### Software Training
 
 - Past Events
