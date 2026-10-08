@@ -105,7 +105,7 @@ A full report at the end of this year's programme will be given at the joint WLC
 
 ### JuliaHEP
 
-- Unfortunatelly JuliaHEP 2026 has been postponed to 2027 basically because of the low number of registrations. New date and location to be announced.
+- Unfortunately, JuliaHEP 2026 has been postponed to 2027 basically because of the low number of registrations. New date and location to be announced.
 
 
 ## AOB
