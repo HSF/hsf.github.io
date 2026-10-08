@@ -13,8 +13,8 @@ Apologies/Contributing: Graeme Stewart, Alexander Moreno, Inês Ochoa
 
 ### Steering Group & Advisory Group
 
-* Next HSF Steering Group Meeting tomorrow, Oct 9.
-* Next AG meeting will take place in Bologna in Nov. during the joint WLCG/HSF workshop.
+- Next HSF Steering Group Meeting tomorrow, Oct 9.
+- Next AG meeting will take place in Bologna in Nov. during the joint WLCG/HSF workshop.
 
 #### WLCG/HSF workshop
 
@@ -42,16 +42,14 @@ This year an "AI statement" is strongly suggested in GSoC proposals. We should d
 There is an ongoing discussion at <https://github.com/HSF/hsf.github.io/issues/1919>.
 Suggestion to update the [website how-to](https://hepsoftwarefoundation.org/howto-website.html) with a statement on AI and how we will be dealing with "spam".
 
-
-
 #### Forum discussion: Towards common responsible AI-assisted coding guidelines 
 
-* "Guidelines docathon" to brainstorm further organized on Wed 30th Sept at 15h30, <https://indico.cern.ch/event/1733243/>
-    * Question: What "job" do we want the AI-assisted-coding system to do / not do for us? How do I keep trust in the job being done? 
-    * ~10 participants, prioritization of topics based on Practical, Technical, Social and Emotional context
-    * Initial guidelines being prepared based on the most voted persona/use cases
-* Next iteration of the forum tentatively for Oct 21. Indico Agenda to be circulated by Email
-    * Please contact us if you are interested on contributing 
+- "Guidelines docathon" to brainstorm further organized on Wed 30th Sept at 15h30, <https://indico.cern.ch/event/1733243/>.
+    - Question: What "job" do we want the AI-assisted-coding system to do / not do for us? How do we keep trust in the job being done? 
+    - ~10 participants, prioritization of topics based on Practical, Technical, Social and Emotional context.
+    - Initial guidelines being prepared based on the most voted persona/use cases.
+- Next iteration of the forum tentatively for Oct 21. Indico Agenda to be circulated by email.
+    - Please contact us if you are interested on contributing.
 
 ### HSF Seminar Series and Compute Accelerator Forum
 
@@ -61,13 +59,12 @@ Past HSF seminars:
 
 Planned HSF seminars:
 - 14th Oct: HSF-IML joint seminar on "[WhAM: Whale Acoustic Model](https://arxiv.org/abs/2512.02206)" (part of [CETI project](https://www.projectceti.org/) that has the longterm goal of translating whale speech).
-    -<https://indico.cern.ch/event/1730035/>
+    - <https://indico.cern.ch/event/1730035/>.
     - Will exceptionally start at 16h00.
     - Speaker will attend in person.
 
 Thanks to the activity groups for coming to us with seminar ideas and speakers!
 HSF seminar conveners are reachable at <mailto:hsf-seminar-conveners@googlegroups.com>. Please send your suggestions for next seminars.
-
 
 ## Activities Updates
 
@@ -104,17 +101,17 @@ A full report at the end of this year's programme will be given at the joint WLC
 
 ### Physics Generators
 
-* Steve Mrenna will present on behalf of Pythia for the "responsible AI" discussion mentioned above.
-
+- Steve Mrenna will present on behalf of Pythia for the "responsible AI" discussion mentioned above.
 
 ### JuliaHEP
-* Unfortunatelly JuliaHEP 2026 has been postponed to 2027 basically because of the low number of registrations. New date and location to be announced.
+
+- Unfortunatelly JuliaHEP 2026 has been postponed to 2027 basically because of the low number of registrations. New date and location to be announced.
 
 
 ## AOB
 
 Open PRs to HSF repo:
-- <https://github.com/HSF/hsf.github.io/pull/1953> : addition of CONTRIBUTING.md
+- <https://github.com/HSF/hsf.github.io/pull/1953> : addition of CONTRIBUTING.md.
 - <https://github.com/HSF/hsf.github.io/pull/1949> : addition of pull_request template.
 Have been up for long time with no input other from Eduardo and Claire: Will just go ahead and merge. Can get follow up PRs if needed.
  
