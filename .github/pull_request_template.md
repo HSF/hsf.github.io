@@ -4,12 +4,6 @@ Please describe your pull request.
 
 ---
 
-### Please check if any of the following apply
+### Please tick the box
 
-- [ ] AI was used in preparing this pull request.
-
-If checked, please briefly describe:
-
-- AI tool(s) used:
-- How AI was used:
-- What you manually reviewed or modified:
+- [ ] I acknowledge the contributing guidelines and that this PR complies with them.
