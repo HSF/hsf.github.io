@@ -12,7 +12,7 @@ Any contribution should be fully understood by you, so, please:
 - verify that the proposed changes are correct and appropriate for the project;
 - remain fully responsible for the content of your contribution.
 
-TIP: We generally recommend making use of standardised AI declarations at <https://ai-declaration.org/>.
+TIP: We generally recommend making use of a standardised AI declaration such as the one at <https://ai-declaration.org/>, and paste the content of the declaration at the end of your pull request. 
 
 ## Contributor etiquette
 
