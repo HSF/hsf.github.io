@@ -62,8 +62,6 @@ We should have more news soon on developing these ideas.
 
 ## Working Group Updates
 
-### General Standing Reminders
-
 ### Conveners for 2024
 
 The convener teams for 2024 are now complete!
