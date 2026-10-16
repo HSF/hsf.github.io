@@ -4,14 +4,15 @@ Thank you for your interest in contributing to the HSF website.
 
 Contributions of all sizes are welcome, including documentation improvements, typo fixes, bug fixes, and new content. For significant changes or new features, please open an issue first to discuss your proposal before starting work.
 
-## AI-assisted contributions
+## Due diligence
 
-AI-assisted contributions are welcome. If you use generative AI tools (such as ChatGPT, GitHub Copilot, or Claude) while preparing your contribution, please:
-
-- disclose the use of AI in your pull request when appropriate;
-- review and understand all AI-generated content before submitting it;
+Any contribution should be fully understood by you, so, please:
+- review and understand all content before submitting it - AI generated or not;
+- helpfully disclose the use of AI in your pull request when appropriate;
 - verify that the proposed changes are correct and appropriate for the project;
 - remain fully responsible for the content of your contribution.
+
+TIP: We generally recommend making use of standardised AI declarations at <https://ai-declaration.org/>.
 
 ## Contributor etiquette
 
@@ -30,10 +31,16 @@ Before submitting a pull request, please ensure that:
 - your pull request description clearly explains the purpose of the changes;
 - your contribution does not introduce unintended modifications.
 
+## A PR may immediately be rejected if...
+
+- the PR description provides no motivation for the changes;
+- it unnecessarily implements too many changes in one go: As a single large PR or a flood of small PRs;
+- it appear to be generated solely by AI with little or no human contributor oversight.
+
 ## Additional guidance
 
 Practical information on editing the website, running a local preview, and contributing content is available in the website contribution guide:
 
-https://hepsoftwarefoundation.org/howto-website.html
+<https://hepsoftwarefoundation.org/howto-website.html>
 
 Thank you for helping improve the HSF website.
