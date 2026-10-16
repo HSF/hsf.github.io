@@ -35,7 +35,7 @@ Before submitting a PR, please ensure that:
 
 - the PR description provides no motivation for the changes;
 - it unnecessarily implements too many changes in one go: As a single large PR or a flood of small PRs;
-- it appear to be generated solely by AI with little or no human contributor oversight.
+- it appears to be generated solely by AI with little or no human contributor oversight.
 
 ## Additional guidance
 
