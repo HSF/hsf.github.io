@@ -12,23 +12,23 @@ Any contribution should be fully understood by you, so, please:
 - verify that the proposed changes are correct and appropriate for the project;
 - remain fully responsible for the content of your contribution.
 
-TIP: We generally recommend making use of a standardised AI declaration such as the one at <https://ai-declaration.org/>, and paste the content of the declaration at the end of your pull request. 
+TIP: We generally recommend making use of a standardised AI declaration such as the one at <https://ai-declaration.org/>, and paste the content of the declaration at the end of your PR. 
 
 ## Contributor etiquette
 
 To help keep reviews efficient and productive, please:
 
-- keep pull requests focused on a single logical change;
-- write clear commit messages and pull request descriptions;
+- keep PRs focused on a single logical change;
+- write clear commit messages and PR descriptions;
 - be respectful and constructive in discussions;
 - assume good intentions and collaborate in a friendly manner.
 
 ## Before opening a pull request
 
-Before submitting a pull request, please ensure that:
+Before submitting a PR, please ensure that:
 
 - your changes have been reviewed by you;
-- your pull request description clearly explains the purpose of the changes;
+- your description clearly explains the purpose of the changes;
 - your contribution does not introduce unintended modifications.
 
 ## A PR may immediately be rejected if...
