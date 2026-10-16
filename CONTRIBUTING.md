@@ -8,7 +8,7 @@ Contributions of all sizes are welcome, including documentation improvements, ty
 
 Any contribution should be fully understood by you, so, please:
 - review and understand all content before submitting it - AI generated or not;
-- helpfully disclose the use of AI in your pull request when appropriate;
+- helpfully disclose the use of AI in your pull request (PR) when appropriate;
 - verify that the proposed changes are correct and appropriate for the project;
 - remain fully responsible for the content of your contribution.
 
