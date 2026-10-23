@@ -26,7 +26,7 @@ Apologies/Contributing: Alexander Moreno, Christian Wessel, Eduardo Rodrigues
 - 2-6 November 2026 in Bologna, [Indico page](https://indico.cern.ch/e/wlcg-hsf-2026).
 - Agenda is final (organiser discussion on Monday Oct 19)
 - As previously discussed: 2 parallel sessions now on the agenda on Thursday afternoon about (a) Coding Assistant and (b) AI (operations + coding assistants)
-    - Suggestion to update the AI agenda content to make it more clear and adveritize it better
+    - Suggestion to update the AI agenda content to make it more clear and advertise it better
 
 ### HSF Affiliated Projects and Software
 
