@@ -4,25 +4,15 @@ lang: en-gb
 description: HSF Meeting Notes
 ---
 
-# HSF Coordination Meeting #313, 22 October 2026
+# HSF Coordination Meeting #315, 22 October 2026
 
 ---
-
-*This notebook is used to record the minutes of the HSF Coordination meetings. These are archived after each meeting onto the [HSF Website](https://hepsoftwarefoundation.org).*
-
-## Tips
-
-- These minutes should be publicly editable, they are stored in CERNbox with a public editing link
-- If you are adding a URL, please use `<` and `>` to make it an active link, as in `<https://daringfireball.net/projects/markdown/syntax#autolink>`
-    - Without the <>s the link is not active in Jekyll, even if it is in CodiMD
-- Please use `-` to indicate lists in this file (we try to avoid mixing `-` and `*` in the same file - it's markdown lint!)
-- Please use the Zoom "raise hand" if you'd like to make a comment in the meeting
 
 ## Attending
 
 Present/Contributing: Johannes Elmsheuser, Claire Antel, Inês Ochoa, Michel, Liz, Dmitry Kalinkin, Menglin Xu
 
-Apologies/Contributing: Alexander Moreno, Christian Wessel
+Apologies/Contributing: Alexander Moreno, Christian Wessel, Eduardo Rodrigues
 
 ## News, general matters, announcements
 
@@ -35,14 +25,14 @@ Apologies/Contributing: Alexander Moreno, Christian Wessel
 
 - 2-6 November 2026 in Bologna, [Indico page](https://indico.cern.ch/e/wlcg-hsf-2026).
 - Agenda is final (organiser discussion on Monday Oct 19)
-- As prevously discussed: 2 parallel sessions now on the agenda on Thursday afternoon about (a) Coding Assistant and (b) AI (operations + coding assistants)
-    - Suggestion to update AI agenda content to make to more clear and adveritze it better
+- As previously discussed: 2 parallel sessions now on the agenda on Thursday afternoon about (a) Coding Assistant and (b) AI (operations + coding assistants)
+    - Suggestion to update the AI agenda content to make it more clear and adveritize it better
 
 ### HSF Affiliated Projects and Software
 
 - Beyond the mailing lists some discussions about "HSF review of nopayload DB Server and Client" [review document](https://docs.google.com/document/d/1FqryG-__qtGCQn3aItdtWdklOqHz80UpxjNRMPwNNc0/edit?tab=t.0)
     - There is a DB and client part of the software
-    - The inital result of the review was a Tier1 rating by the reviewer
+    - The initial result of the review was a Tier1 rating by the reviewer
     - After the HSF feedback period the rating was changed to Tier2 and the maturity of the DB vs. client components was mentioned.
     - Suggestion points for improved future reviews (personal comments from Johannes):
         - Tiered rating system perceived as school marks
@@ -187,7 +177,7 @@ A full report at the end of this year's programme will be given at the joint WLC
 
 ### JuliaHEP
 
-JuliaHEP 2027 - New date and location to be announced.
+JuliaHEP 2027 - New date and location to be announced in due time.
 
 ### Software Developer Tools and Packaging
 
@@ -214,7 +204,7 @@ We are looking for contributors.
 ### Next Meeting
 
 The next coordination meeting on November 5 is cancelled due to the WLCG/HSF workshop during that week in Bologna.
-The next coordination meeting will take place November 19.n
+The next coordination meeting will take place November 19.
 
 ### Chair This Meeting 👇
 
