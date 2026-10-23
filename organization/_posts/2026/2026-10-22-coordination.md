@@ -37,7 +37,7 @@ Apologies/Contributing: Alexander Moreno, Christian Wessel, Eduardo Rodrigues
     - Suggestion points for improved future reviews (personal comments from Johannes):
         - Tiered rating system perceived as school marks
         - Ideally there are several reviewers
-        - Transparaceny on who provided feedback when assessments/ratings were changed
+        - Transparency on who provided feedback when assessments/ratings were changed
 
 
 Status at <https://hepsoftwarefoundation.org/projects/projects.html> -  6 projects affiliated, 1 being finalised this week.
