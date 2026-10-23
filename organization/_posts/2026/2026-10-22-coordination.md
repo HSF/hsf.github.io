@@ -38,6 +38,7 @@ Apologies/Contributing: Alexander Moreno, Christian Wessel, Eduardo Rodrigues
 Status at <https://hepsoftwarefoundation.org/projects/projects.html> -  6 projects affiliated, 1 being finalised, see above.
 
 Other potential projects: we have a rather comprehensive list of projects interested or to be approached. The list has been sent to the Advisory Group to receive feedback from the Engaged Communities (experiments and other relevant collaborations/projects):
+
 -ACTS - being followed up
 -Clad
 -CVMFS
