@@ -39,29 +39,29 @@ Status at <https://hepsoftwarefoundation.org/projects/projects.html> -  6 projec
 
 Other potential projects: we have a rather comprehensive list of projects interested or to be approached. The list has been sent to the Advisory Group to receive feedback from the Engaged Communities (experiments and other relevant collaborations/projects):
 
--ACTS - being followed up
--Clad
--CVMFS
--DD4hep
--FastJet
--Gaudi - being followed up
--Geant4
--HepData
--HepMC3
--Herwig
--hls4ml - 2 reviewers
--Invenio
--LHCb Conditions DB - 2 reviewers
--LHAPDF
--Omnifold - being followed up
--MCFM
--Phoenix - 1 reviewer - still searching for 2nd
--PODIO - being followed up
--Rivet - 2 reviewers, invitation sent out
--Rucio - being followed up
--Sherpa
--XRootD
--WHIZARD
+- ACTS - being followed up
+- Clad
+- CVMFS
+- DD4hep
+- FastJet
+- Gaudi - being followed up
+- Geant4
+- HepData
+- HepMC3
+- Herwig
+- hls4ml - 2 reviewers
+- Invenio
+- LHCb Conditions DB - 2 reviewers
+- LHAPDF
+- Omnifold - being followed up
+- MCFM
+- Phoenix - 1 reviewer - still searching for 2nd
+- PODIO - being followed up
+- Rivet - 2 reviewers, invitation sent out
+- Rucio - being followed up
+- Sherpa
+- XRootD
+- WHIZARD
 
 - Projects being approached - we need volunteers to contact them.
 - Projects interested - we need volunteers to find reviewers and/or review them.
