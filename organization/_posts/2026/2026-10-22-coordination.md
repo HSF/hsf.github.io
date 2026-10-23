@@ -10,7 +10,7 @@ description: HSF Meeting Notes
 
 ## Attending
 
-Present/Contributing: Johannes Elmsheuser, Claire Antel, Inês Ochoa, Michel Hernandez Villanueva, Liz ASexton-Kennedy, Dmitry Kalinkin, Menglin Xu
+Present/Contributing: Johannes Elmsheuser, Claire Antel, Inês Ochoa, Michel Hernandez Villanueva, Liz Sexton-Kennedy, Dmitry Kalinkin, Menglin Xu
 
 Apologies/Contributing: Alexander Moreno, Christian Wessel, Eduardo Rodrigues
 
@@ -119,28 +119,6 @@ HSF seminar conveners are reachable at <mailto:hsf-seminar-conveners@googlegroup
 
 ## Activities Updates
 
-### General Standing Reminders
-
-#### Website banners
-
-We have the ability to put event banners on the HSF website. All it requires is a markdown file with the event data. See, e.g., files [here](https://github.com/HSF/hsf.github.io/tree/main/announcements/_posts/2023).
-
-#### Meetings
-
-Please try and book meetings in Indico at least 2 weeks in advance!
-
-That way they go into the calendar early and they will be included in the weekly email announcement that goes to HSF Forum.
-
-#### Videos
-
-When meetings are recorded (recommended), please try to put them onto:
-
-- [HSF YouTube channel](https://www.youtube.com/c/HEPSoftwareFoundation) (ask for permission to do this)
-- <videos.cern.ch> (recommended over posting directly)
-
-Then post links to these locations. See [C&AF](https://indico.cern.ch/category/12741/) for examples.
-
-
 ### GSoC 2026
 
 A full report at the end of this year's programme will be given at the joint WLCG/HSF workshop in Bologna.
@@ -158,7 +136,7 @@ A full report at the end of this year's programme will be given at the joint WLC
             - CMS, Belle II, EVERSE, HSF, ATLAS, EIC
         - Still TBC (virtually):
             - CLARIPHY, LHCb, ALICE
-        - Agenda will be up before Friday   
+        - Agenda will be up by Friday   
 
 - Papers
     - Collection “[Software Training in High Energy Physics for the AI Era](https://www.frontiersin.org/research-topics/82889/software-training-in-high-energy-physics-for-the-ai-era)” - Frontiers in Big Data:
@@ -167,25 +145,13 @@ A full report at the end of this year's programme will be given at the joint WLC
     - [Training on Data Analysis Reproducibility via Containerization with Apptainer](https://arxiv.org/pdf/2604.06244) - The Journal of Open Source Education - It was submitted ~7 months ago. We are considering submitting it to a different journal.
 
 
-### Physics Generators
-
-### Detector Simulation
-
-### Data Analysis
-
-### PyHEP
-
 ### JuliaHEP
 
 JuliaHEP 2027 - New date and location to be announced in due time.
 
-### Software Developer Tools and Packaging
-
-### Reconstruction & Software Triggers
 
 ## AOB
 
- 
 #### HSF calendar
 
 Do not hesitate to get in touch with the SG if you have/know of events useful to add to the HSF calendar.
