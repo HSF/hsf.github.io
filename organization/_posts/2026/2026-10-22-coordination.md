@@ -10,7 +10,7 @@ description: HSF Meeting Notes
 
 ## Attending
 
-Present/Contributing: Johannes Elmsheuser, Claire Antel, Inês Ochoa, Michel, Liz, Dmitry Kalinkin, Menglin Xu
+Present/Contributing: Johannes Elmsheuser, Claire Antel, Inês Ochoa, Michel Hernandez Villanueva, Liz ASexton-Kennedy, Dmitry Kalinkin, Menglin Xu
 
 Apologies/Contributing: Alexander Moreno, Christian Wessel, Eduardo Rodrigues
 
