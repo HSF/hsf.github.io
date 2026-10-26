@@ -1,6 +1,6 @@
 ---
 title: "Affiliated Projects and Software Guidelines"
-author: Eduardo Rodrigues, Pere Mato, Graeme Stewart, Caterina Doglioni, Stefan Roiser
+author: Eduardo Rodrigues, Pere Mato, Graeme Stewart, Caterina Doglioni, Stefan Roiser, Paul Laycock
 layout: plain
 ---
 
@@ -79,5 +79,5 @@ The review can even be done [directly in a browser](https://learn.scientific-pyt
 
 Not all software is the same, in terms of purposes and audience.
 Differentiated recommendations according to the tier of software
-(analysis software, research software tools, research software infrastructure)
+(broadly defined as analysis software, research software tools, research software infrastructure)
 are described on a [separate page]({{ site.baseurl }}/projects/software-tiers.html).

@@ -1,6 +1,6 @@
 ---
 title: "Software Tiers and Differentiated Recommendations"
-author: Eduardo Rodrigues, Pere Mato, Graeme Stewart, Caterina Doglioni, Stefan Roiser
+author: Eduardo Rodrigues, Pere Mato, Graeme Stewart, Caterina Doglioni, Stefan Roiser, Paul Laycock
 layout: plain
 ---
 
