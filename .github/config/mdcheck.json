@@ -29,6 +29,9 @@
     },
     {
       "pattern": "https://indico.desy.de"
+    },
+    {
+      "pattern": "https://isocpp.org"
     }
   ],
   "replacementPatterns": [
