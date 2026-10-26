@@ -7,6 +7,10 @@ layout: plain
 This page complements the [best-practice guidelines]({{ site.baseurl }}/projects/guidelines.html)
 for [HSF Affiliated Projects and Software]({{ site.baseurl }}/projects/affiliated.html)
 with differentiated recommendations according to the tier of software.
+Affiliation requires the best-practice guidelines only.
+A project that would like a *differential review* against the recommendations for its tier is welcome to ask for one;
+this requires discussion with the [HSF Steering Group]({{ site.baseurl }}/organization/team.html) beforehand and reviewers with the relevant expertise.
+
 Not all software is the same, in terms of purposes and audience. 
 To classify software, we adopt a scheme inspired by the [*three levels of
 software*](https://everse.software/RSQKit/three_tier_view), originally developed by the
@@ -20,7 +24,7 @@ The starting point for the following definitions is the [RSQKit *three levels of
 
 **Analysis software** is research software that captures computational research processes and methodology, often used in simulation, data generation, preparation, analysis and visualisation. It typically represents software created for personal use with a small scope, such as scripts quickly put together to analyse data.
 
-We expect software developers seeking affiliation to identify the category their software fits in, which will be listed at the beginning of the review document, and consider the differential guidelines below as best-practice basis for supporting users effectively.
+We expect software developers seeking a differential review to identify the category their software fits in, which will be listed at the beginning of the review document, and consider the differential guidelines below as best-practice basis for supporting users effectively.
 
 These guidelines lie in three major categories:
 

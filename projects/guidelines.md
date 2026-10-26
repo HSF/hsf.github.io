@@ -4,12 +4,10 @@ author: Eduardo Rodrigues, Pere Mato, Graeme Stewart, Caterina Doglioni, Stefan 
 layout: plain
 ---
 
-In a spirit of openness and flexibility, the HSF maintains an evolving checklist
-of best practices for HSF Affiliated Projects and Software, rather than a set of
-strict requirements. [HSF Affiliated Projects and Software]({{ site.baseurl
-}}/projects/affiliated.html) need to abide by at least a significant subset of
-the guidelines (recognising that some may not be relevant for particular
-projects).
+The HSF curates a list of best practices for HSF Affiliated Projects and
+Software, that makes software easy to adopt, trust and contribute to.
+[HSF Affiliated Projects and Software]({{ site.baseurl }}/projects/affiliated.html)
+adhere to these best practices.
 
 The guidelines have been created to:
 
@@ -31,12 +29,12 @@ We also set out further recommendations for community software that projects can
 The guidelines presented below are replicated in
 [this Google template document](https://docs.google.com/document/d/1l8Tkruo0EEHwgRBQPmiHq-i4BuwwiR1choRRMUIv6qY/edit?usp=sharing) to make it easy for package/software evaluators to check things out against each guideline.
 Please refer to [here]({{ site.baseurl }}/projects/affiliated.html) for the practicalities of an HSF evaluation.
+The General Guidelines are required for affiliation.
+The language-specific guidelines point to the best practices of each programming-language ecosystem, which the HSF recommends projects follow.
 
 ### General Guidelines
 
-Generally, all of the following must be met by a project to be an HSF Affiliated Project, and exceptions should be justified.
-
-Any software library should strive to fulfil the following:
+All of the following must be met by a project to be an HSF Affiliated Project:
 
 * **Availability of the code in a public repository.** The code should be accessible in anonymous read-only mode by anybody. GitHub is a very popular solution.
 * **A suitable name.** It is good practice to choose a new name (a unique name is better, but often difficult) or at least a name that conveys what the library is about.
