@@ -53,6 +53,7 @@ Project from previous years are showcased in blog posts written by participants.
 
 See here the participant blog posts from previous years:
 
+* [Participant blogs 2026]({{ site.baseurl }}/gsoc/2026/blogs.html)
 * [Participant blogs 2025]({{ site.baseurl }}/gsoc/2025/blogs.html)
 * [Participant blogs 2024]({{ site.baseurl }}/gsoc/2024/blogs.html)
 * [Participant blogs 2023]({{ site.baseurl }}/gsoc/2023/blogs.html)
