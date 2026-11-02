@@ -61,8 +61,6 @@ The advert and details on these workshops are given below.
 
 ## PyHEP.dev 2026
 
-This year we had
-
 PyHEP.dev 2026 is intended for Python HEP software developers and power users to plan a coherent roadmap and make priorities for the upcoming year. It will be held in-person in Amsterdam, Netherlands on September 7-9.
 It will include presentations by participants, but the focus will be on birds-of-a-feather style group discussions.
 Attendance is limited to ~50 participants.
