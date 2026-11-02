@@ -31,6 +31,9 @@
       "pattern": "https://indico.desy.de"
     },
     {
+      "pattern": "https://indico.nikhef.nl"
+    },
+    {
       "pattern": "https://isocpp.org"
     }
   ],
