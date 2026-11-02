@@ -44,6 +44,7 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 {:.table .table-hover .table-condensed .table-striped}
 | *Workshop*     | *Location*             | *Date*                | *Agenda link*                                                                         |
 | -------------- | ---------------------- | ----------------------| ------------------------------------------------------------------------------------- |
+| PyHEP 2026.dev | NIKHEF, Netherlands    | September 7-9, 2025   | [Indico](https://indico.nikhef.nl/event/7873/)                                        |
 | PyHEP 2025     | CERN, Hybrid workshop  | October 27-30, 2025   | [Indico](https://indico.cern.ch/e/PyHEP2025){:target="_pyhep2025_indico"}             |
 | PyHEP 2025.dev | Seattle, WA, USA       | July 14-17, 2025      | [Indico](https://indico.cern.ch/e/PyHEP2025.dev){:target="_pyhep2025_dev_indico"}     |
 | PyHEP 2024.dev | Aachen, Germany        | August 26-30, 2024    | [Indico](https://indico.cern.ch/e/PyHEP2024.dev){:target="_pyhep2024_dev_indico"}     |
@@ -57,6 +58,31 @@ with the aim to provide an environment to discuss and promote the usage of Pytho
 | PyHEP 2018     | Sofia, Bulgaria        | July 7-8, 2018        | [Indico](https://indico.cern.ch/event/694818/){:target="_pyhep2018_indico"}           |
 
 The advert and details on these workshops are given below.
+
+## PyHEP.dev 2026
+
+This year we had
+
+PyHEP.dev 2026 is intended for Python HEP software developers and power users to plan a coherent roadmap and make priorities for the upcoming year. It will be held in-person in Seattle, WA (US) on July 14-17.
+It will include presentations by participants, but the focus will be on birds-of-a-feather style group discussions.
+Attendance is limited to ~50 participants.
+
+### Organising Committee
+
+Peter Fackeldey - Princeton University<br />
+Dmitry Kalinkin - Brookhaven National Laboratory<br />
+Alexander Heidelbach - Ludwig-Maximilians-University Munich (LMU)
+
+<b>Local organisers:</b><br>
+Jeff Templon - Nikhef<br />
+Joan Berger - Nikhef
+
+### Sponsors
+
+One of the, or both, events, is/are kindly sponsored by (details on the Indico pages)
+
+![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
+![NIKHEF]({{ site.baseurl }}/images/pyhep/NIKHEF_logo.png){:height="60px"}
 
 ## PyHEP 2025 & PyHEP.dev 2025
 
