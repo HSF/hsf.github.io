@@ -77,7 +77,7 @@ Joan Berger - Nikhef
 
 ### Sponsors
 
-One of the, or both, events, is/are kindly sponsored by (details on the Indico pages)
+The event was kindly sponsored by (details on the Indico page)
 
 ![IRIS-HEP]({{ site.baseurl }}/images/pyhep/IRIS-HEP_logo.png){:height="60px"}
 ![Nikhef]({{ site.baseurl }}/images/pyhep/Nikhef_logo.png){:height="60px"}
