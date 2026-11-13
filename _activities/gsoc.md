@@ -29,7 +29,7 @@ Information from last year’s GSoC can be found [here]({{ site.baseurl }}/gsoc/
 
 ### GSoC 2026
 
-In 2026 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. The HSF project ideas are listed [below](#projects-in-2026). Please have a look at the general [program rules](https://summerofcode.withgoogle.com/rules/) and the [timeline](https://summerofcode.withgoogle.com/how-it-works/) provided by Google. 
+In 2026 HSF is participating in the program as a GSoC umbrella organization, under the name CERN-HSF. The HSF project ideas are listed [below](#projects). Please have a look at the general [program rules](https://summerofcode.withgoogle.com/rules/) and the [timeline](https://summerofcode.withgoogle.com/how-it-works/) provided by Google. 
 
 The selection process in our organization will be split into two phases. All candidates will have to pass pre-selection evaluation tests prepared by mentors, demonstrating the skills needed for the respective projects. The successful candidates will have a detailed exchange with mentors on a given project idea, and their proposals are then evaluated for the final participant selection. The detailed [timeline](#timeline) of these phases is shown below.
 
@@ -53,6 +53,7 @@ Project from previous years are showcased in blog posts written by participants.
 
 See here the participant blog posts from previous years:
 
+* [Participant blogs 2026]({{ site.baseurl }}/gsoc/2026/blogs.html)
 * [Participant blogs 2025]({{ site.baseurl }}/gsoc/2025/blogs.html)
 * [Participant blogs 2024]({{ site.baseurl }}/gsoc/2024/blogs.html)
 * [Participant blogs 2023]({{ site.baseurl }}/gsoc/2023/blogs.html)
