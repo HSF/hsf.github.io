@@ -12,7 +12,7 @@ This is the list of projects that have become [HSF Affiliated]({{ site.baseurl }
 | --------| ------------- |----------|-----------|-----------|
 | [Rivet](https://rivet.hepforge.org/) | Monte Carlo analysis and validation toolkit | In progress | | 2026 |
 | [Phoenix](https://github.com/HSF/phoenix) | On-browser event display | In progress | | 2026 |
-| [nopayloaddb](https://github.com/BNLNPPS/nopayloaddb) | Conditions Database system | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_nopayloaddb] | 2025-2026 |
+| [nopayloaddb](https://github.com/BNLNPPS/nopayloaddb) | Conditions Database system | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) |  | 2025-2026 |
 | [Dirac & DiracX](https://diracgrid.org/) | Distributed computing framework | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_dirac] | 2025-2026 |
 | [Pythia](https://www.pythia.org) | Monte Carlo event generator | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_pythia] | 2026 |
 | [MadGraph5_aMC@NLO](https://github.com/mg5amcnlo/mg5amcnlo) | Monte Carlo event generator | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_madgraph5] | 2026 |
@@ -30,4 +30,3 @@ to confirm continuation of the affiliation.
 [GDoc_madgraph5]: https://docs.google.com/document/d/1Y8DR90yKSAJiQ6z6Ey6k3pOB_64EbnxhGunS6-9N01s/edit?usp=sharing
 [GDoc_pythia]: https://docs.google.com/document/d/1CJs8I3z6-AK2qaYfGKmIh80CoDetvAJaW_SY99jnIGY/edit?usp=sharing
 [GDoc_dirac]: https://docs.google.com/document/d/1J_dL8adjncK4hFqlQop2WmTwQKlR78OB1c72VLThBIc/edit?usp=sharing
-[GDoc_nopayloaddb]: https://docs.google.com/document/d/1FqryG-__qtGCQn3aItdtWdklOqHz80UpxjNRMPwNNc0/edit?usp=sharing
