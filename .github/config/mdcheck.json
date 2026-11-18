@@ -35,6 +35,9 @@
     },
     {
       "pattern": "https://isocpp.org"
+    },
+    {
+      "pattern": "\\{\\{\\s*blog\\."
     }
   ],
   "replacementPatterns": [
