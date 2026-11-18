@@ -10,6 +10,7 @@ This is the list of projects that have become [HSF Affiliated]({{ site.baseurl }
 {:.table .table-hover .table-condensed .table-striped}
 | Name | Description | Affiliation | Review document | Year |
 | --------| ------------- |----------|-----------|-----------|
+| [Rivet](https://rivet.hepforge.org/) | Monte Carlo analysis and validation toolkit | In progress | | 2026 |
 | [Phoenix](https://github.com/HSF/phoenix) | On-browser event display | In progress | | 2026 |
 | [nopayloaddb](https://github.com/BNLNPPS/nopayloaddb) | Conditions Database system | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_nopayloaddb] | 2025-2026 |
 | [Dirac & DiracX](https://diracgrid.org/) | Distributed computing framework | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_dirac] | 2025-2026 |
