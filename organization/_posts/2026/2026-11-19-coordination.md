@@ -162,8 +162,6 @@ A presentation of this year's programme was given at the joint WLCG/HSF workshop
     - Summary of the JuliaHEP Mini 2026 - Julia for Nuclear and Elementary Particle Physics: From Precision Science to High-Performance Tools - Uwe Hernandez Acosta
     - Gauge the interest for a JuliaHEP workshop in 2027
 
-### Reconstruction & Software Triggers
-
 ## AOB
  
 #### HSF calendar
