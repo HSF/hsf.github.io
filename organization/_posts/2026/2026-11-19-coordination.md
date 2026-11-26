@@ -5,7 +5,7 @@ layout: plain_toc
 
 ## Attending
 
-Present/Contributing: Claire Antel, Eduardo Rodrigues, Ruslan Mashinistov, Andres Rios-Tascon, Philippe Gras, Saptaparna Battacharya, Stephen Mrenna, 
+Present/Contributing: Claire Antel, Eduardo Rodrigues, Ruslan Mashinistov, Andres Rios-Tascon, Philippe Gras, Saptaparna Battacharya, Stephen Mrenna
 
 Apologies/Contributing: Alexander Moreno, Stefan Roiser
 
