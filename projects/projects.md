@@ -8,17 +8,17 @@ redirect_from: /projects.html
 This is the list of projects that have become [HSF Affiliated]({{ site.baseurl }}/projects/affiliated.html).
 
 {:.table .table-hover .table-condensed .table-striped}
-| Name | Description | Affiliation | Review document | Year |
-| --------| ------------- |----------|-----------|-----------|
-| [Rivet](https://rivet.hepforge.org/) | Monte Carlo analysis and validation toolkit | In progress | | 2026 |
-| [Phoenix](https://github.com/HSF/phoenix) | On-browser event display | In progress | | 2026 |
-| [nopayloaddb](https://github.com/BNLNPPS/nopayloaddb) and [nopayloadclient](https://github.com/BNLNPPS/nopayloadclient) | Conditions Database system | In progress | | 2025-2026 |
-| [Dirac & DiracX](https://diracgrid.org/) | Distributed computing framework | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_dirac] | 2025-2026 |
-| [Pythia](https://www.pythia.org) | Monte Carlo event generator | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_pythia] | 2026 |
-| [MadGraph5_aMC@NLO](https://github.com/mg5amcnlo/mg5amcnlo) | Monte Carlo event generator | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_madgraph5] | 2026 |
-| [Pepper](https://gitlab.com/spice-mc/pepper) | Portable Engine for the Production of Parton-level Event Records | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_pepper] | 2026 |
-| [nnpdf](https://github.com/NNPDF/nnpdf) | Machine Learning framework for global analyses of parton distributions | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_nnpdf] | 2025 |
-| [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_prmon] | 2024 |
+| Name | Description | Affiliation | Review document | Reviewers | Year |
+| --------| ------------- |----------|-----------|-----------|-----------|
+| [Rivet](https://rivet.hepforge.org/) | Monte Carlo analysis and validation toolkit | In progress | | | 2026 |
+| [Phoenix](https://github.com/HSF/phoenix) | On-browser event display | In progress | | | 2026 |
+| [nopayloaddb](https://github.com/BNLNPPS/nopayloaddb) and [nopayloadclient](https://github.com/BNLNPPS/nopayloadclient) | Conditions Database system | In progress | | | 2025-2026 |
+| [Dirac & DiracX](https://diracgrid.org/) | Distributed computing framework | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_dirac] | Ruslan Mashinistov | 2025-2026 |
+| [Pythia](https://www.pythia.org) | Monte Carlo event generator | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_pythia] | Caterina Doglioni, Stefan Roiser | 2026 |
+| [MadGraph5_aMC@NLO](https://github.com/mg5amcnlo/mg5amcnlo) | Monte Carlo event generator | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_madgraph5] | Caterina Doglioni, Johannes Elmsheuser | 2026 |
+| [Pepper](https://gitlab.com/spice-mc/pepper) | Portable Engine for the Production of Parton-level Event Records | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_pepper] | Liz Sexton-Kennedy, Saptaparna Bhattacharya | 2026 |
+| [nnpdf](https://github.com/NNPDF/nnpdf) | Machine Learning framework for global analyses of parton distributions | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_nnpdf] | Steve Mrenna, Eduardo Rodrigues | 2025 |
+| [prmon](https://github.com/HSF/prmon) | Standalone lightweight process resource consumption monitor | ![Affiliated]({{ site.baseurl }}/images/HSF-logo/HSF-Affiliated.svg) | [GDoc][GDoc_prmon] | Eduardo Rodrigues | 2024 |
 
 Note that affiliation is assumed to remain valid for a period of 5 years,
 at which point the evaluation will be reviewed (details [here]({{ site.baseurl }}/projects/affiliated.html))
